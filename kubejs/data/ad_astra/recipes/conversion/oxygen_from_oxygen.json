@@ -1,0 +1,6 @@
+{
+  "type": "ad_astra:oxygen_conversion",
+  "input": "modern_industrialization:oxygen",
+  "output": "modern_industrialization:oxygen",
+  "conversion_ratio": 1.0
+}

@@ -1,0 +1,47 @@
+{
+    "type": "geocluster:deposit_sparse",
+    "config": {
+        "yMin": -48,
+        "yMax": 16,
+        "size": 25,
+        "biomeTag": "#minecraft:is_overworld",
+        "spread": 10,
+        "generationWeight": 2,
+        "blocks": {
+            "default": [
+                {
+                    "block": "modern_industrialization:uranium_ore",
+                    "chance": 0.65
+                },
+                {
+                    "block": "modern_industrialization:iridium_ore",
+                    "chance": 0.10
+                },
+                {
+                    "block": "modern_industrialization:mozanite_ore",
+                    "chance": 0.25
+                }
+            ],
+            "minecraft:deepslate": [
+                {
+                    "block": "modern_industrialization:deepslate_uranium_ore",
+                    "chance": 0.65
+                },
+                {
+                    "block": "modern_industrialization:deepslate_iridium_ore",
+                    "chance": 0.10
+                },
+                {
+                    "block": "modern_industrialization:deepslate_mozanite_ore",
+                    "chance": 0.25
+                }
+            ]
+        },
+        "samples": [
+            {
+                "block": "geocluster:uranium_ore_sample",
+                "chance": 1.0
+            }
+        ]
+    }
+}

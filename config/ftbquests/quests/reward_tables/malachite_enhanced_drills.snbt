@@ -1,0 +1,18 @@
+{
+	icon: "kubejs:malachite_enhanced_gold_drill"
+	id: "34CDBE200363B267"
+	loot_size: 1
+	order_index: 21
+	rewards: [
+		{ count: 4, item: "kubejs:malachite_enhanced_aluminum_drill" }
+		{ count: 4, item: "kubejs:malachite_enhanced_bronze_drill" }
+		{ count: 4, item: "kubejs:malachite_enhanced_calorite_drill" }
+		{ count: 4, item: "kubejs:malachite_enhanced_copper_drill" }
+		{ count: 4, item: "kubejs:malachite_enhanced_desh_drill" }
+		{ count: 4, item: "kubejs:malachite_enhanced_gold_drill" }
+		{ count: 4, item: "kubejs:malachite_enhanced_ostrum_drill" }
+		{ count: 4, item: "kubejs:malachite_enhanced_stainless_steel_drill" }
+		{ count: 4, item: "kubejs:malachite_enhanced_titanium_drill" }
+	]
+	title: "Malachite Enhanced Drills"
+}

@@ -1,0 +1,30 @@
+{
+    "type": "spirit:soul_engulfing",
+    "input": {
+      "ingredient": {
+        "item": "spectrum:refined_azurite"
+      },
+      "multiblock": {
+        "pattern": [
+          [
+            "   ",
+            " @ ",
+            "   "
+          ],
+          [
+            " S ",
+            "S&S",
+            " S "
+          ]
+        ],
+        "keys": {
+          "S": {
+            "block": "spirit:soul_powder_block"
+          }
+        }
+      }
+    },
+    "duration": 60,
+    "outputItem": "spirit:soul_steel_ingot"
+  }
+  

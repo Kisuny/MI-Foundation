@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "bewitchment:golden_chalk"
+      },
+      "title": {
+        "translate": "advancement.kubejs.golden_chalk.title"
+      },
+      "description": {
+        "translate": "advancement.kubejs.golden_chalk.desc"
+      },
+      "frame": "task"
+    },
+    "parent": "kubejs:bewitchment/chalk",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["bewitchment:golden_chalk"]
+            }
+          ]
+        }
+      }
+    }
+  }

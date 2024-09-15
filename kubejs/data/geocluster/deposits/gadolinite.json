@@ -1,0 +1,43 @@
+{
+    "type": "geocluster:deposit_sparse",
+    "config": {
+        "yMin": -16,
+        "yMax": 52,
+        "size": 70,
+        "biomeTag": "#minecraft:is_overworld",
+        "spread": 30,
+        "generationWeight": 2,
+        "blocks": {
+            "default": [
+                {
+                    "block": "iron_ore",
+                    "chance": 0.7
+                },
+                {
+                    "block": "yttr:gadolinite",
+                    "chance": 0.3
+                }
+            ],
+            "minecraft:deepslate": [
+                {
+                    "block": "deepslate_iron_ore",
+                    "chance": 0.7
+                },
+                {
+                    "block": "yttr:deepslate_gadolinite",
+                    "chance": 0.3
+                }
+            ]
+        },
+        "samples": [
+            {
+                "block": "geocluster:iron_ore_sample",
+                "chance": 0.7
+            },
+            {
+                "block": "kubejs:gadolinite_ore_sample",
+                "chance": 0.3
+            }
+        ]
+    }
+}

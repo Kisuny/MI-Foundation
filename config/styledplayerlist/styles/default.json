@@ -1,0 +1,24 @@
+{
+  "displayName": "%luckperms:prefix%${default}",
+  "id": "default",
+  "name": "Default",
+  "header": [
+    "",
+    "<gr:#F3904F:#3B4371><bold> MI:Foundation</bold></gr>  ",
+    "",
+    "<color:#737D89><strikethrough>        </strikethrough>[ </color><gr:#F3904F:#cc7354>%server:online%<color:#6666676>/</color><gr:#F3904F:#cc7354>%server:max_players%<color:#737D89> ]<strikethrough>        </strikethrough></color>",
+    ""
+  ],
+  "footer": [
+    "",
+    "<color:#737D89><strikethrough>                          </strikethrough></color>",
+    "",
+    "<color:#F3904F>Ping: <color:#F4EFC6>%player:ping%</color>  <color:#F3904F>Deaths: <color:#F4EFC6>%player:statistic deaths%</color>",
+    "",
+    "<color:#F3904F>Playtime: <color:#F4EFC6>%player:playtime HH'§eh§r' mm'§em§r' ss'§es§r'%</color>",
+    ""
+  ],
+  "hidden": false,
+  "permission": ""
+}
+

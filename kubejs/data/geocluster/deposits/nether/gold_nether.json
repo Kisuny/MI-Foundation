@@ -1,0 +1,40 @@
+{
+    "type": "geocluster:deposit_sparse",
+    "config": {
+        "yMin": 10,
+        "yMax": 60,
+        "size": 80,
+        "spread": 20,
+        "generationWeight": 8,
+        "blockStateMatchers": [
+            "minecraft:netherrack",
+            "minecraft:basalt",
+            "minecraft:blackstone",
+            "minecraft:magma_block"
+        ],
+        "biomeTag": "#minecraft:is_nether",
+        "blocks": {
+            "default": [
+                {
+                    "block": "nether_gold_ore",
+                    "chance": 0.995
+                },
+                {
+                    "block": "ancient_debris",
+                    "chance": 0.005
+                }
+            ]
+        },
+        "samples": [
+            {
+                "block": "geocluster:nether_gold_ore_sample",
+                "chance": 0.9
+            },
+            {
+                "block": "geocluster:ancient_debris_ore_sample",
+                "chance": 0.1
+            }
+        ]
+    }
+}
+  

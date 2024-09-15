@@ -1,0 +1,17 @@
+{
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "expandeddelight:cheese_wheel"
+      }
+    ],
+    "tool": {
+      "tag": "c:tools/knives"
+    },
+    "result": [
+      {
+        "item": "expandeddelight:cheese_slice",
+        "count": 4
+      }
+    ]
+  }

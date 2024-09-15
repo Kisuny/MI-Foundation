@@ -1,0 +1,31 @@
+{
+    "name": {
+      "color": "#9c9c9c",
+      "translate": "trofers.name.bedrock_block"
+    },
+    "item": {
+      "item": "spectrum:bedrock_storage_block",
+      "count": 1
+    },
+    "display": {
+      "offset": {
+        "y": 0.5,
+        "x": 0,
+        "z": 0
+      },
+      "scale": 0.7
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.20
+      },
+    "colors": {
+      "accent": "#808080",
+      "base": "#242424"
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "spectrum:spectrum.ui.new_recipe"
+      }
+    }
+  }

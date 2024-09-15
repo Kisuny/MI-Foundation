@@ -1,0 +1,157 @@
+{
+    "location": {
+        "time_of_day": {
+            "time": "night"
+        },
+        "dimension": {
+            "worlds": [
+                "minecraft:overworld"
+            ]
+        },
+        "fluid": {
+            "tag": "minecraft:water"
+        }
+    },
+    "dimension": "minecraft:overworld",
+    "chance": 0.1,
+    "entities": [ 
+        {
+            "id": "minecraft:phantom",
+            "weight": 25
+        },
+        {
+            "id": "minecraft:bat",
+            "weight": 20
+        },
+        {
+            "id": "minecraft:enderman",
+            "weight": 20
+        },
+        {
+            "id":"minecraft:drowned",
+            "weight":30
+        },
+        {
+            "id":"minecraft:spider",
+            "weight":30
+        },
+        {
+            "id":"minecraft:skeleton",
+            "weight":30
+        },
+        {
+            "id":"minecraft:creeper",
+            "weight":30
+        },
+        {
+            "id": "minecraft:skeleton",
+            "weight": 25,
+            "nbt": {
+              "Health": 40,
+              "Attributes":[
+                {"Name":"generic.max_health","Base":40}, 
+                {"Name":"generic.attack_damage","Base":8}, 
+                {"Name":"generic.movement_speed","Base":0.6},
+                {"Name":"generic.armor","Base":4}
+              ],
+              "CustomName":"{\"text\":\"Сирена\",\"color\":\"blue\"}",
+              "ArmorItems":[{"id":"leather_boots","tag":{"display":{"color":2822683}},"Count":1},{"id":"leather_leggings","tag":{"display":{"color":3938853}},"Count":1},{},{"id":"minecraft:player_head","tag":{"SkullOwner":{"Id":["I;",9624975,-637062514,-2137858673,-637013362],"Properties":{"textures":[{"Value":"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTIyMTU1MzUyMTI2OTk5ZTNjMTAzOTkyOWE5ZWNkZjE1MGUzZjA2MDljNmI2NDYxZDU2YWNlYWFhYzFhZTk0In19fQ=="}]}},"display":{"Lore":["{\"text\":\"https://namemc.com/skin/0092dd8fda07f28e\"}"]}},"Count":1}],
+              "ArmorDropChances":["0F","0F","0F","0F"],
+              "ActiveEffects":[{"Id":13,"Duration":10000,"ShowParticles":"0b"}, {"Id":30,"Duration":10000,"ShowParticles":"0b"}],
+              "DeathLootTable":"kubejs:mobs/sirena"
+            }
+        },
+        {
+            "id": "bewitchment:vampire",
+            "weight": 20,
+            "nbt": {
+              "Health": 80,
+              "Attributes":[
+                {"Name":"generic.max_health","Base":80}, 
+                {"Name":"generic.attack_damage","Base":12}, 
+                {"Name":"generic.armor","Base":6}
+              ],
+              "CustomName":"{\"text\":\"Вампир\",\"color\":\"dark_purple\"}",
+              "ActiveEffects":[{"Id":13,"Duration":10000,"ShowParticles":"0b"}, {"Id":30,"Duration":10000,"ShowParticles":"0b"}],
+              "DeathLootTable":"kubejs:mobs/vampire"
+            }
+        },
+        {
+            "id": "bewitchment:ghost",
+            "weight": 20,
+            "nbt": {
+              "Health": 80,
+              "Attributes":[
+                {"Name":"generic.max_health","Base":80}, 
+                {"Name":"generic.attack_damage","Base":14}
+              ],
+              "CustomName":"{\"text\":\"Призрак\",\"color\":\"blue\"}",
+              "ActiveEffects":[{"Id":13,"Duration":10000,"ShowParticles":"0b"}, {"Id":30,"Duration":10000,"ShowParticles":"0b"}],
+              "DeathLootTable":"kubejs:mobs/ghost"
+            }
+        },
+        {
+            "id": "minecraft:phantom",
+            "weight": 15,
+            "nbt": {
+                "Attributes": [
+                    {
+                        "Name": "generic.max_health",
+                        "Base": 140
+                    },
+                    {
+                        "Name": "generic.attack_damage",
+                        "Base": 16
+                    },
+                    {
+                        "Name": "generic.armor",
+                        "Base": 16
+                    }
+                ],
+                "Health": 140,
+                "CustomName": "{\"text\":\"Ночная фурия\",\"color\":\"dark_purple\"}",
+                "ActiveEffects":[{"Id":12,"Duration":10000,"ShowParticles":"0b"}],
+                "DeathLootTable": "kubejs:mobs/night_fury"
+            }
+        },
+        {
+            "id": "minecraft:skeleton",
+            "weight": 20,
+            "nbt": {
+              "Health": 40,
+              "Attributes":[
+                {"Name":"generic.max_health","Base":40}, 
+                {"Name":"generic.attack_damage","Base":12}, 
+                {"Name":"generic.armor","Base":6}
+              ],
+              "CustomName":"{\"text\":\"Осьминог\",\"color\":\"blue\"}",
+              "ArmorItems":[{"id":"minecraft:leather_boots","tag":{"display":{"color":6052952}},"Count":1},{"id":"minecraft:leather_leggings","tag":{"display":{"color":7828593}},"Count":1},{"id":"minecraft:leather_chestplate","tag":{"display":{"color":10900066}},"Count":1},{"id":"minecraft:player_head","tag":{"SkullOwner":{"Id":["I;",626959234,1875326766,-1520524414,1875347246],"Properties":{"textures":[{"Value":"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzYxY2RjNWUxYWUxMWMyZDk2YmE1MGMwNWFiOTM5OTRiODE5ZjY1NzI3MTE0MGExMjQyMzEwNmMyZjc5ZTgifX19"}]}},"display":{"Lore":["{\"text\":\"https://namemc.com/skin/255ea3826fc7872e\"}"]}},"Count":1}],
+              "ArmorDropChances":["0F","0F","0F","0F"],
+              "HandItems":[{"id":"splash_potion","Count":1},{"id":"stick","Count":1}],
+              "HandDropChances":["0F","0F"],
+              "ActiveEffects":[{"Id":13,"Duration":10000,"ShowParticles":"0b"}, {"Id":30,"Duration":10000,"ShowParticles":"0b"},{"Id":10,"Duration":10000,"ShowParticles":"0b"},{"Id":5,"Duration":10000,"ShowParticles":"0b"}],
+              "DeathLootTable":"kubejs:mobs/octopus"
+            }
+        },
+        {
+            "id": "minecraft:drowned",
+            "weight": 10,
+            "nbt": {
+              "Health": 450,
+              "Attributes":[
+                {"Name":"generic.max_health","Base":450}, 
+                {"Name":"generic.attack_damage","Base":24}, 
+                {"Name":"generic.armor","Base":6},
+                {"Name":"generic.movement_speed","Base":0.7}
+              ],
+              "CustomName":"{\"text\":\"Кракен\",\"color\":\"gold\"}",
+              "HandItems":[{"id":"trident","Count":1}],
+              "ActiveEffects":[{"Id":13,"Duration":10000,"ShowParticles":"0b"},{"Id":29,"Duration":100000,"ShowParticles":"0b"}, {"Id":30,"Duration":10000,"ShowParticles":"0b"}],
+              "ArmorItems":[{"id":"minecraft:leather_boots","tag":{"display":{"color":8256698}},"Count":1},{"id":"minecraft:leather_leggings","tag":{"display":{"color":1632138}},"Count":1},{"id":"minecraft:leather_chestplate","tag":{"display":{"color":1613970}},"Count":1},{"id":"minecraft:player_head","tag":{"SkullOwner":{"Id":["I;",1080294277,-1987618452,-1349607189,-2055916233],"Properties":{"textures":[{"Value":"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWJlNmE1YjQzOGFjYzI4OWM3NmU5ZDIxNmU2NmU4YzNhNGJlZDdlMDhiZmMyMmUxYjYxNTQ4N2RkMDYwNmYwZiJ9fX0="}]}},"display":{"Lore":["{\"text\":\"https://namemc.com/skin/e9920ad0ba318f40\"}"]}},"Count":1}],
+              "ArmorDropChances":["0f","0f","0f","0f"],
+              "HandDropChances":["0f"],
+              "DeathLootTable":"kubejs:mobs/kraken"
+            }
+        }
+    ]
+}

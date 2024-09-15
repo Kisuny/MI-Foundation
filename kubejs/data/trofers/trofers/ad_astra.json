@@ -1,0 +1,31 @@
+{
+    "name": {
+      "color": "#73172f",
+      "translate": "trofers.name.ad_astra"
+    },
+    "item": {
+      "item": "ad_astra:tier_4_rocket",
+      "count": 1
+    },
+    "display": {
+      "offset": {
+        "y": 0.5,
+        "x": 0.5,
+        "z": 2.0
+      },
+      "scale": 1.0
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.20
+      },
+    "colors": {
+      "accent": "#db1f3b",
+      "base": "#242424"
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "ad_astra:flying_saucer"
+      }
+    }
+  }

@@ -1,0 +1,39 @@
+{
+    "_comment": "Some of the translations are in 'kubejs/client_scripts/lang.js', so you can look there (but don't touch!)",
+
+    "enchantment.kubejs.coins_instinct.desc": "Позволяет вылавливать монеты из жидкостей",
+
+    "item.kubejs.ditcheryatina": "Ditcher flesh",
+    "item.kubejs.ditcheryatina.tooltip": "§bStinks terribly!",
+    "item.kubejs.ditcheryatina.eaten": "§6Ugh, what an abomination…",
+
+    "item.kubejs.phantom_feather": "Feather of night fury",
+
+    "advancement.kubejs.root.title": "MI:Foundation",
+    "advancement.kubejs.root.desc": "You're only at the beginning of your journey",
+
+    "advancement.kubejs.fossilized_flower.title": "Is that a rock? No, wait...",
+    "advancement.kubejs.fossilized_flower.desc": "Get the Fossilized Flower",
+
+    "advancement.kubejs.endgame.title": "MI:Foundation God",
+    "advancement.kubejs.endgame.desc": "Complete Modpack",
+
+    "endgame.mif.timeplay.part1": "Congratulations on finishing this modpack!",
+    "endgame.mif.timeplay.part2": "It only took you ",
+    "endgame.mif.timeplay.part3": "! — You were born for this! ",
+    "endgame.mif.timeplay.part4": "is how long you've spent — that's true dedication to the craft!",
+    "endgame.mif.timeplay.days": " Days ",
+    "endgame.mif.timeplay.hours": " Hours ",
+    "endgame.mif.timeplay.minutes": " Minutes ",
+    "endgame.mif.timeplay.seconds": " Seconds ",
+
+
+    "tag.mythicmetals.metals": "Mythic Metals",
+    "tag.mif.fossilized_flower": "Fossilized Flowers",
+    "tag.mif.basic_gemstone_shards": "Basic Gemstone Shards",
+    "tag.mif.basic_gemstone_powders": "Basic Gemstone Powders",
+
+    "block.geocluster.stone_sample": "Empty Sample",
+
+    "": ""
+}

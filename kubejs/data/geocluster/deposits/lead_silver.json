@@ -1,0 +1,31 @@
+{
+    "type": "geocluster:deposit_sparse",
+    "config": {
+        "yMin": -48,
+        "yMax": 32,
+        "size": 60,
+        "biomeTag": "#minecraft:is_overworld",
+        "spread": 25,
+        "generationWeight": 5,
+        "blocks": {
+            "default": [
+                {
+                    "block": "modern_industrialization:lead_ore",
+                    "chance": 1.0
+                }
+            ],
+            "minecraft:deepslate": [
+                {
+                    "block": "modern_industrialization:deepslate_lead_ore",
+                    "chance": 1.0
+                }
+            ]
+        },
+        "samples": [
+            {
+                "block": "geocluster:lead_ore_sample",
+                "chance": 1.0
+            }
+        ]
+    }
+}

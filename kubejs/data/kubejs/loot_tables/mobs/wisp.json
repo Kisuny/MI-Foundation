@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "whisperwoods:ghost_light_electric_blue"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "whisperwoods:ghost_light_fiery_orange"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "whisperwoods:ghost_light_gold"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "whisperwoods:ghost_light_toxic_green"
+          },
+          {
+            "type": "minecraft:item",
+            "name": "whisperwoods:ghost_light_magic_purple"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.5
+          }
+        ]
+      }
+    ]
+  }

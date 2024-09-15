@@ -1,0 +1,176 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:gameplay/fishing/treasure"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "kubejs:mob_lootbag_rare"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "kubejs:mob_lootbag_epic"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "artifacts:snorkel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "artifacts:flippers"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "things:enchanted_wax_gland"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "majruszsaccessories:reverse_card"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "majruszsaccessories:removal_card"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "majruszsaccessories:gambling_card"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:random_chance_with_looting",
+          "chance": 0.7,
+          "looting_multiplier": 0.03
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 12
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "spectrum:citrine_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "spectrum:topaz_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "spectrum:shimmerstone_gem",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "spectrum:onyx_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 0,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "bewitchment:aqua_cerate"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "endrem:exotic_eye"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "endrem:evil_eye"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "endrem:corrupted_eye"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "endrem:black_eye"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "endrem:guardian_eye"
+        }
+      ]
+    }
+  ]
+}

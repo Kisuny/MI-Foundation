@@ -1,0 +1,2628 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mi_mv"
+	group: "6AAAE14F7A290ED4"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "modern_industrialization:advanced_machine_hull"
+	id: "59FA1BB545B3971C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["57886FF598451010"]
+			icon: "modern_industrialization:aluminum_ingot"
+			id: "32FF345AF0E87070"
+			rewards: [
+				{
+					count: 32
+					id: "41080D64ED2959C7"
+					item: "modern_industrialization:aluminum_ingot"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7B7D1951086B520B"
+					item: "kubejs:mob_lootbag_rare"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					count: 144L
+					id: "06A625DBF7E4CBF6"
+					item: "modern_industrialization:bauxite_dust"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "21FEBE2F729DFF7A"
+					item: "modern_industrialization:aluminum_ingot"
+					type: "item"
+				}
+			]
+			title: "Алюминий!"
+			x: -11.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["32FF345AF0E87070"]
+			icon: "modern_industrialization:aluminum_gear"
+			id: "29EA0A820DE54537"
+			rewards: [
+				{
+					count: 8
+					id: "0E1C823C8EEBDC51"
+					item: "modern_industrialization:aluminum_gear"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "781E30722ED01FD7"
+					item: "modern_industrialization:aluminum_rotor"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "152F833D13ECF237"
+					item: "modern_industrialization:aluminum_plate"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5CA9E3BD2D319708"
+					item: "modern_industrialization:aluminum_rod"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "179B0994A569F5B8"
+					item: "modern_industrialization:aluminum_gear"
+					type: "item"
+				}
+				{
+					id: "156A64CD1A6D452B"
+					item: "modern_industrialization:aluminum_plate"
+					type: "item"
+				}
+				{
+					id: "21E8135E3982E6A1"
+					item: "modern_industrialization:aluminum_rotor"
+					type: "item"
+				}
+				{
+					id: "28B7484D4D05EB6B"
+					item: "modern_industrialization:aluminum_rod"
+					type: "item"
+				}
+			]
+			title: "Алюминиевые детали"
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["29EA0A820DE54537"]
+			id: "177C8ED1C4934331"
+			rewards: [
+				{
+					count: 4
+					id: "4B8FE069EE807404"
+					item: "modern_industrialization:frostproof_machine_casing"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5D8F0152E879536A"
+					item: "modern_industrialization:aluminum_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "70F12DB695274305"
+				item: "modern_industrialization:frostproof_machine_casing"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["29EA0A820DE54537"]
+			id: "69D4D6B68F8732DD"
+			rewards: [{
+				id: "6B4C7E388785B3FA"
+				item: "modern_industrialization:advanced_machine_casing"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63E0F2ED1CBABE30"
+				item: "modern_industrialization:advanced_machine_casing"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"354C324227594691"
+				"69D4D6B68F8732DD"
+				"5155E62DBD279683"
+			]
+			id: "3D1045C0C6B3BA08"
+			rewards: [
+				{
+					id: "66AD591B53DE4BCB"
+					item: "modern_industrialization:advanced_machine_hull"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "38AEBFE653A8B0FA"
+					item: "kubejs:mob_lootbag_rare"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0FCC6A6DA7A9D4A2"
+				item: "modern_industrialization:advanced_machine_hull"
+				type: "item"
+			}]
+			x: -9.75d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"72472701C7B4512F"
+				"6886C6A6E2E97605"
+				"17D7C65996F00EFB"
+			]
+			id: "0F013F8E4DF06E6B"
+			rewards: [
+				{
+					count: 4
+					id: "73DFBBF90CC6B8DE"
+					item: "modern_industrialization:electronic_circuit"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "466650E189CDAC35"
+					item: "modern_industrialization:aluminum_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3F104B8014EE560E"
+					item: "modern_industrialization:invar_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "350B4D4F9D87252D"
+					item: "modern_industrialization:battery_alloy_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0918B4ECD042B6AE"
+					item: "modern_industrialization:electrum_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "19FD85A3355CC3E8"
+					item: "modern_industrialization:soldering_alloy_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "51147D231DA47D1A"
+					item: "modern_industrialization:nickel_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1B2A8C935C1E901C"
+					item: "modern_industrialization:salt_block"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0A06CD2D95F4C9A8"
+					item: "modern_industrialization:mozanite_ore"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3E60116B89530257"
+					item: "kubejs:mob_lootbag_rare"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "7228E630432206A2"
+				item: "modern_industrialization:electronic_circuit"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"177C8ED1C4934331"
+				"3D1045C0C6B3BA08"
+			]
+			description: ["&6Морозильный аппарат&r, позволяет &9некоторые жидкости&r &6приводить&r в &8более твердый&r вариант"]
+			id: "796BBB93DDF2F8D3"
+			rewards: [
+				{
+					count: 8
+					id: "520F8FA5C3D47C06"
+					item: "modern_industrialization:frostproof_machine_casing"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "11BC74A910EB3ADA"
+					item: "modern_industrialization:aluminum_ingot"
+					type: "item"
+				}
+				{
+					id: "1AF79DAD4C6A06F1"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "2B16CF9EDB2922A3"
+				item: "modern_industrialization:vacuum_freezer"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0F013F8E4DF06E6B"]
+			description: ["&6Электролизер&r, &4позволяет получать&r новые ресурсы при помощи процесса &9электролиза&r"]
+			hide_dependent_lines: true
+			id: "128ECB644D303AF3"
+			rewards: [
+				{
+					id: "7F6ACDBB8B5F2DC1"
+					item: "modern_industrialization:electronic_circuit"
+					type: "item"
+				}
+				{
+					id: "11E701212643AE2C"
+					item: "modern_industrialization:advanced_machine_hull"
+					type: "item"
+				}
+				{
+					id: "3A0B87AD2BF1E6EB"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "60433AE9520ADC14"
+				item: "modern_industrialization:electrolyzer"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0F013F8E4DF06E6B"]
+			description: ["&6Центрифуга&r, &4позволяет разделять&r различные ресурсы на другие"]
+			id: "12829AE05244CA1B"
+			rewards: [
+				{
+					id: "225AC6692ADEAE5D"
+					item: "modern_industrialization:electronic_circuit"
+					type: "item"
+				}
+				{
+					id: "7466AFF7912BD0C9"
+					item: "modern_industrialization:advanced_machine_hull"
+					type: "item"
+				}
+				{
+					id: "7BA6CE675C78BDC6"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "23063AFE3712F5BD"
+				item: "modern_industrialization:centrifuge"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3D1045C0C6B3BA08"
+				"566A7BC814D63078"
+			]
+			description: [""]
+			id: "032D0C4B0DBE2DF2"
+			rewards: [
+				{
+					id: "51A07AB46980E46C"
+					item: "modern_industrialization:advanced_machine_hull"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6F760F8206A491B5"
+					item: "modern_industrialization:large_motor"
+					type: "item"
+				}
+				{
+					id: "6E2355725451EAD8"
+					item: "modern_industrialization:electronic_circuit"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3637F7E80DCA78AE"
+					item: "modern_industrialization:aluminum_rotor"
+					type: "item"
+				}
+				{
+					id: "64A93D9826461973"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "41B5D18EEE7A37FD"
+				item: "modern_industrialization:mv_steam_turbine"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"3D1045C0C6B3BA08"
+				"354C324227594691"
+			]
+			id: "4E42D96C0AB0A553"
+			rewards: [
+				{
+					id: "557B555F38DF37D0"
+					item: "modern_industrialization:advanced_machine_hull"
+					type: "item"
+				}
+				{
+					id: "26A0352578281CF6"
+					item: "modern_industrialization:electronic_circuit"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1E544EC0C1B589C9"
+				item: "modern_industrialization:mv_storage_unit"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"3D1045C0C6B3BA08"
+				"566A7BC814D63078"
+			]
+			id: "66D16ADD44115DC6"
+			rewards: [
+				{
+					id: "1A375F739B625181"
+					item: "modern_industrialization:advanced_machine_hull"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4F323658FA2B79A1"
+					item: "modern_industrialization:large_motor"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5BEADD5C7F9D636B"
+					item: "modern_industrialization:robot_arm"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0A72E38C1E3927A3"
+					item: "modern_industrialization:electronic_circuit"
+					type: "item"
+				}
+				{
+					id: "791170CA805A2397"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4A0FCE89A3105FE8"
+				item: "modern_industrialization:electric_quarry"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0F013F8E4DF06E6B"]
+			description: ["&6Перегонная установка&r, &4позволяет получать&r некоторые жидкости из других в процессе &0дистиляции&r"]
+			id: "095D8F4F8A00FA99"
+			rewards: [
+				{
+					id: "02DCCCEA9B690F37"
+					item: "modern_industrialization:electronic_circuit"
+					type: "item"
+				}
+				{
+					id: "51113E384AF45373"
+					item: "modern_industrialization:advanced_machine_hull"
+					type: "item"
+				}
+				{
+					id: "51D4B19B376D65CC"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "58935DA414E2571C"
+				item: "modern_industrialization:distillery"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["29EA0A820DE54537"]
+			id: "75E727492D00F748"
+			rewards: [{
+				count: 32
+				id: "0BC277B63E3C192D"
+				item: "modern_industrialization:aluminum_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5352E9AC89FDF962"
+				item: "modern_industrialization:aluminum_tank"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29EA0A820DE54537"]
+			id: "1F8141789D91549B"
+			rewards: [{
+				count: 32
+				id: "7EDA4AB859A730BD"
+				item: "modern_industrialization:aluminum_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2CC2CCB4927F05EB"
+				item: "modern_industrialization:aluminum_barrel"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F76304CC8F79ED5"]
+			id: "354C324227594691"
+			rewards: [
+				{
+					count: 32
+					id: "51CDA8C29E8B0800"
+					item: "modern_industrialization:silicon_battery"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2A83868DA6F52949"
+					item: "modern_industrialization:battery_alloy_plate"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "630B8B9DE117147C"
+				item: "modern_industrialization:silicon_battery"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["57886FF598451010"]
+			id: "7F76304CC8F79ED5"
+			rewards: [
+				{
+					id: "748DE5B6AFB77A74"
+					item: "modern_industrialization:electronic_circuit"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "492FB7D5AA652505"
+					item: "modern_industrialization:silicon_dust"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A8487D37B80241E"
+				item: "modern_industrialization:silicon_dust"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7F76304CC8F79ED5"]
+			id: "72472701C7B4512F"
+			rewards: [
+				{
+					id: "7AB7713E2DCECC81"
+					item: "modern_industrialization:electronic_circuit"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "2FAEACFAEE852896"
+					item: "modern_industrialization:transistor"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "79DA26887B25951C"
+					item: "modern_industrialization:silicon_n_doped_plate"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "38EE1FA507FFF0F7"
+					item: "modern_industrialization:silicon_p_doped_plate"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2544598F65CB0A68"
+				item: "modern_industrialization:transistor"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7F76304CC8F79ED5"]
+			id: "6886C6A6E2E97605"
+			rewards: [
+				{
+					count: 64
+					id: "40EAF13263C530AB"
+					item: "modern_industrialization:diode"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "7681E08E00810410"
+					item: "modern_industrialization:silicon_p_doped_plate"
+					type: "item"
+				}
+				{
+					count: 128
+					id: "5BA987F3F2BD6721"
+					item: "modern_industrialization:silicon_n_doped_plate"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "24AEB2ACFDF434BE"
+				item: "modern_industrialization:diode"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 8.535714285714285d
+		}
+		{
+			dependencies: ["0F013F8E4DF06E6B"]
+			dependency_requirement: "one_started"
+			hide_dependent_lines: true
+			id: "1C1CE1D083B786C5"
+			rewards: [{
+				count: 8
+				id: "25D42D1E96C17F5C"
+				item: "modern_industrialization:aluminum_drill"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3ACC8B381066E534"
+				item: "modern_industrialization:aluminum_drill"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0F013F8E4DF06E6B"]
+			description: ["&6Электрических&r вариант печи для сплавов"]
+			id: "7690F3B47E697F59"
+			rewards: [
+				{
+					id: "64ECD4AD28F2B806"
+					item: "modern_industrialization:electronic_circuit"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "09D272297D9C1F65"
+					item: "modern_industrialization:kanthal_ingot"
+					type: "item"
+				}
+				{
+					id: "59C48C2596750C5D"
+					item: "kubejs:mid_lootbag_rare"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "33C15C20D84D3014"
+				item: "modern_industrialization:blast_alloy_smelter"
+				type: "item"
+			}]
+			x: -3.75d
+			y: -2.25d
+		}
+		{
+			dependencies: ["29EA0A820DE54537"]
+			id: "17D7C65996F00EFB"
+			rewards: [
+				{
+					count: 64
+					id: "136CE5A19CF3C153"
+					item: "modern_industrialization:electrum_cable"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "097E1399AED4C485"
+					item: "modern_industrialization:redstone_battery"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "36508C9A7D85178C"
+					item: "modern_industrialization:aluminum_plate"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1EFD7575C0C114FA"
+					item: "modern_industrialization:electronic_circuit_board"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E79B35079DAE29E"
+				item: "modern_industrialization:electronic_circuit_board"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0F013F8E4DF06E6B"]
+			description: [
+				"больше скорости копания, имеет мод \"шёлковое касание\" и \"удача 3\"."
+				"&aСкорость копания зависит от качества топлива"
+				"&4не умеет копать 3х3"
+			]
+			id: "20D91BDF17DB51A8"
+			rewards: [{
+				id: "6740DF76162E2472"
+				item: {
+					Count: 1b
+					id: "modern_industrialization:aluminum_tank"
+					tag: {
+						BlockEntityTag: {
+							amt: 1296000L
+							fluid: {
+								fk: {
+									fluid: "modern_industrialization:boosted_diesel"
+								}
+							}
+							locked: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "44192AA434546EE3"
+				item: "modern_industrialization:diesel_mining_drill"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0F013F8E4DF06E6B"]
+			icon: "modern_industrialization:large_motor"
+			id: "5155E62DBD279683"
+			rewards: [
+				{
+					count: 8
+					id: "1535AA3F92F0A7D0"
+					item: "modern_industrialization:large_motor"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "72F120A36463FA81"
+					item: "modern_industrialization:large_pump"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4377186A281E9988"
+					item: "modern_industrialization:large_pump"
+					type: "item"
+				}
+				{
+					id: "566A7BC814D63078"
+					item: "modern_industrialization:large_motor"
+					type: "item"
+				}
+			]
+			title: "Большие детали"
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0F013F8E4DF06E6B"]
+			id: "26BC4228887D3C46"
+			rewards: [
+				{
+					count: 2
+					id: "37C80487D62E8468"
+					item: "modern_industrialization:large_pump"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3AA549A20DC925F1"
+					item: "modern_industrialization:pump"
+					type: "item"
+				}
+				{
+					id: "55876601B945D33A"
+					item: "modern_industrialization:electronic_circuit"
+					type: "item"
+				}
+				{
+					id: "6DD0DE71A24D08D9"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "21ACF94B407B1739"
+				item: "modern_industrialization:advanced_large_steam_boiler"
+				type: "item"
+			}]
+			x: -5.25d
+			y: -2.25d
+		}
+		{
+			dependencies: ["12829AE05244CA1B"]
+			id: "73C48D66EDCF4D19"
+			rewards: [
+				{
+					id: "25EA77272D3F4795"
+					item: "modern_industrialization:electronic_circuit"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "439E89D0AD27A183"
+					item: "modern_industrialization:ruby_dust"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "133B656DD6F90AE1"
+				item: "modern_industrialization:ruby_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["73C48D66EDCF4D19"]
+			id: "11E213A3926FDF66"
+			rewards: [{
+				id: "6F1152922BD1CC67"
+				item: "modern_industrialization:electronic_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D9A93618E5A9D92"
+				item: "modern_industrialization:chromium_crushed_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["11E213A3926FDF66"]
+			id: "2262BEC14ED23163"
+			rewards: [{
+				id: "22412B16BC2B0E71"
+				item: "modern_industrialization:electronic_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58F245D6C138F9CE"
+				item: "modern_industrialization:chromium_hydrochloric_solution_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["128ECB644D303AF3"]
+			id: "0994FB5ABA4D509D"
+			tasks: [{
+				id: "7CE3BBF4BD65050B"
+				item: "modern_industrialization:chlorine_bucket"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"7A113E343238A35D"
+				"0994FB5ABA4D509D"
+			]
+			id: "30998A623CF6007E"
+			tasks: [{
+				id: "42643CBEC3743CBD"
+				item: "modern_industrialization:hydrochloric_acid_bucket"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0F013F8E4DF06E6B"]
+			description: ["Химический реактор, позволяет получать новые различные промежуточные материалы и новые ресурсы в процессе химических реакций"]
+			hide_dependent_lines: true
+			id: "7A113E343238A35D"
+			rewards: [
+				{
+					id: "2BEEE535BECA6EAD"
+					item: "modern_industrialization:electronic_circuit"
+					type: "item"
+				}
+				{
+					id: "29740FB55DD96C28"
+					item: "modern_industrialization:advanced_machine_hull"
+					type: "item"
+				}
+				{
+					id: "12CD5DFF5646BBD7"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "77AF471793FBDB6D"
+				item: "modern_industrialization:chemical_reactor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2262BEC14ED23163"]
+			description: ["&6Этот квест открывает новую ветку квестов!&r"]
+			id: "4B65A4FC336AEA50"
+			rewards: [
+				{
+					id: "63E34BC8A7633942"
+					item: "modern_industrialization:electronic_circuit"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6F381D467DD67317"
+					item: "modern_industrialization:chromium_dust"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "35E8451EE430BE05"
+				item: "modern_industrialization:chromium_tiny_dust"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["36449FA11F79E8C6"]
+			description: ["&4Увеличивают&r максимальный разгон машинки, максимальный разгон &4зависит&r от цены базы крафта, базовый максимальный разгон указан обычно на полоске разгона в eu/t, &4все&r крафты что имеют большую базу требуют ускорителей &4даже&r для начала крафта."]
+			id: "2497BFB0A45ABE61"
+			rewards: [{
+				count: 4
+				id: "08C513C10CF4C6B7"
+				item: "modern_industrialization:basic_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4ED01EC39BCB7BE9"
+				item: "modern_industrialization:basic_upgrade"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2497BFB0A45ABE61"]
+			id: "783F583FA53EAEE4"
+			rewards: [{
+				count: 4
+				id: "243CBC7D6C353F7A"
+				item: "modern_industrialization:advanced_upgrade"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A9147C032AA5981"
+				item: "modern_industrialization:advanced_upgrade"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["095D8F4F8A00FA99"]
+			hide_dependent_lines: true
+			id: "6979FCCAA2646FBF"
+			tasks: [{
+				id: "5112CFA1D03D595F"
+				item: "modern_industrialization:ethylene_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6979FCCAA2646FBF"]
+			id: "36449FA11F79E8C6"
+			tasks: [{
+				id: "0A228FD3CBFF75BE"
+				item: "modern_industrialization:polyethylene_bucket"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"3D1045C0C6B3BA08"
+				"566A7BC814D63078"
+			]
+			description: ["&6Нефтебуровая установка&r, &4позволяет добывать&r различные &4жидкости&r при помощи разных забурников"]
+			id: "5A9F94BC1B9EA1F0"
+			rewards: [
+				{
+					count: 16
+					id: "1DB6F034E6A37B83"
+					item: "modern_industrialization:aluminum_drill"
+					type: "item"
+				}
+				{
+					id: "540D97FF0F4B7A88"
+					item: "modern_industrialization:advanced_machine_hull"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "637ADA94C2302386"
+					item: "modern_industrialization:large_motor"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1452F78E629A660F"
+					item: "modern_industrialization:electronic_circuit"
+					type: "item"
+				}
+				{
+					id: "456ADF2B786C01D5"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "584D29173A4297B1"
+				item: "modern_industrialization:oil_drilling_rig"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["12829AE05244CA1B"]
+			id: "55D5FE2BDBA3158C"
+			rewards: [
+				{
+					id: "242A3CBF696D4FE3"
+					item: "modern_industrialization:electronic_circuit"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "465E35F14B91763E"
+					item: "modern_industrialization:mozanite_dust"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "137BFB0D15EE631C"
+				item: "modern_industrialization:mozanite_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"796BBB93DDF2F8D3"
+				"061FDC6FE5331101"
+			]
+			icon: "modern_industrialization:rubber_sheet"
+			id: "17A50060E73C8D9D"
+			rewards: [{
+				count: 1024
+				id: "5A92E669E0FFB8BA"
+				item: "modern_industrialization:rubber_sheet"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Произведите резину с помощью вакуумного морозильного аппарата"
+			tasks: [{
+				id: "4AE8D0F4E1E6A58C"
+				type: "checkmark"
+			}]
+			x: -11.911904761904772d
+			y: 6.042857142857116d
+		}
+		{
+			dependencies: ["3685AF18562A2CA8"]
+			id: "061FDC6FE5331101"
+			tasks: [{
+				id: "6A895ECEF0744F78"
+				item: "modern_industrialization:styrene_butadiene_rubber_bucket"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"628C6BF05C57AC47"
+				"0653919FEED35495"
+			]
+			id: "3685AF18562A2CA8"
+			tasks: [{
+				id: "75A9AFCA185ACBEB"
+				item: "modern_industrialization:styrene_butadiene_bucket"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5FC0783865943CE2"]
+			id: "0653919FEED35495"
+			tasks: [{
+				id: "3085EBAE58CF3FB7"
+				item: "modern_industrialization:styrene_bucket"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["3609D191780BA603"]
+			id: "628C6BF05C57AC47"
+			tasks: [{
+				id: "1B72228FBA5EB78B"
+				item: "modern_industrialization:butadiene_bucket"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["6601C175DC4485F2"]
+			id: "3609D191780BA603"
+			tasks: [{
+				id: "264185B8B74D2887"
+				item: "modern_industrialization:ethanol_bucket"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3387FCCF2E3B857B"]
+			id: "6601C175DC4485F2"
+			tasks: [{
+				id: "678EABBE6A1CDB08"
+				item: "modern_industrialization:sugar_solution_bucket"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"6979FCCAA2646FBF"
+				"7BF103168FCC7F6C"
+				"30998A623CF6007E"
+			]
+			id: "5FC0783865943CE2"
+			tasks: [{
+				id: "33820FCCD03576B6"
+				item: "modern_industrialization:ethylbenzene_bucket"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5A9F94BC1B9EA1F0"]
+			dependency_requirement: "one_started"
+			hide_dependency_lines: true
+			id: "7BF103168FCC7F6C"
+			tasks: [{
+				id: "3A2FFC7020ACCE64"
+				item: "modern_industrialization:benzene_bucket"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5A9F94BC1B9EA1F0"]
+			hide_dependency_lines: true
+			id: "7EED3576AA13DFB4"
+			tasks: [{
+				id: "41ADA4E80955E614"
+				item: "modern_industrialization:crude_oil_bucket"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["7EED3576AA13DFB4"]
+			id: "5FAB8B71E91FD524"
+			tasks: [{
+				id: "066D106160F2FD29"
+				item: "modern_industrialization:sulfuric_naphtha_bucket"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["181FAC8893771CD9"]
+			id: "56AF55D3C00B803A"
+			tasks: [{
+				id: "6BEEA57E9FFB1027"
+				item: "modern_industrialization:hydrazine_bucket"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["21F5617A74F41989"]
+			id: "30E9F3B503A22BDA"
+			tasks: [{
+				id: "429BC05D282A4932"
+				item: "modern_industrialization:steam_cracked_naphtha_bucket"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5FAB8B71E91FD524"]
+			id: "21F5617A74F41989"
+			tasks: [{
+				id: "434273072D76930D"
+				item: "modern_industrialization:naphtha_bucket"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["30E9F3B503A22BDA"]
+			id: "5BE8660ED789F2B1"
+			tasks: [{
+				id: "544EC55DD8E90F83"
+				item: "modern_industrialization:propene_bucket"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["5BE8660ED789F2B1"]
+			id: "1B4127C698A675B6"
+			tasks: [{
+				id: "59072E12DD7A41A2"
+				item: "modern_industrialization:isopropyl_alcohol_bucket"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1B4127C698A675B6"]
+			id: "181FAC8893771CD9"
+			tasks: [{
+				id: "23543F75B22578DF"
+				item: "modern_industrialization:hydrogen_peroxide_bucket"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["32FF345AF0E87070"]
+			id: "70E6E6D3ABAC4B09"
+			rewards: [
+				{
+					count: 16
+					id: "277BE7197CF4B39D"
+					item: "modern_industrialization:rocket_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0E26EE07E8BE085C"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71BD88958CB958C6"
+				item: "modern_industrialization:rocket_alloy_ingot"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2811E35BEF5437E3"]
+			id: "7A3C0543AAE97C89"
+			rewards: [
+				{
+					count: 2
+					id: "78F8B289C50DD281"
+					item: "modern_industrialization:electronic_circuit"
+					type: "item"
+				}
+				{
+					id: "13F95C09740E8C9D"
+					item: "kubejs:mid_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09D2EF9C65D9B24D"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rover"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "Луноход"
+			x: -19.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"56AF55D3C00B803A"
+				"756271EEC10D1295"
+				"70E6E6D3ABAC4B09"
+			]
+			icon: {
+				Count: 1b
+				id: "ad_astra:tier_1_rocket"
+				tag: {
+					BotariumData: { }
+				}
+			}
+			id: "39D88B5B9E7C6AFC"
+			rewards: [
+				{
+					count: 32
+					id: "753AD4800E9D0CC4"
+					item: "modern_industrialization:rocket_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "0D2259347CEA9C47"
+					item: "modern_industrialization:electronic_circuit"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "2EAE69805BF740BD"
+					item: "modern_industrialization:tungsten_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0B60BCFE6F0AEE4C"
+					item: "modern_industrialization:large_motor"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "271D0F678103592E"
+					item: "modern_industrialization:piston"
+					type: "item"
+				}
+				{
+					id: "3C253744920831C0"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "46824E1174B4C5C1"
+					item: {
+						Count: 1b
+						id: "ad_astra:tier_1_rocket"
+						tag: {
+							BotariumData: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F965581A94E22BE"
+					item: "ad_astra:launch_pad"
+					type: "item"
+				}
+			]
+			title: "Поехали!"
+			x: -13.995238095238108d
+			y: 4.56547619047619d
+		}
+		{
+			dependencies: [
+				"32FF345AF0E87070"
+				"3D1045C0C6B3BA08"
+			]
+			description: ["вместо &9кислородного&r компрессора можно использовать бак с &9кислородом&r из &6modern industrialization&r"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ad_astra:oxygen_tank"
+				tag: {
+					BotariumData: { }
+				}
+			}
+			id: "756271EEC10D1295"
+			rewards: [{
+				id: "2B1A56C30C734633"
+				item: {
+					Count: 1b
+					id: "modern_industrialization:aluminum_tank"
+					tag: {
+						BlockEntityTag: {
+							amt: 1296000L
+							fluid: {
+								fk: {
+									fluid: "modern_industrialization:oxygen"
+								}
+							}
+							locked: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A001E3915EA1140"
+				item: {
+					Count: 1b
+					id: "ad_astra:oxygen_tank"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "запасы кислорода"
+			x: -12.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["58FD2F344DAA81A5"]
+			description: ["Необходим для выживания в открытом космосе и на первых планетах, для дыхания необходим кислород"]
+			hide: false
+			icon: {
+				Count: 1b
+				id: "ad_astra:space_suit"
+				tag: {
+					BotariumData: { }
+					Damage: 0
+				}
+			}
+			id: "43683BFD55DED777"
+			rewards: [
+				{
+					id: "0CAC18A58CF9811A"
+					item: "kubejs:mid_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1D726328B095ABC1"
+					item: "minecraft:white_dye"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1D03301FAD11CEBA"
+					item: "minecraft:orange_dye"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "67807F6ED5C67720"
+					item: "minecraft:magenta_dye"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2CBB5010BCFEFAC8"
+					item: "minecraft:light_blue_dye"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2526755B921C5739"
+					item: "minecraft:yellow_dye"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6FE123B8F53DC834"
+					item: "minecraft:lime_dye"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "32C47BD810475488"
+					item: "minecraft:pink_dye"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2364CB49CDEB8EB0"
+					item: "minecraft:gray_dye"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7F49DD77478623CA"
+					item: "minecraft:light_gray_dye"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4BD6035A2B270630"
+					item: "minecraft:cyan_dye"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4E0638345A8563AE"
+					item: "minecraft:purple_dye"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "142FF70EF6CB50FB"
+					item: "minecraft:blue_dye"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "241488D27EC1FEE5"
+					item: "minecraft:brown_dye"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "76AFED2E40E6C7C6"
+					item: "minecraft:green_dye"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6821CAB282A62D74"
+					item: "minecraft:red_dye"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2DE53DD8614A3BB0"
+					item: "minecraft:black_dye"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "07CA20E1F5398FEB"
+					item: "modern_industrialization:electronic_circuit"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "6B8CF6961AEDB3A2"
+					item: "architects_palette:spool"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "25CCEB399C817693"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_helmet"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "76B992D28CBE5E63"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39A28E186B4C25CC"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_pants"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5EE604865C6D00C3"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_boots"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Космический скафандр"
+			x: -16.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["15CA873EB2051888"]
+			icon: "ad_astra:moon_sand"
+			id: "2811E35BEF5437E3"
+			rewards: [
+				{
+					count: 64
+					id: "524022C28059205D"
+					item: "ad_astra:cheese_block"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6D564E1E914F85CA"
+					item: "modern_industrialization:hydrazine_bucket"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "783B69F01D75CD2B"
+					item: "ad_astra:moon_desh_ore"
+					type: "item"
+				}
+				{
+					id: "296153DC255C0A48"
+					item: "ad_astra:moon_ice_shard_ore"
+					type: "item"
+				}
+			]
+			title: "Лунные ископаемые"
+			x: -19.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"43683BFD55DED777"
+				"39D88B5B9E7C6AFC"
+			]
+			icon: "ad_astra:moon_globe"
+			id: "15CA873EB2051888"
+			rewards: [
+				{
+					id: "2D17D7C08DE153D4"
+					item: "ad_astra:moon_globe"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "6CAA1EFF5C2BCC3E"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3829C2D0DDB56827"
+					item: "kubejs:mob_lootbag_rare"
+					type: "item"
+				}
+				{
+					id: "3EBFD5DBAC714BFB"
+					item: "kubejs:mid_lootbag_rare"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 3.5d
+			tasks: [{
+				biome: "#ad_astra:moon"
+				icon: "ad_astra:moon_globe"
+				id: "2BE087E59236E20C"
+				type: "biome"
+			}]
+			title: "Прилунение"
+			x: -16.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2811E35BEF5437E3"]
+			description: ["При последующий улучшениях забурников открывается один из вариантов добычи базовых цветов из ботании"]
+			id: "106EBD7AD0B938E1"
+			rewards: [
+				{
+					count: 32
+					id: "251E9D412CDD0B94"
+					item: "modern_industrialization:desh_drill"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2B0C179374084969"
+					item: "modern_industrialization:ancient_fossil_block"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "41968360B3C0C46A"
+				item: "modern_industrialization:desh_drill"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["562CF51957B53626"]
+			hide: false
+			id: "58FD2F344DAA81A5"
+			tasks: [{
+				id: "27DF74AE071703CE"
+				item: "modern_industrialization:acrylic_glue_bucket"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5BE8660ED789F2B1"]
+			hide: false
+			id: "562CF51957B53626"
+			tasks: [{
+				id: "40404C73E253FD72"
+				item: "modern_industrialization:acrylic_acid_bucket"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"2811E35BEF5437E3"
+				"0A89D032093A2712"
+			]
+			id: "0E3F551B750AB84A"
+			rewards: [{
+				count: 128
+				id: "1EE21697C32637C3"
+				item: "modern_industrialization:quartz_blend_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BC0CAFB1B40B08C"
+				item: "modern_industrialization:quartz_blend_dust"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0E3F551B750AB84A"
+				"004209D0C8DC9348"
+			]
+			description: ["Кабель для &9МЭ&r системы, проводит &432&r канала, функциональных блоков шин из AE2 занимают один канал"]
+			id: "36739063C2FB8639"
+			rewards: [
+				{
+					count: 16
+					id: "58AA6D8533306629"
+					item: "ae2:fluix_smart_dense_cable"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "52B8BE6F6ECFC1E5"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6A2A8F52F282F4C3"
+					item: "kubejs:mob_lootbag_rare"
+					type: "item"
+				}
+				{
+					id: "513F424B4EB12137"
+					item: "kubejs:mid_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4FB96BB3B934E4A3"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["597070AC15C6CF1E"]
+			id: "4752F7EF9DDD878F"
+			rewards: [{
+				id: "3FB767BDFC295ABE"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00F658DCB424D3B3"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["597070AC15C6CF1E"]
+			description: ["&9МЭ&r накопитель, положив в него &4ячейки хранения&r вы &4увеличите&r возможный лимит &9МЭ&r системы на хранение вещей. &4Каждый&r предмет занимает &4тип&r, &4если&r не был в &9МЭ&r системе &4ранее&r и &4байты&r"]
+			id: "3963D7F954AC6EC0"
+			rewards: [
+				{
+					count: 2
+					id: "09EB19717FD766F0"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					id: "790C4619628CBB5D"
+					item: "kubejs:mid_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3F5EB0880DF88762"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4752F7EF9DDD878F"]
+			id: "7AA1D074D9B3A240"
+			rewards: [{
+				id: "202DFA4729A82FB2"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			tasks: [{
+				id: "427281C554756CB5"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["36739063C2FB8639"]
+			description: ["&4Основной блок&r &9МЭ&r системы, &4все&r кабели должны приходить к данному блоку. &4Могут&r быть соединены последовательно. &4Максимальный размер&r структуры &47х7х7.&r Имеет &4лимит&r в &9128&r каналов на сторону"]
+			id: "5F08D82308DA853F"
+			rewards: [
+				{
+					count: 3
+					id: "77C989A0298869B2"
+					item: "ae2:controller"
+					type: "item"
+				}
+				{
+					id: "5990DA8E278E2B4F"
+					item: "kubejs:mid_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3AA15BAF8A500FCD"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["597070AC15C6CF1E"]
+			description: ["&9МЭ&r сундук, &4мини&r &9МЭ&r система, для функционала нужна &9МЭ&r &4ячейка&r и &6энергия&r"]
+			id: "06385AE5E0FE038A"
+			rewards: [
+				{
+					id: "75DC907FDBDD6FC1"
+					item: "modern_industrialization:advanced_machine_hull"
+					type: "item"
+				}
+				{
+					id: "427F916081CD9BCB"
+					item: "kubejs:mid_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "424422B7E36488B9"
+				item: "ae2:chest"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["579FD63E910D53AF"]
+			icon: "ae2:certus_quartz_crystal"
+			id: "0A89D032093A2712"
+			rewards: [{
+				count: 64
+				id: "398D2BD313C2A00B"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "1203B470474349A9"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "789E9DE85FD97FDF"
+					item: "ae2:certus_quartz_dust"
+					type: "item"
+				}
+			]
+			x: -19.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["004209D0C8DC9348"]
+			description: ["Высекатель, позволяет делать процессоры из AE2 и некоторые другие ресурсы"]
+			id: "7C094A056ED01F7B"
+			rewards: [
+				{
+					count: 32
+					id: "00692D2AAD63128A"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "743F89EC259DBC58"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5662B10AB0E48F3F"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5EBFF16114414DE7"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["004209D0C8DC9348"]
+			description: ["Ускоритель роста кристаллов, для получения истинного кварца необходимо выращивать их на безупречных цветущих блоках истинного кварца, окружив такой блок четырьмя ускорителями роста вокруг и подключив их к МЭ сети, кристаллы на блоках кварца будут расти быстрее"]
+			id: "27CB399EA2E30582"
+			rewards: [{
+				id: "3034AE4D8922A07F"
+				item: "ae2:quartz_growth_accelerator"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4987DA2E6F55F7EC"
+				item: "ae2:quartz_growth_accelerator"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["004209D0C8DC9348"]
+			description: ["Зарядник, необходим для зарядки истинного кварца"]
+			id: "43DBB5ABDDA13B56"
+			rewards: [{
+				count: 64
+				id: "49B157F054A2254B"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BBA24F5412B57EE"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: -18.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["15CA873EB2051888"]
+			icon: "ae2:mysterious_cube"
+			id: "579FD63E910D53AF"
+			rewards: [
+				{
+					id: "081D219B66DAD2E7"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+				{
+					id: "4A6E2CD52D7E75B3"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "306526D538E9BC82"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "6C5C79E04C9D237A"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2CF29BE4FEC4A7EF"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "77B09E6957788B6B"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "3494A272AA6065C6"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "10FF7449A336C1E1"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			title: "Шаблоны высечения"
+			x: -18.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0A89D032093A2712"]
+			id: "004209D0C8DC9348"
+			rewards: [{
+				count: 64
+				id: "7F26CF40BDAA6946"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "333C0D6F9993E911"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["36739063C2FB8639"]
+			id: "597070AC15C6CF1E"
+			rewards: [{
+				count: 4
+				id: "0FC3DC1BB76F3B50"
+				item: "ae2:item_cell_housing"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E4FB36C4D80CFEB"
+				item: "ae2:item_cell_housing"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["7A113E343238A35D"]
+			id: "0FBEC752451AE8F1"
+			tasks: [{
+				id: "433A57D82B5D9822"
+				item: "modern_industrialization:sulfuric_acid_bucket"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0F013F8E4DF06E6B"]
+			description: ["&6Электрическая теплица&r, однако она способна на выращивание &4только простых&r культур."]
+			id: "71F97A656D41785D"
+			rewards: [
+				{
+					id: "29B793249C35D290"
+					item: "modern_industrialization:electronic_circuit"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4F09A973EE971E6D"
+					item: "modern_industrialization:motor"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "02239649B0F78365"
+					item: "modern_industrialization:aluminum_rotor"
+					type: "item"
+				}
+				{
+					id: "2344B0352D922B06"
+					item: "kubejs:mid_lootbag_rare"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2D21C8002E6615A8"
+				item: "modern_industrialization:electric_greenhouse"
+				type: "item"
+			}]
+			title: "Теплица"
+			x: -2.25d
+			y: -2.25d
+		}
+		{
+			dependencies: ["0F013F8E4DF06E6B"]
+			description: [
+				"&6Водная ферма&r, &4позволяет размножать&r водных существ, но процесс всё-таки не быстрый."
+				""
+				"&9Вода&r внутри мультиблока &4обязательна&r"
+			]
+			id: "304390FAC4C159B0"
+			rewards: [
+				{
+					id: "31E02C17C3870AE3"
+					item: "modern_industrialization:electronic_circuit"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4A8EE3DABF9BE66B"
+					item: "modern_industrialization:motor"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5DE409D63946A8B8"
+					item: "modern_industrialization:aluminum_rotor"
+					type: "item"
+				}
+				{
+					id: "181BA540479521EE"
+					item: "kubejs:mid_lootbag_rare"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "26634FD9CAD5EF09"
+				item: "modern_industrialization:sea_farm"
+				type: "item"
+			}]
+			title: "Водная ферма"
+			x: -0.75d
+			y: -2.25d
+		}
+		{
+			dependencies: ["004209D0C8DC9348"]
+			id: "54EC4DE0C6965784"
+			rewards: [
+				{
+					id: "19A8AFA77F935EFC"
+					item: {
+						Count: 1b
+						id: "ae2:energy_cell"
+						tag: {
+							internalCurrentPower: 200000.0d
+							internalMaxPower: 200000.0d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F4E4D9E7944042A"
+					item: "kubejs:mid_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "15DF9665CC590150"
+				item: {
+					Count: 1b
+					id: "ae2:energy_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0F013F8E4DF06E6B"]
+			description: ["Мозг базовой логической системы труб из NeepMeat. Необходим для работы драйверов хранения и ручных запросчиков."]
+			id: "05E7324B1FC9421F"
+			rewards: [
+				{
+					id: "1017792E50D0C80B"
+					item: "modern_industrialization:electronic_circuit"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "58943C6FFE878946"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+				{
+					id: "1D1B5DE59511F11E"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0BEE5B4F6CA43280"
+				item: "neepmeat:pipe_driver"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["05E7324B1FC9421F"]
+			description: [
+				"Запрашивает предметы в прилегающие блоки "
+				"Упрощённая система заказа предметов и формирования логистической сети."
+				"Поставьте драйвер хранения к хранилищу из которого будут запрашиваться предметы и присоедините трубный драйвер к сети труб. Теперь в нужном месте подсоедините ручной запросчик. "
+			]
+			id: "29BACBBC96847851"
+			rewards: [{
+				id: "7F82E14DC255552F"
+				item: "modern_industrialization:electronic_circuit"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7BF5470EE3F9C873"
+					item: "neepmeat:storage_bus"
+					type: "item"
+				}
+				{
+					id: "1B4DDAEC29330955"
+					item: "neepmeat:item_requester"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["66D16ADD44115DC6"]
+			id: "3DFF290B17E631F3"
+			rewards: [{
+				count: 64
+				id: "03C96267B44C6815"
+				item: "modern_industrialization:steel_drill"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "02377E323FF26634"
+				item: "modern_industrialization:steel_drill"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"15CA873EB2051888"
+				"43283DF93D75D1D2"
+			]
+			id: "431DAB9B84997491"
+			rewards: [{
+				id: "7C5BA3A5AFDCCFD9"
+				item: "modern_industrialization:electronic_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E79B054B2D65392"
+				item: "kubejs:moon_data_card"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5F08D82308DA853F"
+				"4B5A35FB7FEE1E6B"
+			]
+			description: ["&6Этот квест открывает новую ветку квестов!&r"]
+			hide: true
+			id: "46B678C8DDB9B181"
+			tasks: [{
+				id: "0D93CF1579DDA1FA"
+				title: "Возможно ли хранить ману на дисках?"
+				type: "checkmark"
+			}]
+			title: "Возможно ли хранить ману в сети?"
+			x: -23.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0F013F8E4DF06E6B"]
+			id: "4F1F0FC36448816A"
+			rewards: [{
+				count: 256
+				id: "19958BE545A8B6C2"
+				item: "modern_industrialization:item_pipe"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C8376614E149099"
+				item: "modern_industrialization:item_pipe"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0F013F8E4DF06E6B"]
+			id: "2D7B50C0A5B7BF13"
+			rewards: [{
+				count: 256
+				id: "05377CA4B911DF8C"
+				item: "modern_industrialization:fluid_pipe"
+				type: "item"
+			}]
+			tasks: [{
+				id: "104F8F70298BEC00"
+				item: "modern_industrialization:fluid_pipe"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4752F7EF9DDD878F"]
+			description: ["&4Переносная&r ячейка, имеет &4меньше байтов и типов&r по сравнению с обычной ячейкой. Для работы необходима &6энергия&r"]
+			id: "43F4508F28653E9E"
+			rewards: [
+				{
+					id: "5AF1C92631B07AE7"
+					item: {
+						Count: 1b
+						id: "ae2:portable_item_cell_64k"
+						tag: {
+							internalCurrentPower: 20000.0d
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E2E952CED82FD50"
+					item: "kubejs:mid_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7919B09189A70C56"
+				item: {
+					Count: 1b
+					id: "ae2:portable_item_cell_1k"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["0F013F8E4DF06E6B"]
+			description: ["&aСкорость копания зависит от качества топлива"]
+			id: "68419C94D2BBEF0A"
+			rewards: [{
+				id: "1D4423DFD1CC0EA8"
+				item: {
+					Count: 1b
+					id: "modern_industrialization:aluminum_tank"
+					tag: {
+						BlockEntityTag: {
+							amt: 1296000L
+							fluid: {
+								fk: {
+									fluid: "modern_industrialization:boosted_diesel"
+								}
+							}
+							locked: 0b
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7988AFD2BA241940"
+				item: "modern_industrialization:diesel_chainsaw"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0A89D032093A2712"]
+			description: ["&4Необходим&r для выращивания &fкристаллов,&r из данного блока возможно сделать &eболее лучшие&r безупречные блоки цветущего кварца"]
+			id: "522BCE6B5700CCB5"
+			tasks: [{
+				id: "7A98801B97EEF3C3"
+				item: "ae2:damaged_budding_quartz"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4752F7EF9DDD878F"]
+			description: ["&6Хранилище создания&r, &4каждый&r крафт занимает определенное количество байт, для более длинных или крафтов в большем количестве нужно &4больше байтов&r"]
+			id: "65E4162BCF764475"
+			tasks: [{
+				id: "3B5DEDBD8B5EDF1F"
+				item: "ae2:1k_crafting_storage"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["4752F7EF9DDD878F"]
+			description: ["&6Блок обработки создания&r, базово &9МЭ&r система крафтит &41&r предмет &4за раз&r, &4каждый&r блок обработки создания добавляет &41&r параллельный крафт на &4текущем&r блоке процессоров"]
+			id: "465033EF352E276A"
+			tasks: [{
+				id: "6F25792900A07E1F"
+				item: "ae2:crafting_accelerator"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["12829AE05244CA1B"]
+			id: "65560ED5F75185CE"
+			rewards: [
+				{
+					id: "461059E686FE41C1"
+					item: "modern_industrialization:electronic_circuit"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "15723732479CA741"
+					item: "modern_industrialization:manganese_crushed_dust"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "53182562716B761E"
+				item: "modern_industrialization:manganese_crushed_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["175C75FDF524874C"]
+			id: "1F9C854252F7DAAF"
+			rewards: [{
+				id: "6A6AC2B146E089BF"
+				item: "modern_industrialization:electronic_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FAD58D7758EF841"
+				item: "modern_industrialization:manganese_tiny_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1F9C854252F7DAAF"]
+			description: ["&6Этот квест открывает новую ветку квестов!&r"]
+			id: "3E138862E596075D"
+			rewards: [
+				{
+					id: "0A87B74D2C63FE49"
+					item: "modern_industrialization:electronic_circuit"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5B69F8440BA6C54A"
+					item: "modern_industrialization:manganese_dust"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1DF3EB33D61FB8CE"
+				item: "modern_industrialization:manganese_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["65560ED5F75185CE"]
+			id: "175C75FDF524874C"
+			rewards: [{
+				id: "12EA00D5208A8B08"
+				item: "modern_industrialization:electronic_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "070249A5ABBDD591"
+				item: "modern_industrialization:manganese_sulfuric_solution_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["29BACBBC96847851"]
+			description: [
+				"Позволяет автоматически крафтить заданный внутри рецепт. "
+				"- Берёт ресурсы из инвентарей поставленных побокам. "
+				"- Хорошо сочетается с дроверной точкой доступа"
+				"- Если присоединить драйвер хранения к выходящей стороне фабрикатора, фабрикатор будет крафтить предмет по запросу"
+			]
+			id: "4944AB502FB37416"
+			rewards: [
+				{
+					id: "53C75012F3DC433A"
+					item: "neepmeat:fabricator"
+					type: "item"
+				}
+				{
+					id: "61ADCAF9C2B44EF4"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			subtitle: "Автокрафт 0.8"
+			tasks: [{
+				id: "423DD3B8FDABE2A9"
+				item: "neepmeat:fabricator"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+	]
+	title: "&7Индустриализация | MV"
+}

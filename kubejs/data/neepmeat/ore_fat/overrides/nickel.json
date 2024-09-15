@@ -1,0 +1,10 @@
+{
+	"output": "modern_industrialization:nickel_ingot",
+	"dirty_fat_name": "ore_fat.neepmeat.nickel.dirty",
+	"clean_fat_name": "ore_fat.neepmeat.nickel.clean",
+	"inputs": [
+		"modern_industrialization:raw_nickel"
+	],
+	"rendering_yield": 1.5,
+	"trommel_yield": 2
+}

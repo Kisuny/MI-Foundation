@@ -1,0 +1,10 @@
+{
+	"output": "mythicmetals:banglum_ingot",
+	"dirty_fat_name": "ore_fat.neepmeat.banglum.dirty",
+	"clean_fat_name": "ore_fat.neepmeat.banglum.clean",
+	"inputs": [
+		"mythicmetals:raw_banglum"
+	],
+	"rendering_yield": 1.5,
+	"trommel_yield": 2
+}

@@ -1,0 +1,10 @@
+{
+	"output": "spectrum:refined_azurite",
+	"dirty_fat_name": "item_fat.neepmeat.azurite.dirty",
+	"clean_fat_name": "item_fat.neepmeat.azurite.clean",
+	"inputs": [
+		"spectrum:raw_azurite"
+	],
+	"rendering_yield": 1,
+	"trommel_yield": 1.2
+}

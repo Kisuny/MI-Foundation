@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "minecraft:gameplay/fishing/treasure"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "kubejs:mob_lootbag_uncommon"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "kubejs:mob_lootbag_rare"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:killed_by_player"
+          },
+          {
+            "condition": "minecraft:random_chance_with_looting",
+            "chance": 0.2,
+            "looting_multiplier": 0.03
+          }
+        ]
+      }
+    ]
+  }
+  

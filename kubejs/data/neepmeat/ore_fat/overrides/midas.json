@@ -1,0 +1,10 @@
+{
+	"output": "mythicmetals:midas_ingot",
+	"dirty_fat_name": "ore_fat.neepmeat.midas.dirty",
+	"clean_fat_name": "ore_fat.neepmeat.midas.clean",
+	"inputs": [
+		"mythicmetals:raw_midas"
+	],
+	"rendering_yield": 1.5,
+	"trommel_yield": 2
+}

@@ -1,0 +1,10 @@
+{
+	"output": "mythicmetals:stormyx_ingot",
+	"dirty_fat_name": "ore_fat.neepmeat.stormyx.dirty",
+	"clean_fat_name": "ore_fat.neepmeat.stormyx.clean",
+	"inputs": [
+		"mythicmetals:raw_stormyx"
+	],
+	"rendering_yield": 1.5,
+	"trommel_yield": 2
+}

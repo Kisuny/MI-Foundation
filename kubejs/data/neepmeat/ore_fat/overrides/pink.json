@@ -1,0 +1,12 @@
+{
+	"output": "spectrum:pink_pigment",
+	"dirty_fat_name": "ore_fat.neepmeat.pink_pigment.dirty",
+	"clean_fat_name": "ore_fat.neepmeat.pink_pigment.clean",
+	"inputs": [
+		"spectrum:pink_log",
+		"spectrum:pink_leaves",
+		"spectrum:pink_sapling"
+	],
+	"rendering_yield": 1,
+	"trommel_yield": 1.5
+}

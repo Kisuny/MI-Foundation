@@ -1,0 +1,10 @@
+{
+	"output": "minecraft:copper_ingot",
+	"dirty_fat_name": "ore_fat.neepmeat.copper.dirty",
+	"clean_fat_name": "ore_fat.neepmeat.copper.clean",
+	"inputs": [
+		"minecraft:raw_copper"
+	],
+	"rendering_yield": 1.5,
+	"trommel_yield": 2
+}

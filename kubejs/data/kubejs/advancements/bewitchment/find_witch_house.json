@@ -1,0 +1,34 @@
+{
+    "display": {
+      "icon": {
+        "item": "bwplus:statue_baphomet_blackstone"
+      },
+      "title": {
+        "translate": "advancement.kubejs.find_witch_house.title"
+      },
+      "description": {
+        "translate": "advancement.kubejs.find_witch_house.desc"
+      },
+      "frame": "task"
+    },
+    "parent": "kubejs:bewitchment/bewitchment_start",
+    "criteria": {
+      "fortress": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structure": "kubejs:witch_juniper_house"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

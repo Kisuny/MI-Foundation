@@ -1,0 +1,36 @@
+{
+    "name": {
+      "color": "#8b2324",
+      "translate": "trofers.name.bewitchment"
+    },
+    "item": {
+      "item": "bwplus:statue_herne_blackstone",
+      "count": 1
+    },
+    "display": {
+      "offset": {
+        "y": 4,
+        "x": -12,
+        "z": 4
+      },
+      "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": -60
+      },
+      "scale": 0.8
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.20
+      },
+    "colors": {
+      "accent": "#cf3637",
+      "base": "#3a383f"
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "bewitchment:entity.baphomet.death"
+      }
+    }
+  }

@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [
+      {"id":"bewitchment:death_protection_poppet","required":false},
+      {"id":"bewitchment:protection_poppet","required":false},
+      {"id":"bewitchment:mending_poppet","required":false},
+      {"id":"bewitchment:curse_poppet","required":false},
+      {"id":"bewitchment:voodoo_poppet","required":false},
+      {"id":"bewitchment:voodoo_protection_poppet","required":false},
+      {"id":"bewitchment:fatigue_poppet","required":false},
+      {"id":"bewitchment:judgment_poppet","required":false},
+      {"id":"bewitchment:vampiric_poppet","required":false},
+      {"id":"bwplus:leshon_skull","required":false}
+    ]
+  }

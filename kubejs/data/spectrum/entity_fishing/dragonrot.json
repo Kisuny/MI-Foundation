@@ -1,0 +1,144 @@
+{
+    "location": {
+      "fluid": {
+        "tag": "spectrum:dragonrot"
+      }
+    },
+    "chance": 0.05,
+    "entities": [
+      {
+        "id": "minecraft:creeper",
+        "weight": 25,
+        "nbt": {
+          "powered": true
+        }
+      },
+      {
+        "id": "minecraft:creeper",
+        "weight": 30
+      },
+      {
+        "id": "spectrum:eraser",
+        "weight": 30
+      },
+      {
+        "id": "minecraft:drowned",
+        "weight": 30
+      },
+      {
+        "id": "minecraft:skeleton",
+        "weight": 30
+      },
+      {
+        "id": "minecraft:wither_skeleton",
+        "weight": 30
+      },
+      {
+        "id": "minecraft:zombie_horse",
+        "weight": 25
+      },
+      {
+        "id": "minecraft:skeleton_horse",
+        "weight": 25
+      },
+      {
+        "id": "minecraft:stray",
+        "weight": 20,
+        "nbt": {  
+          "Health": 120,
+          "Attributes":[
+            {"Name":"generic.max_health","Base":120}, 
+            {"Name":"generic.attack_damage","Base":22}, 
+            {"Name":"generic.movement_speed","Base":0.8},
+            {"Name":"generic.armor","Base":4}
+          ],
+          "CustomName":"{\"text\":\"Овцекрад\",\"color\":\"gray\"}",  
+          "HandItems":[{"id":"minecraft:fishing_rod","Count":1},{"id":"air","Count":1}],
+          "ArmorItems":[{"id":"minecraft:leather_boots","tag":{"display":{"color":13899055}},"Count":1},{"id":"minecraft:leather_leggings","tag":{"display":{"color":12068153}},"Count":1},{"id":"minecraft:leather_chestplate","tag":{"display":{"color":9645628}},"Count":1},{"id":"minecraft:player_head","tag":{"SkullOwner":{"Id":["I;",602223370,-2004988042,-1840782119,-1022610335],"Properties":{"textures":[{"Value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWY5YTRiYTZlNmZhMzk0NTRhNzdiN2ZkYzMyNWJiMDBkNmZhNmE1MDliNDBkNTA4YThjMjg3M2MxYTM1NjY0OCJ9fX0="}]}}},"Count":1}],
+          "HandDropChances":["0F","0F"],
+          "ArmorDropChances":["0F","0F","0F","0F"],
+          "ActiveEffects":[{"Id":13,"Duration":10000,"ShowParticles":"0b"},{"Id":30,"Duration":100000,"ShowParticles":"0b"}],
+          "DeathLootTable":"kubejs:mobs/sheep_stealer"
+        }
+      },
+      {
+        "id": "minecraft:wither_skeleton",
+        "weight": 20,
+        "nbt": {  
+          "Health": 220,
+          "Attributes":[
+            {"Name":"generic.max_health","Base":220}, 
+            {"Name":"generic.attack_damage","Base":16}, 
+            {"Name":"generic.movement_speed","Base":0.5},
+            {"Name":"generic.armor","Base":22}
+          ],
+          "CustomName":"{\"text\":\"Змеиный дракон\",\"color\":\"blue\"}",  
+          "HandItems":[{"id":"air","Count":1},{"id":"air","Count":1}],
+          "ArmorItems":[{"id":"minecraft:leather_boots","tag":{"display":{"color":12358780}},"Count":1},{"id":"minecraft:leather_leggings","tag":{"display":{"color":10779748}},"Count":1},{"id":"minecraft:leather_chestplate","tag":{"display":{"color":8152148}},"Count":1},{"id":"minecraft:player_head","tag":{"SkullOwner":{"Id":["I;",1710620608,1608929078,-1562650004,466996010],"Properties":{"textures":[{"Value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmRkMTU2N2NmMjk2MjZjZThjZDZmMGZmMjBjNmFjZmU1OTY5NDYzMDdlN2ZiZTliMmNhMjQwMTU0YmZhMmVlNiJ9fX0="}]}}},"Count":1}],
+          "HandDropChances":["0F","0F"],
+          "ArmorDropChances":["0F","0F","0F","0F"],
+          "ActiveEffects":[{"Id":13,"Duration":10000,"ShowParticles":"0b"},{"Id":30,"Duration":100000,"ShowParticles":"0b"}],
+          "DeathLootTable":"kubejs:mobs/snake_dragon"
+        }
+      },
+      {
+        "id": "minecraft:drowned",
+        "weight": 10,
+        "nbt": {
+          "Health": 460,
+          "Attributes":[
+            {"Name":"generic.max_health","Base":460}, 
+            {"Name":"generic.attack_damage","Base":25},
+            {"Name":"generic.armor","Base":12}
+          ],
+          "CustomName":"{\"text\":\"Восставший из драконьей гнили\",\"color\":\"gold\"}",
+          "HandItems":[{"id":"spectrum:glass_crest_ultra_greatsword","Count":1},{"id":"mythicmetals:stormyx_shield","Count":1}],
+          "ActiveEffects":[{"Id":13,"Duration":10000,"ShowParticles":"0b"},{"Id":12,"Duration":10000,"ShowParticles":"0b"}, {"Id":29,"Duration":100000,"ShowParticles":"0b"}, {"Id":30,"Duration":10000,"ShowParticles":"0b"}],
+          "ArmorItems":[{"id":"minecraft:leather_boots","tag":{"display":{"color":3884316}},"Count":1},{"id":"minecraft:leather_leggings","tag":{"display":{"color":5322025}},"Count":1},{"id":"minecraft:leather_chestplate","tag":{"display":{"color":16174483}},"Count":1},{"id":"minecraft:player_head","tag":{"SkullOwner":{"Id":["I;",-82085922,282810412,-2060525977,-2049227165],"Properties":{"textures":[{"Value":"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc3OTZlYzFhYTg2Njk5MDAzOWIxMGEyNDk5OWY2OGI5YWNlN2Q0Zjk5NGE0NDVmOTliMWVlYTFiYWVhNjZkOSJ9fX0="}]}},"display":{"Lore":["{\"text\":\"https://namemc.com/skin/9a9bce463a2fcd2b\"}"]}},"Count":1}],
+          "ArmorDropChances":["0f","0f","0f","0f"],
+          "HandDropChances":["0f","0f"],
+          "DeathLootTable":"kubejs:mobs/risen_from_the_dragon_rot"
+        }
+      },
+      {
+        "id": "minecraft:wither_skeleton",
+        "weight": 10,
+        "nbt": {  
+          "Health": 400,
+          "Attributes":[
+            {"Name":"generic.max_health","Base":400}, 
+            {"Name":"generic.attack_damage","Base":44}, 
+            {"Name":"generic.movement_speed","Base":0.5},
+            {"Name":"generic.armor","Base":22}
+          ],
+          "CustomName":"{\"text\":\"Тёмный дракон\",\"color\":\"gold\"}",  
+          "HandItems":[{"id":"air","Count":1},{"id":"air","Count":1}],
+          "ArmorItems":[{"id":"minecraft:leather_boots","tag":{"display":{"color":2105892}},"Count":1},{"id":"minecraft:leather_leggings","tag":{"display":{"color":3421236}},"Count":1},{"id":"minecraft:leather_chestplate","tag":{"display":{"color":2698281}},"Count":1},{"id":"minecraft:player_head","tag":{"SkullOwner":{"Id":["I;",670032566,-787201645,-1259862636,-405953047],"Properties":{"textures":[{"Value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTJiN2NlNjE4MTg5Y2Y0MGMzNzhiYWFiYjdmMGI4MzRhOTFlYmIzMDI1NDEwMjQxMDM3ZTdmNzA2ZWFkNmVhMiJ9fX0="}]}}},"Count":1}],
+          "HandDropChances":["0F","0F"],
+          "ArmorDropChances":["0F","0F","0F","0F"],
+          "ActiveEffects":[{"Id":13,"Duration":10000,"ShowParticles":"0b"},{"Id":30,"Duration":100000,"ShowParticles":"0b"}],
+          "DeathLootTable":"kubejs:mobs/dark_dragon"
+        }
+      },
+      {
+        "id": "minecraft:wither_skeleton",
+        "weight": 5,
+        "nbt": {  
+          "Health": 600,
+          "Attributes":[
+            {"Name":"generic.max_health","Base":600}, 
+            {"Name":"generic.attack_damage","Base":25}, 
+            {"Name":"generic.movement_speed","Base":0.5},
+            {"Name":"generic.armor","Base":22}
+          ],
+          "CustomName":"{\"text\":\"Зубастик\",\"color\":\"light_purple\"}",  
+          "HandItems":[{"id":"spectrum:dreamflayer","Count":1},{"id":"air","Count":1}],
+          "ArmorItems":[{"id":"minecraft:leather_boots","tag":{"display":{"color":4473924}},"Count":1},{"id":"minecraft:leather_leggings","tag":{"display":{"color":2368548}},"Count":1},{"id":"minecraft:leather_chestplate","tag":{"display":{"color":3421236}},"Count":1},{"id":"minecraft:player_head","tag":{"SkullOwner":{"Id":["I;",-109108388,-1927723097,-1379622602,-214183573],"Properties":{"textures":[{"Value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQzMjgzYzBiM2ZiMmJmZDc1OWU3MTA1YzkyYWFhZDA1MjcxNjkwMWMyMWM1OTI1YjI3OTc1MTg1MWQ3NGM3OSJ9fX0="}]}}},"Count":1}],
+          "HandDropChances":["0F","0F"],
+          "ArmorDropChances":["0F","0F","0F","0F"],
+          "ActiveEffects":[{"Id":13,"Duration":10000,"ShowParticles":"0b"},{"Id":30,"Duration":100000,"ShowParticles":"0b"}],
+          "DeathLootTable":"kubejs:mobs/toothy"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "bewitchment:juniper_sapling"
+      },
+      "title": {
+        "translate": "advancement.kubejs.collect_saplings.title"
+      },
+      "description": {
+        "translate": "advancement.kubejs.collect_saplings.desc"
+      },
+      "frame": "task"
+    },
+    "parent": "kubejs:bewitchment/bewitchment_start",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "tag": "mif:saplings"
+            }
+          ]
+        }
+      }
+    }
+  }

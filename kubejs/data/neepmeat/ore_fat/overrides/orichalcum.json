@@ -1,0 +1,10 @@
+{
+	"output": "mythicmetals:orichalcum_ingot",
+	"dirty_fat_name": "ore_fat.neepmeat.orichalcum.dirty",
+	"clean_fat_name": "ore_fat.neepmeat.orichalcum.clean",
+	"inputs": [
+		"mythicmetals:raw_orichalcum"
+	],
+	"rendering_yield": 1.5,
+	"trommel_yield": 2
+}

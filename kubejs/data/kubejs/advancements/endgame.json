@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "item": "modern_industrialization:singularity"
+      },
+      "title": {
+        "translate": "advancement.kubejs.endgame.title"
+      },
+      "description": {
+        "translate": "advancement.kubejs.endgame.desc",
+        "color": "dark_green",
+        "bold": true,
+        "italic": true,
+        "underlined": false,
+        "strikethrough": false,
+        "obfuscated": false
+      },
+      "frame": "goal"
+    },
+    "parent": "kubejs:root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:jigsaw"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }

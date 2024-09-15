@@ -1,0 +1,61 @@
+{
+    "replace": false,
+    "values": [
+      {
+        "id": "create:wrench",
+        "required": false
+      },
+      {
+        "id": "modern_industrialization:wrench",
+        "required": false
+      },
+      {
+        "id": "modern_industrialization:steam_mining_drill",
+        "required": false
+      },
+      {
+        "id": "modern_industrialization:diesel_chainsaw",
+        "required": false
+      },
+      {
+        "id": "modern_industrialization:diesel_mining_drill",
+        "required": false
+      },
+      {
+        "id": "modern_industrialization:quantum_sword",
+        "required": false
+      },
+      {
+        "id": "geocluster:prospectors_pick",
+        "required": false
+      },
+      {
+        "id": "botania:twig_wand",
+        "required": false
+      },
+      {
+        "id": "spectrum:radiance_staff",
+        "required": false
+      },
+      {
+        "id": "spectrum:staff_of_remembrance",
+        "required": false
+      },
+      {
+        "id": "spectrum:natures_staff",
+        "required": false
+      },
+      {
+        "id": "spectrum:constructors_staff",
+        "required": false
+      },
+      {
+        "id": "spectrum:exchanging_staff",
+        "required": false
+      },
+      {
+        "id": "spectrum:paintbrush",
+        "required": false
+      }
+    ]
+  }

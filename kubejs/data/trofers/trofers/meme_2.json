@@ -1,0 +1,31 @@
+{
+    "name": {
+      "color": "#59b547",
+      "translate": "trofers.name.meme_2"
+    },
+    "item": {
+      "item": "mythicmetals:doge",
+      "count": 1
+    },
+    "display": {
+      "offset": {
+        "y": 0.5,
+        "x": 0,
+        "z": 0
+      },
+      "scale": 1.0
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.20
+      },
+    "colors": {
+      "accent": "#383d37",
+      "base": "#242424"
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "mythicmetals:music_disc.dog4"
+      }
+    }
+  }

@@ -1,0 +1,10 @@
+{
+	"output": "ad_astra:desh_ingot",
+	"dirty_fat_name": "ore_fat.neepmeat.desh.dirty",
+	"clean_fat_name": "ore_fat.neepmeat.desh.clean",
+	"inputs": [
+		"ad_astra:raw_desh"
+	],
+	"rendering_yield": 1.5,
+	"trommel_yield": 2
+}

@@ -1,0 +1,125 @@
+{
+  "dragonDifficulty": {
+    "desc:": "Sets the dragon difficulty modifier, the higher the more difficult the dragon gets.Scales up mob spawn amount, dragon damage and health aswell as crystal respawn intervals. Note that the difficulty already scales on the playercount involved in the fight, this is a static bonus ontop.default:2, vanilla:0",
+    "dragonDifficulty": 1
+  },
+  "crystalRespawnTimeModifier": {
+    "desc:": "Modifies crystal respawn time, 0.5 = spawns twice as fast, 2 = twice as slow. default:1.0",
+    "crystalRespawnTimeModifier": 100.0
+  },
+  "lightningExplosionDensity": {
+    "desc:": "Modifies lightning and explosion density, 0.5 = half as many, 2 = twice as many. default:1.0",
+    "lightningExplosionDensity": 2.0
+  },
+  "disableLightning": {
+    "desc:": "Disables lightning spawns: default:false",
+    "disableLightning": false
+  },
+  "antiflightAbility": {
+    "desc:": "Enables anti-flight ability: default:true",
+    "antiflightAbility": true
+  },
+  "dragonHealthModifier": {
+    "desc:": "Sets the dragon health modifier: default:1.0",
+    "dragonHealthModifier": 3.0
+  },
+  "dragonDamageModifier": {
+    "desc:": "Sets the dragon damage modifier: default:1.0",
+    "dragonDamageModifier": 2.0
+  },
+  "mobSpawnAmountModifier": {
+    "desc:": "Sets the mob spawn amount modifier: default:1.0",
+    "mobSpawnAmountModifier": 3.0
+  },
+  "dragonXPModifier": {
+    "desc:": "Sets the XP drop modifier: default:1.0",
+    "dragonXPModifier": 3.0
+  },
+  "printDragonPhases": {
+    "desc:": "Prints the dragon phase in chat if enabled: default:false",
+    "printDragonPhases": false
+  },
+  "disableDragonAreaSpawns": {
+    "desc:": "Disables mob spawning on the Dragon island during the fight: default:true",
+    "disableDragonAreaSpawns": true
+  },
+  "descSpawnEntries": "Below are configuration options for entity spawning, when trying to use nbt append it right after the entity type, e.g. minecraft:zombie{}. Put a backslash in front of all quotation marks",
+  "spawnoncrystaldestroy": {
+    "desc:": "List of mobs spawning when a crystal is destroyed at range, intended to be flying or ranged to close the gap: e.g. format :  [\"minecraft:zombie\", \"minecraft:creeper\"]",
+    "spawnoncrystaldestroy": [
+      "minecraft:phantom"
+    ]
+  },
+  "spawnoncrystalrespawn": {
+    "desc:": "List of mobs spawning on crystal respawn, intended to be ranged to ward of players from a distance: e.g. format :  [\"minecraft:zombie\", \"minecraft:creeper\"]",
+    "spawnoncrystalrespawn": [
+      "minecraft:blaze"
+    ]
+  },
+  "spawnwhilelanded": {
+    "desc:": "List of mobs spawning while the dragon is sitting in the middle, intended to be melee and not vulnerable to ranged: e.g. format :  [\"minecraft:zombie\", \"minecraft:creeper\"]",
+    "spawnwhilelanded": [
+      "minecraft:enderman"
+    ]
+  },
+  "crystalPendingRespawns": {
+    "desc:": "List of crystal respawn locations for the end crystals, filled automatically on destroy recommended to not touch. XYZ coords seperated by semicolon",
+    "crystalPendingRespawns": [
+      "-8;54;0",
+      "8;54;0",
+      "0;54;8",
+      "-17;92;-52",
+      "16;98;-52",
+      "43;87;-32",
+      "54;82;0",
+      "43;92;31",
+      "16;82;51",
+      "-8;62;0",
+      "8;62;0",
+      "0;62;8",
+      "-17;86;51",
+      "16;92;51",
+      "43;87;31",
+      "-17;82;-52",
+      "54;98;0",
+      "43;92;-32",
+      "16;82;-52",
+      "-44;87;-32",
+      "-54;98;-1",
+      "-44;92;31",
+      "0;62;-8",
+      "-8;60;0",
+      "8;60;0",
+      "0;60;8",
+      "-44;92;-32",
+      "16;86;51",
+      "-17;92;51",
+      "-44;87;31",
+      "43;98;-32",
+      "54;87;0",
+      "-8;57;0",
+      "8;57;0",
+      "0;57;8",
+      "-17;82;51",
+      "0;57;-8",
+      "-44;98;31",
+      "-54;87;-1",
+      "-44;86;-32",
+      "16;92;-52",
+      "-8;56;0",
+      "8;56;0",
+      "0;56;8",
+      "54;86;0",
+      "-17;87;-52",
+      "-54;82;-1",
+      "43;82;31",
+      "-17;98;51",
+      "16;87;51",
+      "0;56;-8",
+      "-3;53;0",
+      "3;53;0",
+      "0;53;3",
+      "0;53;-3"
+    ]
+  }
+}

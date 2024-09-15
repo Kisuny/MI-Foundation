@@ -1,0 +1,7 @@
+{
+	id: "458992FED321B022"
+	loot_size: 1
+	order_index: 19
+	rewards: [{ item: "mythicmetals:banglum_ingot" }]
+	title: "банглий"
+}

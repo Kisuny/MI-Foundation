@@ -1,0 +1,31 @@
+{
+    "name": {
+      "color": "#e8c53c",
+      "translate": "trofers.name.angel_ring"
+    },
+    "item": {
+      "item": "kibe:angel_ring",
+      "count": 1
+    },
+    "display": {
+      "offset": {
+        "y": 0.5,
+        "x": 0,
+        "z": 0
+      },
+      "scale": 1.0
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.20
+      },
+    "colors": {
+      "accent": "#e8c53c",
+      "base": "#242424"
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "spectrum:celestial_pocket_watch_sky_fly_by"
+      }
+    }
+  }

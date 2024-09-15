@@ -1,0 +1,79 @@
+{
+	name: "Ванилла"
+	item: "minecraft:grass_block"
+	orders: [
+		{
+			id: 0
+			price: 1000L
+			name: "256 древесины"
+			questId: ""
+			item: "minecraft:oak_log"
+			rewardTableId: "069345BAFFBEFEA6"
+			bulkRewardTableId: ""
+		}
+		{
+			id: 1
+			price: 1000L
+			name: "6 шерсти"
+			questId: ""
+			item: "minecraft:white_wool"
+			rewardTableId: "2627AF6D0C85F1BD"
+			bulkRewardTableId: ""
+		}
+		{
+			id: 2
+			price: 3500L
+			name: ""
+			questId: ""
+			item: "minecraft:netherite_scrap"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 3
+			price: 5000L
+			name: "Обычный лут с мобов"
+			questId: ""
+			item: "minecraft:bone"
+			rewardTableId: "0BC73B7910B6AFFB"
+			bulkRewardTableId: ""
+		}
+		{
+			id: 4
+			price: 20000L
+			name: "Редкий лут с мобов"
+			questId: ""
+			item: "architects_palette:withered_bone"
+			rewardTableId: "4D078D7FD5C2DF39"
+			bulkRewardTableId: ""
+		}
+		{
+			id: 5
+			price: 5000L
+			name: ""
+			questId: ""
+			item: "minecraft:echo_shard"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 6
+			price: 150L
+			name: ""
+			questId: ""
+			item: "minecraft:prismarine_crystals"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 7
+			price: 150L
+			name: ""
+			questId: ""
+			item: "minecraft:prismarine_shard"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+	]
+	render_priority: 1
+}

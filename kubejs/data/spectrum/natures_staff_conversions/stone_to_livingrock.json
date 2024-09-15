@@ -1,0 +1,5 @@
+{
+  "input_block": "minecraft:stone",
+  "output_state": "botania:livingrock",
+  "unlock_identifier": "spectrum:revive_dead_bush"
+}

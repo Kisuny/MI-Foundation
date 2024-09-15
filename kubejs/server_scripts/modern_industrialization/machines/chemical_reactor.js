@@ -1,0 +1,38 @@
+
+ServerEvents.recipes(event => {
+    
+    event.remove({id: 'minecraft:tinted_glass'})
+    event.recipes.modern_industrialization.chemical_reactor(32, 400)
+        .itemIn('minecraft:glass')
+        .itemIn('2x modern_industrialization:carbon_dust')
+        .itemIn('16x spectrum:amethyst_powder')
+        .fluidIn('modern_industrialization:hydrochloric_acid',400)
+        .fluidIn('modern_industrialization:ammonia_gas',150)
+        .fluidOut('modern_industrialization:oxygen',200)
+        .itemOut('2x minecraft:tinted_glass')
+    // Random Access Memory Caterium alternate
+    event.recipes.modern_industrialization.chemical_reactor(12, 400)
+        .itemIn('modern_industrialization:silicon_wafer')
+        .itemIn('modern_industrialization:antimony_dust')
+        .itemIn('modern_industrialization:caterium_dust')
+        .fluidIn('modern_industrialization:argon',250)
+        .fluidIn('modern_industrialization:styrene_butadiene_rubber',500)
+        .itemOut('4x modern_industrialization:random_access_memory')
+    // Naquadah Sulfuric Solution 
+    event.recipes.modern_industrialization.chemical_reactor(12, 400)
+        .itemIn('kubejs:raw_naquadah')
+        .fluidIn('modern_industrialization:sulfuric_acid',9000)
+        .fluidOut('modern_industrialization:naquadah_sulfuric_solution',9000)
+    // Refined Caterium 
+    event.recipes.modern_industrialization.chemical_reactor(12, 400)
+        .itemIn('5x modern_industrialization:caterium_dust')
+        .itemIn('2x modern_industrialization:calcium_metasilicate_dust')
+        .itemIn('modern_industrialization:niobium_tiny_dust')
+        .fluidIn('modern_industrialization:silicon_tetrafluoride_gas',1200)
+        .fluidIn('modern_industrialization:hydrochloric_acid',600)
+        .fluidIn('neepmeat:compressed_air',12000)
+        .fluidOut('modern_industrialization:chlorine',500)
+        .fluidOut('modern_industrialization:fluorine',400)
+        .itemOut('4x kubejs:refined_caterium')
+        .itemOut('3x modern_industrialization:silicon_dust')
+})

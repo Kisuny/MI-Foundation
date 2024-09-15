@@ -1,0 +1,31 @@
+{
+    "name": {
+      "color": "#73172f",
+      "translate": "trofers.name.vanilla"
+    },
+    "item": {
+      "item": "minecraft:crafting_table",
+      "count": 1
+    },
+    "display": {
+      "offset": {
+        "y": 1.0,
+        "x": 0.0,
+        "z": 0.0
+      },
+      "scale": 0.6
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.20
+      },
+    "colors": {
+      "accent": "#886e46",
+      "base": "#242424"
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "minecraft:block.wood.break"
+      }
+    }
+  }

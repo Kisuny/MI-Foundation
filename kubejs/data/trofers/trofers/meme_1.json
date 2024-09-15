@@ -1,0 +1,31 @@
+{
+    "name": {
+      "color": "#59b547",
+      "translate": "trofers.name.meme_1"
+    },
+    "item": {
+      "item": "mythicmetals:froge",
+      "count": 1
+    },
+    "display": {
+      "offset": {
+        "y": 0.5,
+        "x": 0,
+        "z": 0
+      },
+      "scale": 1.0
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.20
+      },
+    "colors": {
+      "accent": "#73ff57",
+      "base": "#242424"
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "botania:way"
+      }
+    }
+  }

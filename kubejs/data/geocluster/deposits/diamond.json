@@ -1,0 +1,43 @@
+{
+    "type": "geocluster:deposit_sparse",
+    "config": {
+        "yMin": -59,
+        "yMax": 0,
+        "size": 30,
+        "biomeTag": "#minecraft:is_overworld",
+        "spread": 10,
+        "generationWeight": 2,
+        "blocks": {
+            "default": [
+                {
+                    "block": "diamond_ore",
+                    "chance": 0.9
+                },
+                {
+                    "block": "coal_ore",
+                    "chance": 0.1
+                }
+            ],
+            "minecraft:deepslate": [
+                {
+                    "block": "deepslate_diamond_ore",
+                    "chance": 0.9
+                },
+                {
+                    "block": "deepslate_coal_ore",
+                    "chance": 0.1
+                }
+            ]
+        },
+        "samples": [
+            {
+                "block": "geocluster:diamond_ore_sample",
+                "chance": 0.4
+            },
+            {
+                "block": "geocluster:coal_ore_sample",
+                "chance": 0.6
+            }
+        ]
+    }
+}

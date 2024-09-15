@@ -1,0 +1,10 @@
+{
+	"output": "ad_astra:calorite_ingot",
+	"dirty_fat_name": "ore_fat.neepmeat.calorite.dirty",
+	"clean_fat_name": "ore_fat.neepmeat.calorite.clean",
+	"inputs": [
+		"ad_astra:raw_calorite"
+	],
+	"rendering_yield": 1.5,
+	"trommel_yield": 2
+}

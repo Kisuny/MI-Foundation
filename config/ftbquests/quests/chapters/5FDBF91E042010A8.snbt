@@ -1,0 +1,2722 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5FDBF91E042010A8"
+	group: "05C42DC8B5A65584"
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1b
+		id: "minecraft:elytra"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "5FDBF91E042010A8"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			description: [""]
+			id: "55DBFFD12FC460EF"
+			rewards: [{
+				advancement: "kubejs:endgame"
+				criterion: ""
+				id: "460BD90B6F4EF0F7"
+				team_reward: false
+				type: "advancement"
+			}]
+			tasks: [
+				{
+					id: "5E80AB05159E8D96"
+					item: "modern_industrialization:quantum_helmet"
+					type: "item"
+				}
+				{
+					id: "03BA6B44CECF9B89"
+					item: "modern_industrialization:quantum_chestplate"
+					type: "item"
+				}
+				{
+					id: "7073FE7B3AA4B7D9"
+					item: "modern_industrialization:quantum_leggings"
+					type: "item"
+				}
+				{
+					id: "38BB6645ED2C42FE"
+					item: "modern_industrialization:quantum_boots"
+					type: "item"
+				}
+				{
+					id: "5DE6BF1CC9CEEBFD"
+					item: "modern_industrialization:quantum_sword"
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["278D28FB8BCFC63D"]
+			id: "3E269B4986AB4167"
+			rewards: [
+				{
+					id: "5EAC203844D63408"
+					item: "kubejs:bee_queen"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "1EB6CF2D8799BF63"
+					item: "the_bumblezone:royal_jelly_bottle"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5E6A50E8FF8F1448"
+					item: "kubejs:mid_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "074FE679D887598B"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "6A60D732671169DA"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "the_bumblezone:the_bumblezone/the_queens_desire/journeys_end"
+				criterion: ""
+				id: "706080CEA4E3EFFF"
+				type: "advancement"
+			}]
+			title: "Любимец королевы"
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7240E63C6661148E"]
+			id: "58261B76F97C92EE"
+			rewards: [
+				{
+					count: 10
+					id: "062534818386EC08"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "66ED1D84AEC067EC"
+					item: "kubejs:magic_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6A0A81D8FEA0E9F8"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "455C5EB79C31B1A3"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "04C4D8910FA8B4D9"
+				item: {
+					Count: 1b
+					id: "timeinabottle:time_in_a_bottle"
+					tag: {
+						timeData: {
+							storedTime: 1800000
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Так ли сильно твоё терпение?"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["58261B76F97C92EE"]
+			id: "401AE053D4ADDC64"
+			rewards: [
+				{
+					count: 10
+					id: "16B27B13ED0418C5"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "31326F46D13D3CE8"
+					item: "kubejs:mid_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4D77CCFEEB5AECD7"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "6555B590A98C1D6A"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4191F6E5F85CEE5E"
+				item: {
+					Count: 1b
+					id: "timeinabottle:time_in_a_bottle"
+					tag: {
+						timeData: {
+							storedTime: 3600000
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Уверен ли ты в своей стойкости?"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["401AE053D4ADDC64"]
+			id: "5DF33FC78C3B7CB0"
+			rewards: [
+				{
+					count: 20
+					id: "410A9F7D38D32020"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "2D65AFE138802941"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7BF196B1A45F2100"
+					item: "kubejs:late_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1FC8B2AC905D2BED"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "396253374D5B92C0"
+				item: {
+					Count: 1b
+					id: "timeinabottle:time_in_a_bottle"
+					tag: {
+						timeData: {
+							storedTime: 5400000
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Мне уже не терпится!"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5DF33FC78C3B7CB0"]
+			id: "287F24E0E44112C7"
+			rewards: [
+				{
+					count: 30
+					id: "794C44C1E9B05E7D"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "298200355B1F643C"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "78777556B4743A35"
+					item: "kubejs:late_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "76BD3B091A1A7D1D"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "39B97498CA13E7C4"
+				item: {
+					Count: 1b
+					id: "timeinabottle:time_in_a_bottle"
+					tag: {
+						timeData: {
+							storedTime: 7200000
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Мам, ну еще 5 минуток"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["27D8C35FD6F61515"]
+			id: "6C41A08AB7064ED7"
+			rewards: [
+				{
+					id: "240F8420A3ABF456"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "31EBCFA6CD29C7BC"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2660D052B75CA34E"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "307C582CC839B1C8"
+					item: "kubejs:magic_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "27FA52E0CBC6E3DA"
+				item: {
+					Count: 1b
+					id: "spectrum:ink_flask"
+					tag: {
+						EnergyStore: {
+							Amount: 409600L
+							Color: "cyan"
+							MaxEnergyTotal: 409600L
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Небо"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["27D8C35FD6F61515"]
+			id: "370589962FE343DE"
+			rewards: [
+				{
+					id: "34E92CD2A7ECC534"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "32F286972593B91E"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6AD44CB3D550B49F"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1930108053E37E4D"
+					item: "kubejs:magic_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1D5E28E6666D484E"
+				item: {
+					Count: 1b
+					id: "spectrum:ink_flask"
+					tag: {
+						EnergyStore: {
+							Amount: 409600L
+							Color: "magenta"
+							MaxEnergyTotal: 409600L
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Розочка"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["27D8C35FD6F61515"]
+			id: "06A46B53EAE89371"
+			rewards: [
+				{
+					id: "4F6F173263F65A39"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "34BD9282F016C63A"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4B1A8CE09A91D93D"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4DEBBE630AE9CBCE"
+					item: "kubejs:magic_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "310A636176D0C150"
+				item: {
+					Count: 1b
+					id: "spectrum:ink_flask"
+					tag: {
+						EnergyStore: {
+							Amount: 409600L
+							Color: "yellow"
+							MaxEnergyTotal: 409600L
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Солнышко"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["27D8C35FD6F61515"]
+			id: "56709B1F0F29D812"
+			rewards: [
+				{
+					id: "581F47FE14969266"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2FF82638C31DC8AC"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "05862B0646DC3EBC"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3F917AAF83BC3E37"
+					item: "kubejs:magic_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B45983D187B3E14"
+				item: {
+					Count: 1b
+					id: "spectrum:ink_flask"
+					tag: {
+						EnergyStore: {
+							Amount: 409600L
+							Color: "black"
+							MaxEnergyTotal: 409600L
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Чернильница"
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["27D8C35FD6F61515"]
+			id: "6F28348D79BEF703"
+			rewards: [
+				{
+					id: "7A34266F9103404D"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6F3AA0C30E343C74"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5540127D0CFE6588"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0844A2F2BCFB58C3"
+					item: "kubejs:magic_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4951510CE673CF96"
+				item: {
+					Count: 1b
+					id: "spectrum:ink_flask"
+					tag: {
+						EnergyStore: {
+							Amount: 409600L
+							Color: "white"
+							MaxEnergyTotal: 409600L
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Чистый лист"
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["27D8C35FD6F61515"]
+			id: "4F1E0B42BB3B70B5"
+			rewards: [
+				{
+					id: "7C2773946B54B9B9"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1FA1673C1F649512"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "40F41A9BD160F0A6"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1709DEB46BD59EC5"
+					item: "kubejs:magic_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2DB7FE5C0BCCB113"
+				item: {
+					Count: 1b
+					id: "spectrum:ink_flask"
+					tag: {
+						EnergyStore: {
+							Amount: 409600L
+							Color: "orange"
+							MaxEnergyTotal: 409600L
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Апельсинчик"
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["27D8C35FD6F61515"]
+			id: "00CF65E34A3EDCA8"
+			rewards: [
+				{
+					id: "0AFE25F44CE2C6A4"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2BA1BD1E2C4E75DC"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "77FD4AE85561B69E"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7392EE2E29DC37C0"
+					item: "kubejs:magic_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3F0CBAB45AFC146D"
+				item: {
+					Count: 1b
+					id: "spectrum:ink_flask"
+					tag: {
+						EnergyStore: {
+							Amount: 409600L
+							Color: "lime"
+							MaxEnergyTotal: 409600L
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Листочек"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["27D8C35FD6F61515"]
+			id: "00ED2AC55FE35797"
+			rewards: [
+				{
+					id: "73229CE7CA4AC8C7"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "13D49D29541746AC"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "72A2294C1CD95C5F"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "250CC3F845C33BC2"
+					item: "kubejs:magic_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2691A14F1312600A"
+				item: {
+					Count: 1b
+					id: "spectrum:ink_flask"
+					tag: {
+						EnergyStore: {
+							Amount: 409600L
+							Color: "pink"
+							MaxEnergyTotal: 409600L
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Тюльпанчик"
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["27D8C35FD6F61515"]
+			id: "4DD5CBC5B1021B63"
+			rewards: [
+				{
+					id: "611680E8AB7E9352"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "081B2E7F1674343F"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "23904DA3B91E47E4"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "392169CB547808BE"
+					item: "kubejs:magic_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4528EE28A7726BEE"
+				item: {
+					Count: 1b
+					id: "spectrum:ink_flask"
+					tag: {
+						EnergyStore: {
+							Amount: 409600L
+							Color: "red"
+							MaxEnergyTotal: 409600L
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Арбузик"
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["27D8C35FD6F61515"]
+			id: "738A59058F26556D"
+			rewards: [
+				{
+					id: "7C9237F6DEF774E9"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "72B67A8DBCCC1BC8"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "284210DAD3A11D1D"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3A45B21165387C58"
+					item: "kubejs:magic_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "482BA00A35868E0C"
+				item: {
+					Count: 1b
+					id: "spectrum:ink_flask"
+					tag: {
+						EnergyStore: {
+							Amount: 409600L
+							Color: "light_blue"
+							MaxEnergyTotal: 409600L
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Голубые глазки"
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["27D8C35FD6F61515"]
+			id: "42C952287AA6ECC6"
+			rewards: [
+				{
+					id: "3B2BB6A0FBE404FF"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "74633310367FA244"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7E78C2E03313A409"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1864CB3A314FD729"
+					item: "kubejs:magic_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "445CD6647A4C865A"
+				item: {
+					Count: 1b
+					id: "spectrum:ink_flask"
+					tag: {
+						EnergyStore: {
+							Amount: 409600L
+							Color: "green"
+							MaxEnergyTotal: 409600L
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Кактусик"
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["27D8C35FD6F61515"]
+			id: "0F6DC180374EBC3A"
+			rewards: [
+				{
+					id: "7F63674BAB8171A5"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "702EBEF01DE6F33C"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4663F64EFCC04719"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6B377B5668CDD825"
+					item: "kubejs:magic_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "247EA6B6E11D10DC"
+				item: {
+					Count: 1b
+					id: "spectrum:ink_flask"
+					tag: {
+						EnergyStore: {
+							Amount: 409600L
+							Color: "blue"
+							MaxEnergyTotal: 409600L
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Водица"
+			x: 6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["27D8C35FD6F61515"]
+			id: "5F9B8D8747615ED8"
+			rewards: [
+				{
+					id: "14C2DFAC7A8B5192"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0096920A9241D84D"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4788525A89006AB4"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "762F0412192AC447"
+					item: "kubejs:magic_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0D6E47B70C07B707"
+				item: {
+					Count: 1b
+					id: "spectrum:ink_flask"
+					tag: {
+						EnergyStore: {
+							Amount: 409600L
+							Color: "purple"
+							MaxEnergyTotal: 409600L
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Ваше высочество"
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["27D8C35FD6F61515"]
+			id: "6D8360839FF6F0E7"
+			rewards: [
+				{
+					id: "0446FD71826EB792"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4CF59B2A9F3A44FE"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5B49FA38A86F6C5F"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "143D425D9FB5D91B"
+					item: "kubejs:magic_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7B19C01E773ACBEB"
+				item: {
+					Count: 1b
+					id: "spectrum:ink_flask"
+					tag: {
+						EnergyStore: {
+							Amount: 409600L
+							Color: "brown"
+							MaxEnergyTotal: 409600L
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Деревце"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["27D8C35FD6F61515"]
+			id: "385E9AA892799C6D"
+			rewards: [
+				{
+					id: "49B8ABA7996AA3A9"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "29B7497290049335"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "69177ADE8056BF2C"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "08BF184406E04CE3"
+					item: "kubejs:magic_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1624670117F6C4E0"
+				item: {
+					Count: 1b
+					id: "spectrum:ink_flask"
+					tag: {
+						EnergyStore: {
+							Amount: 409600L
+							Color: "light_gray"
+							MaxEnergyTotal: 409600L
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Непогода"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["27D8C35FD6F61515"]
+			id: "5288323BA449CACA"
+			rewards: [
+				{
+					id: "62CA511F305921E9"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5E62853F5A86F0ED"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6AAE56BA747D0BBB"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "17EE3E51C51885DD"
+					item: "kubejs:magic_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "67BBE65FBCFFE738"
+				item: {
+					Count: 1b
+					id: "spectrum:ink_flask"
+					tag: {
+						EnergyStore: {
+							Amount: 409600L
+							Color: "gray"
+							MaxEnergyTotal: 409600L
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Камешек"
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"15CA873EB2051888"
+				"01EEAB72478340F9"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Поднимитесь выше 1000 координаты Y в обычном мире"]
+			id: "31562F8CF94FD570"
+			rewards: [
+				{
+					count: 5
+					id: "001F1206EC61FC91"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2C0553B2C59B710C"
+					item: "kubejs:magic_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "51CD6B15D590350E"
+					item: "kubejs:mid_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7CD05724ACABFCE1"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "5A53D87CDD259607"
+				ignore_dimension: false
+				position: [I;
+					-1000000
+					1000
+					-1000000
+				]
+				size: [I;
+					1000000000
+					10
+					1000000000
+				]
+				title: "Высота 1000"
+				type: "location"
+			}]
+			title: "Выше небес"
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"15CA873EB2051888"
+				"01EEAB72478340F9"
+			]
+			dependency_requirement: "one_completed"
+			description: ["Опуститесь ниже -80 в обычном мире"]
+			id: "35B6A2A722CBB2D4"
+			rewards: [
+				{
+					count: 5
+					id: "0CE97369007222E2"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "185B5D9400837FB9"
+					item: "kubejs:magic_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "67069D3D412F6037"
+					item: "kubejs:mid_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0BAC8F92D41D59EB"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "08A70D9A53FC9C65"
+				ignore_dimension: false
+				position: [I;
+					-100000
+					-80
+					-100000
+				]
+				size: [I;
+					1000000000
+					1
+					1000000000
+				]
+				title: "Минус 80"
+				type: "location"
+			}]
+			title: "Ниже невозможного"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			id: "4F21189A951BA468"
+			rewards: [
+				{
+					count: 5
+					id: "5EEEC052D04954D3"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "373251F6B5649823"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "54C9EB476C359D91"
+				points: false
+				type: "xp"
+				value: 1000L
+			}]
+			title: "Жертва многих душ"
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["14EA312C45DCBA9E"]
+			id: "09D1BD408C262FA2"
+			rewards: [
+				{
+					count: 5
+					id: "4FB766D9F115E308"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "43A17E737F529B93"
+					item: "kubejs:magic_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7264DAA4312B570D"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "13EF5FC8966B5D83"
+					item: "kubejs:mid_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3BEB05BFF0EF5C5C"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "083BDC5175BE477B"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:dragon_egg"
+				id: "78575BC1D6C34C1B"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:dragon_egg"
+				type: "observation"
+			}]
+			title: "Момент, что бывает лишь однажды"
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["53A1D88D2F75E64E"]
+			description: [""]
+			id: "2CCE33A71B4E5215"
+			rewards: [
+				{
+					count: 50
+					id: "378DAAE4428A0726"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "72022DF06CCC269A"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "70F865D7A106B8A0"
+					item: "kubejs:early_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6A1D2DB3599DB09C"
+					item: "kubejs:mob_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4ED06EA362D28E90"
+				item: {
+					Count: 1b
+					id: "modern_industrialization:copper_barrel"
+					tag: {
+						BlockEntityTag: {
+							amt: 512L
+							item: {
+								item: "minecraft:copper_ingot"
+							}
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Медная бочка меди?"
+			x: 11.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["271D55F97C071D7F"]
+			description: [""]
+			id: "490BAA963105BC2B"
+			rewards: [
+				{
+					id: "1322E3CD76DB5F97"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "06A7CC5936278D99"
+					item: "kubejs:mob_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "26A9F101AE6FEA23"
+					item: "kubejs:early_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0DD139A5C92C2184"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3E447CDB8C874801"
+				item: {
+					Count: 1b
+					id: "modern_industrialization:iron_barrel"
+					tag: {
+						BlockEntityTag: {
+							amt: 1024L
+							item: {
+								item: "minecraft:iron_ingot"
+							}
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Железная бочка железа, да что такое"
+			x: 11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7BA65FBEC4145C0B"]
+			description: [""]
+			id: "682D1935B79E4A0E"
+			rewards: [
+				{
+					count: 2
+					id: "65576D6DA15A09B3"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "05579197B0E3D0CE"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "64FDA892FC401F6F"
+					item: "kubejs:mob_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2EAC0237931634FB"
+					item: "kubejs:early_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "673A75ABF000C459"
+				item: {
+					Count: 1b
+					id: "modern_industrialization:bronze_barrel"
+					tag: {
+						BlockEntityTag: {
+							amt: 2048L
+							item: {
+								item: "modern_industrialization:bronze_ingot"
+							}
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Бронзовая бочка бронзы, вы серьезно!?"
+			x: 11.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["72981C895B68314E"]
+			description: [""]
+			id: "39928CDD0960C594"
+			rewards: [
+				{
+					count: 5
+					id: "4364F45ECF0F5064"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "659607154AA190C5"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "424F2B5043A78684"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5D694B736F0E3D95"
+					item: "kubejs:early_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B6CAC22B95846CF"
+				item: {
+					Count: 1b
+					id: "modern_industrialization:steel_barrel"
+					tag: {
+						BlockEntityTag: {
+							amt: 8192L
+							item: {
+								item: "modern_industrialization:steel_ingot"
+							}
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Стальная бочка стали, ладно я понял к чему вы клоните"
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1F8141789D91549B"]
+			description: [""]
+			id: "01AAAFFBA923EBE1"
+			rewards: [
+				{
+					count: 10
+					id: "74BE2A6C52640C15"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "4BCCDDDAD04A93AE"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6ECB8E4CCE58F350"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "223E86186C86B6F4"
+					item: "kubejs:magic_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "510411AFE9890240"
+					item: "kubejs:mid_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "30F2F740A2D0310E"
+				item: {
+					Count: 1b
+					id: "modern_industrialization:aluminum_barrel"
+					tag: {
+						BlockEntityTag: {
+							amt: 32768L
+							item: {
+								item: "modern_industrialization:aluminum_ingot"
+							}
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Алюминиевая бочка алюминия, да, да, я понял"
+			x: 11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["39655A9986F3073E"]
+			description: [""]
+			id: "3F149D233394A685"
+			rewards: [
+				{
+					count: 15
+					id: "1C18F4E048BFEA3E"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "0459D72650C2EECB"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "652593453CED0AFA"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "64FE8FACB65303CD"
+					item: "kubejs:magic_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "095529B5A2BD84D5"
+					item: "kubejs:mid_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0403947A83B60C91"
+				item: {
+					Count: 1b
+					id: "modern_industrialization:stainless_steel_barrel"
+					tag: {
+						BlockEntityTag: {
+							amt: 262144L
+							item: {
+								item: "modern_industrialization:stainless_steel_ingot"
+							}
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Бочка из нержавеющей стали нержавающей стали, давайте дальше"
+			x: 11.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["01A3EC40901165C2"]
+			description: [""]
+			icon: {
+				Count: 1b
+				id: "modern_industrialization:titanium_barrel"
+				tag: {
+					BlockEntityTag: {
+						amt: 524288L
+						item: {
+							item: "modern_industrialization:titanium_ingot"
+						}
+						locked: 0b
+					}
+				}
+			}
+			id: "2BA9D9204855F9B4"
+			rewards: [
+				{
+					count: 20
+					id: "200498BB022B4BD4"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "4E02B5AD6D36CAA0"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1024A76ED25C2B78"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "003447A4A0C39DC9"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "368FAA7F6585618E"
+					item: "kubejs:mid_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "160089BE9B4991DD"
+				item: {
+					Count: 1b
+					id: "modern_industrialization:titanium_barrel"
+					tag: {
+						BlockEntityTag: {
+							amt: 524288L
+							item: {
+								item: "modern_industrialization:titanium_ingot"
+							}
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Титановая бочка титана, а мы и не ждали"
+			x: 11.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["62A382BB6FB7546E"]
+			description: [""]
+			id: "7131DE56A460867B"
+			rewards: [
+				{
+					count: 40
+					id: "06393B994F9CBF95"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "2B6B2B3B6D3CB630"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "46AC120B01C0B59B"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "30E3DB6C603C74F7"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "48291B42C502864D"
+					item: "kubejs:end_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "32942082CC929E32"
+				item: {
+					Count: 1b
+					id: "modern_industrialization:quantum_barrel"
+					tag: {
+						BlockEntityTag: {
+							amt: 137438953408L
+							item: {
+								item: "minecraft:dirt"
+							}
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Квантовая бочка грязи, пик совершенства"
+			x: 11.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7E3C5F934FB5E112"]
+			id: "5CE268118688721D"
+			rewards: [
+				{
+					count: 20
+					id: "54408299B8E6996E"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7D6DF5C8767760FE"
+					item: "kubejs:magic_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4A5B82EE3541F4C7"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "57ACB1B0D0BB5034"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1B633675A3E2CDDB"
+					item: {
+						Count: 1b
+						id: "gofish:blaze_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "20A83E6ED59449CD"
+					item: {
+						Count: 1b
+						id: "gofish:skeletal_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3309FE4F39D841B6"
+					item: {
+						Count: 1b
+						id: "gofish:diamond_reinforced_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5484B50F236A79E8"
+					item: {
+						Count: 1b
+						id: "gofish:ender_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57EC642BF61CCE81"
+					item: {
+						Count: 1b
+						id: "gofish:frosted_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CEFAC9D3EDDECE9"
+					item: {
+						Count: 1b
+						id: "gofish:slime_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4068106B634AB269"
+					item: {
+						Count: 1b
+						id: "gofish:soul_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "465455A7DFB2C700"
+					item: {
+						Count: 1b
+						id: "gofish:matrix_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E5BDFE7A804D295"
+					item: {
+						Count: 1b
+						id: "gofish:celestial_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1239F2D48D9AF1EE"
+					item: {
+						Count: 1b
+						id: "spectrum:lagoon_rod"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:lure"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FF9B4102D4B93D2"
+					item: {
+						Count: 1b
+						id: "spectrum:molten_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0460E97B04B2F6F3"
+					item: {
+						Count: 1b
+						id: "spectrum:bedrock_fishing_rod"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:luck_of_the_sea"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Собери их всех"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			id: "14EA312C45DCBA9E"
+			rewards: [
+				{
+					count: 5
+					id: "210A9F588F74CE6E"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4109BD1F3A642F51"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "38E9CED8D886AC50"
+					item: "kubejs:mob_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "439C2EE363F52DDF"
+					item: "kubejs:magic_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1854140BB214E893"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "minecraft:grass_block"
+					id: "0D72110F82A42FEE"
+					type: "dimension"
+				}
+				{
+					dimension: "minecraft:the_nether"
+					icon: "minecraft:netherrack"
+					id: "5A170017858384ED"
+					type: "dimension"
+				}
+				{
+					dimension: "minecraft:the_end"
+					icon: "minecraft:end_stone"
+					id: "590992C47BF7CE97"
+					type: "dimension"
+				}
+			]
+			title: "Посети их все"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"14EA312C45DCBA9E"
+				"46824E1174B4C5C1"
+			]
+			id: "66B7D0ED4EFAD17F"
+			rewards: [
+				{
+					count: 10
+					id: "4709AE603188EF3E"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "35797423238204C1"
+					item: "kubejs:mid_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "17FEC8DFEF7609EB"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					dimension: "ad_astra:moon"
+					icon: "ad_astra:moon_globe"
+					id: "350E49499755F592"
+					type: "dimension"
+				}
+				{
+					dimension: "ad_astra:moon_orbit"
+					icon: "ad_astra:moon_globe"
+					id: "4EF875C2D4841AFC"
+					type: "dimension"
+				}
+				{
+					dimension: "ad_astra:mars"
+					icon: "ad_astra:mars_globe"
+					id: "43000AD7A6983F0A"
+					type: "dimension"
+				}
+				{
+					dimension: "ad_astra:mars_orbit"
+					icon: "ad_astra:mars_globe"
+					id: "291C66E5C9A927D7"
+					type: "dimension"
+				}
+			]
+			title: "Облети их все"
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"66B7D0ED4EFAD17F"
+				"3E28F3AEA0B4ED2D"
+			]
+			id: "61E02629F0614F8F"
+			rewards: [
+				{
+					count: 10
+					id: "3E3D9BCD2AC3A364"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "68A3BE40D73B81AB"
+					item: "kubejs:mid_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1F5E9EA035A9D435"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					dimension: "ad_astra:mercury"
+					icon: "ad_astra:mercury_globe"
+					id: "0A8698E7C0762C92"
+					type: "dimension"
+				}
+				{
+					dimension: "ad_astra:mercury_orbit"
+					icon: "ad_astra:mercury_globe"
+					id: "6B84E3943C76306D"
+					type: "dimension"
+				}
+				{
+					dimension: "ad_astra:venus"
+					icon: "ad_astra:venus_globe"
+					id: "25D14829B93C6B58"
+					type: "dimension"
+				}
+				{
+					dimension: "ad_astra:venus_orbit"
+					icon: "ad_astra:venus_globe"
+					id: "56DEB20CE58CA5BD"
+					type: "dimension"
+				}
+			]
+			title: "Долети до всех"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"14EA312C45DCBA9E"
+				"038A12B861714416"
+			]
+			id: "4D2535CB79CD5BB2"
+			rewards: [
+				{
+					count: 10
+					id: "33578D4DF9303B92"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "551D84441270A456"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5604B771AD9E982F"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "38308EAB860AA298"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					dimension: "spectrum:deeper_down"
+					icon: "spectrum:blackslag"
+					id: "3B5E935A35332EC0"
+					type: "dimension"
+				}
+				{
+					dimension: "the_bumblezone:the_bumblezone"
+					icon: "minecraft:honeycomb_block"
+					id: "20934048296A5E29"
+					type: "dimension"
+				}
+			]
+			title: "Доберись до всех"
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"61E02629F0614F8F"
+				"3D3A11D0B00FF79B"
+			]
+			id: "0E0D37853BA8B98F"
+			rewards: [
+				{
+					count: 15
+					id: "1633A7C84FC74A5F"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "59C88A7D099DF44D"
+					item: "kubejs:late_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5DBE478DA20C0F7E"
+					item: "kubejs:late_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					dimension: "ad_astra:glacio"
+					icon: "ad_astra:glacio_globe"
+					id: "06B3672123924B1D"
+					type: "dimension"
+				}
+				{
+					dimension: "ad_astra:glacio_orbit"
+					icon: "ad_astra:glacio_globe"
+					id: "688BFE5DCBD6D563"
+					type: "dimension"
+				}
+				{
+					dimension: "ae2:spatial_storage"
+					icon: "ae2:spatial_pylon"
+					id: "5C19BA9A1492789A"
+					type: "dimension"
+				}
+			]
+			title: "Как я здесь оказался?"
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			id: "539C41669DBCD45F"
+			rewards: [
+				{
+					count: 25
+					id: "3E88458F023445DD"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0C96C4D866289722"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 99L
+				id: "68A8DED988676EEF"
+				item: "numismatic-overhaul:bronze_coin"
+				type: "item"
+			}]
+			title: "Крестьянин"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["539C41669DBCD45F"]
+			id: "336EDE6A79A735F0"
+			rewards: [
+				{
+					id: "7C3EF8B15E9E201E"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					id: "19D88EC18ADF509C"
+					item: "kubejs:mob_lootbag_rare"
+					type: "item"
+				}
+				{
+					id: "27BCE0047B845642"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "183F0AA4628AD8FB"
+					item: "kubejs:early_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "52A8133BB286A1D9"
+					item: "kubejs:magic_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 99L
+				id: "08C46CCB29FE07BE"
+				item: "numismatic-overhaul:silver_coin"
+				type: "item"
+			}]
+			title: "Средний класс"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["336EDE6A79A735F0"]
+			id: "4151CDCEE302E918"
+			rewards: [
+				{
+					count: 20
+					id: "284DC553DBF9D307"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "699BD02D7267CE17"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3A3AD3E2A632839B"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "02DFB2510CD01631"
+					item: "kubejs:mid_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 200L
+				id: "484FD963571EB5CD"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			title: "Скрудж Макдак"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"42C952287AA6ECC6"
+				"385E9AA892799C6D"
+				"738A59058F26556D"
+				"5F9B8D8747615ED8"
+				"370589962FE343DE"
+				"06A46B53EAE89371"
+				"5288323BA449CACA"
+				"4DD5CBC5B1021B63"
+				"6D8360839FF6F0E7"
+				"4F1E0B42BB3B70B5"
+				"56709B1F0F29D812"
+				"6F28348D79BEF703"
+				"0F6DC180374EBC3A"
+				"00CF65E34A3EDCA8"
+				"6C41A08AB7064ED7"
+				"00ED2AC55FE35797"
+			]
+			hide: false
+			id: "03F9A088E035318C"
+			rewards: [
+				{
+					count: 20
+					id: "44221C01F33687EC"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "42A09831425B14A8"
+					item: "kubejs:late_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "642A2E0EE2DFD422"
+					item: "kubejs:magic_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5098B598A06CFC7C"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "77A3DEC4480974F4"
+				title: "&4<shake>Ц</shake>&r&6<shake>в</shake>&r&e<shake>е</shake>&r&2<shake>т</shake>&r&b<shake>о</shake>&r&9<shake>в</shake>&r&5<shake>о</shake>&r&4<shake>й</shake>&r&6<shake>с</shake>&r&e<shake>п</shake>&r&2<shake>е</shake>&r&b<shake>к</shake>&r&9<shake>т</shake>&r&5<shake>р</shake>&r"
+				type: "checkmark"
+			}]
+			title: "&4<shake>Ц</shake>&r&6<shake>в</shake>&r&e<shake>е</shake>&r&2<shake>т</shake>&r&b<shake>о</shake>&r&9<shake>в</shake>&r&5<shake>о</shake>&r&4<shake>й</shake>&r &6<shake>с</shake>&r&e<shake>п</shake>&r&2<shake>е</shake>&r&b<shake>к</shake>&r&9<shake>т</shake>&r&5<shake>р</shake>&r"
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4BADF27AE07F51E1"]
+			id: "196B8968784E723B"
+			rewards: [
+				{
+					count: 15
+					id: "365CD16D00ED4CE4"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "46396B565847D617"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "400F41922C850D0A"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "75FD5DEDDC9490DE"
+					item: "kubejs:late_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "17F3E488223ED5F2"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			title: "Нам же хватит, верно?"
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"43A553FB4FB57468"
+				"196B8968784E723B"
+			]
+			id: "27538690D2764389"
+			rewards: [
+				{
+					count: 25
+					id: "0F01F638143FF1A9"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "348A86C18B1D1700"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5B3597A6F28B362A"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "16CFE74268CA5CAC"
+					item: "kubejs:end_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "72C0A2FAC75517E4"
+				item: "megacells:cell_component_256m"
+				type: "item"
+			}]
+			title: "Ну теперь должно хватить"
+			x: 12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["36A6C8F5E9DF089A"]
+			id: "7DD9A5678004F849"
+			rewards: [
+				{
+					count: 15
+					id: "308BA8DA76CB239C"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "08A7E05B169035ED"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "6DE9325CFE9FFB80"
+					item: "kubejs:end_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 7
+					id: "6006862BBBA3B524"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 36L
+					id: "7DD85E75D2F143C6"
+					item: "modern_industrialization:uranium_fuel_rod_quad"
+					match_nbt: true
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "72DF8D87A777779E"
+					item: "modern_industrialization:le_uranium_fuel_rod_quad"
+					match_nbt: false
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "1E2CF68878A4D2F9"
+					item: "modern_industrialization:he_uranium_fuel_rod_quad"
+					match_nbt: false
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "57C5525C08BCCE7B"
+					item: "modern_industrialization:le_mox_fuel_rod_quad"
+					match_nbt: false
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "0472EFA4831A0CA8"
+					item: "modern_industrialization:he_mox_fuel_rod_quad"
+					match_nbt: false
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "29DE936265F2DAB0"
+					item: "modern_industrialization:naquadah_fuel_rod_quad"
+					match_nbt: false
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "3489BD965BB6C703"
+					item: "modern_industrialization:uranium_fuel_rod_double"
+					match_nbt: false
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "5CF1794F5A2AA217"
+					item: "modern_industrialization:le_uranium_fuel_rod_double"
+					match_nbt: false
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "1D5ED8F226C7E840"
+					item: "modern_industrialization:he_uranium_fuel_rod_double"
+					match_nbt: false
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "65426D91EEF034FA"
+					item: "modern_industrialization:le_mox_fuel_rod_double"
+					match_nbt: false
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "5A7B719A28FB7418"
+					item: "modern_industrialization:he_mox_fuel_rod_double"
+					match_nbt: false
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "48AF3B791DDB194F"
+					item: "modern_industrialization:naquadah_fuel_rod_double"
+					match_nbt: false
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "16FBE4EA02E2ACE6"
+					item: "modern_industrialization:uranium_fuel_rod"
+					match_nbt: false
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "275C884E6883911D"
+					item: "modern_industrialization:le_uranium_fuel_rod"
+					match_nbt: false
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "498B13FA375E1DD5"
+					item: "modern_industrialization:he_uranium_fuel_rod"
+					match_nbt: false
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "1D8658F7A60C11EE"
+					item: "modern_industrialization:le_mox_fuel_rod"
+					match_nbt: false
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "73709D577BA9F5DD"
+					item: "modern_industrialization:he_mox_fuel_rod"
+					match_nbt: false
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "559CE9EE132639A4"
+					item: "modern_industrialization:naquadah_fuel_rod"
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "Какие вкусные мороженки"
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["35C701351DC293F2"]
+			id: "2C13DF977DCAD7F6"
+			rewards: [
+				{
+					count: 25
+					id: "7250928F0974B8B3"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "218EDFCC15AE11FB"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "68FD2A1FA6360D89"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4FFBA44BF40C2B74"
+					item: "kubejs:end_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "6A714C7A575DEA38"
+				item: "ae2:spatial_cell_component_128"
+				type: "item"
+			}]
+			title: "Истинно личное пространство"
+			x: 14.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6C520E6193CDDA83"]
+			id: "0C03A7DD7264AED4"
+			rewards: [
+				{
+					count: 15
+					id: "0F81FB074B3245F9"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5CA9B6D0AB74B10A"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "677DFD790C7EB214"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4EFB67579A30BFA8"
+					item: "kubejs:end_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "11D033F2D9D07DD6"
+				item: "fluxnetworks:gargantuan_flux_storage"
+				type: "item"
+			}]
+			title: "Проект \"Desertec\". В этот раз то получится?"
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["53A1D88D2F75E64E"]
+			description: [""]
+			id: "4A1366A3C6F3D7C3"
+			rewards: [
+				{
+					count: 50
+					id: "17127FC1830B0429"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "23F8C457C8D96FF8"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "15528E2BE6F0C292"
+					item: "kubejs:early_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0EAD73E488B55EAB"
+					item: "kubejs:mob_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "34A0D92B6D5D9C04"
+				item: {
+					Count: 1b
+					id: "modern_industrialization:tin_barrel"
+					tag: {
+						BlockEntityTag: {
+							amt: 512L
+							item: {
+								item: "modern_industrialization:tin_ingot"
+							}
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "Оловянная бочка олова, было же"
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["40E43CBA8B7D56EA"]
+			id: "57EC6CB3AE57430E"
+			rewards: [
+				{
+					count: 20
+					id: "134820C1FFC06011"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "3A20167828DD6E50"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "6D717CAED7E58F79"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5BADCB299140CDE5"
+					item: "kubejs:late_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "23CB74140E2F6107"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3AD3BB7047B48428"
+				item: "dankstorage:dank_7"
+				type: "item"
+			}]
+			title: "Собственная черная дыра"
+			x: 7.5d
+			y: -0.5d
+		}
+	]
+	title: "Испытания"
+}

@@ -1,0 +1,21 @@
+{
+  "state": {
+    "Name": "mythicmetals:orichalcum_ore"
+  },
+
+  "__comment0": "For auto-generated weights, count is the expected number of ore blocks per chunk.",
+  "__comment1": "Example: If emerald ore attempts to generate 200 times in clumps of 4, its count will be 800.",
+  "__comment2": "Don't be afraid of using very large numbers in order to out-compete the generated entries.",
+  "count": 0,
+
+  "modifiers": [
+    {
+      "type": "neepmeat:biome_list",
+      "value": 6000,
+      "function": "add",
+      "biomes": [
+        "terralith:orchid_swamp"
+      ]
+    }
+  ]
+}

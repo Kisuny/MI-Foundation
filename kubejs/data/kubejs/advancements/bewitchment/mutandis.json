@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "bwplus:mutandis"
+      },
+      "title": {
+        "translate": "advancement.kubejs.mutandis.title"
+      },
+      "description": {
+        "translate": "advancement.kubejs.mutandis.desc"
+      },
+      "frame": "task"
+    },
+    "parent": "kubejs:bewitchment/witch_cauldron",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["bwplus:mutandis"]
+            }
+          ]
+        }
+      }
+    }
+  }
+  

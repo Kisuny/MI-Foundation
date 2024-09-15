@@ -1,0 +1,399 @@
+{
+	name: "Техника"
+	item: "kubejs:photonic_circuit"
+	orders: [
+		{
+			id: 0
+			price: 200L
+			name: ""
+			questId: "47A87645847E6CCE"
+			item: "modern_industrialization:analog_circuit"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 1
+			price: 1000L
+			name: ""
+			questId: "0F013F8E4DF06E6B"
+			item: "modern_industrialization:electronic_circuit"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 2
+			price: 7500L
+			name: ""
+			questId: "0379CDF7FB133E48"
+			item: "modern_industrialization:digital_circuit"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 3
+			price: 20000L
+			name: ""
+			questId: "66A8FB4453F684C9"
+			item: "modern_industrialization:processing_unit"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 4
+			price: 75000L
+			name: ""
+			questId: "58C877DC86206A23"
+			item: "kubejs:photonic_circuit"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 5
+			price: 400000L
+			name: ""
+			questId: "2DA54757A3D7740E"
+			item: "modern_industrialization:quantum_circuit"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 6
+			price: 200L
+			name: ""
+			questId: "54CEC7BE4B675E7C"
+			item: "modern_industrialization:motor"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 7
+			price: 300L
+			name: ""
+			questId: "54CEC7BE4B675E7C"
+			item: "modern_industrialization:pump"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 8
+			price: 1100L
+			name: ""
+			questId: "54CEC7BE4B675E7C"
+			item: "modern_industrialization:robot_arm"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 9
+			price: 500L
+			name: ""
+			questId: "54CEC7BE4B675E7C"
+			item: "modern_industrialization:conveyor"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 10
+			price: 400L
+			name: ""
+			questId: "54CEC7BE4B675E7C"
+			item: "modern_industrialization:piston"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 11
+			price: 3000L
+			name: ""
+			questId: "0F013F8E4DF06E6B"
+			item: "modern_industrialization:large_motor"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 12
+			price: 6000L
+			name: ""
+			questId: "0F013F8E4DF06E6B"
+			item: "modern_industrialization:large_pump"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 13
+			price: 500L
+			name: ""
+			questId: "35535A22A83500CC"
+			item: "modern_industrialization:basic_machine_hull"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 14
+			price: 2000L
+			name: ""
+			questId: "3D1045C0C6B3BA08"
+			item: "modern_industrialization:advanced_machine_hull"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 15
+			price: 9000L
+			name: ""
+			questId: "2AC0E79728F4AA45"
+			item: "modern_industrialization:turbo_machine_hull"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 16
+			price: 24000L
+			name: ""
+			questId: "07612BDAA0EFA6E4"
+			item: "modern_industrialization:highly_advanced_machine_hull"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 17
+			price: 500000L
+			name: ""
+			questId: "0B96C1E27305CD1E"
+			item: "modern_industrialization:quantum_machine_hull"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 18
+			price: 1500L
+			name: ""
+			questId: "0FE22B84D5E55D28"
+			item: "modern_industrialization:advanced_motor"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 19
+			price: 35000L
+			name: ""
+			questId: "0FE22B84D5E55D28"
+			item: "modern_industrialization:large_advanced_motor"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 20
+			price: 2500L
+			name: ""
+			questId: "0FE22B84D5E55D28"
+			item: "modern_industrialization:advanced_pump"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 21
+			price: 90000L
+			name: ""
+			questId: "0FE22B84D5E55D28"
+			item: "modern_industrialization:large_advanced_pump"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 22
+			price: 3000L
+			name: ""
+			questId: "15CA873EB2051888"
+			item: { id: "ae2:sky_dust", Count: 64b }
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 23
+			price: 500L
+			name: ""
+			questId: "1576C225DFC4650C"
+			item: "neepmeat:enlightened_brain"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 24
+			price: 5000L
+			name: ""
+			questId: "5F3653747EC9ADCF"
+			item: "neepmeat:contractile_actuator"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 25
+			price: 500L
+			name: ""
+			questId: "58DC31CC3D243DCD"
+			item: "neepmeat:meat_steel_component"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 26
+			price: 1000L
+			name: ""
+			questId: "1ADE44FAAC0EB496"
+			item: "neepmeat:control_unit"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 27
+			price: 100000L
+			name: ""
+			questId: "3D2DD115DFBC388B"
+			item: "neepmeat:divine_organ"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 28
+			price: 200L
+			name: ""
+			questId: "4AB7E0D8F1B7390E"
+			item: "neepmeat:blood_bubble_sapling"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 29
+			price: 50L
+			name: ""
+			questId: "6F57E0A9A28BAD87"
+			item: "neepmeat:integration_charge_crude"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 30
+			price: 1500L
+			name: ""
+			questId: "737AFCC9E50FBD22"
+			item: "neepmeat:internal_components"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 31
+			price: 300000L
+			name: ""
+			questId: "0A89D032093A2712"
+			item: "ae2:flawless_budding_quartz"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 32
+			price: 1000L
+			name: ""
+			questId: "597070AC15C6CF1E"
+			item: {
+				id: "ae2:item_storage_cell_1k"
+				Count: 1b
+				tag: { }
+			}
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 33
+			price: 4000L
+			name: ""
+			questId: "597070AC15C6CF1E"
+			item: {
+				id: "ae2:item_storage_cell_4k"
+				Count: 1b
+				tag: { }
+			}
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 34
+			price: 16000L
+			name: ""
+			questId: "597070AC15C6CF1E"
+			item: {
+				id: "ae2:item_storage_cell_16k"
+				Count: 1b
+				tag: { }
+			}
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 35
+			price: 64000L
+			name: ""
+			questId: "597070AC15C6CF1E"
+			item: {
+				id: "ae2:item_storage_cell_64k"
+				Count: 1b
+				tag: { }
+			}
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 36
+			price: 100L
+			name: ""
+			questId: "682EB3FE11EA695F"
+			item: {
+				id: "ae2:fluid_storage_cell_1k"
+				Count: 1b
+				tag: { }
+			}
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 37
+			price: 4000L
+			name: ""
+			questId: "682EB3FE11EA695F"
+			item: {
+				id: "ae2:fluid_storage_cell_4k"
+				Count: 1b
+				tag: { }
+			}
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 38
+			price: 16000L
+			name: ""
+			questId: "682EB3FE11EA695F"
+			item: {
+				id: "ae2:fluid_storage_cell_16k"
+				Count: 1b
+				tag: { }
+			}
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 39
+			price: 64000L
+			name: ""
+			questId: "682EB3FE11EA695F"
+			item: {
+				id: "ae2:fluid_storage_cell_64k"
+				Count: 1b
+				tag: { }
+			}
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+	]
+	render_priority: 10
+}

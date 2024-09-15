@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "kubejs:witch_juniper_house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 754970180,
+    "spacing": 40,
+    "separation": 10
+  }
+}

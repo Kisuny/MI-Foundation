@@ -1,0 +1,21 @@
+  {
+    "display": {
+      "icon": {
+        "item": "bewitchment:blessed_stone"
+      },
+      "title": {
+        "translate": "advancement.kubejs.bewitchment_start.title"
+      },
+      "description": {
+        "translate": "advancement.kubejs.bewitchment_start.desc"
+      },
+      "background": "bewitchment:textures/block/juniper_planks.png",
+      "show_toast": false,
+      "announce_to_chat": false
+    },
+    "criteria": {
+      "trigger": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }

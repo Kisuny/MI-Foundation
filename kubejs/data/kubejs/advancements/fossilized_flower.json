@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "item": "kubejs:fossilized_pink_mystical_flower"
+      },
+      "title": {
+        "translate": "advancement.kubejs.fossilized_flower.title"
+      },
+      "description": {
+        "translate": "advancement.kubejs.fossilized_flower.desc"
+      },
+      "frame": "task"
+    },
+    "parent": "kubejs:root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "tag": "mif:fossilized_flower"
+            }
+          ]
+        }
+      }
+    }
+  }
+  

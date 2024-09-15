@@ -1,0 +1,31 @@
+{
+    "name": {
+      "color": "#30bd13",
+      "translate": "trofers.name.botania"
+    },
+    "item": {
+      "item": "botania:natura_pylon",
+      "count": 1
+    },
+    "display": {
+      "offset": {
+        "y": 1.5,
+        "x": 0,
+        "z": 0
+      },
+      "scale": 0.8
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.20
+      },
+    "colors": {
+      "accent": "#51f230",
+      "base": "#242424"
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "botania:altar_craft"
+      }
+    }
+  }

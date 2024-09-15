@@ -1,0 +1,167 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": {
+          "min": 1,
+          "max": 5
+        },
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "minecraft:gameplay/fishing/treasure"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "kubejs:mob_lootbag_epic"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "artifacts:antidote_vessel"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "things:hades_crystal"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:killed_by_player"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "majruszsaccessories:reverse_card"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "majruszsaccessories:removal_card"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "majruszsaccessories:gambling_card"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:killed_by_player"
+          },
+          {
+            "condition": "minecraft:random_chance_with_looting",
+            "chance": 0.7,
+            "looting_multiplier": 0.03
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 1,
+          "max": 10
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:blaze_rod",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0,
+                  "max": 4
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:nether_wart",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0,
+                  "max": 8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 7,
+            "name": "minecraft:soul_sand",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0,
+                  "max": 32
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 7,
+            "name": "minecraft:glowstone_dust",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0,
+                  "max": 22
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "endrem:nether_eye"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "endrem:lost_eye"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "endrem:cursed_eye"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:ghast_tear"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:netherite_scrap"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "minecraft:crying_obsidian"
+          }
+        ]
+      }
+    ]
+  }
+  

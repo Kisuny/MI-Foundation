@@ -1,0 +1,10 @@
+{
+	"output": "modern_industrialization:antimony_ingot",
+	"dirty_fat_name": "ore_fat.neepmeat.antimony.dirty",
+	"clean_fat_name": "ore_fat.neepmeat.antimony.clean",
+	"inputs": [
+		"modern_industrialization:raw_antimony"
+	],
+	"rendering_yield": 1.5,
+	"trommel_yield": 2
+}

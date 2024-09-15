@@ -1,0 +1,65 @@
+
+{
+   "type": "artis:dire_crafting_shaped",
+   "pattern": [
+     "FDEEEDF",
+     "DNMQMND",
+     "EMKCYME",
+     "EBCTCBE",
+     "EMJCUME",
+     "DNMLMND",
+     "FDEEEDF"
+   ],
+   "key": {
+     "F": {
+       "item": "botania:rune_sloth"
+     },
+     "D": {
+        "item": "itemalchemy:red_matter_block"
+     },
+     "E": {
+        "item": "itemalchemy:dark_matter_block"
+     },
+     "N": {
+        "item": "kubejs:neutronium_plate"
+     },
+     "M": {
+        "item": "mythicmetals:metallurgium_ingot"
+     },
+     "B": {
+        "item": "megacells:bulk_cell_component"
+     },
+     "C": {
+        "item": "kubejs:infinity_plate"
+     },
+     "T": {
+        "item": "botania:terra_plate"
+     },
+     "L": {
+        "item": "spectrum:moonstone_core"
+     },
+     "K": {
+        "item": "bosses_of_mass_destruction:void_thorn"
+     },
+     "U": {
+        "item": "bosses_of_mass_destruction:blazing_eye"
+     },
+     "Y": {
+        "item": "bosses_of_mass_destruction:obsidian_heart"
+     },
+     "J": {
+        "item": "bosses_of_mass_destruction:ancient_anima"
+     },
+     "Q": {
+        "item": "simplyswords:runic_tablet"
+     }
+   },
+   "result": {
+     "item": "itemalchemy:alchemy_table",
+     "count": 1
+   },
+   "catalyst": {
+     "item": "ae2:singularity"
+   },
+   "cost": 10
+}

@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "bewitchment:athame"
+      },
+      "title": {
+        "translate": "advancement.kubejs.athame.title"
+      },
+      "description": {
+        "translate": "advancement.kubejs.athame.desc"
+      },
+      "frame": "task"
+    },
+    "parent": "kubejs:bewitchment/bewitchment_start",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["bewitchment:athame"]
+            }
+          ]
+        }
+      }
+    }
+  }

@@ -1,0 +1,169 @@
+{
+	name: "Мифические металлы"
+	item: "mythicmetals:unobtainium"
+	orders: [
+		{
+			id: 0
+			price: 3000L
+			name: ""
+			questId: "30B0B28029118246"
+			item: "mythicmetals:adamantite_ingot"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 1
+			price: 1000L
+			name: ""
+			questId: "30B0B28029118246"
+			item: "mythicmetals:aquarium_ingot"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 2
+			price: 1000L
+			name: ""
+			questId: "30B0B28029118246"
+			item: "mythicmetals:banglum_ingot"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 3
+			price: 1500L
+			name: ""
+			questId: "30B0B28029118246"
+			item: "mythicmetals:carmot_ingot"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 4
+			price: 2000L
+			name: ""
+			questId: "30B0B28029118246"
+			item: "mythicmetals:kyber_ingot"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 5
+			price: 500L
+			name: ""
+			questId: "30B0B28029118246"
+			item: "mythicmetals:midas_gold_ingot"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 6
+			price: 2500L
+			name: ""
+			questId: "30B0B28029118246"
+			item: "mythicmetals:mythril_ingot"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 7
+			price: 2500L
+			name: ""
+			questId: "30B0B28029118246"
+			item: "mythicmetals:orichalcum_ingot"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 8
+			price: 2500L
+			name: ""
+			questId: "30B0B28029118246"
+			item: "mythicmetals:palladium_ingot"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 9
+			price: 2000L
+			name: ""
+			questId: "30B0B28029118246"
+			item: "mythicmetals:prometheum_ingot"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 10
+			price: 1500L
+			name: ""
+			questId: "30B0B28029118246"
+			item: "mythicmetals:quadrillum_ingot"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 11
+			price: 1500L
+			name: ""
+			questId: "30B0B28029118246"
+			item: "mythicmetals:runite_ingot"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 12
+			price: 1500L
+			name: ""
+			questId: "30B0B28029118246"
+			item: "mythicmetals:stormyx_ingot"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 13
+			price: 15000L
+			name: ""
+			questId: "30B0B28029118246"
+			item: "mythicmetals:unobtainium"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 14
+			price: 1000L
+			name: ""
+			questId: "30B0B28029118246"
+			item: { id: "mythicmetals:morkite", Count: 16b }
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 15
+			price: 2500L
+			name: ""
+			questId: "30B0B28029118246"
+			item: "mythicmetals:starrite"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 16
+			price: 60000L
+			name: ""
+			questId: "30B0B28029118246"
+			item: "mythicmetals:aquarium_pearl"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 17
+			price: 60000L
+			name: ""
+			questId: "30B0B28029118246"
+			item: "mythicmetals:banglum_chunk"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+	]
+	render_priority: 9
+}

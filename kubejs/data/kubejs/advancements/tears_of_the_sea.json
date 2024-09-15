@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "kubejs:tears_of_the_sea"
+    },
+    "title": {
+      "translate": "advancement.kubejs.tears_of_the_sea.title"
+    },
+    "description": {
+      "translate": "advancement.kubejs.tears_of_the_sea.desc"
+    },
+    "frame": "task"
+  },
+  "parent": "kubejs:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:tears_of_the_sea"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

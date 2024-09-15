@@ -1,0 +1,2915 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mi_steam_bronze"
+	group: "0EE6B87D2DF05DC9"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "modern_industrialization:bronze_machine_casing"
+	id: "2AB28D31ADD1193F"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "farmersdelight:textures/particle/steam_1.png"
+			rotation: 10.0d
+			width: 1.0d
+			x: -11.0d
+			y: -10.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "farmersdelight:textures/particle/steam_4.png"
+			rotation: 40.0d
+			width: 1.0d
+			x: -11.5d
+			y: -11.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "farmersdelight:textures/particle/steam_9.png"
+			rotation: -10.0d
+			width: 1.0d
+			x: -12.0d
+			y: -10.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["317AC41782EE6048"]
+			icon: "modern_industrialization:bronze_dust"
+			id: "457B76383A8437AC"
+			rewards: [
+				{
+					id: "5051BB6B8D3BF32B"
+					item: "kubejs:early_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "505627A822B26310"
+					item: "modern_industrialization:bronze_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Маленький шаг к большому прогрессу"
+			tasks: [{
+				id: "75FEFF08F337D959"
+				item: "modern_industrialization:bronze_dust"
+				type: "item"
+			}]
+			title: "первая бронза"
+			x: -10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["457B76383A8437AC"]
+			icon: "modern_industrialization:bronze_gear"
+			id: "4B0EF79E2F76FFDD"
+			rewards: [
+				{
+					id: "49EFF817D5FC8C04"
+					item: "kubejs:early_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "50DACFB0623AE14C"
+					item: "modern_industrialization:bronze_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "17A5579349FF8B3F"
+					item: "modern_industrialization:bronze_plate"
+					type: "item"
+				}
+				{
+					id: "736775D584C589C1"
+					item: "modern_industrialization:bronze_gear"
+					type: "item"
+				}
+				{
+					id: "4C3335F50E70922F"
+					item: "modern_industrialization:bronze_rotor"
+					type: "item"
+				}
+			]
+			title: "Бронзовые приколы"
+			x: -13.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4B0EF79E2F76FFDD"]
+			id: "6E5CD34258826606"
+			rewards: [
+				{
+					id: "5703B184C23D166B"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 2
+					id: "69074E8937583C91"
+					item: "modern_industrialization:bronze_machine_casing"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6B2DD107B06DA216"
+					item: "modern_industrialization:bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "42F9160185130B72"
+					item: "kubejs:mob_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "60275096AA04ED50"
+				item: "modern_industrialization:bronze_machine_casing"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5C1402F2D918D36E"]
+			id: "277995BA7B213635"
+			rewards: [
+				{
+					id: "625EB81D9C14C422"
+					item: "kubejs:early_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7930D1D2FE481E33"
+					item: "modern_industrialization:fire_clay_bricks"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1BBFF5B085160E6F"
+				item: "modern_industrialization:fire_clay_bricks"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["277995BA7B213635"]
+			description: ["&6Бойлер,&r &4первое&r производство &fпара&r"]
+			id: "19C2AE2E59D59B15"
+			rewards: [
+				{
+					id: "0A5C1E36154B58E1"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "718F0ABD304F0918"
+					item: "modern_industrialization:bronze_machine_casing"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "6E718EA2A680B71B"
+				item: "modern_industrialization:bronze_boiler"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"190AF318A0088ABD"
+				"6E5CD34258826606"
+			]
+			description: ["&6Помпа,&r &4бесконечно&r производит воду находясь рядом с источником воды"]
+			id: "0CC6D45FABE35CE8"
+			rewards: [
+				{
+					id: "61CDABCB05004B92"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "536984C605C3BB3B"
+					item: "modern_industrialization:bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "591E888D8D751DDD"
+					item: "modern_industrialization:bronze_machine_casing"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "4A1221D82A87014B"
+				item: "modern_industrialization:bronze_water_pump"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E5CD34258826606"]
+			description: ["&6Компрессор,&r автоматизация создания пластин"]
+			id: "673858A6525CC22D"
+			rewards: [
+				{
+					id: "2D15AECDADB2B3C9"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4AA0E5E997E6CCBB"
+					item: "modern_industrialization:bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "614A43197BC10344"
+					item: "modern_industrialization:bronze_machine_casing"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "4531CA2C09A2EF8B"
+				item: "modern_industrialization:bronze_compressor"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6E5CD34258826606"]
+			description: ["&6Резчик,&r более &4выгодная&r добыча досок, &4автоматизация&r производства стержней"]
+			id: "30A764597ABAD374"
+			rewards: [
+				{
+					id: "4F4C99ACF2C64F39"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0F84A22F772AACCB"
+					item: "modern_industrialization:bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "316784E4ED9449CA"
+					item: "modern_industrialization:bronze_machine_casing"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Резня"
+			tasks: [{
+				id: "2BC8D97DBC046CF4"
+				item: "modern_industrialization:bronze_cutting_machine"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E5CD34258826606"]
+			description: ["&6Желтенькая печка&r"]
+			id: "104688083BB190FA"
+			rewards: [
+				{
+					id: "32A63BDD46B41D3B"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "24A3E1D564CA2482"
+					item: "modern_industrialization:bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "3E7A39C278604EDC"
+					item: "modern_industrialization:bronze_machine_casing"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "259EF34A8ECC447A"
+				item: "modern_industrialization:bronze_furnace"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E5CD34258826606"]
+			description: ["&6Дробитель,&r &4больше&r ресурсов!"]
+			id: "36815FEB1B6AE7D6"
+			rewards: [
+				{
+					id: "5FCFD5E2723C4561"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7A0C330B7D59CD34"
+					item: "modern_industrialization:bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "334BF0AD7F6D65A9"
+					item: "modern_industrialization:bronze_machine_casing"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "1DDFEF30AAFC280B"
+				item: "modern_industrialization:bronze_macerator"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6E5CD34258826606"]
+			description: ["&6Миксер,&r позволяет &4смешивать&r разные ресурсы и материалы, бронзовый и стальной порошок здесь делается &4более выгодно&r"]
+			id: "146DDF9E9ED35527"
+			rewards: [
+				{
+					id: "09FA200F1C93FFBF"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0D1292FF1ED5CBD7"
+					item: "modern_industrialization:bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "1116084DD3482D6C"
+					item: "modern_industrialization:bronze_machine_casing"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "05CD70FA914839DE"
+				item: "modern_industrialization:bronze_mixer"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["146DDF9E9ED35527"]
+			id: "6BAA0FB832721D58"
+			rewards: [
+				{
+					id: "7DDDBBEE897AF8CB"
+					item: "kubejs:early_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5596C311B3A57534"
+					item: "modern_industrialization:battery_alloy_dust"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "57E6A9AC70EAD03A"
+				item: "modern_industrialization:battery_alloy_dust"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"3B3553CD6C797913"
+				"317AC41782EE6048"
+			]
+			description: ["&6Первый&r шаг к &0стали&r"]
+			id: "37A981E4343132BA"
+			rewards: [
+				{
+					id: "6484F13A4E1ACBCD"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0E8B19C1CE871958"
+					item: "modern_industrialization:steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "110B0660B350C4CF"
+				item: "modern_industrialization:uncooked_steel_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"17F3326A3A29CE1B"
+				"37A981E4343132BA"
+			]
+			id: "663BB2D450652922"
+			rewards: [
+				{
+					id: "48294EA59E85B468"
+					item: "kubejs:early_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "26E68F7AFDD6597B"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7FABEE2700C9F0ED"
+					item: "modern_industrialization:steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Добро пожаловать в стальной век"
+			tasks: [{
+				id: "6C55504012987D9A"
+				item: "modern_industrialization:steel_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["190C18AB20216705"]
+			id: "317AC41782EE6048"
+			rewards: [{
+				id: "0678D4EED612DDAA"
+				item: "kubejs:early_lootbag_uncommon"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "650E30CF03265BA3"
+					item: "modern_industrialization:tin_dust"
+					type: "item"
+				}
+				{
+					id: "2972395F926E64B6"
+					item: "modern_industrialization:copper_dust"
+					type: "item"
+				}
+				{
+					id: "561E2F80C5DD66E0"
+					item: "modern_industrialization:iron_dust"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1A4A037FE37A7621"
+				"60D3401A80517536"
+				"15C70EA11C59D04B"
+			]
+			id: "5C1402F2D918D36E"
+			rewards: [
+				{
+					id: "73D3094FD2340B1D"
+					item: "kubejs:early_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1D852409A3DC5747"
+					item: "modern_industrialization:fire_clay_bricks"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2E716DC4D3652281"
+				item: "modern_industrialization:fire_clay_dust"
+				type: "item"
+			}]
+			title: "Глиномесим по взрослому"
+			x: -13.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["190C18AB20216705"]
+			id: "60D3401A80517536"
+			rewards: [
+				{
+					id: "7A57F11368BDBEE4"
+					item: "kubejs:early_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7CA6B0631F8174B8"
+					item: "modern_industrialization:fire_clay_dust"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.8d
+			tasks: [{
+				id: "424DA099BB78EB18"
+				item: "architects_palette:algal_blend"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["190C18AB20216705"]
+			id: "1A4A037FE37A7621"
+			rewards: [
+				{
+					id: "409A63F7F66D0DD5"
+					item: "kubejs:early_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3F722FA11D0CF272"
+					item: "modern_industrialization:fire_clay_dust"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.8d
+			tasks: [{
+				id: "380AD5F33F9DCB3E"
+				item: "modern_industrialization:brick_dust"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"457B76383A8437AC"
+				"4B0EF79E2F76FFDD"
+			]
+			id: "190AF318A0088ABD"
+			rewards: [
+				{
+					id: "04A940E2802D70C7"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "406EF43F6DC5CA00"
+					item: "modern_industrialization:bronze_ingot"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "033129080D32213C"
+				item: "modern_industrialization:bronze_tank"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E5CD34258826606"]
+			description: ["&6Предметные входы/выходы&r, &4все&r взаимодействия предметов в &4мультиблоках&r происходят через них"]
+			id: "6C6CAEF6AD733543"
+			rewards: [
+				{
+					id: "65B983FF2B6E3F5C"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3A3978DB589898FF"
+					item: "modern_industrialization:bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "10E303350185004A"
+					item: "modern_industrialization:bronze_machine_casing"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5D6803709BB1DBE3"
+					item: "modern_industrialization:bronze_item_input_hatch"
+					type: "item"
+				}
+				{
+					id: "5901A368318DBA86"
+					item: "modern_industrialization:bronze_item_output_hatch"
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"190AF318A0088ABD"
+				"6E5CD34258826606"
+			]
+			description: ["&6Жидкостные шлюзы&r, &4все&r взаимодействия с жидкостями в &4мультиблоках&r происходят через них"]
+			id: "57B90A1758C82D2D"
+			rewards: [
+				{
+					id: "1A19C0764F108892"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1D9880D2CB270EE0"
+					item: "modern_industrialization:bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "1A8C3067E30012EF"
+					item: "modern_industrialization:bronze_machine_casing"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "2AE5541400910670"
+					item: "modern_industrialization:bronze_fluid_input_hatch"
+					type: "item"
+				}
+				{
+					id: "7D1192C4B9A9695C"
+					item: "modern_industrialization:bronze_fluid_output_hatch"
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6C6CAEF6AD733543"
+				"57B90A1758C82D2D"
+			]
+			description: ["&6Производство&r &8коксового&r угля"]
+			icon: "modern_industrialization:coke_oven"
+			id: "16F9EE5CED2EF23F"
+			rewards: [
+				{
+					id: "6423CF83058ABEDE"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0431E87527EA5384"
+					item: "kubejs:food_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3077B71DE3AA14FB"
+					item: "minecraft:bricks"
+					type: "item"
+				}
+				{
+					id: "36CBD23AC6674FDC"
+					item: "kubejs:mob_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "74F585127A81BE24"
+				item: "modern_industrialization:coke_oven"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["16F9EE5CED2EF23F"]
+			id: "3B3553CD6C797913"
+			rewards: [
+				{
+					id: "7ADAEF5BD05E0F38"
+					item: "kubejs:early_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5319F8C10BC245F4"
+					item: "modern_industrialization:bronze_ingot"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "697592D50987639D"
+					item: "modern_industrialization:coke"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "46EAC99B732F37E4"
+				item: "modern_industrialization:coke"
+				type: "item"
+			}]
+			title: "Казалось причём тут Яковлев?"
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["16F9EE5CED2EF23F"]
+			id: "691AB604733F17FD"
+			rewards: [
+				{
+					id: "1557307D94416991"
+					item: "kubejs:early_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "128696C5C521EB9C"
+					item: {
+						Count: 1b
+						id: "modern_industrialization:steel_tank"
+						tag: {
+							BlockEntityTag: {
+								amt: 648000L
+								fluid: {
+									fk: {
+										fluid: "modern_industrialization:creosote"
+									}
+								}
+								locked: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7371D878E4C42B81"
+				item: "modern_industrialization:creosote_bucket"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"691AB604733F17FD"
+				"146DDF9E9ED35527"
+			]
+			description: ["&6Ускоряет&r &4электрические машины&r если нажать пкм по машинке с рабочим крафтом. &4Некоторые&r крафты могут упираться в текущий &4лимит&r разгона и из-за этого не разгоняться, чтобы &aувеличить разгон&r добавьте ускорителей"]
+			id: "35021449B842E5CC"
+			rewards: [
+				{
+					id: "22376DDF53228A35"
+					item: "kubejs:early_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "136FDA3E8EF31F22"
+					item: {
+						Count: 1b
+						id: "modern_industrialization:steel_tank"
+						tag: {
+							BlockEntityTag: {
+								amt: 648000L
+								fluid: {
+									fk: {
+										fluid: "modern_industrialization:lubricant"
+									}
+								}
+								locked: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "смажь его "
+			tasks: [{
+				id: "2BE708B8652F94DB"
+				item: "modern_industrialization:lubricant_bucket"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["673858A6525CC22D"]
+			id: "6C0746AF44FBDACB"
+			rewards: [
+				{
+					id: "57F05803B9467C8E"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2400D58016961A71"
+					item: "modern_industrialization:diamond_plate"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "07827B98835EC32C"
+				item: "modern_industrialization:diamond_plate"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5DE30891CE57A8C2"]
+			id: "16746612F13DACA2"
+			rewards: [
+				{
+					id: "66DC894C48F01A26"
+					item: "kubejs:early_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "516B50F78A558FCB"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 2
+					id: "04D098CA7884B004"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0B0B58190BE4263B"
+				item: {
+					Count: 1b
+					id: "modern_industrialization:netherite_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6C0746AF44FBDACB"]
+			id: "5DE30891CE57A8C2"
+			rewards: [
+				{
+					id: "0F9920A8164C0FB5"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0AD443B65F21D188"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "30E9A1D2521A6835"
+				item: {
+					Count: 1b
+					id: "modern_industrialization:diamond_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"6C6CAEF6AD733543"
+				"57B90A1758C82D2D"
+			]
+			description: ["&6Производство&r &0стали&r и не только"]
+			icon: "modern_industrialization:steam_blast_furnace"
+			id: "17F3326A3A29CE1B"
+			rewards: [
+				{
+					id: "1CEA07798C8AF450"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3BBBAC6355DC5465"
+					item: "kubejs:food_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "65347F3E466008EA"
+					item: "kubejs:mob_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "577EE2625F55BCC0"
+					item: "modern_industrialization:fire_clay_bricks"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "091B00A2F0687C09"
+				item: "modern_industrialization:steam_blast_furnace"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6C0746AF44FBDACB"]
+			id: "3823C4560BD9A25B"
+			rewards: [
+				{
+					id: "4B8215E7D6C6A69D"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "466B44377D293E86"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "44EE4260EE023A1A"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1799020A18B31295"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2FF63ADD17E0667C"]
+			id: "72358B406B2E2ECA"
+			rewards: [
+				{
+					id: "5A2F861C1239D255"
+					item: "kubejs:early_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 15
+					id: "0B2E3787DEC991C6"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "660D1CAC4A0CDF5B"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 0.9d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "67005F7AF38162DC"
+				type: "dimension"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["19C2AE2E59D59B15"]
+			id: "7DA572239C90574D"
+			rewards: [
+				{
+					id: "6D4872ACE5FB2CCB"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1C52ED91BD11E214"
+					item: "kubejs:mob_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7C34ADBDFD8B5F4D"
+				item: "modern_industrialization:steam_bucket"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3823C4560BD9A25B"]
+			id: "4C6EE1ED6F46F8F6"
+			rewards: [
+				{
+					id: "2BCDEB13BB9E6295"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 3
+					id: "04339289DDB8E3FA"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Если бы мы знали что это такое...."
+			tasks: [{
+				id: "6A6C06F5BB51313C"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3B3553CD6C797913"]
+			id: "52A8120A9B4DEFD1"
+			rewards: [
+				{
+					id: "3733FB75B4C31CD6"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "72C7382D4C2303CB"
+					item: "modern_industrialization:coke"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "457FFB8948C740EE"
+				item: "modern_industrialization:raw_synthetic_oil_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["52A8120A9B4DEFD1"]
+			description: ["&6Удвоение красок&r и путь к &0резине&r"]
+			id: "03C994E0B1D0C4E8"
+			rewards: [
+				{
+					id: "58A2235C87CFCEC3"
+					item: "kubejs:early_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "55210C62A981F25A"
+					item: {
+						Count: 1b
+						id: "modern_industrialization:steel_tank"
+						tag: {
+							BlockEntityTag: {
+								amt: 648000L
+								fluid: {
+									fk: {
+										fluid: "modern_industrialization:synthetic_oil"
+									}
+								}
+								locked: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4618B0340330BDCB"
+					item: "modern_industrialization:coke"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "48CECD194866E1D5"
+				item: "modern_industrialization:synthetic_oil_bucket"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6C0746AF44FBDACB"]
+			description: ["Необходимо &4топливо&r и &9вода&r для работы. Ведро &9воды&r можно держать просто в инвентаре. Топливо нужно класть нажатием пкм &4топливом&r по буру в инвентаре"]
+			id: "518A669A3B812DC5"
+			rewards: [
+				{
+					id: "69AA26F04D6A4C3B"
+					item: "kubejs:early_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "38DE7F848CDE25E0"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 3
+					id: "26A5CAC05CED065E"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Твой лучший друг)"
+			tasks: [{
+				id: "3DADC34737C05A4E"
+				item: "modern_industrialization:steam_mining_drill"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["663BB2D450652922"]
+			id: "2FF63ADD17E0667C"
+			rewards: [{
+				id: "5B18CD97B960AD0B"
+				item: "kubejs:early_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 0.9d
+			tasks: [{
+				id: "75FD452B90C1D03F"
+				item: {
+					Count: 1b
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6B922FE87FE0719A"]
+			id: "15C70EA11C59D04B"
+			rewards: [
+				{
+					id: "17C1BD49635F5C92"
+					item: "kubejs:early_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 32
+					id: "506DC9AF14E791D0"
+					item: "architects_palette:cerebral_plate"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "38E5E3546C1221F0"
+				item: "architects_palette:cerebral_plate"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6E5CD34258826606"]
+			id: "6B922FE87FE0719A"
+			rewards: [
+				{
+					id: "4F2D680A2B6841A1"
+					item: "kubejs:early_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7D0EDA5CEF01747E"
+					item: "modern_industrialization:salt_dust"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "73F8A43200073AAF"
+				item: "modern_industrialization:salt_dust"
+				type: "item"
+			}]
+			title: "Из Питера с любовью!"
+			x: -13.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4C535D11E07E27DD"]
+			description: ["&6Стальная модернизация&r, позволяет &4улучшить&r машинку с &6бронзового&r до &0стального&r уровня"]
+			id: "6724BFC7CA1CC790"
+			rewards: [
+				{
+					id: "150EFB86E014F37F"
+					item: "kubejs:early_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7DABF0AF1A5B8BE4"
+					item: "modern_industrialization:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "0EB753C2B512019A"
+					item: "modern_industrialization:steel_upgrade"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7EA05D30AC9DF40A"
+				item: "modern_industrialization:steel_upgrade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6724BFC7CA1CC790"]
+			id: "2F3053D7D2CF87B0"
+			rewards: [
+				{
+					id: "771892E72379634B"
+					item: "kubejs:early_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7A44326920CC7759"
+					item: "modern_industrialization:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "2BCDD50680A82A55"
+					item: "modern_industrialization:steel_upgrade"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "042ECF1AD3D1C68E"
+				item: "modern_industrialization:steel_boiler"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["663BB2D450652922"]
+			id: "4C535D11E07E27DD"
+			rewards: [
+				{
+					id: "32A2150954655865"
+					item: "kubejs:early_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "40042FB03CD444E9"
+					item: "modern_industrialization:steel_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "00CB238A51D2FC7E"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					id: "0F135FF76B846CEB"
+					item: "kubejs:mob_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "2F8A5C0810454BEE"
+				item: "modern_industrialization:steel_machine_casing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6724BFC7CA1CC790"]
+			id: "3054A036AA8BD517"
+			rewards: [
+				{
+					id: "1181DA1D81D6D0E2"
+					item: "kubejs:early_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3F787FBBC22DB1CB"
+					item: "modern_industrialization:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "3615083FCB9AEF8B"
+					item: "modern_industrialization:steel_upgrade"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "311B77B1171A6259"
+				item: "modern_industrialization:steel_compressor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6724BFC7CA1CC790"]
+			id: "12C0557672603FE8"
+			rewards: [
+				{
+					id: "2B5E74878552C659"
+					item: "kubejs:early_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "249B379CB53F9FAE"
+					item: "modern_industrialization:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "42E84F2C6ADC2A7C"
+					item: "modern_industrialization:steel_upgrade"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "3022B52D76C3E339"
+				item: "modern_industrialization:steel_cutting_machine"
+				type: "item"
+			}]
+			title: "Резня v1.5"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6724BFC7CA1CC790"]
+			id: "0255D97A58270AB5"
+			rewards: [
+				{
+					id: "0C1B8EBBB5E1AEB8"
+					item: "kubejs:early_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "17255123EB4B4088"
+					item: "modern_industrialization:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "577793C2550FEF8D"
+					item: "modern_industrialization:steel_upgrade"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "6778830643EEFC6E"
+				item: "modern_industrialization:steel_furnace"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6724BFC7CA1CC790"]
+			id: "7A8F666339EFFECD"
+			rewards: [
+				{
+					id: "0B0814816C6812EF"
+					item: "kubejs:early_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0A3CF176E7E84D7D"
+					item: "modern_industrialization:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "66ACCC8353F7D8C4"
+					item: "modern_industrialization:steel_upgrade"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "73DC4B8A9639C9A1"
+				item: "modern_industrialization:steel_mixer"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6724BFC7CA1CC790"]
+			id: "4F37196C5F8C1C4F"
+			rewards: [
+				{
+					id: "0D583C32B4454EC9"
+					item: "kubejs:early_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "41AE072126ACC2EC"
+					item: "modern_industrialization:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "1E0B6808B773C342"
+					item: "modern_industrialization:steel_upgrade"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "0ACF531D01C61C5D"
+				item: "modern_industrialization:steel_macerator"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6724BFC7CA1CC790"]
+			id: "0BAD143ECF3B67F5"
+			rewards: [
+				{
+					id: "54941E97B068C22E"
+					item: "kubejs:early_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "57DA781A554F6E45"
+					item: "modern_industrialization:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "6905C300355855B7"
+					item: "modern_industrialization:steel_upgrade"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "16495FADA935C5EF"
+				item: "modern_industrialization:steel_water_pump"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4C535D11E07E27DD"]
+			description: [
+				"&6Прокаточный станок&r, &4путь&r к новым промежуточным материалам"
+				"&6Этот квест открывает новую ветку квестов!&r"
+			]
+			id: "6B8AD610BFDE2B3A"
+			rewards: [
+				{
+					id: "56C3F670E852F06F"
+					item: "kubejs:early_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2AE8B3958A2CAA11"
+					item: "modern_industrialization:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "622A707E68C5585B"
+					item: "modern_industrialization:steel_machine_casing"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "5F19A02D010EEF7E"
+				item: "modern_industrialization:steel_wiremill"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["74279E6C9D779E3B"]
+			description: [
+				"Порох позволяет &6ускорять&r механизмы."
+				""
+				"Но &41 порох&r может ускорить только на &92 минуты&r."
+				""
+				"Данный эффект стакается."
+			]
+			id: "5F6FA20B86978DD6"
+			rewards: [
+				{
+					id: "790D4FA555A6F280"
+					item: "kubejs:early_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1CE7AA327D5C6EC0"
+					item: "kubejs:mob_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "02DA789A6ED2A772"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["663BB2D450652922"]
+			id: "08A2A9F4E547A21D"
+			rewards: [
+				{
+					id: "25CDFD46245871EE"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "427F4498FC1AC7C3"
+					item: "modern_industrialization:steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "22214F2DA3210169"
+				item: "modern_industrialization:steel_tank"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["663BB2D450652922"]
+			id: "72981C895B68314E"
+			rewards: [
+				{
+					id: "40E3577170A3D322"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1EAF15CDD2C08306"
+					item: "modern_industrialization:steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "2D91058D682F36E1"
+				item: "modern_industrialization:steel_barrel"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"08A2A9F4E547A21D"
+				"4C535D11E07E27DD"
+			]
+			description: ["&6Мультиблок для хранения жидкостей&r, использует &4свои&r шлюзы для ввода/вывода жидкости"]
+			icon: "modern_industrialization:large_tank"
+			id: "11AD9604B352132F"
+			rewards: [
+				{
+					id: "0F0A9A3498BEB9FA"
+					item: "kubejs:early_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2C760C916A5BCA1B"
+					item: "modern_industrialization:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "5E63CD2A76A340B9"
+					item: "modern_industrialization:steel_machine_casing"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "2948C43E2A2C47FF"
+				item: "modern_industrialization:large_tank"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4C535D11E07E27DD"]
+			description: [
+				"&6Паровой карьер&r, &4ресурсы&r из воздуха, но нужны забурники"
+				""
+				"На каждом забурнике есть разное количество ресов. Если они прокнут все, а у вас слотов выхода меньше чем прокнувших типов, то те, что не влезли удалятся. Лучше ставьте на каждый тип руды с карьера по 1 слоту выхода"
+			]
+			id: "5EF849FFAF9AF69B"
+			rewards: [
+				{
+					id: "4007669D4BE84A1E"
+					item: "kubejs:early_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A6A547B86E3C5A1"
+					item: "modern_industrialization:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "0960DD57D7FD68A1"
+					item: "modern_industrialization:steel_machine_casing"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "3432D40F4A88799F"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "7D0EC0C0E172C16E"
+				item: "modern_industrialization:steam_quarry"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5EF849FFAF9AF69B"]
+			description: [
+				"Позволяет копать различные строительные блоки"
+				"- булыжник"
+				"- диорит"
+				"- андезит"
+				"- гранит"
+				"- земля"
+				"- гравий"
+				"- глубинный сланец"
+				"- туф"
+			]
+			id: "2C30187990B1378B"
+			rewards: [
+				{
+					id: "5E08E9AD741D0BFA"
+					item: "kubejs:early_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "29CE86B1C5FA1CB1"
+					item: "modern_industrialization:copper_drill"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "11A682B64E3682A1"
+				item: "modern_industrialization:copper_drill"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5EF849FFAF9AF69B"]
+			description: [
+				"Позволяет добывать базовые руды"
+				"- железо"
+				"- уголь"
+				"- лигнит"
+				"- медь"
+				"- олово"
+				"- золото"
+				"- редстоун"
+			]
+			id: "2F564636AF844954"
+			rewards: [
+				{
+					id: "0A4FD34F9C14D347"
+					item: "kubejs:early_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "788013988AF7DFE6"
+					item: "modern_industrialization:bronze_drill"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "060B94FC4CC04DAC"
+				item: "modern_industrialization:bronze_drill"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["663BB2D450652922"]
+			description: ["&4Уничтожает&r &6все&r предметы и жидкости, что в данный блок подаются"]
+			id: "758FD2B929E89B81"
+			rewards: [
+				{
+					id: "6E1856E878384454"
+					item: "kubejs:early_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "09CB855E4EDDBE06"
+					item: "kubejs:mob_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "65026BBF1CF3D77E"
+					item: "modern_industrialization:steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "385C68AA28D55BC0"
+				item: "modern_industrialization:trash_can"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["45AFA17F0E26641D"]
+			description: ["простой, медленный, крафтит бесплатно"]
+			id: "3C98775D704691C9"
+			rewards: [
+				{
+					id: "10F2BA127A00DBEC"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "62BD267356B9698F"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6DE3D5722B4655FD"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "56CAB988A4E96F3A"
+				item: "autoworkstations:iron_auto_crafting_table"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["36815FEB1B6AE7D6"]
+			id: "74279E6C9D779E3B"
+			rewards: [{
+				id: "75D00ED41E4DD8B0"
+				item: "kubejs:early_lootbag_uncommon"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0BA0B78D9AA94C00"
+				item: "modern_industrialization:sulfur_dust"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5EF849FFAF9AF69B"]
+			description: ["Основная добыча блоков руды происходит с помощью забурников разной степени сложности и прочности."]
+			id: "61E4571701C59249"
+			rewards: [
+				{
+					count: 8
+					id: "639F4E3AD2C48411"
+					item: "modern_industrialization:bronze_drill"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4FEB340902ACBF16"
+					item: "modern_industrialization:copper_drill"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "7A4918F00B6B72CE"
+				title: "Mining"
+				type: "checkmark"
+			}]
+			title: "Добыча ресурсов"
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4C535D11E07E27DD"]
+			description: ["&6Экстрактор жидкости&r, нужен в &4основном&r для краски и тканевой суспензии"]
+			id: "20003141A3AE3E89"
+			rewards: [
+				{
+					id: "6E3B0DEEC89789E5"
+					item: "kubejs:early_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "130B12E28C37C2A1"
+					item: "modern_industrialization:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "49FF28ABD060772B"
+					item: "modern_industrialization:steel_machine_casing"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "039D06324B188CDD"
+				item: "modern_industrialization:steel_fluid_extractor"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["457B76383A8437AC"]
+			description: [
+				"- базовая труба для перемежения предметов по инвентарям"
+				"- для извлечения предметов &lнеобходим&r извлекатель или предметная помпа"
+				"- предметы перемещаются не моментально"
+				"- плохая логистика может привести до застоя предметов в трубах. При слишком большом количестве предметов в трубе они начнут исчезать."
+				"- настройка выходов трубы осуществляется пкм пустой рукой по стороне трубы."
+				"- когда предмет в трубе имеет несколько возможных путей выбор производится случайно между инвентарями в которых есть место для данного предмета"
+				"- если выход оставить свободным, труба выбросит ресурсы в мир"
+			]
+			id: "45AFA17F0E26641D"
+			rewards: [
+				{
+					id: "63B9035DAF1597FF"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1F0ACD2EA403CEDB"
+					item: "modern_industrialization:bronze_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0DA89FCCEA3050F1"
+				item: "neepmeat:item_pipe"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["45AFA17F0E26641D"]
+			description: ["направляющая труба, предметы могут течь только в выбраном направлении"]
+			id: "097D946013284973"
+			rewards: [
+				{
+					id: "79AB9A7CFED4B35A"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6F568DC1E91C1DB2"
+					item: "modern_industrialization:bronze_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0FC3E1AF8F666935"
+				item: "neepmeat:merge_item_pipe"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["23FB9EE3D0145E87"]
+			id: "3F74F226C28AADCD"
+			rewards: [
+				{
+					id: "7E5D18E99BB47DB3"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3F8084829322BC5E"
+					item: "modern_industrialization:copper_plate"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "47029214F21AED1A"
+					item: "modern_industrialization:iron_plate"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "7F34E73B28F553E1"
+					item: "neepmeat:limiter_valve"
+					type: "item"
+				}
+				{
+					id: "36580D193CFD9564"
+					item: "neepmeat:stop_valve"
+					type: "item"
+				}
+			]
+			title: "Valves"
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["23FB9EE3D0145E87"]
+			id: "03EAE6B1EF9CFE77"
+			rewards: [
+				{
+					id: "2EB00B6768B1AEE9"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "154239BA01CE663B"
+					item: "modern_industrialization:copper_plate"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "45F7F6BD376434D9"
+					item: "modern_industrialization:iron_plate"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "0B0A68659CBF3C4C"
+					item: "neepmeat:filter_pipe"
+					type: "item"
+				}
+				{
+					id: "53591D1732771258"
+					item: "neepmeat:window_fluid_pipe"
+					type: "item"
+				}
+			]
+			title: "Special Pipes"
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["45AFA17F0E26641D"]
+			description: ["Извлекает по одному предмету за итерацию"]
+			id: "39EB115B78DEDCE4"
+			rewards: [
+				{
+					id: "0B00FF3FC3FEC4D0"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "70CD59DA908A9DC7"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6D492FE7687198B8"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "49D81A26F7564361"
+				item: "neepmeat:ejector"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["39EB115B78DEDCE4"]
+			description: [
+				"Извлекает по 16 предметов за итерацию."
+				""
+				"Если предметная помпа находиться между труб, то именно &lтрубы&r будут извлекать предметы из &lкаждого&r инвентаря."
+			]
+			id: "37AB2D4AFA5EB115"
+			rewards: [
+				{
+					id: "1C4DA7761B8564E6"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5B72FF4412851399"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "129E90B15127A532"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "16D40B89239F182F"
+				item: "neepmeat:item_pump"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["23FB9EE3D0145E87"]
+			description: [
+				"- необходима для течения жидкостей в любом направлении"
+				"- полезна только при использовании жидкостных труб из neepmeat"
+				"- необходим редстоун сигнал для работы."
+				"- shift+пкм для инвертирования (текущий режим отображается красной точкой)"
+				"- красная точка указывает направление &lоткуда&r забирается жидкость"
+			]
+			id: "7A61AF82650358A8"
+			rewards: [
+				{
+					id: "6DF6D67199CC903E"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "257C811F9DAC6A4F"
+					item: "modern_industrialization:copper_plate"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "292242F084F61F50"
+					item: "modern_industrialization:iron_plate"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "4AD472A0B26EC665"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "30BAB5F6CBF4B781"
+				item: "neepmeat:pump"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["663BB2D450652922"]
+			description: ["Верстак, что сохраняет предметы в сетке крафта"]
+			id: "14C1319ABECBD4C6"
+			rewards: [
+				{
+					id: "02A75BAF5F45A89B"
+					item: "kubejs:early_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "72A6F8B8F48CD57D"
+					item: "modern_industrialization:steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 0.9d
+			tasks: [{
+				id: "41F4BA5B692861F1"
+				item: "neepmeat:workstation"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["663BB2D450652922"]
+			description: [""]
+			id: "32A70DD76DC20D4E"
+			rewards: [
+				{
+					id: "782772B3A7FF985B"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1D2E0A3C8FC91DAE"
+					item: "modern_industrialization:steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 0.9d
+			tasks: [{
+				id: "6A813B78DF29795E"
+				item: "neepmeat:buffer"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6DF83BA3914DACDA"]
+			id: "07D775C3F4A378DA"
+			rewards: [
+				{
+					id: "2E660395DDF27C6F"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0CFC3B9E4593D483"
+					item: "modern_industrialization:copper_plate"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2850C7EC49487405"
+					item: "modern_industrialization:iron_plate"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "29126DB6C2AE7E12"
+				item: "neepmeat:multi_tank"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["23FB9EE3D0145E87"]
+			id: "6DF83BA3914DACDA"
+			rewards: [
+				{
+					id: "06BF732E1A22EBB6"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4F94CCBD7797825D"
+					item: "modern_industrialization:copper_plate"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2C1F8BD215D9FFA1"
+					item: "modern_industrialization:iron_plate"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3B8EE7EC34F3E5E4"
+					item: "neepmeat:basic_glass_tank"
+					type: "item"
+				}
+				{
+					id: "0A5D8BF18268F5C7"
+					item: "neepmeat:basic_tank"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["23FB9EE3D0145E87"]
+			id: "041FB651203936EB"
+			rewards: [
+				{
+					id: "7D6D5C40FE2F6FE4"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "51A2E095B27A21D1"
+					item: "modern_industrialization:copper_plate"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1BAA52DC342C8C4C"
+					item: "modern_industrialization:iron_plate"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "739D8CFFE3E1E06D"
+				item: "neepmeat:fluid_interface"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["663BB2D450652922"]
+			id: "52C385CCEB674DF2"
+			rewards: [
+				{
+					id: "338C20827F5B71DE"
+					item: "kubejs:early_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "17741199E51FB3A8"
+					item: "modern_industrialization:steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "0E6C786F9A129874"
+				item: "neepmeat:fluid_drain"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["317AC41782EE6048"]
+			description: [
+				"- не телепортирует жидкости"
+				"- чтобы забрать жидкость в пассивном режиме нужно поставить трубу снизу механизма"
+				"- скорость переливания ~ 200 mb/t"
+				"- самостоятельно не засасывает жидкости"
+				"- чтобы передать жидкость в пассивном режиме из \"A\" в \"B\" нужно чтобы \"A\" стоял (хотя бы) на блок выше чем \"B\""
+			]
+			id: "23FB9EE3D0145E87"
+			rewards: [
+				{
+					id: "2A711D443B6B3875"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3B170DAD3DF0882C"
+					item: "modern_industrialization:copper_plate"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0CECB358D90EF6DE"
+					item: "modern_industrialization:iron_plate"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5AD56754720BF195"
+				item: "neepmeat:fluid_pipe"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6DF83BA3914DACDA"]
+			id: "6B802D4E761A96EA"
+			rewards: [
+				{
+					id: "0FF0B5B640F67083"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "74A9B29FBD81EE85"
+					item: "modern_industrialization:copper_plate"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0623D3098F1F8588"
+					item: "modern_industrialization:iron_plate"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "62EDA103F68AEEC1"
+				item: "neepmeat:flex_tank"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["317AC41782EE6048"]
+			description: ["&6Бочечки&r, но поменьше"]
+			id: "53A1D88D2F75E64E"
+			rewards: [
+				{
+					id: "6140D747AF08CE89"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 32
+					id: "2E8B7980E6C07243"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "63F45D46A20C7BD0"
+					item: "modern_industrialization:tin_ingot"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "72756804FC38AA07"
+					item: "modern_industrialization:copper_barrel"
+					type: "item"
+				}
+				{
+					id: "3C385FCAD671F1EB"
+					item: "modern_industrialization:tin_barrel"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["457B76383A8437AC"]
+			id: "7BA65FBEC4145C0B"
+			rewards: [
+				{
+					id: "2C035589D9FA13E5"
+					item: "kubejs:early_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "628D65A8B78FE2BF"
+					item: "modern_industrialization:bronze_ingot"
+					type: "item"
+				}
+				{
+					id: "58352131399E0242"
+					item: "modern_industrialization:bronze_machine_casing"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "18F2CDE30EB84950"
+				item: "modern_industrialization:bronze_barrel"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["17F3326A3A29CE1B"]
+			id: "4AAE8853DAAE8A5B"
+			rewards: [
+				{
+					id: "27C7BF3BC57E1EC9"
+					item: "kubejs:early_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2E83AAE4422B2747"
+					item: {
+						Count: 1b
+						id: "modern_industrialization:steel_tank"
+						tag: {
+							BlockEntityTag: {
+								amt: 648000L
+								fluid: {
+									fk: {
+										fluid: "modern_industrialization:molten_redstone"
+									}
+								}
+								locked: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "4CC69D13E00DFACA"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5BCF1F11EC59AC4C"
+				item: "modern_industrialization:molten_redstone_bucket"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4AAE8853DAAE8A5B"]
+			description: ["&6Этот квест открывает новую ветку квестов!&r"]
+			id: "38755D32B509192B"
+			rewards: [
+				{
+					id: "6B3F2699246FFA19"
+					item: "kubejs:early_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4AF1E2E8EEF2655E"
+					item: "modern_industrialization:redstone_alloy_dust"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "75B64BA5FD362C77"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5CBD701465879AE0"
+				item: "modern_industrialization:redstone_alloy_dust"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["457B76383A8437AC"]
+			description: [
+				"&6гаечный ключ&r - твой первый помощник при прохождении модификации:"
+				"&4быстрое&r снятие бочек и резервуаров, а так же любых труб из этого же мода shift+пкм;"
+				"&4настройка&r сторон механизма нажатием shift+пкм по стороне/слоту на сетке;"
+				"&4подсветка&r мультиблочных конструкций при нахождении в руке"
+			]
+			id: "30CADCC78DEB5A80"
+			rewards: [
+				{
+					id: "6ADB233AC5D885DA"
+					item: "kubejs:early_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "78209538EEE0A7B1"
+					item: "modern_industrialization:bronze_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "529499BC8C07E122"
+				item: "modern_industrialization:wrench"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["457B76383A8437AC"]
+			description: ["Данная рамка позволяет создавать улучшения для ящиком из мода Extended Drawers"]
+			id: "75EDDE9875B87B5C"
+			rewards: [
+				{
+					id: "2C292EDEEA4E4693"
+					item: "kubejs:early_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0D1B12668FC1F95C"
+					item: "modern_industrialization:bronze_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3C8F5563D9BA3604"
+				item: "extended_drawers:upgrade_frame"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["75EDDE9875B87B5C"]
+			description: ["Увеличивает вместимость ящиков в 2 раза."]
+			id: "4205C72442E04D95"
+			rewards: [
+				{
+					id: "23FDFEA6985711B6"
+					item: "kubejs:early_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "73EF2F4A0D23CA41"
+					item: "modern_industrialization:bronze_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4836A2D56DCE519D"
+				item: "extended_drawers:t1_upgrade"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4205C72442E04D95"]
+			description: ["Увеличивает вместимость ящиков в 4 раза."]
+			id: "7C6E3F5D4A249CDB"
+			rewards: [
+				{
+					id: "0400C86D1A6EA422"
+					item: "kubejs:early_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5AE413700E5B421C"
+					item: "modern_industrialization:bronze_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7C1E2A563C1BCB6E"
+				item: "extended_drawers:t2_upgrade"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["663BB2D450652922"]
+			description: ["Данный молоточек позволяет отключать звуки у всех механизмов мода Modern Industrialization."]
+			id: "0C34AF516444E3E3"
+			tasks: [{
+				id: "625DC491F3CFC210"
+				item: "mi_sound_addon:mallet"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7A8F666339EFFECD"]
+			description: ["&6Ускоряет&r &4электрические машины&r если нажать пкм по машинке с рабочим крафтом. &4Некоторые&r крафты могут упираться в текущий &4лимит&r разгона и из-за этого не разгоняться, чтобы &aувеличить разгон&r добавьте ускорителей"]
+			id: "467133BBE2B0814A"
+			rewards: [
+				{
+					id: "2D2DFC1D1DC6E45C"
+					item: "kubejs:early_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "00FA35125496618E"
+					item: {
+						Count: 1b
+						id: "modern_industrialization:steel_tank"
+						tag: {
+							BlockEntityTag: {
+								amt: 648000L
+								fluid: {
+									fk: {
+										fluid: "modern_industrialization:lubricant"
+									}
+								}
+								locked: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "смажь его "
+			tasks: [{
+				id: "3A40DE32197A285E"
+				item: "modern_industrialization:lubricant_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7A8F666339EFFECD"]
+			id: "140C7D04F92FD839"
+			rewards: [
+				{
+					id: "38B55255778433EA"
+					item: "kubejs:early_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "426B3389605C96F3"
+					item: "modern_industrialization:battery_alloy_dust"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "023195955EBD4CD9"
+				item: "modern_industrialization:battery_alloy_dust"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6724BFC7CA1CC790"]
+			id: "0E991CE0FB49FDB6"
+			rewards: [
+				{
+					id: "636EB08486E7D179"
+					item: "kubejs:early_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5039681999E2AC09"
+					item: "modern_industrialization:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "0F247DD6300B70A1"
+					item: "modern_industrialization:steel_upgrade"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "75D4A8E9C2E2AE2E"
+				item: "modern_industrialization:steel_packer"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
+		}
+	]
+	title: "&7Пар всему голова"
+}

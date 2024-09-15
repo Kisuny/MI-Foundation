@@ -1,0 +1,31 @@
+{
+    "name": {
+      "color": "#73172f",
+      "translate": "trofers.name.bronze"
+    },
+    "item": {
+      "item": "modern_industrialization:bronze_machine_casing",
+      "count": 1
+    },
+    "display": {
+      "offset": {
+        "y": 1.0,
+        "x": 0.0,
+        "z": 0.0
+      },
+      "scale": 0.6
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.20
+      },
+    "colors": {
+      "accent": "#d3920f",
+      "base": "#242424"
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "mi_sound_addon:wrench"
+      }
+    }
+  }

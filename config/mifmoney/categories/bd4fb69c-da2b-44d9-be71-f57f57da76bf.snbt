@@ -1,0 +1,286 @@
+{
+	name: "Магия"
+	item: "spectrum:seven_league_boots"
+	orders: [
+		{
+			id: 0
+			price: 200000L
+			name: ""
+			questId: "0FDF4075616DAA33"
+			item: "spectrum:budding_topaz"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 1
+			price: 200000L
+			name: ""
+			questId: "0FDF4075616DAA33"
+			item: "spectrum:budding_citrine"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 2
+			price: 200000L
+			name: ""
+			questId: "0FDF4075616DAA33"
+			item: "minecraft:budding_amethyst"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 3
+			price: 200000L
+			name: ""
+			questId: "21E3A44EA5EDD677"
+			item: "spectrum:budding_onyx"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 4
+			price: 200000L
+			name: ""
+			questId: "5E97642FBAAC06F0"
+			item: "spectrum:budding_moonstone"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 5
+			price: 200L
+			name: ""
+			questId: "073DD25592290A3B"
+			item: "spectrum:paltaeria_fragments"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 6
+			price: 1500L
+			name: ""
+			questId: "77C55C5FFC84575B"
+			item: "spectrum:storm_stone"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 7
+			price: 40L
+			name: ""
+			questId: "5D68B3FB8BFFA7F5"
+			item: "spectrum:vegetal"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 8
+			price: 1500L
+			name: ""
+			questId: "1B8B44ABD0A94E55"
+			item: "spectrum:resonance_shard"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 9
+			price: 50000L
+			name: ""
+			questId: "7930FF093F85016E"
+			item: "spectrum:moonstone_core"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 10
+			price: 50000L
+			name: ""
+			questId: "477687E98C19ABAB"
+			item: "spectrum:downstone_fragments"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 11
+			price: 80L
+			name: ""
+			questId: "4973809A8C9088E0"
+			item: "spectrum:quitoxic_powder"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 12
+			price: 5000L
+			name: ""
+			questId: "3D28572AD9317891"
+			item: "spectrum:radiating_ender"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 13
+			price: 3000L
+			name: ""
+			questId: "3B68A7B5A1BB4D44"
+			item: "spectrum:refined_azurite"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 14
+			price: 350L
+			name: ""
+			questId: "182EBD1105CF57A7"
+			item: "spectrum:neolith"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 15
+			price: 1250L
+			name: ""
+			questId: "0EBE1EF0925CB824"
+			item: "spectrum:midnight_chip"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 16
+			price: 625L
+			name: ""
+			questId: "4C8E37AF899961F6"
+			item: "spectrum:bedrock_dust"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 17
+			price: 20000L
+			name: ""
+			questId: "034F516E1377D547"
+			item: "spectrum:refined_malachite"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 18
+			price: 5000L
+			name: ""
+			questId: "0B2AE0AB37EEE638"
+			item: "spectrum:dragonbone_chunk"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 19
+			price: 20000L
+			name: ""
+			questId: "6950DEEA33FD1127"
+			item: "spectrum:refined_bloodstone"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 20
+			price: 10000L
+			name: "16х Мистических цветов"
+			questId: "70C75CC5CB1EED26"
+			item: "botania:white_mystical_flower"
+			rewardTableId: "164C1CA4D37CEA4C"
+			bulkRewardTableId: ""
+		}
+		{
+			id: 21
+			price: 650L
+			name: ""
+			questId: "5E9A8B25A318CD11"
+			item: "botania:mana_powder"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 22
+			price: 650L
+			name: ""
+			questId: "5E9A8B25A318CD11"
+			item: "botania:manasteel_ingot"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 23
+			price: 5000L
+			name: ""
+			questId: "5E9A8B25A318CD11"
+			item: "botania:mana_pearl"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 24
+			price: 5000L
+			name: ""
+			questId: "5E9A8B25A318CD11"
+			item: "botania:mana_diamond"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 25
+			price: 1250L
+			name: ""
+			questId: "5E9A8B25A318CD11"
+			item: "botania:black_lotus"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 26
+			price: 1250L
+			name: ""
+			questId: "38FF97ECA70245E8"
+			item: "botania:elementium_ingot"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 27
+			price: 10000L
+			name: ""
+			questId: "38FF97ECA70245E8"
+			item: "botania:pixie_dust"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 28
+			price: 10000L
+			name: ""
+			questId: "38FF97ECA70245E8"
+			item: "botania:dragonstone"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 29
+			price: 50000L
+			name: ""
+			questId: "0FD878AAB9458CE9"
+			item: "botania:terrasteel_ingot"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+		{
+			id: 30
+			price: 37500L
+			name: ""
+			questId: "497403F1C4E2B052"
+			item: "botania:life_essence"
+			rewardTableId: ""
+			bulkRewardTableId: ""
+		}
+	]
+	render_priority: 10
+}

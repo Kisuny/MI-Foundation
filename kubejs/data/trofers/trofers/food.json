@@ -1,0 +1,31 @@
+{
+    "name": {
+      "color": "#73172f",
+      "translate": "trofers.name.food"
+    },
+    "item": {
+      "item": "farmersdelight:roast_chicken_block",
+      "count": 1
+    },
+    "display": {
+      "offset": {
+        "y": 1.0,
+        "x": 0.0,
+        "z": 0.0
+      },
+      "scale": 1.0
+    },
+    "animation": {
+        "type": "spinning",
+        "speed": 0.20
+      },
+    "colors": {
+      "accent": "#aa8c79",
+      "base": "#242424"
+    },
+    "effects": {
+      "sound": {
+        "soundEvent": "farmersdelight:block.skillet.add_food"
+      }
+    }
+  }

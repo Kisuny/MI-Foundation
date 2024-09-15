@@ -1,0 +1,33 @@
+
+{
+   "type": "artis:dire_crafting_shaped",
+   "pattern": [
+     "       ",
+     "II   II",
+     "IC   CI",
+     "IMI IBI",
+     "IJNCNTI",
+     " IGQSI ",
+     " CIIIC "
+   ],
+   "key": {
+     "I": { "item": "kubejs:infinity_plate" },
+     "C": { "item": "kubejs:infinity_catalyst" },
+     "M": { "item": "mythicmetals:metallurgium_chestplate" },
+     "J": { "item": "ad_astra:jet_suit" },
+     "N": { "item": "kubejs:neutronium_plate" },
+     "T": { "item": "botania:terrasteel_chestplate" },
+     "G": { "item": "modern_industrialization:gravichestplate" },
+     "Q": { "item": "modern_industrialization:quantum_upgrade" },
+     "S": { "item": "spectrum:bedrock_chestplate" },
+     "B": { "item": "the_bumblezone:bee_chestplate" }
+   },
+   "result": {
+     "item": "modern_industrialization:quantum_chestplate",
+     "count": 1
+   },
+   "catalyst": {
+     "item": "ae2:singularity"
+   },
+   "cost": 10
+}

@@ -1,0 +1,18 @@
+{
+    "type": "bewitchment:oil_recipe",
+    "ingredients": [
+      {
+        "item": "spirit:soul_powder_block"
+      },
+      {
+        "item": "bewitchment:belladonna"
+      },
+      {
+        "item": "kubejs:moth_wings"
+      }
+    ],
+    "result": {
+      "item": "bwplus:soul"
+    },
+    "color": 10019563
+  }

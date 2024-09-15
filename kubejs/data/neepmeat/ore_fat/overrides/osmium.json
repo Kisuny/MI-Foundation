@@ -1,0 +1,10 @@
+{
+	"output": "mythicmetals:osmium_ingot",
+	"dirty_fat_name": "ore_fat.neepmeat.osmium.dirty",
+	"clean_fat_name": "ore_fat.neepmeat.osmium.clean",
+	"inputs": [
+		"mythicmetals:raw_osmium"
+	],
+	"rendering_yield": 1.5,
+	"trommel_yield": 2
+}

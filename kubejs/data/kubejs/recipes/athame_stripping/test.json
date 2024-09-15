@@ -1,0 +1,8 @@
+{
+    "type": "bewitchment:athame_stripping",
+    "log": "spectrum:white_log",
+    "stripped_log": "spectrum:white_lamp",
+    "result": {
+      "item": "minecraft:creeper_head"
+    }
+  }

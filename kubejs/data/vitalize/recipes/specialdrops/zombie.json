@@ -1,0 +1,5 @@
+{
+    "type": "vitalize:special_drops",
+    "entity": "minecraft:zombie",
+    "drop": "minecraft:entities/zombie"
+}

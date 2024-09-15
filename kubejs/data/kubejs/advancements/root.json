@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "item": "kubejs:infinity_catalyst"
+      },
+      "title": {
+        "translate": "advancement.kubejs.root.title"
+      },
+      "description": {
+        "translate": "advancement.kubejs.root.desc"
+      },
+      "background": "modern_industrialization:textures/block/silicon_block.png",
+      "show_toast": false,
+      "announce_to_chat": false
+    },
+    "criteria": {
+      "trigger": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }

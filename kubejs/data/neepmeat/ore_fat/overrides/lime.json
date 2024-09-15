@@ -1,0 +1,12 @@
+{
+	"output": "spectrum:lime_pigment",
+	"dirty_fat_name": "ore_fat.neepmeat.lime_pigment.dirty",
+	"clean_fat_name": "ore_fat.neepmeat.lime_pigment.clean",
+	"inputs": [
+		"spectrum:lime_log",
+		"spectrum:lime_leaves",
+		"spectrum:lime_sapling"
+	],
+	"rendering_yield": 1,
+	"trommel_yield": 1.5
+}

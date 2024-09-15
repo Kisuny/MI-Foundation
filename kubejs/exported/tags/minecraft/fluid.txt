@@ -1,0 +1,137 @@
+To refresh this file, delete it and run /reload command again! Last updated: Feb 15, 2023, 1:09:07 PM
+
+#c:oxygen
+- #ad_astra:oxygen (from Ad Astra)
+
+#c:fuel
+- #ad_astra:fuel (from Ad Astra)
+
+#minecraft:water
+- minecraft:water (from Default)
+- minecraft:flowing_water (from Default)
+- ad_astra:fuel (from Ad Astra)
+- ad_astra:flowing_fuel (from Ad Astra)
+- ad_astra:oil (from Ad Astra)
+- ad_astra:flowing_oil (from Ad Astra)
+- ad_astra:cryo_fuel (from Ad Astra)
+- ad_astra:flowing_cryo_fuel (from Ad Astra)
+- chemlib:hydrogen_source (from ChemLib)
+- chemlib:hydrogen_flowing (from ChemLib)
+- chemlib:helium_source (from ChemLib)
+- chemlib:helium_flowing (from ChemLib)
+- chemlib:nitrogen_source (from ChemLib)
+- chemlib:nitrogen_flowing (from ChemLib)
+- chemlib:oxygen_source (from ChemLib)
+- chemlib:oxygen_flowing (from ChemLib)
+- chemlib:fluorine_source (from ChemLib)
+- chemlib:fluorine_flowing (from ChemLib)
+- chemlib:neon_source (from ChemLib)
+- chemlib:neon_flowing (from ChemLib)
+- chemlib:chlorine_source (from ChemLib)
+- chemlib:chlorine_flowing (from ChemLib)
+- chemlib:argon_source (from ChemLib)
+- chemlib:argon_flowing (from ChemLib)
+- chemlib:bromine_source (from ChemLib)
+- chemlib:bromine_flowing (from ChemLib)
+- chemlib:krypton_source (from ChemLib)
+- chemlib:krypton_flowing (from ChemLib)
+- chemlib:xenon_source (from ChemLib)
+- chemlib:xenon_flowing (from ChemLib)
+- chemlib:mercury_source (from ChemLib)
+- chemlib:mercury_flowing (from ChemLib)
+- chemlib:radon_source (from ChemLib)
+- chemlib:radon_flowing (from ChemLib)
+- chemlib:carbon_dioxide_source (from ChemLib)
+- chemlib:carbon_dioxide_flowing (from ChemLib)
+- chemlib:ethylene_source (from ChemLib)
+- chemlib:ethylene_flowing (from ChemLib)
+- chemlib:ethanol_source (from ChemLib)
+- chemlib:ethanol_flowing (from ChemLib)
+- chemlib:ammonium_source (from ChemLib)
+- chemlib:ammonium_flowing (from ChemLib)
+- chemlib:methane_source (from ChemLib)
+- chemlib:methane_flowing (from ChemLib)
+- chemlib:ethane_source (from ChemLib)
+- chemlib:ethane_flowing (from ChemLib)
+- chemlib:propane_source (from ChemLib)
+- chemlib:propane_flowing (from ChemLib)
+- chemlib:butane_source (from ChemLib)
+- chemlib:butane_flowing (from ChemLib)
+- chemlib:pentane_source (from ChemLib)
+- chemlib:pentane_flowing (from ChemLib)
+- chemlib:hexane_source (from ChemLib)
+- chemlib:hexane_flowing (from ChemLib)
+- chemlib:epinephrine_source (from ChemLib)
+- chemlib:epinephrine_flowing (from ChemLib)
+- chemlib:hydrochloric_acid_source (from ChemLib)
+- chemlib:hydrochloric_acid_flowing (from ChemLib)
+- chemlib:sulfur_dioxide_source (from ChemLib)
+- chemlib:sulfur_dioxide_flowing (from ChemLib)
+- chemlib:sulfuric_acid_source (from ChemLib)
+- chemlib:sulfuric_acid_flowing (from ChemLib)
+- chemlib:nitric_acid_source (from ChemLib)
+- chemlib:nitric_acid_flowing (from ChemLib)
+- chemlib:nitrogen_dioxide_source (from ChemLib)
+- chemlib:nitrogen_dioxide_flowing (from ChemLib)
+- chemlib:ammonia_source (from ChemLib)
+- chemlib:ammonia_flowing (from ChemLib)
+- chemlib:hydrogen_sulfide_source (from ChemLib)
+- chemlib:hydrogen_sulfide_flowing (from ChemLib)
+- chemlib:acetylene_source (from ChemLib)
+- chemlib:acetylene_flowing (from ChemLib)
+- chemlib:acetic_acid_source (from ChemLib)
+- chemlib:acetic_acid_flowing (from ChemLib)
+- chemlib:carbon_monoxide_source (from ChemLib)
+- chemlib:carbon_monoxide_flowing (from ChemLib)
+- chemlib:nitric_oxide_source (from ChemLib)
+- chemlib:nitric_oxide_flowing (from ChemLib)
+- chemlib:carbon_disulfide_source (from ChemLib)
+- chemlib:carbon_disulfide_flowing (from ChemLib)
+- chemlib:sulfur_trioxide_source (from ChemLib)
+- chemlib:sulfur_trioxide_flowing (from ChemLib)
+
+#ad_astra:oxygen
+- ad_astra:oxygen (from Ad Astra)
+
+#ad_astra_platform:oil
+- #c:oil? (from Ad Astra)
+- #forge:oil? (from Ad Astra)
+
+#ae2:blacklisted/annihilation_plane
+
+#c:water
+- #minecraft:water? (from Fabric Convention Tags)
+
+#c:oil
+- #ad_astra:oil (from Ad Astra)
+
+#c:lava
+- #minecraft:lava? (from Fabric Convention Tags)
+
+#minecraft:lava
+- minecraft:lava (from Default)
+- minecraft:flowing_lava (from Default)
+
+#ad_astra_platform:fuel
+- #c:fuel? (from Ad Astra)
+- #forge:fuel? (from Ad Astra)
+
+#ad_astra:fuel
+- ad_astra:fuel (from Ad Astra)
+- ad_astra:flowing_fuel (from Ad Astra)
+- #ad_astra:efficient_fuel (from Ad Astra)
+
+#ad_astra:efficient_fuel
+- ad_astra:cryo_fuel (from Ad Astra)
+- ad_astra:flowing_cryo_fuel (from Ad Astra)
+
+#ad_astra_platform:oxygen
+- #c:oxygen? (from Ad Astra)
+- #forge:oxygen? (from Ad Astra)
+
+#ad_astra:oil
+- ad_astra:oil (from Ad Astra)
+- ad_astra:flowing_oil (from Ad Astra)
+- techreborn:oil? (from Ad Astra)
+- modern_industrialization:crude_oil? (from Ad Astra)
+- #forge:crude_oil? (from Ad Astra)

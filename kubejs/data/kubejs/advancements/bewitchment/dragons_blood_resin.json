@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "bewitchment:dragons_blood_resin"
+      },
+      "title": {
+        "translate": "advancement.kubejs.dragons_blood_resin.title"
+      },
+      "description": {
+        "translate": "advancement.kubejs.dragons_blood_resin.desc"
+      },
+      "frame": "task"
+    },
+    "parent": "kubejs:bewitchment/collect_saplings",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["bewitchment:dragons_blood_resin"]
+            }
+          ]
+        }
+      }
+    }
+  }

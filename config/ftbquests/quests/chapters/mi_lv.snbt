@@ -1,0 +1,2206 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mi_lv"
+	group: "0EE6B87D2DF05DC9"
+	hide_quest_until_deps_visible: true
+	icon: "modern_industrialization:basic_machine_hull"
+	id: "54A7D818871746EF"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["38755D32B509192B"]
+			id: "283D320D84F5DA27"
+			rewards: [
+				{
+					id: "73ECC28C1B111FFA"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "5127DA5F80255C10"
+					item: "wiredredstone:redstone_alloy_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4D814F679E45D2AD"
+				item: "wiredredstone:redstone_alloy_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"6BAA0FB832721D58"
+				"140C7D04F92FD839"
+			]
+			id: "2B526E0A7964227D"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "73218B30681CA11D"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "37335BAD5573B75E"
+					item: "modern_industrialization:battery_alloy_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0368AFE2157F9BDB"
+				item: "modern_industrialization:battery_alloy_ingot"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"2B526E0A7964227D"
+				"283D320D84F5DA27"
+			]
+			id: "50C0CA3FC79847C4"
+			rewards: [
+				{
+					id: "73A9000875B14373"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "16B41E32FFBC2BB1"
+					item: "modern_industrialization:redstone_battery"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "52E607217784F2A8"
+				item: "modern_industrialization:redstone_battery"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["6B8AD610BFDE2B3A"]
+			id: "5DEE383284AE4BAB"
+			rewards: [
+				{
+					id: "39D915213942B3A2"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "00AAF37EEE8201A2"
+					item: {
+						Count: 1b
+						id: "modern_industrialization:steel_tank"
+						tag: {
+							BlockEntityTag: {
+								amt: 648000L
+								fluid: {
+									fk: {
+										fluid: "modern_industrialization:synthetic_rubber"
+									}
+								}
+								locked: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4DFAAD7689F1514B"
+				item: "modern_industrialization:synthetic_rubber_bucket"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"5DEE383284AE4BAB"
+				"6CB0AB70A7C895DF"
+			]
+			id: "1F8334B32EF9B88F"
+			rewards: [
+				{
+					id: "168AB27ABF86B4E6"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "24E3CEBD5AFBF40E"
+					item: "modern_industrialization:rubber_sheet"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "588E5971338B0636"
+				item: "modern_industrialization:rubber_sheet"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6B8AD610BFDE2B3A"]
+			id: "04008A2653644B8F"
+			rewards: [
+				{
+					id: "189407D2915C68DB"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5E6ABF6903B29A49"
+					item: "modern_industrialization:copper_fine_wire"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "727D282C741C7AF2"
+					item: "modern_industrialization:copper_wire"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "38B5FDFF5396B463"
+					item: "modern_industrialization:copper_wire"
+					type: "item"
+				}
+				{
+					id: "50121384DED0E38F"
+					item: "modern_industrialization:copper_fine_wire"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6CB0AB70A7C895DF"]
+			id: "7E63EDDC72BBB25F"
+			rewards: [
+				{
+					id: "419989C85914F0B0"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "567DBC0B2D69ADBA"
+					item: "modern_industrialization:resistor"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "62995359F0411403"
+				item: "modern_industrialization:resistor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["04008A2653644B8F"]
+			id: "05343AFAF4AE966D"
+			rewards: [
+				{
+					id: "02B920579559AFF8"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "312A107F6050BAAF"
+					item: "modern_industrialization:inductor"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2F1ACC3CA95E5B16"
+				item: "modern_industrialization:inductor"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1F8334B32EF9B88F"
+				"04008A2653644B8F"
+			]
+			id: "6C7A52A24E8E87C9"
+			rewards: [
+				{
+					id: "48AD0BA98A6D529E"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5D03FE25D5397614"
+					item: "modern_industrialization:capacitor"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "35142E4654799F41"
+				item: "modern_industrialization:capacitor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1F8334B32EF9B88F"]
+			id: "6F083D50E077414B"
+			rewards: [
+				{
+					id: "5256D6186937646E"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5508308904ACA3E5"
+					item: "modern_industrialization:analog_circuit_board"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "244093316CF2EE48"
+				item: "modern_industrialization:analog_circuit_board"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6F083D50E077414B"
+				"7E63EDDC72BBB25F"
+				"05343AFAF4AE966D"
+				"6C7A52A24E8E87C9"
+			]
+			id: "47A87645847E6CCE"
+			rewards: [
+				{
+					id: "0A18765A84D2EA5F"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "30670804926FBB4A"
+					item: "modern_industrialization:analog_circuit"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "277029269A89A1DA"
+					item: "modern_industrialization:resistor"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "488E26D94EF5DCA3"
+					item: "modern_industrialization:inductor"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "4DF9D5AE014E556D"
+					item: "modern_industrialization:capacitor"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "49155225E8BBC95B"
+					item: "modern_industrialization:analog_circuit_board"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "607F20EDBF4DD052"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2CF03BBAE1F11BC8"
+					item: "modern_industrialization:bronze_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7475197AA743B83F"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5B7D08882737070D"
+					item: "modern_industrialization:tin_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "49F905DEDB4BC580"
+					item: "kubejs:mob_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "65580E3DA3930A44"
+					item: "modern_industrialization:steel_block"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "22BB792EC1121211"
+				item: "modern_industrialization:analog_circuit"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6B8AD610BFDE2B3A"]
+			id: "6CB0AB70A7C895DF"
+			rewards: [
+				{
+					id: "78E91CDE21671087"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "4A08DACA01D30851"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "101ECA1470142499"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "361952974424F2DC"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"50C0CA3FC79847C4"
+				"47A87645847E6CCE"
+			]
+			id: "35535A22A83500CC"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "759E34CC2A62F976"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "530E54360263CD9F"
+					item: "modern_industrialization:basic_machine_hull"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "607A6FAFC2071DB8"
+					item: "kubejs:mob_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "59F41AEEC878C8DD"
+				item: "modern_industrialization:basic_machine_hull"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["47A87645847E6CCE"]
+			icon: "modern_industrialization:large_steam_boiler"
+			id: "07D42A18DA84F509"
+			rewards: [
+				{
+					id: "77014095DD65C531"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "506F148A77A228E4"
+					item: "modern_industrialization:analog_circuit"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4A4DC5C4693056A5"
+					item: "kubejs:mob_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "621A38F7268D5791"
+					item: "kubejs:mid_lootbag_rare"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "37BFFD76DC55341C"
+				item: "modern_industrialization:large_steam_boiler"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["54CEC7BE4B675E7C"]
+			description: ["Паровая турбина, позволяет добывать электричество из пара"]
+			id: "2C87E5A18CDBD27A"
+			rewards: [
+				{
+					id: "104B74A3E67E9687"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "6B72C079EE223517"
+					item: "modern_industrialization:basic_machine_hull"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6D552B121ED9BB9C"
+					item: "modern_industrialization:lv_steam_turbine"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "20FCB694E57202A9"
+					item: "modern_industrialization:tin_cable"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "13894E2786E0A7E3"
+					item: "modern_industrialization:analog_circuit"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4AFE1396B3704F7B"
+					item: "kubejs:mob_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "20F29E362560409B"
+				item: "modern_industrialization:lv_steam_turbine"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2C87E5A18CDBD27A"]
+			description: ["&6Накопитель энергии&r, для зарядки электрических инструментов или брони нажмите &4пкм&r по накопителю"]
+			id: "3C5FA124A54C0133"
+			rewards: [
+				{
+					id: "0603205B3AAE4855"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "28C9481B5C8A8856"
+					item: "modern_industrialization:basic_machine_hull"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0BF4E544A6017D90"
+					item: "modern_industrialization:analog_circuit"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "74115C540C37E7C7"
+				item: "modern_industrialization:lv_storage_unit"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["35535A22A83500CC"]
+			hide_dependency_lines: false
+			icon: "modern_industrialization:motor"
+			id: "54CEC7BE4B675E7C"
+			rewards: [
+				{
+					id: "6102942E1416FF52"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "074B39619F741B4B"
+					item: "modern_industrialization:motor"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7ED9C65CD9E52026"
+					item: "modern_industrialization:pump"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5631DB34D7998DD1"
+					item: "modern_industrialization:piston"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4536FBF48754E1B8"
+					item: "modern_industrialization:conveyor"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6E2709BC57A1D0D2"
+					item: "modern_industrialization:robot_arm"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "299508B303871310"
+					item: "modern_industrialization:motor"
+					type: "item"
+				}
+				{
+					id: "311DB9B931F433B5"
+					item: "modern_industrialization:pump"
+					type: "item"
+				}
+				{
+					id: "50F80AFB9877EFD9"
+					item: "modern_industrialization:piston"
+					type: "item"
+				}
+				{
+					id: "3C149F94E70B5F06"
+					item: "modern_industrialization:conveyor"
+					type: "item"
+				}
+				{
+					id: "5E6437A6A32A406B"
+					item: "modern_industrialization:robot_arm"
+					type: "item"
+				}
+			]
+			title: "Детали механизмов"
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["47A87645847E6CCE"]
+			id: "7281FDAB6AA4AA1F"
+			rewards: [{
+				id: "68C2F5509DEF4712"
+				item: "kubejs:mid_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5E63DF5D00A979DB"
+				item: "modern_industrialization:portable_storage_unit"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2C87E5A18CDBD27A"]
+			description: ["Поляризатор, еще одна машинка для производства промежуточных материалов"]
+			id: "12BD6B070D6B55EC"
+			rewards: [
+				{
+					id: "0CEA4CD73F63145D"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "4B4AE4024DA09839"
+					item: "modern_industrialization:basic_machine_hull"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0491225A8A94262C"
+					item: "modern_industrialization:analog_circuit"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "505BB3196B811562"
+				item: "modern_industrialization:polarizer"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2C87E5A18CDBD27A"]
+			description: ["Сборщик, многие крафты из верстака возможны в данной машинке, а так же некоторые крафты возможны сначала только через сборщик"]
+			id: "26128DB1415D22BC"
+			rewards: [
+				{
+					id: "7F13D066DF1D471D"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "5031B8C094A98F28"
+					item: "modern_industrialization:basic_machine_hull"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6CAEF9BE3E819AE3"
+					item: "modern_industrialization:analog_circuit"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "1DEFD7C52C7806E8"
+				item: "modern_industrialization:assembler"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["2C87E5A18CDBD27A"]
+			id: "09359DE603AA2A55"
+			rewards: [
+				{
+					id: "696C401D15531BAE"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "6E9612E7488DE0B5"
+					item: "modern_industrialization:basic_machine_hull"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "789246A4CD7A608D"
+					item: "modern_industrialization:analog_circuit"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "3040722132324CA5"
+				item: "modern_industrialization:electric_compressor"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2C87E5A18CDBD27A"]
+			id: "77A2910DC54A3597"
+			rewards: [
+				{
+					id: "0B3DB6EEA3EA8483"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "59242D7DBFD12D6A"
+					item: "modern_industrialization:basic_machine_hull"
+					type: "item"
+				}
+				{
+					id: "64D367107C82CDBD"
+					item: {
+						Count: 1b
+						id: "modern_industrialization:aluminum_tank"
+						tag: {
+							BlockEntityTag: {
+								amt: 1296000L
+								fluid: {
+									fk: {
+										fluid: "modern_industrialization:lubricant"
+									}
+								}
+								locked: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "20811514D832A761"
+					item: "modern_industrialization:analog_circuit"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "482AA3E39F38A930"
+				item: "modern_industrialization:electric_cutting_machine"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2C87E5A18CDBD27A"]
+			id: "2F6D2886D54C0CF0"
+			rewards: [
+				{
+					id: "160DD534BAF1F050"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "745226BBA18C1EFE"
+					item: "modern_industrialization:basic_machine_hull"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "70D2F43041DBA37E"
+					item: "modern_industrialization:analog_circuit"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "11D40D8BACB477E3"
+				item: "modern_industrialization:electric_furnace"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2C87E5A18CDBD27A"]
+			id: "0B8523585CB79D41"
+			rewards: [
+				{
+					id: "504D3D883C5089DE"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "7C38EE6772862F61"
+					item: "modern_industrialization:basic_machine_hull"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1A27677B13589B0F"
+					item: "modern_industrialization:analog_circuit"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "099FE779F5DB859D"
+				item: "modern_industrialization:electric_macerator"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["2C87E5A18CDBD27A"]
+			description: ["&6Добавляет&r &4возможность&r крафтить некоторые вещи, что ранее были доступны только через верстак, в угоду возможности &4автоматизации&r"]
+			id: "132428B927F9BF07"
+			rewards: [
+				{
+					id: "04FEBEDEFA603026"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "31ACF0C64438DA59"
+					item: "modern_industrialization:basic_machine_hull"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "196171590DAA5F08"
+					item: "modern_industrialization:analog_circuit"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "4C4E33C8CDB6BCBC"
+				item: "modern_industrialization:electric_packer"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2C87E5A18CDBD27A"]
+			id: "515C19F5E9DBD0E1"
+			rewards: [
+				{
+					id: "3CB43BD287BD7EE7"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "53FF590A1EB4C6D8"
+					item: "modern_industrialization:basic_machine_hull"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7904C660CD4AF834"
+					item: "modern_industrialization:analog_circuit"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "6C14A5560E322D0E"
+				item: "modern_industrialization:electric_wiremill"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2C87E5A18CDBD27A"]
+			id: "630016D1CA5ECC74"
+			rewards: [
+				{
+					id: "4341FE42BDD1D793"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "2DD56E730E12C55A"
+					item: "modern_industrialization:basic_machine_hull"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5451FA8D3759FE95"
+					item: "modern_industrialization:analog_circuit"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "62847663DFF43982"
+				item: "modern_industrialization:electric_water_pump"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3387FCCF2E3B857B"]
+			id: "102B8197BB09AAF2"
+			rewards: [
+				{
+					id: "295C979F6BEF4432"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6F4FEFCC57C5D9DA"
+					item: "modern_industrialization:invar_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "178BAE9E6D7A6278"
+				item: "modern_industrialization:invar_ingot"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["3387FCCF2E3B857B"]
+			id: "1AC11A9AAE45A014"
+			rewards: [
+				{
+					id: "70380F6195450434"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "36B4194874B80DBB"
+					item: "modern_industrialization:cupronickel_coil"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "006BA6C08516ABE5"
+				item: "modern_industrialization:cupronickel_coil"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2C87E5A18CDBD27A"]
+			id: "3387FCCF2E3B857B"
+			rewards: [
+				{
+					id: "4F412917EC6DCA82"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "60F22F313BA62C77"
+					item: "modern_industrialization:basic_machine_hull"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "719AA217D304CE77"
+					item: "modern_industrialization:analog_circuit"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "015CCE8FCE60B08E"
+				item: "modern_industrialization:electric_mixer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: [
+				"102B8197BB09AAF2"
+				"1AC11A9AAE45A014"
+			]
+			description: [
+				"&4Улучшенная версия&r &6доменной печи&r, дальнейшее её улучшение происходит через замену катушек"
+				"&6Этот квест открывает новую ветку квестов!&r"
+			]
+			icon: "modern_industrialization:electric_blast_furnace"
+			id: "57886FF598451010"
+			rewards: [
+				{
+					id: "3A470EDF0AB09933"
+					item: "kubejs:mid_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "773736E43F34BD15"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "49F0B1C944AF96E6"
+					item: "modern_industrialization:lv_steam_turbine"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "44D3F079D3C7D830"
+					item: "kubejs:mob_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5A2CB8B1144BF1EA"
+					item: "modern_industrialization:electric_blast_furnace"
+					type: "item"
+				}
+				{
+					id: "201F2DEF2BAFB1D0"
+					item: "modern_industrialization:steel_item_input_hatch"
+					type: "item"
+				}
+				{
+					id: "2AEA52F03CC60ACA"
+					item: "modern_industrialization:steel_item_output_hatch"
+					type: "item"
+				}
+				{
+					id: "22B0A51F1683AB0C"
+					item: "modern_industrialization:lv_energy_input_hatch"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2C87E5A18CDBD27A"]
+			description: ["&6Камера пиролиза&r, более быстрая коксовая печь и не только!"]
+			icon: "modern_industrialization:pyrolyse_chamber"
+			id: "39BB7A893BC32686"
+			rewards: [
+				{
+					id: "6A8E7062518FBA24"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "37253E87974551CA"
+					item: "modern_industrialization:basic_machine_hull"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0053C9CFDFBAEC74"
+					item: "modern_industrialization:analog_circuit"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "542BE1F700FA88E4"
+				item: "modern_industrialization:pyrolyse_chamber"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["2C87E5A18CDBD27A"]
+			id: "649E2B9CF32A694A"
+			rewards: [
+				{
+					id: "64D0202F2BD0E6C6"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "08D555369A7CB17D"
+					item: "modern_industrialization:basic_machine_hull"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "41A814B25C90B4B2"
+					item: "modern_industrialization:analog_circuit"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "40C463BA125D04A1"
+				item: "modern_industrialization:electric_fluid_extractor"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["47A87645847E6CCE"]
+			description: ["Является основным элементом для простейшей логистики труб. Не пропускает блоки сквозь себя, вместо этого принимает те блоки которые указаны в фильтре и передаёт их в выходе соответственного цвета."]
+			id: "0737D169DFB3A47A"
+			rewards: [
+				{
+					id: "38C0F3454F2EF722"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "63C764106EE63735"
+					item: "modern_industrialization:analog_circuit"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "32852FABE5176663"
+				item: "neepmeat:router"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47A87645847E6CCE"]
+			description: ["При редстоун сигнале, извлекает определённое количество жидкости из хранилища и выпускает её в систему труб."]
+			id: "6555DBE436704301"
+			rewards: [
+				{
+					id: "6CEA4E941F4BDE24"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4214CD04868F7872"
+					item: "modern_industrialization:analog_circuit"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "59364C2AE44A5FF4"
+				item: "neepmeat:fluid_rationer"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["283D320D84F5DA27"]
+			description: ["Позволяет автоматически крафтить предметы. Также является основной станцией для крафта продвинутых редстоун компонент."]
+			id: "332119345C45976C"
+			rewards: [
+				{
+					id: "68E0430A64796115"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5371A834162F5E6F"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "6F02076E7CAB5E07"
+				item: "wiredredstone:redstone_assembler"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["332119345C45976C"]
+			id: "17FE01EEA624616A"
+			rewards: [
+				{
+					id: "35C71C89715E40A9"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "20B94E8803282770"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "77853399BF725580"
+					item: "wiredredstone:redstone_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7E03E049E873130A"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "20846CEF274E8AF0"
+				item: "wiredredstone:red_alloy_wire"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["17FE01EEA624616A"]
+			id: "2967C78F538C5ECD"
+			rewards: [
+				{
+					id: "739BF2BFBFBED1FC"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2A06A9AC2C547190"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "092C00E837E94007"
+					item: "wiredredstone:redstone_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1D81DDAF739CFFB8"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "27D3045272D39CB5"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "wiredredstone:insulated_wires"
+					}
+				}
+				title: "Any #wiredredstone:insulated_wires"
+				type: "item"
+			}]
+			title: "Изоляяяция."
+			x: 14.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2967C78F538C5ECD"]
+			description: [
+				"Позволяет передавать редстоун сигнал в зависимости от цвета редстоун проводки которая к нему подключена. Например: "
+				"- зелёный и красный редстоун кабель подключён к смешаному кабелю в точке \"А\""
+				"- ведём смешаный кабель из точки \"А\" в точку \"В\" "
+				"- подключаем к ней зелёный и красный кабель соответственно "
+				"- теперь сигналы будут независимо передаваться по красному и зелёному кабелю "
+			]
+			id: "64A7F758A7CD9EB6"
+			rewards: [
+				{
+					id: "6CA23E68900BF66E"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "656F5C1A67B218AA"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "463718ECC1E46F4D"
+					item: "wiredredstone:redstone_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "08D4E887E5DDBE28"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Экономия места"
+			tasks: [{
+				id: "2EC7B51456323139"
+				item: "wiredredstone:bundled_cable"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2C87E5A18CDBD27A"]
+			description: ["&6Электрическая плита&r, позволяет &4автоматизировать&r приготовление &6большинства&r еды"]
+			id: "21AC21DF6587C093"
+			rewards: [
+				{
+					id: "4503D898BCF041A4"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "4FF63E0EC27BE45E"
+					item: "modern_industrialization:basic_machine_hull"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "73562E86BA803172"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6484876D7F984F44"
+					item: "modern_industrialization:analog_circuit"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "7BA38C0938EC9285"
+				item: "modern_industrialization:electric_cooking_pot"
+				type: "item"
+			}]
+			title: "Электрическая плита"
+			x: 11.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["2C87E5A18CDBD27A"]
+			description: ["&6Боттлер,&r &4позволяет заливать&r жидкости в различные маленькие емкости"]
+			id: "355872E71E715BBF"
+			rewards: [
+				{
+					id: "0B17077DC1974726"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "2BA3FB3F28CA2406"
+					item: "modern_industrialization:basic_machine_hull"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3A17F2414DB9C2E9"
+					item: "modern_industrialization:analog_circuit"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "4D242396C82D5099"
+				item: "modern_industrialization:bottler"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0737D169DFB3A47A"]
+			description: ["Позволяет обьеденить ящики(драверы) в одну сеть. Все механизмы базовой логистики будут воспринимать этот блок как общий инвентарь для всех якщиков. При нажатии ПКМ все предметы которые могут быть положены в соответствующие ящики будут складированы."]
+			id: "3DF2B3F026C9AC41"
+			rewards: [{
+				count: 4
+				id: "6E5D27A95FA2D9CA"
+				item: "modern_industrialization:analog_circuit"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "4A216043AC8ED0A9"
+				item: "extended_drawers:access_point"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54CEC7BE4B675E7C"]
+			description: ["&6Автоматически&r представляет выбранный предмет в &4трёх&r вариациях. Например положив золотой &6слиток&r, в одной ячейке будут золотые &6блоки&r, в другой золотые &6слитки&r и в третьей золотые &6самородки&r."]
+			id: "0B78784AFB3C0A1E"
+			rewards: [
+				{
+					id: "2C063D14A58987D1"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "75DCDC44FD9955BA"
+					item: "extended_drawers:compacting_drawer"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.8d
+			tasks: [{
+				id: "15F771C8BF911114"
+				item: "extended_drawers:compacting_drawer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["332119345C45976C"]
+			id: "0845A204BA15A1F5"
+			rewards: [
+				{
+					id: "2535E863DA5CC733"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "29FD1551F0DEBAA5"
+					item: "wiredredstone:stone_plate"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "48433286F54C3A40"
+					item: "wiredredstone:redstone_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "76AA8D9DDDA8AA69"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2855AF3CA445E8CB"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 16L
+					id: "5497856827FAA634"
+					item: "wiredredstone:stone_plate"
+					type: "item"
+				}
+				{
+					id: "068A2BE38CE9E002"
+					item: "wiredredstone:redstone_anode"
+					type: "item"
+				}
+				{
+					id: "24C039445630820A"
+					item: "wiredredstone:redstone_cathode"
+					type: "item"
+				}
+				{
+					id: "1BD58EBA40EAACB6"
+					item: "wiredredstone:redstone_inverting_cathode"
+					type: "item"
+				}
+				{
+					id: "5890A450B3FD9C8D"
+					item: "wiredredstone:redstone_delay_line"
+					type: "item"
+				}
+				{
+					id: "595FA545AFDC1BCF"
+					item: "wiredredstone:redstone_wire_plate"
+					type: "item"
+				}
+			]
+			title: "Редстоун компоненты"
+			x: 16.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["13C563F7C62A0F7A"]
+			description: ["Позволяет проецировать редстоун сигнал по воздуху. Количество блоков меняется с помощью правой кнопкой мыши."]
+			id: "119D6E1E7E6D5233"
+			rewards: [
+				{
+					id: "192D1B88B0409960"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "46223F40C0695256"
+					item: "wiredredstone:stone_plate"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "5AB54E628E56C6F4"
+					item: "wiredredstone:redstone_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6B27B91F4634A3CE"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1271138FEC4C336F"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Сегодня в завтрашний день..."
+			tasks: [{
+				id: "625AE5D245334211"
+				item: "wiredredstone:gate_projector_simple"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0845A204BA15A1F5"]
+			description: ["Пропускает редстоун сигнал только в одну сторону."]
+			id: "4BF6461697886B3C"
+			rewards: [
+				{
+					id: "52DD83D88D172DD6"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "4C5320074479A7AA"
+					item: "wiredredstone:stone_plate"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "51CE120401D09591"
+					item: "wiredredstone:redstone_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0C77D20FCA3153E6"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "72C5A7CE95AD10A0"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6DDCA383AC9216C7"
+				item: "wiredredstone:gate_diode"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0845A204BA15A1F5"]
+			description: ["По умолчанию неактивен. Становится активным если активны все входящие сигналы."]
+			id: "07718C17A9D7B520"
+			rewards: [
+				{
+					id: "7C35BD09078A081F"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7E23CAE1C0DBE0DE"
+					item: "wiredredstone:stone_plate"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "6027183DE3DF18E4"
+					item: "wiredredstone:redstone_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7F3BE61BD80AA3E2"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "43C0B77E70206441"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6E7319AFCD7D7E52"
+				item: "wiredredstone:gate_and"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0845A204BA15A1F5"]
+			description: ["По умолчанию неактивен. Становиться активным если хотя бы один з входящих сигналов является активным."]
+			id: "516770D6021CB159"
+			rewards: [
+				{
+					id: "10D23287A774D323"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "2B92E02E0436CF57"
+					item: "wiredredstone:stone_plate"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "4C1A6AF854832097"
+					item: "wiredredstone:redstone_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "752CFC7A4351F90A"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3C53FDF260FAE751"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2A73C6CEDFC784FE"
+				item: "wiredredstone:gate_or"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0845A204BA15A1F5"]
+			description: ["По умолчанию активен. Выключается только если все входящие сигналы активны."]
+			id: "40F03AD46D05D4D6"
+			rewards: [
+				{
+					id: "3B526C5674253188"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "2CCB6FB915C0431E"
+					item: "wiredredstone:stone_plate"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "3C72C032362B0BC4"
+					item: "wiredredstone:redstone_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2B1802AF9A4F55EE"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "30A1C012E6E7EC81"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1DFA33F7DDA5B156"
+				item: "wiredredstone:gate_nand"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0845A204BA15A1F5"]
+			description: ["По умолчанию активен, и перестаёт выдавать редстоун сигнал если хотя бы один из входящих сигналов не нулевой."]
+			id: "708BCCC492873B6C"
+			rewards: [
+				{
+					count: 32
+					id: "2707992EDDF84851"
+					item: "wiredredstone:stone_plate"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "49621B5678DAE9C0"
+					item: "wiredredstone:redstone_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2823F1A9ADD2DA98"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6153A01A2F0AB6C4"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "77B98A1B06DA5BE1"
+				item: "wiredredstone:gate_nor"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0845A204BA15A1F5"]
+			description: ["По умолчанию активен. Становится неактивным если входящий сигнал активен."]
+			id: "640AF18C7CB4D718"
+			rewards: [
+				{
+					id: "2CC3AB664CE97D45"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "68E022869B43B33A"
+					item: "wiredredstone:stone_plate"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "11699F51F3774625"
+					item: "wiredredstone:redstone_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3219B825F585833A"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "01D10917FD172F24"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "70794FAE1456290F"
+				item: "wiredredstone:gate_not"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0845A204BA15A1F5"]
+			description: ["По умолчанию не активен. Более продвинутая версия повторителя. Позволяет более точно указать задержку в сигнале."]
+			id: "6DB7801CA77EF899"
+			rewards: [
+				{
+					id: "5E0D803828F09251"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "307503E1C40C8091"
+					item: "wiredredstone:stone_plate"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "72DFE5670E9D82F3"
+					item: "wiredredstone:redstone_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4A3FE116C9CDE58F"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "220688E64150A7B1"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "20102E48C404C6FC"
+				item: "wiredredstone:gate_repeater"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0845A204BA15A1F5"]
+			description: ["По умолчанию один из выходящих сигналов активен. Входящие сигналы изменяют направление выходящего сигнала лишь один раз. "]
+			id: "5EA1A5489C92891C"
+			rewards: [
+				{
+					id: "3F328FD210B710E6"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "2997C2F949531D46"
+					item: "wiredredstone:stone_plate"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "7733B9A69DD512B0"
+					item: "wiredredstone:redstone_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "666A2A242F7045D0"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "19AE04FB66F9CD06"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "141A69CC11FB7E7A"
+				item: "wiredredstone:gate_rs_latch"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["119D6E1E7E6D5233"]
+			description: ["Позволяет визуализировать место в которое редстоун проектор передаёт сигнал. Нажмите ПКМ на проектор для привязки."]
+			id: "3FB9FAC26C9A3C8B"
+			rewards: [
+				{
+					id: "411AA7575D2DA48C"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "31025DA7F55150A4"
+					item: "wiredredstone:stone_plate"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "0B0D4EE9C971622E"
+					item: "wiredredstone:redstone_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2E7A734137766FA4"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "488DB477EFFDFC35"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7A7DDF40B6764C6B"
+				item: "wiredredstone:projection_viewer"
+				type: "item"
+			}]
+			x: 17.2d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0845A204BA15A1F5"]
+			id: "13C563F7C62A0F7A"
+			rewards: [
+				{
+					id: "63C6A756268CED14"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7342DA4CED974161"
+					item: "wiredredstone:stone_plate"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "1A7CC556C9C529EC"
+					item: "wiredredstone:redstone_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3C72F2AB49309594"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "458F19F209A383EB"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6F9BDFA689093278"
+				item: "wiredredstone:redstone_projector_cathode"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["17FE01EEA624616A"]
+			description: ["Позволяет управлять работой электрических механизмов."]
+			id: "1BB3633F4522C7F6"
+			rewards: [
+				{
+					id: "61DC924FB5B1DB96"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2EB4FD1292A830CD"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "314B86A57A4A9F65"
+					item: "wiredredstone:redstone_alloy_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0700DED6E6EC95C9"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "1C831FE3EFAB924D"
+				item: "modern_industrialization:redstone_control_module"
+				type: "item"
+			}]
+			x: 14.535714285714278d
+			y: 9.30357142857143d
+		}
+		{
+			dependencies: ["47A87645847E6CCE"]
+			description: ["Выдаёт редстоун сигнал если внутри инвентаря, напротив детектора, есть предметы указаные в фильтре детектора."]
+			id: "6E572895AE95E3CF"
+			rewards: [
+				{
+					id: "6CE7CD65CF7EAEF4"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6C74E39B8C383DA6"
+					item: "modern_industrialization:analog_circuit"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "3C59C8201DF1E846"
+				item: "neepmeat:content_detector"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["47A87645847E6CCE"]
+			description: ["Выдаёт редстоун сигнал если блок впереди является твердым, т.е. не жидкость или воздух."]
+			id: "3DA2AF865B5560F5"
+			rewards: [
+				{
+					id: "1C15EE419449DB01"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5C697768EE945F84"
+					item: "modern_industrialization:analog_circuit"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "600531CD87336BFB"
+				item: "neepmeat:solidity_detector"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["47A87645847E6CCE"]
+			description: ["Аналог точного выбрасывателя из ботании."]
+			id: "0F1FEB86EB67AE76"
+			rewards: [
+				{
+					id: "21ABDA67C8F16CD5"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "65177F88F13BAF47"
+					item: "modern_industrialization:analog_circuit"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "1757802C5EAC83C0"
+				item: "neepmeat:dumper"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["47A87645847E6CCE"]
+			id: "351B265A302AA7EC"
+			rewards: [
+				{
+					id: "37C3B1C018C14531"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "22F02E92D9EBCB01"
+					item: "modern_industrialization:analog_circuit"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1BEB97B61CF8F74B"
+					item: "modern_industrialization:motor"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0A95407EC69F38E8"
+					item: "modern_industrialization:pump"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "542EB199E83550F2"
+					item: "neepmeat:small_compressor"
+					type: "item"
+				}
+				{
+					id: "487A95AA58F62DD0"
+					item: {
+						Count: 1b
+						id: "neepmeat:rock_drill"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+	title: "&7Электричество | LV"
+}

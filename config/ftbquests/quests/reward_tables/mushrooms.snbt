@@ -1,0 +1,12 @@
+{
+	id: "43ADA304C14CE5A3"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ count: 6, item: "minecraft:red_mushroom" }
+		{ count: 6, item: "minecraft:brown_mushroom" }
+		{ count: 6, item: "minecraft:warped_fungus" }
+		{ count: 6, item: "minecraft:crimson_fungus" }
+	]
+	title: "mushrooms"
+}

@@ -1,0 +1,10 @@
+{
+	"output": "modern_industrialization:platinum_ingot",
+	"dirty_fat_name": "ore_fat.neepmeat.platinum.dirty",
+	"clean_fat_name": "ore_fat.neepmeat.platinum.clean",
+	"inputs": [
+		"modern_industrialization:raw_platinum"
+	],
+	"rendering_yield": 1.5,
+	"trommel_yield": 2
+}

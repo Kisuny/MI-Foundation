@@ -1,0 +1,123 @@
+{
+  "location": {
+    "fluid": {
+      "tag": "spectrum:liquid_crystal"
+    }
+  },
+  "chance": 0.05,
+  "entities": [
+    {
+      "id": "minecraft:salmon",
+      "weight": 30
+    },
+    {
+      "id": "minecraft:glow_squid",
+      "weight": 30
+    },
+    {
+      "id": "minecraft:allay",
+      "weight": 25
+    },
+    {
+      "id": "minecraft:evoker",
+      "weight": 20
+    },
+    {
+      "id": "minecraft:vex",
+      "weight": 30,
+      "nbt": {
+        "Attributes":[
+          {"Name":"generic.max_health","Base":28},
+          {"Name":"generic.attack_damage","Base":12},
+          {"Name":"generic.movement_speed","Base":0.8}
+        ],
+        "Health": 28
+      }
+    },
+    {
+      "id": "minecraft:silverfish",
+      "weight": 20,
+      "nbt": {
+        "Attributes":[
+          {"Name":"generic.max_health","Base":40},
+          {"Name":"generic.attack_damage","Base":12}
+        ],
+        "Health": 40,
+        "CustomName": "{\"text\":\"Кристуйница\",\"color\":\"blue\",\"bold\":true}",
+        "DeathLootTable":"kubejs:mobs/crystalfish"          
+      }
+    },
+    {
+      "id": "minecraft:drowned",
+      "weight": 20,
+      "nbt": {
+        "Health": 40,
+        "Attributes":[
+          {"Name":"generic.max_health","Base":40}, 
+          {"Name":"generic.attack_damage","Base":12}, 
+          {"Name":"generic.armor","Base":4}
+        ],
+        "CustomName":"{\"text\":\"Призмариновый тритон\",\"color\":\"gray\"}",
+        "ArmorItems":[{"id":"minecraft:leather_boots","tag":{"display":{"color":1982785}},"Count":1},{"id":"minecraft:leather_leggings","tag":{"display":{"color":2577492}},"Count":1},{"id":"minecraft:leather_chestplate","tag":{"display":{"color":3040099}},"Count":1},{"id":"minecraft:player_head","tag":{"SkullOwner":{"Id":["I;",-1765077604,-385664154,-1765077604,-385655962],"Properties":{"textures":[{"Value":"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdkOGU0MGMwODNkNGQxODUwZjU2YTRmOWI0MzY4NTg1NzdiM2JjODQ3NmM2NmMwOWIxYzZhODFmODg5ZDM0NiJ9fX0="}]}},"display":{"Lore":["{\"text\":\"https://namemc.com/skin/96cb0d9ce9035b66\"}"]}},"Count":1}],
+        "ArmorDropChances":["0F","0F","0F","0F"],
+        "ActiveEffects":[{"Id":30,"Duration":100000,"ShowParticles":"0b"},{"Id":13,"Duration":10000,"ShowParticles":"0b"}],
+        "DeathLootTable":"kubejs:mobs/prismarine_triton"
+      }
+    },
+    {
+      "id": "minecraft:iron_golem",
+      "weight": 15,
+      "nbt": {
+        "Health": 200,
+        "Attributes":[
+          {"Name":"generic.max_health","Base":200}, 
+          {"Name":"generic.attack_damage","Base":12}, 
+          {"Name":"generic.movement_speed","Base":0.1},
+          {"Name":"generic.armor","Base":120},
+          {"Name":"generic.knockback_resistance","Base":0.7}
+        ],
+        "CustomName":"{\"text\":\"Призмариновый защитник\",\"color\":\"blue\"}",
+        "ActiveEffects":[{"Id":13,"Duration":10000,"ShowParticles":"0b"}, {"Id":30,"Duration":10000,"ShowParticles":"0b"}],
+        "DeathLootTable":"kubejs:mobs/prismarine_defender"
+      }
+    },
+    {
+      "id": "adventurez:amethyst_golem",
+      "weight": 10,
+      "nbt": {
+        "Health": 60,
+        "Attributes":[
+          {"Name":"generic.max_health","Base":60}, 
+          {"Name":"generic.attack_damage","Base":12}, 
+          {"Name":"generic.movement_speed","Base":0.3},
+          {"Name":"generic.armor","Base":200},
+          {"Name":"generic.knockback_resistance","Base":0.8}
+        ],
+        "CustomName":"{\"text\":\"Конструкт защиты\",\"color\":\"dark_purple\"}",
+        "ActiveEffects":[{"Id":13,"Duration":10000,"ShowParticles":"0b"}, {"Id":30,"Duration":10000,"ShowParticles":"0b"}],
+        "DeathLootTable":"kubejs:mobs/protection_construct"
+      }
+    },
+    {
+      "id": "minecraft:wither_skeleton",
+      "weight": 2,
+      "nbt": {
+        "Health": 800,
+        "Attributes":[
+          {"Name":"generic.max_health","Base":800}, 
+          {"Name":"generic.attack_damage","Base":22}, 
+          {"Name":"generic.armor","Base":24},
+          {"Name":"generic.movement_speed","Base":0.6}
+        ],
+        "LeftHanded":"1b",
+        "CustomName":"{\"text\":\"Гаснущий Хризолит\",\"color\":\"light_purple\"}",
+        "HandItems":[{"id":"botania:terra_axe","Count":1},{"id":"minecraft:shield","tag":{"BlockEntityTag":{"Base":5,"Patterns":[{"Color":15,"Pattern":"ss"},{"Color":15,"Pattern":"cr"},{"Color":13,"Pattern":"bo"},{"Color":0,"Pattern":"mc"},{"Color":15,"Pattern":"cbo"},{"Color":15,"Pattern":"sku"}]}},"Count":1}],
+        "ActiveEffects":[{"Id":30,"Duration":10000,"ShowParticles":"0b"},{"Id":5,"Duration":10000,"ShowParticles":"0b"},{"Id":13,"Duration":100000,"ShowParticles":"0b"},{"Id":2,"Duration":100000,"ShowParticles":"0b"}],
+        "ArmorItems":[{"id":"leather_boots","tag":{"display":{"color":358476,"Name":"[{\"text\":\"Jaded Boots\",\"italic\":false}]"}},"Count":1},{"id":"leather_leggings","tag":{"display":{"color":281392,"Name":"[{\"text\":\"Jaded Leggings\",\"italic\":false}]"}},"Count":1},{"id":"leather_chestplate","tag":{"display":{"color":4671303,"Name":"[{\"text\":\"Jaded Chestplate\",\"italic\":false}]"}},"Count":1},{"id":"player_head","tag":{"SkullOwner":{"Id":["I;",-12308,47674,15756,-95348],"Properties":{"textures":[{"Value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzM0ZjQ4ODEwZGRjZGZjOGM3NmIxNDVjNTNiNzQ3MTAyYzc1NjU1NWFjNTVjNjQ4YjFmODIyNzgxNTA1NzNjMSJ9fX0="}]}}},"Count":1}],
+        "ArmorDropChances":["0f","0f","0f","0f"],
+        "HandDropChances":["0f","0f"],
+        "DeathLootTable":"kubejs:mobs/fading_chrysolite"
+      }
+    }
+  ]
+}

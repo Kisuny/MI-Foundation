@@ -1,0 +1,10 @@
+{
+	"output": "mythicmetals:quadrillum_ingot",
+	"dirty_fat_name": "ore_fat.neepmeat.quadrillum.dirty",
+	"clean_fat_name": "ore_fat.neepmeat.quadrillum.clean",
+	"inputs": [
+		"mythicmetals:raw_quadrillum"
+	],
+	"rendering_yield": 1.5,
+	"trommel_yield": 2
+}

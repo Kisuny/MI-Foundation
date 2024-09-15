@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "bewitchment:stone_witch_altar"
+      },
+      "title": {
+        "translate": "advancement.kubejs.witch_altar.title"
+      },
+      "description": {
+        "translate": "advancement.kubejs.witch_altar.desc"
+      },
+      "frame": "task"
+    },
+    "parent": "kubejs:bewitchment/bewitchment_start",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "tag": "bewitchment:altars"
+            }
+          ]
+        }
+      }
+    }
+  }

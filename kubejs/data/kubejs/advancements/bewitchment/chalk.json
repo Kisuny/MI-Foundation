@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "bewitchment:chalk"
+      },
+      "title": {
+        "translate": "advancement.kubejs.chalk.title"
+      },
+      "description": {
+        "translate": "advancement.kubejs.chalk.desc"
+      },
+      "frame": "task"
+    },
+    "parent": "kubejs:bewitchment/barks",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": ["bewitchment:chalk"]
+            }
+          ]
+        }
+      }
+    }
+  }

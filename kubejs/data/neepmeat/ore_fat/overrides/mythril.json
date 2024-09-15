@@ -1,0 +1,10 @@
+{
+	"output": "mythicmetals:mythril_ingot",
+	"dirty_fat_name": "ore_fat.neepmeat.mythril.dirty",
+	"clean_fat_name": "ore_fat.neepmeat.mythril.clean",
+	"inputs": [
+		"mythicmetals:raw_mythril"
+	],
+	"rendering_yield": 1.5,
+	"trommel_yield": 2
+}

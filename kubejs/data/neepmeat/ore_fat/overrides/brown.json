@@ -1,0 +1,12 @@
+{
+	"output": "spectrum:brown_pigment",
+	"dirty_fat_name": "ore_fat.neepmeat.brown_pigment.dirty",
+	"clean_fat_name": "ore_fat.neepmeat.brown_pigment.clean",
+	"inputs": [
+		"spectrum:brown_log",
+		"spectrum:brown_leaves",
+		"spectrum:brown_sapling"
+	],
+	"rendering_yield": 1,
+	"trommel_yield": 1.5
+}

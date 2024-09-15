@@ -1,0 +1,10 @@
+{
+	"output": "mythicmetals:runite_ingot",
+	"dirty_fat_name": "ore_fat.neepmeat.runite.dirty",
+	"clean_fat_name": "ore_fat.neepmeat.runite.clean",
+	"inputs": [
+		"mythicmetals:raw_runite"
+	],
+	"rendering_yield": 1.5,
+	"trommel_yield": 2
+}

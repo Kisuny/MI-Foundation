@@ -1,0 +1,10 @@
+{
+	"output": "mythicmetals:adamantite_ingot",
+	"dirty_fat_name": "ore_fat.neepmeat.adamantite.dirty",
+	"clean_fat_name": "ore_fat.neepmeat.adamantite.clean",
+	"inputs": [
+		"mythicmetals:raw_adamantite"
+	],
+	"rendering_yield": 1.5,
+	"trommel_yield": 2
+}

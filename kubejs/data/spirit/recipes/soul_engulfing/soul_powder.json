@@ -1,0 +1,13 @@
+{
+    "type": "spirit:soul_engulfing",
+    "input": {
+      "ingredient": {
+        "item": "spectrum:quitoxic_powder"
+      }
+    },
+    "duration": 2,
+    "destroysStructure": false,
+    "outputItem": "spirit:soul_powder",
+    "outputAmount": 4
+  }
+  

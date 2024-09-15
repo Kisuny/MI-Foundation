@@ -1,0 +1,21 @@
+{
+    "type": "farmersdelight:cutting",
+    "ingredients": [
+      {
+        "item": "expandeddelight:cinnamon_log"
+      }
+    ],
+    "tool": {
+      "tag": "c:tools/axes"
+    },
+    "result": [
+      {
+        "item": "minecraft:stripped_oak_log"
+      },
+      {
+        "item": "expandeddelight:raw_cinnamon",
+        "count": 3
+      }
+    ],
+    "sound": "minecraft:item.axe.strip"
+  }

@@ -1,0 +1,451 @@
+{
+    "wants": [
+        {
+            "id": "kubejs:artifact_dust",
+            "required": true
+        }
+    ],
+    "possible_rewards": [
+        {
+            "id": "artifacts:umbrella",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "artifacts:everlasting_beef",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "artifacts:plastic_drinking_hat",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "artifacts:novelty_drinking_hat",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "artifacts:snorkel",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 1,
+            "required": true
+        },
+        {
+            "id": "artifacts:night_vision_goggles",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 1,
+            "required": true
+        },
+        {
+            "id": "artifacts:villager_hat",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "artifacts:superstitious_hat",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 1,
+            "required": true
+        },
+        {
+            "id": "artifacts:lucky_scarf",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 1,
+            "required": true
+        },
+        {
+            "id": "artifacts:scarf_of_invisibility",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "artifacts:cross_necklace",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "artifacts:panic_necklace",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "artifacts:shock_pendant",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "artifacts:flame_pendant",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "artifacts:thorn_pendant",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "artifacts:charm_of_sinking",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "artifacts:cloud_in_a_bottle",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 5,
+            "required": true
+        },
+        {
+            "id": "artifacts:obsidian_skull",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "artifacts:antidote_vessel",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 1,
+            "required": true
+        },
+        {
+            "id": "artifacts:universal_attractor",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "artifacts:crystal_heart",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 1,
+            "required": true
+        },
+        {
+            "id": "artifacts:helium_flamingo",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "artifacts:digging_claws",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 1,
+            "required": true
+        },
+        {
+            "id": "artifacts:feral_claws",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 1,
+            "required": true
+        },
+        {
+            "id": "artifacts:power_glove",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "artifacts:fire_gauntlet",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 5,
+            "required": true
+        },
+        {
+            "id": "artifacts:pocket_piston",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "artifacts:vampiric_glove",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 5,
+            "required": true
+        },
+        {
+            "id": "artifacts:golden_hook",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "artifacts:aqua_dashers",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "artifacts:bunny_hoppers",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "artifacts:kitty_slippers",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "artifacts:running_shoes",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 1,
+            "required": true
+        },
+        {
+            "id": "artifacts:steadfast_spikes",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "artifacts:flippers",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 1,
+            "required": true
+        },
+        {
+            "id": "artifacts:whoopee_cushion",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "things:monocle",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 1,
+            "required": true
+        },
+        {
+            "id": "things:ender_pouch",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "things:moss_necklace",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 1,
+            "required": true
+        },
+        {
+            "id": "things:displacement_page",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 4,
+            "required": true
+        },
+        {
+            "id": "things:mining_gloves",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 1,
+            "required": true
+        },
+        {
+            "id": "things:riot_gauntlet",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 1,
+            "required": true
+        },
+        {
+            "id": "things:infernal_scepter",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "things:hades_crystal",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 1,
+            "required": true
+        },
+        {
+            "id": "things:enchanted_wax_gland",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 1,
+            "required": true
+        },
+        {
+            "id": "things:rabbit_foot_charm",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "things:luck_of_the_irish",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "things:socks",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "things:broken_watch",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "majruszsaccessories:adventurer_kit",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "majruszsaccessories:angler_trophy",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "majruszsaccessories:certificate_of_taming",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "majruszsaccessories:discount_voucher",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "majruszsaccessories:dream_catcher",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "majruszsaccessories:idol_of_fertility",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "majruszsaccessories:lucky_rock",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "majruszsaccessories:metal_lure",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "majruszsaccessories:miner_guide",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "majruszsaccessories:secret_ingredient",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "majruszsaccessories:swimmer_guide",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "majruszsaccessories:tamed_potato_beetle",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "majruszsaccessories:tool_scraps",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        },
+        {
+            "id": "majruszsaccessories:unbreakable_fishing_line",
+            "count": 1,
+            "xp_reward": 10,
+            "weight": 10,
+            "required": true
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+{
+    "type": "vitalize:special_drops",
+    "entity": "whisperwoods:moth",
+    "drop": "kubejs:mobs/moth"
+}

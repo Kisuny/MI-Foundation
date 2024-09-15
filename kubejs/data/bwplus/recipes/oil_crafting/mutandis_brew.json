@@ -1,0 +1,21 @@
+{
+  "type": "bewitchment:oil_recipe",
+  "ingredients": [
+    {
+      "item": "bwplus:mutandis"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:ink_sac"
+    },
+    {
+      "item": "kubejs:moth_wings"
+    }
+  ],
+  "result": {
+    "item": "bwplus:mutandis_brew"
+  },
+  "color": 13893631
+}

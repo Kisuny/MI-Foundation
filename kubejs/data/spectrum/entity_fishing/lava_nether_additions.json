@@ -1,0 +1,121 @@
+{
+  "location": {
+    "dimension": {
+      "worlds": [
+        "minecraft:the_nether"
+      ]
+    },
+    "fluid": {
+      "tag": "minecraft:lava"
+    }
+  },
+  "dimension": {
+    "worlds": [
+      "minecraft:nether"
+    ]
+  },
+  "chance": 0.01,
+  "entities": [
+    {
+      "id": "minecraft:magma_cube",
+      "weight": 25,
+      "nbt": {
+        "Size": 4
+      }
+    },
+    {
+      "id": "minecraft:magma_cube",
+      "weight": 25,
+      "nbt": {
+        "Size": 3
+      }
+    },
+    {
+      "id": "minecraft:magma_cube",
+      "weight": 10,
+      "nbt": {
+        "Size": 10
+      }
+    },
+    {
+      "id": "minecraft:blaze",
+      "weight": 30
+    },
+    {
+      "id": "probablychests:nether_chest_mimic",
+      "weight": 10
+    },
+    {
+      "id": "minecraft:strider",
+      "weight": 30
+    },
+    {
+      "id": "minecraft:fireball",
+      "weight": 20
+    },
+    {
+      "id": "bewitchment:hellhound",
+      "weight": 20,
+      "nbt": {
+        "Health": 40,
+        "Attributes":[
+          {"Name":"generic.max_health","Base":40}, 
+          {"Name":"generic.attack_damage","Base":8}, 
+          {"Name":"generic.movement_speed","Base":0.6},
+          {"Name":"generic.armor","Base":4}
+        ],
+        "CustomName":"{\"text\":\"Адский пёс\",\"color\":\"blue\"}",
+        "ActiveEffects":[{"Id":13,"Duration":10000,"ShowParticles":"0b"}, {"Id":30,"Duration":10000,"ShowParticles":"0b"}],
+        "DeathLootTable":"kubejs:mobs/hellhound"
+      }
+    },
+    {
+      "id": "adventurez:piglin_beast",
+      "weight": 2,
+      "nbt": {  
+        "Health": 250,
+        "Attributes":[
+          {"Name":"generic.max_health","Base":250}, 
+          {"Name":"generic.attack_damage","Base":14}, 
+          {"Name":"generic.movement_speed","Base":0.7},
+          {"Name":"generic.armor","Base":22}
+        ],
+        "CustomName":"{\"text\":\"Красная плесень\",\"color\":\"gold\"}",  
+        "ActiveEffects":[{"Id":13,"Duration":10000,"ShowParticles":"0b"},{"Id":12,"Duration":10000,"ShowParticles":"0b"},{"Id":30,"Duration":100000,"ShowParticles":"0b"}],
+        "DeathLootTable":"kubejs:mobs/red_mould"
+      }
+    },
+    {
+      "id": "adventurez:necromancer",
+      "weight": 2,
+      "nbt": {  
+        "Health": 250,
+        "Attributes":[
+          {"Name":"generic.max_health","Base":250}, 
+          {"Name":"generic.attack_damage","Base":40}, 
+          {"Name":"generic.movement_speed","Base":0.8},
+          {"Name":"generic.armor","Base":12}
+        ],
+        "CustomName":"{\"text\":\"Проклятая мерзость\",\"color\":\"gold\"}",  
+        "ActiveEffects":[{"Id":13,"Duration":10000,"ShowParticles":"0b"},{"Id":12,"Duration":10000,"ShowParticles":"0b"},{"Id":30,"Duration":100000,"ShowParticles":"0b"}],
+        "DeathLootTable":"kubejs:mobs/cursed_muck"
+      }
+    },
+    {
+      "id": "adventurez:summoner",
+      "weight": 1,
+      "nbt": {  
+        "Health": 666,
+        "Attributes":[
+          {"Name":"generic.max_health","Base":666}, 
+          {"Name":"generic.attack_damage","Base":12}, 
+          {"Name":"generic.movement_speed","Base":0.8},
+          {"Name":"generic.armor","Base":6}
+        ],
+        "CustomName":"{\"text\":\"Багровая плоть\",\"color\":\"light_purple\"}",  
+        "ActiveEffects":[{"Id":13,"Duration":10000,"ShowParticles":"0b"},{"Id":12,"Duration":10000,"ShowParticles":"0b"},{"Id":30,"Duration":100000,"ShowParticles":"0b"}],
+        "DeathLootTable":"kubejs:mobs/crimson_flesh"
+      }
+    }
+  ]
+}

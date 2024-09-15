@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "bewitchment:oak_bark"
+      },
+      "title": {
+        "translate": "advancement.kubejs.barks.title"
+      },
+      "description": {
+        "translate": "advancement.kubejs.barks.desc"
+      },
+      "frame": "task"
+    },
+    "parent": "kubejs:bewitchment/athame",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "tag": "bewitchment:barks"
+            }
+          ]
+        }
+      }
+    }
+  }

@@ -1,0 +1,255 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": {
+          "min": 1,
+          "max": 5
+        },
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "name": "minecraft:gameplay/fishing/treasure"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "kubejs:mob_lootbag_epic"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "things:moss_necklace"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "artifacts:crystal_heart"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "artifacts:superstitious_hat"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:killed_by_player"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "majruszsaccessories:reverse_card"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "majruszsaccessories:removal_card"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "majruszsaccessories:gambling_card"
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:killed_by_player"
+          },
+          {
+            "condition": "minecraft:random_chance_with_looting",
+            "chance": 0.7,
+            "looting_multiplier": 0.03
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 1,
+          "max": 12
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "minecraft:prismarine_bricks",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0,
+                  "max": 44
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "minecraft:prismarine_crystals",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0,
+                  "max": 16
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "minecraft:prismarine_shard",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0,
+                  "max": 16
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:amethyst_shard",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0,
+                  "max": 16
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "spectrum:citrine_shard",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0,
+                  "max": 16
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "spectrum:topaz_shard",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0,
+                  "max": 16
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "spectrum:shimmerstone_gem",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0,
+                  "max": 16
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:salmon",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0,
+                  "max": 24
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 10,
+            "name": "minecraft:cod",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0,
+                  "max": 24
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 8,
+            "name": "minecraft:tropical_fish",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0,
+                  "max": 8
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "endrem:corrupted_eye"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "endrem:guardian_eye"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "endrem:evil_eye"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 8,
+            "name": "minecraft:pufferfish",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0,
+                  "max": 4
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

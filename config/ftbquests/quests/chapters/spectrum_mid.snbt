@@ -1,0 +1,3310 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "spectrum_mid"
+	group: "6AAAE14F7A290ED4"
+	icon: "spectrum:onyx_shard"
+	id: "34239B087D517FC0"
+	images: [
+		{
+			click: ""
+			corner: false
+			dependency: "3B68A7B5A1BB4D44"
+			dev: false
+			height: 0.8d
+			hover: [ ]
+			image: "botania:block/purple_mystical_flower"
+			rotation: -30.0d
+			width: 0.8d
+			x: -3.3908163265306044d
+			y: -9.023129251700652d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "3B68A7B5A1BB4D44"
+			dev: false
+			height: 0.8d
+			hover: [ ]
+			image: "botania:block/cyan_mystical_flower"
+			rotation: 30.0d
+			width: 0.8d
+			x: -2.6153061224489704d
+			y: -9.043537414965947d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3877FD4F24D92304"]
+			description: ["&#b0620eНичего&r сложного, верно? "]
+			hide: true
+			id: "5BF77E78AA8A200B"
+			rewards: [{
+				id: "5869B39202AA4A68"
+				item: "kubejs:food_lootbag_uncommon"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1FE6E8C79FF62FBC"
+				item: "spectrum:brown_sapling"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5BF77E78AA8A200B"]
+			description: [
+				"Невероятно &l&aУДОБРИТЕЛЬНЫЙ&r&r инструмент!"
+				""
+				"&#d33b2bПредупреждение&r: на данный момент предмет не работает, проблема отправлена автору мода, в процессе фикса."
+			]
+			hide: true
+			id: "21129323C9A6B176"
+			rewards: [
+				{
+					id: "5137754593414A29"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5D97CD93E89DC023"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5C3E31F8B1F8D4F8"
+				item: "spectrum:natures_staff"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3075ED371322C328"]
+			description: ["Только &l<shake>самый</shake>&r удачивлый сможет найти символ лепреконов!"]
+			hide: true
+			id: "0C7F2FDED403B652"
+			rewards: [
+				{
+					id: "5EF6A9924D2A2CC3"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4444154A315CA5E5"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "201FA7736363145E"
+				item: "spectrum:four_leaf_clover"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3877FD4F24D92304"]
+			description: ["&l&aЗелёные&r&r биомы помогут с поиском заветного удачливого растения!"]
+			hide: true
+			id: "3075ED371322C328"
+			rewards: [{
+				id: "3DD85360372E052C"
+				item: "kubejs:food_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "16ED2D8270A00C40"
+				item: "spectrum:clover"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3877FD4F24D92304"]
+			description: ["Нужно же где-то брать &4<shake>э</shake>&r&6<shake>н</shake>&r&e<shake>е</shake>&r&2<shake>р</shake>&r&b<shake>г</shake>&r&9<shake>и</shake>&r&5<shake>ю</shake>&r, верно?"]
+			hide: true
+			id: "272939D3698A5DB3"
+			rewards: [
+				{
+					id: "1F22D0B09AE5F990"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5A3B7A94E2264852"
+					item: "kubejs:mob_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "71406406EC61A48F"
+				item: "spectrum:color_picker"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["272939D3698A5DB3"]
+			description: ["Буквально — &#DEB3E0Красочная ячейка&r, храни краски в баночках!"]
+			hide: true
+			id: "27D8C35FD6F61515"
+			rewards: [
+				{
+					id: "3727AB3EC6CE6944"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "43DD821930FD86C3"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7E4717486502024E"
+					item: "spectrum:ink_flask"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6E240A862D4BFBD4"
+				item: "spectrum:ink_flask"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["27D8C35FD6F61515"]
+			description: ["Одна &#FEECD6баночка&r вмещает только &#9BB8ED1 тип&r краски, палитра вмещает больше типов, но в ней &#FEECD6не так много места&r как в баночках!"]
+			hide: true
+			id: "6E4DEFB525B9E71B"
+			rewards: [
+				{
+					id: "54BC819FE9B12C27"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "46B217BDFA80BED4"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "496A209A0B278BB5"
+				item: "spectrum:ink_assortment"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["11ABCE1AD8090FBE"]
+			description: [
+				"Собирает предметы в &bбольшом радиусе&r, так же может собирать &eопыт&r, если засунуть в него &9Жемчужину Знаний&r!"
+				""
+				"• Радиус действия: 12 блоков."
+				"• Есть возможности отключить сундук - поместив любой блок сверху сундука."
+				"• Позволяет задать фильтры, чтобы определить, какие предметы следует принимать."
+			]
+			id: "7CAE838195AD6882"
+			rewards: [
+				{
+					id: "71936ED14E183DB9"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6F9E0F2A98039938"
+					item: "kubejs:food_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "671B35A56CB88A4C"
+				item: "spectrum:black_hole_chest"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["11ABCE1AD8090FBE"]
+			description: [
+				"У каждого &dмага&r должна быть под рукой… Печка, да не простая, а &dмагическая&r, вот и вы не исключение, верно?"
+				""
+				"Чудо печка ценой &#ff8547оранжевой краски&r - будет плавить, всякое."
+				""
+				"За другие цвета улучшает печку, например умножает количество конечной продукции, больше опыта и т.д."
+				""
+				"Прочтите более подробную информацию в книге!"
+				""
+				"{image:quest_images:textures/item/spectrum/cinderhearth.png width:200 height:200 align:1 fit:true}"
+			]
+			icon: "spectrum:cinderhearth"
+			id: "6D46159C22F1E9EB"
+			rewards: [
+				{
+					id: "0E84220DE3EE2733"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "443BDBE7A3D96B08"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Чудо печь, не иначе"
+			tasks: [
+				{
+					id: "6A9050755B4B8517"
+					item: "spectrum:cinderhearth"
+					type: "item"
+				}
+				{
+					count: 23L
+					id: "6EB60CF6B9E0CFAA"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "spectrum:polished_base_blocks"
+						}
+					}
+					title: "Any #spectrum:polished_base_blocks"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "7BF45C237F0D4DEA"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "spectrum:crest_base_blocks"
+						}
+					}
+					title: "Any #spectrum:crest_base_blocks"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "50DD192D5AEC780A"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "c:lava_buckets"
+						}
+					}
+					title: "Any #c:lava_buckets"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "18755B00AED0CA0F"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "spectrum:chiseled_base_blocks"
+						}
+					}
+					title: "Any #spectrum:chiseled_base_blocks"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "3734DD6FA2E5E867"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "c:glass_blocks"
+						}
+					}
+					title: "Any #c:glass_blocks"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3C3E73F29B46EFD6"]
+			description: ["&#C6BCE9Строительный посох&r - позволяет ставить блоки одного типа, ценой &#367588бирюзовой краски&r."]
+			id: "7BEC6865EE629165"
+			rewards: [{
+				id: "3F710C824F2C24A8"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Любителям терраформинга приготовиться!"
+			tasks: [{
+				id: "12E96F31C01AFC3B"
+				item: "spectrum:constructors_staff"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3C3E73F29B46EFD6"]
+			description: ["Для открытия крафта <shake>необходимо</shake> выбить данный ресурс из руды."]
+			id: "11ABCE1AD8090FBE"
+			rewards: [{
+				id: "69863C94149C474E"
+				item: "kubejs:food_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "43199982471AB495"
+				item: "spectrum:stratine_gem"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3C3E73F29B46EFD6"]
+			description: [
+				"&#DEB3E0Сундук Изготовления&r имеет специальный слоты для &#FEECD6Планшетных Верстаков&r."
+				""
+				"Рецепты, которые вы задали в них, всегда хранятся с запасом - до тех пор, пока хватает ингредиентов в сундуке."
+			]
+			id: "30480C2924BE05C8"
+			rewards: [{
+				id: "62493BBCB0FF0827"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Автокрафт но для любителей &#DEB3E0волшебства&r"
+			tasks: [{
+				id: "4818DF4BC2A768C4"
+				item: "spectrum:restocking_chest"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3877FD4F24D92304"]
+			description: [""]
+			hide: true
+			id: "2F07044EE0E53A65"
+			rewards: [{
+				count: 16
+				id: "144D44EC9FE7465F"
+				item: "vitalize:experience_cubed"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "&lБОЛЬШЕ&r стекла &lБОГУ&r стекла!"
+			tasks: [{
+				id: "1D5BE07489BB2F8F"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "spectrum:player_only_glass"
+					}
+				}
+				title: "Any #spectrum:player_only_glass"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3877FD4F24D92304"]
+			description: ["&#DEB3E0Пилон&r позволяет &#FEECD6ускорить&r крафты в мультиблочных структурах мода Spectrum, так же данный пилон помогает ускорить машинки из мода &#9BB8EDModern industrialization&r."]
+			hide: true
+			id: "4C2CADA1F925781E"
+			rewards: [
+				{
+					id: "53446045D073F567"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "609E070FA6265C12"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3A0CA5B1EA317428"
+				item: "spectrum:upgrade_speed"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3877FD4F24D92304"]
+			description: [
+				"Чудная руда, но <shake>не смей</shake> пытаться делать из неё блоки и прыгать с ними в воду! "
+				""
+				"А еще &#FEECD6не пытайся&r делать из него мосты, ради бога, я предупредил"
+			]
+			hide: true
+			id: "3C3E73F29B46EFD6"
+			rewards: [
+				{
+					id: "7797098DE3E7F75B"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2A08A614EAF776EB"
+					item: "spectrum:stratine_fragments"
+					random_bonus: 12
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 6L
+				id: "2EB38B65D3944108"
+				item: "spectrum:stratine_fragments"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3C3E73F29B46EFD6"]
+			description: [
+				"Играя на сервере будь осторожен со всеми жидкостями в подобных баночках, они могут разрастись &lочень&r сильно…"
+				""
+				"&4Гибель нельзя вернуть обратно в баночку!&r"
+				""
+				"{image:quest_images:textures/item/be_safe.png width:300 height:135 align:1}"
+			]
+			hide: true
+			id: "78A5FFC5CFB319FE"
+			rewards: [
+				{
+					id: "272FD1DB6067D1C5"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "09C3EC5715F5909C"
+					item: "kubejs:food_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "612C697F05D7D2CC"
+					item: "spectrum:bottle_of_failing"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1C1C0997E148A3FB"
+				item: "spectrum:bottle_of_failing"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["347CB25B0C49349B"]
+			hide: true
+			id: "5DAB0652BC76608D"
+			rewards: [{
+				id: "64A687215E745B4B"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7853856B20EBBD3A"
+				item: "spectrum:fanciful_stone_ring"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["347CB25B0C49349B"]
+			hide: true
+			id: "4324588E18876A78"
+			rewards: [
+				{
+					id: "3186035C6267772C"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "08FDFA4F13B80B4A"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "54BBAD58FD8CE71B"
+				item: "spectrum:block_flooder"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3C3E73F29B46EFD6"]
+			description: [
+				"Тебе придется поплавать чтобы добыть кусочек данной субстанции."
+				""
+				"Относись внимательно, к <shake>каждому</shake> ресурсу, который плавает себе спокойно в глубоких водах!"
+			]
+			hide: true
+			id: "347CB25B0C49349B"
+			rewards: [
+				{
+					id: "0200D5353C0688BD"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1CDD963A9FE4264B"
+					item: "spectrum:mermaids_gem"
+					random_bonus: 8
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0B856CEAB8D6895F"
+				item: "spectrum:mermaids_gem"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["347CB25B0C49349B"]
+			hide: true
+			id: "19CA76043BF8B34E"
+			rewards: [
+				{
+					id: "1C47714906043528"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7C3C3274F859C4E2"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3401EF31C1137DE2"
+				item: {
+					Count: 1b
+					id: "spectrum:lagoon_rod"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:lure"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["347CB25B0C49349B"]
+			hide: true
+			id: "6EA91BCF1B15AEC6"
+			rewards: [
+				{
+					id: "2CEE68AB32AB6EB0"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4CF4781314A39E73"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "73C876366F81FC39"
+				item: {
+					Count: 1b
+					id: "spectrum:tender_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:silk_touch"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["12C2D3EA6474C0B8"]
+			hide: true
+			id: "57F817B21763850B"
+			rewards: [{
+				id: "04F0F912EAFE7BDF"
+				item: "kubejs:magic_lootbag_rare"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Почти что полёт"
+			tasks: [{
+				id: "732D785B62B39CDA"
+				item: "spectrum:cotton_cloud_boots"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["12C2D3EA6474C0B8"]
+			hide: true
+			id: "54F70B9239B57329"
+			rewards: [
+				{
+					id: "10C6F9403B0C3EDE"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3CDBB987B63A5FBF"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Тауматургам приготовиться"
+			tasks: [{
+				id: "508C9661407ECEAC"
+				item: "spectrum:seven_league_boots"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["12C2D3EA6474C0B8"]
+			hide: true
+			id: "6719BC302E5A2430"
+			rewards: [
+				{
+					id: "1DC2CDC67D6167F4"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "04F6A77061B7FF2E"
+					item: "kubejs:mob_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "мало здоровья - больше урона"
+			tasks: [{
+				id: "25D30E8075A56AA9"
+				item: "spectrum:jeopardant"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["12C2D3EA6474C0B8"]
+			description: [""]
+			hide: true
+			id: "5E76536AFEADEB36"
+			rewards: [
+				{
+					id: "1B637556ECA38B90"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3E3AE359457F5F0E"
+					item: "kubejs:mob_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Нужно &lбольше &r♡♡♡♡♡♡♡♡♡♡♡"
+			tasks: [{
+				id: "7CC268490C90DF00"
+				item: "spectrum:heartsingers_reward"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6719BC302E5A2430"]
+			hide: true
+			id: "71FD55EFD09F5F5F"
+			rewards: [
+				{
+					id: "5438AB5A484CAA74"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "292CBF12301482F1"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7B0C7DC187857421"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Убей врага, когда у тебя осталось всего половина сердечка!"
+			tasks: [{
+				advancement: "spectrum:midgame/kill_entity_with_jeopardant_and_half_a_heart"
+				criterion: ""
+				id: "201890504D9AB82F"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["12C2D3EA6474C0B8"]
+			hide: true
+			id: "5C58052A73B2DB8E"
+			rewards: [{
+				id: "3053526C1151E76D"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "42E64BF38932D7F4"
+					item: "spectrum:sugar_stick"
+					type: "item"
+				}
+				{
+					id: "3B1530BC54B11C1A"
+					item: "spectrum:rock_candy"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["12C2D3EA6474C0B8"]
+			hide: true
+			id: "24B74F931F796C80"
+			rewards: [
+				{
+					id: "21ABF840A63A2560"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "06452CE2FAA191B4"
+					item: "kubejs:mob_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4991988104C245ED"
+				item: "spectrum:gloves_of_dawns_grasp"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["347CB25B0C49349B"]
+			hide: true
+			id: "12C2D3EA6474C0B8"
+			rewards: [{
+				id: "44B3BC89ADFE75C2"
+				item: "spectrum:liquid_crystal_bucket"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "КрИсТаЛлЫ Жидкие?! ЖИДКИЕ КРИСТАЛЛЫ!!!"
+			tasks: [{
+				id: "43E0BCAB339C9FCC"
+				item: "spectrum:liquid_crystal_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["12C2D3EA6474C0B8"]
+			hide: true
+			id: "4C5701B9C4BCE884"
+			rewards: [
+				{
+					id: "7683124F3144F471"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "74FB9611B310D76B"
+					item: "kubejs:mob_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Прям на череп"
+			tasks: [{
+				id: "23B2B6B37463813C"
+				item: "spectrum:fanciful_circlet"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4C5701B9C4BCE884"]
+			hide: true
+			id: "1547EF6A7598F174"
+			rewards: [
+				{
+					id: "5FD4909B5A50ACC3"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0F3D855D27D538CA"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Подарок Посейдона"
+			tasks: [{
+				id: "6432C542BDC22289"
+				item: "spectrum:weeping_circlet"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4C5701B9C4BCE884"]
+			hide: true
+			id: "76FBA050D17D64F5"
+			rewards: [
+				{
+					id: "5E869FF247043B72"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "40329BF848B54EC5"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Чудо голосование добавило чудо летающих червей, а теперь их нет..."
+			tasks: [{
+				id: "2A7EC5A27513DB91"
+				item: "spectrum:whispy_circlet"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4C5701B9C4BCE884"]
+			hide: true
+			id: "4697A0E846D93A99"
+			rewards: [
+				{
+					id: "3E12E9267583AB8F"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "287B777E92451FDF"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Полноценный иммунитет от огня и немного больше"
+			tasks: [{
+				id: "3557043D43A55B91"
+				item: "spectrum:ashen_circlet"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["12C2D3EA6474C0B8"]
+			hide: true
+			id: "00ED1439DAE135F9"
+			rewards: [
+				{
+					id: "4ED10C42B3BA2A64"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7B5B180FAE4A8BEB"
+					item: "kubejs:mob_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "12785C4066D38838"
+				item: "spectrum:gleaming_pin"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["12C2D3EA6474C0B8"]
+			hide: true
+			id: "0B9CF3B3F7225534"
+			rewards: [
+				{
+					id: "235CA4F9B385C13C"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2030CC7E8A44CE0D"
+					item: "kubejs:mob_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "1265E5460B93FDB6"
+				item: "spectrum:radiance_pin"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["347CB25B0C49349B"]
+			description: [
+				"Зачарователь позволяет вам накладывать зачарования на книги и улучшать их, таким образом вы исключаете фактор случайности!"
+				""
+				"Так же зачарователь позволяет вам накладывать зачарования конфликтующие между собой, например, защита + защита от снарядов."
+				""
+				"Имей ввиду, действия с конфликтующими зачарованиями &oбудут потреблять чуть больше опыта&r так же для этого &oнеобходима открытая глава в книге&r!"
+				""
+				"P.S. Вместо воды на рендере ниже используются жидкие кристаллы!"
+				""
+				"{image:quest_images:textures/item/spectrum/enchanter.png width:200 height:200 align:1 fit:true}"
+			]
+			hide: true
+			icon: "spectrum:enchanter"
+			id: "641B93E0D035568B"
+			rewards: [
+				{
+					id: "1AFDC09410E9B4DA"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "26C8C45E08F77919"
+					item: "kubejs:food_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "77F8D45ED474E4AA"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "6ED91E5052C2A85E"
+				item: "spectrum:enchanter"
+				type: "item"
+			}]
+			x: 12.900340136054425d
+			y: 2.4959183673469525d
+		}
+		{
+			dependencies: ["347CB25B0C49349B"]
+			hide: true
+			id: "229FF3A42DB2FFF4"
+			rewards: [
+				{
+					id: "3273CD4B8371DC08"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "25B0697A99C81C3D"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.4d
+			tasks: [{
+				id: "4788E1D3113EC37C"
+				item: "spectrum:potion_workshop"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["229FF3A42DB2FFF4"]
+			description: [""]
+			hide: true
+			id: "02CEF11E1BA9FB9B"
+			rewards: [{
+				id: "4474B5A7E9BC980C"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Грязь) "
+			tasks: [{
+				id: "4DB8810CF5A907E9"
+				item: "spectrum:mud_bucket"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02CEF11E1BA9FB9B"]
+			description: [
+				"{image:quest_images:textures/item/clay_gen.png width:200 height:200 align:1}"
+				"Да, это реально, генератор глины."
+			]
+			hide: true
+			id: "0568EC18E2C72745"
+			rewards: [
+				{
+					count: 4
+					id: "4440281E8A83BAD1"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6D4BE6F867AC19E1"
+					item: {
+						Count: 1b
+						id: "kibe:tank"
+						tag: {
+							BlockEntityTag: {
+								amount: 1296000L
+								id: "kibe:tank"
+								variant: {
+									fluid: "spectrum:liquid_crystal"
+								}
+							}
+							display: {
+								Lore: ["\"\""]
+							}
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Глиномесам приготовиться"
+			tasks: [{
+				consume_items: true
+				count: 1024L
+				id: "1E232F7EC31A1E4C"
+				item: "minecraft:clay"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["641B93E0D035568B"]
+			description: [
+				"Вы так же можете зачаровать данную жемчужину на &oэффективность&r и &oбыструю перезарядку&r."
+				""
+				"&lЭффективность&r - увеличивает вместимый опыт"
+				"&lБыстрая перезарядку&r - скорость пополнения опыта вручную!"
+			]
+			hide: true
+			id: "6EE44FEF1C08A707"
+			rewards: [
+				{
+					id: "52621079B65D26E6"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "13428D833524AD3C"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 20
+					id: "64E82645D09E6BB9"
+					item: "vitalize:experience_cubed"
+					random_bonus: 45
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Жемчужина позволяет вам добавлять опыт в зачарователь!"
+			tasks: [{
+				id: "353382B7E7F1BB78"
+				item: "spectrum:knowledge_gem"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["641B93E0D035568B"]
+			description: ["Зачаруй на силу свои сапожки, будешь ещё быстрее!"]
+			hide: true
+			id: "5A213C259011EDE5"
+			rewards: [{
+				id: "5E7AC5EF17A39E43"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "286F4F45FA627565"
+				item: {
+					Count: 1b
+					id: "spectrum:seven_league_boots"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:power"
+							lvl: 5s
+						}]
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 14.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["77CD79C7CF14D94C"]
+			hide: true
+			id: "77C55C5FFC84575B"
+			rewards: [
+				{
+					id: "487CF70251E60A63"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3A44AFB7AFA5396D"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3E348E1113C29161"
+					item: "spectrum:storm_stone"
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "Ещё искрятся "
+			tasks: [{
+				id: "43170B647DD9F8B4"
+				item: "spectrum:storm_stone"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["78A5FFC5CFB319FE"]
+			description: [
+				"Когда молния бьёт в землю, на земле остаются маленькие осколоки шторма."
+				""
+				"Используйте громоотвод чтобы получить штормовой осколо, используй святыню слияния чтобы призвать штормовую погоду!"
+				"{image:quest_images:textures/item/storm_stone.png width:300 height:135 align:1}"
+			]
+			hide: true
+			id: "77CD79C7CF14D94C"
+			rewards: [
+				{
+					id: "3AEF7DBEB06349E9"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "69AE0BFEFEC7C60F"
+					item: "kubejs:mob_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				advancement: "spectrum:midgame/collect_storm_stone"
+				criterion: ""
+				id: "60957EEB85D51659"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["78A5FFC5CFB319FE"]
+			description: ["Заставь баночку с гибелью съесть обсидиан, получишь &l&5неолит&r&r"]
+			hide: true
+			id: "182EBD1105CF57A7"
+			rewards: [
+				{
+					id: "5EB36ECEFE835BAE"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7A3E39616EA65F6B"
+					item: "spectrum:neolith"
+					random_bonus: 3
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7A233FFC4EF774C5"
+				item: "spectrum:neolith"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"182EBD1105CF57A7"
+				"77CD79C7CF14D94C"
+			]
+			description: ["Появляется в основном ниже 0ых координат. Часто можно найти на стенах больших пещер, похож на рунит/лазурит"]
+			hide: true
+			id: "54DEB2E2FBBF842D"
+			rewards: [
+				{
+					id: "4B0FD496977A0612"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "017AB6E7C2DBB73F"
+					item: "spectrum:azurite_ore"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Добывается из руды азурита"
+			tasks: [{
+				id: "35DB7B63089B94C4"
+				item: "spectrum:raw_azurite"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.700000000000001d
+		}
+		{
+			dependencies: ["182EBD1105CF57A7"]
+			hide: true
+			id: "7EE703D1C4FA1980"
+			rewards: [{
+				id: "2CFAFA8E3CBEA36E"
+				item: "spectrum:ender_splice"
+				random_bonus: 5
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6E0E5A9BC709383F"
+				item: "spectrum:ender_splice"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["21E3A44EA5EDD677"]
+			description: ["{image:quest_images:textures/item/spectrum/p2.png width:200 height:200 align:1 fit:true}"]
+			hide: true
+			icon: "spectrum:pedestal_onyx"
+			id: "3877FD4F24D92304"
+			rewards: [{
+				id: "2E09CE44DF3EC833"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Улучшите свой старый алтарь"
+			tasks: [{
+				id: "2AB0C1F0A64207A4"
+				item: "spectrum:pedestal_onyx"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3B68A7B5A1BB4D44"]
+			description: [
+				"&#ffb04fЭтот квест открывает новую ветку квестов!&r"
+				""
+				""
+				"{image:quest_images:textures/item/spectrum/spirit_instiller.png width:200 height:200 align:1}"
+			]
+			hide: true
+			id: "7AC1920BD7A9329E"
+			rewards: [
+				{
+					id: "40117E919BB8C73C"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "47612ED3BD231E99"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "564C3BEC59E8B895"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			subtitle: "Оживляем мёртвое и открываем проход к ботаникам"
+			tasks: [{
+				id: "26ECE33132D5052E"
+				item: "spectrum:spirit_instiller"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3B68A7B5A1BB4D44"]
+			description: ["Голубой азурит позволяет вам открыть путь к закрытым загадкам, а так же увеличивает вашу выживаемость!"]
+			hide: true
+			id: "3B7EE99ECAE9457B"
+			rewards: [{
+				id: "55776D65376571BE"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "52E10027A94A6455"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "mif:azure_dike_trinkets"
+					}
+				}
+				title: "Any #mif:azure_dike_trinkets"
+				type: "item"
+			}]
+			title: "Голубенькие колечьки "
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3B7EE99ECAE9457B"]
+			description: ["Используя азуритовую защиту зайдите в ранее найденный вам данж с странной защитой!"]
+			hide: true
+			id: "38D7FCF430013682"
+			rewards: [{
+				id: "39AAB61AF74351DA"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "spectrum:enter_dike_gate_preservation_ruin"
+				criterion: ""
+				id: "1468C8C1DD5BF82D"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"77CD79C7CF14D94C"
+				"182EBD1105CF57A7"
+			]
+			hide: true
+			id: "239BFC7671FAF5F5"
+			rewards: [{
+				count: 20
+				id: "1C752E460BBF6448"
+				item: "vitalize:experience_cubed"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Создайте таинственный ритуал"
+			tasks: [{
+				advancement: "spectrum:midgame/create_midnight_aberration"
+				criterion: ""
+				id: "3B4A768689F4AB34"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -5.700000000000001d
+		}
+		{
+			dependencies: ["3B68A7B5A1BB4D44"]
+			hide: true
+			id: "4EF6D1723A16D11F"
+			rewards: [
+				{
+					id: "667F082173E685F4"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "08B81B1E405C3C0E"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Лучший в своём роде"
+			tasks: [{
+				id: "3F87E071CF201161"
+				item: "spectrum:upgrade_efficiency"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3B68A7B5A1BB4D44"]
+			description: ["Вмещает куда больше краски и имеет множество вместимых типов"]
+			hide: true
+			id: "3F6640DEC275920C"
+			rewards: [
+				{
+					id: "669FC802EF52E7C1"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1637394A1C2FAFB9"
+					item: "kubejs:food_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "655B1C1C7E2CD889"
+				item: "spectrum:pigment_palette"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["239BFC7671FAF5F5"]
+			description: ["Чтобы получить &l&0полун&5очный &5оск&0ол&5ок&r, вам необходимо чтобы &l&5по&0лу&5ноч&0ный&r &l&5ра&0с&5тв&0ор&r убил живое существо!"]
+			hide: true
+			id: "0EBE1EF0925CB824"
+			rewards: [
+				{
+					id: "72AF3ABA6EE51890"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "084B2F17375D49D0"
+					item: "kubejs:mob_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0FB05FFF8A22C824"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5ABD213ABFC03C0F"
+					item: "spectrum:midnight_chip"
+					random_bonus: 4
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 8L
+				id: "2757696AB8346130"
+				item: "spectrum:midnight_chip"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["54DEB2E2FBBF842D"]
+			hide: true
+			id: "3B68A7B5A1BB4D44"
+			rewards: [
+				{
+					id: "7C7148B52004C7B8"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "55B728696288F053"
+					item: "spectrum:refined_azurite"
+					random_bonus: 3
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Очистите азурит"
+			tasks: [{
+				count: 4L
+				id: "79996E8D06ACACF9"
+				item: "spectrum:refined_azurite"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"3B68A7B5A1BB4D44"
+				"0EBE1EF0925CB824"
+			]
+			description: ["&4Порчу нельзя вернуть обратно в баночку!&r"]
+			hide: true
+			id: "36048D9C00CA490D"
+			rewards: [
+				{
+					id: "4D70BF7E69DE31A7"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2239107D78B020C3"
+					item: "spectrum:bottle_of_ruin"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "&c⚠⚠⚠⚠ОПАСНО!!!!⚠⚠⚠⚠"
+			tasks: [{
+				id: "1B285E1D06384FB0"
+				item: "spectrum:bottle_of_ruin"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -12.200000000000001d
+		}
+		{
+			dependencies: ["77C55C5FFC84575B"]
+			description: ["Позволяет выбивать из мобов головы чаще, так же вы можете выбить головы большинство мобов, а не только всем привычные головы крипера, зомби, скелета и т.д."]
+			hide: true
+			id: "0797461370E96C3C"
+			rewards: [
+				{
+					id: "440033C29D35B7D2"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4EC40513040AF571"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "715B92CEF60A744A"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "749FE784C901B9D9"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "spectrum:treasure_hunter"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "Я шизанутый бегите"
+			x: 5.0d
+			y: -5.200000000000001d
+		}
+		{
+			dependencies: ["0797461370E96C3C"]
+			hide: true
+			id: "46F7F3420278BC06"
+			rewards: [
+				{
+					id: "2492BCE5C6057102"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2867229108D1B9AB"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "spectrum:midgame/collect_mob_head_using_treasure_hunter"
+				criterion: ""
+				id: "1B98A8808D53E4B2"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -6.700000000000001d
+		}
+		{
+			dependencies: ["77C55C5FFC84575B"]
+			hide: true
+			id: "357C6BEC269D8FF4"
+			rewards: [
+				{
+					id: "6196355ED85AE743"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3BF3A3271E6DA807"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Прыгай как кролик, но какой ценой…"
+			tasks: [{
+				id: "1601BD62EB735E41"
+				item: "spectrum:take_off_belt"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["77C55C5FFC84575B"]
+			description: [
+				"Лучший помощник, сборщика кристаллов!"
+				""
+				"Данный блок автоматический собирает выращенные кристаллы, например выращенный кристалл &5аметиста&r в жеоде!"
+				""
+				"Данный блок очень сильно поможет вам в будущем!"
+			]
+			hide: true
+			id: "35A77E4B5C2CE1EB"
+			rewards: [{
+				id: "3266D70312E6BFC0"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3B697135DF4991FE"
+				item: "spectrum:crystal_apothecary"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["77C55C5FFC84575B"]
+			hide: true
+			id: "24A14912BF45700C"
+			rewards: [
+				{
+					id: "7AFC2954704EB053"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3CCC1A9DF7D9B008"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Больше опыта, бога опыта!"
+			tasks: [{
+				id: "6C5A8902ED09CC67"
+				item: "spectrum:upgrade_experience"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7AC1920BD7A9329E"]
+			description: [
+				"Выбив голову любого из мобов, вы можете создать его воспоминание и позволить ему появится на свет вновь, для того чтобы вновь "
+				"убить?"
+			]
+			hide: true
+			id: "09C683DBFC6D54BD"
+			rewards: [{
+				id: "4CD6EE7A37CF6BDE"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			size: 0.7d
+			tasks: [{
+				id: "23C6F69988240CF0"
+				item: "spectrum:memory"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["09C683DBFC6D54BD"]
+			description: [
+				"Лучшие учёные мира собрались чтобы культиваровать &lэто&r."
+				""
+				"Это чудо даёт молоко, шерсть яйца, кожу и свинину &lодновременно!&r&n"
+				""
+				"{image:quest_images:textures/item/spectrum/egg_laying_wooly_pig.png width:200 height:200 align:1 fit:true}"
+			]
+			id: "037773DE282EAF2E"
+			rewards: [
+				{
+					id: "41593F8D2674FD91"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "77FE72BC8FD3A882"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+			]
+			size: 0.7d
+			subtitle: "Учёные из гигманского университета "
+			tasks: [{
+				id: "7060F9D52CD97144"
+				item: {
+					Count: 1b
+					id: "spectrum:memory"
+					tag: {
+						EntityTag: {
+							id: "spectrum:egg_laying_wooly_pig"
+						}
+						TicksToManifest: 8
+					}
+				}
+				type: "item"
+			}]
+			title: "Свинья? Нет, козёл, или..."
+			x: -5.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["182EBD1105CF57A7"]
+			description: ["Если всё таки какая-то из жидкостей вырвалась наружу, данная баночка поможет вернуть всё на своё место! С некоторыми нюансами."]
+			hide: true
+			id: "5EAB38FF5492E5B9"
+			rewards: [{
+				count: 32
+				id: "573C0298FB793B44"
+				item: "vitalize:experience_cubed"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7A93ABFEF9930BB5"
+				item: "spectrum:bottle_of_decay_away"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["38D7FCF430013682"]
+			description: ["В данже была найдена засохшая нефритовая луковица, возможно у вас выйдет оживить её?"]
+			hide: true
+			id: "5DD61AA5851437B9"
+			rewards: [{
+				id: "7EAE1D0DE1A0AFA8"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F931488930FE389"
+				item: "spectrum:germinated_jade_vine_seeds"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5DD61AA5851437B9"]
+			description: ["Вырастив нефритовую луковицу соберите немного её лепестков"]
+			hide: true
+			id: "45500A52809ED66C"
+			rewards: [
+				{
+					id: "6BC704F4247BDAEA"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "17AFDCEA0B966A1E"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "67F848325D1E3D37"
+				item: "spectrum:jade_vine_petals"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["45500A52809ED66C"]
+			description: ["Позволяет перенести все зачарования с любого инструменты/брони на эту книгу, так же имеет высокий уровень зачаровываемости, так же тратит меньше опыта и времени на зачарования других инструментов!"]
+			hide: true
+			id: "740301C327456010"
+			rewards: [{
+				id: "18829F99868305FE"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "257D68704260B8E3"
+				item: "spectrum:gilded_book"
+				type: "item"
+			}]
+			x: -9.385714285714288d
+			y: -6.5d
+		}
+		{
+			dependencies: ["45500A52809ED66C"]
+			description: ["Вы можете улучшать ранее найденный чёрный лотос для выработки большего количества маны для мода Botania! "]
+			hide: true
+			id: "3F46FEF6458FFE8F"
+			rewards: [{
+				id: "02A0FB6B70426888"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "712EF585B2EF67EB"
+				item: "botania:blacker_lotus"
+				type: "item"
+			}]
+			title: "Почему бы и да?…"
+			x: -9.385714285714288d
+			y: -8.5d
+		}
+		{
+			dependencies: ["36048D9C00CA490D"]
+			description: ["Ничего такого, да? Просто кусочек бедрока."]
+			hide: true
+			id: "4C8E37AF899961F6"
+			rewards: [
+				{
+					id: "6531EEEC1BE43AC6"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2F4851C883B1F0C3"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "626C3B15F3161847"
+					item: "kubejs:food_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "7CC9B9E713440BAB"
+				item: "spectrum:bedrock_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -14.793877551020412d
+		}
+		{
+			dependencies: ["36048D9C00CA490D"]
+			description: ["&#ffb04fЭтот квест открывает новую ветку квестов!&r"]
+			hide: true
+			id: "01EEAB72478340F9"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1b
+						id: "ftbquests:custom_icon"
+						tag: {
+							Icon: "spectrum:item/purple_star_candy"
+						}
+					}
+					id: "2646F4EF698E6BBF"
+					title: "Прыжок в неизвестность"
+					type: "custom"
+				}
+				{
+					id: "5C010E9343DCF2BC"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5E764BA70F99A89F"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7243672E15635AE0"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "&0Окунись в бездну &l☠"
+			tasks: [{
+				advancement: "spectrum:midgame/open_deeper_down_portal"
+				criterion: ""
+				id: "0D63675050FC2260"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -14.793877551020412d
+		}
+		{
+			dependencies: ["0797461370E96C3C"]
+			id: "1CDDADE2556ED04A"
+			rewards: [
+				{
+					id: "4D32D114A594486E"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3A837B9D47CE7D68"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2270D1DEFBB31536"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "spectrum:midgame/collect_warden_head_using_treasure_hunter"
+				criterion: ""
+				id: "63C21BCC1B6581AA"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: -6.700000000000001d
+		}
+		{
+			dependencies: ["3877FD4F24D92304"]
+			description: [
+				"&#DEB3E0Хрустальные шары&r - обычные инструменты для гадания. "
+				""
+				"При использовании они принесут заклинателю Удачу, ценой &#DEB3E0Магическй энергии&r, взятой из ближайшего &#FEECD6Алтаря&r."
+				""
+				"Дополнительно хрустальные шары используются для гадания. При использовании вместе с &#FEECD6Экстрактором ДНК&r, хрустальный шар даст точную информацию о &#ffb04fцели&r, на каких координатах &#ffb04fигрок&r, какие у него есть проклятья и т.д."
+			]
+			hide: true
+			id: "0D89B654B3E6447E"
+			rewards: [{
+				id: "38A528447D5C3F3E"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5AD0969406BBA424"
+				item: "bewitchment:crystal_ball"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3877FD4F24D92304"]
+			description: [
+				"&#DEB3E0Жаровня&r - незаменимый инструмент для &4Проклятий&r. Кроме этого, её можно использовать для &#DEB3E0Благовоний&r."
+				""
+				"Жаровня может вместить до четырех предметов. Чтобы начать ей пользоваться, вам нужно зажечь её с помощью &#FEECD6огнива&r."
+				""
+				"Более подробную информацию можно прочесть в книге."
+			]
+			hide: true
+			id: "49CB4358E3657EA2"
+			rewards: [{
+				id: "1BBEAF1C25E061B0"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "77650804DB42A337"
+				item: "bewitchment:brazier"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3877FD4F24D92304"]
+			description: [
+				"&#DEB3E0Сигилы&r - это магические символы власти. Их можно разделить на две группы: &#9BB8EDактивные&r и &#CAE4C8пассивные&r сигилы."
+				""
+				"&#9BB8EDАктивные сигилы&r необходимо размещать на пригодных для использования блоках или метлах, изготовленных из &4Крови дракона&r."
+				""
+				"&#CAE4C8Пассивные символы&r могут быть размещены где угодно и будут применять свой эффект ко всему вокруг."
+			]
+			hide: true
+			id: "021DCD549FA18E20"
+			rewards: [{
+				id: "1D6A116EF990E824"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3E404A8B09EAE42F"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "mif:sigils"
+					}
+				}
+				title: "Any #mif:sigils"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3877FD4F24D92304"]
+			description: [
+				"&#DEB3E0Мётлы&r - это магические приспособления, обычно используемые ведьмами. За счет использования &5Магической энергии&r, они позволяют игроку летать по небу."
+				""
+				"Мётлы бывают четырех вариантов, каждый из которых обладает &#ffb04fуникальными&r свойствами."
+				""
+				"Более подробнее о свойствах можно прочитать в книге, метла из bewtichment plus не имеет каких-либо уникальных эффектов, она просто… Летает…"
+			]
+			hide: true
+			id: "78FE98D30F14F9A4"
+			rewards: [{
+				id: "4CBF84CD934F5763"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0626274B55F06008"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "mif:brooms"
+					}
+				}
+				title: "Any #mif:brooms"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3877FD4F24D92304"]
+			description: [
+				"&#DEB3E0Куклы&r - это удобные фигурки, которые можно использовать как для &#d33b2bвредоносных&r, так и для &#CAE4C8защитных целей&r."
+				""
+				"Куклы &o<shake>всегда</shake>&r привязаны к объекту."
+				""
+				"Чтобы быть активными, они должны быть в вашем инвентаре."
+			]
+			hide: true
+			id: "496217B7F7AA8316"
+			rewards: [{
+				id: "72B1993779224AA0"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "756594FC48A9DD7F"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "mif:poppets"
+					}
+				}
+				title: "Any #mif:poppets"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3877FD4F24D92304"]
+			description: [
+				"&#DEB3E0Ритуалы&r - это мощная &5магическая практика&r, используемая для непосредственного воздействия на мир. Их проводят рисуя круги и добавляя необходимые ингредиенты."
+				""
+				"Ритуалы нуждаются в &5Магической энергии&r - предоставляемой &#FEECD6Алтарём&r поблизости; сумма в Необходимой &5Магической энергии&r всегда указывается в записях о ритуале."
+				""
+				"У каждого ритуала есть внутренний и необязательный внешний круг, нарисованный разным мелом, в зависимости от ритуала."
+			]
+			hide: true
+			id: "730B272910F0D699"
+			rewards: [{
+				count: 16
+				id: "314B6D95A0BB4359"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1BDC510707785C8A"
+				item: {
+					Count: 1b
+					id: "bewitchment:chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["730B272910F0D699"]
+			description: ["&l&5Таинственный&r&r мелок является дополнительным для разных ритуалов."]
+			hide: true
+			id: "2642E47CE3901B37"
+			rewards: [{
+				id: "438E5F161DA16F3C"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "654410DE2398266D"
+				item: {
+					Count: 1b
+					id: "bewitchment:eldritch_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["730B272910F0D699"]
+			description: ["&l&4Огненный&r&r Мелок является дооплнительным кругом для разных ритуалов."]
+			hide: true
+			id: "24A0A1F63B534DE6"
+			rewards: [{
+				id: "41030043A042012E"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5A8C3310D2BD7324"
+				item: {
+					Count: 1b
+					id: "bewitchment:fiery_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["730B272910F0D699"]
+			description: ["&l&6Золотой&r&r мелок является центром круга любого ритуала!"]
+			hide: true
+			id: "2FE982BA23600A79"
+			rewards: [{
+				id: "171965C1387A54B7"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "557813338584043C"
+				item: {
+					Count: 1b
+					id: "bewitchment:golden_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["24A0A1F63B534DE6"]
+			description: [
+				"Призовите &4Демона&r и получите свой первый контракт!"
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&#C6BCE9Контракты&r - это потусторонние договоры, купленные у &4демонов&r ценой здоровья."
+				""
+				"Контракты обычно длятся &#9BB8EDсемь дней&r и не могут быть разорваны."
+				""
+				"Более подробнее о каждом контракте можно прочитать в книге!"
+			]
+			hide: true
+			id: "233C36D4913B54E7"
+			rewards: [{
+				id: "64F35FBF6D779ACD"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "2887A23FB150F1B0"
+				item: {
+					Count: 1b
+					id: "bewitchment:demonic_contract"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4C8E37AF899961F6"]
+			description: ["Создайте невероятно крепкий сплав, древние называли его «Дюросталью»"]
+			id: "4E891CEA50BDD082"
+			rewards: [
+				{
+					count: 20
+					id: "3793B55E9874F50D"
+					item: "vitalize:experience_cubed"
+					random_bonus: 60
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "73EE29767B3E3A49"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0BEBA9841311FC09"
+					item: "kubejs:food_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7228A8FFE0E740E4"
+				item: "mythicmetals:durasteel_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["4E891CEA50BDD082"]
+			description: ["Открыв технологию создания &oДюростали&r вы придумали как сможете улучшить свой рюкзак еще сильнее!"]
+			id: "0797B7CC4736506D"
+			rewards: [
+				{
+					count: 20
+					id: "19B3CC10258AA03E"
+					item: "vitalize:experience_cubed"
+					random_bonus: 50
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0448873F782D3C0A"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "1A36FA8953425824"
+				item: "travelersbackpack:diamond_tier_upgrade"
+				type: "item"
+			}]
+			x: 1.6d
+			y: -17.6d
+		}
+		{
+			dependencies: [
+				"3877FD4F24D92304"
+				"3D28572AD9317891"
+			]
+			description: [
+				"Сундук который &oсвязан&r между таким же сундуком &#DEB3E0цветными рунами&r, данный сундук позволяет &oобъединить&r два подобных сундука между собой, главное чтобы он был в &#FEECD6прогруженных чанках&r для их полноценной работы."
+				""
+				"Возможно вам понадобится &#DEB3E0друг&r либо же &#DEB3E0чанклоудер&r - что в целом для вас будет равносильным по &#d33b2bсложности&r получения."
+				""
+				"&#FEECD6Совет&r: Любой игрок который сможет подобрать &4<shake>ц&r&6<shake>в&r&e<shake>е&r&2<shake>т&r&b<shake>н&r&9<shake>о&r&5<shake>й</shake>&r ключ к вашему сундуку — сможет выкачивать ваши предметы, используйте &#b9f2ffалмаз&r на центральном клапане сундука, чтобы сделать его &#DEB3E0приватным&r."
+			]
+			id: "23A6A609EE447218"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7F9FF2FFAA2E0AB3"
+					table_id: 3861882098186236827L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78AD64FF31D218D2"
+					table_id: 3861882098186236827L
+					type: "choice"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5E9617924D7A6489"
+				item: "kibe:entangled_chest"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"3877FD4F24D92304"
+				"3D28572AD9317891"
+			]
+			description: [
+				"Бак который &oсвязан&r между таким же баком &#DEB3E0цветными рунами&r, данный бак позволяет &oобъединить&r два подобных бака между собой, главное чтобы он был в &#FEECD6прогруженных чанках&r для полноценной работы."
+				""
+				"Возможно вам понадобится &#DEB3E0друг&r либо же &#DEB3E0чанклоудер&r - что в целом для вас будет равносильным по &#d33b2bсложности&r получения."
+				""
+				"&#FEECD6Совет&r: Любой игрок который сможет подобрать &4<shake>ц&r&6<shake>в&r&e<shake>е&r&2<shake>т&r&b<shake>н&r&9<shake>о&r&5<shake>й</shake>&r ключ к вашему баку — сможет выкачивать ваши жидкости, используйте &#b9f2ffалмаз&r на центральном клапане бака, чтобы сделать его &#DEB3E0приватным&r."
+			]
+			id: "62BB9D5A8A9DD181"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58CB5DD56087E491"
+					table_id: 3861882098186236827L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "051D2E43538A43C4"
+					table_id: 3861882098186236827L
+					type: "choice"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1A8D976A30ED1A9D"
+				item: "kibe:entangled_tank"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["62BB9D5A8A9DD181"]
+			description: ["Может быть соединен вместе с баком для доступа к баку на расстояние "]
+			hide: true
+			id: "5B1C97CCA7759117"
+			shape: "diamond"
+			tasks: [{
+				id: "43F7A212F40AF0B7"
+				item: "kibe:entangled_bucket"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["23A6A609EE447218"]
+			description: ["Может быть соединен вместе с сундуком для доступа к сундуку на расстояние "]
+			hide: true
+			id: "662FB98AC224984F"
+			shape: "diamond"
+			tasks: [{
+				id: "4AD22414CFCAAC3B"
+				item: "kibe:entangled_bag"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["641B93E0D035568B"]
+			description: ["Проклятое лассо позволяет ловить в него только враждебных мобов"]
+			hide: true
+			id: "415E89DC974E7A45"
+			rewards: [{
+				id: "7377BD01A208468D"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "078A68501E1A815A"
+				item: {
+					Count: 1b
+					id: "kibe:cursed_lasso"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["641B93E0D035568B"]
+			description: ["Золотое лассо позволяет ловить в него только мирных мобов"]
+			hide: true
+			id: "557BBDD882CE4033"
+			rewards: [{
+				id: "21737C4B0DC4AEC7"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "6F3BC4943A3580DE"
+				item: {
+					Count: 1b
+					id: "kibe:golden_lasso"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["641B93E0D035568B"]
+			description: ["Алмазное лассо позволяет ловить в него как враждебных там и мирных мобов"]
+			hide: true
+			id: "15A9EFF54E64EABD"
+			rewards: [{
+				id: "1FDFA352526D1172"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "7F7CB9AFFD36251E"
+				item: {
+					Count: 1b
+					id: "kibe:diamond_lasso"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4E891CEA50BDD082"]
+			description: ["Позволяет телепортироваться на маршрутные камни, имеет бесконечную прочность."]
+			id: "74DA0E34E14F90B0"
+			rewards: [{
+				count: 10
+				id: "1B1B06C49622F7E6"
+				item: "numismatic-overhaul:silver_coin"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "1B5AA5ECAA9DE04F"
+				item: "fwaystones:pocket_wormhole"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -16.8d
+		}
+		{
+			dependencies: ["3B68A7B5A1BB4D44"]
+			description: [
+				"Создайте слиток душ из азурита, слиток душ - основной материал в моде Spirit."
+				""
+				"Мод Spirit позволяет создать свой спавнер и при помощи собранных вами душ мобов вызывать любое количество нужных вам мобов!"
+			]
+			id: "4A01315B2CA849AE"
+			rewards: [{
+				id: "20EF353A7A445790"
+				item: "spirit:soul_steel_block"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "528E17B8FFD54472"
+				item: "spirit:soul_steel_ingot"
+				type: "item"
+			}]
+			x: -1.2928571428571516d
+			y: -12.19897959183674d
+		}
+		{
+			dependencies: ["6E6C22551B253133"]
+			description: ["Позволяет создавать спавнер, засовывая туда наполненную &3душу моба&r, спавнер будет спавнить мобов."]
+			hide: true
+			id: "3AAD6FC39016CFF5"
+			rewards: [{
+				id: "00FC3650C2856020"
+				item: "kubejs:magic_lootbag_rare"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "046B5D18FA2E5306"
+				item: "spirit:soul_cage"
+				type: "item"
+			}]
+			x: -4.864285714285714d
+			y: -12.668367346938773d
+		}
+		{
+			dependencies: ["6E6C22551B253133"]
+			description: ["Инструменты из &9стали душ&r имеют встроенную починку в огне душ и некоторые другие улучшения, так же оружие из стали душ выбивают &nдополнительные &9души&r&r из монстров для &lкристалла душ&r."]
+			hide: true
+			id: "3352B62986DF70F0"
+			rewards: [{
+				id: "5CB94BF2DB06FBB8"
+				item: "kubejs:magic_lootbag_rare"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "50CA28996812A850"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "spirit:soul_steel_mainhand"
+					}
+				}
+				title: "Any #spirit:soul_steel_mainhand"
+				type: "item"
+			}]
+			x: -4.864285714285714d
+			y: -11.668367346938773d
+		}
+		{
+			dependencies: ["6E6C22551B253133"]
+			description: ["Зачарование Жнец душ можно создать в зачарователе спектрума, жнец души позволяет выбивать из мобов больше их душ для кристалла душ."]
+			hide: true
+			id: "13301E271D22501C"
+			rewards: [{
+				id: "3C7E7EC10024C4BD"
+				item: "kubejs:magic_lootbag_rare"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "04BC21AFFF9911BF"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "spirit:soul_reaper"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -5.364285714285714d
+			y: -12.168367346938773d
+		}
+		{
+			dependencies: ["4A01315B2CA849AE"]
+			description: [
+				"Создайте &9кристалл души&r, убивая монстров кристалл души будет заполняться, душой моба которого вы убили."
+				""
+				"Чем больше вы собрали &9душ&r, тем больше спавнер будет порождать &4мобов&r, так же усиливая кристалл вы будуте улучшать другие характеристика &oспавнера&r, более подробнее можно прочитать в &eREI&r"
+			]
+			hide: true
+			id: "6E6C22551B253133"
+			rewards: [{
+				id: "7267671B2087CC68"
+				item: "kubejs:magic_lootbag_rare"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5A070F065C2AA87D"
+				item: "spirit:soul_crystal"
+				type: "item"
+			}]
+			x: -4.364285714285714d
+			y: -12.168367346938773d
+		}
+		{
+			dependencies: ["45500A52809ED66C"]
+			description: ["Лунный нектар может полностью починить инструменты или дать регенерацию 3 на короткий промежуток времени! "]
+			id: "3A5CE82800D25EC2"
+			rewards: [{
+				id: "77F80D21053498AA"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				id: "0221EF3D9A8D40F0"
+				item: "spectrum:moonstruck_nectar"
+				type: "item"
+			}]
+			x: -9.385714285714288d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3A5CE82800D25EC2"]
+			description: ["Данный нектар позволяет вызывать заново ранее убитых боссов и мода Boss of Mass Desctruction в их структурах, не работает на босса адскую перчатку!"]
+			id: "2D1EB568EC7D6C12"
+			rewards: [{
+				id: "2790AFC01ADA9AA1"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "1C129B629468E1E1"
+				item: "bosses_of_mass_destruction:brimstone_nectar"
+				type: "item"
+			}]
+			x: -10.4d
+			y: -7.457142857142877d
+		}
+		{
+			dependencies: ["4E891CEA50BDD082"]
+			id: "484CE40E87B67972"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43AE849611E7D286"
+				table_id: 4958044504747919608L
+				type: "choice"
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "4980C5B6525AEAF0"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "mif:durasteel_reinforced_drills"
+					}
+				}
+				title: "Any #mif:durasteel_reinforced_drills"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -16.8d
+		}
+		{
+			dependencies: ["3877FD4F24D92304"]
+			description: ["Одно из самых <shake>вместительных</shake> хранилищ для предметов"]
+			id: "3BD3C6E13574056F"
+			rewards: [{
+				id: "4E21FEF72FC7F75D"
+				item: "reinfchest:diamond_chest"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 0.8d
+			tasks: [{
+				id: "72B107F46C592AA7"
+				item: "reinfchest:diamond_chest"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.6d
+		}
+		{
+			dependencies: ["3BD3C6E13574056F"]
+			description: ["Имеет ту же &oвместительность&r что и &#b9f2ffалмазный сундук&r, но имеет множество иммунитетов, в том чилсе к &7взрыву&r, &#ff6600горению&r."]
+			id: "4A8741F8EE51349C"
+			rewards: [
+				{
+					id: "424017BE93EBF816"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2BA267295F1C01C9"
+					item: "kubejs:magic_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "20A992AC564273E5"
+					item: "reinfchest:netherite_chest"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 0.8d
+			tasks: [{
+				id: "592E9927A300C970"
+				item: "reinfchest:netherite_chest"
+				type: "item"
+			}]
+			x: -1.2999999999999998d
+			y: 1.6d
+		}
+		{
+			dependencies: ["3877FD4F24D92304"]
+			description: ["Увеличивает вместимость ящиков в &#FEECD68 раз&r."]
+			id: "5A28D1588A55FAE8"
+			rewards: [{
+				count: 2
+				id: "546DB5EF33FE1F78"
+				item: "extended_drawers:t3_upgrade"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 0.8d
+			tasks: [{
+				id: "2E44EED86355350C"
+				item: "extended_drawers:t3_upgrade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3B68A7B5A1BB4D44"]
+			description: ["Увеличивает вместимость ящиков в 16 раз."]
+			id: "31620B105F4B731A"
+			rewards: [{
+				id: "22018EAAD24389A2"
+				item: "extended_drawers:t4_upgrade"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "038438B26D3F8967"
+				item: "extended_drawers:t4_upgrade"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4E891CEA50BDD082"]
+			description: [
+				"&9Данк&r четвертого уровня вмещает &b16384 предмета&r и имеет &b36 слотов&r."
+				""
+				"Так же данки имеют &bразные режимы&r подбора предметов, один из самых полезных - &cудаление&r лишних ресурсов, чтобы не забивать свой инвентарь!"
+				""
+				"Держа в руке &6данк&r можно нажать на кнопку i - тогда данк перейдет в режим &3строительства&r, засуньте туда нужный блок для строительства и нажмите данком &eСредней кнопкой мыши&r на нужный блок для строительства - теперь вы можете использовать данк для строительства!"
+			]
+			id: "7942771E934F45BA"
+			rewards: [{
+				id: "2C28B4BF3C225BA0"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "circle"
+			size: 0.6d
+			tasks: [{
+				id: "5F56528235A06FFE"
+				item: "dankstorage:dank_4"
+				type: "item"
+			}]
+			x: 0.6d
+			y: -17.7d
+		}
+		{
+			dependencies: ["3B68A7B5A1BB4D44"]
+			id: "1F403D660C4D4F97"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1DCE0773DE7C0C51"
+				table_id: 5407543611741114669L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "4BEC17959C79FA29"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "mif:azurite_plated_drills"
+					}
+				}
+				title: "Any #mif:azurite_plated_drills"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3AAD6FC39016CFF5"]
+			description: ["&9Ревитализатор душ&r работает так же как и &bклетка душ&r, только &nне создаёт&r мобов \"Физически\", проще говоря он просто создаёт &eопыт&r и &6лут&r, ценой &3энергии&r."]
+			hide: true
+			id: "5C0A916E972D61EB"
+			rewards: [
+				{
+					id: "7FD1D340BFA08042"
+					item: "spirit:soul_steel_block"
+					type: "item"
+				}
+				{
+					id: "0F32A72F9EEE93D6"
+					item: "kubejs:magic_lootbag_rare"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "0648875FA6A100C3"
+				item: "vitalize:soul_revitalizer"
+				type: "item"
+			}]
+			x: -4.854081632653063d
+			y: -14.076530612244895d
+		}
+		{
+			dependencies: ["5C0A916E972D61EB"]
+			description: ["Вокруг &9Ревитализатор душ&r может находится 8 пилонов, каждый из них может быть разного типа, разные пилоны дают разные баффы!"]
+			hide: true
+			id: "22FBDD2FFFD8836D"
+			rewards: [{
+				id: "0453187D457EC715"
+				item: "kubejs:magic_lootbag_rare"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 0.8d
+			tasks: [{
+				id: "31CDFD17C8ACAF8D"
+				item: "vitalize:pylon_base"
+				type: "item"
+			}]
+			x: -4.854081632653063d
+			y: -15.556122448979593d
+		}
+		{
+			dependencies: ["22FBDD2FFFD8836D"]
+			description: [
+				"Пилоны данного типа могу присутствовать до 5 штук вокруг &9Ревитализатор душ&r"
+				""
+				"Данный пилон снижает % потребления энергии."
+			]
+			hide: true
+			id: "7EF2D32A28502E3F"
+			rewards: [{
+				id: "3E4F918F72C5CABD"
+				item: "kubejs:magic_lootbag_rare"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "70D83ECC6116B0C6"
+				item: "vitalize:pylon_efficiency"
+				type: "item"
+			}]
+			x: -7.38469387755103d
+			y: -15.494897959183675d
+		}
+		{
+			dependencies: ["22FBDD2FFFD8836D"]
+			description: [
+				"Пилоны данного типа могу присутствовать до 3 штук вокруг &9Ревитализатор душ&r"
+				""
+				"Данный пилон повышает % получить голову с моба при убийстве."
+				""
+				"Так же пилон увеличивает % потребления энергии &9Ревитализатором душ&r"
+			]
+			hide: true
+			id: "22357AB51B050643"
+			rewards: [{
+				id: "7A34132C0EB6599E"
+				item: "kubejs:magic_lootbag_rare"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "79CC3650FC84F943"
+				item: "vitalize:pylon_beheading"
+				type: "item"
+			}]
+			x: -6.88469387755103d
+			y: -16.494897959183675d
+		}
+		{
+			dependencies: ["22FBDD2FFFD8836D"]
+			description: [
+				"Пилоны данного типа могу присутствовать до 3 штук вокруг &9Ревитализатор душ&r"
+				""
+				"Данный пилон повышает % потребления энергии на 25% за штуку."
+				""
+				"Увеличивает количество добычи с мобов."
+			]
+			hide: true
+			id: "43CF6626E00AA1E5"
+			rewards: [{
+				id: "4FED7270F275215D"
+				item: "kubejs:magic_lootbag_rare"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "243439BB1BBA7C3B"
+				item: "vitalize:pylon_looting"
+				type: "item"
+			}]
+			x: -5.88469387755103d
+			y: -16.994897959183675d
+		}
+		{
+			dependencies: ["22FBDD2FFFD8836D"]
+			description: [
+				"Пилоны данного типа могу присутствовать до 5 штук вокруг &9Ревитализатор душ&r"
+				""
+				"Данный пилон повышает % потребления энергии на 25% за штуку."
+				""
+				"Уменьшает время до получения лута с моба на 15% за штуку."
+			]
+			hide: true
+			id: "411034C244842852"
+			rewards: [{
+				id: "04B23318BA14BCAB"
+				item: "kubejs:magic_lootbag_rare"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "679B59B4185E29C4"
+				item: "vitalize:pylon_speed"
+				type: "item"
+			}]
+			x: -4.88469387755103d
+			y: -17.494897959183675d
+		}
+		{
+			dependencies: ["22FBDD2FFFD8836D"]
+			description: [
+				"Пилоны данного типа могу присутствовать до 3 штук вокруг &9Ревитализатор душ&r"
+				""
+				"Данный пилон повышает % потребления энергии на 25% за штуку."
+				""
+				"Добавляет шанс(5%) получить опыт первого уровня за цикл работы."
+			]
+			hide: true
+			id: "715132CC829C6956"
+			rewards: [{
+				id: "7CF0C3E17480E601"
+				item: "kubejs:magic_lootbag_rare"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "5D716FA1DAB18D2A"
+				item: "vitalize:pylon_experience"
+				type: "item"
+			}]
+			x: -3.8846938775510296d
+			y: -16.994897959183675d
+		}
+		{
+			dependencies: ["22FBDD2FFFD8836D"]
+			description: [
+				"Пилон данного типа может быть только один вокруг &9Ревитализатор душ&r"
+				""
+				"Данный пилон повышает % потребления энергии на 7.5%."
+				""
+				"Добавляет возможность \"Поджечь\" моба, т.е. лут с него будет \"пережаренный\""
+			]
+			hide: true
+			id: "5A55D9110E738384"
+			rewards: [{
+				id: "388EBEF12528081B"
+				item: "kubejs:magic_lootbag_rare"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "0BA49A4A64A3550F"
+				item: "vitalize:pylon_flame"
+				type: "item"
+			}]
+			x: -2.8846938775510296d
+			y: -16.494897959183675d
+		}
+		{
+			dependencies: ["22FBDD2FFFD8836D"]
+			description: [
+				"Пилон данного типа может быть только один вокруг &9Ревитализатор душ&r"
+				""
+				"Данный пилон повышает % потребления энергии на 50%."
+				""
+				"Имеет шанс сработать 15%."
+				""
+				"Заполняет установленный кристалл душой при срабатывание. "
+			]
+			hide: true
+			id: "6012CD28844452F8"
+			rewards: [{
+				id: "21226763C4FE3AD1"
+				item: "kubejs:magic_lootbag_rare"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "65B4752D756EEC3A"
+				item: "vitalize:pylon_recursive"
+				type: "item"
+			}]
+			x: -1.8846938775510296d
+			y: -15.494897959183675d
+		}
+	]
+	title: "&7Spectrum: &oНовые открытия&r"
+}

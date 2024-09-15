@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "bewitchment:grim_elixir"
+      },
+      "title": {
+        "translate": "advancement.kubejs.witch_cauldron_craft.title"
+      },
+      "description": {
+        "translate": "advancement.kubejs.witch_cauldron_craft.desc"
+      },
+      "frame": "task"
+    },
+    "parent": "kubejs:bewitchment/witch_cauldron",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "tag": "mif:cauldron_crafts"
+            }
+          ]
+        }
+      }
+    }
+  }

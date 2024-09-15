@@ -1,0 +1,15 @@
+{
+	id: "012A43B3229056EF"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{ count: 8, item: "minecraft:oak_log" }
+		{ count: 8, item: "minecraft:spruce_log" }
+		{ count: 8, item: "minecraft:birch_log" }
+		{ count: 8, item: "minecraft:jungle_log" }
+		{ count: 8, item: "minecraft:acacia_log" }
+		{ count: 8, item: "minecraft:dark_oak_log" }
+		{ count: 8, item: "minecraft:mangrove_log" }
+	]
+	title: "woods 8x"
+}

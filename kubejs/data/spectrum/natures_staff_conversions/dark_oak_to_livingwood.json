@@ -1,0 +1,5 @@
+{
+  "input_block": "minecraft:dark_oak_log",
+  "output_state": "botania:livingwood_log",
+  "unlock_identifier": "spectrum:revive_dead_bush"
+}

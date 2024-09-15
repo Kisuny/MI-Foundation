@@ -1,0 +1,10 @@
+{
+	"output": "minecraft:iron_ingot",
+	"dirty_fat_name": "ore_fat.neepmeat.iron.dirty",
+	"clean_fat_name": "ore_fat.neepmeat.iron.clean",
+	"inputs": [
+		"minecraft:raw_iron"
+	],
+	"rendering_yield": 1.5,
+	"trommel_yield": 2
+}

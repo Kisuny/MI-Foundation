@@ -1,0 +1,30 @@
+{
+    "display": {
+      "icon": {
+        "item": "bewitchment:witch_cauldron"
+      },
+      "title": {
+        "translate": "advancement.kubejs.witch_cauldron.title"
+      },
+      "description": {
+        "translate": "advancement.kubejs.witch_cauldron.desc"
+      },
+      "frame": "task"
+    },
+    "parent": "kubejs:bewitchment/bewitchment_start",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "bewitchment:witch_cauldron"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+  

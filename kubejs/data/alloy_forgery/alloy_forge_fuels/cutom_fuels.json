@@ -1,0 +1,73 @@
+{
+  "fuels": [
+    {
+      "item": "minecraft:lava_bucket",
+      "return_item": "minecraft:bucket",
+      "fuel": 24000
+    },
+    {
+      "item": "minecraft:coal",
+      "fuel": 1000
+    },
+    {
+      "item": "minecraft:charcoal",
+      "fuel": 1000
+    },
+    {
+      "item": "minecraft:blaze_rod",
+      "fuel": 2000
+    },
+    {
+      "item": "minecraft:coal_block",
+      "fuel": 9000
+    },
+    {
+      "item": "gofish:oakfish",
+      "fuel": 9000
+    },
+    {
+      "item": "gofish:charfish",
+      "fuel": 18000
+    },
+    {
+      "item": "modern_industrialization:lignite_coal_block",
+      "fuel": 9000
+    },
+    {
+      "item": "modern_industrialization:coal_crushed_dust",
+      "fuel": 1000
+    },
+    {
+      "item": "modern_industrialization:coal_dust",
+      "fuel": 1000
+    },
+    {
+      "item": "modern_industrialization:coke",
+      "fuel": 4000
+    },
+    {
+      "item": "modern_industrialization:carbon_dust",
+      "fuel": 4000
+    },
+    {
+      "item": "modern_industrialization:coke_dust",
+      "fuel": 4000
+    },
+    {
+      "item": "modern_industrialization:lignite_coal_crushed_dust",
+      "fuel": 1000
+    },
+    {
+      "item": "modern_industrialization:lignite_coal",
+      "fuel": 1000
+    },
+    {
+      "item": "modern_industrialization:lignite_coal_dust",
+      "fuel": 1000
+    },
+    {
+      "item": "spectrum:pure_coal",
+      "fuel": 5000
+    }
+  ]
+}

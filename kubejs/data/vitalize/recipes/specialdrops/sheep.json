@@ -1,0 +1,5 @@
+{
+    "type": "vitalize:special_drops",
+    "entity": "minecraft:sheep",
+    "drop": "minecraft:entities/sheep/white"
+}

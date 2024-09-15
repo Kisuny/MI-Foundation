@@ -1,0 +1,14 @@
+[
+    {
+      "advancement": "kubejs:bewitchment/barks",
+      "frame": "paginatedadvancements:heart"
+    },
+    {
+      "advancement": "minecraft:nether/summon_wither",
+      "frame": "paginatedadvancements:heart"
+    },
+    {
+      "advancement": "kubejs:bewitchment/collect_saplings",
+      "frame": "spectrum:pile_of_poo"
+    }
+  ]

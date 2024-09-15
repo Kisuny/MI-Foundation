@@ -1,0 +1,10 @@
+{
+	"output": "minecraft:gold_ingot",
+	"dirty_fat_name": "ore_fat.neepmeat.gold.dirty",
+	"clean_fat_name": "ore_fat.neepmeat.gold.clean",
+	"inputs": [
+		"minecraft:raw_gold"
+	],
+	"rendering_yield": 1.5,
+	"trommel_yield": 2
+}

@@ -1,0 +1,822 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bewitchment"
+	group: "0EE6B87D2DF05DC9"
+	icon: "bewitchment:golden_witch_altar"
+	id: "7277231C2B85A0A5"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["21952F0799457083"]
+			description: [
+				"&3Церемониальный клинок&r основной &eритуальный инструмент&r используемый в традициях церемониальной &5магии&r, &5колдовстве&r, а также &4сатанинскими&r традициями, неплохоя начало, &eверно?&r "
+				""
+				"Позволяет снимать кору с &2деревьев&r, собирать &4кровь&r!"
+			]
+			hide: false
+			id: "43F09C084B765ACB"
+			rewards: [
+				{
+					id: "441D2664988E5D05"
+					item: "kubejs:magic_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "363C6503ACD4B386"
+					item: "kubejs:mob_lootbag_rare"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "08A43F3490A68E82"
+				item: {
+					Count: 1b
+					id: "bewitchment:athame"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["71691F178B73D85A"]
+			description: [
+				"&eКотёл&r позволяет создавать &eэкстракты&r, &eзелья&r, &eсыворотки&r."
+				""
+				"Чтобы создать зелья - используйте &3колбочки&r!"
+			]
+			hide: false
+			id: "487B6452F0767918"
+			rewards: [
+				{
+					id: "3C47FAAFD1950418"
+					item: "kubejs:magic_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "47F0FAF6D89E1EB6"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4CFFA1A68A507FBF"
+				item: "bewitchment:witch_cauldron"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["43F09C084B765ACB"]
+			description: ["Кору можно собрать при помощи &eатамэ&r нажав &6ПКМ&r на ванильное &aдерево&r!"]
+			hide: false
+			id: "71691F178B73D85A"
+			shape: "hexagon"
+			subtitle: "Собери чуток коры!"
+			tasks: [{
+				count: 8L
+				id: "00E85DB6BAC7D99C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "bewitchment:barks"
+					}
+				}
+				title: "Any #bewitchment:barks"
+				type: "item"
+			}]
+			title: "Кора"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["71691F178B73D85A"]
+			description: [
+				"&eАлтарь&r — буквально &nместо силы&r, только его не защищает парочку утопленников, только если вы не утопленник, ибо защищать его придется вам и черпать силу &2земли&r из &2огурцов&r, &2саженцев&r, &2листвы&r и других &l&2НаТуРаЛьНыХ&r&r продуктов."
+				""
+				"Местные ведьмы зовут эту энергию «&5МЕ&r», что переводится как &5Магическая Энергия&r, почему МЕ? Не спрашивайте… Я всего лишь рассказчик..."
+				""
+				"К слову, данный алтарь работает в радиусе &e15 блоков&r от себя!"
+			]
+			hide: false
+			id: "2F4271A3A964841E"
+			rewards: [
+				{
+					id: "52DA4DC4C6B75974"
+					item: "kubejs:magic_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "16516D344582142A"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5D10D0572E331218"
+				item: "bewitchment:stone_witch_altar"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["487B6452F0767918"]
+			description: [
+				"&3Алтарь&r поможет найти тех, кого найти невозможно и &3воскресить&r тех, кого воскресить ранее было невозможно!"
+				""
+				"Для призыва сущности алтарём необходимо дать ему &eтребуемы ресурсы&r, а в конце использовать &cкаталист&r, немного подождать и всё готово! "
+				""
+				"&6Этот квест открывает новую ветку квестов!&r"
+			]
+			hide: false
+			id: "655FCBA5BCD261EC"
+			rewards: [{
+				id: "360FFF11A60638A2"
+				item: "kubejs:magic_lootbag_uncommon"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Позволяет призывать мобов"
+			tasks: [{
+				id: "36360EFE35A457AC"
+				item: "summoningrituals:altar"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0570BD91B563EE19"]
+			description: ["Все саженцы - как саженцы, а этот &lСАЖЕНЧИЩЕ&r, и находится… В &l&4аду&r...&r"]
+			hide: false
+			id: "632ED9F4036B2BD9"
+			rewards: [{
+				id: "53A563806711AEF3"
+				item: "kubejs:food_lootbag_rare"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "44E13C9033AA7406"
+				item: "bewitchment:dragons_blood_sapling"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6066ED30BB59CCD5"]
+			description: ["Сила &eСвета(ы)&r"]
+			hide: true
+			id: "31BE75AF322158DE"
+			rewards: [{
+				id: "3CD17507C2E471B6"
+				item: "kubejs:mob_lootbag_uncommon"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "2F0B618FD5A851FD"
+				item: "bewitchment:cleansing_balm"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["6066ED30BB59CCD5"]
+			description: ["Сила &4Крови&r"]
+			hide: true
+			id: "7764EF566B5B57C6"
+			rewards: [{
+				id: "63E99A147E01EF4F"
+				item: "kubejs:mob_lootbag_uncommon"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "3F30E5BC8F728281"
+				item: "bewitchment:grim_elixir"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6066ED30BB59CCD5"]
+			description: ["Сила &1Воды&r"]
+			hide: true
+			id: "0090EC720B268775"
+			rewards: [{
+				id: "25A2A753C4726F30"
+				item: "kubejs:mob_lootbag_uncommon"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "681174126B2E53D9"
+				item: "bewitchment:aqua_cerate"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["6066ED30BB59CCD5"]
+			description: ["Сила &6Огня&r"]
+			hide: true
+			id: "62708BA53D104194"
+			rewards: [{
+				id: "06D3A701B3554B2F"
+				item: "kubejs:mob_lootbag_uncommon"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "655BAE69545BBE46"
+				item: "bewitchment:fiery_serum"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6066ED30BB59CCD5"]
+			description: ["Сила &2Земли&r"]
+			hide: true
+			id: "693D890736AE75FD"
+			rewards: [{
+				id: "02BC9EF0178DECE8"
+				item: "kubejs:mob_lootbag_uncommon"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "098DAB3520B83919"
+				item: "bewitchment:earth_ichor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6066ED30BB59CCD5"]
+			description: ["Сила &7Воздуха&r"]
+			hide: true
+			id: "66F362FC22E49168"
+			rewards: [{
+				id: "1939F826C99C207E"
+				item: "kubejs:mob_lootbag_uncommon"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "44B76821A4BB8AF1"
+				item: "bewitchment:heaven_extract"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"487B6452F0767918"
+				"2F4271A3A964841E"
+			]
+			description: [
+				"&2Моль&r можно призвать в алтаре призыва, имейте ввиду, моль летит на всё &eсветлое&r ночью! "
+				""
+				"&3&nСлучайный&r&r взмах &eАтамэ&r перед молью дал вам понять, что острое лезвие &eАтамэ&r может &eумножить&r количество их крылышек в несколько раз! "
+			]
+			hide: false
+			id: "6066ED30BB59CCD5"
+			rewards: [{
+				id: "1B8FDBB401DDFBF5"
+				item: "kubejs:food_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "53BCDB4A834DD95E"
+				item: "kubejs:moth_wings"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["31BE75AF322158DE"]
+			description: [
+				"Используя силы &eсвета&r, &eОжерелье Назара&r обычно используются для защиты от &cПроклятий&r"
+				""
+				"При ношении оно сократит продолжительность любого &cПроклятия&r пополам."
+				""
+				"Для этого требуется около половины средств владельца &5Магической энергии&r"
+			]
+			hide: true
+			id: "17F63A3F2F097B40"
+			rewards: [
+				{
+					id: "6C0FE049C1AB1D91"
+					item: "kubejs:magic_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0F0377720FF7E5C9"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "18B64E27C2993FE4"
+				item: "bewitchment:nazar"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0090EC720B268775"]
+			description: [
+				"&eКолючий пояс&r - удобная безделушка, способная сохранять статусные &5эффекты&r."
+				""
+				"При нападении владелец получит &eположительные эффекты&r, а атакующий - &eотрицательные&r, стоимостью &5Mагической Энергии&r"
+				""
+				"Чтобы добавить эффект статуса, просто объедините пояс с зельем."
+			]
+			hide: true
+			id: "240AF7F8B8249CA6"
+			rewards: [
+				{
+					id: "47872B7D33279DF8"
+					item: "kubejs:magic_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2631BF5C50CDC484"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0F27EF6F540F0250"
+				item: "bewitchment:prickly_belt"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["62708BA53D104194"]
+			description: [
+				"Благодаря силе &6огня&r адская безделушка делает владельца &6невосприимчивым к огню&r, используя &5Магическую энергию&r."
+				""
+				"Будучи изготовленным из &8незерита&r, этот предмет полностью &6огнестойкий&r."
+			]
+			hide: true
+			id: "1D91D110CF7CDAD2"
+			rewards: [
+				{
+					id: "1B31F4AD58ADC71A"
+					item: "kubejs:magic_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5B639E6FF6EB8D71"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "0C00F3C4DACDFEA2"
+				item: "bewitchment:hellish_bauble"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["66F362FC22E49168"]
+			description: [
+				"&eНакидка лёгкости&r делает своего владельца неудержимым, как самый сильный ветер, полностью сводя на нет большинство форм &eотбрасывания&r. "
+				""
+				"Кроме этого, Накидка позволяет ее владельцу подбрасывать объекты в воздух, нанося им удары только кулаком. Однако, это потребляет &5Магическую энергию&r."
+			]
+			hide: true
+			id: "74CEDE3194C38829"
+			rewards: [
+				{
+					id: "77FFE0E36E13BC42"
+					item: "kubejs:magic_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2BECBE35061807D8"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "39F5ECE7337F500D"
+				item: "bewitchment:zephyr_harness"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["4B38ECA09E439311"]
+			description: [
+				"Всё &aначинается&r с малого!"
+				""
+				"&2Семена&r выпадают из обычной &2травы&r, собери все типы, они очень &eпомогут&r тебе!"
+			]
+			hide: false
+			id: "2E7592297D492824"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "1F9F8A7A9ABE8A9D"
+					item: "bewitchment:belladonna_seeds"
+					type: "item"
+				}
+				{
+					id: "653B9D458C5252EC"
+					item: "bewitchment:aconite_seeds"
+					type: "item"
+				}
+				{
+					id: "0155B18200D4E444"
+					item: "bewitchment:mandrake_seeds"
+					type: "item"
+				}
+				{
+					id: "6B1B5B0940E4257A"
+					item: "bewitchment:garlic"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2E7592297D492824"]
+			description: ["Книга знаний или же проводник по моду, каждый решает для себя сам."]
+			hide: false
+			id: "21952F0799457083"
+			rewards: [{
+				id: "6D7B47759704A23D"
+				item: "kubejs:mob_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "03C00A3D39500563"
+				item: "bewitchment:book_of_shadows"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6066ED30BB59CCD5"]
+			description: [
+				"&3Экстрактор ДНК&r - инструмент. Он может собирать &eволосы&r, &4кровь&r и все, что необходимо для установления связи."
+				""
+				"Чтобы получить &3ДНК&r от объекта, либо &eподкрадитесь сзади&r, либо найдите его &eкровать&r. Чтобы использовать &3Экстрактор ДНК&r на кровати, используйте его с [Shift], чтобы случайно не заснуть на кровати."
+			]
+			hide: true
+			id: "55265F3EA14BEC56"
+			rewards: [
+				{
+					id: "629C75C59D0672B2"
+					item: "kubejs:magic_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7BBB57013055F0DA"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "1E4AE1D7B218A677"
+				item: "bewitchment:taglock"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: [
+				"079D94A8F2935E15"
+				"655FCBA5BCD261EC"
+			]
+			description: ["&bДуши&r можно крафтить, а так же их можно получить из &eспектральных фамильярах&r в будущем. "]
+			hide: true
+			id: "2114C1C6DC158DE7"
+			rewards: [{
+				id: "0EF321238D5D5486"
+				item: "kubejs:mob_lootbag_epic"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 4L
+				id: "1AACC405DBA5C0C2"
+				item: "bwplus:soul"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["632ED9F4036B2BD9"]
+			description: ["Ещё один особенный наш, его можно найти в &bгорах&r, а так же это &2дерево&r может помочь пробудить лешего, но так в сказках писали, мы сами лично не проверяли, звучит &0страшно&r…  Как из лужицы пить… &mБее…&r"]
+			hide: true
+			id: "0E9ABFC9A24133BC"
+			rewards: [{
+				id: "3E66FA7FFBAE6D31"
+				item: "kubejs:food_lootbag_epic"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "042D1BA8B8B6A92B"
+				item: "bwplus:yew_sapling"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0E9ABFC9A24133BC"]
+			description: [
+				"Как призвать &cЛешона&r можно узнать нажав на алтарь призыва ПКМ и найдя его в списке крафтов."
+				""
+				"Будь вы &lдобычливы&r, сможете получить его &3череп&r! А череп этот, очень &3полезный&r!"
+			]
+			hide: true
+			id: "657A89AAEEA13EB3"
+			rewards: [
+				{
+					id: "281EADFC6B70EC30"
+					item: "kubejs:magic_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "57DC012D0C072D8A"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "61D94E79543AE2EF"
+					item: "kubejs:food_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				entity: "bwplus:leshon"
+				icon: {
+					Count: 1b
+					id: "bwplus:leshon_skull"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0AB4ECE4C36E08D1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["657A89AAEEA13EB3"]
+			description: ["Выбив &7череп&r &cлешего&r попробуйте в его форме нажать &6ПКМ&r на &2дерево магическое&r, вдруг будет какой-то &dэффект&r?"]
+			hide: true
+			id: "0333FE50BB0D6BF9"
+			rewards: [
+				{
+					id: "19D2727446190E3D"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "62BA05B9310A543E"
+					item: "kubejs:magic_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "46F1D94711D810F3"
+					item: "kubejs:food_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				icon: "bwplus:yew_cut_log"
+				id: "77B321E84D8B5D4E"
+				observe_type: 0
+				timer: 0L
+				to_observe: "bwplus:yew_cut_log"
+				type: "observation"
+			}]
+			x: 8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["164CF7324390B1A9"]
+			description: [
+				"&l&5Bewitchment&r&r — Мод, погружающий вас в магию &2природы,&r &4призыва&r и &dведьм.&r "
+				""
+				"Вам предстоит узнать кто такой Леший, зачем нужна &4кровь&r, что таит в себе &eхрустальный шар&r, как &cпризвать&r ваших врагов? Или быть может это ваши союзники. "
+				""
+				"Вы сможете превратить своего персонажа в &4вампира&r и пить чужую &4людскую кровь&r, превращаться в &eлетучих мышей&r или быть может вы захотите стать &3оборотнем&r и завывать на &7луну&r с каждым её восходом?"
+				" "
+				"Вы так же сможете проклинать &eсебя&r, своих &2друзей&r, &4врагов&r, воровать чужой облик, призывать &1дождь&r и т.д!"
+			]
+			hide: true
+			icon: "bewitchment:blessed_stone"
+			id: "4B38ECA09E439311"
+			shape: "heart"
+			tasks: [{
+				id: "36909B6EA34FD8CF"
+				type: "checkmark"
+			}]
+			title: "Bewitchment"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["487B6452F0767918"]
+			description: ["&2Cаженцы&r можно найти в &eмире&r как обычные &2деревья&r."]
+			hide: false
+			id: "0570BD91B563EE19"
+			rewards: [{
+				id: "01EC5D28CC5B6B48"
+				item: "kubejs:food_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "3F6B8FBAEA27023C"
+					item: "bewitchment:cypress_sapling"
+					type: "item"
+				}
+				{
+					id: "24625707A42D660E"
+					item: "bewitchment:juniper_sapling"
+					type: "item"
+				}
+				{
+					id: "0066201A2F10B581"
+					item: "bewitchment:elder_sapling"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["693D890736AE75FD"]
+			description: [
+				"&eПовязка Друида&r - мощный аксессуар &2земли&r."
+				""
+				"При ношении она увеличит вашу &3скорость передвижения&r и &3регенерацию&r, пока вы ходите по &2естественной почве&r, такой как &2трава&r."
+				""
+				"Когда она активна, повязка Друида потребляет &5Магическую Энергию&r."
+			]
+			hide: true
+			id: "25B84095E9B20DD7"
+			rewards: [
+				{
+					id: "7DFC2711FAAFED62"
+					item: "kubejs:magic_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0C534FA082A5D018"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2439584E16FA8291"
+				item: "bewitchment:druid_band"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7764EF566B5B57C6"]
+			description: [
+				"Эта великолепная безделушка будет сгибать &eтени&r вокруг владельца, пока он &eкрадется&r. "
+				""
+				"Это потребляет &5Магическую Энергию&r и сделает носителя полностью &3невидимым&r, только легкий дым намекает на присутствие &nносителя&r."
+			]
+			hide: true
+			id: "6284E2153125A318"
+			rewards: [
+				{
+					id: "14BD2BACEE644EE9"
+					item: "kubejs:magic_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6D6F49B1E59D964E"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7B2832F6B1080143"
+				item: "bewitchment:specter_bangle"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["43F09C084B765ACB"]
+			description: [
+				"&4Кровь&r можно получить разными способами:"
+				""
+				"• &4Убив&r живое существо при помощи &eАтамэ&r с &3пустой бутылочкой&r в второй руке, &2живым&r существом является игрок/ведьма/разбойника/пиглин/брутальный пиглин/вампир."
+				""
+				"• Так же &4кровь&r можно получить из &eсебя&r, держа кубок в второй руки и нажимая ПКМ при помощи &eАтамэ&r, установив &eкубок&r на землю можно собрать кровь &3пустой бутылочкой&r!"
+			]
+			id: "5F1FB12DCC0E67DA"
+			rewards: [{
+				id: "2B78E081CFB10718"
+				item: "kubejs:mob_lootbag_epic"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				count: 8L
+				id: "5E05CBF81EA47AD2"
+				item: "bewitchment:bottle_of_blood"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
+		}
+	]
+	title: "&7Bewitchment"
+}

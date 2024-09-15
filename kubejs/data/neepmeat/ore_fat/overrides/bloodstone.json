@@ -1,0 +1,10 @@
+{
+	"output": "spectrum:refined_bloodstone",
+	"dirty_fat_name": "item_fat.neepmeat.bloodstone.dirty",
+	"clean_fat_name": "item_fat.neepmeat.bloodstone.clean",
+	"inputs": [
+		"spectrum:raw_bloodstone"
+	],
+	"rendering_yield": 1,
+	"trommel_yield": 1.2
+}

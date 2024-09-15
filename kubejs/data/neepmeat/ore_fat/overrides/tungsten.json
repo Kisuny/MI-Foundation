@@ -1,0 +1,10 @@
+{
+	"output": "modern_industrialization:tungsten_ingot",
+	"dirty_fat_name": "ore_fat.neepmeat.tungsten.dirty",
+	"clean_fat_name": "ore_fat.neepmeat.tungsten.clean",
+	"inputs": [
+		"modern_industrialization:raw_tungsten"
+	],
+	"rendering_yield": 1.5,
+	"trommel_yield": 2
+}
