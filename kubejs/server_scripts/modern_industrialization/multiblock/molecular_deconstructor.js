@@ -610,18 +610,18 @@ const material_dict = [
         ],
         isFluid: false
     },
-    {
-        id: '3x modern_industrialization:desh_dust',
-        count: 3,
-        formula: [
-            [lead],
-            [aluminum,8],
-            [oxygen,12],
-            [titanium,4],
-            [iron,3],
-        ],
-        isFluid: false
-    },
+    // {
+    //     id: '3x modern_industrialization:desh_dust',
+    //     count: 3,
+    //     formula: [
+    //         [lead],
+    //         [aluminum,8],
+    //         [oxygen,12],
+    //         [titanium,4],
+    //         [iron,3],
+    //     ],
+    //     isFluid: false
+    // },
     {
         id: '3x ae2:sky_dust',
         count: 3,
@@ -1078,15 +1078,7 @@ const material_dict = [
         isFluid: false
     },
     {
-        id: 'modern_industrialization:diamond_dust',
-        count: 1,
-        formula: [
-            [carbon,9],
-        ],
-        isFluid: false
-    },
-    {
-        id: 'modern_industrialization:diamond_dust',
+        id: 'modern_industrialization:indium_dust',
         count: 1,
         formula: [
             [indium,9],

@@ -14,23 +14,23 @@ ItemEvents.tooltip(tooltip => {
             'gofish:ender_rod',
         ]
         fishingRods.forEach(rod => {
-            tooltip.add(rod, Text.gray('Никогда не вылавливает живых существ'))
+            tooltip.add(rod, Text.translate('item.kubejs.fishing_rods.tooltip').gray())
         });
 
         tooltip.add('kubejs:ditcheryatina', Text.translate(`item.kubejs.ditcheryatina.tooltip`))
 
 
-        const shiftText = [Text.of('Зажми ').gold(), Text.of('Shift ').yellow(), Text.of('для подробной информации.').gold()]
-        const ctrlText = [Text.of('Зажми ').gray(), Text.of('CTRL ').gold(), Text.of('Чтобы узнать как получить.').gray()]
+        const shiftText = [Text.translate('kubejs.press_button').gold(), Text.of('Shift ').yellow(), Text.translate('kubejs.for_details').gold()]
+        const ctrlText = [Text.translate('kubejs.press_button').gold(), Text.of('CTRL ').gold(), Text.translate('kubejs.for_details').gray()]
         tooltip.addAdvanced('kubejs:phantom_feather', (item, advanced, text) => {
             // shift, alt and ctrl are all keys you can check!
             if (!tooltip.shift) {
                 text.add(1, shiftText)
             } else {
-                text.add(1, Text.gold('Способ получения:').bold(true))
-                text.add(2, Text.gray('🎣 Выбить при рыбной ловле существ, из ночной фурии.'))
-                text.add(3, Text.darkGray('Условия поимки ночной фурии: ночь, вода, обычный мир.'))
-                text.add(4, Text.gray('🗡 Мешок с добычей плоти и крови.'))
+                text.add(1, Text.translate('kubejs.how_to_get.text').gold().bold(true))
+                text.add(2, Text.translate('kubejs.phantom_feather.how_to_get_text_1').gold())
+                text.add(3, Text.translate('kubejs.phantom_feather.how_to_get_text_2').darkGray())
+                text.add(4, Text.translate('kubejs.phantom_feather.how_to_get_text_3').gold())
             }
         })
 
@@ -40,20 +40,16 @@ ItemEvents.tooltip(tooltip => {
                 if (!tooltip.shift) {
                     text.add(1, shiftText)
                 } else {
-                    text.add(1, Text.gray(args.text))
+                    text.add(1, Text.translate(args.text).gray())
                 }
             })
         };
 
-        simpleShiftText({item: 'yttr:platforms', text: '✎ Позволяют передвигаться на Shift\'e по воздуху, находясь в слоте безделушек'})
-        simpleShiftText({item: 'yttr:diffractor', text: '✎ Позволяют становиться полностью невидимым, находясь в слоте безделушек'})
-        simpleShiftText({item: 'yttr:glassy_void', text: '✎ Создаётся путем бросания осколока бедрока в жидкую пустоту'})
-        simpleShiftText({item: 'yttr:effector', text: '✎ Позволяет проходить сквозь блоки, ценой жидкой пустоты'})
-        simpleShiftText({item: 'kubejs:reforge_rune', text: '✎ Позволяет перековать оружие/броню/инструменты в наковальне'})
-        simpleShiftText({item: 'things:displacement_page', text: '🧪 Страница используется вместе с Томом перемещения'})
-        simpleShiftText({item: 'kubejs:teleport_pearl', text: '✎ Жемчуг используется в «Томе перемещения» как ресурс для телепортации, нажмите томом ПКМ по жемчугу.'})
-        simpleShiftText({item: 'kubejs:empty_beehive', text: "🧪 Возможно стоит попробовать наполнить его пчёлами и мёдом?…"})
-        simpleShiftText({item: 'kubejs:beehive', text: "★ Нажмите данным ульем на улей из Minecraft с SHIFT'om, чтобы переместится в Жужалище!"})
+        simpleShiftText({item: 'kubejs:reforge_rune', text: 'kubejs.reforge_rune.tooltip'})
+        simpleShiftText({item: 'things:displacement_page', text: 'kubejs.displacement_page.tooltip'})
+        simpleShiftText({item: 'kubejs:teleport_pearl', text: 'kubejs.teleport_pearl.tooltip'})
+        simpleShiftText({item: 'kubejs:empty_beehive', text: "kubejs.empty_beehive.tooltip"})
+        simpleShiftText({item: 'kubejs:beehive', text: "kubejs.beehive.tooltip"})
 
 
 
@@ -63,23 +59,23 @@ ItemEvents.tooltip(tooltip => {
                 if (!tooltip.shift) {
                     text.add(1, shiftText)
                 } else {
-                    text.add(1, Text.gold('Способ получения:').bold(true))
-                    text.add(2, Text.gray(args.text))
+                    text.add(1, Text.translate('kubejs.how_to_get.text').gold().bold(true))
+                    text.add(2, Text.translate(args.text).gray())
                 }
             })
         };
 
-        betterToolTip({ item: 'kubejs:hirschgeist_heart', text: '🗡 Одержав победу над могучим «Хиршгейстом» Сможешь сердце его забрать!' })
-        betterToolTip({ item: 'kubejs:zotzpyre_fang', text: '🗡 Лишь добычливый сможет достать этот редкий клык при убийстве вызванного «Зотцпира»' })
-        betterToolTip({ item: 'kubejs:zotzpyre_flesh', text: '🗡 Выпадает при убийстве вызванного мини-босса «Зотцпира»' })
-        betterToolTip({ item: 'kubejs:moth_wings', text: '🗡 Выпадает при убийстве моли' })
-        betterToolTip({ item: 'kubejs:tears_of_the_sea', text: '🎣 Маленький шанс получить при рыбной ловле' })
-        betterToolTip({ item: 'kubejs:star_core', text: '★ Добывается из падающих звёзд ★' })
-        betterToolTip({ item: 'kubejs:crystal_fiery', text: '🗡 Выпадает при убийстве стража пламени' })
-        betterToolTip({ item: 'adventurez:warthog_shell_piece', text: '🗡 Выпадает при убийстве Эндер-бородавочника' })
-        betterToolTip({ item: 'bewitchment:dragons_blood_resin', text: '🪓 Если сделать надрез при помощи Атамэ на дереве драконьей крови, бревно начнёт кровоточить!' })
-        betterToolTip({ item: 'travelersbackpack:standard', text: 'Создаётся на Пигментном Пьедестале' })
-        betterToolTip({ item: 'fwaystones:waystone_scroll', text: 'Можно купить в магазине предметов' })
+        betterToolTip({ item: 'kubejs:hirschgeist_heart', text: 'kubejs.hirschgeist_heart.tooltip' })
+        betterToolTip({ item: 'kubejs:zotzpyre_fang', text: 'kubejs.zotzpyre_fang.tooltip' })
+        betterToolTip({ item: 'kubejs:zotzpyre_flesh', text: 'kubejs.zotzpyre_flesh.tooltip' })
+        betterToolTip({ item: 'kubejs:moth_wings', text: 'kubejs.moth_wings.tooltip' })
+        betterToolTip({ item: 'kubejs:tears_of_the_sea', text: 'kubejs.tears_of_the_sea.tooltip' })
+        betterToolTip({ item: 'kubejs:star_core', text: 'kubejs.star_core.tooltip' })
+        betterToolTip({ item: 'kubejs:crystal_fiery', text: 'kubejs.crystal_fiery.tooltip' })
+        betterToolTip({ item: 'adventurez:warthog_shell_piece', text: 'kubejs.warthog_shell_piece.tooltip' })
+        betterToolTip({ item: 'bewitchment:dragons_blood_resin', text: 'kubejs.dragons_blood_resin.tooltip' })
+        betterToolTip({ item: 'travelersbackpack:standard', text: 'kubejs.backpack_standard.tooltip' })
+        betterToolTip({ item: 'fwaystones:waystone_scroll', text: 'kubejs.waystone_scroll.tooltip' })
 
         // тултипы для артефактов
         let artifactsTooltip = (args) => {
@@ -87,9 +83,9 @@ ItemEvents.tooltip(tooltip => {
                 if (!tooltip.ctrl) {
                     text.add(1, ctrlText)
                 } else {
-                    text.add(1, Text.gold('Способ получения:').bold(true))
-                    text.add(2, Text.gray(args.text1))
-                    text.add(3, Text.darkGray(args.text2))
+                    text.add(1, Text.translate('kubejs.how_to_get.text').gold().bold(true))
+                    text.add(2, Text.translate(args.text1).gray())
+                    text.add(3, Text.translate(args.text2).darkGray())
                 }
             })
         };
@@ -120,8 +116,8 @@ ItemEvents.tooltip(tooltip => {
         artifactsTooltip(
             {
                 item: 'artifacts:flippers',
-                text1: '🎣 Выбить при рыбной ловле существ, из «Кракен», «Мегалодон», «Морской император».',
-                text2: 'Условия поимки «Кракен»: ночь, вода, обычный мир.\nУсловия поимки «Мегалодон»: вода, обычный мир.\nУсловия поимки «Морской император»: вода, обычный мир.'
+                text1: 'kubejs.flippers.tooltip_1',
+                text2: 'kubejs.flippers.tooltip_2'
         });
         artifactsTooltip(
             {

@@ -18,8 +18,8 @@
     "advancement.kubejs.endgame.title": "MI:Foundation God",
     "advancement.kubejs.endgame.desc": "Complete Modpack",
 
-    "endgame.mif.timeplay.part1": "Congratulations on finishing this modpack!",
-    "endgame.mif.timeplay.part2": "It only took you ",
+    "endgame.mif.timeplay.part1": "Congratulations ",
+    "endgame.mif.timeplay.part2": "for ended the modpack!",
     "endgame.mif.timeplay.part3": "! — You were born for this! ",
     "endgame.mif.timeplay.part4": "is how long you've spent — that's true dedication to the craft!",
     "endgame.mif.timeplay.days": " Days ",

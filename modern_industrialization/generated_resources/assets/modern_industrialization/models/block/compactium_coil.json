@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "modern_industrialization:block/compactium_coil_top",
+    "side": "modern_industrialization:block/compactium_coil_side"
+  }
+}

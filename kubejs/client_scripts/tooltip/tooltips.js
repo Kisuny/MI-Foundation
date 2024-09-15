@@ -227,22 +227,6 @@ ItemEvents.tooltip(tooltip => {
         })
     })
 
-
-    // YTTR
-    const yttr = [
-        { name: 'yttrium', formula: 'Y' },
-        { name: 'brookite', formula: 'TiO₂(Ta)(Nb)' },
-        { name: 'gadolinite', formula: 'Y₂FeBe₂Si₂O₁₀' },
-        { name: 'void', formula: magicFormula },
-    ]
-    yttr.forEach(item => {
-        tooltip.add(`yttr:${item.name}`, (formulaColor + item.formula))
-        derivatives.forEach(derivative => {
-            tooltip.add(`modern_industrialization:${item.name}_${derivative}`, (formulaColor + item.formula))
-            tooltip.add(`yttr:${item.name}_${derivative}`, (formulaColor + item.formula))
-        })
-    })
-
     // Architect's Palette
     const architects_palette = [
         { name: 'algal', formula: unknownFormula },
@@ -297,24 +281,6 @@ ItemEvents.tooltip(tooltip => {
     })
 
     tooltip.add("mifbotaniaaddon:mana_gem", "Бросив Мана гем в бассейн маны в него прибавится 100 000 единиц маны")
-
-
-    // Special case
-    // tooltip.add('exco:luminous_pearl', (formulaColor + 'H₃PO₄'))
-
-
-    //sophisticated storage obtain text
-
-    tooltip.add([
-        "sophisticatedstorage:barrel",
-        "sophisticatedstorage:limited_barrel_1",
-        "sophisticatedstorage:limited_barrel_2",
-        "sophisticatedstorage:limited_barrel_3",
-        "sophisticatedstorage:limited_barrel_4",
-        "sophisticatedstorage:chest",
-        "sophisticatedstorage:shulker_box",
-    ],
-    Text.darkGreen('Можно улучшить «Улучшением»'))
 
     const raw_ores = [
         { name: 'kubejs:octiron_shards', charnel_pump: 'Луна', space_miner: '' },

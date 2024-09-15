@@ -1,5 +1,35 @@
 
 ServerEvents.recipes(event => {
+    // Redstone Transducer
+    event.remove({id: 'neepbus:redstone_transducer'})
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('neepmeat:data_cable')
+        .itemIn('ae2:redstone_card')
+        .itemIn('ae2:semi_dark_monitor')
+        .fluidIn('neepmeat:work_fluid',150)
+        .itemOut('neepmeat:redstone_transducer')
+        .biome('ad_astra:orbit')
+
+    // Vertical Gauge
+    event.remove({id: 'neepbus:vertical_gauge'})
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('neepmeat:data_cable')
+        .itemIn('ae2:capacity_card')
+        .itemIn('ae2:semi_dark_monitor')
+        .fluidIn('neepmeat:work_fluid',150)
+        .itemOut('neepmeat:vertical_gauge')
+        .biome('ad_astra:orbit')
+
+    // Slider
+    event.remove({id: 'neepbus:slider'})
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('neepmeat:data_cable')
+        .itemIn('ae2:fuzzy_card')
+        .itemIn('ae2:semi_dark_monitor')
+        .fluidIn('neepmeat:work_fluid',150)
+        .itemOut('neepmeat:slider')
+        .biome('ad_astra:orbit')
+
     // Large Trommel
     event.remove({id: 'neepmeat:manufacture/charnel_pump'})
     event.recipes.modern_industrialization.assembler(64, 2400)

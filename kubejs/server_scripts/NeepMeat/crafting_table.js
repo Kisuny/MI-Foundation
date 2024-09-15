@@ -239,4 +239,7 @@ ServerEvents.recipes(event => {
     // Dumping Rail
     event.replaceInput({id: 'neepmeat:machines/dumping_track'}, 'minecraft:redstone', 'wiredredstone:red_alloy_wire');
 
+    // Networking Tool
+    event.replaceInput({id: 'neepmeat:tools/networking_tool'}, 'minecraft:iron_bars', 'modern_industrialization:meat_steel_rod');
+
 })

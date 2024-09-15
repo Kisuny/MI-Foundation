@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "modern_industrialization:block/tin_barrel_top",
+    "side": "modern_industrialization:block/tin_barrel_side"
+  }
+}
