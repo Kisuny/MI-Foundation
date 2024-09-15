@@ -230,6 +230,7 @@
 				"Голема можно призвать на алтаре призыва!"
 			]
 			hide_dependency_lines: true
+			icon: "adventurez:stone_golem_heart"
 			id: "0915B6A9C57F5783"
 			rewards: [{
 				id: "72B1AA4A96227135"
@@ -263,11 +264,9 @@
 			size: 1.1d
 			subtitle: "Мини-босс"
 			tasks: [{
-				entity: "adventurez:blaze_guardian_shield"
-				icon: "kubejs:crystal_fiery"
-				id: "5D10C0DFDF00C3C8"
-				type: "kill"
-				value: 1L
+				id: "0809418E7F0E3068"
+				item: "kubejs:crystal_fiery"
+				type: "item"
 			}]
 			x: 2.1333333333333186d
 			y: -5.503818301514173d
@@ -503,11 +502,13 @@
 			size: 1.3d
 			subtitle: "Босс!"
 			tasks: [{
-				entity: "adventurez:dragon"
 				icon: "minecraft:dragon_egg"
-				id: "4169CA06F6EB6ED0"
-				type: "kill"
-				value: 1L
+				id: "62F87A80CE00CE0E"
+				observe_type: 5
+				timer: 0L
+				title: "Узрейте ДРАКОН!!!!!"
+				to_observe: "minecraft:ender_dragon"
+				type: "observation"
 			}]
 			x: 8.0d
 			y: 5.0d
@@ -754,6 +755,28 @@
 			x: -2.265306122448976d
 			y: -0.010204081632650741d
 		}
+		{
+			can_repeat: true
+			dependencies: ["56C142EDC677B94A"]
+			hide_dependent_lines: true
+			id: "737DCAA52C83D9EF"
+			rewards: [{
+				command: "/kill @e[type=area_effect_cloud]"
+				icon: "minecraft:dragon_head"
+				id: "75BB2E47F330232D"
+				title: "Удалить дыхания"
+				type: "command"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1D9A2026D31478D5"
+				item: "minecraft:end_crystal"
+				type: "item"
+			}]
+			title: "Удалить дыхания дракона"
+			x: 9.0d
+			y: 5.0d
+		}
 	]
-	title: "&7Техника Призыва"
+	title: "&7Summoning rituals"
 }

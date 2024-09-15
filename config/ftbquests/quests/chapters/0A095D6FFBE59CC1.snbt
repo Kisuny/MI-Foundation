@@ -28,11 +28,22 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["07965AD2BDFA13CB"]
+			dependencies: [
+				"07965AD2BDFA13CB"
+				"3D3A11D0B00FF79B"
+			]
+			icon: {
+				Count: 1b
+				id: "trofers:small_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:ad_astra"
+					}
+				}
+			}
 			id: "463FE593FF3EA210"
-			shape: "diamond"
-			tasks: [{
-				id: "09D61EFBC7295C3A"
+			rewards: [{
+				id: "505EEF7DF7FF9B9D"
 				item: {
 					Count: 1b
 					id: "trofers:small_pillar"
@@ -42,7 +53,13 @@
 						}
 					}
 				}
+				team_reward: true
 				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "363D37BE2DBBB377"
+				type: "checkmark"
 			}]
 			x: -1.0d
 			y: -1.5d
@@ -52,10 +69,18 @@
 				"07965AD2BDFA13CB"
 				"24BF8E5FA58AB7FD"
 			]
+			icon: {
+				Count: 1b
+				id: "trofers:small_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:angel_ring"
+					}
+				}
+			}
 			id: "0E308214187314D4"
-			shape: "diamond"
-			tasks: [{
-				id: "0B885E4AFD144DE7"
+			rewards: [{
+				id: "2657DBC67167A1D4"
 				item: {
 					Count: 1b
 					id: "trofers:small_pillar"
@@ -66,6 +91,11 @@
 					}
 				}
 				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "14FDFAE7E3C58D3C"
+				type: "checkmark"
 			}]
 			x: -1.0d
 			y: -2.5d
@@ -177,10 +207,18 @@
 				"7AC1920BD7A9329E"
 				"62BB9D5A8A9DD181"
 			]
+			icon: {
+				Count: 1b
+				id: "trofers:small_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:bedrock_block"
+					}
+				}
+			}
 			id: "1FA1241DBADE016D"
-			shape: "diamond"
-			tasks: [{
-				id: "5AF246C3021CE795"
+			rewards: [{
+				id: "67C5D2924A49A2E6"
 				item: {
 					Count: 1b
 					id: "trofers:small_pillar"
@@ -191,6 +229,11 @@
 					}
 				}
 				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2DD2E61D9BD9C32A"
+				type: "checkmark"
 			}]
 			x: 1.0d
 			y: -2.5d
@@ -228,10 +271,18 @@
 				"0090EC720B268775"
 				"2E7592297D492824"
 			]
+			icon: {
+				Count: 1b
+				id: "trofers:small_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:bewitchment"
+					}
+				}
+			}
 			id: "65E1075E94F6E4C9"
-			shape: "diamond"
-			tasks: [{
-				id: "5D153AA76FC6BC12"
+			rewards: [{
+				id: "2BB848C00C317B2A"
 				item: {
 					Count: 1b
 					id: "trofers:small_pillar"
@@ -242,6 +293,11 @@
 					}
 				}
 				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "42824C0C679A230B"
+				type: "checkmark"
 			}]
 			x: 1.0d
 			y: -1.5d
@@ -355,10 +411,18 @@
 				"38FF97ECA70245E8"
 				"4D99101BCAE4E198"
 			]
+			icon: {
+				Count: 1b
+				id: "trofers:small_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:botania"
+					}
+				}
+			}
 			id: "6AA354DD4CD8A7D5"
-			shape: "diamond"
-			tasks: [{
-				id: "5D2C5146D12A9C29"
+			rewards: [{
+				id: "28ADCBACD559B2B7"
 				item: {
 					Count: 1b
 					id: "trofers:small_pillar"
@@ -369,6 +433,11 @@
 					}
 				}
 				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "51081B5BFD479462"
+				type: "checkmark"
 			}]
 			x: -1.5d
 			y: -3.0d
@@ -477,10 +546,18 @@
 				"71DE7594273FE18A"
 				"2670EE17D0E48E7C"
 			]
+			icon: {
+				Count: 1b
+				id: "trofers:small_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:food"
+					}
+				}
+			}
 			id: "3D3A9612E4B6118E"
-			shape: "diamond"
-			tasks: [{
-				id: "5DCA483DCF9BD02F"
+			rewards: [{
+				id: "5AEEF74E3A1DE1E2"
 				item: {
 					Count: 1b
 					id: "trofers:small_pillar"
@@ -491,6 +568,11 @@
 					}
 				}
 				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "506460B9D0242245"
+				type: "checkmark"
 			}]
 			x: -0.5d
 			y: -2.0d
@@ -577,10 +659,18 @@
 				"67F48ED43E7E4DA1"
 				"70F0FF1F5BC092D0"
 			]
+			icon: {
+				Count: 1b
+				id: "trofers:small_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:mysterious_compass"
+					}
+				}
+			}
 			id: "6B9ADFA2F604E8AB"
-			shape: "diamond"
-			tasks: [{
-				id: "60C0FECBEE4B545E"
+			rewards: [{
+				id: "0397B3890837C37D"
 				item: {
 					Count: 1b
 					id: "trofers:small_pillar"
@@ -591,6 +681,11 @@
 					}
 				}
 				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2F14001F9A39739E"
+				type: "checkmark"
 			}]
 			x: 1.5d
 			y: -3.0d
@@ -615,7 +710,6 @@
 				"4973809A8C9088E0"
 				"47FE5A5A3E6B2656"
 				"5D68B3FB8BFFA7F5"
-				"4BF6518D47176CF6"
 				"06535D5AB09D100F"
 				"62262E05B7E57EDD"
 				"18224AAFE87395E2"
@@ -677,10 +771,18 @@
 				"35FBDB6A6B0AF265"
 				"26A96250A5A55E23"
 			]
+			icon: {
+				Count: 1b
+				id: "trofers:small_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:onyx"
+					}
+				}
+			}
 			id: "3AD69631CF3C8CC5"
-			shape: "diamond"
-			tasks: [{
-				id: "09F22AA788F44033"
+			rewards: [{
+				id: "7B8C9689761F5A8B"
 				item: {
 					Count: 1b
 					id: "trofers:small_pillar"
@@ -691,6 +793,11 @@
 					}
 				}
 				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "58BFFF43FC4263E6"
+				type: "checkmark"
 			}]
 			x: 0.5d
 			y: -2.0d
@@ -731,11 +838,20 @@
 				"523942AC15DDEDF2"
 				"3FC493B1B1412E8E"
 				"08FC12B517294C1C"
+				"6080B4545409CEEA"
 			]
+			icon: {
+				Count: 1b
+				id: "trofers:small_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:vanilla"
+					}
+				}
+			}
 			id: "2379D7ADAFCD9854"
-			shape: "diamond"
-			tasks: [{
-				id: "52E1E5618340F7E3"
+			rewards: [{
+				id: "111773F5F0C7B225"
 				item: {
 					Count: 1b
 					id: "trofers:small_pillar"
@@ -746,6 +862,11 @@
 					}
 				}
 				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "47E90995F57F4ECF"
+				type: "checkmark"
 			}]
 			x: 0.0d
 			y: -2.5d
@@ -837,11 +958,23 @@
 				"3054A036AA8BD517"
 				"6B8AD610BFDE2B3A"
 				"61E4571701C59249"
+				"0E991CE0FB49FDB6"
+				"140C7D04F92FD839"
+				"467133BBE2B0814A"
+				"0C34AF516444E3E3"
 			]
+			icon: {
+				Count: 1b
+				id: "trofers:small_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:bronze"
+					}
+				}
+			}
 			id: "7DE160BDF25490E6"
-			shape: "diamond"
-			tasks: [{
-				id: "71587A98E00F678F"
+			rewards: [{
+				id: "3C1729FBBF1B83F1"
 				item: {
 					Count: 1b
 					id: "trofers:small_pillar"
@@ -853,15 +986,90 @@
 				}
 				type: "item"
 			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4BDAFE052BB4EE22"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: -3.5d
 		}
 		{
-			dependencies: ["7DE160BDF25490E6"]
+			dependencies: [
+				"7DE160BDF25490E6"
+				"3C5FA124A54C0133"
+				"64A7F758A7CD9EB6"
+				"3DA2AF865B5560F5"
+				"2C87E5A18CDBD27A"
+				"351B265A302AA7EC"
+				"35535A22A83500CC"
+				"3387FCCF2E3B857B"
+				"0F1FEB86EB67AE76"
+				"1AC11A9AAE45A014"
+				"3DF2B3F026C9AC41"
+				"05343AFAF4AE966D"
+				"0B78784AFB3C0A1E"
+				"7281FDAB6AA4AA1F"
+				"07718C17A9D7B520"
+				"515C19F5E9DBD0E1"
+				"0737D169DFB3A47A"
+				"6E572895AE95E3CF"
+				"6C7A52A24E8E87C9"
+				"0845A204BA15A1F5"
+				"50C0CA3FC79847C4"
+				"708BCCC492873B6C"
+				"57886FF598451010"
+				"2967C78F538C5ECD"
+				"640AF18C7CB4D718"
+				"0B8523585CB79D41"
+				"09359DE603AA2A55"
+				"332119345C45976C"
+				"12BD6B070D6B55EC"
+				"6555DBE436704301"
+				"2B526E0A7964227D"
+				"07D42A18DA84F509"
+				"26128DB1415D22BC"
+				"1F8334B32EF9B88F"
+				"102B8197BB09AAF2"
+				"6DB7801CA77EF899"
+				"04008A2653644B8F"
+				"4BF6461697886B3C"
+				"6CB0AB70A7C895DF"
+				"2F6D2886D54C0CF0"
+				"1BB3633F4522C7F6"
+				"5DEE383284AE4BAB"
+				"7E63EDDC72BBB25F"
+				"47A87645847E6CCE"
+				"119D6E1E7E6D5233"
+				"17FE01EEA624616A"
+				"283D320D84F5DA27"
+				"649E2B9CF32A694A"
+				"13C563F7C62A0F7A"
+				"132428B927F9BF07"
+				"6F083D50E077414B"
+				"21AC21DF6587C093"
+				"5EA1A5489C92891C"
+				"3FB9FAC26C9A3C8B"
+				"54CEC7BE4B675E7C"
+				"355872E71E715BBF"
+				"77A2910DC54A3597"
+				"516770D6021CB159"
+				"39BB7A893BC32686"
+				"40F03AD46D05D4D6"
+				"630016D1CA5ECC74"
+			]
+			icon: {
+				Count: 1b
+				id: "trofers:small_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:lv"
+					}
+				}
+			}
 			id: "6A42DF601D540F61"
-			shape: "diamond"
-			tasks: [{
-				id: "4F32862E3BAB277B"
+			rewards: [{
+				id: "314FB0370418C0D6"
 				item: {
 					Count: 1b
 					id: "trofers:small_pillar"
@@ -873,15 +1081,130 @@
 				}
 				type: "item"
 			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7D8C031D9AB18DEA"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: -4.5d
 		}
 		{
-			dependencies: ["6A42DF601D540F61"]
+			dependencies: [
+				"6A42DF601D540F61"
+				"39D88B5B9E7C6AFC"
+				"579FD63E910D53AF"
+				"597070AC15C6CF1E"
+				"004209D0C8DC9348"
+				"0FBEC752451AE8F1"
+				"177C8ED1C4934331"
+				"2262BEC14ED23163"
+				"0F013F8E4DF06E6B"
+				"7690F3B47E697F59"
+				"756271EEC10D1295"
+				"7F76304CC8F79ED5"
+				"2497BFB0A45ABE61"
+				"65560ED5F75185CE"
+				"0994FB5ABA4D509D"
+				"54EC4DE0C6965784"
+				"3685AF18562A2CA8"
+				"7A3C0543AAE97C89"
+				"2D7B50C0A5B7BF13"
+				"30E9F3B503A22BDA"
+				"7AA1D074D9B3A240"
+				"128ECB644D303AF3"
+				"032D0C4B0DBE2DF2"
+				"27CB399EA2E30582"
+				"69D4D6B68F8732DD"
+				"181FAC8893771CD9"
+				"7EED3576AA13DFB4"
+				"43683BFD55DED777"
+				"32FF345AF0E87070"
+				"12829AE05244CA1B"
+				"7A113E343238A35D"
+				"061FDC6FE5331101"
+				"46B678C8DDB9B181"
+				"7BF103168FCC7F6C"
+				"11E213A3926FDF66"
+				"106EBD7AD0B938E1"
+				"5A9F94BC1B9EA1F0"
+				"56AF55D3C00B803A"
+				"36449FA11F79E8C6"
+				"17A50060E73C8D9D"
+				"0E3F551B750AB84A"
+				"68419C94D2BBEF0A"
+				"6979FCCAA2646FBF"
+				"3D1045C0C6B3BA08"
+				"628C6BF05C57AC47"
+				"30998A623CF6007E"
+				"73C48D66EDCF4D19"
+				"20D91BDF17DB51A8"
+				"15CA873EB2051888"
+				"05E7324B1FC9421F"
+				"71F97A656D41785D"
+				"43F4508F28653E9E"
+				"17D7C65996F00EFB"
+				"1F9C854252F7DAAF"
+				"43DBB5ABDDA13B56"
+				"0653919FEED35495"
+				"095D8F4F8A00FA99"
+				"5FC0783865943CE2"
+				"431DAB9B84997491"
+				"3609D191780BA603"
+				"70E6E6D3ABAC4B09"
+				"0A89D032093A2712"
+				"1B4127C698A675B6"
+				"4B65A4FC336AEA50"
+				"562CF51957B53626"
+				"7C094A056ED01F7B"
+				"06385AE5E0FE038A"
+				"26BC4228887D3C46"
+				"4944AB502FB37416"
+				"29EA0A820DE54537"
+				"3E138862E596075D"
+				"1C1CE1D083B786C5"
+				"6601C175DC4485F2"
+				"354C324227594691"
+				"58FD2F344DAA81A5"
+				"304390FAC4C159B0"
+				"175C75FDF524874C"
+				"6886C6A6E2E97605"
+				"65E4162BCF764475"
+				"4E42D96C0AB0A553"
+				"5F08D82308DA853F"
+				"55D5FE2BDBA3158C"
+				"36739063C2FB8639"
+				"29BACBBC96847851"
+				"796BBB93DDF2F8D3"
+				"783F583FA53EAEE4"
+				"66D16ADD44115DC6"
+				"5155E62DBD279683"
+				"72472701C7B4512F"
+				"5BE8660ED789F2B1"
+				"5FAB8B71E91FD524"
+				"3DFF290B17E631F3"
+				"75E727492D00F748"
+				"4752F7EF9DDD878F"
+				"21F5617A74F41989"
+				"1F8141789D91549B"
+				"522BCE6B5700CCB5"
+				"3963D7F954AC6EC0"
+				"465033EF352E276A"
+				"2811E35BEF5437E3"
+				"4F1F0FC36448816A"
+			]
+			icon: {
+				Count: 1b
+				id: "trofers:small_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:mv"
+					}
+				}
+			}
 			id: "562FF91CFF520BA5"
-			shape: "diamond"
-			tasks: [{
-				id: "121BD6CC13521E57"
+			rewards: [{
+				id: "63DB4DC647EEC301"
 				item: {
 					Count: 1b
 					id: "trofers:small_pillar"
@@ -893,15 +1216,147 @@
 				}
 				type: "item"
 			}]
+			shape: "diamond"
+			tasks: [{
+				id: "67218334698490C0"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: -5.5d
 		}
 		{
-			dependencies: ["562FF91CFF520BA5"]
+			dependencies: [
+				"562FF91CFF520BA5"
+				"4C41230896761037"
+				"1EF6D2269C192BC1"
+				"0CA1AD96AA7EB047"
+				"3AA0D0C1318072F3"
+				"1EA233E3DCF5A8A0"
+				"53882396C66C3166"
+				"1935EE9A88785FCD"
+				"1A930173D3C4A83E"
+				"340CA346E0BD9FEC"
+				"51B900631774C8B5"
+				"48838C65692AB6D2"
+				"57278AE1E6C2B01B"
+				"4CD35DB302DC4F9C"
+				"50BBF5DA3EB28CF2"
+				"35910005C3917324"
+				"1CBD2C9DEEE435E6"
+				"431BB5502210CF78"
+				"6108541433D56AEA"
+				"363F2AAA146837D5"
+				"1D8B6473D6F59E27"
+				"1E334606A5A4E9BA"
+				"6B4332CD6E294B8B"
+				"01A3EC40901165C2"
+				"317262F88412FFA8"
+				"39655A9986F3073E"
+				"0C12820E58A6FD8B"
+				"3C94F0661744AF8D"
+				"1EE8E48D73EC7DB2"
+				"13A2EB94AEFBF7F0"
+				"24B38631B16512DA"
+				"6B85D9A560CCC0D2"
+				"1C3898050AABCDD7"
+				"184CCC9464520BCB"
+				"776D6A3931241133"
+				"00DB5F15E95B82D2"
+				"00E542C1616A1D06"
+				"7E939C0B46A2C577"
+				"776196BD93CCF25E"
+				"1F638DD351D1E82E"
+				"521DEB338D15FE74"
+				"247B1BB8A16601F6"
+				"0E9BAF8C0927C467"
+				"4F2BB799C0DBD231"
+				"31A8F255FCF26853"
+				"2D7F2A7787D21C84"
+				"78CAA53FF8977E02"
+				"38E5F4922D493854"
+				"1CE78A14F8C9BB51"
+				"4FBAAC0E7CD87100"
+				"4CD1A1513BB61B58"
+				"09E537E574ED829F"
+				"154A18FF55DA9A1A"
+				"43283DF93D75D1D2"
+				"124F837E0188FDC3"
+				"5AECFFE1CF4FB438"
+				"1E3F00827DE81A29"
+				"7EB99AF5CBB5ED87"
+				"3C7C6D7DEA759A0B"
+				"441E0F5AF148258C"
+				"688C8EAA350A89AF"
+				"765DAEE1CD9005A8"
+				"5C9A9AA5FC26479D"
+				"55D2B4A21DD6B220"
+				"4626E3D01CBD6DCC"
+				"08C186099DBD4CFB"
+				"7F40B9DCBD6A7764"
+				"22D4412456C964AD"
+				"656A8F24885D0586"
+				"76E64D23DFB242E0"
+				"36B05D8588934F3E"
+				"5D0DA86167F6A003"
+				"1576C225DFC4650C"
+				"04C10081866D7BB1"
+				"03AF131BA5F924D0"
+				"737AFCC9E50FBD22"
+				"45E44E92011D35F4"
+				"46558940CC64F5D2"
+				"0FE22B84D5E55D28"
+				"22FEC39BFE582491"
+				"6BE7207498EFC0D1"
+				"5B7899670D00F4B0"
+				"0E60F47278A87F09"
+				"7D385FFA6B5BC62D"
+				"1ADE44FAAC0EB496"
+				"674EE15A872B2D82"
+				"13903B3EDE72AF63"
+				"33A796252B8BDAC8"
+				"300C8811FB568E88"
+				"7D6CB6EDC9F39FB6"
+				"5B5D6190274EED49"
+				"1F3D4A0814A1095F"
+				"2160BE97922C6B0B"
+				"0B0D1B4C432E86BF"
+				"1CEEEDA0B1B89527"
+				"5F3E413D1F14F4C6"
+				"2137D52B7574D6BC"
+				"0379CDF7FB133E48"
+				"243C2809A8C13221"
+				"4AB7E0D8F1B7390E"
+				"01E0472DFDDDF2F1"
+				"2FD72D7CDEE1AFA8"
+				"50BBE26EED91D3A6"
+				"76889A4B38C620E6"
+				"2AC0E79728F4AA45"
+				"07F8BDD4D1DAC910"
+				"71550D368E4362C7"
+				"6F3507BB97CCB0AB"
+				"5C6AB70C0237BBBD"
+				"2CCFC53DC75EA75E"
+				"65725E1153193588"
+				"6F57E0A9A28BAD87"
+				"7EF2CD56FEE25DB5"
+				"67DC655B8EB332C7"
+				"5C0E818F2F086E7F"
+				"58DC31CC3D243DCD"
+				"38487E2DC48E7C16"
+				"74DEDA0928E978C3"
+			]
+			icon: {
+				Count: 1b
+				id: "trofers:small_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:hv"
+					}
+				}
+			}
 			id: "7A0397E9083831A7"
-			shape: "diamond"
-			tasks: [{
-				id: "1201C7AD0B387C63"
+			rewards: [{
+				id: "3CCF9E98D5E4BF84"
 				item: {
 					Count: 1b
 					id: "trofers:small_pillar"
@@ -913,15 +1368,129 @@
 				}
 				type: "item"
 			}]
+			shape: "diamond"
+			tasks: [{
+				id: "12EB19837FE866CC"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: -6.5d
 		}
 		{
-			dependencies: ["7A0397E9083831A7"]
+			dependencies: [
+				"7A0397E9083831A7"
+				"5F3C292A1ECDDEDA"
+				"5710BF241B634252"
+				"5416AF520C391E7A"
+				"2AAE10B3A9303025"
+				"73D5A423BF57CDAA"
+				"3C1226230397C8A8"
+				"3D2DD115DFBC388B"
+				"5ADCC26A9FF0C052"
+				"64A14CF083700434"
+				"58C877DC86206A23"
+				"3E28F3AEA0B4ED2D"
+				"66C3151DDB09D2F5"
+				"47AEA0C5F176D939"
+				"496C27EC55DC827B"
+				"222B3FC1124BD48E"
+				"19DC05312E37F1EA"
+				"2B5E3162C47DB371"
+				"077D083615A432DD"
+				"6E1A43448BC790AC"
+				"188DA4F1E88D9DC8"
+				"3B1AA49879F2894D"
+				"62199F6082B5238D"
+				"4D67040731053B27"
+				"5F3653747EC9ADCF"
+				"4BADF27AE07F51E1"
+				"59734B3CFAB168B2"
+				"71C1E539CC1F91AA"
+				"4EEA0E20502169BA"
+				"280B1B867AF3D525"
+				"7F1E78E14355EEF5"
+				"7514350A5ED5B094"
+				"682EB3FE11EA695F"
+				"429D27E43916D30A"
+				"0C550C32C45DDC5C"
+				"05B77979A94622E1"
+				"41F1ADB7C4CE0CE2"
+				"16769027515EFA64"
+				"1CF79BEDD4115767"
+				"5A4A7947EECB41B1"
+				"0C57C617A41FC927"
+				"027385AA21D8737B"
+				"2226B76FD5DC74EE"
+				"32F1A63F9DEED55D"
+				"6B0C48DA1FA98001"
+				"51F5BC8E56ACB9A8"
+				"29A8C6AFE8DC0B5B"
+				"3EE3487B4DB84CA1"
+				"17ADFA78C5406619"
+				"4E070BB70BD710E9"
+				"47F9517AB81DBD10"
+				"7C814A513F079A46"
+				"1F964F4D7BA591ED"
+				"3E7B3818AEB38147"
+				"25E12DF81876C1F6"
+				"3DD1B3FF53CEEE7A"
+				"4889521E31714C7D"
+				"142BDFBD70488545"
+				"2159F0DF42E8E9F2"
+				"50868167221F1A61"
+				"471B4FAA93125307"
+				"20D7576D5C3C1020"
+				"4179B53FEBB8FC59"
+				"6831915934C73308"
+				"6FEDBB6755D71CFA"
+				"053D626594D69326"
+				"639FDCAB675318CF"
+				"4B7A29A99F2E2755"
+				"196206BAA3991DE8"
+				"3891DC43414C6B32"
+				"2448B1AEB23D6B75"
+				"07612BDAA0EFA6E4"
+				"3732DF7C69268DDB"
+				"423A66F8BD191760"
+				"2B7E7B2E80ECBB07"
+				"0303A03C53D1F852"
+				"0BF4E4197C99F9B4"
+				"6A8B53B4D3159DEB"
+				"2D4856FC3479C90F"
+				"3B3BA8827AD773AB"
+				"54EE58DE147CE48A"
+				"5F88522764A87FCE"
+				"0641F532830857AA"
+				"66A8FB4453F684C9"
+				"01A03BFE2F6A21EE"
+				"2C65C308880C41BF"
+				"75B62F4AEC03FB1E"
+				"3F81AC9B730673F9"
+				"2425CC09EE3CFFF6"
+				"30A17A50DAA15FB7"
+				"363196BF9DFE099B"
+				"2232297E56B7D716"
+				"1F8C388BCDB7B65E"
+				"541DCF2D3988B157"
+				"39657468181B07E2"
+				"0BFC4C63AC685F02"
+				"11A5D34025A9F7B4"
+				"5AB00116967F9823"
+				"64B2D5261623A94C"
+				"7D9608103605A17D"
+			]
+			icon: {
+				Count: 1b
+				id: "trofers:small_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:ev"
+					}
+				}
+			}
 			id: "7EB6BFC3CA3C8627"
-			shape: "diamond"
-			tasks: [{
-				id: "6843194A1CF7DBC3"
+			rewards: [{
+				id: "13DF692580008CCF"
 				item: {
 					Count: 1b
 					id: "trofers:small_pillar"
@@ -933,15 +1502,147 @@
 				}
 				type: "item"
 			}]
+			shape: "diamond"
+			tasks: [{
+				id: "699675BF8C924A1B"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: -7.5d
 		}
 		{
-			dependencies: ["7EB6BFC3CA3C8627"]
+			dependencies: [
+				"7EB6BFC3CA3C8627"
+				"6CC1A9B1B0196C6D"
+				"48946D8D12B533AA"
+				"2A10635AF9EA9DAF"
+				"068DB018E95657D0"
+				"3F298D2D72C6F4D6"
+				"0A079617B299939C"
+				"36A6C8F5E9DF089A"
+				"0444EC7C46FFB9DF"
+				"62F5D6BF0657F804"
+				"0B42A80A65D5FA84"
+				"1147E1C14852C9CE"
+				"101DCA78C691C3E9"
+				"5E76E32793ED2D9D"
+				"4264B4BB2474F789"
+				"465C8964A11B1A00"
+				"18E8FAC5E47FBC78"
+				"2DA54757A3D7740E"
+				"71376CE5E2A5B55C"
+				"50153A3E63D75BD1"
+				"0C52605AB7344611"
+				"1E2EA520ACC7FEE6"
+				"6CCBEB79A974AFE9"
+				"1FFBA3D0817A2561"
+				"209D2227CA942419"
+				"2A2862E9AB3564C3"
+				"070562129A81ABAB"
+				"1C831B3953519FD5"
+				"67FC4A3B61E5811C"
+				"385671C52437549B"
+				"36AD66F466216147"
+				"0EBA67A1C6F019D4"
+				"2DB58ECA34B60888"
+				"22DC92C228A96AF4"
+				"6495AE627F22DB93"
+				"5AB2BA348F0856C2"
+				"554238EA45FF0F18"
+				"353EFED754F7BD46"
+				"4F9729DFAEAC4CB8"
+				"35900649D9A2461A"
+				"416102F2B37AD68A"
+				"1CA8D88A569B36DD"
+				"121C76F2447E7AF7"
+				"70A773AE239FFEFF"
+				"0D2303A725B4A25C"
+				"3C91A623286EF9B1"
+				"0C923DCB2F346003"
+				"0B96C1E27305CD1E"
+				"06A2F6B23473D413"
+				"6629B6045D262072"
+				"6D20A245E4415A5F"
+				"6C520E6193CDDA83"
+				"3A7DBF1A575CA746"
+				"3D3A11D0B00FF79B"
+				"350FCE05FBB371C7"
+				"6C0D309FE49C7771"
+				"7EFDC319629328F5"
+				"43A553FB4FB57468"
+				"17D7A146E3B4A4A0"
+				"69D4F13039AAEFC8"
+				"5B93BFA002989823"
+				"47EC0C74F64AE55A"
+				"06067DC29DDECD8B"
+				"783DE5840B24680C"
+				"1E18B13F50E05755"
+				"7C86182CF89C1EA5"
+				"42D5116257FC5FDF"
+				"70327FE2342B4061"
+				"3004B16F612EF4D9"
+				"5CBC3371973E8F6E"
+				"5202E95A1F3445C6"
+				"5180D69FA3D40F60"
+				"5F1381C00EE5079D"
+				"2E407CD925C6F3EF"
+				"6C46C6F5F54E104C"
+				"3D46B02E08E3143A"
+				"2EE121EC99869938"
+				"654BB0D9F0DE3AFF"
+				"017537301C98E069"
+				"6289326F29619832"
+				"02AAB414E9A755AF"
+				"40B3EF5139C84192"
+				"27174AED4682C6C3"
+				"3666E61D0934A4F4"
+				"43D223C38D4EABE0"
+				"1C902EAC3680BA7C"
+				"62A382BB6FB7546E"
+				"35C701351DC293F2"
+				"0AE3A5BEBF1B3484"
+				"18F879677A72902E"
+				"218D2691C4726DAD"
+				"2B6E14CA4082DAE3"
+				"37498495C26D8574"
+				"23C8D4A85AF38254"
+				"5F01907B4C1C70AE"
+				"38A24F58A368095B"
+				"1BB283BBF2323FF1"
+				"6DD4FC644DFEA581"
+				"4C5A067D92FBA40E"
+				"1773A9A926688A6A"
+				"15B26C9D718A777A"
+				"6B43798E997F1E52"
+				"6BF07A84F404B692"
+				"046E1B2D282E738E"
+				"65474213F76926D9"
+				"3836E5A802109768"
+				"1F1EC6FA3D81248C"
+				"1EA624CD68D8DC59"
+				"36F5FA02E5F397E8"
+				"64B0EDAD5353CBA3"
+				"2817818455388A46"
+				"03F59A2807CC8CFF"
+				"6C2D2C561DDED656"
+				"27354CCDC87F7A73"
+				"2119CF5450A6821E"
+				"2EF182D7747BC3A5"
+				"76350F0037874A48"
+				"3E2576F6719170BD"
+			]
+			icon: {
+				Count: 1b
+				id: "trofers:small_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:electro_chad"
+					}
+				}
+			}
 			id: "1D4519A1183FCB3C"
-			shape: "diamond"
-			tasks: [{
-				id: "10E09D011E1EF049"
+			rewards: [{
+				id: "6E61DF7C3ED31F27"
 				item: {
 					Count: 1b
 					id: "trofers:small_pillar"
@@ -953,9 +1654,14 @@
 				}
 				type: "item"
 			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7DD6F3E08250A847"
+				type: "checkmark"
+			}]
 			x: 0.0d
 			y: -8.5d
 		}
 	]
-	title: "Трофеи"
+	title: "Trophies"
 }

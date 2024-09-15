@@ -68,13 +68,13 @@
         "weight": 20,
         "nbt": {
           "Attributes":[
-            {"Name":"generic.max_health","Base":40}, 
-            {"Name":"generic.attack_damage","Base":8}, 
+            {"Name":"generic.max_health","Base":40},
+            {"Name":"generic.attack_damage","Base":8},
             {"Name":"generic.movement_speed","Base":0.6},
             {"Name":"generic.armor","Base":8}
           ],
           "Health": 40,
-          "CustomName":"{\"text\":\"Пробудившийся дитчер\",\"color\":\"blue\"}",  
+          "CustomName":"{\"text\":\"Awakened ditcher\",\"color\":\"blue\"}",
           "ArmorItems":[{"id":"minecraft:leather_boots","tag":{"display":{"color":16777215}},"Count":1},{"id":"minecraft:leather_leggings","tag":{"display":{"color":16777215}},"Count":1},{"id":"minecraft:leather_chestplate","tag":{"display":{"color":16777215}},"Count":1},{"id":"minecraft:player_head","tag":{"SkullOwner":{"Id":["I;",2117715849,-2062461933,-1460640079,-1673721503],"Properties":{"textures":[{"Value":"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFlNjM0NGNlYmFjZDIxZDhjNmNhMGQyZTM0YjNjMzQ5MmRjNzliZjQ0MzE0MGQxMmE1MDg4N2FlM2ViN2Y4ZiJ9fX0="}]}},"display":{"Lore":["{\"text\":\"https://namemc.com/skin/a2279e7312859c36\"}"]}},"Count":1}],
           "ArmorDropChances":["0F","0F","0F","0F"],
           "ActiveEffects":[{"Id":13,"Duration":10000,"ShowParticles":"0b"},{"Id":30,"Duration":100000,"ShowParticles":"0b"}],
@@ -87,11 +87,11 @@
         "nbt": {
           "Health": 40,
           "Attributes":[
-            {"Name":"generic.max_health","Base":40}, 
+            {"Name":"generic.max_health","Base":40},
             {"Name":"generic.movement_speed","Base":0.5},
             {"Name":"generic.armor","Base":4}
           ],
-          "CustomName":"{\"text\":\"Морской лучник\",\"color\":\"gray\"}",  
+          "CustomName":"{\"text\":\"Sea archer\",\"color\":\"gray\"}",
           "HandItems":[{"id":"botania:crystal_bow","Count":1},{"id":"arrow","Count":1}],
           "ArmorItems":[{"id":"minecraft:leather_boots","tag":{"display":{"color":0}},"Count":1},{"id":"minecraft:leather_leggings","tag":{"display":{"color":1775637}},"Count":1},{"id":"minecraft:leather_chestplate","tag":{"display":{"color":4736834}},"Count":1},{"id":"minecraft:player_head","tag":{"SkullOwner":{"Id":["I;",-739299468,-1991886949,-1813041292,-1991878757],"Properties":{"textures":[{"Value":"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjVmZjc4NDUxYzI2Y2IxYjUyOTczZWQ1MGVlNTVkZGRlNjIwZGQ2N2VjZTllOTJiM2I0ZjlhZTUwMzU3OGRmNSJ9fX0="}]}},"display":{"Lore":["{\"text\":\"https://namemc.com/skin/d3ef2f748946579b\"}"]}},"Count":1}],
           "HandDropChances":["0F","0F"],
@@ -106,12 +106,12 @@
         "nbt": {
           "Health": 40,
           "Attributes":[
-            {"Name":"generic.max_health","Base":40}, 
-            {"Name":"generic.attack_damage","Base":4}, 
+            {"Name":"generic.max_health","Base":40},
+            {"Name":"generic.attack_damage","Base":4},
             {"Name":"generic.armor","Base":8}
           ],
           "VillagerData":{"type":"snow","profession":"fisherman","level":99},
-          "CustomName":"{\"text\":\"Утонувший рыбак\",\"color\":\"gray\"}",  
+          "CustomName":"{\"text\":\"Drowned fisherman\",\"color\":\"gray\"}",
           "HandItems":[{"id":"fishing_rod","Count":1}],
           "ArmorItems":[{},{},{},{"id":"leather_helmet","Count":1}],
           "HandDropChances":["0F","0F"],
@@ -126,12 +126,12 @@
         "nbt": {
           "Health": 25,
           "Attributes":[
-            {"Name":"generic.max_health","Base":25}, 
-            {"Name":"generic.attack_damage","Base":4}, 
+            {"Name":"generic.max_health","Base":25},
+            {"Name":"generic.attack_damage","Base":4},
             {"Name":"generic.movement_speed","Base":0.6},
             {"Name":"generic.armor","Base":2}
           ],
-          "CustomName":"{\"text\":\"Синяя акула\",\"color\":\"gray\"}",
+          "CustomName":"{\"text\":\"Blue shark\",\"color\":\"gray\"}",
           "ArmorItems":[{"id":"leather_boots","tag":{"display":{"color":8955060,"Name":"[{\"text\":\"Shark Scale Boots\",\"italic\":false}]"}},"Count":1},{"id":"leather_leggings","tag":{"display":{"color":8955060,"Name":"[{\"text\":\"Shark Scale Leggings\",\"italic\":false}]"}},"Count":1},{"id":"leather_chestplate","tag":{"display":{"color":8955060,"Name":"[{\"text\":\"Shark Scale Chestplate\",\"italic\":false}]"}},"Count":1},{"id":"minecraft:player_head","tag":{"SkullOwner":{"Id":["I;",-827182740,-613851476,-2045892885,-411516982],"Properties":{"textures":[{"Value":"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjI0YmEyMTkwNmYxYzM2MDcyOWQ1NDFlNjJmYzFmYzhkZTZlYWUzNzgxYmE3MDEwNTViODYwY2RlZGYzYjRmZCJ9fX0="}]}},"display":{"Lore":["{\"text\":\"https://namemc.com/skin/4257d2e9a3a6ecea\"}"]}},"Count":1}],
           "ArmorDropChances":["0F","0F","0F","0F"],
           "ActiveEffects":[{"Id":13,"Duration":10000,"ShowParticles":"0b"}],
@@ -144,11 +144,11 @@
         "nbt": {
           "Health": 30,
           "Attributes":[
-            {"Name":"generic.max_health","Base":30}, 
+            {"Name":"generic.max_health","Base":30},
             {"Name":"generic.attack_damage","Base":8},
             {"Name":"generic.armor","Base":5}
           ],
-          "CustomName":"{\"text\":\"Дайвер мертвец\",\"color\":\"blue\"}",
+          "CustomName":"{\"text\":\"Dead diver\",\"color\":\"blue\"}",
           "HandItems":[{"id":"fishing_rod","tag":{"display":{"color":6248791,"Name":"[{\"text\":\"Divers Rod\",\"italic\":false}]"}},"Count":1}],
           "ArmorItems":[{"id":"leather_boots","tag":{"display":{"color":6248791,"Name":"[{\"text\":\"Divers Boots\",\"italic\":false}]"}},"Count":1},{"id":"leather_leggings","tag":{"display":{"color":5718312,"Name":"[{\"text\":\"Divers Trunks\",\"italic\":false}]"}},"Count":1},{"id":"leather_chestplate","tag":{"display":{"Name":"[{\"text\":\"Divers Shirt\",\"italic\":false}]"}},"Count":1},{"id":"minecraft:player_head","tag":{"SkullOwner":{"Id":["I;",-556715346,1518296311,-1307242277,-666309718],"Properties":{"textures":[{"Value":"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmNkYmY1NGRmOWMwMjFlZGMyNDZiNTUxNTAxMGM2YTdmMzQ0MzFhODUwZjhlMTNkNDU1ODA0ODAxYmZiNDIxZiJ9fX0="}]}},"display":{"Lore":["{\"text\":\"https://namemc.com/skin/fb2c7d5039dcb1ac\"}"]}},"Count":1}],
           "ArmorDropChances":["0F","0F","0F","0F"],
@@ -163,12 +163,12 @@
         "nbt": {
           "Health": 40,
           "Attributes":[
-            {"Name":"generic.max_health","Base":40}, 
-            {"Name":"generic.attack_damage","Base":6}, 
+            {"Name":"generic.max_health","Base":40},
+            {"Name":"generic.attack_damage","Base":6},
             {"Name":"generic.movement_speed","Base":0.6},
             {"Name":"generic.armor","Base":4}
           ],
-          "CustomName":"{\"text\":\"Большая белая акула\",\"color\":\"blue\"}",
+          "CustomName":"{\"text\":\"Great white shark\",\"color\":\"blue\"}",
           "ActiveEffects":[{"Id":13,"Duration":10000,"ShowParticles":"0b"}, {"Id":30,"Duration":10000,"ShowParticles":"0b"}],
           "ArmorItems":[{"id":"leather_boots","tag":{"display":{"color":8955060,"Name":"[{\"text\":\"Shark Scale Boots\",\"italic\":false}]"}},"Count":1},{"id":"leather_leggings","tag":{"display":{"color":8955060,"Name":"[{\"text\":\"Shark Scale Leggings\",\"italic\":false}]"}},"Count":1},{"id":"leather_chestplate","tag":{"display":{"color":8955060,"Name":"[{\"text\":\"Shark Scale Chestplate\",\"italic\":false}]"}},"Count":1},{"id":"minecraft:player_head","tag":{"display":{"Name":"{\"text\":\"Shark\"}"},"SkullOwner":{"Id":["I;",-259814821,734940222,-1708777800,-4555444],"Properties":{"textures":[{"Value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzkwMTE2ZGE1MTRhNzNkZGQ5Mjk1NDkxODUyYWRjNTg4MDA3ZjJhY2Q3ZGUyNjk3ODhhMjEyOGQ4ZTRhNzY0YiJ9fX0="}]}}},"Count":1}],
           "ArmorDropChances":["0f","0f","0f","0f"],
@@ -181,12 +181,12 @@
         "nbt": {
           "Health": 60,
           "Attributes":[
-            {"Name":"generic.max_health","Base":60}, 
-            {"Name":"generic.attack_damage","Base":12}, 
+            {"Name":"generic.max_health","Base":60},
+            {"Name":"generic.attack_damage","Base":12},
             {"Name":"generic.armor","Base":8},
             {"Name":"generic.movement_speed","Base":0.6}
           ],
-          "CustomName":"{\"text\":\"Утонувший пират\",\"color\":\"dark_purple\"}",
+          "CustomName":"{\"text\":\"Drowned pirate\",\"color\":\"dark_purple\"}",
           "ArmorItems":[{"id":"minecraft:leather_boots","tag":{"display":{"color":2566699}},"Count":1},{"id":"minecraft:leather_leggings","tag":{"display":{"color":2302479}},"Count":1},{"id":"minecraft:leather_chestplate","tag":{"display":{"color":4151618}},"Count":1},{"id":"minecraft:player_head","tag":{"SkullOwner":{"Id":["I;",866827417,-1627964743,-1280656231,-1627919687],"Properties":{"textures":[{"Value":"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGIxNmI3NDM1ZjM3YzViNjUxYTZhZjQ0Y2MzNTk0NTUxNTIyYzY4M2Y4ZDc1Njk2NWRjYTZjNGZhMzhiYTkxIn19fQ=="}]}},"display":{"Lore":["{\"text\":\"https://namemc.com/skin/33aabc999ef7eab9\"}"]}},"Count":1}],
           "ArmorDropChances":["0F","0F","0F","0F"],
           "HandItems":[{"id":"minecraft:netherite_shovel","Count":1}],
@@ -201,12 +201,12 @@
         "nbt": {
           "Health": 110,
           "Attributes":[
-            {"Name":"generic.max_health","Base":110}, 
-            {"Name":"generic.attack_damage","Base":12}, 
+            {"Name":"generic.max_health","Base":110},
+            {"Name":"generic.attack_damage","Base":12},
             {"Name":"generic.movement_speed","Base":0.6},
             {"Name":"generic.armor","Base":12}
           ],
-          "CustomName":"{\"text\":\"Мегалодон\",\"color\":\"dark_purple\"}",
+          "CustomName":"{\"text\":\"Megalodon\",\"color\":\"dark_purple\"}",
           "ActiveEffects":[{"Id":13,"Duration":10000,"ShowParticles":"0b"}, {"Id":30,"Duration":10000,"ShowParticles":"0b"}],
           "ArmorItems":[{"id":"leather_boots","tag":{"display":{"color":8955060,"Name":"[{\"text\":\"Shark Scale Boots\",\"italic\":false}]"}},"Count":1},{"id":"leather_leggings","tag":{"display":{"color":8955060,"Name":"[{\"text\":\"Shark Scale Leggings\",\"italic\":false}]"}},"Count":1},{"id":"leather_chestplate","tag":{"display":{"color":8955060,"Name":"[{\"text\":\"Shark Scale Chestplate\",\"italic\":false}]"}},"Count":1},{"id":"minecraft:player_head","tag":{"display":{"Name":"{\"text\":\"Shark\"}"},"SkullOwner":{"Id":["I;",1199112502,2078558115,-2104220692,902853657],"Properties":{"textures":[{"Value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjA5OTA5NGI5YzQyOWE4Yzg0Njg1MTQwYzk3MTY0ZTU5NGJmMGViMzdmMDExNjQzNjA4YWU5NmIzZjFiNjFmNiJ9fX0="}]}}},"Count":1}],
           "ArmorDropChances":["0f","0f","0f","0f"],
@@ -219,12 +219,12 @@
         "nbt": {
           "Health": 200,
           "Attributes":[
-            {"Name":"generic.max_health","Base":200}, 
-            {"Name":"generic.attack_damage","Base":16}, 
+            {"Name":"generic.max_health","Base":200},
+            {"Name":"generic.attack_damage","Base":16},
             {"Name":"generic.armor","Base":12},
             {"Name":"generic.movement_speed","Base":0.6}
           ],
-          "CustomName":"{\"text\":\"Морской император\",\"color\":\"gold\"}",
+          "CustomName":"{\"text\":\"Sea Emperor\",\"color\":\"gold\"}",
           "ActiveEffects":[{"Id":13,"Duration":10000,"ShowParticles":"0b"}, {"Id":30,"Duration":10000,"ShowParticles":"0b"}],
           "HandItems":[{"id":"trident","Count":1},{"id":"air","Count":1}],
           "ArmorItems":[{"id":"minecraft:leather_boots","tag":{"display":{"color":2033925}},"Count":1},{"id":"minecraft:leather_leggings","tag":{"display":{"color":4266000}},"Count":1},{"id":"minecraft:leather_chestplate","tag":{"display":{"color":8728094}},"Count":1},{"id":"minecraft:player_head","tag":{"SkullOwner":{"Id":["I;",-908758693,1190999718,-1982500517,1191007910],"Properties":{"textures":[{"Value":"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTMzYThmMGMwMTkwOWQwNTM3N2Q1MDU2M2ZmYmIwOTZhNTE4MmY1ZjgxMjkyZDY5MzIzNWIwNjA4ODNiMjNjZCJ9fX0="}]}}},"Count":1}],
@@ -239,12 +239,12 @@
         "nbt": {
           "Health": 250,
           "Attributes":[
-            {"Name":"generic.max_health","Base":250}, 
-            {"Name":"generic.attack_damage","Base":22}, 
+            {"Name":"generic.max_health","Base":250},
+            {"Name":"generic.attack_damage","Base":22},
             {"Name":"generic.armor","Base":12},
             {"Name":"generic.movement_speed","Base":0.6}
           ],
-          "CustomName":"{\"text\":\"Бэйби Йети\",\"color\":\"gold\"}",
+          "CustomName":"{\"text\":\"Baby yeti\",\"color\":\"gold\"}",
           "ActiveEffects":[{"Id":13,"Duration":10000,"ShowParticles":"0b"}, {"Id":30,"Duration":10000,"ShowParticles":"0b"}],
           "ArmorItems":[{"id":"leather_boots","tag":{"display":{"color":9335918}},"Count":1},{"id":"leather_leggings","tag":{"display":{"color":12685713}},"Count":1},{"id":"leather_chestplate","tag":{"display":{"color":16051434}},"Count":1},{"id":"minecraft:player_head","tag":{"display":{"Name":"{\"text\":\"Yeti\"}"},"SkullOwner":{"Id":["I;",511104929,1475170131,-1260779382,701563222],"Properties":{"textures":[{"Value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWU3M2Q5OGUzYTVmYTM5MjM4MTg0MmY2MDQ1NTI5NjZjODQ2MTdmYWFlMzdkOWIxNGVjMzczNGUyM2I1MmVjYSJ9fX0="}]}}},"Count":1}],
           "ArmorDropChances":["0f","0f","0f","0f"],

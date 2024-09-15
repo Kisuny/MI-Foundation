@@ -2771,8 +2771,8 @@
 				item: "spirit:soul_steel_ingot"
 				type: "item"
 			}]
-			x: -1.2928571428571516d
-			y: -12.19897959183674d
+			x: -2.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["6E6C22551B253133"]
@@ -2790,8 +2790,8 @@
 				item: "spirit:soul_cage"
 				type: "item"
 			}]
-			x: -4.864285714285714d
-			y: -12.668367346938773d
+			x: -5.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["6E6C22551B253133"]
@@ -2816,8 +2816,8 @@
 				title: "Any #spirit:soul_steel_mainhand"
 				type: "item"
 			}]
-			x: -4.864285714285714d
-			y: -11.668367346938773d
+			x: -5.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["6E6C22551B253133"]
@@ -2844,8 +2844,8 @@
 				}
 				type: "item"
 			}]
-			x: -5.364285714285714d
-			y: -12.168367346938773d
+			x: -6.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["4A01315B2CA849AE"]
@@ -2867,8 +2867,8 @@
 				item: "spirit:soul_crystal"
 				type: "item"
 			}]
-			x: -4.364285714285714d
-			y: -12.168367346938773d
+			x: -5.0d
+			y: -12.0d
 		}
 		{
 			dependencies: ["45500A52809ED66C"]
@@ -3094,14 +3094,13 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
 			tasks: [{
 				id: "0648875FA6A100C3"
 				item: "vitalize:soul_revitalizer"
 				type: "item"
 			}]
-			x: -4.854081632653063d
-			y: -14.076530612244895d
+			x: -5.5d
+			y: -14.0d
 		}
 		{
 			dependencies: ["5C0A916E972D61EB"]
@@ -3114,14 +3113,13 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			size: 0.8d
 			tasks: [{
 				id: "31CDFD17C8ACAF8D"
 				item: "vitalize:pylon_base"
 				type: "item"
 			}]
-			x: -4.854081632653063d
-			y: -15.556122448979593d
+			x: -5.5d
+			y: -15.5d
 		}
 		{
 			dependencies: ["22FBDD2FFFD8836D"]
@@ -3138,14 +3136,13 @@
 				type: "item"
 			}]
 			shape: "circle"
-			size: 0.8d
 			tasks: [{
 				id: "70D83ECC6116B0C6"
 				item: "vitalize:pylon_efficiency"
 				type: "item"
 			}]
-			x: -7.38469387755103d
-			y: -15.494897959183675d
+			x: -8.0d
+			y: -15.5d
 		}
 		{
 			dependencies: ["22FBDD2FFFD8836D"]
@@ -3164,14 +3161,13 @@
 				type: "item"
 			}]
 			shape: "circle"
-			size: 0.8d
 			tasks: [{
 				id: "79CC3650FC84F943"
 				item: "vitalize:pylon_beheading"
 				type: "item"
 			}]
-			x: -6.88469387755103d
-			y: -16.494897959183675d
+			x: -7.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["22FBDD2FFFD8836D"]
@@ -3190,14 +3186,13 @@
 				type: "item"
 			}]
 			shape: "circle"
-			size: 0.8d
 			tasks: [{
 				id: "243439BB1BBA7C3B"
 				item: "vitalize:pylon_looting"
 				type: "item"
 			}]
-			x: -5.88469387755103d
-			y: -16.994897959183675d
+			x: -6.5d
+			y: -17.0d
 		}
 		{
 			dependencies: ["22FBDD2FFFD8836D"]
@@ -3216,14 +3211,13 @@
 				type: "item"
 			}]
 			shape: "circle"
-			size: 0.8d
 			tasks: [{
 				id: "679B59B4185E29C4"
 				item: "vitalize:pylon_speed"
 				type: "item"
 			}]
-			x: -4.88469387755103d
-			y: -17.494897959183675d
+			x: -5.5d
+			y: -17.5d
 		}
 		{
 			dependencies: ["22FBDD2FFFD8836D"]
@@ -3242,14 +3236,13 @@
 				type: "item"
 			}]
 			shape: "circle"
-			size: 0.8d
 			tasks: [{
 				id: "5D716FA1DAB18D2A"
 				item: "vitalize:pylon_experience"
 				type: "item"
 			}]
-			x: -3.8846938775510296d
-			y: -16.994897959183675d
+			x: -3.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["22FBDD2FFFD8836D"]
@@ -3268,14 +3261,13 @@
 				type: "item"
 			}]
 			shape: "circle"
-			size: 0.8d
 			tasks: [{
 				id: "0BA49A4A64A3550F"
 				item: "vitalize:pylon_flame"
 				type: "item"
 			}]
-			x: -2.8846938775510296d
-			y: -16.494897959183675d
+			x: -4.5d
+			y: -17.0d
 		}
 		{
 			dependencies: ["22FBDD2FFFD8836D"]
@@ -3296,15 +3288,14 @@
 				type: "item"
 			}]
 			shape: "circle"
-			size: 0.8d
 			tasks: [{
 				id: "65B4752D756EEC3A"
 				item: "vitalize:pylon_recursive"
 				type: "item"
 			}]
-			x: -1.8846938775510296d
-			y: -15.494897959183675d
+			x: -3.0d
+			y: -15.5d
 		}
 	]
-	title: "&7Spectrum: &oНовые открытия&r"
+	title: "&7Spectrum: &oNew discoveries&r"
 }

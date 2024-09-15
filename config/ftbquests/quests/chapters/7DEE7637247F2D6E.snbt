@@ -68,6 +68,12 @@
 				}
 			}
 			id: "264310C5DCDF5987"
+			rewards: [{
+				advancement: "the_bumblezone:the_bumblezone/pollen_puff/bee_drop_pollen_puff"
+				criterion: ""
+				id: "46CF151EFA3FE250"
+				type: "advancement"
+			}]
 			shape: "pentagon"
 			size: 2.5d
 			tasks: [{
@@ -145,10 +151,10 @@
 			hide: true
 			id: "21DD94C3007B1444"
 			tasks: [{
-				count: 16L
-				id: "29B83D983F9F81A2"
-				item: "the_bumblezone:pollen_puff"
-				type: "item"
+				advancement: "the_bumblezone:the_bumblezone/pollen_puff/bee_drop_pollen_puff"
+				criterion: ""
+				id: "4EB5D48213B2D302"
+				type: "advancement"
 			}]
 			x: -3.52040816326528d
 			y: 2.442857142857136d
@@ -283,6 +289,7 @@
 				"724B4E8E8E734D72"
 				"2967163DB16A0606"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"&6Медовый&r кокон хранит в себе рандомый лут, в каждой структуре &oлут будет отличаться&r, в &6медовом&r коконе можно найти компас который будет вести в разнообразные структуры мира &6жужалище&r. "
 				""
@@ -703,6 +710,11 @@
 			description: ["Посмотрите на прекрасную &6королеву&r!"]
 			hide: true
 			id: "6115F9F698E9D96B"
+			rewards: [{
+				id: "07A0084A564ABD33"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				icon: "the_bumblezone:bee_queen_spawn_egg"
@@ -1109,5 +1121,5 @@
 			y: -3.5d
 		}
 	]
-	title: "Пчелиный рай"
+	title: "Bee paradise"
 }

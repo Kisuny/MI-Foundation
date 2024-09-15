@@ -1,9 +1,9 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "chemistry"
 	group: "47581D00C2556E50"
+	hide_quest_until_deps_visible: true
 	icon: "chemlib:yttrium"
 	id: "547E60FEDF42E97B"
 	images: [{
@@ -22,13 +22,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["5C9A9AA5FC26479D"]
+			dependencies: [
+				"5C9A9AA5FC26479D"
+				"2E407CD925C6F3EF"
+			]
 			id: "4FF48404208207BD"
-			rewards: [{
-				id: "1DAA1EFF89F40CBA"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "666ABCC202D2B51F"
 				item: "chemlib:hydrogen"
@@ -38,9 +36,10 @@
 			y: -1.452380952380956d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "181066FDE952D7D8"
 			rewards: [{
-				id: "2F9246E64230B006"
+				id: "35D4EB64680CE847"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -53,12 +52,8 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "2C1B1DE8AEC2DAAB"
-			rewards: [{
-				id: "6D3FACB01FCBF619"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "0ADAD0D7B6944475"
 				item: "chemlib:lithium"
@@ -68,9 +63,10 @@
 			y: -0.3809523809523796d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "0872FC0E4B5A5F9C"
 			rewards: [{
-				id: "086B8CF1F380E7E7"
+				id: "76387F00FA0518F0"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -83,12 +79,8 @@
 			y: -0.3809523809523796d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "29DC424A27CA695C"
-			rewards: [{
-				id: "772C8D04CFF003C7"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "0E5E7CEF58386BBF"
 				item: "chemlib:boron"
@@ -98,9 +90,10 @@
 			y: -0.3809523809523796d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "1DF152527574A06B"
 			rewards: [{
-				id: "3187DC63704C2510"
+				id: "6B88625275FE149D"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -113,12 +106,8 @@
 			y: -0.3809523809523796d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "09F5779FAFBDA3C2"
-			rewards: [{
-				id: "26E6DBC5D6131AB8"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "6C7CD9A9F6F3B0BB"
 				item: "chemlib:fluorine"
@@ -128,9 +117,10 @@
 			y: -0.4166666666666643d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "132E299339A2648D"
 			rewards: [{
-				id: "482CCC4CD47D439C"
+				id: "6E7A0F63BE7B7C87"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -143,12 +133,8 @@
 			y: -0.3809523809523796d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "4AF51A07B7D15C4E"
-			rewards: [{
-				id: "68E954425151E2BB"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "1DD7B0F99D42ABA7"
 				item: "chemlib:nitrogen"
@@ -158,12 +144,8 @@
 			y: -0.4166666666666643d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "55E06614DE957CA8"
-			rewards: [{
-				id: "2BEC29E1F65ED379"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "31CEF0C81DD788F9"
 				item: "chemlib:oxygen"
@@ -173,12 +155,8 @@
 			y: -0.3809523809523796d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "35794F8E7A1A29EA"
-			rewards: [{
-				id: "22837C4938F73ED6"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "4A5493A2730BF4B8"
 				item: "chemlib:sodium"
@@ -188,9 +166,10 @@
 			y: 0.7261904761904745d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "7E2EB8995165B003"
 			rewards: [{
-				id: "02B392B1DE81708E"
+				id: "2C9CA6E4E9EA08C1"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -203,12 +182,8 @@
 			y: 0.6904761904761898d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "58901A3AE981F204"
-			rewards: [{
-				id: "6614515B097384FD"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "140D7F315F1463A1"
 				item: "chemlib:aluminum"
@@ -218,9 +193,10 @@
 			y: 0.6904761904761898d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "3FCF906BFE2ACEC5"
 			rewards: [{
-				id: "147655C2B8D2777D"
+				id: "13E730B88735FE01"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -233,12 +209,8 @@
 			y: 0.6904761904761898d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "445B258F71006408"
-			rewards: [{
-				id: "7BC5C0FF6DEBD920"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "0C49BA66647B14E6"
 				item: "chemlib:phosphorus"
@@ -248,12 +220,8 @@
 			y: 0.6904761904761898d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "2D1157A2D0AA08D5"
-			rewards: [{
-				id: "60B7981179B3203B"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "594ED0BE5E1A9D67"
 				item: "chemlib:sulfur"
@@ -263,12 +231,8 @@
 			y: 0.6904761904761898d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "560FF9CA2518B485"
-			rewards: [{
-				id: "4AF243976EC46255"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "071FAF05CD1F93A7"
 				item: "chemlib:chlorine"
@@ -278,9 +242,10 @@
 			y: 0.6904761904761898d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "1FB11BFD0DCBF56D"
 			rewards: [{
-				id: "6B5FF101A79F2BB0"
+				id: "612288EAED3B3B6B"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -293,12 +258,8 @@
 			y: 0.6904761904761898d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "217612EC52564B5C"
-			rewards: [{
-				id: "678AD7A72444FB5E"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "520AC8DA7C2CCD69"
 				item: "chemlib:potassium"
@@ -308,9 +269,10 @@
 			y: 1.7619047619047663d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "2C6D0BE14B25654E"
 			rewards: [{
-				id: "3EEA015184D86331"
+				id: "5DF747C49E4204EE"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -323,12 +285,8 @@
 			y: 1.8095238095238173d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "3B370FA82E87CA36"
-			rewards: [{
-				id: "4286825BF60A2449"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "39E75D1AAEB3E28A"
 				item: "chemlib:scandium"
@@ -338,12 +296,8 @@
 			y: 1.8333333333333357d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "39D45711ACE6200F"
-			rewards: [{
-				id: "0867AF8DFB071149"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "3EBD79D744FB7F08"
 				item: "chemlib:titanium"
@@ -353,12 +307,8 @@
 			y: 1.785714285714299d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "35A21F8F1AB3B6CE"
-			rewards: [{
-				id: "10F6A4EF78CDFC4F"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "41624D77665BD919"
 				item: "chemlib:vanadium"
@@ -368,9 +318,10 @@
 			y: 1.7857142857142918d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "4EE9E9619A588085"
 			rewards: [{
-				id: "5222E07A7A0AC7FE"
+				id: "388AB7504CB7DEB3"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -383,12 +334,8 @@
 			y: 1.7619047619047663d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "78C331FF84A13677"
-			rewards: [{
-				id: "40963C2A3BDBCA2D"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "4B211A1B2AD887B0"
 				item: "chemlib:manganese"
@@ -398,12 +345,8 @@
 			y: 1.7857142857142918d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "69C006390C51E5C5"
-			rewards: [{
-				id: "68D118515B414FE4"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "7A320348456D1E06"
 				item: "chemlib:iron"
@@ -413,12 +356,8 @@
 			y: 1.7857142857142847d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "1709E8B0B1DA27D9"
-			rewards: [{
-				id: "5E3CF9FE2604642D"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "38314CF8326247B2"
 				item: "chemlib:cobalt"
@@ -428,12 +367,8 @@
 			y: 1.7857142857142847d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "1D9BC81A75621C2F"
-			rewards: [{
-				id: "07A2C7243ADEE7D9"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "59A7C4047C2785F2"
 				item: "chemlib:nickel"
@@ -443,9 +378,10 @@
 			y: 1.8095238095238102d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "30B4226BE6CFEF42"
 			rewards: [{
-				id: "25D288B2BA5AB20A"
+				id: "0298D405E0C797F8"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -458,12 +394,8 @@
 			y: 1.8095238095238102d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "015987A753B1107D"
-			rewards: [{
-				id: "3F392ED79AD47711"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "04D44A3650B10832"
 				item: "chemlib:zinc"
@@ -473,12 +405,8 @@
 			y: 1.8095238095238102d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "63109F9BC365CAEC"
-			rewards: [{
-				id: "192732A5BFF54136"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "44ECF1681880E86F"
 				item: "chemlib:gallium"
@@ -488,9 +416,10 @@
 			y: 1.8095238095238102d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "6C7201AB30E22504"
 			rewards: [{
-				id: "2F0B27886825A594"
+				id: "42F30D65D2C66C7A"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -503,12 +432,8 @@
 			y: 1.8095238095238173d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "4E32C022D41DE5A7"
-			rewards: [{
-				id: "4A233152D41522EF"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "3B3CA06B10D8437A"
 				item: "chemlib:astatine"
@@ -518,12 +443,8 @@
 			y: 1.7857142857142918d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "2CC0516C595AA1AB"
-			rewards: [{
-				id: "3DE22B2A5DCDCD0B"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "24BA6598106FD0DC"
 				item: "chemlib:selenium"
@@ -533,12 +454,8 @@
 			y: 1.7619047619047592d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "05C15763CDB93749"
-			rewards: [{
-				id: "6262A19B16B2DE68"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "18245750E00DF5E1"
 				item: "chemlib:bromine"
@@ -548,9 +465,10 @@
 			y: 1.809523809523803d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "1043EAF3065999C9"
 			rewards: [{
-				id: "396A51193B2FA554"
+				id: "49748A2CACEA2083"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -563,12 +481,8 @@
 			y: 1.809523809523796d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "26B382FFB6D6D441"
-			rewards: [{
-				id: "0FFBAF54B82E8924"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "005BFC22FCA6C915"
 				item: "chemlib:rubidium"
@@ -578,9 +492,10 @@
 			y: 2.8809523809523725d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "3CC5CBB60EB44F77"
 			rewards: [{
-				id: "661D70F53800338D"
+				id: "221EA51294D6265E"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -593,12 +508,8 @@
 			y: 2.87619047619048d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "6718507A1F4D630C"
-			rewards: [{
-				id: "29AAC85A27DB11B1"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "300A4EC883F4CEBB"
 				item: "chemlib:yttrium"
@@ -608,12 +519,8 @@
 			y: 2.8809523809523725d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "140FD5C013A2A2F1"
-			rewards: [{
-				id: "23A405E7C4677F90"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "146226E3D4CF9C74"
 				item: "chemlib:zirconium"
@@ -623,12 +530,8 @@
 			y: 2.904761904761898d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "037891BB4BF69FC5"
-			rewards: [{
-				id: "689878B27A8D6431"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "600D8F603AF4EA4F"
 				item: "chemlib:niobium"
@@ -638,9 +541,10 @@
 			y: 2.8809523809523725d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "7AF22F1D07B891AB"
 			rewards: [{
-				id: "3E34BEEDCAEBB4BB"
+				id: "353C0F80EDC05178"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -653,12 +557,8 @@
 			y: 2.8809523809523796d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "79D6C98DFBE90594"
-			rewards: [{
-				id: "46DF9CBFA516274B"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "1150AB96E3573504"
 				item: "chemlib:technetium"
@@ -668,12 +568,8 @@
 			y: 2.9285714285714235d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "1E0467AF1FD8E0FF"
-			rewards: [{
-				id: "7BCFE4D37F6D3413"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "2ADD8F5783A4580F"
 				item: "chemlib:ruthenium"
@@ -683,12 +579,8 @@
 			y: 2.904761904761891d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "1C2502254877A7B6"
-			rewards: [{
-				id: "74D0BDFAE35526A1"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "6308EB265D5EA213"
 				item: "chemlib:rhodium"
@@ -698,12 +590,8 @@
 			y: 2.904761904761891d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "1CF3911333B75577"
-			rewards: [{
-				id: "6F3F7679A82D04F6"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "0C05327BFADCA76B"
 				item: "chemlib:palladium"
@@ -713,9 +601,10 @@
 			y: 2.904761904761898d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "2BBF0F921C93677C"
 			rewards: [{
-				id: "02F5B2701CE9D455"
+				id: "0B69F1BF2858FFB1"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -728,12 +617,8 @@
 			y: 2.904761904761891d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "1746C0285520F50E"
-			rewards: [{
-				id: "7D9D146247337ECC"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "2707B2A71971100D"
 				item: "chemlib:cadmium"
@@ -743,12 +628,8 @@
 			y: 2.9285714285714093d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "44FC684EA06722CE"
-			rewards: [{
-				id: "7FC71E86F4B2F074"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "15899873CF15EA0B"
 				item: "chemlib:indium"
@@ -758,9 +639,10 @@
 			y: 2.904761904761884d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "170A822531478ED0"
 			rewards: [{
-				id: "7F2A306062CF1582"
+				id: "4F154A271EE4A611"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -773,12 +655,8 @@
 			y: 2.9285714285714093d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "630B7248AE24CD5D"
-			rewards: [{
-				id: "75C26F6261F3CFF2"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "151941886AA6DF25"
 				item: "chemlib:antimony"
@@ -788,12 +666,8 @@
 			y: 2.904761904761884d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "065EEF0602C929E2"
-			rewards: [{
-				id: "236EAA44F6A0AE06"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "55757CB0C32DEE79"
 				item: "chemlib:tellurium"
@@ -803,12 +677,8 @@
 			y: 2.8809523809523583d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "70C7FB765E65C676"
-			rewards: [{
-				id: "7A7F3DBD8D7B0C3A"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "5815ED52C74E7055"
 				item: "chemlib:iodine"
@@ -818,9 +688,10 @@
 			y: 2.9285714285714093d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "5ABB4FB69B4E0714"
 			rewards: [{
-				id: "63A72AE3C26100D3"
+				id: "73A32B8D90D19C67"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -833,12 +704,8 @@
 			y: 2.928571428571395d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "2F7FDD6C85714224"
-			rewards: [{
-				id: "295B6990C4161498"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "677CE874F0562BF0"
 				item: "chemlib:cesium"
@@ -848,9 +715,10 @@
 			y: 4.02380952380949d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "4933446B332A0D6A"
 			rewards: [{
-				id: "0A6D489CF839FD70"
+				id: "70448145F4D5FCB9"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -863,12 +731,8 @@
 			y: 4.02380952380949d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "5195CD67F2252DA7"
-			rewards: [{
-				id: "3839041851AF6EB0"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "3F3DE1B72DB82395"
 				item: "chemlib:hafnium"
@@ -878,12 +742,8 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "210334D7416EC24B"
-			rewards: [{
-				id: "7B8A75326E64DA60"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "6E257737BB65FEEC"
 				item: "chemlib:tantalum"
@@ -893,9 +753,10 @@
 			y: 4.02380952380949d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "4009299A67E88DA3"
 			rewards: [{
-				id: "30EC833D8E708150"
+				id: "518A40BAE23924E8"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -908,12 +769,8 @@
 			y: 4.02380952380949d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "7A2DC219DEE5C4D3"
-			rewards: [{
-				id: "244BEA7C55D9B223"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "1B1528DD5DFB3EB4"
 				item: "chemlib:rhenium"
@@ -923,12 +780,8 @@
 			y: 4.02380952380949d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "27F27FB78F542A23"
-			rewards: [{
-				id: "39470973E62EB9DA"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "00448F9D0F36AA89"
 				item: "chemlib:osmium"
@@ -938,12 +791,8 @@
 			y: 4.011904761904759d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "3AD72467796D8B19"
-			rewards: [{
-				id: "3FF27E0E7E9B3638"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "240205E18EF3E72D"
 				item: "chemlib:iridium"
@@ -953,12 +802,8 @@
 			y: 3.9761904761904745d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "67B7616E271C8F16"
-			rewards: [{
-				id: "6C5279959C45438A"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "7BFFAE5F70179DAA"
 				item: "chemlib:platinum"
@@ -968,9 +813,10 @@
 			y: 3.9761904761904745d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "324FA3ECDC29E576"
 			rewards: [{
-				id: "3473B31FFD970FF0"
+				id: "0979CBCFE2AD7097"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -983,12 +829,8 @@
 			y: 3.9761904761904816d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "4D87AE8CBC78133A"
-			rewards: [{
-				id: "07C3366AF63D78AF"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "71E145573E22DBAA"
 				item: "chemlib:mercury"
@@ -998,12 +840,8 @@
 			y: 3.9761904761904816d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "6D1292181F3C1E64"
-			rewards: [{
-				id: "102D760A38084DC8"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "526C1108559C9D9A"
 				item: "chemlib:thallium"
@@ -1013,9 +851,10 @@
 			y: 3.9761904761904816d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "125245DCED2A7356"
 			rewards: [{
-				id: "3D271AE2AABECEF9"
+				id: "5E271126248F2A74"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -1028,12 +867,8 @@
 			y: 3.9761904761904816d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "44F60895E3404E3C"
-			rewards: [{
-				id: "32E9D3EB60A0D823"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "639D3621EADE1168"
 				item: "chemlib:bismuth"
@@ -1043,12 +878,8 @@
 			y: 3.9761904761904816d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "42CDD3377E875669"
-			rewards: [{
-				id: "3D1DB0A76D4DFE2C"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "3D11533CC2D2A588"
 				item: "chemlib:polonium"
@@ -1058,12 +889,8 @@
 			y: 3.9761904761904816d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "75A69B4DE6552478"
-			rewards: [{
-				id: "1C107031A33D8A64"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "5CDA92BD11D996D7"
 				item: "chemlib:astatine"
@@ -1073,9 +900,10 @@
 			y: 3.9761904761904816d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "0543E475923C7A48"
 			rewards: [{
-				id: "2719636D69779C33"
+				id: "03BFC9B5E6E8762D"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -1088,12 +916,8 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "64A82FDB6B631B2A"
-			rewards: [{
-				id: "0CB62954C8B5595C"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "574D0F7CCE1E4A1C"
 				item: "chemlib:francium"
@@ -1103,9 +927,10 @@
 			y: 5.011904761904759d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "0FFDA2B97E6D4592"
 			rewards: [{
-				id: "678F9965AA1EE2BC"
+				id: "2F35561CA3AAD41B"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -1118,12 +943,8 @@
 			y: 5.083333333333336d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "20FA77A77911F2E3"
-			rewards: [{
-				id: "49212488A8664F3F"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "15D465B7C56162A1"
 				item: "chemlib:rutherfordium"
@@ -1133,12 +954,8 @@
 			y: 5.047619047619051d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "069F33779F975D73"
-			rewards: [{
-				id: "072FF86E2E85421F"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "19916B61B11E627E"
 				item: "chemlib:dubnium"
@@ -1148,9 +965,10 @@
 			y: 5.047619047619051d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "4EF5DD8199F37885"
 			rewards: [{
-				id: "6128484D534E2853"
+				id: "072798D36ECEF365"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -1163,12 +981,8 @@
 			y: 5.047619047619051d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "4AAE3D727AF1D0BB"
-			rewards: [{
-				id: "63A683B8DE2A91C6"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "3929B568EC210228"
 				item: "chemlib:bohrium"
@@ -1178,12 +992,8 @@
 			y: 5.083333333333336d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "475976F9914FA38E"
-			rewards: [{
-				id: "5F07B8281CAA6D76"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "061216F173632946"
 				item: "chemlib:hassium"
@@ -1193,12 +1003,8 @@
 			y: 5.083333333333336d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "158BFF22D51DD98A"
-			rewards: [{
-				id: "0E52538FE98F064A"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "1B865D74AE627E98"
 				item: "chemlib:meitnerium"
@@ -1208,12 +1014,8 @@
 			y: 5.083333333333336d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "65C48DABA2CA88B6"
-			rewards: [{
-				id: "2B0A12ED13CBD932"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "2F4EA89071335D81"
 				item: "chemlib:darmstadtium"
@@ -1223,9 +1025,10 @@
 			y: 5.047619047619051d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "19A58F1CABED9E2B"
 			rewards: [{
-				id: "22ED02099EEDD443"
+				id: "57DE9E19B53671CE"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -1238,12 +1041,8 @@
 			y: 5.083333333333336d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "28EC9473F1937ECF"
-			rewards: [{
-				id: "08F0E0A82A37EA6D"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "2410A3BF8A0F1E1E"
 				item: "chemlib:copernicium"
@@ -1253,12 +1052,8 @@
 			y: 5.083333333333336d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "1A36DF16583D2B61"
-			rewards: [{
-				id: "0402521D4FDC3373"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "68CBD746EACA971E"
 				item: "chemlib:nihonium"
@@ -1268,9 +1063,10 @@
 			y: 5.083333333333336d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "3002801B1554B5E9"
 			rewards: [{
-				id: "1D54F9CCFEFE4D22"
+				id: "3E84280D764A9BCC"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -1283,12 +1079,8 @@
 			y: 5.083333333333343d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "091675454D95B99E"
-			rewards: [{
-				id: "6F9709A81A121AE1"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "209A2F59D0F9AD43"
 				item: "chemlib:moscovium"
@@ -1298,12 +1090,8 @@
 			y: 5.083333333333343d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "5F02FA66B3516192"
-			rewards: [{
-				id: "13EBD115090D5811"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "6C34B1FFB44DEDC8"
 				item: "chemlib:livermorium"
@@ -1313,12 +1101,8 @@
 			y: 5.083333333333343d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "2CBD20EDABDEF2F6"
-			rewards: [{
-				id: "237F117E6E69CC22"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "7D3D64F03BFB7E85"
 				item: "chemlib:tennessine"
@@ -1328,9 +1112,10 @@
 			y: 5.083333333333357d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "770B5A519FC6896D"
 			rewards: [{
-				id: "173A49776BD43A83"
+				id: "20CB362BCA073171"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -1343,12 +1128,8 @@
 			y: 5.083333333333364d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "2BFDA267DB5F32A6"
-			rewards: [{
-				id: "5175FACE627E1DAE"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "5354E6064C2DEF0A"
 				item: "chemlib:lanthanum"
@@ -1358,12 +1139,8 @@
 			y: 6.619047619047656d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "5A26683250B3214B"
-			rewards: [{
-				id: "46C6A39540891845"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "62B71BC77624BD34"
 				item: "chemlib:cerium"
@@ -1373,12 +1150,8 @@
 			y: 6.619047619047663d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "0E634504683BF616"
-			rewards: [{
-				id: "1A7E22875E9FA05C"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "2B1AD0E26A896A3E"
 				item: "chemlib:praseodymium"
@@ -1388,9 +1161,10 @@
 			y: 6.61904761904767d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "28AEAD37FE20E2A7"
 			rewards: [{
-				id: "55BDA3D9D7BB5440"
+				id: "72E31661795BC853"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -1403,12 +1177,8 @@
 			y: 6.619047619047677d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "5FC676E5F8778E5C"
-			rewards: [{
-				id: "00EB944C741523CD"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "7803C9B7CA5C2050"
 				item: "chemlib:promethium"
@@ -1418,12 +1188,8 @@
 			y: 6.619047619047684d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "17DB32F2FA1ED62C"
-			rewards: [{
-				id: "17458B71D2E11FA4"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "6F0E2CCCCF5909FC"
 				item: "chemlib:samarium"
@@ -1433,12 +1199,8 @@
 			y: 6.6190476190476275d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "6489D54F1372F8A2"
-			rewards: [{
-				id: "6808E82810E8135A"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "6851CE559165F1C6"
 				item: "chemlib:europium"
@@ -1448,12 +1210,8 @@
 			y: 6.6190476190476275d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "4DAB4D32FD0C72D4"
-			rewards: [{
-				id: "4FF4C2EB42CE2FFD"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "4A59C889B1B38CC6"
 				item: "chemlib:gadolinium"
@@ -1463,9 +1221,10 @@
 			y: 6.6190476190476275d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "3A1D463F1EBDEAE2"
 			rewards: [{
-				id: "13DE9782840ED1CB"
+				id: "456630320D64B959"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -1478,12 +1237,8 @@
 			y: 6.6190476190476275d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "31713589DCCD0B28"
-			rewards: [{
-				id: "5EBBDF8CE48C8094"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "67420378EFF28BC5"
 				item: "chemlib:dysprosium"
@@ -1493,12 +1248,8 @@
 			y: 6.6190476190476275d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "62A1464C0DFED9C1"
-			rewards: [{
-				id: "6760DDBC8A0500E7"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "3C8E10AD14773C92"
 				item: "chemlib:holmium"
@@ -1508,9 +1259,10 @@
 			y: 6.6190476190476275d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "6C8BDD325D0BA0B3"
 			rewards: [{
-				id: "095C9792EEB2DC19"
+				id: "254620A9E7484B91"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -1523,12 +1275,8 @@
 			y: 6.61904761904762d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "7FDF49098E6C2598"
-			rewards: [{
-				id: "7DAFD0A89E1C15A5"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "02A43B6AA26C1E47"
 				item: "chemlib:thulium"
@@ -1538,12 +1286,8 @@
 			y: 6.6190476190476275d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "00F0C095FB4AEDF3"
-			rewards: [{
-				id: "00713F47AF1F758D"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "27F5D22CC712B85D"
 				item: "chemlib:ytterbium"
@@ -1553,12 +1297,8 @@
 			y: 6.61904761904762d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "70E7C3BBD28808A6"
-			rewards: [{
-				id: "263393D773A146A2"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "6180577E8A1E1752"
 				item: "chemlib:lutetium"
@@ -1568,12 +1308,8 @@
 			y: 6.6190476190476275d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "06D2DD44566895E2"
-			rewards: [{
-				id: "2800FE2587D784D6"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "7259D63F6305CFF8"
 				item: "chemlib:actinium"
@@ -1583,12 +1319,8 @@
 			y: 7.726190476190482d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "360FD5646855D255"
-			rewards: [{
-				id: "02E186144A333E4C"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "059C6C65B575F792"
 				item: "chemlib:thorium"
@@ -1598,12 +1330,8 @@
 			y: 7.726190476190482d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "64DC758B15178101"
-			rewards: [{
-				id: "2741E180F6DD21A1"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "4BCECF48A6A27C75"
 				item: "chemlib:protactinium"
@@ -1613,9 +1341,10 @@
 			y: 7.726190476190482d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "6374AF4A27B9AB86"
 			rewards: [{
-				id: "4E34DF0EC4433614"
+				id: "1B15E3C951415B57"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -1628,12 +1357,8 @@
 			y: 7.7261904761904745d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "368035D384132972"
-			rewards: [{
-				id: "6AF49F6BE9B308FB"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "2422F0DC3062FAF6"
 				item: "chemlib:neptunium"
@@ -1643,12 +1368,8 @@
 			y: 7.7261904761904745d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "7405770044D4A157"
-			rewards: [{
-				id: "02B9B57D20CEC308"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "67CFABFB2C3A39E1"
 				item: "chemlib:plutonium"
@@ -1658,12 +1379,8 @@
 			y: 7.7261904761904745d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "1DB99F468912C180"
-			rewards: [{
-				id: "0C5DCA13B52CC15A"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "5D41B926161BDC4E"
 				item: "chemlib:americium"
@@ -1673,12 +1390,8 @@
 			y: 7.7261904761904745d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "1432504F9292D2E4"
-			rewards: [{
-				id: "6B01041E494A298D"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "1AD8ED3D4E02FA0B"
 				item: "chemlib:curium"
@@ -1688,9 +1401,10 @@
 			y: 7.726190476190482d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "78212D1695D0B3DC"
 			rewards: [{
-				id: "763B40F6EA5B92C8"
+				id: "0D7CFEA80185C546"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -1703,12 +1417,8 @@
 			y: 7.726190476190482d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "6113AFCBF3879F62"
-			rewards: [{
-				id: "2F597B9BA60DE066"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "74DC25948B588C9A"
 				item: "chemlib:californium"
@@ -1718,12 +1428,8 @@
 			y: 7.7261904761904745d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "6F75AF1584661498"
-			rewards: [{
-				id: "2DEE8F24C939D3E8"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "13C05F0DB448377D"
 				item: "chemlib:einsteinium"
@@ -1733,9 +1439,10 @@
 			y: 7.738095238095234d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "794EEE86EC66AB50"
 			rewards: [{
-				id: "2F5E91BD6115F299"
+				id: "503B37CB6C7C4A47"
 				item: "kubejs:end_lootbag_uncommon"
 				type: "item"
 			}]
@@ -1748,12 +1455,8 @@
 			y: 7.785714285714278d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "2D19E8BCB6B81551"
-			rewards: [{
-				id: "324909569E41C4BF"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "5CB174A5ABC9B247"
 				item: "chemlib:mendelevium"
@@ -1763,12 +1466,8 @@
 			y: 7.785714285714285d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "20BE5B7652468FF9"
-			rewards: [{
-				id: "6671B531D3A1886E"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "46D2F13040274F54"
 				item: "chemlib:nobelium"
@@ -1778,12 +1477,8 @@
 			y: 7.785714285714278d
 		}
 		{
+			dependencies: ["2E407CD925C6F3EF"]
 			id: "6A3C6DF99EAFF9BD"
-			rewards: [{
-				id: "1FFA4645237169E8"
-				item: "kubejs:end_lootbag_uncommon"
-				type: "item"
-			}]
 			tasks: [{
 				id: "4EB965D1DE04AD10"
 				item: "chemlib:lawrencium"
@@ -1793,5 +1488,5 @@
 			y: 7.761904761904759d
 		}
 	]
-	title: "&7Химические элементы"
+	title: "&7Chemical elements"
 }

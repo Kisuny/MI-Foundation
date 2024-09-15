@@ -59,12 +59,12 @@
       "nbt": {
         "Health": 40,
         "Attributes":[
-          {"Name":"generic.max_health","Base":40}, 
-          {"Name":"generic.attack_damage","Base":8}, 
+          {"Name":"generic.max_health","Base":40},
+          {"Name":"generic.attack_damage","Base":8},
           {"Name":"generic.movement_speed","Base":0.6},
           {"Name":"generic.armor","Base":4}
         ],
-        "CustomName":"{\"text\":\"Адский пёс\",\"color\":\"blue\"}",
+        "CustomName":"{\"text\":\"Hellhound\",\"color\":\"blue\"}",
         "ActiveEffects":[{"Id":13,"Duration":10000,"ShowParticles":"0b"}, {"Id":30,"Duration":10000,"ShowParticles":"0b"}],
         "DeathLootTable":"kubejs:mobs/hellhound"
       }
@@ -72,15 +72,15 @@
     {
       "id": "adventurez:piglin_beast",
       "weight": 2,
-      "nbt": {  
+      "nbt": {
         "Health": 250,
         "Attributes":[
-          {"Name":"generic.max_health","Base":250}, 
-          {"Name":"generic.attack_damage","Base":14}, 
+          {"Name":"generic.max_health","Base":250},
+          {"Name":"generic.attack_damage","Base":14},
           {"Name":"generic.movement_speed","Base":0.7},
           {"Name":"generic.armor","Base":22}
         ],
-        "CustomName":"{\"text\":\"Красная плесень\",\"color\":\"gold\"}",  
+        "CustomName":"{\"text\":\"Red mold\",\"color\":\"gold\"}",
         "ActiveEffects":[{"Id":13,"Duration":10000,"ShowParticles":"0b"},{"Id":12,"Duration":10000,"ShowParticles":"0b"},{"Id":30,"Duration":100000,"ShowParticles":"0b"}],
         "DeathLootTable":"kubejs:mobs/red_mould"
       }
@@ -88,15 +88,15 @@
     {
       "id": "adventurez:necromancer",
       "weight": 2,
-      "nbt": {  
+      "nbt": {
         "Health": 250,
         "Attributes":[
-          {"Name":"generic.max_health","Base":250}, 
-          {"Name":"generic.attack_damage","Base":40}, 
+          {"Name":"generic.max_health","Base":250},
+          {"Name":"generic.attack_damage","Base":40},
           {"Name":"generic.movement_speed","Base":0.8},
           {"Name":"generic.armor","Base":12}
         ],
-        "CustomName":"{\"text\":\"Проклятая мерзость\",\"color\":\"gold\"}",  
+        "CustomName":"{\"text\":\"Cursed abomination\",\"color\":\"gold\"}",
         "ActiveEffects":[{"Id":13,"Duration":10000,"ShowParticles":"0b"},{"Id":12,"Duration":10000,"ShowParticles":"0b"},{"Id":30,"Duration":100000,"ShowParticles":"0b"}],
         "DeathLootTable":"kubejs:mobs/cursed_muck"
       }
@@ -104,15 +104,15 @@
     {
       "id": "adventurez:summoner",
       "weight": 1,
-      "nbt": {  
+      "nbt": {
         "Health": 666,
         "Attributes":[
-          {"Name":"generic.max_health","Base":666}, 
-          {"Name":"generic.attack_damage","Base":12}, 
+          {"Name":"generic.max_health","Base":666},
+          {"Name":"generic.attack_damage","Base":12},
           {"Name":"generic.movement_speed","Base":0.8},
           {"Name":"generic.armor","Base":6}
         ],
-        "CustomName":"{\"text\":\"Багровая плоть\",\"color\":\"light_purple\"}",  
+        "CustomName":"{\"text\":\"Crimson flesh\",\"color\":\"light_purple\"}",
         "ActiveEffects":[{"Id":13,"Duration":10000,"ShowParticles":"0b"},{"Id":12,"Duration":10000,"ShowParticles":"0b"},{"Id":30,"Duration":100000,"ShowParticles":"0b"}],
         "DeathLootTable":"kubejs:mobs/crimson_flesh"
       }

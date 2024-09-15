@@ -1,5 +1,5 @@
 {
-	name: "Магия"
+	name: "Magic"
 	item: "spectrum:seven_league_boots"
 	orders: [
 		{
@@ -185,7 +185,7 @@
 		{
 			id: 20
 			price: 10000L
-			name: "16х Мистических цветов"
+			name: "Mystical flowers"
 			questId: "70C75CC5CB1EED26"
 			item: "botania:white_mystical_flower"
 			rewardTableId: "164C1CA4D37CEA4C"
