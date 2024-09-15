@@ -21,11 +21,6 @@
 					type: "item"
 				}
 				{
-					id: "1F01F377E5477F46"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
-				{
 					id: "0663534970008843"
 					item: "kubejs:mid_lootbag_epic"
 					type: "item"
@@ -141,7 +136,7 @@
 			dependency_requirement: "one_completed"
 			id: "4CD1A1513BB61B58"
 			rewards: [{
-				count: 32
+				count: 8
 				id: "04CF0D0203C79DC7"
 				item: "modern_industrialization:stainless_steel_dust"
 				type: "item"
@@ -162,25 +157,25 @@
 			id: "6B4332CD6E294B8B"
 			rewards: [
 				{
-					count: 16
+					count: 2
 					id: "016723E1B3105C7E"
 					item: "modern_industrialization:stainless_steel_gear"
 					type: "item"
 				}
 				{
-					count: 16
+					count: 2
 					id: "25F3EF6A6C5A9167"
 					item: "modern_industrialization:stainless_steel_curved_plate"
 					type: "item"
 				}
 				{
-					count: 16
+					count: 2
 					id: "08F707835A7C7794"
 					item: "modern_industrialization:stainless_steel_rod"
 					type: "item"
 				}
 				{
-					count: 16
+					count: 2
 					id: "739F4185D5544F5F"
 					item: "modern_industrialization:stainless_steel_rotor"
 					type: "item"
@@ -216,7 +211,7 @@
 			dependencies: ["6B4332CD6E294B8B"]
 			id: "39655A9986F3073E"
 			rewards: [{
-				count: 32
+				count: 8
 				id: "14753EFBD11B35F3"
 				item: "modern_industrialization:stainless_steel_ingot"
 				type: "item"
@@ -233,7 +228,7 @@
 			dependencies: ["6B4332CD6E294B8B"]
 			id: "2CCFC53DC75EA75E"
 			rewards: [{
-				count: 32
+				count: 8
 				id: "4FB6062F720E7507"
 				item: "modern_industrialization:stainless_steel_ingot"
 				type: "item"
@@ -250,7 +245,6 @@
 			dependencies: ["6B4332CD6E294B8B"]
 			id: "340CA346E0BD9FEC"
 			rewards: [{
-				count: 4
 				id: "53C98CAAA0D9E6B6"
 				item: "modern_industrialization:clean_stainless_steel_machine_casing"
 				type: "item"
@@ -343,19 +337,17 @@
 			id: "5B7899670D00F4B0"
 			rewards: [
 				{
-					count: 4
 					id: "613AA17ABB91A31E"
 					item: "modern_industrialization:digital_circuit_board"
 					type: "item"
 				}
 				{
-					count: 4
 					id: "5E44E0ACB26333B5"
 					item: "modern_industrialization:aluminum_block"
 					type: "item"
 				}
 				{
-					count: 16
+					count: 4
 					id: "439BEEB9A5FEB4BC"
 					item: "modern_industrialization:silicon_battery"
 					type: "item"
@@ -375,37 +367,37 @@
 			id: "0379CDF7FB133E48"
 			rewards: [
 				{
-					count: 4
+					count: 2
 					id: "0A3F6A94B4AF872F"
 					item: "modern_industrialization:digital_circuit"
 					type: "item"
 				}
 				{
-					count: 10
+					count: 2
 					id: "3AE16F1D0D10D49B"
 					item: "modern_industrialization:electronic_circuit"
 					type: "item"
 				}
 				{
-					count: 32
+					count: 4
 					id: "081BA7E9705AACE7"
 					item: "modern_industrialization:and_gate"
 					type: "item"
 				}
 				{
-					count: 32
+					count: 4
 					id: "18FEEA7109D5359D"
 					item: "modern_industrialization:or_gate"
 					type: "item"
 				}
 				{
-					count: 32
+					count: 4
 					id: "1794959FBF101D12"
 					item: "modern_industrialization:not_gate"
 					type: "item"
 				}
 				{
-					count: 8
+					count: 2
 					id: "51A60CF5848C3914"
 					item: "modern_industrialization:digital_circuit_board"
 					type: "item"
@@ -425,13 +417,11 @@
 			id: "0FE22B84D5E55D28"
 			rewards: [
 				{
-					count: 8
 					id: "10C4D1D7979BF16C"
 					item: "modern_industrialization:advanced_motor"
 					type: "item"
 				}
 				{
-					count: 4
 					id: "6417DEC881C37CA4"
 					item: "modern_industrialization:advanced_pump"
 					type: "item"
@@ -463,13 +453,7 @@
 			id: "688C8EAA350A89AF"
 			rewards: [
 				{
-					count: 4
-					id: "29B18C5AC816A1F6"
-					item: "modern_industrialization:advanced_pump"
-					type: "item"
-				}
-				{
-					count: 4
+					count: 2
 					id: "6912CD74AC626F1A"
 					item: "modern_industrialization:clean_stainless_steel_machine_casing"
 					type: "item"
@@ -640,7 +624,7 @@
 			dependencies: ["0379CDF7FB133E48"]
 			id: "431BB5502210CF78"
 			rewards: [{
-				count: 16
+				count: 4
 				id: "745E62CB2D6F82EF"
 				item: "modern_industrialization:stainless_steel_drill"
 				type: "item"
@@ -658,7 +642,7 @@
 			id: "71550D368E4362C7"
 			rewards: [
 				{
-					count: 128
+					count: 16
 					id: "5EA2C6F5256BAD9E"
 					item: "modern_industrialization:titanium_dust"
 					type: "item"
@@ -682,13 +666,13 @@
 			id: "441E0F5AF148258C"
 			rewards: [
 				{
-					count: 128
+					count: 16
 					id: "49543AD5CE0D7922"
 					item: "modern_industrialization:molybdenite_dust"
 					type: "item"
 				}
 				{
-					count: 128
+					count: 16
 					id: "7A42D103B9C4171E"
 					item: "modern_industrialization:vanadinite_dust"
 					type: "item"
@@ -719,7 +703,7 @@
 			id: "03AF131BA5F924D0"
 			rewards: [
 				{
-					count: 32
+					count: 8
 					id: "4B9A51B6565F2912"
 					item: "modern_industrialization:hsla_steel_dust"
 					type: "item"
@@ -742,7 +726,7 @@
 			dependencies: ["03AF131BA5F924D0"]
 			id: "4CD35DB302DC4F9C"
 			rewards: [{
-				count: 32
+				count: 4
 				id: "78399A5633A00454"
 				item: "modern_industrialization:hsla_steel_ingot"
 				type: "item"
@@ -758,20 +742,12 @@
 		{
 			dependencies: ["4CD35DB302DC4F9C"]
 			id: "7E939C0B46A2C577"
-			rewards: [
-				{
-					count: 4
-					id: "2B3662EDE7E72D19"
-					item: "modern_industrialization:space_casing"
-					type: "item"
-				}
-				{
-					count: 32
-					id: "74F0946535B2F77D"
-					item: "modern_industrialization:hsla_steel_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "2B3662EDE7E72D19"
+				item: "modern_industrialization:space_casing"
+				type: "item"
+			}]
 			tasks: [{
 				id: "40B8A44128A47DBE"
 				item: "modern_industrialization:space_casing"
@@ -786,7 +762,7 @@
 			id: "1F638DD351D1E82E"
 			rewards: [
 				{
-					count: 32
+					count: 8
 					id: "25B409A6459D3015"
 					item: "modern_industrialization:hsla_steel_ingot"
 					type: "item"
@@ -821,7 +797,7 @@
 			dependencies: ["71550D368E4362C7"]
 			id: "6108541433D56AEA"
 			rewards: [{
-				count: 32
+				count: 8
 				id: "4717876BEA3EEB37"
 				item: "modern_industrialization:titanium_ingot"
 				type: "item"
@@ -838,7 +814,7 @@
 			dependencies: ["6108541433D56AEA"]
 			id: "7EB99AF5CBB5ED87"
 			rewards: [{
-				count: 32
+				count: 8
 				id: "0F36448DA4EC9A68"
 				item: "modern_industrialization:titanium_ingot"
 				type: "item"
@@ -855,7 +831,7 @@
 			dependencies: ["6108541433D56AEA"]
 			id: "01A3EC40901165C2"
 			rewards: [{
-				count: 32
+				count: 8
 				id: "20E895C3E5B29B8E"
 				item: "modern_industrialization:titanium_ingot"
 				type: "item"
@@ -872,7 +848,7 @@
 			dependencies: ["6108541433D56AEA"]
 			id: "2160BE97922C6B0B"
 			rewards: [{
-				count: 32
+				count: 8
 				id: "305828249582981F"
 				item: "modern_industrialization:titanium_ingot"
 				type: "item"
@@ -889,7 +865,7 @@
 			dependencies: ["71550D368E4362C7"]
 			id: "65725E1153193588"
 			rewards: [{
-				count: 32
+				count: 4
 				id: "264AB95BCA74C05E"
 				item: "modern_industrialization:mixed_ingot_blastproof"
 				type: "item"
@@ -918,17 +894,6 @@
 					type: "item"
 				}
 				{
-					count: 2
-					id: "4C02E6D119096DED"
-					item: "modern_industrialization:advanced_motor"
-					type: "item"
-				}
-				{
-					id: "1698D30D16D59E95"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
-				{
 					count: 3
 					id: "5CBEEF7BA8C17E11"
 					item: "kubejs:mob_lootbag_epic"
@@ -940,7 +905,6 @@
 					type: "item"
 				}
 				{
-					count: 8
 					id: "3E73BB954882A414"
 					item: "modern_industrialization:tungsten_block"
 					type: "item"
@@ -960,7 +924,7 @@
 			id: "4626E3D01CBD6DCC"
 			rewards: [
 				{
-					count: 128
+					count: 16
 					id: "233BEA9AEC76291A"
 					item: "modern_industrialization:compactium_dust"
 					type: "item"
@@ -995,18 +959,6 @@
 					type: "item"
 				}
 				{
-					count: 2
-					id: "6C55F1530E4A9618"
-					item: "modern_industrialization:advanced_pump"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "1937082C9BB57597"
-					item: "modern_industrialization:titanium_rotor"
-					type: "item"
-				}
-				{
 					id: "6E050C3519271BDA"
 					item: "kubejs:mid_lootbag_epic"
 					type: "item"
@@ -1035,11 +987,6 @@
 				{
 					id: "194850D43901D485"
 					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
-				{
-					id: "576631822BEAD994"
-					item: "modern_industrialization:turbo_machine_hull"
 					type: "item"
 				}
 				{
@@ -1200,18 +1147,6 @@
 					type: "item"
 				}
 				{
-					count: 2
-					id: "5A61125BB87D4D56"
-					item: "modern_industrialization:advanced_pump"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "1554DAE8361687A1"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
-				{
 					count: 3
 					id: "231E888DEC71D129"
 					item: "kubejs:mob_lootbag_epic"
@@ -1292,7 +1227,7 @@
 			id: "4C41230896761037"
 			rewards: [{
 				id: "61508F93572BC0B4"
-				item: "ae2:cell_component_16k"
+				item: "ae2:cell_component_4k"
 				type: "item"
 			}]
 			tasks: [{
@@ -1308,7 +1243,7 @@
 			id: "1935EE9A88785FCD"
 			rewards: [{
 				id: "5C29DAD8C7E2CB1F"
-				item: "ae2:cell_component_64k"
+				item: "ae2:cell_component_16k"
 				type: "item"
 			}]
 			tasks: [{
@@ -1324,7 +1259,7 @@
 			description: ["&4Добавляет возможность&r распределения доступов конкретным игрокам к &9МЭ&r системе, &6есть базовый пользователь&r для всех ненастроенных игроков. Игрок, &4установивший данный блок&r становится владельцем сети"]
 			id: "50BBF5DA3EB28CF2"
 			rewards: [{
-				count: 64
+				count: 8
 				id: "35C9206AF0EDFCE7"
 				item: "ae2:fluix_smart_cable"
 				type: "item"
@@ -1364,13 +1299,13 @@
 			id: "07F8BDD4D1DAC910"
 			rewards: [
 				{
-					count: 32
+					count: 8
 					id: "28D3F07EDC308AD3"
 					item: "modern_industrialization:beryllium_ingot"
 					type: "item"
 				}
 				{
-					count: 32
+					count: 8
 					id: "4A09D320DF62CD88"
 					item: "modern_industrialization:platinum_ingot"
 					type: "item"
@@ -1495,13 +1430,13 @@
 			id: "1A930173D3C4A83E"
 			rewards: [
 				{
-					count: 32
+					count: 8
 					id: "085A6AAA0CD3F49D"
 					item: "modern_industrialization:platinum_ingot"
 					type: "item"
 				}
 				{
-					count: 32
+					count: 8
 					id: "23B2490530FEF750"
 					item: "neepmeat:meat_steel_ingot"
 					type: "item"
@@ -1520,7 +1455,7 @@
 			dependencies: ["4FBAAC0E7CD87100"]
 			id: "58DC31CC3D243DCD"
 			rewards: [{
-				count: 32
+				count: 4
 				id: "0BB98C136974F9F9"
 				item: "neepmeat:meat_steel_ingot"
 				type: "item"
@@ -1609,13 +1544,13 @@
 			id: "737AFCC9E50FBD22"
 			rewards: [
 				{
-					count: 8
+					count: 2
 					id: "5613CF6A151622CC"
 					item: "kubejs:mob_lootbag_uncommon"
 					type: "item"
 				}
 				{
-					count: 32
+					count: 4
 					id: "127691D5351066E6"
 					item: "neepmeat:meat_steel_ingot"
 					type: "item"
@@ -1642,20 +1577,12 @@
 				"В полтора раза эффективнее чем использовать эфирное топливо напрямую."
 			]
 			id: "38487E2DC48E7C16"
-			rewards: [
-				{
-					count: 2
-					id: "4E35080EBE2F87C8"
-					item: "modern_industrialization:advanced_pump"
-					type: "item"
-				}
-				{
-					count: 32
-					id: "007A09DA5EE99736"
-					item: "neepmeat:meat_steel_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "007A09DA5EE99736"
+				item: "neepmeat:meat_steel_ingot"
+				type: "item"
+			}]
 			subtitle: "Чистосердечное питание"
 			tasks: [{
 				id: "022A7A01CE711DAE"
@@ -1681,13 +1608,13 @@
 					type: "item"
 				}
 				{
-					count: 32
+					count: 4
 					id: "1CDF97436B257361"
 					item: "modern_industrialization:yttrium_plate"
 					type: "item"
 				}
 				{
-					count: 32
+					count: 4
 					id: "288938E384DC5283"
 					item: "ae2:fluix_glass_cable"
 					type: "item"
@@ -1743,7 +1670,7 @@
 			description: ["Свойства эфирного топлива усложняют его транспортировку и логистику. Благо мы можем ограничить количество энергии которая перемещается вдоль сосудов."]
 			id: "521DEB338D15FE74"
 			rewards: [{
-				count: 32
+				count: 4
 				id: "31368650CACB515A"
 				item: "neepmeat:meat_steel_ingot"
 				type: "item"
@@ -1763,13 +1690,13 @@
 			id: "0E60F47278A87F09"
 			rewards: [
 				{
-					count: 64
+					count: 8
 					id: "42557BDD6A23C86B"
 					item: "ae2:fluix_smart_cable"
 					type: "item"
 				}
 				{
-					count: 24
+					count: 8
 					id: "6BCC445B09557AB2"
 					item: "ae2:fluix_smart_dense_cable"
 					type: "item"
@@ -1787,20 +1714,12 @@
 			dependencies: ["09E537E574ED829F"]
 			description: ["Улучшенная версия мотора. Используя, преобразованное внутри сосудистой системы, эфирное топливо мы можем достичь больших оборотов."]
 			id: "35910005C3917324"
-			rewards: [
-				{
-					count: 2
-					id: "3BE231B7F9873DFB"
-					item: "modern_industrialization:large_advanced_motor"
-					type: "item"
-				}
-				{
-					count: 32
-					id: "0DA8FD03619A3DED"
-					item: "neepmeat:meat_steel_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "0DA8FD03619A3DED"
+				item: "neepmeat:meat_steel_ingot"
+				type: "item"
+			}]
 			subtitle: "0.2 ротоМ"
 			tasks: [{
 				id: "2C998EE7502661C7"
@@ -1815,7 +1734,7 @@
 			description: ["Поместив достаточно много биомассы в контейнер, можно заметить как она преобразовывается под действием &o просветления"]
 			id: "50BBE26EED91D3A6"
 			rewards: [{
-				count: 32
+				count: 4
 				id: "1B64F4F0C6B23C00"
 				item: "neepmeat:meat_steel_ingot"
 				type: "item"
@@ -1841,7 +1760,7 @@
 					type: "item"
 				}
 				{
-					count: 32
+					count: 4
 					id: "4E21D3704A9AC79A"
 					item: "neepmeat:meat_steel_ingot"
 					type: "item"
@@ -1953,12 +1872,6 @@
 					type: "item"
 				}
 				{
-					count: 4
-					id: "09B563EBBE6918F3"
-					item: "kubejs:mob_lootbag_uncommon"
-					type: "item"
-				}
-				{
 					count: 3
 					id: "01C3FAB907352F04"
 					item: "neepmeat:enlightened_brain"
@@ -1997,12 +1910,6 @@
 					item: "neepmeat:enlightened_brain"
 					type: "item"
 				}
-				{
-					count: 32
-					id: "419FE7BB806E6ED6"
-					item: "neepmeat:meat_steel_ingot"
-					type: "item"
-				}
 			]
 			subtitle: "Ставитель"
 			tasks: [{
@@ -2028,12 +1935,6 @@
 					count: 3
 					id: "141DDEAAFA8AE2F6"
 					item: "neepmeat:enlightened_brain"
-					type: "item"
-				}
-				{
-					count: 32
-					id: "2BFBCCAFA37E12AC"
-					item: "neepmeat:meat_steel_ingot"
 					type: "item"
 				}
 			]
@@ -2069,7 +1970,7 @@
 					type: "item"
 				}
 				{
-					count: 32
+					count: 4
 					id: "1DE87DA10EC96FB2"
 					item: "neepmeat:meat_steel_ingot"
 					type: "item"
@@ -2101,12 +2002,6 @@
 					item: "neepmeat:enlightened_brain"
 					type: "item"
 				}
-				{
-					count: 32
-					id: "2BCBB720C9DBFC1F"
-					item: "neepmeat:meat_steel_ingot"
-					type: "item"
-				}
 			]
 			subtitle: "Мясорезка"
 			tasks: [{
@@ -2136,12 +2031,6 @@
 					count: 3
 					id: "1A4C353A2A7B09A9"
 					item: "neepmeat:enlightened_brain"
-					type: "item"
-				}
-				{
-					count: 32
-					id: "532A6DCC7A478730"
-					item: "neepmeat:meat_steel_ingot"
 					type: "item"
 				}
 			]
@@ -2272,13 +2161,12 @@
 			id: "5C9A9AA5FC26479D"
 			rewards: [
 				{
-					count: 4
 					id: "57FD3509BE938F6E"
 					item: "ae2:molecular_assembler"
 					type: "item"
 				}
 				{
-					count: 8
+					count: 4
 					id: "05147FD7AE651ADB"
 					item: "ae2:speed_card"
 					type: "item"
@@ -2438,7 +2326,7 @@
 			id: "0E9BAF8C0927C467"
 			rewards: [
 				{
-					count: 16
+					count: 2
 					id: "7C76A6344B262395"
 					item: "minecraft:netherite_ingot"
 					type: "item"
@@ -2480,7 +2368,7 @@
 					type: "item"
 				}
 				{
-					count: 16
+					count: 2
 					id: "72165520EE90DF29"
 					item: "neepmeat:internal_components"
 					type: "item"
@@ -2499,7 +2387,7 @@
 			description: ["Более дорогой вариант обшивки. Обладает самопочинкой и имеет рабочую мощность в 500eJ/t"]
 			id: "776196BD93CCF25E"
 			rewards: [{
-				count: 32
+				count: 4
 				id: "54EA43C06942FB2F"
 				item: "neepmeat:meat_steel_ingot"
 				type: "item"
@@ -2518,21 +2406,9 @@
 			id: "5AECFFE1CF4FB438"
 			rewards: [
 				{
-					count: 16
+					count: 4
 					id: "01B468FB73374CC0"
 					item: "neepmeat:internal_components"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "384A56501DC5FDD6"
-					item: "modern_industrialization:electronic_circuit"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "3C0EAE45CA8CA1D9"
-					item: "modern_industrialization:large_motor"
 					type: "item"
 				}
 				{
@@ -2584,31 +2460,11 @@
 				"Каждый сегмент дробления обрабатывает рецепт независимо. Возможно иметь максимум 4 сегмента дробления."
 			]
 			id: "76E64D23DFB242E0"
-			rewards: [
-				{
-					id: "74008F729513A2CE"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
-				{
-					count: 8
-					id: "6209D051570E7B4B"
-					item: "modern_industrialization:large_motor"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "05A2F5ADE8D6E32B"
-					item: "modern_industrialization:large_advanced_pump"
-					type: "item"
-				}
-				{
-					count: 32
-					id: "1A4DF033C32CA13F"
-					item: "neepmeat:meat_steel_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "74008F729513A2CE"
+				item: "modern_industrialization:digital_circuit"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -2623,19 +2479,11 @@
 			dependencies: ["5AECFFE1CF4FB438"]
 			description: ["Является шлюзом ввода предметов. Имеет достаточно большой буфер."]
 			id: "3C7C6D7DEA759A0B"
-			rewards: [
-				{
-					id: "7CEB35F698DD24E0"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
-				{
-					count: 32
-					id: "0FA2DA4AABB5FDCF"
-					item: "neepmeat:meat_steel_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7CEB35F698DD24E0"
+				item: "modern_industrialization:digital_circuit"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -2668,20 +2516,12 @@
 			dependencies: ["656A8F24885D0586"]
 			description: ["Шлюз подачи интеграционной жидкости. Благодаря своим свойствам интеграционная жидкость заполняет микроповреждения механизмов и является основным вариантом починки."]
 			id: "1E334606A5A4E9BA"
-			rewards: [
-				{
-					count: 4
-					id: "1D1C3E7BD8469AB4"
-					item: "modern_industrialization:advanced_pump"
-					type: "item"
-				}
-				{
-					count: 32
-					id: "24D29FA3F17FDFC3"
-					item: "neepmeat:meat_steel_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "24D29FA3F17FDFC3"
+				item: "neepmeat:meat_steel_ingot"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5F065AC39245EB37"
 				item: "neepmeat:integration_port"
@@ -2694,36 +2534,11 @@
 			dependencies: ["5AECFFE1CF4FB438"]
 			description: ["Рудный жир поддаётся очистке что позволяет увеличить выход ресурса при отжиме."]
 			id: "1EE8E48D73EC7DB2"
-			rewards: [
-				{
-					id: "3AE0B49CC39D56AB"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
-				{
-					count: 32
-					id: "2C9D83C4F60FA49C"
-					item: "neepmeat:meat_steel_ingot"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "7507566BD60FBA7D"
-					item: "modern_industrialization:large_advanced_pump"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "272909B117BECF80"
-					item: "modern_industrialization:advanced_pump"
-					type: "item"
-				}
-				{
-					id: "08EDBD29D9432A28"
-					item: "modern_industrialization:large_heat_exchanger"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3AE0B49CC39D56AB"
+				item: "modern_industrialization:digital_circuit"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -2739,7 +2554,7 @@
 			description: ["Поймайте свою первую пчелу"]
 			id: "5C6AB70C0237BBBD"
 			rewards: [{
-				count: 6
+				count: 2
 				id: "6E14B544D076EB58"
 				item: "kubejs:bee"
 				type: "item"
@@ -2757,7 +2572,7 @@
 			description: ["Возможно расположить до 4 сборщиков жира возле басейна для вытапливания."]
 			id: "51B900631774C8B5"
 			rewards: [{
-				count: 32
+				count: 4
 				id: "4D24A29A48B79BD8"
 				item: "neepmeat:meat_steel_ingot"
 				type: "item"
@@ -2775,7 +2590,7 @@
 			description: ["Рудные жиры в дальнейшем должны быть выжаты с помощью гидравлического пресса."]
 			id: "5F3E413D1F14F4C6"
 			rewards: [{
-				count: 32
+				count: 4
 				id: "198F2D32D50C693C"
 				item: "neepmeat:meat_steel_ingot"
 				type: "item"
@@ -2792,20 +2607,12 @@
 			dependencies: ["5F3E413D1F14F4C6"]
 			description: ["Для работы гидравлический пресс необходимо расположить над прессовочной ванной и пропустить через гидравлический пресс воду. Гидравлический пресс не требует энергии для работы. Простейший вариант установки может быть реализован с помощью продвинутых жидкостных труб."]
 			id: "363F2AAA146837D5"
-			rewards: [
-				{
-					count: 8
-					id: "0162D602F5740AF7"
-					item: "modern_industrialization:piston"
-					type: "item"
-				}
-				{
-					count: 8
-					id: "110694CEA3DCA60E"
-					item: "modern_industrialization:large_pump"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "110694CEA3DCA60E"
+				item: "modern_industrialization:large_pump"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2DD444FFE4E4FA0C"
 				item: "neepmeat:hydraulic_press"
@@ -2819,7 +2626,7 @@
 			description: ["Свойства древних энзимов, синтезированных из просвещённого картофеля, позволяют расстворить металлы и пигменты из рабочего субстрата. Достаточно поместить руду либо листву в бассейн для вытапливания, предварительно поставив рядом сборщик жира, и подать расствор энзимов."]
 			id: "00E542C1616A1D06"
 			rewards: [{
-				count: 32
+				count: 4
 				id: "053A15615BE422FE"
 				item: "neepmeat:meat_steel_ingot"
 				type: "item"
@@ -2870,7 +2677,6 @@
 			hide_dependent_lines: true
 			id: "5C0E818F2F086E7F"
 			rewards: [{
-				count: 4
 				id: "1F33290361B1F105"
 				item: "ae2:import_bus"
 				type: "item"
@@ -2893,7 +2699,6 @@
 			hide_dependent_lines: true
 			id: "7F40B9DCBD6A7764"
 			rewards: [{
-				count: 4
 				id: "1F666BA3F524CD03"
 				item: "ae2:export_bus"
 				type: "item"
@@ -2915,7 +2720,6 @@
 			description: ["Делает &6блок,&r &4на который установлена&r, &6хранилищем&r доступным &9МЭ&r сети, с помощью данной шины можно отдельно хранить &4конкретный&r тип ресурса в стороннем блоке. Например железо в бочке или пар в большой цистерне"]
 			id: "78CAA53FF8977E02"
 			rewards: [{
-				count: 4
 				id: "5609F766F872A249"
 				item: "ae2:storage_bus"
 				type: "item"
@@ -2934,19 +2738,17 @@
 			id: "1CE78A14F8C9BB51"
 			rewards: [
 				{
-					count: 16
+					count: 4
 					id: "7453565D90981070"
 					item: "ae2:fluix_glass_cable"
 					type: "item"
 				}
 				{
-					count: 4
 					id: "4D573A8F1F8D9D8D"
 					item: "ae2:formation_core"
 					type: "item"
 				}
 				{
-					count: 4
 					id: "7E56C5E0AC7C2B04"
 					item: "ae2:annihilation_core"
 					type: "item"
@@ -2980,19 +2782,17 @@
 					type: "item"
 				}
 				{
-					count: 32
+					count: 8
 					id: "66BD7E7AEBF57EE4"
 					item: "ae2:fluix_glass_cable"
 					type: "item"
 				}
 				{
-					count: 4
 					id: "19E405364AA5E4D2"
 					item: "ae2:annihilation_core"
 					type: "item"
 				}
 				{
-					count: 4
 					id: "6B3ECBE67DC4F294"
 					item: "ae2:formation_core"
 					type: "item"
@@ -3012,19 +2812,17 @@
 			id: "247B1BB8A16601F6"
 			rewards: [
 				{
-					count: 16
+					count: 8
 					id: "01F6E1DA61612C49"
 					item: "ae2:fluix_glass_cable"
 					type: "item"
 				}
 				{
-					count: 4
 					id: "46A1DC5DAA4D4396"
 					item: "ae2:formation_core"
 					type: "item"
 				}
 				{
-					count: 4
 					id: "0546DDBA55A876ED"
 					item: "ae2:annihilation_core"
 					type: "item"
@@ -3044,19 +2842,17 @@
 			id: "38E5F4922D493854"
 			rewards: [
 				{
-					count: 16
+					count: 8
 					id: "3CC9ECB09BFDD493"
 					item: "ae2:fluix_glass_cable"
 					type: "item"
 				}
 				{
-					count: 4
 					id: "0EFF3C9237B08A98"
 					item: "ae2:formation_core"
 					type: "item"
 				}
 				{
-					count: 4
 					id: "0509C3C8B8F70CC6"
 					item: "ae2:annihilation_core"
 					type: "item"
@@ -3076,19 +2872,17 @@
 			id: "08C186099DBD4CFB"
 			rewards: [
 				{
-					count: 16
+					count: 8
 					id: "6B8D80C155FDF69D"
 					item: "ae2:fluix_glass_cable"
 					type: "item"
 				}
 				{
-					count: 4
 					id: "4EC61686509F3B4D"
 					item: "ae2:formation_core"
 					type: "item"
 				}
 				{
-					count: 4
 					id: "3326D7F4FC19C6AF"
 					item: "ae2:annihilation_core"
 					type: "item"
@@ -3111,7 +2905,6 @@
 			id: "53882396C66C3166"
 			min_required_dependencies: 1
 			rewards: [{
-				count: 4
 				id: "42E0790EFCDADF2F"
 				item: "ae2:inverter_card"
 				type: "item"
@@ -3133,7 +2926,6 @@
 			id: "5D0DA86167F6A003"
 			min_required_dependencies: 1
 			rewards: [{
-				count: 4
 				id: "568FB8816945042F"
 				item: "ae2:redstone_card"
 				type: "item"
@@ -3155,7 +2947,6 @@
 			id: "674EE15A872B2D82"
 			min_required_dependencies: 1
 			rewards: [{
-				count: 4
 				id: "468D16B9018E1417"
 				item: "ae2:fuzzy_card"
 				type: "item"
@@ -3176,7 +2967,6 @@
 			description: ["Увеличивает размер фильтра"]
 			id: "22FEC39BFE582491"
 			rewards: [{
-				count: 4
 				id: "6283653262C61B79"
 				item: "ae2:capacity_card"
 				type: "item"
@@ -3197,7 +2987,6 @@
 			description: ["Может автоматически заказывать в МЭ системе для крафта выбранный предмет при определенных условиях"]
 			id: "36B05D8588934F3E"
 			rewards: [{
-				count: 4
 				id: "5848263D2A1610E1"
 				item: "ae2:crafting_card"
 				type: "item"
@@ -3218,7 +3007,7 @@
 			description: ["Ускоряет работу указанных в описании машинок"]
 			id: "1E3F00827DE81A29"
 			rewards: [{
-				count: 8
+				count: 2
 				id: "293200743ADD1727"
 				item: "ae2:speed_card"
 				type: "item"
@@ -3239,7 +3028,7 @@
 			hide_dependent_lines: true
 			id: "0CA1AD96AA7EB047"
 			rewards: [{
-				count: 32
+				count: 4
 				id: "69792A95B4C881D9"
 				item: "ae2:formation_core"
 				type: "item"
@@ -3260,7 +3049,7 @@
 			hide_dependent_lines: true
 			id: "2137D52B7574D6BC"
 			rewards: [{
-				count: 32
+				count: 4
 				id: "19043489A7D3686F"
 				item: "ae2:annihilation_core"
 				type: "item"
@@ -3281,7 +3070,6 @@
 			]
 			id: "67DC655B8EB332C7"
 			rewards: [{
-				count: 8
 				id: "173295B06D6E6201"
 				item: "ae2:interface"
 				type: "item"
@@ -3298,7 +3086,7 @@
 			dependencies: ["4CD1A1513BB61B58"]
 			id: "13A2EB94AEFBF7F0"
 			rewards: [{
-				count: 64
+				count: 8
 				id: "456CD9F2A1733895"
 				item: "modern_industrialization:kanthal_dust"
 				type: "item"
@@ -3315,7 +3103,7 @@
 			dependencies: ["13A2EB94AEFBF7F0"]
 			id: "24B38631B16512DA"
 			rewards: [{
-				count: 64
+				count: 8
 				id: "39CB386BF0C88A57"
 				item: "modern_industrialization:kanthal_ingot"
 				type: "item"
@@ -3332,7 +3120,7 @@
 			dependencies: ["24B38631B16512DA"]
 			id: "48838C65692AB6D2"
 			rewards: [{
-				count: 8
+				count: 4
 				id: "45D30F9C026EA9FF"
 				item: "modern_industrialization:kanthal_coil"
 				type: "item"

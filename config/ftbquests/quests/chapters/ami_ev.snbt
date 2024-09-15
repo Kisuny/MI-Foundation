@@ -274,19 +274,13 @@
 					type: "item"
 				}
 				{
-					count: 2
-					id: "71D092BCC2F49499"
-					item: "modern_industrialization:large_advanced_motor"
-					type: "item"
-				}
-				{
 					count: 32
 					id: "29EC2EAE5391CCDF"
 					item: "neepmeat:meat_steel_ingot"
 					type: "item"
 				}
 				{
-					count: 9
+					count: 3
 					id: "0D2D3AF1E011E18B"
 					item: "modern_industrialization:he_mox_ingot"
 					type: "item"
@@ -549,7 +543,7 @@
 			dependencies: ["01A03BFE2F6A21EE"]
 			id: "29A8C6AFE8DC0B5B"
 			rewards: [{
-				count: 16
+				count: 4
 				id: "5A49AFE6B4CE33F8"
 				item: "modern_industrialization:platinum_ingot"
 				type: "item"
@@ -575,7 +569,7 @@
 			]
 			id: "7514350A5ED5B094"
 			rewards: [{
-				count: 32
+				count: 8
 				id: "4502B2094DC5D754"
 				item: "modern_industrialization:platinum_dust"
 				type: "item"
@@ -593,19 +587,19 @@
 			id: "053D626594D69326"
 			rewards: [
 				{
-					count: 32
+					count: 8
 					id: "11642DF1D4F3A08A"
 					item: "modern_industrialization:platinum_plate"
 					type: "item"
 				}
 				{
-					count: 32
+					count: 8
 					id: "793BC9CB114EC44B"
 					item: "modern_industrialization:platinum_wire"
 					type: "item"
 				}
 				{
-					count: 32
+					count: 8
 					id: "1FB139F5D896A678"
 					item: "modern_industrialization:platinum_fine_wire"
 					type: "item"
@@ -791,31 +785,28 @@
 			id: "66A8FB4453F684C9"
 			rewards: [
 				{
-					count: 16
 					id: "5464B1846135065F"
 					item: "modern_industrialization:platinum_block"
 					type: "item"
 				}
 				{
-					count: 16
 					id: "598654D6FC04CF1A"
 					item: "modern_industrialization:titanium_block"
 					type: "item"
 				}
 				{
-					count: 32
+					count: 4
 					id: "2AD1C0417E89883F"
 					item: "modern_industrialization:stainless_steel_block"
 					type: "item"
 				}
 				{
-					count: 64
+					count: 4
 					id: "1BA81C90ACFDDD6E"
 					item: "modern_industrialization:stainless_steel_drill"
 					type: "item"
 				}
 				{
-					count: 4
 					id: "17C6B1358D33B187"
 					item: "modern_industrialization:processing_unit"
 					type: "item"
@@ -834,13 +825,11 @@
 			id: "16769027515EFA64"
 			rewards: [
 				{
-					count: 4
 					id: "1964C61843B3D87A"
 					item: "modern_industrialization:large_advanced_pump"
 					type: "item"
 				}
 				{
-					count: 4
 					id: "51EA0B1DF6EA46F8"
 					item: "modern_industrialization:large_advanced_motor"
 					type: "item"
@@ -892,30 +881,14 @@
 			id: "07612BDAA0EFA6E4"
 			rewards: [
 				{
-					count: 4
-					id: "6CC9C25A80FAE9A3"
-					item: "modern_industrialization:cadmium_battery"
-					type: "item"
-				}
-				{
 					id: "770AD518E35EA951"
 					item: "modern_industrialization:highly_advanced_machine_hull"
 					type: "item"
 				}
 				{
-					id: "3EE34C80AB90FE47"
-					item: "modern_industrialization:processing_unit"
-					type: "item"
-				}
-				{
-					count: 64
+					count: 8
 					id: "4A8E60BC2AE4603A"
 					item: "modern_industrialization:annealed_copper_cable"
-					type: "item"
-				}
-				{
-					id: "1CC0D543EB28E26C"
-					item: "modern_industrialization:highly_advanced_machine_casing"
 					type: "item"
 				}
 			]
@@ -968,18 +941,6 @@
 					type: "item"
 				}
 				{
-					count: 2
-					id: "7FF4839B8D136138"
-					item: "modern_industrialization:large_advanced_motor"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "28B359ACC58D954D"
-					item: "modern_industrialization:large_advanced_pump"
-					type: "item"
-				}
-				{
 					id: "527860AD1699393A"
 					item: "kubejs:late_lootbag_uncommon"
 					type: "item"
@@ -1016,13 +977,13 @@
 			id: "64A14CF083700434"
 			rewards: [
 				{
-					count: 32
+					count: 8
 					id: "552D9AF12834342A"
 					item: "modern_industrialization:nuclear_alloy_plate"
 					type: "item"
 				}
 				{
-					count: 32
+					count: 8
 					id: "414C659BED9D1FF2"
 					item: "modern_industrialization:mixed_plate_nuclear"
 					type: "item"
@@ -1095,12 +1056,6 @@
 					type: "item"
 				}
 				{
-					count: 2
-					id: "22A874A61BECD82D"
-					item: "modern_industrialization:processing_unit"
-					type: "item"
-				}
-				{
 					id: "23781315F1E5DD2F"
 					item: "kubejs:late_lootbag_uncommon"
 					type: "item"
@@ -1125,7 +1080,7 @@
 					type: "item"
 				}
 				{
-					count: 8
+					count: 4
 					id: "05C98508D0758BAE"
 					item: "modern_industrialization:cadmium_battery"
 					type: "item"
@@ -1158,12 +1113,6 @@
 					type: "item"
 				}
 				{
-					count: 2
-					id: "217D947F5AC33490"
-					item: "modern_industrialization:large_advanced_motor"
-					type: "item"
-				}
-				{
 					id: "5ED5BC0ABE86F3F8"
 					item: "kubejs:late_lootbag_uncommon"
 					type: "item"
@@ -1184,7 +1133,6 @@
 			]
 			id: "027385AA21D8737B"
 			rewards: [{
-				count: 8
 				id: "79D844D78402F08F"
 				item: "kubejs:photonic_circuit_board"
 				type: "item"
@@ -1200,18 +1148,11 @@
 		{
 			dependencies: ["66A8FB4453F684C9"]
 			id: "5AB00116967F9823"
-			rewards: [
-				{
-					id: "0E452A61AEF88312"
-					item: "modern_industrialization:turbo_machine_hull"
-					type: "item"
-				}
-				{
-					id: "0849627A2D52D782"
-					item: "modern_industrialization:processing_unit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0849627A2D52D782"
+				item: "modern_industrialization:processing_unit"
+				type: "item"
+			}]
 			size: 1.5d
 			tasks: [{
 				id: "69160CE6F15C2E00"
@@ -1227,13 +1168,6 @@
 			id: "58C877DC86206A23"
 			rewards: [
 				{
-					count: 8
-					id: "45AAE679538F1A54"
-					item: "kubejs:photonic_circuit_board"
-					type: "item"
-				}
-				{
-					count: 2
 					id: "1779E8FCD70A985B"
 					item: "kubejs:photonic_circuit"
 					type: "item"
@@ -1264,11 +1198,6 @@
 					type: "item"
 				}
 				{
-					id: "32C005C87C523683"
-					item: "modern_industrialization:turbo_machine_hull"
-					type: "item"
-				}
-				{
 					id: "43A13D5C2B502C9F"
 					item: "kubejs:late_lootbag_uncommon"
 					type: "item"
@@ -1292,9 +1221,9 @@
 			dependencies: ["2448B1AEB23D6B75"]
 			id: "4179B53FEBB8FC59"
 			rewards: [{
-				count: 32
+				count: 8
 				id: "5452C027782FC963"
-				item: "modern_industrialization:superconductor_ingot"
+				item: "modern_industrialization:superconductor_dust"
 				type: "item"
 			}]
 			tasks: [{
@@ -1309,7 +1238,7 @@
 			dependencies: ["4179B53FEBB8FC59"]
 			id: "47AEA0C5F176D939"
 			rewards: [{
-				count: 8
+				count: 4
 				id: "0271B3C8F2331A91"
 				item: "modern_industrialization:superconductor_coil"
 				type: "item"
@@ -1330,19 +1259,18 @@
 			id: "3E28F3AEA0B4ED2D"
 			rewards: [
 				{
-					count: 2
 					id: "1B64D66879DCAB1C"
 					item: "modern_industrialization:processing_unit"
 					type: "item"
 				}
 				{
-					count: 128
+					count: 16
 					id: "273CEE55F3C53F04"
 					item: "minecraft:netherite_scrap"
 					type: "item"
 				}
 				{
-					count: 32
+					count: 4
 					id: "04C2888BF891BDE5"
 					item: "ad_astra:ostrum_block"
 					type: "item"
@@ -1382,7 +1310,7 @@
 			id: "0303A03C53D1F852"
 			rewards: [
 				{
-					count: 5
+					count: 3
 					id: "54EC7F1FCA60473B"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1422,7 +1350,7 @@
 			id: "62199F6082B5238D"
 			rewards: [
 				{
-					count: 5
+					count: 3
 					id: "027BBE662F5D0D9F"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1607,7 +1535,7 @@
 			dependencies: ["682EB3FE11EA695F"]
 			id: "2B5E3162C47DB371"
 			rewards: [{
-				count: 16
+				count: 4
 				id: "1B93483B3B046AA5"
 				item: "modern_industrialization:calorite_drill"
 				type: "item"
@@ -1624,7 +1552,7 @@
 			dependencies: ["48838C65692AB6D2"]
 			id: "2448B1AEB23D6B75"
 			rewards: [{
-				count: 64
+				count: 8
 				id: "507748A077608D96"
 				item: "modern_industrialization:annealed_copper_dust"
 				type: "item"
@@ -1644,25 +1572,11 @@
 			]
 			description: ["Более улучшенный скафандр, &4имеет возможность полета&r похожего на элитры, но &4бафнутый&r. &6Не имеет креативный полет&r"]
 			id: "6831915934C73308"
-			rewards: [
-				{
-					count: 4
-					id: "59A20EC40CD2EE4A"
-					item: "modern_industrialization:plutonium_battery"
-					type: "item"
-				}
-				{
-					id: "2C94153E53517CC3"
-					item: "kubejs:photonic_circuit"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "71ADF2782B4B26DD"
-					item: "ad_astra:calorite_block"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2C94153E53517CC3"
+				item: "kubejs:photonic_circuit"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "77F0A0D25B59D910"
@@ -1720,7 +1634,7 @@
 			dependencies: ["682EB3FE11EA695F"]
 			id: "077D083615A432DD"
 			rewards: [{
-				count: 64
+				count: 8
 				id: "1FC84E1740E2574B"
 				item: "ae2:fluix_smart_dense_cable"
 				type: "item"
@@ -1738,7 +1652,7 @@
 			id: "4BADF27AE07F51E1"
 			rewards: [{
 				id: "53E45AF39B3638B6"
-				item: "ae2:cell_component_256k"
+				item: "ae2:cell_component_64k"
 				type: "item"
 			}]
 			tasks: [{
@@ -1786,7 +1700,7 @@
 			dependencies: ["66C3151DDB09D2F5"]
 			id: "6FEDBB6755D71CFA"
 			rewards: [{
-				count: 128
+				count: 8
 				id: "20B199822839278F"
 				item: "modern_industrialization:roquesite_dust"
 				type: "item"
@@ -1810,7 +1724,7 @@
 			dependencies: ["16769027515EFA64"]
 			id: "66C3151DDB09D2F5"
 			rewards: [{
-				count: 16
+				count: 4
 				id: "3C0D8787D186E953"
 				item: "modern_industrialization:titanium_drill"
 				type: "item"
@@ -1833,13 +1747,12 @@
 			id: "6A8B53B4D3159DEB"
 			rewards: [
 				{
-					count: 32
+					count: 8
 					id: "14E60F3D74412055"
 					item: "modern_industrialization:superconductor_cable"
 					type: "item"
 				}
 				{
-					count: 4
 					id: "23E45FEE9D9334D7"
 					item: "modern_industrialization:processing_unit"
 					type: "item"
@@ -2001,18 +1914,6 @@
 				{
 					id: "0157F512CEF51467"
 					item: "kubejs:photonic_circuit"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "16CDD1F2A418475E"
-					item: "neepmeat:meat_steel_block"
-					type: "item"
-				}
-				{
-					count: 12
-					id: "07808C167184336D"
-					item: "modern_industrialization:large_advanced_pump"
 					type: "item"
 				}
 				{
@@ -2204,7 +2105,7 @@
 			dependencies: ["66C3151DDB09D2F5"]
 			id: "0C550C32C45DDC5C"
 			rewards: [{
-				count: 64
+				count: 8
 				id: "6E7FD783EB4879C8"
 				item: "modern_industrialization:iridium_ore"
 				type: "item"
@@ -2227,45 +2128,11 @@
 		{
 			dependencies: ["3732DF7C69268DDB"]
 			id: "64B2D5261623A94C"
-			rewards: [
-				{
-					id: "6D22A75895E38ED7"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
-				{
-					id: "38F089D6F32AB873"
-					item: "kubejs:photonic_circuit"
-					type: "item"
-				}
-				{
-					id: "437A71ED3AE1BF6C"
-					item: "modern_industrialization:processing_unit"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "3A08F9389BD23CE0"
-					item: "modern_industrialization:advanced_pump"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "1BE57AF4F33599BA"
-					item: "modern_industrialization:large_advanced_pump"
-					type: "item"
-				}
-				{
-					id: "3303B4F74D83028E"
-					item: "modern_industrialization:turbo_machine_hull"
-					type: "item"
-				}
-				{
-					id: "12F820FA7DA1AC79"
-					item: "modern_industrialization:highly_advanced_machine_hull"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "12F820FA7DA1AC79"
+				item: "modern_industrialization:highly_advanced_machine_hull"
+				type: "item"
+			}]
 			tasks: [{
 				id: "75083F667E1C2CA6"
 				item: "neepmeat:large_compressor"
@@ -2410,12 +2277,6 @@
 					type: "item"
 				}
 				{
-					count: 2
-					id: "52DB37553A1D4FC1"
-					item: "modern_industrialization:processing_unit"
-					type: "item"
-				}
-				{
 					count: 32
 					id: "4142A89B75BFB1CC"
 					item: "architects_palette:spool"
@@ -2429,6 +2290,11 @@
 				{
 					id: "6AAB40D28A1A949F"
 					item: "kubejs:late_lootbag_rare"
+					type: "item"
+				}
+				{
+					id: "6DCA4ED34C10C7B8"
+					item: "modern_industrialization:processing_unit"
 					type: "item"
 				}
 			]

@@ -51,12 +51,6 @@
 					item: "modern_industrialization:stainless_steel_ingot"
 					type: "item"
 				}
-				{
-					count: 2
-					id: "019CDDB11633B301"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
 			]
 			shape: "diamond"
 			tasks: [{
@@ -95,12 +89,6 @@
 					count: 16
 					id: "707E08F20FAAA92C"
 					item: "modern_industrialization:stainless_steel_ingot"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "6CDD3EAF2E62B124"
-					item: "modern_industrialization:digital_circuit"
 					type: "item"
 				}
 			]
@@ -143,12 +131,6 @@
 					item: "modern_industrialization:stainless_steel_ingot"
 					type: "item"
 				}
-				{
-					count: 2
-					id: "00A9A3A5EDA3FAE1"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
 			]
 			shape: "diamond"
 			tasks: [{
@@ -187,12 +169,6 @@
 					count: 16
 					id: "344DE7DD77FA431F"
 					item: "modern_industrialization:stainless_steel_ingot"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "636EACD84CD34598"
-					item: "modern_industrialization:digital_circuit"
 					type: "item"
 				}
 			]
@@ -235,12 +211,6 @@
 					item: "modern_industrialization:stainless_steel_ingot"
 					type: "item"
 				}
-				{
-					count: 2
-					id: "4E2F1204CEB51701"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
 			]
 			shape: "diamond"
 			tasks: [{
@@ -279,12 +249,6 @@
 					count: 16
 					id: "10E52C7EB35617AB"
 					item: "modern_industrialization:stainless_steel_ingot"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "42003DF79E434980"
-					item: "modern_industrialization:digital_circuit"
 					type: "item"
 				}
 			]
@@ -327,12 +291,6 @@
 					item: "modern_industrialization:stainless_steel_ingot"
 					type: "item"
 				}
-				{
-					count: 2
-					id: "0002117847F08678"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
 			]
 			shape: "diamond"
 			tasks: [{
@@ -371,12 +329,6 @@
 					count: 16
 					id: "04BEC9EBDCAB8AB9"
 					item: "modern_industrialization:stainless_steel_ingot"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "39435BD728DB89DE"
-					item: "modern_industrialization:digital_circuit"
 					type: "item"
 				}
 			]
@@ -419,12 +371,6 @@
 					item: "modern_industrialization:stainless_steel_ingot"
 					type: "item"
 				}
-				{
-					count: 2
-					id: "77928287B784D01B"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
 			]
 			shape: "diamond"
 			tasks: [{
@@ -463,12 +409,6 @@
 					count: 16
 					id: "69C7C445DF2DA954"
 					item: "modern_industrialization:stainless_steel_ingot"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "7894D76F1CFB0FB9"
-					item: "modern_industrialization:digital_circuit"
 					type: "item"
 				}
 			]
@@ -511,12 +451,6 @@
 					item: "modern_industrialization:stainless_steel_ingot"
 					type: "item"
 				}
-				{
-					count: 2
-					id: "552C3F331443785D"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
 			]
 			shape: "diamond"
 			tasks: [{
@@ -555,12 +489,6 @@
 					count: 16
 					id: "39F952C20A7B389B"
 					item: "modern_industrialization:stainless_steel_ingot"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "636EB68D814F8402"
-					item: "modern_industrialization:digital_circuit"
 					type: "item"
 				}
 			]
@@ -603,12 +531,6 @@
 					item: "modern_industrialization:stainless_steel_ingot"
 					type: "item"
 				}
-				{
-					count: 2
-					id: "568250BE0A02DB69"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
 			]
 			shape: "diamond"
 			tasks: [{
@@ -647,12 +569,6 @@
 					count: 16
 					id: "05DFC39CF8E533FA"
 					item: "modern_industrialization:stainless_steel_ingot"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "3D064F09158C625B"
-					item: "modern_industrialization:digital_circuit"
 					type: "item"
 				}
 			]
@@ -695,12 +611,6 @@
 					item: "modern_industrialization:stainless_steel_ingot"
 					type: "item"
 				}
-				{
-					count: 2
-					id: "5E44645A95BC5133"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
 			]
 			shape: "diamond"
 			tasks: [{
@@ -739,12 +649,6 @@
 					count: 16
 					id: "0FA13146C96BAD36"
 					item: "modern_industrialization:stainless_steel_ingot"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "73C3387CF58421F3"
-					item: "modern_industrialization:digital_circuit"
 					type: "item"
 				}
 			]
@@ -787,12 +691,6 @@
 					item: "modern_industrialization:stainless_steel_ingot"
 					type: "item"
 				}
-				{
-					count: 2
-					id: "280304F059F4E599"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
 			]
 			shape: "diamond"
 			tasks: [{
@@ -833,12 +731,6 @@
 					item: "modern_industrialization:stainless_steel_ingot"
 					type: "item"
 				}
-				{
-					count: 2
-					id: "26676C5E857AD009"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
 			]
 			shape: "diamond"
 			tasks: [{
@@ -854,7 +746,7 @@
 				"5E9A8B25A318CD11"
 				"1176A1B117DC2F4E"
 			]
-			description: ["Бросив &bМана гем&r в бассейн маны в него прибавится 100 000 единиц &bманы&r"]
+			description: ["Бросив &bТёмный лотус&r в бассейн маны в него прибавится 100 000 единиц &bманы&r"]
 			id: "09678F440F3558FB"
 			rewards: [
 				{
@@ -870,7 +762,7 @@
 			]
 			tasks: [{
 				id: "06330FEBBB04DC98"
-				item: "mifbotaniaaddon:mana_gem"
+				item: "botania:blacker_lotus"
 				type: "item"
 			}]
 			title: "Возврат маны в первоначальную форму"
@@ -1001,7 +893,7 @@
 				{
 					count: 30
 					id: "47D5BD73CC9F0930"
-					item: "mifbotaniaaddon:mana_gem"
+					item: "botania:blacker_lotus"
 					type: "item"
 				}
 			]
@@ -1044,7 +936,6 @@
 					type: "item"
 				}
 				{
-					count: 4
 					id: "71A3C00C79635964"
 					item: "kubejs:spectral_circuit_board"
 					type: "item"
@@ -1074,9 +965,8 @@
 					type: "item"
 				}
 				{
-					count: 4
 					id: "4AFF29E5B253E1B4"
-					item: "kubejs:chromatically_stable_circuit"
+					item: "kubejs:spectral_circuit_board"
 					type: "item"
 				}
 			]
@@ -1101,11 +991,6 @@
 				{
 					id: "379919BA9A087276"
 					item: "kubejs:late_lootbag_epic"
-					type: "item"
-				}
-				{
-					id: "234BDB3FECD59BDE"
-					item: "kubejs:chromatically_stable_circuit"
 					type: "item"
 				}
 			]
@@ -1133,11 +1018,6 @@
 					item: "kubejs:late_lootbag_epic"
 					type: "item"
 				}
-				{
-					id: "0EEA35715915FB8E"
-					item: "kubejs:chromatically_stable_circuit"
-					type: "item"
-				}
 			]
 			shape: "gear"
 			tasks: [{
@@ -1163,11 +1043,6 @@
 					item: "kubejs:late_lootbag_epic"
 					type: "item"
 				}
-				{
-					id: "39765DF8EA178121"
-					item: "kubejs:chromatically_stable_circuit"
-					type: "item"
-				}
 			]
 			shape: "gear"
 			tasks: [{
@@ -1191,11 +1066,6 @@
 				{
 					id: "1368C6B37DC1A3F4"
 					item: "kubejs:late_lootbag_epic"
-					type: "item"
-				}
-				{
-					id: "7C150DA9A63DED85"
-					item: "kubejs:chromatically_stable_circuit"
 					type: "item"
 				}
 			]
@@ -1232,7 +1102,7 @@
 					type: "item"
 				}
 				{
-					count: 8
+					count: 4
 					id: "709576D2446833A7"
 					item: "modern_industrialization:manasteel_casing"
 					type: "item"

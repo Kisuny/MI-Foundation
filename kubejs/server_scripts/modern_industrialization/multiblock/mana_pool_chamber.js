@@ -209,10 +209,10 @@ let mana_pool_recipes = [
     },
     {
         items_in: [
-            ["modern_industrialization:diamond_tiny_dust"],
+            ["modern_industrialization:carbon_tiny_dust"],
         ],
         items_out: [
-            ["mifbotaniaaddon:mana_gem"],
+            ["botania:blacker_lotus"],
         ],
         mana: 10000,
     },    

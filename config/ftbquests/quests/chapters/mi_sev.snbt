@@ -15,26 +15,11 @@
 				"4179B53FEBB8FC59"
 			]
 			id: "1C831B3953519FD5"
-			rewards: [
-				{
-					count: 4
-					id: "36C3E425286810F7"
-					item: "modern_industrialization:plutonium_battery"
-					type: "item"
-				}
-				{
-					count: 8
-					id: "292EDFB85E9E6BAD"
-					item: "modern_industrialization:iridium_ingot"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "79F1142712FB5CBA"
-					item: "modern_industrialization:quantum_circuit_board"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "79F1142712FB5CBA"
+				item: "modern_industrialization:quantum_circuit_board"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5536F00AEEAA6B64"
 				item: "modern_industrialization:quantum_circuit_board"
@@ -51,7 +36,6 @@
 			id: "2DA54757A3D7740E"
 			rewards: [
 				{
-					count: 2
 					id: "66211BB7EFCD9CD3"
 					item: "modern_industrialization:quantum_circuit"
 					type: "item"
@@ -75,13 +59,13 @@
 			id: "6D20A245E4415A5F"
 			rewards: [
 				{
-					count: 8
+					count: 2
 					id: "56F740C08D3E083D"
 					item: "modern_industrialization:superconductor_ingot"
 					type: "item"
 				}
 				{
-					count: 8
+					count: 2
 					id: "3FF11858B444EE9C"
 					item: "modern_industrialization:qbit"
 					type: "item"
@@ -152,12 +136,6 @@
 			id: "5F01907B4C1C70AE"
 			rewards: [
 				{
-					count: 2
-					id: "773456D8A34D8EBA"
-					item: "modern_industrialization:fusion_chamber"
-					type: "item"
-				}
-				{
 					id: "7F37F92800F34874"
 					item: "modern_industrialization:quantum_circuit"
 					type: "item"
@@ -193,11 +171,6 @@
 				{
 					id: "7EDE11B4F38ECBF4"
 					item: "modern_industrialization:quantum_machine_hull"
-					type: "item"
-				}
-				{
-					id: "762A72AD4B7789CD"
-					item: "modern_industrialization:quantum_circuit"
 					type: "item"
 				}
 				{
@@ -245,11 +218,6 @@
 			id: "48946D8D12B533AA"
 			rewards: [
 				{
-					id: "2A72795BD6CA6655"
-					item: "modern_industrialization:quantum_machine_hull"
-					type: "item"
-				}
-				{
 					id: "2CAE6FDD91293AE4"
 					item: "kubejs:end_lootbag_uncommon"
 					type: "item"
@@ -257,6 +225,11 @@
 				{
 					id: "4DA959D972ADB9DE"
 					item: "kubejs:end_lootbag_rare"
+					type: "item"
+				}
+				{
+					id: "024FC28895CEB650"
+					item: "modern_industrialization:quantum_circuit"
 					type: "item"
 				}
 			]
@@ -316,11 +289,6 @@
 			id: "67FC4A3B61E5811C"
 			rewards: [
 				{
-					id: "14F0F6C55F78DBA1"
-					item: "modern_industrialization:quantum_machine_hull"
-					type: "item"
-				}
-				{
 					id: "64C17A59CD7EEA42"
 					item: "kubejs:end_lootbag_uncommon"
 					type: "item"
@@ -328,6 +296,11 @@
 				{
 					id: "69B64A367AC90337"
 					item: "kubejs:end_lootbag_rare"
+					type: "item"
+				}
+				{
+					id: "25B8C1DD3177A776"
+					item: "modern_industrialization:quantum_circuit"
 					type: "item"
 				}
 			]
@@ -344,27 +317,26 @@
 			id: "3D3A11D0B00FF79B"
 			rewards: [
 				{
-					count: 2
 					id: "7ADB0DB9870305C2"
 					item: "kubejs:photonic_circuit"
 					type: "item"
 				}
 				{
-					count: 16
+					count: 4
 					id: "2B63214BBDBC32BB"
 					item: "ad_astra:calorite_block"
 					type: "item"
 				}
 				{
-					count: 16
+					count: 8
 					id: "2D76C732DFC6D277"
 					item: "modern_industrialization:tungsten_ingot"
 					type: "item"
 				}
 				{
-					count: 8
-					id: "52478BAE5559F81B"
-					item: "modern_industrialization:compactium_casing"
+					count: 16
+					id: "648ACA6B48FD13C9"
+					item: "modern_industrialization:compactium_ingot"
 					type: "item"
 				}
 			]
@@ -420,11 +392,6 @@
 				{
 					id: "4C5E24EBC7F91227"
 					item: "modern_industrialization:quantum_circuit"
-					type: "item"
-				}
-				{
-					id: "79BC65DA0E94A45F"
-					item: "modern_industrialization:quantum_machine_hull"
 					type: "item"
 				}
 				{
@@ -506,7 +473,6 @@
 			id: "1BB283BBF2323FF1"
 			rewards: [
 				{
-					count: 2
 					id: "77B8B069CF286BE8"
 					item: "modern_industrialization:quantum_circuit"
 					type: "item"
@@ -514,12 +480,6 @@
 				{
 					id: "6D1CE0AD1244B9A3"
 					item: "modern_industrialization:fusion_chamber"
-					type: "item"
-				}
-				{
-					count: 8
-					id: "7E7E046C45B5EBFD"
-					item: "architects_palette:unobtanium"
 					type: "item"
 				}
 				{
@@ -585,13 +545,13 @@
 			id: "1E2EA520ACC7FEE6"
 			rewards: [
 				{
-					count: 4
+					count: 2
 					id: "10E54E3703C01663"
 					item: "ae2:quantum_ring"
 					type: "item"
 				}
 				{
-					count: 64
+					count: 8
 					id: "67DDC0FB9CCE0019"
 					item: "ae2:fluix_smart_dense_cable"
 					type: "item"
@@ -627,7 +587,7 @@
 			rewards: [
 				{
 					id: "08927D380D7A197A"
-					item: "ae2:spatial_cell_component_16"
+					item: "ae2:spatial_cell_component_2"
 					type: "item"
 				}
 				{
@@ -650,7 +610,7 @@
 			rewards: [
 				{
 					id: "5DF674ACDB19B835"
-					item: "ae2:spatial_cell_component_128"
+					item: "ae2:spatial_cell_component_16"
 					type: "item"
 				}
 				{
@@ -670,20 +630,12 @@
 		{
 			dependencies: ["416102F2B37AD68A"]
 			id: "22DC92C228A96AF4"
-			rewards: [
-				{
-					count: 2
-					id: "63B4E977E93E174E"
-					item: "ae2:spatial_pylon"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "0266368FD709BCB5"
-					item: "architects_palette:unobtanium"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 4
+				id: "0266368FD709BCB5"
+				item: "architects_palette:unobtanium"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5C11C2EE877B0F9E"
 				item: "ae2:spatial_pylon"
@@ -697,7 +649,6 @@
 			description: ["Точка доступа к энергии в беспроводной энерго сети"]
 			id: "0444EC7C46FFB9DF"
 			rewards: [{
-				count: 2
 				id: "136A4FE635791296"
 				item: "fluxnetworks:flux_point"
 				type: "item"
@@ -723,7 +674,6 @@
 			id: "38A24F58A368095B"
 			rewards: [
 				{
-					count: 4
 					id: "364753A80BEB66A9"
 					item: "fluxnetworks:flux_core"
 					type: "item"
@@ -748,14 +698,8 @@
 			id: "02AAB414E9A755AF"
 			rewards: [
 				{
-					count: 2
 					id: "65FE18B1F3087087"
 					item: "fluxnetworks:flux_core"
-					type: "item"
-				}
-				{
-					id: "2E0A9BD269057C66"
-					item: "ae2:cell_component_64k"
 					type: "item"
 				}
 				{
@@ -776,11 +720,6 @@
 			dependencies: ["02AAB414E9A755AF"]
 			id: "209D2227CA942419"
 			rewards: [
-				{
-					id: "7530876D4A731D44"
-					item: "megacells:cell_component_1m"
-					type: "item"
-				}
 				{
 					count: 2
 					id: "6E514930905DEA40"
@@ -881,7 +820,7 @@
 			id: "2A10635AF9EA9DAF"
 			rewards: [{
 				id: "2AC96B7E4B66ED2D"
-				item: "megacells:cell_component_1m"
+				item: "ae2:cell_component_256k"
 				type: "item"
 			}]
 			tasks: [{
@@ -898,7 +837,7 @@
 			rewards: [
 				{
 					id: "0410F296E568DECB"
-					item: "megacells:cell_component_4m"
+					item: "megacells:cell_component_1m"
 					type: "item"
 				}
 				{
@@ -921,7 +860,7 @@
 			rewards: [
 				{
 					id: "61F9EAFBA3116CDD"
-					item: "megacells:cell_component_16m"
+					item: "megacells:cell_component_4m"
 					type: "item"
 				}
 				{
@@ -947,7 +886,7 @@
 			rewards: [
 				{
 					id: "2ECCC21168F75247"
-					item: "megacells:cell_component_64m"
+					item: "megacells:cell_component_16m"
 					type: "item"
 				}
 				{
@@ -970,7 +909,7 @@
 			rewards: [
 				{
 					id: "0654786D36F66E42"
-					item: "megacells:cell_component_256m"
+					item: "megacells:cell_component_64m"
 					type: "item"
 				}
 				{
@@ -992,12 +931,7 @@
 			id: "6C520E6193CDDA83"
 			rewards: [
 				{
-					id: "1C5DB749410B21F9"
-					item: "megacells:cell_component_16m"
-					type: "item"
-				}
-				{
-					count: 2
+					count: 4
 					id: "0877FF068A0987D0"
 					item: "fluxnetworks:flux_core"
 					type: "item"
@@ -1133,7 +1067,7 @@
 				{
 					count: 20
 					id: "3A86E226A1D3C9DD"
-					item: "mifbotaniaaddon:mana_gem"
+					item: "botania:blacker_lotus"
 					type: "item"
 				}
 			]
@@ -1201,18 +1135,11 @@
 		{
 			dependencies: ["2DA54757A3D7740E"]
 			id: "62A382BB6FB7546E"
-			rewards: [
-				{
-					id: "22968735317BE6C7"
-					item: "modern_industrialization:quantum_machine_hull"
-					type: "item"
-				}
-				{
-					id: "0144237DECE94CAA"
-					item: "modern_industrialization:quantum_circuit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "22968735317BE6C7"
+				item: "modern_industrialization:quantum_machine_hull"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2DC397031F48CAAC"
 				item: "modern_industrialization:quantum_barrel"
@@ -1224,18 +1151,11 @@
 		{
 			dependencies: ["2DA54757A3D7740E"]
 			id: "0C52605AB7344611"
-			rewards: [
-				{
-					id: "46EF015B8C9CCE7A"
-					item: "modern_industrialization:quantum_machine_hull"
-					type: "item"
-				}
-				{
-					id: "4C14B6A09A673A8C"
-					item: "modern_industrialization:quantum_circuit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "46EF015B8C9CCE7A"
+				item: "modern_industrialization:quantum_machine_hull"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1581C81A91DF96A2"
 				item: "modern_industrialization:quantum_tank"
@@ -1269,7 +1189,7 @@
 					type: "item"
 				}
 				{
-					count: 15
+					count: 8
 					id: "3DDB8ADA8BB151D9"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1295,8 +1215,9 @@
 			dependencies: ["65474213F76926D9"]
 			id: "64B0EDAD5353CBA3"
 			rewards: [{
+				count: 4
 				id: "72347FCBD6CE1149"
-				item: "ae2:cell_component_64k"
+				item: "ae2:singularity"
 				type: "item"
 			}]
 			tasks: [{
@@ -1315,12 +1236,6 @@
 				{
 					id: "40D66040EBC77717"
 					item: "kubejs:photonic_circuit"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "0D1F6E576D3748B6"
-					item: "architects_palette:unobtanium"
 					type: "item"
 				}
 				{
@@ -1347,18 +1262,11 @@
 		{
 			dependencies: ["1E18B13F50E05755"]
 			id: "046E1B2D282E738E"
-			rewards: [
-				{
-					id: "5173205A07D24A7D"
-					item: "kubejs:photonic_circuit"
-					type: "item"
-				}
-				{
-					id: "211F4999EB2C33AA"
-					item: "ad_astra:calorite_engine"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "211F4999EB2C33AA"
+				item: "ad_astra:calorite_engine"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "18D45B1F60C8446F"
@@ -1384,7 +1292,7 @@
 				}
 				{
 					id: "143D0A0675A1A24C"
-					item: "kubejs:chromatically_stable_circuit"
+					item: "kubejs:spectral_circuit_board"
 					type: "item"
 				}
 				{
@@ -1448,12 +1356,6 @@
 			rewards: [
 				{
 					count: 16
-					id: "3925E597EDB1C123"
-					item: "modern_industrialization:superconductor_ingot"
-					type: "item"
-				}
-				{
-					count: 16
 					id: "6A0F05489E9D20BF"
 					item: "modern_industrialization:iridium_plate"
 					type: "item"
@@ -1481,7 +1383,6 @@
 			description: ["&6Молекулярный деконструктор&r, &4необходим&r для &4разбора&r предметов на &9простые частицы&r"]
 			id: "2E407CD925C6F3EF"
 			rewards: [{
-				count: 2
 				id: "2D82F22137BA03DB"
 				item: "kubejs:photonic_circuit"
 				type: "item"
@@ -2307,11 +2208,6 @@
 			id: "6C2D2C561DDED656"
 			rewards: [
 				{
-					id: "3A9B645B11EABD85"
-					item: "modern_industrialization:quantum_machine_hull"
-					type: "item"
-				}
-				{
 					id: "073805DB377E71A8"
 					item: "kubejs:end_lootbag_uncommon"
 					type: "item"
@@ -2319,6 +2215,11 @@
 				{
 					id: "53568EE0744C1F7E"
 					item: "kubejs:end_lootbag_rare"
+					type: "item"
+				}
+				{
+					id: "763E94AD6FFF9E71"
+					item: "modern_industrialization:quantum_circuit"
 					type: "item"
 				}
 			]

@@ -1403,7 +1403,6 @@
 					type: "item"
 				}
 				{
-					count: 2
 					id: "00CB238A51D2FC7E"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1832,7 +1831,7 @@
 					type: "item"
 				}
 				{
-					count: 16
+					count: 4
 					id: "29CE86B1C5FA1CB1"
 					item: "modern_industrialization:copper_drill"
 					type: "item"
@@ -1868,7 +1867,7 @@
 					type: "item"
 				}
 				{
-					count: 16
+					count: 4
 					id: "788013988AF7DFE6"
 					item: "modern_industrialization:bronze_drill"
 					type: "item"

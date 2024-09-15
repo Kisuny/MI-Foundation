@@ -84,7 +84,7 @@
 					type: "item"
 				}
 				{
-					count: 20
+					count: 5
 					id: "6A60D732671169DA"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -105,7 +105,7 @@
 			id: "58261B76F97C92EE"
 			rewards: [
 				{
-					count: 10
+					count: 5
 					id: "062534818386EC08"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -152,7 +152,7 @@
 			id: "401AE053D4ADDC64"
 			rewards: [
 				{
-					count: 10
+					count: 5
 					id: "16B27B13ED0418C5"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -199,7 +199,7 @@
 			id: "5DF33FC78C3B7CB0"
 			rewards: [
 				{
-					count: 20
+					count: 10
 					id: "410A9F7D38D32020"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -246,7 +246,7 @@
 			id: "287F24E0E44112C7"
 			rewards: [
 				{
-					count: 30
+					count: 15
 					id: "794C44C1E9B05E7D"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1066,7 +1066,7 @@
 			id: "31562F8CF94FD570"
 			rewards: [
 				{
-					count: 5
+					count: 2
 					id: "001F1206EC61FC91"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1121,7 +1121,6 @@
 			id: "35B6A2A722CBB2D4"
 			rewards: [
 				{
-					count: 5
 					id: "0CE97369007222E2"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1170,7 +1169,6 @@
 			id: "4F21189A951BA468"
 			rewards: [
 				{
-					count: 5
 					id: "5EEEC052D04954D3"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1197,7 +1195,7 @@
 			id: "09D1BD408C262FA2"
 			rewards: [
 				{
-					count: 5
+					count: 3
 					id: "4FB766D9F115E308"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1406,7 +1404,7 @@
 			id: "39928CDD0960C594"
 			rewards: [
 				{
-					count: 5
+					count: 3
 					id: "4364F45ECF0F5064"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1458,7 +1456,7 @@
 			id: "01AAAFFBA923EBE1"
 			rewards: [
 				{
-					count: 10
+					count: 5
 					id: "74BE2A6C52640C15"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1516,7 +1514,7 @@
 			id: "3F149D233394A685"
 			rewards: [
 				{
-					count: 15
+					count: 8
 					id: "1C18F4E048BFEA3E"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1587,7 +1585,7 @@
 			id: "2BA9D9204855F9B4"
 			rewards: [
 				{
-					count: 20
+					count: 12
 					id: "200498BB022B4BD4"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1645,7 +1643,7 @@
 			id: "7131DE56A460867B"
 			rewards: [
 				{
-					count: 40
+					count: 20
 					id: "06393B994F9CBF95"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1702,7 +1700,7 @@
 			id: "5CE268118688721D"
 			rewards: [
 				{
-					count: 20
+					count: 8
 					id: "54408299B8E6996E"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1875,7 +1873,7 @@
 			id: "14EA312C45DCBA9E"
 			rewards: [
 				{
-					count: 5
+					count: 3
 					id: "210A9F588F74CE6E"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1937,7 +1935,7 @@
 			id: "66B7D0ED4EFAD17F"
 			rewards: [
 				{
-					count: 10
+					count: 4
 					id: "4709AE603188EF3E"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1993,7 +1991,7 @@
 			id: "61E02629F0614F8F"
 			rewards: [
 				{
-					count: 10
+					count: 5
 					id: "3E3D9BCD2AC3A364"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -2049,7 +2047,7 @@
 			id: "4D2535CB79CD5BB2"
 			rewards: [
 				{
-					count: 10
+					count: 5
 					id: "33578D4DF9303B92"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -2099,7 +2097,7 @@
 			id: "0E0D37853BA8B98F"
 			rewards: [
 				{
-					count: 15
+					count: 8
 					id: "1633A7C84FC74A5F"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -2212,7 +2210,7 @@
 			id: "4151CDCEE302E918"
 			rewards: [
 				{
-					count: 20
+					count: 5
 					id: "284DC553DBF9D307"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -2269,7 +2267,7 @@
 			id: "03F9A088E035318C"
 			rewards: [
 				{
-					count: 20
+					count: 6
 					id: "44221C01F33687EC"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -2307,7 +2305,7 @@
 			id: "196B8968784E723B"
 			rewards: [
 				{
-					count: 15
+					count: 8
 					id: "365CD16D00ED4CE4"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -2349,7 +2347,7 @@
 			id: "27538690D2764389"
 			rewards: [
 				{
-					count: 25
+					count: 12
 					id: "0F01F638143FF1A9"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -2388,7 +2386,7 @@
 			id: "7DD9A5678004F849"
 			rewards: [
 				{
-					count: 15
+					count: 12
 					id: "308BA8DA76CB239C"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -2549,7 +2547,7 @@
 			id: "2C13DF977DCAD7F6"
 			rewards: [
 				{
-					count: 25
+					count: 12
 					id: "7250928F0974B8B3"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -2588,7 +2586,7 @@
 			id: "0C03A7DD7264AED4"
 			rewards: [
 				{
-					count: 15
+					count: 8
 					id: "0F81FB074B3245F9"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -2679,7 +2677,7 @@
 			id: "57EC6CB3AE57430E"
 			rewards: [
 				{
-					count: 20
+					count: 8
 					id: "134820C1FFC06011"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"

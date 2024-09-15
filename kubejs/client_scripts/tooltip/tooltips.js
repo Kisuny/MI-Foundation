@@ -280,8 +280,6 @@ ItemEvents.tooltip(tooltip => {
         })
     })
 
-    tooltip.add("mifbotaniaaddon:mana_gem", "Бросив Мана гем в бассейн маны в него прибавится 100 000 единиц маны")
-
     const raw_ores = [
         { name: 'kubejs:octiron_shards', charnel_pump: 'Луна', space_miner: '' },
         { name: 'kubejs:raw_naquadah', charnel_pump: 'Меркурий', space_miner: '' },
