@@ -1044,7 +1044,6 @@
 					type: "item"
 				}
 				{
-					count: 4
 					id: "71A3C00C79635964"
 					item: "kubejs:spectral_circuit_board"
 					type: "item"
@@ -1074,7 +1073,6 @@
 					type: "item"
 				}
 				{
-					count: 4
 					id: "4AFF29E5B253E1B4"
 					item: "kubejs:chromatically_stable_circuit"
 					type: "item"
@@ -1105,7 +1103,7 @@
 				}
 				{
 					id: "234BDB3FECD59BDE"
-					item: "kubejs:chromatically_stable_circuit"
+					item: "kubejs:spectral_circuit_board"
 					type: "item"
 				}
 			]
@@ -1135,7 +1133,7 @@
 				}
 				{
 					id: "0EEA35715915FB8E"
-					item: "kubejs:chromatically_stable_circuit"
+					item: "kubejs:spectral_circuit_board"
 					type: "item"
 				}
 			]
@@ -1165,7 +1163,7 @@
 				}
 				{
 					id: "39765DF8EA178121"
-					item: "kubejs:chromatically_stable_circuit"
+					item: "kubejs:spectral_circuit_board"
 					type: "item"
 				}
 			]
@@ -1247,6 +1245,28 @@
 			}]
 			x: 0.0d
 			y: 0.6d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"4B5A35FB7FEE1E6B"
+				"0379CDF7FB133E48"
+			]
+			id: "1B2224E0FD1845FD"
+			rewards: [{
+				id: "4C492E377F3EE459"
+				item: "minecraft:verdant_froglight"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				consume_items: true
+				id: "30BFFA44F36436F7"
+				item: "minecraft:ochre_froglight"
+				type: "item"
+			}]
+			x: -0.8d
+			y: 0.4d
 		}
 	]
 	title: "Tech Magicka"

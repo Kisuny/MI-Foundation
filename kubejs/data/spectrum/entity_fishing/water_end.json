@@ -69,15 +69,15 @@
     {
       "id": "minecraft:drowned",
       "weight": 15,
-      "nbt": {  
+      "nbt": {
         "Health": 20,
         "Attributes":[
-          {"Name":"generic.max_health","Base":20}, 
-          {"Name":"generic.attack_damage","Base":9}, 
+          {"Name":"generic.max_health","Base":20},
+          {"Name":"generic.attack_damage","Base":9},
           {"Name":"generic.movement_speed","Base":0.6},
           {"Name":"generic.armor","Base":8}
         ],
-        "CustomName":"{\"text\":\"Модифицированный шалкер\",\"color\":\"gray\"}",  
+        "CustomName":"{\"text\":\"Modified Shalker\",\"color\":\"gray\"}",
         "HandItems":[{"id":"air","Count":1},{"id":"spectrum:perturbed_eye","Count":1}],
         "ArmorItems":[{"id":"minecraft:leather_boots","tag":{"display":{"color":14933921}},"Count":1},{"id":"minecraft:leather_leggings","tag":{"display":{"color":11395972}},"Count":1},{"id":"minecraft:leather_chestplate","tag":{"display":{"color":6022042}},"Count":1},{"id":"minecraft:player_head","tag":{"SkullOwner":{"Id":["I;",-1749344726,869286873,-1399069944,-643884253],"Properties":{"textures":[{"Value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzJkNDBiYzJlMTE1NTAxZmRmMzNkN2QyMDAzOWNmOGE4NmZkYTQ2ZWNmNTA5YmM4NTUwNGVkMTdhYjc2ZDgxOCJ9fX0="}]}}},"Count":1}],
         "HandDropChances":["0F","0F"],
@@ -89,14 +89,14 @@
     {
       "id": "minecraft:wither_skeleton",
       "weight": 15,
-      "nbt": {  
+      "nbt": {
         "Health": 50,
         "Attributes":[
-          {"Name":"generic.max_health","Base":50}, 
-          {"Name":"generic.attack_damage","Base":14}, 
+          {"Name":"generic.max_health","Base":50},
+          {"Name":"generic.attack_damage","Base":14},
           {"Name":"generic.armor","Base":6}
         ],
-        "CustomName":"{\"text\":\"Пурпурный смотритель\",\"color\":\"blue\"}",  
+        "CustomName":"{\"text\":\"Purple Keeper\",\"color\":\"blue\"}",
         "HandItems":[{"id":"mythicmetals:stormyx_sword","Count":1},{"id":"air","Count":1}],
         "ArmorItems":[{"id":"minecraft:leather_boots","tag":{"display":{"color":920120}},"Count":1},{"id":"minecraft:leather_leggings","tag":{"display":{"color":4790369}},"Count":1},{"id":"minecraft:leather_chestplate","tag":{"display":{"color":7869557}},"Count":1},{"id":"minecraft:player_head","tag":{"SkullOwner":{"Id":["I;",-1555669980,925583816,-1756731642,2031628069],"Properties":{"textures":[{"Value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTBjZDg3MzAxNTU0NWJlNzk0NWE2Y2FjYjY4MmZlYTkzNmQ0M2E1Mzg2MmE0MDllNDI1NjUxMjM1ZTg1OTcifX19"}]}}},"Count":1}],
         "HandDropChances":["0F","0F"],
@@ -111,11 +111,11 @@
       "nbt": {
         "Health": 110,
         "Attributes":[
-          {"Name":"generic.max_health","Base":110}, 
-          {"Name":"generic.attack_damage","Base":18}, 
+          {"Name":"generic.max_health","Base":110},
+          {"Name":"generic.attack_damage","Base":18},
           {"Name":"generic.armor","Base":8}
         ],
-        "CustomName":"{\"text\":\"Мудрый Василиск\",\"color\":\"dark_purple\"}",
+        "CustomName":"{\"text\":\"Wise Basilisk\",\"color\":\"dark_purple\"}",
         "ActiveEffects":[{"Id":30,"Duration":10000,"ShowParticles":"0b"}, {"Id":25,"Duration":3,"ShowParticles":"0b"},{"Id":28,"Duration":10000,"ShowParticles":"0b"},{"Id":13,"Duration":10000,"ShowParticles":"0b"}],
         "ArmorItems":[{"id":"minecraft:leather_boots","tag":{"display":{"color":6143722}},"Count":1},{"id":"minecraft:leather_leggings","tag":{"display":{"color":11196910}},"Count":1},{"id":"minecraft:leather_chestplate","tag":{"display":{"color":14086138}},"Count":1},{"id":"minecraft:player_head","tag":{"SkullOwner":{"Id":["I;",37249828,465981699,-1400541288,-999086731],"Properties":{"textures":[{"Value":"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM1NjFiYmQ1YWMxMzg0ZGM3NjYzYmE2ZTM1NmY5NjRiN2ZhNjY3YTUwYWJhY2UwOGE5MTY5YWMyNWEwNTZjNCJ9fX0="}]}},"display":{"Lore":["{\"text\":\"https://namemc.com/skin/380e6d18197236d8\"}"]}},"Count":1}],
         "ArmorDropChances":["0f","0f","0f","0f"],
@@ -128,11 +128,11 @@
       "nbt": {
         "Health": 120,
         "Attributes":[
-          {"Name":"generic.max_health","Base":120}, 
-          {"Name":"generic.attack_damage","Base":22}, 
+          {"Name":"generic.max_health","Base":120},
+          {"Name":"generic.attack_damage","Base":22},
           {"Name":"generic.armor","Base":6}
         ],
-        "CustomName":"{\"text\":\"Пустотный бдитель\",\"color\":\"dark_purple\"}",
+        "CustomName":"{\"text\":\"Void Vigilant\",\"color\":\"dark_purple\"}",
         "ActiveEffects":[{"Id":13,"Duration":10000,"ShowParticles":"0b"}, {"Id":30,"Duration":10000,"ShowParticles":"0b"}],
         "ArmorItems":[{"id":"minecraft:leather_boots","tag":{"display":{"color":5137}},"Count":1},{"id":"minecraft:leather_leggings","tag":{"display":{"color":10530}},"Count":1},{"id":"minecraft:leather_chestplate","tag":{"display":{"color":22344}},"Count":1},{"id":"minecraft:player_head","tag":{"SkullOwner":{"Id":["I;",-444642578,-413123402,-1518384402,-413107018],"Properties":{"textures":[{"Value":"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY3ZTRkMTVjODUzNjZlMGM5ZDU2NWI2MjRmNzI2ZTNjYzYwYWQ5YzRhZjk0ODljMGNkZWU5NzBmNzllZGYzOSJ9fX0="}]}},"display":{"Lore":["{\"text\":\"https://namemc.com/skin/e57f4aeee7607cb6\"}"]}},"Count":1}],
         "ArmorDropChances":["0f","0f","0f","0f"],
@@ -145,12 +145,12 @@
       "nbt": {
         "Health": 700,
         "Attributes":[
-          {"Name":"generic.max_health","Base":700}, 
-          {"Name":"generic.attack_damage","Base":25}, 
+          {"Name":"generic.max_health","Base":700},
+          {"Name":"generic.attack_damage","Base":25},
           {"Name":"generic.movement_speed","Base":0.7},
           {"Name":"generic.armor","Base":22}
         ],
-        "CustomName":"{\"text\":\"Смотрящий\",\"color\":\"light_purple\"}",
+        "CustomName":"{\"text\":\"Watcher\",\"color\":\"light_purple\"}",
         "HandItems":[{"id":"botania:ender_dagger","Count":1},{"id":"minecraft:ender_eye","Count":1}],
         "ActiveEffects":[{"Id":30,"Duration":10000,"ShowParticles":"0b"},{"Id":5,"Duration":10000,"ShowParticles":"0b"},{"Id":13,"Duration":100000,"ShowParticles":"0b"},{"Id":2,"Duration":100000,"ShowParticles":"0b"}],
         "ArmorItems":[{"id":"minecraft:leather_boots","tag":{"display":{"color":0}},"Count":1},{"id":"minecraft:leather_leggings","tag":{"display":{"color":0}},"Count":1},{"id":"minecraft:leather_chestplate","tag":{"display":{"color":0}},"Count":1},{"id":"minecraft:player_head","tag":{"SkullOwner":{"Id":["I;",-471658734,874270757,-1930606743,809420578],"Properties":{"textures":[{"Value":"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjMwYzY2MjNhMDUxNmNmZTI0YzcwMmRhM2Q5ZmU4NjdkN2U2NTAzNzcyYTcyNDZjYjI1ZGE0YTdiMmI1NjcifX19"}]}},"display":{"Lore":["{\"text\":\"https://namemc.com/skin/d92e303826611562\"}"]}},"Count":1}],

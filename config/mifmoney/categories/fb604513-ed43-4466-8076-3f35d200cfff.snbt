@@ -1,5 +1,5 @@
 {
-	name: "Техника"
+	name: "Tech"
 	item: "kubejs:photonic_circuit"
 	orders: [
 		{

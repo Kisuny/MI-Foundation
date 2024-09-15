@@ -35,12 +35,12 @@
       {
         "id": "minecraft:skeleton",
         "weight": 20,
-        "nbt": {  
+        "nbt": {
           "Health": 100,
-          "CustomName":"{\"text\":\"Гнилой титан\",\"color\":\"blue\"}",  
+          "CustomName":"{\"text\":\"Rotten titanium\",\"color\":\"blue\"}",
           "Attributes":[
-            {"Name":"generic.max_health","Base":100}, 
-            {"Name":"generic.attack_damage","Base":8}, 
+            {"Name":"generic.max_health","Base":100},
+            {"Name":"generic.attack_damage","Base":8},
             {"Name":"generic.armor","Base":11}
           ],
           "HandItems":[{"id":"air","Count":1},{"id":"minecraft:hanging_roots","Count":1}],
@@ -54,15 +54,15 @@
       {
         "id": "minecraft:skeleton",
         "weight": 20,
-        "nbt": {  
+        "nbt": {
           "Health": 40,
           "Attributes":[
-            {"Name":"generic.max_health","Base":40}, 
-            {"Name":"generic.attack_damage","Base":12}, 
+            {"Name":"generic.max_health","Base":40},
+            {"Name":"generic.attack_damage","Base":12},
             {"Name":"generic.movement_speed","Base":0.6},
             {"Name":"generic.armor","Base":4}
           ],
-          "CustomName":"{\"text\":\"Грязевая Баба\",\"color\":\"blue\"}",  
+          "CustomName":"{\"text\":\"Mud Baba\",\"color\":\"blue\"}",
           "HandItems":[{"id":"air","Count":1},{"id":"air","Count":1}],
           "ArmorItems":[{"id":"minecraft:leather_boots","tag":{"display":{"color":8849420}},"Count":1},{"id":"minecraft:leather_leggings","tag":{"display":{"color":11539785}},"Count":1},{"id":"minecraft:leather_chestplate","tag":{"display":{"color":3106490}},"Count":1},{"id":"minecraft:player_head","tag":{"SkullOwner":{"Id":["I;",842586337,-1668788630,-1454921619,1822625738],"Properties":{"textures":[{"Value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTU2ZTcxN2EyMjgwMzlhNjRmZjZjYmQxMTE2MmZkOWRkZmIxYjVhMGQ0NTBkN2Q4YjMyNTAzMmFhY2E5Y2RkZiJ9fX0="}]}}},"Count":1}],
           "HandDropChances":["0F","0F"],
@@ -74,15 +74,15 @@
       {
         "id": "minecraft:drowned",
         "weight": 15,
-        "nbt": {  
+        "nbt": {
           "Health": 200,
           "Attributes":[
-            {"Name":"generic.max_health","Base":200}, 
-            {"Name":"generic.attack_damage","Base":8}, 
+            {"Name":"generic.max_health","Base":200},
+            {"Name":"generic.attack_damage","Base":8},
             {"Name":"generic.movement_speed","Base":0.2},
             {"Name":"generic.armor","Base":20}
           ],
-          "CustomName":"{\"text\":\"Грязевой голем\",\"color\":\"dark_purple\"}",  
+          "CustomName":"{\"text\":\"Mud golem\",\"color\":\"dark_purple\"}",
           "HandItems":[{"id":"mythicmetals:orichalcum_hammer","Count":1},{"id":"air","Count":1}],
           "ArmorItems":[{"id":"minecraft:leather_boots","tag":{"display":{"color":7623756}},"Count":1},{"id":"minecraft:leather_leggings","tag":{"display":{"color":9202780}},"Count":1},{"id":"minecraft:leather_chestplate","tag":{"display":{"color":10255468}},"Count":1},{"id":"minecraft:player_head","tag":{"SkullOwner":{"Id":["I;",-1951075336,-1535817042,-1345239183,-1544405411],"Properties":{"textures":[{"Value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTM2ODQxZWNmNjNiMjU0MzE5ZWJhYzk5YzZmMjk1Mzk5Mzc5NTM1Y2U4MzViOTEzNGZjNWZkZmIyMGMwYTEifX19"}]}}},"Count":1}],
           "HandDropChances":["0F","0F"],
@@ -94,15 +94,15 @@
       {
         "id": "minecraft:drowned",
         "weight": 10,
-        "nbt": {  
+        "nbt": {
           "Health": 500,
-          "CustomName":"{\"text\":\"Оживший корень\",\"color\":\"gold\"}",
+          "CustomName":"{\"text\":\"Living root\",\"color\":\"gold\"}",
           "Attributes":[
-            {"Name":"generic.max_health","Base":500}, 
-            {"Name":"generic.attack_damage","Base":22}, 
+            {"Name":"generic.max_health","Base":500},
+            {"Name":"generic.attack_damage","Base":22},
             {"Name":"generic.movement_speed","Base":0.4},
             {"Name":"generic.armor","Base":8}
-          ],  
+          ],
           "HandItems":[{"id":"mythicmetals:orichalcum_sword","Count":1},{"id":"spectrum:amaranth_bushel","Count":1}],
           "ArmorItems":[{"id":"minecraft:leather_boots","tag":{"display":{"color":12116484}},"Count":1},{"id":"minecraft:leather_leggings","tag":{"display":{"color":6706248}},"Count":1},{"id":"minecraft:leather_chestplate","tag":{"display":{"color":7891032}},"Count":1},{"id":"minecraft:player_head","tag":{"SkullOwner":{"Id":["I;",-502241421,-1447476827,-1860953941,-1710148928],"Properties":{"textures":[{"Value":"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzMwYzA0NWI0ODUyMWE3YWE5ZjkzOGNmNDViNTdhMGM0NzBlNWU3N2ZkZGY0MTliODFkYTdiOTNiMGJhZTc0MyJ9fX0="}]}}},"Count":1}],
           "HandDropChances":["0F","0F"],

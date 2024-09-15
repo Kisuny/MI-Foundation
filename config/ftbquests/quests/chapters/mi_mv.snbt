@@ -2379,7 +2379,7 @@
 			dependencies: ["0F013F8E4DF06E6B"]
 			id: "4F1F0FC36448816A"
 			rewards: [{
-				count: 256
+				count: 192
 				id: "19958BE545A8B6C2"
 				item: "modern_industrialization:item_pipe"
 				type: "item"
@@ -2396,7 +2396,7 @@
 			dependencies: ["0F013F8E4DF06E6B"]
 			id: "2D7B50C0A5B7BF13"
 			rewards: [{
-				count: 256
+				count: 192
 				id: "05377CA4B911DF8C"
 				item: "modern_industrialization:fluid_pipe"
 				type: "item"
@@ -2624,5 +2624,5 @@
 			y: -0.5d
 		}
 	]
-	title: "&7Индустриализация | MV"
+	title: "&7Industrialization | MV"
 }

@@ -577,10 +577,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"416102F2B37AD68A"
-				"2DA54757A3D7740E"
-			]
+			dependencies: ["416102F2B37AD68A"]
 			description: ["&6Квантовое кольцо&r, позволяет получить доступ к &9МЭ&r &4из одной точки пространства в другую&r, необходима энергия на обоих концах кольца. Для связи нужно сингулярность"]
 			id: "1E2EA520ACC7FEE6"
 			rewards: [
@@ -1269,7 +1266,7 @@
 					type: "item"
 				}
 				{
-					count: 15
+					count: 10
 					id: "3DDB8ADA8BB151D9"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1369,10 +1366,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [
-				"416102F2B37AD68A"
-				"36AD66F466216147"
-			]
+			dependencies: ["416102F2B37AD68A"]
 			description: ["&6Прогрузчик чанков&r, прогружает &4только&r когда &4его владелец онлайн&r. &6Владелец определяется первым открытием интерфейса&r"]
 			id: "0D2303A725B4A25C"
 			rewards: [
@@ -1408,7 +1402,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["385671C52437549B"]
+			dependencies: ["25D80C3480AF56C0"]
 			description: ["<shake>Бесконечные забурники!</shake>"]
 			id: "3A7DBF1A575CA746"
 			rewards: [
@@ -1437,7 +1431,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -1521,8 +1515,8 @@
 				item: "neepmeat:extractor"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -4.0d
+			x: -4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["36AD66F466216147"]
@@ -2614,6 +2608,22 @@
 			x: -5.5d
 			y: -5.5d
 		}
+		{
+			dependencies: ["48946D8D12B533AA"]
+			id: "25D80C3480AF56C0"
+			rewards: [{
+				id: "495B9F9A9F674968"
+				item: "kubejs:neutron_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42BCA851C721CA22"
+				item: "kubejs:neutron_nugget"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
 	]
-	title: "&7Пространственные технологии | UEV"
+	title: "&7Spatial technologies | UEV"
 }

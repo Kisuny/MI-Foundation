@@ -2284,34 +2284,6 @@
 		}
 		{
 			dependencies: ["164CF7324390B1A9"]
-			description: [
-				"Позволяет автоматически есть еду"
-				""
-				"&#d33b2b&lВажно&r:&r Не использует систему диеты!"
-			]
-			id: "4BF6518D47176CF6"
-			rewards: [{
-				count: 16
-				id: "74021F529681AE14"
-				item: "vitalize:experience_cubed"
-				team_reward: true
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "2F7500E1442C0E71"
-				item: {
-					Count: 1b
-					id: "kibe:cooler"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -1.0d
-			y: 15.5d
-		}
-		{
-			dependencies: ["164CF7324390B1A9"]
 			description: ["Позволяет &#9BB8EDспускаться&r/&#FEECD6подниматься&r на такой же блок через блоки!"]
 			icon: "kibe:white_elevator"
 			id: "15733E655CF68B05"
@@ -2336,7 +2308,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 16.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["164CF7324390B1A9"]
@@ -2377,7 +2349,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 0.0d
 			y: 16.0d
 		}
 		{
@@ -2437,7 +2409,7 @@
 				item: "fwaystones:waystone"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: 15.5d
 		}
 		{
@@ -2863,6 +2835,38 @@
 			x: 14.0d
 			y: 6.0d
 		}
+		{
+			can_repeat: true
+			dependencies: ["730FE5EA1AE7EAE5"]
+			description: ["Удаление данной ачивки может закрыть некоторые крафты, поэтому возвращайте её себе по надобности"]
+			id: "5C447C34DD73DB59"
+			rewards: [
+				{
+					command: "/advancement grant @p only spectrum:collect_all_basic_pigments"
+					icon: "spectrum:star_fragment"
+					id: "1D074C76E9C3F6D1"
+					team_reward: false
+					title: "Получить ачивку для падения звезд"
+					type: "command"
+				}
+				{
+					command: "/advancement revoke @p only spectrum:collect_all_basic_pigments"
+					icon: "minecraft:bedrock"
+					id: "3CA15876F3056E30"
+					team_reward: false
+					title: "Удалить ачивку на падение звезд"
+					type: "command"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "180012FFA41E43BE"
+				title: "Отключить падение звезд"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
 	]
-	title: "&7Spectrum: &oПервые шаги"
+	title: "&7Spectrum: &oFirst steps"
 }

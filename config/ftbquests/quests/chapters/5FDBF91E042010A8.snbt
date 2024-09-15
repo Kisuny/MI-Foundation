@@ -84,7 +84,7 @@
 					type: "item"
 				}
 				{
-					count: 20
+					count: 10
 					id: "6A60D732671169DA"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -105,7 +105,7 @@
 			id: "58261B76F97C92EE"
 			rewards: [
 				{
-					count: 10
+					count: 5
 					id: "062534818386EC08"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -152,7 +152,7 @@
 			id: "401AE053D4ADDC64"
 			rewards: [
 				{
-					count: 10
+					count: 5
 					id: "16B27B13ED0418C5"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -199,7 +199,7 @@
 			id: "5DF33FC78C3B7CB0"
 			rewards: [
 				{
-					count: 20
+					count: 10
 					id: "410A9F7D38D32020"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -246,7 +246,7 @@
 			id: "287F24E0E44112C7"
 			rewards: [
 				{
-					count: 30
+					count: 15
 					id: "794C44C1E9B05E7D"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1066,7 +1066,7 @@
 			id: "31562F8CF94FD570"
 			rewards: [
 				{
-					count: 5
+					count: 3
 					id: "001F1206EC61FC91"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1121,7 +1121,7 @@
 			id: "35B6A2A722CBB2D4"
 			rewards: [
 				{
-					count: 5
+					count: 3
 					id: "0CE97369007222E2"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1170,7 +1170,7 @@
 			id: "4F21189A951BA468"
 			rewards: [
 				{
-					count: 5
+					count: 3
 					id: "5EEEC052D04954D3"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1197,7 +1197,7 @@
 			id: "09D1BD408C262FA2"
 			rewards: [
 				{
-					count: 5
+					count: 3
 					id: "4FB766D9F115E308"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1354,7 +1354,6 @@
 			id: "682D1935B79E4A0E"
 			rewards: [
 				{
-					count: 2
 					id: "65576D6DA15A09B3"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1406,7 +1405,7 @@
 			id: "39928CDD0960C594"
 			rewards: [
 				{
-					count: 5
+					count: 3
 					id: "4364F45ECF0F5064"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1458,7 +1457,7 @@
 			id: "01AAAFFBA923EBE1"
 			rewards: [
 				{
-					count: 10
+					count: 5
 					id: "74BE2A6C52640C15"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1516,7 +1515,7 @@
 			id: "3F149D233394A685"
 			rewards: [
 				{
-					count: 15
+					count: 10
 					id: "1C18F4E048BFEA3E"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1587,7 +1586,7 @@
 			id: "2BA9D9204855F9B4"
 			rewards: [
 				{
-					count: 20
+					count: 15
 					id: "200498BB022B4BD4"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1702,7 +1701,7 @@
 			id: "5CE268118688721D"
 			rewards: [
 				{
-					count: 20
+					count: 10
 					id: "54408299B8E6996E"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1875,7 +1874,7 @@
 			id: "14EA312C45DCBA9E"
 			rewards: [
 				{
-					count: 5
+					count: 3
 					id: "210A9F588F74CE6E"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -2049,7 +2048,7 @@
 			id: "4D2535CB79CD5BB2"
 			rewards: [
 				{
-					count: 10
+					count: 5
 					id: "33578D4DF9303B92"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -2212,7 +2211,7 @@
 			id: "4151CDCEE302E918"
 			rewards: [
 				{
-					count: 20
+					count: 10
 					id: "284DC553DBF9D307"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -2232,7 +2231,7 @@
 				{
 					count: 2
 					id: "02DFB2510CD01631"
-					item: "kubejs:mid_lootbag_epic"
+					item: "kubejs:end_lootbag_uncommon"
 					type: "item"
 				}
 			]
@@ -2269,7 +2268,7 @@
 			id: "03F9A088E035318C"
 			rewards: [
 				{
-					count: 20
+					count: 5
 					id: "44221C01F33687EC"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -2307,7 +2306,7 @@
 			id: "196B8968784E723B"
 			rewards: [
 				{
-					count: 15
+					count: 10
 					id: "365CD16D00ED4CE4"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -2349,7 +2348,7 @@
 			id: "27538690D2764389"
 			rewards: [
 				{
-					count: 25
+					count: 15
 					id: "0F01F638143FF1A9"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -2388,7 +2387,7 @@
 			id: "7DD9A5678004F849"
 			rewards: [
 				{
-					count: 15
+					count: 10
 					id: "308BA8DA76CB239C"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -2549,7 +2548,7 @@
 			id: "2C13DF977DCAD7F6"
 			rewards: [
 				{
-					count: 25
+					count: 15
 					id: "7250928F0974B8B3"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -2588,7 +2587,7 @@
 			id: "0C03A7DD7264AED4"
 			rewards: [
 				{
-					count: 15
+					count: 10
 					id: "0F81FB074B3245F9"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -2679,7 +2678,7 @@
 			id: "57EC6CB3AE57430E"
 			rewards: [
 				{
-					count: 20
+					count: 10
 					id: "134820C1FFC06011"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -2717,6 +2716,159 @@
 			x: 7.5d
 			y: -0.5d
 		}
+		{
+			dependencies: ["182EBD1105CF57A7"]
+			id: "5E0246A25DDDCDD7"
+			rewards: [
+				{
+					count: 5
+					id: "2CC137CA48684FA4"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "44DB174B4AB11A46"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "339FDA301F13186B"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "256A4F204E740118"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "724B96AEC2593A04"
+					item: "kubejs:late_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "530469E6AE999AA2"
+				item: {
+					Count: 1b
+					id: "spectrum:ring_of_pursuit"
+					tag: {
+						EnergyStore: {
+							Amount: 3276800L
+							Color: "magenta"
+							MaxEnergyTotal: 3276800L
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Ну теперь я точно моментально копаю"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0C7F2FDED403B652"]
+			id: "2BA9B63D409564B7"
+			rewards: [
+				{
+					count: 5
+					id: "62DDE99548BA806D"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "08CC9AE2D9FDA67E"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7211B663EAF6BEDD"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "3535FCFEAB90BB48"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "45CDD5A256618F7B"
+					item: "kubejs:late_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7C2B46FA3E1D0753"
+				item: {
+					Count: 1b
+					id: "spectrum:heartsingers_reward"
+					tag: {
+						EnergyStore: {
+							Amount: 3276800L
+							Color: "pink"
+							MaxEnergyTotal: 3276800L
+						}
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Больше сердечек!?!?!?!"
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0FD878AAB9458CE9"]
+			id: "2E0B367711E6675C"
+			rewards: [
+				{
+					count: 10
+					id: "6B4FB2C05438B5A7"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "7E337078F28E72E9"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "06AF4BAD88C4E367"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1D10C88EC295095B"
+					item: "kubejs:end_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1F00281E3BCCAC19"
+				item: {
+					Count: 1b
+					id: "botania:terra_pick"
+					tag: {
+						Damage: 0
+						mana: 2147483647
+					}
+				}
+				type: "item"
+			}]
+			title: "Стоило ли это океана маны?"
+			x: 8.5d
+			y: -0.5d
+		}
 	]
-	title: "Испытания"
+	title: "Challenges"
 }
