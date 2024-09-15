@@ -1,2 +1,2 @@
 # MI-Foundation
-modpack for minecraft fabric 1.19.2
+Expert tech/mage modpack for minecraft 1.19.2 (fabric)
