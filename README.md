@@ -1,2 +1,2 @@
 # MI-Foundation
-modpack for minecrafta fabric 1.19.2
+modpack for minecraft fabric 1.19.2
