@@ -8,7 +8,7 @@ ServerEvents.recipes(event =>{
             "visual_explosions_on_shrine"
           ],
         finishEffect: 'lightning_on_shrine',
-        description: 'Оживление Перчатки',
+        description: 'Revitalizing the Glove',
         time: 2200, experience: 15.0,
         fluid: "neepmeat:blood",
         ingredients: [
@@ -21,7 +21,7 @@ ServerEvents.recipes(event =>{
         ],
         result: {
             "item": "artifacts:fire_gauntlet",
-            "nbt": {"display":{"Name":'{"text":"Ожившая Адская Перчатка","color":"dark_red"}',"Lore":['{"text":"От этой перчатки стремится злобная аура"}']}, "isAlive":1}
+            "nbt": {"display":{"Name":'{"text":"The living Fire Gauntlet","color":"dark_red"}',"Lore":['{"text":"from this gauntlet tends an evil aura"}']}, "isAlive":1}
         },
         advancement: "spectrum:build_fusion_shrine"
     });
@@ -86,7 +86,7 @@ EntityEvents.spawned('minecraft:item', event =>{
         let z = event.entity.z
         
         console.log(x, y, z)
-        event.server.tell(Text.darkRed(['Сила Глубин Ада дала перчатке куда больше сил, чем вы думали!']))
+        event.server.tell(Text.darkRed(['The power of the Depths of nether gave the gauntlet far more power than you thought!']))
         event.entity.lavaHurt()
         event.server.runCommandSilent(`execute in ${dimension} run summon bosses_of_mass_destruction:gauntlet ${x} ${y} ${z}`)
     }

@@ -26,7 +26,7 @@ ItemEvents.rightClicked("kubejs:beehive", event => {
 
     if (dimension == 'the_bumblezone:the_bumblezone') {event.cancel()}
     if (target_block == 'minecraft:bee_nest' || target_block == 'minecraft:beehive') {
-        event.player.tell(Text.of('Пожжжужим?').color(0xE79A3F))
+        event.player.tell(Text.of('Bzzzzzzzz?').color(0xE79A3F))
         BumblezoneAPI.queueEntityForTeleportingToBumblezone(event.player)
         if (!event.player.isCreative()) { event.item.count-- }
         event.player.give('kubejs:empty_beehive')
