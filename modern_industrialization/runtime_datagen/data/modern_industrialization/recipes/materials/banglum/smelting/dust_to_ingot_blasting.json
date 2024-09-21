@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "modern_industrialization:banglum_dust"
+  },
+  "result": "mythicmetals:banglum_ingot"
+}

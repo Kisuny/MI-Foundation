@@ -1,0 +1,17 @@
+{
+  "type": "modern_industrialization:macerator",
+  "duration": 200,
+  "eu": 2,
+  "item_inputs": [
+    {
+      "amount": 1,
+      "item": "kubejs:basalt_brick"
+    }
+  ],
+  "item_outputs": [
+    {
+      "amount": 1,
+      "item": "kubejs:basalt_dust"
+    }
+  ]
+}

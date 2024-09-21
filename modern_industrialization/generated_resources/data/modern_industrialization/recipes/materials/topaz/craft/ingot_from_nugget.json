@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "x": {
+      "tag": "c:topaz_nuggets"
+    },
+    "y": {
+      "item": "modern_industrialization:topaz_nugget"
+    }
+  },
+  "pattern": [
+    "yxx",
+    "xxx",
+    "xxx"
+  ],
+  "result": {
+    "count": 1,
+    "item": "spectrum:topaz_shard"
+  }
+}

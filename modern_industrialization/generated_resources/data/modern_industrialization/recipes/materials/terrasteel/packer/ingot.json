@@ -1,0 +1,17 @@
+{
+  "type": "modern_industrialization:packer",
+  "duration": 200,
+  "eu": 2,
+  "item_inputs": [
+    {
+      "amount": 9,
+      "item": "botania:terrasteel_nugget"
+    }
+  ],
+  "item_outputs": [
+    {
+      "amount": 1,
+      "item": "botania:terrasteel_ingot"
+    }
+  ]
+}

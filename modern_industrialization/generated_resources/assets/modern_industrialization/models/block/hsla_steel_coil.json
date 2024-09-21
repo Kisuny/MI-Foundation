@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "modern_industrialization:block/hsla_steel_coil_top",
-    "side": "modern_industrialization:block/hsla_steel_coil_side"
-  }
-}

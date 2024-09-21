@@ -1,0 +1,17 @@
+{
+  "type": "modern_industrialization:forge_hammer",
+  "duration": 0,
+  "eu": 60,
+  "item_inputs": [
+    {
+      "amount": 3,
+      "item": "mythicmetals:raw_kyber"
+    }
+  ],
+  "item_outputs": [
+    {
+      "amount": 4,
+      "item": "modern_industrialization:kyber_dust"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "modern_industrialization:macerator",
+  "duration": 100,
+  "eu": 2,
+  "item_inputs": [
+    {
+      "amount": 1,
+      "item": "kubejs:raw_naquadah"
+    }
+  ],
+  "item_outputs": [
+    {
+      "amount": 1,
+      "item": "modern_industrialization:naquadah_dust"
+    },
+    {
+      "amount": 1,
+      "item": "modern_industrialization:naquadah_dust",
+      "probability": 0.5
+    }
+  ]
+}

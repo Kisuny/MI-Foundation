@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "P": {
+      "tag": "c:compactium_plates"
+    },
+    "R": {
+      "item": "modern_industrialization:compactium_ring"
+    },
+    "b": {
+      "item": "modern_industrialization:compactium_bolt"
+    }
+  },
+  "pattern": [
+    "PbP",
+    "bRb",
+    "PbP"
+  ],
+  "result": {
+    "count": 1,
+    "item": "modern_industrialization:compactium_gear"
+  }
+}

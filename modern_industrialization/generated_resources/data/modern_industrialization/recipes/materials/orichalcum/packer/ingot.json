@@ -1,0 +1,17 @@
+{
+  "type": "modern_industrialization:packer",
+  "duration": 400,
+  "eu": 2,
+  "item_inputs": [
+    {
+      "amount": 9,
+      "item": "mythicmetals:orichalcum_nugget"
+    }
+  ],
+  "item_outputs": [
+    {
+      "amount": 1,
+      "item": "mythicmetals:orichalcum_ingot"
+    }
+  ]
+}
