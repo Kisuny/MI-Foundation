@@ -1,0 +1,11 @@
+{
+	id: "200E60BAD28D7719"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{ count: 8, item: "minecraft:amethyst_shard" }
+		{ count: 8, item: "spectrum:citrine_shard" }
+		{ count: 8, item: "spectrum:topaz_shard" }
+	]
+	title: "crystals"
+}

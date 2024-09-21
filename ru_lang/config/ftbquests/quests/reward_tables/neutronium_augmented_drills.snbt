@@ -1,0 +1,18 @@
+{
+	id: "3ECE6057AD28619B"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{ item: "kubejs:neutronium_augmented_steel_drill" }
+		{ item: "kubejs:neutronium_augmented_aluminum_drill" }
+		{ item: "kubejs:neutronium_augmented_bronze_drill" }
+		{ item: "kubejs:neutronium_augmented_calorite_drill" }
+		{ item: "kubejs:neutronium_augmented_copper_drill" }
+		{ item: "kubejs:neutronium_augmented_desh_drill" }
+		{ item: "kubejs:neutronium_augmented_gold_drill" }
+		{ item: "kubejs:neutronium_augmented_ostrum_drill" }
+		{ item: "kubejs:neutronium_augmented_stainless_steel_drill" }
+		{ item: "kubejs:neutronium_augmented_titanium_drill" }
+	]
+	title: "Neutronium Augmented Drills"
+}

@@ -1,0 +1,2530 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mi_sev"
+	group: "47581D00C2556E50"
+	hide_quest_until_deps_visible: true
+	icon: "modern_industrialization:quantum_machine_hull"
+	id: "73F5A5AF101E30CB"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"027385AA21D8737B"
+				"4179B53FEBB8FC59"
+			]
+			id: "1C831B3953519FD5"
+			rewards: [{
+				id: "79F1142712FB5CBA"
+				item: "modern_industrialization:quantum_circuit_board"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5536F00AEEAA6B64"
+				item: "modern_industrialization:quantum_circuit_board"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6D20A245E4415A5F"
+				"1C831B3953519FD5"
+			]
+			id: "2DA54757A3D7740E"
+			rewards: [
+				{
+					id: "66211BB7EFCD9CD3"
+					item: "modern_industrialization:quantum_circuit"
+					type: "item"
+				}
+				{
+					id: "5BC565E69E9C56EF"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7AF5094534CEE44E"
+				item: "modern_industrialization:quantum_circuit"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4179B53FEBB8FC59"]
+			id: "6D20A245E4415A5F"
+			rewards: [
+				{
+					count: 2
+					id: "56F740C08D3E083D"
+					item: "modern_industrialization:superconductor_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3FF11858B444EE9C"
+					item: "modern_industrialization:qbit"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "13AC41B7EE5A9C1C"
+				item: "modern_industrialization:qbit"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"5CBC3371973E8F6E"
+				"2DA54757A3D7740E"
+			]
+			id: "0B96C1E27305CD1E"
+			rewards: [
+				{
+					id: "57A1C84EAEA0AAF9"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "687E4153ADB15289"
+					item: "modern_industrialization:quantum_machine_hull"
+					type: "item"
+				}
+				{
+					id: "46536068F459EB42"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "062CA2700181C092"
+				item: "modern_industrialization:quantum_machine_hull"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5180D69FA3D40F60"]
+			id: "0C923DCB2F346003"
+			rewards: [{
+				id: "49906A8D9432CE8C"
+				item: "modern_industrialization:fusion_chamber"
+				type: "item"
+			}]
+			tasks: [{
+				id: "335AF9095E210E64"
+				item: "modern_industrialization:fusion_chamber"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0C923DCB2F346003"
+				"2DA54757A3D7740E"
+				"0B96C1E27305CD1E"
+			]
+			description: ["&6Термоядерный реактор&r, необходим для генерации &eГелиевой плазмы&r"]
+			id: "5F01907B4C1C70AE"
+			rewards: [
+				{
+					id: "7F37F92800F34874"
+					item: "modern_industrialization:quantum_circuit"
+					type: "item"
+				}
+				{
+					id: "4C1D1EF3C6854A67"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "10C322C0E20356F5"
+					item: "kubejs:end_lootbag_rare"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "09789DE8028987DA"
+				item: "modern_industrialization:fusion_reactor"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.25d
+		}
+		{
+			dependencies: [
+				"0B96C1E27305CD1E"
+				"350FCE05FBB371C7"
+			]
+			description: ["&6Плазменная турбина&r, преобразует &eГелиевую плазму&r в &6энергию&r"]
+			id: "5E76E32793ED2D9D"
+			rewards: [
+				{
+					id: "7EDE11B4F38ECBF4"
+					item: "modern_industrialization:quantum_machine_hull"
+					type: "item"
+				}
+				{
+					id: "5670DEFA4A989459"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "1F46EB86FB1CF02A"
+					item: "kubejs:end_lootbag_rare"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "13F0C9EC4CFF02F9"
+				item: "modern_industrialization:plasma_turbine"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0B96C1E27305CD1E"]
+			id: "27354CCDC87F7A73"
+			rewards: [{
+				id: "715686689C7C76F8"
+				item: "modern_industrialization:quantum_machine_hull"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50E7D03AA9A9FAD9"
+				item: "modern_industrialization:superconductor_storage_unit"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0B96C1E27305CD1E"
+				"6B43798E997F1E52"
+			]
+			description: ["&6Нейтронный сборщик&r, необходим для сбора &0<shake>нейтрония</shake>&r"]
+			id: "48946D8D12B533AA"
+			rewards: [
+				{
+					id: "2CAE6FDD91293AE4"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "4DA959D972ADB9DE"
+					item: "kubejs:end_lootbag_rare"
+					type: "item"
+				}
+				{
+					id: "024FC28895CEB650"
+					item: "modern_industrialization:quantum_circuit"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "66D714DA0C3BBB9E"
+				item: "modern_industrialization:neutron_collector"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"67FC4A3B61E5811C"
+				"48946D8D12B533AA"
+			]
+			id: "385671C52437549B"
+			rewards: [
+				{
+					id: "366F9D38AC4001FC"
+					item: "kubejs:neutronium_ingot"
+					type: "item"
+				}
+				{
+					id: "39FCF7FF0C2406C6"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "24DCF00F58E4E2BF"
+				item: "kubejs:neutronium_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E407CD925C6F3EF"]
+			id: "6B43798E997F1E52"
+			rewards: [{
+				id: "2290F4666E6023DA"
+				item: "kubejs:neutron_capturing_mesh"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D96C73FE8E829CC"
+				item: "kubejs:neutron_capturing_mesh"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0B96C1E27305CD1E"]
+			description: ["&6Нейтрониевый компрессор&r, необходим для сжатия &0<shake>нейтрония</shake>&r"]
+			id: "67FC4A3B61E5811C"
+			rewards: [
+				{
+					id: "64C17A59CD7EEA42"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "69B64A367AC90337"
+					item: "kubejs:end_lootbag_rare"
+					type: "item"
+				}
+				{
+					id: "25B8C1DD3177A776"
+					item: "modern_industrialization:quantum_circuit"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3D39D8605C03F4EF"
+				item: "modern_industrialization:neutronium_compressor"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["58C877DC86206A23"]
+			id: "3D3A11D0B00FF79B"
+			rewards: [
+				{
+					id: "7ADB0DB9870305C2"
+					item: "kubejs:photonic_circuit"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2B63214BBDBC32BB"
+					item: "ad_astra:calorite_block"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2D76C732DFC6D277"
+					item: "modern_industrialization:tungsten_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "648ACA6B48FD13C9"
+					item: "modern_industrialization:compactium_ingot"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0F40FF4A651D9550"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_4_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -9.853231292516973d
+			y: -3.5289115646258153d
+		}
+		{
+			dependencies: ["0B96C1E27305CD1E"]
+			description: ["&6Камера деления&r, позволяет &4разделять&r &9простые частицы&r на другие &9простые частицы&r"]
+			id: "7C86182CF89C1EA5"
+			rewards: [
+				{
+					id: "5AAF1FADAA31E9D9"
+					item: "modern_industrialization:quantum_machine_hull"
+					type: "item"
+				}
+				{
+					id: "28A200A7252FA79B"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "1D73396860B7D7C5"
+					item: "kubejs:end_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "72DF90B37BC1934A"
+				item: "modern_industrialization:fission_chamber"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B96C1E27305CD1E"]
+			description: ["&6Конструктор слияния&r, позволяет &4объединять&r &9простые частицы&r для получения &4других&r &9простых частиц&r"]
+			id: "5B93BFA002989823"
+			rewards: [
+				{
+					id: "4C5E24EBC7F91227"
+					item: "modern_industrialization:quantum_circuit"
+					type: "item"
+				}
+				{
+					id: "5E408EDBBD8F159B"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "0E69BDD4341D4B12"
+					item: "kubejs:end_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "07129ED382A7C3CA"
+				item: "modern_industrialization:fusion_construct"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["42D5116257FC5FDF"]
+			id: "416102F2B37AD68A"
+			rewards: [{
+				count: 2
+				id: "7C43D89816BD39DC"
+				item: "architects_palette:unobtanium"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33DD0FDBCAFF393F"
+				item: "architects_palette:unobtanium"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["15B26C9D718A777A"]
+			description: ["Данный блок &4может связаться с выбранным блоком&r с помощью &6Entangled binder&r и &4выступать для доступа к нему&r"]
+			id: "4F9729DFAEAC4CB8"
+			rewards: [
+				{
+					id: "29347CFBB056614B"
+					item: {
+						Count: 1b
+						id: "entangled:block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "78A257624B003B61"
+					item: "architects_palette:unobtanium"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7EBF2C0FC433F822"
+				item: {
+					Count: 1b
+					id: "entangled:block"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"22DC92C228A96AF4"
+				"7AF5094534CEE44E"
+			]
+			description: ["&6Пространственная кузня&r, &4необходима&r для создания &4<shake>с</shake>&r&6<shake>и</shake>&r&e<shake>н</shake>&r&2<shake>г</shake>&r&b<shake>у</shake>&r&9<shake>л</shake>&r&5<shake>я</shake>&r&4<shake>р</shake>&r&6<shake>н</shake>&r&e<shake>о</shake>&r&2<shake>с</shake>&r&b<shake>т</shake>&r&9<shake>е</shake>&r&5<shake>й</shake>&r"]
+			hide_dependent_lines: true
+			id: "1BB283BBF2323FF1"
+			rewards: [
+				{
+					id: "77B8B069CF286BE8"
+					item: "modern_industrialization:quantum_circuit"
+					type: "item"
+				}
+				{
+					id: "6D1CE0AD1244B9A3"
+					item: "modern_industrialization:fusion_chamber"
+					type: "item"
+				}
+				{
+					id: "6122DAC3D0717136"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "04D6F639BEA61FA5"
+					item: "kubejs:end_lootbag_rare"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "61FF045D47375A8C"
+				item: "modern_industrialization:spatial_forge"
+				type: "item"
+			}]
+			x: -6.491666666666653d
+			y: 1.5428571428571303d
+		}
+		{
+			dependencies: ["5F01907B4C1C70AE"]
+			id: "350FCE05FBB371C7"
+			rewards: [{
+				id: "7726C4A9E19F351F"
+				item: "modern_industrialization:quantum_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5466F87AE9D11FC1"
+				item: "modern_industrialization:helium_plasma_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["36F5FA02E5F397E8"]
+			id: "36AD66F466216147"
+			rewards: [{
+				count: 4
+				id: "5B07B936AF615A96"
+				item: "fluxnetworks:flux_core"
+				type: "item"
+			}]
+			tasks: [{
+				id: "001FEC7735A341B8"
+				item: "fluxnetworks:flux_core"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["416102F2B37AD68A"]
+			description: ["&6Квантовое кольцо&r, позволяет получить доступ к &9МЭ&r &4из одной точки пространства в другую&r, необходима энергия на обоих концах кольца. Для связи нужно сингулярность"]
+			id: "1E2EA520ACC7FEE6"
+			rewards: [
+				{
+					count: 2
+					id: "10E54E3703C01663"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "67DDC0FB9CCE0019"
+					item: "ae2:fluix_smart_dense_cable"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "455792C9A9417843"
+				item: "ae2:quantum_ring"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["33DD0FDBCAFF393F"]
+			id: "15B26C9D718A777A"
+			rewards: [{
+				id: "3F1EBC092FE04B8D"
+				item: "ae2:spatial_cell_component_2"
+				type: "item"
+			}]
+			tasks: [{
+				id: "01B70FD0A29E6AC0"
+				item: "ae2:spatial_cell_component_2"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["15B26C9D718A777A"]
+			id: "6DD4FC644DFEA581"
+			rewards: [
+				{
+					id: "08927D380D7A197A"
+					item: "ae2:spatial_cell_component_2"
+					type: "item"
+				}
+				{
+					id: "73A76AD89267C99E"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "46BA504D90BB0DBA"
+				item: "ae2:spatial_cell_component_16"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6DD4FC644DFEA581"]
+			id: "35C701351DC293F2"
+			rewards: [
+				{
+					id: "5DF674ACDB19B835"
+					item: "ae2:spatial_cell_component_16"
+					type: "item"
+				}
+				{
+					id: "646CF09D9F9E353C"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "624AC167F44E5AD9"
+				item: "ae2:spatial_cell_component_128"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["416102F2B37AD68A"]
+			id: "22DC92C228A96AF4"
+			rewards: [{
+				count: 4
+				id: "0266368FD709BCB5"
+				item: "architects_palette:unobtanium"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C11C2EE877B0F9E"
+				item: "ae2:spatial_pylon"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38A24F58A368095B"]
+			description: ["Точка доступа к энергии в беспроводной энерго сети"]
+			id: "0444EC7C46FFB9DF"
+			rewards: [{
+				id: "136A4FE635791296"
+				item: "fluxnetworks:flux_point"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1FB413A6F33FE967"
+					item: "fluxnetworks:flux_plug"
+					type: "item"
+				}
+				{
+					id: "4772CFFD972F2410"
+					item: "fluxnetworks:flux_point"
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["36AD66F466216147"]
+			description: ["&4Главный блок&r беспроводной энерго сети"]
+			id: "38A24F58A368095B"
+			rewards: [
+				{
+					id: "364753A80BEB66A9"
+					item: "fluxnetworks:flux_core"
+					type: "item"
+				}
+				{
+					id: "1C1AF85D013356E9"
+					item: "kubejs:photonic_circuit"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "389E56E934004719"
+				item: "fluxnetworks:flux_controller"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38A24F58A368095B"]
+			description: ["Необходим для увеличения размера хранилища энергии в беспроводной сети"]
+			id: "02AAB414E9A755AF"
+			rewards: [
+				{
+					id: "65FE18B1F3087087"
+					item: "fluxnetworks:flux_core"
+					type: "item"
+				}
+				{
+					id: "53E7624ABE54AEC6"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "288A7526B28E6472"
+				item: "fluxnetworks:basic_flux_storage"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["02AAB414E9A755AF"]
+			id: "209D2227CA942419"
+			rewards: [
+				{
+					count: 2
+					id: "6E514930905DEA40"
+					item: "fluxnetworks:flux_core"
+					type: "item"
+				}
+				{
+					id: "2933992D6908149F"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5CFC78DD447DF210"
+				item: "fluxnetworks:herculean_flux_storage"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2C65C308880C41BF"]
+			id: "1F1EC6FA3D81248C"
+			rewards: [{
+				count: 8
+				id: "732F16C1A547077B"
+				item: "kubejs:refined_caterium"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67935942EA6A08FD"
+				item: "kubejs:refined_caterium"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5710BF241B634252"]
+			id: "36F5FA02E5F397E8"
+			rewards: [{
+				count: 8
+				id: "665C6DDF3D6231F0"
+				item: "kubejs:refined_turbinium"
+				type: "item"
+			}]
+			tasks: [{
+				id: "262D4E8A93C32AA4"
+				item: "kubejs:refined_turbinium"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["05B77979A94622E1"]
+			id: "27174AED4682C6C3"
+			rewards: [{
+				count: 8
+				id: "65D7C844DAAE26DF"
+				item: "kubejs:refined_naquadah"
+				type: "item"
+			}]
+			tasks: [{
+				id: "33A437DFAD5549F9"
+				item: "kubejs:refined_naquadah"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["27174AED4682C6C3"]
+			id: "36A6C8F5E9DF089A"
+			rewards: [
+				{
+					id: "0219061B73274A63"
+					item: "modern_industrialization:naquadah_fuel_rod_double"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "17E54FCA202F4520"
+					item: "kubejs:refined_naquadah"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "56EF20B220984A69"
+				item: "modern_industrialization:naquadah_fuel_rod_quad"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["33DD0FDBCAFF393F"]
+			id: "2A10635AF9EA9DAF"
+			rewards: [{
+				id: "2AC96B7E4B66ED2D"
+				item: "ae2:cell_component_256k"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0AFC8BC950744EEA"
+				item: "megacells:cell_component_1m"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2A10635AF9EA9DAF"]
+			id: "40B3EF5139C84192"
+			rewards: [
+				{
+					id: "0410F296E568DECB"
+					item: "megacells:cell_component_1m"
+					type: "item"
+				}
+				{
+					id: "5B75B577A6502A25"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2A2994043F993940"
+				item: "megacells:cell_component_4m"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["40B3EF5139C84192"]
+			id: "121C76F2447E7AF7"
+			rewards: [
+				{
+					id: "61F9EAFBA3116CDD"
+					item: "megacells:cell_component_4m"
+					type: "item"
+				}
+				{
+					id: "78BE91CE3DC4E14C"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6B5AA91D729C5FEA"
+				item: "megacells:cell_component_16m"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"121C76F2447E7AF7"
+				"5C6AB70C0237BBBD"
+			]
+			id: "3C91A623286EF9B1"
+			rewards: [
+				{
+					id: "2ECCC21168F75247"
+					item: "megacells:cell_component_16m"
+					type: "item"
+				}
+				{
+					id: "5F7CD343B5E3344F"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "14EAB758065F4582"
+				item: "megacells:cell_component_64m"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["3C91A623286EF9B1"]
+			id: "43A553FB4FB57468"
+			rewards: [
+				{
+					id: "0654786D36F66E42"
+					item: "megacells:cell_component_64m"
+					type: "item"
+				}
+				{
+					id: "5E294566995356D7"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "44D779471DA90EB6"
+				item: "megacells:cell_component_256m"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["209D2227CA942419"]
+			id: "6C520E6193CDDA83"
+			rewards: [
+				{
+					count: 4
+					id: "0877FF068A0987D0"
+					item: "fluxnetworks:flux_core"
+					type: "item"
+				}
+				{
+					id: "75AEB253161986FE"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2CC89F301A063357"
+				item: "fluxnetworks:gargantuan_flux_storage"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["416102F2B37AD68A"]
+			hide_dependency_lines: true
+			id: "65474213F76926D9"
+			rewards: [{
+				count: 4
+				id: "4ED9C87BE106B00A"
+				item: "architects_palette:unobtanium"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59413E012C00BD21"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["38A24F58A368095B"]
+			id: "3836E5A802109768"
+			rewards: [{
+				id: "2C479AFF35CE12A5"
+				item: "kubejs:photonic_circuit"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "50C55A0BBE1141C8"
+				item: "fluxnetworks:flux_configurator"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["416102F2B37AD68A"]
+			hide_dependency_lines: true
+			id: "06067DC29DDECD8B"
+			rewards: [
+				{
+					id: "113161EB32BF3A97"
+					item: "megacells:mega_crafting_unit"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6976F2C9ACF1C48C"
+					item: "architects_palette:unobtanium"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5023E1818979F1C7"
+				item: "megacells:mega_crafting_unit"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["416102F2B37AD68A"]
+			hide_dependency_lines: true
+			id: "06A2F6B23473D413"
+			rewards: [
+				{
+					id: "5DF6612E9D80EC59"
+					item: "megacells:mega_crafting_accelerator"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5B61A378B5F94891"
+					item: "architects_palette:unobtanium"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0F5BAD4F5D9FB819"
+				item: "megacells:mega_crafting_accelerator"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["416102F2B37AD68A"]
+			hide_dependency_lines: true
+			id: "76350F0037874A48"
+			rewards: [{
+				count: 4
+				id: "189267758794F1D8"
+				item: "architects_palette:unobtanium"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67F0F602F2495A6F"
+				item: "megacells:mega_item_cell_housing"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["416102F2B37AD68A"]
+			hide_dependency_lines: true
+			id: "3666E61D0934A4F4"
+			rewards: [
+				{
+					count: 4
+					id: "1CD0279A49B3454C"
+					item: "architects_palette:unobtanium"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "3A86E226A1D3C9DD"
+					item: "botania:blacker_lotus"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "76850C606830182C"
+				item: "megacells:mega_fluid_cell_housing"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["416102F2B37AD68A"]
+			hide_dependency_lines: true
+			id: "62F5D6BF0657F804"
+			rewards: [
+				{
+					id: "754A7C3F98AA9DAD"
+					item: "megacells:mega_pattern_provider"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7C700F4F38A7D762"
+					item: "architects_palette:unobtanium"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "483B1D210A8BC136"
+				item: "megacells:mega_pattern_provider"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"64B0EDAD5353CBA3"
+				"121C76F2447E7AF7"
+				"6DD4FC644DFEA581"
+			]
+			id: "50153A3E63D75BD1"
+			rewards: [
+				{
+					count: 4
+					id: "25945B00392E5FED"
+					item: "architects_palette:unobtanium"
+					type: "item"
+				}
+				{
+					id: "69C73AF902185133"
+					item: "megacells:bulk_cell_component"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "080D9D6A81549BC5"
+				item: "megacells:bulk_cell_component"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2DA54757A3D7740E"]
+			id: "62A382BB6FB7546E"
+			rewards: [{
+				id: "22968735317BE6C7"
+				item: "modern_industrialization:quantum_machine_hull"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DC397031F48CAAC"
+				item: "modern_industrialization:quantum_barrel"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2DA54757A3D7740E"]
+			id: "0C52605AB7344611"
+			rewards: [{
+				id: "46EF015B8C9CCE7A"
+				item: "modern_industrialization:quantum_machine_hull"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1581C81A91DF96A2"
+				item: "modern_industrialization:quantum_tank"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"416102F2B37AD68A"
+				"2DA54757A3D7740E"
+			]
+			description: ["&6Лучший ускоритель в моде&r, позволяет увеличить лимит разгона любого крафта до максимума"]
+			id: "465C8964A11B1A00"
+			tasks: [{
+				id: "33057AA446838F1A"
+				item: "modern_industrialization:quantum_upgrade"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D3A11D0B00FF79B"]
+			id: "42D5116257FC5FDF"
+			rewards: [
+				{
+					id: "35759108D0099BA1"
+					item: "ad_astra:glacio_globe"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3DDB8ADA8BB151D9"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+				{
+					id: "04A922C41D4AE502"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 3.5d
+			tasks: [{
+				dimension: "ad_astra:glacio"
+				icon: "ad_astra:glacio_globe"
+				id: "7901091A40D2192E"
+				type: "dimension"
+			}]
+			x: -6.515476190476193d
+			y: -3.5142857142857125d
+		}
+		{
+			dependencies: ["65474213F76926D9"]
+			id: "64B0EDAD5353CBA3"
+			rewards: [{
+				count: 4
+				id: "72347FCBD6CE1149"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25FCB314C7FEC14C"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["01B70FD0A29E6AC0"]
+			description: ["&6Станция дронов&r, &4один&r из видов получения ресурсов"]
+			id: "1E18B13F50E05755"
+			rewards: [
+				{
+					id: "40D66040EBC77717"
+					item: "kubejs:photonic_circuit"
+					type: "item"
+				}
+				{
+					id: "420CC874B0FF6CF5"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "48507B1EBCE2BCE6"
+					item: "kubejs:end_lootbag_rare"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "0014CC33F634E69E"
+				item: "modern_industrialization:drone_station"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E18B13F50E05755"]
+			id: "046E1B2D282E738E"
+			rewards: [{
+				id: "211F4999EB2C33AA"
+				item: "ad_astra:calorite_engine"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "18D45B1F60C8446F"
+				item: "kubejs:mining_drone"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["416102F2B37AD68A"]
+			description: ["&6Прогрузчик чанков&r, прогружает &4только&r когда &4его владелец онлайн&r. &6Владелец определяется первым открытием интерфейса&r"]
+			id: "0D2303A725B4A25C"
+			rewards: [
+				{
+					count: 4
+					id: "768AB4F6F956A300"
+					item: "architects_palette:unobtanium"
+					type: "item"
+				}
+				{
+					id: "143D0A0675A1A24C"
+					item: "kubejs:spectral_circuit_board"
+					type: "item"
+				}
+				{
+					id: "5333256459C5E28B"
+					item: "kubejs:end_lootbag_rare"
+					type: "item"
+				}
+				{
+					id: "4AB2CB2186C15275"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "7F5059E7C3A86BC8"
+				item: "chunkloaders:basic_chunk_loader"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["25D80C3480AF56C0"]
+			description: ["<shake>Бесконечные забурники!</shake>"]
+			id: "3A7DBF1A575CA746"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "579BA6287BBF5FC4"
+					table_id: 4525660605237453211L
+					type: "choice"
+				}
+				{
+					id: "1951217C026931DD"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3CC2F06802A39D50"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "mif:neutronium_augmented_drills"
+					}
+				}
+				title: "Any #mif:neutronium_augmented_drills"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"47AEA0C5F176D939"
+				"58C877DC86206A23"
+			]
+			id: "5180D69FA3D40F60"
+			rewards: [
+				{
+					count: 16
+					id: "6A0F05489E9D20BF"
+					item: "modern_industrialization:iridium_plate"
+					type: "item"
+				}
+				{
+					id: "505D2B61C534E42F"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0925D307147239F3"
+				item: "modern_industrialization:plasma_handling_iridium_machine_casing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"7F1E78E14355EEF5"
+				"47AEA0C5F176D939"
+				"6D24CFB221C9D8F4"
+			]
+			description: ["&6Молекулярный деконструктор&r, &4необходим&r для &4разбора&r предметов на &9простые частицы&r"]
+			id: "2E407CD925C6F3EF"
+			rewards: [{
+				id: "2D82F22137BA03DB"
+				item: "kubejs:photonic_circuit"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "08E4E4F0230202A7"
+				item: "modern_industrialization:molecular_deconstructor"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2B7E7B2E80ECBB07"
+				"42D5116257FC5FDF"
+			]
+			id: "6495AE627F22DB93"
+			rewards: [
+				{
+					count: 32
+					id: "6AD2D691D60BC5E1"
+					item: "neepmeat:meat_steel_ingot"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "2744E76B314A6758"
+					item: "mythicmetals:osmium_ingot"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "786F6DAA3BD70569"
+				item: "neepmeat:extractor"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["36AD66F466216147"]
+			description: ["&6Улучшенная большая паровая турбина&r, имеет увеличенный вывод энергии в &4256к&r eu\\t, а так же &4более эффективное потребление других видов пара&r"]
+			id: "0AE3A5BEBF1B3484"
+			rewards: [{
+				id: "17E86C0D228ACD3D"
+				item: "kubejs:photonic_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "008BE227A5C7180A"
+				item: "modern_industrialization:turbinium_steam_turbine"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "6C46C6F5F54E104C"
+			rewards: [{
+				id: "3653155D0458D67F"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "22B7914846C144EE"
+				item: "kubejs:antimony_singularity"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "0EBA67A1C6F019D4"
+			rewards: [{
+				id: "2FA103861096CD11"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7F1EC35B3CBBF070"
+				item: "kubejs:lead_singularity"
+				type: "item"
+			}]
+			x: -11.972108843537413d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "7EFDC319629328F5"
+			rewards: [{
+				id: "446ED6AAE4FEBF56"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "79D24B1AB22E8D6B"
+				item: "kubejs:nickel_singularity"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "101DCA78C691C3E9"
+			rewards: [{
+				id: "0080AD511D4C8BE4"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "00898C5A728863E5"
+				item: "kubejs:aluminum_singularity"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "2EE121EC99869938"
+			rewards: [{
+				id: "7AAC12DEB7352A18"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0138D43A10BA24AA"
+				item: "kubejs:tin_singularity"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "43D223C38D4EABE0"
+			rewards: [{
+				id: "71C4070D2FB3D40A"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2597D5C7481CC93F"
+				item: "kubejs:tungsten_singularity"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "6CCBEB79A974AFE9"
+			rewards: [{
+				id: "60CE5632529F9F97"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "652EE60FDF294E62"
+				item: "kubejs:silver_singularity"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "0B42A80A65D5FA84"
+			rewards: [{
+				id: "0CB169D7B077E3CB"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "40EF4B6326932983"
+				item: "kubejs:uranium_singularity"
+				type: "item"
+			}]
+			x: -11.472108843537413d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "3D46B02E08E3143A"
+			rewards: [{
+				id: "4C85D8B1E4C1FC97"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1FB97C8DB6CAB11D"
+				item: "kubejs:iridium_singularity"
+				type: "item"
+			}]
+			x: -12.472108843537413d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "18E8FAC5E47FBC78"
+			rewards: [{
+				id: "04307282849D03D4"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3C915576B06F9655"
+				item: "kubejs:titanium_singularity"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "654BB0D9F0DE3AFF"
+			rewards: [{
+				id: "72DB241C52FBD9D4"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4B1354B3C66AF5E8"
+				item: "kubejs:platinum_singularity"
+				type: "item"
+			}]
+			x: -10.972108843537413d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "70A773AE239FFEFF"
+			rewards: [{
+				id: "6C10DBA795691CC9"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "279933FBC6013845"
+				item: "kubejs:chromium_singularity"
+				type: "item"
+			}]
+			x: -11.972108843537413d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "4C5A067D92FBA40E"
+			rewards: [{
+				id: "018404F2F09FB309"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3F9855E251D476FB"
+				item: "kubejs:beryllium_singularity"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "6289326F29619832"
+			rewards: [{
+				id: "6574C4BAAA3F8CDF"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6D36345E1BAA2BF2"
+				item: "kubejs:banglum_singularity"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "1CA8D88A569B36DD"
+			rewards: [{
+				id: "57094F8623AE3F75"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3486014FD1EBB93B"
+				item: "kubejs:carmot_singularity"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "47EC0C74F64AE55A"
+			rewards: [{
+				id: "642967EC4B948AE8"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "59291CB75C2D31E8"
+				item: "kubejs:kyber_singularity"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "18F879677A72902E"
+			rewards: [{
+				id: "4A7251E516E0B283"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1B8A5195D75195B7"
+				item: "kubejs:mythril_singularity"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "2B6E14CA4082DAE3"
+			rewards: [{
+				id: "562945A77575DE89"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0DFBD50ACF21B38F"
+				item: "kubejs:orichalcum_singularity"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "6629B6045D262072"
+			rewards: [{
+				id: "2F51C92947248868"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "787F0A247891132C"
+				item: "kubejs:osmium_singularity"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "35900649D9A2461A"
+			rewards: [{
+				id: "58C328C57A11E08D"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7FE85D9A55FE5E96"
+				item: "kubejs:quadrillum_singularity"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "3F298D2D72C6F4D6"
+			rewards: [{
+				id: "5781D21DB12500E1"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7B9089381061107E"
+				item: "kubejs:prometheum_singularity"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "70327FE2342B4061"
+			rewards: [{
+				id: "28369D4C924BB2E3"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "52006BC0ACB3273B"
+				item: "kubejs:iron_singularity"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "23C8D4A85AF38254"
+			rewards: [{
+				id: "201B40A259607849"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "70C69B2D7D30D94F"
+				item: "kubejs:redstone_singularity"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "37498495C26D8574"
+			rewards: [{
+				id: "124619EA9D87A8B4"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "44F238185AC5CB07"
+				item: "kubejs:gold_singularity"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "03F59A2807CC8CFF"
+			rewards: [{
+				id: "4BD52697B2F0F7B3"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1D43D257B3325951"
+				item: "kubejs:diamond_singularity"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "3E2576F6719170BD"
+			rewards: [{
+				id: "55A027A020DB464F"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6650D46D9A587FCA"
+				item: "kubejs:emerald_singularity"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "6BF07A84F404B692"
+			rewards: [{
+				id: "2E0D048369EFF85A"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0913DE2BEA5D6BF7"
+				item: "kubejs:lapis_singularity"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "353EFED754F7BD46"
+			rewards: [{
+				id: "3D04774C9CEBA64C"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "123D372045BE7C3C"
+				item: "kubejs:quartz_singularity"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "017537301C98E069"
+			rewards: [{
+				id: "7C3D3100901E8A3D"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4AD3991B1E433529"
+				item: "kubejs:amethyst_singularity"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "068DB018E95657D0"
+			rewards: [{
+				id: "3715B54B73AA8347"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4135BDF2D791619F"
+				item: "kubejs:netherite_singularity"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "2EF182D7747BC3A5"
+			rewards: [{
+				id: "4F19B9F4E55EDA53"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "13C7EA9E599DE636"
+				item: "kubejs:citrine_singularity"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "6C0D309FE49C7771"
+			rewards: [{
+				id: "5DC47BFED1F8D764"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2B0610F2665D2439"
+				item: "kubejs:topaz_singularity"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "4264B4BB2474F789"
+			rewards: [{
+				id: "5BE4AD4737E32F3A"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "015FE33319C7717A"
+				item: "kubejs:onyx_singularity"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "218D2691C4726DAD"
+			rewards: [{
+				id: "5982E3880C3D040F"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2B39A17DCDF3DF9F"
+				item: "kubejs:moonstone_singularity"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "2119CF5450A6821E"
+			rewards: [{
+				id: "241BD3C75E6FF028"
+				item: "kubejs:end_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0344B5C439124DE1"
+				item: "kubejs:copper_singularity"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5F1381C00EE5079D"]
+			id: "5202E95A1F3445C6"
+			rewards: [
+				{
+					id: "55642BCFF88DD66B"
+					item: "kubejs:end_lootbag_rare"
+					type: "item"
+				}
+				{
+					id: "5EBB096CC4E2EC79"
+					item: "kubejs:end_lootbag_epic"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2AD0B5B30EE539A4"
+				item: "kubejs:infinity_ingot"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"7EFDC319629328F5"
+				"18F879677A72902E"
+				"218D2691C4726DAD"
+				"2B6E14CA4082DAE3"
+				"37498495C26D8574"
+				"23C8D4A85AF38254"
+				"47EC0C74F64AE55A"
+				"4C5A067D92FBA40E"
+				"068DB018E95657D0"
+				"3F298D2D72C6F4D6"
+				"353EFED754F7BD46"
+				"0B42A80A65D5FA84"
+				"70327FE2342B4061"
+				"101DCA78C691C3E9"
+				"35900649D9A2461A"
+				"6BF07A84F404B692"
+				"4264B4BB2474F789"
+				"1CA8D88A569B36DD"
+				"70A773AE239FFEFF"
+				"18E8FAC5E47FBC78"
+				"03F59A2807CC8CFF"
+				"6CCBEB79A974AFE9"
+				"6C46C6F5F54E104C"
+				"3D46B02E08E3143A"
+				"2EE121EC99869938"
+				"654BB0D9F0DE3AFF"
+				"017537301C98E069"
+				"6289326F29619832"
+				"2119CF5450A6821E"
+				"2EF182D7747BC3A5"
+				"6629B6045D262072"
+				"0EBA67A1C6F019D4"
+				"43D223C38D4EABE0"
+				"3E2576F6719170BD"
+				"6C0D309FE49C7771"
+			]
+			id: "5F1381C00EE5079D"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "0063CCEEA6EA9F78"
+					item: "kubejs:end_lootbag_rare"
+					type: "item"
+				}
+				{
+					id: "56B2B3A8AF0A40F2"
+					item: "kubejs:end_lootbag_epic"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "22ACB22FBAE37191"
+				item: "kubejs:infinity_catalyst"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5202E95A1F3445C6"]
+			id: "1773A9A926688A6A"
+			rewards: [{
+				id: "30E2E263E8A4C090"
+				item: "kubejs:end_lootbag_epic"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A915E01F67B6C68"
+				item: "modern_industrialization:quantum_sword"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5202E95A1F3445C6"]
+			id: "5AB2BA348F0856C2"
+			rewards: [{
+				id: "08729F8F3B0035FA"
+				item: "kubejs:end_lootbag_epic"
+				type: "item"
+			}]
+			tasks: [{
+				id: "66E0029B8283C38A"
+				item: "modern_industrialization:quantum_helmet"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5202E95A1F3445C6"]
+			id: "1FFBA3D0817A2561"
+			rewards: [{
+				id: "62DA6D27664F2BEE"
+				item: "kubejs:end_lootbag_epic"
+				type: "item"
+			}]
+			tasks: [{
+				id: "512108DE823020EF"
+				item: "modern_industrialization:quantum_chestplate"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5202E95A1F3445C6"]
+			id: "17D7A146E3B4A4A0"
+			rewards: [{
+				id: "1781AB60EDAA52B4"
+				item: "kubejs:end_lootbag_epic"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F57AAEC8024F3EC"
+				item: "modern_industrialization:quantum_leggings"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["5202E95A1F3445C6"]
+			id: "71376CE5E2A5B55C"
+			rewards: [{
+				id: "0C0D72EBFCD3A6B7"
+				item: "kubejs:end_lootbag_epic"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E648F5330F6A429"
+				item: "modern_industrialization:quantum_boots"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0B96C1E27305CD1E"]
+			description: ["&6Манипулятор частиц&r, позволяет &4создавать&r предметы из &9простых частиц&r"]
+			id: "6C2D2C561DDED656"
+			rewards: [
+				{
+					id: "073805DB377E71A8"
+					item: "kubejs:end_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "53568EE0744C1F7E"
+					item: "kubejs:end_lootbag_rare"
+					type: "item"
+				}
+				{
+					id: "763E94AD6FFF9E71"
+					item: "modern_industrialization:quantum_circuit"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C0BA55B5AD8D30D"
+				item: "modern_industrialization:particle_manipulator"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0C550C32C45DDC5C"
+				"7901091A40D2192E"
+			]
+			id: "5CBC3371973E8F6E"
+			rewards: [{
+				id: "4F765333185DD8A2"
+				item: "modern_industrialization:quantum_machine_casing"
+				type: "item"
+			}]
+			tasks: [{
+				id: "103C7A23FC24CFCD"
+				item: "modern_industrialization:quantum_machine_casing"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "1147E1C14852C9CE"
+			rewards: [{
+				count: 16
+				id: "1DFE3043E98BFDBB"
+				item: "itemalchemy:red_matter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4986D4A8153E6A5C"
+				item: "itemalchemy:red_matter"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1BB283BBF2323FF1"]
+			id: "2DB58ECA34B60888"
+			rewards: [{
+				count: 16
+				id: "4D667D8915610BDD"
+				item: "itemalchemy:dark_matter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58A92E8D5CEDBCD1"
+				item: "itemalchemy:dark_matter"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["69D4F13039AAEFC8"]
+			description: ["Установив &4рядом&r с &9Material condenser&r будет передавать в него &6EMC.&r Работает &4только&r под &eсолнцем&r"]
+			id: "2A2862E9AB3564C3"
+			rewards: [{
+				id: "56AA27E52029C6B9"
+				item: "itemalchemy:emc_collector_mk1"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1269096CE86F0AFB"
+				item: "itemalchemy:emc_collector_mk1"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2A2862E9AB3564C3"]
+			id: "1EA624CD68D8DC59"
+			rewards: [
+				{
+					id: "11F541B2007C1516"
+					item: "itemalchemy:emc_collector_mk2"
+					type: "item"
+				}
+				{
+					id: "2D253172C9DC78D9"
+					item: "kubejs:end_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2AB560F93B955285"
+				item: "itemalchemy:emc_collector_mk2"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1EA624CD68D8DC59"]
+			id: "3004B16F612EF4D9"
+			rewards: [
+				{
+					id: "3DEA7CB41E731737"
+					item: "itemalchemy:emc_collector_mk3"
+					type: "item"
+				}
+				{
+					id: "6B12B2A83F61EE71"
+					item: "kubejs:end_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "602D311F6D81BD38"
+				item: "itemalchemy:emc_collector_mk3"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2817818455388A46"]
+			id: "783DE5840B24680C"
+			rewards: [
+				{
+					id: "35F3A01022A04A0C"
+					item: "itemalchemy:emc_collector_mk5"
+					type: "item"
+				}
+				{
+					id: "6591DBD04728F879"
+					item: "kubejs:end_lootbag_rare"
+					type: "item"
+				}
+				{
+					id: "09F134B4D803F935"
+					item: "kubejs:end_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C5835C9B9E368AA"
+				item: "itemalchemy:emc_collector_mk5"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3004B16F612EF4D9"]
+			id: "2817818455388A46"
+			rewards: [
+				{
+					id: "535C955F38ABFBBE"
+					item: "itemalchemy:emc_collector_mk4"
+					type: "item"
+				}
+				{
+					id: "37540955E794E019"
+					item: "kubejs:end_lootbag_rare"
+					type: "item"
+				}
+				{
+					id: "17414A360B430FAB"
+					item: "kubejs:end_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "71EEFC9D690F1A22"
+				item: "itemalchemy:emc_collector_mk4"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["69D4F13039AAEFC8"]
+			description: ["В отличии от &6EMC&r collector &4должен быть установлен на расстоянии в 1 блок&r от &9Material condenser&r и &4касаться его или другой AEGU&r. Сл-но максимально эффективное рассположение будет &4куб 3х3х3 с Material condenser в центре&r"]
+			id: "1C902EAC3680BA7C"
+			rewards: [
+				{
+					id: "5135D42E6BFEA2A1"
+					item: "itemalchemy:aegu"
+					type: "item"
+				}
+				{
+					id: "6DDE148E199FC8C7"
+					item: "kubejs:end_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3B83C0A7518EF35F"
+				item: "itemalchemy:aegu"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1C902EAC3680BA7C"]
+			id: "0A079617B299939C"
+			rewards: [{
+				id: "68AF8A57EBB11C15"
+				item: "itemalchemy:advanced_aegu"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6060A65F290039FD"
+				item: "itemalchemy:advanced_aegu"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0A079617B299939C"]
+			id: "554238EA45FF0F18"
+			rewards: [
+				{
+					id: "1E759D09602F7CB3"
+					item: "itemalchemy:ultimate_aegu"
+					type: "item"
+				}
+				{
+					id: "3ECE471921FB9D9A"
+					item: "kubejs:end_lootbag_rare"
+					type: "item"
+				}
+				{
+					id: "3214A18D15424C18"
+					item: "kubejs:end_lootbag_epic"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2C0ADAEE4AA07DD6"
+				item: "itemalchemy:ultimate_aegu"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"2DB58ECA34B60888"
+				"1147E1C14852C9CE"
+			]
+			description: ["&6Бесконечная&r генерация <shake>элементов!</shake>"]
+			id: "69D4F13039AAEFC8"
+			tasks: [{
+				id: "2FD465BBA4F437B3"
+				item: "itemalchemy:emc_condenser"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2A2862E9AB3564C3"]
+			description: ["Можно использовать для &4более удобного подключения&r к Material condenser. &4Все примыкающие&r к repeater emc collector-ы будут отдавать свою энергию дальше по цепочке repeater-ов пока не дойдут до &9Material condenser&r"]
+			id: "6CC1A9B1B0196C6D"
+			rewards: [{
+				count: 4
+				id: "552362460AE9FFD9"
+				item: "itemalchemy:emc_repeater"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E673E030B9DCBB3"
+				item: "itemalchemy:emc_repeater"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4F9729DFAEAC4CB8"]
+			id: "070562129A81ABAB"
+			tasks: [{
+				id: "5A3AE70C6D4B8D2E"
+				item: "entangled:item"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["48946D8D12B533AA"]
+			id: "25D80C3480AF56C0"
+			rewards: [{
+				id: "495B9F9A9F674968"
+				item: "kubejs:neutron_nugget"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42BCA851C721CA22"
+				item: "kubejs:neutron_nugget"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+	]
+	title: "&7Spatial technologies | UEV"
+}

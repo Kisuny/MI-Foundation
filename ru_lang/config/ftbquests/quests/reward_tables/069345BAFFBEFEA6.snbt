@@ -1,0 +1,17 @@
+{
+	id: "069345BAFFBEFEA6"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 256, item: "minecraft:oak_log" }
+		{ count: 256, item: "minecraft:spruce_log" }
+		{ count: 256, item: "minecraft:birch_log" }
+		{ count: 256, item: "minecraft:jungle_log" }
+		{ count: 256, item: "minecraft:acacia_log" }
+		{ count: 256, item: "minecraft:dark_oak_log" }
+		{ count: 256, item: "minecraft:mangrove_log" }
+		{ count: 256, item: "minecraft:crimson_stem" }
+		{ count: 256, item: "minecraft:warped_stem" }
+	]
+	title: "wood"
+}

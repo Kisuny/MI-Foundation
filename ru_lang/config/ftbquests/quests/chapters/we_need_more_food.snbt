@@ -1,0 +1,2640 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "we_need_more_food"
+	group: "05C42DC8B5A65584"
+	icon: "farmersdelight:hamburger"
+	id: "3E2A8247491002E6"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4A828E8EB7BF626F"]
+			hide: true
+			hide_dependent_lines: true
+			id: "58D2E9E0EDF7FDE3"
+			rewards: [
+				{
+					auto: "disabled"
+					id: "6C440AF1F74A8861"
+					item: {
+						Count: 1b
+						id: "farmersdelight:iron_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "disabled"
+					id: "24586453A8D48CF2"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					auto: "disabled"
+					exclude_from_claim_all: true
+					id: "30A7D1933C9918E8"
+					table_id: 9151322381527170305L
+					type: "choice"
+				}
+				{
+					auto: "disabled"
+					id: "6AB51145C7125E0F"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "32C524D513106872"
+					item: "farmersdelight:tomato"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4905BE38E3910316"
+					item: "farmersdelight:onion"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2EB6F3E7E3CF1A4C"
+					item: "farmersdelight:rice_panicle"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "24D278360B1EAB0A"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "782FD13437ABB8BD"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3AAC2144337DF8F2"
+					item: "minecraft:beetroot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6DDADF77955379BC"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3991E1ABA66546C4"
+					item: "minecraft:kelp"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "41115437DFAC0843"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+			]
+			title: "Нам нужно больше еды"
+			x: -19.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "75A0539153D76E7C"
+			rewards: [{
+				id: "62B56B328F717331"
+				item: "minecraft:composter"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "06FA1FB531C32979"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			title: "Органичненько"
+			x: -19.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["75A0539153D76E7C"]
+			hide: true
+			id: "6887D176642F6373"
+			rewards: [{
+				count: 10
+				id: "47FB2E2870160AB6"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5FEAE454747E1040"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			title: "Ваше плодородие"
+			x: -19.0d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"663BB2D450652922"
+				"58D2E9E0EDF7FDE3"
+			]
+			hide: true
+			hide_dependent_lines: true
+			icon: "farmersdelight:stove"
+			id: "333536F3FC5B9956"
+			rewards: [
+				{
+					id: "4EE3349204AC3BAA"
+					item: "kubejs:food_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 60
+					id: "3BD5DA262DC016EB"
+					item: "numismatic-overhaul:bronze_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2F00A481550B8FDB"
+					item: {
+						Count: 1b
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B7083ECE48C4597"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					id: "2D3FE5E7374E9AB4"
+					item: "farmersdelight:cooking_pot"
+					type: "item"
+				}
+				{
+					id: "770CC090A680A2DF"
+					item: "expandeddelight:juicer_item"
+					type: "item"
+				}
+			]
+			title: "Кухонный апгрейд"
+			x: -19.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			icon: "artifacts:eternal_steak"
+			id: "5C1B50F6EA08B313"
+			rewards: [
+				{
+					id: "6A23C1F68ADA2BF4"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "656DAD418C6C2423"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6CCF4E087906A1B0"
+					item: "minecraft:cooked_mutton"
+					type: "item"
+				}
+				{
+					id: "70309433EFBB4337"
+					item: "minecraft:cooked_porkchop"
+					type: "item"
+				}
+				{
+					id: "5517554A90E3D398"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					id: "0C930AB0CC66E757"
+					item: "minecraft:cooked_chicken"
+					type: "item"
+				}
+				{
+					id: "130E08329A610EE6"
+					item: "farmersdelight:cooked_chicken_cuts"
+					type: "item"
+				}
+				{
+					id: "670774580BC45AF7"
+					item: "farmersdelight:cooked_bacon"
+					type: "item"
+				}
+				{
+					id: "464113385FB36254"
+					item: "farmersdelight:beef_patty"
+					type: "item"
+				}
+				{
+					id: "779CC995C5C81914"
+					item: "minecraft:cooked_rabbit"
+					type: "item"
+				}
+			]
+			title: "Ад вегетарианца"
+			x: -19.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "411703A590DEE41F"
+			rewards: [{
+				count: 10
+				id: "09588B3945A9179C"
+				item: "numismatic-overhaul:bronze_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "125E51E53C8CAB8C"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["411703A590DEE41F"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "15B535453D4815D2"
+			rewards: [{
+				count: 10
+				id: "1130EAA56CC88A44"
+				item: "numismatic-overhaul:bronze_coin"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2F6E8F7D008F2EE6"
+				item: "farmersdelight:pie_crust"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["15B535453D4815D2"]
+			id: "3873AF29E3574D9F"
+			rewards: [
+				{
+					count: 2
+					id: "5BBF31C8624FEE8A"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+				{
+					id: "6993872E8ED72421"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7DD1D1880A3CA097"
+				item: "bewitchment:witchberry_pie"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["15B535453D4815D2"]
+			id: "0571737D340EA0ED"
+			rewards: [
+				{
+					count: 2
+					id: "57D091E5D4E6D91F"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+				{
+					id: "14CDB589812252F2"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2585C91CE649B743"
+				item: "farmersdelight:apple_pie"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["15B535453D4815D2"]
+			id: "5701365DB36E65D5"
+			rewards: [
+				{
+					count: 2
+					id: "6EAEA240EFF51704"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+				{
+					id: "7BE1D958117CA8BF"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2E55F0EFD62EE336"
+				item: "farmersdelight:chocolate_pie"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"15B535453D4815D2"
+				"27ECD57806374C03"
+			]
+			id: "62F62908CBEC95EE"
+			rewards: [
+				{
+					count: 2
+					id: "34355E688264C183"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+				{
+					id: "4CABA916947865DD"
+					item: "kubejs:food_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "777B91E988FEA4CB"
+				item: "minecraft:pumpkin_pie"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["15B535453D4815D2"]
+			id: "4CE7BABA595618D0"
+			rewards: [
+				{
+					count: 5
+					id: "6BAB0624BF86D257"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+				{
+					id: "6DA49B1313A60F1D"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "11FF65084F72E719"
+				item: "farmersdelight:shepherds_pie_block"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["27ECD57806374C03"]
+			id: "1D5F53A7450AD8BD"
+			rewards: [{
+				id: "48983D1A40224379"
+				item: "kubejs:food_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3ABA6B8FD51E8912"
+				item: "farmersdelight:melon_juice"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["27ECD57806374C03"]
+			id: "5C0F6059A5B3C359"
+			rewards: [{
+				id: "2134C56B0AF12598"
+				item: "kubejs:food_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3F19C2BFB0226E1C"
+				item: "farmersdelight:melon_popsicle"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"27ECD57806374C03"
+				"333536F3FC5B9956"
+			]
+			id: "2D78CD57B2B1A286"
+			rewards: [
+				{
+					id: "041ABF0CA7EB5B4A"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "084A625A03DEB525"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "563732DCE549DDAC"
+				item: "farmersdelight:stuffed_pumpkin_block"
+				type: "item"
+			}]
+			x: -28.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			hide_dependent_lines: true
+			icon: "minecraft:sweet_berries"
+			id: "27ECD57806374C03"
+			rewards: [{
+				count: 5
+				id: "5E7DD45490EBB60A"
+				item: "numismatic-overhaul:silver_coin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "22B3799CDC314911"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+				{
+					id: "674606E7E57DF0A2"
+					item: "minecraft:glow_berries"
+					type: "item"
+				}
+				{
+					id: "49A364E5EC1AD438"
+					item: "minecraft:cocoa_beans"
+					type: "item"
+				}
+				{
+					id: "20D0FC55D6CCE142"
+					item: "bewitchment:witchberry"
+					type: "item"
+				}
+				{
+					id: "4DB4F65C6D5D91A4"
+					item: "farmersdelight:pumpkin_slice"
+					type: "item"
+				}
+				{
+					id: "77A449F1FDC28504"
+					item: "minecraft:melon_slice"
+					type: "item"
+				}
+			]
+			x: -20.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["27ECD57806374C03"]
+			id: "5A70D82D27BBB488"
+			rewards: [{
+				id: "79EF2F642728F47E"
+				item: "kubejs:food_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3AE384275B76C8CD"
+				item: "farmersdelight:hot_cocoa"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["27ECD57806374C03"]
+			icon: "expandeddelight:sweet_roll"
+			id: "45A8E735E15B9E2B"
+			rewards: [{
+				id: "22D8375AD6348B8C"
+				item: "kubejs:food_lootbag_rare"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "42C1DCB40049F38E"
+				item: "expandeddelight:sweet_roll"
+				type: "item"
+			}]
+			x: -25.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["27ECD57806374C03"]
+			id: "56C5387E6C7AECC8"
+			rewards: [{
+				id: "55F7CE8ED3643EC9"
+				item: "kubejs:food_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "636E1FF227F377E8"
+				item: "expandeddelight:sweet_berry_juice"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["27ECD57806374C03"]
+			id: "417AD4F39F03310A"
+			rewards: [{
+				id: "73F1A4446C1DB449"
+				item: "kubejs:food_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "21C6591B50AEF34A"
+				item: "expandeddelight:glow_berry_juice"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["27ECD57806374C03"]
+			id: "4BB3C191A745FC8D"
+			rewards: [{
+				id: "068D635D8E11469C"
+				item: "kubejs:food_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3E2ECBE1AD60FA1E"
+				item: "expandeddelight:glow_berry_jelly"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["27ECD57806374C03"]
+			id: "44DAF95E53AF587B"
+			rewards: [{
+				id: "4632752E93723395"
+				item: "kubejs:food_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2A2AC02599DE9322"
+				item: "expandeddelight:sweet_berry_jelly"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["15B535453D4815D2"]
+			id: "6D92CEA5FFE7946B"
+			rewards: [
+				{
+					count: 2
+					id: "7AB3142739D933AE"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+				{
+					id: "42CCFF3077C2460A"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "61360C8B3EF43896"
+				item: "farmersdelight:sweet_berry_cheesecake"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["27ECD57806374C03"]
+			id: "5E0732520EBF8BE9"
+			rewards: [{
+				id: "5E45B9BBF83767F0"
+				item: "kubejs:food_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2720BAFBA162BE43"
+				item: "bewitchment:witchberry_cookie"
+				type: "item"
+			}]
+			x: -26.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["27ECD57806374C03"]
+			id: "17292C340453C0E4"
+			rewards: [{
+				id: "775351E0342A6B6C"
+				item: "kubejs:food_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6D066AAD40367E42"
+				item: "expandeddelight:chocolate_cookie"
+				type: "item"
+			}]
+			x: -25.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["27ECD57806374C03"]
+			id: "3DF92E1223B4C9A0"
+			rewards: [{
+				id: "68ED3D13D6E5B21B"
+				item: "kubejs:food_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7A6EF497C2BD2C2C"
+				item: "expandeddelight:sugar_cookie"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["27ECD57806374C03"]
+			id: "36DBEC495E54C552"
+			rewards: [{
+				id: "3556097817DA40FC"
+				item: "kubejs:food_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6F5A4F49231FC59D"
+				item: "farmersdelight:sweet_berry_cookie"
+				type: "item"
+			}]
+			x: -25.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["27ECD57806374C03"]
+			id: "1AD5EAC6B35891BE"
+			rewards: [{
+				id: "4286250202E834B8"
+				item: "kubejs:food_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0B0B3E8CC4DE4147"
+				item: "farmersdelight:honey_cookie"
+				type: "item"
+			}]
+			x: -26.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["27ECD57806374C03"]
+			id: "71DE7594273FE18A"
+			rewards: [{
+				id: "3E4F5AAAC724533B"
+				item: "kubejs:food_lootbag_epic"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2731187841B04475"
+				item: "spectrum:myceylon_cookie"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["27ECD57806374C03"]
+			id: "67A87ECAD14ADB7C"
+			rewards: [{
+				id: "7D6B286D3A8C54CD"
+				item: "kubejs:food_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "754D6A8CA898E8BE"
+				item: "minecraft:cookie"
+				type: "item"
+			}]
+			x: -25.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["15B535453D4815D2"]
+			id: "46EBA3AE36CD9A2A"
+			rewards: [
+				{
+					count: 15
+					id: "10D8E5631C6DAAD6"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+				{
+					id: "76E158AD1903E0DD"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "419F8F42614A818C"
+				item: "spectrum:triple_meat_pot_pie"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["15B535453D4815D2"]
+			id: "0AF076FC8F15C88D"
+			rewards: [
+				{
+					count: 15
+					id: "5F707F538FE0E00C"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+				{
+					id: "15DB8E2599A8A55F"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "73A19069D00F9EB3"
+				item: "spectrum:jaramel_tart"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["15B535453D4815D2"]
+			id: "3F09BA907F155324"
+			rewards: [
+				{
+					count: 15
+					id: "440235F2E8088432"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+				{
+					id: "286564E919B324D6"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2E28D7554A34A505"
+				item: "spectrum:salted_jaramel_tart"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["15B535453D4815D2"]
+			id: "45A3220FB912F777"
+			rewards: [
+				{
+					count: 15
+					id: "21ECE2A1E62CFD91"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+				{
+					id: "30853FC6FA1AA4D7"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "654BB1CC5ED5EC8A"
+				item: "spectrum:ashen_tart"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["15B535453D4815D2"]
+			id: "469AC82A44BE75F7"
+			rewards: [
+				{
+					count: 15
+					id: "6D0FBAA29CD45F2F"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+				{
+					id: "7A95BADFDD3ADF3B"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6C09CC61A3703DF4"
+				item: "spectrum:weeping_tart"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["15B535453D4815D2"]
+			id: "560342D47F1C74AE"
+			rewards: [
+				{
+					count: 15
+					id: "436C4BDD4FC1355A"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+				{
+					id: "0CAAB3A39117D021"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4D136246831D4D51"
+				item: "spectrum:whispy_tart"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["15B535453D4815D2"]
+			id: "7CAFDCD646C79451"
+			rewards: [
+				{
+					count: 15
+					id: "6A188A408D9474D0"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+				{
+					id: "135421814B18813C"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3BD282B05B2EC44F"
+				item: "spectrum:puff_tart"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["15B535453D4815D2"]
+			id: "32A583732F55D992"
+			rewards: [
+				{
+					count: 15
+					id: "31C9DC6B64050ADA"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+				{
+					id: "57ACB38955D1E592"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "481FE8F4C455FFE7"
+				item: "spectrum:myceylon_apple_pie"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["15B535453D4815D2"]
+			id: "6778278A450B342C"
+			rewards: [
+				{
+					count: 15
+					id: "08FA9D76C170CB85"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+				{
+					id: "152B69FD3112B021"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "00D560F8956E44D5"
+				item: "spectrum:myceylon_pumpkin_pie"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["15B535453D4815D2"]
+			id: "0E2CF317A5EEE016"
+			rewards: [
+				{
+					count: 15
+					id: "086CA01C17C68B9C"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+				{
+					id: "7529BE99AAAFCB6A"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "01AEB5EBB648DC81"
+				item: "spectrum:rabbit_cream_pie"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "69054784F092EE21"
+			rewards: [
+				{
+					count: 10
+					id: "3E524DE856CB2A7B"
+					item: "numismatic-overhaul:bronze_coin"
+					type: "item"
+				}
+				{
+					id: "373948501B1C143A"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3B4E12D862CC1372"
+					item: "farmersdelight:cooked_cod_slice"
+					type: "item"
+				}
+				{
+					id: "604BF14FDB8B3329"
+					item: "farmersdelight:cooked_salmon_slice"
+					type: "item"
+				}
+			]
+			title: "Считается мясом?"
+			x: -19.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "26122CF69F62A445"
+			rewards: [
+				{
+					id: "1993EDFFED2E43CC"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "060697ACAB8C8094"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4979CC42529D078A"
+				item: "farmersdelight:grilled_salmon"
+				type: "item"
+			}]
+			x: -15.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "7869643A046A12CC"
+			rewards: [
+				{
+					id: "1C989C8FBC437604"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2E1C892211C0466C"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "291239E1879FC63A"
+				item: "farmersdelight:salmon_roll"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "047DBBBE8A237B97"
+			rewards: [
+				{
+					id: "33CA42F6019A0120"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0F26F21AEA922E0A"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "745EC487D9C3BC53"
+				item: "farmersdelight:cod_roll"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "59070C9CA604903D"
+			rewards: [
+				{
+					id: "267F9AE6E75A7479"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "212EB6C42A75EF4F"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "681A9C42C8AC1C84"
+				item: "farmersdelight:baked_cod_stew"
+				type: "item"
+			}]
+			x: -16.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "52E34550E2679486"
+			rewards: [{
+				id: "34C8B9315CBDEEF9"
+				item: "kubejs:food_lootbag_epic"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7A0E1F5D1F97C0E5"
+				item: "farmersdelight:rice_roll_medley_block"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"58D2E9E0EDF7FDE3"
+				"333536F3FC5B9956"
+			]
+			hide: true
+			id: "00B2D92D4C7D7BFD"
+			rewards: [
+				{
+					id: "4EED0A8D3C9DF7E9"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "4BDF684FBDDECD5D"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7C78BCE0F2AD733D"
+				item: "farmersdelight:roast_chicken_block"
+				type: "item"
+			}]
+			x: -25.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"58D2E9E0EDF7FDE3"
+				"333536F3FC5B9956"
+			]
+			hide: true
+			id: "1347AD995C5FA6B8"
+			rewards: [
+				{
+					id: "636228EFAEB43AA0"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "3292F5537C1C91CC"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6930292CA7D475C4"
+				item: "farmersdelight:honey_glazed_ham_block"
+				type: "item"
+			}]
+			x: -25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "26E843BF84DBE235"
+			rewards: [
+				{
+					id: "193057BB8961A404"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "47AAF006CA6070B6"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "79E9AC974F1FEFE3"
+				item: "farmersdelight:fish_stew"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			icon: "farmersdelight:kelp_roll"
+			id: "73F6335B256CE60F"
+			rewards: [
+				{
+					id: "4E05739C507A797D"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "677F35D534F97ECF"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7146246E86FD4D12"
+				item: "farmersdelight:kelp_roll"
+				type: "item"
+			}]
+			x: -15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			hide_dependent_lines: true
+			id: "449730637C206869"
+			rewards: [
+				{
+					id: "6F4B4B4057533E1E"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "171DA8A91EF48F50"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0EEEEE652F2B96ED"
+				item: "farmersdelight:barbecue_stick"
+				type: "item"
+			}]
+			x: -27.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "2900ADDB2A31A28A"
+			rewards: [
+				{
+					id: "7B4E1F37B856C065"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4D5B78693F38CD96"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "38AF9976FA0E6D73"
+				item: "farmersdelight:chicken_sandwich"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "017E1CB6653BEDAF"
+			rewards: [
+				{
+					id: "27731A93AC9B1858"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "33C60BCFC99A2318"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6462AB1740BCE4BE"
+				item: "farmersdelight:bacon_sandwich"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			hide_dependency_lines: true
+			id: "05820574F932CEEE"
+			rewards: [
+				{
+					id: "0B2C6DC589DA1993"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "33A9F7DBF13CAFDF"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6C018A3E591411DE"
+				item: "farmersdelight:mutton_wrap"
+				type: "item"
+			}]
+			x: -27.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"58D2E9E0EDF7FDE3"
+				"333536F3FC5B9956"
+			]
+			hide: true
+			id: "617DF0B4591E75B2"
+			rewards: [
+				{
+					id: "1C084E2F2F18268D"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "600DC59A927835F9"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "32D1213C24E9FDD2"
+				item: "farmersdelight:pasta_with_mutton_chop"
+				type: "item"
+			}]
+			x: -26.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			hide_dependent_lines: true
+			id: "1AC73CEC62B9ABB4"
+			rewards: [
+				{
+					id: "50CD100691BFB513"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7EBC38DCB996E5A6"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4D02B6E4EB644C4A"
+				item: "farmersdelight:dumplings"
+				type: "item"
+			}]
+			x: -26.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			hide_dependent_lines: true
+			id: "6773F7304D6A22A7"
+			rewards: [
+				{
+					id: "70DAC75F55773782"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6CEC74792CCE94DB"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2F6931E1C2758F56"
+				item: "farmersdelight:stuffed_potato"
+				type: "item"
+			}]
+			x: -25.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"58D2E9E0EDF7FDE3"
+				"333536F3FC5B9956"
+			]
+			hide: true
+			id: "073DE25BE89812EB"
+			rewards: [
+				{
+					id: "3287C4CDCFB6A2BF"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3934340F7E8D4AF6"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5F260F65F3A558A3"
+				item: "farmersdelight:bone_broth"
+				type: "item"
+			}]
+			x: -28.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"58D2E9E0EDF7FDE3"
+				"333536F3FC5B9956"
+			]
+			hide: true
+			id: "3F26AB1AD4424604"
+			rewards: [
+				{
+					id: "4D1DD0319C9C054B"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "23E98B0260388486"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7FDB4B5C43195C4A"
+				item: "farmersdelight:chicken_soup"
+				type: "item"
+			}]
+			x: -27.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"58D2E9E0EDF7FDE3"
+				"333536F3FC5B9956"
+			]
+			hide: true
+			id: "52155D91A3B78F59"
+			rewards: [
+				{
+					id: "20C276953D49319E"
+					item: "kubejs:food_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "72F82280F45E2B2E"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5DB0FDBE189F76A3"
+				item: "farmersdelight:cooked_rice"
+				type: "item"
+			}]
+			x: -22.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"58D2E9E0EDF7FDE3"
+				"333536F3FC5B9956"
+			]
+			hide: true
+			id: "5FC71F5FD0977655"
+			rewards: [
+				{
+					id: "15D125A9280E0AD6"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "59C3C8902BB9101D"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5016A5036C97BEA3"
+				item: "farmersdelight:fried_rice"
+				type: "item"
+			}]
+			x: -21.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"58D2E9E0EDF7FDE3"
+				"333536F3FC5B9956"
+			]
+			hide: true
+			id: "75CB92BCC3E66631"
+			rewards: [
+				{
+					id: "5CC13327058AEC4E"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7CD72630BAEF696B"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3A299E17384216A5"
+				item: "farmersdelight:mushroom_rice"
+				type: "item"
+			}]
+			x: -20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"58D2E9E0EDF7FDE3"
+				"333536F3FC5B9956"
+			]
+			hide: true
+			id: "2F8712E510C44246"
+			rewards: [
+				{
+					id: "546FB1B1CF2F6FF6"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1B610684265BAD61"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7203843761D7B91A"
+				item: "farmersdelight:roasted_mutton_chops"
+				type: "item"
+			}]
+			x: -27.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"58D2E9E0EDF7FDE3"
+				"333536F3FC5B9956"
+			]
+			hide: true
+			id: "46696B084C2A7AA5"
+			rewards: [
+				{
+					id: "4935B54CEB8F8F3A"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5631058F998FC2BE"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "199012069D94CF2E"
+				item: "farmersdelight:steak_and_potatoes"
+				type: "item"
+			}]
+			x: -26.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"58D2E9E0EDF7FDE3"
+				"333536F3FC5B9956"
+			]
+			hide: true
+			id: "0AF33BE3C4BD905E"
+			rewards: [
+				{
+					id: "1E9D14E48AFBBC9B"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6F79A2456E81BE07"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1B73118BABE466B4"
+				item: "farmersdelight:vegetable_noodles"
+				type: "item"
+			}]
+			x: -24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"58D2E9E0EDF7FDE3"
+				"333536F3FC5B9956"
+			]
+			hide: true
+			id: "10EF3A8A163C57B5"
+			rewards: [
+				{
+					id: "233DE654CB848824"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "551F3A2B680EB169"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4183B85602FEA3C6"
+				item: "expandeddelight:asparagus_soup"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"58D2E9E0EDF7FDE3"
+				"333536F3FC5B9956"
+			]
+			hide: true
+			id: "4313DC13D80F05F4"
+			rewards: [
+				{
+					id: "1714A6AB4028EDE4"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "392A875CC2F00C6A"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5F2CB29A0A50628C"
+				item: "expandeddelight:asparagus_soup_creamy"
+				type: "item"
+			}]
+			x: -21.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"58D2E9E0EDF7FDE3"
+				"333536F3FC5B9956"
+			]
+			hide: true
+			id: "2670EE17D0E48E7C"
+			rewards: [
+				{
+					id: "0ADCF7CBE50FF844"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0A0CAA15EF3471A3"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3FDE5ADB2522CFAD"
+				item: "expandeddelight:asparagus_and_bacon_cheesy"
+				type: "item"
+			}]
+			x: -20.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "29209C184E2FFE7E"
+			rewards: [
+				{
+					id: "4CCDE5D0CCEC4567"
+					item: "kubejs:food_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "2439F3302ACD39DC"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4B17292A5ADF53D6"
+				item: "farmersdelight:fried_egg"
+				type: "item"
+			}]
+			x: -28.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			hide_dependent_lines: true
+			id: "326361F5DFA7BF7E"
+			rewards: [
+				{
+					id: "1D5A4BE7D37837AE"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "10542F64C4A6A23C"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "70DF3BBEEE7A0D82"
+				item: "farmersdelight:bacon_and_eggs"
+				type: "item"
+			}]
+			x: -26.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"58D2E9E0EDF7FDE3"
+				"333536F3FC5B9956"
+			]
+			hide: true
+			id: "460FA6A4A3069A39"
+			rewards: [
+				{
+					id: "146B0C587E225532"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "086FBE6564AEE1F8"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2FE0A342FAECFCE2"
+				item: "expandeddelight:asparagus_and_bacon_cheesy"
+				type: "item"
+			}]
+			x: -24.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "24FD33001CE1BF73"
+			rewards: [
+				{
+					id: "7BB4618DFA799A79"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "43182B5A2A867D32"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "26D9128207847242"
+				item: "farmersdelight:egg_sandwich"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "293C66ADFE57FB2D"
+			rewards: [
+				{
+					id: "536CBCFE8F8ABC34"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "45F68535D254547F"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "38EF9A0E9DE469F7"
+				item: "expandeddelight:cheese_sandwich"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "6F600C7AE1EBE1EF"
+			rewards: [
+				{
+					id: "6EF20805EB9AB864"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "397B1E34BFB18A93"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4A8F9ABCBD2B3405"
+				item: "expandeddelight:grilled_cheese"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "784C54C54393B020"
+			rewards: [
+				{
+					id: "6412B1FED57F2182"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "740ACAEAC5D353C3"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6BF7A7E6C7058473"
+				item: "expandeddelight:peanut_butter_sandwich"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "4B0E1E5278BE5AE1"
+			rewards: [
+				{
+					id: "25283F29B5827C1F"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "16830F6EE5D60272"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5FBECB7B90501651"
+				item: "expandeddelight:peanut_butter_honey_sandwich"
+				type: "item"
+			}]
+			x: -20.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "0E224AB78DB456A6"
+			rewards: [
+				{
+					id: "7D2249F49001E27D"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "562CE72EA4689D75"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4C35E33CFB29D516"
+				item: "expandeddelight:sweet_berry_jelly_sandwich"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "554C8B012FDA4CF7"
+			rewards: [
+				{
+					id: "2348BFEBE00DAB9B"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "05E8A3AF2D921035"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0AB83CD1ED55D9E7"
+				item: "expandeddelight:glow_berry_jelly_sandwich"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "2AA9EE84135D9FDA"
+			rewards: [
+				{
+					id: "7BFE7CC9954BB1EF"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "65E351426D953C3E"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "70494DCFA847D2D0"
+				item: "spectrum:meatloaf_sandwich"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"58D2E9E0EDF7FDE3"
+				"333536F3FC5B9956"
+			]
+			hide: true
+			id: "59C4261F8180AF7A"
+			rewards: [
+				{
+					id: "42B433594B40C9B8"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7BB12E36C5D84400"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "711BAE290A787D71"
+				item: "expandeddelight:mac_and_cheese"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"58D2E9E0EDF7FDE3"
+				"333536F3FC5B9956"
+			]
+			hide: true
+			id: "03542277F2439597"
+			rewards: [
+				{
+					id: "325C9894E63A6665"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "404468093EB3DE78"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5F484A27769E5744"
+				item: "expandeddelight:peanut_honey_soup"
+				type: "item"
+			}]
+			x: -19.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"58D2E9E0EDF7FDE3"
+				"333536F3FC5B9956"
+			]
+			hide: true
+			id: "015ED0F5DAA4081C"
+			rewards: [
+				{
+					id: "046EACC33A1812B0"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "33D63AE5A47CF60D"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "342AC7DC27127953"
+				item: "expandeddelight:peperonata"
+				type: "item"
+			}]
+			x: -18.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "67784AF740A09EED"
+			rewards: [
+				{
+					id: "52D0B9019F641092"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5E3B4671E9140E44"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "21CAAE0F59E1C8C6"
+				item: "expandeddelight:peanut_salad"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "763151168CF191D5"
+			rewards: [
+				{
+					id: "0CD0DF55857FFC2A"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1CF620EEA337368F"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "70FFAD61200A1018"
+				item: "expandeddelight:sweet_potato_salad"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "0BF6AAAE4914E930"
+			rewards: [
+				{
+					id: "28D4BBAF2308AE8C"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3B8471D5D264ECF3"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7ACB19AC6726C107"
+				item: "farmersdelight:fruit_salad"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "570F34012826E2B6"
+			rewards: [
+				{
+					id: "58A85A97459CDC56"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1FD9AC92E7E70EB4"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "43A60031E7EBAD79"
+				item: "farmersdelight:mixed_salad"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "5158B503EA286128"
+			rewards: [
+				{
+					id: "0FB2D6B055DE642B"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "06FA33E901FD4912"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1D7D5A3B9FCEE04A"
+				item: "farmersdelight:nether_salad"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "7FC4E9B3386A6343"
+			rewards: [
+				{
+					id: "3B82DB2F71B82320"
+					item: "kubejs:food_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "12D58FD4A1B63178"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0CB1BC0525675106"
+				item: "expandeddelight:baked_sweet_potato"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "061540F51161908D"
+			rewards: [
+				{
+					id: "1121897A39E18528"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0951661328657062"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "19D1DC01A355C1A3"
+				item: "expandeddelight:cinnamon_apples"
+				type: "item"
+			}]
+			x: -16.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "61F169B19FC94A35"
+			rewards: [
+				{
+					id: "7289AA4097B85D6F"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4D5796D0ECDC01BB"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "385F769898DDE14A"
+				item: "expandeddelight:cinnamon_rice"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["27ECD57806374C03"]
+			id: "4706A4803A07F708"
+			rewards: [{
+				id: "6B7676CECF9BE351"
+				item: "kubejs:food_lootbag_rare"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "70DA90B322CD27C9"
+				item: "expandeddelight:berry_sweet_roll"
+				type: "item"
+			}]
+			x: -26.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["27ECD57806374C03"]
+			id: "119B87FBCADC45CB"
+			rewards: [{
+				id: "3124C1A18DA4B186"
+				item: "kubejs:food_lootbag_rare"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "46BA518058359103"
+				item: "expandeddelight:glow_berry_sweet_roll"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "67371AE5E34DD674"
+			rewards: [
+				{
+					id: "2222EA6DCF5BDB35"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1211A84FC61CD9EC"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "54CC949E09C90666"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "5A68AD406962B0D7"
+			rewards: [
+				{
+					id: "4A1D8ACADAB79C57"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "33F025E3AF1FA702"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4B419DF4BC172ED0"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "082F6A2EC939D174"
+			rewards: [
+				{
+					id: "6FE1957F064A575B"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "284C58DF9E0A266F"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3330A18E2E9D2DC8"
+				item: "minecraft:golden_carrot"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "783391F5719A3F5C"
+			rewards: [
+				{
+					id: "61ACA5DE941BD014"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "261CCCD1C076E754"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "673DDA57B9F62613"
+				item: "spectrum:enchanted_golden_carrot"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "6899115D45256716"
+			rewards: [
+				{
+					id: "2D4A4877835511E7"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "53D29EF0DA1B29DC"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6C65BD988932FD10"
+				item: "spectrum:glass_peach"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "24C5E8A2A5568BF9"
+			rewards: [
+				{
+					id: "354E570073B8B2FF"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "6F72B477763E9FAB"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "448EB4B8477A5823"
+				item: "spectrum:peaches_flambe"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "67AC39754337BD02"
+			rewards: [
+				{
+					id: "6B70AA49A0DCC375"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "0994592A8479289B"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3BB6A64EAE6FD323"
+				item: "spectrum:peach_cream"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["58D2E9E0EDF7FDE3"]
+			hide: true
+			id: "39897E4180A11678"
+			rewards: [
+				{
+					id: "5958872CF696DB79"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 15
+					id: "64CE7DFC2BE40E7F"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4B9AB4270F14CD17"
+				item: "spectrum:peach_jam"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -2.0d
+		}
+	]
+	title: "&7We need more food"
+}

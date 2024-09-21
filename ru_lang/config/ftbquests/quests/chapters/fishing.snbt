@@ -1,0 +1,1538 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "fishing"
+	group: "05C42DC8B5A65584"
+	icon: "minecraft:pufferfish"
+	id: "3C5DA18A0BC844B8"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.125d
+			hover: [ ]
+			image: "quest_images:textures/item/fishing.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: 0.0d
+			y: -18.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 7.0d
+			hover: [ ]
+			image: "quest_images:textures/item/pose/straw_statue_1_.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 5.62244897959183d
+			y: -20.835714285714282d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7E3C5F934FB5E112"]
+			description: [
+				"&bСлёзы моря&r — основной материал для создания удочек с возможностью поимки &cморских существ&r, &cсущества&r могут быть совершенно разные, как и &bобычные морские&r, так и &cзлобные&r, которые могут вас &4убить&r."
+				""
+				"&6С разных существ так же падает очень много полезного лута для развития.&r"
+			]
+			hide: true
+			id: "6DA17633D03E09E0"
+			rewards: [{
+				id: "02DDC5A78913ABAB"
+				item: "kubejs:food_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "2AF34E2927816BEB"
+				item: "kubejs:tears_of_the_sea"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["523942AC15DDEDF2"]
+			description: [
+				"&6Сборка&r кардинально меняет концепцию &9рыбалки&r, при её разработке мы вдохновлялись такими играми как &eStardew Valley&r, &aTerraria&r. "
+				""
+				"Кому удавалось взаимодействовать с &9рыбалкой&r в этих играх, сразу &eпоймёт&r что к чему :^)"
+			]
+			hide: true
+			id: "7E3C5F934FB5E112"
+			rewards: [{
+				id: "3C0DC1973E1A55CD"
+				item: "kubejs:food_lootbag_uncommon"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "56BC1F0CA6CF6EC6"
+				title: "Начало водных похождений"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6DA17633D03E09E0"]
+			description: ["&bУдочка Лагуны&r позволяет ловить &cморских существ&r в обычных &bжидкостях&r. "]
+			hide: true
+			id: "19CBDDF776398B6E"
+			rewards: [
+				{
+					id: "4A957E08BD90905E"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7E4F2BACE08974A6"
+					item: "kubejs:food_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 50
+					id: "318077F6A9D34159"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6F9D7AB061004A1F"
+				item: {
+					Count: 1b
+					id: "spectrum:lagoon_rod"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:lure"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6DA17633D03E09E0"]
+			description: ["&6Расплавленная удочка&r позволяет вам заниматься рыбалкой в огненных жидкостях, будь то лава или еще, нечто похожее на лаву. "]
+			hide: true
+			id: "38ED3732F6AA8274"
+			rewards: [
+				{
+					count: 2
+					id: "1A329CA53ACE6517"
+					item: "kubejs:food_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "43830D87107D1ECC"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 50
+					id: "7924EADBB5AAC03E"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3D56D83604EE508D"
+				item: {
+					Count: 1b
+					id: "spectrum:molten_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["19CBDDF776398B6E"]
+			description: [
+				"Стрелочки квеста &nуказывают&r на то, какой &6артефакт&r можно получить из этой &9жидкости&r!"
+				""
+				"&n&eСОВЕТ:&r&r Рекомендуем смотреть условия получения &6безделушки&r прям на ней, используя «&9CTRL&r»!"
+			]
+			hide: true
+			id: "50A0CC42DCF80CDA"
+			tasks: [{
+				id: "1363A5B4135F1BE6"
+				item: "spectrum:liquid_crystal_bucket"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["19CBDDF776398B6E"]
+			description: [
+				"Стрелочки квеста &nуказывают&r на то, какой &6артефакт&r можно получить из этой &9жидкости&r!"
+				""
+				"&n&eСОВЕТ:&r&r Рекомендуем смотреть условия получения &6безделушки&r прям на ней, используя «&9CTRL&r»!"
+			]
+			hide: true
+			id: "714C71D114BC0DA9"
+			tasks: [{
+				id: "76C947F6C6A5F6BB"
+				item: "spectrum:mud_bucket"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["19CBDDF776398B6E"]
+			description: [
+				"Стрелочки квеста &nуказывают&r на то, какой &6артефакт&r можно получить из этой &9жидкости&r!"
+				""
+				"&n&eСОВЕТ:&r&r Рекомендуем смотреть условия получения &6безделушки&r прям на ней, используя «&9CTRL&r»!"
+			]
+			hide: true
+			id: "501C48EFBF3B31FC"
+			tasks: [{
+				id: "6612CFFC936B13E6"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["38ED3732F6AA8274"]
+			description: [
+				"Стрелочки квеста &nуказывают&r на то, какой &6артефакт&r можно получить из этой &9жидкости&r!"
+				""
+				"&n&eСОВЕТ:&r&r Рекомендуем смотреть условия получения &6безделушки&r прям на ней, используя «&9CTRL&r»!"
+			]
+			hide: true
+			id: "0976F72B3B8D2466"
+			tasks: [{
+				id: "3B66E17E0BDB1098"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["38ED3732F6AA8274"]
+			description: [
+				"Стрелочки квеста &nуказывают&r на то, какой &6артефакт&r можно получить из этой &9жидкости&r!"
+				""
+				"&n&eСОВЕТ:&r&r Рекомендуем смотреть условия получения &6безделушки&r прям на ней, используя «&9CTRL&r»!"
+			]
+			hide: true
+			id: "055CA1BEE1714FF9"
+			tasks: [{
+				id: "47C1A8F56EA08D74"
+				item: "spectrum:dragonrot_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7E3C5F934FB5E112"]
+			description: ["Можно поймать в &eлюбом биоме&r и &eизмерении&r."]
+			hide: true
+			id: "52B76C5FE0F877AF"
+			rewards: [{
+				id: "6D946787B0B41474"
+				item: "numismatic-overhaul:silver_coin"
+				random_bonus: 11
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5F848B2947245BC4"
+				item: "gofish:wooden_crate"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E3C5F934FB5E112"]
+			description: ["Можно поймать в &eлюбом биоме&r и &eизмерении&r."]
+			hide: true
+			id: "251453A1F4614197"
+			rewards: [{
+				id: "52C85477879AA85C"
+				item: "numismatic-overhaul:silver_coin"
+				random_bonus: 11
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3D5F58CCA2C8B549"
+				item: "gofish:iron_crate"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E3C5F934FB5E112"]
+			description: ["Можно поймать в &eлюбом биоме&r и &eизмерении&r."]
+			hide: true
+			id: "7EDBEC88D319C65B"
+			rewards: [{
+				id: "1D6EFE300714E4B6"
+				item: "numismatic-overhaul:silver_coin"
+				random_bonus: 11
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "69B609F00C3CF3BF"
+				item: "gofish:golden_crate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E3C5F934FB5E112"]
+			description: ["Можно поймать в &eлюбом биоме&r и &eизмерении&r."]
+			hide: true
+			id: "404F5D3AA6F45554"
+			rewards: [{
+				id: "04D299DC95CC430D"
+				item: "numismatic-overhaul:silver_coin"
+				random_bonus: 11
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "13E71DFE7D896100"
+				item: "gofish:diamond_crate"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E3C5F934FB5E112"]
+			description: ["Можно поймать в &bхолодных&r биомах."]
+			hide: true
+			id: "3869DC41A36F2BBF"
+			rewards: [{
+				id: "424AA8587F5DD521"
+				item: "numismatic-overhaul:silver_coin"
+				random_bonus: 11
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "01D5861461B56DC4"
+				item: "gofish:frosted_crate"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E3C5F934FB5E112"]
+			description: ["Можно поймать в &2болотистых&r биомах."]
+			hide: true
+			id: "06A8F772FB420370"
+			rewards: [{
+				id: "7681C89ECABD916C"
+				item: "numismatic-overhaul:silver_coin"
+				random_bonus: 11
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "07174E734B605BC5"
+				item: "gofish:slimey_crate"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7E3C5F934FB5E112"]
+			description: ["Можно поймать в &2биомах лугов&r и &2лесов&r."]
+			hide: true
+			id: "26B36B12C977DE0D"
+			rewards: [{
+				id: "6D05CF5D7B9689A3"
+				item: "numismatic-overhaul:silver_coin"
+				random_bonus: 11
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2649881EDBB23A21"
+				item: "gofish:supply_crate"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E3C5F934FB5E112"]
+			description: ["Можно поймать в &eлюбом биоме&r, но только в &4аду&r."]
+			hide: true
+			id: "6803CD95ED63CCD5"
+			rewards: [{
+				id: "724BB011C7DA3F2A"
+				item: "numismatic-overhaul:silver_coin"
+				random_bonus: 11
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3AF4481B275E6726"
+				item: "gofish:fiery_crate"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7E3C5F934FB5E112"]
+			description: ["Можно поймать только в биоме «&eДолина песка душ&r» в &4аду&r."]
+			hide: true
+			id: "4D7D782AF66BBC6C"
+			rewards: [{
+				id: "23AAB1A808CBB5B1"
+				item: "numismatic-overhaul:silver_coin"
+				random_bonus: 11
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4F4201B6990FEA62"
+				item: "gofish:soul_crate"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E3C5F934FB5E112"]
+			description: ["Можно поймать только в &eбазальтовых дельтах&r в &4аду&r!"]
+			hide: true
+			id: "2195128420050FB0"
+			rewards: [{
+				id: "217A4882776A0721"
+				item: "numismatic-overhaul:silver_coin"
+				random_bonus: 11
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "44FC1F8099BC71EB"
+				item: "gofish:gilded_blackstone_crate"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E3C5F934FB5E112"]
+			description: ["Можно поймать только при &7полной луне&r!"]
+			hide: true
+			id: "46C2B9B003AC3A09"
+			rewards: [{
+				id: "48BEBB53EE3E9648"
+				item: "numismatic-overhaul:silver_coin"
+				random_bonus: 11
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3A76A008D50284AA"
+				item: "gofish:astral_crate"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7E3C5F934FB5E112"]
+			description: ["Можно поймать только в &dэнде&r."]
+			hide: true
+			id: "099A02C2C9AFF0B7"
+			rewards: [{
+				id: "4B9435A5EA6D387D"
+				item: "numismatic-overhaul:silver_coin"
+				random_bonus: 11
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "58F6A4B1D49BC3A0"
+				item: "gofish:end_crate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7E3C5F934FB5E112"]
+			hide: true
+			id: "3E2BDD4A3E42E525"
+			shape: "diamond"
+			subtitle: "Можно создать"
+			tasks: [{
+				id: "4E49A9B0B90D4562"
+				item: "gofish:simple_lure"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E3C5F934FB5E112"]
+			description: ["Можно выбить из &6золотого ящика&r или &6позолоченного чернитного ящика&r."]
+			hide: true
+			id: "66089D6C330AB63D"
+			shape: "diamond"
+			tasks: [{
+				id: "3CB2BB3DDE6903C7"
+				item: "gofish:golden_fish"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7E3C5F934FB5E112"]
+			hide: true
+			id: "087EBE78D31E92AB"
+			shape: "diamond"
+			subtitle: "Можно создать"
+			tasks: [{
+				id: "73411BEE5779590F"
+				item: "gofish:soul_lure"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7E3C5F934FB5E112"]
+			hide: true
+			id: "711E69455C6B348F"
+			rewards: [{
+				id: "1F99A993F48F5C73"
+				item: "numismatic-overhaul:gold_coin"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Может выпасть из ящика душ"
+			tasks: [{
+				id: "5F546B4ADCB1BDA5"
+				item: {
+					Count: 1b
+					id: "gofish:soul_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E3C5F934FB5E112"]
+			hide: true
+			id: "460398AED39635EC"
+			rewards: [{
+				count: 50
+				id: "05AE86F27A9C39AD"
+				item: "numismatic-overhaul:silver_coin"
+				random_bonus: 30
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Может выпасть из слизистого ящика"
+			tasks: [{
+				id: "2748C74D1CAF4F6B"
+				item: {
+					Count: 1b
+					id: "gofish:slime_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7E3C5F934FB5E112"]
+			hide: true
+			id: "102A7FBF57EB0822"
+			rewards: [{
+				count: 8
+				id: "5A523DCDD4F2DA4C"
+				item: "numismatic-overhaul:silver_coin"
+				random_bonus: 12
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Может выпасть из морозного ящика"
+			tasks: [{
+				id: "4D2760530DD228BC"
+				item: {
+					Count: 1b
+					id: "gofish:frosted_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7E3C5F934FB5E112"]
+			hide: true
+			id: "17388C6C86F004A4"
+			rewards: [{
+				id: "6BCF622D67B7220E"
+				item: "numismatic-overhaul:gold_coin"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Может выпасть из энд ящика"
+			tasks: [{
+				id: "43B65B46D5AA53DC"
+				item: {
+					Count: 1b
+					id: "gofish:matrix_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7E3C5F934FB5E112"]
+			hide: true
+			id: "032E08ACF8ADCA2D"
+			rewards: [{
+				id: "65B1A3A7008FAC5E"
+				item: "numismatic-overhaul:gold_coin"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Может выпасть из астрального ящика"
+			tasks: [{
+				id: "2CFB1C29D4307647"
+				item: {
+					Count: 1b
+					id: "gofish:celestial_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E3C5F934FB5E112"]
+			hide: true
+			id: "6B396009F230544E"
+			rewards: [{
+				id: "0E37E5CE72BB4D7C"
+				item: "numismatic-overhaul:gold_coin"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Может выпасть из энд ящика"
+			tasks: [{
+				id: "45EADA720501FA2A"
+				item: {
+					Count: 1b
+					id: "gofish:ender_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7E3C5F934FB5E112"]
+			hide: true
+			id: "4DE10C40111440E8"
+			rewards: [{
+				count: 20
+				id: "2EBD834BB57A008D"
+				item: "numismatic-overhaul:silver_coin"
+				random_bonus: 40
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Можно создать"
+			tasks: [{
+				id: "58567B1C3DA4FE05"
+				item: {
+					Count: 1b
+					id: "gofish:diamond_reinforced_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7E3C5F934FB5E112"]
+			description: [""]
+			hide: true
+			id: "6578F8B70AA6FA8A"
+			rewards: [{
+				id: "3AA75932F19DB233"
+				item: "numismatic-overhaul:silver_coin"
+				random_bonus: 27
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Можно создать для ловле в лаве."
+			tasks: [{
+				id: "4E76B35BCBAC915C"
+				item: {
+					Count: 1b
+					id: "gofish:blaze_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E3C5F934FB5E112"]
+			description: [""]
+			hide: true
+			id: "018BA0283A3E0B1A"
+			rewards: [{
+				id: "76787589BF9EDE41"
+				item: "numismatic-overhaul:silver_coin"
+				random_bonus: 41
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Может выпасть из огненного ящика"
+			tasks: [{
+				id: "25F761D0A28E2FB0"
+				item: {
+					Count: 1b
+					id: "gofish:skeletal_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["501C48EFBF3B31FC"]
+			description: [
+				"Выпадает из:"
+				""
+				"&6• Йети"
+				"&6• Кракен"
+			]
+			id: "50DD26BF90EA0832"
+			rewards: [
+				{
+					id: "4CC264CA0B9B6DEF"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "30CB6E601B271C33"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 20
+					id: "7D4D05FF398F5940"
+					item: "vitalize:experience_cubed"
+					random_bonus: 50
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4C2D2FEFB2C9A04D"
+				item: "things:enchanted_wax_gland"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"50A0CC42DCF80CDA"
+				"0976F72B3B8D2466"
+			]
+			description: [
+				"Выпадает из:"
+				""
+				"&6• Багровая плоть"
+				"&6• Оживший корень"
+			]
+			id: "500A350CFCE21158"
+			rewards: [
+				{
+					id: "21C5F03737F3B197"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6EB3C014866E82CE"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 20
+					id: "53EF10A162D22E5B"
+					item: "vitalize:experience_cubed"
+					random_bonus: 50
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C1822636F369D9A"
+				item: "artifacts:antidote_vessel"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0976F72B3B8D2466"]
+			description: [
+				"Выпадает из:"
+				""
+				"&6• Проклятая мерзость"
+				"&6• Багровая плоть"
+			]
+			id: "46107F362F4B0DCC"
+			rewards: [
+				{
+					id: "3ACB95F89F32A1AD"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "523A47035F5DF10D"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 20
+					id: "372E8CFE4378994D"
+					item: "vitalize:experience_cubed"
+					random_bonus: 50
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "63168C1E6C2ED931"
+				item: "things:hades_crystal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["055CA1BEE1714FF9"]
+			description: [
+				"Выпадает из:"
+				""
+				"&6• Тёмный дракон"
+				"&6• Восставший из драконьей гнили"
+			]
+			id: "6604D17B769EE05F"
+			rewards: [
+				{
+					id: "495433902C28B91B"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "66CA89C4E2DC358C"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 20
+					id: "534A31C4020DA142"
+					item: "vitalize:experience_cubed"
+					random_bonus: 50
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6496018E1D20FE68"
+				item: "artifacts:digging_claws"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["055CA1BEE1714FF9"]
+			description: [
+				"Выпадает из:"
+				""
+				"&6• Тёмный дракон"
+			]
+			id: "06C764F60ABF1180"
+			rewards: [
+				{
+					id: "6A81FCD1D6A76B78"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "52B8400D4686E6AE"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 20
+					id: "6564AA248B472C69"
+					item: "vitalize:experience_cubed"
+					random_bonus: 50
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "09A8090A7BD7F3D3"
+				item: "artifacts:feral_claws"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"50A0CC42DCF80CDA"
+				"714C71D114BC0DA9"
+			]
+			description: [
+				"Выпадает из:"
+				""
+				"&6• Гаснущий Хризолит"
+				"&6• Оживший корень"
+			]
+			id: "6A75F90836E00A83"
+			rewards: [
+				{
+					id: "6CCE70059678F3AC"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6DEF63CBC0D5D5EE"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 20
+					id: "4092B5CB14F64750"
+					item: "vitalize:experience_cubed"
+					random_bonus: 50
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "78FEAFB45339F08A"
+				item: "things:moss_necklace"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["50A0CC42DCF80CDA"]
+			description: [
+				"Выпадает из:"
+				""
+				"&6• Гаснущий Хризолит"
+			]
+			id: "5D8C5B0BDB4EF9B8"
+			rewards: [
+				{
+					id: "3FC27C829029DD8E"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0B08E9B1318D5C16"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 20
+					id: "5055E7995249D5B7"
+					item: "vitalize:experience_cubed"
+					random_bonus: 50
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "13EA10B63B4B430D"
+				item: "artifacts:crystal_heart"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["50A0CC42DCF80CDA"]
+			description: [
+				"Выпадает из:"
+				""
+				"&6• Гаснущий Хризолит"
+			]
+			id: "75A5ACD2EBFCA757"
+			rewards: [
+				{
+					id: "022A59F4F50E28B0"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1F65CA0A9ECDEB5A"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 20
+					id: "31DF0A6A2874F34B"
+					item: "vitalize:experience_cubed"
+					random_bonus: 50
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B5705C6828BE01E"
+				item: "artifacts:superstitious_hat"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["501C48EFBF3B31FC"]
+			description: [
+				"Выпадает из:"
+				""
+				"&6• Призрак"
+			]
+			id: "011C839FCD34A4AE"
+			rewards: [
+				{
+					id: "2786E4BDDFB4F1FA"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7B47D4D2DB2C4A66"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 20
+					id: "1B1FA95938D469A3"
+					item: "vitalize:experience_cubed"
+					random_bonus: 50
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "14D69586A699147E"
+				item: "artifacts:cloud_in_a_bottle"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0976F72B3B8D2466"]
+			description: [
+				"Выпадает из:"
+				""
+				"&6• Адский пёс"
+			]
+			id: "608E53D2BD2CE16D"
+			rewards: [
+				{
+					id: "5CABA3D91B7D00F5"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "794FC661FEE90453"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 20
+					id: "47AAF0B46ED8F7B1"
+					item: "vitalize:experience_cubed"
+					random_bonus: 50
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6F543DE9EBF90BC9"
+				item: "artifacts:fire_gauntlet"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["501C48EFBF3B31FC"]
+			description: [
+				"Выпадает из:"
+				""
+				""
+				"&6• Кракен"
+				"&6• Мегалодон"
+				"&6• Морской император"
+			]
+			id: "540C960A1B042676"
+			rewards: [
+				{
+					id: "0B94179F215199CB"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6795360F711103F7"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 20
+					id: "5CCA97FF70E87667"
+					item: "vitalize:experience_cubed"
+					random_bonus: 50
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "40D936292484CBF7"
+				item: "artifacts:flippers"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["501C48EFBF3B31FC"]
+			description: [
+				"Выпадает из:"
+				""
+				"&6• Кракен"
+				"&6• Морской император"
+			]
+			id: "520F146765E76514"
+			rewards: [
+				{
+					id: "19B683D77FE0C70C"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "110C35CB3D1B63FA"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 20
+					id: "77F06E2E4B95B669"
+					item: "vitalize:experience_cubed"
+					random_bonus: 50
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "287794D92C7DAF69"
+				item: "artifacts:snorkel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0976F72B3B8D2466"]
+			description: [
+				"Выпадает из:"
+				""
+				"&6• Красная плесень"
+			]
+			id: "6C6C89ED2785F9DC"
+			rewards: [
+				{
+					id: "19540550E7B0AA06"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0DCE2F733DA229B7"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 20
+					id: "04A91B4708899110"
+					item: "vitalize:experience_cubed"
+					random_bonus: 50
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C4D439EEDD32694"
+				item: "things:mining_gloves"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0976F72B3B8D2466"]
+			description: [
+				"Выпадает из:"
+				""
+				"&6• Красная плесень"
+			]
+			id: "4073422268B5202C"
+			rewards: [
+				{
+					id: "55DCFDA9F6729689"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7E60BC0A020DBCDE"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 20
+					id: "76228BFA6C8D1CE6"
+					item: "vitalize:experience_cubed"
+					random_bonus: 50
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "487D8D8C10AA7102"
+				item: "things:riot_gauntlet"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["055CA1BEE1714FF9"]
+			description: [
+				"Выпадает из:"
+				""
+				"&6• Восставший из драконьей гнили"
+			]
+			id: "1E41B87DCABD9CDB"
+			rewards: [
+				{
+					id: "06E09120ACD2EF89"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6D00754F67FD5934"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 20
+					id: "29525219DDC6F46E"
+					item: "vitalize:experience_cubed"
+					random_bonus: 50
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5DF81B270FB42440"
+				item: "artifacts:lucky_scarf"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["055CA1BEE1714FF9"]
+			description: [
+				"Выпадает из:"
+				""
+				"&6• Зубастик"
+			]
+			id: "41C90CB5EB8DF3CE"
+			rewards: [
+				{
+					id: "570E3A8FB66C8B2D"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3E42422D80294A18"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 20
+					id: "04ABB3ACF8B2030C"
+					item: "vitalize:experience_cubed"
+					random_bonus: 50
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "338845DA56796B14"
+				item: "artifacts:running_shoes"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["501C48EFBF3B31FC"]
+			description: [
+				"Выпадает из:"
+				""
+				"&6• Вампир"
+			]
+			id: "3D8C564BE881804D"
+			rewards: [
+				{
+					id: "7058AFA9275456C2"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "43970A7412336592"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 20
+					id: "416E50226974B11A"
+					item: "vitalize:experience_cubed"
+					random_bonus: 50
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "11937E34669E1667"
+				item: "artifacts:vampiric_glove"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["501C48EFBF3B31FC"]
+			description: [
+				"Выпадает из:"
+				""
+				"&6• Смотрящий"
+			]
+			id: "49FAC846673BF22D"
+			rewards: [
+				{
+					id: "54A9E86A735CB53A"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "11219BD964D76A0B"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 20
+					id: "2F48200417D6B1C8"
+					item: "vitalize:experience_cubed"
+					random_bonus: 50
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "59A64F1E58AA79BF"
+				item: "artifacts:night_vision_goggles"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["501C48EFBF3B31FC"]
+			description: [
+				"Выпадает из:"
+				""
+				"&6• Смотрящий"
+			]
+			id: "24706F00A27774D4"
+			rewards: [
+				{
+					id: "000D556ADB11B99E"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "038631649D83F4E5"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 20
+					id: "159020A00AF959BA"
+					item: "vitalize:experience_cubed"
+					random_bonus: 50
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "52D5A00DCF75C88E"
+				item: "things:monocle"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -14.0d
+		}
+	]
+	title: "&7Fishing"
+}

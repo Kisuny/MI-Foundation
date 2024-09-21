@@ -1,0 +1,10 @@
+{
+	id: "5244341D4BF0939A"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ count: 256, item: "minecraft:sand" }
+		{ count: 256, item: "minecraft:red_sand" }
+	]
+	title: "sand"
+}

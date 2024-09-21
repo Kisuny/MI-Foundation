@@ -1,0 +1,2779 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "76F902127425B1CC"
+	group: "05C42DC8B5A65584"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "ftblibrary:icons/map"
+		}
+	}
+	id: "60E665F30CFE88CF"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0314A659046D38A0"]
+			description: [
+				"Можно найти в закопанных кладах, которые можно найти картой сокровищ"
+				""
+				"Так же данный глаз можно выбить при рыбной ловле существ."
+			]
+			id: "3563710E363ABA24"
+			rewards: [
+				{
+					count: 10
+					id: "661AE27A0C4A6458"
+					item: "vitalize:experience_cubed"
+					random_bonus: 64
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "498FAC93902F1804"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "09AE98700ECCCE05"
+					item: "kubejs:mob_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "52835448A84F59F1"
+				item: "endrem:black_eye"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0314A659046D38A0"]
+			description: [
+				"Данный глаз можно найти в зимних данжах."
+				""
+				"Чаще всего в иглу."
+			]
+			id: "07838886FF1C1A59"
+			rewards: [
+				{
+					count: 10
+					id: "3C567360375F3B07"
+					item: "vitalize:experience_cubed"
+					random_bonus: 64
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "17BB9F9D9A9A72AA"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4D11DD3A2C210EBE"
+					item: "kubejs:mob_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "155A677B9A8F1ECB"
+				item: "endrem:cold_eye"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0314A659046D38A0"]
+			description: [
+				"Данный глаз можно найти в аутпостах илледжеров."
+				""
+				"Так же данный глаз можно выбить при рыбной ловле существ."
+			]
+			id: "3B4BF7FDDF51F09E"
+			rewards: [
+				{
+					count: 10
+					id: "683CD31B53B01840"
+					item: "vitalize:experience_cubed"
+					random_bonus: 64
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "124160DAA295A063"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0013E5D401137569"
+					item: "kubejs:mob_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "605F47652F49DCCA"
+				item: "endrem:corrupted_eye"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0314A659046D38A0"]
+			description: [
+				"Данный глаз можно найти в заброшенных шахтах."
+				""
+				"Так же данный глаз можно выбить при рыбной ловле существ."
+			]
+			id: "37029AB518763CA9"
+			rewards: [
+				{
+					count: 10
+					id: "6694F6507FACC10C"
+					item: "vitalize:experience_cubed"
+					random_bonus: 64
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4F2CE80D4A49D4F9"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6959B1CBA70B49B6"
+					item: "kubejs:mob_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1B0310C103611FCF"
+				item: "endrem:lost_eye"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0314A659046D38A0"]
+			description: [
+				"Данный глаз можно найти в адской крепости."
+				""
+				"Так же данный глаз можно выбить при рыбной ловле существ."
+			]
+			id: "299E99F22D5A9E72"
+			rewards: [
+				{
+					count: 10
+					id: "027BC78F5698149C"
+					item: "vitalize:experience_cubed"
+					random_bonus: 64
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4995E6D8228F9193"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "64EB6A3ED75E207F"
+					item: "kubejs:mob_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3D3F043F29E419CE"
+				item: "endrem:nether_eye"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0314A659046D38A0"]
+			description: ["Данный глаз можно найти в пустынной пирамиде "]
+			id: "28F2F45DAA269220"
+			rewards: [
+				{
+					count: 10
+					id: "488328BBE8FC2C1C"
+					item: "vitalize:experience_cubed"
+					random_bonus: 64
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "76351D5382706354"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4139CD88B284C73F"
+					item: "kubejs:mob_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1CB44902134F3DE2"
+				item: "endrem:old_eye"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0314A659046D38A0"]
+			description: ["Данный глаз можно найти в джунглиевых данжах."]
+			id: "1E58F39FF66470BC"
+			rewards: [
+				{
+					count: 10
+					id: "2E687BCD84B52369"
+					item: "vitalize:experience_cubed"
+					random_bonus: 64
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "492EF385D36CEEE1"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "056F73854538D9EE"
+					item: "kubejs:mob_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5971DEA9CB604CCB"
+				item: "endrem:rogue_eye"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0314A659046D38A0"]
+			description: [
+				"Данный глаз можно найти в бастионах пиглинов."
+				""
+				"Так же данный глаз можно выбить при рыбной ловле существ. "
+			]
+			id: "7B39074320944141"
+			rewards: [
+				{
+					count: 10
+					id: "0B9E588876FEEAB9"
+					item: "vitalize:experience_cubed"
+					random_bonus: 64
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3578171B2E450894"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1C36BDED96DC5FF8"
+					item: "kubejs:mob_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "199A85C24AF28AC0"
+				item: "endrem:cursed_eye"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0314A659046D38A0"]
+			description: [
+				"Данный глаз можно найти в деревнях."
+				""
+				"Так же данный глаз можно выбить при рыбной ловле существ."
+			]
+			id: "06260AD0C488B076"
+			rewards: [
+				{
+					count: 10
+					id: "0574B3683297A256"
+					item: "vitalize:experience_cubed"
+					random_bonus: 64
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "259877E1294EB9B5"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0CA354DADDA3C0BD"
+					item: "kubejs:mob_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5CD8A1542F80B40B"
+				item: "endrem:evil_eye"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0314A659046D38A0"]
+			description: ["Так же данный глаз можно выбить при рыбной ловле существ."]
+			id: "77B59682D528B93E"
+			rewards: [
+				{
+					count: 10
+					id: "2B3463995FE65413"
+					item: "vitalize:experience_cubed"
+					random_bonus: 64
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6BDC230A675D3307"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "56071F7130CF95C5"
+					item: "kubejs:mob_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "64994F7AADE6EB84"
+				item: "endrem:guardian_eye"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0314A659046D38A0"]
+			description: [
+				"Данный глаз можно получить убив &oЗаклинателя&r."
+				""
+				"Так же данный глаз можно выбить при рыбной ловле существ."
+			]
+			id: "551DF9EBF88C3AAB"
+			rewards: [
+				{
+					count: 10
+					id: "08E2DDF995ED5DF6"
+					item: "vitalize:experience_cubed"
+					random_bonus: 64
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "64715B6B31744DA1"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0B84F105FE9A4156"
+					item: "kubejs:mob_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1688A6FD16A408D5"
+				item: "endrem:magical_eye"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0314A659046D38A0"]
+			description: ["Данный глаз выпадает при убийстве босса-иссушителя."]
+			id: "1BE3A2492A82205F"
+			rewards: [
+				{
+					count: 10
+					id: "609D31C5FD305F8B"
+					item: "vitalize:experience_cubed"
+					random_bonus: 64
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1886016AB30B6512"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "36F99E5D8D96C449"
+					item: "kubejs:mob_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "688F6D265B73F101"
+				item: "endrem:wither_eye"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0314A659046D38A0"]
+			description: [
+				"Можно создать при помощи глаза ведьмы, который можно выбить из ведьмы."
+				""
+				"Так же глаз ведьмы можно выбить при рыбной ловле существ."
+			]
+			id: "4CF8484EAFAE81FB"
+			rewards: [
+				{
+					count: 10
+					id: "42E7336B9AE3531A"
+					item: "vitalize:experience_cubed"
+					random_bonus: 64
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "74686A8766C708C6"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4C66C70EEB46B65B"
+					item: "kubejs:mob_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5E2F5016FCE9915D"
+				item: "endrem:witch_eye"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0314A659046D38A0"]
+			description: [
+				"Данный глаз можно создать из души нежети, душу можно выбить из костянной лошади."
+				""
+				"Так же данную душу можно выбить при рыбной ловле существ."
+			]
+			id: "7801E22896BA97EF"
+			rewards: [
+				{
+					count: 10
+					id: "797571DB8D750A4F"
+					item: "vitalize:experience_cubed"
+					random_bonus: 64
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "422DDDCF61D6C81D"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5F486002767F33BE"
+					item: "kubejs:mob_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "32158E8A477919CB"
+				item: "endrem:undead_eye"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0314A659046D38A0"]
+			description: [
+				"Данный глаз можно скрафтить."
+				""
+				"Так же выбить при рыбной ловле существ."
+			]
+			id: "6A0A4BFC106CA929"
+			rewards: [
+				{
+					count: 10
+					id: "5241C8E75FF43767"
+					item: "vitalize:experience_cubed"
+					random_bonus: 64
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4AAC1EDEB9659028"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "154C26D266641CA7"
+					item: "kubejs:mob_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "44FC32D2E66F7C59"
+				item: "endrem:exotic_eye"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0314A659046D38A0"]
+			description: ["Данный глаз можно найти в деревнях."]
+			id: "66304D9744D15DDB"
+			rewards: [
+				{
+					count: 10
+					id: "79EC3590A80AA9B6"
+					item: "vitalize:experience_cubed"
+					random_bonus: 64
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2E7355C3D086C2DB"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0997F460301D31F0"
+					item: "kubejs:mob_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6407B050C0D8BE13"
+				item: "endrem:cryptic_eye"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"В данном модпаке присутствует большое количество &eбезделушек&r и их улучшений, в разных проявлениях."
+				""
+				"Занимаясь исследованиями разнообразных структур вам будут попадаться &5таинственные глаза&r/&6монетки&r/&eбезделушки&r. "
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/map"
+				}
+			}
+			id: "68D1FA710C01D507"
+			shape: "gear"
+			tasks: [{
+				id: "32918FC50A895399"
+				type: "checkmark"
+			}]
+			title: "Мид путешествия"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["553E6F83E4555C20"]
+			description: [
+				"Артефакт можно получить с маленьким шансом во время рыбалки. "
+				""
+				"Так же можно выбить при ловле существ из жидкостей."
+			]
+			id: "6746D433903770F4"
+			rewards: [
+				{
+					count: 20
+					id: "006CDA9CE37C75B8"
+					item: "vitalize:experience_cubed"
+					random_bonus: 40
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6934570F240E4D12"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "49F60821E9EEFCA0"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "005F0664627C873C"
+				item: {
+					Count: 1b
+					id: "majruszsaccessories:angler_trophy"
+					tag: {
+						Bonus: {
+							Boosters: [ ]
+							Value: -0.02f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["553E6F83E4555C20"]
+			description: ["Артефакт можно получить при приручение питомцев."]
+			id: "471C10FF09C6854A"
+			rewards: [
+				{
+					count: 20
+					id: "05B9A6D853221A34"
+					item: "vitalize:experience_cubed"
+					random_bonus: 40
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7DFD4F56FEA507DA"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "24E78E5C7E4339E5"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "448A2178602F1656"
+				item: "majruszsaccessories:certificate_of_taming"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["553E6F83E4555C20"]
+			description: ["Артефакт можно найти в деревнях "]
+			id: "55B58D9EF09440BF"
+			rewards: [
+				{
+					count: 20
+					id: "454891B4AA34DD7F"
+					item: "vitalize:experience_cubed"
+					random_bonus: 40
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "241ABC8C420AC58C"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7B1C685CCC7AA2F9"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "158B21E098DC975A"
+				item: "majruszsaccessories:discount_voucher"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["553E6F83E4555C20"]
+			description: ["Артефакт можно получить с маленьким шансом после сна на кровати. "]
+			id: "79B6561755FAF83D"
+			rewards: [
+				{
+					count: 20
+					id: "705A5862D869D2DC"
+					item: "vitalize:experience_cubed"
+					random_bonus: 40
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6B39295A38C3C589"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5E0B6B0B176386AD"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "49385674D0DBE564"
+				item: "majruszsaccessories:dream_catcher"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["553E6F83E4555C20"]
+			description: ["Артефакт можно получить при разведение разнообразных животных."]
+			id: "7CB6E6CE8E95E5EA"
+			rewards: [
+				{
+					count: 20
+					id: "735C0557FE976C27"
+					item: "vitalize:experience_cubed"
+					random_bonus: 40
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "26840A923D222AAA"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "261E267B18685D6A"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4C13D8C9EA1A9930"
+				item: "majruszsaccessories:idol_of_fertility"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["553E6F83E4555C20"]
+			description: ["Артефакт можно получить с маленьким шансом во время копания руды/породы."]
+			id: "7BA1D729E528C7F1"
+			rewards: [
+				{
+					count: 20
+					id: "229EB3C4E169F05C"
+					item: "vitalize:experience_cubed"
+					random_bonus: 40
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6D16AD20054FE8D3"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "71757A70C640141A"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6B0ABABD7C6DF7F6"
+				item: "majruszsaccessories:lucky_rock"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["553E6F83E4555C20"]
+			description: [
+				"Артефакт можно получить с маленьким шансом когда убиваешь рыбу. "
+				""
+				"Так же можно выбить при ловле существ из жидкостей."
+			]
+			id: "3D62980B5B1EDC48"
+			rewards: [
+				{
+					count: 20
+					id: "6B0A23067E2DE5E6"
+					item: "vitalize:experience_cubed"
+					random_bonus: 40
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2C994871E3044685"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "25840AE4AAE92983"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2D760F05873B2756"
+				item: "majruszsaccessories:metal_lure"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["553E6F83E4555C20"]
+			description: ["Артефакт можно получить при исследование сундуков ниже 50 высоты."]
+			id: "3904A9738098F06D"
+			rewards: [
+				{
+					count: 20
+					id: "11727E0FE4B50861"
+					item: "vitalize:experience_cubed"
+					random_bonus: 40
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "67331126897A3A7D"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2E25277C51D2A63D"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "061ABF71705238F1"
+				item: "majruszsaccessories:miner_guide"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["553E6F83E4555C20"]
+			description: ["Артефакт можно получить с маленьким шансом после варки зелий."]
+			id: "6B533E99E0D3BE44"
+			rewards: [
+				{
+					count: 20
+					id: "2CE7DEE19CE61F25"
+					item: "vitalize:experience_cubed"
+					random_bonus: 40
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "66A125B9AA931028"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2A1F0EB5A540BFBC"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "60569C12B7E5DAB2"
+				item: "majruszsaccessories:secret_ingredient"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["553E6F83E4555C20"]
+			description: ["Артефакт можно получить из закопанного сундука сокровищ или в сундуках в океане под водой. "]
+			id: "3A2283BEB13DAB72"
+			rewards: [
+				{
+					count: 20
+					id: "148FDFD6FFB1F838"
+					item: "vitalize:experience_cubed"
+					random_bonus: 40
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4E29B84FCB3DB4C2"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "18F4BF39918DE1BE"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0AE436E4C5C5D1BF"
+				item: "majruszsaccessories:swimmer_guide"
+				type: "item"
+			}]
+			x: -0.6071428571428541d
+			y: -7.333673469387769d
+		}
+		{
+			dependencies: ["553E6F83E4555C20"]
+			description: ["Маленький шанс при сборе любых культур, и чуть больше шанс при сборе картошки. "]
+			id: "65BCC5367E7D38A3"
+			rewards: [
+				{
+					count: 20
+					id: "5879AEA09478B26B"
+					item: "vitalize:experience_cubed"
+					random_bonus: 40
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3E476218F9370922"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6E8CD3EE73BD0D5E"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Беларусам приготовиться  "
+			tasks: [{
+				id: "23AAD0AE43D89FCA"
+				item: "majruszsaccessories:tamed_potato_beetle"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["553E6F83E4555C20"]
+			description: ["Артефакт можно получить при разрушение инструмента/брони. За каждое очко прочности шанс увеличивается."]
+			id: "79F4E72A28BBEF77"
+			rewards: [
+				{
+					count: 20
+					id: "24FE859036E67F63"
+					item: "vitalize:experience_cubed"
+					random_bonus: 40
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "695A0CDB4735AA7B"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5404B03F3C7413C7"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4EB2AF4E37A1C620"
+				item: "majruszsaccessories:tool_scraps"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["553E6F83E4555C20"]
+			description: [
+				"Артефакт можно получить с маленьким шансом во время рыбалки и при убийстве рыбы. "
+				""
+				"Так же можно выбить при ловле существ из жидкостей."
+			]
+			id: "60B6FA5A4304FE0B"
+			rewards: [
+				{
+					count: 20
+					id: "75474903CDECD194"
+					item: "vitalize:experience_cubed"
+					random_bonus: 40
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "55E52758B7A6DE8A"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "311417461AEDA7C0"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1632B049F13C9A0D"
+				item: "majruszsaccessories:unbreakable_fishing_line"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["69F1CC5EF5C7C0B9"]
+			description: [
+				"Так же кубик можно выбить из &oСтража&r в океане."
+				""
+				"Данный уселитель можно улучшить в &#F5BD02золотой."
+			]
+			id: "1490E69D62D8F7F1"
+			rewards: [
+				{
+					count: 20
+					id: "43677BCE6D84EA12"
+					item: "vitalize:experience_cubed"
+					random_bonus: 40
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5D2DFCF72FD2CB11"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1A9C3D13A67AE5C1"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "48258B4DE333BAEF"
+				item: "majruszsaccessories:dice"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["69F1CC5EF5C7C0B9"]
+			description: [
+				"Так же подкову можно выбить из &oскелета наездника&r на костянной лошади."
+				""
+				"Данный уселитель можно улучшить в &#F5BD02золотой."
+			]
+			id: "7F5DF71CCC9C3FBC"
+			rewards: [
+				{
+					count: 20
+					id: "2211C3D338A2B34A"
+					item: "vitalize:experience_cubed"
+					random_bonus: 40
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4BD0646942DC9BD4"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3137A360BAFFC9B2"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "099107AEFE37DC02"
+				item: "majruszsaccessories:horseshoe"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["69F1CC5EF5C7C0B9"]
+			description: ["Так же Оникс падает с 100% с &oВардена&r!"]
+			id: "09679C8515BC3620"
+			rewards: [
+				{
+					count: 20
+					id: "56F225525AA13AEA"
+					item: "vitalize:experience_cubed"
+					random_bonus: 40
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6C42417FA8535A00"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "334E719397A9336C"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5A0DCF79060839C9"
+				item: "majruszsaccessories:onyx"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["69F1CC5EF5C7C0B9"]
+			description: ["Так же перо падает из &oтихони&r и &oвредины&r."]
+			id: "6EC6DAABA95B9AA8"
+			rewards: [
+				{
+					count: 20
+					id: "471C0B8FAB46D7FC"
+					item: "vitalize:experience_cubed"
+					random_bonus: 40
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "47233DF0F7D5B9F9"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "22E5E0F674534864"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1E01D86AB42F7EFF"
+				item: "majruszsaccessories:owl_feather"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["553E6F83E4555C20"]
+			description: ["Артефакт можно получить с маленьким шансом из любого сундука."]
+			id: "0D72E2120CE45B7E"
+			rewards: [
+				{
+					count: 20
+					id: "56C21538910D6D36"
+					item: "vitalize:experience_cubed"
+					random_bonus: 40
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1966AB30C1D09A42"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "474A4B1D9D5E3429"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "74FB760FF4D17508"
+				item: {
+					Count: 1b
+					id: "majruszsaccessories:adventurer_kit"
+					tag: {
+						Bonus: {
+							Boosters: [ ]
+							Value: 0.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5357142857142847d
+			y: -7.3693877551020535d
+		}
+		{
+			dependencies: [
+				"3A2283BEB13DAB72"
+				"0D72E2120CE45B7E"
+			]
+			description: ["Руну можно создать объединив все артефакты которые были необходимы для открытия этого квеста в столе создания."]
+			id: "08A2EC67FC3358B8"
+			rewards: [
+				{
+					count: 20
+					id: "269CA60C8BA620C8"
+					item: "vitalize:experience_cubed"
+					random_bonus: 128
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2656D300E36C99AE"
+					item: "kubejs:food_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "336B736FA927953B"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "561351F13A8E8CDB"
+				item: "majruszsaccessories:adventurer_rune"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"3D62980B5B1EDC48"
+				"60B6FA5A4304FE0B"
+				"6746D433903770F4"
+			]
+			description: ["Руну можно создать объединив все артефакты которые были необходимы для открытия этого квеста в столе создания."]
+			id: "43238B3BE22ACEDF"
+			rewards: [
+				{
+					count: 20
+					id: "25552E77FC6D781C"
+					item: "vitalize:experience_cubed"
+					random_bonus: 128
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "285C7476979C494D"
+					item: "kubejs:food_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5BF6E93ED9B4D01D"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "438C088E9E240A42"
+				item: {
+					Count: 1b
+					id: "majruszsaccessories:angler_rune"
+					tag: {
+						Bonus: {
+							Boosters: [ ]
+							Value: -0.04f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"55B58D9EF09440BF"
+				"79B6561755FAF83D"
+				"6B533E99E0D3BE44"
+			]
+			description: ["Руну можно создать объединив все артефакты которые были необходимы для открытия этого квеста в столе создания."]
+			id: "5BD14A8C761C973E"
+			rewards: [
+				{
+					count: 20
+					id: "750144FD167D2940"
+					item: "vitalize:experience_cubed"
+					random_bonus: 128
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5B891A666DA166D2"
+					item: "kubejs:food_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3B90EB31FA529F10"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6E830ECCD6B11E97"
+				item: {
+					Count: 1b
+					id: "majruszsaccessories:household_rune"
+					tag: {
+						Bonus: {
+							Boosters: [ ]
+							Value: -0.14f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"7BA1D729E528C7F1"
+				"3904A9738098F06D"
+				"79F4E72A28BBEF77"
+			]
+			description: ["Руну можно создать объединив все артефакты которые были необходимы для открытия этого квеста в столе создания."]
+			id: "106607A821EF9A15"
+			rewards: [
+				{
+					count: 20
+					id: "085DCF5C079EA9F1"
+					item: "vitalize:experience_cubed"
+					random_bonus: 128
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5829877FAD84244F"
+					item: "kubejs:food_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4E075B019E190320"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "30FFDF9685834FFB"
+				item: "majruszsaccessories:miner_rune"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"65BCC5367E7D38A3"
+				"7CB6E6CE8E95E5EA"
+				"471C10FF09C6854A"
+			]
+			description: ["Руну можно создать объединив все артефакты которые были необходимы для открытия этого квеста в столе создания."]
+			id: "32CC2FECF8F7617D"
+			rewards: [
+				{
+					count: 20
+					id: "0BA240C8AA82F956"
+					item: "vitalize:experience_cubed"
+					random_bonus: 128
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "58AEE6B2DBC57CE7"
+					item: "kubejs:food_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "76CCED14BB56C258"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "472EE0603F36419E"
+				item: {
+					Count: 1b
+					id: "majruszsaccessories:nature_rune"
+					tag: {
+						Bonus: {
+							Boosters: [ ]
+							Value: 0.23f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"106607A821EF9A15"
+				"32CC2FECF8F7617D"
+				"43238B3BE22ACEDF"
+				"08A2EC67FC3358B8"
+				"5BD14A8C761C973E"
+			]
+			description: ["Руну можно создать объединив все артефакты которые были необходимы для открытия этого квеста в столе создания, данный артефакт будет иметь все баффы от предыдущих артефактов."]
+			id: "5CFD737C32F777A3"
+			rewards: [
+				{
+					count: 20
+					id: "02F3EA0962B45B7B"
+					item: "vitalize:experience_cubed"
+					random_bonus: 256
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1EBA3BF14360DAE6"
+					item: "kubejs:mob_lootbag_epic"
+					random_bonus: 5
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0BB550FADEBC58F2"
+					item: "kubejs:food_lootbag_epic"
+					random_bonus: 5
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3567BC40065935FC"
+					item: "numismatic-overhaul:gold_coin"
+					random_bonus: 4
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "heart"
+			tasks: [{
+				id: "200F7335B80D74C4"
+				item: "majruszsaccessories:soul_of_minecraft"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4CF87A97D88C83E0"]
+			description: ["Карта позволяет перековать артефакт."]
+			id: "27C6614103A24D5E"
+			rewards: [
+				{
+					count: 20
+					id: "2F7D5F9C0D687B59"
+					item: "vitalize:experience_cubed"
+					random_bonus: 40
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5E7CAEC74B7E065A"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "73A9850CEE1970F7"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1A3A20B9F5CE54B1"
+				item: "majruszsaccessories:gambling_card"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4CF87A97D88C83E0"]
+			description: ["Карта позволяет &oвернуть все уселители и сбросить эффективность&r."]
+			id: "77E657F23464B702"
+			rewards: [
+				{
+					count: 20
+					id: "18C05A3BEFB181D4"
+					item: "vitalize:experience_cubed"
+					random_bonus: 40
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "29688310BD797D15"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1A23382C2FB61829"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2A91E68FF62DAFEA"
+				item: "majruszsaccessories:removal_card"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4CF87A97D88C83E0"]
+			description: ["Карта позволяет изменить бонус эффективности на противоположный."]
+			id: "5AC0FB07667212CE"
+			rewards: [
+				{
+					count: 20
+					id: "27C995FA73CF7EA4"
+					item: "vitalize:experience_cubed"
+					random_bonus: 40
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0ABF7B4C42519C50"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4A5A6383CB10C989"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "38FE9DA7610287C2"
+				item: "majruszsaccessories:reverse_card"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			description: ["Данную страницу можно использовать в томе перемещения для быстрой телепортации."]
+			id: "380EAAC3620C974F"
+			rewards: [
+				{
+					count: 10
+					id: "389E008A3A4FF5EC"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6D9E998AC78E4B0C"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "5339E4FA31F7FFD5"
+				item: "things:displacement_page"
+				type: "item"
+			}]
+			x: 4.699999999999999d
+			y: 5.223469387755089d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			description: ["Данное зелье возвращает владелца на кровать, зелье используется."]
+			id: "4F7BB4A1772B9A15"
+			rewards: [
+				{
+					count: 10
+					id: "72B17BEC9FE605F6"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "27A2128431F914F2"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "0F60288585915EB1"
+				item: "things:recall_potion"
+				type: "item"
+			}]
+			x: 5.050000000000001d
+			y: 4.873469387755089d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			id: "36A3ADE826CD730D"
+			rewards: [
+				{
+					count: 10
+					id: "1E9EF7E4B26C8160"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5D2DC80F87374887"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "1AB691D43C46E1B0"
+				item: "artifacts:flame_pendant"
+				type: "item"
+			}]
+			x: 2.95d
+			y: 4.17346938775509d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			id: "27980CA14EF6830C"
+			rewards: [
+				{
+					count: 10
+					id: "6451B6D1B4EFF498"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "22C45D5C9C012BFC"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "3F5804F90C9BC78A"
+				item: "artifacts:shock_pendant"
+				type: "item"
+			}]
+			x: 3.3000000000000007d
+			y: 4.52346938775509d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			id: "265068DF534140B1"
+			rewards: [
+				{
+					count: 10
+					id: "43663B81BF9248F6"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0CFA60015B36BF01"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "1E741A4CB9A568F3"
+				item: "artifacts:steadfast_spikes"
+				type: "item"
+			}]
+			x: 4.35d
+			y: 5.573469387755089d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			id: "391EC8E166D4BD1C"
+			rewards: [
+				{
+					count: 10
+					id: "577B37A06A6BCE9D"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "79218F4AF6D98612"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "33FF8A9FE0E0A1A1"
+				item: "artifacts:kitty_slippers"
+				type: "item"
+			}]
+			x: 4.699999999999999d
+			y: 4.52346938775509d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			id: "1D51239C5669763F"
+			rewards: [
+				{
+					count: 10
+					id: "7D9423597659C333"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "671EFA6713906266"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "2766C5F64878AB43"
+				item: "artifacts:helium_flamingo"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 4.17346938775509d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			id: "03222A516A7A5DD2"
+			rewards: [
+				{
+					count: 10
+					id: "2940C74818179DD5"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "27834D52A9B01AAE"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "3053355BE75F91A5"
+				item: "artifacts:obsidian_skull"
+				type: "item"
+			}]
+			x: 3.3000000000000007d
+			y: 5.223469387755089d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			id: "24CB4A3C0AE291BB"
+			rewards: [
+				{
+					count: 10
+					id: "5ED91838244671E1"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "57EBE1D3DC6AD931"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "6FB4D0703CB3DA2F"
+				item: "artifacts:charm_of_sinking"
+				type: "item"
+			}]
+			x: 2.95d
+			y: 5.573469387755089d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			id: "7886CDE494448AA5"
+			rewards: [
+				{
+					count: 10
+					id: "37B1ACC0A00FAAD5"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "183465D90D94C803"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "7958E2D86C639B65"
+				item: "artifacts:thorn_pendant"
+				type: "item"
+			}]
+			x: 2.6d
+			y: 5.223469387755089d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			id: "2A482547D560EA0B"
+			rewards: [
+				{
+					count: 10
+					id: "1AD81D9F5E809EDB"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "29BD526BD5E45C64"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "3F7BFE38DEB4FB9A"
+				item: "artifacts:pocket_piston"
+				type: "item"
+			}]
+			x: 3.9999999999999996d
+			y: 4.52346938775509d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			id: "4CAE734F0A10B4CC"
+			rewards: [
+				{
+					count: 10
+					id: "7C7250E976506ABE"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "49E20B9D683E7E94"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "32C5317CBECC546E"
+				item: "artifacts:universal_attractor"
+				type: "item"
+			}]
+			x: 3.6500000000000004d
+			y: 4.873469387755089d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			id: "53028F130664287A"
+			rewards: [
+				{
+					count: 10
+					id: "75CFAB2EE3905A57"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4BF96623658C086D"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "3CF83AC66D9F4256"
+				item: "artifacts:cross_necklace"
+				type: "item"
+			}]
+			x: 4.699999999999999d
+			y: 3.8234693877550905d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			id: "33F9D2FDEF18F6C3"
+			rewards: [
+				{
+					count: 10
+					id: "365832E38ED4C7D7"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "762AEFC9A5EE2429"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "40D2CF87F6AA2BEF"
+				item: "artifacts:power_glove"
+				type: "item"
+			}]
+			x: 5.050000000000001d
+			y: 4.17346938775509d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			id: "5ABFDAAC5A870B46"
+			rewards: [
+				{
+					count: 10
+					id: "1DE7B5D11734D191"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "54F5709E73ADAF24"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "14EB24F7E5D4A630"
+				item: "artifacts:umbrella"
+				type: "item"
+			}]
+			x: 3.6500000000000004d
+			y: 3.473469387755091d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			id: "4B7F6FCDBFDF1F4F"
+			rewards: [
+				{
+					count: 10
+					id: "23144BF90B5145ED"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "26D24454ABEFA4C9"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "50040FB2CDBCA35D"
+				item: "artifacts:plastic_drinking_hat"
+				type: "item"
+			}]
+			x: 2.6d
+			y: 4.52346938775509d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			id: "434E0088C971C9CC"
+			rewards: [
+				{
+					count: 10
+					id: "15CE3F614F06CD9A"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "002C4EF4F339D41F"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "14EFE2A77C842BE1"
+				item: "artifacts:novelty_drinking_hat"
+				type: "item"
+			}]
+			x: 2.95d
+			y: 4.873469387755089d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			id: "1F041B2F74F4D062"
+			rewards: [
+				{
+					count: 10
+					id: "307DD95B387A2F25"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7B94D85EC26A8F56"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "3064CFDA30BDAD20"
+				item: "artifacts:scarf_of_invisibility"
+				type: "item"
+			}]
+			x: 3.9999999999999996d
+			y: 3.1234693877550908d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			id: "00E1EA2952AF8092"
+			rewards: [
+				{
+					count: 10
+					id: "29F2D8FAA1B6EB75"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6E7616AE049C5D05"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "015D41213B3656E7"
+				item: "artifacts:panic_necklace"
+				type: "item"
+			}]
+			x: 2.6d
+			y: 3.8234693877550905d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			id: "5A945592B804F63B"
+			rewards: [
+				{
+					count: 10
+					id: "57693260F0CE8729"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3BAB9302BD36D706"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "15A7F25705F22DE9"
+				item: "artifacts:bunny_hoppers"
+				type: "item"
+			}]
+			x: 4.35d
+			y: 4.873469387755089d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			id: "6DCA37573588A3BD"
+			rewards: [
+				{
+					count: 10
+					id: "7EE208FE815F60EB"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4A5CEC0CD25F7B32"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "5444DD6AC3ADBD47"
+				item: "artifacts:aqua_dashers"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 4.873469387755089d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			id: "22E21FE99C19B07F"
+			rewards: [
+				{
+					count: 10
+					id: "06D76A9A53E9966E"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3166B57064EDE685"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "7F3AD6AAB5785BF9"
+				item: "things:broken_watch"
+				type: "item"
+			}]
+			x: 2.95d
+			y: 3.473469387755091d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			id: "0DFE71D20D12C423"
+			rewards: [
+				{
+					count: 10
+					id: "5679E7AD05C2E2FE"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "41F426EC20722948"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "02A3EAD5AFEBC19A"
+				item: "artifacts:golden_hook"
+				type: "item"
+			}]
+			x: 4.35d
+			y: 3.473469387755091d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			id: "35DC3BF5CDE839DF"
+			rewards: [
+				{
+					count: 10
+					id: "6DC16DF7BA53F5C6"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0D42C9BCC9D6002E"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "047EF840822C4076"
+				item: "artifacts:whoopee_cushion"
+				type: "item"
+			}]
+			x: 4.35d
+			y: 4.17346938775509d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			id: "108544E4A29BBEA4"
+			rewards: [
+				{
+					count: 10
+					id: "12BEB13BC94F2D2A"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4C2B47AEDAE67B97"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "144DCC6AEF13B900"
+				item: {
+					Count: 1b
+					id: "things:infernal_scepter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.6500000000000004d
+			y: 4.17346938775509d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			description: [
+				"Ускоряют владельца так же могут быть улучшены."
+				""
+				"Данные носки улучшаются в спектруме, отобращающийся крафт в обычном верстаке - баг."
+			]
+			id: "5BABCB1A9BDD0569"
+			rewards: [
+				{
+					count: 10
+					id: "47EB26DCFDCDBAC7"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5F8CE8D59025E2AB"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "43994EBEF93BADC0"
+				item: {
+					Count: 1b
+					id: "things:socks"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.9999999999999996d
+			y: 5.223469387755089d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			id: "542780351948671E"
+			rewards: [
+				{
+					count: 10
+					id: "7056632B1F9463D2"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "130623803AEFCC0C"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "591050345F08402A"
+				item: "things:rabbit_foot_charm"
+				type: "item"
+			}]
+			x: 3.9999999999999996d
+			y: 3.8234693877550905d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			id: "302D082E1EC2DD1A"
+			rewards: [
+				{
+					count: 10
+					id: "32070CD5B00F2EE8"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0FF4D2BD6728436F"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "037275BB6AD4C047"
+				item: "things:placebo"
+				type: "item"
+			}]
+			x: 3.3000000000000007d
+			y: 3.1234693877550908d
+		}
+		{
+			dependencies: ["3EC07E97251D3218"]
+			description: ["Когда артефакт надет - даёт регенерацию 2 и везение при употребление гнилого картофеля."]
+			id: "42AA9CD4FC785CA8"
+			rewards: [
+				{
+					count: 10
+					id: "7CF1E638423B6D6F"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "611595013F028673"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 0.7d
+			tasks: [{
+				id: "533B23024527827B"
+				item: "things:luck_of_the_irish"
+				type: "item"
+			}]
+			x: 3.3000000000000007d
+			y: 3.8234693877550905d
+		}
+		{
+			dependencies: ["68D1FA710C01D507"]
+			description: [
+				"Глаза можно найти путешествуя по миру, в разнообразных местах, будь то зимние биомы или пустыня, будь то редкие данжи пиглинов или злобный босс-иссушитель. "
+				""
+				"&l&cНастоятельно рекомендуем&r&r подготовиться к бою с драконом, дракон в данной сборке был чрезвычайно усилен."
+			]
+			hide_dependency_lines: false
+			icon: "endrem:ancient_portal_frame"
+			id: "0314A659046D38A0"
+			shape: "hexagon"
+			tasks: [{
+				id: "0A2AE7F62DE66D43"
+				type: "checkmark"
+			}]
+			title: "Эндер глаза"
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["68D1FA710C01D507"]
+			description: [
+				"&6&lMajruszs Accessories&r&r — Добавляет множество &oуникальных&r безделушек и эффективность к ним."
+				" "
+				"Чем больше эффективность безделушки — тем больше &cсила&r данной безделушки."
+				""
+				"Большинство безделушек имеет &dуникальный&r способ получения, более подробно можно прочитать в квесте нужной безделушки. "
+				""
+				"Так же данный мод добавляет возможность &l&2объединять&r&r безделушки между собой чтобы сделать её более &cмощной&r, для этого необходимо выложить безделушки в крафте друг с другом."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "roughlyenoughitems:textures/gui/config/accessibility.png"
+				}
+			}
+			id: "553E6F83E4555C20"
+			shape: "diamond"
+			tasks: [{
+				id: "40C1A0671DA818C3"
+				title: "Majruszs Accessories"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["68D1FA710C01D507"]
+			description: [
+				"Артефакты можно найти просто путешествуя по миру, ничего особенного."
+				""
+				"Доступный список артефактов в обычном мире находится ниже, все остальные артефакты добываются путём рыбалки, более подробнее вы сможете узнать когда откроете вкладку квестов &3«Рыбалка»&r"
+			]
+			icon: "artifacts:mimic_spawn_egg"
+			id: "3EC07E97251D3218"
+			shape: "diamond"
+			tasks: [{
+				id: "48682251A9F61142"
+				title: "Artifacts + things"
+				type: "checkmark"
+			}]
+			x: 3.680272108843539d
+			y: 2.4499999999999997d
+		}
+		{
+			dependencies: ["553E6F83E4555C20"]
+			description: [
+				"&lУселители&r - это новый тип предмета, который позволяет добавлять дополнительные бонусы ко всем аксессуарам мода &eMajruszs Accessories&r. Одновременно можно применить &o1 бустер&r к &oодному аксессуару&r, однако более сильные аксессуары открывают 2-й и 3-й слот для бустеров. Эффекты от нескольких бустеров на разных аксессуарах могут суммироваться."
+				""
+				"Уселители можно найти в аду при убийстве &o&lлюбых&r&r мобов. "
+				""
+				"Бустеры можно комбинировать с любым аксессуаром в Верстаке, например, рыбный трофей можно комбинировать с Игральными Костями."
+				""
+				""
+				"{image:quest_images:textures/item/boosting_accessory.png width:170 height:100 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/mob_effect/jump_boost.png"
+				}
+			}
+			id: "69F1CC5EF5C7C0B9"
+			shape: "diamond"
+			tasks: [{
+				id: "72D626926ED04112"
+				title: "Бустеры!!!"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["553E6F83E4555C20"]
+			description: [
+				"Карты - это новый тип расходных материалов, позволяющих навсегда изменить аксессуары."
+				""
+				"Карты можно получить исследуя мир или из существ при рыбной ловле. "
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/dice"
+				}
+			}
+			id: "4CF87A97D88C83E0"
+			shape: "diamond"
+			tasks: [{
+				id: "1D103FBFAF1C4E13"
+				title: "Азарт? Нет не слышал"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["68D1FA710C01D507"]
+			description: ["Найдите свой первый <shake>странный</shake> сундук!"]
+			id: "1EF8193BECA95331"
+			shape: "gear"
+			tasks: [{
+				icon: "probablychests:normal_chest"
+				id: "18F0CB9FC6DEB23D"
+				observe_type: 1
+				timer: 0L
+				to_observe: "probablychests:any_chests"
+				type: "observation"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1EF8193BECA95331"]
+			description: ["Является компонентом для крафта"]
+			hide: true
+			id: "7E0AD89FB624F4F8"
+			shape: "circle"
+			tasks: [{
+				count: 3L
+				id: "395A8A3524C1B8C2"
+				item: "probablychests:mimic_key_fragment"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1EF8193BECA95331"]
+			description: ["Является компонентом для крафта"]
+			hide: true
+			id: "2EFEF55A15B34FE5"
+			shape: "circle"
+			tasks: [{
+				id: "5DD242951A55A101"
+				item: "probablychests:mimic_core"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7E0AD89FB624F4F8"]
+			description: ["Является компонентом для крафта"]
+			hide: true
+			id: "793B5816F67701FA"
+			shape: "circle"
+			tasks: [{
+				id: "0CBF95971A77754D"
+				item: "probablychests:mimic_key"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"793B5816F67701FA"
+				"2EFEF55A15B34FE5"
+			]
+			description: ["Ключ приручения позволяет превратить сундук или злобного мимика в прирученного и хранить в нём предметы!"]
+			hide: true
+			id: "47EE8DBE6671207D"
+			shape: "pentagon"
+			tasks: [{
+				id: "320F15D8EEE5A311"
+				item: "probablychests:pet_mimic_key"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["47EE8DBE6671207D"]
+			description: [
+				"Колокольчик позволяет управлять прирученным мимиком."
+				""
+				"Вы можете отказаться от своего прирученного мимика, кликнув колокольчиком по друзе аметиста, после этого все ваши мимики будут ничьи, в течении 5 минут вы сможете снова их приручить без особых проблем, по истечению 5 минут мимик превратится в злобного мимика!"
+				""
+				"Один игрок может приручить всего 2х мимиков!"
+			]
+			hide: true
+			id: "1322C2CD6FC7699E"
+			shape: "gear"
+			tasks: [{
+				id: "3CFD9C41193A6832"
+				item: "probablychests:mimic_hand_bell"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1EF8193BECA95331"]
+			description: ["Все золотые сундуки изначально закрыты, чтобы их открыть, нужно найти золотой ключик, и использовать его для открытия золотого сундука, золотой сундук хранит одни из самых вкусных предметов!"]
+			hide: true
+			id: "65845B4612A4C218"
+			shape: "pentagon"
+			tasks: [{
+				id: "6815D4333F3DFF1D"
+				item: "probablychests:gold_key"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+	]
+	title: "&7Exploring"
+}

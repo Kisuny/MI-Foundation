@@ -1,0 +1,2059 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania"
+	group: "62869C8C7B088104"
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1b
+		id: "botania:twig_wand"
+		tag: {
+			color1: 0
+			color2: 0
+		}
+	}
+	id: "3B27CD9F9E2D422C"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["664A12765CF548C8"]
+			description: ["Камень можно сделать из камня «&l&aПосохом природы&r&r», если хотите создавать его автоматически — соберите чёрношлак и поставьте рядом с «чистой маргориткой»."]
+			hide: true
+			id: "7DD2206DF25D8DC3"
+			rewards: [
+				{
+					count: 64
+					id: "681C4D1C0347E604"
+					item: "botania:livingrock"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6CA009025653D766"
+					item: "kubejs:mob_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "7E0F92A845C9CAAB"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["664A12765CF548C8"]
+			description: ["Древесину можно сделать из любой древесины «&l&aПосохом природы&r&r», если хотите создавать её автоматически — ставьте мракогриб рядом с «чистой маргориткой»."]
+			hide: true
+			id: "5FA31A55E3348D51"
+			rewards: [
+				{
+					count: 64
+					id: "1C40B0E569A55825"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+				{
+					id: "5035042B106BADA2"
+					item: "kubejs:food_lootbag_rare"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "2461C6A1AE77D6ED"
+				item: "botania:livingwood_log"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3EAED60DF7CE15EB"]
+			description: ["Создайте свой первый аптекарь!"]
+			hide: true
+			id: "7DBF29B0CA3AB04F"
+			rewards: [{
+				id: "7262D7D3877BD869"
+				item: "kubejs:magic_lootbag_epic"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "6B19DBAAD8E67A4A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:apothecary"
+					}
+				}
+				title: "Any #botania:apothecary"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3018AF7A6669D930"]
+			id: "3ADB1DB4DCD33DEF"
+			rewards: [
+				{
+					id: "7278B020EE2B6FF2"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "52CA0850B2B37E39"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "42C647BEABD197A0"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3ADB1DB4DCD33DEF"]
+			hide: true
+			hide_dependency_lines: true
+			id: "7907594925AAA1D8"
+			rewards: [
+				{
+					id: "2E6487ED2E0AE01D"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "1F4BC485F56B195F"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3801824ECD59F823"
+				item: "botania:rune_water"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3ADB1DB4DCD33DEF"]
+			hide_dependency_lines: true
+			id: "0E719DE903AEA1FF"
+			rewards: [
+				{
+					id: "41C13ED6BEC22882"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "7AFAC48E94409E92"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "513A047A00C61B6C"
+				item: "botania:rune_fire"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["3ADB1DB4DCD33DEF"]
+			hide_dependency_lines: true
+			id: "35464E5F675003F0"
+			rewards: [
+				{
+					id: "6AF46DC3D307DDA1"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "53F3E3AEA96002B4"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "39F546216CE28EB1"
+				item: "botania:rune_earth"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3ADB1DB4DCD33DEF"]
+			hide: false
+			hide_dependency_lines: true
+			id: "46CDEF0CFC6C31B7"
+			rewards: [
+				{
+					id: "78D59BFDB05BA908"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "734B298D3239A779"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "742839DC45992C4C"
+				item: "botania:rune_air"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"0E719DE903AEA1FF"
+				"7907594925AAA1D8"
+			]
+			hide_dependency_lines: true
+			id: "4ED6C3444B132309"
+			rewards: [
+				{
+					id: "05D3FC35550D044B"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "1D1FA50CE5AA4DD1"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "63F55B83D582D950"
+				item: "botania:rune_spring"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"46CDEF0CFC6C31B7"
+				"35464E5F675003F0"
+			]
+			hide_dependency_lines: true
+			id: "461FDF2914DC9920"
+			rewards: [
+				{
+					id: "13ABA1B54FFDEC12"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "116A66F0E680B43E"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "53FB421830C936FF"
+				item: "botania:rune_summer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"46CDEF0CFC6C31B7"
+				"0E719DE903AEA1FF"
+			]
+			hide_dependency_lines: true
+			id: "35C93FC391EE64E2"
+			rewards: [
+				{
+					id: "665155A50392906D"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "0B5AD8448E48E2AE"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "70378277DDF23E8B"
+				item: "botania:rune_autumn"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"35464E5F675003F0"
+				"7907594925AAA1D8"
+			]
+			hide_dependency_lines: true
+			id: "612588B2C36FD6DC"
+			rewards: [
+				{
+					id: "58F7C3B36E3651A7"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "3BB8ED61DD7A2610"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "34370B0C6C0FA3FA"
+				item: "botania:rune_winter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["3ADB1DB4DCD33DEF"]
+			hide_dependency_lines: true
+			id: "4D99101BCAE4E198"
+			rewards: [
+				{
+					id: "0CDA46201A4DB393"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "15BF4F9FD2EFD859"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4EF463B5CA61EC67"
+				item: "botania:rune_mana"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"46CDEF0CFC6C31B7"
+				"461FDF2914DC9920"
+			]
+			hide_dependency_lines: true
+			id: "289CB3A42E0762BB"
+			rewards: [
+				{
+					id: "689B0D6DF343BFF6"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "7BC1838F5F699551"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3CF860910C95BB04"
+				item: "botania:rune_lust"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"0E719DE903AEA1FF"
+				"612588B2C36FD6DC"
+			]
+			hide_dependency_lines: true
+			id: "70E617CE102C0E88"
+			rewards: [
+				{
+					id: "6913EFE1D3F10567"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "6C7C058970D7C801"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5C91CCC17899139B"
+				item: "botania:rune_gluttony"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"4ED6C3444B132309"
+				"7907594925AAA1D8"
+			]
+			hide_dependency_lines: true
+			id: "39EE7E089D0F5FBA"
+			rewards: [
+				{
+					id: "2A370A43E1F95C41"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "6D3D773CA8CA2CD3"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "31056E9633BE67A5"
+				item: "botania:rune_greed"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -9.5d
+		}
+		{
+			dependencies: [
+				"35C93FC391EE64E2"
+				"46CDEF0CFC6C31B7"
+			]
+			hide_dependency_lines: true
+			id: "6167874DC4AE5A2E"
+			rewards: [
+				{
+					id: "0F503DF837A50327"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "012A599BAA900533"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "53BD3B376C1301BF"
+				item: "botania:rune_sloth"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"612588B2C36FD6DC"
+				"35464E5F675003F0"
+			]
+			hide_dependency_lines: true
+			id: "41D9D3CFB534DECB"
+			rewards: [
+				{
+					id: "2E115D821B3C3EE4"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "4C5A3E97AD5E3684"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "58B3FCE55DE99A10"
+				item: "botania:rune_wrath"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"612588B2C36FD6DC"
+				"7907594925AAA1D8"
+			]
+			hide_dependency_lines: true
+			id: "661C12EDFC819297"
+			rewards: [
+				{
+					id: "5E76A7C5A9913A34"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "5524F740F5656FDB"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "10C732E925BCB6A4"
+				item: "botania:rune_envy"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"461FDF2914DC9920"
+				"0E719DE903AEA1FF"
+			]
+			hide_dependency_lines: true
+			id: "4865CDD1F704B7F9"
+			rewards: [
+				{
+					id: "2810BA083545B3AC"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "1AB0517126506139"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6F89715D97284F59"
+				item: "botania:rune_pride"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7DBF29B0CA3AB04F"]
+			id: "664A12765CF548C8"
+			rewards: [
+				{
+					id: "1E56E237630EEC02"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3F39F6521012AE90"
+					item: "kubejs:food_lootbag_rare"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "008E308E74F9B2F6"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["73E89696B8014546"]
+			hide_dependent_lines: true
+			id: "6804ADADE75A0773"
+			rewards: [
+				{
+					id: "46FBC4A7315AAD0A"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "5D39102FBF407274"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Мана за воду"
+			tasks: [{
+				id: "772AD462A07F1293"
+				item: "botania:hydroangeas"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["73E89696B8014546"]
+			hide_dependent_lines: true
+			id: "73D65B739C1100FD"
+			rewards: [
+				{
+					id: "17DA89C78FDAC934"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "197F438812C7FF55"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Мана за горючие предметы"
+			tasks: [{
+				id: "770AD4FB93BFC2FA"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["73E89696B8014546"]
+			hide_dependent_lines: true
+			id: "02B03EE97AA66374"
+			rewards: [
+				{
+					id: "129EFD1AB18680E1"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "079C593C669AFB7B"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Мана за лаву"
+			tasks: [{
+				id: "7CF62EA7DF12A1CA"
+				item: "botania:thermalily"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["73E89696B8014546"]
+			hide_dependent_lines: true
+			id: "02D8D2582997866C"
+			rewards: [
+				{
+					id: "6069DD1775406BD3"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "5529E59F13AA3EA9"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Мана за опыт"
+			tasks: [{
+				id: "3C0289C251C27FCB"
+				item: "botania:rosa_arcana"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["73E89696B8014546"]
+			hide_dependent_lines: true
+			id: "7D93ED79F0A2FD37"
+			rewards: [
+				{
+					id: "04613D1E465725A7"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "0DBB4C3D564F75B1"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Мана за листья"
+			tasks: [{
+				id: "63585DD6452AFB14"
+				item: "botania:munchdew"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["73E89696B8014546"]
+			hide_dependent_lines: true
+			id: "7EA609D4FF4E8D7A"
+			rewards: [
+				{
+					id: "0D65D19A95B0144B"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "4002012035A9BBF9"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Мана за взрыв TNT"
+			tasks: [{
+				id: "4FA23882124A0788"
+				item: "botania:entropinnyum"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["73E89696B8014546"]
+			hide_dependent_lines: true
+			id: "679CE95DFFBD7AFC"
+			rewards: [
+				{
+					id: "41448FE61AD51677"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "38FEC39676810A93"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Мана за тортики"
+			tasks: [{
+				id: "163A2B3DFD643535"
+				item: "botania:kekimurus"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["73E89696B8014546"]
+			hide_dependent_lines: true
+			id: "4DA98364F17F3CC1"
+			rewards: [
+				{
+					id: "2DE8463652BFBAA7"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "0DDBC9AD7C76960C"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Мана за еду"
+			tasks: [{
+				id: "31F8D391E68A5680"
+				item: "botania:gourmaryllis"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7E5C457A7E9FC7E7"]
+			id: "20C6DD456DD74099"
+			rewards: [
+				{
+					id: "40E865B22559C3E5"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "782A88947795DF95"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Убивает всех, кроме игрока"
+			tasks: [{
+				id: "652E99EE289A2E0A"
+				item: "botania:bellethorn"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7E5C457A7E9FC7E7"]
+			id: "7CB99EAFA331742C"
+			rewards: [
+				{
+					id: "7822A93AC8935F08"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "5CF26CDACBB5CD6D"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Убивает взрослых животных"
+			tasks: [{
+				id: "144B11E5BE1986F9"
+				item: "botania:dreadthorn"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7E5C457A7E9FC7E7"]
+			id: "6B2E3A28DA641BFD"
+			rewards: [
+				{
+					id: "26225B3445F9D246"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "013AB7BA875E9C20"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Проивзодит мистические цветы ценой маны"
+			tasks: [{
+				id: "18AE9686F134549D"
+				item: "botania:jaded_amaranthus"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7E5C457A7E9FC7E7"]
+			description: ["Поддерживает большинство руд!"]
+			id: "509B6DD112C0E88D"
+			rewards: [
+				{
+					id: "4F7AFE06FE55A163"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "10C847B75A54D924"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Создаёт руду за ману и породу"
+			tasks: [{
+				id: "7EFE1A89EEF64463"
+				item: "botania:orechid"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7E5C457A7E9FC7E7"]
+			id: "1ED2FD21B3408B5A"
+			rewards: [
+				{
+					id: "0F13B37D0355811D"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "7F3359F910D48E8D"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Регенерация 3 за ману"
+			tasks: [{
+				id: "4BBD168B5D27A533"
+				item: "botania:fallen_kanade"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7E5C457A7E9FC7E7"]
+			id: "7B6BDB53082381C1"
+			rewards: [
+				{
+					id: "225784372D8BFCCF"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "34E1CF33AAB75E8C"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Заправляет печки и ускоряет их работу"
+			tasks: [{
+				id: "3229D485FCFEC4AA"
+				item: "botania:exoflame"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7E5C457A7E9FC7E7"]
+			id: "6A1514A01B22C680"
+			rewards: [
+				{
+					id: "37FAAAAA24E6BD9D"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "5B23DB5487C6140E"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Ускоряет рост культур ценой маны"
+			tasks: [{
+				id: "2AABB97791FA9DB9"
+				item: "botania:agricarnation"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7E5C457A7E9FC7E7"]
+			id: "7E74CAD9B19382CB"
+			rewards: [
+				{
+					id: "023537AFF7DCD7DC"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "187CC0FCE6318797"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Воронка но с большим радиусом подбора и работает за ману"
+			tasks: [{
+				id: "65C0DA927259FA16"
+				item: "botania:hopperhock"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7E5C457A7E9FC7E7"]
+			id: "25D0AF71EB000B58"
+			rewards: [
+				{
+					id: "6C3CABF07ACD0810"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "70CF39AD209A20B4"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Не даёт монстрам/животным выйти из зоны своего действия"
+			tasks: [{
+				id: "520D443E9E728491"
+				item: "botania:tangleberrie"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7E5C457A7E9FC7E7"]
+			id: "14A25266C537E679"
+			rewards: [
+				{
+					id: "7D2995B9A4F8CD16"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "0B1B51CB7FECE5E8"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Отпугивает монстров/животных не давая их подойти к вашей базе"
+			tasks: [{
+				id: "1E760FB46C498AB6"
+				item: "botania:jiyuulia"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7E5C457A7E9FC7E7"]
+			id: "54214D303EC77426"
+			rewards: [
+				{
+					id: "68E295B23C4B7DD0"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "4EFCD5197326AA59"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Ставит блоки на указанный блок"
+			tasks: [{
+				id: "294C24C773C8C4B8"
+				item: "botania:rannuncarpus"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7E5C457A7E9FC7E7"]
+			id: "39F1FBDCE9F4D7AD"
+			rewards: [
+				{
+					id: "5048CB5D15991E58"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "1A0D459FF4F21EAE"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Отравляет мобов"
+			tasks: [{
+				id: "47189DE24AB5CF7D"
+				item: "botania:hyacidus"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7E5C457A7E9FC7E7"]
+			id: "30C57494FEFB608E"
+			rewards: [
+				{
+					id: "72CF8A52093F3BD5"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "3F63C259C762717C"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Размножает животных едой"
+			tasks: [{
+				id: "63E46AD5519AE301"
+				item: "botania:pollidisiac"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7E5C457A7E9FC7E7"]
+			id: "10BA99096542B69F"
+			rewards: [
+				{
+					id: "59B5C2FB880ED0A2"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "75C4AAED41C19165"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Ценой большого количества маны порождает мобов при убийтсве которых будет выпадать лут из данжа"
+			tasks: [{
+				id: "554E10917D2DD1CA"
+				item: "botania:loonium"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7E5C457A7E9FC7E7"]
+			id: "264E42898650E58E"
+			rewards: [
+				{
+					id: "636860D6F239CA39"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "68ABC8FCBF56D50F"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Толкает предметы в сторону своего обзора"
+			tasks: [{
+				id: "3535AC336AFDBA51"
+				item: "botania:daffomill"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7E5C457A7E9FC7E7"]
+			id: "63B0B977EEDAF2E5"
+			rewards: [
+				{
+					id: "0FD40A0686027BFD"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "6AE9DBB7E99B059D"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Запрещает телепортироваться эндермэнам в зоне действия цветка за ману"
+			tasks: [{
+				id: "18BEB96095CF8992"
+				item: "botania:vinculotus"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7E5C457A7E9FC7E7"]
+			id: "0539E37E764ABAE3"
+			rewards: [
+				{
+					id: "1D1EC309FBFAA0C9"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "4106D198C0D9DE43"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Телепортирует предметы"
+			tasks: [{
+				id: "5B48869497D4E36C"
+				item: "botania:spectranthemum"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7E5C457A7E9FC7E7"]
+			id: "13182A2A80F0869B"
+			rewards: [
+				{
+					id: "42AEF2A66B420CEB"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "66A3C10EEEA78DBB"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Замораживает мобов, те перестают двигаться"
+			tasks: [{
+				id: "77368E466EA9F8B9"
+				item: "botania:medumone"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7E5C457A7E9FC7E7"]
+			id: "6823A7490DA48492"
+			rewards: [
+				{
+					id: "59352ED9A07548D1"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "25424F3F97F0C7AF"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Убирате воду ценой маны, удобно для подводных баз."
+			tasks: [{
+				id: "6C75E84C513E52FA"
+				item: "botania:bubbell"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7E5C457A7E9FC7E7"]
+			id: "2A06BCA8DEDB3724"
+			rewards: [
+				{
+					id: "67705128292A7CF0"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "0EE6FADD25ADCAE8"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Создаёт адскую руду за ману и адский камень"
+			tasks: [{
+				id: "5259A82ECD3CEC42"
+				item: "botania:orechid_ignem"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7DBF29B0CA3AB04F"]
+			description: ["Генерирующая - создающая &bману&r, все цветки этой категории занимаются &lсозданием&r &bманы&r!"]
+			id: "73E89696B8014546"
+			shape: "gear"
+			tasks: [{
+				id: "0BA963C1B4BACED4"
+				title: "Генерирующая флора"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7DBF29B0CA3AB04F"]
+			description: ["Функциональная - &lиспользующая&r, все цветки этой категории &oпотребляют&r &bману&r и предоставлвяют определенный функционал, в зависимости от цветка."]
+			id: "7E5C457A7E9FC7E7"
+			shape: "gear"
+			tasks: [{
+				id: "7874ED3E8DB28289"
+				title: "Функциональная флора"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"73E89696B8014546"
+				"7E5C457A7E9FC7E7"
+			]
+			id: "5E9A8B25A318CD11"
+			rewards: [{
+				id: "5D0D768A757B1268"
+				item: "kubejs:magic_lootbag_epic"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "2D40FC2127278155"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5E9A8B25A318CD11"]
+			description: [
+				"Вам доступно 2 способа создать мана слиток"
+				""
+				"• За магическую сталь - потеряв меньш &bманы&r."
+				""
+				"• За обычную сталь - потеряв куда больше &bманы&r."
+			]
+			hide: true
+			id: "4B5A35FB7FEE1E6B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1CEDE7AB7FF44996"
+					table_id: 1606690661312817740L
+					type: "choice"
+				}
+				{
+					id: "5EDD96FD3411DFAB"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6AB62DA3193F052C"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5E9A8B25A318CD11"]
+			hide: true
+			id: "2189485C42C4EC23"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2EFA738F7522582D"
+					table_id: 1606690661312817740L
+					type: "choice"
+				}
+				{
+					id: "29C6B584538197E4"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7DF99FFD10E0CCEF"
+				item: "botania:mana_pearl"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["5E9A8B25A318CD11"]
+			hide: true
+			id: "3018AF7A6669D930"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7E872D425E80B227"
+					table_id: 1606690661312817740L
+					type: "choice"
+				}
+				{
+					id: "5CC5482C03AA771C"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "791F89B5E0988673"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0FD878AAB9458CE9"]
+			description: [
+				""
+				"{image:quest_images:textures/item/elf_portal.png width:200 height:200 align:1}"
+			]
+			hide: true
+			id: "38FF97ECA70245E8"
+			rewards: [{
+				id: "566F6190962915A3"
+				item: "kubejs:magic_lootbag_epic"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Создайте портал в эльфхейм"
+			tasks: [{
+				id: "4AF9F8C704EE805C"
+				item: "botania:alfheim_portal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["1FDBA5F32DF94699"]
+			hide: true
+			id: "5A85F7635956BE2F"
+			rewards: [
+				{
+					id: "134472DA90EE9F3B"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "3FF82DCA502DC1C2"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "3BE7173B33FA202C"
+				item: {
+					Count: 1b
+					id: "botania:flight_tiara"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["5A980422C8C9A9B1"]
+			hide: true
+			id: "497403F1C4E2B052"
+			rewards: [
+				{
+					id: "526CD8525A5EBD1C"
+					item: "numismatic-overhaul:gold_coin"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6541E7D9126438AA"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0FFE13CEFD3729CD"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "botania:doppleganger"
+				icon: "botania:gaia_head"
+				id: "6A27ADA7E0D30138"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["38FF97ECA70245E8"]
+			hide: true
+			id: "0D2FBA2AC9407F80"
+			rewards: [{
+				id: "367B0B09B35F01FC"
+				item: "kubejs:magic_lootbag_epic"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "40243CDC1F6E5083"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["38FF97ECA70245E8"]
+			hide: true
+			id: "6A8A1F67B8461137"
+			rewards: [{
+				id: "2ED558981F09069D"
+				item: "kubejs:magic_lootbag_epic"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "0A1A98F2CF61A59F"
+				item: "botania:pixie_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["38FF97ECA70245E8"]
+			hide: true
+			id: "5A30F6C8193DE510"
+			rewards: [{
+				id: "5B784F8CA76664B8"
+				item: "kubejs:magic_lootbag_epic"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "54EE4728CC261A05"
+				item: "botania:dragonstone"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["497403F1C4E2B052"]
+			hide: true
+			id: "1FDBA5F32DF94699"
+			rewards: [
+				{
+					id: "054359A058B5F582"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "367717254A389E8B"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "23AE040E540EB5DE"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["1FDBA5F32DF94699"]
+			hide: true
+			id: "13AF839C95EE9F94"
+			rewards: [
+				{
+					id: "74E9001546D59125"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "68CD524AEBF80C14"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+				{
+					id: "1C6D9A6430D112B4"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "1016E7C39A47C083"
+				item: "botania:gaia_spreader"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -22.0d
+		}
+		{
+			dependencies: [
+				"2189485C42C4EC23"
+				"3018AF7A6669D930"
+				"4B5A35FB7FEE1E6B"
+			]
+			description: ["Создание &aтеррастали&r доступно только через спектрум, для создания террастали необходимо вырастить её в кристаллярие с использованием террастального катализатора."]
+			hide: true
+			id: "0FD878AAB9458CE9"
+			rewards: [
+				{
+					id: "25938D6775739C46"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6AC8BC8AE799F004"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "412FED8A9135ED3C"
+				item: "kubejs:catalyst_terrasteel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["5A85F7635956BE2F"]
+			description: ["Фактически - креативный полёт."]
+			hide: true
+			id: "24BF8E5FA58AB7FD"
+			shape: "gear"
+			tasks: [{
+				id: "1397BAB8B64523B9"
+				item: {
+					Count: 1b
+					id: "kibe:angel_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -23.5d
+		}
+		{
+			dependencies: [
+				"5A30F6C8193DE510"
+				"0D2FBA2AC9407F80"
+				"6A8A1F67B8461137"
+			]
+			hide: true
+			id: "5A980422C8C9A9B1"
+			rewards: [
+				{
+					id: "005A535BB9BDBA97"
+					item: "botania:gaia_pylon"
+					type: "item"
+				}
+				{
+					id: "2A96D4F441844EFA"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "6DE658EB2968D272"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["497403F1C4E2B052"]
+			id: "607E9369E448929D"
+			rewards: [{
+				id: "2F9BC7A43EF508DC"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "botania:challenge/infinite_fruit"
+				criterion: ""
+				id: "36293131CA192476"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["497403F1C4E2B052"]
+			id: "08232994929B6DF0"
+			rewards: [{
+				id: "10DEEB41AA086591"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "botania:challenge/king_key"
+				criterion: ""
+				id: "06CC346B2592E5CE"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["497403F1C4E2B052"]
+			id: "2A65ADC3CB66BDA7"
+			rewards: [{
+				id: "5C6BC4A585042E25"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "botania:challenge/odin_ring"
+				criterion: ""
+				id: "69B5EBA04A5F2338"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["497403F1C4E2B052"]
+			id: "734C2BD5A89A8BC2"
+			rewards: [{
+				id: "12907D35B7D187A5"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "botania:challenge/loki_ring"
+				criterion: ""
+				id: "4122A7E5CBF89342"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: -19.0d
+		}
+		{
+			dependencies: ["497403F1C4E2B052"]
+			id: "169E49965811EEAD"
+			rewards: [{
+				id: "0BE499291D6AC06C"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "botania:challenge/thor_ring"
+				criterion: ""
+				id: "083E0B090542F5BA"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["497403F1C4E2B052"]
+			id: "1A9370544594CE18"
+			rewards: [{
+				id: "3753DF8DC35F0538"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "botania:challenge/flugel_eye"
+				criterion: ""
+				id: "4331864BECA6515E"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["73E89696B8014546"]
+			hide_dependent_lines: true
+			id: "3A6BFAD900C28EFF"
+			rewards: [
+				{
+					id: "29415779028D1DD3"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "48330C1DF103219F"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "54BC49EAE53AFCF4"
+				item: "botania:narslimmus"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["73E89696B8014546"]
+			hide_dependent_lines: true
+			id: "50F12A13E4080B28"
+			rewards: [
+				{
+					id: "5F89BF6F2D0B762C"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "23279407A3B02C71"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7F253EF939EBBC98"
+				item: "botania:shulk_me_not"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["73E89696B8014546"]
+			hide_dependent_lines: true
+			id: "16AB09AA0E7BEB5F"
+			rewards: [
+				{
+					id: "0F7BB9F963578C5B"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "005B21975CE7BCFD"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5A3208A1D13906C0"
+				item: "botania:rafflowsia"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["73E89696B8014546"]
+			hide_dependent_lines: true
+			id: "14E85052C3CD51A9"
+			rewards: [
+				{
+					id: "2AA9C22D18489793"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+				{
+					id: "07B546DE6D12EF23"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6F3F86409A68BD19"
+				item: "botania:spectrolus"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"0379CDF7FB133E48"
+				"3FB65AE45A1ABAF0"
+			]
+			description: ["&6Этот квест открывает новую ветку квестов!&r"]
+			id: "0BE7C888A9C0463D"
+			rewards: [
+				{
+					id: "1CB340701F0DAB04"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "56287F44A72F5253"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+			]
+			subtitle: "Вероятно, что с данной формой &bманы&r механизмы смогут взаимодействовать?"
+			tasks: [{
+				id: "23E45A2FACE59F9B"
+				item: "modern_industrialization:liquid_mana_bucket"
+				type: "item"
+			}]
+			title: "Более материальная форма маны"
+			x: -3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"0379CDF7FB133E48"
+				"5E9A8B25A318CD11"
+			]
+			id: "3FB65AE45A1ABAF0"
+			subtitle: "Возможна ли автоматизация, что похожа на уже привычные вещи?"
+			tasks: [{
+				id: "1E520641253A0E2A"
+				type: "checkmark"
+			}]
+			title: "Интеграция с технологиями"
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7AC1920BD7A9329E"]
+			description: [
+				"Цветы нужно оживить в «Высекатель Духа»"
+				""
+				"Окаменевшие Цветы можно найти в глубоких низинах, если ходить возле кладбищ или добыть с луны!"
+			]
+			hide: true
+			id: "3EAED60DF7CE15EB"
+			rewards: [
+				{
+					id: "584C2CAEF535BE6F"
+					item: "botania:lexicon"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58A9584D9E938C50"
+					table_id: 1606690661312817740L
+					team_reward: true
+					type: "choice"
+				}
+				{
+					id: "5D0DF66470D1F5FE"
+					item: "kubejs:magic_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "17EF74AD3A836CE1"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				}
+				title: "Any #botania:mystical_flowers"
+				type: "item"
+			}]
+			title: "Цветочки"
+			x: 0.0d
+			y: -2.5d
+		}
+	]
+	title: "&7Botania"
+}

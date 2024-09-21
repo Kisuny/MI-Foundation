@@ -1,0 +1,24 @@
+{
+	id: "3598294EA2D4B39B"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{ count: 4, item: "kibe:white_rune" }
+		{ count: 4, item: "kibe:orange_rune" }
+		{ count: 4, item: "kibe:magenta_rune" }
+		{ count: 4, item: "kibe:light_blue_rune" }
+		{ count: 4, item: "kibe:yellow_rune" }
+		{ count: 4, item: "kibe:lime_rune" }
+		{ count: 4, item: "kibe:pink_rune" }
+		{ count: 4, item: "kibe:gray_rune" }
+		{ count: 4, item: "kibe:light_gray_rune" }
+		{ count: 4, item: "kibe:cyan_rune" }
+		{ count: 4, item: "kibe:blue_rune" }
+		{ count: 4, item: "kibe:purple_rune" }
+		{ count: 4, item: "kibe:green_rune" }
+		{ count: 4, item: "kibe:brown_rune" }
+		{ count: 4, item: "kibe:red_rune" }
+		{ count: 4, item: "kibe:black_rune" }
+	]
+	title: "kibe rune"
+}

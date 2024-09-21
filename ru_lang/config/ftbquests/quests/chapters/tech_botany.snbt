@@ -1,0 +1,1145 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tech_botany"
+	group: "62869C8C7B088104"
+	hide_quest_until_deps_visible: true
+	icon: "mifbotaniaaddon:mana_gem"
+	id: "5D42340695A1D334"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.0d
+		hover: [ ]
+		image: "exco:block/controller"
+		rotation: 0.0d
+		width: 0.027777777777777776d
+		x: 0.0d
+		y: 7.0d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7EA609D4FF4E8D7A"
+				"0379CDF7FB133E48"
+				"7D466F716CC7DB47"
+			]
+			id: "2B1DF6F221AD2E66"
+			rewards: [
+				{
+					id: "22DF299B6AEFCECA"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "0A3150B496FE2ECE"
+					item: "kubejs:late_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "71692426825F5CA8"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "58F1233EE3748248"
+					item: "modern_industrialization:stainless_steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0892CFD49E43EE09"
+				item: "modern_industrialization:entropinnyum_generator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6804ADADE75A0773"
+				"0379CDF7FB133E48"
+				"7D466F716CC7DB47"
+			]
+			id: "1B7220C17EE35AC9"
+			rewards: [
+				{
+					id: "484B6234D0B6B998"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "235E289C30C492D3"
+					item: "kubejs:late_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0447A93EB1E6B8C2"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "707E08F20FAAA92C"
+					item: "modern_industrialization:stainless_steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "5FB32570EE9726BD"
+				item: "modern_industrialization:hydroangeas_generator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"02B03EE97AA66374"
+				"0379CDF7FB133E48"
+				"7D466F716CC7DB47"
+			]
+			id: "560E2014AECEDF04"
+			rewards: [
+				{
+					id: "558BC0402BD2A95A"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "3E3180140C01ADA0"
+					item: "kubejs:late_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "200A9E4677EEB86B"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0318B21A8C3E5B91"
+					item: "modern_industrialization:stainless_steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4D2D1422D054CCA6"
+				item: "modern_industrialization:thermalily_generator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"73D65B739C1100FD"
+				"0379CDF7FB133E48"
+				"7D466F716CC7DB47"
+			]
+			id: "57F0AB4BF4C6DF18"
+			rewards: [
+				{
+					id: "2545D0715FD21779"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "07DD3CC6E4DE399C"
+					item: "kubejs:late_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "03F95D7A874ABF02"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "344DE7DD77FA431F"
+					item: "modern_industrialization:stainless_steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "19FA7EACF8D27FF1"
+				item: "modern_industrialization:endoflame_generator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"679CE95DFFBD7AFC"
+				"0379CDF7FB133E48"
+				"7D466F716CC7DB47"
+			]
+			id: "659A571EAD869D88"
+			rewards: [
+				{
+					id: "2FDF2B2EF3D6F12C"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "104A65C8CE8DF6CA"
+					item: "kubejs:late_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "01139D1265145C02"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "35729DBF274EA19C"
+					item: "modern_industrialization:stainless_steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1945B86184285FA0"
+				item: "modern_industrialization:kekimurus_generator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"02D8D2582997866C"
+				"0379CDF7FB133E48"
+				"7D466F716CC7DB47"
+			]
+			id: "336799CD6B2AE8C0"
+			rewards: [
+				{
+					id: "14B6D350D219B321"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "3570B704AD690BBA"
+					item: "kubejs:late_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6C54A9F027FFBF01"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "10E52C7EB35617AB"
+					item: "modern_industrialization:stainless_steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "782D7861C917485A"
+				item: "modern_industrialization:rosa_arcana_generator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"14E85052C3CD51A9"
+				"0379CDF7FB133E48"
+				"7D466F716CC7DB47"
+			]
+			id: "6BC9E174DE05CED4"
+			rewards: [
+				{
+					id: "52288163B9610BF2"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "63E1D81F0238697B"
+					item: "kubejs:late_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "348DD44B9FEEC09F"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "61250A506002A6C8"
+					item: "modern_industrialization:stainless_steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "69F7900DAD1406C7"
+				item: "modern_industrialization:spectrolus_generator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"4DA98364F17F3CC1"
+				"0379CDF7FB133E48"
+				"7D466F716CC7DB47"
+			]
+			id: "601D0D7BB5321990"
+			rewards: [
+				{
+					id: "2706D10D6352D9F1"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "32E30BC2290C2E20"
+					item: "kubejs:late_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "498188E6B582D4E5"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "04BEC9EBDCAB8AB9"
+					item: "modern_industrialization:stainless_steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7AF2482DE30FFB04"
+				item: "modern_industrialization:gourmaryllis_generator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"7D93ED79F0A2FD37"
+				"0379CDF7FB133E48"
+				"7D466F716CC7DB47"
+			]
+			id: "3B30627D1FE4F1C5"
+			rewards: [
+				{
+					id: "0411E734038FA45B"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "74466303538247FE"
+					item: "kubejs:late_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6C8E520A38D7E262"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4408887E0B9941F3"
+					item: "modern_industrialization:stainless_steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "37375F91BE955BA5"
+				item: "modern_industrialization:munchdew_generator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"50F12A13E4080B28"
+				"0379CDF7FB133E48"
+				"7D466F716CC7DB47"
+			]
+			id: "0E1545DEF95E2C64"
+			rewards: [
+				{
+					id: "02B0C9BBBCDB5810"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "251F217B9FC6531F"
+					item: "kubejs:late_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4DB02C78DA91DFC8"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "69C7C445DF2DA954"
+					item: "modern_industrialization:stainless_steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "28C224237085BDBD"
+				item: "modern_industrialization:shulk_me_not_generator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"16AB09AA0E7BEB5F"
+				"0379CDF7FB133E48"
+				"7D466F716CC7DB47"
+			]
+			id: "6B63B62D56632C63"
+			rewards: [
+				{
+					id: "2AF5FDB199002B8C"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "122B86E66C930138"
+					item: "kubejs:late_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3C0C8395FB1E3A30"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "03DC24656A14E720"
+					item: "modern_industrialization:stainless_steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0591CFAA7E324AB2"
+				item: "modern_industrialization:rafflowsia_generator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"3A6BFAD900C28EFF"
+				"0379CDF7FB133E48"
+				"7D466F716CC7DB47"
+			]
+			id: "19CE9AEF346362E6"
+			rewards: [
+				{
+					id: "0A587DA14A3EC767"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "1DD3224462316ABE"
+					item: "kubejs:late_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0157DE76282EE5C3"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "39F952C20A7B389B"
+					item: "modern_industrialization:stainless_steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6A8E6AF3D64037CE"
+				item: "modern_industrialization:narslimmus_generator"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"5E9A8B25A318CD11"
+				"0379CDF7FB133E48"
+				"5F754C8C9D4B9968"
+			]
+			id: "1176A1B117DC2F4E"
+			rewards: [
+				{
+					id: "35FBE721AF1D3402"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "5C5517B9CC16FAD4"
+					item: "kubejs:late_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1C8EDCF13700D0F0"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "298C55ABD4E19BC5"
+					item: "modern_industrialization:stainless_steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0AB234F29995C818"
+				item: "modern_industrialization:mana_pool_chamber"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"38FF97ECA70245E8"
+				"0379CDF7FB133E48"
+				"5F754C8C9D4B9968"
+			]
+			id: "56F75188FFA05D73"
+			rewards: [
+				{
+					id: "3D9F1949E7650C75"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "224B7965640E0B8D"
+					item: "kubejs:late_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "23080FE79E9C4737"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "05DFC39CF8E533FA"
+					item: "modern_industrialization:stainless_steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1141985B3D4A9106"
+				item: "modern_industrialization:elven_gateway_chamber"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"0FD878AAB9458CE9"
+				"0379CDF7FB133E48"
+				"5F754C8C9D4B9968"
+			]
+			id: "31DD64C8FA03857A"
+			rewards: [
+				{
+					id: "73530CEDF629D417"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "59B95F241A6B97BF"
+					item: "kubejs:late_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "73B88175867F2781"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "28E50B35393B21CE"
+					item: "modern_industrialization:stainless_steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "44D0D42D12F42F41"
+				item: "modern_industrialization:terra_plate_chamber"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7DBF29B0CA3AB04F"
+				"0379CDF7FB133E48"
+				"5F754C8C9D4B9968"
+			]
+			id: "16C39EA57064C4BC"
+			rewards: [
+				{
+					id: "47036AD325C80AF9"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "78D1838D9E42E21D"
+					item: "kubejs:late_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "00259977A0B0D645"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0FA13146C96BAD36"
+					item: "modern_industrialization:stainless_steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "175D6C155F606344"
+				item: "modern_industrialization:apothecary_chamber"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3ADB1DB4DCD33DEF"
+				"0379CDF7FB133E48"
+				"5F754C8C9D4B9968"
+			]
+			id: "1DF32F47E8D5C96D"
+			rewards: [
+				{
+					id: "316D2FE5DFB8EC42"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "0C9A726CEA796179"
+					item: "kubejs:late_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "39D88A4EDF1AFDE4"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1A898914AD8F7B45"
+					item: "modern_industrialization:stainless_steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "18FD9BF56BEBE1CB"
+				item: "modern_industrialization:runic_altar_chamber"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"664A12765CF548C8"
+				"0379CDF7FB133E48"
+				"5F754C8C9D4B9968"
+			]
+			id: "4893674B1B7EB7BE"
+			rewards: [
+				{
+					id: "3C9C19FF7450D464"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "643DAC4125BCCCDC"
+					item: "kubejs:late_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "09ED2B8CE48F55B9"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6E1F9DF73EDE54FE"
+					item: "modern_industrialization:stainless_steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "696A0F8485C45174"
+				item: "modern_industrialization:pure_daisy_chamber"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5E9A8B25A318CD11"
+				"1176A1B117DC2F4E"
+			]
+			description: ["Бросив &bТёмный лотус&r в бассейн маны в него прибавится 100 000 единиц &bманы&r"]
+			id: "09678F440F3558FB"
+			rewards: [
+				{
+					id: "1E0F2324F5C17196"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "1167D52FDA4D9A60"
+					item: "kubejs:late_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "06330FEBBB04DC98"
+				item: "botania:blacker_lotus"
+				type: "item"
+			}]
+			title: "Возврат маны в первоначальную форму"
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0BE7C888A9C0463D"]
+			description: [
+				"&4Большинство&r привычных для &aBotania&r структур были удачно интегрированы с технологиями. Теперь автоматизация процессов стала ещё проще! "
+				"Мультиблоки в основном состоят из:"
+				"Полированных колонн из кальцита(polished_calcite_pillar)"
+				""
+				"Станковой обшивки из нержавеющей стали(сlean_stainless_steel_machine_casing)"
+				" "
+				"Обшивки из манастал(manasteel_casing)"
+				" "
+				"Чистого певчего стекла(clear_hummingstone_glass)"
+				" "
+				"Структуру мультиблоков можно увидеть взяв в руку ключ из Modern Industrialization"
+			]
+			id: "5F754C8C9D4B9968"
+			tasks: [{
+				id: "44BDE24B889E213C"
+				type: "checkmark"
+			}]
+			title: "Производство с помощью &bЖидкой Маны&r"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0BE7C888A9C0463D"]
+			description: ["&4Большинство&r генерирующей флоры удалось интегрировать с технологиями и напрямую производить &bЖидкую ману&r"]
+			id: "7D466F716CC7DB47"
+			tasks: [{
+				id: "51A86A5BFF52DAAA"
+				type: "checkmark"
+			}]
+			title: "Добыча &bЖидкой Маны&r"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"54281746C46E120E"
+				"4B5A35FB7FEE1E6B"
+			]
+			id: "20B66CB2ADED80F2"
+			rewards: [
+				{
+					id: "74D08CFC4A754571"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "74890D4FBEAE065B"
+					item: "kubejs:late_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "75AEA5BF3CDF3A73"
+					item: {
+						Count: 1b
+						id: "appbot:mana_storage_cell_16k"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "73F874AFEE1CEA8B"
+				item: "appbot:mana_cell_housing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"54281746C46E120E"
+				"4B5A35FB7FEE1E6B"
+				"4F2BB799C0DBD231"
+			]
+			id: "48C0C2E7D7B2D0B0"
+			rewards: [
+				{
+					id: "0B6678BBAA3F9901"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "5F551C62475CA0FC"
+					item: "kubejs:late_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6434A5E8ACDF0362"
+					item: "ae2:me_p2p_tunnel"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6E5ED74181AD2067"
+				item: "appbot:mana_p2p_tunnel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"54281746C46E120E"
+				"4B5A35FB7FEE1E6B"
+			]
+			id: "5B78CD620116001F"
+			rewards: [
+				{
+					id: "676F33FFEB526547"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "26754CEA984AFD08"
+					item: "kubejs:late_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 30
+					id: "47D5BD73CC9F0930"
+					item: "botania:blacker_lotus"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1B90E3C5B633F198"
+				item: "appbot:fluix_mana_pool"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["46B678C8DDB9B181"]
+			description: ["Хранение &bманы&r в сети <shake>возможно</shake>"]
+			id: "54281746C46E120E"
+			tasks: [{
+				id: "1D46F0398C62B78F"
+				title: "Хранение маны на дисках"
+				type: "checkmark"
+			}]
+			title: "Хранение маны в сети"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"027385AA21D8737B"
+				"6A8A1F67B8461137"
+			]
+			id: "29413720702EA5B4"
+			rewards: [
+				{
+					id: "741C3249A0FE091E"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "1F9A824790682F0E"
+					item: "kubejs:late_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "71A3C00C79635964"
+					item: "kubejs:spectral_circuit_board"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "25BB7C020DFC1163"
+				item: "kubejs:spectral_circuit_board"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["29413720702EA5B4"]
+			hide: true
+			id: "7BCBEF7AD70220CA"
+			rewards: [
+				{
+					id: "378F058DDC2F34E5"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "065C86602738DD15"
+					item: "kubejs:late_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "4AFF29E5B253E1B4"
+					item: "kubejs:spectral_circuit_board"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "20C040B59BC11E5B"
+				item: "kubejs:chromatically_stable_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7BCBEF7AD70220CA"]
+			description: ["&4Обоготитель моркита&r, добавляет возможность производства &bморкитового топлива&r, один из видов жидкого топлива"]
+			id: "119D6AD3085DB244"
+			rewards: [
+				{
+					id: "67E608A86BC924EA"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "379919BA9A087276"
+					item: "kubejs:late_lootbag_epic"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "27053BDDD2D8D7B2"
+				item: "modern_industrialization:morkite_enricher"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7BCBEF7AD70220CA"]
+			description: ["&4Дробилка драконьевой кости&r, необходима для добычи &8осколков дракониевой кости&r"]
+			id: "4F8481BB28E32996"
+			rewards: [
+				{
+					id: "03314956056B1EC6"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "112898AB46809AE7"
+					item: "kubejs:late_lootbag_epic"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "4ACD21944098C44C"
+				item: "modern_industrialization:dragonbone_crusher"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7BCBEF7AD70220CA"]
+			description: ["&0Герметичная камера&r, добавляет возможность добычи &4некоторых ресурсов из Spectrum&r в автоматическом режиме"]
+			id: "486CFD9D6A8DF24E"
+			rewards: [
+				{
+					id: "52DE8A02E8FBBCDA"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "5C10C126B9EE5D9D"
+					item: "kubejs:late_lootbag_epic"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "534051999ACF62E4"
+				item: "modern_industrialization:containment_chamber"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7BCBEF7AD70220CA"]
+			description: ["&6Индустральный кристаллярий&r, техническая версия кристаллярия, хоть и &4лишилась некоторых возможностей&r обычного кристаллярия, однако &4более приятна для автоматизации&r процессов"]
+			id: "5B2146C58DD9FFFF"
+			rewards: [
+				{
+					id: "611379172F0C9C92"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "1368C6B37DC1A3F4"
+					item: "kubejs:late_lootbag_epic"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "3673B806951A8A75"
+				item: "modern_industrialization:industrial_crystallarieum"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"4B5A35FB7FEE1E6B"
+				"0379CDF7FB133E48"
+			]
+			description: [
+				"&9Камера роста&r, позволяет выращивать &4все растения&r и &4не только их&r."
+				""
+				"&4Большинство&r &aмагических&r растений может быть выращено здесь"
+			]
+			hide: true
+			id: "51F748A16C4D6F0B"
+			rewards: [
+				{
+					id: "6E9DF99393A49E64"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "5019489824FD2E73"
+					item: "kubejs:mid_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "709576D2446833A7"
+					item: "modern_industrialization:manasteel_casing"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "0A21A565A20D8ABA"
+				item: "modern_industrialization:growing_chamber"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.6d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"4B5A35FB7FEE1E6B"
+				"0379CDF7FB133E48"
+			]
+			id: "1B2224E0FD1845FD"
+			rewards: [{
+				id: "4C492E377F3EE459"
+				item: "minecraft:verdant_froglight"
+				type: "item"
+			}]
+			size: 0.8d
+			tasks: [{
+				consume_items: true
+				id: "30BFFA44F36436F7"
+				item: "minecraft:ochre_froglight"
+				type: "item"
+			}]
+			x: -0.8d
+			y: 0.4d
+		}
+	]
+	title: "Tech Magicka"
+}

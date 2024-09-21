@@ -1,0 +1,11 @@
+{
+	id: "1EB920C39016AB22"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ count: 24, item: "minecraft:bamboo" }
+		{ count: 21, item: "minecraft:sugar_cane" }
+		{ count: 24, item: "minecraft:kelp" }
+	]
+	title: "sugarcane_like"
+}
