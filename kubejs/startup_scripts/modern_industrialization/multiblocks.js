@@ -417,11 +417,12 @@ MIMachineEvents.registerMachines(event => {
     // MOLECULAR DECONSTRUCTOR
     const molecularDeconstructorShape = event.layeredShape('compactium_casing', [
         ['           ','    CCC    ','   CC CC   ','  CC   CC  ',' CC     CC ',' C       C ',' CC     CC ','  CC   CC  ','   CC CC   ','    CCC    ','           '],
-        ['   AAAAA   ','  AABCBAA  ',' AABC CBAA ','AABC   CBAA','ABC     CBA','AC       CA','ABC     CBA','AABC   CBAA',' AABC CBAA ','  AABCBAA  ','   AAAAA   '],
+        ['   AAAAA   ','  aaBCBaa  ',' aaBC CBaa ','aaBC   CBaa','aBC     CBa','aC       Ca','aBC     CBa','aaBC   CBaa',' aaBC CBaa ','  aaBCBaa  ','   AAAAA   '],
         ['           ','    C#C    ','   CC CC   ','  CC   CC  ',' CC     CC ',' C       C ',' CC     CC ','  CC   CC  ','   CC CC   ','    CCC    ','           ']
     ])
         .key('B', event.memberOfBlock('modern_industrialization:superconductor_coil'),event.noHatch())
         .key('A', event.memberOfBlock('modern_industrialization:compactium_casing'),event.hatchOf('fluid_input', 'item_input', 'item_output', 'energy_input'))
+        .key('a', event.memberOfBlock('modern_industrialization:compactium_casing'),event.noHatch())
         .key('C', event.memberOfBlock('modern_industrialization:nuclear_alloy_machine_casing_pipe'),event.noHatch())
         .build()
 
