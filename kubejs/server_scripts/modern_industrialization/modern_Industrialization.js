@@ -25,14 +25,6 @@ ServerEvents.recipes(event => {
     removeByOutput.forEach(element => event.remove({ output: element }));
     removeByID.forEach(element => event.remove({ id: element }));
 
-    
-
-
-
-
-
-
-
 
     // Pyrolyse Chamber
     event.recipes.modern_industrialization.pyrolyse_chamber(256, 160)
@@ -140,6 +132,13 @@ ServerEvents.recipes(event => {
         .itemOut('modern_industrialization:rocket_alloy_ingot')
 
     // Implosion Compressor
+    event.recipes.modern_industrialization.implosion_compressor(256, 20)
+        .itemIn('megacells:cell_component_16m')
+        .itemIn('ae2:singularity')
+        .itemIn('ae2:spatial_cell_component_16')
+        .itemIn('modern_industrialization:industrial_tnt')
+        .itemOut('megacells:bulk_cell_component')
+
     event.recipes.modern_industrialization.implosion_compressor(1, 10) //Eu, ticks
         .itemIn('modern_industrialization:naquadah_dust')
         .itemIn('modern_industrialization:industrial_tnt')
