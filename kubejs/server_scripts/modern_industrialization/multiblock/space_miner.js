@@ -19,7 +19,7 @@ let enhancements = [
         name: 'durasteel_reinforced',
         energy: 1.2,
         duration: 1.2,
-        stiffness: 0.05,
+        stiffness: 0.2,
         output_chance: 1,
         output_multi: 1
     },
