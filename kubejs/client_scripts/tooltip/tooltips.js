@@ -135,7 +135,6 @@ ItemEvents.tooltip(tooltip => {
         { name: 'lignite_coal', formula: 'C₂S'},
         { name: 'lithium', formula: 'Li'},
         { name: 'niobium', formula: 'Nb'},
-        { name: 'palladium', formula: 'Pd'},
         { name: 'quartz_blend', formula: 'SiO₄'},
         { name: 'redstone_alloy', formula: '(Fe)₅(CrAl₂O₃)(SiO₄)Nd'},
         { name: 'rocket_alloy', formula: 'AlW'},
