@@ -439,7 +439,9 @@ REIEvents.hide('item', event => {
         'itemalchemy:tome_of_knowledge',
         'itemalchemy:philosopher_stone',
         'spectrum:perturbed_eye',
-        'kibe:cooler'
+        'kibe:cooler',
+        'neepmeat:shield'
+
 
     ]);
     event.hide(list)
