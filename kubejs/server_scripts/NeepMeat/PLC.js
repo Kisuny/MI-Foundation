@@ -806,8 +806,12 @@ ServerEvents.recipes(event => {
                 "resource": 'chemlib:palladium'
             },
             {
+                "id": "neepmeat:combine",
+                "resource": 'modern_industrialization:le_mox_fuel_rod_depleted'
+            },
+            {
                 "id": "neepmeat:inject",
-                "resource": "neepmeat:charged_work_fluid"
+                "resource": "modern_industrialization:tritium"
             }
             ],
             "result": {
