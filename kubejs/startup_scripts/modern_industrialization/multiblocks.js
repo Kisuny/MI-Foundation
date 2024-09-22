@@ -263,7 +263,7 @@ MIMachineEvents.registerMachines(event => {
     ])
         .key('C', event.memberOfBlock('modern_industrialization:space_casing'),event.noHatch())
         .key('c', event.memberOfBlock('modern_industrialization:space_casing'),event.hatchOf('energy_input', 'item_input', 'item_output','fluid_input'))
-        .key('S', event.memberOfBlock('ae2:256k_crafting_storage'),event.noHatch())
+        .key('S', event.memberOfBlock('ae2:64k_crafting_storage'),event.noHatch())
         .key('D', event.memberOfBlock('neepmeat:data_cable'),event.noHatch())
         .key('P', event.memberOfBlock('neepmeat:pylon'),event.noHatch())
         .key('p', event.memberOfBlock('neepmeat:pedestal'),event.noHatch())
