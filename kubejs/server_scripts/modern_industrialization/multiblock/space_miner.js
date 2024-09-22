@@ -405,7 +405,7 @@ const planet_drilling_data = [
             stiffness: 0.24,
             time: 600,
             output: [
-                { id: 'modern_industrialization:liquid_mana', ammount: 300 },
+                { id: 'modern_industrialization:liquid_mana', ammount: 30 },
                 { id: 'modern_industrialization:cryofluid', ammount: 500 },
                 { id: 'modern_industrialization:purified_void', ammount: 100 },
             ]
