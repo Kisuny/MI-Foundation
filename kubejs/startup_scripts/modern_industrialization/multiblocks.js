@@ -991,6 +991,7 @@ MIMachineEvents.registerMachines(event => {
         256000, // Maximum energy generation rate (eu/tick)
         builder => { // The builder (same as for a single block generator)
             builder.fluid("modern_industrialization:steam", 1);
+            builder.fluid("modern_industrialization:heavy_waster_steam", 2);
             builder.fluid("modern_industrialization:high_pressure_steam", 64);
             builder.fluid("modern_industrialization:high_pressure_heavy_water_steam", 128);
         },
