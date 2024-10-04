@@ -21,7 +21,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Как же без &6древесины&r в первом квесте, верно?"]
+			description: ["First quest first &6wood&r right?"]
 			icon: "minecraft:oak_sapling"
 			id: "207201E16246C5E3"
 			rewards: [{
@@ -33,7 +33,7 @@
 			}]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Базовая база - Древесина."
+			subtitle: "Here we go again"
 			tasks: [{
 				count: 8L
 				id: "71905FFA4C64E618"
@@ -47,13 +47,13 @@
 				title: "Any #minecraft:logs"
 				type: "item"
 			}]
-			title: "Немного древисины"
+			title: "A bit of wood"
 			x: -6.800000000000001d
 			y: -0.9003613945578253d
 		}
 		{
 			dependencies: ["207201E16246C5E3"]
-			description: ["Кремень понадобится для создания первого верстака!"]
+			description: [""]
 			id: "2205C5A20B17A59E"
 			rewards: [{
 				count: 8
@@ -62,12 +62,14 @@
 				type: "item"
 			}]
 			shape: "diamond"
+			subtitle: "Why can't I craft a crafting table?"
 			tasks: [{
 				count: 2L
 				id: "67910ADA68C01EAC"
 				item: "minecraft:flint"
 				type: "item"
 			}]
+			title: "Flint"
 			x: -6.800000000000001d
 			y: 1.0996386054421747d
 		}
@@ -76,7 +78,7 @@
 				"207201E16246C5E3"
 				"2205C5A20B17A59E"
 			]
-			description: ["Первое достижение!"]
+			description: [""]
 			id: "08FC12B517294C1C"
 			rewards: [{
 				count: 16
@@ -86,6 +88,7 @@
 			}]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "First achievement!"
 			tasks: [{
 				id: "31083517A3F8FC94"
 				item: "minecraft:crafting_table"
@@ -96,7 +99,7 @@
 		}
 		{
 			dependencies: ["08FC12B517294C1C"]
-			description: ["Примитивные инструменты присутствуют везде!"]
+			description: [""]
 			id: "656AA3506B3014E7"
 			rewards: [
 				{
@@ -112,6 +115,7 @@
 				}
 			]
 			shape: "diamond"
+			subtitle: "Primitive"
 			tasks: [{
 				id: "64A871330426D0AA"
 				item: {
@@ -123,13 +127,13 @@
 				}
 				type: "item"
 			}]
-			title: "Первые инструменты"
+			title: "First instruments"
 			x: -3.905782312925176d
 			y: -1.4959183673469454d
 		}
 		{
 			dependencies: ["656AA3506B3014E7"]
-			description: ["С таким инструментом можно начать ковырять металлы! "]
+			description: [" "]
 			id: "6108CA80D4D2A02C"
 			rewards: [{
 				id: "0E42342DBEE495E5"
@@ -138,6 +142,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
+			subtitle: "&lPrimitive&r"
 			tasks: [{
 				id: "544882A0F37D6139"
 				item: {
@@ -154,7 +159,7 @@
 		}
 		{
 			dependencies: ["56707E7CCE7EA9F7"]
-			description: ["&6Костёр&r оказался и правда полезным, теперь необходимо создать &dпечь&r!"]
+			description: [""]
 			id: "34F267D4B9230EE8"
 			rewards: [
 				{
@@ -178,6 +183,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "Not yet a blast"
 			tasks: [{
 				id: "6C5C7292F21EBE39"
 				item: "minecraft:furnace"
@@ -188,7 +194,7 @@
 		}
 		{
 			dependencies: ["6108CA80D4D2A02C"]
-			description: ["Добудь немного &6железа&r"]
+			description: [""]
 			id: "5068CA0533B3F71D"
 			rewards: [
 				{
@@ -211,6 +217,7 @@
 				}
 			]
 			shape: "diamond"
+			subtitle: "Get some &6iron&r"
 			tasks: [{
 				count: 24L
 				id: "35CC0FD7529329D2"
@@ -222,7 +229,7 @@
 		}
 		{
 			dependencies: ["6108CA80D4D2A02C"]
-			description: ["Добудь немного &6меди&r"]
+			description: [""]
 			id: "17487851007B3F05"
 			rewards: [
 				{
@@ -245,6 +252,7 @@
 				}
 			]
 			shape: "diamond"
+			subtitle: "Get some &6copper&r"
 			tasks: [{
 				count: 24L
 				id: "204F7C45BD71769F"
@@ -256,7 +264,7 @@
 		}
 		{
 			dependencies: ["6108CA80D4D2A02C"]
-			description: ["Добудь немного &6олова&r"]
+			description: [""]
 			id: "1B414D1639DDE165"
 			rewards: [
 				{
@@ -279,6 +287,7 @@
 				}
 			]
 			shape: "diamond"
+			subtitle: "Get some &6tin&r"
 			tasks: [{
 				count: 24L
 				id: "20C552BAFC0D657A"
@@ -290,7 +299,7 @@
 		}
 		{
 			dependencies: ["6108CA80D4D2A02C"]
-			description: ["Добудь немного уголька!"]
+			description: [""]
 			id: "0CD952E1802D535C"
 			rewards: [
 				{
@@ -308,6 +317,7 @@
 				}
 			]
 			shape: "diamond"
+			subtitle: "\"We don't need nuclear\""
 			tasks: [{
 				count: 8L
 				id: "2F7BE74BBF400031"
@@ -319,11 +329,7 @@
 		}
 		{
 			dependencies: ["4CD4E765537B016C"]
-			description: [
-				"Кузня позволяет создавать начальные компоненты для создания машин"
-				""
-				"&#ffb04fЭтот квест открывает новую ветку квестов!&r"
-			]
+			description: ["Forge hammer allow the creation of basic machine parts"]
 			id: "190C18AB20216705"
 			rewards: [
 				{
@@ -346,6 +352,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "&#ffb04fThis quest opens a new quest chapter!&r"
 			tasks: [{
 				id: "69ADD2BC0C47D5C9"
 				item: "modern_industrialization:forge_hammer"
@@ -356,7 +363,7 @@
 		}
 		{
 			dependencies: ["0CD952E1802D535C"]
-			description: ["Костёр позволяет &eосветить&r свою берлогу, пожарить &6еду&r, а так же создать первую &5печку&r!"]
+			description: [""]
 			id: "56707E7CCE7EA9F7"
 			rewards: [
 				{
@@ -372,6 +379,7 @@
 				}
 			]
 			shape: "diamond"
+			subtitle: "&lWHY CAN'T I CRAFT A FURNACE?&r"
 			tasks: [{
 				id: "2D96783E63DD7547"
 				item: "minecraft:campfire"
@@ -385,7 +393,7 @@
 				"5068CA0533B3F71D"
 				"34F267D4B9230EE8"
 			]
-			description: ["Переплавь немного &6железа&r"]
+			description: ["Smelt some &6iron&r"]
 			id: "4CD4E765537B016C"
 			rewards: [
 				{
@@ -403,6 +411,7 @@
 			]
 			shape: "diamond"
 			size: 2.0d
+			subtitle: "Why is this separate?"
 			tasks: [{
 				count: 10L
 				id: "5D6820E9CF338492"
@@ -414,7 +423,7 @@
 		}
 		{
 			dependencies: ["271D55F97C071D7F"]
-			description: ["Нужно ведь чем-то копать ресурсы, верно?"]
+			description: [""]
 			id: "72D68E546A7B7F7B"
 			rewards: [
 				{
@@ -431,6 +440,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Pick"
 			tasks: [{
 				id: "26AEE9E626F5C536"
 				item: {
@@ -447,13 +457,14 @@
 		}
 		{
 			dependencies: ["08FC12B517294C1C"]
-			description: ["Что может быть удобнее чем &6ручной верстак&r?"]
+			description: [""]
 			id: "1C16A331F0E34B9A"
 			rewards: [{
 				id: "154EA631B88293B6"
 				item: "kubejs:food_lootbag_uncommon"
 				type: "item"
 			}]
+			subtitle: "What can be more &6handy&r?"
 			tasks: [{
 				id: "730466E7D0754FB7"
 				item: "kibe:pocket_crafting_table"
@@ -468,9 +479,8 @@
 				"2AB0AE2876A1FF03"
 			]
 			description: [
-				"&6Плавильная&r печь позволяет готовить руду куда более &eбыстрее&r, чем печь!"
-				""
-				"Но у всего есть минусы, Плавильня &oне позволяет&r готовить что-то ещё, кроме руды."
+				"Now you can &ocook&r iron two times faster!"
+				"But can only produce \"Congratulations Steaks\""
 			]
 			id: "403F92134AA453CA"
 			rewards: [{
@@ -480,6 +490,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			subtitle: "Not that blast furnace"
 			tasks: [{
 				id: "08E3342426E96775"
 				item: "minecraft:blast_furnace"
@@ -491,9 +502,8 @@
 		{
 			dependencies: ["34F267D4B9230EE8"]
 			description: [
-				"&6Коптильня&r позволяет готовить &oеду&r куда более &eбыстрее&r, чем печь!"
-				""
-				"Но у всего есть минусы, коптильня &oне позволяет&r готовить что-то ещё, кроме еды."
+				"Can cook food faster"
+				"Can not &ocook&r ores"
 			]
 			id: "59AC876BF2E8F2BF"
 			rewards: [
@@ -511,6 +521,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Captain"
 			tasks: [{
 				id: "77A708E1F5F694E6"
 				item: "minecraft:smoker"
@@ -521,7 +532,7 @@
 		}
 		{
 			dependencies: ["271D55F97C071D7F"]
-			description: ["Первая защита!"]
+			description: [""]
 			id: "40635FEA30A96883"
 			rewards: [
 				{
@@ -538,6 +549,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Basic armoury"
 			tasks: [
 				{
 					id: "604057B42BF353B6"
@@ -589,7 +601,7 @@
 		}
 		{
 			dependencies: ["190C18AB20216705"]
-			description: ["Первые &6пластины&r позволят создать броню, оружие и другие полезные предметы!"]
+			description: ["Basic &6plates&r, they are used in most vanilla recipes which previously contained the iron ingots as an ingredient"]
 			id: "271D55F97C071D7F"
 			rewards: [
 				{
@@ -616,7 +628,7 @@
 		}
 		{
 			dependencies: ["271D55F97C071D7F"]
-			description: ["Молот позволяет создавать более &3экономнее&r пластины и другие материалы на &6наковальне&r!"]
+			description: ["Hammer &3doubles&r the efficiency of forge hammer!"]
 			id: "01A88137A6AF2C05"
 			rewards: [
 				{
@@ -660,7 +672,7 @@
 		}
 		{
 			dependencies: ["34F267D4B9230EE8"]
-			description: ["Отполируй эти камушки "]
+			description: [""]
 			id: "2AB0AE2876A1FF03"
 			rewards: [
 				{
@@ -677,18 +689,20 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Not a criminal"
 			tasks: [{
 				count: 3L
 				id: "7A9AC4515D164595"
 				item: "minecraft:smooth_stone"
 				type: "item"
 			}]
+			title: "Smooth stone"
 			x: 2.5d
 			y: -6.5d
 		}
 		{
 			dependencies: ["207201E16246C5E3"]
-			description: ["&#ffb04fЭтот квест открывает новую ветку квестов!&r"]
+			description: [""]
 			id: "4A828E8EB7BF626F"
 			rewards: [{
 				id: "6C8CCD0CEB368F57"
@@ -697,7 +711,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Фермерские угодья ждут вас!"
+			subtitle: "Basic farming! \\n &#ffb04fThis quest opens a new quest chapter!&r"
 			tasks: [{
 				id: "5A9DB0BEF3BA3DB3"
 				item: "minecraft:wheat_seeds"
@@ -708,7 +722,7 @@
 		}
 		{
 			dependencies: ["271D55F97C071D7F"]
-			description: ["Первое ведерко оказалось создать куда сложнее, чем раньше "]
+			description: [""]
 			id: "6B6EF9A90FD72F28"
 			rewards: [
 				{
@@ -725,6 +739,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "This is a bucket... Dear god..."
 			tasks: [{
 				id: "456DD78024D31BFA"
 				item: "minecraft:bucket"
@@ -736,11 +751,11 @@
 		{
 			dependencies: ["656AA3506B3014E7"]
 			description: [
-				"Создай удочку чтобы проверить свои силы в &9ловле рыбы&r!"
+				"Craft a fishing rod to prove your &9fishing skills&r!"
 				""
-				"В данной сборке кардинально изменена &9рыбалка&r, в большинстве аспектах она была улучшена."
+				"MI:Foundation provides a new &9fishing experience&r, new rods, baits, trinkets etc."
 				""
-				"Так же была добавлена так называемая механика ловле «&3Существ&r», это значит, что в какой-то момент вы сможете ловить &oне только разнообразные предметы&r из глубин океана, но и существ с которыми впоследствии можно делать всё что вам захочется, разводить, убивать и т.д. "
+				"Also now you can catch &3entities&r, which may vary from simple mobs to special mini-bosses. "
 			]
 			id: "7BE626B4546B2C7A"
 			rewards: [
@@ -757,6 +772,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "FishNets"
 			tasks: [{
 				id: "0696A56B750435B2"
 				item: {
@@ -768,17 +784,13 @@
 				}
 				type: "item"
 			}]
-			title: "РыбалОчка"
+			title: "Fishing"
 			x: -3.907738095238095d
 			y: -4.059523809523817d
 		}
 		{
 			dependencies: ["7BE626B4546B2C7A"]
-			description: [
-				"Достав из дна моря немного её &3слёз&r, вы открыли возможность создать удочку, что позволит вам ловить &3разнообразных существ&r и &cбоссов&r из воды! "
-				""
-				"&#ffb04fЭтот квест открывает новую ветку квестов!&r"
-			]
+			description: ["By fishing long enough, the relic of the deep may come to your hand, &3keep those tears to yourself&r. A fishing rod made of tears will allow you to catch &3entities&r and &mini bosses!&r"]
 			id: "523942AC15DDEDF2"
 			rewards: [
 				{
@@ -839,7 +851,7 @@
 		}
 		{
 			dependencies: ["0CD952E1802D535C"]
-			description: ["Как вообще можно существовать без света?"]
+			description: [""]
 			id: "78CE00FA2E8083B1"
 			rewards: [
 				{
@@ -867,6 +879,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Lighty"
 			tasks: [{
 				count: 128L
 				id: "061885C845D8EE22"
@@ -879,9 +892,8 @@
 		{
 			dependencies: ["190C18AB20216705"]
 			description: [
-				"Один из первых улучшенных сундуков, имеет &345 слотов&r!"
-				""
-				"Из одинарного сундука можно сделать двойной! "
+				"Alternate route for item storage, have &345 slots&r! and have the same bevahiour as the vanilla chest."
+				" "
 			]
 			id: "1BDBDD5959A0D6A2"
 			rewards: [
@@ -908,11 +920,7 @@
 		}
 		{
 			dependencies: ["1BDBDD5959A0D6A2"]
-			description: [
-				"Имеет &354 слота&r!"
-				""
-				"Из одинарного сундука можно сделать двойной! "
-			]
+			description: ["Alternate route for item storage, have &354 slots&r! and have the same bevahiour as the vanilla chest."]
 			id: "3FC493B1B1412E8E"
 			rewards: [
 				{
@@ -938,11 +946,7 @@
 		}
 		{
 			dependencies: ["3FC493B1B1412E8E"]
-			description: [
-				"имеет &381 слот&r!"
-				""
-				"Из одинарного сундука можно сделать двойной! "
-			]
+			description: ["Alternate route for item storage, have &381 slots&r! and have the same bevahiour as the vanilla chest."]
 			id: "1AB5C899281E83A7"
 			rewards: [
 				{
@@ -968,7 +972,7 @@
 		}
 		{
 			dependencies: ["65AA9563035BA3F1"]
-			description: ["Хранит 1 типа предметов"]
+			description: ["Stores 1 type of items"]
 			id: "2DC41DE6C505ADF4"
 			rewards: [{
 				count: 2
@@ -988,7 +992,7 @@
 		}
 		{
 			dependencies: ["65AA9563035BA3F1"]
-			description: ["Хранит 2 типа предметов, но меньше."]
+			description: ["Stores 2 type of items but fewer."]
 			id: "2EF8235603ECB23B"
 			rewards: [{
 				count: 2
@@ -1008,7 +1012,7 @@
 		}
 		{
 			dependencies: ["65AA9563035BA3F1"]
-			description: ["Хранит 4 типа предметов, но меньше."]
+			description: ["Stores 4 type of items but even fewer."]
 			id: "3A032FAA2682A744"
 			rewards: [{
 				count: 2
@@ -1049,50 +1053,6 @@
 			title: "Extended Drawers"
 			x: -6.752040816326527d
 			y: -2.474489795918366d
-		}
-		{
-			dependencies: ["6108CA80D4D2A02C"]
-			description: [
-				"&6Пояс&r позволяет хранить &eинструменты&r в нём, и &3переключаться&r между инструментами используя &4горячие клавиши&r, а не занимать слот в горячих слотах! "
-				""
-				"Наденьте &6пояс&r и нажмите «М», чтобы открыть инвентарь пояса, засуньте в пояс необходимые инструменты. "
-				""
-				"Далее используйте кнопку «П», чтобы переключиться на инвентарь &6пояса&r, чтобы вернуться на основной инвентарь, вновь нажмите «П»."
-			]
-			id: "6080B4545409CEEA"
-			shape: "diamond"
-			tasks: [{
-				id: "24306EFFE07608C7"
-				item: {
-					Count: 1b
-					id: "utilitybelt:utility_belt"
-					tag: {
-						"utilitybelt:belt_inventory": {
-							Inventory: [
-								{
-									Count: 1b
-									id: "minecraft:air"
-								}
-								{
-									Count: 1b
-									id: "minecraft:air"
-								}
-								{
-									Count: 1b
-									id: "minecraft:air"
-								}
-								{
-									Count: 1b
-									id: "minecraft:air"
-								}
-							]
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: -2.0d
-			y: 0.5d
 		}
 	]
 	title: "&7First steps"
