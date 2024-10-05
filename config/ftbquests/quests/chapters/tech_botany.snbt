@@ -4,7 +4,7 @@
 	filename: "tech_botany"
 	group: "62869C8C7B088104"
 	hide_quest_until_deps_visible: true
-	icon: "mifbotaniaaddon:mana_gem"
+	icon: "appbot:fluix_mana_pool"
 	id: "5D42340695A1D334"
 	images: [{
 		click: ""
