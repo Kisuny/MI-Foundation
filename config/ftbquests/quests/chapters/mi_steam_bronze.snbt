@@ -1330,7 +1330,7 @@
 		}
 		{
 			dependencies: ["4C535D11E07E27DD"]
-			description: ["&6Стальная модернизация&r, позволяет &4улучшить&r машинку с &6бронзового&r до &0стального&r уровня"]
+			description: ["In smithing table or packer you can &4upgrade&r the &6bronze&r machines to the steel tier."]
 			id: "6724BFC7CA1CC790"
 			rewards: [
 				{
@@ -1967,7 +1967,7 @@
 		}
 		{
 			dependencies: ["5EF849FFAF9AF69B"]
-			description: ["Основная добыча блоков руды происходит с помощью забурников разной степени сложности и прочности."]
+			description: ["Drill mining is a primary source of resources, by using different drills the more rare ores can be obtained."]
 			id: "61E4571701C59249"
 			rewards: [
 				{
