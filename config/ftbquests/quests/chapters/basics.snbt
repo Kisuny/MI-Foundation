@@ -790,7 +790,7 @@
 		}
 		{
 			dependencies: ["7BE626B4546B2C7A"]
-			description: ["By fishing long enough, the relic of the deep may come to your hand, &3keep those tears to yourself&r. A fishing rod made of tears will allow you to catch &3entities&r and &mini bosses!&r"]
+			description: ["By fishing long enough, the relic of the deep may come to your hand, &3keep those tears to yourself&r. A fishing rod made of tears will allow you to catch &3entities&r and &4mini bosses!&r"]
 			id: "523942AC15DDEDF2"
 			rewards: [
 				{
@@ -803,7 +803,7 @@
 						}
 					}
 					id: "14139766DD276076"
-					title: "Рыбные открытия"
+					title: "Fish discoveries"
 					type: "custom"
 				}
 				{
@@ -840,7 +840,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Вы растрогали море!"
+			subtitle: "&#ffb04fThis quest opens a new quest chapter!&r"
 			tasks: [{
 				id: "6FE5FA2945694C4B"
 				item: "kubejs:tears_of_the_sea"
