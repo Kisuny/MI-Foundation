@@ -122,7 +122,7 @@
 	quests: [
 		{
 			dependencies: ["655FCBA5BCD261EC"]
-			description: ["Воспользуйся &4&lАлтарём призыва&r&r, чтобы получить то существо, что тебе нужно"]
+			description: ["Use &4&lSummoning Altar&r&r to get the creature you need"]
 			id: "3717E2E8EC5DB9CE"
 			rewards: [{
 				id: "498317C2C2CD1F35"
@@ -142,9 +142,9 @@
 		{
 			dependencies: ["3717E2E8EC5DB9CE"]
 			description: [
-				"Убив зоцпира можно получить немного его плоти!"
+				"If you kill a Zozpyrus, you can get some of its flesh!"
 				""
-				"Зоцпира можно призвать на алтаре призыва!"
+				"Zozpyrus can be summoned at the summoning altar!"
 			]
 			hide_dependency_lines: true
 			id: "7ED305543F610D6C"
@@ -155,7 +155,7 @@
 			}]
 			shape: "diamond"
 			size: 1.1d
-			subtitle: "Мини-босс"
+			subtitle: "Mini-boss"
 			tasks: [{
 				entity: "whisperwoods:zotzpyre"
 				icon: "kubejs:zotzpyre_flesh"
@@ -168,7 +168,7 @@
 		}
 		{
 			dependencies: ["3717E2E8EC5DB9CE"]
-			description: ["Лешего можно призвать на алтаре призыва!"]
+			description: ["Leshon can be summoned at the altar of summoning!"]
 			hide_dependency_lines: true
 			id: "63ACA9F95A08D31A"
 			rewards: [{
@@ -178,7 +178,7 @@
 			}]
 			shape: "diamond"
 			size: 1.1d
-			subtitle: "Мини-босс"
+			subtitle: "Mini-boss"
 			tasks: [{
 				entity: "bwplus:leshon"
 				icon: {
@@ -198,9 +198,9 @@
 		{
 			dependencies: ["3717E2E8EC5DB9CE"]
 			description: [
-				"Убив орка вы сможете получить редкую кожу орка для дальнейших крафтов!"
+				"By killing an orc you can get a rare orc skin for further crafting!"
 				""
-				"Орка можно призвать на алтаре призыва!"
+				"Orc can be summoned at the summoning altar!"
 			]
 			hide_dependency_lines: true
 			id: "66E4AA6980F7D436"
@@ -211,7 +211,7 @@
 			}]
 			shape: "diamond"
 			size: 1.1d
-			subtitle: "Мини-босс"
+			subtitle: "Mini-boss"
 			tasks: [{
 				entity: "adventurez:orc"
 				icon: "adventurez:orc_skin"
@@ -225,9 +225,9 @@
 		{
 			dependencies: ["3717E2E8EC5DB9CE"]
 			description: [
-				"Убив чернитого голема, есть 50% шанс забрать его сердце!"
+				"When you kill a blackstone golem, you have a 50% chance to take its heart!"
 				""
-				"Голема можно призвать на алтаре призыва!"
+				"The golem can be summoned at the summoning altar!"
 			]
 			hide_dependency_lines: true
 			icon: "adventurez:stone_golem_heart"
@@ -239,7 +239,7 @@
 			}]
 			shape: "pentagon"
 			size: 1.3d
-			subtitle: "Босс!"
+			subtitle: "Boss!"
 			tasks: [{
 				entity: "adventurez:stone_golem"
 				icon: "adventurez:stone_golem_heart"
@@ -252,7 +252,7 @@
 		}
 		{
 			dependencies: ["3717E2E8EC5DB9CE"]
-			description: ["Стража Пламени можно призвать на алтаре призыва!"]
+			description: ["The Guardian of the Flame can be summoned at the altar of summoning!"]
 			hide_dependency_lines: true
 			id: "6D787B2E2327DCCE"
 			rewards: [{
@@ -262,7 +262,7 @@
 			}]
 			shape: "diamond"
 			size: 1.1d
-			subtitle: "Мини-босс"
+			subtitle: "Mini-boss"
 			tasks: [{
 				id: "0809418E7F0E3068"
 				item: "kubejs:crystal_fiery"
@@ -273,7 +273,7 @@
 		}
 		{
 			dependencies: ["3717E2E8EC5DB9CE"]
-			description: ["Эндер-Бородавочника можно призвать на алтаре призыва!"]
+			description: ["Ender Warthog can be summoned at the summoning altar!"]
 			hide_dependency_lines: true
 			id: "3583D5A2ADB31747"
 			rewards: [{
@@ -283,7 +283,7 @@
 			}]
 			shape: "diamond"
 			size: 1.1d
-			subtitle: "Мини-босс"
+			subtitle: "Mini-boss"
 			tasks: [{
 				entity: "adventurez:enderwarthog"
 				icon: "adventurez:warthog_shell_piece"
@@ -296,7 +296,7 @@
 		}
 		{
 			dependencies: ["3717E2E8EC5DB9CE"]
-			description: ["Адскую перчатку невозможно найти в аду, <shake>но</shake> возможно её призвать, оживив огненную перчатку магией, и выкинув её в аду!"]
+			description: ["The Nether Gauntlet cannot be found in &4Nether&r, &n<shake>but</shake>&r it is possible to summon it by living the &cFire Gauntlet&r with &5magic&r, and throwing it out in &4Nether&r!"]
 			hide_dependency_lines: true
 			id: "2F010344049170CB"
 			rewards: [{
@@ -306,13 +306,13 @@
 			}]
 			shape: "pentagon"
 			size: 1.3d
-			subtitle: "Босс!"
+			subtitle: "Boss!"
 			tasks: [
 				{
 					entity: "bosses_of_mass_destruction:gauntlet"
 					icon: "bosses_of_mass_destruction:blazing_eye"
 					id: "511BE1A4B7DA275A"
-					title: "Убить адскую перчатку"
+					title: "Kill Nether Gauntlet"
 					type: "kill"
 					value: 1L
 				}
@@ -323,8 +323,8 @@
 						id: "artifacts:fire_gauntlet"
 						tag: {
 							display: {
-								Lore: ["{\"text\":\"От этой перчатки стремится злобная аура\"}"]
-								Name: "{\"text\":\"Ожившая Адская Перчатка\",\"color\":\"dark_red\"}"
+								Lore: ["{\"text\":\"from this gauntlet tends an evil aura\"}"]
+								Name: "{\"text\":\"The living Fire Gauntlet\",\"color\":\"dark_red\"}"
 							}
 							isAlive: 1
 						}
@@ -333,16 +333,16 @@
 					type: "item"
 				}
 			]
-			title: "Адска перчатка"
+			title: "Kill Nether Gauntlet"
 			x: 3.5047619047618994d
 			y: -8.60245775729647d
 		}
 		{
 			dependencies: ["3717E2E8EC5DB9CE"]
 			description: [
-				"Можно призвать найдя ледяную башню!"
+				"Can be summoned by finding an ice tower!"
 				""
-				"Из нежити есть шанс выпадения звезды душ, которая приведёт вас к данжу!"
+				"Undead have a chance to drop a soul star that will lead you to the dungeon!"
 				""
 				"{image:quest_images:textures/item/lich_tower.png width:200 height:200 align:1}"
 			]
@@ -356,23 +356,23 @@
 			}]
 			shape: "pentagon"
 			size: 1.3d
-			subtitle: "Босс!"
+			subtitle: "Boss!"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:lich"
 				icon: "bosses_of_mass_destruction:ancient_anima"
 				id: "7E80CDC7FEDF9B8B"
-				title: "Убить тёмного лича"
+				title: "Kill Night lich"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Тёмный лич"
+			title: "Kill Night lich"
 			x: -3.952380952380956d
 			y: -8.642857142857132d
 		}
 		{
 			dependencies: ["3717E2E8EC5DB9CE"]
 			description: [
-				"Место призыва обсидалита можно найти в энде, на островах!"
+				"Obsidalite's summoning location can be found in the end, on the islands!"
 				""
 				"{image:quest_images:textures/item/obsidilith_arena.png width:200 height:200 align:1}"
 			]
@@ -385,23 +385,23 @@
 			}]
 			shape: "pentagon"
 			size: 1.3d
-			subtitle: "Босс!"
+			subtitle: "Boss!"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:obsidilith"
 				icon: "bosses_of_mass_destruction:obsidian_heart"
 				id: "6375F551696FB45F"
-				title: "Убить обсидалит"
+				title: "Kill Obsidalith"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Обсидалит"
+			title: "Kill Obsidalith"
 			x: -6.44761904761905d
 			y: -4.959600614439324d
 		}
 		{
 			dependencies: ["3717E2E8EC5DB9CE"]
 			description: [
-				"Цветок пустоты существует в обычном мире, глубого в шахте, росса из лилии пустоты ведет прямо к нему в логово!"
+				"The Void Blossom exists in overworld, deep in a mine, the dew from the Void Lily leads directly to his lair!"
 				""
 				"{image:quest_images:textures/item/void_blossom.png width:200 height:200 align:1}"
 			]
@@ -414,27 +414,27 @@
 			}]
 			shape: "pentagon"
 			size: 1.3d
-			subtitle: "Босс!"
+			subtitle: "Boss!"
 			tasks: [{
 				entity: "bosses_of_mass_destruction:void_blossom"
 				icon: "bosses_of_mass_destruction:void_thorn"
 				id: "137FED608CD0AA0B"
-				title: "Убить Цветок пустоты"
+				title: "Kill Void Blossom"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Цветок пустоты"
+			title: "Kill Void Blossom"
 			x: -7.923809523809524d
 			y: 4.421351766513062d
 		}
 		{
 			dependencies: ["3717E2E8EC5DB9CE"]
 			description: [
-				"Вы получите сердце за Хиршгейста его убийство!"
+				"You get a heart for killing Hirschgeist!"
 				""
-				"Хиршгейста можно призвать на алтаре призыва."
+				"Hirschgeist can be summoned at the summoning altar."
 				""
-				"P.S. для получения призрачных огней необходимо призвать призрачных огоньков! "
+				"P.S. you need to summon wisp's to get ghost lights! "
 			]
 			hide_dependency_lines: true
 			id: "6F9BF123A3A98426"
@@ -445,7 +445,7 @@
 			}]
 			shape: "pentagon"
 			size: 1.3d
-			subtitle: "Босс!"
+			subtitle: "Boss!"
 			tasks: [{
 				entity: "whisperwoods:hirschgeist"
 				icon: {
@@ -465,9 +465,10 @@
 		{
 			dependencies: ["3717E2E8EC5DB9CE"]
 			description: [
-				"примечание: "
-				"огонёк не имеет полноценной модели, убедись что у тебя включено отображение партиклов."
-				"призрачный огонь с &4шансом &fдропается с этого моба."
+				"NOTE: "
+				"the wisp has no full model, make sure you have particle display enabled."
+				""
+				"ghost fire has a &4chance&r to drop from this mob."
 			]
 			hide_dependency_lines: true
 			id: "6A6126776142FAD1"
@@ -500,16 +501,16 @@
 			}]
 			shape: "pentagon"
 			size: 1.3d
-			subtitle: "Босс!"
+			subtitle: "Boss!"
 			tasks: [{
 				icon: "minecraft:dragon_egg"
 				id: "62F87A80CE00CE0E"
 				observe_type: 5
 				timer: 0L
-				title: "Узрейте ДРАКОН!!!!!"
 				to_observe: "minecraft:ender_dragon"
 				type: "observation"
 			}]
+			title: "Try to kill big bat"
 			x: 8.0d
 			y: 5.0d
 		}
@@ -524,16 +525,16 @@
 			}]
 			shape: "pentagon"
 			size: 1.3d
-			subtitle: "Босс!"
+			subtitle: "Boss!"
 			tasks: [{
 				entity: "minecraft:wither"
 				icon: "minecraft:nether_star"
 				id: "11E41660894EF5A1"
-				title: "Убить визера"
+				title: "Kill wither"
 				type: "kill"
 				value: 1L
 			}]
-			title: "Визер"
+			title: "Wither"
 			x: 7.607142857142861d
 			y: -6.4262672811060035d
 		}
@@ -758,13 +759,14 @@
 		{
 			can_repeat: true
 			dependencies: ["56C142EDC677B94A"]
+			description: ["There are cases when the dragon's breath does not disappear and does not allow you to spawn a new dragon, you can sacrifice a crystal to remove the dragon's breath!"]
 			hide_dependent_lines: true
 			id: "737DCAA52C83D9EF"
 			rewards: [{
 				command: "/kill @e[type=area_effect_cloud]"
 				icon: "minecraft:dragon_head"
 				id: "75BB2E47F330232D"
-				title: "Удалить дыхания"
+				title: "Remove the breathing"
 				type: "command"
 			}]
 			tasks: [{
@@ -773,7 +775,7 @@
 				item: "minecraft:end_crystal"
 				type: "item"
 			}]
-			title: "Удалить дыхания дракона"
+			title: "Delete me daddy!"
 			x: 9.0d
 			y: 5.0d
 		}
