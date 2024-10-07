@@ -67,7 +67,6 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Маленький шаг к большому прогрессу"
 			tasks: [{
 				id: "75FEFF08F337D959"
 				item: "modern_industrialization:bronze_dust"
@@ -183,7 +182,7 @@
 		}
 		{
 			dependencies: ["277995BA7B213635"]
-			description: ["&6Бойлер,&r &4первое&r производство &fпара&r"]
+			description: ["First source of steam, consumes solid fuels. Also, you can put a lava bucket."]
 			id: "19C2AE2E59D59B15"
 			rewards: [
 				{
@@ -212,7 +211,7 @@
 				"190AF318A0088ABD"
 				"6E5CD34258826606"
 			]
-			description: ["&6Помпа,&r &4бесконечно&r производит воду находясь рядом с источником воды"]
+			description: ["&6Pump,&r &4infinite&r water supply using steam. "]
 			id: "0CC6D45FABE35CE8"
 			rewards: [
 				{
@@ -244,7 +243,7 @@
 		}
 		{
 			dependencies: ["6E5CD34258826606"]
-			description: ["&6Компрессор,&r автоматизация создания пластин"]
+			description: [""]
 			id: "673858A6525CC22D"
 			rewards: [
 				{
@@ -276,7 +275,7 @@
 		}
 		{
 			dependencies: ["6E5CD34258826606"]
-			description: ["&6Резчик,&r более &4выгодная&r добыча досок, &4автоматизация&r производства стержней"]
+			description: [""]
 			id: "30A764597ABAD374"
 			rewards: [
 				{
@@ -298,7 +297,6 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "Резня"
 			tasks: [{
 				id: "2BC8D97DBC046CF4"
 				item: "modern_industrialization:bronze_cutting_machine"
@@ -309,7 +307,7 @@
 		}
 		{
 			dependencies: ["6E5CD34258826606"]
-			description: ["&6Желтенькая печка&r"]
+			description: [""]
 			id: "104688083BB190FA"
 			rewards: [
 				{
@@ -331,6 +329,7 @@
 				}
 			]
 			shape: "octagon"
+			subtitle: "Yellow furnace"
 			tasks: [{
 				id: "259EF34A8ECC447A"
 				item: "modern_industrialization:bronze_furnace"
@@ -341,7 +340,7 @@
 		}
 		{
 			dependencies: ["6E5CD34258826606"]
-			description: ["&6Дробитель,&r &4больше&r ресурсов!"]
+			description: [""]
 			id: "36815FEB1B6AE7D6"
 			rewards: [
 				{
@@ -363,6 +362,7 @@
 				}
 			]
 			shape: "octagon"
+			subtitle: "Good ol' days of ic2"
 			tasks: [{
 				id: "1DDFEF30AAFC280B"
 				item: "modern_industrialization:bronze_macerator"
@@ -373,7 +373,7 @@
 		}
 		{
 			dependencies: ["6E5CD34258826606"]
-			description: ["&6Миксер,&r позволяет &4смешивать&r разные ресурсы и материалы, бронзовый и стальной порошок здесь делается &4более выгодно&r"]
+			description: ["&6Mixer&r allows to craft some dusts more &4efficiently&r and permit the craft of special liquids."]
 			id: "146DDF9E9ED35527"
 			rewards: [
 				{
@@ -434,7 +434,7 @@
 				"3B3553CD6C797913"
 				"317AC41782EE6048"
 			]
-			description: ["&6Первый&r шаг к &0стали&r"]
+			description: [""]
 			id: "37A981E4343132BA"
 			rewards: [
 				{
@@ -452,6 +452,7 @@
 			]
 			shape: "diamond"
 			size: 2.0d
+			subtitle: "Almost"
 			tasks: [{
 				id: "110B0660B350C4CF"
 				item: "modern_industrialization:uncooked_steel_dust"
@@ -486,7 +487,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Добро пожаловать в стальной век"
+			subtitle: "Finally!"
 			tasks: [{
 				id: "6C55504012987D9A"
 				item: "modern_industrialization:steel_ingot"
@@ -505,6 +506,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
+			subtitle: "Another One Bites the Dust"
 			tasks: [
 				{
 					id: "650E30CF03265BA3"
@@ -552,7 +554,6 @@
 				item: "modern_industrialization:fire_clay_dust"
 				type: "item"
 			}]
-			title: "Глиномесим по взрослому"
 			x: -13.0d
 			y: -7.0d
 		}
@@ -641,7 +642,7 @@
 		}
 		{
 			dependencies: ["6E5CD34258826606"]
-			description: ["&6Предметные входы/выходы&r, &4все&r взаимодействия предметов в &4мультиблоках&r происходят через них"]
+			description: ["The item interfaces for multiblocks. While in hand, the appropriate placing will be highlighed."]
 			id: "6C6CAEF6AD733543"
 			rewards: [
 				{
@@ -675,6 +676,7 @@
 					type: "item"
 				}
 			]
+			title: "Bronze item hatches"
 			x: -10.0d
 			y: -2.5d
 		}
@@ -683,7 +685,7 @@
 				"190AF318A0088ABD"
 				"6E5CD34258826606"
 			]
-			description: ["&6Жидкостные шлюзы&r, &4все&r взаимодействия с жидкостями в &4мультиблоках&r происходят через них"]
+			description: ["The liquid interfaces for multiblocks. While in hand, the appropriate placing will be highlighed."]
 			id: "57B90A1758C82D2D"
 			rewards: [
 				{
@@ -717,6 +719,7 @@
 					type: "item"
 				}
 			]
+			title: "Bronze Fluid hatches"
 			x: -10.0d
 			y: -1.5d
 		}
@@ -725,7 +728,7 @@
 				"6C6CAEF6AD733543"
 				"57B90A1758C82D2D"
 			]
-			description: ["&6Производство&r &8коксового&r угля"]
+			description: [""]
 			icon: "modern_industrialization:coke_oven"
 			id: "16F9EE5CED2EF23F"
 			rewards: [
@@ -754,6 +757,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "Railcraft?...Anyone?"
 			tasks: [{
 				id: "74F585127A81BE24"
 				item: "modern_industrialization:coke_oven"
@@ -790,7 +794,6 @@
 				item: "modern_industrialization:coke"
 				type: "item"
 			}]
-			title: "Казалось причём тут Яковлев?"
 			x: -5.5d
 			y: -4.5d
 		}
@@ -838,7 +841,7 @@
 				"691AB604733F17FD"
 				"146DDF9E9ED35527"
 			]
-			description: ["&6Ускоряет&r &4электрические машины&r если нажать пкм по машинке с рабочим крафтом. &4Некоторые&r крафты могут упираться в текущий &4лимит&r разгона и из-за этого не разгоняться, чтобы &aувеличить разгон&r добавьте ускорителей"]
+			description: ["Used in cutting machines and manual increase of efficiency of electric machines."]
 			id: "35021449B842E5CC"
 			rewards: [
 				{
@@ -868,7 +871,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "смажь его "
+			subtitle: "Just lube it up"
 			tasks: [{
 				id: "2BE708B8652F94DB"
 				item: "modern_industrialization:lubricant_bucket"
@@ -978,7 +981,7 @@
 				"6C6CAEF6AD733543"
 				"57B90A1758C82D2D"
 			]
-			description: ["&6Производство&r &0стали&r и не только"]
+			description: [""]
 			icon: "modern_industrialization:steam_blast_furnace"
 			id: "17F3326A3A29CE1B"
 			rewards: [
@@ -1007,6 +1010,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "Not yet"
 			tasks: [{
 				id: "091B00A2F0687C09"
 				item: "modern_industrialization:steam_blast_furnace"
@@ -1114,6 +1118,7 @@
 		}
 		{
 			dependencies: ["3823C4560BD9A25B"]
+			description: [""]
 			id: "4C6EE1ED6F46F8F6"
 			rewards: [
 				{
@@ -1130,7 +1135,6 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "Если бы мы знали что это такое...."
 			tasks: [{
 				id: "6A6C06F5BB51313C"
 				item: "minecraft:enchanting_table"
@@ -1167,7 +1171,7 @@
 		}
 		{
 			dependencies: ["52A8120A9B4DEFD1"]
-			description: ["&6Удвоение красок&r и путь к &0резине&r"]
+			description: ["&6Dye multiplication&r and &0rubber&r"]
 			id: "03C994E0B1D0C4E8"
 			rewards: [
 				{
@@ -1213,7 +1217,7 @@
 		}
 		{
 			dependencies: ["6C0746AF44FBDACB"]
-			description: ["Необходимо &4топливо&r и &9вода&r для работы. Ведро &9воды&r можно держать просто в инвентаре. Топливо нужно класть нажатием пкм &4топливом&r по буру в инвентаре"]
+			description: ["&a3x3 mining&r, in order to work the fuel must be placed by right clicking with fuel onto drill inside inventory. Also Steam Drill needs water in order to work. Just keep water bucket in your inventory, or RMB on water source from time to time."]
 			id: "518A669A3B812DC5"
 			rewards: [
 				{
@@ -1236,7 +1240,7 @@
 				}
 			]
 			shape: "pentagon"
-			subtitle: "Твой лучший друг)"
+			subtitle: "Your best friend"
 			tasks: [{
 				id: "3DADC34737C05A4E"
 				item: "modern_industrialization:steam_mining_drill"
@@ -1298,6 +1302,7 @@
 		}
 		{
 			dependencies: ["6E5CD34258826606"]
+			description: [""]
 			id: "6B922FE87FE0719A"
 			rewards: [
 				{
@@ -1314,18 +1319,18 @@
 				}
 			]
 			shape: "diamond"
+			subtitle: "LTG"
 			tasks: [{
 				id: "73F8A43200073AAF"
 				item: "modern_industrialization:salt_dust"
 				type: "item"
 			}]
-			title: "Из Питера с любовью!"
 			x: -13.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["4C535D11E07E27DD"]
-			description: ["&6Стальная модернизация&r, позволяет &4улучшить&r машинку с &6бронзового&r до &0стального&r уровня"]
+			description: ["In smithing table or packer you can &4upgrade&r the &6bronze&r machines to the steel tier."]
 			id: "6724BFC7CA1CC790"
 			rewards: [
 				{
@@ -1612,10 +1617,7 @@
 		}
 		{
 			dependencies: ["4C535D11E07E27DD"]
-			description: [
-				"&6Прокаточный станок&r, &4путь&r к новым промежуточным материалам"
-				"&6Этот квест открывает новую ветку квестов!&r"
-			]
+			description: ["&6Wiremill&r, provides a way to create all necessary materials to start the electric era."]
 			id: "6B8AD610BFDE2B3A"
 			rewards: [
 				{
@@ -1638,6 +1640,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "&#ffb04fThis quest opens a new quest chapter!&r"
 			tasks: [{
 				id: "5F19A02D010EEF7E"
 				item: "modern_industrialization:steel_wiremill"
@@ -1648,13 +1651,7 @@
 		}
 		{
 			dependencies: ["74279E6C9D779E3B"]
-			description: [
-				"Порох позволяет &6ускорять&r механизмы."
-				""
-				"Но &41 порох&r может ускорить только на &92 минуты&r."
-				""
-				"Данный эффект стакается."
-			]
+			description: ["Gunpowder allows to &6boost&r the speed of steams machines. Effect is stackable and lasts for 2 minutes (every gunpowder increases the duration of effect)"]
 			id: "5F6FA20B86978DD6"
 			rewards: [
 				{
@@ -1736,7 +1733,7 @@
 				"08A2A9F4E547A21D"
 				"4C535D11E07E27DD"
 			]
-			description: ["&6Мультиблок для хранения жидкостей&r, использует &4свои&r шлюзы для ввода/вывода жидкости"]
+			description: ["&6Multiblock fluid storage&r, use &4special&r hatches for logistics."]
 			icon: "modern_industrialization:large_tank"
 			id: "11AD9604B352132F"
 			rewards: [
@@ -1770,9 +1767,9 @@
 		{
 			dependencies: ["4C535D11E07E27DD"]
 			description: [
-				"&6Паровой карьер&r, &4ресурсы&r из воздуха, но нужны забурники"
+				"&6Steam quarry&r uses drills to &4generate resources&r dependent of the dimension and drill type. "
 				""
-				"На каждом забурнике есть разное количество ресов. Если они прокнут все, а у вас слотов выхода меньше чем прокнувших типов, то те, что не влезли удалятся. Лучше ставьте на каждый тип руды с карьера по 1 слоту выхода"
+				"Hint: make sure to have enough output space in output hatches."
 			]
 			id: "5EF849FFAF9AF69B"
 			rewards: [
@@ -1801,6 +1798,7 @@
 				}
 			]
 			shape: "octagon"
+			subtitle: "Come on, you know the drill"
 			tasks: [{
 				id: "7D0EC0C0E172C16E"
 				item: "modern_industrialization:steam_quarry"
@@ -1812,15 +1810,15 @@
 		{
 			dependencies: ["5EF849FFAF9AF69B"]
 			description: [
-				"Позволяет копать различные строительные блоки"
-				"- булыжник"
-				"- диорит"
-				"- андезит"
-				"- гранит"
-				"- земля"
-				"- гравий"
-				"- глубинный сланец"
-				"- туф"
+				"Produce:"
+				"- cobblestone"
+				"- diorite"
+				"- andesite"
+				"- granite"
+				"- earth"
+				"- gravel"
+				"- deepslate"
+				"- tuff"
 			]
 			id: "2C30187990B1378B"
 			rewards: [
@@ -1849,14 +1847,14 @@
 		{
 			dependencies: ["5EF849FFAF9AF69B"]
 			description: [
-				"Позволяет добывать базовые руды"
-				"- железо"
-				"- уголь"
-				"- лигнит"
-				"- медь"
-				"- олово"
-				"- золото"
-				"- редстоун"
+				"Produce:"
+				"- iron"
+				"- coal"
+				"- lignite"
+				"- copper"
+				"- tin"
+				"- gold"
+				"- redstone"
 			]
 			id: "2F564636AF844954"
 			rewards: [
@@ -1884,7 +1882,7 @@
 		}
 		{
 			dependencies: ["663BB2D450652922"]
-			description: ["&4Уничтожает&r &6все&r предметы и жидкости, что в данный блок подаются"]
+			description: ["&4Destroys&r &6all&r items and liquids as they enther."]
 			id: "758FD2B929E89B81"
 			rewards: [
 				{
@@ -1917,7 +1915,7 @@
 		}
 		{
 			dependencies: ["45AFA17F0E26641D"]
-			description: ["простой, медленный, крафтит бесплатно"]
+			description: [""]
 			id: "3C98775D704691C9"
 			rewards: [
 				{
@@ -1940,6 +1938,7 @@
 				}
 			]
 			shape: "octagon"
+			subtitle: "Cheap, clean, simple"
 			tasks: [{
 				id: "56CAB988A4E96F3A"
 				item: "autoworkstations:iron_auto_crafting_table"
@@ -1968,7 +1967,7 @@
 		}
 		{
 			dependencies: ["5EF849FFAF9AF69B"]
-			description: ["Основная добыча блоков руды происходит с помощью забурников разной степени сложности и прочности."]
+			description: ["Drill mining is a primary source of resources, by using different drills the more rare ores can be obtained."]
 			id: "61E4571701C59249"
 			rewards: [
 				{
@@ -1998,7 +1997,7 @@
 		}
 		{
 			dependencies: ["4C535D11E07E27DD"]
-			description: ["&6Экстрактор жидкости&r, нужен в &4основном&r для краски и тканевой суспензии"]
+			description: ["Used primarily for &4pigment extraction&r."]
 			id: "20003141A3AE3E89"
 			rewards: [
 				{
@@ -2031,13 +2030,11 @@
 		{
 			dependencies: ["457B76383A8437AC"]
 			description: [
-				"- базовая труба для перемежения предметов по инвентарям"
-				"- для извлечения предметов &lнеобходим&r извлекатель или предметная помпа"
-				"- предметы перемещаются не моментально"
-				"- плохая логистика может привести до застоя предметов в трубах. При слишком большом количестве предметов в трубе они начнут исчезать."
-				"- настройка выходов трубы осуществляется пкм пустой рукой по стороне трубы."
-				"- когда предмет в трубе имеет несколько возможных путей выбор производится случайно между инвентарями в которых есть место для данного предмета"
-				"- если выход оставить свободным, труба выбросит ресурсы в мир"
+				"Basic element of item logistics:"
+				"- to extract items from inventory it's &lnecessary&r to have the ejector or the item pump"
+				"- ban designs will lead to items despawning inside pipes, as pipes have a limit to prevent lag"
+				"- pipe &6connections&r can be configured by RMB with empty hand on the side of a pipe"
+				"- when pipe is attached to multiple inventories routing happens at random (if both inventories have enough space)"
 			]
 			id: "45AFA17F0E26641D"
 			rewards: [
@@ -2065,7 +2062,7 @@
 		}
 		{
 			dependencies: ["45AFA17F0E26641D"]
-			description: ["направляющая труба, предметы могут течь только в выбраном направлении"]
+			description: ["Merges two streams of items in pipe system. Often used to restrict the flow direction."]
 			id: "097D946013284973"
 			rewards: [
 				{
@@ -2172,7 +2169,7 @@
 		}
 		{
 			dependencies: ["45AFA17F0E26641D"]
-			description: ["Извлекает по одному предмету за итерацию"]
+			description: ["Extracts one item on iteration, needs a redstone signal to turn it on."]
 			id: "39EB115B78DEDCE4"
 			rewards: [
 				{
@@ -2206,9 +2203,9 @@
 		{
 			dependencies: ["39EB115B78DEDCE4"]
 			description: [
-				"Извлекает по 16 предметов за итерацию."
+				"Extract 16 items on iteration. "
 				""
-				"Если предметная помпа находиться между труб, то именно &lтрубы&r будут извлекать предметы из &lкаждого&r инвентаря."
+				"Need not to be attached to the inventory. So it creates a &6flow&r of items in pipes, i.e. it will extract from all pipes simultaneously."
 			]
 			id: "37AB2D4AFA5EB115"
 			rewards: [
@@ -2243,11 +2240,11 @@
 		{
 			dependencies: ["23FB9EE3D0145E87"]
 			description: [
-				"- необходима для течения жидкостей в любом направлении"
-				"- полезна только при использовании жидкостных труб из neepmeat"
-				"- необходим редстоун сигнал для работы."
-				"- shift+пкм для инвертирования (текущий режим отображается красной точкой)"
-				"- красная точка указывает направление &lоткуда&r забирается жидкость"
+				"Basic element of fluid logistics:"
+				"- used to enable vertical fluid transfer"
+				"- applicable only to &cNeepMeat&r fluid pipes"
+				"- need redstone signal to work (can be inverted)"
+				"- red dot signals the direction of flow"
 			]
 			id: "7A61AF82650358A8"
 			rewards: [
@@ -2277,6 +2274,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Pump it up"
 			tasks: [{
 				id: "30BAB5F6CBF4B781"
 				item: "neepmeat:pump"
@@ -2343,6 +2341,7 @@
 		}
 		{
 			dependencies: ["6DF83BA3914DACDA"]
+			description: ["Can store different liquids simultaneously."]
 			id: "07D775C3F4A378DA"
 			rewards: [
 				{
@@ -2446,6 +2445,7 @@
 		}
 		{
 			dependencies: ["663BB2D450652922"]
+			description: ["Can be used to drain liquid sources which are not directly located above. And more compact water generation."]
 			id: "52C385CCEB674DF2"
 			rewards: [
 				{
@@ -2473,11 +2473,9 @@
 		{
 			dependencies: ["317AC41782EE6048"]
 			description: [
-				"- не телепортирует жидкости"
-				"- чтобы забрать жидкость в пассивном режиме нужно поставить трубу снизу механизма"
-				"- скорость переливания ~ 200 mb/t"
-				"- самостоятельно не засасывает жидкости"
-				"- чтобы передать жидкость в пассивном режиме из \"A\" в \"B\" нужно чтобы \"A\" стоял (хотя бы) на блок выше чем \"B\""
+				"Basic element of fluid logistics:"
+				"- fluid transfer is &9not&r instant, but have constant speed of ~ 200 mb/t"
+				"- in order to extract a liquid the source must be higher than destination"
 			]
 			id: "23FB9EE3D0145E87"
 			rewards: [
@@ -2543,7 +2541,7 @@
 		}
 		{
 			dependencies: ["317AC41782EE6048"]
-			description: ["&6Бочечки&r, но поменьше"]
+			description: ["&6Barrels&r, but smaller and not so wood dependent"]
 			id: "53A1D88D2F75E64E"
 			rewards: [
 				{
@@ -2659,7 +2657,7 @@
 		}
 		{
 			dependencies: ["4AAE8853DAAE8A5B"]
-			description: ["&6Этот квест открывает новую ветку квестов!&r"]
+			description: [""]
 			id: "38755D32B509192B"
 			rewards: [
 				{
@@ -2682,6 +2680,7 @@
 				}
 			]
 			shape: "diamond"
+			subtitle: "&#ffb04fThis quest opens a new quest chapter!&r"
 			tasks: [{
 				id: "5CBD701465879AE0"
 				item: "modern_industrialization:redstone_alloy_dust"
@@ -2693,10 +2692,10 @@
 		{
 			dependencies: ["457B76383A8437AC"]
 			description: [
-				"&6гаечный ключ&r - твой первый помощник при прохождении модификации:"
-				"&4быстрое&r снятие бочек и резервуаров, а так же любых труб из этого же мода shift+пкм;"
-				"&4настройка&r сторон механизма нажатием shift+пкм по стороне/слоту на сетке;"
-				"&4подсветка&r мультиблочных конструкций при нахождении в руке"
+				"&6Wrench&r is a main tool of Modern Industrialization:"
+				"- faster barrel and tanks breaking by Shift+RMB;"
+				"- machine output tuning;"
+				"- multiblock visualization while wrench is in hand (off-hand also counts)"
 			]
 			id: "30CADCC78DEB5A80"
 			rewards: [
@@ -2714,6 +2713,7 @@
 				}
 			]
 			shape: "diamond"
+			subtitle: "Prototype Omniwrench"
 			tasks: [{
 				id: "529499BC8C07E122"
 				item: "modern_industrialization:wrench"
@@ -2724,7 +2724,7 @@
 		}
 		{
 			dependencies: ["457B76383A8437AC"]
-			description: ["Данная рамка позволяет создавать улучшения для ящиком из мода Extended Drawers"]
+			description: ["Basic component for drawers upgrades."]
 			id: "75EDDE9875B87B5C"
 			rewards: [
 				{
@@ -2750,7 +2750,7 @@
 		}
 		{
 			dependencies: ["75EDDE9875B87B5C"]
-			description: ["Увеличивает вместимость ящиков в 2 раза."]
+			description: ["Increases capacity by factor of 2."]
 			id: "4205C72442E04D95"
 			rewards: [
 				{
@@ -2776,7 +2776,7 @@
 		}
 		{
 			dependencies: ["4205C72442E04D95"]
-			description: ["Увеличивает вместимость ящиков в 4 раза."]
+			description: ["Increases capacity by a factor of 4."]
 			id: "7C6E3F5D4A249CDB"
 			rewards: [
 				{
@@ -2802,7 +2802,7 @@
 		}
 		{
 			dependencies: ["663BB2D450652922"]
-			description: ["Данный молоточек позволяет отключать звуки у всех механизмов мода Modern Industrialization."]
+			description: ["With this mallet you can turn off a sound of Modern Industrialization machines."]
 			id: "0C34AF516444E3E3"
 			tasks: [{
 				id: "625DC491F3CFC210"
@@ -2811,73 +2811,6 @@
 			}]
 			x: -2.5d
 			y: 1.5d
-		}
-		{
-			dependencies: ["7A8F666339EFFECD"]
-			description: ["&6Ускоряет&r &4электрические машины&r если нажать пкм по машинке с рабочим крафтом. &4Некоторые&r крафты могут упираться в текущий &4лимит&r разгона и из-за этого не разгоняться, чтобы &aувеличить разгон&r добавьте ускорителей"]
-			id: "467133BBE2B0814A"
-			rewards: [
-				{
-					id: "2D2DFC1D1DC6E45C"
-					item: "kubejs:early_lootbag_epic"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "00FA35125496618E"
-					item: {
-						Count: 1b
-						id: "modern_industrialization:steel_tank"
-						tag: {
-							BlockEntityTag: {
-								amt: 648000L
-								fluid: {
-									fk: {
-										fluid: "modern_industrialization:lubricant"
-									}
-								}
-								locked: 0b
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "diamond"
-			subtitle: "смажь его "
-			tasks: [{
-				id: "3A40DE32197A285E"
-				item: "modern_industrialization:lubricant_bucket"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["7A8F666339EFFECD"]
-			id: "140C7D04F92FD839"
-			rewards: [
-				{
-					id: "38B55255778433EA"
-					item: "kubejs:early_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "426B3389605C96F3"
-					item: "modern_industrialization:battery_alloy_dust"
-					type: "item"
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "023195955EBD4CD9"
-				item: "modern_industrialization:battery_alloy_dust"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 0.0d
 		}
 		{
 			dependencies: ["6724BFC7CA1CC790"]

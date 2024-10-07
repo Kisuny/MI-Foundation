@@ -19,7 +19,7 @@ let enhancements = [
         name: 'durasteel_reinforced',
         energy: 1.2,
         duration: 1.2,
-        stiffness: 0.05,
+        stiffness: 0.2,
         output_chance: 1,
         output_multi: 1
     },
@@ -405,7 +405,7 @@ const planet_drilling_data = [
             stiffness: 0.24,
             time: 600,
             output: [
-                { id: 'modern_industrialization:liquid_mana', ammount: 300 },
+                { id: 'modern_industrialization:liquid_mana', ammount: 30 },
                 { id: 'modern_industrialization:cryofluid', ammount: 500 },
                 { id: 'modern_industrialization:purified_void', ammount: 100 },
             ]

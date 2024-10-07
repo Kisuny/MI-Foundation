@@ -3141,48 +3141,48 @@
 		}
 		{
 			dependencies: ["5B7899670D00F4B0"]
-			id: "0379CDF7FB133E48"
+			id: "1FA9996CDB55526A"
 			rewards: [
 				{
 					count: 4
-					id: "0A3F6A94B4AF872F"
+					id: "73E05AA59EB8925F"
 					item: "modern_industrialization:digital_circuit"
 					type: "item"
 				}
 				{
 					count: 10
-					id: "3AE16F1D0D10D49B"
+					id: "6EDEBC57529143FC"
 					item: "modern_industrialization:electronic_circuit"
 					type: "item"
 				}
 				{
 					count: 32
-					id: "081BA7E9705AACE7"
+					id: "389BFBB09A936FEF"
 					item: "modern_industrialization:and_gate"
 					type: "item"
 				}
 				{
 					count: 32
-					id: "18FEEA7109D5359D"
+					id: "348BD897536AD542"
 					item: "modern_industrialization:or_gate"
 					type: "item"
 				}
 				{
 					count: 32
-					id: "1794959FBF101D12"
+					id: "67B1955FBAA71B48"
 					item: "modern_industrialization:not_gate"
 					type: "item"
 				}
 				{
 					count: 8
-					id: "51A60CF5848C3914"
+					id: "389EB0F723D1F43A"
 					item: "modern_industrialization:digital_circuit_board"
 					type: "item"
 				}
 			]
 			shape: "gear"
 			tasks: [{
-				id: "36EEEED6D0B5C194"
+				id: "1DA11FD2E382A62A"
 				item: "modern_industrialization:digital_circuit"
 				type: "item"
 			}]

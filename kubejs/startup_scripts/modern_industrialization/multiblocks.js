@@ -263,7 +263,7 @@ MIMachineEvents.registerMachines(event => {
     ])
         .key('C', event.memberOfBlock('modern_industrialization:space_casing'),event.noHatch())
         .key('c', event.memberOfBlock('modern_industrialization:space_casing'),event.hatchOf('energy_input', 'item_input', 'item_output','fluid_input'))
-        .key('S', event.memberOfBlock('ae2:256k_crafting_storage'),event.noHatch())
+        .key('S', event.memberOfBlock('ae2:64k_crafting_storage'),event.noHatch())
         .key('D', event.memberOfBlock('neepmeat:data_cable'),event.noHatch())
         .key('P', event.memberOfBlock('neepmeat:pylon'),event.noHatch())
         .key('p', event.memberOfBlock('neepmeat:pedestal'),event.noHatch())
@@ -417,11 +417,12 @@ MIMachineEvents.registerMachines(event => {
     // MOLECULAR DECONSTRUCTOR
     const molecularDeconstructorShape = event.layeredShape('compactium_casing', [
         ['           ','    CCC    ','   CC CC   ','  CC   CC  ',' CC     CC ',' C       C ',' CC     CC ','  CC   CC  ','   CC CC   ','    CCC    ','           '],
-        ['   AAAAA   ','  AABCBAA  ',' AABC CBAA ','AABC   CBAA','ABC     CBA','AC       CA','ABC     CBA','AABC   CBAA',' AABC CBAA ','  AABCBAA  ','   AAAAA   '],
+        ['   AAAAA   ','  aaBCBaa  ',' aaBC CBaa ','aaBC   CBaa','aBC     CBa','aC       Ca','aBC     CBa','aaBC   CBaa',' aaBC CBaa ','  aaBCBaa  ','   AAAAA   '],
         ['           ','    C#C    ','   CC CC   ','  CC   CC  ',' CC     CC ',' C       C ',' CC     CC ','  CC   CC  ','   CC CC   ','    CCC    ','           ']
     ])
         .key('B', event.memberOfBlock('modern_industrialization:superconductor_coil'),event.noHatch())
         .key('A', event.memberOfBlock('modern_industrialization:compactium_casing'),event.hatchOf('fluid_input', 'item_input', 'item_output', 'energy_input'))
+        .key('a', event.memberOfBlock('modern_industrialization:compactium_casing'),event.noHatch())
         .key('C', event.memberOfBlock('modern_industrialization:nuclear_alloy_machine_casing_pipe'),event.noHatch())
         .build()
 
@@ -990,6 +991,7 @@ MIMachineEvents.registerMachines(event => {
         256000, // Maximum energy generation rate (eu/tick)
         builder => { // The builder (same as for a single block generator)
             builder.fluid("modern_industrialization:steam", 1);
+            builder.fluid("modern_industrialization:heavy_waster_steam", 2);
             builder.fluid("modern_industrialization:high_pressure_steam", 64);
             builder.fluid("modern_industrialization:high_pressure_heavy_water_steam", 128);
         },

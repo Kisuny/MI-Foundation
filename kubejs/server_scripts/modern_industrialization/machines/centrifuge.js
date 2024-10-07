@@ -1,4 +1,12 @@
 ServerEvents.recipes(event => {
+    // Depleted Naquadah Rod Centrifuging
+    event.recipes.modern_industrialization.centrifuge(32, 6000)
+        .itemIn('modern_industrialization:naquadah_fuel_rod_depleted')
+        .itemOut('24x modern_industrialization:plutonium_tiny_dust')
+        .itemOut('18x modern_industrialization:uranium_235_tiny_dust')
+        .itemOut('12x modern_industrialization:tantalum_tiny_dust')
+        .itemOut('24x modern_industrialization:palladium_tiny_dust')
+
     // Glacio Air Centrifuging
     event.recipes.modern_industrialization.centrifuge(32, 600)
         .fluidIn('modern_industrialization:glacio_air',1000)

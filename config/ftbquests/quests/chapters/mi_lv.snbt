@@ -35,10 +35,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: [
-				"6BAA0FB832721D58"
-				"140C7D04F92FD839"
-			]
+			dependencies: ["6BAA0FB832721D58"]
 			id: "2B526E0A7964227D"
 			min_required_dependencies: 1
 			rewards: [
