@@ -277,11 +277,11 @@
 	quests: [
 		{
 			description: [
-				"Добро пожаловать на сборку &l&5MI:Foundation &6II&r&r! "
+				"Welcome in the &l&5MI:Foundation &6II&r&r! "
 				""
-				"Большинство квестов помогут вам прогрессировать в сборке в разных направлениях, будь то &3техническая&r или &5магическая&r ветка, а так же вознаграждать вас разнообразными &6наградами&r."
+				"Most quests will help you progress in the modpack in different directions, whether it's &3Tech&r or &5magic&r, You'll also earn generous &6rewards&r."
 				""
-				"&l&eУспехов!&r&r"
+				"&l&eGood luck!&r&r"
 			]
 			icon: "artifacts:crystal_heart"
 			id: "19D35B010B678675"
@@ -289,18 +289,19 @@
 			size: 2.0d
 			tasks: [{
 				id: "409481CB507A2E9B"
+				title: "*click*"
 				type: "checkmark"
 			}]
-			title: "&#FEC6DFНачало всех начал!"
+			title: "&#FEC6DFThe start of all beginnings!"
 			x: 0.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"&3Зум-зум&r! Приближайте блоки/мобов, да что угодно!"
+				"&3Zoom Zoom Zoom!&r! Zoom blocks/mobs, anything!!"
 				""
-				"По умолчанию на кнопку «&3X&r»"
+				"Defaults to the «&3X&r» button"
 			]
 			icon: "minecraft:spyglass"
 			id: "39A0154B4DF3665F"
@@ -310,38 +311,36 @@
 				team_reward: false
 				type: "item"
 			}]
-			subtitle: "Приблизь это!"
 			tasks: [{
 				id: "75E5A4B341D2667E"
-				title: "*клик*"
+				title: "*click*"
 				type: "checkmark"
 			}]
-			title: "&#A39FE1Приблизь их всех!"
+			title: "&#A39FE1Zoom them all!"
 			x: 0.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"В модпаке существуют &eметки&r для игроков, по умолчанию эта кнопка «&3button 5&r» на мышке, рекомендуем поставить эту кнопку на &3ALT&r или же среднюю кнопку мышки(&3колесико&r), для удобства. "
+				"In the modpack there are &epings&r for players, by default this button «&3button 5&r» on the mouse, we recommend to put this button on &3ALT&r or the middle button of the mouse (&3wheel&r), for convenience. "
 				""
-				"Вы так же можете &lуказать свой канал для меток&r, чтобы &nне слушать звуки чужих меток&r командой &l&3/pingwheel channel НазваниеКанала&r&r"
-				"Либо же &l&3/pingwheel config&r&r и написать в меню &3channel&r нужный вам канал, удаление канала из меню ввода канала позволит вернуться в &oобщий канал&r. Так же командой &l&3/pingwheel config&r&r можно настроить другие функции мода, в случае надобности."
+				"You can also &lspecify your own channel for pings&r, so you don't have to listen to the sounds of other people's pings with the command &l&3/pingwheel channel NameChannel&r&r"
 			]
 			icon: "botania:monocle"
 			id: "2B0956A5777EB25F"
 			tasks: [{
 				id: "0B1F727863A71FEC"
-				title: "*клик*"
+				title: "*click*"
 				type: "checkmark"
 			}]
-			title: "&#A39FE1ПИНГИ!!!!! ОНИ ПОВСЮДУ"
+			title: "&#A39FE1PINGS!!!!! THEY'RE EVERYWHERE"
 			x: 3.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["19D35B010B678675"]
-			description: ["Разнообразная еда даёт примущества в виде дополнительных &4сердец&r и больше &5баффов&r, кушать много и разное выгоднее, чем питаться всю жизнь ламинарией!"]
+			description: ["Diverse food gives advantages in the form of additional &4hearts&r and more &5buffs&r, eating many and different things is more profitable than eating kelp all your life!"]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -357,22 +356,22 @@
 				team_reward: false
 				type: "item"
 			}]
-			subtitle: "Диета — Соблюдайте диету дети!"
+			subtitle: "Follow the diet kids!"
 			tasks: [{
 				id: "696BD820E66376C5"
-				title: "*клик*"
+				title: "*click*"
 				type: "checkmark"
 			}]
-			title: "&#A39FE1Еда, Мммм"
+			title: "&#A39FE1Food, yummy"
 			x: -1.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"Мусорка - удобный инструмент избавления от… &l&4МУСОРА&r&r. "
+				"The trash can is a handy tool for getting rid of... &l&4GARBAGE&r&r."
 				""
-				"Вы можете просто перетаскивать предметы в мусорку нажав на «&3T&r», тогда появится иконка мусорки. Так и нажимать кнопку &3DEL&r наведя на предмет, который хотите убрать в мусорку."
+				"You can simply drag items into the trash by pressing «&3T&r»,then the trash icon will appear. You can also press the &3DEL&r button by hovering over the item you want to trash."
 			]
 			icon: {
 				Count: 1b
@@ -384,63 +383,41 @@
 			id: "34F93686B014C096"
 			tasks: [{
 				id: "7486BA0A9FAA9C5E"
-				title: "*клик*"
+				title: "*click*"
 				type: "checkmark"
 			}]
-			title: "&#A39FE1Мусорка!"
+			title: "&#A39FE1Trash can!"
 			x: 1.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"&6Артефакты&r и способ их получения &oнемного изменён&r, большинство самых сильных артефактов вы сможете найти в &9рыбалке&r, ловя разнообразных &cбоссов&r из разных жидкостей, попробуйте себя в качестве ветерана &9рыбной ловли&r, это &lинтереснее&r чем кажется!"
+				"&6Artifacts&r and the way to obtain them has been &oslightly changed&r, most of the strongest artifacts you can find in &9fishing&r, catching a variety of &cbosses&r from different liquids, try yourself as a veteran &9fisherman&r, it's more &linteresting&r than it seems!"
 				""
-				"Все остальные &6артефакты&r вы сможете найти путешествуя по миру и обыскивая сундуки! "
+				"All other &6artifacts&r can be found by traveling the world and searching chests! "
 			]
 			icon: "artifacts:superstitious_hat"
 			id: "1A4EA51D3A8E6A46"
 			tasks: [{
 				id: "253EC36817695226"
-				title: "*клик*"
+				title: "*click*"
 				type: "checkmark"
 			}]
-			title: "&#A39FE1<shake>Безделушки"
+			title: "&#A39FE1<shake>Trinkets"
 			x: 1.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"Концепцией модпака &lзадумано&r что &4монстры&r не появляются в мире &aнатуральным&r образом. "
+				"In the compilation changed &4combat&r and added a lot of &9new weapons&r, both rare and less rare, some weapons can be created by yourself."
 				""
-				"Вы сможете найти &4монстров&r исследуя разнообразные структуры в спавнерах."
+				"But the &lmain&r secret is that the weapon &9improves&r if you use it in two hands, left and right! It's up to you to decide which weapon to fight with."
 				""
-				"В будущем вам будет &oоткрыта возможность призывать нужных вам мирных/злобных мобов&r, но для начала необходимо развить немного &5ведьминской магии&r, а так же создавать свои &3собственные спавнеры&r с нужным вам &4монстром&r!"
+				"Two-handed weapons &ccannot&r be put in two hands! "
 				""
-				"Так же вы можете получать сумки с моб-лутом из &9рыбалки&r и квестов!"
-			]
-			icon: "minecraft:zombie_head"
-			id: "6A79814674B9FEFB"
-			tasks: [{
-				id: "56C64A129D5B1F30"
-				title: "*клик*"
-				type: "checkmark"
-			}]
-			title: "&#A39FE1Но где же мобы?"
-			x: 0.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["19D35B010B678675"]
-			description: [
-				"В сборке изменена &4боёвка&r и добавлено множество &9нового оружия&r, как редкого так и менее редкого, некоторое орудие можно создать самому."
-				""
-				"Но &lглавный&r секрет в том, что оружие &9улучшается&r если использовать его в двух руках, левой и правой! Каким орудием драться - решать вам."
-				""
-				"Двуручное оружие &cнельзя&r класть в две руки! "
-				""
-				"Так же существует шанс найти &dмифический&r тип орудий в разнообразных данжах, а так же использовать разнообразные &bруны&r в оружие, чтобы ещё сильнее улучшить своё оружие!"
+				"There's also a chance to find &dmythical&r weapon types in a variety of dungeons, as well as use a variety of weapon &lrunes&r to improve your weapons even more!"
 			]
 			icon: {
 				Count: 1b
@@ -461,57 +438,57 @@
 			}]
 			tasks: [{
 				id: "67E3E308637297EF"
-				title: "*клик*"
+				title: "*click*"
 				type: "checkmark"
 			}]
-			title: "&#A39FE1Убей их всех!"
+			title: "&#A39FE1<shake>Kill them all!"
 			x: 3.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"Spectrum — Уникальный и сложный магический мод, это основной магический мод в нашем модпаке, &lобязательно&r прочтите пункты далее!"
+				"Spectrum — A unique and complex magic mod, this is the main magic mod in our modpack, be sure to read the items below"
 				""
 				"{@pagebreak}"
-				"В спектруме большинство предметов имеют &oне свою настоящую текстуру&r, до того момента пока вы не откроете необходимые &5ачивки&r для этого блока/предмета."
+				"In Spectrum, most items &odon't have their true texture&r until you unlock the necessary &5advancements&r for that block/item. "
 				""
 				"{@pagebreak}"
-				"В спектруме почти все завязано на &5ачивках&r. "
+				"In Spectrum, almost everything is tied to &5advancements&r.  "
 				""
 				"{@pagebreak}"
-				"Большинство крафтов в спектруме открываются так же по &5ачивкам&r, советую чаще смотреть в вкладку &5ачивок&r, для этого существуют облегчающие моды: Меню ачивок гораздо больше чем в обычном &2Minecraft&r, &nвы можете закреплять категории ачивок&r!"
+				"Most of the crafts in Spectrum are opened also by &5advancements,&r I advise you to look more often in the advancement tab, for this there are facilitating mods: Advancement menu is much larger than in normal &2Minecraft&r, &nyou can pin categories of advancements&r!"
 				""
 				"{@pagebreak}"
-				"Прогрессируя в моде &lSpectrum&r вы рано или поздно откроете новые механики от создателей модпака, например &9улучшенная рыбалка&r, а так же мод &4Bewitchment&r откроется в процессе развития &lSpectrum'a&r. Так же открыв &4Bewitchment&r вы сможете вызывать &cмини-боссов&r / &cбоссов&r и других враждебных мобов, с которых падает редкие предметы."
+				"Progressing in the &lSpectrum&r mod you will sooner or later open new mechanics from the modpack creators, such as &9improved fishing&r, as well as the &4Bewitchment&r mod will open while you are progressing in &lSpectrum&r. Also by opening &4Bewitchment&r you will be able to summon &cmini-bosses&r / &cbosses&r and other hostile mobs, from which you can get rare items."
 			]
 			icon: "spectrum:guidebook"
 			id: "2B8A8FD9423F5026"
 			subtitle: "&dMagic"
 			tasks: [{
 				id: "20958E0350B84B0F"
-				title: "*клик*"
+				title: "*click*"
 				type: "checkmark"
 			}]
-			title: "&#A39FE1Что-то на магическом"
+			title: "&#A39FE1Something on the magical"
 			x: -2.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"&6Монетки&r находятся когда вы обыскиваете сундуки в разнообразных данжах, так же они выпадают из &9рыбалки&r. "
+				"&6Coins&r are found when you search chests in various dungeons, as well as they fall out of &9fishing&r. "
 				""
-				"Количество &6монеток&r в сундуках зависит от редкости данжа!"
+				"The number of &6coins&r in chests depends on the rarity of the dungeons!"
 				""
-				"&6Монетки&r можно тратить на разные вещи в &eмагазине&r, так же &6монетки&r используются для телепортации на &5камнях путешествия&r!"
+				"&6Coins&r can be spent on different things in the &eshop&r, as well as &6coins&r are used for &5teleportation&r on the &5stones of travel&r!"
 				""
-				"Если держать &6монетки&r в руках и нажать ПКМ - они попадут в ваш &oкошелёк&r и буду хранится вместе с вами, после смерти вы не потеряете свои &6монетки&r, &oкошелёк&r находится справа сверху в вашем инвентаре!"
+				"If you hold the &6coins&r in your hands and press RMB - they will get into your &owallet&r and will be stored with you, the &owallet&r is on the top right in your inventory!"
 				""
-				"• &eМагазин&r можно найти во вкладке квестов или меню на «E»"
-				"&3Большинство предметов в магазине открываются к покупке после получения непосредственного предмета, который вы хотите купить.&r"
+				"• &eShop&r can be found in the quest tab or «E» menu"
+				"&3Most&r items in the store open up for purchase after getting the direct item you want to buy.&r"
 				""
-				"• &5Камни путешествий&r откроются в процессе развития &5магии&r!"
+				"• &5Travel Stones&r will unlock as you progress through &5magic&r!"
 			]
 			icon: {
 				Count: 1b
@@ -543,50 +520,22 @@
 				team_reward: false
 				type: "item"
 			}]
-			subtitle: "Быть может стоит открыть свой бизнес?"
+			subtitle: "Maybe I should start my own business."
 			tasks: [{
 				id: "3B487765FC6B2782"
-				title: "*клик*"
+				title: "*click*"
 				type: "checkmark"
 			}]
-			title: "&#A39FE1Деньжата "
+			title: "&#A39FE1Coins"
 			x: -1.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"Вы возможно заметили небольшой &oинтерфейс&r справа снизу — этот инструмент поможет вам ориентироваться в том, какая сейчас &7фаза луны&r."
+				"Every chest in the world exists as a &elootr&r chest, meaning that this chest can be looted by &levery&r player on the world."
 				""
-				"В сборке присутствуют крафты завязанные на том, какая сейчас &7фаза луны&r, иногда нужно скрафтить что-то в &8полнолунию&r или в &7новолунию&r."
-				""
-				"Данный инструмент показывает &3%&rзаполненности &7луны&r и её статус, луна восходит или же луна заходит, стрелочка соответственно это показывает."
-			]
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "ad_astra:textures/painting/moon.png"
-				}
-			}
-			id: "3349964C5FE3F4D7"
-			tasks: [{
-				id: "73C28D559148DBB0"
-				title: "*клик*"
-				type: "checkmark"
-			}]
-			title: "&#A39FE1Луна это важно"
-			x: -3.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["19D35B010B678675"]
-			description: [
-				"Каждый сундук в мире существует как &elootr&r сундук, это значит что этот сундук сможет обчистить &lкаждый&r игрок на сервере."
-				""
-				"&eLootr&r сундуки &oможно открывать&r даже в привате!"
-				""
-				"Лут в сундуках обновляется раз в сутки!"
+				"Loot in chests is updated once a day!"
 			]
 			icon: {
 				Count: 1b
@@ -596,26 +545,25 @@
 				}
 			}
 			id: "6D88A3D835DFAD91"
-			subtitle: "Открой их все!"
 			tasks: [{
 				id: "402FE86AA33BD884"
-				title: "*клик*"
+				title: "*click*"
 				type: "checkmark"
 			}]
-			title: "&#A39FE1Кто откроет их больше?"
+			title: "&#A39FE1Who will open more of them?"
 			x: -3.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"&lБольшинство&r руды спавнится не так, как вы привыкли. "
+				"&lMost&r ore spawns differently than you are used to. "
 				""
-				"на поверхности мира спавнятся небольшие &eосколочки руды&r, говорящие о том, какие есть руды под ними. "
+				"&esmall fragments of ore&r will spawn on the surface of the world, telling you what ores there are underneath. "
 				""
-				"В каждой такой жиле может быть какая-то &lвторостепенная руда&r, которая так же может вам понадобиться."
+				"In each such vein there may be some &lsecondary ore&r that you may also need."
 				""
-				"&dМагическая&r руда жилами же уже не спавнится, это сделано чтобы вы могли путешествовать по пещерам и находить данжи которые вам так же очень сильно понадобятся в &dмагии&r!"
+				"&dMagical ore veins&r do not spawn, this is done so that you can travel through the caves and find dungeons that you will also very much need in &dmagic&r!"
 			]
 			icon: {
 				Count: 1b
@@ -639,10 +587,10 @@
 			}]
 			tasks: [{
 				id: "5C1690B584723546"
-				title: "*клик*"
+				title: "*click*"
 				type: "checkmark"
 			}]
-			title: "&#A39FE1Стучи молоточек - стучи"
+			title: "&#A39FE1Tap the hammer"
 			x: -3.0d
 			y: 5.0d
 		}
@@ -665,19 +613,19 @@
 			id: "52F5B721E8857F17"
 			tasks: [{
 				id: "2E81B0CF62FB5711"
-				title: "*клик*"
+				title: "*click*"
 				type: "checkmark"
 			}]
-			title: "&#A39FE1Ищи их всех"
+			title: "&#A39FE1Look for them all"
 			x: -2.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"Поход в &dэнд&r в сборке изменен, вам &nнеобходимо&r искать разнообразные глаза и уже с их помощью искать &eданж&r где спавнится &dпортал!&r"
+				"The journey to the &dend&r dimension was changed, now you must find different kind of ender eyes scattered around the world in order to find the &estronghold&r and complete the &dportal frame&r"
 				""
-				"Так же вам нужно &l&e12 уникальных глаз&r&r, которые можно найти лутая &oразнообразные структуры&r, создавая или &9вылавливая боссов из рыбалки&r!"
+				"You also need &l&e12 unique eyes&r&r, which can be found by looting a &ovariety of structures&r, creating or &9from fishing bosses&r!"
 			]
 			icon: "endrem:cursed_eye"
 			id: "5EDC284E6B612F40"
@@ -687,42 +635,41 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "О, а это моё любимое!"
 			tasks: [{
 				id: "5E08144FE01BADD7"
-				title: "*клик*"
+				title: "*click*"
 				type: "checkmark"
 			}]
-			title: "&#A39FE1Ооо да, путешествуй!!!"
+			title: "&#A39FE1Eyes?"
 			x: 3.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"Всегда хотелось стать ростом в один блок, не так ли? "
+				"Always wanted to become one block tall, didn't you? "
 				""
-				"Crawl  - позволяет ползать, необходимо назначить на кнопку чтобы начать ползать в один блок."
+				"Crawl - allows you to crawl, you need to assign to a button to start crawling in one block."
 				""
-				"По умолчанию кнопка «&3C&r» "
+				"The default button is «&3C&r». "
 			]
 			icon: "minecraft:coarse_dirt"
 			id: "18E59C89C91A0A4D"
 			tasks: [{
 				id: "4EF60BD55130F450"
-				title: "*клик*"
+				title: "*click*"
 				type: "checkmark"
 			}]
-			title: "&#A39FE1Ползи змейка - ползи"
+			title: "&#A39FE1Crawl like a snake"
 			x: 2.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"Сбор урожая достаточно &oскучен&r, если вам приходится ломать и ставить урожай обратно."
+				"Harvesting is &oboring&r enough if you have to break and plant the crop back out."
 				""
-				"На помощь приходит &3мотыга&r, один её взмах соберёт все необходимые вам &aкультуры&r!"
+				"The &3hoe&r comes to the rescue, one swing of the hoe will harvest all the &acrops&r you need!"
 			]
 			icon: {
 				Count: 1b
@@ -745,12 +692,83 @@
 			}]
 			tasks: [{
 				id: "78D49AA6A13C6BE6"
-				title: "*клик*"
+				title: "*click*"
 				type: "checkmark"
 			}]
-			title: "&#A39FE1Собери их все!"
+			title: "&#A39FE1Gather them all!"
 			x: 2.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["19D35B010B678675"]
+			description: [
+				"Using an &8anvil&r, a &6Reforge Rune&r, and the &3resource&r your item is made of — will allow you to &oreforge&r that item!"
+				""
+				"This will &lenhance&r your item or conversely, &ldegrade&r it!"
+				""
+				"&6Reforge Rune&r can be finded in different &4dungeons&r."
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+					Tiered: {
+						Tier: "tiered:epic_armor_1"
+					}
+					durable: 0.2d
+				}
+			}
+			id: "18FDA9DDDAE66C4D"
+			rewards: [{
+				id: "04E91E88B00E6DBC"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_chestplate"
+					tag: {
+						Damage: 0
+						Tiered: {
+							Tier: "tiered:epic_armor_1"
+						}
+						durable: 0.2d
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "*Bonk*"
+			tasks: [{
+				id: "0FAA0C8EBD2899EA"
+				title: "*click*"
+				type: "checkmark"
+			}]
+			title: "&#A39FE1Reforge"
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["19D35B010B678675"]
+			description: ["In our modpack a lot of different dungeons that are interesting to explore, do not hesitate to destroy them, because somewhere may be hidden precious loot!"]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:icons/map"
+				}
+			}
+			id: "6E487831F5FFC3FB"
+			rewards: [{
+				id: "45E1FAF511A68201"
+				item: "kubejs:food_lootbag_rare"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62B1DCA6E315A0E5"
+				title: "*click*"
+				type: "checkmark"
+			}]
+			title: "&#A39FE1Traveling"
+			x: 0.0d
+			y: 8.0d
 		}
 	]
 	title: "&7Introduction"
