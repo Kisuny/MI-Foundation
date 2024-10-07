@@ -597,11 +597,11 @@
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"Наводя на предмет в своём инвентаре и нажимая на русскую «&3Н&r» или же английскую «&3Y&r» Вы сможете найти где лежит такой же предмет у вас в сундуках, вам подсветят все сундуки где есть этот предмет.  "
+				"By hovering over an item in your inventory and pressing «&3Y&r» you will be able to find where the same item is in your chests, all chests with that item will be highlighted.  "
 				""
-				"Так же можно нажимать на &3кнопку поиска&r наведя на предметы из &6REI&r."
+				"You can also click on the &3search button&r by hovering over items from &6REI&r."
 				""
-				"P.S. Когда вокруг вас становится &l&3слишком много&r&r сундуков и подобных им хранилищ — мод &cперестаёт работать&r в угоду производительности Minecraft'a!"
+				"P.S. When around you become &l&3too many chests&r&r and similar storage - the mod &cstops working&r in favor of performance Minecraft'a!"
 			]
 			icon: {
 				Count: 1b
