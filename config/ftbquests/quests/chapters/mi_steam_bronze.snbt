@@ -72,7 +72,7 @@
 				item: "modern_industrialization:bronze_dust"
 				type: "item"
 			}]
-			title: "первая бронза"
+			title: "First Bronze"
 			x: -10.0d
 			y: 3.5d
 		}
@@ -112,7 +112,7 @@
 					type: "item"
 				}
 			]
-			title: "Бронзовые приколы"
+			title: "Bronze parts"
 			x: -13.0d
 			y: 3.5d
 		}
@@ -2282,34 +2282,6 @@
 			}]
 			x: -5.5d
 			y: 7.0d
-		}
-		{
-			dependencies: ["663BB2D450652922"]
-			description: ["Верстак, что сохраняет предметы в сетке крафта"]
-			id: "14C1319ABECBD4C6"
-			rewards: [
-				{
-					id: "02A75BAF5F45A89B"
-					item: "kubejs:early_lootbag_epic"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "72A6F8B8F48CD57D"
-					item: "modern_industrialization:steel_ingot"
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			size: 0.9d
-			tasks: [{
-				id: "41F4BA5B692861F1"
-				item: "neepmeat:workstation"
-				type: "item"
-			}]
-			x: -3.5d
-			y: -2.5d
 		}
 		{
 			dependencies: ["663BB2D450652922"]
