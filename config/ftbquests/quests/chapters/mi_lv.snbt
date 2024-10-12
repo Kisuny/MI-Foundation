@@ -1219,18 +1219,16 @@
 				title: "Any #wiredredstone:insulated_wires"
 				type: "item"
 			}]
-			title: "Изоляяяция."
+			title: "Insulation"
 			x: 14.0d
 			y: 8.5d
 		}
 		{
 			dependencies: ["2967C78F538C5ECD"]
 			description: [
-				"Позволяет передавать редстоун сигнал в зависимости от цвета редстоун проводки которая к нему подключена. Например: "
-				"- зелёный и красный редстоун кабель подключён к смешаному кабелю в точке \"А\""
-				"- ведём смешаный кабель из точки \"А\" в точку \"В\" "
-				"- подключаем к ней зелёный и красный кабель соответственно "
-				"- теперь сигналы будут независимо передаваться по красному и зелёному кабелю "
+				"Bundled cable serve as a way to build more compact redstone wire systems. And works as follows: "
+				""
+				"The *color1* wire and *color2* wire attached to the bundled cables from two side of a system. Then if we apply signal to *color1* wire, only wire with the same color will output the signal."
 			]
 			id: "64A7F758A7CD9EB6"
 			rewards: [
@@ -1259,7 +1257,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Экономия места"
+			subtitle: "Fibre Bundle"
 			tasks: [{
 				id: "2EC7B51456323139"
 				item: "wiredredstone:bundled_cable"
