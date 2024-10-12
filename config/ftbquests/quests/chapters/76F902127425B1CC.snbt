@@ -17,9 +17,9 @@
 		{
 			dependencies: ["0314A659046D38A0"]
 			description: [
-				"Можно найти в закопанных кладах, которые можно найти картой сокровищ"
+				"Found in Buried Chests"
 				""
-				"Так же данный глаз можно выбить при рыбной ловле существ."
+				"This eye can also be obtained by fishing for creatures."
 			]
 			id: "3563710E363ABA24"
 			rewards: [
@@ -55,11 +55,7 @@
 		}
 		{
 			dependencies: ["0314A659046D38A0"]
-			description: [
-				"Данный глаз можно найти в зимних данжах."
-				""
-				"Чаще всего в иглу."
-			]
+			description: ["Found in Igloos and some new winter dungeons"]
 			id: "07838886FF1C1A59"
 			rewards: [
 				{
@@ -95,9 +91,9 @@
 		{
 			dependencies: ["0314A659046D38A0"]
 			description: [
-				"Данный глаз можно найти в аутпостах илледжеров."
+				"Found in Pillager Outposts"
 				""
-				"Так же данный глаз можно выбить при рыбной ловле существ."
+				"This eye can also be obtained by fishing for creatures."
 			]
 			id: "3B4BF7FDDF51F09E"
 			rewards: [
@@ -134,9 +130,9 @@
 		{
 			dependencies: ["0314A659046D38A0"]
 			description: [
-				"Данный глаз можно найти в заброшенных шахтах."
+				"Found in Mineshafts"
 				""
-				"Так же данный глаз можно выбить при рыбной ловле существ."
+				"This eye can also be obtained by fishing for creatures."
 			]
 			id: "37029AB518763CA9"
 			rewards: [
@@ -173,9 +169,9 @@
 		{
 			dependencies: ["0314A659046D38A0"]
 			description: [
-				"Данный глаз можно найти в адской крепости."
+				"Found in Nether Fortresses"
 				""
-				"Так же данный глаз можно выбить при рыбной ловле существ."
+				"This eye can also be obtained by fishing for creatures."
 			]
 			id: "299E99F22D5A9E72"
 			rewards: [
@@ -211,7 +207,7 @@
 		}
 		{
 			dependencies: ["0314A659046D38A0"]
-			description: ["Данный глаз можно найти в пустынной пирамиде "]
+			description: ["Found in Desert Pyramids"]
 			id: "28F2F45DAA269220"
 			rewards: [
 				{
@@ -246,7 +242,7 @@
 		}
 		{
 			dependencies: ["0314A659046D38A0"]
-			description: ["Данный глаз можно найти в джунглиевых данжах."]
+			description: ["Found in Jungle Pyramids"]
 			id: "1E58F39FF66470BC"
 			rewards: [
 				{
@@ -282,9 +278,9 @@
 		{
 			dependencies: ["0314A659046D38A0"]
 			description: [
-				"Данный глаз можно найти в бастионах пиглинов."
+				"Found in Bastions treasure chest"
 				""
-				"Так же данный глаз можно выбить при рыбной ловле существ. "
+				"This eye can also be obtained by fishing for creatures."
 			]
 			id: "7B39074320944141"
 			rewards: [
@@ -321,9 +317,9 @@
 		{
 			dependencies: ["0314A659046D38A0"]
 			description: [
-				"Данный глаз можно найти в деревнях."
+				"Buy it from a master cleric "
 				""
-				"Так же данный глаз можно выбить при рыбной ловле существ."
+				"This eye can also be obtained by fishing for creatures."
 			]
 			id: "06260AD0C488B076"
 			rewards: [
@@ -359,7 +355,7 @@
 		}
 		{
 			dependencies: ["0314A659046D38A0"]
-			description: ["Так же данный глаз можно выбить при рыбной ловле существ."]
+			description: ["Get it by Killing Elder Guardian"]
 			id: "77B59682D528B93E"
 			rewards: [
 				{
@@ -395,9 +391,9 @@
 		{
 			dependencies: ["0314A659046D38A0"]
 			description: [
-				"Данный глаз можно получить убив &oЗаклинателя&r."
+				"Dropped by &dEvokers&r"
 				""
-				"Так же данный глаз можно выбить при рыбной ловле существ."
+				"This eye can also be obtained by fishing for creatures."
 			]
 			id: "551DF9EBF88C3AAB"
 			rewards: [
@@ -433,7 +429,7 @@
 		}
 		{
 			dependencies: ["0314A659046D38A0"]
-			description: ["Данный глаз выпадает при убийстве босса-иссушителя."]
+			description: ["Dropped by The Wither"]
 			id: "1BE3A2492A82205F"
 			rewards: [
 				{
@@ -469,9 +465,9 @@
 		{
 			dependencies: ["0314A659046D38A0"]
 			description: [
-				"Можно создать при помощи глаза ведьмы, который можно выбить из ведьмы."
+				"Craft it using the witch pupil"
 				""
-				"Так же глаз ведьмы можно выбить при рыбной ловле существ."
+				"This eye can also be obtained by fishing for creatures."
 			]
 			id: "4CF8484EAFAE81FB"
 			rewards: [
@@ -508,9 +504,9 @@
 		{
 			dependencies: ["0314A659046D38A0"]
 			description: [
-				"Данный глаз можно создать из души нежети, душу можно выбить из костянной лошади."
+				"Craft it using an Undead Soul"
 				""
-				"Так же данную душу можно выбить при рыбной ловле существ."
+				"Unded soul can be obtained by fishing for creatures or you can get it by killing a skeleton horse."
 			]
 			id: "7801E22896BA97EF"
 			rewards: [
@@ -547,9 +543,9 @@
 		{
 			dependencies: ["0314A659046D38A0"]
 			description: [
-				"Данный глаз можно скрафтить."
+				"Craft it using aquatic items"
 				""
-				"Так же выбить при рыбной ловле существ."
+				"This eye can also be obtained by fishing for creatures."
 			]
 			id: "6A0A4BFC106CA929"
 			rewards: [
@@ -585,7 +581,7 @@
 		}
 		{
 			dependencies: ["0314A659046D38A0"]
-			description: ["Данный глаз можно найти в деревнях."]
+			description: ["Get it from some villagers houses"]
 			id: "66304D9744D15DDB"
 			rewards: [
 				{
@@ -620,9 +616,9 @@
 		}
 		{
 			description: [
-				"В данном модпаке присутствует большое количество &eбезделушек&r и их улучшений, в разных проявлениях."
+				"This modpack contains a large number of &etrinkets&r and their improvements, in various manifestations."
 				""
-				"Занимаясь исследованиями разнообразных структур вам будут попадаться &5таинственные глаза&r/&6монетки&r/&eбезделушки&r. "
+				"As you explore the various structures you will come across &5mysterious eyes&r/&6coins&r/&etrinkets&r. "
 			]
 			hide: true
 			icon: {
@@ -638,17 +634,13 @@
 				id: "32918FC50A895399"
 				type: "checkmark"
 			}]
-			title: "Мид путешествия"
+			title: "Travel Center"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
-			description: [
-				"Артефакт можно получить с маленьким шансом во время рыбалки. "
-				""
-				"Так же можно выбить при ловле существ из жидкостей."
-			]
+			description: ["It has a chance to drop when fishing."]
 			id: "6746D433903770F4"
 			rewards: [
 				{
@@ -692,7 +684,7 @@
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
-			description: ["Артефакт можно получить при приручение питомцев."]
+			description: ["It has a chance to drop when taming animals."]
 			id: "471C10FF09C6854A"
 			rewards: [
 				{
@@ -727,7 +719,7 @@
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
-			description: ["Артефакт можно найти в деревнях "]
+			description: ["It has a chance to drop when trading."]
 			id: "55B58D9EF09440BF"
 			rewards: [
 				{
@@ -762,7 +754,7 @@
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
-			description: ["Артефакт можно получить с маленьким шансом после сна на кровати. "]
+			description: ["It has a chance to drop when waking up."]
 			id: "79B6561755FAF83D"
 			rewards: [
 				{
@@ -797,7 +789,7 @@
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
-			description: ["Артефакт можно получить при разведение разнообразных животных."]
+			description: ["It has a chance to drop when breeding animals."]
 			id: "7CB6E6CE8E95E5EA"
 			rewards: [
 				{
@@ -832,7 +824,7 @@
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
-			description: ["Артефакт можно получить с маленьким шансом во время копания руды/породы."]
+			description: ["It has a chance to drop when mining."]
 			id: "7BA1D729E528C7F1"
 			rewards: [
 				{
@@ -867,11 +859,7 @@
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
-			description: [
-				"Артефакт можно получить с маленьким шансом когда убиваешь рыбу. "
-				""
-				"Так же можно выбить при ловле существ из жидкостей."
-			]
+			description: ["It has a chance to drop when killing fishes directly."]
 			id: "3D62980B5B1EDC48"
 			rewards: [
 				{
@@ -906,7 +894,7 @@
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
-			description: ["Артефакт можно получить при исследование сундуков ниже 50 высоты."]
+			description: ["It has a chance to spawn in any chest underground (y coordinate must be below 50)."]
 			id: "3904A9738098F06D"
 			rewards: [
 				{
@@ -941,7 +929,7 @@
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
-			description: ["Артефакт можно получить с маленьким шансом после варки зелий."]
+			description: ["It has a chance to drop when brewing potions."]
 			id: "6B533E99E0D3BE44"
 			rewards: [
 				{
@@ -976,7 +964,11 @@
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
-			description: ["Артефакт можно получить из закопанного сундука сокровищ или в сундуках в океане под водой. "]
+			description: [
+				"It has a chance to spawn in any chest underwater."
+				""
+				"It has a chance to spawn in buried treasure."
+			]
 			id: "3A2283BEB13DAB72"
 			rewards: [
 				{
@@ -1011,7 +1003,10 @@
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
-			description: ["Маленький шанс при сборе любых культур, и чуть больше шанс при сборе картошки. "]
+			description: [
+				"It has a chance to drop when harvesting crops"
+				"or 0.5% when harvesting potatoes."
+			]
 			id: "65BCC5367E7D38A3"
 			rewards: [
 				{
@@ -1036,7 +1031,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Беларусам приготовиться  "
+			subtitle: "Belarusians get ready  "
 			tasks: [{
 				id: "23AAD0AE43D89FCA"
 				item: "majruszsaccessories:tamed_potato_beetle"
@@ -1047,7 +1042,7 @@
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
-			description: ["Артефакт можно получить при разрушение инструмента/брони. За каждое очко прочности шанс увеличивается."]
+			description: ["It has drop chance for every durability point when the object is destroyed."]
 			id: "79F4E72A28BBEF77"
 			rewards: [
 				{
@@ -1082,11 +1077,7 @@
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
-			description: [
-				"Артефакт можно получить с маленьким шансом во время рыбалки и при убийстве рыбы. "
-				""
-				"Так же можно выбить при ловле существ из жидкостей."
-			]
+			description: ["It has a chance to drop when fishing and it has a chance to drop when killing fishes directly."]
 			id: "60B6FA5A4304FE0B"
 			rewards: [
 				{
@@ -1122,9 +1113,10 @@
 		{
 			dependencies: ["69F1CC5EF5C7C0B9"]
 			description: [
-				"Так же кубик можно выбить из &oСтража&r в океане."
+				"Random drop in Nether."
+				"It has a 5% drop chance from Guardian."
 				""
-				"Данный уселитель можно улучшить в &#F5BD02золотой."
+				"This booster can be improved in &#F5BD02Gold&r type"
 			]
 			id: "1490E69D62D8F7F1"
 			rewards: [
@@ -1161,9 +1153,10 @@
 		{
 			dependencies: ["69F1CC5EF5C7C0B9"]
 			description: [
-				"Так же подкову можно выбить из &oскелета наездника&r на костянной лошади."
+				"Random drop in Nether."
+				"It has a 33.4% drop chance from Skeleton Horseman."
 				""
-				"Данный уселитель можно улучшить в &#F5BD02золотой."
+				"This booster can be improved in &#F5BD02Gold&r type"
 			]
 			id: "7F5DF71CCC9C3FBC"
 			rewards: [
@@ -1199,7 +1192,10 @@
 		}
 		{
 			dependencies: ["69F1CC5EF5C7C0B9"]
-			description: ["Так же Оникс падает с 100% с &oВардена&r!"]
+			description: [
+				"Random drop in Nether."
+				"It has a 100% drop chance from Warden."
+			]
 			id: "09679C8515BC3620"
 			rewards: [
 				{
@@ -1234,7 +1230,10 @@
 		}
 		{
 			dependencies: ["69F1CC5EF5C7C0B9"]
-			description: ["Так же перо падает из &oтихони&r и &oвредины&r."]
+			description: [
+				"Random drop in Nether."
+				"It has a 10% drop chance from Vex."
+			]
 			id: "6EC6DAABA95B9AA8"
 			rewards: [
 				{
@@ -1269,7 +1268,7 @@
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
-			description: ["Артефакт можно получить с маленьким шансом из любого сундука."]
+			description: ["It has a chance to spawn in any chest."]
 			id: "0D72E2120CE45B7E"
 			rewards: [
 				{
@@ -1316,7 +1315,7 @@
 				"3A2283BEB13DAB72"
 				"0D72E2120CE45B7E"
 			]
-			description: ["Руну можно создать объединив все артефакты которые были необходимы для открытия этого квеста в столе создания."]
+			description: ["The rune can be created by combining all the artifacts that were needed to open this quest in the crafting table."]
 			id: "08A2EC67FC3358B8"
 			rewards: [
 				{
@@ -1355,7 +1354,7 @@
 				"60B6FA5A4304FE0B"
 				"6746D433903770F4"
 			]
-			description: ["Руну можно создать объединив все артефакты которые были необходимы для открытия этого квеста в столе создания."]
+			description: ["The rune can be created by combining all the artifacts that were needed to open this quest in the crafting table."]
 			id: "43238B3BE22ACEDF"
 			rewards: [
 				{
@@ -1403,7 +1402,7 @@
 				"79B6561755FAF83D"
 				"6B533E99E0D3BE44"
 			]
-			description: ["Руну можно создать объединив все артефакты которые были необходимы для открытия этого квеста в столе создания."]
+			description: ["The rune can be created by combining all the artifacts that were needed to open this quest in the crafting table."]
 			id: "5BD14A8C761C973E"
 			rewards: [
 				{
@@ -1451,7 +1450,7 @@
 				"3904A9738098F06D"
 				"79F4E72A28BBEF77"
 			]
-			description: ["Руну можно создать объединив все артефакты которые были необходимы для открытия этого квеста в столе создания."]
+			description: ["The rune can be created by combining all the artifacts that were needed to open this quest in the crafting table."]
 			id: "106607A821EF9A15"
 			rewards: [
 				{
@@ -1490,7 +1489,7 @@
 				"7CB6E6CE8E95E5EA"
 				"471C10FF09C6854A"
 			]
-			description: ["Руну можно создать объединив все артефакты которые были необходимы для открытия этого квеста в столе создания."]
+			description: ["The rune can be created by combining all the artifacts that were needed to open this quest in the crafting table."]
 			id: "32CC2FECF8F7617D"
 			rewards: [
 				{
@@ -1540,7 +1539,7 @@
 				"08A2EC67FC3358B8"
 				"5BD14A8C761C973E"
 			]
-			description: ["Руну можно создать объединив все артефакты которые были необходимы для открытия этого квеста в столе создания, данный артефакт будет иметь все баффы от предыдущих артефактов."]
+			description: ["The rune can be created by combining all the artifacts that were necessary to open this quest in the creation table, this artifact will have all the buffs from previous artifacts."]
 			id: "5CFD737C32F777A3"
 			rewards: [
 				{
@@ -1584,7 +1583,7 @@
 		}
 		{
 			dependencies: ["4CF87A97D88C83E0"]
-			description: ["Карта позволяет перековать артефакт."]
+			description: ["The card allows you to re-forge an artifact."]
 			id: "27C6614103A24D5E"
 			rewards: [
 				{
@@ -1619,7 +1618,7 @@
 		}
 		{
 			dependencies: ["4CF87A97D88C83E0"]
-			description: ["Карта позволяет &oвернуть все уселители и сбросить эффективность&r."]
+			description: ["The card allows you to &oreturn all boosters and reset efficiency.&r"]
 			id: "77E657F23464B702"
 			rewards: [
 				{
@@ -1654,7 +1653,7 @@
 		}
 		{
 			dependencies: ["4CF87A97D88C83E0"]
-			description: ["Карта позволяет изменить бонус эффективности на противоположный."]
+			description: ["The card allows you to reverse your efficiency bonus."]
 			id: "5AC0FB07667212CE"
 			rewards: [
 				{
@@ -1689,7 +1688,7 @@
 		}
 		{
 			dependencies: ["3EC07E97251D3218"]
-			description: ["Данную страницу можно использовать в томе перемещения для быстрой телепортации."]
+			description: ["This page can be used in Displacement Tome for quick teleportation."]
 			id: "380EAAC3620C974F"
 			rewards: [
 				{
@@ -1719,7 +1718,7 @@
 		}
 		{
 			dependencies: ["3EC07E97251D3218"]
-			description: ["Данное зелье возвращает владелца на кровать, зелье используется."]
+			description: ["This potion returns the owner to the bed, the potion is used."]
 			id: "4F7BB4A1772B9A15"
 			rewards: [
 				{
@@ -2422,11 +2421,7 @@
 		}
 		{
 			dependencies: ["3EC07E97251D3218"]
-			description: [
-				"Ускоряют владельца так же могут быть улучшены."
-				""
-				"Данные носки улучшаются в спектруме, отобращающийся крафт в обычном верстаке - баг."
-			]
+			description: ["Accelerate the owner can also be improved."]
 			id: "5BABCB1A9BDD0569"
 			rewards: [
 				{
@@ -2518,7 +2513,7 @@
 		}
 		{
 			dependencies: ["3EC07E97251D3218"]
-			description: ["Когда артефакт надет - даёт регенерацию 2 и везение при употребление гнилого картофеля."]
+			description: ["When the artifact is worn, it grants regeneration 2 and luck when eating rotten potatoes."]
 			id: "42AA9CD4FC785CA8"
 			rewards: [
 				{
@@ -2549,9 +2544,10 @@
 		{
 			dependencies: ["68D1FA710C01D507"]
 			description: [
-				"Глаза можно найти путешествуя по миру, в разнообразных местах, будь то зимние биомы или пустыня, будь то редкие данжи пиглинов или злобный босс-иссушитель. "
+				"Eyes can be found traveling the world, in a variety of places, whether it's winter biomes or the desert, whether it's rare pyglin dungeons or a "
+				"vicious wither boss."
 				""
-				"&l&cНастоятельно рекомендуем&r&r подготовиться к бою с драконом, дракон в данной сборке был чрезвычайно усилен."
+				"&l&cWe strongly recommend&r&r preparing to fight a dragon, the dragon in this modpack has been extremely strengthened."
 			]
 			hide_dependency_lines: false
 			icon: "endrem:ancient_portal_frame"
@@ -2561,20 +2557,20 @@
 				id: "0A2AE7F62DE66D43"
 				type: "checkmark"
 			}]
-			title: "Эндер глаза"
+			title: "Ender eyes"
 			x: -4.5d
 			y: 3.5d
 		}
 		{
 			dependencies: ["68D1FA710C01D507"]
 			description: [
-				"&6&lMajruszs Accessories&r&r — Добавляет множество &oуникальных&r безделушек и эффективность к ним."
-				" "
-				"Чем больше эффективность безделушки — тем больше &cсила&r данной безделушки."
+				"&6&lMajruszs Accessories&r&r — Adds a lot of &ounique&r trinkets and efficiency to them."
 				""
-				"Большинство безделушек имеет &dуникальный&r способ получения, более подробно можно прочитать в квесте нужной безделушки. "
+				"The greater the efficiency of a trinket - the greater the &cpower&r of that trinket."
 				""
-				"Так же данный мод добавляет возможность &l&2объединять&r&r безделушки между собой чтобы сделать её более &cмощной&r, для этого необходимо выложить безделушки в крафте друг с другом."
+				"Most trinkets have a &ounique&r way of obtaining them, more details can be found in the quest of the trinket you need. "
+				""
+				"Also this mod adds the ability to &l&2combine&r&r trinkets with each other to make it more &cpowerful&r, to do this you need to stack trinkets in the craft with each other."
 			]
 			icon: {
 				Count: 1b
@@ -2596,9 +2592,9 @@
 		{
 			dependencies: ["68D1FA710C01D507"]
 			description: [
-				"Артефакты можно найти просто путешествуя по миру, ничего особенного."
+				"Artifacts can be found just by traveling the world, nothing special."
 				""
-				"Доступный список артефактов в обычном мире находится ниже, все остальные артефакты добываются путём рыбалки, более подробнее вы сможете узнать когда откроете вкладку квестов &3«Рыбалка»&r"
+				"The available list of artifacts in the normal world is below, all other artifacts are obtained by fishing, more details you can find out when you open the quest tab «&3Fishing&r»"
 			]
 			icon: "artifacts:mimic_spawn_egg"
 			id: "3EC07E97251D3218"
@@ -2614,12 +2610,11 @@
 		{
 			dependencies: ["553E6F83E4555C20"]
 			description: [
-				"&lУселители&r - это новый тип предмета, который позволяет добавлять дополнительные бонусы ко всем аксессуарам мода &eMajruszs Accessories&r. Одновременно можно применить &o1 бустер&r к &oодному аксессуару&r, однако более сильные аксессуары открывают 2-й и 3-й слот для бустеров. Эффекты от нескольких бустеров на разных аксессуарах могут суммироваться."
+				"&lBoosters&r - is a new type of item that allows you to add additional bonuses to all accessories of &eMajruszs Accessories&r mod. You can apply &o1 booster&r to &oone accessory&r at a time, but stronger accessories open up a 2nd and 3rd booster slot. The effects of multiple boosters on different accessories can add up."
 				""
-				"Уселители можно найти в аду при убийстве &o&lлюбых&r&r мобов. "
+				"Boosters can be found in Nether when killing &oany&r mobs. "
 				""
-				"Бустеры можно комбинировать с любым аксессуаром в Верстаке, например, рыбный трофей можно комбинировать с Игральными Костями."
-				""
+				"Boosters can be combined with any accessory in the Workbench, for example, a Fish Trophy can be combined with Dice."
 				""
 				"{image:quest_images:textures/item/boosting_accessory.png width:170 height:100 align:1}"
 			]
@@ -2634,7 +2629,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "72D626926ED04112"
-				title: "Бустеры!!!"
+				title: "Boosters!!!"
 				type: "checkmark"
 			}]
 			x: 1.5d
@@ -2643,9 +2638,9 @@
 		{
 			dependencies: ["553E6F83E4555C20"]
 			description: [
-				"Карты - это новый тип расходных материалов, позволяющих навсегда изменить аксессуары."
+				"Cards are a new type of consumable to change accessories forever."
 				""
-				"Карты можно получить исследуя мир или из существ при рыбной ловле. "
+				"Cards can be obtained by exploring the world or from creatures when fishing. "
 			]
 			icon: {
 				Count: 1b
@@ -2656,9 +2651,10 @@
 			}
 			id: "4CF87A97D88C83E0"
 			shape: "diamond"
+			subtitle: "Aw Dang It, Aw Dang It, Aw Dang It"
 			tasks: [{
 				id: "1D103FBFAF1C4E13"
-				title: "Азарт? Нет не слышал"
+				title: "Gambling? No, I haven't heard of it."
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -2666,7 +2662,7 @@
 		}
 		{
 			dependencies: ["68D1FA710C01D507"]
-			description: ["Найдите свой первый <shake>странный</shake> сундук!"]
+			description: ["Find your first <shake>weird</shake> chest!"]
 			id: "1EF8193BECA95331"
 			shape: "gear"
 			tasks: [{
@@ -2682,7 +2678,7 @@
 		}
 		{
 			dependencies: ["1EF8193BECA95331"]
-			description: ["Является компонентом для крафта"]
+			description: ["It is a component for crafting"]
 			hide: true
 			id: "7E0AD89FB624F4F8"
 			shape: "circle"
@@ -2697,7 +2693,7 @@
 		}
 		{
 			dependencies: ["1EF8193BECA95331"]
-			description: ["Является компонентом для крафта"]
+			description: ["It is a component for crafting"]
 			hide: true
 			id: "2EFEF55A15B34FE5"
 			shape: "circle"
@@ -2711,7 +2707,7 @@
 		}
 		{
 			dependencies: ["7E0AD89FB624F4F8"]
-			description: ["Является компонентом для крафта"]
+			description: ["It is a component for crafting"]
 			hide: true
 			id: "793B5816F67701FA"
 			shape: "circle"
@@ -2728,7 +2724,7 @@
 				"793B5816F67701FA"
 				"2EFEF55A15B34FE5"
 			]
-			description: ["Ключ приручения позволяет превратить сундук или злобного мимика в прирученного и хранить в нём предметы!"]
+			description: ["The Friendly key allows you to turn a chest or evil mimic into a tamed one and store items in it!"]
 			hide: true
 			id: "47EE8DBE6671207D"
 			shape: "pentagon"
@@ -2743,11 +2739,11 @@
 		{
 			dependencies: ["47EE8DBE6671207D"]
 			description: [
-				"Колокольчик позволяет управлять прирученным мимиком."
+				"The bell allows you to control the tame mimic."
 				""
-				"Вы можете отказаться от своего прирученного мимика, кликнув колокольчиком по друзе аметиста, после этого все ваши мимики будут ничьи, в течении 5 минут вы сможете снова их приручить без особых проблем, по истечению 5 минут мимик превратится в злобного мимика!"
+				"You can abandon your tamed mimic by clicking on the Budding amethyst with the bell, after that all your mimics will be a draw, within 5 minutes you can tame them again without any problems, after 5 minutes the mimic will turn into an evil mimic!"
 				""
-				"Один игрок может приручить всего 2х мимиков!"
+				"One player can only tame 2 mimics!"
 			]
 			hide: true
 			id: "1322C2CD6FC7699E"
@@ -2762,7 +2758,7 @@
 		}
 		{
 			dependencies: ["1EF8193BECA95331"]
-			description: ["Все золотые сундуки изначально закрыты, чтобы их открыть, нужно найти золотой ключик, и использовать его для открытия золотого сундука, золотой сундук хранит одни из самых вкусных предметов!"]
+			description: ["All the gold chests are initially locked, to open them you need to find the gold key, and use it to open the gold chest, the gold chest holds some of the most delicious items!"]
 			hide: true
 			id: "65845B4612A4C218"
 			shape: "pentagon"
