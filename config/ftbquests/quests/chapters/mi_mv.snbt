@@ -43,7 +43,6 @@
 					type: "item"
 				}
 			]
-			title: "Алюминий!"
 			x: -11.25d
 			y: 1.5d
 		}
@@ -99,7 +98,7 @@
 					type: "item"
 				}
 			]
-			title: "Алюминиевые детали"
+			title: "Aluminum parts"
 			x: -8.0d
 			y: 1.5d
 		}
@@ -244,7 +243,7 @@
 				"177C8ED1C4934331"
 				"3D1045C0C6B3BA08"
 			]
-			description: ["&6Морозильный аппарат&r, позволяет &9некоторые жидкости&r &6приводить&r в &8более твердый&r вариант"]
+			description: ["Is necessary to &bcool off&r some materials and fluids."]
 			id: "796BBB93DDF2F8D3"
 			rewards: [
 				{
@@ -276,7 +275,7 @@
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
-			description: ["&6Электролизер&r, &4позволяет получать&r новые ресурсы при помощи процесса &9электролиза&r"]
+			description: ["Allows to obtain certain chemical &4precursors&r"]
 			hide_dependent_lines: true
 			id: "128ECB644D303AF3"
 			rewards: [
@@ -301,7 +300,7 @@
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
-			description: ["&6Центрифуга&r, &4позволяет разделять&r различные ресурсы на другие"]
+			description: ["Basic material &4decomposition&r"]
 			id: "12829AE05244CA1B"
 			rewards: [
 				{
@@ -419,7 +418,7 @@
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
-			description: ["&6Перегонная установка&r, &4позволяет получать&r некоторые жидкости из других в процессе &0дистиляции&r"]
+			description: ["Basic means of &0distillation&r."]
 			id: "095D8F4F8A00FA99"
 			rewards: [
 				{
@@ -617,7 +616,7 @@
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
-			description: ["&6Электрических&r вариант печи для сплавов"]
+			description: ["&6Bulk&r alloy smelting"]
 			id: "7690F3B47E697F59"
 			rewards: [
 				{
@@ -686,9 +685,9 @@
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
 			description: [
-				"больше скорости копания, имеет мод \"шёлковое касание\" и \"удача 3\"."
-				"&aСкорость копания зависит от качества топлива"
-				"&4не умеет копать 3х3"
+				"&aMining speed is dependent on the fuel quality&r "
+				"Has two modes: \"silk touch\" and \"fortune 3\"."
+				"&4can't mine 3х3&r"
 			]
 			id: "20D91BDF17DB51A8"
 			rewards: [{
@@ -863,7 +862,7 @@
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
-			description: ["Химический реактор, позволяет получать новые различные промежуточные материалы и новые ресурсы в процессе химических реакций"]
+			description: ["The gateway to advanced chemistry."]
 			hide_dependent_lines: true
 			id: "7A113E343238A35D"
 			rewards: [
@@ -878,6 +877,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Alex it's time to cook!"
 			tasks: [{
 				id: "77AF471793FBDB6D"
 				item: "modern_industrialization:chemical_reactor"
@@ -888,7 +888,7 @@
 		}
 		{
 			dependencies: ["2262BEC14ED23163"]
-			description: ["&6Этот квест открывает новую ветку квестов!&r"]
+			description: [""]
 			id: "4B65A4FC336AEA50"
 			rewards: [
 				{
@@ -905,6 +905,7 @@
 			]
 			shape: "gear"
 			size: 1.5d
+			subtitle: "&#ffb04fThis quest opens a new quest chapter!&r"
 			tasks: [{
 				id: "35E8451EE430BE05"
 				item: "modern_industrialization:chromium_tiny_dust"
@@ -915,7 +916,7 @@
 		}
 		{
 			dependencies: ["36449FA11F79E8C6"]
-			description: ["&4Увеличивают&r максимальный разгон машинки, максимальный разгон &4зависит&r от цены базы крафта, базовый максимальный разгон указан обычно на полоске разгона в eu/t, &4все&r крафты что имеют большую базу требуют ускорителей &4даже&r для начала крафта."]
+			description: ["Upgrades &4increase&r the maximum overclock speed and recipe energy requirements. For some recipe it's &4necessary&r to put upgrades inside machine to start a recipe."]
 			id: "2497BFB0A45ABE61"
 			rewards: [{
 				count: 4
@@ -976,7 +977,7 @@
 				"3D1045C0C6B3BA08"
 				"566A7BC814D63078"
 			]
-			description: ["&6Нефтебуровая установка&r, &4позволяет добывать&r различные &4жидкости&r при помощи разных забурников"]
+			description: ["Allows to &6drill&r a different &4liquids&r depending on dimension and drill types."]
 			id: "5A9F94BC1B9EA1F0"
 			rewards: [
 				{
@@ -1018,7 +1019,7 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "Произведите резину с помощью вакуумного морозильного аппарата"
+			subtitle: "Make some rubber sheets in a vacuum freezer"
 			tasks: [{
 				id: "4AE8D0F4E1E6A58C"
 				type: "checkmark"
@@ -1148,6 +1149,7 @@
 		}
 		{
 			dependencies: ["181FAC8893771CD9"]
+			description: ["Basic rocket fuel."]
 			id: "56AF55D3C00B803A"
 			tasks: [{
 				id: "6BEEA57E9FFB1027"
@@ -1264,7 +1266,6 @@
 				}
 				type: "item"
 			}]
-			title: "Луноход"
 			x: -19.0d
 			y: 2.5d
 		}
@@ -1302,6 +1303,7 @@
 				}
 			]
 			size: 1.5d
+			subtitle: "Houston we have a problem here"
 			tasks: [
 				{
 					id: "46824E1174B4C5C1"
@@ -1320,7 +1322,6 @@
 					type: "item"
 				}
 			]
-			title: "Поехали!"
 			x: -13.995238095238108d
 			y: 4.56547619047619d
 		}
@@ -1329,7 +1330,7 @@
 				"32FF345AF0E87070"
 				"3D1045C0C6B3BA08"
 			]
-			description: ["вместо &9кислородного&r компрессора можно использовать бак с &9кислородом&r из &6modern industrialization&r"]
+			description: ["You can use either &9oxygen&r compressor or just RMB with &9oxygen&r tank on tank with &9oxygen&r.  "]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1b
@@ -1369,13 +1370,12 @@
 				}
 				type: "item"
 			}]
-			title: "запасы кислорода"
 			x: -12.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["58FD2F344DAA81A5"]
-			description: ["Необходим для выживания в открытом космосе и на первых планетах, для дыхания необходим кислород"]
+			description: ["Is necessary to survive the vas emptiness of space. To work properly it needs to be filled with oxygen."]
 			hide: false
 			icon: {
 				Count: 1b
@@ -1551,7 +1551,7 @@
 					type: "item"
 				}
 			]
-			title: "Космический скафандр"
+			title: "Space Suit"
 			x: -16.5d
 			y: 7.0d
 		}
@@ -1585,7 +1585,7 @@
 					type: "item"
 				}
 			]
-			title: "Лунные ископаемые"
+			title: "Lunar fossils"
 			x: -19.0d
 			y: 4.5d
 		}
@@ -1628,13 +1628,13 @@
 				id: "2BE087E59236E20C"
 				type: "biome"
 			}]
-			title: "Прилунение"
+			title: "One small step for man"
 			x: -16.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["2811E35BEF5437E3"]
-			description: ["При последующий улучшениях забурников открывается один из вариантов добычи базовых цветов из ботании"]
+			description: [""]
 			id: "106EBD7AD0B938E1"
 			rewards: [
 				{
@@ -1651,6 +1651,7 @@
 				}
 			]
 			shape: "rsquare"
+			subtitle: "Botania???"
 			tasks: [{
 				id: "41968360B3C0C46A"
 				item: "modern_industrialization:desh_drill"
@@ -1708,7 +1709,7 @@
 				"0E3F551B750AB84A"
 				"004209D0C8DC9348"
 			]
-			description: ["Кабель для &9МЭ&r системы, проводит &432&r канала, функциональных блоков шин из AE2 занимают один канал"]
+			description: ["Basic &9ME&r cable, has &432&r channels."]
 			id: "36739063C2FB8639"
 			rewards: [
 				{
@@ -1761,7 +1762,7 @@
 		}
 		{
 			dependencies: ["597070AC15C6CF1E"]
-			description: ["&9МЭ&r накопитель, положив в него &4ячейки хранения&r вы &4увеличите&r возможный лимит &9МЭ&r системы на хранение вещей. &4Каждый&r предмет занимает &4тип&r, &4если&r не был в &9МЭ&r системе &4ранее&r и &4байты&r"]
+			description: ["&9ME&r drive is used to store storage cards. Every item takes 1 &4type&r if it was not present in ME system and 1 &4byte&r. "]
 			id: "3963D7F954AC6EC0"
 			rewards: [
 				{
@@ -1801,7 +1802,7 @@
 		}
 		{
 			dependencies: ["36739063C2FB8639"]
-			description: ["&4Основной блок&r &9МЭ&r системы, &4все&r кабели должны приходить к данному блоку. &4Могут&r быть соединены последовательно. &4Максимальный размер&r структуры &47х7х7.&r Имеет &4лимит&r в &9128&r каналов на сторону"]
+			description: ["&4Main component&r of &9ME&r system, provides channels ot a cable. Controllers must be joined in order to create a bigger controller. Can provide &9128&r channels on one side. Has a maximal size of &47x7x7&r."]
 			id: "5F08D82308DA853F"
 			rewards: [
 				{
@@ -1825,7 +1826,7 @@
 		}
 		{
 			dependencies: ["597070AC15C6CF1E"]
-			description: ["&9МЭ&r сундук, &4мини&r &9МЭ&r система, для функционала нужна &9МЭ&r &4ячейка&r и &6энергия&r"]
+			description: ["&9ME&r chest has only &4one&r slot for storage card but have interface to access its contents. Needs &9ME&r energy to work."]
 			id: "06385AE5E0FE038A"
 			rewards: [
 				{
@@ -1875,7 +1876,7 @@
 		}
 		{
 			dependencies: ["004209D0C8DC9348"]
-			description: ["Высекатель, позволяет делать процессоры из AE2 и некоторые другие ресурсы"]
+			description: ["Allows to craft AE2 processors."]
 			id: "7C094A056ED01F7B"
 			rewards: [
 				{
@@ -1907,7 +1908,7 @@
 		}
 		{
 			dependencies: ["004209D0C8DC9348"]
-			description: ["Ускоритель роста кристаллов, для получения истинного кварца необходимо выращивать их на безупречных цветущих блоках истинного кварца, окружив такой блок четырьмя ускорителями роста вокруг и подключив их к МЭ сети, кристаллы на блоках кварца будут расти быстрее"]
+			description: ["Improves the crystal growing speed on the block placed to the side of accelerator. Moreover it works with amethyst buds and &dSpectrum&r gemstones. Need AE2 energy to work."]
 			id: "27CB399EA2E30582"
 			rewards: [{
 				id: "3034AE4D8922A07F"
@@ -1924,7 +1925,7 @@
 		}
 		{
 			dependencies: ["004209D0C8DC9348"]
-			description: ["Зарядник, необходим для зарядки истинного кварца"]
+			description: ["Basic mean of quartz charging."]
 			id: "43DBB5ABDDA13B56"
 			rewards: [{
 				count: 8
@@ -1988,7 +1989,7 @@
 					type: "item"
 				}
 			]
-			title: "Шаблоны высечения"
+			title: "Inscriber presses"
 			x: -18.5d
 			y: 6.0d
 		}
@@ -2038,7 +2039,7 @@
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
-			description: ["&6Электрическая теплица&r, однако она способна на выращивание &4только простых&r культур."]
+			description: ["Basic automation of &2agriculture&r."]
 			id: "71F97A656D41785D"
 			rewards: [
 				{
@@ -2070,16 +2071,14 @@
 				item: "modern_industrialization:electric_greenhouse"
 				type: "item"
 			}]
-			title: "Теплица"
 			x: -2.25d
 			y: -2.25d
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
 			description: [
-				"&6Водная ферма&r, &4позволяет размножать&r водных существ, но процесс всё-таки не быстрый."
-				""
-				"&9Вода&r внутри мультиблока &4обязательна&r"
+				"Allows to automate &4farming&r of sea creature."
+				"It &4must&r be filled with &9water&r in order to work."
 			]
 			id: "304390FAC4C159B0"
 			rewards: [
@@ -2112,7 +2111,6 @@
 				item: "modern_industrialization:sea_farm"
 				type: "item"
 			}]
-			title: "Водная ферма"
 			x: -0.75d
 			y: -2.25d
 		}
@@ -2152,7 +2150,7 @@
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
-			description: ["Мозг базовой логической системы труб из NeepMeat. Необходим для работы драйверов хранения и ручных запросчиков."]
+			description: ["Brain of NEEPMeat pipe system. Needed for pipe drivers and manual requesters."]
 			id: "05E7324B1FC9421F"
 			rewards: [
 				{
@@ -2172,6 +2170,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Pied Piper"
 			tasks: [{
 				id: "0BEE5B4F6CA43280"
 				item: "neepmeat:pipe_driver"
@@ -2183,9 +2182,8 @@
 		{
 			dependencies: ["05E7324B1FC9421F"]
 			description: [
-				"Запрашивает предметы в прилегающие блоки "
-				"Упрощённая система заказа предметов и формирования логистической сети."
-				"Поставьте драйвер хранения к хранилищу из которого будут запрашиваться предметы и присоедините трубный драйвер к сети труб. Теперь в нужном месте подсоедините ручной запросчик. "
+				"Storage driver makes connected inventory visible to a NEEPMeat logistics system."
+				"Manual requester requests a picked item on demand."
 			]
 			id: "29BACBBC96847851"
 			rewards: [{
@@ -2193,6 +2191,7 @@
 				item: "modern_industrialization:electronic_circuit"
 				type: "item"
 			}]
+			subtitle: "Logistics Pipes"
 			tasks: [
 				{
 					id: "7BF5470EE3F9C873"
@@ -2250,15 +2249,16 @@
 				"5F08D82308DA853F"
 				"4B5A35FB7FEE1E6B"
 			]
-			description: ["&6Этот квест открывает новую ветку квестов!&r"]
+			description: [""]
 			hide: true
 			id: "46B678C8DDB9B181"
+			subtitle: "&#ffb04fThis quest opens a new quest chapter!&r"
 			tasks: [{
 				id: "0D93CF1579DDA1FA"
 				title: "Возможно ли хранить ману на дисках?"
 				type: "checkmark"
 			}]
-			title: "Возможно ли хранить ману в сети?"
+			title: "Can i store mana inside the ME network?"
 			x: -23.5d
 			y: 11.0d
 		}
@@ -2298,7 +2298,7 @@
 		}
 		{
 			dependencies: ["4752F7EF9DDD878F"]
-			description: ["&4Переносная&r ячейка, имеет &4меньше байтов и типов&r по сравнению с обычной ячейкой. Для работы необходима &6энергия&r"]
+			description: ["Allows to have a \"&9ME&r backpack\" inside your inventory. Has less types and bytes. Need to be charged to work."]
 			id: "43F4508F28653E9E"
 			rewards: [
 				{
@@ -2332,7 +2332,7 @@
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
-			description: ["&aСкорость копания зависит от качества топлива"]
+			description: ["&aMining speed is dependent on the fuel quality&r"]
 			id: "68419C94D2BBEF0A"
 			rewards: [{
 				id: "1D4423DFD1CC0EA8"
@@ -2363,7 +2363,7 @@
 		}
 		{
 			dependencies: ["0A89D032093A2712"]
-			description: ["&4Необходим&r для выращивания &fкристаллов,&r из данного блока возможно сделать &eболее лучшие&r безупречные блоки цветущего кварца"]
+			description: ["Every &bgrowth iteration&r may lower the quality of budding block. Budding block can be &2recovered&r to a certain quality."]
 			id: "522BCE6B5700CCB5"
 			tasks: [{
 				id: "7A98801B97EEF3C3"
@@ -2375,7 +2375,7 @@
 		}
 		{
 			dependencies: ["4752F7EF9DDD878F"]
-			description: ["&6Хранилище создания&r, &4каждый&r крафт занимает определенное количество байт, для более длинных или крафтов в большем количестве нужно &4больше байтов&r"]
+			description: ["Is needed for auto crafting, every crafting recipe take some ammount of bytes. Longer craft chains takes &4more&r memory."]
 			id: "65E4162BCF764475"
 			tasks: [{
 				id: "3B5DEDBD8B5EDF1F"
@@ -2387,7 +2387,7 @@
 		}
 		{
 			dependencies: ["4752F7EF9DDD878F"]
-			description: ["&6Блок обработки создания&r, базово &9МЭ&r система крафтит &41&r предмет &4за раз&r, &4каждый&r блок обработки создания добавляет &41&r параллельный крафт на &4текущем&r блоке процессоров"]
+			description: ["By default &9ME&r system crafts &41&r item &4at once&r, &4every&r co-processing unit adds &41&r parallel craft for &4current&r crafting processor block."]
 			id: "465033EF352E276A"
 			tasks: [{
 				id: "6F25792900A07E1F"
@@ -2439,7 +2439,7 @@
 		}
 		{
 			dependencies: ["1F9C854252F7DAAF"]
-			description: ["&6Этот квест открывает новую ветку квестов!&r"]
+			description: [""]
 			id: "3E138862E596075D"
 			rewards: [
 				{
@@ -2456,6 +2456,7 @@
 			]
 			shape: "gear"
 			size: 1.5d
+			subtitle: "&#ffb04fThis quest opens a new quest chapter!&r"
 			tasks: [{
 				id: "1DF3EB33D61FB8CE"
 				item: "modern_industrialization:manganese_dust"
@@ -2483,10 +2484,11 @@
 		{
 			dependencies: ["29BACBBC96847851"]
 			description: [
-				"Позволяет автоматически крафтить заданный внутри рецепт. "
-				"- Берёт ресурсы из инвентарей поставленных побокам. "
-				"- Хорошо сочетается с дроверной точкой доступа"
-				"- Если присоединить драйвер хранения к выходящей стороне фабрикатора, фабрикатор будет крафтить предмет по запросу"
+				"Allows to automatically craft a specified recipe on demand. "
+				"- uses items from the inventory on the sides"
+				"- crafts on item pump cycle"
+				"- works well with driver acess point"
+				"- if storage driver is connected, the recipe will appear in manual requester, an you can craft that item on demand"
 			]
 			id: "4944AB502FB37416"
 			rewards: [
@@ -2501,7 +2503,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Автокрафт 0.8"
+			subtitle: "Autocrafting 0.8"
 			tasks: [{
 				id: "423DD3B8FDABE2A9"
 				item: "neepmeat:fabricator"
