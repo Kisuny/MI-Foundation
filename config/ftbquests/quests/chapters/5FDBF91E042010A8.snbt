@@ -96,7 +96,7 @@
 				id: "706080CEA4E3EFFF"
 				type: "advancement"
 			}]
-			title: "Любимец королевы"
+			title: "The queen's favorite"
 			x: 0.5d
 			y: -0.5d
 		}
@@ -143,7 +143,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Так ли сильно твоё терпение?"
+			title: "Is your patience that strong?"
 			x: 1.5d
 			y: -0.5d
 		}
@@ -190,7 +190,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Уверен ли ты в своей стойкости?"
+			title: "Are you confident in your resilience?"
 			x: 1.5d
 			y: -1.5d
 		}
@@ -237,7 +237,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Мне уже не терпится!"
+			title: "I can't wait!"
 			x: 1.5d
 			y: -2.5d
 		}
@@ -284,7 +284,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Мам, ну еще 5 минуток"
+			title: "Mom, just five more minutes"
 			x: 1.5d
 			y: -3.5d
 		}
@@ -332,7 +332,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Небо"
+			title: "Sky"
 			x: 2.5d
 			y: -0.5d
 		}
@@ -380,7 +380,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Розочка"
+			title: "Rose"
 			x: 2.5d
 			y: -1.5d
 		}
@@ -428,7 +428,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Солнышко"
+			title: "Sunny"
 			x: 2.5d
 			y: -2.5d
 		}
@@ -476,7 +476,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Чернильница"
+			title: "Black"
 			x: 2.5d
 			y: -3.5d
 		}
@@ -524,7 +524,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Чистый лист"
+			title: "Clean sheet"
 			x: 2.5d
 			y: -4.5d
 		}
@@ -572,7 +572,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Апельсинчик"
+			title: "Orange"
 			x: 3.5d
 			y: -4.5d
 		}
@@ -620,7 +620,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Листочек"
+			title: "Leaf"
 			x: 4.5d
 			y: -4.5d
 		}
@@ -668,7 +668,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Тюльпанчик"
+			title: "Tulip"
 			x: 5.5d
 			y: -4.5d
 		}
@@ -716,7 +716,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Арбузик"
+			title: "Watermelon"
 			x: 6.5d
 			y: -4.5d
 		}
@@ -764,7 +764,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Голубые глазки"
+			title: "Blue eyes"
 			x: 6.5d
 			y: -3.5d
 		}
@@ -812,7 +812,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Кактусик"
+			title: "Cactus"
 			x: 6.5d
 			y: -2.5d
 		}
@@ -860,7 +860,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Водица"
+			title: "Water"
 			x: 6.5d
 			y: -1.5d
 		}
@@ -908,7 +908,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Ваше высочество"
+			title: "Your Highness"
 			x: 6.5d
 			y: -0.5d
 		}
@@ -956,7 +956,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Деревце"
+			title: "Tree"
 			x: 5.5d
 			y: -0.5d
 		}
@@ -1004,7 +1004,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Непогода"
+			title: "Bad weather"
 			x: 4.5d
 			y: -0.5d
 		}
@@ -1052,7 +1052,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Камешек"
+			title: "Pebble"
 			x: 3.5d
 			y: -0.5d
 		}
@@ -1062,7 +1062,7 @@
 				"01EEAB72478340F9"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Поднимитесь выше 1000 координаты Y в обычном мире"]
+			description: ["Go above 1000 Y coordinates in the overworld"]
 			id: "31562F8CF94FD570"
 			rewards: [
 				{
@@ -1104,10 +1104,10 @@
 					10
 					1000000000
 				]
-				title: "Высота 1000"
+				title: "1000+"
 				type: "location"
 			}]
-			title: "Выше небес"
+			title: "Higher than the sky"
 			x: -5.0d
 			y: -1.5d
 		}
@@ -1117,7 +1117,7 @@
 				"01EEAB72478340F9"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Опуститесь ниже -80 в обычном мире"]
+			description: ["Get below -80 in the overworld."]
 			id: "35B6A2A722CBB2D4"
 			rewards: [
 				{
@@ -1158,10 +1158,10 @@
 					1
 					1000000000
 				]
-				title: "Минус 80"
+				title: "-80"
 				type: "location"
 			}]
-			title: "Ниже невозможного"
+			title: "Below impossible"
 			x: -5.0d
 			y: -0.5d
 		}
@@ -1186,7 +1186,7 @@
 				type: "xp"
 				value: 1000L
 			}]
-			title: "Жертва многих душ"
+			title: "Sacrifice of many souls"
 			x: -4.0d
 			y: -0.5d
 		}
@@ -1239,7 +1239,7 @@
 				to_observe: "minecraft:dragon_egg"
 				type: "observation"
 			}]
-			title: "Момент, что бывает лишь однажды"
+			title: "A moment that only happens once"
 			x: -7.0d
 			y: -0.5d
 		}
@@ -1291,7 +1291,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "Медная бочка меди?"
+			title: "A copper barrel of copper?"
 			x: 11.5d
 			y: -0.5d
 		}
@@ -1342,7 +1342,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "Железная бочка железа, да что такое"
+			title: "A barrel of iron, what's the big deal"
 			x: 11.5d
 			y: -2.5d
 		}
@@ -1393,7 +1393,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "Бронзовая бочка бронзы, вы серьезно!?"
+			title: "A bronze barrel of bronze, are you serious!?"
 			x: 11.5d
 			y: -3.5d
 		}
@@ -1445,7 +1445,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "Стальная бочка стали, ладно я понял к чему вы клоните"
+			title: "A barrel of steel, okay, I see what you're getting at."
 			x: 11.5d
 			y: -4.5d
 		}
@@ -1503,7 +1503,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "Алюминиевая бочка алюминия, да, да, я понял"
+			title: "Aluminum barrel of aluminum, yeah, yeah, I get it"
 			x: 11.5d
 			y: -5.5d
 		}
@@ -1561,7 +1561,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "Бочка из нержавеющей стали нержавающей стали, давайте дальше"
+			title: "Stainless steel stainless steel barrel, let's move on"
 			x: 11.5d
 			y: -6.5d
 		}
@@ -1632,7 +1632,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "Титановая бочка титана, а мы и не ждали"
+			title: "A titanium barrel of titanium, and we weren't expecting it"
 			x: 11.5d
 			y: -7.5d
 		}
@@ -1690,7 +1690,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "Квантовая бочка грязи, пик совершенства"
+			title: "A quantum barrel of dirt, the peak of perfection"
 			x: 11.5d
 			y: -8.5d
 		}
@@ -1864,7 +1864,7 @@
 					type: "item"
 				}
 			]
-			title: "Собери их всех"
+			title: "Get them all"
 			x: -2.0d
 			y: -0.5d
 		}
@@ -1922,7 +1922,7 @@
 					type: "dimension"
 				}
 			]
-			title: "Посети их все"
+			title: "Visit them all"
 			x: -6.0d
 			y: -0.5d
 		}
@@ -1978,7 +1978,7 @@
 					type: "dimension"
 				}
 			]
-			title: "Облети их все"
+			title: "It's not that far away"
 			x: -6.0d
 			y: -1.5d
 		}
@@ -2034,7 +2034,7 @@
 					type: "dimension"
 				}
 			]
-			title: "Долети до всех"
+			title: "Fly to everyone"
 			x: -6.0d
 			y: -2.5d
 		}
@@ -2084,7 +2084,7 @@
 					type: "dimension"
 				}
 			]
-			title: "Доберись до всех"
+			title: "Get to all of them"
 			x: -7.0d
 			y: -1.5d
 		}
@@ -2134,7 +2134,7 @@
 					type: "dimension"
 				}
 			]
-			title: "Как я здесь оказался?"
+			title: "How did I get here?"
 			x: -6.0d
 			y: -3.5d
 		}
@@ -2160,7 +2160,7 @@
 				item: "numismatic-overhaul:bronze_coin"
 				type: "item"
 			}]
-			title: "Крестьянин"
+			title: "Peasant"
 			x: -1.0d
 			y: -0.5d
 		}
@@ -2200,7 +2200,7 @@
 				item: "numismatic-overhaul:silver_coin"
 				type: "item"
 			}]
-			title: "Средний класс"
+			title: "Middle class"
 			x: -1.0d
 			y: -1.5d
 		}
@@ -2239,7 +2239,7 @@
 				item: "numismatic-overhaul:gold_coin"
 				type: "item"
 			}]
-			title: "Скрудж Макдак"
+			title: "Scrooge McDuck"
 			x: -1.0d
 			y: -2.5d
 		}
@@ -2292,10 +2292,10 @@
 			]
 			tasks: [{
 				id: "77A3DEC4480974F4"
-				title: "&4<shake>Ц</shake>&r&6<shake>в</shake>&r&e<shake>е</shake>&r&2<shake>т</shake>&r&b<shake>о</shake>&r&9<shake>в</shake>&r&5<shake>о</shake>&r&4<shake>й</shake>&r&6<shake>с</shake>&r&e<shake>п</shake>&r&2<shake>е</shake>&r&b<shake>к</shake>&r&9<shake>т</shake>&r&5<shake>р</shake>&r"
+				title: "&4<shake>C</shake>&r&6<shake>o</shake>&r&e<shake>l</shake>&r&2<shake>o</shake>&r&b<shake>r</shake>&r &9<shake>s</shake>&r&5<shake>p</shake>&r&4<shake>e</shake>&r&6<shake>c</shake>&r&e<shake>t</shake>&r&2<shake>r</shake>&r&b<shake>u</shake>&r&9<shake>m</shake>&r"
 				type: "checkmark"
 			}]
-			title: "&4<shake>Ц</shake>&r&6<shake>в</shake>&r&e<shake>е</shake>&r&2<shake>т</shake>&r&b<shake>о</shake>&r&9<shake>в</shake>&r&5<shake>о</shake>&r&4<shake>й</shake>&r &6<shake>с</shake>&r&e<shake>п</shake>&r&2<shake>е</shake>&r&b<shake>к</shake>&r&9<shake>т</shake>&r&5<shake>р</shake>&r"
+			title: "&4<shake>C</shake>&r&6<shake>o</shake>&r&e<shake>l</shake>&r&2<shake>o</shake>&r&b<shake>r</shake>&r &9<shake>s</shake>&r&5<shake>p</shake>&r&4<shake>e</shake>&r&6<shake>c</shake>&r&e<shake>t</shake>&r&2<shake>r</shake>&r&b<shake>u</shake>&r&9<shake>m</shake>&r"
 			x: 4.5d
 			y: -2.5d
 		}
@@ -2334,7 +2334,7 @@
 				item: "ae2:cell_component_256k"
 				type: "item"
 			}]
-			title: "Нам же хватит, верно?"
+			title: "Do we have enough?"
 			x: 12.5d
 			y: -0.5d
 		}
@@ -2376,7 +2376,7 @@
 				item: "megacells:cell_component_256m"
 				type: "item"
 			}]
-			title: "Ну теперь должно хватить"
+			title: "Well, that should be enough now."
 			x: 12.5d
 			y: -1.5d
 		}
@@ -2537,7 +2537,7 @@
 					type: "item"
 				}
 			]
-			title: "Какие вкусные мороженки"
+			title: "These ice cream sundaes are delicious"
 			x: 13.5d
 			y: -0.5d
 		}
@@ -2576,7 +2576,7 @@
 				item: "ae2:spatial_cell_component_128"
 				type: "item"
 			}]
-			title: "Истинно личное пространство"
+			title: "A truly personal space"
 			x: 14.5d
 			y: -0.5d
 		}
@@ -2615,7 +2615,7 @@
 				item: "fluxnetworks:gargantuan_flux_storage"
 				type: "item"
 			}]
-			title: "Проект \"Desertec\". В этот раз то получится?"
+			title: "Project «Desertec». Are we gonna make it this time?"
 			x: 15.5d
 			y: -0.5d
 		}
@@ -2667,7 +2667,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "Оловянная бочка олова, было же"
+			title: "A tin barrel of tin, that was the same"
 			x: 11.5d
 			y: -1.5d
 		}
@@ -2710,7 +2710,7 @@
 				item: "dankstorage:dank_7"
 				type: "item"
 			}]
-			title: "Собственная черная дыра"
+			title: "A black hole of its own"
 			x: 7.5d
 			y: -0.5d
 		}
@@ -2764,7 +2764,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Ну теперь я точно моментально копаю"
+			title: "Well, now I'm definitely instantly digging"
 			x: 7.5d
 			y: -1.5d
 		}
@@ -2818,7 +2818,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Больше сердечек!?!?!?!"
+			title: "More hearts!?!?!?!?!"
 			x: 7.5d
 			y: -2.5d
 		}
@@ -2863,7 +2863,7 @@
 				}
 				type: "item"
 			}]
-			title: "Стоило ли это океана маны?"
+			title: "Was it worth an ocean of mana?"
 			x: 8.5d
 			y: -0.5d
 		}
