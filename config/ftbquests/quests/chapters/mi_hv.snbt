@@ -11,7 +11,7 @@
 	quests: [
 		{
 			dependencies: ["50BBF5DA3EB28CF2"]
-			description: ["&6Этот квест открывает новую ветку квестов!&r"]
+			description: [""]
 			id: "4FBAAC0E7CD87100"
 			rewards: [
 				{
@@ -28,6 +28,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "&#ffb04fThis quest opens a new quest chapter!&r"
 			tasks: [{
 				biome: "ad_astra:orbit"
 				icon: {
@@ -204,6 +205,7 @@
 					type: "item"
 				}
 			]
+			title: "Stainless Steel Parts"
 			x: 13.0d
 			y: -18.5d
 		}
@@ -449,7 +451,7 @@
 				"0FE22B84D5E55D28"
 				"36EEEED6D0B5C194"
 			]
-			description: ["Принимает &4отличные&r от &6обычного&r котла жидкости"]
+			description: ["Only accepts pressurized water and steam, but more efficient."]
 			id: "688C8EAA350A89AF"
 			rewards: [
 				{
@@ -522,7 +524,7 @@
 		}
 		{
 			dependencies: ["2AC0E79728F4AA45"]
-			description: ["&6Дистиляционная установка&r, необходима для &4более выгодной&r обработки нефти"]
+			description: ["Uses in &4more efficient&r oil processing and more."]
 			id: "154A18FF55DA9A1A"
 			rewards: [
 				{
@@ -581,7 +583,7 @@
 		}
 		{
 			dependencies: ["2AC0E79728F4AA45"]
-			description: ["&6Термальная центрифуга&r, электрический вариант для обработки &4чистых&r руд"]
+			description: ["Used to process &6pure resources&r more efficiently. Needs a different type of coil &9below&r the machine depending on recipe."]
 			id: "2D7F2A7787D21C84"
 			rewards: [
 				{
@@ -663,6 +665,7 @@
 		}
 		{
 			dependencies: ["431BB5502210CF78"]
+			description: [""]
 			id: "441E0F5AF148258C"
 			rewards: [
 				{
@@ -695,6 +698,7 @@
 					type: "item"
 				}
 			]
+			title: "Minerals"
 			x: 20.5d
 			y: -21.0d
 		}
@@ -714,6 +718,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Things gets rotary"
 			tasks: [{
 				id: "25C0233C1B0A4120"
 				item: "modern_industrialization:hsla_steel_dust"
@@ -758,7 +763,7 @@
 		}
 		{
 			dependencies: ["7E939C0B46A2C577"]
-			description: ["&6Космический шахтер&r, аналог карьера для добычи ресурсов &4на орбитах&r"]
+			description: ["More advanced &7quarry&r used for planetary mining."]
 			id: "1F638DD351D1E82E"
 			rewards: [
 				{
@@ -785,6 +790,7 @@
 				}
 			]
 			size: 1.5d
+			subtitle: "Planet Cracker"
 			tasks: [{
 				id: "741921BAED9D1B87"
 				item: "modern_industrialization:space_miner"
@@ -884,7 +890,7 @@
 				"65725E1153193588"
 				"2AC0E79728F4AA45"
 			]
-			description: ["&6Компрессор сжатия&r, путем взрыва создает высокое давление из-за чего &4ранее недоступные&r рецепты компрессии стали возможны"]
+			description: ["Creates tremendous pressure using explosives, permits more efficient and &4advanced&r production chains"]
 			hide_dependency_lines: false
 			id: "1F3D4A0814A1095F"
 			rewards: [
@@ -937,6 +943,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "Stone–Čech compactification"
 			tasks: [{
 				id: "23943054E06A6E65"
 				item: "modern_industrialization:compactium_dust"
@@ -950,7 +957,11 @@
 				"4626E3D01CBD6DCC"
 				"00DB5F15E95B82D2"
 			]
-			description: ["Спустившись на низшие уровни земли и упёршись в, на первый взгляд, непроходимый слой породы можно заметить лёгкие черные выделения. Вам пришла мысль соорудить установку по их добыче."]
+			description: [
+				"When you reached, at first look, inpenetrable layer of bedrock, you've noticed small ammounts of black liquid. You had an idea to create a machine for harvesting it."
+				""
+				"Must be placed above the bedrock and supplied with liquid pipes in order to work . "
+			]
 			id: "776D6A3931241133"
 			rewards: [
 				{
@@ -964,7 +975,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Безликое"
+			subtitle: "Do you have some yttrium?"
 			tasks: [{
 				id: "40D30FABD3A2E135"
 				item: "modern_industrialization:void_pump"
@@ -975,7 +986,7 @@
 		}
 		{
 			dependencies: ["3AA0D0C1318072F3"]
-			description: ["При более детальном рассмотрении, оказалось что &0войд жидкость&r содержит в себе нано-частицы самых различных минералов. Но для их дистилляции необходимы большие концентрации энергии. "]
+			description: ["Under more detailed research, you've discovered that &0void fluid&r contains mineral nano-particles. Yet to extract them you need high density of magnetic field."]
 			id: "55D2B4A21DD6B220"
 			rewards: [
 				{
@@ -996,7 +1007,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Нано-частицы"
+			subtitle: "Nano-particles"
 			tasks: [{
 				id: "463F3D701A9FE017"
 				item: "modern_industrialization:void_distillation_machine"
@@ -1007,7 +1018,7 @@
 		}
 		{
 			dependencies: ["3AA0D0C1318072F3"]
-			description: ["Получив возможность раскладывать &0жидкий войд&r на фракции, оказалось что одна из фракций обладает высоким потенциалом для кинетических воздействий. Также ощущается понижение уровня реальности при высоких концентрациях."]
+			description: ["After the distillation, you've noticed that one of byproducts has a great potential to increase kinetic interrations between organic and non-organic matter. Also you can feel the decrease in the reality level under high concentration."]
 			id: "6BE7207498EFC0D1"
 			rewards: [
 				{
@@ -1051,7 +1062,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Микельсон и Морли ошибались"
+			subtitle: "Michelson and Morley were wrong"
 			tasks: [{
 				id: "23B64EC0EC965493"
 				item: "neepmeat:ethereal_fuel_bucket"
@@ -1127,6 +1138,7 @@
 			]
 			shape: "gear"
 			size: 3.5d
+			subtitle: "The trampoline is working"
 			tasks: [{
 				dimension: "ad_astra:mars"
 				icon: "ad_astra:mars_globe"
@@ -1138,7 +1150,7 @@
 		}
 		{
 			dependencies: ["2160BE97922C6B0B"]
-			description: ["&6Компенсатор давления&r, путем достаточно давления может превращать &8газы&r в &9жидкости&r"]
+			description: ["Used to gather &8ambient atmosphere&r with air intake and put some substances under pressure."]
 			id: "33A796252B8BDAC8"
 			rewards: [
 				{
@@ -1158,6 +1170,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Under pressure!"
 			tasks: [{
 				id: "2CF74BBA26F7D492"
 				item: "modern_industrialization:pressurizer"
@@ -1168,7 +1181,7 @@
 		}
 		{
 			dependencies: ["2AC0E79728F4AA45"]
-			description: ["&6Теплообменник,&r в основном нужен для более &9быстрого охлаждения&r горячих слитков"]
+			description: ["Mostly used for more efficient hot ingots &9cooling&r."]
 			id: "243C2809A8C13221"
 			rewards: [
 				{
@@ -1256,7 +1269,7 @@
 		}
 		{
 			dependencies: ["0E60F47278A87F09"]
-			description: ["&4Добавляет возможность&r распределения доступов конкретным игрокам к &9МЭ&r системе, &6есть базовый пользователь&r для всех ненастроенных игроков. Игрок, &4установивший данный блок&r становится владельцем сети"]
+			description: ["&4Adds an ability&r of player access management to &9ME&r system. Player, &4which places this block&r becomes the owner of that network."]
 			id: "50BBF5DA3EB28CF2"
 			rewards: [{
 				count: 8
@@ -1281,7 +1294,7 @@
 				item: "modern_industrialization:digital_circuit"
 				type: "item"
 			}]
-			subtitle: "<shake>ГДЕ ЗЕМЛЯ!"
+			subtitle: "<shake>WHERE IS THE [REDACTED] SOIL!"
 			tasks: [{
 				id: "6A708C6C1ACB11DB"
 				item: "neepmeat:flesh_potato"
@@ -1295,7 +1308,7 @@
 				"31A8F255FCF26853"
 				"1A930173D3C4A83E"
 			]
-			description: ["Интересно... каким-то образом именно бериллий является хорошим резонатором для эфирного поля. "]
+			description: ["Interesting... but why beryllium?"]
 			id: "07F8BDD4D1DAC910"
 			rewards: [
 				{
@@ -1311,7 +1324,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Ну хоть 3-е место..."
+			subtitle: "Beryllium sphere"
 			tasks: [{
 				id: "6B7BE7CD32AAC92C"
 				item: "neepmeat:pedestal"
@@ -1322,10 +1335,7 @@
 		}
 		{
 			dependencies: ["07F8BDD4D1DAC910"]
-			description: [
-				"Под воздействием &oпросветления&r некоторые формы органики дают неплохие результаты."
-				"Например теперь есть возможность выращивать плазму крови, как и сам гемоглобин в промышленных масштабах. "
-			]
+			description: ["Under exposure of &oenlightment&r some organic forms transforms into valuable organisms. For example: now we have an ability to farm a blood plasma as well as the haemoglobine itself."]
 			id: "4AB7E0D8F1B7390E"
 			rewards: [
 				{
@@ -1341,7 +1351,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Кровяника"
+			subtitle: "Blood ivy"
 			tasks: [{
 				id: "69C7ABE229C60DAC"
 				item: "neepmeat:blood_bubble_sapling"
@@ -1353,7 +1363,7 @@
 		{
 			dependencies: ["7EF2CD56FEE25DB5"]
 			description: [
-				"Пульсирующий кокон, внешне защищённый подобием хитина. В один момент задев его поверхность и порезавшись, вы заметили что кокон проявил некоторую активность. Думаю нам стоит провести эксперимент с плазмой крови. "
+				"Pulsating cocoon, with external shell similar to chitin. At some point when you inspect the egg, you cutted your finger and noticed that the blood was absorbed almost immediately. I think we should perform more experiments with blood."
 				""
 				""
 				"{@pagebreak}"
@@ -1409,7 +1419,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
-			subtitle: "Идеальный организм"
+			subtitle: "Perfect organism"
 			tasks: [
 				{
 					id: "7590D00D698AC139"
@@ -1429,9 +1439,9 @@
 		{
 			dependencies: ["58DC31CC3D243DCD"]
 			description: [
-				"Нужно лучшее оборудывание. Скорее всего &oОНО&r может позволить нам в будущем проводить рассчеты куда превосходящие нынешние технологии."
+				"We need a better equipment. Most like &oIT&r will allow calculations which will surpass any accessible technologies."
 				""
-				"Необходим для передачи данных от интегратора до пьедесталов."
+				"Used to transfer data from the integrator to pedestals."
 			]
 			id: "1A930173D3C4A83E"
 			rewards: [
@@ -1466,7 +1476,7 @@
 				item: "neepmeat:meat_steel_ingot"
 				type: "item"
 			}]
-			subtitle: "Стальное мясо"
+			subtitle: "Yummy"
 			tasks: [{
 				id: "6BFD6C126CE16F74"
 				item: "neepmeat:meat_steel_ingot"
@@ -1480,14 +1490,14 @@
 				"4FBAAC0E7CD87100"
 				"0B0D1B4C432E86BF"
 			]
-			description: ["Опыты с картофелем &oУВИДИВШЕМ ИСТИНУ&r позволили выделить особую смесь энзимов со структурой невероятной сложности. Дальнешие исследования дадут скорее всего возможность увеличить качество обработки некоторых минералов."]
+			description: ["Experiments with potato &oWHICH SEEN BEYOND&r allowed to extract a special enzyme compound with extreme complexity. Further research will possibly increase ore processing efficiency. "]
 			id: "1C3898050AABCDD7"
 			rewards: [{
 				id: "53BF44F9F516A111"
 				item: "modern_industrialization:digital_circuit"
 				type: "item"
 			}]
-			subtitle: "энЗим завоеватель!"
+			subtitle: "Enzyme the invader!"
 			tasks: [{
 				id: "077171202F573C8C"
 				item: "neepmeat:eldritch_enzymes_bucket"
@@ -1506,7 +1516,7 @@
 				item: "neepmeat:enlightened_brain"
 				type: "item"
 			}]
-			subtitle: "[ДАННЫЕ УДАЛЕНЫ]"
+			subtitle: "[DATA EXPUNGED]"
 			tasks: [{
 				id: "7B26BEF1A1E1CB0D"
 				item: "neepmeat:enlightened_brain"
@@ -1520,7 +1530,7 @@
 				"1576C225DFC4650C"
 				"737AFCC9E50FBD22"
 			]
-			description: ["Некоторые опыты над интеграцией живых тканей в работу электрических цепей дают обнадёживающие результаты."]
+			description: ["Some experiments with flesh and machine integration showed the increase in efficiency of digital circuitry."]
 			id: "1ADE44FAAC0EB496"
 			rewards: [
 				{
@@ -1536,7 +1546,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Мечтают ли органы об электролипидах?"
+			subtitle: "Does android dream of electric sheeps?"
 			tasks: [{
 				id: "7344283A1DB74381"
 				item: "neepmeat:control_unit"
@@ -1562,7 +1572,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Плоть слаба..."
+			subtitle: "The flesh is weak..."
 			tasks: [{
 				id: "1667D9895110FA4B"
 				item: "neepmeat:internal_components"
@@ -1578,9 +1588,9 @@
 				"58DC31CC3D243DCD"
 			]
 			description: [
-				"Свойства эфирного топлива указывают что мягкие ткани, в особенности нервная ткань, может послужить хорошим средством для извлечения полезного действия."
+				"It seems that ethereal fuel can be transferred through organic matter, moreover the nervous tissue seems to be the best conductor."
 				""
-				"В полтора раза эффективнее чем использовать эфирное топливо напрямую."
+				"50% more efficient than using ethereal fuel in a liquid form."
 			]
 			id: "38487E2DC48E7C16"
 			rewards: [{
@@ -1589,7 +1599,7 @@
 				item: "neepmeat:meat_steel_ingot"
 				type: "item"
 			}]
-			subtitle: "Чистосердечное питание"
+			subtitle: "Adrenaline!"
 			tasks: [{
 				id: "022A7A01CE711DAE"
 				item: "neepmeat:fluid_exciter"
@@ -1600,7 +1610,7 @@
 		}
 		{
 			dependencies: ["38487E2DC48E7C16"]
-			description: ["Позволяет эфективно прокачивать энергию по сосудистой системе."]
+			description: ["Used to transfer energy through vascular network."]
 			id: "09E537E574ED829F"
 			rewards: [
 				{
@@ -1626,7 +1636,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "<shake>НЕРВЫ!!!"
 			tasks: [{
 				id: "3DBA8868F8654E59"
 				item: "neepmeat:vascular_conduit"
@@ -1637,7 +1646,7 @@
 		}
 		{
 			dependencies: ["2AC0E79728F4AA45"]
-			description: ["&4Дизельный&r генератор, принимает &6жидкие типы топлива&r для производства &eэлектричества&r"]
+			description: ["Generates electricity from &6liquid fuels&r. Press U on generator inside inventory to see all available liquid fuels in REI."]
 			id: "76889A4B38C620E6"
 			rewards: [
 				{
@@ -1673,7 +1682,7 @@
 		}
 		{
 			dependencies: ["09E537E574ED829F"]
-			description: ["Свойства эфирного топлива усложняют его транспортировку и логистику. Благо мы можем ограничить количество энергии которая перемещается вдоль сосудов."]
+			description: ["As ethereal liquid is a fluid, often it's not easy to transport it. Fortunately we have vascular network. This machine allows of precise amount of energy transferred through it."]
 			id: "521DEB338D15FE74"
 			rewards: [{
 				count: 4
@@ -1681,7 +1690,7 @@
 				item: "neepmeat:meat_steel_ingot"
 				type: "item"
 			}]
-			subtitle: "Дозировка"
+			subtitle: "Precise dosage"
 			tasks: [{
 				id: "5B21FE21A5440FD4"
 				item: "neepmeat:vsc"
@@ -1692,7 +1701,7 @@
 		}
 		{
 			dependencies: ["00DB5F15E95B82D2"]
-			description: ["&6Отображает визуально&r количество занятых каналов, &4все ещё&r проводит &432&r канала"]
+			description: ["&6Displays&r the ammount of used channels, &4still&r has &432&r channels."]
 			id: "0E60F47278A87F09"
 			rewards: [
 				{
@@ -1718,7 +1727,7 @@
 		}
 		{
 			dependencies: ["09E537E574ED829F"]
-			description: ["Улучшенная версия мотора. Используя, преобразованное внутри сосудистой системы, эфирное топливо мы можем достичь больших оборотов."]
+			description: ["Improved version of motor. Consumes energy from vascular network. Has a greater power."]
 			id: "35910005C3917324"
 			rewards: [{
 				count: 4
@@ -1726,7 +1735,7 @@
 				item: "neepmeat:meat_steel_ingot"
 				type: "item"
 			}]
-			subtitle: "0.2 ротоМ"
+			subtitle: "0.2 rotoM"
 			tasks: [{
 				id: "2C998EE7502661C7"
 				item: "neepmeat:advanced_motor"
@@ -1737,7 +1746,7 @@
 		}
 		{
 			dependencies: ["31A8F255FCF26853"]
-			description: ["Поместив достаточно много биомассы в контейнер, можно заметить как она преобразовывается под действием &o просветления"]
+			description: [""]
 			id: "50BBE26EED91D3A6"
 			rewards: [{
 				count: 4
@@ -1745,7 +1754,6 @@
 				item: "neepmeat:meat_steel_ingot"
 				type: "item"
 			}]
-			subtitle: "Мясной Компостер"
 			tasks: [{
 				id: "6465FCC62CDB6DB6"
 				item: "neepmeat:charnel_compactor"
@@ -1756,7 +1764,7 @@
 		}
 		{
 			dependencies: ["50BBE26EED91D3A6"]
-			description: ["Под воздействием &oпросветления&r достаточное количество биомассы преобразовывается в устойчивую к аугментации структуру. Нужно продолжить исследования..."]
+			description: ["Under the exposure of &oenlightment&r big enough concentration of biomass transform into structure durable for augmentation. We need to continue the research..."]
 			id: "6F57E0A9A28BAD87"
 			rewards: [
 				{
@@ -1772,7 +1780,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "Ядро Чистый Основа"
 			tasks: [{
 				id: "443802B76AAC6508"
 				item: "neepmeat:integration_charge_crude"
@@ -1783,7 +1790,7 @@
 		}
 		{
 			dependencies: ["6F57E0A9A28BAD87"]
-			description: ["Кровь и соединительная ткань может быть хорошим катализатором при низких уровнях реальности."]
+			description: ["Blood and connective tissue is a good substrate under low reality levels."]
 			id: "3C94F0661744AF8D"
 			rewards: [
 				{
@@ -1822,7 +1829,7 @@
 		}
 		{
 			dependencies: ["3C94F0661744AF8D"]
-			description: ["Идеальная смесь..."]
+			description: ["Perfect compound..."]
 			id: "45E44E92011D35F4"
 			rewards: [
 				{
@@ -1865,9 +1872,9 @@
 				"6BE7207498EFC0D1"
 			]
 			description: [
-				"Первая попытка преобразовать энергию эфирного топлива в кинетическую энергию. Странно как удалось достичь КПД в 95% процентов. "
+				"First attempt of harnessing the power of ethereal fuel. Strangely enough it has 95% energy efficiency!"
 				""
-				"Будет потреблять столько эфирного топлива сколько будет закачано(до определённого предела)."
+				"Will consume as much ethereal fuel as you provide(under certain limit)"
 			]
 			id: "13903B3EDE72AF63"
 			rewards: [
@@ -1890,7 +1897,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "ротоМ"
+			subtitle: "rotoM"
 			tasks: [{
 				id: "1A8F973D73753699"
 				item: "neepmeat:motor_unit"
@@ -1901,7 +1908,7 @@
 		}
 		{
 			dependencies: ["13903B3EDE72AF63"]
-			description: ["Применяя достаточное количество кинетической энергии в локально-нереальной области возможно размещать предметы с идеальной точностью."]
+			description: ["Motorised block placer, connect a motor to place blocks from inventory inside. "]
 			id: "6F3507BB97CCB0AB"
 			rewards: [
 				{
@@ -1917,7 +1924,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "Ставитель"
 			tasks: [{
 				id: "701C9870CE5C1996"
 				item: "neepmeat:deployer"
@@ -1928,7 +1934,7 @@
 		}
 		{
 			dependencies: ["13903B3EDE72AF63"]
-			description: ["Применяя достаточное количество кинетической энергии в локально-нереальной области возможно разрушать материалы любой прочности."]
+			description: ["Motorised breaker, connect a motor to break blocks."]
 			id: "184CCC9464520BCB"
 			rewards: [
 				{
@@ -1944,7 +1950,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "Ломатель"
 			tasks: [{
 				id: "45D2F36E9DCBF000"
 				item: "neepmeat:breaker"
@@ -1956,10 +1961,10 @@
 		{
 			dependencies: ["13903B3EDE72AF63"]
 			description: [
-				"1. Вмонтируйте в пол мотор"
-				"2. Установите лезвия"
+				"1. Install a motor into a floor"
+				"2. Place down blades"
 				"3. ???"
-				"4. &4<shake>СВЕЖЕЕ МЯСО"
+				"4. &4<shake>FRESH MEAT"
 			]
 			id: "01E0472DFDDDF2F1"
 			rewards: [
@@ -1993,7 +1998,7 @@
 		}
 		{
 			dependencies: ["01E0472DFDDDF2F1"]
-			description: ["Промышленная мясорубка. Поставьте существо в верхнюю часть и получите все его питательные свойства в жидком виде."]
+			description: ["Industrial grade blender. Place the entity above it and obtain all it's juicy meat in liquid form."]
 			id: "5B5D6190274EED49"
 			rewards: [
 				{
@@ -2009,7 +2014,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Мясорезка"
+			subtitle: "Brrrrr"
 			tasks: [{
 				id: "4FC24C1BF32D3DCF"
 				item: "neepmeat:mincer"
@@ -2021,9 +2026,9 @@
 		{
 			dependencies: ["13903B3EDE72AF63"]
 			description: [
-				"Перемалывает еду до состояния каши. Питательность еды напрямую влияет на качество жидкости. "
+				"Grinds food into a liquid state. The better food means the quality of liquid."
 				""
-				"Жидкую пищу различного качества можно обьеденить внутри определённых хранилищ."
+				"You can mix food of different quality inside NEEPMeat tanks."
 			]
 			id: "0C12820E58A6FD8B"
 			rewards: [
@@ -2040,7 +2045,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "Мясовыжималка"
 			tasks: [{
 				id: "60FECE1F12E277F9"
 				item: "neepmeat:item_mincer"
@@ -2051,7 +2055,7 @@
 		}
 		{
 			dependencies: ["2AC0E79728F4AA45"]
-			description: ["&6Почвенный анализатор&r, &4необходим&r для получения карт данных планет"]
+			description: ["Is needed to obtain planet &9data cards&r from soil research."]
 			id: "43283DF93D75D1D2"
 			rewards: [
 				{
@@ -2102,7 +2106,7 @@
 		}
 		{
 			dependencies: ["2AC0E79728F4AA45"]
-			description: ["&6Большая паровая турбина&r, имеет &416к&r eu/t &4максимального&r выхода"]
+			description: ["Multiblock version of steam turbine."]
 			id: "74DEDA0928E978C3"
 			rewards: [
 				{
@@ -2163,7 +2167,7 @@
 				"0CA1AD96AA7EB047"
 				"2137D52B7574D6BC"
 			]
-			description: ["&6Молекулярный сборщик&r, крафтит предметы из верстака, может как крафтить по &4вставленному&r шаблону, так и при помощи шаблонов из &4интерфейса рядом&r, в данном случае интерфейс &4будет поставлять и забирать&r ресурсы. При вставленном шаблоне &4вам придется позаботится&r о поставке ресурсов для крафта и вытаскивании готового ресурса из сборщика"]
+			description: ["Crafts shaped recipes depending on the inserted &4template&r or from &9ME&r interface nearby."]
 			id: "5C9A9AA5FC26479D"
 			rewards: [
 				{
@@ -2189,11 +2193,11 @@
 		{
 			dependencies: ["0E60F47278A87F09"]
 			description: [
-				"Добавляет возможность &4связывания двух точек&r &9МЭ&r сети. "
+				"Adds an ability to &4connect two points&r of &9ME&r network."
 				""
-				"В основном используется для более удобного использования каналов. "
+				"Often used for more comfortable channel management."
 				""
-				"Один из примеров использования. Один тоннель ставится на МЭ контроллер, второй тоннель проводится к месту, где необходимо подключить машинки. Все каналы, что войдут в второй тоннель будут переданы в первый напрямую к контроллеру. Второй тоннель займет лишь один канал в кабеле на котором установлен"
+				"For example: one tunner is place on &9ME&r controller, second tunned is placed near machines. All channels, which will go to the second tunnel will be transferred right to controller. Second tunnel will only occupy one channel on which cable is placed."
 			]
 			id: "4F2BB799C0DBD231"
 			rewards: [
@@ -2219,10 +2223,7 @@
 		}
 		{
 			dependencies: ["5C6AB70C0237BBBD"]
-			description: [
-				"&6Индустриальная пасека&r, эксплуатация пчёл!"
-				"&#ffb04fЭтот квест открывает новую ветку квестов!&r"
-			]
+			description: ["&6Beesploitation!&r"]
 			id: "1CEEEDA0B1B89527"
 			rewards: [
 				{
@@ -2236,6 +2237,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "&#ffb04fThis quest opens a new quest chapter!&r"
 			tasks: [{
 				id: "0545D9046F479CC6"
 				item: "modern_industrialization:industrial_apiary"
@@ -2246,7 +2248,7 @@
 		}
 		{
 			dependencies: ["776D6A3931241133"]
-			description: ["При детальном рассмотрении оказалось что &0войд жидкость&r обладает множеством полезных свойств. И имеет множество применений. "]
+			description: [" Your resent research showed that &0void fluid&r has many useful properties and applications."]
 			id: "3AA0D0C1318072F3"
 			rewards: [
 				{
@@ -2274,7 +2276,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Новая нефть"
+			subtitle: "Prometheus"
 			tasks: [{
 				id: "33A8C3DB6C993D47"
 				item: "modern_industrialization:void_bucket"
@@ -2285,7 +2287,7 @@
 		}
 		{
 			dependencies: ["3AA0D0C1318072F3"]
-			description: ["При дистилляции, оказалось что &0войд жидкость&r является аммальгамацией первородных θ-компонент которые позволяют локально уменьшить уровень реальности на 0.5юм , таким образом возможно создать эффекты локально нарушающие законы физики нормальной реальности. "]
+			description: ["After distillation, you've discovered that &0void fluid&r is a amalgamation of primordial θ-components which allow the local decrease the reality gauge by 0.5hume, thus it's possible to create some effect which locally defies the present laws of physics."]
 			id: "7D385FFA6B5BC62D"
 			rewards: [
 				{
@@ -2313,7 +2315,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "Фракции 2.0"
 			tasks: [{
 				id: "476D3C743F205FEF"
 				item: "modern_industrialization:purified_void_bucket"
@@ -2325,9 +2326,11 @@
 		{
 			dependencies: ["1576C225DFC4650C"]
 			description: [
-				"Якорь путешествия позволяет телепортироваться как на лифте, но не только по вертикали, но и горизонтали, используя ПКМ с пустой рукой или любой предмет с зачарованием на телепортацию, так же телепортироваться позволяет посох путешествия."
+				"Used to teleportation between copies of itself. Works as an elevator if other anchors placed above or underneath, or just move the screen while on anchor to visualize other anchors."
 				""
-				"Держа в руке любой блок, и нажимая ПКМ на якорь - можно его перекрасить в этот блок. "
+				"Anchors can be named."
+				""
+				"By pressing RMB with a block in hand on anchor, selected block can be used as a decoration for anchor."
 			]
 			id: "0E9BAF8C0927C467"
 			rewards: [
@@ -2355,9 +2358,9 @@
 		{
 			dependencies: ["737AFCC9E50FBD22"]
 			description: [
-				"Базовый тип обшивки для NEEP-производственных комплексов."
-				"- Не обладает самопочинкой"
-				"- Рабочая мощность 300ej/t"
+				"Basic type of machine hull for NEEP-industrial complexes."
+				"- don't have self repair"
+				"- working power is 300ej/t"
 			]
 			id: "656A8F24885D0586"
 			rewards: [
@@ -2390,7 +2393,7 @@
 		}
 		{
 			dependencies: ["656A8F24885D0586"]
-			description: ["Более дорогой вариант обшивки. Обладает самопочинкой и имеет рабочую мощность в 500eJ/t"]
+			description: ["More advanced variant of hull. Has self-repair and working power of 500eJ/t"]
 			id: "776196BD93CCF25E"
 			rewards: [{
 				count: 4
@@ -2462,8 +2465,8 @@
 		{
 			dependencies: ["5AECFFE1CF4FB438"]
 			description: [
-				"Сегмент дробления. Благодаря более точной системе очистки и измельчения, удаётся добится лучших показателей при обработке руды. В особенности удаётся достичь хороших результатов при обработке руды с другий планет."
-				"Каждый сегмент дробления обрабатывает рецепт независимо. Возможно иметь максимум 4 сегмента дробления."
+				"Functional segment of NEEPMeat modular machine. By more precise system of purification and grinding it allows more efficient ore processing. In particular the ore samples from planets yield greater outputs than earth analogs. "
+				"Every segment process a recipe independently. Machine can have up to 4 segment. "
 			]
 			id: "76E64D23DFB242E0"
 			rewards: [{
@@ -2483,7 +2486,7 @@
 		}
 		{
 			dependencies: ["5AECFFE1CF4FB438"]
-			description: ["Является шлюзом ввода предметов. Имеет достаточно большой буфер."]
+			description: ["Functional segment of NEEPMeat modular machine. Serves as an input hatch, has a decent buffer size."]
 			id: "3C7C6D7DEA759A0B"
 			rewards: [{
 				id: "7CEB35F698DD24E0"
@@ -2502,7 +2505,7 @@
 		}
 		{
 			dependencies: ["656A8F24885D0586"]
-			description: ["Аддитивно уменьшает рабочую мощность структуры. Благодаря синтезу гемоцитобластов внутри клеток древесины, возможна починка мезанизмов путём точного наращивания кристаллической решетки материала составных частей."]
+			description: ["Additively reduces the working power of structure. By synthesis of hemocytoblasts inside the wood cells the self repair is present by growing into material crystalline structure. "]
 			id: "7D6CB6EDC9F39FB6"
 			rewards: [{
 				count: 4
@@ -2520,7 +2523,7 @@
 		}
 		{
 			dependencies: ["656A8F24885D0586"]
-			description: ["Шлюз подачи интеграционной жидкости. Благодаря своим свойствам интеграционная жидкость заполняет микроповреждения механизмов и является основным вариантом починки."]
+			description: ["A hatch for integration fluid. Used to repair machine with integration fluid."]
 			id: "1E334606A5A4E9BA"
 			rewards: [{
 				count: 4
@@ -2557,7 +2560,7 @@
 		}
 		{
 			dependencies: ["1EF6D2269C192BC1"]
-			description: ["Поймайте свою первую пчелу"]
+			description: ["Catch your first &6bee&r."]
 			id: "5C6AB70C0237BBBD"
 			rewards: [{
 				count: 2
@@ -2575,7 +2578,7 @@
 		}
 		{
 			dependencies: ["00E542C1616A1D06"]
-			description: ["Возможно расположить до 4 сборщиков жира возле басейна для вытапливания."]
+			description: ["It's possible to connect up to 4 fat connectors to one basin."]
 			id: "51B900631774C8B5"
 			rewards: [{
 				count: 4
@@ -2593,7 +2596,7 @@
 		}
 		{
 			dependencies: ["51B900631774C8B5"]
-			description: ["Рудные жиры в дальнейшем должны быть выжаты с помощью гидравлического пресса."]
+			description: ["In order to refine the materials fat must be pressed with hydraulic pressure."]
 			id: "5F3E413D1F14F4C6"
 			rewards: [{
 				count: 4
@@ -2611,7 +2614,7 @@
 		}
 		{
 			dependencies: ["5F3E413D1F14F4C6"]
-			description: ["Для работы гидравлический пресс необходимо расположить над прессовочной ванной и пропустить через гидравлический пресс воду. Гидравлический пресс не требует энергии для работы. Простейший вариант установки может быть реализован с помощью продвинутых жидкостных труб."]
+			description: ["In order to work, hydraulic press must be placed directly above the basin and water must run &9through&r it. "]
 			id: "363F2AAA146837D5"
 			rewards: [{
 				count: 2
@@ -2619,6 +2622,7 @@
 				item: "modern_industrialization:large_pump"
 				type: "item"
 			}]
+			subtitle: "Pump it!"
 			tasks: [{
 				id: "2DD444FFE4E4FA0C"
 				item: "neepmeat:hydraulic_press"
@@ -2629,7 +2633,7 @@
 		}
 		{
 			dependencies: ["1C3898050AABCDD7"]
-			description: ["Свойства древних энзимов, синтезированных из просвещённого картофеля, позволяют расстворить металлы и пигменты из рабочего субстрата. Достаточно поместить руду либо листву в бассейн для вытапливания, предварительно поставив рядом сборщик жира, и подать расствор энзимов."]
+			description: ["Properties of eldritch enzymes allows to dissolve the minerals inside raw ores and some other materials like coloured leaves to obtain a fat. Just put the raw material inside the rendering basin to which the fat collector is connected."]
 			id: "00E542C1616A1D06"
 			rewards: [{
 				count: 4
@@ -2647,7 +2651,7 @@
 		}
 		{
 			dependencies: ["0379CDF7FB133E48"]
-			description: ["&4Необходим&r для поимки &6пчёл&r"]
+			description: ["Used to catch &6bees&r. Press RMB on bee to catch it."]
 			id: "1EF6D2269C192BC1"
 			tasks: [{
 				id: "1BC6F96637862566"
@@ -2659,7 +2663,7 @@
 		}
 		{
 			dependencies: ["4F2BB799C0DBD231"]
-			description: ["&6Может копировать&r настройки многих функциональных блоков. &4Нужен для связывания p2p тоннелей&r"]
+			description: ["&6Used to copy&r configuration of many functional blocks of &9ME&r system. &4Is necessary to connect p2p tunnels&r"]
 			id: "57278AE1E6C2B01B"
 			tasks: [{
 				id: "57D8FD620BA0D1BC"
@@ -2679,7 +2683,7 @@
 				"0CA1AD96AA7EB047"
 				"2137D52B7574D6BC"
 			]
-			description: ["&6Переносит&r предметы &4с блока&r на который установлена в &9МЭ&r сеть, имеет встроенный фильтр"]
+			description: ["&6Moves&r items &4from block&r on which bus is placed into &9ME&r network, has a filter."]
 			hide_dependent_lines: true
 			id: "5C0E818F2F086E7F"
 			rewards: [{
@@ -2701,7 +2705,7 @@
 				"0CA1AD96AA7EB047"
 				"2137D52B7574D6BC"
 			]
-			description: ["&6Вытаскивает&r предметы из &9МЭ&r системы &4в блок&r на который установлена, имеет встроенный фильтр"]
+			description: ["&6Moves&r items from &9ME&r system &4into&r inventory it's attached, has a filter."]
 			hide_dependent_lines: true
 			id: "7F40B9DCBD6A7764"
 			rewards: [{
@@ -2723,7 +2727,7 @@
 				"0CA1AD96AA7EB047"
 				"2137D52B7574D6BC"
 			]
-			description: ["Делает &6блок,&r &4на который установлена&r, &6хранилищем&r доступным &9МЭ&r сети, с помощью данной шины можно отдельно хранить &4конкретный&r тип ресурса в стороннем блоке. Например железо в бочке или пар в большой цистерне"]
+			description: ["Makes a storage, to which storage bus is connected, part of &9ME&r system, if you want to store specific resource in some physical place rather than storage cell."]
 			id: "78CAA53FF8977E02"
 			rewards: [{
 				id: "5609F766F872A249"
@@ -2740,7 +2744,7 @@
 		}
 		{
 			dependencies: ["317262F88412FFA8"]
-			description: ["&6Терминал доступа&r к &9МЭ&r с &4встроенным верстаком&r"]
+			description: ["Terminal with a crafting table."]
 			id: "1CE78A14F8C9BB51"
 			rewards: [
 				{
@@ -2774,7 +2778,7 @@
 				"2137D52B7574D6BC"
 				"0CA1AD96AA7EB047"
 			]
-			description: ["&6Терминал доступа&r к &9МЭ&r"]
+			description: ["&6Access points&r to &9ME&r system"]
 			id: "317262F88412FFA8"
 			rewards: [
 				{
@@ -2814,7 +2818,7 @@
 		}
 		{
 			dependencies: ["317262F88412FFA8"]
-			description: ["&6Открывает возможность&r &4удаленно&r управлять расположением закодированных &4шаблонов&r"]
+			description: ["&6Allows&r &4remote&r change of encoded crafting &4patterns&r"]
 			id: "247B1BB8A16601F6"
 			rewards: [
 				{
@@ -2844,7 +2848,7 @@
 		}
 		{
 			dependencies: ["317262F88412FFA8"]
-			description: ["&6Терминал&r для &4кодировки шаблонов&r, закодированные шаблоны используются для автокрафтов"]
+			description: ["&6Terminal&r which is used for &4pattern encoding&r for automatic crafting."]
 			id: "38E5F4922D493854"
 			rewards: [
 				{
@@ -2874,7 +2878,7 @@
 		}
 		{
 			dependencies: ["317262F88412FFA8"]
-			description: ["&6Отображает&r количество &4выбранного&r предмета в &9МЭ&r сети"]
+			description: ["&6Displays&r the ammount of &4specified&r item presented in &9ME&r network."]
 			id: "08C186099DBD4CFB"
 			rewards: [
 				{
@@ -2907,7 +2911,7 @@
 				"5C0E818F2F086E7F"
 				"7F40B9DCBD6A7764"
 			]
-			description: ["Меняет работу фильтров, если раньше был принцип белого листа, то теперь черного"]
+			description: ["Changes the filter behaviour, from whitelist to blacklist mode."]
 			id: "53882396C66C3166"
 			min_required_dependencies: 1
 			rewards: [{
@@ -2928,7 +2932,7 @@
 				"5C0E818F2F086E7F"
 				"7F40B9DCBD6A7764"
 			]
-			description: ["Добавляет возможность реакции на сигнал редстоуна"]
+			description: ["Adds redstone control."]
 			id: "5D0DA86167F6A003"
 			min_required_dependencies: 1
 			rewards: [{
@@ -2949,7 +2953,7 @@
 				"5C0E818F2F086E7F"
 				"7F40B9DCBD6A7764"
 			]
-			description: ["Уменьшает предирчивость фильтра к выбранным предметам, например по фильтру меча теперь будут приниматься мечи с любыми чарами и любой прочностью, а не с конкретно указанным как раньше"]
+			description: ["Adds fuzzy filtering, like ignoring durability or some other nbt's."]
 			id: "674EE15A872B2D82"
 			min_required_dependencies: 1
 			rewards: [{
@@ -2970,7 +2974,7 @@
 				"5C0E818F2F086E7F"
 				"7F40B9DCBD6A7764"
 			]
-			description: ["Увеличивает размер фильтра"]
+			description: ["Increases the filter size"]
 			id: "22FEC39BFE582491"
 			rewards: [{
 				id: "6283653262C61B79"
@@ -2990,7 +2994,7 @@
 				"5C0E818F2F086E7F"
 				"7F40B9DCBD6A7764"
 			]
-			description: ["Может автоматически заказывать в МЭ системе для крафта выбранный предмет при определенных условиях"]
+			description: ["Allows the craft requests from &9ME&r network on specified conditions. "]
 			id: "36B05D8588934F3E"
 			rewards: [{
 				id: "5848263D2A1610E1"
@@ -3010,7 +3014,7 @@
 				"5C0E818F2F086E7F"
 				"7F40B9DCBD6A7764"
 			]
-			description: ["Ускоряет работу указанных в описании машинок"]
+			description: ["Increase operating speed of machines specified in tooltip"]
 			id: "1E3F00827DE81A29"
 			rewards: [{
 				count: 2
