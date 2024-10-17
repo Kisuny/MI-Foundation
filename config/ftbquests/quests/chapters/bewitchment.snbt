@@ -11,9 +11,9 @@
 		{
 			dependencies: ["21952F0799457083"]
 			description: [
-				"&3Церемониальный клинок&r основной &eритуальный инструмент&r используемый в традициях церемониальной &5магии&r, &5колдовстве&r, а также &4сатанинскими&r традициями, неплохоя начало, &eверно?&r "
+				"&3Athame&r is a basic &eritual tool&r used in the traditions of ceremonial &5magic&r, &5witchcraft&r, and &4Satanic&r traditions, not a bad start, &eright&r?"
 				""
-				"Позволяет снимать кору с &2деревьев&r, собирать &4кровь&r!"
+				"Allows you to strip bark from &2trees&r, collect &4blood&r!"
 			]
 			hide: false
 			id: "43F09C084B765ACB"
@@ -48,9 +48,9 @@
 		{
 			dependencies: ["71691F178B73D85A"]
 			description: [
-				"&eКотёл&r позволяет создавать &eэкстракты&r, &eзелья&r, &eсыворотки&r."
+				"The &ecauldron&r allows you to create &eextracts&r, &epotions&r, &eserums&r."
 				""
-				"Чтобы создать зелья - используйте &3колбочки&r!"
+				"To create potions - use &3Glass bottles&r!"
 			]
 			hide: false
 			id: "487B6452F0767918"
@@ -79,11 +79,10 @@
 		}
 		{
 			dependencies: ["43F09C084B765ACB"]
-			description: ["Кору можно собрать при помощи &eатамэ&r нажав &6ПКМ&r на ванильное &aдерево&r!"]
+			description: ["Bark can be collected with &eatame&r by &6right-clicking&r on the vanilla &atree&r!"]
 			hide: false
 			id: "71691F178B73D85A"
 			shape: "hexagon"
-			subtitle: "Собери чуток коры!"
 			tasks: [{
 				count: 8L
 				id: "00E85DB6BAC7D99C"
@@ -97,18 +96,18 @@
 				title: "Any #bewitchment:barks"
 				type: "item"
 			}]
-			title: "Кора"
+			title: "Barks"
 			x: 0.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["71691F178B73D85A"]
 			description: [
-				"&eАлтарь&r — буквально &nместо силы&r, только его не защищает парочку утопленников, только если вы не утопленник, ибо защищать его придется вам и черпать силу &2земли&r из &2огурцов&r, &2саженцев&r, &2листвы&r и других &l&2НаТуРаЛьНыХ&r&r продуктов."
+				"&eAltar&r is literally a &nplace of power&r, only it is not protected by a couple of drowners, only if you are not a drowner, because you will have to protect it and draw the power of the &2earth&r from &2cucumbers&r, &2saplings&r, &2leaves&r and other &l&2NaTuRaL&r&r products."
 				""
-				"Местные ведьмы зовут эту энергию «&5МЕ&r», что переводится как &5Магическая Энергия&r, почему МЕ? Не спрашивайте… Я всего лишь рассказчик..."
+				"The local witches call this energy «&5ME&r»."
 				""
-				"К слову, данный алтарь работает в радиусе &e15 блоков&r от себя!"
+				"By the way, this altar works within a &e15 block&r radius of itself!"
 			]
 			hide: false
 			id: "2F4271A3A964841E"
@@ -138,11 +137,11 @@
 		{
 			dependencies: ["487B6452F0767918"]
 			description: [
-				"&3Алтарь&r поможет найти тех, кого найти невозможно и &3воскресить&r тех, кого воскресить ранее было невозможно!"
+				"&3Altar&r will help you find those who cannot be found and &3revive&r those who could not be revived before!"
 				""
-				"Для призыва сущности алтарём необходимо дать ему &eтребуемы ресурсы&r, а в конце использовать &cкаталист&r, немного подождать и всё готово! "
+				"To summon an entity with the altar you need to give it the &erequired resources&r, and at the end use the &ccatalyst&r, wait a little and it's done!"
 				""
-				"&6Этот квест открывает новую ветку квестов!&r"
+				"&6This quest opens a new branch of quests!&r"
 			]
 			hide: false
 			id: "655FCBA5BCD261EC"
@@ -153,7 +152,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Позволяет призывать мобов"
+			subtitle: "Allows you to summon mobs"
 			tasks: [{
 				id: "36360EFE35A457AC"
 				item: "summoningrituals:altar"
@@ -164,7 +163,7 @@
 		}
 		{
 			dependencies: ["0570BD91B563EE19"]
-			description: ["Все саженцы - как саженцы, а этот &lСАЖЕНЧИЩЕ&r, и находится… В &l&4аду&r...&r"]
+			description: ["All seedlings are like seedlings, and this one is &lSAPLING&r, and is... In &l&4Nether&r....&r"]
 			hide: false
 			id: "632ED9F4036B2BD9"
 			rewards: [{
@@ -183,7 +182,7 @@
 		}
 		{
 			dependencies: ["6066ED30BB59CCD5"]
-			description: ["Сила &eСвета(ы)&r"]
+			description: ["The power of &eLight&r"]
 			hide: true
 			id: "31BE75AF322158DE"
 			rewards: [{
@@ -203,7 +202,7 @@
 		}
 		{
 			dependencies: ["6066ED30BB59CCD5"]
-			description: ["Сила &4Крови&r"]
+			description: ["The power of &4Blood&r"]
 			hide: true
 			id: "7764EF566B5B57C6"
 			rewards: [{
@@ -223,7 +222,7 @@
 		}
 		{
 			dependencies: ["6066ED30BB59CCD5"]
-			description: ["Сила &1Воды&r"]
+			description: ["The power of &1Water&r"]
 			hide: true
 			id: "0090EC720B268775"
 			rewards: [{
@@ -243,7 +242,7 @@
 		}
 		{
 			dependencies: ["6066ED30BB59CCD5"]
-			description: ["Сила &6Огня&r"]
+			description: ["The power of &6Fire&r"]
 			hide: true
 			id: "62708BA53D104194"
 			rewards: [{
@@ -263,7 +262,7 @@
 		}
 		{
 			dependencies: ["6066ED30BB59CCD5"]
-			description: ["Сила &2Земли&r"]
+			description: ["The power of &2Earth&r"]
 			hide: true
 			id: "693D890736AE75FD"
 			rewards: [{
@@ -283,7 +282,7 @@
 		}
 		{
 			dependencies: ["6066ED30BB59CCD5"]
-			description: ["Сила &7Воздуха&r"]
+			description: ["The power of &7air&r"]
 			hide: true
 			id: "66F362FC22E49168"
 			rewards: [{
@@ -307,9 +306,9 @@
 				"2F4271A3A964841E"
 			]
 			description: [
-				"&2Моль&r можно призвать в алтаре призыва, имейте ввиду, моль летит на всё &eсветлое&r ночью! "
+				"&2Moths&r can be summoned at the summoning altar, keep in mind, moths fly at anything &elight&r at night!"
 				""
-				"&3&nСлучайный&r&r взмах &eАтамэ&r перед молью дал вам понять, что острое лезвие &eАтамэ&r может &eумножить&r количество их крылышек в несколько раз! "
+				"&3&nRandom&r&r swipe of &eAtame&r in front of a moth let you know that &eAtame's&r sharp blade can &emultiply&r the number of their wings several times over!"
 			]
 			hide: false
 			id: "6066ED30BB59CCD5"
@@ -330,13 +329,7 @@
 		}
 		{
 			dependencies: ["31BE75AF322158DE"]
-			description: [
-				"Используя силы &eсвета&r, &eОжерелье Назара&r обычно используются для защиты от &cПроклятий&r"
-				""
-				"При ношении оно сократит продолжительность любого &cПроклятия&r пополам."
-				""
-				"Для этого требуется около половины средств владельца &5Магической энергии&r"
-			]
+			description: ["you can read more about what this trinket does in the book!"]
 			hide: true
 			id: "17F63A3F2F097B40"
 			rewards: [
@@ -364,13 +357,7 @@
 		}
 		{
 			dependencies: ["0090EC720B268775"]
-			description: [
-				"&eКолючий пояс&r - удобная безделушка, способная сохранять статусные &5эффекты&r."
-				""
-				"При нападении владелец получит &eположительные эффекты&r, а атакующий - &eотрицательные&r, стоимостью &5Mагической Энергии&r"
-				""
-				"Чтобы добавить эффект статуса, просто объедините пояс с зельем."
-			]
+			description: ["you can read more about what this trinket does in the book!"]
 			hide: true
 			id: "240AF7F8B8249CA6"
 			rewards: [
@@ -398,11 +385,7 @@
 		}
 		{
 			dependencies: ["62708BA53D104194"]
-			description: [
-				"Благодаря силе &6огня&r адская безделушка делает владельца &6невосприимчивым к огню&r, используя &5Магическую энергию&r."
-				""
-				"Будучи изготовленным из &8незерита&r, этот предмет полностью &6огнестойкий&r."
-			]
+			description: ["you can read more about what this trinket does in the book!"]
 			hide: true
 			id: "1D91D110CF7CDAD2"
 			rewards: [
@@ -430,11 +413,7 @@
 		}
 		{
 			dependencies: ["66F362FC22E49168"]
-			description: [
-				"&eНакидка лёгкости&r делает своего владельца неудержимым, как самый сильный ветер, полностью сводя на нет большинство форм &eотбрасывания&r. "
-				""
-				"Кроме этого, Накидка позволяет ее владельцу подбрасывать объекты в воздух, нанося им удары только кулаком. Однако, это потребляет &5Магическую энергию&r."
-			]
+			description: ["you can read more about what this trinket does in the book!"]
 			hide: true
 			id: "74CEDE3194C38829"
 			rewards: [
@@ -463,9 +442,9 @@
 		{
 			dependencies: ["4B38ECA09E439311"]
 			description: [
-				"Всё &aначинается&r с малого!"
+				"It all &astarts&r with a small one!"
 				""
-				"&2Семена&r выпадают из обычной &2травы&r, собери все типы, они очень &eпомогут&r тебе!"
+				"&2Seeds&r fall from common &2grass&r, collect all types, they will &ehelp&r you a lot!"
 			]
 			hide: false
 			id: "2E7592297D492824"
@@ -497,7 +476,7 @@
 		}
 		{
 			dependencies: ["2E7592297D492824"]
-			description: ["Книга знаний или же проводник по моду, каждый решает для себя сам."]
+			description: ["A book of knowledge or a guide to mod, everyone decides for themselves."]
 			hide: false
 			id: "21952F0799457083"
 			rewards: [{
@@ -518,9 +497,9 @@
 		{
 			dependencies: ["6066ED30BB59CCD5"]
 			description: [
-				"&3Экстрактор ДНК&r - инструмент. Он может собирать &eволосы&r, &4кровь&r и все, что необходимо для установления связи."
+				"&3Taglock&r is a tool. It can collect &ehair&r, &4blood&r, and anything else needed to make a connection."
 				""
-				"Чтобы получить &3ДНК&r от объекта, либо &eподкрадитесь сзади&r, либо найдите его &eкровать&r. Чтобы использовать &3Экстрактор ДНК&r на кровати, используйте его с [Shift], чтобы случайно не заснуть на кровати."
+				"To get &3DNA&r from a player, either sneak up behind him or find his &ebed&r. To use the &3Taglock&r on the bed, use it with [Shift] so you don't accidentally fall asleep on the bed."
 			]
 			hide: true
 			id: "55265F3EA14BEC56"
@@ -552,7 +531,7 @@
 				"079D94A8F2935E15"
 				"655FCBA5BCD261EC"
 			]
-			description: ["&bДуши&r можно крафтить, а так же их можно получить из &eспектральных фамильярах&r в будущем. "]
+			description: ["&bSouls&r can be crafted, and can also be obtained from &espectral familiars&r in the future."]
 			hide: true
 			id: "2114C1C6DC158DE7"
 			rewards: [{
@@ -572,7 +551,7 @@
 		}
 		{
 			dependencies: ["632ED9F4036B2BD9"]
-			description: ["Ещё один особенный наш, его можно найти в &bгорах&r, а так же это &2дерево&r может помочь пробудить лешего, но так в сказках писали, мы сами лично не проверяли, звучит &0страшно&r…  Как из лужицы пить… &mБее…&r"]
+			description: ["Another special one is ours, it can be found in the &bmountains&r, as well as this &2tree&r can help to awaken the leshon, but so in fairy tales wrote, we personally have not checked, sounds &0scary&r... Like drinking from a puddle... &mUgh.....&r"]
 			hide: true
 			id: "0E9ABFC9A24133BC"
 			rewards: [{
@@ -592,9 +571,9 @@
 		{
 			dependencies: ["0E9ABFC9A24133BC"]
 			description: [
-				"Как призвать &cЛешона&r можно узнать нажав на алтарь призыва ПКМ и найдя его в списке крафтов."
+				"You can find out how to summon &cLeshon&r by right-clicking on the summon altar and finding it in the crafting list."
 				""
-				"Будь вы &lдобычливы&r, сможете получить его &3череп&r! А череп этот, очень &3полезный&r!"
+				"If you have &llooting&r, you will be able to get his &3skull&r! And this skull is very &3useful&r!"
 			]
 			hide: true
 			id: "657A89AAEEA13EB3"
@@ -637,7 +616,7 @@
 		}
 		{
 			dependencies: ["657A89AAEEA13EB3"]
-			description: ["Выбив &7череп&r &cлешего&r попробуйте в его форме нажать &6ПКМ&r на &2дерево магическое&r, вдруг будет какой-то &dэффект&r?"]
+			description: ["After getting the &7skull&r of a &cleshchem&r try to &6right-click&r on a &2magical tree&r in its form, suddenly there will be some &deffect&r?"]
 			hide: true
 			id: "0333FE50BB0D6BF9"
 			rewards: [
@@ -675,13 +654,13 @@
 		{
 			dependencies: ["164CF7324390B1A9"]
 			description: [
-				"&l&5Bewitchment&r&r — Мод, погружающий вас в магию &2природы,&r &4призыва&r и &dведьм.&r "
+				"&l&5Bewitchment&r&r - A mod that immerses you in the magic of &2nature&r, &4summoning&r and &dwitches&r."
 				""
-				"Вам предстоит узнать кто такой Леший, зачем нужна &4кровь&r, что таит в себе &eхрустальный шар&r, как &cпризвать&r ваших врагов? Или быть может это ваши союзники. "
+				"You will have to find out who is the Leshy, why do you need &4blood&r, what is the &ecrystal ball&r, how to &csummon&r your enemies? Or maybe they are your allies."
 				""
-				"Вы сможете превратить своего персонажа в &4вампира&r и пить чужую &4людскую кровь&r, превращаться в &eлетучих мышей&r или быть может вы захотите стать &3оборотнем&r и завывать на &7луну&r с каждым её восходом?"
-				" "
-				"Вы так же сможете проклинать &eсебя&r, своих &2друзей&r, &4врагов&r, воровать чужой облик, призывать &1дождь&r и т.д!"
+				"You can turn your character into a &4vampire&r and drink other &4people's blood&r, turn into &ebats&r or maybe you want to become a &3werewolf&r and howl at the &7moon&r with every moonrise?"
+				""
+				"You will also be able to curse &eyourself&r, your &2friends&r, enemies, steal other people's form, summon &1rain&r, etc.!"
 			]
 			hide: true
 			icon: "bewitchment:blessed_stone"
@@ -697,7 +676,7 @@
 		}
 		{
 			dependencies: ["487B6452F0767918"]
-			description: ["&2Cаженцы&r можно найти в &eмире&r как обычные &2деревья&r."]
+			description: ["&2Saplings&r can be found all over the &eworld&r as regular &2trees&r."]
 			hide: false
 			id: "0570BD91B563EE19"
 			rewards: [{
@@ -728,13 +707,7 @@
 		}
 		{
 			dependencies: ["693D890736AE75FD"]
-			description: [
-				"&eПовязка Друида&r - мощный аксессуар &2земли&r."
-				""
-				"При ношении она увеличит вашу &3скорость передвижения&r и &3регенерацию&r, пока вы ходите по &2естественной почве&r, такой как &2трава&r."
-				""
-				"Когда она активна, повязка Друида потребляет &5Магическую Энергию&r."
-			]
+			description: ["you can read more about what this trinket does in the book!"]
 			hide: true
 			id: "25B84095E9B20DD7"
 			rewards: [
@@ -762,11 +735,7 @@
 		}
 		{
 			dependencies: ["7764EF566B5B57C6"]
-			description: [
-				"Эта великолепная безделушка будет сгибать &eтени&r вокруг владельца, пока он &eкрадется&r. "
-				""
-				"Это потребляет &5Магическую Энергию&r и сделает носителя полностью &3невидимым&r, только легкий дым намекает на присутствие &nносителя&r."
-			]
+			description: ["you can read more about what this trinket does in the book!"]
 			hide: true
 			id: "6284E2153125A318"
 			rewards: [
@@ -795,11 +764,11 @@
 		{
 			dependencies: ["43F09C084B765ACB"]
 			description: [
-				"&4Кровь&r можно получить разными способами:"
+				"&4Blood&r can be obtained in a variety of ways:"
 				""
-				"• &4Убив&r живое существо при помощи &eАтамэ&r с &3пустой бутылочкой&r в второй руке, &2живым&r существом является игрок/ведьма/разбойника/пиглин/брутальный пиглин/вампир."
+				"• By &4killing&r a living creature using &eAtame&r with an &3empty bottle&r in the second hand, the &2living&r creature is a player/witch/pillager/piglin/brutal pyglin/vampire."
 				""
-				"• Так же &4кровь&r можно получить из &eсебя&r, держа кубок в второй руки и нажимая ПКМ при помощи &eАтамэ&r, установив &eкубок&r на землю можно собрать кровь &3пустой бутылочкой&r!"
+				"• You can also get &4blood&r from &eyourself&r by holding a goblet in your second hand and pressing RMB with &eAtame&r, by placing the &egoblet&r on the ground you can collect blood with an &3empty bottle&r!"
 			]
 			id: "5F1FB12DCC0E67DA"
 			rewards: [{

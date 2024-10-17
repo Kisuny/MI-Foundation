@@ -18,7 +18,7 @@
 	quests: [
 		{
 			dependencies: ["664A12765CF548C8"]
-			description: ["Камень можно сделать из камня «&l&aПосохом природы&r&r», если хотите создавать его автоматически — соберите чёрношлак и поставьте рядом с «чистой маргориткой»."]
+			description: ["To create the stone - collect the blackslag and place it next to the «pure daisy»."]
 			hide: true
 			id: "7DD2206DF25D8DC3"
 			rewards: [
@@ -47,7 +47,7 @@
 		}
 		{
 			dependencies: ["664A12765CF548C8"]
-			description: ["Древесину можно сделать из любой древесины «&l&aПосохом природы&r&r», если хотите создавать её автоматически — ставьте мракогриб рядом с «чистой маргориткой»."]
+			description: ["To create wood - put noxcap next to «pure daisy»."]
 			hide: true
 			id: "5FA31A55E3348D51"
 			rewards: [
@@ -75,7 +75,7 @@
 		}
 		{
 			dependencies: ["3EAED60DF7CE15EB"]
-			description: ["Создайте свой первый аптекарь!"]
+			description: ["Create your first apothecary!"]
 			hide: true
 			id: "7DBF29B0CA3AB04F"
 			rewards: [{
@@ -619,7 +619,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Мана за воду"
+			subtitle: "Mana for water"
 			tasks: [{
 				id: "772AD462A07F1293"
 				item: "botania:hydroangeas"
@@ -646,7 +646,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Мана за горючие предметы"
+			subtitle: "Mana for flammable items"
 			tasks: [{
 				id: "770AD4FB93BFC2FA"
 				item: "botania:endoflame"
@@ -673,7 +673,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Мана за лаву"
+			subtitle: "Mana for lava"
 			tasks: [{
 				id: "7CF62EA7DF12A1CA"
 				item: "botania:thermalily"
@@ -700,7 +700,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Мана за опыт"
+			subtitle: "Mana for experience"
 			tasks: [{
 				id: "3C0289C251C27FCB"
 				item: "botania:rosa_arcana"
@@ -727,7 +727,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Мана за листья"
+			subtitle: "Mana for leaves"
 			tasks: [{
 				id: "63585DD6452AFB14"
 				item: "botania:munchdew"
@@ -754,7 +754,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Мана за взрыв TNT"
+			subtitle: "Mana for TNT explosion"
 			tasks: [{
 				id: "4FA23882124A0788"
 				item: "botania:entropinnyum"
@@ -781,7 +781,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Мана за тортики"
+			subtitle: "Mana for the cakes"
 			tasks: [{
 				id: "163A2B3DFD643535"
 				item: "botania:kekimurus"
@@ -808,7 +808,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Мана за еду"
+			subtitle: "Mana for food"
 			tasks: [{
 				id: "31F8D391E68A5680"
 				item: "botania:gourmaryllis"
@@ -834,7 +834,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Убивает всех, кроме игрока"
+			subtitle: "Kills everyone except the player"
 			tasks: [{
 				id: "652E99EE289A2E0A"
 				item: "botania:bellethorn"
@@ -860,7 +860,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Убивает взрослых животных"
+			subtitle: "Kills grown animals"
 			tasks: [{
 				id: "144B11E5BE1986F9"
 				item: "botania:dreadthorn"
@@ -886,7 +886,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Проивзодит мистические цветы ценой маны"
+			subtitle: "Produces mystical flowers at the cost of mana."
 			tasks: [{
 				id: "18AE9686F134549D"
 				item: "botania:jaded_amaranthus"
@@ -897,7 +897,7 @@
 		}
 		{
 			dependencies: ["7E5C457A7E9FC7E7"]
-			description: ["Поддерживает большинство руд!"]
+			description: ["Supports most ores!"]
 			id: "509B6DD112C0E88D"
 			rewards: [
 				{
@@ -913,7 +913,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Создаёт руду за ману и породу"
+			subtitle: "Creates ore for mana and stones"
 			tasks: [{
 				id: "7EFE1A89EEF64463"
 				item: "botania:orechid"
@@ -939,7 +939,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Регенерация 3 за ману"
+			subtitle: "Regeneration 3 for mana"
 			tasks: [{
 				id: "4BBD168B5D27A533"
 				item: "botania:fallen_kanade"
@@ -965,7 +965,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Заправляет печки и ускоряет их работу"
+			subtitle: "Fills the furnaces and speeds up their operation"
 			tasks: [{
 				id: "3229D485FCFEC4AA"
 				item: "botania:exoflame"
@@ -991,7 +991,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Ускоряет рост культур ценой маны"
+			subtitle: "Accelerates the growth of crops at the cost of mana"
 			tasks: [{
 				id: "2AABB97791FA9DB9"
 				item: "botania:agricarnation"
@@ -1017,7 +1017,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Воронка но с большим радиусом подбора и работает за ману"
+			subtitle: "Funnel but with a larger picking radius and works for mana"
 			tasks: [{
 				id: "65C0DA927259FA16"
 				item: "botania:hopperhock"
@@ -1043,7 +1043,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Не даёт монстрам/животным выйти из зоны своего действия"
+			subtitle: "Keeps monsters/animals out of its range"
 			tasks: [{
 				id: "520D443E9E728491"
 				item: "botania:tangleberrie"
@@ -1069,7 +1069,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Отпугивает монстров/животных не давая их подойти к вашей базе"
+			subtitle: "Scares away monsters/animals, preventing them from approaching your base"
 			tasks: [{
 				id: "1E760FB46C498AB6"
 				item: "botania:jiyuulia"
@@ -1095,7 +1095,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Ставит блоки на указанный блок"
+			subtitle: "Places blocks on the specified block"
 			tasks: [{
 				id: "294C24C773C8C4B8"
 				item: "botania:rannuncarpus"
@@ -1121,7 +1121,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Отравляет мобов"
+			subtitle: "Poisons the mobs"
 			tasks: [{
 				id: "47189DE24AB5CF7D"
 				item: "botania:hyacidus"
@@ -1147,7 +1147,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Размножает животных едой"
+			subtitle: "Breeds animals with food"
 			tasks: [{
 				id: "63E46AD5519AE301"
 				item: "botania:pollidisiac"
@@ -1173,7 +1173,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Ценой большого количества маны порождает мобов при убийтсве которых будет выпадать лут из данжа"
+			subtitle: "At the cost of a large amount of mana spawns mobs when killing which will drop loot from the dungeon"
 			tasks: [{
 				id: "554E10917D2DD1CA"
 				item: "botania:loonium"
@@ -1199,7 +1199,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Толкает предметы в сторону своего обзора"
+			subtitle: "Pushes items in the direction of his view"
 			tasks: [{
 				id: "3535AC336AFDBA51"
 				item: "botania:daffomill"
@@ -1225,7 +1225,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Запрещает телепортироваться эндермэнам в зоне действия цветка за ману"
+			subtitle: "Prohibits Endermen from teleporting within range of the flower for mana"
 			tasks: [{
 				id: "18BEB96095CF8992"
 				item: "botania:vinculotus"
@@ -1251,7 +1251,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Телепортирует предметы"
+			subtitle: "Teleports items"
 			tasks: [{
 				id: "5B48869497D4E36C"
 				item: "botania:spectranthemum"
@@ -1277,7 +1277,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Замораживает мобов, те перестают двигаться"
+			subtitle: "Freezes mobs, they stop moving."
 			tasks: [{
 				id: "77368E466EA9F8B9"
 				item: "botania:medumone"
@@ -1303,7 +1303,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Убирате воду ценой маны, удобно для подводных баз."
+			subtitle: "Remove water at the cost of mana, useful for underwater bases."
 			tasks: [{
 				id: "6C75E84C513E52FA"
 				item: "botania:bubbell"
@@ -1329,7 +1329,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Создаёт адскую руду за ману и адский камень"
+			subtitle: "Creates nether ore for mana and netherrack"
 			tasks: [{
 				id: "5259A82ECD3CEC42"
 				item: "botania:orechid_ignem"
@@ -1340,12 +1340,12 @@
 		}
 		{
 			dependencies: ["7DBF29B0CA3AB04F"]
-			description: ["Генерирующая - создающая &bману&r, все цветки этой категории занимаются &lсозданием&r &bманы&r!"]
+			description: ["Generating flora - creating &bmana&r, all flowers in this category are &lengaged&r in &bmana&r creation!"]
 			id: "73E89696B8014546"
 			shape: "gear"
 			tasks: [{
 				id: "0BA963C1B4BACED4"
-				title: "Генерирующая флора"
+				title: "Generating flora"
 				type: "checkmark"
 			}]
 			x: 1.0d
@@ -1353,12 +1353,12 @@
 		}
 		{
 			dependencies: ["7DBF29B0CA3AB04F"]
-			description: ["Функциональная - &lиспользующая&r, все цветки этой категории &oпотребляют&r &bману&r и предоставлвяют определенный функционал, в зависимости от цветка."]
+			description: ["Functional flora - &lusing&r, all flowers in this category &oconsume&r &bmana&r and provide some functionality, depending on the flower."]
 			id: "7E5C457A7E9FC7E7"
 			shape: "gear"
 			tasks: [{
 				id: "7874ED3E8DB28289"
-				title: "Функциональная флора"
+				title: "Functional flora"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -1388,11 +1388,11 @@
 		{
 			dependencies: ["5E9A8B25A318CD11"]
 			description: [
-				"Вам доступно 2 способа создать мана слиток"
+				"You have 2 ways to create a mana ingot"
 				""
-				"• За магическую сталь - потеряв меньш &bманы&r."
+				"• For magical steel - losing lesser &bmana&r."
 				""
-				"• За обычную сталь - потеряв куда больше &bманы&r."
+				"• For common steel - losing a lot more &bmana&r."
 			]
 			hide: true
 			id: "4B5A35FB7FEE1E6B"
@@ -1488,7 +1488,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "Создайте портал в эльфхейм"
+			subtitle: "Create a portal to Elven"
 			tasks: [{
 				id: "4AF9F8C704EE805C"
 				item: "botania:alfheim_portal"
@@ -1682,7 +1682,7 @@
 				"3018AF7A6669D930"
 				"4B5A35FB7FEE1E6B"
 			]
-			description: ["Создание &aтеррастали&r доступно только через спектрум, для создания террастали необходимо вырастить её в кристаллярие с использованием террастального катализатора."]
+			description: ["Creating a &aterrastal&r is only available through spectrum, to create a terrastal you must grow it in crystallarieum using a terrastal catalyst."]
 			hide: true
 			id: "0FD878AAB9458CE9"
 			rewards: [
@@ -1709,7 +1709,7 @@
 		}
 		{
 			dependencies: ["5A85F7635956BE2F"]
-			description: ["Фактически - креативный полёт."]
+			description: ["In fact - creative flight."]
 			hide: true
 			id: "24BF8E5FA58AB7FD"
 			shape: "gear"
@@ -1968,7 +1968,7 @@
 				"0379CDF7FB133E48"
 				"3FB65AE45A1ABAF0"
 			]
-			description: ["&6Этот квест открывает новую ветку квестов!&r"]
+			description: ["&6This quest opens a new chapter of quests!&r"]
 			id: "0BE7C888A9C0463D"
 			rewards: [
 				{
@@ -1983,13 +1983,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Вероятно, что с данной формой &bманы&r механизмы смогут взаимодействовать?"
+			subtitle: "Is it likely that mechanisms will be able to interact with this form of &bmana&r?"
 			tasks: [{
 				id: "23E45A2FACE59F9B"
 				item: "modern_industrialization:liquid_mana_bucket"
 				type: "item"
 			}]
-			title: "Более материальная форма маны"
+			title: "A more material form of mana"
 			x: -3.0d
 			y: -8.5d
 		}
@@ -1999,21 +1999,21 @@
 				"5E9A8B25A318CD11"
 			]
 			id: "3FB65AE45A1ABAF0"
-			subtitle: "Возможна ли автоматизация, что похожа на уже привычные вещи?"
+			subtitle: "Is automation possible that is similar to the things you are already used to?"
 			tasks: [{
 				id: "1E520641253A0E2A"
 				type: "checkmark"
 			}]
-			title: "Интеграция с технологиями"
+			title: "Integration with technology"
 			x: -1.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["7AC1920BD7A9329E"]
 			description: [
-				"Цветы нужно оживить в «Высекатель Духа»"
+				"Flowers need to be revitalized in the «Spirit Instiller»"
 				""
-				"Окаменевшие Цветы можно найти в глубоких низинах, если ходить возле кладбищ или добыть с луны!"
+				"Fossilized Flowers can be found in the deeper down by walking near graveyards or mining from the moon!"
 			]
 			hide: true
 			id: "3EAED60DF7CE15EB"
@@ -2050,7 +2050,7 @@
 				title: "Any #botania:mystical_flowers"
 				type: "item"
 			}]
-			title: "Цветочки"
+			title: "Flowers"
 			x: 0.0d
 			y: -2.5d
 		}
