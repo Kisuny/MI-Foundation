@@ -249,7 +249,7 @@ LootJS.modifiers((event) => {
             LootEntry.of('probablychests:gold_key').withWeight(30),
             LootEntry.of('kubejs:kozel_dark').withWeight(20),
             LootEntry.of('simplyswords:empowered_remnant').withWeight(20),
-            LootEntry.of('kubejs:tears_of_the_sea').withWeight(1),
+            LootEntry.of('kubejs:tears_of_the_sea').withWeight(8),
         ])
         .addCondition(condition)
         .removeLoot('*')

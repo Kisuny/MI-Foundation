@@ -4,7 +4,7 @@
       "tag": "spectrum:liquid_crystal"
     }
   },
-  "chance": 0.05,
+  "chance": 0.1,
   "entities": [
     {
       "id": "minecraft:salmon",

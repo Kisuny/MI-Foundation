@@ -4,7 +4,7 @@
         "tag": "spectrum:mud"
       }
     },
-    "chance": 0.01,
+    "chance": 0.1,
     "entities": [
       {
         "id": "minecraft:tadpole",

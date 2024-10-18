@@ -13,7 +13,7 @@
         }
     },
     "dimension": "minecraft:overworld",
-    "chance": 0.1,
+    "chance": 0.3,
     "entities": [
         {
             "id": "minecraft:phantom",

@@ -14,7 +14,7 @@
       "minecraft:nether"
     ]
   },
-  "chance": 0.01,
+  "chance": 0.1,
   "entities": [
     {
       "id": "minecraft:magma_cube",
