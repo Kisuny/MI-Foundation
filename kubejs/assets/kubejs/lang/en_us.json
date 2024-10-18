@@ -89,5 +89,10 @@
     "kubejs.lucky_scarf.tooltip_1": "🎣 can get by fishing creatures, from a «Risen from the dragonrot»",
     "kubejs.lucky_scarf.tooltip_2": "conditions for catching «Risen from the dragonrot»: Dragonrot.",
     "kubejs.running_shoes.tooltip_1": "🎣 can get by fishing creatures, from a «Nibbler»",
-    "kubejs.running_shoes.tooltip_2": "conditions for catching «Nibbler»: Dragonrot."
+    "kubejs.running_shoes.tooltip_2": "conditions for catching «Nibbler»: Dragonrot.",
+    "kubejs.tooltip.space_miner":"Space Miner",
+    "kubejs.tooltip.charnel_pump":"Charnel Pump",
+    "kubejs.tooltip.charnel_pump.biome":"Biome: ",
+    "kubejs.tooltip.text.mercury_venus":"Mercury, Venus",
+    "kubejs.tooltip.text.nowhere":"Nowhere"
 }

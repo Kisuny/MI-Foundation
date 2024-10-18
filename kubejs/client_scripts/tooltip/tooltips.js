@@ -280,32 +280,32 @@ ItemEvents.tooltip(tooltip => {
     })
 
     const raw_ores = [
-        { name: 'kubejs:octiron_shards', charnel_pump: 'Луна', space_miner: '' },
-        { name: 'kubejs:raw_naquadah', charnel_pump: 'Меркурий', space_miner: '' },
-        { name: 'kubejs:raw_turbinium', charnel_pump: 'Марс', space_miner: '' },
-        { name: 'kubejs:raw_caterium', charnel_pump: 'Венера', space_miner: '' },
-        { name: 'architects_palette:unobtanium', charnel_pump: 'Гласио', space_miner: '' },
+        { name: 'kubejs:octiron_shards', charnel_pump: 'gui.ad_astra.text.moon', space_miner: 'kubejs.tooltip.text.nowhere' },
+        { name: 'kubejs:raw_naquadah', charnel_pump: 'gui.ad_astra.text.mercury', space_miner: 'kubejs.tooltip.text.nowhere' },
+        { name: 'kubejs:raw_turbinium', charnel_pump: 'gui.ad_astra.text.mars', space_miner: 'kubejs.tooltip.text.nowhere' },
+        { name: 'kubejs:raw_caterium', charnel_pump: 'gui.ad_astra.text.venus', space_miner: 'kubejs.tooltip.text.nowhere' },
+        { name: 'architects_palette:unobtanium', charnel_pump: 'gui.ad_astra.text.glacio', space_miner: 'kubejs.tooltip.text.nowhere' },
 
-        { name: 'mythicmetals:raw_adamantite', charnel_pump: 'Биом: Красный оазис', space_miner: 'Меркурий, Венера' },
-        { name: 'mythicmetals:raw_carmot', charnel_pump: 'Биом: Красный оазис', space_miner: 'Венера' },
-        { name: 'mythicmetals:raw_aquarium', charnel_pump: 'Биом: Глубокий океан', space_miner: '' },
-        { name: 'mythicmetals:raw_banglum', charnel_pump: 'Биом: Гравийная пустыня', space_miner: 'Меркурий' },
-        { name: 'mythicmetals:unobtainium', charnel_pump: 'Биом: Гравийная пустыня', space_miner: 'Венера' },
-        { name: 'mythicmetals:raw_quadrillum', charnel_pump: 'Биом: Гравийная пустыня', space_miner: 'Луна' },
-        { name: 'mythicmetals:raw_kyber', charnel_pump: 'Биом: Облесённое высокогорье', space_miner: 'Венера' },
-        { name: 'mythicmetals:starrite', charnel_pump: 'Биом: Облесённое высокогорье', space_miner: 'Луна' },
-        { name: 'mythicmetals:morkite', charnel_pump: 'Биом: Лунная долина', space_miner: 'Гласио' },
-        { name: 'mythicmetals:raw_mythril', charnel_pump: 'Биом: Лунная долина', space_miner: 'Марс' },
-        { name: 'mythicmetals:raw_runite', charnel_pump: 'Биом: Лунная долина', space_miner: 'Гласио' },
-        { name: 'mythicmetals:raw_midas_gold', charnel_pump: 'Биом: Йеллоустон', space_miner: '' },
-        { name: 'mythicmetals:raw_palladium', charnel_pump: 'Биом: Йеллоустон', space_miner: 'Меркурий' },
-        { name: 'mythicmetals:raw_stormyx', charnel_pump: 'Биом: Йеллоунстон', space_miner: 'Меркурий' },
-        { name: 'mythicmetals:raw_orichalcum', charnel_pump: 'Биом: Болото с орхидеями', space_miner: 'Марс' },
-        { name: 'mythicmetals:', charnel_pump: 'Биом: Болото с орхидеями', space_miner: 'Марс' },
-        { name: 'mythicmetals:raw_osmium', charnel_pump: 'Биом: Скалистые горы', space_miner: 'Гласио' }
+        { name: /^mythicmetals:(deepslate_|raw_)?adamantite(_ore)?$/, charnel_pump: 'biome.terralith.red_oasis', space_miner: 'kubejs.tooltip.text.mercury_venus' },
+        { name: /^mythicmetals:(deepslate_|raw_)?carmot(_ore)?$/, charnel_pump: 'biome.terralith.red_oasis', space_miner: 'gui.ad_astra.text.venus' },
+        { name: /^mythicmetals:(raw_)?aquarium(_ore)?$/, charnel_pump: 'biome.minecraft.deep_ocean', space_miner: 'kubejs.tooltip.text.nowhere' },
+        { name: /^mythicmetals:(nether_)?banglum(_ore|)$|^mythicmetals:raw_banglum$/, charnel_pump: 'biome.terralith.gravel_desert', space_miner: 'gui.ad_astra.text.mercury' },
+        { name: /^mythicmetals:(deepslate_)?unobtainium(_ore)?$/, charnel_pump: 'biome.terralith.gravel_desert', space_miner: 'gui.ad_astra.text.venus' },
+        { name: /^mythicmetals:(raw_)?quadrillum(_ore)?$/, charnel_pump: 'biome.terralith.gravel_desert', space_miner: 'gui.ad_astra.text.moon' },
+        { name: /^mythicmetals:(calcite_|raw_)?kyber(_ore)?$/, charnel_pump: 'biome.terralith.forested_highlands', space_miner: 'gui.ad_astra.text.venus' },
+        { name: /^mythicmetals:(calcite_|end_stone_)?starrite(_ore)?$/, charnel_pump: 'biome.terralith.forested_highlands', space_miner: 'gui.ad_astra.text.moon' },
+        { name: /^mythicmetals:(deepslate_)?morkite(_ore)?$/, charnel_pump: 'biome.terralith.moonlight_valley', space_miner: 'gui.ad_astra.text.glacio' },
+        { name: /^mythicmetals:(deepslate_|raw_)?mythril(_ore)?$/, charnel_pump: 'biome.terralith.moonlight_valley', space_miner: 'gui.ad_astra.text.mars' },
+        { name: /^mythicmetals:(deepslate_|raw_)?runite(_ore)?$/, charnel_pump: 'biome.terralith.moonlight_valley', space_miner: 'gui.ad_astra.text.glacio' },
+        { name: /^mythicmetals:(midas_gold(_ore)?|raw_midas_gold)$/, charnel_pump: 'biome.terralith.yellowstone', space_miner: 'kubejs.tooltip.text.nowhere' },
+        { name: /^mythicmetals:(palladium(_ore)?|raw_palladium)$/, charnel_pump: 'biome.terralith.yellowstone', space_miner: 'gui.ad_astra.text.mercury' },
+        { name: /^mythicmetals:(blackstone_|raw_)?stormyx(_ore)?$/, charnel_pump: 'biome.terralith.yellowstone', space_miner: 'gui.ad_astra.text.mercury' },
+        { name: /^mythicmetals:(deepslate_|smooth_basalt_|tuff_|raw_)?orichalcum(_ore)?$/, charnel_pump: 'biome.terralith.orchid_swamp', space_miner: 'gui.ad_astra.text.mars' },
+        { name: /^mythicmetals:(deepslate_|raw_)?prometheum(_ore)?$/, charnel_pump: 'biome.terralith.orchid_swamp', space_miner: 'gui.ad_astra.text.mars' },
+        { name: /^mythicmetals:(raw_osmium|osmium(_ore)?)$/, charnel_pump: 'biome.terralith.rocky_mountains', space_miner: 'gui.ad_astra.text.glacio' }
     ]
     raw_ores.forEach(raw => {
-        tooltip.add(raw.name, `Космический шахтёр: ${raw.space_miner}`)
-        tooltip.add(raw.name, `Могильный насос: ${raw.charnel_pump}`)
+        tooltip.add(raw.name, [Text.translate("kubejs.tooltip.space_miner").gold().bold(), Text.translate(`${raw.space_miner}`).italic()])
+        tooltip.add(raw.name, [Text.translate("kubejs.tooltip.charnel_pump").gold().bold(), Text.translate("kubejs.tooltip.charnel_pump.biome").green(), Text.translate(`${raw.charnel_pump}`).italic()])
     });
 })
