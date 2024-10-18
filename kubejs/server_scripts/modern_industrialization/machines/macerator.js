@@ -1,6 +1,14 @@
 
 ServerEvents.recipes(event => {
     event.recipes.modern_industrialization.macerator(2, 200)
+        .itemIn('minecraft:basalt')
+        .itemOut('3x kubejs:basalt_dust')
+
+    event.recipes.modern_industrialization.macerator(2, 200)
+        .itemIn('minecraft:calcite')
+        .itemOut('3x kubejs:calcite_dust')
+
+    event.recipes.modern_industrialization.macerator(2, 200)
         .itemIn('things:deepslate_gleaming_ore')
         .itemOut('3x modern_industrialization:gleaming_crushed_dust')
 
