@@ -1987,7 +1987,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Моб-о-рез"
+			subtitle: "Massacre!"
 			tasks: [{
 				id: "152A1B464B26B0A6"
 				item: "neepmeat:death_blades"
