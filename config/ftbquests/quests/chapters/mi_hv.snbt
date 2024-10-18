@@ -2411,7 +2411,7 @@
 		}
 		{
 			dependencies: ["656A8F24885D0586"]
-			description: ["Промышленные NEEP-комплексы являются более более продвинутыми вариантами уже известных механизмов. Обшивка влияет на рабочую мощность механизма. Если количество энергии превышает 75% от рабочей мощности, то детали механизма начинают деградировать и будут требовать починки в будущем. "]
+			description: ["Industrial NEEP-complexes is a more advanced variant of multiblock technology. The hull defines the wokring power aof a machine. If the energy provided is greater than 75% of working power, the machine will start to degrade, lowering it's speed and eventually breaks down."]
 			id: "5AECFFE1CF4FB438"
 			rewards: [
 				{
@@ -2541,7 +2541,7 @@
 		}
 		{
 			dependencies: ["5AECFFE1CF4FB438"]
-			description: ["Рудный жир поддаётся очистке что позволяет увеличить выход ресурса при отжиме."]
+			description: ["Functional segment of NEEPMeat modular machine. Allows the fat purification which will yield increase in production."]
 			id: "1EE8E48D73EC7DB2"
 			rewards: [{
 				id: "3AE0B49CC39D56AB"
