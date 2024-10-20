@@ -10,6 +10,7 @@ ServerEvents.recipes(event => {
         'modern_industrialization:vanilla_recipes/easy_chest',
         'mythicmetals:crafting/smithing_table_from_quadrillum',
         'simple_backpack:bundle',
+        'minecraft:bread',
     ]
     removeByID.forEach(element => event.remove({ id: element }))
 
