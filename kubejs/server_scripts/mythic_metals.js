@@ -201,6 +201,7 @@ ServerEvents.recipes(event => {
             { 'item': 'kubejs:raw_magical_steel' },
             { 'item': 'mythicmetals:adamantite_ingot' },
             { 'item': 'spectrum:bedrock_dust' },
+            { 'item': 'mythicmetals:kyber_ingot' },
         ],
         { 'id': 'mythicmetals:durasteel_ingot', 'count': 1 },
         3);
@@ -240,7 +241,7 @@ ServerEvents.recipes(event => {
         [
             { 'item': 'mythicmetals:star_platinum' },
             { 'item': 'mythicmetals:carmot_ingot' },
-            { 'item': 'mythicmetals:kyber_ingot' },
+            { 'item': 'mythicmetals:stormyx_ingot' },
             { 'item': 'mythicmetals:unobtainium' },
         ],
         { 'id': 'mythicmetals:celestium_ingot', 'count': 1 },

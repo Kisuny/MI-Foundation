@@ -69,6 +69,7 @@ ServerEvents.recipes(event => {
         .itemIn('4x kubejs:raw_magical_steel')
         .itemIn('4x mythicmetals:adamantite_ingot')
         .itemIn('4x spectrum:bedrock_dust')
+        .itemIn('4x mythicmetals:kyber_ingot')
         .itemOut('4x mythicmetals:durasteel_ingot')
 
     event.recipes.modern_industrialization.blast_alloy_smelter(256, 600)
