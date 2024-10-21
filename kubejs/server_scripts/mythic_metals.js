@@ -229,7 +229,7 @@ ServerEvents.recipes(event => {
             { 'item': 'mythicmetals:starrite' },
             { 'item': 'modern_industrialization:raw_platinum' },
             { 'item': 'mythicmetals:carmot_ingot' },
-            { 'item': 'mythicmetals:kyber_ingot' },
+            { 'item': 'mythicmetals:stormyx_ingot' },
             { 'item': 'mythicmetals:unobtainium' },
             { 'item': 'spectrum:stardust' },
             { 'item': 'spectrum:star_fragment' },

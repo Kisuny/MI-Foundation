@@ -61,7 +61,7 @@ ServerEvents.recipes(event => {
     event.recipes.modern_industrialization.blast_alloy_smelter(256, 600)
         .itemIn('4x mythicmetals:carmot_ingot')
         .itemIn('4x mythicmetals:star_platinum')
-        .itemIn('4x mythicmetals:kyber_ingot')
+        .itemIn('4x mythicmetals:stormyx_ingot')
         .itemIn('4x mythicmetals:unobtainium')
         .itemOut('4x mythicmetals:celestium_ingot')
 
