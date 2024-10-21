@@ -202,7 +202,7 @@ LootJS.modifiers((event) => {
                         Item.of("mythicmetals:raw_runite"),
                         Item.of("mythicmetals:raw_stormyx"),
                         Item.of("mythicmetals:starrite"),
-                        Item.of("mythicmetals:unobtainium").withChance(0.001),
+                        Item.of("mythicmetals:unobtainium").withChance(0.0001),
                         Item.of("mythicmetals:morkite")
                     ])
                 p.limitCount([2, 5])
@@ -237,7 +237,7 @@ LootJS.modifiers((event) => {
             LootEntry.of('mythicmetals:quadrillum_ingot').withWeight(120).limitCount([1, 4]),
             LootEntry.of('mythicmetals:runite_ingot').withWeight(120).limitCount([1, 4]),
             LootEntry.of('mythicmetals:stormyx_ingot').withWeight(120).limitCount([1, 4]),
-            LootEntry.of('mythicmetals:unobtainium').withWeight(60).limitCount([1, 2]),
+            LootEntry.of('mythicmetals:unobtainium').withWeight(10).limitCount([1, 2]),
             LootEntry.of('mythicmetals:aquarium_pearl').withWeight(5),
             LootEntry.of('mythicmetals:banglum_chunk').withWeight(5),
             LootEntry.of('spectrum:citrine_shard').withWeight(200).limitCount([1, 16]),
