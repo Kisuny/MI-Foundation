@@ -34,12 +34,12 @@
 		"paradise_lost:paradise_lost"
 	],
 	// chance for a lightning strike to spawn a Storm Stone
-	"StormStonesChance": 0.30000001192092896,
+	"StormStonesChance": 0.4000000059604645,
 	/* Shooting star spawns are checked every night between time 13000 and 22000, every 100 ticks (so 100 chances per night).
 	   By default, there is a 0.0075 ^= 0.75 % chance at each of those check times. Making it ~1 shooting star spawn
 	   per night per player that unlocked the required progression.
 	*/
-	"ShootingStarChance": 0.010000002570450306,
+	"ShootingStarChance": 0.06000000238418579,
 	/* The time in ticks it takes a Pigment Pedestal to craft a vanilla Crafting Table recipe without upgrades
 	   Setting this to <=0 will make the Pedestal not able to be used for crafting Crafting Table recipes.
 	*/
