@@ -1,7 +1,7 @@
 ServerEvents.recipes(event => {
-    event.replaceInput({id: 'reinfchest:copper_chest'}, 'minecraft:copper_ingot', 'modern_industrialization:copper_large_plate')
-    event.replaceInput({id: 'reinfchest:iron_chest'}, 'minecraft:iron_ingot', 'modern_industrialization:iron_large_plate')
-    event.replaceInput({id: 'reinfchest:gold_chest'}, 'minecraft:gold_ingot', 'modern_industrialization:gold_large_plate')
+    event.replaceInput({id: 'reinfchest:copper_chest'}, 'minecraft:copper_ingot', 'modern_industrialization:copper_plate')
+    event.replaceInput({id: 'reinfchest:iron_chest'}, 'minecraft:iron_ingot', 'modern_industrialization:iron_plate')
+    event.replaceInput({id: 'reinfchest:gold_chest'}, 'minecraft:gold_ingot', 'modern_industrialization:gold_plate')
 
     event.remove({output: "reinfchest:diamond_chest"})
     customPedestalCraft(event, {
