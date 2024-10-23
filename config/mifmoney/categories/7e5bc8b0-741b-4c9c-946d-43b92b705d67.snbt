@@ -1,6 +1,12 @@
 {
 	name: "Miscellaneous"
-	item: "incubus_core:debug_flame"
+	item: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "ftblibrary:icons/heart"
+		}
+	}
 	orders: [
 		{
 			id: 0
