@@ -17,7 +17,7 @@
                     "chance": 0.8
                 },
                 {
-                    "block": "ad_astra:cheese_ore",
+                    "block": "ad_astra:moon_cheese_ore",
                     "chance": 0.2
                 }
             ]
