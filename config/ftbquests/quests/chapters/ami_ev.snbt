@@ -12,98 +12,99 @@
 		{
 			dependencies: ["5AB00116967F9823"]
 			description: [
-				"Передовое достижение мясо-строения. ПЛК - Программируемый Логический Контроллер который может исполнять любые программы написанные на NEEPASM. "
+				"The brain of NEEPMeat. PLC - Programmable Logical Controller can execute special set of instructions written in NEEPASM language with clock speed of 20Hz (or more simply 1 instruction per tick)"
 				""
 				""
 				"{@pagebreak}"
-				"&lИнтерфейс&r"
-				"ПЛК имеет два режима работы:"
-				"- &lРучной&r : инструкции выполняются напрямую путём управления робота с помощью WASD, с помощью средней кнопки мыши производится движение камеры. Для задействования инструкции необходимо выбрать её из списка после чего выбрать блок(и) к которым должна применится инструкция."
-				"- &lИсполняемый&r: инструкции выполняются благодаря построчной интерпретации NEEPASM кода. В отличии от ручного режима, доступно на порядок больше инструкций которые ПЛК может выполнять. Программы рекомендуется сначала компилировать. "
+				"&lInterface&r"
+				"PLC has two modes:"
+				"- &lManual&r : instructions are executed directly by steering the PLC robot by WASD keys and mouse (hold mouse wheel button to rotate camera). To execute the instruction you must choose it in the list and select necessary blocks(using mouse)."
+				"- &lEdit&r: instructions are executed by line by line interpretation of NEEPASM code. Unlike the manual mode, in Edit mode there are more instruction. Before executing programs should be compiled."
 				""
-				"Переключение между режимами и управление программами находится в правой верхней части интерфейса."
+				"Change of modes is perfomed by pressing interface keys at the top right."
 				""
 				"{@pagebreak}"
 				"&lNEEPASM&r"
-				"NEEPASM является языком сборки для ПЛК. Программами в NEEPASM являются наборы инструкций которые исполняются построчно одна одной."
-				"Инструкции могут принимать различные аргументы:"
-				"- Строки: \"a string\""
-				"- Числа: 123, 0x7b, 0b1111011"
-				"- Координаты: @(12,42,-23, NORTH)"
+				"NEEPASM is a variant of Assembly language for PLC."
+				"Programs in PLC are the lists of instructions which are executed line by line (from top to bottom)"
+				"Instructions can acceps different arguments:"
+				"- Strings: \"a string\""
+				"- Numbers: 123, 0x7b, 0b1111011"
+				"- Coordinates: @(12,42,-23, NORTH)"
 				""
-				"Координаты представляют блок в мире и используются чтобы ПЛК могло взаимодействовать с блоком с конкретной стороны."
+				"Coordinates represents a block inside a world so PLC could access it through specified direction."
 				""
-				"Любые символы после # являются комментариями в программе"
+				"Any text after \"#\" is not interpreted and serves as a comment to a program"
 				""
 				"```"
-				"say \"Hello\" #комментарий"
-				"```"
-				""
-				""
-				""
-				""
-				"{@pagebreak}"
-				"&lСтэк&r"
-				"ПЛК имеет память в виде стека для хранения чисел. Элементы стека могут быть добавлены или убраны только с верхушки стека с помощью инструкций PUSH и POP."
-				"Сравнение чисел и арифметические операции берут свои аргументы напрямую из стека:"
-				"```"
-				"push 1    # помещает 1 на стек"
-				"push 2    "
-				""
-				"add        # складывает два значения и помещает на стек"
-				""
-				"inc         # увеличивает на единицу последний елемент"
-				""
-				"push 4 "
-				""
-				"eq         # проверка равенства 4 и 4"
-				"say        # вывод результата"
-				""
+				"say \"Hello\" # this is a comment"
 				"```"
 				""
 				"{@pagebreak}"
-				"&lМетки и ветки&r"
-				"Метки являются постоянными местами в программе к которым можно перейти с помощью инструкций перехода: JMP, BIF и BIT."
+				"&lStack&r"
+				"PLC has a memory in form of a stack of numbers. "
+				"Elements of stack can only be added or removed from the top of the stack by PUSH and POP instructions respectively."
+				"Comparison and arithmetic operations takes arguments directly from stack:"
+				"```"
+				"push 1    # puts 1 on stack"
+				"push 2    # puts 2 on top of the stack"
 				""
+				"add        # adds 1 and 2 "
+				""
+				"inc         # increment last element by 1"
+				""
+				"push 4   "
+				""
+				"eq         # checking the equality"
+				"say        # printing of result (to chat)"
+				""
+				"```"
+				""
+				"{@pagebreak}"
+				"&lLabels and branches&r"
+				"Labels are constant places in program, created by \":\" symbol,  which can be accessed by certain \"jumping\" instructions: JMP, BIF and BIT."
 				""
 				"```"
 				"a_label:"
 				"say \"loop\""
 				"jmp a_label"
 				"```"
-				"В отличии от JMP, BIF совершает переход если число на стеке больше нуля. BIT совершает переход если число на стеке равно нулю либо отрицательно."
 				""
+				"JMP instruction will unconditionally jump to specified label."
+				"Unlike JMP, BIF perform a jump if the number on a stack is greater than zero. BIT on the other hand jumps when number is less &5or equal&r to zero."
 				""
-				"Метки можно могут быть не уникальными. Добавив `f` или `b` к концу инструкции программа будет искать необходимую метку впереди или позади соответственно"
+				"Labels may repeat. Moreover adding `f` or `b` to the end of instruction PLC will search for specified label forwards or backwards respectively."
+				""
 				""
 				"```"
 				"a_label:"
-				"jmp a_label f # прыгаем вперёд"
-				"say \"skip\":     # данная инструкция игнорируется"
+				"jmp a_label f # jumping forwards"
+				"say \"skip\":     # instruction is ignored"
 				"a_label:"
 				"say \"yippee\""
 				"```"
 				""
 				"{@pagebreak}"
-				"&lФункции и переменные&r"
-				"Функции энкапсулируют процедуры которые могут быть использованы несколько раз."
+				"&lFunctions and aliases&r"
+				"Functions are used to wrap code which should be used repeatedly."
 				""
-				"Функция обьявляется с помощью %func и %end:"
+				"Functions are declared by %func *code* %end, for example:"
 				"```"
 				"%func a_function"
 				"say \"Inside the function\""
 				"%end"
-				"a_function  # Вызов функции"
+				"a_function  # Function call"
 				"```"
-				"Переменные используются для сокращения координат блоков. Переменные могут быть вызваны с использованием $ перед именем переменной"
+				"Aliases are mainly used for naming the world coordinates and can be used by using `$` before alias. "
+				""
 				"```"
 				"%alias redstone_input = @(12 32 12 NORTH)"
-				"rwait $redstone_input # Ожидание редстоун сигнала"
-				""
+				"rwait $redstone_input # Waiting of redstone signal"
+				"```"
 				""
 				"{@pagebreak}"
-				"&lМакросы&r"
-				"Макросы являются участками кода которые могут быть интерпретированы как инструкции и могут изменять поведение в зависимости от полученых аргументов. В отличии от программ макросы расширяются в том месте программы в которой они вызываются."
+				"&lMacros&r"
+				"Macros are the sections of code which can be interpreded as an instruction and have different behaviour depending on arguments. In some sense macro is a metaprogramming, but in this case it's more similar to functions from modern languages. "
 				"```"
 				"%macro a_macro message something_else"
 				"say \"The message: %message # замена %message"
@@ -111,31 +112,32 @@
 				"%end"
 				""
 				"a_macro Hello, down"
+				"```"
 				""
-				"Аргументы которые передаются в макрос должны быть разделены запятыми. В данном случае программа выдаст в чат "
+				"Arguments which are passed to macro must be separated by commas. In the example above the output will be"
 				"\"The message: Hello\""
 				"\"down\""
 				""
-				"Любой текст может быть аргументом макроса, включая переменные."
+				"Any text can serve as a macro argument, including aliases."
 				""
 				""
 				"{@pagebreak}"
-				"&lИнструкции&r"
-				"Инструкции состоят из операций и набора аргументов. Эти аргументы являются позициями блоков в мире."
+				"&lInstructions&r"
+				"Instructions consists of operations and list of arguments. These arguments, often, represents the block positions. "
 				""
-				"Инструкции могут иметь разное количество аргументов. Некоторые как END и RESTART не имеют аргументов."
+				"Instructions may have differnent number of parameters. For example END and RESTART do not have any paremeters."
 				""
 				""
 				"{@pagebreak}"
-				"&lРабочие станции&r"
-				"Рабочие станции позволяют неким образом модифицировать предметы и сущности с помощью ПЛК робота."
+				"&lWorkbenches&r"
+				"PLC workbenches allows to modify items and entities with PLC robot or robotic hand. "
 				""
-				"Например:"
-				"- Платформа (предмет)"
-				"- Пьедестал (предмет)"
-				"- Хирургическая платформа (сущность)"
+				"For example:"
+				"- Platform (item modification)"
+				"- Пьедестал (item modification)"
+				"- Surgery platform (entity)"
 				""
-				"Не все инструкции требуют рабочих станций. Некоторый оперируют с блоками, предметными и жидкостными инвентарями."
+				"Not all instructions needs workbenches. Some instructions interract with blocks, item and fluid inventories."
 			]
 			id: "7F1E78E14355EEF5"
 			rewards: [
@@ -164,7 +166,7 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Первый скачок!"
+			subtitle: "Proper computations!"
 			tasks: [{
 				id: "0F7E8A929A780608"
 				item: "neepmeat:plc"
@@ -175,7 +177,11 @@
 		}
 		{
 			dependencies: ["5F3653747EC9ADCF"]
-			description: ["Основной манипулятор ПЛК. Большая часть рецептов производства может быть выполнена с помощью данного манипулятора. В отличии от манипулятора внутри ПЛК, робо-рука работает независимо от ПЛК. Скорость работы зависит от обьемом поданой энергии."]
+			description: [
+				"The \"main hand\" of PLC. All manufacture recipes can be deligated to manipulator. As manipulator operation time is independent from PLC internal clock, it allows to increase the speed of manufacture and make it parallel. "
+				""
+				"The ammount of energy directly affects the speed of manipulator."
+			]
 			id: "25E12DF81876C1F6"
 			rewards: [
 				{
@@ -321,7 +327,7 @@
 		}
 		{
 			dependencies: ["7F1E78E14355EEF5"]
-			description: ["Механизм работы данного симбиота не до конца понятен. Каким образом эта гора жилистой биомассы производит эфирное топливо? При воздействии солнечного света и подаче жидкой пищи данное &oрастение&r производит эфирную энергию в зависимости от своего размера и качества пищи. Достаточно посадить данный &oцветок&r на блок земли."]
+			description: ["The working mechanism of this eukaryote is not known yet. Somehow this pile of veiny biomass produce ethereal fuel using sunlight and &odigestion&r. The better quality of food it consumes the better are results. It can use dirt as a habitat and stems can be growed further using bone meal."]
 			id: "3F81AC9B730673F9"
 			rewards: [{
 				count: 8
@@ -329,7 +335,7 @@
 				item: "neepmeat:meat_steel_ingot"
 				type: "item"
 			}]
-			subtitle: "Мясо-синтез"
+			subtitle: "World gone beautiful!"
 			tasks: [{
 				id: "4815FCFFAB27521D"
 				item: "neepmeat:power_flower_seeds"
@@ -362,7 +368,7 @@
 		}
 		{
 			dependencies: ["7F1E78E14355EEF5"]
-			description: ["Аппарат для клонирования живых существ. Достаточно поместить эфирные соли выбраного существа и поставить жидкое мясо. На выходе мы получим яйцо, для дозревания которого его необходимо поместить в басейн с кровью."]
+			description: ["This apparatus can be used to clone living life forms. It's sufficiently to put &dessential salts&r into the mechanism and provide it with liquid meat. As a result we will obtain an egg which will hatch inside the blood reservoir."]
 			id: "2226B76FD5DC74EE"
 			rewards: [
 				{
@@ -527,6 +533,7 @@
 				item: "neepmeat:essential_saltes"
 				type: "item"
 			}]
+			subtitle: "Good for bathtubs!"
 			tasks: [{
 				id: "5F33DB411EF5AD5A"
 				item: {
@@ -932,7 +939,7 @@
 		}
 		{
 			dependencies: ["07612BDAA0EFA6E4"]
-			description: ["&6Мультиблочный дизельный генератор&r, имеет &4максимальный&r вывод в &416к&r eu\\t"]
+			description: ["&6Multiblock&r version of diesel generator, has a &4maximal&r output of 16k eu/t"]
 			id: "222B3FC1124BD48E"
 			rewards: [
 				{
@@ -1028,24 +1035,23 @@
 				"3891DC43414C6B32"
 			]
 			description: [
-				"&6Ядерный реактор&r"
+				"&6Nuclear Reactor&r"
 				""
-				"Данный реактор &4не генерирует энергию&r напрямую, как вы могли подумать"
+				"&4Do not&r generate electricity on it's own, instead generates steam or other products via fission reactions."
 				""
-				"Для работы реактора необходимы &eстрежни&r с активным веществом."
+				"In order to perform fission you need to insert &efuel rods&r into reactor hatches at specific points."
 				""
-				"При подачи в реактор рабочей формы стержня начинает происходит &2ядерная реакция&r в результате которой из слота стержня начинают вылетать &oбыстрые нейтроны&r в четыре направления, они идут по этому направлению пока не встретят не пустой шлюз, дальше нейтрон может либо превратится в &cтепло&r либо отскочить в одну из четырех сторон, быстрые нейтроны так же могут покинуть реактор если долетят до его границы"
+				"When &2fission process&r starts active fuel rods begin to emit &ofast neutrons&r from the location in the grid until they meet non-empty hatch, in such case they will either be absorbed and turned into &cheat&r or scattered in random direction. Fast neutrons also can leave the reactor if travel to grid borders."
 				""
-				"Кроме стержней в предметные шлюзы можно класть различные &eпластины&r, пластины имеют разные параметры &aотражения&r и &3поглощения&r нейтронов"
+				"You can also put different types of &elarge plates&r which have different capabilities of neutron &ascattering&r and &3absorption&r"
 				""
-				"Жидкость, такая как например &9вода&r, превращает в &7пар&r и саб жидкость( в случае с водой это &5окись дейтерия&r ). Превышенное количество &7пара&r в шлюзе не дает шлюзу достаточно остывать"
+				"Fluids in reactor hatches can turn either into &7steam&r (if it's water or heavy water) or into other liquids. Too high ammount of &7steam&r inside hatch will lead to excessive heat and thus worse efficiency of reaction."
 				""
-				"Каждый предмет, что имеет какой-то функционал в предметном шлюзе, имеет максимальное количество поглощаемых нейтронов, это и &oопределяет их прочност&rь. Если у стержня закончится прочность, он превратится в &eобработанные стержни&r, в случае с пластинами они просто &cпропадут&r"
+				"Every item which have some function in reactor hatch has a maximum number of absorbed neutrons, this &odetermines it's durability&r. If rod will loose all of it's durability it will become &edepleted&r, in case of large plates they will just be destroyed. "
 				"{@pagebreak}"
-				"Каждый предмет, что имеет какой-то функционал в предметном шлюзе, имеет свой лимит по &cтемпературе&r, после его превышения предмет &cпропадает&r"
+				"Every item has a &cheat&r treshold after which item is &cdestroyed&r."
 				""
-				"Реактор не выделеляет какой-либо &2радиации&r и &cне может взорваться&r"
-				"{@pagebreak}"
+				"Due to the construction and available material reactor do not emit &2radiation&r outside the containment area and &ccannot detonate.&r"
 			]
 			icon: "modern_industrialization:nuclear_reactor"
 			id: "188DA4F1E88D9DC8"
@@ -1104,7 +1110,7 @@
 				"07612BDAA0EFA6E4"
 				"16769027515EFA64"
 			]
-			description: ["&6Фотолигрофер,&r &4обязателен&r для производства плат для следующих микросхем"]
+			description: ["At some point chemical reactors and assemblers cannot help in creation of more precise circuits. Photolithography allows to create more complex desings and make production of simple circuits more efficient."]
 			id: "423A66F8BD191760"
 			rewards: [
 				{
@@ -1164,7 +1170,7 @@
 		}
 		{
 			dependencies: ["027385AA21D8737B"]
-			description: ["&6Этот квест открывает новую ветку квестов!&r"]
+			description: [""]
 			id: "58C877DC86206A23"
 			rewards: [
 				{
@@ -1178,6 +1184,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "&#ffb04fThis quest opens a new quest chapter!&r"
 			tasks: [{
 				id: "6D24CFB221C9D8F4"
 				item: "kubejs:photonic_circuit"
@@ -1188,7 +1195,7 @@
 		}
 		{
 			dependencies: ["58C877DC86206A23"]
-			description: ["Спутник, необходим для создания продвинутых карт данных"]
+			description: ["The complete surface scanning allows to spot certain regions of the planet which yield rich ammount of mineral deposits. In order to obtain a data card of specific planet, Satellite must be built and operated on the orbit of that planet."]
 			icon: "modern_industrialization:satellite"
 			id: "142BDFBD70488545"
 			rewards: [
@@ -1209,6 +1216,7 @@
 				}
 			]
 			size: 1.5d
+			subtitle: "ISS"
 			tasks: [{
 				id: "5B4D212CE2FE1CCA"
 				item: "modern_industrialization:satellite"
@@ -1570,7 +1578,10 @@
 				"682EB3FE11EA695F"
 				"58C877DC86206A23"
 			]
-			description: ["Более улучшенный скафандр, &4имеет возможность полета&r похожего на элитры, но &4бафнутый&r. &6Не имеет креативный полет&r"]
+			description: [
+				"Most advanced version of Space Suit, allows &4enhanced&r elytra-like flight."
+				"&6Do not grant a creative flight&r"
+			]
 			id: "6831915934C73308"
 			rewards: [{
 				id: "2C94153E53517CC3"
@@ -1743,7 +1754,7 @@
 				"47F9517AB81DBD10"
 				"47AEA0C5F176D939"
 			]
-			description: ["&#d33b2bПредупреждение&r: Камень перековки ломает нагрудник, не пробуйте его перековывать."]
+			description: ["&#d33b2bWarning&r: The reforge rune breaks it, do not try to reforge gravity chest!"]
 			id: "6A8B53B4D3159DEB"
 			rewards: [
 				{
@@ -1825,7 +1836,7 @@
 		}
 		{
 			dependencies: ["7F1E78E14355EEF5"]
-			description: ["Прорыв в мясостроении. Обшивка из живой плоти не только обладает высокой рабочей мощностью но и высокой скоростью самопочинки. "]
+			description: ["Breakthrough in \"meat technologies\". Living flesh not only have a great wokring power but also regeneration capabilities."]
 			id: "2425CC09EE3CFFF6"
 			rewards: [{
 				count: 8
@@ -1860,6 +1871,7 @@
 		}
 		{
 			dependencies: ["7F1E78E14355EEF5"]
+			description: ["Redstone interface of the PLC, allows ot emit(or receive) redstone signal depending of the state of the program."]
 			id: "6B0C48DA1FA98001"
 			rewards: [
 				{
@@ -1885,7 +1897,7 @@
 		}
 		{
 			dependencies: ["2226B76FD5DC74EE"]
-			description: ["Зелье для сбора эфирных солей выбранного существа. Просто бросьте его и подожгите существо."]
+			description: ["A way to &oextract&r the essential salts from an entity by the means of the &6mild heating process&r. "]
 			id: "4B7A29A99F2E2755"
 			rewards: [{
 				id: "552CD55A0C2B7002"
@@ -1908,7 +1920,11 @@
 		}
 		{
 			dependencies: ["58C877DC86206A23"]
-			description: ["Путём закачки интеграционной жидкости под высоким давлением в верхние слои породы, удаётся извлечь ранее недоступные виды минералов. Для работы механизма необходимо интеграционная жидкость и сжатый воздух вместе с большим(500-1000) количеством eJ/t. "]
+			description: [
+				"When integration fluid is pumped under high pressure into the upper levels of rock it redistributes itself and form an ammalgam which allow to extract rather intricate resources. "
+				""
+				"In order to work the Charnel Pump needs integration fluid, compressed air and minimum 500 eJ/t."
+			]
 			id: "3732DF7C69268DDB"
 			rewards: [
 				{
@@ -1948,6 +1964,7 @@
 				type: "item"
 			}]
 			shape: "square"
+			subtitle: "Total Recall"
 			tasks: [{
 				id: "50A41CDADB8BA6C8"
 				item: "kubejs:raw_turbinium"
@@ -1966,6 +1983,7 @@
 				type: "item"
 			}]
 			shape: "square"
+			subtitle: "Satisfactory"
 			tasks: [{
 				id: "73A148E9E9AC10C2"
 				item: "kubejs:raw_caterium"
@@ -1984,6 +2002,7 @@
 				type: "item"
 			}]
 			shape: "square"
+			subtitle: "Star Gate"
 			tasks: [{
 				id: "40388F42FA17D04D"
 				item: "kubejs:raw_naquadah"
@@ -2002,6 +2021,7 @@
 				type: "item"
 			}]
 			shape: "square"
+			subtitle: "Disc World"
 			tasks: [{
 				id: "5CAEFD6B99D60E6F"
 				item: "kubejs:octiron_shards"
@@ -2127,6 +2147,7 @@
 		}
 		{
 			dependencies: ["3732DF7C69268DDB"]
+			description: ["Emits the compressed air at the top of functional component(the hanging pipe)"]
 			id: "64B2D5261623A94C"
 			rewards: [{
 				id: "12F820FA7DA1AC79"
@@ -2169,7 +2190,7 @@
 		}
 		{
 			dependencies: ["66A8FB4453F684C9"]
-			description: ["В отличии от обычного скафандра может выдержать &4высокие&r температуры &4Марса&r и &6Венеры&r"]
+			description: ["Allows to widthstand higher temperatures on planets like &6Venus&r or &4Mercury&r."]
 			icon: {
 				Count: 1b
 				id: "ad_astra:netherite_space_suit"
@@ -2355,7 +2376,7 @@
 		}
 		{
 			dependencies: ["64A14CF083700434"]
-			description: ["&4Все жидкостные&r взаимодействия с &2реактором&r происходят через &4данный шлюз&r"]
+			description: [""]
 			id: "3891DC43414C6B32"
 			rewards: [{
 				id: "61D7A06B09CB86A3"
@@ -2372,7 +2393,7 @@
 		}
 		{
 			dependencies: ["64A14CF083700434"]
-			description: ["&4Все предметные&r взаимодействия с &2реактором&r происходят &4через данный шлюз&r"]
+			description: [""]
 			id: "0C57C617A41FC927"
 			rewards: [{
 				id: "698544702883E3C8"
@@ -2471,13 +2492,14 @@
 		}
 		{
 			dependencies: ["4EEA0E20502169BA"]
-			description: ["&aЯдерная бомба&r не &4взрывается&r :)"]
+			description: ["&aNuclear bomb&r cannot be &4detonaded&r :("]
 			id: "1F8C388BCDB7B65E"
 			rewards: [{
 				id: "6B3CFA96D94E5A46"
 				item: "modern_industrialization:nuke"
 				type: "item"
 			}]
+			subtitle: "Have you seen the Barbie movie?"
 			tasks: [{
 				id: "666D8988BAC71C7A"
 				item: "modern_industrialization:nuke"
