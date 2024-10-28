@@ -132,7 +132,7 @@
 				"2DA54757A3D7740E"
 				"0B96C1E27305CD1E"
 			]
-			description: ["&6Термоядерный реактор&r, необходим для генерации &eГелиевой плазмы&r"]
+			description: [""]
 			id: "5F01907B4C1C70AE"
 			rewards: [
 				{
@@ -152,6 +152,7 @@
 				}
 			]
 			size: 1.5d
+			subtitle: "Tony Stark was able to build this in a cave!"
 			tasks: [{
 				id: "09789DE8028987DA"
 				item: "modern_industrialization:fusion_reactor"
@@ -165,7 +166,7 @@
 				"0B96C1E27305CD1E"
 				"350FCE05FBB371C7"
 			]
-			description: ["&6Плазменная турбина&r, преобразует &eГелиевую плазму&r в &6энергию&r"]
+			description: [""]
 			id: "5E76E32793ED2D9D"
 			rewards: [
 				{
@@ -185,6 +186,7 @@
 				}
 			]
 			size: 1.5d
+			subtitle: "Plasma into energy!"
 			tasks: [{
 				id: "13F0C9EC4CFF02F9"
 				item: "modern_industrialization:plasma_turbine"
@@ -214,7 +216,7 @@
 				"0B96C1E27305CD1E"
 				"6B43798E997F1E52"
 			]
-			description: ["&6Нейтронный сборщик&r, необходим для сбора &0<shake>нейтрония</shake>&r"]
+			description: ["Used to collect &0<shake>neutronium</shake>&r"]
 			id: "48946D8D12B533AA"
 			rewards: [
 				{
@@ -285,7 +287,7 @@
 		}
 		{
 			dependencies: ["0B96C1E27305CD1E"]
-			description: ["&6Нейтрониевый компрессор&r, необходим для сжатия &0<shake>нейтрония</shake>&r"]
+			description: ["Used to compress &0<shake>neutronium</shake>&r"]
 			id: "67FC4A3B61E5811C"
 			rewards: [
 				{
@@ -357,7 +359,7 @@
 		}
 		{
 			dependencies: ["0B96C1E27305CD1E"]
-			description: ["&6Камера деления&r, позволяет &4разделять&r &9простые частицы&r на другие &9простые частицы&r"]
+			description: ["Unlike the nuclear reactor, Fission Chamber allows the &4fission&r of not radioactive elements into &9lighter&r elements."]
 			id: "7C86182CF89C1EA5"
 			rewards: [
 				{
@@ -386,7 +388,7 @@
 		}
 		{
 			dependencies: ["0B96C1E27305CD1E"]
-			description: ["&6Конструктор слияния&r, позволяет &4объединять&r &9простые частицы&r для получения &4других&r &9простых частиц&r"]
+			description: ["Energy &4net-negative&r fusion allows to create new &5heavier&r elements atom-by-atom from two &9lighter&r elements."]
 			id: "5B93BFA002989823"
 			rewards: [
 				{
@@ -432,7 +434,7 @@
 		}
 		{
 			dependencies: ["15B26C9D718A777A"]
-			description: ["Данный блок &4может связаться с выбранным блоком&r с помощью &6Entangled binder&r и &4выступать для доступа к нему&r"]
+			description: ["This block can &4expand&r the number of available &ofaces&r of specified block and serve as a distant access point. To bind entangled block you must use &6Entangled binder&r. "]
 			id: "4F9729DFAEAC4CB8"
 			rewards: [
 				{
@@ -468,7 +470,7 @@
 				"22DC92C228A96AF4"
 				"7AF5094534CEE44E"
 			]
-			description: ["&6Пространственная кузня&r, &4необходима&r для создания &4<shake>с</shake>&r&6<shake>и</shake>&r&e<shake>н</shake>&r&2<shake>г</shake>&r&b<shake>у</shake>&r&9<shake>л</shake>&r&5<shake>я</shake>&r&4<shake>р</shake>&r&6<shake>н</shake>&r&e<shake>о</shake>&r&2<shake>с</shake>&r&b<shake>т</shake>&r&9<shake>е</shake>&r&5<shake>й</shake>&r"]
+			description: [""]
 			hide_dependent_lines: true
 			id: "1BB283BBF2323FF1"
 			rewards: [
@@ -495,6 +497,7 @@
 			]
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "&4<shake>S</shake>&r&6<shake>i</shake>&r&e<shake>n</shake>&r&2<shake>g</shake>&r&b<shake>u</shake>&r&9<shake>l</shake>&r&5<shake>a</shake>&r&4<shake>r</shake>&r&6<shake>i</shake>&r&e<shake>t</shake>&r&2<shake>i</shake>&r&b<shake>e</shake>&r&9<shake>s&r"
 			tasks: [{
 				id: "61FF045D47375A8C"
 				item: "modern_industrialization:spatial_forge"
@@ -538,7 +541,7 @@
 		}
 		{
 			dependencies: ["416102F2B37AD68A"]
-			description: ["&6Квантовое кольцо&r, позволяет получить доступ к &9МЭ&r &4из одной точки пространства в другую&r, необходима энергия на обоих концах кольца. Для связи нужно сингулярность"]
+			description: ["Permits the &3cross-dimensional&r connection of &9ME&r networks. In order to work both rings must be supplied with energy. The binding is performed by &osplitting&r the singularity. "]
 			id: "1E2EA520ACC7FEE6"
 			rewards: [
 				{
@@ -643,7 +646,7 @@
 		}
 		{
 			dependencies: ["38A24F58A368095B"]
-			description: ["Точка доступа к энергии в беспроводной энерго сети"]
+			description: ["Use to extract or deposit energy into the system."]
 			id: "0444EC7C46FFB9DF"
 			rewards: [{
 				id: "136A4FE635791296"
@@ -667,7 +670,7 @@
 		}
 		{
 			dependencies: ["36AD66F466216147"]
-			description: ["&4Главный блок&r беспроводной энерго сети"]
+			description: ["The &9Brain&r of flux network."]
 			id: "38A24F58A368095B"
 			rewards: [
 				{
@@ -691,7 +694,7 @@
 		}
 		{
 			dependencies: ["38A24F58A368095B"]
-			description: ["Необходим для увеличения размера хранилища энергии в беспроводной сети"]
+			description: ["Used to provide network with energy buffer, for better power management."]
 			id: "02AAB414E9A755AF"
 			rewards: [
 				{
@@ -1166,7 +1169,7 @@
 				"416102F2B37AD68A"
 				"2DA54757A3D7740E"
 			]
-			description: ["&6Лучший ускоритель в моде&r, позволяет увеличить лимит разгона любого крафта до максимума"]
+			description: ["&6End game of upgrades&r, &oremoves&r the overclock energy limits."]
 			id: "465C8964A11B1A00"
 			tasks: [{
 				id: "33057AA446838F1A"
@@ -1227,7 +1230,7 @@
 		}
 		{
 			dependencies: ["01B70FD0A29E6AC0"]
-			description: ["&6Станция дронов&r, &4один&r из видов получения ресурсов"]
+			description: ["A way of resource generation on planet orbit. "]
 			id: "1E18B13F50E05755"
 			rewards: [
 				{
@@ -1248,6 +1251,7 @@
 			]
 			shape: "gear"
 			size: 1.5d
+			subtitle: "Asteroid Mining!"
 			tasks: [{
 				id: "0014CC33F634E69E"
 				item: "modern_industrialization:drone_station"
@@ -1275,7 +1279,7 @@
 		}
 		{
 			dependencies: ["416102F2B37AD68A"]
-			description: ["&6Прогрузчик чанков&r, прогружает &4только&r когда &4его владелец онлайн&r. &6Владелец определяется первым открытием интерфейса&r"]
+			description: ["Loads chunks &4only&r when &4it's owner is online&r (important for server play). &6Owner is the one who entered the interface first&r."]
 			id: "0D2303A725B4A25C"
 			rewards: [
 				{
@@ -1311,7 +1315,7 @@
 		}
 		{
 			dependencies: ["25D80C3480AF56C0"]
-			description: ["<shake>Бесконечные забурники!</shake>"]
+			description: [""]
 			id: "3A7DBF1A575CA746"
 			rewards: [
 				{
@@ -1326,6 +1330,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "<shake>Everlasting Drills!</shake>"
 			tasks: [{
 				id: "3CC2F06802A39D50"
 				item: {
@@ -1374,7 +1379,7 @@
 				"47AEA0C5F176D939"
 				"6D24CFB221C9D8F4"
 			]
-			description: ["&6Молекулярный деконструктор&r, &4необходим&r для &4разбора&r предметов на &9простые частицы&r"]
+			description: ["Used to perform element &4decomposition&r of substances."]
 			id: "2E407CD925C6F3EF"
 			rewards: [{
 				id: "2D82F22137BA03DB"
@@ -1421,7 +1426,7 @@
 		}
 		{
 			dependencies: ["36AD66F466216147"]
-			description: ["&6Улучшенная большая паровая турбина&r, имеет увеличенный вывод энергии в &4256к&r eu\\t, а так же &4более эффективное потребление других видов пара&r"]
+			description: ["&6THE Turbine&r, has an output of &4256k&r eu/t, and &9and more efficient consumption of compressed steam variants&r"]
 			id: "0AE3A5BEBF1B3484"
 			rewards: [{
 				id: "17E86C0D228ACD3D"
@@ -2198,7 +2203,7 @@
 		}
 		{
 			dependencies: ["0B96C1E27305CD1E"]
-			description: ["&6Манипулятор частиц&r, позволяет &4создавать&r предметы из &9простых частиц&r"]
+			description: ["&6Particle Manipulator&r, allows to &4create&r substances from &9elements&r"]
 			id: "6C2D2C561DDED656"
 			rewards: [
 				{
@@ -2280,7 +2285,7 @@
 		}
 		{
 			dependencies: ["69D4F13039AAEFC8"]
-			description: ["Установив &4рядом&r с &9Material condenser&r будет передавать в него &6EMC.&r Работает &4только&r под &eсолнцем&r"]
+			description: ["Will generate EMC and transfer them into &4adjacent&r &9EMC Collector&r. &4Only works&r under the &esun&r."]
 			id: "2A2862E9AB3564C3"
 			rewards: [{
 				id: "56AA27E52029C6B9"
@@ -2399,7 +2404,7 @@
 		}
 		{
 			dependencies: ["69D4F13039AAEFC8"]
-			description: ["В отличии от &6EMC&r collector &4должен быть установлен на расстоянии в 1 блок&r от &9Material condenser&r и &4касаться его или другой AEGU&r. Сл-но максимально эффективное рассположение будет &4куб 3х3х3 с Material condenser в центре&r"]
+			description: ["Multiblock version of &9EMC&r Collector. EMC collector should be placed inside the 3x3x3 cube of AEGU's. "]
 			id: "1C902EAC3680BA7C"
 			rewards: [
 				{
@@ -2470,8 +2475,9 @@
 				"2DB58ECA34B60888"
 				"1147E1C14852C9CE"
 			]
-			description: ["&6Бесконечная&r генерация <shake>элементов!</shake>"]
+			description: [""]
 			id: "69D4F13039AAEFC8"
+			subtitle: "&6Infinite&r <shake>element</shake> generation!"
 			tasks: [{
 				id: "2FD465BBA4F437B3"
 				item: "itemalchemy:emc_condenser"
@@ -2482,7 +2488,7 @@
 		}
 		{
 			dependencies: ["2A2862E9AB3564C3"]
-			description: ["Можно использовать для &4более удобного подключения&r к Material condenser. &4Все примыкающие&r к repeater emc collector-ы будут отдавать свою энергию дальше по цепочке repeater-ов пока не дойдут до &9Material condenser&r"]
+			description: ["Used to transfer EMC from collectors to &9EMC Condensers&r. All adjacent EMC Collectors will output they generation to repeaters until they encounter the &9EMC Condenser&r."]
 			id: "6CC1A9B1B0196C6D"
 			rewards: [{
 				count: 4
@@ -2490,6 +2496,7 @@
 				item: "itemalchemy:emc_repeater"
 				type: "item"
 			}]
+			subtitle: "EMC Cables"
 			tasks: [{
 				id: "2E673E030B9DCBB3"
 				item: "itemalchemy:emc_repeater"
