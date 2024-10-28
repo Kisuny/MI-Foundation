@@ -53,10 +53,9 @@
 		{
 			dependencies: ["5A42FAAF364FFC82"]
 			description: [
-				"Попадите в &6жужалище&r!"
+				"Get into &6The Bumblezone&r!"
 				""
-				""
-				"P.S. Чтобы покинуть жужалище — необходимо выкопаться в самый низ мира либо же в самый верх!"
+				"P.S. To leave The Bumblezone, you must dig to the bottom of the world or to the top!"
 			]
 			hide: true
 			hide_dependency_lines: true
@@ -68,12 +67,6 @@
 				}
 			}
 			id: "264310C5DCDF5987"
-			rewards: [{
-				advancement: "the_bumblezone:the_bumblezone/pollen_puff/bee_drop_pollen_puff"
-				criterion: ""
-				id: "46CF151EFA3FE250"
-				type: "advancement"
-			}]
 			shape: "pentagon"
 			size: 2.5d
 			tasks: [{
@@ -114,13 +107,19 @@
 		{
 			dependencies: ["4D2FD4E06FA72C31"]
 			description: [
-				"Немного &eматочного молочка&r можно украсть из &bтронного пилона&r."
+				"Obtainable by completing The Queen's Desire advancements you get from the &6Bee Queen&r as each advancement will give one &eRoyal Jelly Bottle&r. The advancements unlock when you first trade with the &6Bee Queen&r. When you finished all the The Queen's Desire advancements, you can double right click the &6Bee Queen&r to reset this advancement line to repeat for more &eRoyal Jelly Bottles&r!"
 				""
-				"Дальше получать &eматочного молочко&r можно только за ачивки, при первом контакте с королевы вам открываются &3достижения&r за которые можно получать &eматочное молочко&r."
+				"Very rarely appears in Honey Cocoons in Sempiternal Sanctums structures."
 				""
-				"Как только вы выполните все квесты &eматочного молочка&r, вы получите &dэссенцию пчёл&r, после получения &dэссенции пчёл&r вы сможете нажать на королеву ПКМ пустой рукой, это позволит &oсбросить&r достижения на &eматочное молочко&r и получить их вновь, это можно повторять &l&9бесконечно&r&r!"
+				"Drinking this item will restore huge amounts of Hunger and gives Speed Boost 2, Jump Boost 4, Slow Falling 1, and Beenergized 2!"
 				""
-				"&6Так же молочко можно покупать в игровом магазине!&r"
+				"It will also remove Poison, Weakness, and Slowness status effects when drank as well."
+				""
+				"You can trade this item back to the &6Bee Queen&r for a chance at some valuable rewards!"
+				""
+				"Can be fed to bees to give extremely high and long lived Beenergized effect (and also grants very high friendship points with Beehemoths)."
+				""
+				"&6You can also buy Jelly in the in-game shop!&r"
 			]
 			hide: true
 			icon: "the_bumblezone:royal_jelly_bottle"
@@ -142,11 +141,11 @@
 		{
 			dependencies: ["264310C5DCDF5987"]
 			description: [
-				"Позволяет размножать &dцветы&r, в т.ч. большие цветы из &2ботании&r!"
+				"Allows you to multiply &dflowers&r, including large flowers from &2Botania&r!"
 				""
-				"Пыльцу можно найти на блоках, а так же пыльцу можно собрать с &6пчелы&r, например &3склянкой с водой&r"
+				"Pollen can be found on blocks, and pollen can also be collected from &6bees&r, for example with a &3glass of water&r"
 				""
-				"В блоках пыльцы так же можно прятаться от &6пчёл&r, если вдруг они на вас &cразозлились&r, встаньте в два блока пыльцы и &6пчёлы&r вас потеряют."
+				"You can also hide from &6bees&r in pollen blocks, if they get &cangry&r with you, stand in two pollen blocks and the &6bees&r will lose you."
 			]
 			hide: true
 			id: "21DD94C3007B1444"
@@ -161,7 +160,7 @@
 		}
 		{
 			dependencies: ["264310C5DCDF5987"]
-			description: ["Используя &lножницы&r или &lмеч&r можно менять текстуру данного блока, используется в качестве &eдекораций&r."]
+			description: ["Using &lShears&r or &lsword&r you can change the texture of this block, used as &edecorations&r."]
 			hide: true
 			id: "3DE0301DBDDD23EC"
 			rewards: [{
@@ -181,9 +180,9 @@
 		{
 			dependencies: ["264310C5DCDF5987"]
 			description: [
-				"Очень сильно &eзамедляет&r как игрока так и любых других существ."
+				"&eSlows&r down both the player and any other creatures very severely."
 				""
-				"Можно монметально разрушить нажав ПКМ любым водным предметом, например &3ведро воды&r/&3бутылка с водой&r, водный &lпредмет не потребляется&r. "
+				"Can be instantly destroyed by right-clicking any water item, such as a &3bucket of water&r/&3water bottle&r, the water &litem is not consumed&r."
 			]
 			hide: true
 			id: "2F9EF2426B44AB7E"
@@ -197,7 +196,7 @@
 		}
 		{
 			dependencies: ["2F9EF2426B44AB7E"]
-			description: ["Работает как и прополис, но &lвертикально&r."]
+			description: ["Works like sticky honey residue, but &lvertical&r."]
 			hide: true
 			id: "0D1DAFF7CBAD7BB1"
 			tasks: [{
@@ -211,9 +210,9 @@
 		{
 			dependencies: ["2F9EF2426B44AB7E"]
 			description: [
-				"Издаёт &#d33b2bредстоун&r сигнал при попадании туда игрока/существа."
+				"Emits a &#d33b2bredstone&r signal when a player/entity is stepped on it."
 				""
-				"&#d33b2bРедстоун&r сигнал не передается этим блоком."
+				"&#d33b2Redstone&r signal is not transmitted by this block."
 			]
 			hide: true
 			id: "6C85C22B3558A59F"
@@ -227,7 +226,7 @@
 		}
 		{
 			dependencies: ["6C85C22B3558A59F"]
-			description: ["Работает как и &#d33b2bредстоун&r прополис, но передаёт &#d33b2bредстоун&r сигнал дальше."]
+			description: ["Works like sticky honey &#d33b2bredstone&r, but transmits the &#d33b2bredstone signal&r farther away."]
 			hide: true
 			id: "420BEC6231E0EC49"
 			tasks: [{
@@ -241,9 +240,9 @@
 		{
 			dependencies: ["264310C5DCDF5987"]
 			description: [
-				"&6Пчёл&r можно кормить разнообразными предметами чтобы повысить их &4здоровье&r или получить эффект «&9Защита улья&r», который позволяет избежать получения эффекта «&cГнев Улья&r» из-за которого каждая пчела начинает &cатаковать&r вас! "
+				"&6Bees&r can be fed &bSugar Water Bottles&r and various &#E79A3Fhoney based foods&r (like Honey bottles) to &4heal them&r and have a chance of giving you «&9Protection of the Hive&r» effect (even if the bees are angry, you can still feed them.) You can feed Honeycomb Brood Blocks as well for a chance of getting Protection effect!"
 				""
-				"Эффект «&9Защита Улья&r» так же позволяет заставить &6пчёл&r &cатаковать&r тех, кто &cатакует&r вас!"
+				"When you have &9Protection of the Hive effect&r, nearby Bees will &4attack&r anyone who &4attacked you&r!"
 			]
 			hide: true
 			id: "37F35C86B3CE2EFA"
@@ -265,9 +264,9 @@
 		{
 			dependencies: ["264310C5DCDF5987"]
 			description: [
-				"Найдите одну из &eструктур&r путешствуя по &6жужалищу&r!"
+				"Find one of the &estructures&r by traveling in &6The Bumblezone&r!"
 				""
-				"&6P.S. Большинство из структур можно найти используя компасс, который можно найти в разнообразных данжах!&r"
+				"&6P.S. Most of the structures can be found using a compass, which can be found in a variety of dungeons!&r"
 			]
 			hide: true
 			icon: "the_bumblezone:carvable_wax_diamond"
@@ -291,9 +290,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"&6Медовый&r кокон хранит в себе рандомый лут, в каждой структуре &oлут будет отличаться&r, в &6медовом&r коконе можно найти компас который будет вести в разнообразные структуры мира &6жужалище&r. "
+				"The &6honey cocoon&r contains random loot, in each structure the loot will be different, in the &6honey cocoon&r you can find a compass that will lead to a variety of structures of &6The Bumblezone&r world."
 				""
-				"Так же в коконах можно найти &dартефакты&r модпака, &oсамый большой шанс&r найти артефакт только в коконе! "
+				"Also in the cocoons you can find &dartifacts&r of modpack, the &obiggest chance&r to find an artifact only in the cocoon!"
 			]
 			hide: true
 			id: "41FFF8D73E40CB56"
@@ -310,7 +309,7 @@
 		}
 		{
 			dependencies: ["41FFF8D73E40CB56"]
-			description: ["Небольшой &cурон&r, но позволяет &2отравлять&r врагов, а так же зачаровать на &2сильнодействующий яд&r."]
+			description: ["&cLow damage&r, but allows you to &2poison&r enemies, as well as enchant for &2potent poison&r."]
 			hide: true
 			id: "106066392BFC0FAD"
 			tasks: [{
@@ -329,7 +328,7 @@
 		}
 		{
 			dependencies: ["41FFF8D73E40CB56"]
-			description: ["Пушка позволяет кидаться &#E79A3Fмедовыми&r кристаллами, можно зарядить до &o3х кристаллов&r."]
+			description: ["The cannon allows you to throw &#E79A3Fhoney&r crystals, you can charge up to &o3 crystals&r."]
 			hide: true
 			id: "300AC29783C42E8A"
 			tasks: [{
@@ -349,9 +348,9 @@
 		{
 			dependencies: ["41FFF8D73E40CB56"]
 			description: [
-				"Найдите самый &bредкий&r компас, который ведёт к структуре «&6Тронный Пилон&r»."
+				"Find the &brarest&r compass that leads to the «&6Throne Pillar&r» structure."
 				""
-				"Как только вы нашли подобный компас — королева которая была в структуре куда ведёт компас &eзаспавнится заново&r, даже если её там не было, её кто-то &cубил&r или &9украл&r для своих целей!"
+				"As soon as you find such a compass - the queen who was in the structure where the compass leads will &ere-spawn&r, even if she was not there, she was &ckilled&r or &9stolen&r by someone for their own purposes!"
 			]
 			hide: true
 			id: "5B0659D5D30C49CD"
@@ -376,9 +375,9 @@
 		{
 			dependencies: ["264310C5DCDF5987"]
 			description: [
-				"Найдите одну из &eструктур&r путешствуя по &6жужалищу&r!"
+				"Find one of the &estructures&r by traveling in &6The Bumblezone&r!"
 				""
-				"&6P.S. Большинство из структур можно найти используя компасс, который можно найти в разнообразных данжах!&r"
+				"&6P.S. Most of the structures can be found using a compass, which can be found in a variety of dungeons!&r"
 			]
 			hide: true
 			id: "0856C3F7EF4868E5"
@@ -400,9 +399,9 @@
 		{
 			dependencies: ["264310C5DCDF5987"]
 			description: [
-				"Найдите одну из &eструктур&r путешствуя по &6жужалищу&r!"
+				"Find one of the &estructures&r by traveling in &6The Bumblezone&r!"
 				""
-				"&6P.S. Большинство из структур можно найти используя компасс, который можно найти в разнообразных данжах!&r"
+				"&6P.S. Most of the structures can be found using a compass, which can be found in a variety of dungeons!&r"
 			]
 			hide: true
 			id: "25E425A6B61B2638"
@@ -418,13 +417,13 @@
 		{
 			dependencies: ["41FFF8D73E40CB56"]
 			description: [
-				"Найдите компас который ведет в одну из структур &6Жужалища&r."
+				"Find the compass that leads to one of &6The Bumblezone's&r structures."
 				""
-				"Существует &l3 типа&r компасов:"
+				"There are &l3 types&r of compasses:"
 				""
-				"1 — Ведёт в менее таинственное сооружение."
-				"2 — Ведёт в таинственное сооружение."
-				"3 — Ведёт к королев в её тронный зал.  "
+				"1 - Leads to a less mysterious structure."
+				"2 - Leads to a mysterious structure."
+				"3 - Leads to the queen to her throne room."
 			]
 			hide: true
 			id: "733D8EE7475BB724"
@@ -454,9 +453,9 @@
 		{
 			dependencies: ["264310C5DCDF5987"]
 			description: [
-				"Найдите одну из &eструктур&r путешствуя по &6жужалищу&r!"
+				"Find one of the &estructures&r by traveling in &6The Bumblezone&r!"
 				""
-				"&6P.S. Большинство из структур можно найти используя компасс, который можно найти в разнообразных данжах!&r"
+				"&6P.S. Most of the structures can be found using a compass, which can be found in a variety of dungeons!&r"
 			]
 			hide: true
 			id: "724B4E8E8E734D72"
@@ -472,13 +471,13 @@
 		{
 			dependencies: ["264310C5DCDF5987"]
 			description: [
-				"Найдите одну из &eструктур&r путешствуя по &6жужалищу&r!"
+				"Find one of the &estructures&r by traveling in &6The Bumblezone&r!"
 				""
-				"В данной структуре &nневероятно&r много разных &aцветков&r, в т.ч. цветков из &2ботании&r"
+				"There are an &nincredible&r variety of different &aflowers&r in this structure, including flowers from &2Botania&r"
 				""
-				"В данной структуре можно найти «&9Кристальный Цветок&r»"
+				"A «&9Crystalline Flower&r» can be found in this structure"
 				""
-				"&6P.S. Большинство из структур можно найти используя компасс, который можно найти в разнообразных данжах!&r"
+				"&6P.S. Most of the structures can be found using a compass, which can be found in a variety of dungeons!&r"
 			]
 			hide: true
 			icon: "minecraft:cornflower"
@@ -494,11 +493,11 @@
 		{
 			dependencies: ["264310C5DCDF5987"]
 			description: [
-				"Найдите одну из &eструктур&r путешствуя по &6жужалищу&r!"
+				"Find one of the &estructures&r by traveling in &6The Bumblezone&r!"
 				""
-				"В данной структуре можно найти «&9Кристальный Цветок&r»"
+				"A «&9Crystalline Flower&r» can be found in this structure"
 				""
-				"&6P.S. Большинство из структур можно найти используя компасс, который можно найти в разнообразных данжах!&r"
+				"&6P.S. Most of the structures can be found using a compass, which can be found in a variety of dungeons!&r"
 			]
 			hide: true
 			icon: "the_bumblezone:honey_bucket"
@@ -520,15 +519,15 @@
 				"4518BB9053E4030F"
 			]
 			description: [
-				"Представляет из себя &5улучшенный зачаровательский стол&r, с возможность наложить &lлюбое&r зачарование на выбор."
+				"Represents an &5improved enchanting table&r, with the ability to cast &lany&r enchantment of your choice."
 				""
-				"Вы можете посадить данный цветок на любой  \"&lКристалльный&r\" блок, например на блок &#9966CCаметиста&r или блок &#E4D00Aцитрина&r из спектрума. "
+				"You can plant this flower on any «&lCrystal&r» block, such as an &#9966CCAmethyst&r block or a Spectrum &#E4D00ACitrine&r block."
 				""
-				"Как только цветок установлен в мир его можно начать &eкормить опытом&r либо же &eпредметами&r, не важно как вы это будете делать, просто кидать предметы, засовывать их через интерфейс цветка или отдавать свой опыт из игрока."
+				"Once the flower is installed in the world you can start &efeeding&r it with experience or &eitems&r, it doesn't matter how you do it, just throw items, shove them through the flower interface or give your experience out of the player."
 				""
-				"Отдавая опыт/предметы цветку он &oначнёт расти&r, с максимальным ростом в &37 блоков&r. "
+				"By giving experience/items to the flower it will &ostart to grow&r, with a maximum growth of &37 blocks&r."
 				""
-				"Чем выше цветок, тем более редкие зачарования будут попадаться в нём, за 1 зачарование - &bцветок будет уменьшаться&r, и его придется вновь &2выращивать&r, но это мелочь по сравнению с тем, какой функционал он предоставляет! "
+				"The higher the flower, the more rare enchantments will be caught in it, for 1 enchantment - &bthe flower will be reduced&r and it will have to be &2grown again&r, but this is a small thing compared to the functionality it provides!"
 			]
 			hide: true
 			id: "10244860011AD318"
@@ -552,11 +551,12 @@
 		{
 			dependencies: ["278D28FB8BCFC63D"]
 			description: [
-				"Могущественная магическая &eсвеча&r, накладывающая эффекты на всех &3существ&r вокруг!"
+				"A powerful magical &ecandle&r that casts effects on all &3creatures&r around you!"
 				""
-				"Имеет все те же свойства Супер-Свеч. Вдобавок, она может быть пропитанна различными &9эффектами зелий&r, в зависимости от того, какое зелье было использовано при её создании, этот эффект &nбудет наложен на существ вокруг&r при её горении."
-				" "
-				"Когда силы &eсвечи&r иссякнут, она погаснет. Если зажечь её снова, она вновь проявит свои &9эффекты&r."
+				"It has all the same properties of the Super Candle. In addition, it can be imbued with various &9potion effects&r, depending on what potion was used to "
+				"create it, &nthis effect will be applied to the creatures around it&r when it burns."
+				""
+				"When the &ecandle's&r power is exhausted, it will go out. If you light it again, it will show its &9effects&r again."
 			]
 			hide: true
 			id: "476F4A53C4FDAFA3"
@@ -572,11 +572,11 @@
 		{
 			dependencies: ["264310C5DCDF5987"]
 			description: [
-				"Найдите одну из &eструктур&r путешствуя по &6жужалищу&r!"
+				"Find one of the &estructures&r by traveling in &6The Bumblezone&r!"
 				""
-				"В данной структуре можно найти «&9Кристальный Цветок&r»"
+				"A «&9Crystalline Flower&r» can be found in this structure"
 				""
-				"&6P.S. Большинство из структур можно найти используя компасс, который можно найти в разнообразных данжах!&r"
+				"&6P.S. Most of the structures can be found using a compass, which can be found in a variety of dungeons!&r"
 			]
 			hide: true
 			icon: "the_bumblezone:beehive_beeswax"
@@ -593,11 +593,11 @@
 		{
 			dependencies: ["264310C5DCDF5987"]
 			description: [
-				"Найдите одну из &eструктур&r путешствуя по &6жужалищу&r!"
+				"Find one of the &estructures&r by traveling in &6The Bumblezone&r!"
 				""
-				"В данной структуре можно найти «&9Кристальный Цветок&r»"
+				"A «&9Crystalline Flower&r» can be found in this structure"
 				""
-				"&6P.S. Большинство из структур можно найти используя компасс, который можно найти в разнообразных данжах!&r"
+				"&6P.S. Most of the structures can be found using a compass, which can be found in a variety of dungeons!&r"
 			]
 			hide: true
 			icon: "the_bumblezone:honey_crystal"
@@ -613,7 +613,7 @@
 		}
 		{
 			dependencies: ["264310C5DCDF5987"]
-			description: ["Не пропускает &6пчёл&r, но обычный игрок может через них пройти"]
+			description: ["Doesn't let &6bees&r through, but a normal player can pass through them"]
 			hide: true
 			id: "0248551A5D1549DD"
 			tasks: [{
@@ -634,9 +634,9 @@
 		{
 			dependencies: ["264310C5DCDF5987"]
 			description: [
-				"Найдите &6Шмеллиафана&r в жужалище!"
+				"Find &6Beehemoth&r in The Bumblezone!"
 				""
-				"Данная &6пчёлка&r является &2мирной&r и никак не будет вас &cатаковать&r, напротив, её можно &2приручить&r и начать на ней летать!"
+				"This &6bee&r is &2peaceful&r and will not &cattack&r you in any way, on the contrary, you can &2tame&r it and start flying it!"
 			]
 			hide: true
 			id: "1DF44F1213EC052D"
@@ -654,9 +654,9 @@
 		{
 			dependencies: ["1DF44F1213EC052D"]
 			description: [
-				"Вы можете попробовать приручить &6Шмеллиафана&r, как только вы приручите &6Шмеллиафана&r, он будет с &e0 отношений&r, продолжайте &lкормить&r его или &lлетать&r на нём, чтобы поднять &eотношения&r. "
+				"You can try to tame &6Beehemoth&r, once you tame &6Beehemoth&r he will be with &e0 relationship&r, keep &lfeeding&r him or &lflying&r him to raise the relationship."
 				""
-				"Чем больше &eотношения&r, тем быстрее летает &6Шмеллиафан&r, максимальный результат ускоряет &6Шмеллиафана&r ну &lочень&r сильно!"
+				"The higher the &erelationship&r, the faster &6Beehemoth&r flies, maxing out speeds up &6Beehemoth&r &lwell a lot&r!"
 			]
 			hide: true
 			id: "276183CEEBA65FD9"
@@ -677,7 +677,7 @@
 		}
 		{
 			dependencies: ["1DF44F1213EC052D"]
-			description: ["Держа ведро &6мёда&r в руках &6Шмеллиафан&r будет лететь за вами!"]
+			description: ["Holding a bucket of &#E79A3Fhoney&r &6Beehemoth&r will fly after you!"]
 			hide: true
 			id: "376685C02DBE8C5C"
 			tasks: [{
@@ -690,7 +690,7 @@
 		}
 		{
 			dependencies: ["264310C5DCDF5987"]
-			description: ["Используя пустую баночку на &6медовом&r слизне - вы соберете с него &6мёд&r, слизень после этого станет &cагрессивным&r "]
+			description: ["Using &oGlass Bottle&r on &#E79A3Fhoney slime&r - you will collect &#E79A3Fhoney&r from it, the slime will become &caggressive&r after that"]
 			hide: true
 			icon: "the_bumblezone:honey_slime_spawn_egg"
 			id: "6614C258292D9DA2"
@@ -707,7 +707,7 @@
 		}
 		{
 			dependencies: ["4D2FD4E06FA72C31"]
-			description: ["Посмотрите на прекрасную &6королеву&r!"]
+			description: ["Look at the beautiful &6queen&r!"]
 			hide: true
 			id: "6115F9F698E9D96B"
 			rewards: [{
@@ -730,11 +730,11 @@
 		{
 			dependencies: ["5B0659D5D30C49CD"]
 			description: [
-				"&l&6Королева Пчёл&r&r позволяет &nобмениваться&r предметами одного типа на другой, узнать какие предметы можно обменять можно глянуть в &eREI&r. "
+				"&l&6Bee Queen&r&r allows you to &nexchange&r items of one type for another, you can find out which items can be exchanged in &eREI&r."
 				""
-				"Если &6королеву&r убили или каким-то образом украли - новая появится если вы найдете новый &6компас&r до тронного пилона!"
+				"If the &6queen&r has been killed or somehow stolen - a new one will appear if you find a new &6compass&r to the throne pillar!"
 				""
-				"У &6королевы&r бывают более выгодные обмены, иногда королева хочет какой-то конкретный блок или предмет, если принести именно такой предмет, награда за этот предмет будет &9х3&r. "
+				"The &6queen&r has more favorable exchanges, sometimes the queen wants a particular block or item, if you bring that particular item, the reward for that item will be &9x3&r."
 			]
 			hide: true
 			icon: {
@@ -799,17 +799,18 @@
 		{
 			dependencies: ["6115F9F698E9D96B"]
 			description: [
-				"Предмет из конечной цепи прогресса заданий &6Королевских Желаний&r!"
+				"An semi-end game item to get for Bumblezone! Obtained by completing The Queen's Desire advancement line from the Bee Queen. (The advancement line is started after first trade with Bee Queen) When consumed, you get the following bonuses permanently:"
 				""
-				"Вы можете почувствовать могущественную, но доброжелательную силу исходящую от эссенции... При потреблении, вы получаете следующие эффекты навсегда: "
-				"• Можете войти в ячеистый лабиринт без наложения &cГнева Улья&r. "
-				"• Можете войти в &eКоролевскую Колонну&r без наложения эффекта &oутомления&r рядом с &6Королевой Пчёл&r. "
-				"• &6Жидкий мёд&r будет давать эффект &dрегенерации&r. "
-				"• &dЖидкое маточное молочко&r будет давать ээффект &oОпчеления&r и более сильный эффект &dрегенерации&r. "
-				"• &6Ульи&r, &6пчелиные гнёзда&r могут быть добыты, &6мёд&r собран при помощи бутылки или собраны ножницами ради &6сот&r без &cагрессии&r &6пчёл&r. И никакого костра! "
-				"• Можете добывать &6мёд&r из Пористых Блоков Сот без получения &cГнева Улья&r. "
-				"• &6Медовый Слизень&r не будет &cзлиться&r на вас, если вы собрали его &6мёд&r. "
-				"• Примечание: Эффект останется на игроке даже после смерти."
+				"• Can enter Cell Maze and not get &cWrath of the Hive&r effect anymore."
+				"• Can enter &eThrone Pillar&r and not get &oMining Fatigue&r when near &6Bee Queen&r."
+				"• Can take honey from Filled Porous Honeycomb Blocks safely without getting &cWrath of the Hive&r Effect."
+				"• Can mine &6translucent Honey Blocks&r without getting &cWrath of the Hive&r effect anymore."
+				"• Entering &6Honey Fluid&r will grant &dRegenerative&r effect."
+				"• Entering Royal Jelly Fluid will grant a short lived &Beenergized&r effect and stronger &dRegenerative effect&r."
+				"• &6Beehive/Bee Nests&r can be mined, &6honey&r taken by bottle, or sheared for &6honeycombs&r without &cangering&r the &6bees&r. No campfire needed!"
+				"• &6Honey Slime&r will not get &cangry&r at you when you take its &6honey&r."
+				""
+				"&6Note: The Essence of the Bees effect will persist through death.&r"
 			]
 			hide: true
 			id: "4F6B3FFE2CE29549"
