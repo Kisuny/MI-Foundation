@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "cookingtime": 200,
-  "experience": 0.7,
-  "ingredient": {
-    "item": "modern_industrialization:midas_gold_dust"
-  },
-  "result": "mythicmetals:midas_gold_ingot"
-}

@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "cookingtime": 200,
-  "experience": 0.08,
-  "ingredient": {
-    "item": "modern_industrialization:star_platinum_tiny_dust"
-  },
-  "result": "mythicmetals:star_platinum_nugget"
-}

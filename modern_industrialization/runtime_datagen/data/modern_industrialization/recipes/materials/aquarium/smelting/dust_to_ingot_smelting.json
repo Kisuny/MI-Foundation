@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "cookingtime": 200,
-  "experience": 0.7,
-  "ingredient": {
-    "item": "modern_industrialization:aquarium_dust"
-  },
-  "result": "mythicmetals:aquarium_ingot"
-}
