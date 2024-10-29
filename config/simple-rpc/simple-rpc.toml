@@ -27,7 +27,7 @@
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "MI:Foundation 1.19.2"
 	#The Asset ID of the image to display as the small image
-	smallImageKey = ["logo_mif"]
+	smallImageKey = []
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods"
 	#The buttons to display on Discord
@@ -46,7 +46,7 @@
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "MI:Foundation 1.19.2"
 	#The Asset ID of the image to display as the small image
-	smallImageKey = ["logo_mif"]
+	smallImageKey = []
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods"
 	#The buttons to display on Discord
@@ -67,7 +67,7 @@
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "MI:Foundation 1.19.2"
 	#The Asset ID of the image to display as the small image
-	smallImageKey = ["logo_mif"]
+	smallImageKey = []
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods"
 	#The buttons to display on Discord
@@ -86,7 +86,7 @@
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "MI:Foundation 1.19.2"
 	#The Asset ID of the image to display as the small image
-	smallImageKey = ["logo_mif"]
+	smallImageKey = []
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods"
 	#The buttons to display on Discord
@@ -105,7 +105,7 @@
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "MI:Foundation 1.19.2"
 	#The Asset ID of the image to display as the small image
-	smallImageKey = ["logo_mif"]
+	smallImageKey = []
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods"
 	#The buttons to display on Discord
@@ -124,7 +124,7 @@
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "MI:Foundation 1.19.2"
 	#The Asset ID of the image to display as the small image
-	smallImageKey = ["logo_mif"]
+	smallImageKey = []
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods"
 	#The buttons to display on Discord
@@ -143,7 +143,7 @@
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "MI:Foundation 1.19.2"
 	#The Asset ID of the image to display as the small image
-	smallImageKey = ["logo_mif"]
+	smallImageKey = []
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods"
 	#The buttons to display on Discord
@@ -162,7 +162,7 @@
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "MI:Foundation 1.19.2"
 	#The Asset ID of the image to display as the small image
-	smallImageKey = ["logo_mif"]
+	smallImageKey = []
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%realmdescription%"
 	#The buttons to display on Discord
@@ -179,7 +179,7 @@
 	#The text that gets displayed when the large image is hovered
 	largeImageText = "MI:Foundation 1.19.2"
 	#The Asset ID of the image to display as the small image
-	smallImageKey = ["logo_mif"]
+	smallImageKey = []
 	#The text that gets displayed when the small image is hovered
 	smallImageText = "%mods% mods"
 	#The buttons to display on Discord
