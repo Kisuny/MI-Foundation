@@ -1032,7 +1032,7 @@
 		}
 		{
 			dependencies: ["207201E16246C5E3"]
-			description: [""]
+			description: ["You can find barrels in the world or start producing them by unlocking steel!"]
 			id: "65AA9563035BA3F1"
 			rewards: [{
 				id: "33A36D29FF4E8A54"
