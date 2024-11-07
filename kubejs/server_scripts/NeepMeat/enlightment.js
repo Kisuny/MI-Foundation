@@ -1,7 +1,5 @@
 
-ServerEvents.recipes(event => {
-    // Void Portal
-    event.remove({id: 'javd:portal_block'})
+ServerEvents.recipes(event => {  
     // Flux Configurator
     event.remove({id: 'fluxnetworks:flux_configurator'})
     event.recipes.neepmeat.enlightening({
