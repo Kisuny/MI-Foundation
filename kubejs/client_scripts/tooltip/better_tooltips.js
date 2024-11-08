@@ -76,6 +76,7 @@ ItemEvents.tooltip(tooltip => {
         betterToolTip({ item: 'bewitchment:dragons_blood_resin', text: 'kubejs.dragons_blood_resin.tooltip' })
         betterToolTip({ item: 'travelersbackpack:standard', text: 'kubejs.backpack_standard.tooltip' })
         betterToolTip({ item: 'fwaystones:waystone_scroll', text: 'kubejs.waystone_scroll.tooltip' })
+        betterToolTip({ item: 'bewitchment:witchberry', text: 'kubejs.witchberry.tooltip' })
 
         // тултипы для артефактов
         let artifactsTooltip = (args) => {

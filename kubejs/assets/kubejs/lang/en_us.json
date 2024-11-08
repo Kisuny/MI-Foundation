@@ -56,6 +56,9 @@
     "kubejs.dragons_blood_resin.tooltip": "🪓 If you make an incision using Athame on a dragonblood tree, the log will start bleeding!",
     "kubejs.backpack_standard.tooltip": "Can be created on a Pigment Pedestal",
     "kubejs.waystone_scroll.tooltip": "You can buy it at the shop",
+    "kubejs.witchberry.tooltip": "You can get it by growing «Fruiting Bramble»",
+
+
     "kubejs.cloud_in_a_bottle.tooltip_1": "🎣 can get by fishing creatures, from a «Ghost».",
     "kubejs.cloud_in_a_bottle.tooltip_2": "conditions for catching ghost: night, water, overworld.",
     "kubejs.vampiric_glove.tooltip_1": "🎣 can get by fishing creatures, from a «Vampire».",
