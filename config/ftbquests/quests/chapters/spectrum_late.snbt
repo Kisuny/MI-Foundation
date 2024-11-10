@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["01EEAB72478340F9"]
-			description: ["Спуститесь в глубокие низины! "]
+			description: [""]
 			hide: true
 			id: "038A12B861714416"
 			rewards: [{
@@ -21,6 +21,7 @@
 			}]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "We need to go even deeper!"
 			tasks: [{
 				dimension: "spectrum:deeper_down"
 				icon: "minecraft:bedrock"
@@ -32,7 +33,7 @@
 		}
 		{
 			dependencies: ["038A12B861714416"]
-			description: ["Сделайте весь сет бедрока!"]
+			description: [""]
 			hide: true
 			id: "275E4EA94818FF3F"
 			rewards: [
@@ -120,7 +121,7 @@
 		}
 		{
 			dependencies: ["038A12B861714416"]
-			description: ["Сделайте любой из инструментов бедрокового происхождения!"]
+			description: [""]
 			hide: true
 			id: "3CC303E1B582F79E"
 			rewards: [{
@@ -147,7 +148,7 @@
 		}
 		{
 			dependencies: ["038A12B861714416"]
-			description: ["Дракон и визер не сломают эти блоки, а уж тем более какой-то взрыв."]
+			description: [""]
 			hide: true
 			id: "3B8EFAF264B3E5D4"
 			rewards: [{
@@ -158,6 +159,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			subtitle: "Wither-proof construction"
 			tasks: [
 				{
 					id: "1F3F2BA5A8FEF802"
@@ -177,9 +179,9 @@
 			dependencies: ["038A12B861714416"]
 			description: [
 				""
-				"Позволяет переименовывать предметы бесплатно и не имеет максимального лимита на ремонт."
+				"Allows to rename items freely and has no repair xp limit."
 				""
-				"Также вы можете добавлять описания к своим предметам и использовать эту наковальню для дробления предметов бесконечно."
+				"Also you can add description to items and this anvil is &8unbreakable&r. "
 			]
 			hide: true
 			id: "2E4CD28B03CBBA23"
@@ -220,7 +222,7 @@
 		}
 		{
 			dependencies: ["038A12B861714416"]
-			description: ["Найдите немного нового драгоценного камня!"]
+			description: [""]
 			hide: true
 			id: "5E97642FBAAC06F0"
 			rewards: [{
@@ -230,6 +232,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
+			subtitle: "Moonshine!"
 			tasks: [{
 				count: 16L
 				id: "37791C8421154D30"
@@ -272,7 +275,7 @@
 				"07A0CBC08295C1CD"
 			]
 			description: [
-				"Улучшите свой последний пьедестал!"
+				"Improve your pedestal!"
 				""
 				"{image:quest_images:textures/item/spectrum/p3.png width:200 height:200 align:1 fit:true}"
 			]
@@ -363,7 +366,7 @@
 					type: "item"
 				}
 			]
-			title: "На &bМАКСИМУМ!"
+			title: "&bMAXIMUM&r power!"
 			x: 0.0d
 			y: -4.5d
 		}
@@ -453,7 +456,7 @@
 		}
 		{
 			dependencies: ["0A2CBE6692C277E0"]
-			description: ["Маленькие кусочки можно найти на стенах в глубоких низинах в биоме &2Кристальные сады&r"]
+			description: ["Small chunks can be found on walls in the &2Crystal Gardens&r biome in Deeper Down."]
 			hide: true
 			id: "5CC7178193D6E1C6"
 			rewards: [{
@@ -474,7 +477,7 @@
 		}
 		{
 			dependencies: ["038A12B861714416"]
-			description: ["Возможно найти в одном из биомов глубоких низин!"]
+			description: [""]
 			hide: true
 			id: "3B42534A405D65AB"
 			rewards: [{
@@ -485,6 +488,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			subtitle: "Oopsie-daisy of the Deeper Down's"
 			tasks: [{
 				count: 8L
 				id: "227C4AA7289F9F1F"
@@ -516,7 +520,7 @@
 		}
 		{
 			dependencies: ["0A2CBE6692C277E0"]
-			description: ["Будьте осторожны, &bплатериевый самоцвет&r почти сразу же улетает вверх при выпадение, когда копаете руду - ставьте над ней блок или придумайте что-то умнее! "]
+			description: ["Warning, &bpaltaeria fragments&r will float away instantly after mining. Place something above to catch it or come up with something clever. "]
 			hide: true
 			id: "073DD25592290A3B"
 			rewards: [
@@ -547,6 +551,7 @@
 					type: "item"
 				}
 			]
+			title: "Paltaeria Fragments"
 			x: -3.5d
 			y: -4.5d
 		}
@@ -555,7 +560,7 @@
 				"073DD25592290A3B"
 				"0C1589692FFEB582"
 			]
-			description: ["Создайте важнейший блок для прогрессии, более подробнее как с ним взаимодействовать можно прочитать в книге!"]
+			description: ["One of the most important block for further progression. More in depth usage instructions can be found in the Spectrum Book. "]
 			id: "69225E3EFFB37575"
 			shape: "octagon"
 			tasks: [{
@@ -597,10 +602,11 @@
 				"549C8C3EC062B2F7"
 				"7930FF093F85016E"
 			]
-			description: ["Взорвите блок драконьей кости амальгамой и получите немного её осколков"]
+			description: [""]
 			hide: true
 			id: "0B2AE0AB37EEE638"
 			shape: "diamond"
+			subtitle: "Crack the bone!"
 			tasks: [{
 				count: 4L
 				id: "32BF93A3430BB6E5"
@@ -613,9 +619,9 @@
 		{
 			dependencies: ["1329182E0D2135F3"]
 			description: [
-				"Спавнится в данже спектрума, внутри глубоких низинах!"
+				"Spawns in Spectrum dungeons inside Deeper Down!"
 				""
-				"Так же можно сварить самому, позволяет взрывать драконью кость!"
+				"Also it can be brewed in Titration Barrel. Allows to break &7Dragon bone!&r"
 			]
 			hide: true
 			id: "549C8C3EC062B2F7"
@@ -630,7 +636,7 @@
 		}
 		{
 			dependencies: ["0B2AE0AB37EEE638"]
-			description: ["Вырастите киндлинга и добудьте его пёрышко!"]
+			description: [""]
 			hide: true
 			id: "711B2D5E6E950C0D"
 			rewards: [
@@ -648,6 +654,7 @@
 				}
 			]
 			shape: "octagon"
+			subtitle: "How to tame the kindling!"
 			tasks: [
 				{
 					id: "6561D497CFB6DEA9"
@@ -719,6 +726,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
+			subtitle: "Heal that thang!"
 			tasks: [{
 				advancement: "spectrum:lategame/revive_black_sludge_plant"
 				criterion: ""
@@ -730,7 +738,7 @@
 		}
 		{
 			dependencies: ["0A2CBE6692C277E0"]
-			description: ["Можно призвать в алтаре призыва!"]
+			description: ["Can be summoned in Summoning Altar!"]
 			hide: true
 			id: "1329182E0D2135F3"
 			rewards: [{
@@ -765,7 +773,7 @@
 		}
 		{
 			dependencies: ["0B2AE0AB37EEE638"]
-			description: ["Превращает существ в их воспоминания!"]
+			description: ["Turns mobs into their memories!"]
 			hide: true
 			id: "03C0C95ADF68FF5D"
 			rewards: [{
@@ -785,10 +793,11 @@
 		}
 		{
 			dependencies: ["0B2AE0AB37EEE638"]
-			description: ["Найдите загадочный амулет!"]
+			description: [""]
 			hide: true
 			id: "1155BE801A058AE2"
 			shape: "octagon"
+			subtitle: "Find the Locket"
 			tasks: [{
 				id: "71F7966B153D187A"
 				item: {
@@ -805,7 +814,7 @@
 		}
 		{
 			dependencies: ["1155BE801A058AE2"]
-			description: ["Создайте компас и найдите таинственную структуру! "]
+			description: ["Complete the compass and find mysterious structure!"]
 			hide: true
 			id: "39DC7D1AE14CC1D7"
 			rewards: [
@@ -830,6 +839,7 @@
 				}
 			]
 			shape: "gear"
+			subtitle: "The Steve and the Raiders of the lost Ark"
 			tasks: [{
 				id: "636702E95117AE9D"
 				item: "spectrum:mysterious_compass"
@@ -867,7 +877,7 @@
 		}
 		{
 			dependencies: ["6950DEEA33FD1127"]
-			description: ["Позволяет объединить 2 безделушки одного типа в одну, сохранив их свойства!"]
+			description: ["Allows to combine two trinkets of same kind into one, maintaining their properties!"]
 			hide: false
 			id: "67F48ED43E7E4DA1"
 			rewards: [{
@@ -887,7 +897,7 @@
 		}
 		{
 			dependencies: ["6950DEEA33FD1127"]
-			description: ["Позволяет сделать любой из инструментов не ломаемым  "]
+			description: ["Allows to make any instrument unbreakable."]
 			hide: false
 			id: "54E31637F0AB7C1F"
 			rewards: [{
@@ -907,7 +917,7 @@
 		}
 		{
 			dependencies: ["6950DEEA33FD1127"]
-			description: ["Создаёт энергию за ману."]
+			description: [""]
 			id: "74E07E8DE2978FDC"
 			rewards: [{
 				id: "01915F4DEEE8531C"
@@ -916,6 +926,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
+			subtitle: "Electricity from Mana!"
 			tasks: [{
 				id: "3734CB7E74FFC682"
 				item: "botania:mana_fluxfield"
@@ -926,7 +937,7 @@
 		}
 		{
 			dependencies: ["6950DEEA33FD1127"]
-			description: ["&cКровокамень&r был последним недостающим пазлом для создания металлургия, древние пользовались невероятными технологиями!"]
+			description: ["&cBloodstone&r was the last piece of perfect metal composisiton. The ancient one indeed were smarter than us!"]
 			id: "08C0BC7DF568805D"
 			rewards: [{
 				count: 50
@@ -946,7 +957,7 @@
 		}
 		{
 			dependencies: ["08C0BC7DF568805D"]
-			description: ["Создайте лучшее улучшение рюкзака которое только возможно!"]
+			description: [""]
 			id: "769A504A71FC88DD"
 			rewards: [
 				{
@@ -965,6 +976,7 @@
 			]
 			shape: "circle"
 			size: 0.8d
+			subtitle: "The final backpack upgrade!"
 			tasks: [{
 				id: "23720BF5B8F43ACA"
 				item: "travelersbackpack:netherite_tier_upgrade"
@@ -978,7 +990,6 @@
 			hide_dependency_lines: false
 			id: "2C7AB410E50C5851"
 			shape: "diamond"
-			subtitle: "Вырастите свою первую террасталь"
 			tasks: [
 				{
 					id: "5C0A3C6799ACC746"
@@ -996,7 +1007,7 @@
 		}
 		{
 			dependencies: ["08C0BC7DF568805D"]
-			description: ["Компонент для создания времени в бутылке!"]
+			description: ["Precursor of the time in a bottle!"]
 			id: "0BAB37C7FC7D9B02"
 			rewards: [{
 				id: "3EC0D45E9D42CF80"
@@ -1006,6 +1017,7 @@
 			}]
 			shape: "diamond"
 			size: 0.8d
+			subtitle: "UTC"
 			tasks: [{
 				id: "4D3978F7E8DA0B1C"
 				item: "spectrum:celestial_pocketwatch"
@@ -1016,7 +1028,7 @@
 		}
 		{
 			dependencies: ["0BAB37C7FC7D9B02"]
-			description: ["Позволяет накапливать время в бутылочке находясь в инвентаре, как только вы скопили много времени - вы можете начать ускорять любые блоки, чем больше раз кликнуть на блок данной баночкой, тем быстрее работать он начнёт."]
+			description: ["Allows to store &otime&r while bottle inside the player inventory. When enough time is stored you can speed up the block entities. The more clicks means more speed increase. "]
 			id: "7240E63C6661148E"
 			rewards: [{
 				id: "18A2ED9E0368E6A8"
@@ -1032,9 +1044,7 @@
 					Count: 1b
 					id: "timeinabottle:time_in_a_bottle"
 					tag: {
-						timeData: {
-							storedTime: 1620
-						}
+						timeData: { }
 					}
 				}
 				type: "item"
@@ -1044,7 +1054,7 @@
 		}
 		{
 			dependencies: ["08C0BC7DF568805D"]
-			description: ["Позволяет переносить биом из одного места, в другое"]
+			description: ["Allows to transfer biome in radius to another place. Handy for &8Orbit&r crafting."]
 			id: "33A9E9F44D5DF8AA"
 			rewards: [{
 				id: "46BF0F4A57884EA5"
@@ -1054,6 +1064,7 @@
 			}]
 			shape: "diamond"
 			size: 0.8d
+			subtitle: "Biome transfering!"
 			tasks: [{
 				id: "7655F64C9D397C8A"
 				item: "biomesinjars:empty_biome_jar"
@@ -1064,7 +1075,7 @@
 		}
 		{
 			dependencies: ["08C0BC7DF568805D"]
-			description: ["Улучшение для алтарей и других мультиблоков спектрума, позволяет сделать х2 продукции при крафте, но с шансом!"]
+			description: ["Upgrades used in spectrum structures. Provides x2 increase in production with a chance."]
 			id: "54A3A3BAA7129852"
 			rewards: [{
 				id: "31464ADBF807DA82"
@@ -1084,9 +1095,10 @@
 		}
 		{
 			dependencies: ["073DD25592290A3B"]
-			description: ["Позволяет заменять блоки одного типа, на другого."]
+			description: ["Allows to exchange one block into another. Can change multiple connected blocks simultaneously. Handy when dealing with EBF coils.  "]
 			id: "00F88CC599CEE69D"
 			shape: "octagon"
+			subtitle: "Thaumic vibes!"
 			tasks: [{
 				id: "318DCA017C5213C1"
 				item: {
@@ -1494,11 +1506,11 @@
 		{
 			dependencies: ["08C0BC7DF568805D"]
 			description: [
-				"Позволяет телепортироваться в любую точку мира, между мирами. "
+				"Allows to teleport to any point in space and dimension."
 				""
-				"Для работы необходимо нажать книгой ПКМ на &5Жемчуг телепортации&r, чтобы добавить жемчуг в книгу как заряд, 1 телепортация = 1 жемчугу. "
+				"To teleport you must first click RMB with book in hand onto the &5Teleport Pearl&r to add the charge to the book. 1 teleport = 1 pearl."
 				""
-				"Так же для работы книгы необходима «&9Страница Перемещения&r», страницы можно найти в разнообразных данжах."
+				"Also to record static location you will need to &ofind&r the Displacement Pages in various dungeons."
 			]
 			id: "47A5EF8672853825"
 			rewards: [{
@@ -1523,7 +1535,7 @@
 		}
 		{
 			dependencies: ["1B8B44ABD0A94E55"]
-			description: ["Соберите немного хрустальных персиков которые растут на цветущем нефрите!"]
+			description: ["Reap the Nephrite blossom fruits."]
 			id: "56915AF761EC4872"
 			rewards: [{
 				id: "1C09F9E1DFF2F380"
@@ -1532,6 +1544,7 @@
 				type: "item"
 			}]
 			shape: "heart"
+			subtitle: "Joe Peach"
 			tasks: [{
 				count: 8L
 				id: "11414BCAED2916EA"
@@ -1543,7 +1556,7 @@
 		}
 		{
 			dependencies: ["47A5EF8672853825"]
-			description: ["Создайте &5жемчуг&r для телепортации &eтомом перемещения&r!"]
+			description: [""]
 			id: "4B00A83EB19B92B8"
 			rewards: [{
 				count: 2
@@ -1618,7 +1631,7 @@
 		}
 		{
 			dependencies: ["034F516E1377D547"]
-			description: ["&9Данк&r пятого уровня вмещает &b65536 предметов&r и имеет &b45 слотов&r."]
+			description: ["&9Dank&r fifth level holds &b65536 items&r and has &b45 slots&r."]
 			id: "644D29F0387FCE03"
 			shape: "diamond"
 			size: 0.9d
@@ -1632,13 +1645,7 @@
 		}
 		{
 			dependencies: ["6950DEEA33FD1127"]
-			description: [
-				"&9Данк&r шестого уровня вмещает &b262144 предметов&r и имеет &b54 слотов&r."
-				""
-				"Так же данки имеют &bразные режимы&r подбора предметов, один из самых полезных - &cудаление&r лишних ресурсов, чтобы не забивать свой инвентарь!"
-				""
-				"Держа в руке &6данк&r можно нажать на кнопку i - тогда данк перейдет в режим &3строительства&r, засуньте туда нужный блок для строительства и нажмите данком &eСредней кнопкой мыши&r на нужный блок для строительства - теперь вы можете использовать данк для строительства!"
-			]
+			description: ["&9Dank&r sixth. Can hold &b262144 items&r and has &b54 slots&r."]
 			id: "23E25E07D0E7A687"
 			shape: "gear"
 			size: 0.8d
@@ -1652,13 +1659,7 @@
 		}
 		{
 			dependencies: ["08C0BC7DF568805D"]
-			description: [
-				"&9Данк&r седьмого уровня вмещает &b2,147,483,647 предметов&r и имеет &b81 слот&r."
-				""
-				"Так же данки имеют &bразные режимы&r подбора предметов, один из самых полезных - &cудаление&r лишних ресурсов, чтобы не забивать свой инвентарь!"
-				""
-				"Держа в руке &6данк&r можно нажать на кнопку i - тогда данк перейдет в режим &3строительства&r, засуньте туда нужный блок для строительства и нажмите данком &eСредней кнопкой мыши&r на нужный блок для строительства - теперь вы можете использовать данк для строительства!"
-			]
+			description: ["&9Dank&r seventh. Can hold &b2,147,483,647 items&r and has &b81 slots&r."]
 			id: "79012FC587C10F0B"
 			rewards: [{
 				id: "2840E2908E604294"
@@ -1703,7 +1704,7 @@
 		}
 		{
 			dependencies: ["038A12B861714416"]
-			description: ["Найдите заброшенный город в глубоких низинах"]
+			description: ["Find lost city in Deeper Down."]
 			hide: true
 			hide_dependency_lines: false
 			icon: {
@@ -1728,16 +1729,13 @@
 				title: "Город мой городок"
 				type: "structure"
 			}]
+			title: "Paradise City"
 			x: 0.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["07A0CBC08295C1CD"]
-			description: [
-				"Изучая заброшенный город вы смогли обнаружить странные цветы у кладбища, интересно, а что если их попробовать оживить?"
-				""
-				"&#ffb04fЭтот квест открывает новую ветку квестов!&r"
-			]
+			description: ["By wandering through lost city you found a strange withered flowers near the graveyard, what if we can make it &ablooming&r again."]
 			hide: true
 			id: "215B23638DD9FEDB"
 			rewards: [{
@@ -1747,6 +1745,7 @@
 				type: "item"
 			}]
 			shape: "octagon"
+			subtitle: "&#ffb04fThis quest opens a new quest chapter!&r"
 			tasks: [{
 				id: "564FD49E612ECC86"
 				item: "kubejs:fossilized_white_mystical_flower"
@@ -1757,11 +1756,7 @@
 		}
 		{
 			dependencies: ["07A0CBC08295C1CD"]
-			description: [
-				"Изучая заброшенный город вы смогли обнаружить странный улей вблизь к кладбищу, а что если попробовать наполнить его пчёлами и мёдом?"
-				""
-				"&#ffb04fЭтот квест открывает новую ветку квестов!&r"
-			]
+			description: ["By wandering through lost city you found a strange beehive near the graveyard, what if we can make it &6buzzing&r again."]
 			hide: true
 			id: "5A42FAAF364FFC82"
 			rewards: [{
@@ -1771,6 +1766,7 @@
 				type: "item"
 			}]
 			shape: "octagon"
+			subtitle: "&#ffb04fThis quest opens a new quest chapter!&r"
 			tasks: [{
 				id: "629ACE77DCF79776"
 				item: "kubejs:empty_beehive"
@@ -1782,15 +1778,15 @@
 		{
 			dependencies: ["0B2AE0AB37EEE638"]
 			description: [
-				"Соберите все различные ресурсы глубоких низин!"
+				"Collect all Deeper Down resources!"
 				""
-				"• Висмут."
-				"• Колючий лавровый лист."
-				"• Семена Смертоцвета."
-				"• Мракодерево."
-				"• Драконью кость."
-				"• Гудокамень."
-				"• Обтесите большие грибы глубоких низин"
+				"• Bismuth."
+				"• Sawblades Holly Berry."
+				"• Doombloom seeds."
+				"• Noxwood."
+				"• Dragonbone."
+				"• Hummingstone."
+				"• Stripped noxcaps."
 			]
 			id: "63CC4D4C70528092"
 			tasks: [{
