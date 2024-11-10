@@ -979,7 +979,7 @@
 		}
 		{
 			dependencies: ["7BCBEF7AD70220CA"]
-			description: ["&4Morkite enricher&r, adds the ability to produce &bmorkite fuel&r, a type of liquid fuel"]
+			description: ["&4Morkite enricher&r, adds the ability to produce &bmorkite fuel&r, a the &lmost efficient&r liquid fuel"]
 			id: "119D6AD3085DB244"
 			rewards: [
 				{
