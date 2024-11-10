@@ -2057,6 +2057,88 @@
 			x: 12.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["50C0CA3FC79847C4"]
+			description: ["Калькулятор, но в Minecraft, звучит удобно!"]
+			id: "440A985C8221C792"
+			shape: "gear"
+			tasks: [{
+				id: "7B6357F04D3DDD6E"
+				item: {
+					Count: 1b
+					id: "jecalculation:item_calculator_math"
+					tag: {
+						jecalculation: {
+							math: {
+								current: ""
+								last: "658"
+								operator: 0
+								state: 1
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["50C0CA3FC79847C4"]
+			description: [
+				"Данный калькулятор позволяет считать сколько нужно тех или иных материалов для крафта нужного вам количества предметов, управление немного сложное, с данной штучкой можно сэкономить очень много времени!"
+				""
+				"Более подробную информацию можно прочитать открыв калькулятор создания и нажав на кнопку справа снизу."
+			]
+			id: "13833A11F430672D"
+			shape: "gear"
+			tasks: [{
+				id: "69FB8A16A82671E9"
+				item: {
+					Count: 1b
+					id: "jecalculation:item_calculator_craft"
+					tag: {
+						jecalculation: {
+							craft: {
+								amount: "10"
+								inventory: 0b
+								mode: "steps"
+								overlayDepth: 0
+								overlayOpen: 0b
+								overlayPositionX: 0
+								overlayPositionY: 0
+								recents: [
+									{
+										content: {
+											amount: 1L
+											item: "modern_industrialization:analog_circuit"
+										}
+										type: "itemStack"
+									}
+									{
+										content: {
+											amount: 1L
+											item: "modern_industrialization:analog_circuit_board"
+										}
+										type: "itemStack"
+									}
+									{
+										content: {
+											amount: 1L
+											item: "spectrum:cracked_calcite_bricks"
+										}
+										type: "itemStack"
+									}
+								]
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.5d
+		}
 	]
 	title: "&7Electricity | LV"
 }

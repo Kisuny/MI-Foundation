@@ -2057,6 +2057,82 @@
 			x: 12.0d
 			y: 0.0d
 		}
+		{
+			dependencies: ["50C0CA3FC79847C4"]
+			id: "2F6C9BCF585211DC"
+			shape: "gear"
+			tasks: [{
+				id: "03284A1B1ECC4EF2"
+				item: {
+					Count: 1b
+					id: "jecalculation:item_calculator_craft"
+					tag: {
+						jecalculation: {
+							craft: {
+								amount: "10"
+								inventory: 0b
+								mode: "steps"
+								overlayDepth: 0
+								overlayOpen: 0b
+								overlayPositionX: 0
+								overlayPositionY: 0
+								recents: [
+									{
+										content: {
+											amount: 1L
+											item: "modern_industrialization:analog_circuit"
+										}
+										type: "itemStack"
+									}
+									{
+										content: {
+											amount: 1L
+											item: "modern_industrialization:analog_circuit_board"
+										}
+										type: "itemStack"
+									}
+									{
+										content: {
+											amount: 1L
+											item: "spectrum:cracked_calcite_bricks"
+										}
+										type: "itemStack"
+									}
+								]
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["50C0CA3FC79847C4"]
+			id: "17637FFEA2EF8643"
+			shape: "gear"
+			tasks: [{
+				id: "426BDFF4465599F1"
+				item: {
+					Count: 1b
+					id: "jecalculation:item_calculator_math"
+					tag: {
+						jecalculation: {
+							math: {
+								current: ""
+								last: "658"
+								operator: 0
+								state: 1
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.5d
+		}
 	]
 	title: "&7Electricity | LV"
 }
