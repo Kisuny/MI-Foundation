@@ -2059,7 +2059,18 @@
 		}
 		{
 			dependencies: ["50C0CA3FC79847C4"]
+			description: [
+				"&e&lCrafting calculator&r&r allows you to &ocalculate&r how many &ematerials you need to craft the number of items you need&r, the control is a bit complicated, with this gizmo &l&9you can save a lot of time&r&r!"
+				""
+				"You can read more information by opening the &e&lcrafting calculator&r&r and clicking on the &nbutton&r on the &ebottom right&r."
+			]
 			id: "2F6C9BCF585211DC"
+			rewards: [{
+				count: 2
+				id: "2C04B1FBB407277C"
+				item: "kubejs:mid_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "03284A1B1ECC4EF2"
@@ -2110,7 +2121,14 @@
 		}
 		{
 			dependencies: ["50C0CA3FC79847C4"]
+			description: ["&lMath calculator&r, but in &2Minecraft&r, sounds handy!"]
 			id: "17637FFEA2EF8643"
+			rewards: [{
+				count: 2
+				id: "25293A397D2CB07E"
+				item: "kubejs:mid_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "426BDFF4465599F1"
