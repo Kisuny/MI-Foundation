@@ -86,13 +86,9 @@ StartupEvents.registry('item', event => {
     simpleItemAdd({ item: 'scoop', rarity: 'common', stackSize: 1})
     simpleItemAdd({ item: 'infinity_plate', rarity: 'epic', stackSize: 64})
     simpleItemAdd({ item: 'neutronium_plate', stackSize: 64})
-    // simpleItemAdd({ item: 'necrodermal_affected_bee_queen', rarity: 'rare', stackSize: 16})
-    // simpleItemAdd({ item: 'nullodermal_affected_bee_queen', rarity: 'rare', stackSize: 16})
-
-
-    // event.create('scoop','shears')
-    //     .texture(`kubejs:item/scoop`)
-    //     .rarity('common')
+    simpleItemAdd({ item: 'building_card', stackSize: 1, rarity: 'rare'})
+    simpleItemAdd({ item: 'desctruction_card', stackSize: 1, rarity: 'rare'})
+    simpleItemAdd({ item: 'exchanging_card', stackSize: 1, rarity: 'rare'})
 
     event.create("dev_tool", "pickaxe")
         .texture(`kubejs:item/dev_tool`)

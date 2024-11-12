@@ -38,37 +38,6 @@ ServerEvents.recipes(event => {
         .dimension('minecraft:the_nether')
 
 
-
-    //event.recipes.modern_industrialization.bottler({
-    //	"eu": 8,
-    //	"duration": 100,
-    //	"item_inputs": [
-    //		{
-    //			"item": 'yttr:snare',
-    //			"data": {
-    //				"Contents": {
-    //					"id": "minecraft:allay"
-    //				}
-    //			},
-    //		}
-    //	],
-    //	"fluid_inputs": [
-    //		{
-    //			"fluid": 'minecraft:water',
-    //			"amount": 250
-    //		}
-    //	],
-    //	"item_outputs": [
-    //		{
-    //			"item": 'yttr:snare',
-    //			"nbt": {
-    //				"Contents": {
-    //					"id": "minecraft:allay"
-    //				}
-    //			},
-    //		}
-    //	],
-    //})
     event.recipes.spectrum.pedestal({
         "time": 1200,
         "tier": "complex",

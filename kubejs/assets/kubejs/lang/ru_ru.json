@@ -176,6 +176,9 @@
     "item.kubejs.nullodermal_affected_beehemoth": "Шмеллиафан пораженный налловирусом",
     "item.kubejs.necrodermal_affected_bee": "Пчела пораженная некровирусом",
     "item.kubejs.nullodermal_affected_bee": "Пчела пораженная налловирусом",
+    "item.kubejs.building_card": "Карта «Строительства»",
+    "item.kubejs.desctruction_card": "Карта «Разрушения»",
+    "item.kubejs.exchanging_card": "Карта «Замены»",
 
     "item.kubejs.durasteel_reinforced_steel_drill": "Забурник из стали усиленный дюрасталью",
     "item.kubejs.neutronium_augmented_steel_drill": "Забурник из алюминия с добавлением нейтрония",

@@ -440,6 +440,9 @@ REIEvents.hide('item', event => {
         'itemalchemy:philosopher_stone',
         'spectrum:perturbed_eye',
         'kibe:cooler',
+        'buildinggadgets:gadget_copy_paste',
+        'buildinggadgets:template',
+        'buildinggadgets:template_manager',
         'neepmeat:shield'
 
 

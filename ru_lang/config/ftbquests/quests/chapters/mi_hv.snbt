@@ -57,8 +57,8 @@
 				item: "modern_industrialization:mars_air_bucket"
 				type: "item"
 			}]
-			x: 26.5d
-			y: -15.0d
+			x: 29.5d
+			y: -17.0d
 		}
 		{
 			dependencies: ["33A796252B8BDAC8"]
@@ -74,8 +74,8 @@
 				item: "modern_industrialization:mercury_air_bucket"
 				type: "item"
 			}]
-			x: 26.5d
-			y: -16.0d
+			x: 29.5d
+			y: -18.0d
 		}
 		{
 			dependencies: ["33A796252B8BDAC8"]
@@ -91,8 +91,8 @@
 				item: "modern_industrialization:venus_air_bucket"
 				type: "item"
 			}]
-			x: 26.5d
-			y: -14.0d
+			x: 29.5d
+			y: -16.0d
 		}
 		{
 			dependencies: ["33A796252B8BDAC8"]
@@ -108,8 +108,8 @@
 				item: "modern_industrialization:nether_air_bucket"
 				type: "item"
 			}]
-			x: 27.0d
-			y: -14.5d
+			x: 30.0d
+			y: -16.5d
 		}
 		{
 			dependencies: ["33A796252B8BDAC8"]
@@ -125,8 +125,8 @@
 				item: "modern_industrialization:liquid_air_bucket"
 				type: "item"
 			}]
-			x: 27.0d
-			y: -15.5d
+			x: 30.0d
+			y: -17.5d
 		}
 		{
 			dependencies: [
@@ -942,8 +942,8 @@
 				item: "modern_industrialization:compactium_dust"
 				type: "item"
 			}]
-			x: 25.5d
-			y: -13.5d
+			x: 25.505952380952387d
+			y: -14.59523809523808d
 		}
 		{
 			dependencies: [
@@ -1163,8 +1163,8 @@
 				item: "modern_industrialization:pressurizer"
 				type: "item"
 			}]
-			x: 24.5d
-			y: -15.0d
+			x: 27.5d
+			y: -17.0d
 		}
 		{
 			dependencies: ["2AC0E79728F4AA45"]
@@ -3202,6 +3202,106 @@
 			}]
 			x: 28.0d
 			y: -11.5d
+		}
+		{
+			dependencies: ["4626E3D01CBD6DCC"]
+			description: [
+				"Позволяет &eразмещать множество блоков одного типа одновременно&r, существует множество режимов установки, найдите горячую клавишу в настройках чтобы узнать подробнее о режимах. Так же можно отменять свои действия \"&eОткатывать&r\"."
+				""
+				"Чтобы выбрать блок для строительства нажмите SHIFT + ПКМ с прибором в руках."
+			]
+			id: "5FEE263D263EA245"
+			rewards: [{
+				count: 2
+				id: "6BC735F5B965BF73"
+				item: "kubejs:mid_lootbag_epic"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "2C1B7AA20D315207"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_building"
+					tag: {
+						state: {
+							data: { }
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 27.029761904761898d
+			y: -15.624999999999979d
+		}
+		{
+			dependencies: ["4626E3D01CBD6DCC"]
+			description: [
+				"Allows you to &ereplace many identical blocks with other blocks&r, there are many replacement modes, find the hotkey in the settings to learn more about the modes. You can also undo your actions."
+				""
+				"To select a block to replace press SHIFT + right mouse button with the device in your hands."
+			]
+			id: "603FFF8AD8407733"
+			rewards: [{
+				count: 2
+				id: "6FA0EC5576D43EDD"
+				item: "kubejs:mid_lootbag_epic"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "7C794900768DDF78"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_exchanging"
+					tag: {
+						state: {
+							data: { }
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 27.529761904761898d
+			y: -14.624999999999979d
+		}
+		{
+			dependencies: ["4626E3D01CBD6DCC"]
+			description: [
+				"Allows you to &cremove&r a large area of any blocks, the blocks are &l&cremoved&r&r in the process!"
+				""
+				"You can also remove &3liquids&r."
+			]
+			id: "1A24232A44AC2568"
+			rewards: [{
+				count: 2
+				id: "032E53152E515B84"
+				item: "kubejs:mid_lootbag_epic"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "4511CBCCDB96E7AC"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_destruction"
+					tag: {
+						fuzzy: 1b
+						overlay: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 27.029761904761898d
+			y: -13.624999999999979d
 		}
 	]
 	title: "&7Space program | HV"

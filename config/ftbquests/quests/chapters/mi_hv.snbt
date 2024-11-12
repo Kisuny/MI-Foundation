@@ -58,8 +58,8 @@
 				item: "modern_industrialization:mars_air_bucket"
 				type: "item"
 			}]
-			x: 26.5d
-			y: -15.0d
+			x: 29.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["33A796252B8BDAC8"]
@@ -75,8 +75,8 @@
 				item: "modern_industrialization:mercury_air_bucket"
 				type: "item"
 			}]
-			x: 26.5d
-			y: -16.0d
+			x: 29.0d
+			y: -18.0d
 		}
 		{
 			dependencies: ["33A796252B8BDAC8"]
@@ -92,8 +92,8 @@
 				item: "modern_industrialization:venus_air_bucket"
 				type: "item"
 			}]
-			x: 26.5d
-			y: -14.0d
+			x: 29.0d
+			y: -16.0d
 		}
 		{
 			dependencies: ["33A796252B8BDAC8"]
@@ -109,8 +109,8 @@
 				item: "modern_industrialization:nether_air_bucket"
 				type: "item"
 			}]
-			x: 27.0d
-			y: -14.5d
+			x: 29.5d
+			y: -16.5d
 		}
 		{
 			dependencies: ["33A796252B8BDAC8"]
@@ -126,8 +126,8 @@
 				item: "modern_industrialization:liquid_air_bucket"
 				type: "item"
 			}]
-			x: 27.0d
-			y: -15.5d
+			x: 29.5d
+			y: -17.5d
 		}
 		{
 			dependencies: [
@@ -789,6 +789,7 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
 			size: 1.5d
 			subtitle: "Planet Cracker"
 			tasks: [{
@@ -796,8 +797,8 @@
 				item: "modern_industrialization:space_miner"
 				type: "item"
 			}]
-			x: 26.517857142857125d
-			y: -18.982142857142854d
+			x: 28.5d
+			y: -21.0d
 		}
 		{
 			dependencies: ["71550D368E4362C7"]
@@ -949,8 +950,8 @@
 				item: "modern_industrialization:compactium_dust"
 				type: "item"
 			}]
-			x: 25.5d
-			y: -13.5d
+			x: 25.482142857142847d
+			y: -14.571428571428562d
 		}
 		{
 			dependencies: [
@@ -1176,8 +1177,8 @@
 				item: "modern_industrialization:pressurizer"
 				type: "item"
 			}]
-			x: 24.5d
-			y: -15.0d
+			x: 27.0d
+			y: -17.0d
 		}
 		{
 			dependencies: ["2AC0E79728F4AA45"]
@@ -3206,6 +3207,78 @@
 			}]
 			x: 28.0d
 			y: -11.5d
+		}
+		{
+			dependencies: ["4626E3D01CBD6DCC"]
+			description: [
+				"Allows you to &eplace many blocks of the same type at the same time&r, there are many setup modes, find the hotkey in the settings to learn more about the modes. You can also undo your actions."
+				""
+				"To select a block for building press SHIFT + right mouse button with the device in your hands."
+			]
+			id: "3195167246145CE7"
+			shape: "gear"
+			tasks: [{
+				id: "76A1B0CA96914667"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_building"
+					tag: {
+						state: {
+							data: { }
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 26.997448979591823d
+			y: -15.551020408163254d
+		}
+		{
+			dependencies: ["4626E3D01CBD6DCC"]
+			id: "5C706DDE0B62DB75"
+			shape: "gear"
+			tasks: [{
+				id: "5175C34A33BD476D"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_exchanging"
+					tag: {
+						state: {
+							data: { }
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 27.497448979591823d
+			y: -14.551020408163254d
+		}
+		{
+			dependencies: ["4626E3D01CBD6DCC"]
+			id: "6C556CF154081467"
+			shape: "gear"
+			tasks: [{
+				id: "114506D3901CE518"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_destruction"
+					tag: {
+						fuzzy: 1b
+						overlay: 1b
+					}
+				}
+				type: "item"
+			}]
+			x: 26.997448979591823d
+			y: -13.551020408163254d
 		}
 	]
 	title: "&7Space program | HV"
