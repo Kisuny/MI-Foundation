@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
     event.remove({id: 'buildinggadgets:gadget_destruction'})
 
 
-    event.recipes.modern_industrialization.assembler(4, 8000)
+    event.recipes.modern_industrialization.assembler(32, 1600)
         .itemIn('modern_industrialization:digital_circuit')
         .itemIn('12x modern_industrialization:stainless_steel_plate')
         .itemIn('kubejs:building_card')
@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
         .fluidIn('modern_industrialization:soldering_alloy', 500)
         .itemOut('buildinggadgets:gadget_building')
 
-    event.recipes.modern_industrialization.assembler(4, 8000)
+    event.recipes.modern_industrialization.assembler(32, 1600)
         .itemIn('modern_industrialization:digital_circuit')
         .itemIn('12x modern_industrialization:stainless_steel_plate')
         .itemIn('kubejs:desctruction_card')
@@ -27,7 +27,7 @@ ServerEvents.recipes(event => {
         .fluidIn('modern_industrialization:soldering_alloy', 500)
         .itemOut('buildinggadgets:gadget_destruction')
 
-    event.recipes.modern_industrialization.assembler(4, 8000)
+    event.recipes.modern_industrialization.assembler(32, 1600)
         .itemIn('modern_industrialization:digital_circuit')
         .itemIn('12x modern_industrialization:stainless_steel_plate')
         .itemIn('kubejs:exchanging_card')

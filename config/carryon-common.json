@@ -205,6 +205,7 @@
       "ae2:*",
       "megacells:*",
       "farmersdelight:*",
+      "lootr:*",
       "numismatic-overhaul:*"
     ],
     "//forbiddenEntities": "Entities that cannot be picked up",
