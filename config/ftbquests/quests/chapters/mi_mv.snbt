@@ -687,7 +687,7 @@
 			description: [
 				"&aMining speed is dependent on the fuel quality&r "
 				"Has two modes: \"silk touch\" and \"fortune 3\"."
-				"&4can't mine 3х3&r"
+				"&4can't mine 3x3&r"
 			]
 			id: "20D91BDF17DB51A8"
 			rewards: [{
@@ -745,7 +745,7 @@
 					type: "item"
 				}
 			]
-			title: "Большие детали"
+			title: "Large parts"
 			x: -5.0d
 			y: 5.5d
 		}
@@ -2255,7 +2255,7 @@
 			subtitle: "&#ffb04fThis quest opens a new quest chapter!&r"
 			tasks: [{
 				id: "0D93CF1579DDA1FA"
-				title: "Возможно ли хранить ману на дисках?"
+				title: "Is it possible to store mana on disks?"
 				type: "checkmark"
 			}]
 			title: "Can i store mana inside the ME network?"

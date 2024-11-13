@@ -1488,7 +1488,7 @@
 		{
 			dependencies: ["0845A204BA15A1F5"]
 			description: [
-				"Пропускает редстоун сигнал только в одну сторону."
+				"Only allows the redstone signal to pass through in one direction."
 				"Only bypass the signal from one side, i.e."
 				"A = 1 -> B = 1"
 				"       but "

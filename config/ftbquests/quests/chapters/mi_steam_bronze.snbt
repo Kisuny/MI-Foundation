@@ -1487,7 +1487,7 @@
 				item: "modern_industrialization:steel_cutting_machine"
 				type: "item"
 			}]
-			title: "Резня v1.5"
+			title: "Carnage v1.5"
 			x: 4.0d
 			y: 1.5d
 		}
@@ -1991,7 +1991,7 @@
 				title: "Mining"
 				type: "checkmark"
 			}]
-			title: "Добыча ресурсов"
+			title: "Extraction of resources"
 			x: 2.0d
 			y: -5.5d
 		}

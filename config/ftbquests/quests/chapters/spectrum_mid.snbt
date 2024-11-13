@@ -60,9 +60,9 @@
 		{
 			dependencies: ["5BF77E78AA8A200B"]
 			description: [
-				"Невероятно &l&aУДОБРИТЕЛЬНЫЙ&r&r инструмент!"
+				"Allows you to fertilize!"
 				""
-				"&#d33b2bПредупреждение&r: на данный момент предмет не работает, проблема отправлена автору мода, в процессе фикса."
+				"&#d33b2bWarning&r: item is not working at the moment, the problem has been sent to the mod author."
 			]
 			hide: true
 			id: "21129323C9A6B176"
@@ -1652,7 +1652,7 @@
 		}
 		{
 			dependencies: ["239BFC7671FAF5F5"]
-			description: ["To obtain the &l&0mid&5night &5shard&r, you need to suffocate the living creature in the &l&5mid&0night&5ноч&0ный&r &l&5so&0lu&5ti&0on&r."]
+			description: ["To obtain the &l&0mid&5night &5shard&r, you need to suffocate the living creature in the &l&5mid&0night &l&5so&0lu&5ti&0on&r."]
 			hide: true
 			id: "0EBE1EF0925CB824"
 			rewards: [
@@ -2125,7 +2125,7 @@
 						}
 					}
 					id: "2646F4EF698E6BBF"
-					title: "Прыжок в неизвестность"
+					title: "A leap into the unknown"
 					type: "custom"
 				}
 				{
@@ -2310,7 +2310,7 @@
 		{
 			dependencies: ["3877FD4F24D92304"]
 			description: [
-				"&#DEB3E0Puppet&r - is a handy figurine used to put the target into &#d33b2bdangerous&r щк &#CAE4C8protective&r environments."
+				"&#DEB3E0Puppet&r - is a handy figurine used to put the target into &#d33b2bdangerous&r &#CAE4C8protective&r environments."
 				""
 				"Puppet is &o<shake>always</shake>&r tied to it's target."
 				"To be active puppet must be in your inventory."
