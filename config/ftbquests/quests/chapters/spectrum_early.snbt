@@ -1571,7 +1571,7 @@
 		}
 		{
 			dependencies: ["5FCEB75E328CB0CC"]
-			description: ["#FEECD6Clock&r shows the phase of the &7moon&r, unbelievable!"]
+			description: ["&#FEECD6Clock&r shows the phase of the &7moon&r, unbelievable!"]
 			hide: true
 			id: "18224AAFE87395E2"
 			rewards: [{
