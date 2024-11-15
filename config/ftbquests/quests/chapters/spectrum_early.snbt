@@ -781,7 +781,7 @@
 		}
 		{
 			dependencies: ["05ADE662ABE07C6A"]
-			description: ["&#FEECD6Phabtom frame&r allows you to put items in it, once the item is in the frame - the frame itself will not be visible."]
+			description: ["&#FEECD6Phantom frame&r allows you to put items in it, once the item is in the frame - the frame itself will not be visible."]
 			hide: true
 			id: "1C7EA76119767C48"
 			rewards: [
