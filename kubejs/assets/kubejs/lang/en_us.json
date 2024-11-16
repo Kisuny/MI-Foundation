@@ -142,7 +142,11 @@
     "advancement.kubejs.witch_cauldron_craft.title" : "Cauldron Conjuror",
     "advancement.kubejs.witch_cauldron_craft.desc" : "Create any brew in the witch's cauldron.",
     "advancement.kubejs.witch_cauldron.title" : "Cauldron of Opportunity",
-    "advancement.kubejs.witch_cauldron.desc" : "Create a witch's cauldron"
+    "advancement.kubejs.witch_cauldron.desc" : "Create a witch's cauldron",
+    "advancement.kubejs.broken_mob_spawner.title": "Spawner breaker",
+    "advancement.kubejs.broken_mob_spawner.desc": "Break your first spawner",
+    "advancement.kubejs.tears_of_the_sea.title": "Can the sea cry?",
+    "advancement.kubejs.tears_of_the_sea.desc": "You have touched the sea"
 
 
 
