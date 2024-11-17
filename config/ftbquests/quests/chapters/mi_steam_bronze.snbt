@@ -11,6 +11,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "7DA572239C90574D"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -23,6 +24,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "7DA572239C90574D"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -35,6 +37,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "7DA572239C90574D"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -156,6 +159,7 @@
 		}
 		{
 			dependencies: ["5C1402F2D918D36E"]
+			hide: false
 			id: "277995BA7B213635"
 			rewards: [
 				{
@@ -183,6 +187,7 @@
 		{
 			dependencies: ["277995BA7B213635"]
 			description: ["First source of steam, consumes solid fuels. Also, you can put a lava bucket."]
+			hide: false
 			id: "19C2AE2E59D59B15"
 			rewards: [
 				{
@@ -238,7 +243,7 @@
 				item: "modern_industrialization:bronze_water_pump"
 				type: "item"
 			}]
-			x: -11.5d
+			x: -10.0d
 			y: 0.0d
 		}
 		{
@@ -533,6 +538,7 @@
 				"60D3401A80517536"
 				"15C70EA11C59D04B"
 			]
+			hide: false
 			id: "5C1402F2D918D36E"
 			rewards: [
 				{
@@ -612,10 +618,8 @@
 			y: -8.5d
 		}
 		{
-			dependencies: [
-				"457B76383A8437AC"
-				"4B0EF79E2F76FFDD"
-			]
+			dependencies: ["457B76383A8437AC"]
+			hide: false
 			id: "190AF318A0088ABD"
 			rewards: [
 				{
@@ -631,14 +635,14 @@
 					type: "item"
 				}
 			]
-			shape: "octagon"
+			shape: "diamond"
 			tasks: [{
 				id: "033129080D32213C"
 				item: "modern_industrialization:bronze_tank"
 				type: "item"
 			}]
 			x: -10.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6E5CD34258826606"]
@@ -681,11 +685,9 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"190AF318A0088ABD"
-				"6E5CD34258826606"
-			]
+			dependencies: ["6E5CD34258826606"]
 			description: ["The liquid interfaces for multiblocks. While in hand, the appropriate placing will be highlighed."]
+			hide: true
 			id: "57B90A1758C82D2D"
 			rewards: [
 				{
@@ -729,6 +731,7 @@
 				"57B90A1758C82D2D"
 			]
 			description: [""]
+			hide: false
 			icon: "modern_industrialization:coke_oven"
 			id: "16F9EE5CED2EF23F"
 			rewards: [
@@ -882,6 +885,7 @@
 		}
 		{
 			dependencies: ["673858A6525CC22D"]
+			hide: false
 			id: "6C0746AF44FBDACB"
 			rewards: [
 				{
@@ -908,6 +912,7 @@
 		}
 		{
 			dependencies: ["5DE30891CE57A8C2"]
+			hide: false
 			id: "16746612F13DACA2"
 			rewards: [
 				{
@@ -946,6 +951,7 @@
 		}
 		{
 			dependencies: ["6C0746AF44FBDACB"]
+			hide: false
 			id: "5DE30891CE57A8C2"
 			rewards: [
 				{
@@ -982,6 +988,7 @@
 				"57B90A1758C82D2D"
 			]
 			description: [""]
+			hide: false
 			icon: "modern_industrialization:steam_blast_furnace"
 			id: "17F3326A3A29CE1B"
 			rewards: [
@@ -1021,6 +1028,7 @@
 		}
 		{
 			dependencies: ["6C0746AF44FBDACB"]
+			hide: false
 			id: "3823C4560BD9A25B"
 			rewards: [
 				{
@@ -1058,6 +1066,7 @@
 		}
 		{
 			dependencies: ["2FF63ADD17E0667C"]
+			hide: false
 			id: "72358B406B2E2ECA"
 			rewards: [
 				{
@@ -1092,6 +1101,7 @@
 		}
 		{
 			dependencies: ["19C2AE2E59D59B15"]
+			hide: false
 			id: "7DA572239C90574D"
 			rewards: [
 				{
@@ -1119,6 +1129,7 @@
 		{
 			dependencies: ["3823C4560BD9A25B"]
 			description: [""]
+			hide: false
 			id: "4C6EE1ED6F46F8F6"
 			rewards: [
 				{
@@ -1218,6 +1229,7 @@
 		{
 			dependencies: ["6C0746AF44FBDACB"]
 			description: ["&a3x3 mining&r, in order to work the fuel must be placed by right clicking with fuel onto drill inside inventory. Also Steam Drill needs water in order to work. Just keep water bucket in your inventory, or RMB on water source from time to time."]
+			hide: false
 			id: "518A669A3B812DC5"
 			rewards: [
 				{
@@ -1276,6 +1288,7 @@
 		}
 		{
 			dependencies: ["6B922FE87FE0719A"]
+			hide: false
 			id: "15C70EA11C59D04B"
 			rewards: [
 				{
@@ -1362,6 +1375,7 @@
 		}
 		{
 			dependencies: ["6724BFC7CA1CC790"]
+			hide: false
 			id: "2F3053D7D2CF87B0"
 			rewards: [
 				{
@@ -1430,6 +1444,7 @@
 		}
 		{
 			dependencies: ["6724BFC7CA1CC790"]
+			hide: false
 			id: "3054A036AA8BD517"
 			rewards: [
 				{
@@ -1461,6 +1476,7 @@
 		}
 		{
 			dependencies: ["6724BFC7CA1CC790"]
+			hide: false
 			id: "12C0557672603FE8"
 			rewards: [
 				{
@@ -1493,6 +1509,7 @@
 		}
 		{
 			dependencies: ["6724BFC7CA1CC790"]
+			hide: false
 			id: "0255D97A58270AB5"
 			rewards: [
 				{
@@ -1524,6 +1541,7 @@
 		}
 		{
 			dependencies: ["6724BFC7CA1CC790"]
+			hide: false
 			id: "7A8F666339EFFECD"
 			rewards: [
 				{
@@ -1555,6 +1573,7 @@
 		}
 		{
 			dependencies: ["6724BFC7CA1CC790"]
+			hide: false
 			id: "4F37196C5F8C1C4F"
 			rewards: [
 				{
@@ -1586,6 +1605,7 @@
 		}
 		{
 			dependencies: ["6724BFC7CA1CC790"]
+			hide: false
 			id: "0BAD143ECF3B67F5"
 			rewards: [
 				{
@@ -1916,6 +1936,7 @@
 		{
 			dependencies: ["45AFA17F0E26641D"]
 			description: [""]
+			hide: false
 			id: "3C98775D704691C9"
 			rewards: [
 				{
@@ -2063,6 +2084,7 @@
 		{
 			dependencies: ["45AFA17F0E26641D"]
 			description: ["Merges two streams of items in pipe system. Often used to restrict the flow direction."]
+			hide: false
 			id: "097D946013284973"
 			rewards: [
 				{
@@ -2089,6 +2111,7 @@
 		}
 		{
 			dependencies: ["23FB9EE3D0145E87"]
+			hide: false
 			id: "3F74F226C28AADCD"
 			rewards: [
 				{
@@ -2129,6 +2152,7 @@
 		}
 		{
 			dependencies: ["23FB9EE3D0145E87"]
+			hide: false
 			id: "03EAE6B1EF9CFE77"
 			rewards: [
 				{
@@ -2170,6 +2194,7 @@
 		{
 			dependencies: ["45AFA17F0E26641D"]
 			description: ["Extracts one item on iteration, needs a redstone signal to turn it on."]
+			hide: false
 			id: "39EB115B78DEDCE4"
 			rewards: [
 				{
@@ -2207,6 +2232,7 @@
 				""
 				"Need not to be attached to the inventory. So it creates a &6flow&r of items in pipes, i.e. it will extract from all pipes simultaneously."
 			]
+			hide: false
 			id: "37AB2D4AFA5EB115"
 			rewards: [
 				{
@@ -2246,6 +2272,7 @@
 				"- need redstone signal to work (can be inverted)"
 				"- red dot signals the direction of flow"
 			]
+			hide: false
 			id: "7A61AF82650358A8"
 			rewards: [
 				{
@@ -2314,6 +2341,7 @@
 		{
 			dependencies: ["6DF83BA3914DACDA"]
 			description: ["Can store different liquids simultaneously."]
+			hide: false
 			id: "07D775C3F4A378DA"
 			rewards: [
 				{
@@ -2346,6 +2374,7 @@
 		}
 		{
 			dependencies: ["23FB9EE3D0145E87"]
+			hide: false
 			id: "6DF83BA3914DACDA"
 			rewards: [
 				{
@@ -2385,6 +2414,7 @@
 		}
 		{
 			dependencies: ["23FB9EE3D0145E87"]
+			hide: false
 			id: "041FB651203936EB"
 			rewards: [
 				{
@@ -2481,6 +2511,7 @@
 		}
 		{
 			dependencies: ["6DF83BA3914DACDA"]
+			hide: false
 			id: "6B802D4E761A96EA"
 			rewards: [
 				{
@@ -2723,6 +2754,7 @@
 		{
 			dependencies: ["75EDDE9875B87B5C"]
 			description: ["Increases capacity by factor of 2."]
+			hide: false
 			id: "4205C72442E04D95"
 			rewards: [
 				{
@@ -2749,6 +2781,7 @@
 		{
 			dependencies: ["4205C72442E04D95"]
 			description: ["Increases capacity by a factor of 4."]
+			hide: false
 			id: "7C6E3F5D4A249CDB"
 			rewards: [
 				{
@@ -2786,6 +2819,7 @@
 		}
 		{
 			dependencies: ["6724BFC7CA1CC790"]
+			hide: false
 			id: "0E991CE0FB49FDB6"
 			rewards: [
 				{

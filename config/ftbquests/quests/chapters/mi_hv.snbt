@@ -452,6 +452,7 @@
 				"36EEEED6D0B5C194"
 			]
 			description: ["Only accepts pressurized water and steam, but more efficient."]
+			hide: false
 			id: "688C8EAA350A89AF"
 			rewards: [
 				{
@@ -704,6 +705,7 @@
 		}
 		{
 			dependencies: ["441E0F5AF148258C"]
+			hide: false
 			id: "03AF131BA5F924D0"
 			rewards: [
 				{
@@ -729,6 +731,7 @@
 		}
 		{
 			dependencies: ["03AF131BA5F924D0"]
+			hide: false
 			id: "4CD35DB302DC4F9C"
 			rewards: [{
 				count: 4
@@ -746,6 +749,7 @@
 		}
 		{
 			dependencies: ["4CD35DB302DC4F9C"]
+			hide: false
 			id: "7E939C0B46A2C577"
 			rewards: [{
 				count: 2
@@ -764,6 +768,7 @@
 		{
 			dependencies: ["7E939C0B46A2C577"]
 			description: ["More advanced &7quarry&r used for planetary mining."]
+			hide: false
 			id: "1F638DD351D1E82E"
 			rewards: [
 				{
@@ -892,6 +897,7 @@
 				"2AC0E79728F4AA45"
 			]
 			description: ["Creates tremendous pressure using explosives, permits more efficient and &4advanced&r production chains"]
+			hide: false
 			hide_dependency_lines: false
 			id: "1F3D4A0814A1095F"
 			rewards: [
@@ -963,6 +969,7 @@
 				""
 				"Must be placed above the bedrock and supplied with liquid pipes in order to work . "
 			]
+			hide: false
 			id: "776D6A3931241133"
 			rewards: [
 				{
@@ -1254,6 +1261,7 @@
 		}
 		{
 			dependencies: ["4C41230896761037"]
+			hide: false
 			id: "1935EE9A88785FCD"
 			rewards: [{
 				id: "5C29DAD8C7E2CB1F"
@@ -1271,6 +1279,7 @@
 		{
 			dependencies: ["0E60F47278A87F09"]
 			description: ["&4Adds an ability&r of player access management to &9ME&r system. Player, &4which places this block&r becomes the owner of that network."]
+			hide: false
 			id: "50BBF5DA3EB28CF2"
 			rewards: [{
 				count: 8
@@ -2200,6 +2209,7 @@
 				""
 				"For example: one tunner is place on &9ME&r controller, second tunned is placed near machines. All channels, which will go to the second tunnel will be transferred right to controller. Second tunnel will only occupy one channel on which cable is placed."
 			]
+			hide: false
 			id: "4F2BB799C0DBD231"
 			rewards: [
 				{
@@ -2665,6 +2675,7 @@
 		{
 			dependencies: ["4F2BB799C0DBD231"]
 			description: ["&6Used to copy&r configuration of many functional blocks of &9ME&r system. &4Is necessary to connect p2p tunnels&r"]
+			hide: false
 			id: "57278AE1E6C2B01B"
 			tasks: [{
 				id: "57D8FD620BA0D1BC"
@@ -3197,6 +3208,7 @@
 		{
 			dependencies: ["776D6A3931241133"]
 			description: ["An empty world with nothing in it, handy to build your base somewhere in infinity!"]
+			hide: false
 			id: "6202DAB34EAE0854"
 			shape: "gear"
 			size: 2.0d
@@ -3215,6 +3227,7 @@
 				""
 				"To select a block for building press SHIFT + right mouse button with the device in your hands."
 			]
+			hide: false
 			id: "3195167246145CE7"
 			shape: "gear"
 			tasks: [{
@@ -3239,6 +3252,7 @@
 		}
 		{
 			dependencies: ["4626E3D01CBD6DCC"]
+			hide: false
 			id: "5C706DDE0B62DB75"
 			shape: "gear"
 			tasks: [{
@@ -3263,6 +3277,7 @@
 		}
 		{
 			dependencies: ["4626E3D01CBD6DCC"]
+			hide: false
 			id: "6C556CF154081467"
 			shape: "gear"
 			tasks: [{
