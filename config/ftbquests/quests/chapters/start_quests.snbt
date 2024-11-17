@@ -277,9 +277,9 @@
 	quests: [
 		{
 			description: [
-				"Welcome in the &l&5MI:Foundation &6II&r&r! "
+				"Welcome to &l&5MI:Foundation &6II&r&r! "
 				""
-				"Most quests will help you progress in the modpack in different directions, whether it's &3Tech&r or &5magic&r, You'll also earn generous &6rewards&r."
+				"Most quests will help you progress in the modpack in different directions, whether &3Tech&r or &5Magic&r. You'll also earn generous &6rewards&r."
 				""
 				"&l&eGood luck!&r&r"
 			]
@@ -292,14 +292,14 @@
 				title: "*click*"
 				type: "checkmark"
 			}]
-			title: "&#FEC6DFThe start of all beginnings!"
+			title: "&#FEC6DFThe very beginning!"
 			x: 0.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"&3Zoom Zoom Zoom!&r! Zoom blocks/mobs, anything!!"
+				"&3Zoom Zoom Zoom!&r! Zoom blocks or mobs, anything!!"
 				""
 				"Defaults to the «&3X&r» button"
 			]
@@ -316,14 +316,14 @@
 				title: "*click*"
 				type: "checkmark"
 			}]
-			title: "&#A39FE1Zoom them all!"
+			title: "&#A39FE1One to zoom them all!"
 			x: 0.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"In the modpack there are &epings&r for players, by default this button «&3button 5&r» on the mouse, we recommend to put this button on &3ALT&r or the middle button of the mouse (&3wheel&r), for convenience. "
+				"In the modpack there are &epings&r for players, by default this button «&3button 5&r» on the mouse. We recommend to put this button on &3ALT&r or the middle mouse button (&3wheel&r), for convenience. "
 				""
 				"You can also &lspecify your own channel for pings&r, so you don't have to listen to the sounds of other people's pings with the command &l&3/pingwheel channel NameChannel&r&r"
 			]
@@ -340,7 +340,7 @@
 		}
 		{
 			dependencies: ["19D35B010B678675"]
-			description: ["Diverse food gives advantages in the form of additional &4hearts&r and more &5buffs&r, eating many and different things is more profitable than eating kelp all your life!"]
+			description: ["Eating diverse foods gives advantages in the form of additional &4hearts&r and more &5buffs&r. Eating a lot of various food is more beneficial than feeding off kelp all your life!"]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -371,7 +371,7 @@
 			description: [
 				"The trash can is a handy tool for getting rid of... &l&4GARBAGE&r&r."
 				""
-				"You can simply drag items into the trash by pressing «&3T&r»,then the trash icon will appear. You can also press the &3DEL&r button by hovering over the item you want to trash."
+				"You can simply drag items into the trash by pressing «&3T&r», then the trash slot will appear. You can also press the &3DEL&r button by hovering over the item you want to trash."
 			]
 			icon: {
 				Count: 1b
@@ -393,7 +393,7 @@
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"&6Artifacts&r and the way to obtain them has been &oslightly changed&r, most of the strongest artifacts you can find in &9fishing&r, catching a variety of &cbosses&r from different liquids, try yourself as a veteran &9fisherman&r, it's more &linteresting&r than it seems!"
+				"&6Artifacts&r and the way to obtain them has been &oslightly changed&r. Most of the strongest artifacts you can now get from &9fishing&r, namely catching a variety of &cbosses&r from different liquids. Try yourself as a veteran &9fisherman&r, it's more &linteresting&r than it seems!"
 				""
 				"All other &6artifacts&r can be found by traveling the world and searching chests! "
 			]
@@ -411,9 +411,9 @@
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"In the compilation changed &4combat&r and added a lot of &9new weapons&r, both rare and less rare, some weapons can be created by yourself."
+				"The modpack has changed &4combat&r significantly and added a lot of &9new weapons&r, both common and rare. Some weapons can even be created by you!"
 				""
-				"But the &lmain&r secret is that the weapon &9improves&r if you use it in two hands, left and right! It's up to you to decide which weapon to fight with."
+				"But the &lmain&r secret is that the weapon &9improves&r if you use it in both hands, left and right! It's up to you to decide which weapon to fight with."
 				""
 				"Two-handed weapons &ccannot&r be put in two hands! "
 				""
@@ -448,7 +448,7 @@
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"Spectrum — A unique and complex magic mod, this is the main magic mod in our modpack, be sure to read the items below"
+				"Spectrum — A unique and complex magic mod, this is the main magic mod in our modpack, be sure to read the infos below"
 				""
 				"{@pagebreak}"
 				"In Spectrum, most items &odon't have their true texture&r until you unlock the necessary &5advancements&r for that block/item. "
@@ -457,10 +457,10 @@
 				"In Spectrum, almost everything is tied to &5advancements&r.  "
 				""
 				"{@pagebreak}"
-				"Most of the crafts in Spectrum are opened also by &5advancements,&r I advise you to look more often in the advancement tab, for this there are facilitating mods: Advancement menu is much larger than in normal &2Minecraft&r, &nyou can pin categories of advancements&r!"
+				"Most of the crafts in Spectrum are also opened by &5advancements,&r I advise you to look in the advancement tab more often. There are some QOL mods installed: Advancement menu is much larger than normal, &nand you can pin categories of advancements&r!"
 				""
 				"{@pagebreak}"
-				"Progressing in the &lSpectrum&r mod you will sooner or later open new mechanics from the modpack creators, such as &9improved fishing&r, as well as the &4Bewitchment&r mod will open while you are progressing in &lSpectrum&r. Also by opening &4Bewitchment&r you will be able to summon &cmini-bosses&r / &cbosses&r and other hostile mobs, from which you can get rare items."
+				"Progressing through &lSpectrum&r, you will sooner or later unlock new mechanics from the modpack creators, such as &9improved fishing&r, as well as the &4Bewitchment&r mod. Also by unlocking &4Bewitchment&r you will be able to summon &cmini-bosses&r / &cbosses&r and other hostile mobs that can help you get rare items."
 			]
 			icon: "spectrum:guidebook"
 			id: "2B8A8FD9423F5026"
@@ -470,25 +470,25 @@
 				title: "*click*"
 				type: "checkmark"
 			}]
-			title: "&#A39FE1Something on the magical"
+			title: "&#A39FE1The language of the magic"
 			x: -2.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"&6Coins&r are found when you search chests in various dungeons, as well as they fall out of &9fishing&r. "
+				"&6Coins&r can be found by searching chests in various dungeons, and also while &9fishing&r. "
 				""
-				"The number of &6coins&r in chests depends on the rarity of the dungeons!"
+				"The number of &6coins&r in chests depends on the rarity of the dungeon!"
 				""
-				"&6Coins&r can be spent on different things in the &eshop&r, as well as &6coins&r are used for &5teleportation&r on the &5stones of travel&r!"
+				"&6Coins&r can be spent on different things in the &eshop&r, as well as used for &5teleportation&r with the &5waystones&r!"
 				""
-				"If you hold the &6coins&r in your hands and press RMB - they will get into your &owallet&r and will be stored with you, the &owallet&r is on the top right in your inventory!"
+				"If you hold &6coins&r in your hand and press RMB - they will get added to your &owallet&r and will be stored with you. The &owallet&r is on the top right in your inventory!"
 				""
-				"• &eShop&r can be found in the quest tab or «E» menu"
-				"&3Most&r items in the store open up for purchase after getting the direct item you want to buy.&r"
+				"• The &eShop&r can be found in the quest tab or in the inventory menu."
+				"&3Most&r items in the store open up for purchase after getting one of that item.&r"
 				""
-				"• &5Travel Stones&r will unlock as you progress through &5magic&r!"
+				"• &5Waystones&r will unlock as you progress through &5magic&r!"
 			]
 			icon: {
 				Count: 1b
@@ -533,7 +533,7 @@
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"Every chest in the world exists as a &elootr&r chest, meaning that this chest can be looted by &levery&r player on the world."
+				"Every chest in this world is a &elootr&r chest, meaning that this chest can be looted by &levery&r player on the world separately."
 				""
 				"Loot in chests is updated once a day!"
 			]
@@ -557,13 +557,15 @@
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"&lMost&r ore spawns differently than you are used to. "
+				"&lMost&r ores spawn differently than you are used to. "
 				""
-				"&esmall fragments of ore&r will spawn on the surface of the world, telling you what ores there are underneath. "
+				"&eSmall fragments of ore&r will spawn on the surface, telling you what ores are underneath. "
 				""
 				"In each such vein there may be some &lsecondary ore&r that you may also need."
 				""
-				"&dMagical ore veins&r do not spawn, this is done so that you can travel through the caves and find dungeons that you will also very much need in &dmagic&r!"
+				"&dMagical ore veins&r spawn normally, this is done so that you can travel through the caves and find dungeons that you will also very much need for progressing in &dmagic&r!"
+				""
+				"Additionally, a prospectors pick will show what ore veins are currently under you!"
 			]
 			icon: {
 				Count: 1b
@@ -597,11 +599,11 @@
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"By hovering over an item in your inventory and pressing «&3Y&r» you will be able to find where the same item is in your chests, all chests with that item will be highlighted.  "
+				"By hovering over an item in your inventory and pressing «&3Y&r» you will be able to find the same item in your chests. All containers with that item will be highlighted.  "
 				""
-				"You can also click on the &3search button&r by hovering over items from &6REI&r."
+				"You can also use the &3search&r by hovering over items in &6REI&r."
 				""
-				"P.S. When around you become &l&3too many chests&r&r and similar storage - the mod &cstops working&r in favor of performance Minecraft'a!"
+				"P.S. When there are &l&3too many chests&r&r and similar storages around you the mod &cstops working&r in favor of performance!"
 			]
 			icon: {
 				Count: 1b
@@ -616,16 +618,16 @@
 				title: "*click*"
 				type: "checkmark"
 			}]
-			title: "&#A39FE1Look for them all"
+			title: "&#A39FE1Gotta find them all!"
 			x: -2.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"The journey to the &dend&r dimension was changed, now you must find different kind of ender eyes scattered around the world in order to find the &estronghold&r and complete the &dportal frame&r"
+				"The journey to the &dend&r dimension was overhauled. Now you must find different kinds of ender eyes scattered around the world in order to find the &estronghold&r and complete the &dportal frame&r"
 				""
-				"You also need &l&e12 unique eyes&r&r, which can be found by looting a &ovariety of structures&r, creating or &9from fishing bosses&r!"
+				"You also need &l&e12 unique eyes&r&r to complete the portal, which can be found by looting a &ovariety of structures&r, crafting or &9from fishing bosses&r!"
 			]
 			icon: "endrem:cursed_eye"
 			id: "5EDC284E6B612F40"
@@ -649,7 +651,7 @@
 			description: [
 				"Always wanted to become one block tall, didn't you? "
 				""
-				"Crawl - allows you to crawl, you need to assign to a button to start crawling in one block."
+				"This modpack has a keybind for crawling anywhere, anytime."
 				""
 				"The default button is «&3C&r». "
 			]
@@ -667,7 +669,7 @@
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"Harvesting is &oboring&r enough if you have to break and plant the crop back out."
+				"Harvesting is &oboring&r if you have to break and plant the crop back out."
 				""
 				"The &3hoe&r comes to the rescue, one swing of the hoe will harvest all the &acrops&r you need!"
 			]
@@ -702,11 +704,11 @@
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"Using an &8anvil&r, a &6Reforge Rune&r, and the &3resource&r your item is made of — will allow you to &oreforge&r that item!"
+				"Using an &8anvil&r, a &6Reforge Rune&r, and the &3resource&r your item is made of will allow you to &oreforge&r that item!"
 				""
-				"This will &lenhance&r your item or conversely, &ldegrade&r it!"
+				"This will &lenhance&r your item or, conversely, &ldegrade&r it!"
 				""
-				"&6Reforge Rune&r can be finded in different &4dungeons&r."
+				"&6Reforge Runes&r can be found in different &4loot chests&r."
 			]
 			icon: {
 				Count: 1b
@@ -747,7 +749,7 @@
 		}
 		{
 			dependencies: ["19D35B010B678675"]
-			description: ["In our modpack a lot of different dungeons that are interesting to explore, do not hesitate to destroy them, because somewhere may be hidden precious loot!"]
+			description: ["In our modpack there are lots of different dungeons that are interesting to explore. Do not hesitate to destroy them, because somewhere may contain hidden precious loot!"]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
