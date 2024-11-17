@@ -2110,7 +2110,7 @@
 		{
 			dependencies: ["38BABD2574666820"]
 			description: ["Create your first &#FEECD6backpack&r!"]
-			hide: true
+			hide: false
 			id: "5B2871DE654E46F5"
 			rewards: [
 				{
@@ -2205,6 +2205,7 @@
 		{
 			dependencies: ["730FE5EA1AE7EAE5"]
 			description: ["&#C6BCE9Celestial ingot&r is used in a &#FEECD6lot of crafts&r, create some &#C6BCE9alloy&r!"]
+			hide: false
 			id: "35FBDB6A6B0AF265"
 			rewards: [
 				{
@@ -2246,6 +2247,7 @@
 		{
 			dependencies: ["35FBDB6A6B0AF265"]
 			description: ["&#FEECD6Upgrade&r increases the capacity of &#9BB8EDliquids&r and &#FEECD6items&r in your old &#FEECD6backpack&r, use the &7blacksmith's&r table to upgrade your &#FEECD6old backpack&r!"]
+			hide: false
 			id: "687945255E9FF93E"
 			rewards: [
 				{
@@ -2804,6 +2806,7 @@
 		{
 			dependencies: ["35FBDB6A6B0AF265"]
 			description: ["Level 3 &9Dank&r holds &b4096 items&r and has &b27 slots&r."]
+			hide: false
 			id: "3B5E4523A98E2051"
 			shape: "pentagon"
 			size: 0.8d

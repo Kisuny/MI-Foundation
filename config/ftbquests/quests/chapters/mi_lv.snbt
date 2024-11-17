@@ -895,6 +895,7 @@
 		}
 		{
 			dependencies: ["3387FCCF2E3B857B"]
+			hide: false
 			id: "102B8197BB09AAF2"
 			rewards: [
 				{
@@ -920,6 +921,7 @@
 		}
 		{
 			dependencies: ["3387FCCF2E3B857B"]
+			hide: false
 			id: "1AC11A9AAE45A014"
 			rewards: [
 				{
@@ -973,6 +975,7 @@
 				"1AC11A9AAE45A014"
 			]
 			description: ["&4Electric version&r of &6Blast Furnace&r.The operating recipe depends on the tier of coils. The current tier must be specified inside the machine."]
+			hide: false
 			icon: "modern_industrialization:electric_blast_furnace"
 			id: "57886FF598451010"
 			rewards: [
@@ -1180,6 +1183,7 @@
 		}
 		{
 			dependencies: ["17FE01EEA624616A"]
+			hide: false
 			id: "2967C78F538C5ECD"
 			rewards: [
 				{
@@ -1230,6 +1234,7 @@
 				""
 				"The *color1* wire and *color2* wire attached to the bundled cables from two side of a system. Then if we apply signal to *color1* wire, only wire with the same color will output the signal."
 			]
+			hide: false
 			id: "64A7F758A7CD9EB6"
 			rewards: [
 				{
@@ -1325,6 +1330,7 @@
 		{
 			dependencies: ["0737D169DFB3A47A"]
 			description: ["Serve as an interface for the Extended Drawers drawer system. When many drawers are connected (placed side by side) the drawer access point will behave as input/output hatch. By RMB on it all items which can be inserted into drawers will be deposited."]
+			hide: false
 			id: "3DF2B3F026C9AC41"
 			rewards: [{
 				count: 4
@@ -1443,6 +1449,7 @@
 		{
 			dependencies: ["13C563F7C62A0F7A"]
 			description: ["Allows to project the redstone signal through air in front of it. The number of blocks can be changed by RMB on it. "]
+			hide: false
 			id: "119D6E1E7E6D5233"
 			rewards: [
 				{
@@ -1841,6 +1848,7 @@
 		{
 			dependencies: ["119D6E1E7E6D5233"]
 			description: ["A visualization tool for Redstone Projector, use RMB on it to bind."]
+			hide: false
 			id: "3FB9FAC26C9A3C8B"
 			rewards: [
 				{
@@ -1884,6 +1892,7 @@
 		}
 		{
 			dependencies: ["0845A204BA15A1F5"]
+			hide: false
 			id: "13C563F7C62A0F7A"
 			rewards: [
 				{
@@ -1928,6 +1937,7 @@
 		{
 			dependencies: ["17FE01EEA624616A"]
 			description: ["Allows to add a redstone control to ModernIndustrialization machines."]
+			hide: false
 			id: "1BB3633F4522C7F6"
 			rewards: [
 				{
@@ -2064,6 +2074,7 @@
 				""
 				"You can read more information by opening the &e&lcrafting calculator&r&r and clicking on the &nbutton&r on the &ebottom right&r."
 			]
+			hide: false
 			id: "2F6C9BCF585211DC"
 			rewards: [{
 				count: 2
@@ -2122,6 +2133,7 @@
 		{
 			dependencies: ["50C0CA3FC79847C4"]
 			description: ["&lMath calculator&r, but in &2Minecraft&r, sounds handy!"]
+			hide: false
 			id: "17637FFEA2EF8643"
 			rewards: [{
 				count: 2
