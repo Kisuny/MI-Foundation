@@ -4,4 +4,5 @@ StartupEvents.registry("enchantment", event => {
         .veryRare()
         .fishingRod()
         .displayName("Монетная чуйка")
+        .translationKey('enchantment.kubejs.coins_instinct')
 })
