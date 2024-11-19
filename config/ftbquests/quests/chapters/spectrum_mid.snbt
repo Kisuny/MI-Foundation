@@ -2624,7 +2624,7 @@
 		{
 			dependencies: ["62BB9D5A8A9DD181"]
 			description: [""]
-			hide: false
+			hide: true
 			id: "5B1C97CCA7759117"
 			shape: "diamond"
 			subtitle: "Entangled tank in a hand!"
@@ -2639,7 +2639,7 @@
 		{
 			dependencies: ["23A6A609EE447218"]
 			description: [""]
-			hide: false
+			hide: true
 			id: "662FB98AC224984F"
 			shape: "diamond"
 			subtitle: "Entangled chest in a hand!"

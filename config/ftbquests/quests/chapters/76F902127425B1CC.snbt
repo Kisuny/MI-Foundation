@@ -17,7 +17,7 @@
 		{
 			dependencies: ["0314A659046D38A0"]
 			description: [
-				"Found in Buried Chests"
+				"Found in Buried Chests, and is also dropped by the Warden."
 				""
 				"This eye can also be obtained by fishing for creatures."
 			]
@@ -55,7 +55,7 @@
 		}
 		{
 			dependencies: ["0314A659046D38A0"]
-			description: ["Found in Igloos and some new winter dungeons"]
+			description: ["Found in Igloos and some other new winter dungeons."]
 			id: "07838886FF1C1A59"
 			rewards: [
 				{
@@ -91,7 +91,7 @@
 		{
 			dependencies: ["0314A659046D38A0"]
 			description: [
-				"Found in Pillager Outposts"
+				"Found in Pillager Outposts."
 				""
 				"This eye can also be obtained by fishing for creatures."
 			]
@@ -130,7 +130,7 @@
 		{
 			dependencies: ["0314A659046D38A0"]
 			description: [
-				"Found in Mineshafts"
+				"Found in Mineshafts."
 				""
 				"This eye can also be obtained by fishing for creatures."
 			]
@@ -169,7 +169,7 @@
 		{
 			dependencies: ["0314A659046D38A0"]
 			description: [
-				"Found in Nether Fortresses"
+				"Found in Nether Fortresses."
 				""
 				"This eye can also be obtained by fishing for creatures."
 			]
@@ -207,7 +207,7 @@
 		}
 		{
 			dependencies: ["0314A659046D38A0"]
-			description: ["Found in Desert Pyramids"]
+			description: ["Found in Desert Pyramids."]
 			id: "28F2F45DAA269220"
 			rewards: [
 				{
@@ -242,7 +242,7 @@
 		}
 		{
 			dependencies: ["0314A659046D38A0"]
-			description: ["Found in Jungle Pyramids"]
+			description: ["Found in Jungle Pyramids."]
 			id: "1E58F39FF66470BC"
 			rewards: [
 				{
@@ -278,7 +278,7 @@
 		{
 			dependencies: ["0314A659046D38A0"]
 			description: [
-				"Found in Bastions treasure chest"
+				"Found inside treasure chests in Bastions."
 				""
 				"This eye can also be obtained by fishing for creatures."
 			]
@@ -317,7 +317,7 @@
 		{
 			dependencies: ["0314A659046D38A0"]
 			description: [
-				"Buy it from a master cleric "
+				"Can be bought from a master cleric."
 				""
 				"This eye can also be obtained by fishing for creatures."
 			]
@@ -355,7 +355,7 @@
 		}
 		{
 			dependencies: ["0314A659046D38A0"]
-			description: ["Get it by Killing Elder Guardian"]
+			description: ["Dropped by an Elder Guardian."]
 			id: "77B59682D528B93E"
 			rewards: [
 				{
@@ -391,7 +391,7 @@
 		{
 			dependencies: ["0314A659046D38A0"]
 			description: [
-				"Dropped by &dEvokers&r"
+				"Found in Mansion chests, and dropped by &dEvokers&r."
 				""
 				"This eye can also be obtained by fishing for creatures."
 			]
@@ -429,7 +429,7 @@
 		}
 		{
 			dependencies: ["0314A659046D38A0"]
-			description: ["Dropped by The Wither"]
+			description: ["Dropped by the Wither."]
 			id: "1BE3A2492A82205F"
 			rewards: [
 				{
@@ -465,7 +465,7 @@
 		{
 			dependencies: ["0314A659046D38A0"]
 			description: [
-				"Craft it using the witch pupil"
+				"Can be crafted using the Witch pupil."
 				""
 				"This eye can also be obtained by fishing for creatures."
 			]
@@ -504,9 +504,9 @@
 		{
 			dependencies: ["0314A659046D38A0"]
 			description: [
-				"Craft it using an Undead Soul"
+				"Can be crafted using an Undead Soul."
 				""
-				"Unded soul can be obtained by fishing for creatures or you can get it by killing a skeleton horse."
+				"An Undead Soul can be obtained by fishing for creatures or, alternatively, you can get it by killing a skeleton horse."
 			]
 			id: "7801E22896BA97EF"
 			rewards: [
@@ -543,7 +543,7 @@
 		{
 			dependencies: ["0314A659046D38A0"]
 			description: [
-				"Craft it using aquatic items"
+				"Can be crafted using aquatic items."
 				""
 				"This eye can also be obtained by fishing for creatures."
 			]
@@ -581,7 +581,7 @@
 		}
 		{
 			dependencies: ["0314A659046D38A0"]
-			description: ["Get it from some villagers houses"]
+			description: ["Found in Villages."]
 			id: "66304D9744D15DDB"
 			rewards: [
 				{
@@ -824,7 +824,7 @@
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
-			description: ["It has a chance to drop when mining."]
+			description: ["It has a small chance to drop when mining."]
 			id: "7BA1D729E528C7F1"
 			rewards: [
 				{
@@ -964,11 +964,7 @@
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
-			description: [
-				"It has a chance to spawn in any chest underwater."
-				""
-				"It has a chance to spawn in buried treasure."
-			]
+			description: ["It has a chance to spawn in any underwater chest, or inside a buried treasure."]
 			id: "3A2283BEB13DAB72"
 			rewards: [
 				{
@@ -1003,10 +999,7 @@
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
-			description: [
-				"It has a chance to drop when harvesting crops"
-				"or 0.5% when harvesting potatoes."
-			]
+			description: ["It has a small chance to drop when harvesting any crops, or a higher chance when harvesting potatoes."]
 			id: "65BCC5367E7D38A3"
 			rewards: [
 				{
@@ -1042,7 +1035,7 @@
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
-			description: ["It has drop chance for every durability point when the object is destroyed."]
+			description: ["It has a chance to drop for every durability point a tool has when that tool is fully destroyed."]
 			id: "79F4E72A28BBEF77"
 			rewards: [
 				{
@@ -1077,7 +1070,7 @@
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
-			description: ["It has a chance to drop when fishing and it has a chance to drop when killing fishes directly."]
+			description: ["It has a small chance to drop when fishing or killing fishes directly."]
 			id: "60B6FA5A4304FE0B"
 			rewards: [
 				{
@@ -1113,10 +1106,10 @@
 		{
 			dependencies: ["69F1CC5EF5C7C0B9"]
 			description: [
-				"Random drop in Nether."
-				"It has a 5% drop chance from Guardian."
+				"Random drop from any mob in the Nether."
+				"It also has a 5% drop chance from a Guardian."
 				""
-				"This booster can be improved in &#F5BD02Gold&r type"
+				"This booster can be improved to &#F5BD02Golden&r."
 			]
 			id: "1490E69D62D8F7F1"
 			rewards: [
@@ -1153,10 +1146,10 @@
 		{
 			dependencies: ["69F1CC5EF5C7C0B9"]
 			description: [
-				"Random drop in Nether."
-				"It has a 33.4% drop chance from Skeleton Horseman."
+				"Random drop from any mob in the Nether."
+				"It also has a 33.4% drop chance from a Skeleton Horseman."
 				""
-				"This booster can be improved in &#F5BD02Gold&r type"
+				"This booster can be improved to &#F5BD02Golden&r."
 			]
 			id: "7F5DF71CCC9C3FBC"
 			rewards: [
@@ -1193,8 +1186,8 @@
 		{
 			dependencies: ["69F1CC5EF5C7C0B9"]
 			description: [
-				"Random drop in Nether."
-				"It has a 100% drop chance from Warden."
+				"Random drop from any mob in the Nether."
+				"It also has a 100% drop chance from a Warden."
 			]
 			id: "09679C8515BC3620"
 			rewards: [
@@ -1231,8 +1224,8 @@
 		{
 			dependencies: ["69F1CC5EF5C7C0B9"]
 			description: [
-				"Random drop in Nether."
-				"It has a 10% drop chance from Vex."
+				"Random drop from any mob in the Nether."
+				"It also has a 10% drop chance from a Vex."
 			]
 			id: "6EC6DAABA95B9AA8"
 			rewards: [
@@ -1315,7 +1308,7 @@
 				"3A2283BEB13DAB72"
 				"0D72E2120CE45B7E"
 			]
-			description: ["The rune can be created by combining all the artifacts that were needed to open this quest in the crafting table."]
+			description: ["This rune can be created by combining all the artifacts needed to open this quest inside the crafting grid."]
 			id: "08A2EC67FC3358B8"
 			rewards: [
 				{
@@ -1354,7 +1347,7 @@
 				"60B6FA5A4304FE0B"
 				"6746D433903770F4"
 			]
-			description: ["The rune can be created by combining all the artifacts that were needed to open this quest in the crafting table."]
+			description: ["This rune can be created by combining all the artifacts needed to open this quest inside the crafting grid."]
 			id: "43238B3BE22ACEDF"
 			rewards: [
 				{
@@ -1402,7 +1395,7 @@
 				"79B6561755FAF83D"
 				"6B533E99E0D3BE44"
 			]
-			description: ["The rune can be created by combining all the artifacts that were needed to open this quest in the crafting table."]
+			description: ["This rune can be created by combining all the artifacts needed to open this quest inside the crafting grid."]
 			id: "5BD14A8C761C973E"
 			rewards: [
 				{
@@ -1450,7 +1443,7 @@
 				"3904A9738098F06D"
 				"79F4E72A28BBEF77"
 			]
-			description: ["The rune can be created by combining all the artifacts that were needed to open this quest in the crafting table."]
+			description: ["This rune can be created by combining all the artifacts needed to open this quest inside the crafting grid."]
 			id: "106607A821EF9A15"
 			rewards: [
 				{
@@ -1489,7 +1482,7 @@
 				"7CB6E6CE8E95E5EA"
 				"471C10FF09C6854A"
 			]
-			description: ["The rune can be created by combining all the artifacts that were needed to open this quest in the crafting table."]
+			description: ["This rune can be created by combining all the artifacts needed to open this quest inside the crafting grid."]
 			id: "32CC2FECF8F7617D"
 			rewards: [
 				{
@@ -1539,7 +1532,7 @@
 				"08A2EC67FC3358B8"
 				"5BD14A8C761C973E"
 			]
-			description: ["The rune can be created by combining all the artifacts that were necessary to open this quest in the creation table, this artifact will have all the buffs from previous artifacts."]
+			description: ["The Soul of Minecraft can be created by combining all of the runes inside the crafting grid, this artifact will have all of the buffs from the combined runes."]
 			id: "5CFD737C32F777A3"
 			rewards: [
 				{
@@ -1653,7 +1646,7 @@
 		}
 		{
 			dependencies: ["4CF87A97D88C83E0"]
-			description: ["The card allows you to reverse your efficiency bonus."]
+			description: ["The card allows you to reset your efficiency bonus."]
 			id: "5AC0FB07667212CE"
 			rewards: [
 				{
@@ -1688,7 +1681,7 @@
 		}
 		{
 			dependencies: ["3EC07E97251D3218"]
-			description: ["This page can be used in Displacement Tome for quick teleportation."]
+			description: ["This page can be used in the Displacement Tome for quick teleportation."]
 			id: "380EAAC3620C974F"
 			rewards: [
 				{
@@ -1718,7 +1711,7 @@
 		}
 		{
 			dependencies: ["3EC07E97251D3218"]
-			description: ["This potion returns the owner to the bed, the potion is used."]
+			description: ["This potion returns the owner to their bed, the potion is consumed."]
 			id: "4F7BB4A1772B9A15"
 			rewards: [
 				{
@@ -2421,7 +2414,7 @@
 		}
 		{
 			dependencies: ["3EC07E97251D3218"]
-			description: ["Accelerate the owner can also be improved."]
+			description: ["Accelerate the wearer. Can also be upgraded."]
 			id: "5BABCB1A9BDD0569"
 			rewards: [
 				{
@@ -2544,10 +2537,9 @@
 		{
 			dependencies: ["68D1FA710C01D507"]
 			description: [
-				"Eyes can be found traveling the world, in a variety of places, whether it's winter biomes or the desert, whether it's rare pyglin dungeons or a "
-				"vicious wither boss."
+				"Eyes can be found traveling the world, in a variety of places, whether it's winter biomes or the desert, rare piglin dungeons or a vicious wither boss."
 				""
-				"&l&cWe strongly recommend&r&r preparing to fight a dragon, the dragon in this modpack has been extremely strengthened."
+				"&l&cWe strongly recommend&r&r preparing to fight a dragon, the dragon in this modpack has been significantly buffed."
 			]
 			hide_dependency_lines: false
 			icon: "endrem:ancient_portal_frame"
@@ -2564,13 +2556,13 @@
 		{
 			dependencies: ["68D1FA710C01D507"]
 			description: [
-				"&6&lMajruszs Accessories&r&r — Adds a lot of &ounique&r trinkets and efficiency to them."
+				"&6&lMajruszs Accessories&r&r — Adds a lot of &ounique&r trinkets, each with a certain efficiency value."
 				""
-				"The greater the efficiency of a trinket - the greater the &cpower&r of that trinket."
+				"The greater the efficiency of a trinket - the better the effect of the trinket is."
 				""
 				"Most trinkets have a &ounique&r way of obtaining them, more details can be found in the quest of the trinket you need. "
 				""
-				"Also this mod adds the ability to &l&2combine&r&r trinkets with each other to make it more &cpowerful&r, to do this you need to stack trinkets in the craft with each other."
+				"Also, this mod adds the ability to &l&2combine&r&r trinkets with each other to make them more &cpowerful&r, to do this you need to craft trinkets with each other."
 			]
 			icon: {
 				Count: 1b
@@ -2594,7 +2586,7 @@
 			description: [
 				"Artifacts can be found just by traveling the world, nothing special."
 				""
-				"The available list of artifacts in the normal world is below, all other artifacts are obtained by fishing, more details you can find out when you open the quest tab «&3Fishing&r»"
+				"The available list of artifacts found in the world is below, all other artifacts are obtained by fishing. You will find out more details when you open the quest tab «&3Fishing&r»"
 			]
 			icon: "artifacts:mimic_spawn_egg"
 			id: "3EC07E97251D3218"
@@ -2610,11 +2602,11 @@
 		{
 			dependencies: ["553E6F83E4555C20"]
 			description: [
-				"&lBoosters&r - is a new type of item that allows you to add additional bonuses to all accessories of &eMajruszs Accessories&r mod. You can apply &o1 booster&r to &oone accessory&r at a time, but stronger accessories open up a 2nd and 3rd booster slot. The effects of multiple boosters on different accessories can add up."
+				"&lBoosters&r are new types of items that allow you to add additional bonuses to all accessories of &eMajruszs Accessories&r mod. You can apply &o1 booster&r to &oone accessory&r at a time, but stronger accessories open up a 2nd and 3rd booster slot. The effects of multiple boosters on different accessories can add up."
 				""
-				"Boosters can be found in Nether when killing &oany&r mobs. "
+				"Boosters can be found in the Nether when killing &oany&r mobs. "
 				""
-				"Boosters can be combined with any accessory in the Workbench, for example, a Fish Trophy can be combined with Dice."
+				"Boosters can be combined with any accessory in the crafting grid, for example, a Fish Trophy can be combined with Dice."
 				""
 				"{image:quest_images:textures/item/boosting_accessory.png width:170 height:100 align:1}"
 			]
@@ -2638,9 +2630,9 @@
 		{
 			dependencies: ["553E6F83E4555C20"]
 			description: [
-				"Cards are a new type of consumable to change accessories forever."
+				"Cards are a new type of consumable for changing accessories."
 				""
-				"Cards can be obtained by exploring the world or from creatures when fishing. "
+				"Cards can be obtained by exploring the world or dropped from creatures when fishing. "
 			]
 			icon: {
 				Count: 1b
@@ -2654,7 +2646,7 @@
 			subtitle: "Aw Dang It, Aw Dang It, Aw Dang It"
 			tasks: [{
 				id: "1D103FBFAF1C4E13"
-				title: "Gambling? No, I haven't heard of it."
+				title: "Gambling? I would never"
 				type: "checkmark"
 			}]
 			x: -1.5d
@@ -2724,7 +2716,7 @@
 				"793B5816F67701FA"
 				"2EFEF55A15B34FE5"
 			]
-			description: ["The Friendly key allows you to turn a chest or evil mimic into a tamed one and store items in it!"]
+			description: ["The Friendly Key allows you to turn a chest or evil mimic into a tamed one and store items in it!"]
 			hide: true
 			id: "47EE8DBE6671207D"
 			shape: "pentagon"
@@ -2739,9 +2731,9 @@
 		{
 			dependencies: ["47EE8DBE6671207D"]
 			description: [
-				"The bell allows you to control the tame mimic."
+				"The bell allows you to control the tamed mimic."
 				""
-				"You can abandon your tamed mimic by clicking on the Budding amethyst with the bell, after that all your mimics will be a draw, within 5 minutes you can tame them again without any problems, after 5 minutes the mimic will turn into an evil mimic!"
+				"You can abandon your tamed mimic by clicking on the Budding amethyst with the bell, after that all your mimics will be abandoned. After 5 minutes you can tame them again without any problems, but be careful, after 5 minutes the mimic will turn into an evil mimic!"
 				""
 				"One player can only tame 2 mimics!"
 			]
@@ -2758,7 +2750,7 @@
 		}
 		{
 			dependencies: ["1EF8193BECA95331"]
-			description: ["All the gold chests are initially locked, to open them you need to find the gold key, and use it to open the gold chest, the gold chest holds some of the most delicious items!"]
+			description: ["All the gold chests are initially locked, to open them you need to find the gold key. The gold chest holds some of the most precious items!"]
 			hide: true
 			id: "65845B4612A4C218"
 			shape: "pentagon"
