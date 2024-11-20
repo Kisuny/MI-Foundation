@@ -326,6 +326,11 @@ ItemEvents.tooltip(tooltip => {
             hide_press_shift:true,
         },
         { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*fluoroapatite_ore.*/, 
+            quarry: true,
+            hide_press_shift:true,
+        },
+        { 
             name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*bauxite_ore.*/, 
             overworld: "kubejs.tooltip.bauxite.overworld",
             veins_spawn: true,
