@@ -188,5 +188,6 @@
     "item.modern_industrialization.qbit": "Кубит",
     "rei_categories.modern_industrialization.apothecary_chamber":"Камера с лепестковым аптекарем",
     "block.modern_industrialization.turbo_diesel_generator":"Турбо дизельный генератор",
-    "block.modern_industrialization.diesel_generator":"Дизельный генератор"
+    "block.modern_industrialization.diesel_generator":"Дизельный генератор",
+    "text.modern_industrialization.OreNotGenerated": ""
 }
