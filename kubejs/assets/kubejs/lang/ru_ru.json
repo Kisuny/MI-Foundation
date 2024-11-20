@@ -365,6 +365,7 @@
     "kubejs.tooltip.bauxite.overworld":"Мин/Макс Y: -48 / 32",
 
     "kubejs.tooltip.coal.overworld":"Жила так же содержить бурый уголь Мин/Макс Y: 16 / 70",
+    "kubejs.tooltip.lignite_coal.overworld":"Жила так же содержить уголь Мин/Макс Y: 16 / 70",
     "kubejs.tooltip.coal.glacio":"Мин/Макс Y: 16 / 70",
     "kubejs.tooltip.coal.venus":"Мин/Макс Y: 0 / 60",
 

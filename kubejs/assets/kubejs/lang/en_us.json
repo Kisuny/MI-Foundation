@@ -132,6 +132,7 @@
     "kubejs.tooltip.bauxite.overworld":"Min/Max Y: -48 / 32",
 
     "kubejs.tooltip.coal.overworld":"Vein also contains lignite coal Min/Max Y: 16 / 70",
+    "kubejs.tooltip.lignite_coal.overworld":"Vein also contains coal Min/Max Y: 16 / 70",
     "kubejs.tooltip.coal.glacio":"Min/Max Y: 16 / 70",
     "kubejs.tooltip.coal.venus":"Min/Max Y: 0 / 60",
 
