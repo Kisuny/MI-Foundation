@@ -275,6 +275,7 @@
 				"0379CDF7FB133E48"
 				"124F837E0188FDC3"
 			]
+			hide: false
 			id: "2AC0E79728F4AA45"
 			rewards: [
 				{
@@ -366,6 +367,7 @@
 		}
 		{
 			dependencies: ["5B7899670D00F4B0"]
+			hide: false
 			id: "0379CDF7FB133E48"
 			rewards: [
 				{
