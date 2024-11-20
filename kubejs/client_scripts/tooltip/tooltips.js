@@ -508,13 +508,6 @@ ItemEvents.tooltip(tooltip => {
             hide_press_shift:true,
         },
         { 
-            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_mozanite$)|(mozanite_ore)).*/, 
-            overworld: "kubejs.tooltip.mozanite.overworld", 
-            veins_spawn: true,
-            quarry: true,
-            hide_press_shift:true,
-        },
-        { 
             name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*ancient_debris.*/, 
             nether: "kubejs.tooltip.ancient_debris.nether", 
             veins_spawn: true,
