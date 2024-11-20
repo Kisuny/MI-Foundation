@@ -285,12 +285,52 @@ ItemEvents.tooltip(tooltip => {
         { name: 'kubejs:raw_turbinium', charnel_pump: 'gui.ad_astra.text.mars'},
         { name: 'kubejs:raw_caterium', charnel_pump: 'gui.ad_astra.text.venus'},
         { name: 'architects_palette:unobtanium', charnel_pump: 'gui.ad_astra.text.glacio'},
-
         { 
-            name: /^.*(ad_astra:|minecraft:|modern_industrialization:)bauxite_ore.*/, 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*octiron_ore.*/, 
+            charnel_pump: 'gui.ad_astra.text.moon',
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*naquadah_ore.*/, 
+            charnel_pump: 'gui.ad_astra.text.mercury',
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*turbinium_ore.*/, 
+            charnel_pump: 'gui.ad_astra.text.mars',
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*caterium_ore.*/, 
+            charnel_pump: 'gui.ad_astra.text.venus',
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*gadolinite_ore.*/, 
+            quarry: true,
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*molybdenite_ore.*/, 
+            quarry: true,
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*roquesite_ore.*/, 
+            quarry: true,
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*vanadinite_ore.*/, 
+            quarry: true,
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*bauxite_ore.*/, 
             overworld: "kubejs.tooltip.bauxite.overworld",
             veins_spawn: true,
             quarry: true,
+            hide_press_shift:true,
         },
         { 
             name: /.*(ad_astra:|minecraft:|modern_industrialization:)(deepslate_|venus_|glacio_)?coal_ore.*/, 
@@ -305,6 +345,7 @@ ItemEvents.tooltip(tooltip => {
             overworld: "kubejs.tooltip.lignite_coal.overworld",
             veins_spawn: true,
             quarry: true,
+            hide_press_shift:true,
         },
         { 
             name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*(raw_copper$)|(copper_ore)/, 
@@ -340,6 +381,7 @@ ItemEvents.tooltip(tooltip => {
             overworld: "kubejs.tooltip.nickel.overworld",
             veins_spawn: true,
             quarry: true,
+            hide_press_shift:true,
         },
         { 
             name: /^.*((ad_astra:|minecraft:|modern_industrialization:).*((raw_iron$)|(_iron_ore)))|(minecraft:iron_ore).*/, 
@@ -370,7 +412,15 @@ ItemEvents.tooltip(tooltip => {
             overworld: "kubejs.tooltip.silver.overworld",
         },
         { 
-            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*quartz_ore.*/, 
+            name: /^.*(modern_industrialization:).*quartz_ore.*/, 
+            overworld: "kubejs.tooltip.quartz.overworld", 
+            nether: "kubejs.tooltip.quartz.nether",
+            veins_spawn: true,
+            quarry: true,
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:).*quartz_ore.*/, 
             overworld: "kubejs.tooltip.quartz.overworld", 
             nether: "kubejs.tooltip.quartz.nether",
             veins_spawn: true,
@@ -381,18 +431,21 @@ ItemEvents.tooltip(tooltip => {
             overworld: "kubejs.tooltip.antimony.overworld", 
             veins_spawn: true,
             quarry: true,
+            hide_press_shift:true,
         },
         { 
             name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_platinum$)|(platinum_ore)).*/, 
             overworld: "kubejs.tooltip.platinum.overworld", 
             veins_spawn: true,
             quarry: true,
+            hide_press_shift:true,
         },
         { 
             name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_iridium$)|(iridium_ore)).*/, 
             overworld: "kubejs.tooltip.iridium.overworld", 
             veins_spawn: true,
             quarry: true,
+            hide_press_shift:true,
         },
         { 
             name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*redstone_ore.*/, 
@@ -405,42 +458,56 @@ ItemEvents.tooltip(tooltip => {
             overworld: "kubejs.tooltip.salt.overworld", 
             veins_spawn: true,
             quarry: true,
+            hide_press_shift:true,
         },
         { 
             name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_tin$)|(tin_ore)).*/, 
             overworld: "kubejs.tooltip.tin.overworld", 
             veins_spawn: true,
             quarry: true,
+            hide_press_shift:true,
         },
         { 
             name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_titanium$)|(titanium_ore)).*/, 
             overworld: "kubejs.tooltip.titanium.overworld", 
             veins_spawn: true,
             quarry: true,
+            hide_press_shift:true,
         },
         { 
             name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_tungsten$)|(tungsten_ore)).*/, 
             overworld: "kubejs.tooltip.tungsten.overworld", 
             veins_spawn: true,
             quarry: true,
+            hide_press_shift:true,
         },
         { 
             name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_brookite$)|(brookite_ore)).*/, 
             overworld: "kubejs.tooltip.brookite.overworld", 
             veins_spawn: true,
             quarry: true,
+            hide_press_shift:true,
         },
         { 
             name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_uranium$)|(uranium_ore)).*/, 
             overworld: "kubejs.tooltip.uranium.overworld", 
             veins_spawn: true,
             quarry: true,
+            hide_press_shift:true,
         },
         { 
             name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_mozanite$)|(mozanite_ore)).*/, 
             overworld: "kubejs.tooltip.mozanite.overworld", 
             veins_spawn: true,
             quarry: true,
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_mozanite$)|(mozanite_ore)).*/, 
+            overworld: "kubejs.tooltip.mozanite.overworld", 
+            veins_spawn: true,
+            quarry: true,
+            hide_press_shift:true,
         },
         { 
             name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*ancient_debris.*/, 
@@ -608,6 +675,7 @@ ItemEvents.tooltip(tooltip => {
             (item, advanced, text) => 
                 {                    
                     if (!tooltip.shift && !raw.hide_press_shift) {text.add(1, Text.translate("kubejs.tooltip.hold_shift_to_know_more").gold())}
+                    else if (!tooltip.shift && raw.hide_press_shift) {}
                     else {
                         let i = 1
                         if (raw.natural_spawn) {
