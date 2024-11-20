@@ -246,7 +246,7 @@
 				title: "Any #spectrum:moonstone_crystals"
 				type: "item"
 			}]
-			title: "Лунный камень?"
+			title: "Moonstone?"
 			x: -0.5d
 			y: -1.0d
 		}
@@ -828,7 +828,7 @@
 						}
 					}
 					id: "4BCBC7A03F5B07F1"
-					title: "Конец…"
+					title: "End…"
 					type: "custom"
 				}
 				{
@@ -1726,7 +1726,7 @@
 				}
 				id: "613EC11805F28A86"
 				structure: "spectrum:city_below"
-				title: "Город мой городок"
+				title: "The city is my little town"
 				type: "structure"
 			}]
 			title: "Paradise City"

@@ -28,6 +28,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'bwplus:yew_planks', type: 'minecraft:crafting_shapeless' })
     event.remove({ output: 'bewitchment:dragons_blood_planks', type: 'minecraft:crafting_shapeless' })
     event.remove({ output: 'bewitchment:cypress_planks', type: 'minecraft:crafting_shapeless' })
+    event.remove({ id: 'modern_industrialization:vanilla_recipes/clay_uncrafting' })
 
     global.dyeColors.forEach(color => {
         event.remove({ output: `spectrum:${color.name}_planks`, type: 'minecraft:crafting_shapeless' })

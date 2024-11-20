@@ -280,32 +280,473 @@ ItemEvents.tooltip(tooltip => {
     })
 
     const raw_ores = [
-        { name: 'kubejs:octiron_shards', charnel_pump: 'gui.ad_astra.text.moon', space_miner: 'kubejs.tooltip.text.nowhere' },
-        { name: 'kubejs:raw_naquadah', charnel_pump: 'gui.ad_astra.text.mercury', space_miner: 'kubejs.tooltip.text.nowhere' },
-        { name: 'kubejs:raw_turbinium', charnel_pump: 'gui.ad_astra.text.mars', space_miner: 'kubejs.tooltip.text.nowhere' },
-        { name: 'kubejs:raw_caterium', charnel_pump: 'gui.ad_astra.text.venus', space_miner: 'kubejs.tooltip.text.nowhere' },
-        { name: 'architects_palette:unobtanium', charnel_pump: 'gui.ad_astra.text.glacio', space_miner: 'kubejs.tooltip.text.nowhere' },
+        { name: 'kubejs:octiron_shards', charnel_pump: 'gui.ad_astra.text.moon'},
+        { name: 'kubejs:raw_naquadah', charnel_pump: 'gui.ad_astra.text.mercury'},
+        { name: 'kubejs:raw_turbinium', charnel_pump: 'gui.ad_astra.text.mars'},
+        { name: 'kubejs:raw_caterium', charnel_pump: 'gui.ad_astra.text.venus'},
+        { name: 'architects_palette:unobtanium', charnel_pump: 'gui.ad_astra.text.glacio'},
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*octiron_ore.*/, 
+            charnel_pump: 'gui.ad_astra.text.moon',
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*naquadah_ore.*/, 
+            charnel_pump: 'gui.ad_astra.text.mercury',
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*turbinium_ore.*/, 
+            charnel_pump: 'gui.ad_astra.text.mars',
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*caterium_ore.*/, 
+            charnel_pump: 'gui.ad_astra.text.venus',
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*gadolinite_ore.*/, 
+            quarry: true,
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*molybdenite_ore.*/, 
+            quarry: true,
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*roquesite_ore.*/, 
+            quarry: true,
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*vanadinite_ore.*/, 
+            quarry: true,
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*fluoroapatite_ore.*/, 
+            quarry: true,
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*bauxite_ore.*/, 
+            overworld: "kubejs.tooltip.bauxite.overworld",
+            veins_spawn: true,
+            quarry: true,
+            hide_press_shift:true,
+        },
+        { 
+            name: /.*(ad_astra:|minecraft:|modern_industrialization:)(deepslate_|venus_|glacio_)?coal_ore.*/, 
+            overworld: "kubejs.tooltip.coal.overworld",
+            venus: "kubejs.tooltip.coal.venus",
+            glacio: "kubejs.tooltip.coal.glacio",
+            veins_spawn: true,
+            quarry: true,
+        },
+        { 
+            name: /^.*lignite_coal_ore.*/, 
+            overworld: "kubejs.tooltip.lignite_coal.overworld",
+            veins_spawn: true,
+            quarry: true,
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*(raw_copper$)|(copper_ore)/, 
+            overworld: "kubejs.tooltip.copper.overworld",
+            glacio: "kubejs.tooltip.copper.glacio",
+            veins_spawn: true,
+            quarry: true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*diamond_ore.*/, 
+            overworld: "kubejs.tooltip.diamond.overworld",
+            venus: "kubejs.tooltip.diamond.venus",
+            mars: "kubejs.tooltip.diamond.mars",
+            veins_spawn: true,
+            quarry: true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*emerald_ore.*/, 
+            overworld: "kubejs.tooltip.emerald.overworld",
+            veins_spawn: true,
+            quarry: true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_gold$)|(gold_ore)).*/, 
+            overworld: "kubejs.tooltip.gold.overworld",
+            nether: "kubejs.tooltip.gold.nether",
+            venus: "kubejs.tooltip.gold.venus",
+            veins_spawn: true,
+            quarry: true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_nickel$)|(nickel_ore)).*/, 
+            overworld: "kubejs.tooltip.nickel.overworld",
+            veins_spawn: true,
+            quarry: true,
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*((ad_astra:|minecraft:|modern_industrialization:).*((raw_iron$)|(_iron_ore)))|(minecraft:iron_ore).*/, 
+            overworld: "kubejs.tooltip.iron.overworld",
+            moon: "kubejs.tooltip.iron.moon",
+            mars: "kubejs.tooltip.iron.mars",
+            mercury: "kubejs.tooltip.iron.mercury",
+            glacio: "kubejs.tooltip.iron.glacio",
+            veins_spawn: true,
+            quarry: true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*lapis_ore.*/, 
+            overworld: "kubejs.tooltip.lapis.overworld",
+            glacio: "kubejs.tooltip.lapis.glacio",
+            veins_spawn: true,
+            quarry: true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_lead$)|(lead_ore)).*/, 
+            overworld: "kubejs.tooltip.lead.overworld",
+            veins_spawn: true,
+            quarry: true,
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_silver$)|(silver_ore)).*/, 
+            overworld: "kubejs.tooltip.silver.overworld",
+        },
+        { 
+            name: /^.*(modern_industrialization:).*quartz_ore.*/, 
+            overworld: "kubejs.tooltip.quartz.overworld", 
+            nether: "kubejs.tooltip.quartz.nether",
+            veins_spawn: true,
+            quarry: true,
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:).*quartz_ore.*/, 
+            overworld: "kubejs.tooltip.quartz.overworld", 
+            nether: "kubejs.tooltip.quartz.nether",
+            veins_spawn: true,
+            quarry: true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_antimony$)|(antimony_ore)).*/, 
+            overworld: "kubejs.tooltip.antimony.overworld", 
+            veins_spawn: true,
+            quarry: true,
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_platinum$)|(platinum_ore)).*/, 
+            overworld: "kubejs.tooltip.platinum.overworld", 
+            veins_spawn: true,
+            quarry: true,
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_iridium$)|(iridium_ore)).*/, 
+            overworld: "kubejs.tooltip.iridium.overworld", 
+            veins_spawn: true,
+            quarry: true,
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*redstone_ore.*/, 
+            overworld: "kubejs.tooltip.redstone.overworld", 
+            veins_spawn: true,
+            quarry: true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*salt_ore.*/, 
+            overworld: "kubejs.tooltip.salt.overworld", 
+            veins_spawn: true,
+            quarry: true,
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_tin$)|(tin_ore)).*/, 
+            overworld: "kubejs.tooltip.tin.overworld", 
+            veins_spawn: true,
+            quarry: true,
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_titanium$)|(titanium_ore)).*/, 
+            overworld: "kubejs.tooltip.titanium.overworld", 
+            veins_spawn: true,
+            quarry: true,
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_tungsten$)|(tungsten_ore)).*/, 
+            overworld: "kubejs.tooltip.tungsten.overworld", 
+            veins_spawn: true,
+            quarry: true,
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_brookite$)|(brookite_ore)).*/, 
+            overworld: "kubejs.tooltip.brookite.overworld", 
+            veins_spawn: true,
+            quarry: true,
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_uranium$)|(uranium_ore)).*/, 
+            overworld: "kubejs.tooltip.uranium.overworld", 
+            veins_spawn: true,
+            quarry: true,
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_mozanite$)|(mozanite_ore)).*/, 
+            overworld: "kubejs.tooltip.mozanite.overworld", 
+            veins_spawn: true,
+            quarry: true,
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_mozanite$)|(mozanite_ore)).*/, 
+            overworld: "kubejs.tooltip.mozanite.overworld", 
+            veins_spawn: true,
+            quarry: true,
+            hide_press_shift:true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*ancient_debris.*/, 
+            nether: "kubejs.tooltip.ancient_debris.nether", 
+            veins_spawn: true,
+            quarry: true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_desh$)|(desh_ore$)).*/, 
+            moon: "kubejs.tooltip.desh.moon", 
+            charnel_pump: 'kubejs.tooltip.text.moon_mercury_venus_glacio',
+            space_miner: 'gui.ad_astra.text.moon', 
+            veins_spawn: true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_ostrum$)|(ostrum_ore$)).*/, 
+            mars: "kubejs.tooltip.ostrum.mars", 
+            charnel_pump: 'kubejs.tooltip.text.moon_mercury_venus_glacio', 
+            space_miner: 'gui.ad_astra.text.mars', 
+            veins_spawn: true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_calorite$)|(calorite_ore$)).*/, 
+            venus: "kubejs.tooltip.calorite.venus",
+            charnel_pump: 'kubejs.tooltip.text.moon_mercury_venus_glacio', 
+            space_miner: 'gui.ad_astra.text.venus', 
+            veins_spawn: true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((ice_shard$)|(ice_shard_ore$)).*/, 
+            moon: "kubejs.tooltip.ice_shard.moon", 
+            mars: "kubejs.tooltip.ice_shard.mars", 
+            glacio: "kubejs.tooltip.ice_shard.glacio",
+            space_miner: 'kubejs.tooltip.space_miner_several_planets',  
+            veins_spawn: true,
+        },
+        { 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*cheese_ore$.*/, 
+            moon: "kubejs.tooltip.cheese.moon", 
+            veins_spawn: true,
+        },
+        { 
+            name: /^mythicmetals:(deepslate_|raw_)?adamantite(_ore)?$/, 
+            charnel_pump: 'biome.terralith.red_oasis', 
+            space_miner: 'kubejs.tooltip.text.mercury_venus', 
+            overworld: 'kubejs.tooltip.adamantite.overworld',
+            natural_spawn: true,
+        },
+        { 
+            name: /^mythicmetals:(deepslate_|raw_)?carmot(_ore)?$/,
+            charnel_pump: 'biome.terralith.red_oasis', 
+            space_miner: 'gui.ad_astra.text.venus',
+            overworld: 'kubejs.tooltip.carmot.overworld',
+            natural_spawn: true,
+        },
+        { 
+            name: /^mythicmetals:(raw_)?aquarium(_ore)?$/, 
+            charnel_pump: 'biome.minecraft.deep_ocean',
+            overworld: 'kubejs.tooltip.aquarium.overworld',
+            natural_spawn: true,
+        },
+        { 
+            name: /^mythicmetals:(nether_)?banglum(_ore|)$|^mythicmetals:raw_banglum$/, 
+            charnel_pump: 'biome.terralith.gravel_desert',
+            space_miner: 'gui.ad_astra.text.mercury',
+            overworld: "kubejs.tooltip.banglum.overworld",
+            nether: "kubejs.tooltip.banglum.nether",
+            natural_spawn: true,
+        },
+        { 
+            name: /^mythicmetals:(deepslate_)?unobtainium(_ore)?$/, 
+            charnel_pump: 'biome.terralith.gravel_desert',
+            space_miner: 'gui.ad_astra.text.venus',
+            overworld: "kubejs.tooltip.unobtainium.overworld",
+            natural_spawn: true,
+        },
+        { 
+            name: /^mythicmetals:(raw_)?quadrillum(_ore)?$/, 
+            charnel_pump: 'biome.terralith.gravel_desert', 
+            space_miner: 'gui.ad_astra.text.moon',
+            overworld:'kubejs.tooltip.quadrillum.overworld',
+            natural_spawn: true,
+        },
+        { 
+            name: /^mythicmetals:(calcite_|raw_)?kyber(_ore)?$/, 
+            charnel_pump: 'biome.terralith.forested_highlands', 
+            space_miner: 'gui.ad_astra.text.venus',
+            overworld: 'kubejs.tooltip.kyber.overworld',
+            natural_spawn: true,
+        },
+        { 
+            name: /^mythicmetals:(calcite_|end_stone_)?starrite(_ore)?$/, 
+            charnel_pump: 'biome.terralith.forested_highlands', 
+            space_miner: 'gui.ad_astra.text.moon',
+            overworld: 'kubejs.tooltip.starrite.overworld',
+            the_end: 'kubejs.tooltip.starrite.the_end',
+            natural_spawn: true,
+        },
+        { 
+            name: /^mythicmetals:(deepslate_)?morkite(_ore)?$/, 
+            charnel_pump: 'biome.terralith.moonlight_valley', 
+            space_miner: 'gui.ad_astra.text.glacio',
+            overworld: 'kubejs.tooltip.morkite.overworld',
+            natural_spawn: true,
+        },
+        { 
+            name: /^mythicmetals:(deepslate_|raw_)?mythril(_ore)?$/, 
+            charnel_pump: 'biome.terralith.moonlight_valley',
+            space_miner: 'gui.ad_astra.text.mars',
+            overworld: 'kubejs.tooltip.mythril.overworld',
+            natural_spawn: true,
+        },
+        { 
+            name: /^mythicmetals:(deepslate_|raw_)?runite(_ore)?$/, 
+            charnel_pump: 'biome.terralith.moonlight_valley', 
+            space_miner: 'gui.ad_astra.text.glacio',
+            overworld: 'kubejs.tooltip.runite.overworld',
+            natural_spawn: true,
+        },
+        { 
+            name: /^mythicmetals:(midas_gold(_ore)?|raw_midas_gold)$/,
+            charnel_pump: 'biome.terralith.yellowstone',
+            nether: 'kubejs.tooltip.midas_gold.nether',
+            natural_spawn: true,
+        },
+        { 
+            name: /^mythicmetals:(palladium(_ore)?|raw_palladium)$/, 
+            charnel_pump: 'biome.terralith.yellowstone', 
+            space_miner: 'gui.ad_astra.text.mercury',
+            nether: 'kubejs.tooltip.palladium.nether',
+            natural_spawn: true,
+        },
+        { 
+            name: /^mythicmetals:(blackstone_|raw_)?stormyx(_ore)?$/, 
+            charnel_pump: 'biome.terralith.yellowstone', 
+            space_miner: 'gui.ad_astra.text.mercury',
+            nether: 'kubejs.tooltip.stormyx.nether',
+            natural_spawn: true,
+        },
+        { 
+            name: /^mythicmetals:(deepslate_|smooth_basalt_|tuff_|raw_)?orichalcum(_ore)?$/, 
+            charnel_pump: 'biome.terralith.orchid_swamp',
+            space_miner: 'gui.ad_astra.text.mars',
+            overworld: 'kubejs.tooltip.orichalcum.overworld',
+            natural_spawn: true,
 
-        { name: /^mythicmetals:(deepslate_|raw_)?adamantite(_ore)?$/, charnel_pump: 'biome.terralith.red_oasis', space_miner: 'kubejs.tooltip.text.mercury_venus' },
-        { name: /^mythicmetals:(deepslate_|raw_)?carmot(_ore)?$/, charnel_pump: 'biome.terralith.red_oasis', space_miner: 'gui.ad_astra.text.venus' },
-        { name: /^mythicmetals:(raw_)?aquarium(_ore)?$/, charnel_pump: 'biome.minecraft.deep_ocean', space_miner: 'kubejs.tooltip.text.nowhere' },
-        { name: /^mythicmetals:(nether_)?banglum(_ore|)$|^mythicmetals:raw_banglum$/, charnel_pump: 'biome.terralith.gravel_desert', space_miner: 'gui.ad_astra.text.mercury' },
-        { name: /^mythicmetals:(deepslate_)?unobtainium(_ore)?$/, charnel_pump: 'biome.terralith.gravel_desert', space_miner: 'gui.ad_astra.text.venus' },
-        { name: /^mythicmetals:(raw_)?quadrillum(_ore)?$/, charnel_pump: 'biome.terralith.gravel_desert', space_miner: 'gui.ad_astra.text.moon' },
-        { name: /^mythicmetals:(calcite_|raw_)?kyber(_ore)?$/, charnel_pump: 'biome.terralith.forested_highlands', space_miner: 'gui.ad_astra.text.venus' },
-        { name: /^mythicmetals:(calcite_|end_stone_)?starrite(_ore)?$/, charnel_pump: 'biome.terralith.forested_highlands', space_miner: 'gui.ad_astra.text.moon' },
-        { name: /^mythicmetals:(deepslate_)?morkite(_ore)?$/, charnel_pump: 'biome.terralith.moonlight_valley', space_miner: 'gui.ad_astra.text.glacio' },
-        { name: /^mythicmetals:(deepslate_|raw_)?mythril(_ore)?$/, charnel_pump: 'biome.terralith.moonlight_valley', space_miner: 'gui.ad_astra.text.mars' },
-        { name: /^mythicmetals:(deepslate_|raw_)?runite(_ore)?$/, charnel_pump: 'biome.terralith.moonlight_valley', space_miner: 'gui.ad_astra.text.glacio' },
-        { name: /^mythicmetals:(midas_gold(_ore)?|raw_midas_gold)$/, charnel_pump: 'biome.terralith.yellowstone', space_miner: 'kubejs.tooltip.text.nowhere' },
-        { name: /^mythicmetals:(palladium(_ore)?|raw_palladium)$/, charnel_pump: 'biome.terralith.yellowstone', space_miner: 'gui.ad_astra.text.mercury' },
-        { name: /^mythicmetals:(blackstone_|raw_)?stormyx(_ore)?$/, charnel_pump: 'biome.terralith.yellowstone', space_miner: 'gui.ad_astra.text.mercury' },
-        { name: /^mythicmetals:(deepslate_|smooth_basalt_|tuff_|raw_)?orichalcum(_ore)?$/, charnel_pump: 'biome.terralith.orchid_swamp', space_miner: 'gui.ad_astra.text.mars' },
-        { name: /^mythicmetals:(deepslate_|raw_)?prometheum(_ore)?$/, charnel_pump: 'biome.terralith.orchid_swamp', space_miner: 'gui.ad_astra.text.mars' },
-        { name: /^mythicmetals:(raw_osmium|osmium(_ore)?)$/, charnel_pump: 'biome.terralith.rocky_mountains', space_miner: 'gui.ad_astra.text.glacio' }
+        },
+        { 
+            name: /^mythicmetals:(deepslate_|raw_)?prometheum(_ore)?$/, 
+            charnel_pump: 'biome.terralith.orchid_swamp', 
+            space_miner: 'gui.ad_astra.text.mars',
+            overworld: 'kubejs.tooltip.prometheum.overworld',
+            natural_spawn: true,
+        },
+        { 
+            name: /^mythicmetals:(raw_osmium|osmium(_ore)?)$/, 
+            charnel_pump: 'biome.terralith.rocky_mountains', 
+            space_miner: 'gui.ad_astra.text.glacio',
+            natural_spawn: true,
+        }
     ]
     raw_ores.forEach(raw => {
-        tooltip.add(raw.name, [Text.translate("kubejs.tooltip.space_miner").gold().bold(), Text.translate(`${raw.space_miner}`).italic()])
-        tooltip.add(raw.name, [Text.translate("kubejs.tooltip.charnel_pump").gold().bold(), Text.translate("kubejs.tooltip.charnel_pump.biome").green(), Text.translate(`${raw.charnel_pump}`).italic()])
+        tooltip.addAdvanced(
+            raw.name, 
+            (item, advanced, text) => 
+                {                    
+                    if (!tooltip.shift && !raw.hide_press_shift) {text.add(1, Text.translate("kubejs.tooltip.hold_shift_to_know_more").gold())}
+                    else if (!tooltip.shift && raw.hide_press_shift) {}
+                    else {
+                        let i = 1
+                        if (raw.natural_spawn) {
+                            text.add(i++, Text.translate("kubejs.tooltip.natural_spawn").gold())
+                            text.add(i++, Text.translate(" "))
+                        }
+                        if (raw.veins_spawn) {
+                            text.add(i++, Text.translate("kubejs.tooltip.veins_spawn").gold())
+                            text.add(i++, Text.translate("kubejs.tooltip.veins_spawn_2").gold())
+                            text.add(i++, Text.translate(" "))
+                        }
+                        if (raw.overworld) {
+                            text.add(i++, Text.translate("kubejs.tooltip.overworld").green())
+                            text.add(i++, Text.translate(`${raw.overworld}`).gold())
+                            text.add(i++, Text.translate(" "))
+                        }
+                        if (raw.nether) {
+                            text.add(i++, Text.translate("kubejs.tooltip.nether").red())
+                            text.add(i++, Text.translate(`${raw.nether}`).gold())
+                            text.add(i++, Text.translate(" "))
+                        }
+                        if (raw.the_end) {
+                            text.add(i++, Text.translate("kubejs.tooltip.the_end").lightPurple())
+                            text.add(i++, Text.translate(`${raw.the_end}`).gold())
+                            text.add(i++, Text.translate(" "))
+                        }
+                        if (raw.moon) {
+                            text.add(i++, Text.translate("gui.ad_astra.text.moon").white())
+                            text.add(i++, Text.translate(`${raw.moon}`).gold())
+                            text.add(i++, Text.translate(" "))
+                        }
+                        if (raw.mars) {
+                            text.add(i++, Text.translate("gui.ad_astra.text.mars").darkRed())
+                            text.add(i++, Text.translate(`${raw.mars}`).gold())
+                            text.add(i++, Text.translate(" "))
+                        }
+                        if (raw.venus) {
+                            text.add(i++, Text.translate("gui.ad_astra.text.venus").yellow())
+                            text.add(i++, Text.translate(`${raw.venus}`).gold())
+                            text.add(i++, Text.translate(" "))
+                        }
+                        if (raw.mercury) {
+                            text.add(i++, Text.translate("gui.ad_astra.text.mercury").red())
+                            text.add(i++, Text.translate(`${raw.mercury}`).gold())
+                            text.add(i++, Text.translate(" "))
+                        }
+                        if (raw.glacio) {
+                            text.add(i++, Text.translate("gui.ad_astra.text.glacio").aqua())
+                            text.add(i++, Text.translate(`${raw.glacio}`).gold())
+                            text.add(i++, Text.translate(" "))
+                        }
+                        if (raw.space_miner || raw.charnel_pump || raw.quarry){
+                            text.add(i++, Text.translate("kubejs.tooltip.alternative_way_to_obtain").blue().bold())
+                        }
+                        if (raw.space_miner) {
+                            text.add(i++, Text.translate("kubejs.tooltip.space_miner").blue().append(Text.translate(`${raw.space_miner}`).italic().gray()))
+                        }
+                        if (raw.charnel_pump) {
+                            text.add(i++, Text.translate("kubejs.tooltip.charnel_pump").blue().append(Text.translate("kubejs.tooltip.charnel_pump.biome")).append(Text.translate(`${raw.charnel_pump}`).italic().gray()))
+                        }
+                        if (raw.quarry) {
+                            text.add(i++, Text.translate("kubejs.tooltip.quarry").blue())
+                        }
+                        text.add(i++, Text.translate(" "))
+                    }
+                }
+        );
     });
 })

@@ -107,7 +107,7 @@
 				"Macros are the sections of code which can be interpreded as an instruction and have different behaviour depending on arguments. In some sense macro is a metaprogramming, but in this case it's more similar to functions from modern languages. "
 				"```"
 				"%macro a_macro message something_else"
-				"say \"The message: %message # замена %message"
+				"say \"The message: %message # replacement %message"
 				"say \"%something_else\""
 				"%end"
 				""
@@ -134,7 +134,7 @@
 				""
 				"For example:"
 				"- Platform (item modification)"
-				"- Пьедестал (item modification)"
+				"- Pedestal (item modification)"
 				"- Surgery platform (entity)"
 				""
 				"Not all instructions needs workbenches. Some instructions interract with blocks, item and fluid inventories."
@@ -1945,7 +1945,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "СооС"
+			subtitle: "CooC"
 			tasks: [{
 				id: "27CBEF94EABC36E7"
 				item: "neepmeat:charnel_pump"
@@ -2370,7 +2370,7 @@
 					type: "item"
 				}
 			]
-			title: "Незеритовый космических скафандр"
+			title: "More ARMORS!"
 			x: 15.0d
 			y: 13.5d
 		}

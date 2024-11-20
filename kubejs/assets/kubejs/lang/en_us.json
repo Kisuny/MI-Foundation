@@ -93,11 +93,117 @@
     "kubejs.lucky_scarf.tooltip_2": "conditions for catching «Risen from the dragonrot»: Dragonrot.",
     "kubejs.running_shoes.tooltip_1": "🎣 can get by fishing creatures, from a «Nibbler»",
     "kubejs.running_shoes.tooltip_2": "conditions for catching «Nibbler»: Dragonrot.",
-    "kubejs.tooltip.space_miner":"Space Miner",
-    "kubejs.tooltip.charnel_pump":"Charnel Pump",
-    "kubejs.tooltip.charnel_pump.biome":"Biome: ",
+    "kubejs.tooltip.hold_shift_to_know_more": "Hold [Shift] for info",
+    "kubejs.tooltip.alternative_way_to_obtain": "Alternative way to obtain",
+    "kubejs.tooltip.space_miner":"Space miner: ",
+    "kubejs.tooltip.charnel_pump":"Charnel pump ",
+    "kubejs.tooltip.quarry":"Can be obtained using quarry",
+    "kubejs.tooltip.space_miner_several_planets":"Several planets",
+    "kubejs.tooltip.charnel_pump.biome":"biome: ",
     "kubejs.tooltip.text.mercury_venus":"Mercury, Venus",
+    "kubejs.tooltip.text.moon_mercury_venus_glacio":"Moon, Mars, Mercury, Venus, Glacio. More on the planet that has natural generation",
     "kubejs.tooltip.text.nowhere":"Nowhere",
+
+    "kubejs.tooltip.natural_spawn": "Spawns just like ores in vanilla",
+    "kubejs.tooltip.veins_spawn": "Spawns only in veins, look for samples on the surface",
+    "kubejs.tooltip.veins_spawn_2": "Veins with multiple ores can have one or another sample on the surface",
+
+    "kubejs.tooltip.adamantite.overworld":"Min/Max Y: -54 / -20",
+    "kubejs.tooltip.carmot.overworld":"Min/Max Y: -10 / -24",
+    "kubejs.tooltip.aquarium.overworld":"Spawns in ocean biomes / underwater caves Min/Max Y: -10 / -24",
+    "kubejs.tooltip.banglum.overworld": "Min/Max Y: 48 / 69",
+    "kubejs.tooltip.banglum.nether": "Min/Max Y: 69 / 110",
+    "kubejs.tooltip.unobtainium.overworld": "Min/Max Y: -54 / 5",
+    "kubejs.tooltip.quadrillum.overworld": "Min/Max Y: 12 / 40",
+    "kubejs.tooltip.kyber.overworld": "Spawned more frequently in calcite Min/Max Y: -56 / 40",
+    "kubejs.tooltip.starrite.overworld": "Min/Max Y: 70 / 260",
+    "kubejs.tooltip.starrite.the_end": "Min/Max Y: 30 / 90",
+    "kubejs.tooltip.morkite.overworld": "Min/Max Y: 27 / 32",
+    "kubejs.tooltip.mythril.overworld": "Min/Max Y: -24 / 4",
+    "kubejs.tooltip.runite.overworld": "Min/Max Y: 39 / 53",
+    "kubejs.tooltip.midas_gold.nether": "Min/Max Y: 12 / 125",
+    "kubejs.tooltip.palladium.nether": "Min/Max Y: 14 / 36",
+    "kubejs.tooltip.stormyx.nether": "Min/Max Y: 4 / 60",
+    "kubejs.tooltip.orichalcum.overworld": "Min/Max Y: 8 / 8",
+    "kubejs.tooltip.prometheum.overworld": "Spawns only in lush caves Min/Max Y: 30 / 48",
+
+    
+
+    "kubejs.tooltip.bauxite.overworld":"Min/Max Y: -48 / 32",
+
+    "kubejs.tooltip.coal.overworld":"Vein also contains lignite coal Min/Max Y: 16 / 70",
+    "kubejs.tooltip.lignite_coal.overworld":"Vein also contains coal Min/Max Y: 16 / 70",
+    "kubejs.tooltip.coal.glacio":"Min/Max Y: 16 / 70",
+    "kubejs.tooltip.coal.venus":"Min/Max Y: 0 / 60",
+
+    "kubejs.tooltip.copper.overworld":"Min/Max Y: -8 / 48",
+    "kubejs.tooltip.copper.glacio":"Min/Max Y: -8 / 64",
+
+    "kubejs.tooltip.diamond.overworld":"Min/Max Y: -59 / 0",
+    "kubejs.tooltip.diamond.venus":"Min/Max Y: -59 / 0",
+    "kubejs.tooltip.diamond.mars":"Min/Max Y: -59 / 0",
+
+    "kubejs.tooltip.quartz.overworld":"Vein also contains antimony Min/Max Y: -32 / 32",
+    "kubejs.tooltip.quartz.nether":"Vein also contains ancient debris Min/Max Y: 10 / 50",
+
+    "kubejs.tooltip.ancient_debris.nether": "Can be found in quartz and gold veins",
+
+    "kubejs.tooltip.antimony.overworld":"Vein also contains quartz Min/Max Y: -32 / 32",
+
+    "kubejs.tooltip.emerald.overworld": "Min/Max Y: -48 / 32",
+
+    "kubejs.tooltip.gold.overworld": "Min/Max Y: -48 / 16",
+    "kubejs.tooltip.gold.nether": "Vein also contains ancient debris Min/Max Y: 10 / 60",
+    "kubejs.tooltip.gold.venus": "Min/Max Y: -48 / 16",
+
+    "kubejs.tooltip.iron.overworld": "Vein also contains nickel Min/Max Y: -16 / 52",
+    "kubejs.tooltip.iron.moon": "Min/Max Y: -32 / 52",
+    "kubejs.tooltip.iron.mars": "Min/Max Y: -32 / 52",
+    "kubejs.tooltip.iron.mercury": "Min/Max Y: -59 / 64",
+    "kubejs.tooltip.iron.glacio": "Min/Max Y: -32 / 52",
+
+    "kubejs.tooltip.nickel.overworld": "Vein also contains iron Min/Max Y: -16 / 52",
+
+    "kubejs.tooltip.lapis.overworld":"Min/Max Y: -59 / 48",
+    "kubejs.tooltip.lapis.glacio":"Min/Max Y: -59 / 48",
+
+    "kubejs.tooltip.lead.overworld":"Min/Max Y: -48 / 32",
+
+    "kubejs.tooltip.silver.overworld":"Can be obtain as a byproduct from lead processing",
+
+    "kubejs.tooltip.platinum.overworld": "Vein also contains iridum Min/Max Y: -59 / 16",
+    "kubejs.tooltip.iridium.overworld": "Can spawn in platinum, iridium or mozanite vein",
+
+    "kubejs.tooltip.redstone.overworld": "Min/Max Y: -59 / 16",
+
+    "kubejs.tooltip.salt.overworld": "Min/Max Y: 48 / 80",
+
+
+    "kubejs.tooltip.tin.overworld": "Min/Max Y: 18 / 60",
+
+    "kubejs.tooltip.titanium.overworld": "Vein also contains tungsten and brookite Min/Max Y: -59 / 16",
+    "kubejs.tooltip.tungsten.overworld": "Vein also contains titanium and brookite Min/Max Y: -59 / 16",
+    "kubejs.tooltip.brookite.overworld": "Vein also contains tungsten and titanium Min/Max Y: -59 / 16",
+
+    "kubejs.tooltip.uranium.overworld": "Vein also contains iridium and mozanite Min/Max Y: -48/ 16",
+    "kubejs.tooltip.mozanite.overworld": "Vein also contains uranium and mozanite Min/Max Y: -48 / 16",
+
+    "kubejs.tooltip.desh.moon": "Vein also contains a little amount of cheese and ice shards Min/Max Y: -48 / 48",
+
+    "kubejs.tooltip.ostrum.mars": "Vein also contains a little amount of ice shards Min/Max Y: -48 / 48",
+
+    "kubejs.tooltip.calorite.venus": "Min/Max Y: -48 / 48",
+
+    "kubejs.tooltip.ice_shard.moon":"Vein also contains a little amount of cheese Min/Max Y: -32 / 52",
+    "kubejs.tooltip.ice_shard.mars":"Min/Max Y: -32 / 52",
+    "kubejs.tooltip.ice_shard.glacio":"Min/Max Y: -32 / 52",
+
+    "kubejs.tooltip.cheese.moon": "Min/Max Y: 0 / 64",
+
+
+    "kubejs.tooltip.overworld":"Overworld",
+    "kubejs.tooltip.nether":"Nether",
+    "kubejs.tooltip.the_end":"The End",
 
     "trofers.name.ad_astra": "Rocketry Virtuoso",
     "trofers.name.angel_ring": "Flight Ringmaster",

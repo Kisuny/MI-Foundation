@@ -53,6 +53,7 @@
 					type: "item"
 				}
 			]
+			title: "Quantum Equipment"
 			x: 17.5d
 			y: -0.5d
 		}
@@ -386,6 +387,7 @@
 		}
 		{
 			dependencies: ["27D8C35FD6F61515"]
+			description: [""]
 			id: "06A46B53EAE89371"
 			rewards: [
 				{
@@ -428,7 +430,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Sunny"
+			title: "Sun"
 			x: 2.5d
 			y: -2.5d
 		}
@@ -476,7 +478,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Black"
+			title: "Darkness"
 			x: 2.5d
 			y: -3.5d
 		}
@@ -524,7 +526,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Clean sheet"
+			title: "Light"
 			x: 2.5d
 			y: -4.5d
 		}
@@ -764,7 +766,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Blue eyes"
+			title: "Blue Eyes"
 			x: 6.5d
 			y: -3.5d
 		}
@@ -1004,7 +1006,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Bad weather"
+			title: "Bad Weather"
 			x: 4.5d
 			y: -0.5d
 		}
@@ -1342,7 +1344,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "A barrel of iron, what's the big deal"
+			title: "An iron barrel of iron, what's the big deal?"
 			x: 11.5d
 			y: -2.5d
 		}
@@ -1445,7 +1447,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "A barrel of steel, okay, I see what you're getting at."
+			title: "A steel barrel of steel, okay, I see what you're getting at"
 			x: 11.5d
 			y: -4.5d
 		}
@@ -1503,7 +1505,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "Aluminum barrel of aluminum, yeah, yeah, I get it"
+			title: "An aluminum barrel of aluminum, yeah, yeah, I get it"
 			x: 11.5d
 			y: -5.5d
 		}
@@ -1561,7 +1563,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "Stainless steel stainless steel barrel, let's move on"
+			title: "A stainless steel barrel of stainless steel, let's move on"
 			x: 11.5d
 			y: -6.5d
 		}
@@ -1632,7 +1634,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "A titanium barrel of titanium, and we weren't expecting it"
+			title: "A titanium barrel of titanium, what a surprise"
 			x: 11.5d
 			y: -7.5d
 		}
@@ -1864,7 +1866,7 @@
 					type: "item"
 				}
 			]
-			title: "Get them all"
+			title: "Get them all!"
 			x: -2.0d
 			y: -0.5d
 		}
@@ -1987,6 +1989,7 @@
 				"66B7D0ED4EFAD17F"
 				"3E28F3AEA0B4ED2D"
 			]
+			description: [""]
 			id: "61E02629F0614F8F"
 			rewards: [
 				{
@@ -2034,7 +2037,7 @@
 					type: "dimension"
 				}
 			]
-			title: "Fly to everyone"
+			title: "Fly to everywhere"
 			x: -6.0d
 			y: -2.5d
 		}
@@ -2262,6 +2265,7 @@
 				"6C41A08AB7064ED7"
 				"00ED2AC55FE35797"
 			]
+			description: [""]
 			hide: false
 			id: "03F9A088E035318C"
 			rewards: [
@@ -2295,7 +2299,7 @@
 				title: "&4<shake>C</shake>&r&6<shake>o</shake>&r&e<shake>l</shake>&r&2<shake>o</shake>&r&b<shake>r</shake>&r &9<shake>s</shake>&r&5<shake>p</shake>&r&4<shake>e</shake>&r&6<shake>c</shake>&r&e<shake>t</shake>&r&2<shake>r</shake>&r&b<shake>u</shake>&r&9<shake>m</shake>&r"
 				type: "checkmark"
 			}]
-			title: "&4<shake>C</shake>&r&6<shake>o</shake>&r&e<shake>l</shake>&r&2<shake>o</shake>&r&b<shake>r</shake>&r &9<shake>s</shake>&r&5<shake>p</shake>&r&4<shake>e</shake>&r&6<shake>c</shake>&r&e<shake>t</shake>&r&2<shake>r</shake>&r&b<shake>u</shake>&r&9<shake>m</shake>&r"
+			title: "&4<shake>C</shake>&r&6<shake>o</shake>&r&e<shake>l</shake>&r&2<shake>o</shake>&r&b<shake>r</shake>&r &9<shake>S</shake>&r&5<shake>p</shake>&r&4<shake>e</shake>&r&6<shake>c</shake>&r&e<shake>t</shake>&r&2<shake>r</shake>&r&b<shake>u</shake>&r&9<shake>m</shake>&r"
 			x: 4.5d
 			y: -2.5d
 		}
@@ -2376,7 +2380,7 @@
 				item: "megacells:cell_component_256m"
 				type: "item"
 			}]
-			title: "Well, that should be enough now."
+			title: "Well, that should definetly be enough."
 			x: 12.5d
 			y: -1.5d
 		}
@@ -2667,7 +2671,7 @@
 				type: "item"
 				weak_nbt_match: true
 			}]
-			title: "A tin barrel of tin, that was the same"
+			title: "A tin barrel of tin, that's just a repeat"
 			x: 11.5d
 			y: -1.5d
 		}
@@ -2764,7 +2768,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Well, now I'm definitely instantly digging"
+			title: "Well, now I'm definitely instamining"
 			x: 7.5d
 			y: -1.5d
 		}

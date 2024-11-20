@@ -277,7 +277,7 @@
     "kubejs.displacement_page.tooltip": "🧪 Страница используется вместе с Томом перемещения",
     "kubejs.teleport_pearl.tooltip": "✎ Жемчуг используется в «Томе перемещения» как ресурс для телепортации, нажмите томом ПКМ по жемчугу.",
     "kubejs.empty_beehive.tooltip": "🧪 Возможно стоит попробовать наполнить его пчёлами и мёдом?…",
-    "kubejs.beehive.tooltip": "★ Нажмите данным ульем на улей из Minecraft с SHIFT'om, чтобы переместится в Жужалище!",
+    "kubejs.beehive.tooltip": "★ Нажмите данным ульем на улей из Минecraft с SHIFT'om, чтобы переместится в Жужалище!",
     "kubejs.hirschgeist_heart.tooltip": "🗡 Одержав победу над могучим «Хиршгейстом» Сможешь сердце его забрать!",
     "kubejs.zotzpyre_fang.tooltip": "🗡 Лишь добычливый сможет достать этот редкий клык при убийстве вызванного «Зотцпира»",
     "kubejs.zotzpyre_flesh.tooltip": "🗡 Выпадает при убийстве вызванного мини-босса «Зотцпира»",
@@ -326,9 +326,114 @@
     "kubejs.lucky_scarf.tooltip_2": "Условия поимки «Восставший из драконьей гнили»: драконья гниль.",
     "kubejs.running_shoes.tooltip_1": "🎣 Выбить при рыбной ловле существ, из «Зубастик»",
     "kubejs.running_shoes.tooltip_2": "Условия поимки «Зубастик»: драконья гниль.",
-    "kubejs.tooltip.space_miner":"Космический шахтёр",
-    "kubejs.tooltip.charnel_pump":"Могильный насос: Биом",
-    "kubejs.tooltip.charnel_pump.biome":"Биом: ",
+    "kubejs.tooltip.alternative_way_to_obtain": "Альтернативный вариант добычи:",
+
+    "kubejs.tooltip.hold_shift_to_know_more": "Зажми [Shift] для подробной информации",
+    "kubejs.tooltip.space_miner":"Космический шахтёр: ",
+    "kubejs.tooltip.charnel_pump":"Могильный насос",
+    "kubejs.tooltip.charnel_pump.biome":"биом: ",
     "kubejs.tooltip.text.mercury_venus":"Меркурий, Венера",
-    "kubejs.tooltip.text.nowhere":"Нигде"
+    "kubejs.tooltip.text.nowhere":"Нигде",
+    "kubejs.tooltip.quarry":"Может быть получен с помощью карьера",
+    "kubejs.tooltip.space_miner_several_planets":"Несколько планет",
+    "kubejs.tooltip.text.moon_mercury_venus_glacio":"Луна, Марс, Меркурий, Венера, Гласио. Больше на планете где появляется в жилах",
+
+    "kubejs.tooltip.natural_spawn": "Генерируется как и ванильные руды",
+    "kubejs.tooltip.veins_spawn": "Генерируется только в жилах, ищите образцы руд на поверхности",
+    "kubejs.tooltip.veins_spawn_2": "Жилы с несколькими рудами могут иметь образец одной из руд в жиле на поверхности",
+
+
+    "kubejs.tooltip.adamantite.overworld":"Мин/Макс Y: -54 / -20",
+    "kubejs.tooltip.carmot.overworld":"Мин/Макс Y: -10 / -24",
+    "kubejs.tooltip.aquarium.overworld":"Появляется только в океане и подводных пещерах Мин/Макс Y: -10 / -24",
+    "kubejs.tooltip.banglum.overworld": "Мин/Макс Y: 48 / 69",
+    "kubejs.tooltip.banglum.nether": "Мин/Макс Y: 69 / 110",
+    "kubejs.tooltip.unobtainium.overworld": "Мин/Макс Y: -54 / 5",
+    "kubejs.tooltip.quadrillum.overworld": "Мин/Макс Y: 12 / 40",
+    "kubejs.tooltip.kyber.overworld": "Часто появляется в кальците Мин/Макс Y: -56 / 40",
+    "kubejs.tooltip.starrite.overworld": "Мин/Макс Y: 70 / 260",
+    "kubejs.tooltip.starrite.the_end": "Мин/Макс Y: 30 / 90",
+    "kubejs.tooltip.morkite.overworld": "Мин/Макс Y: 27 / 32",
+    "kubejs.tooltip.mythril.overworld": "Мин/Макс Y: -24 / 4",
+    "kubejs.tooltip.runite.overworld": "Мин/Макс Y: 39 / 53",
+    "kubejs.tooltip.midas_gold.nether": "Мин/Макс Y: 12 / 125",
+    "kubejs.tooltip.palladium.nether": "Мин/Макс Y: 14 / 36",
+    "kubejs.tooltip.stormyx.nether": "Мин/Макс Y: 4 / 60",
+    "kubejs.tooltip.orichalcum.overworld": "Мин/Макс Y: 8 / 8",
+    "kubejs.tooltip.prometheum.overworld": "Появляется только в Заросших пещерах Мин/Макс Y: 30 / 48",
+
+    "kubejs.tooltip.bauxite.overworld":"Мин/Макс Y: -48 / 32",
+
+    "kubejs.tooltip.coal.overworld":"Жила так же содержить бурый уголь Мин/Макс Y: 16 / 70",
+    "kubejs.tooltip.lignite_coal.overworld":"Жила так же содержить уголь Мин/Макс Y: 16 / 70",
+    "kubejs.tooltip.coal.glacio":"Мин/Макс Y: 16 / 70",
+    "kubejs.tooltip.coal.venus":"Мин/Макс Y: 0 / 60",
+
+    "kubejs.tooltip.copper.overworld":"Мин/Макс Y: -8 / 48",
+    "kubejs.tooltip.copper.glacio":"Мин/Макс Y: -8 / 64",
+
+    "kubejs.tooltip.diamond.overworld":"Мин/Макс Y: -59 / 0",
+    "kubejs.tooltip.diamond.venus":"Мин/Макс Y: -59 / 0",
+    "kubejs.tooltip.diamond.mars":"Мин/Макс Y: -59 / 0",
+
+    "kubejs.tooltip.quartz.overworld":"Жила так же содержит сурьму Мин/Макс Y: -32 / 32",
+    "kubejs.tooltip.quartz.nether":"Жила так же содержит древние обломки Мин/Макс Y: 10 / 50",
+
+    "kubejs.tooltip.ancient_debris.nether": "Может быть найден в жилах кварца и золота",
+
+    "kubejs.tooltip.antimony.overworld":"Жила так же содержит кварц Мин/Макс Y: -32 / 32",
+
+    "kubejs.tooltip.emerald.overworld": "Мин/Макс Y: -48 / 32",
+
+    "kubejs.tooltip.gold.overworld": "Мин/Макс Y: -48 / 16",
+    "kubejs.tooltip.gold.nether": "Жила так же содержит древние обломки Мин/Макс Y: 10 / 60",
+    "kubejs.tooltip.gold.venus": "Мин/Макс Y: -48 / 16",
+
+    "kubejs.tooltip.iron.overworld": "Жила так же содержит никель Мин/Макс Y: -16 / 52",
+    "kubejs.tooltip.iron.moon": "Мин/Макс Y: -32 / 52",
+    "kubejs.tooltip.iron.mars": "Мин/Макс Y: -32 / 52",
+    "kubejs.tooltip.iron.mercury": "Мин/Макс Y: -59 / 64",
+    "kubejs.tooltip.iron.glacio": "Мин/Макс Y: -32 / 52",
+
+    "kubejs.tooltip.nickel.overworld": "Жила так же содержит железо Мин/Макс Y: -16 / 52",
+
+    "kubejs.tooltip.lapis.overworld":"Мин/Макс Y: -59 / 48",
+    "kubejs.tooltip.lapis.glacio":"Мин/Макс Y: -59 / 48",
+
+    "kubejs.tooltip.lead.overworld":"Мин/Макс Y: -48 / 32",
+
+    "kubejs.tooltip.silver.overworld":"Может быть получен путем переработки свинца",
+
+    "kubejs.tooltip.platinum.overworld": "Жила так же содержит иридий Мин/Макс Y: -59 / 16",
+    "kubejs.tooltip.iridium.overworld": "Может появится в платиновой, иридиевой и мозанитовой жиле",
+
+    "kubejs.tooltip.redstone.overworld": "Мин/Макс Y: -59 / 16",
+
+    "kubejs.tooltip.salt.overworld": "Мин/Макс Y: 48 / 80",
+
+
+    "kubejs.tooltip.tin.overworld": "Мин/Макс Y: 18 / 60",
+
+    "kubejs.tooltip.titanium.overworld": "Жила так же содержит вольфрам и брукит Мин/Макс Y: -59 / 16",
+    "kubejs.tooltip.tungsten.overworld": "Жила так же содержит титан и брукит Мин/Макс Y: -59 / 16",
+    "kubejs.tooltip.brookite.overworld": "Жила так же содержит вольфрам и титан Мин/Макс Y: -59 / 16",
+
+    "kubejs.tooltip.uranium.overworld": "Жила так же содержит иридий и мозанит Мин/Макс Y: -48/ 16",
+    "kubejs.tooltip.mozanite.overworld": "Жила так же содержит уран и иридий Мин/Макс Y: -48 / 16",
+
+    "kubejs.tooltip.desh.moon": "Жила так же содержит немного сыра и ледяных осколков Мин/Макс Y: -48 / 48",
+
+    "kubejs.tooltip.ostrum.mars": "Жила так же содержит немного ледяных осколков Мин/Макс Y: -48 / 48",
+
+    "kubejs.tooltip.calorite.venus": "Мин/Макс Y: -48 / 48",
+
+    "kubejs.tooltip.ice_shard.moon":"Жила так же содержит немного сыра Мин/Макс Y: -32 / 52",
+    "kubejs.tooltip.ice_shard.mars":"Мин/Макс Y: -32 / 52",
+    "kubejs.tooltip.ice_shard.glacio":"Мин/Макс Y: -32 / 52",
+
+    "kubejs.tooltip.cheese.moon": "Мин/Макс Y: 0 / 64",
+
+    "kubejs.tooltip.overworld":"Верхний мир",
+    "kubejs.tooltip.nether":"Ад",
+    "kubejs.tooltip.the_end":"Энд"
 }

@@ -37,9 +37,9 @@
 		{
 			dependencies: ["7E3C5F934FB5E112"]
 			description: [
-				"&bTears of the sea&r - the main material for creating fishing rods with the ability to catch &csea creatures&r, &ccreatures&r can be quite different, as well as the &bnormal&r and &cevil&r, which can &4kill you&r."
+				"&bTears of the Sea&r are the main material for creating fishing rods with the ability to catch &csea creatures&r. These &ccreatures&r can be quite different - from &bnormal&r sea animals to &cevil&r monsters, which can &4kill you&r."
 				""
-				"&6From different creatures also drops a lot of useful loot for progression.&r"
+				"&6Different creatures can also drop a lot of useful loot.&r"
 			]
 			hide: true
 			id: "6DA17633D03E09E0"
@@ -62,9 +62,9 @@
 		{
 			dependencies: ["523942AC15DDEDF2"]
 			description: [
-				"&6Modpack&r radically changes the concept of &9fishing&r, in its development we were inspired by games such as &eStardew Valley&r, &aTerraria&r. "
+				"This &6Modpack&r radically changes the concept of &9fishing&r, in its development we were inspired by games such as &eStardew Valley&r and &aTerraria&r. "
 				""
-				"Who was able to interact with &9fishing&r in these games, will immediately &eunderstand&r what it is :^)"
+				"Those that know &9fishing&r in these games will immediately &eunderstand&r this :^)"
 			]
 			hide: true
 			id: "7E3C5F934FB5E112"
@@ -77,7 +77,7 @@
 			shape: "octagon"
 			tasks: [{
 				id: "56BC1F0CA6CF6EC6"
-				title: "Начало водных похождений"
+				title: "The beginning of a water adventures"
 				type: "checkmark"
 			}]
 			title: "Aquatic Adventures"
@@ -177,9 +177,9 @@
 		{
 			dependencies: ["19CBDDF776398B6E"]
 			description: [
-				"The quest arrows &nindicate&r which &6artifact&r can be obtained from this &9liquid&r!"
+				"The quest arrows &nindicate&r which &6artifact&r can be obtained from which &9liquid&r!"
 				""
-				"&n&eTIP:&r&r It is recommended to look at the conditions of obtaining a &6trinket&r directly on it, using «&9CTRL&r»!"
+				"&n&eTIP:&r&r You can look at the conditions of obtaining a &6trinket&r directly by using «&9CTRL&r»!"
 			]
 			hide: true
 			id: "50A0CC42DCF80CDA"
@@ -194,9 +194,9 @@
 		{
 			dependencies: ["19CBDDF776398B6E"]
 			description: [
-				"The quest arrows &nindicate&r which &6artifact&r can be obtained from this &9liquid&r!"
+				"The quest arrows &nindicate&r which &6artifact&r can be obtained from which &9liquid&r!"
 				""
-				"&n&eTIP:&r&r It is recommended to look at the conditions of obtaining a &6trinket&r directly on it, using «&9CTRL&r»!"
+				"&n&eTIP:&r&r You can look at the conditions of obtaining a &6trinket&r directly by using «&9CTRL&r»!"
 			]
 			hide: true
 			id: "714C71D114BC0DA9"
@@ -211,9 +211,9 @@
 		{
 			dependencies: ["19CBDDF776398B6E"]
 			description: [
-				"The quest arrows &nindicate&r which &6artifact&r can be obtained from this &9liquid&r!"
+				"The quest arrows &nindicate&r which &6artifact&r can be obtained from which &9liquid&r!"
 				""
-				"&n&eTIP:&r&r It is recommended to look at the conditions of obtaining a &6trinket&r directly on it, using «&9CTRL&r»!"
+				"&n&eTIP:&r&r You can look at the conditions of obtaining a &6trinket&r directly by using «&9CTRL&r»!"
 			]
 			hide: true
 			id: "501C48EFBF3B31FC"
@@ -228,9 +228,9 @@
 		{
 			dependencies: ["38ED3732F6AA8274"]
 			description: [
-				"The quest arrows &nindicate&r which &6artifact&r can be obtained from this &9liquid&r!"
+				"The quest arrows &nindicate&r which &6artifact&r can be obtained from which &9liquid&r!"
 				""
-				"&n&eTIP:&r&r It is recommended to look at the conditions of obtaining a &6trinket&r directly on it, using «&9CTRL&r»!"
+				"&n&eTIP:&r&r You can look at the conditions of obtaining a &6trinket&r directly by using «&9CTRL&r»!"
 			]
 			hide: true
 			id: "0976F72B3B8D2466"
@@ -245,9 +245,9 @@
 		{
 			dependencies: ["38ED3732F6AA8274"]
 			description: [
-				"The quest arrows &nindicate&r which &6artifact&r can be obtained from this &9liquid&r!"
+				"The quest arrows &nindicate&r which &6artifact&r can be obtained from which &9liquid&r!"
 				""
-				"&n&eTIP:&r&r It is recommended to look at the conditions of obtaining a &6trinket&r directly on it, using «&9CTRL&r»!"
+				"&n&eTIP:&r&r You can look at the conditions of obtaining a &6trinket&r directly by using «&9CTRL&r»!"
 			]
 			hide: true
 			id: "055CA1BEE1714FF9"
@@ -261,7 +261,7 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
-			description: ["Can be caught in &eany biomes&r and &edimension&r."]
+			description: ["Can be caught in &eany biome&r and &edimension&r."]
 			hide: true
 			id: "52B76C5FE0F877AF"
 			rewards: [{
@@ -282,7 +282,7 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
-			description: ["Can be caught in &eany biomes&r and &edimension&r."]
+			description: ["Can be caught in &eany biome&r and &edimension&r."]
 			hide: true
 			id: "251453A1F4614197"
 			rewards: [{
@@ -303,7 +303,7 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
-			description: ["Can be caught in &eany biomes&r and &edimension&r."]
+			description: ["Can be caught in &eany biome&r and &edimension&r."]
 			hide: true
 			id: "7EDBEC88D319C65B"
 			rewards: [{
@@ -324,7 +324,7 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
-			description: ["Can be caught in &eany biomes&r and &edimension&r."]
+			description: ["Can be caught in &eany biome&r and &edimension&r."]
 			hide: true
 			id: "404F5D3AA6F45554"
 			rewards: [{
@@ -366,7 +366,7 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
-			description: ["Can be caught only in &2swamps&r biomes."]
+			description: ["Can be caught only in &2swampy&r biomes."]
 			hide: true
 			id: "06A8F772FB420370"
 			rewards: [{
@@ -387,7 +387,7 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
-			description: ["Can be caught in biome &2Plains and Forests&r."]
+			description: ["Can be caught in &2Plains and Forests&r."]
 			hide: true
 			id: "26B36B12C977DE0D"
 			rewards: [{
@@ -408,7 +408,7 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
-			description: ["Can be caught in &eany biomes&r, but only in &4Nether&r."]
+			description: ["Can be caught in &eany biome&r, but only in the &4Nether&r."]
 			hide: true
 			id: "6803CD95ED63CCD5"
 			rewards: [{
@@ -429,7 +429,7 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
-			description: ["Can be caught in biome «&eSoul Sand Valley&r» in &4Nether&r."]
+			description: ["Can be caught inside a &eSoul Sand Valley&r in the &4Nether&r."]
 			hide: true
 			id: "4D7D782AF66BBC6C"
 			rewards: [{
@@ -450,7 +450,7 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
-			description: ["Can be caught in &eBasalt Deltas&r in &4Nether&r!"]
+			description: ["Can be caught inside &eBasalt Deltas&r in the &4Nether&r."]
 			hide: true
 			id: "2195128420050FB0"
 			rewards: [{
@@ -471,7 +471,7 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
-			description: ["Can be caught during a &7full moon&r!"]
+			description: ["Can only be caught during a &7full moon&r!"]
 			hide: true
 			id: "46C2B9B003AC3A09"
 			rewards: [{
@@ -492,7 +492,7 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
-			description: ["Can be caught only in &dEnd&r."]
+			description: ["Can only be caught in the &dEnd&r."]
 			hide: true
 			id: "099A02C2C9AFF0B7"
 			rewards: [{
@@ -527,7 +527,7 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
-			description: ["You can get it from the &eGolden Crate&r or &eGilded Blackstone Crate&r"]
+			description: ["You can get it from the &eGolden Crate&r or the &eGilded Blackstone Crate&r"]
 			hide: true
 			id: "66089D6C330AB63D"
 			shape: "diamond"
@@ -754,7 +754,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Can be crafted for lava fishing."
+			subtitle: "Can be crafted and used for lava fishing."
 			tasks: [{
 				id: "4E76B35BCBAC915C"
 				item: {
@@ -800,7 +800,7 @@
 		{
 			dependencies: ["501C48EFBF3B31FC"]
 			description: [
-				"Droped from:"
+				"Dropped from:"
 				""
 				"&6• Yeti"
 				"&6• Kraken"
@@ -920,10 +920,10 @@
 		{
 			dependencies: ["055CA1BEE1714FF9"]
 			description: [
-				"Droped from:"
+				"Dropped from:"
 				""
 				"&6• Dark Dragon"
-				"&6• Risen from the dragonrot"
+				"&6• Risen from the Dragonrot"
 			]
 			id: "6604D17B769EE05F"
 			rewards: [
@@ -959,7 +959,7 @@
 		{
 			dependencies: ["055CA1BEE1714FF9"]
 			description: [
-				"Droped from:"
+				"Dropped from:"
 				""
 				"&6• Dark Dragon"
 			]
@@ -1000,7 +1000,7 @@
 				"714C71D114BC0DA9"
 			]
 			description: [
-				"Droped from:"
+				"Dropped from:"
 				""
 				"&6• Fading Chrysolite"
 				"&6• Living root"
@@ -1039,7 +1039,7 @@
 		{
 			dependencies: ["50A0CC42DCF80CDA"]
 			description: [
-				"Droped from:"
+				"Dropped from:"
 				""
 				"&6• Fading Chrysolite"
 			]
@@ -1077,7 +1077,7 @@
 		{
 			dependencies: ["50A0CC42DCF80CDA"]
 			description: [
-				"Droped from:"
+				"Dropped from:"
 				""
 				"&6• Fading Chrysolite"
 			]
@@ -1115,7 +1115,7 @@
 		{
 			dependencies: ["501C48EFBF3B31FC"]
 			description: [
-				"Droped from:"
+				"Dropped from:"
 				""
 				"&6• Ghost"
 			]
@@ -1191,8 +1191,7 @@
 		{
 			dependencies: ["501C48EFBF3B31FC"]
 			description: [
-				"Droped from:"
-				""
+				"Dropped from:"
 				""
 				"&6• Kraken"
 				"&6• Megalodon"
@@ -1232,7 +1231,7 @@
 		{
 			dependencies: ["501C48EFBF3B31FC"]
 			description: [
-				"Droped from:"
+				"Dropped from:"
 				""
 				"&6• Kraken"
 				"&6• Sea Emperor"
@@ -1347,9 +1346,9 @@
 		{
 			dependencies: ["055CA1BEE1714FF9"]
 			description: [
-				"Droped from:"
+				"Dropped from:"
 				""
-				"&6• Risen from the dragonrot"
+				"&6• Risen from the Dragonrot"
 			]
 			id: "1E41B87DCABD9CDB"
 			rewards: [
@@ -1385,7 +1384,7 @@
 		{
 			dependencies: ["055CA1BEE1714FF9"]
 			description: [
-				"Droped from:"
+				"Dropped from:"
 				""
 				"&6• Nibbler"
 			]
@@ -1423,7 +1422,7 @@
 		{
 			dependencies: ["501C48EFBF3B31FC"]
 			description: [
-				"Droped from:"
+				"Dropped from:"
 				""
 				"&6• Vampire"
 			]
@@ -1461,7 +1460,7 @@
 		{
 			dependencies: ["501C48EFBF3B31FC"]
 			description: [
-				"Droped from:"
+				"Dropped from:"
 				""
 				"&6• Watcher"
 			]
@@ -1499,7 +1498,7 @@
 		{
 			dependencies: ["501C48EFBF3B31FC"]
 			description: [
-				"Droped from:"
+				"Dropped from:"
 				""
 				"&6• Watcher"
 			]

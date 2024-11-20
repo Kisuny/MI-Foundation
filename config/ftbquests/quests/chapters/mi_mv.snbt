@@ -687,7 +687,7 @@
 			description: [
 				"&aMining speed is dependent on the fuel quality&r "
 				"Has two modes: \"silk touch\" and \"fortune 3\"."
-				"&4can't mine 3х3&r"
+				"&4can't mine 3x3&r"
 			]
 			id: "20D91BDF17DB51A8"
 			rewards: [{
@@ -745,7 +745,7 @@
 					type: "item"
 				}
 			]
-			title: "Большие детали"
+			title: "Large parts"
 			x: -5.0d
 			y: 5.5d
 		}
@@ -781,6 +781,7 @@
 		}
 		{
 			dependencies: ["12829AE05244CA1B"]
+			hide: false
 			id: "73C48D66EDCF4D19"
 			rewards: [
 				{
@@ -805,6 +806,7 @@
 		}
 		{
 			dependencies: ["73C48D66EDCF4D19"]
+			hide: false
 			id: "11E213A3926FDF66"
 			rewards: [{
 				id: "6F1152922BD1CC67"
@@ -821,6 +823,7 @@
 		}
 		{
 			dependencies: ["11E213A3926FDF66"]
+			hide: false
 			id: "2262BEC14ED23163"
 			rewards: [{
 				id: "22412B16BC2B0E71"
@@ -889,6 +892,7 @@
 		{
 			dependencies: ["2262BEC14ED23163"]
 			description: [""]
+			hide: false
 			id: "4B65A4FC336AEA50"
 			rewards: [
 				{
@@ -951,6 +955,7 @@
 		}
 		{
 			dependencies: ["095D8F4F8A00FA99"]
+			hide: false
 			hide_dependent_lines: true
 			id: "6979FCCAA2646FBF"
 			tasks: [{
@@ -1126,6 +1131,7 @@
 		}
 		{
 			dependencies: ["5A9F94BC1B9EA1F0"]
+			hide: false
 			hide_dependency_lines: true
 			id: "7EED3576AA13DFB4"
 			tasks: [{
@@ -1138,6 +1144,7 @@
 		}
 		{
 			dependencies: ["7EED3576AA13DFB4"]
+			hide: false
 			id: "5FAB8B71E91FD524"
 			tasks: [{
 				id: "066D106160F2FD29"
@@ -1150,6 +1157,7 @@
 		{
 			dependencies: ["181FAC8893771CD9"]
 			description: ["Basic rocket fuel."]
+			hide: false
 			id: "56AF55D3C00B803A"
 			tasks: [{
 				id: "6BEEA57E9FFB1027"
@@ -1161,6 +1169,7 @@
 		}
 		{
 			dependencies: ["21F5617A74F41989"]
+			hide: false
 			id: "30E9F3B503A22BDA"
 			tasks: [{
 				id: "429BC05D282A4932"
@@ -1172,6 +1181,7 @@
 		}
 		{
 			dependencies: ["5FAB8B71E91FD524"]
+			hide: false
 			id: "21F5617A74F41989"
 			tasks: [{
 				id: "434273072D76930D"
@@ -1183,6 +1193,7 @@
 		}
 		{
 			dependencies: ["30E9F3B503A22BDA"]
+			hide: false
 			id: "5BE8660ED789F2B1"
 			tasks: [{
 				id: "544EC55DD8E90F83"
@@ -1194,6 +1205,7 @@
 		}
 		{
 			dependencies: ["5BE8660ED789F2B1"]
+			hide: false
 			id: "1B4127C698A675B6"
 			tasks: [{
 				id: "59072E12DD7A41A2"
@@ -1205,6 +1217,7 @@
 		}
 		{
 			dependencies: ["1B4127C698A675B6"]
+			hide: false
 			id: "181FAC8893771CD9"
 			tasks: [{
 				id: "23543F75B22578DF"
@@ -1275,6 +1288,7 @@
 				"756271EEC10D1295"
 				"70E6E6D3ABAC4B09"
 			]
+			hide: false
 			icon: {
 				Count: 1b
 				id: "ad_astra:tier_1_rocket"
@@ -2185,6 +2199,7 @@
 				"Storage driver makes connected inventory visible to a NEEPMeat logistics system."
 				"Manual requester requests a picked item on demand."
 			]
+			hide: false
 			id: "29BACBBC96847851"
 			rewards: [{
 				id: "7F82E14DC255552F"
@@ -2209,6 +2224,7 @@
 		}
 		{
 			dependencies: ["66D16ADD44115DC6"]
+			hide: false
 			id: "3DFF290B17E631F3"
 			rewards: [{
 				count: 4
@@ -2255,7 +2271,7 @@
 			subtitle: "&#ffb04fThis quest opens a new quest chapter!&r"
 			tasks: [{
 				id: "0D93CF1579DDA1FA"
-				title: "Возможно ли хранить ману на дисках?"
+				title: "Is it possible to store mana on disks?"
 				type: "checkmark"
 			}]
 			title: "Can i store mana inside the ME network?"
@@ -2399,6 +2415,7 @@
 		}
 		{
 			dependencies: ["12829AE05244CA1B"]
+			hide: false
 			id: "65560ED5F75185CE"
 			rewards: [
 				{
@@ -2423,6 +2440,7 @@
 		}
 		{
 			dependencies: ["175C75FDF524874C"]
+			hide: false
 			id: "1F9C854252F7DAAF"
 			rewards: [{
 				id: "6A6AC2B146E089BF"
@@ -2440,6 +2458,7 @@
 		{
 			dependencies: ["1F9C854252F7DAAF"]
 			description: [""]
+			hide: false
 			id: "3E138862E596075D"
 			rewards: [
 				{
@@ -2467,6 +2486,7 @@
 		}
 		{
 			dependencies: ["65560ED5F75185CE"]
+			hide: false
 			id: "175C75FDF524874C"
 			rewards: [{
 				id: "12EA00D5208A8B08"
@@ -2490,6 +2510,7 @@
 				"- works well with driver acess point"
 				"- if storage driver is connected, the recipe will appear in manual requester, an you can craft that item on demand"
 			]
+			hide: false
 			id: "4944AB502FB37416"
 			rewards: [
 				{

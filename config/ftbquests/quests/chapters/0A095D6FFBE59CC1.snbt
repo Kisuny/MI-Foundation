@@ -17,11 +17,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Trophies can be obtained by completing all quests in a particular chapter, or for a specific objective!"]
+			description: ["Trophies can be obtained by completing all quests in a particular chapter, or for achieving a specific objective!"]
 			id: "07965AD2BDFA13CB"
 			tasks: [{
 				id: "094732A85B24F71D"
-				title: "а как?"
+				title: "but how?"
 				type: "checkmark"
 			}]
 			title: "But how?"
@@ -33,7 +33,7 @@
 				"07965AD2BDFA13CB"
 				"3D3A11D0B00FF79B"
 			]
-			description: ["Create «Tier 4 Rocket»"]
+			description: ["Create a Tier 4 Rocket"]
 			icon: {
 				Count: 1b
 				id: "trofers:small_pillar"
@@ -71,7 +71,7 @@
 				"07965AD2BDFA13CB"
 				"24BF8E5FA58AB7FD"
 			]
-			description: ["Create «Angel ring»"]
+			description: ["Create an Angel ring"]
 			icon: {
 				Count: 1b
 				id: "trofers:small_pillar"

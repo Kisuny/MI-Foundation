@@ -216,9 +216,9 @@ ServerEvents.recipes(event => {
     customPedestalCraft(event, {
         tier: 'basic', time: 1200, topaz: 8, citrine: 8, experience: 1.0,
         pattern: [
-            "QTQ",
-            "WRW",
-            "QEQ"
+            "TQT",
+            "WEW",
+            "TRT"
         ],
         keys: {
             "Q": { "item": "kubejs:leather_patch" },
