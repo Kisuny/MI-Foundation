@@ -122,7 +122,7 @@
 	quests: [
 		{
 			dependencies: ["655FCBA5BCD261EC"]
-			description: ["Use &4&lSummoning Altar&r&r to get the creature you need"]
+			description: ["Use the &4&lSummoning Altar&r&r to get the creatures you need."]
 			id: "3717E2E8EC5DB9CE"
 			rewards: [{
 				id: "498317C2C2CD1F35"
@@ -168,7 +168,7 @@
 		}
 		{
 			dependencies: ["3717E2E8EC5DB9CE"]
-			description: ["Leshon can be summoned at the altar of summoning!"]
+			description: ["Leshon can be summoned at the summoning altar!"]
 			hide_dependency_lines: true
 			id: "63ACA9F95A08D31A"
 			rewards: [{
@@ -252,7 +252,7 @@
 		}
 		{
 			dependencies: ["3717E2E8EC5DB9CE"]
-			description: ["The Guardian of the Flame can be summoned at the altar of summoning!"]
+			description: ["The Guardian of the Flame can be summoned at the summoning altar!"]
 			hide_dependency_lines: true
 			id: "6D787B2E2327DCCE"
 			rewards: [{
@@ -296,7 +296,7 @@
 		}
 		{
 			dependencies: ["3717E2E8EC5DB9CE"]
-			description: ["The Nether Gauntlet cannot be found in &4Nether&r, &n<shake>but</shake>&r it is possible to summon it by living the &cFire Gauntlet&r with &5magic&r, and throwing it out in &4Nether&r!"]
+			description: ["The Nether Gauntlet cannot be found in &4Nether&r, &n<shake>but</shake>&r it is possible to summon it by aliving the &cFire Gauntlet&r with &5magic&r, and throwing it out in &4Nether&r!"]
 			hide_dependency_lines: true
 			id: "2F010344049170CB"
 			rewards: [{
@@ -434,7 +434,7 @@
 				""
 				"Hirschgeist can be summoned at the summoning altar."
 				""
-				"P.S. you need to summon wisp's to get ghost lights! "
+				"P.S. You need to summon wisps to get ghost lights! "
 			]
 			hide_dependency_lines: true
 			id: "6F9BF123A3A98426"
@@ -510,7 +510,7 @@
 				to_observe: "minecraft:ender_dragon"
 				type: "observation"
 			}]
-			title: "Try to kill big bat"
+			title: "Try to kill the big bat"
 			x: 8.0d
 			y: 5.0d
 		}

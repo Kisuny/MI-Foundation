@@ -11,7 +11,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "7DA572239C90574D"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -24,7 +23,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "7DA572239C90574D"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -37,7 +35,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "7DA572239C90574D"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -217,6 +214,7 @@
 				"6E5CD34258826606"
 			]
 			description: ["&6Pump,&r &4infinite&r water supply using steam. "]
+			hide: false
 			id: "0CC6D45FABE35CE8"
 			rewards: [
 				{
@@ -243,7 +241,7 @@
 				item: "modern_industrialization:bronze_water_pump"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -11.5d
 			y: 0.0d
 		}
 		{
@@ -618,8 +616,10 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["457B76383A8437AC"]
-			hide: false
+			dependencies: [
+				"457B76383A8437AC"
+				"4B0EF79E2F76FFDD"
+			]
 			id: "190AF318A0088ABD"
 			rewards: [
 				{
@@ -635,18 +635,19 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [{
 				id: "033129080D32213C"
 				item: "modern_industrialization:bronze_tank"
 				type: "item"
 			}]
 			x: -10.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6E5CD34258826606"]
 			description: ["The item interfaces for multiblocks. While in hand, the appropriate placing will be highlighed."]
+			hide: false
 			id: "6C6CAEF6AD733543"
 			rewards: [
 				{
@@ -685,9 +686,12 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["6E5CD34258826606"]
+			dependencies: [
+				"190AF318A0088ABD"
+				"6E5CD34258826606"
+			]
 			description: ["The liquid interfaces for multiblocks. While in hand, the appropriate placing will be highlighed."]
-			hide: true
+			hide: false
 			id: "57B90A1758C82D2D"
 			rewards: [
 				{
@@ -1101,7 +1105,6 @@
 		}
 		{
 			dependencies: ["19C2AE2E59D59B15"]
-			hide: false
 			id: "7DA572239C90574D"
 			rewards: [
 				{
@@ -1672,6 +1675,7 @@
 		{
 			dependencies: ["74279E6C9D779E3B"]
 			description: ["Gunpowder allows to &6boost&r the speed of steams machines. Effect is stackable and lasts for 2 minutes (every gunpowder increases the duration of effect)"]
+			hide: false
 			id: "5F6FA20B86978DD6"
 			rewards: [
 				{
@@ -1840,6 +1844,7 @@
 				"- deepslate"
 				"- tuff"
 			]
+			hide: false
 			id: "2C30187990B1378B"
 			rewards: [
 				{
@@ -1876,6 +1881,7 @@
 				"- gold"
 				"- redstone"
 			]
+			hide: false
 			id: "2F564636AF844954"
 			rewards: [
 				{
@@ -1970,6 +1976,7 @@
 		}
 		{
 			dependencies: ["36815FEB1B6AE7D6"]
+			hide: false
 			id: "74279E6C9D779E3B"
 			rewards: [{
 				id: "75D00ED41E4DD8B0"
@@ -1989,6 +1996,7 @@
 		{
 			dependencies: ["5EF849FFAF9AF69B"]
 			description: ["Drill mining is a primary source of resources, by using different drills the more rare ores can be obtained."]
+			hide: false
 			id: "61E4571701C59249"
 			rewards: [
 				{
@@ -2057,6 +2065,7 @@
 				"- pipe &6connections&r can be configured by RMB with empty hand on the side of a pipe"
 				"- when pipe is attached to multiple inventories routing happens at random (if both inventories have enough space)"
 			]
+			hide: false
 			id: "45AFA17F0E26641D"
 			rewards: [
 				{
@@ -2584,6 +2593,7 @@
 		}
 		{
 			dependencies: ["457B76383A8437AC"]
+			hide: false
 			id: "7BA65FBEC4145C0B"
 			rewards: [
 				{
@@ -2700,6 +2710,7 @@
 				"- machine output tuning;"
 				"- multiblock visualization while wrench is in hand (off-hand also counts)"
 			]
+			hide: false
 			id: "30CADCC78DEB5A80"
 			rewards: [
 				{
@@ -2728,6 +2739,7 @@
 		{
 			dependencies: ["457B76383A8437AC"]
 			description: ["Basic component for drawers upgrades."]
+			hide: false
 			id: "75EDDE9875B87B5C"
 			rewards: [
 				{

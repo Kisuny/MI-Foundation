@@ -141,7 +141,7 @@
 				item: "farmersdelight:rich_soil"
 				type: "item"
 			}]
-			title: "Your fertility"
+			title: "Your Fertility!"
 			x: -19.0d
 			y: -12.5d
 		}
@@ -201,6 +201,7 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
+			description: [""]
 			hide: true
 			icon: "artifacts:eternal_steak"
 			id: "5C1B50F6EA08B313"
@@ -259,7 +260,7 @@
 					type: "item"
 				}
 			]
-			title: "vegan's hell"
+			title: "A vegetarian's nightmare"
 			x: -19.0d
 			y: -6.0d
 		}

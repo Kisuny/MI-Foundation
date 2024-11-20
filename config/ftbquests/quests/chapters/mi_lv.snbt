@@ -542,6 +542,7 @@
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
 			description: ["Basic &6electric&r battery. To charge the item press RMB on a battery with item in hand. The output can be specified by wrench."]
+			hide: false
 			id: "3C5FA124A54C0133"
 			rewards: [
 				{
@@ -658,6 +659,7 @@
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
 			description: [""]
+			hide: false
 			id: "12BD6B070D6B55EC"
 			rewards: [
 				{
@@ -683,6 +685,7 @@
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
 			description: ["&6Bread and butter&r of all automation in Modern Industrialization. Some items can only be crafted in assembler with certain conditions (&4dimension&r, &0biome&r, etc.)"]
+			hide: false
 			id: "26128DB1415D22BC"
 			rewards: [
 				{
@@ -707,6 +710,7 @@
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
+			hide: false
 			id: "09359DE603AA2A55"
 			rewards: [
 				{
@@ -731,6 +735,7 @@
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
+			hide: false
 			id: "77A2910DC54A3597"
 			rewards: [
 				{
@@ -774,6 +779,7 @@
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
+			hide: false
 			id: "2F6D2886D54C0CF0"
 			rewards: [
 				{
@@ -798,6 +804,7 @@
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
+			hide: false
 			id: "0B8523585CB79D41"
 			rewards: [
 				{
@@ -823,6 +830,7 @@
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
 			description: ["An &6alternative&r of assembler or auto crafting table for &9certain&r shapeless recipes."]
+			hide: false
 			id: "132428B927F9BF07"
 			rewards: [
 				{
@@ -847,6 +855,7 @@
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
+			hide: false
 			id: "515C19F5E9DBD0E1"
 			rewards: [
 				{
@@ -871,6 +880,7 @@
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
+			hide: false
 			id: "630016D1CA5ECC74"
 			rewards: [
 				{
@@ -947,6 +957,7 @@
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
+			hide: false
 			id: "3387FCCF2E3B857B"
 			rewards: [
 				{
@@ -1027,6 +1038,7 @@
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
 			description: ["&6Alternative&r production of certain chemical compounds."]
+			hide: false
 			icon: "modern_industrialization:pyrolyse_chamber"
 			id: "39BB7A893BC32686"
 			rewards: [
@@ -1052,6 +1064,7 @@
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
+			hide: false
 			id: "649E2B9CF32A694A"
 			rewards: [
 				{
@@ -1183,7 +1196,6 @@
 		}
 		{
 			dependencies: ["17FE01EEA624616A"]
-			hide: false
 			id: "2967C78F538C5ECD"
 			rewards: [
 				{
@@ -1234,7 +1246,6 @@
 				""
 				"The *color1* wire and *color2* wire attached to the bundled cables from two side of a system. Then if we apply signal to *color1* wire, only wire with the same color will output the signal."
 			]
-			hide: false
 			id: "64A7F758A7CD9EB6"
 			rewards: [
 				{
@@ -1274,6 +1285,7 @@
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
 			description: ["Allows the &4automation&r of most &6cooking&r recipes."]
+			hide: false
 			id: "21AC21DF6587C093"
 			rewards: [
 				{
@@ -1305,6 +1317,7 @@
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
 			description: ["&6Bottler&r allows to fill up the certain fluid containers like buckets or bottles."]
+			hide: false
 			id: "355872E71E715BBF"
 			rewards: [
 				{
@@ -1449,7 +1462,6 @@
 		{
 			dependencies: ["13C563F7C62A0F7A"]
 			description: ["Allows to project the redstone signal through air in front of it. The number of blocks can be changed by RMB on it. "]
-			hide: false
 			id: "119D6E1E7E6D5233"
 			rewards: [
 				{
@@ -1848,7 +1860,6 @@
 		{
 			dependencies: ["119D6E1E7E6D5233"]
 			description: ["A visualization tool for Redstone Projector, use RMB on it to bind."]
-			hide: false
 			id: "3FB9FAC26C9A3C8B"
 			rewards: [
 				{
@@ -1892,7 +1903,6 @@
 		}
 		{
 			dependencies: ["0845A204BA15A1F5"]
-			hide: false
 			id: "13C563F7C62A0F7A"
 			rewards: [
 				{
@@ -1937,7 +1947,6 @@
 		{
 			dependencies: ["17FE01EEA624616A"]
 			description: ["Allows to add a redstone control to ModernIndustrialization machines."]
-			hide: false
 			id: "1BB3633F4522C7F6"
 			rewards: [
 				{
@@ -2074,7 +2083,6 @@
 				""
 				"You can read more information by opening the &e&lcrafting calculator&r&r and clicking on the &nbutton&r on the &ebottom right&r."
 			]
-			hide: false
 			id: "2F6C9BCF585211DC"
 			rewards: [{
 				count: 2
@@ -2133,7 +2141,6 @@
 		{
 			dependencies: ["50C0CA3FC79847C4"]
 			description: ["&lMath calculator&r, but in &2Minecraft&r, sounds handy!"]
-			hide: false
 			id: "17637FFEA2EF8643"
 			rewards: [{
 				count: 2

@@ -1054,6 +1054,25 @@
 			x: -6.752040816326527d
 			y: -2.474489795918366d
 		}
+		{
+			dependencies: ["08FC12B517294C1C"]
+			description: ["The book allows you to combine other books into one guide book!"]
+			id: "723F6231542E8A1A"
+			shape: "diamond"
+			tasks: [{
+				id: "52CE83A8DFB7F606"
+				item: {
+					Count: 1b
+					id: "eccentrictome:tome"
+					tag: {
+						"eccentrictome:mods": { }
+					}
+				}
+				type: "item"
+			}]
+			x: -1.905102040816331d
+			y: 1.158163265306122d
+		}
 	]
 	title: "&7First steps"
 }

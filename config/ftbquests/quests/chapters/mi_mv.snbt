@@ -1131,6 +1131,7 @@
 		}
 		{
 			dependencies: ["5A9F94BC1B9EA1F0"]
+			hide: false
 			hide_dependency_lines: true
 			id: "7EED3576AA13DFB4"
 			tasks: [{
