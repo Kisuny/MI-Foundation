@@ -1440,7 +1440,7 @@
 		{
 			dependencies: ["58DC31CC3D243DCD"]
 			description: [
-				"We need a better equipment. Most like &oIT&r will allow calculations which will surpass any accessible technologies."
+				"We need a better equipment. I'm sure &oIT&r will allow calculations which will surpass any accessible technologies."
 				""
 				"Used to transfer data from the integrator to pedestals."
 			]
@@ -2348,13 +2348,15 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 0.8d
 			tasks: [{
 				id: "66CD15C9C4DE0394"
 				item: "travelstaff:travel_anchor"
 				type: "item"
 			}]
-			x: 21.0d
-			y: -3.5d
+			x: 20.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["737AFCC9E50FBD22"]
@@ -3279,6 +3281,40 @@
 			}]
 			x: 26.997448979591823d
 			y: -13.551020408163254d
+		}
+		{
+			dependencies: [
+				"1ADE44FAAC0EB496"
+				"1A930173D3C4A83E"
+			]
+			description: ["Data cables allows data transfer, visualization and manual signal transfer. All necessary descriptions can be found by pressing SHIFT."]
+			id: "7991A46B9958AFCA"
+			subtitle: "System Administrator"
+			tasks: [
+				{
+					id: "5C4605B106576C69"
+					item: "neepmeat:networking_tool"
+					type: "item"
+				}
+				{
+					id: "6936B09F8A220911"
+					item: "neepmeat:slider"
+					type: "item"
+				}
+				{
+					id: "5FA61ADA3D886C4F"
+					item: "neepmeat:vertical_gauge"
+					type: "item"
+				}
+				{
+					id: "1BEB79163B038D35"
+					item: "neepmeat:redstone_transducer"
+					type: "item"
+				}
+			]
+			title: "Networking"
+			x: 21.0d
+			y: -4.0d
 		}
 	]
 	title: "&7Space program | HV"
