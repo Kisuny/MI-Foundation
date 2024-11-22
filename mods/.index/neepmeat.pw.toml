@@ -1,0 +1,16 @@
+filename = 'neepmeat-0.7.1-beta+1.19.2.jar'
+name = 'NEEPMeat'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'b82734100cbc1f8c45b34036a759120e720fa75beaf585c801f0dbbb837f7d8bae0aef1060732e70a96fa60838465a4d6b7d8f885641e4997ec31fd7f55db6b5'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Hagcl1FT/versions/CBEkQFOw/neepmeat-0.7.1-beta%2B1.19.2.jar'
+
+[update.modrinth]
+mod-id = 'Hagcl1FT'
+version = 'CBEkQFOw'

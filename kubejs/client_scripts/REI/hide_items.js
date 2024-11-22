@@ -443,8 +443,22 @@ REIEvents.hide('item', event => {
         'buildinggadgets:gadget_copy_paste',
         'buildinggadgets:template',
         'buildinggadgets:template_manager',
-        'neepmeat:shield'
-
+        'neepmeat:shield',
+        'neepmeat:disruptor_segment', 
+        'neepmeat:active_waste', 
+        'neepmeat:core_sensor', 
+        'neepmeat:reaction_core', 
+        'neepmeat:disruptor_needle', 
+        'neepmeat:nervous_tissue',
+        'neepmeat:service_port',
+        'moderndynamics:debug_tool', 
+        'moderndynamics:wrench', 
+        'moderndynamics:lv_cable', 
+        'moderndynamics:mv_cable', 
+        'moderndynamics:hv_cable', 
+        'moderndynamics:ev_cable', 
+        'moderndynamics:superconductor_cable', 
+        'moderndynamics:machine_extender'
 
     ]);
     event.hide(list)

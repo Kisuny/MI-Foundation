@@ -1,0 +1,16 @@
+filename = 'Modern-Dynamics-0.6.1-beta.jar'
+name = 'Modern Dynamics'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.19.1', '1.19.2' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '9898330888f7469f4f73a91807186a99554f5322ffe85edc8200669f8cca76dd88ca20a1b10810f1fea09945815efdf9e98169e39357a1759499f0f0f23174fc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/fMpvLrnF/versions/uSorcoNB/Modern-Dynamics-0.6.1-beta.jar'
+
+[update.modrinth]
+mod-id = 'fMpvLrnF'
+version = 'uSorcoNB'
