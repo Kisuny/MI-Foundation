@@ -92,7 +92,7 @@ ServerEvents.recipes(event => {
         .itemIn('#spectrum:shimmerstone_ores')
         .itemOut('3x spectrum:shimmerstone_gem')
 
-        event.recipes.modern_industrialization.macerator(512, 200)
+        event.recipes.modern_industrialization.macerator(16, 1000)
         .itemIn('#mif:trinkets_for_macerator')
-        .itemOut('kubejs:artifact_dust', 0.3)
+        .itemOut('kubejs:artifact_dust', 0.4)
 })

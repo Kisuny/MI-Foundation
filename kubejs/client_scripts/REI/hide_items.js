@@ -359,7 +359,6 @@ REIEvents.hide('item', event => {
         'fwaystones:waystone_debugger',
         'fwaystones:scroll_of_infinite_knowledge',
         'chemlib:ethylene_source',
-        'things:recall_potion',
         'sophisticatedstorage:controller',
         'sophisticatedstorage:storage_link',
         'sophisticatedstorage:pickup_upgrade',
