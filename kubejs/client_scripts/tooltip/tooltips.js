@@ -353,7 +353,7 @@ ItemEvents.tooltip(tooltip => {
             hide_press_shift:true,
         },
         { 
-            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*(raw_copper$)|(copper_ore)/, 
+            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_copper$)|(copper_ore))/, 
             overworld: "kubejs.tooltip.copper.overworld",
             glacio: "kubejs.tooltip.copper.glacio",
             veins_spawn: true,
@@ -496,13 +496,6 @@ ItemEvents.tooltip(tooltip => {
         { 
             name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_uranium$)|(uranium_ore)).*/, 
             overworld: "kubejs.tooltip.uranium.overworld", 
-            veins_spawn: true,
-            quarry: true,
-            hide_press_shift:true,
-        },
-        { 
-            name: /^.*(ad_astra:|minecraft:|modern_industrialization:).*((raw_mozanite$)|(mozanite_ore)).*/, 
-            overworld: "kubejs.tooltip.mozanite.overworld", 
             veins_spawn: true,
             quarry: true,
             hide_press_shift:true,
