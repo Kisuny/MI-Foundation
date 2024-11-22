@@ -1192,7 +1192,7 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: 8.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["17FE01EEA624616A"]
@@ -1237,7 +1237,7 @@
 			}]
 			title: "Insulation"
 			x: 14.0d
-			y: 8.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["2967C78F538C5ECD"]
@@ -1280,7 +1280,7 @@
 				type: "item"
 			}]
 			x: 15.0d
-			y: 8.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
@@ -1981,7 +1981,7 @@
 				type: "item"
 			}]
 			x: 14.535714285714278d
-			y: 9.30357142857143d
+			y: 10.30357142857143d
 		}
 		{
 			dependencies: ["47A87645847E6CCE"]
@@ -2169,6 +2169,107 @@
 			}]
 			x: 11.5d
 			y: 5.5d
+		}
+		{
+			dependencies: ["17FE01EEA624616A"]
+			description: ["Filters out items which are traversing through pipe system."]
+			id: "2F0E246025D08598"
+			rewards: [
+				{
+					count: 4
+					id: "2D996EEEB1C8BBDF"
+					item: "moderndynamics:filter"
+					type: "item"
+				}
+				{
+					id: "3DA69ED93A9D22C1"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "785ECD57982ADF0E"
+				item: "moderndynamics:filter"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["17FE01EEA624616A"]
+			description: ["Extracts items from connected inventory to the pipe system."]
+			id: "311F7B8334C4FC59"
+			rewards: [
+				{
+					count: 4
+					id: "345ACF6B4C86DA9A"
+					item: "moderndynamics:extractor"
+					type: "item"
+				}
+				{
+					id: "79C9DCA1D54130F1"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1F936AB24F3E64EA"
+				item: "moderndynamics:extractor"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["102B8197BB09AAF2"]
+			id: "21949C2F48475576"
+			rewards: [
+				{
+					count: 16
+					id: "53FE5FA1894A1D17"
+					item: "moderndynamics:item_pipe"
+					type: "item"
+				}
+				{
+					id: "2EC1CB306B6B4533"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "735821D7CF9E279E"
+				item: "moderndynamics:item_pipe"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1AC11A9AAE45A014"]
+			description: [""]
+			id: "6FB4F7217F1CA727"
+			rewards: [
+				{
+					count: 16
+					id: "193DD4C8501AB090"
+					item: "moderndynamics:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "3881FBC0D793987A"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2CB163B27138731F"
+				item: "moderndynamics:fluid_pipe"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
 		}
 	]
 	title: "&7Electricity | LV"

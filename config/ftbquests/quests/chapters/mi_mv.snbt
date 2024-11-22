@@ -295,8 +295,8 @@
 				item: "modern_industrialization:electrolyzer"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.0d
+			x: 0.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
@@ -324,8 +324,8 @@
 				item: "modern_industrialization:centrifuge"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.0d
+			x: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -443,7 +443,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["29EA0A820DE54537"]
@@ -886,8 +886,8 @@
 				item: "modern_industrialization:chemical_reactor"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 4.0d
+			x: 0.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2262BEC14ED23163"]
@@ -964,7 +964,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6979FCCAA2646FBF"]
@@ -2219,8 +2219,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: 0.5d
+			x: -0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["66D16ADD44115DC6"]
@@ -2435,7 +2435,7 @@
 				item: "modern_industrialization:manganese_crushed_dust"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: 0.5d
 		}
 		{
@@ -2452,7 +2452,7 @@
 				item: "modern_industrialization:manganese_tiny_dust"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: -2.0d
 		}
 		{
@@ -2481,7 +2481,7 @@
 				item: "modern_industrialization:manganese_dust"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: -3.75d
 		}
 		{
@@ -2498,7 +2498,7 @@
 				item: "modern_industrialization:manganese_sulfuric_solution_bucket"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: -1.0d
 		}
 		{
@@ -2531,7 +2531,32 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F013F8E4DF06E6B"]
+			description: ["Gathers items from connected inventories in pipe system."]
+			id: "05C1326869BC9CE0"
+			rewards: [
+				{
+					id: "148C3B9A2722E9EE"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "356EA959657CD6BB"
+					item: "moderndynamics:attractor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7AF16921F038376A"
+				item: "moderndynamics:attractor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
 		}
 	]
 	title: "&7Industrialization | MV"
