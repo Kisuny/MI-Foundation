@@ -1,0 +1,50 @@
+[messages]
+nightSkippedMessage = "Rise and shine!"
+sendNightSkippedMessageToEveryone = false
+debuffMessage = "You have been awake for {nightsAwake} nights and have been given a debuff."
+playersAsleepMessage = "{asleepPlayers}/{totalPlayers} ({asleepPercentage}%) players are now sleeping!"
+notEnoughPlayersAsleepMessage = "{asleepPlayers}/{totalPlayers} ({asleepPercentage}%) players are now sleeping. {asleepPlayersAdditionallyNeeded} more required to skip the night!"
+messageFormatting = ["dark_aqua"]
+[buffs]
+applySleepBuffs = false
+regenerationDuration = 15
+regenerationLevel = 2
+[debuffs]
+applyAwakeDebuffs = false
+applyAwakeDebuffsWhenAloneOnServer = false
+
+[debuffs.slowness]
+allowedAwakeNightsBeforeActivating = 2
+baseDuration = 10
+durationAmplifier = 1.3
+maxDuration = 180
+levelAmplifier = 1.2
+maxLevel = 2
+
+[debuffs.weakness]
+allowedAwakeNightsBeforeActivating = 3
+baseDuration = 10
+durationAmplifier = 1.3
+maxDuration = 240
+levelAmplifier = 1.0
+maxLevel = 1
+
+[debuffs.nausea]
+allowedAwakeNightsBeforeActivating = 4
+baseDuration = 10
+durationAmplifier = 1.2
+maxDuration = 60
+
+[debuffs.miningFatigue]
+allowedAwakeNightsBeforeActivating = 4
+baseDuration = 10
+durationAmplifier = 1.2
+maxDuration = 120
+levelAmplifier = 1.1
+maxLevel = 2
+
+[debuffs.blindness]
+allowedAwakeNightsBeforeActivating = 5
+baseDuration = 7
+durationAmplifier = 1.2
+maxDuration = 40
