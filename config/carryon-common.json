@@ -206,7 +206,8 @@
       "megacells:*",
       "farmersdelight:*",
       "lootr:*",
-      "numismatic-overhaul:*"
+      "numismatic-overhaul:*",
+      "minecraft:spawner"
     ],
     "//forbiddenEntities": "Entities that cannot be picked up",
     "forbiddenEntities": [
