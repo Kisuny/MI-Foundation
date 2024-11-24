@@ -457,7 +457,8 @@ REIEvents.hide('item', event => {
         'moderndynamics:hv_cable', 
         'moderndynamics:ev_cable', 
         'moderndynamics:superconductor_cable', 
-        'moderndynamics:machine_extender'
+        'moderndynamics:machine_extender',
+        'wiredredstone:redstone_assembler'
 
     ]);
     event.hide(list)
