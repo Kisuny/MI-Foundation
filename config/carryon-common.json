@@ -207,7 +207,8 @@
       "farmersdelight:*",
       "lootr:*",
       "numismatic-overhaul:*",
-      "minecraft:spawner"
+      "minecraft:spawner",
+      "wiredredstone:*"
     ],
     "//forbiddenEntities": "Entities that cannot be picked up",
     "forbiddenEntities": [
@@ -261,7 +262,8 @@
       "megacells:*",
       "farmersdelight:*",
       "lootr:*",
-      "numismatic-overhaul:*"
+      "numismatic-overhaul:*",
+      "wiredredstone:*"
     ],
     "//forbiddenStacking": "Entities that cannot have other entities stacked on top of them",
     "forbiddenStacking": [
