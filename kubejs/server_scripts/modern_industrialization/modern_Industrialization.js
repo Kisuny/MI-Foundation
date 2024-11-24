@@ -170,7 +170,7 @@ ServerEvents.recipes(event => {
     // Pipes
     event.remove({ id: 'modern_industrialization:steam_age/item_pipe_asbl' })
     event.remove({ id: 'modern_industrialization:assembler_generated/steam_age/item_pipe' })
-    event.shaped('12x modern_industrialization:item_pipe', [
+    event.shaped('8x modern_industrialization:item_pipe', [
         'CAC',
         'P P',
         'CAC'
@@ -183,13 +183,13 @@ ServerEvents.recipes(event => {
         .itemIn('4x modern_industrialization:bronze_curved_plate')
         .itemIn('2x modern_industrialization:electronic_circuit')
         .itemIn('2x modern_industrialization:piston')
-        .itemOut('16x modern_industrialization:item_pipe')
+        .itemOut('12x modern_industrialization:item_pipe')
 
 
     global.dyeColors.forEach(color => {
         event.remove({ id: `modern_industrialization:dyes/${color.name}/craft/item_pipe_direct` })
         event.remove({ id: `modern_industrialization:dyes/${color.name}/assembler/item_pipe_direct` })
-        event.shaped(`12x modern_industrialization:${color.name}_item_pipe`, [
+        event.shaped(`8x modern_industrialization:${color.name}_item_pipe`, [
             'CAC',
             'GDG',
             'CAC'
@@ -204,10 +204,10 @@ ServerEvents.recipes(event => {
             .itemIn('2x modern_industrialization:electronic_circuit')
             .itemIn('2x modern_industrialization:piston')
             .itemIn(`minecraft:${color.name}_dye`)
-            .itemOut(`16x modern_industrialization:${color.name}_item_pipe`)
+            .itemOut(`12x modern_industrialization:${color.name}_item_pipe`)
         event.remove({ id: `modern_industrialization:dyes/${color.name}/craft/fluid_pipe_stained_glass` })
         event.remove({ id: `modern_industrialization:dyes/${color.name}/assembler/fluid_pipe_stained_glass` })
-        event.shaped(`12x modern_industrialization:${color.name}_fluid_pipe`, [
+        event.shaped(`8x modern_industrialization:${color.name}_fluid_pipe`, [
             'CAC',
             'RPR',
             'CAC'
@@ -222,11 +222,11 @@ ServerEvents.recipes(event => {
             .itemIn('2x modern_industrialization:electronic_circuit')
             .itemIn('2x modern_industrialization:copper_rotor')
             .itemIn(`minecraft:${color.name}_stained_glass_pane`)
-            .itemOut(`16x modern_industrialization:${color.name}_fluid_pipe`)
+            .itemOut(`12x modern_industrialization:${color.name}_fluid_pipe`)
     })
     event.remove({ id: 'modern_industrialization:steam_age/fluid_pipe_asbl' })
     event.remove({ id: 'modern_industrialization:assembler_generated/steam_age/fluid_pipe' })
-    event.shaped('12x modern_industrialization:fluid_pipe', [
+    event.shaped('8x modern_industrialization:fluid_pipe', [
         'CAC',
         'RPR',
         'CAC'
@@ -241,7 +241,7 @@ ServerEvents.recipes(event => {
         .itemIn('2x modern_industrialization:electronic_circuit')
         .itemIn('2x modern_industrialization:copper_rotor')
         .itemIn('minecraft:glass_pane')
-        .itemOut('16x modern_industrialization:fluid_pipe')
+        .itemOut('8x modern_industrialization:fluid_pipe')
 
     event.recipes.modern_industrialization.assembler(4, 100)
         .itemIn('3x minecraft:quartz')
