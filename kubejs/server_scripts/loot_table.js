@@ -57,7 +57,6 @@ LootJS.modifiers((event) => {
             'minecraft:chests/bastion_treasure',
             'minecraft:chests/end_city_treasure',
             'terralith:spire/treasure',
-            'artifacts:entities/mimic',
             'mvs:crystal',
             'probablychests:chests/gold_pc_chests',
             'dungeons_arise:chests/abandoned_temple/abandoned_temple_top',
