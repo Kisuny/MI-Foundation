@@ -2254,6 +2254,25 @@
 			x: 4.5d
 			y: 10.0d
 		}
+		{
+			dependencies: ["54CEC7BE4B675E7C"]
+			description: ["An item buffer of &6variable size&r. Scroll while hovering over an empty slot to adjust it's capacity. Can have slot-locking and auto-output configured in the GUI."]
+			id: "7BD760619647DEBF"
+			rewards: [{
+				count: 2
+				id: "5582CA42F2529DF4"
+				item: "kubejs:mid_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "596BA9E2796ABF22"
+				item: "modern_industrialization:configurable_chest"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
 	]
 	title: "&7Electricity | LV"
 }

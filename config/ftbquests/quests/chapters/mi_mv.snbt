@@ -2557,6 +2557,31 @@
 			}]
 			x: -0.5d
 			y: 4.5d
+		
+		{
+			dependencies: ["75E727492D00F748"]
+			description: ["A fluid buffer of &6variable size&r. Scroll while hovering over the slot to adjust it's capacity. Can have auto-output configured in the GUI."]
+			id: "70853A2019F42EDC"
+			rewards: [
+				{
+					id: "49C85EBB3419A65D"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1AE1A991267661E0"
+					item: "modern_industrialization:aluminum_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4A98AA235EFA0C30"
+				item: "modern_industrialization:configurable_tank"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
 		}
 	]
 	title: "&7Industrialization | MV"
