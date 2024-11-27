@@ -1,0 +1,39 @@
+{
+    "ModSettings": {
+        "highlight_foused_items_color": "#30002E3C",
+        "first_run": false
+    },
+    "GuiSettings": {
+        "enable_profiles_ui": {
+            "value": false
+        },
+        "show_continuous_crafting_checkbox": {
+            "value": false
+        }
+    },
+    "LockedSlotsSettings": {
+        "show_locked_slots_bg_color": "#FF555500",
+        "show_locked_slots_hotbar_color": "#FF5E4100",
+        "locked_slots_foreground_style": 3
+    },
+    "AutoRefillSettings": {
+        "refill_armor": {
+            "value": false
+        },
+        "refill_before_tool_break": {
+            "value": false
+        },
+        "audio_durability_notification": {
+            "value": false
+        }
+    },
+    "Hotkeys": {
+        "sort_inventory": {
+            "main": {
+                "settings": {
+                    "allow_extra_keys": true
+                }
+            }
+        }
+    }
+}
