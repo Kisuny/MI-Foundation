@@ -1236,8 +1236,8 @@
 				item: "minecraft:clay"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 0.0d
+			x: 7.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["641B93E0D035568B"]
@@ -3287,6 +3287,25 @@
 			}]
 			x: -3.0d
 			y: -15.5d
+		}
+		{
+			dependencies: ["229FF3A42DB2FFF4"]
+			description: ["When consuming this &9potion&r - you will move to &eyour spawn point&r, potions are &cused&r when doing so."]
+			id: "0C27567FC4C9E5EA"
+			rewards: [{
+				count: 2
+				id: "78D613C7354B66F8"
+				item: "things:recall_potion"
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "6E1446663D10E089"
+				item: "things:recall_potion"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
 		}
 	]
 	title: "&7Spectrum: &oNew discoveries&r"
