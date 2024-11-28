@@ -208,6 +208,10 @@
       "lootr:*",
       "numismatic-overhaul:*",
       "minecraft:spawner",
+      "wiredredstone:*",
+      "creeperoverhaul:*",
+      "endermanoverhaul:*",
+      "friendsandfoes:*",
       "wiredredstone:*"
     ],
     "//forbiddenEntities": "Entities that cannot be picked up",
@@ -263,7 +267,21 @@
       "farmersdelight:*",
       "lootr:*",
       "numismatic-overhaul:*",
-      "wiredredstone:*"
+      "creeperoverhaul:*",
+      "endermanoverhaul:*",
+      "friendsandfoes:*",
+      "crittersandcompanions:*",
+      "wiredredstone:*",
+      "naturalist:bear",
+      "naturalist:rhino",
+      "naturalist:lion",
+      "naturalist:elephant",
+      "naturalist:giraffe",
+      "naturalist:zebra",
+      "naturalist:hippo",
+      "naturalist:boar",
+      "naturalist:alligator"
+
     ],
     "//forbiddenStacking": "Entities that cannot have other entities stacked on top of them",
     "forbiddenStacking": [
