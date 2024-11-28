@@ -64,7 +64,8 @@ LootJS.modifiers((event) => {
             'dungeons_arise:chests/shiraz_palace/shiraz_palace_treasure',
             'dungeons_arise_seven_seas:chests/pirate_junk/pirate_junk_treasure',
             'dungeons_arise_seven_seas:chests/victory_frigate/victory_frigate_treasure',
-            'dungeons_arise:chests/bandit_towers/bandit_towers_treasure'
+            'dungeons_arise:chests/bandit_towers/bandit_towers_treasure',
+            'artifacts:entities/mimic'
         ],
         mines_pools: [
             /dungeons_arise:chests\/mushroom_mines\/mushroom_mines_.*/,

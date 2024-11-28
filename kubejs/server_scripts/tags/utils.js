@@ -187,6 +187,11 @@ ServerEvents.tags('item', event => {
 ServerEvents.tags('entity_type', event => {
     // Numismatic-overhaul: tag the_bourgeoisie have only on pillager, removed it.
     event.remove('numismatic-overhaul:the_bourgeoisie', 'minecraft:pillager')
+    // soul_cage_blacklisted / collect_blacklisted - blacklist for spirit spawners
+    const SPIRIT_MOBS_BLACKLIST = ['artifacts:mimic']
+    event.add('spirit:soul_cage_blacklisted', SPIRIT_MOBS_BLACKLIST)
+    event.add('spirit:collect_blacklisted', SPIRIT_MOBS_BLACKLIST)
+    event.add('vitalize:revitalizer_blacklist', SPIRIT_MOBS_BLACKLIST)
 })
 
 // Block tags
