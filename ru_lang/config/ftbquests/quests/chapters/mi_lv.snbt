@@ -2151,6 +2151,25 @@
 			x: 11.5d
 			y: 5.5d
 		}
+		{
+			dependencies: ["54CEC7BE4B675E7C"]
+			description: ["Предметный буфер с &6изменяемым размером&r. Прокрутка колесика мыши изменит вместимость наведенного слота. Имеет блокировку слотов и автоавыход."]
+			id: "7BD760619647DEBF"
+			rewards: [{
+				count: 2
+				id: "5582CA42F2529DF4"
+				item: "kubejs:mid_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "596BA9E2796ABF22"
+				item: "modern_industrialization:configurable_chest"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
 	]
 	title: "&7Electricity | LV"
 }

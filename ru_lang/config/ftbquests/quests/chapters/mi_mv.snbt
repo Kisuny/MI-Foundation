@@ -2510,6 +2510,31 @@
 			x: 0.5d
 			y: -0.5d
 		}
+		{
+			dependencies: ["75E727492D00F748"]
+			description: ["Жидкостный буфер с &6изменяемым размером&r. Прокрутка колесика мыши изменяет размер слота. Имеет автовыход."]
+			id: "70853A2019F42EDC"
+			rewards: [
+				{
+					id: "49C85EBB3419A65D"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1AE1A991267661E0"
+					item: "modern_industrialization:aluminum_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4A98AA235EFA0C30"
+				item: "modern_industrialization:configurable_tank"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
 	]
 	title: "&7Industrialization | MV"
 }
