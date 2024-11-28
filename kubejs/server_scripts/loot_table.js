@@ -346,7 +346,7 @@ LootJS.modifiers((event) => {
 
     //creeperoverhaul custome loot
     event
-    .addLootTableModifier('creeperoverhaul:entities/ocean_creeper')
+    .addLootTableModifier('creeperoverhaul:entities/ocean_creeper', 'endermanoverhaul:entities/ocean_enderman')
     .randomChance(0.5)
     .addWeightedLoot([1,5], 'mythicmetals:raw_aquarium')
     .randomChance(0.01)
@@ -357,7 +357,7 @@ LootJS.modifiers((event) => {
     .addLoot('artifacts:aqua_dashers')
     
     event
-    .addLootTableModifier('creeperoverhaul:entities/cave_creeper')
+    .addLootTableModifier('creeperoverhaul:entities/cave_creeper', 'endermanoverhaul:entities/cave_enderman')
     .pool((p) => {
         p.randomChance(0.5)
         p.addWeightedLoot(1,
