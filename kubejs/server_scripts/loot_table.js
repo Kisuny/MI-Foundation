@@ -15,7 +15,52 @@ LootJS.modifiers((event) => {
             'terralith:spire/junk',
             /mvs:.*/,
             /kaisyn:.*/,
-            /the_bumblezone:structures\/.*/
+            /the_bumblezone:structures\/.*/,
+            'friendsandfoes:barrels/illusioner_shack_attic',
+            "/endermanoverhaul:entities\/*/",
+            // regex not working for endermanoverhaul:entities\/* idk why
+            'endermanoverhaul:entities/badlands_enderman',
+            'endermanoverhaul:entities/cave_enderman',
+            'endermanoverhaul:entities/crimson_forest_enderman',
+            'endermanoverhaul:entities/dark_oak_enderman',
+            'endermanoverhaul:entities/desert_enderman',
+            'endermanoverhaul:entities/end_enderman',
+            'endermanoverhaul:entities/end_islands_enderman',
+            'endermanoverhaul:entities/flower_fields_enderman',
+            'endermanoverhaul:entities/ice_spikes_enderman',
+            'endermanoverhaul:entities/mushroom_fields_enderman',
+            'endermanoverhaul:entities/nether_wastes_enderman',
+            'endermanoverhaul:entities/ocean_enderman',
+            'endermanoverhaul:entities/savanna_enderman',
+            'endermanoverhaul:entities/snowy_enderman',
+            'endermanoverhaul:entities/soulsand_valley_enderman',
+            'endermanoverhaul:entities/swamp_enderman',
+            'endermanoverhaul:entities/warped_forest_enderman',
+            'endermanoverhaul:entities/windswept_hills_enderman',
+            // same for creeperoverhaul entities
+            'creeperoverhaul:entities/badlands_creeper',
+            'creeperoverhaul:entities/bamboo_creeper',
+            'creeperoverhaul:entities/beach_creeper',
+            'creeperoverhaul:entities/cave_creeper',
+            'creeperoverhaul:entities/dark_oak_creeper',
+            'creeperoverhaul:entities/desert_creeper',
+            'creeperoverhaul:entities/dripstone_creeper',
+            'creeperoverhaul:entities/hills_creeper',
+            'creeperoverhaul:entities/jungle_creeper',
+            'creeperoverhaul:entities/mushroom_creeper',
+            'creeperoverhaul:entities/ocean_creeper',
+            'creeperoverhaul:entities/savannah_creeper',
+            'creeperoverhaul:entities/snowy_creeper',
+            'creeperoverhaul:entities/spruce_creeper',
+            'creeperoverhaul:entities/swamp_creeper',
+            'rottencreatures:entities/burned',
+            'rottencreatures:entities/frostbitten',
+            'rottencreatures:entities/glacial_hunter',
+            'rottencreatures:entities/mummy',
+            'rottencreatures:entities/skeleton_lackey',
+            'rottencreatures:entities/swampy',
+            'minecraft:illusioner',
+            'friendsandfoes:iceologer'
         ],
         rare: [
             /.*:chests\/stronghold_.*/,
@@ -45,7 +90,8 @@ LootJS.modifiers((event) => {
             'dungeons_arise_seven_seas:chests/corsair_corvette/corsair_corvette_treasure',
             'dungeons_arise_seven_seas:chests/small_yacht/small_yacht_treasure',
             'dungeons_arise_seven_seas:chests/unicorn_galleon/unicorn_galleon_treasure',
-            /probablychests:chests\/.*_pc_.*/
+            /probablychests:chests\/.*_pc_.*/,
+            'friendsandfoes:barrels/illusioner_shack_basement'
         ],
         epic: [
             'minecraft:chests/abandoned_mineshaft',
@@ -65,7 +111,10 @@ LootJS.modifiers((event) => {
             'dungeons_arise_seven_seas:chests/pirate_junk/pirate_junk_treasure',
             'dungeons_arise_seven_seas:chests/victory_frigate/victory_frigate_treasure',
             'dungeons_arise:chests/bandit_towers/bandit_towers_treasure',
-            'artifacts:entities/mimic'
+            'friendsandfoes:chests/illusioner_shack',
+            'artifacts:entities/mimic',
+            'rottencreatures:entities/dead_beard',
+            'rottencreatures:entities/immortal'
         ],
         mines_pools: [
             /dungeons_arise:chests\/mushroom_mines\/mushroom_mines_.*/,
@@ -330,7 +379,7 @@ LootJS.modifiers((event) => {
         .addLoot('artifacts:everlasting_beef')
 
     event
-        .addLootTableModifier('minecraft:chests/village/village_cartographer')
+        .addLootTableModifier('minecraft:chests/village/village_cartographer', 'friendsandfoes:chests/illusioner_shack',)
         .randomChance(0.01)
         .addLoot('endrem:cryptic_eye')
 
@@ -340,7 +389,7 @@ LootJS.modifiers((event) => {
         .addLoot('endrem:evil_eye')
 
     event
-        .addLootTableModifier(['bosses_of_mass_destruction:chests/lich_tower', 'terralith:spire/treasure'])
+        .addLootTableModifier(['bosses_of_mass_destruction:chests/lich_tower', 'terralith:spire/treasure', 'friendsandfoes:barrels/iceologer_cabin', 'friendsandfoes:chests/iceologer_cabin'])
         .randomChance(0.8)
         .addLoot('endrem:cold_eye')
 
@@ -357,7 +406,14 @@ LootJS.modifiers((event) => {
     .addLoot('artifacts:aqua_dashers')
     
     event
-    .addLootTableModifier('creeperoverhaul:entities/cave_creeper', 'endermanoverhaul:entities/cave_enderman')
+    .addLootTableModifier(
+        'creeperoverhaul:entities/cave_creeper', 
+        'endermanoverhaul:entities/cave_enderman', 
+        'rottencreatures:entities/undead_miner/iron', 
+        'rottencreatures:entities/undead_miner/gold',
+        'rottencreatures:entities/undead_miner/diamond',
+        'rottencreatures:entities/undead_miner/stone'
+    )
     .pool((p) => {
         p.randomChance(0.5)
         p.addWeightedLoot(1,

@@ -37,7 +37,7 @@
   },
   "refresh": {
     "refresh_value": 1728000,
-    "refresh_all": true,
+    "refresh_all": false,
     "refresh_modids": [],
     "refresh_loot_tables": [],
     "refresh_dimensions": []

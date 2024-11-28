@@ -212,7 +212,10 @@
       "creeperoverhaul:*",
       "endermanoverhaul:*",
       "friendsandfoes:*",
-      "wiredredstone:*"
+      "wiredredstone:*",
+      "rottencreatures:*",
+      "lootgoblins:*",
+      "theorcs:*"
     ],
     "//forbiddenEntities": "Entities that cannot be picked up",
     "forbiddenEntities": [
@@ -280,8 +283,10 @@
       "naturalist:zebra",
       "naturalist:hippo",
       "naturalist:boar",
-      "naturalist:alligator"
-
+      "naturalist:alligator",
+      "rottencreatures:*",
+      "lootgoblins:*",
+      "theorcs:*"
     ],
     "//forbiddenStacking": "Entities that cannot have other entities stacked on top of them",
     "forbiddenStacking": [
