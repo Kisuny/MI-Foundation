@@ -35,9 +35,11 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["6BAA0FB832721D58"]
+			dependencies: [
+				"6BAA0FB832721D58"
+				"6B8AD610BFDE2B3A"
+			]
 			id: "2B526E0A7964227D"
-			min_required_dependencies: 1
 			rewards: [
 				{
 					id: "73218B30681CA11D"
@@ -209,6 +211,7 @@
 				}
 			]
 			shape: "diamond"
+			subtitle: "The R in RLC"
 			tasks: [{
 				id: "62995359F0411403"
 				item: "modern_industrialization:resistor"
@@ -234,6 +237,7 @@
 				}
 			]
 			shape: "diamond"
+			subtitle: "The L in RLC"
 			tasks: [{
 				id: "2F1ACC3CA95E5B16"
 				item: "modern_industrialization:inductor"
@@ -262,6 +266,7 @@
 				}
 			]
 			shape: "diamond"
+			subtitle: "The C in RLC"
 			tasks: [{
 				id: "35142E4654799F41"
 				item: "modern_industrialization:capacitor"
@@ -287,6 +292,7 @@
 				}
 			]
 			shape: "diamond"
+			subtitle: "The Circuit in RLC Circuit"
 			tasks: [{
 				id: "244093316CF2EE48"
 				item: "modern_industrialization:analog_circuit_board"
@@ -377,6 +383,7 @@
 			]
 			shape: "gear"
 			size: 1.5d
+			subtitle: "The RLC Circuit!"
 			tasks: [{
 				id: "22BB792EC1121211"
 				item: "modern_industrialization:analog_circuit"
@@ -453,6 +460,7 @@
 		}
 		{
 			dependencies: ["47A87645847E6CCE"]
+			description: ["A boiler, but larger. Much larger. Can create up to 256 mb/t of steam. Needs hatches for fuel input, water input and steam output."]
 			icon: "modern_industrialization:large_steam_boiler"
 			id: "07D42A18DA84F509"
 			rewards: [
@@ -541,7 +549,7 @@
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
-			description: ["Basic &6electric&r battery. To charge the item press RMB on a battery with item in hand. The output can be specified by wrench."]
+			description: ["Basic &6electric&r battery. To charge any item press RMB on a battery with the item in hand. The output direction for wires can be specified by using a wrench."]
 			hide: false
 			id: "3C5FA124A54C0133"
 			rewards: [
@@ -608,6 +616,7 @@
 				}
 			]
 			shape: "diamond"
+			subtitle: "Batch craft, batch craft, batch craft!"
 			tasks: [
 				{
 					id: "299508B303871310"
@@ -641,6 +650,7 @@
 		}
 		{
 			dependencies: ["47A87645847E6CCE"]
+			description: ["Portable Storage Unit (PSU) allows you to transport energy in your inventory. It doesn't have any capacity on it's own, you must first insert a battery by hovering over it with one and pressing RMB (or vise versa). After that, if you hold it and press RMB on a placed storage unit, it will be charged. It cannot power directly items in your inventory, but you can carry a block storage unit to alleviate that."]
 			id: "7281FDAB6AA4AA1F"
 			rewards: [{
 				id: "68C2F5509DEF4712"
@@ -648,6 +658,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
+			subtitle: "Finally, an actual battery!"
 			tasks: [{
 				id: "5E63DF5D00A979DB"
 				item: "modern_industrialization:portable_storage_unit"
@@ -674,6 +685,7 @@
 				}
 			]
 			shape: "octagon"
+			subtitle: "&m3&r 4 recipes to rule them all!"
 			tasks: [{
 				id: "505BB3196B811562"
 				item: "modern_industrialization:polarizer"
@@ -684,7 +696,7 @@
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
-			description: ["&6Bread and butter&r of all automation in Modern Industrialization. Some items can only be crafted in assembler with certain conditions (&4dimension&r, &0biome&r, etc.)"]
+			description: ["The &6Bread and Butter&r of all automation in Modern Industrialization. Some items can only be created under certain conditions (&4dimension&r, &0biome&r, etc.)."]
 			hide: false
 			id: "26128DB1415D22BC"
 			rewards: [
@@ -829,7 +841,7 @@
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
-			description: ["An &6alternative&r of assembler or auto crafting table for &9certain&r shapeless recipes."]
+			description: ["An &6alternative&r of an assembler for &9certain&r shapeless recipes."]
 			hide: false
 			id: "132428B927F9BF07"
 			rewards: [
@@ -921,6 +933,7 @@
 				}
 			]
 			shape: "diamond"
+			subtitle: "The F in EBF"
 			tasks: [{
 				id: "178BAE9E6D7A6278"
 				item: "modern_industrialization:invar_ingot"
@@ -947,6 +960,7 @@
 				}
 			]
 			shape: "diamond"
+			subtitle: "The B in EBF"
 			tasks: [{
 				id: "006BA6C08516ABE5"
 				item: "modern_industrialization:cupronickel_coil"
@@ -985,7 +999,7 @@
 				"102B8197BB09AAF2"
 				"1AC11A9AAE45A014"
 			]
-			description: ["&4Electric version&r of &6Blast Furnace&r.The operating recipe depends on the tier of coils. The current tier must be specified inside the machine."]
+			description: ["An &4electric version&r of the &6Blast Furnace&r. Available recipes are determined by the tier of coils making up the EBF. The current tier must be specified inside the machine."]
 			hide: false
 			icon: "modern_industrialization:electric_blast_furnace"
 			id: "57886FF598451010"
@@ -1009,7 +1023,7 @@
 			]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "&#ffb04fThis quest opens a new quest chapter!&r"
+			subtitle: "The E in EBF\\n&#ffb04fThis quest opens a new quest chapter!&r"
 			tasks: [
 				{
 					id: "5A2CB8B1144BF1EA"
@@ -1037,7 +1051,7 @@
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
-			description: ["&6Alternative&r production of certain chemical compounds."]
+			description: ["A more &6electric&r way for producing coke and creosote. Also unlocks some other chemical compounds."]
 			hide: false
 			icon: "modern_industrialization:pyrolyse_chamber"
 			id: "39BB7A893BC32686"
@@ -1089,7 +1103,7 @@
 		}
 		{
 			dependencies: ["47A87645847E6CCE"]
-			description: ["Permits basic routing for NeepMeat pipes. &4do not&r work as BC Diamond pipes, instead it will accept the blocks specified in filters and will push them out from the side with the same color."]
+			description: ["Allows for basic routing with NeepMeat pipes. &4Doesn't&r work like BC Diamond pipes. Instead, it only accepts the items specified inside and will push them out of the side with the same color."]
 			id: "0737D169DFB3A47A"
 			rewards: [
 				{
@@ -1115,7 +1129,7 @@
 		}
 		{
 			dependencies: ["47A87645847E6CCE"]
-			description: ["On a &4redstone&r pulse extract a precise ammount of liquid into a fluid network."]
+			description: ["Upon recieving a &4redstone&r pulse it extracts a precise ammount of liquid into a fluid network."]
 			id: "6555DBE436704301"
 			rewards: [{
 				id: "6CEA4E941F4BDE24"
@@ -1215,11 +1229,7 @@
 		}
 		{
 			dependencies: ["2967C78F538C5ECD"]
-			description: [
-				"Bundled cable serve as a way to build more compact redstone wire systems. And works as follows: "
-				""
-				"The *color1* wire and *color2* wire attached to the bundled cables from two side of a system. Then if we apply signal to *color1* wire, only wire with the same color will output the signal."
-			]
+			description: ["Bundled Cables serve as a way to build more compact redstone wire systems. They allow a cable to transmit multiple signals at once. Basically, if you have inputs and outputs of wire colors 1 and 2, they will work independently from each other."]
 			id: "64A7F758A7CD9EB6"
 			rewards: [
 				{
@@ -1258,7 +1268,7 @@
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
-			description: ["Allows the &4automation&r of most &6cooking&r recipes."]
+			description: ["Allows for the &4automation&r of most &6cooking&r recipes."]
 			hide: false
 			id: "21AC21DF6587C093"
 			rewards: [
@@ -1290,7 +1300,7 @@
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
-			description: ["&6Bottler&r allows to fill up the certain fluid containers like buckets or bottles."]
+			description: ["&6Bottler&r allows for the automatic filling of certain fluid containers like buckets or bottles."]
 			hide: false
 			id: "355872E71E715BBF"
 			rewards: [
@@ -1316,7 +1326,7 @@
 		}
 		{
 			dependencies: ["0737D169DFB3A47A"]
-			description: ["Serve as an interface for the Extended Drawers drawer system. When many drawers are connected (placed side by side) the drawer access point will behave as input/output hatch. By RMB on it all items which can be inserted into drawers will be deposited."]
+			description: ["Serves as an interface for the Extended Drawers drawer system. When many drawers are connected (placed side by side), the drawer access point will behave as an input and output for all of them. By pressing RMB on it all items that can be inserted into any of the drawers will be deposited."]
 			hide: false
 			id: "3DF2B3F026C9AC41"
 			rewards: [{
@@ -1336,7 +1346,7 @@
 		}
 		{
 			dependencies: ["54CEC7BE4B675E7C"]
-			description: ["&6Automatically&r represents the items like iron ingots(which have blocks and nuggets) in &4three&r variants. Is a part of drawer system. "]
+			description: ["&6Automatically&r stores items like iron ingots (which have blocks and nuggets) in all &4three&r variants. Can be a part of a drawer system. "]
 			id: "0B78784AFB3C0A1E"
 			rewards: [
 				{
@@ -1352,7 +1362,6 @@
 				}
 			]
 			shape: "hexagon"
-			size: 0.8d
 			tasks: [{
 				id: "15F771C8BF911114"
 				item: "extended_drawers:compacting_drawer"
@@ -1362,7 +1371,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["283D320D84F5DA27"]
+			dependencies: ["332119345C45976C"]
 			id: "0845A204BA15A1F5"
 			rewards: [
 				{
@@ -1435,7 +1444,7 @@
 		}
 		{
 			dependencies: ["13C563F7C62A0F7A"]
-			description: ["Allows to project the redstone signal through air in front of it. The number of blocks can be changed by RMB on it. "]
+			description: ["Allows to transmit a redstone signal a couple blocks forward wirelessly. The number of blocks can be changed by pressing RMB on it. "]
 			id: "119D6E1E7E6D5233"
 			rewards: [
 				{
@@ -1480,13 +1489,7 @@
 		}
 		{
 			dependencies: ["0845A204BA15A1F5"]
-			description: [
-				"Only allows the redstone signal to pass through in one direction."
-				"Only bypass the signal from one side, i.e."
-				"A = 1 -> B = 1"
-				"       but "
-				"B = 1 -> A = 0"
-			]
+			description: ["Only allows the redstone signal to pass through in one direction."]
 			id: "4BF6461697886B3C"
 			rewards: [
 				{
@@ -1530,7 +1533,7 @@
 		}
 		{
 			dependencies: ["0845A204BA15A1F5"]
-			description: ["Non active by default. Emits a redstone signal if all inputs are receiving signal."]
+			description: ["Off by default. Turns on if all inputs are receiving a signal."]
 			id: "07718C17A9D7B520"
 			rewards: [
 				{
@@ -1574,7 +1577,7 @@
 		}
 		{
 			dependencies: ["0845A204BA15A1F5"]
-			description: ["Non active by default. Emits a redstone signal if at least one of input signals are active."]
+			description: ["Off by default. Turns on if at least one of input signals is active."]
 			id: "516770D6021CB159"
 			rewards: [
 				{
@@ -1618,7 +1621,7 @@
 		}
 		{
 			dependencies: ["0845A204BA15A1F5"]
-			description: ["Active by default. Turns off only if all input signals are active."]
+			description: ["On by default. Turns off if all input signals are active."]
 			id: "40F03AD46D05D4D6"
 			rewards: [
 				{
@@ -1662,7 +1665,7 @@
 		}
 		{
 			dependencies: ["0845A204BA15A1F5"]
-			description: ["Active by default, and turns off if at least one input is not 0."]
+			description: ["On by default. Turns off if at least one input is not 0."]
 			id: "708BCCC492873B6C"
 			rewards: [
 				{
@@ -1701,7 +1704,7 @@
 		}
 		{
 			dependencies: ["0845A204BA15A1F5"]
-			description: ["Active by default. Becomes inactive if input signal is active."]
+			description: ["On by default. Turns off if the input signal is active."]
 			id: "640AF18C7CB4D718"
 			rewards: [
 				{
@@ -1745,7 +1748,7 @@
 		}
 		{
 			dependencies: ["0845A204BA15A1F5"]
-			description: ["More precise version of vanilla Repeater."]
+			description: ["A more customizable version of the vanilla Repeater."]
 			id: "6DB7801CA77EF899"
 			rewards: [
 				{
@@ -1789,7 +1792,7 @@
 		}
 		{
 			dependencies: ["0845A204BA15A1F5"]
-			description: ["Non active by default. Input signals changing the direction of output signal only once."]
+			description: ["Off by default. Upon recieving a pulse, it changes it's output state."]
 			id: "5EA1A5489C92891C"
 			rewards: [
 				{
@@ -1833,7 +1836,7 @@
 		}
 		{
 			dependencies: ["119D6E1E7E6D5233"]
-			description: ["A visualization tool for Redstone Projector, use RMB on it to bind."]
+			description: ["A tool for visualizing where Redstone Projectors point to. Bind it with Shift+RMB."]
 			id: "3FB9FAC26C9A3C8B"
 			rewards: [
 				{
@@ -1920,7 +1923,7 @@
 		}
 		{
 			dependencies: ["17FE01EEA624616A"]
-			description: ["Allows to add a redstone control to ModernIndustrialization machines."]
+			description: ["Allows for controlling Modern Industrialization machines with &4redstone&r."]
 			id: "1BB3633F4522C7F6"
 			rewards: [
 				{
@@ -1959,7 +1962,7 @@
 		}
 		{
 			dependencies: ["47A87645847E6CCE"]
-			description: ["Emits a &4redstone&r signal if the inventory in front has an item specified in filter. Works with NBT."]
+			description: ["Emits a &4redstone&r signal if the inventory in front of it contains an item specified in its filter. Works with NBT."]
 			id: "6E572895AE95E3CF"
 			rewards: [{
 				id: "6CE7CD65CF7EAEF4"
@@ -1977,7 +1980,7 @@
 		}
 		{
 			dependencies: ["47A87645847E6CCE"]
-			description: ["Emits a &4redstone&r signal if the block infront is a solid block, i.e. not a fluid or air."]
+			description: ["Emits a &4redstone&r signal if the block in front of it is a solid block, i.e. not a fluid or air."]
 			id: "3DA2AF865B5560F5"
 			rewards: [{
 				id: "1C15EE419449DB01"
@@ -1995,7 +1998,7 @@
 		}
 		{
 			dependencies: ["47A87645847E6CCE"]
-			description: ["Alternative to precise dropper from Botania."]
+			description: ["An alternative to precise dropper from Botania."]
 			id: "0F1FEB86EB67AE76"
 			rewards: [{
 				id: "21ABDA67C8F16CD5"
@@ -2027,7 +2030,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "Brrrr"
+			subtitle: "Funny drill go brrrr"
 			tasks: [
 				{
 					id: "542EB199E83550F2"
@@ -2053,9 +2056,11 @@
 		{
 			dependencies: ["50C0CA3FC79847C4"]
 			description: [
-				"&e&lCrafting calculator&r&r allows you to &ocalculate&r how many &ematerials you need to craft the number of items you need&r, the control is a bit complicated, with this gizmo &l&9you can save a lot of time&r&r!"
+				"A &3&lCrafting Calculator&r&r allows you to &ocalculate&r how many &ematerials you need to craft some number of items&r. Controls are a bit complicated, but once you learn them this gizmo &l&9can save you a lot of time&r&r!"
 				""
-				"You can read more information by opening the &e&lcrafting calculator&r&r and clicking on the &nbutton&r on the &ebottom right&r."
+				"You can read more information by opening the &3&lCrafting Calculator&r&r and clicking on the &nbutton&r on the &ebottom right&r."
+				""
+				"Can be turned into a &6&lMath Calculator&r&r by pressing Shift+RMB."
 			]
 			id: "2F6C9BCF585211DC"
 			rewards: [{
@@ -2114,7 +2119,11 @@
 		}
 		{
 			dependencies: ["50C0CA3FC79847C4"]
-			description: ["&lMath calculator&r, but in &2Minecraft&r, sounds handy!"]
+			description: [
+				"A &6&lMath calculator&r&r, but in &2Minecraft&r! Sounds handy!"
+				""
+				"Can be turned into a &3&lCrafting Calculator&r&r by pressing Shift+RMB."
+			]
 			id: "17637FFEA2EF8643"
 			rewards: [{
 				count: 2
@@ -2244,6 +2253,25 @@
 			}]
 			x: 4.5d
 			y: 10.0d
+		}
+		{
+			dependencies: ["54CEC7BE4B675E7C"]
+			description: ["An item buffer of &6variable size&r. Scroll while hovering over an empty slot to adjust it's capacity. Can have slot-locking and auto-output configured in the GUI."]
+			id: "7BD760619647DEBF"
+			rewards: [{
+				count: 2
+				id: "5582CA42F2529DF4"
+				item: "kubejs:mid_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "596BA9E2796ABF22"
+				item: "modern_industrialization:configurable_chest"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
 		}
 	]
 	title: "&7Electricity | LV"

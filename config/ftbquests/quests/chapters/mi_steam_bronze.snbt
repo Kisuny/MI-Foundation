@@ -112,7 +112,7 @@
 					type: "item"
 				}
 			]
-			title: "Bronze parts"
+			title: "Bronze Machine Parts"
 			x: -13.0d
 			y: 3.5d
 		}
@@ -183,7 +183,7 @@
 		}
 		{
 			dependencies: ["277995BA7B213635"]
-			description: ["First source of steam, consumes solid fuels. Also, you can put a lava bucket."]
+			description: ["Your first source of steam, consumes solid fuels. Alternatively, you can put in a lava bucket."]
 			hide: false
 			id: "19C2AE2E59D59B15"
 			rewards: [
@@ -213,7 +213,7 @@
 				"190AF318A0088ABD"
 				"6E5CD34258826606"
 			]
-			description: ["&6Pump,&r &4infinite&r water supply using steam. "]
+			description: ["&6Pump&r, can create &4infinite&r water using steam. Needs horizontally adjacent water sources to work. The more sources it has around itself, the more water it will extract per cycle."]
 			hide: false
 			id: "0CC6D45FABE35CE8"
 			rewards: [
@@ -278,7 +278,7 @@
 		}
 		{
 			dependencies: ["6E5CD34258826606"]
-			description: [""]
+			description: ["Needs &6lubricant&r to work. It can be created using a &6Mixer&r."]
 			id: "30A764597ABAD374"
 			rewards: [
 				{
@@ -310,7 +310,7 @@
 		}
 		{
 			dependencies: ["6E5CD34258826606"]
-			description: [""]
+			description: ["Just as slow, but much more fuel efficient."]
 			id: "104688083BB190FA"
 			rewards: [
 				{
@@ -365,7 +365,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "Good ol' days of ic2"
+			subtitle: "Good ol' days of IC2"
 			tasks: [{
 				id: "1DDFEF30AAFC280B"
 				item: "modern_industrialization:bronze_macerator"
@@ -376,7 +376,7 @@
 		}
 		{
 			dependencies: ["6E5CD34258826606"]
-			description: ["&6Mixer&r allows to craft some dusts more &4efficiently&r and permit the craft of special liquids."]
+			description: ["A &6Mixer&r allows for more &4efficient&r dust crafting and the creation of special liquids."]
 			id: "146DDF9E9ED35527"
 			rewards: [
 				{
@@ -455,7 +455,7 @@
 			]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Almost"
+			subtitle: "Almost there..."
 			tasks: [{
 				id: "110B0660B350C4CF"
 				item: "modern_industrialization:uncooked_steel_dust"
@@ -527,6 +527,7 @@
 					type: "item"
 				}
 			]
+			title: "Ore Dusts"
 			x: -5.5d
 			y: 3.5d
 		}
@@ -620,6 +621,7 @@
 				"457B76383A8437AC"
 				"4B0EF79E2F76FFDD"
 			]
+			description: ["A small portable fluid storage"]
 			id: "190AF318A0088ABD"
 			rewards: [
 				{
@@ -646,7 +648,7 @@
 		}
 		{
 			dependencies: ["6E5CD34258826606"]
-			description: ["The item interfaces for multiblocks. While in hand, the appropriate placing will be highlighed."]
+			description: ["Item interfaces for the multiblocks. While held, the appropriate placement positions will be highlighed."]
 			hide: false
 			id: "6C6CAEF6AD733543"
 			rewards: [
@@ -690,7 +692,7 @@
 				"190AF318A0088ABD"
 				"6E5CD34258826606"
 			]
-			description: ["The liquid interfaces for multiblocks. While in hand, the appropriate placing will be highlighed."]
+			description: ["Fluid interfaces for the multiblocks. While held, the appropriate placement positions will be highlighed."]
 			hide: false
 			id: "57B90A1758C82D2D"
 			rewards: [
@@ -848,7 +850,7 @@
 				"691AB604733F17FD"
 				"146DDF9E9ED35527"
 			]
-			description: ["Used in cutting machines and manual increase of efficiency of electric machines."]
+			description: ["Used in cutting machines. Also, you can manually overclock electric machines by apllying it on them."]
 			id: "35021449B842E5CC"
 			rewards: [
 				{
@@ -1185,7 +1187,7 @@
 		}
 		{
 			dependencies: ["52A8120A9B4DEFD1"]
-			description: ["&6Dye multiplication&r and &0rubber&r"]
+			description: ["&6Dye duplication&r and the creation of &0rubber&r."]
 			id: "03C994E0B1D0C4E8"
 			rewards: [
 				{
@@ -1231,7 +1233,7 @@
 		}
 		{
 			dependencies: ["6C0746AF44FBDACB"]
-			description: ["&a3x3 mining&r, in order to work the fuel must be placed by right clicking with fuel onto drill inside inventory. Also Steam Drill needs water in order to work. Just keep water bucket in your inventory, or RMB on water source from time to time."]
+			description: ["&a3x3 mining and silk touch&r! Needs solid fuel and water in order to work. To insert the fuel, pick it up with your cursor and, while hovering over the drill, press RMB (or vise versa). For water, just keep a water bucket in your inventory, or RMB on a water source from time to time."]
 			hide: false
 			id: "518A669A3B812DC5"
 			rewards: [
@@ -1346,7 +1348,7 @@
 		}
 		{
 			dependencies: ["4C535D11E07E27DD"]
-			description: ["In smithing table or packer you can &4upgrade&r the &6bronze&r machines to the steel tier."]
+			description: ["You can &4upgrade&r the &6bronze&r machines to the &8steel&r tier by apllying this upgrade inside a Smithing Table or a Packer. Steel machines are twice as fast, but consume double the fuel."]
 			id: "6724BFC7CA1CC790"
 			rewards: [
 				{
@@ -1378,6 +1380,7 @@
 		}
 		{
 			dependencies: ["6724BFC7CA1CC790"]
+			description: ["Produces twice as much steam."]
 			hide: false
 			id: "2F3053D7D2CF87B0"
 			rewards: [
@@ -1506,7 +1509,6 @@
 				item: "modern_industrialization:steel_cutting_machine"
 				type: "item"
 			}]
-			title: "Carnage v1.5"
 			x: 4.0d
 			y: 1.5d
 		}
@@ -1640,7 +1642,7 @@
 		}
 		{
 			dependencies: ["4C535D11E07E27DD"]
-			description: ["&6Wiremill&r, provides a way to create all necessary materials to start the electric era."]
+			description: ["&6Wiremill&r, provides a way to create the wires needed to start the electric era."]
 			id: "6B8AD610BFDE2B3A"
 			rewards: [
 				{
@@ -1674,7 +1676,7 @@
 		}
 		{
 			dependencies: ["74279E6C9D779E3B"]
-			description: ["Gunpowder allows to &6boost&r the speed of steams machines. Effect is stackable and lasts for 2 minutes (every gunpowder increases the duration of effect)"]
+			description: ["Gunpowder can &6boost&r the speed of Steam Machines by pressing RMB on them. Effect is stackable and lasts for 2 minutes (every piece of gunpowder increases the duration of effect)."]
 			hide: false
 			id: "5F6FA20B86978DD6"
 			rewards: [
@@ -1757,7 +1759,7 @@
 				"08A2A9F4E547A21D"
 				"4C535D11E07E27DD"
 			]
-			description: ["&6Multiblock fluid storage&r, use &4special&r hatches for logistics."]
+			description: ["&6Multiblock fluid storage&r. Use &4Large Tank Hatches&r for extra inputs and outputs."]
 			icon: "modern_industrialization:large_tank"
 			id: "11AD9604B352132F"
 			rewards: [
@@ -1791,9 +1793,9 @@
 		{
 			dependencies: ["4C535D11E07E27DD"]
 			description: [
-				"&6Steam quarry&r uses drills to &4generate resources&r dependent of the dimension and drill type. "
+				"A &6Steam quarry&r uses drills to &4generate certain resources&r, depending on the dimension and drill type. "
 				""
-				"Hint: make sure to have enough output space in output hatches."
+				"Tip: make sure to have enough space in output hatches, anything that doesn't fit will be &0voided&r."
 			]
 			id: "5EF849FFAF9AF69B"
 			rewards: [
@@ -1834,15 +1836,15 @@
 		{
 			dependencies: ["5EF849FFAF9AF69B"]
 			description: [
-				"Produce:"
-				"- cobblestone"
-				"- diorite"
-				"- andesite"
-				"- granite"
-				"- earth"
-				"- gravel"
-				"- deepslate"
-				"- tuff"
+				"Produces:"
+				"- Cobblestone"
+				"- Diorite"
+				"- Andesite"
+				"- Granite"
+				"- Dirt"
+				"- Gravel"
+				"- Deepslate"
+				"- Tuff"
 			]
 			hide: false
 			id: "2C30187990B1378B"
@@ -1872,14 +1874,14 @@
 		{
 			dependencies: ["5EF849FFAF9AF69B"]
 			description: [
-				"Produce:"
-				"- iron"
-				"- coal"
-				"- lignite"
-				"- copper"
-				"- tin"
-				"- gold"
-				"- redstone"
+				"Produces:"
+				"- Iron"
+				"- Coal"
+				"- Lignite Coal"
+				"- Copper"
+				"- Tin"
+				"- Gold"
+				"- Redstone"
 			]
 			hide: false
 			id: "2F564636AF844954"
@@ -1908,7 +1910,7 @@
 		}
 		{
 			dependencies: ["663BB2D450652922"]
-			description: ["&4Destroys&r &6all&r items and liquids as they enther."]
+			description: ["&4Destroys&r &6all&r items and liquids that enter it. Automation can insert anything inside, &4be careful!&r"]
 			id: "758FD2B929E89B81"
 			rewards: [
 				{
@@ -1995,7 +1997,7 @@
 		}
 		{
 			dependencies: ["5EF849FFAF9AF69B"]
-			description: ["Drill mining is a primary source of resources, by using different drills the more rare ores can be obtained."]
+			description: ["Drilling is a primary source of resources in this pack. By using more advanced drills, rarer ores can be obtained."]
 			hide: false
 			id: "61E4571701C59249"
 			rewards: [
@@ -2020,7 +2022,7 @@
 				title: "Mining"
 				type: "checkmark"
 			}]
-			title: "Extraction of resources"
+			title: "Automating the Resources"
 			x: 2.0d
 			y: -5.5d
 		}
@@ -2060,10 +2062,11 @@
 			dependencies: ["457B76383A8437AC"]
 			description: [
 				"Basic element of item logistics:"
-				"- to extract items from inventory it's &lnecessary&r to have the ejector or the item pump"
-				"- ban designs will lead to items despawning inside pipes, as pipes have a limit to prevent lag"
-				"- pipe &6connections&r can be configured by RMB with empty hand on the side of a pipe"
-				"- when pipe is attached to multiple inventories routing happens at random (if both inventories have enough space)"
+				"- To extract items from an inventory, it's &lnecessary&r to use an ejector or an item pump;"
+				"- Bad designs will lead to items despawning inside pipes, as pipes have a limit to prevent lag;"
+				"- Pipe &6connections&r can be configured by pressing RMB with an empty hand on the side of a pipe;"
+				"- When a pipe is attached to multiple inventories, routing happens at random (assuming both inventories have enough space);"
+				"-Unconnected pipe ends will drop items into the world."
 			]
 			hide: false
 			id: "45AFA17F0E26641D"
@@ -2092,7 +2095,7 @@
 		}
 		{
 			dependencies: ["45AFA17F0E26641D"]
-			description: ["Merges two streams of items in pipe system. Often used to restrict the flow direction."]
+			description: ["Merges two streams of items in the pipe system. Often used to restrict the direction of the flow."]
 			hide: false
 			id: "097D946013284973"
 			rewards: [
@@ -2202,7 +2205,7 @@
 		}
 		{
 			dependencies: ["45AFA17F0E26641D"]
-			description: ["Extracts one item on iteration, needs a redstone signal to turn it on."]
+			description: ["Extracts one item per redstone pulse it recieves."]
 			hide: false
 			id: "39EB115B78DEDCE4"
 			rewards: [
@@ -2237,9 +2240,9 @@
 		{
 			dependencies: ["39EB115B78DEDCE4"]
 			description: [
-				"Extract 16 items on iteration. "
+				"Extract 16 items per redstone pulse. "
 				""
-				"Need not to be attached to the inventory. So it creates a &6flow&r of items in pipes, i.e. it will extract from all pipes simultaneously."
+				"Doesn't need to be adjacent to the inventory. It creates a &6flow&r of items inside pipes, i.e. it will extract from all pipes simultaneously."
 			]
 			hide: false
 			id: "37AB2D4AFA5EB115"
@@ -2275,11 +2278,11 @@
 		{
 			dependencies: ["23FB9EE3D0145E87"]
 			description: [
-				"Basic element of fluid logistics:"
-				"- used to enable vertical fluid transfer"
-				"- applicable only to &cNeepMeat&r fluid pipes"
-				"- need redstone signal to work (can be inverted)"
-				"- red dot signals the direction of flow"
+				"A basic element of fluid logistics:"
+				"- Can be used for vertical fluid transfer;"
+				"- Only works with &cNeepMeat&r fluid pipes;"
+				"- Need redstone signal to work (can be inverted by Shift+RMB with empty hands)."
+				"- Red dot signals where the fluid is pumped FROM."
 			]
 			hide: false
 			id: "7A61AF82650358A8"
@@ -2321,6 +2324,34 @@
 		}
 		{
 			dependencies: ["663BB2D450652922"]
+			description: ["This crafting table saves the items inside when you exit it."]
+			id: "14C1319ABECBD4C6"
+			rewards: [
+				{
+					id: "02A75BAF5F45A89B"
+					item: "kubejs:early_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 16
+					id: "72A6F8B8F48CD57D"
+					item: "modern_industrialization:steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 0.9d
+			tasks: [{
+				id: "41F4BA5B692861F1"
+				item: "neepmeat:workstation"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["663BB2D450652922"]
 			description: [""]
 			id: "32A70DD76DC20D4E"
 			rewards: [
@@ -2349,7 +2380,7 @@
 		}
 		{
 			dependencies: ["6DF83BA3914DACDA"]
-			description: ["Can store different liquids simultaneously."]
+			description: ["Can store different fluids simultaneously."]
 			hide: false
 			id: "07D775C3F4A378DA"
 			rewards: [
@@ -2423,6 +2454,7 @@
 		}
 		{
 			dependencies: ["23FB9EE3D0145E87"]
+			description: [""]
 			hide: false
 			id: "041FB651203936EB"
 			rewards: [
@@ -2456,7 +2488,7 @@
 		}
 		{
 			dependencies: ["663BB2D450652922"]
-			description: ["Can be used to drain liquid sources which are not directly located above. And more compact water generation."]
+			description: ["Can be used to drain fluid sources directly above itself. Also, allows for more compact water generation."]
 			id: "52C385CCEB674DF2"
 			rewards: [
 				{
@@ -2484,9 +2516,9 @@
 		{
 			dependencies: ["317AC41782EE6048"]
 			description: [
-				"Basic element of fluid logistics:"
-				"- fluid transfer is &9not&r instant, but have constant speed of ~ 200 mb/t"
-				"- in order to extract a liquid the source must be higher than destination"
+				"A basic element of fluid logistics:"
+				"- Fluid transfer is &9not&r instant, but has a constant speed of ~ 200 mb/t;"
+				"- In order for a liquid to move by itself the source must be higher than the destination."
 			]
 			id: "23FB9EE3D0145E87"
 			rewards: [
@@ -2520,6 +2552,7 @@
 		}
 		{
 			dependencies: ["6DF83BA3914DACDA"]
+			description: ["Multiblock fluid storage."]
 			hide: false
 			id: "6B802D4E761A96EA"
 			rewards: [
@@ -2553,7 +2586,7 @@
 		}
 		{
 			dependencies: ["317AC41782EE6048"]
-			description: ["&6Barrels&r, but smaller and not so wood dependent"]
+			description: ["&6Barrels&r, but smaller, and not-so-wooden."]
 			id: "53A1D88D2F75E64E"
 			rewards: [
 				{
@@ -2705,10 +2738,10 @@
 		{
 			dependencies: ["457B76383A8437AC"]
 			description: [
-				"&6Wrench&r is a main tool of Modern Industrialization:"
-				"- faster barrel and tanks breaking by Shift+RMB;"
-				"- machine output tuning;"
-				"- multiblock visualization while wrench is in hand (off-hand also counts)"
+				"&6Wrench&r is the main tool of Modern Industrialization:"
+				"- Faster barrel and tanks breaking by pressing Shift+RMB;"
+				"- Machine output side configuration;"
+				"- Multiblock visualization while wrench is held (off-hand also counts)."
 			]
 			hide: false
 			id: "30CADCC78DEB5A80"
@@ -2738,7 +2771,7 @@
 		}
 		{
 			dependencies: ["457B76383A8437AC"]
-			description: ["Basic component for drawers upgrades."]
+			description: ["Basic component for drawer upgrades."]
 			hide: false
 			id: "75EDDE9875B87B5C"
 			rewards: [
@@ -2765,7 +2798,7 @@
 		}
 		{
 			dependencies: ["75EDDE9875B87B5C"]
-			description: ["Increases capacity by factor of 2."]
+			description: ["Increases drawer capacity by a factor of 2."]
 			hide: false
 			id: "4205C72442E04D95"
 			rewards: [
@@ -2792,7 +2825,7 @@
 		}
 		{
 			dependencies: ["4205C72442E04D95"]
-			description: ["Increases capacity by a factor of 4."]
+			description: ["Increases drawer capacity by a factor of 4."]
 			hide: false
 			id: "7C6E3F5D4A249CDB"
 			rewards: [
@@ -2819,7 +2852,7 @@
 		}
 		{
 			dependencies: ["663BB2D450652922"]
-			description: ["With this mallet you can turn off a sound of Modern Industrialization machines."]
+			description: ["With this mallet you can muffle Modern Industrialization machines."]
 			id: "0C34AF516444E3E3"
 			tasks: [{
 				id: "625DC491F3CFC210"

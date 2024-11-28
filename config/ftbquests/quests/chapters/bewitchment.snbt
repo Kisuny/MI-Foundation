@@ -11,9 +11,9 @@
 		{
 			dependencies: ["21952F0799457083"]
 			description: [
-				"&3Athame&r is a basic &eritual tool&r used in the traditions of ceremonial &5magic&r, &5witchcraft&r, and &4Satanic&r traditions, not a bad start, &eright&r?"
+				"&3Athame&r is a basic &eritual tool&r used in the traditions of ceremonial &5magic&r, &5witchcraft&r and &4satanism&r, not a bad start, &eright&r?"
 				""
-				"Allows you to strip bark from &2trees&r, collect &4blood&r!"
+				"Allows you to strip bark from &2trees&r and collect &4blood&r!"
 			]
 			hide: false
 			id: "43F09C084B765ACB"
@@ -48,9 +48,9 @@
 		{
 			dependencies: ["71691F178B73D85A"]
 			description: [
-				"The &ecauldron&r allows you to create &eextracts&r, &epotions&r, &eserums&r."
+				"The &ecauldron&r allows you to create &eextracts&r, &epotions&r and &eserums&r."
 				""
-				"To create potions - use &3Glass bottles&r!"
+				"To pick up the brews, use &3Glass Bottles&r!"
 			]
 			hide: false
 			id: "487B6452F0767918"
@@ -79,7 +79,7 @@
 		}
 		{
 			dependencies: ["43F09C084B765ACB"]
-			description: ["Bark can be collected with &eatame&r by &6right-clicking&r on the vanilla &atree&r!"]
+			description: ["Bark can be collected with the &eAthame&r by &6right-clicking&r on a vanilla &alog&r!"]
 			hide: false
 			id: "71691F178B73D85A"
 			shape: "hexagon"
@@ -103,11 +103,11 @@
 		{
 			dependencies: ["71691F178B73D85A"]
 			description: [
-				"&eAltar&r is literally a &nplace of power&r, only it is not protected by a couple of drowners, only if you are not a drowner, because you will have to protect it and draw the power of the &2earth&r from &2cucumbers&r, &2saplings&r, &2leaves&r and other &l&2NaTuRaL&r&r products."
+				"&eAltar&r is a &nplace of power&r, only it is not protected by a couple of drowneds, (unless you are a drowned), but by you. You will have to draw the power of the &2earth&r from &2cucumbers&r, &2saplings&r, &2leaves&r and other &l&2NaTuRaL&r&r products to progress."
 				""
-				"The local witches call this energy «&5ME&r»."
+				"The local witches call this energy «&5ME&r». Probably stands for Magical Energy, but what do I know? I'm just a narrator..."
 				""
-				"By the way, this altar works within a &e15 block&r radius of itself!"
+				"By the way, this altar works within a radius of &e15 block&r!"
 			]
 			hide: false
 			id: "2F4271A3A964841E"
@@ -144,11 +144,9 @@
 		{
 			dependencies: ["487B6452F0767918"]
 			description: [
-				"&3Altar&r will help you find those who cannot be found and &3revive&r those who could not be revived before!"
+				"The &3Summoning Altar&r will help you find those who cannot be found and &3revive&r those who are long since dead!"
 				""
-				"To summon an entity with the altar you need to give it the &erequired resources&r, and at the end use the &ccatalyst&r, wait a little and it's done!"
-				""
-				"&6This quest opens a new branch of quests!&r"
+				"To summon an entity with the altar you need to first place the &erequired resources&r, and at the end use the &ccatalyst&r, wait a little and it's done!"
 			]
 			hide: false
 			id: "655FCBA5BCD261EC"
@@ -159,7 +157,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Allows you to summon mobs"
+			subtitle: "&#ffb04fThis quest opens a new quest chapter!&r"
 			tasks: [{
 				id: "36360EFE35A457AC"
 				item: "summoningrituals:altar"
@@ -170,7 +168,7 @@
 		}
 		{
 			dependencies: ["0570BD91B563EE19"]
-			description: ["All seedlings are like seedlings, and this one is &lSAPLING&r, and is... In &l&4Nether&r....&r"]
+			description: ["This isn't just a sapling, this is a &lSAPLING&r. And it spawns... In the &l&4Nether&r....&r"]
 			hide: false
 			id: "632ED9F4036B2BD9"
 			rewards: [{
@@ -189,7 +187,7 @@
 		}
 		{
 			dependencies: ["6066ED30BB59CCD5"]
-			description: ["The power of &eLight&r"]
+			description: ["The power of the &eLight&r."]
 			hide: true
 			id: "31BE75AF322158DE"
 			rewards: [{
@@ -209,7 +207,7 @@
 		}
 		{
 			dependencies: ["6066ED30BB59CCD5"]
-			description: ["The power of &4Blood&r"]
+			description: ["The power of the &4Blood&r."]
 			hide: true
 			id: "7764EF566B5B57C6"
 			rewards: [{
@@ -229,7 +227,7 @@
 		}
 		{
 			dependencies: ["6066ED30BB59CCD5"]
-			description: ["The power of &1Water&r"]
+			description: ["The power of the &1Water&r."]
 			hide: true
 			id: "0090EC720B268775"
 			rewards: [{
@@ -249,7 +247,7 @@
 		}
 		{
 			dependencies: ["6066ED30BB59CCD5"]
-			description: ["The power of &6Fire&r"]
+			description: ["The power of the &6Fire&r."]
 			hide: true
 			id: "62708BA53D104194"
 			rewards: [{
@@ -269,7 +267,7 @@
 		}
 		{
 			dependencies: ["6066ED30BB59CCD5"]
-			description: ["The power of &2Earth&r"]
+			description: ["The power of the &2Earth&r."]
 			hide: true
 			id: "693D890736AE75FD"
 			rewards: [{
@@ -289,7 +287,7 @@
 		}
 		{
 			dependencies: ["6066ED30BB59CCD5"]
-			description: ["The power of &7air&r"]
+			description: ["The power of the &7Air&r."]
 			hide: true
 			id: "66F362FC22E49168"
 			rewards: [{
@@ -313,9 +311,9 @@
 				"2F4271A3A964841E"
 			]
 			description: [
-				"&2Moths&r can be summoned at the summoning altar, keep in mind, moths fly at anything &elight&r at night!"
+				"&2Moths&r can be summoned using the summoning altar. Just keep in mind, moths fly at anything &elight-emitting&r at night!"
 				""
-				"&3&nRandom&r&r swipe of &eAtame&r in front of a moth let you know that &eAtame's&r sharp blade can &emultiply&r the number of their wings several times over!"
+				"A &3&nrandom&r&r swipe of the &eAthame&r in front of a moth will let you know that the &eAthame's&r sharp blade can &emultiply&r the number of their wings several times over!"
 			]
 			hide: false
 			id: "6066ED30BB59CCD5"
@@ -336,7 +334,7 @@
 		}
 		{
 			dependencies: ["31BE75AF322158DE"]
-			description: ["you can read more about what this trinket does in the book!"]
+			description: ["You can find out more about this trinket by using the guidebook!"]
 			hide: true
 			id: "17F63A3F2F097B40"
 			rewards: [
@@ -364,7 +362,7 @@
 		}
 		{
 			dependencies: ["0090EC720B268775"]
-			description: ["you can read more about what this trinket does in the book!"]
+			description: ["You can find out more about this trinket by using the guidebook!"]
 			hide: true
 			id: "240AF7F8B8249CA6"
 			rewards: [
@@ -392,7 +390,7 @@
 		}
 		{
 			dependencies: ["62708BA53D104194"]
-			description: ["you can read more about what this trinket does in the book!"]
+			description: ["You can find out more about this trinket by using the guidebook!"]
 			hide: true
 			id: "1D91D110CF7CDAD2"
 			rewards: [
@@ -420,7 +418,7 @@
 		}
 		{
 			dependencies: ["66F362FC22E49168"]
-			description: ["you can read more about what this trinket does in the book!"]
+			description: ["You can find out more about this trinket by using the guidebook!"]
 			hide: true
 			id: "74CEDE3194C38829"
 			rewards: [
@@ -449,9 +447,9 @@
 		{
 			dependencies: ["4B38ECA09E439311"]
 			description: [
-				"It all &astarts&r with a small one!"
+				"It all &astarts&r small!"
 				""
-				"&2Seeds&r fall from common &2grass&r, collect all types, they will &ehelp&r you a lot!"
+				"&2Seeds&r drop from &2grass&r, you should collect all types, they will &ehelp&r you a lot!"
 			]
 			hide: false
 			id: "2E7592297D492824"
@@ -478,12 +476,13 @@
 					type: "item"
 				}
 			]
+			title: "Magical Seeds"
 			x: 0.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["2E7592297D492824"]
-			description: ["A book of knowledge or a guide to mod, everyone decides for themselves."]
+			description: ["A book of knowledge or a guide to the mod, everyone decides for themselves."]
 			hide: false
 			id: "21952F0799457083"
 			rewards: [{
@@ -504,9 +503,9 @@
 		{
 			dependencies: ["6066ED30BB59CCD5"]
 			description: [
-				"&3Taglock&r is a tool. It can collect &ehair&r, &4blood&r, and anything else needed to make a connection."
+				"&3Taglock&r is a tool, that can collect &ehair&r, &4blood&r, and anything else needed to make a magical connection."
 				""
-				"To get &3DNA&r from a player, either sneak up behind him or find his &ebed&r. To use the &3Taglock&r on the bed, use it with [Shift] so you don't accidentally fall asleep on the bed."
+				"To get &3DNA&r from a player, either sneak up behind them or find their &ebed&r. To use the &3Taglock&r on the bed, hold Shift so that you don't accidentally sleep on it."
 			]
 			hide: true
 			id: "55265F3EA14BEC56"
@@ -538,7 +537,7 @@
 				"079D94A8F2935E15"
 				"655FCBA5BCD261EC"
 			]
-			description: ["&bSouls&r can be crafted, and can also be obtained from &espectral familiars&r in the future."]
+			description: ["&bSouls&r can be crafted, and can also be obtained from the &espectral familiars&r in the future."]
 			hide: true
 			id: "2114C1C6DC158DE7"
 			rewards: [{
@@ -558,7 +557,7 @@
 		}
 		{
 			dependencies: ["632ED9F4036B2BD9"]
-			description: ["Another special one is ours, it can be found in the &bmountains&r, as well as this &2tree&r can help to awaken the leshon, but so in fairy tales wrote, we personally have not checked, sounds &0scary&r... Like drinking from a puddle... &mUgh.....&r"]
+			description: ["Another special one. It can be found in the &bmountains&r or high hills. These trees can help awaken the Leshon, or so the fairy tales say. I haven't checked, sounds &0scary&r..."]
 			hide: true
 			id: "0E9ABFC9A24133BC"
 			rewards: [{
@@ -578,9 +577,9 @@
 		{
 			dependencies: ["0E9ABFC9A24133BC"]
 			description: [
-				"You can find out how to summon &cLeshon&r by right-clicking on the summon altar and finding it in the crafting list."
+				"You can find out how to summon the &cLeshon&r by right-clicking on the summoning altar and finding him in the recipe list."
 				""
-				"If you have &llooting&r, you will be able to get his &3skull&r! And this skull is very &3useful&r!"
+				"If you have &lLooting&r, you will be able to get his &3skull&r! And this skull is very &3useful&r!"
 			]
 			hide: true
 			id: "657A89AAEEA13EB3"
@@ -623,7 +622,7 @@
 		}
 		{
 			dependencies: ["657A89AAEEA13EB3"]
-			description: ["After getting the &7skull&r of a &cleshchem&r try to &6right-click&r on a &2magical tree&r in its form, suddenly there will be some &deffect&r?"]
+			description: ["After getting the &7skull&r of a &cLeshon&r, try to &6right-click&r on a &2magical tree&r while in its form. Maybe there will be some &deffect&r?"]
 			hide: true
 			id: "0333FE50BB0D6BF9"
 			rewards: [
@@ -661,13 +660,13 @@
 		{
 			dependencies: ["164CF7324390B1A9"]
 			description: [
-				"&l&5Bewitchment&r&r - A mod that immerses you in the magic of &2nature&r, &4summoning&r and &dwitches&r."
+				"&l&5Bewitchment&r&r - A mod that immerses you in the magic of &2nature&r, &4summoning&r and &dwitchery&r."
 				""
-				"You will have to find out who is the Leshy, why do you need &4blood&r, what is the &ecrystal ball&r, how to &csummon&r your enemies? Or maybe they are your allies."
+				"You will have to find out who is Leshy, why do you need &4blood&r, what is the &ecrystal ball&r, and how to &csummon&r your enemies. Or maybe they are your allies."
 				""
-				"You can turn your character into a &4vampire&r and drink other &4people's blood&r, turn into &ebats&r or maybe you want to become a &3werewolf&r and howl at the &7moon&r with every moonrise?"
+				"You can turn your character into a &4vampire&r and drink other &4players' blood&r, turn into &ebats&r, or maybe you want to become a &3werewolf&r and howl at the &7moon&r with every moonrise?"
 				""
-				"You will also be able to curse &eyourself&r, your &2friends&r, enemies, steal other people's form, summon &1rain&r, etc.!"
+				"You will also be able to curse &eyourself&r, your &2friends&r or enemies, steal other players' form, summon &1rain&r, etc.!"
 			]
 			hide: true
 			icon: "bewitchment:blessed_stone"
@@ -683,7 +682,12 @@
 		}
 		{
 			dependencies: ["487B6452F0767918"]
-			description: ["&2Saplings&r can be found all over the &eworld&r as regular &2trees&r."]
+			description: [
+				"These &2Saplings&r can be found all over the &eworld&r."
+				"Cypress trees spawn in &aSwamps&r and &2Taigas&r."
+				"Juniper trees spawn in &aSavannas&r."
+				"Elder trees spawn in regular &2Forests&r."
+			]
 			hide: false
 			id: "0570BD91B563EE19"
 			rewards: [{
@@ -714,7 +718,7 @@
 		}
 		{
 			dependencies: ["693D890736AE75FD"]
-			description: ["you can read more about what this trinket does in the book!"]
+			description: ["You can find out more about this trinket by using the guidebook!"]
 			hide: true
 			id: "25B84095E9B20DD7"
 			rewards: [
@@ -742,7 +746,7 @@
 		}
 		{
 			dependencies: ["7764EF566B5B57C6"]
-			description: ["you can read more about what this trinket does in the book!"]
+			description: ["You can find out more about this trinket by using the guidebook!"]
 			hide: true
 			id: "6284E2153125A318"
 			rewards: [
@@ -773,9 +777,9 @@
 			description: [
 				"&4Blood&r can be obtained in a variety of ways:"
 				""
-				"• By &4killing&r a living creature using &eAtame&r with an &3empty bottle&r in the second hand, the &2living&r creature is a player/witch/pillager/piglin/brutal pyglin/vampire."
+				"• By &4killing&r a living creature using the &eAthame&r while holding an &3empty bottle&r in the offhand. The &2living&r creature is: a player/witch/pillager/piglin/piglin brute/vampire."
 				""
-				"• You can also get &4blood&r from &eyourself&r by holding a goblet in your second hand and pressing RMB with &eAtame&r, by placing the &egoblet&r on the ground you can collect blood with an &3empty bottle&r!"
+				"• You can also get &4blood&r from &eyourself&r by holding a goblet in your second hand and pressing RMB with the &eAthame&r. By placing the &egoblet&r on the ground you can collect the blood from it with an &3empty bottle&r!"
 			]
 			id: "5F1FB12DCC0E67DA"
 			rewards: [{

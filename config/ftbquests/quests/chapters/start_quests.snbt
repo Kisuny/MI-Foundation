@@ -599,7 +599,7 @@
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"By hovering over an item in your inventory and pressing «&3Y&r» you will be able to find the same item in your chests. All containers with that item will be highlighted.  "
+				"By hovering over an item in your inventory and pressing «&3Y&r» you will be able to find the same item in your chests. All nearby containers that have that item will be highlighted.  "
 				""
 				"You can also use the &3search&r by hovering over items in &6REI&r."
 				""

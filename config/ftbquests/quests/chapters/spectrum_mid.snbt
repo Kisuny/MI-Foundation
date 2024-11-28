@@ -268,13 +268,11 @@
 			description: [
 				"Every &dmagician&r should have a &dmagic furnace&r."
 				""
-				"By spending &#ff8547orange ink&r Cinderhearth will smell items with interesting outcomes."
+				"By spending &#ff8547orange ink&r, Cinderhearth smelts items, sometimes with interesting outcomes."
 				""
-				"Other ink types will enhance smelting properties, increase speed, item yield, xp yield etc."
+				"Other types of ink will enhance the smelting properties, be it speed, yield or xp produced, but it needs upgrades for that to work."
 				""
-				"More indepth information can be find in a book."
-				""
-				""
+				"More in-depth information can be found in the guidebook."
 				"{image:quest_images:textures/item/spectrum/cinderhearth.png width:200 height:200 align:1 fit:true}"
 			]
 			icon: "spectrum:cinderhearth"

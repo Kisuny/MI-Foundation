@@ -21,7 +21,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["First quest first &6wood&r right?"]
+			description: ["Can't have a modpack without &6wood&r as the first quest, am I right?"]
 			icon: "minecraft:oak_sapling"
 			id: "207201E16246C5E3"
 			rewards: [{
@@ -142,7 +142,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "&lPrimitive&r"
+			subtitle: "&lStill Primitive&r"
 			tasks: [{
 				id: "544882A0F37D6139"
 				item: {
@@ -183,7 +183,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "Not yet a blast"
+			subtitle: "Not quite a blast"
 			tasks: [{
 				id: "6C5C7292F21EBE39"
 				item: "minecraft:furnace"
@@ -329,7 +329,7 @@
 		}
 		{
 			dependencies: ["4CD4E765537B016C"]
-			description: ["Forge hammer allow the creation of basic machine parts"]
+			description: ["With the forge hammer you can create some basic machine parts."]
 			id: "190C18AB20216705"
 			rewards: [
 				{
@@ -411,7 +411,7 @@
 			]
 			shape: "diamond"
 			size: 2.0d
-			subtitle: "Why is this separate?"
+			subtitle: "Why is this a separate quest?"
 			tasks: [{
 				count: 10L
 				id: "5D6820E9CF338492"
@@ -479,8 +479,8 @@
 				"2AB0AE2876A1FF03"
 			]
 			description: [
-				"Now you can &ocook&r iron two times faster!"
-				"But can only produce \"Congratulations Steaks\""
+				"Now you can &osmelt&r ores two times faster!"
+				"But all of the meat will be cooked \"Congratulations\""
 			]
 			id: "403F92134AA453CA"
 			rewards: [{
@@ -490,7 +490,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "Not that blast furnace"
+			subtitle: "Not-yet-electric blast furnace"
 			tasks: [{
 				id: "08E3342426E96775"
 				item: "minecraft:blast_furnace"
@@ -502,8 +502,8 @@
 		{
 			dependencies: ["34F267D4B9230EE8"]
 			description: [
-				"Can cook food faster"
-				"Can not &ocook&r ores"
+				"Can cook food faster."
+				"Can &lnot&r &osmelt&r ores."
 			]
 			id: "59AC876BF2E8F2BF"
 			rewards: [
@@ -601,7 +601,7 @@
 		}
 		{
 			dependencies: ["190C18AB20216705"]
-			description: ["Basic &6plates&r, they are used in most vanilla recipes which previously contained the iron ingots as an ingredient"]
+			description: ["Basic &6plates&r. These replace iron ingots in most vanilla recipes."]
 			id: "271D55F97C071D7F"
 			rewards: [
 				{
@@ -628,7 +628,7 @@
 		}
 		{
 			dependencies: ["271D55F97C071D7F"]
-			description: ["Hammer &3doubles&r the efficiency of forge hammer!"]
+			description: ["With a hammer, you &3double&r the efficiency of the forge hammer!"]
 			id: "01A88137A6AF2C05"
 			rewards: [
 				{
@@ -696,7 +696,7 @@
 				item: "minecraft:smooth_stone"
 				type: "item"
 			}]
-			title: "Smooth stone"
+			title: "Smooth Stone"
 			x: 2.5d
 			y: -6.5d
 		}
@@ -739,7 +739,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "This is a bucket... Dear god..."
+			subtitle: "If this is how you make a bucket... Dear god..."
 			tasks: [{
 				id: "456DD78024D31BFA"
 				item: "minecraft:bucket"
@@ -753,9 +753,9 @@
 			description: [
 				"Craft a fishing rod to prove your &9fishing skills&r!"
 				""
-				"MI:Foundation provides a new &9fishing experience&r, new rods, baits, trinkets etc."
+				"&l&5MI:Foundation&r&r provides a new &9fishing experience&r - new rods, baits, trinkets etc."
 				""
-				"Also now you can catch &3entities&r, which may vary from simple mobs to special mini-bosses. "
+				"Also, now you can catch &3entities&r, which may vary from regular mobs to special mini-bosses. "
 			]
 			id: "7BE626B4546B2C7A"
 			rewards: [
@@ -790,7 +790,7 @@
 		}
 		{
 			dependencies: ["7BE626B4546B2C7A"]
-			description: ["By fishing long enough, the relic of the deep may come to your hand, &3keep those tears to yourself&r. A fishing rod made of tears will allow you to catch &3entities&r and &4mini bosses!&r"]
+			description: ["By fishing long enough, this relic of the deep may come to your hand. &3Keep those tears to yourself&r. A fishing rod made of these tears will allow you to catch &3entities&r and &4mini bosses!&r"]
 			id: "523942AC15DDEDF2"
 			rewards: [
 				{
@@ -892,7 +892,7 @@
 		{
 			dependencies: ["190C18AB20216705"]
 			description: [
-				"Alternate route for item storage, have &345 slots&r! and have the same bevahiour as the vanilla chest."
+				"Alternative option for item storage. Has &345 slots&r and the same bevahiour as a vanilla chest!"
 				" "
 			]
 			id: "1BDBDD5959A0D6A2"
@@ -920,7 +920,7 @@
 		}
 		{
 			dependencies: ["1BDBDD5959A0D6A2"]
-			description: ["Alternate route for item storage, have &354 slots&r! and have the same bevahiour as the vanilla chest."]
+			description: ["Alternative option for item storage. Has &354 slots&r and the same bevahiour as a vanilla chest!"]
 			id: "3FC493B1B1412E8E"
 			rewards: [
 				{
@@ -946,7 +946,7 @@
 		}
 		{
 			dependencies: ["3FC493B1B1412E8E"]
-			description: ["Alternate route for item storage, have &381 slots&r! and have the same bevahiour as the vanilla chest."]
+			description: ["Alternative option for item storage. Has &381 slots&r and the same bevahiour as a vanilla chest!"]
 			id: "1AB5C899281E83A7"
 			rewards: [
 				{
@@ -972,7 +972,7 @@
 		}
 		{
 			dependencies: ["65AA9563035BA3F1"]
-			description: ["Stores 1 type of items"]
+			description: ["Stores 1 type of items."]
 			id: "2DC41DE6C505ADF4"
 			rewards: [{
 				count: 2
@@ -992,7 +992,7 @@
 		}
 		{
 			dependencies: ["65AA9563035BA3F1"]
-			description: ["Stores 2 type of items but fewer."]
+			description: ["Stores 2 types of items, but half as much of each."]
 			id: "2EF8235603ECB23B"
 			rewards: [{
 				count: 2
@@ -1012,7 +1012,7 @@
 		}
 		{
 			dependencies: ["65AA9563035BA3F1"]
-			description: ["Stores 4 type of items but even fewer."]
+			description: ["Stores 4 types of items, but only a quarter as much of each."]
 			id: "3A032FAA2682A744"
 			rewards: [{
 				count: 2
@@ -1032,7 +1032,7 @@
 		}
 		{
 			dependencies: ["207201E16246C5E3"]
-			description: ["You can find barrels in the world or start producing them by unlocking steel!"]
+			description: ["You can find barrels in the world or start crafting them by unlocking steel!"]
 			id: "65AA9563035BA3F1"
 			rewards: [{
 				id: "33A36D29FF4E8A54"
@@ -1056,9 +1056,10 @@
 		}
 		{
 			dependencies: ["08FC12B517294C1C"]
-			description: ["The book allows you to combine other books into one guide book!"]
+			description: ["This book allows you to combine other guidebooks into a single book!"]
 			id: "723F6231542E8A1A"
 			shape: "diamond"
+			subtitle: "One book to guide them all!"
 			tasks: [{
 				id: "52CE83A8DFB7F606"
 				item: {
