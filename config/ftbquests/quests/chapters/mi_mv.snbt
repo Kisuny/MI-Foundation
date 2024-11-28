@@ -2281,12 +2281,20 @@
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
 			id: "4F1F0FC36448816A"
-			rewards: [{
-				count: 128
-				id: "19958BE545A8B6C2"
-				item: "modern_industrialization:item_pipe"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 12
+					id: "19958BE545A8B6C2"
+					item: "modern_industrialization:item_pipe"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "46BA1C33C754190F"
+					item: "kubejs:mid_lootbag_rare"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4C8376614E149099"
 				item: "modern_industrialization:item_pipe"
@@ -2298,12 +2306,20 @@
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
 			id: "2D7B50C0A5B7BF13"
-			rewards: [{
-				count: 128
-				id: "05377CA4B911DF8C"
-				item: "modern_industrialization:fluid_pipe"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 12
+					id: "05377CA4B911DF8C"
+					item: "modern_industrialization:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "74F9F671E112A2A1"
+					item: "kubejs:mid_lootbag_rare"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "104F8F70298BEC00"
 				item: "modern_industrialization:fluid_pipe"

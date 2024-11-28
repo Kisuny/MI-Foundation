@@ -64,7 +64,8 @@ LootJS.modifiers((event) => {
             'dungeons_arise:chests/shiraz_palace/shiraz_palace_treasure',
             'dungeons_arise_seven_seas:chests/pirate_junk/pirate_junk_treasure',
             'dungeons_arise_seven_seas:chests/victory_frigate/victory_frigate_treasure',
-            'dungeons_arise:chests/bandit_towers/bandit_towers_treasure'
+            'dungeons_arise:chests/bandit_towers/bandit_towers_treasure',
+            'artifacts:entities/mimic'
         ],
         mines_pools: [
             /dungeons_arise:chests\/mushroom_mines\/mushroom_mines_.*/,
@@ -317,29 +318,73 @@ LootJS.modifiers((event) => {
             .randomChance(0.20)
             .addWeightedLoot(1, commonArtifacts)
         });
-
+    
+    
     event
         .addLootTypeModifier(LootType.CHEST)
         .removeLoot(/travelersbackpack:.*/)
 
     event
-     .addLootTableModifier('minecraft:chests/village/village_butcher')
-     .randomChance(0.01)
-     .addLoot('artifacts:everlasting_beef')
+        .addLootTableModifier('minecraft:chests/village/village_butcher')
+        .randomChance(0.01)
+        .addLoot('artifacts:everlasting_beef')
 
     event
-     .addLootTableModifier('minecraft:chests/village/village_cartographer')
-     .randomChance(0.01)
-     .addLoot('endrem:cryptic_eye')
+        .addLootTableModifier('minecraft:chests/village/village_cartographer')
+        .randomChance(0.01)
+        .addLoot('endrem:cryptic_eye')
 
     event
-     .addLootTableModifier('minecraft:chests/village/village_temple')
-     .randomChance(0.01)
-     .addLoot('endrem:evil_eye')
+        .addLootTableModifier('minecraft:chests/village/village_temple')
+        .randomChance(0.01)
+        .addLoot('endrem:evil_eye')
 
     event
-     .addLootTableModifier(['bosses_of_mass_destruction:chests/lich_tower', 'terralith:spire/treasure'])
-     .randomChance(0.8)
-     .addLoot('endrem:cold_eye')
+        .addLootTableModifier(['bosses_of_mass_destruction:chests/lich_tower', 'terralith:spire/treasure'])
+        .randomChance(0.8)
+        .addLoot('endrem:cold_eye')
 
+    //creeperoverhaul custome loot
+    event
+    .addLootTableModifier('creeperoverhaul:entities/ocean_creeper')
+    .randomChance(0.5)
+    .addWeightedLoot([1,5], 'mythicmetals:raw_aquarium')
+    .randomChance(0.01)
+    .removeLoot('*')
+    .addLoot('mythicmetals:aquarium_pearl')
+    .randomChance(0.7)
+    .removeLoot('*')
+    .addLoot('artifacts:aqua_dashers')
+    
+    event
+    .addLootTableModifier('creeperoverhaul:entities/cave_creeper')
+    .pool((p) => {
+        p.randomChance(0.5)
+        p.addWeightedLoot(1,
+            [
+                Item.of("mythicmetals:raw_adamantite"),
+                Item.of("mythicmetals:raw_banglum"),
+                Item.of("mythicmetals:raw_carmot"),
+                Item.of("mythicmetals:raw_kyber"),
+                Item.of("mythicmetals:raw_midas_gold"),
+                Item.of("mythicmetals:raw_mythril"),
+                Item.of("mythicmetals:raw_orichalcum"),
+                Item.of("mythicmetals:raw_palladium"),
+                Item.of("mythicmetals:raw_prometheum"),
+                Item.of("mythicmetals:raw_quadrillum"),
+                Item.of("mythicmetals:raw_runite"),
+                Item.of("mythicmetals:raw_stormyx"),
+                Item.of("mythicmetals:starrite"),
+                Item.of("mythicmetals:morkite")
+            ])
+        p.limitCount([1, 2])
+    })
+    event
+    .addLootTableModifier('creeperoverhaul:entities/jungle_creeper')
+    .randomChance(0.5)
+    .addWeightedLoot([1,5], 'mythicmetals:raw_prometheum')
+
+    
+    
+    
 })
