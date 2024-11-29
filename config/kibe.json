@@ -1,0 +1,33 @@
+{
+  "miscellaneousModule": {
+    "tanksChangeLights": true,
+    "cursedDirtMobCap": 25,
+    "cursedDirtDenyList": [],
+    "xpDrainSpeedMultiplier": 1.0,
+    "xpShowerSpeedMultiplier": 1.0,
+    "magnetRange": 8.0,
+    "gliderUnbreakable": false,
+    "gliderDurability": 50000,
+    "lassoDenyList": [
+      "whisperwoods:hirschgeist", 
+      "bosses_of_mass_destruction:obsidilith", 
+      "bosses_of_mass_destruction:gauntlet", 
+      "bosses_of_mass_destruction:void_blossom", 
+      "bosses_of_mass_destruction:lich",
+      "adventurez:stone_golem",
+      "adventurez:orc",
+      "whisperwoods:zotzpyre",
+      "bwplus:leshon",
+      "adventurez:blaze_guardian",
+      "adventurez:enderwarthog",
+      "the_bumblezone:bee_queen",
+      "miskatonicmysteries:tattered_prince"
+    ],
+    "maxRingsPerPlayer": 1
+  },
+  "chunkLoaderModule": {
+    "checkForPlayer": false,
+    "maxPerPlayer": -1,
+    "maxOfflineTime": -1
+  }
+}
