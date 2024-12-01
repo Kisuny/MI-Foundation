@@ -9,18 +9,13 @@ ServerEvents.recipes(event => {
         'neepmeat:refractory_brick',
         'neepmeat:whisper_brass_ingot',
         'neepmeat:flywheel',
-        'neepmeat:pinkdrink',
         'neepmeat:can',
-        'neepmeat:carton',
-        'neepmeat:milk_carton',
         'neepmeat:robotic_arm',
-        'neepmeat:meat_carton',
         'meatweapons:assault_drill',
         'neepmeat:assault_drill',
         'neepmeat:surgery_platform',
         'neepmeat:pylon',
         'neepmeat:upgrade_manager',
-        // 'neepmeat:fabricator'
     ];
     const removeByID = [
         'neepmeat:machines/small_trommel',
@@ -37,7 +32,7 @@ ServerEvents.recipes(event => {
         'neepmeat:ingredients/sacrifical_dagger',
         'neepmeat:ingredients/bioelectric_organ',
         // 'neepmeat:rendering/fat_collector',
-        'neepmeat:fluid_transfer/bottler',
+        // 'neepmeat:fluid_transfer/bottler',
         'neepmeat:fluid_transfer/advanced_tank',
         'neepmeat:fluid_transfer/advanced_flex_tank',
         'neepmeat:kinetic/stirling_engine',
@@ -59,6 +54,7 @@ ServerEvents.recipes(event => {
         'neepmeat:manufacture/pylon',
         'neepmeat:manufacture/pipe_driver',
         'neepmeat:manufacture/airtruck',
+        'neepmeat:manufacture/phage_ray',
         'neepmeat:manufacture/surgery_platform',
         'neepmeat:machines/pedestal',
         'neepmeat:machines/living_machine/item_output_port',
@@ -71,9 +67,9 @@ ServerEvents.recipes(event => {
         'neepmeat:machines/living_machine/large_hopper',
         'neepmeat:machines/living_machine/meat_steel_machine_block',
         'neepmeat:kinetic/advanced_motor_upgrading',
-        'neepmeat:machines/farming_scutter',
-        'neepmeat:item_transfer/filtered_ejector',
-        'neepmeat:machines/living_machine/stomach'
+        // 'neepmeat:machines/farming_scutter',
+        // 'neepmeat:item_transfer/filtered_ejector',
+        // 'neepmeat:machines/living_machine/stomach'
 
     ];
     removeByOutput.forEach(element => event.remove({ output: element }));

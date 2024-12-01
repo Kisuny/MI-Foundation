@@ -1,5 +1,17 @@
 
 ServerEvents.recipes(event => {
+
+    // Filtered Ejector
+    event.remove({id: 'neepmeat:item_transfer/filtered_ejector'});
+    event.shapeless('neepmeat:filtered_ejector', [
+        'neepmeat:ejector',
+        'modern_industrialization:electronic_circuit'
+    ]),
+    // Advanced Item Router
+    event.shapeless('neepmeat:advanced_router', [
+        'neepmeat:router',
+        'modern_industrialization:electronic_circuit'
+    ]),
     // Pressing Basin
     event.remove({id: 'neepmeat:rendering/fat_collector'});
     event.shaped('neepmeat:collector', [
@@ -67,14 +79,14 @@ ServerEvents.recipes(event => {
     event.shaped('neepmeat:fabricator', [
         'RNR',
         'CSC',
-        'BPB'
+        'BAB'
     ], {
         R: 'modern_industrialization:redstone_alloy_plate',
         N: 'wiredredstone:bundled_cable',
         C: 'modern_industrialization:cupronickel_wire',
         S: 'modern_industrialization:steel_rod_magnetic',
         B: 'modern_industrialization:netherite_curved_plate',
-        P: 'neepmeat:workstation'
+        A: 'autoworkstations:iron_auto_crafting_table'
     })
 
     event.remove({id: 'neepmeat:machines/living_machine/extractor'});
@@ -115,13 +127,15 @@ ServerEvents.recipes(event => {
     })
 
     event.shaped('neepmeat:sacrificial_dagger', [
-        'SB ',
-        'RS ',
-        '   '
+        'RB ',
+        'PMD',
+        'RB '
     ], {
-        R: 'modern_industrialization:steel_rod',
-        B: 'modern_industrialization:stainless_steel_blade',
-        S: 'minecraft:string',
+        R: 'modern_industrialization:stainless_steel_rod',
+        B: 'modern_industrialization:stainless_steel_bolt',
+        P: 'modern_industrialization:piston',
+        M: 'modern_industrialization:motor',
+        D: 'modern_industrialization:invar_rotary_blade',
     })
 
     event.shaped('neepmeat:big_lever', [

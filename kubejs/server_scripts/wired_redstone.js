@@ -5,6 +5,7 @@ ServerEvents.recipes(event => {
     //Shaped
     event.remove({ id: 'wiredredstone:redstone_assembler' })
     event.remove({ type: 'wiredredstone:redstone_assembler_shaped' })
+    event.remove({ type: 'wiredredstone:redstone_assembler_shapeless' })
     // event.shaped('wiredredstone:redstone_assembler', [
     //     'SAS',
     //     'ADA',

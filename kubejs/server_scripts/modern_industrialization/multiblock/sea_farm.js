@@ -70,7 +70,7 @@ function add_fish_craft(event, item) {
 ServerEvents.recipes(event => {
     sea_farm_fishes.forEach(element => {
         add_fish_craft(event, element)
-        console.log(element.fluid);
-        console.log(element.fluid_amount);
+        // console.log(element.fluid);
+        // console.log(element.fluid_amount);
     });
 })

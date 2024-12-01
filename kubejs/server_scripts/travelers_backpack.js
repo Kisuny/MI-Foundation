@@ -185,7 +185,7 @@ ServerEvents.recipes(event => {
             "   "
         ],
         keys: {
-            "Q": { "item": "neepmeat:workstation" },
+            "Q": { "item": 'autoworkstations:iron_auto_crafting_table' },
             "W": { "item": "travelersbackpack:blank_upgrade" }
         },
         result: {

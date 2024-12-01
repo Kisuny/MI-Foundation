@@ -1504,6 +1504,100 @@ ServerEvents.recipes(event => {
     });
     event.replaceInput({type: 'neepmeat:manufacture'}, {input: 'minecraft:iron_block'}, 'modern_industrialization:advanced_machine_hull');
 
+    // Tool Organism
+    event.remove({id: 'neepmeat:tools/living_tool_implant'});
+    event.recipes.neepmeat.manufacture({
+        "base": {
+            "id": 'majruszsaccessories:tool_scraps'
+        },
+        "steps":[
+          {
+            "id": "neepmeat:combine",
+            "resource": 'neepmeat:control_unit'
+          },
+          {
+            "id": "neepmeat:combine",
+            "resource": 'neepmeat:meat_steel_component'
+          },
+          {
+            "id": "neepmeat:combine",
+            "resource": 'neepmeat:internal_components'
+          },
+        ],
+        "result": {
+          "resource": 'neepmeat:living_tool_implant',
+          "amount": 1
+        }
+    });
+
+    // Hungry Heterostructure
+    event.remove({id: 'neepmeat:ingredients/hungry_heterostructure'});
+    event.recipes.neepmeat.manufacture({
+        "base": {
+            "id": 'neepmeat:extra_mouth'
+        },
+        "steps":[
+          {
+            "id": "neepmeat:combine",
+            "resource": 'modern_industrialization:meat_steel_large_plate'
+          },
+          {
+            "id": "neepmeat:combine",
+            "resource": 'modern_industrialization:large_heat_exchanger'
+          },
+          {
+            "id": "neepmeat:combine",
+            "resource": 'modern_industrialization:meat_steel_large_plate'
+          },
+          {
+            "id": "neepmeat:inject",
+            "resource": "neepmeat:charged_work_fluid"
+          }
+        ],
+        "result": {
+          "resource": 'neepmeat:hungry_heterostructure',
+          "amount": 1
+        }
+    });
+
+    // Phage Ray
+    event.remove({output: 'neapmeat:assault_drill'});
+    event.recipes.neepmeat.manufacture({
+        "base": {
+            "id": 'neepmeat:skin_machine_block'
+        },
+        "steps":[
+          {
+            "id": "neepmeat:combine",
+            "resource": 'neepmeat:integrator_egg'
+          },
+          {
+            "id": "neepmeat:combine",
+            "resource": 'modern_industrialization:he_mox_fuel_rod_quad'
+          },
+          {
+            "id": "neepmeat:combine",
+            "resource": 'neepmeat:divine_organ'
+          },
+          {
+            "id": "neepmeat:combine",
+            "resource": 'neepmeat:hungry_heterostructure'
+          },
+          {
+            "id": "neepmeat:combine",
+            "resource": 'kubejs:focal_lens'
+          },
+          {
+            "id": "neepmeat:inject",
+            "resource": "neepmeat:charged_work_fluid"
+          }
+        ],
+        "result": {
+          "resource": 'neepmeat:phage_ray',
+          "amount": 1
+        }
+    });
+
     // Assault Drill
     event.remove({output: 'neapmeat:assault_drill'});
     event.recipes.neepmeat.manufacture({
@@ -1624,43 +1718,6 @@ ServerEvents.recipes(event => {
           "amount": 1
         }
     });
-
-    // // Loot Fabrication Chamber
-    // event.recipes.neepmeat.manufacture({
-    //     "base": {
-    //         "id": 'modern_industrialization:electric_fluid_extractor'
-    //     },
-    //     "steps":[
-    //       {
-    //         "id": "neepmeat:combine",
-    //         "resource": 'modern_industrialization:compactium_large_plate'
-    //       },
-    //       {
-    //         "id": "neepmeat:combine",
-    //         "resource": 'neepmeat:control_unit'
-    //       },
-    //       {
-    //         "id": "neepmeat:combine",
-    //         "resource": 'neepmeat:integration_charge_crude'
-    //       },
-    //       {
-    //         "id": "neepmeat:combine",
-    //         "resource": 'modern_industrialization:processing_unit'
-    //       },
-    //       {
-    //         "id": "neepmeat:combine",
-    //         "resource": 'ae2:engineering_processor'
-    //       },
-    //       {
-    //         "id": "neepmeat:inject",
-    //         "resource": "neepmeat:charged_work_fluid"
-    //       },
-    //     ],
-    //     "result": {
-    //       "resource": 'modern_industrialization:loot_fabrication_chamber',
-    //       "amount": 1
-    //     }
-    // });
 
     // Molecular Deconstructor
     event.recipes.neepmeat.manufacture({
