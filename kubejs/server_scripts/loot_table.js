@@ -16,51 +16,7 @@ LootJS.modifiers((event) => {
             /mvs:.*/,
             /kaisyn:.*/,
             /the_bumblezone:structures\/.*/,
-            'friendsandfoes:barrels/illusioner_shack_attic',
-            "/endermanoverhaul:entities\/*/",
-            // regex not working for endermanoverhaul:entities\/* idk why
-            'endermanoverhaul:entities/badlands_enderman',
-            'endermanoverhaul:entities/cave_enderman',
-            'endermanoverhaul:entities/crimson_forest_enderman',
-            'endermanoverhaul:entities/dark_oak_enderman',
-            'endermanoverhaul:entities/desert_enderman',
-            'endermanoverhaul:entities/end_enderman',
-            'endermanoverhaul:entities/end_islands_enderman',
-            'endermanoverhaul:entities/flower_fields_enderman',
-            'endermanoverhaul:entities/ice_spikes_enderman',
-            'endermanoverhaul:entities/mushroom_fields_enderman',
-            'endermanoverhaul:entities/nether_wastes_enderman',
-            'endermanoverhaul:entities/ocean_enderman',
-            'endermanoverhaul:entities/savanna_enderman',
-            'endermanoverhaul:entities/snowy_enderman',
-            'endermanoverhaul:entities/soulsand_valley_enderman',
-            'endermanoverhaul:entities/swamp_enderman',
-            'endermanoverhaul:entities/warped_forest_enderman',
-            'endermanoverhaul:entities/windswept_hills_enderman',
-            // same for creeperoverhaul entities
-            'creeperoverhaul:entities/badlands_creeper',
-            'creeperoverhaul:entities/bamboo_creeper',
-            'creeperoverhaul:entities/beach_creeper',
-            'creeperoverhaul:entities/cave_creeper',
-            'creeperoverhaul:entities/dark_oak_creeper',
-            'creeperoverhaul:entities/desert_creeper',
-            'creeperoverhaul:entities/dripstone_creeper',
-            'creeperoverhaul:entities/hills_creeper',
-            'creeperoverhaul:entities/jungle_creeper',
-            'creeperoverhaul:entities/mushroom_creeper',
-            'creeperoverhaul:entities/ocean_creeper',
-            'creeperoverhaul:entities/savannah_creeper',
-            'creeperoverhaul:entities/snowy_creeper',
-            'creeperoverhaul:entities/spruce_creeper',
-            'creeperoverhaul:entities/swamp_creeper',
-            'rottencreatures:entities/burned',
-            'rottencreatures:entities/frostbitten',
-            'rottencreatures:entities/glacial_hunter',
-            'rottencreatures:entities/mummy',
-            'rottencreatures:entities/skeleton_lackey',
-            'rottencreatures:entities/swampy',
-            'minecraft:illusioner',
-            'friendsandfoes:iceologer'
+            'friendsandfoes:barrels/illusioner_shack_attic'
         ],
         rare: [
             /.*:chests\/stronghold_.*/,
@@ -418,29 +374,97 @@ LootJS.modifiers((event) => {
         p.randomChance(0.5)
         p.addWeightedLoot(1,
             [
-                Item.of("mythicmetals:raw_adamantite"),
                 Item.of("mythicmetals:raw_banglum"),
-                Item.of("mythicmetals:raw_carmot"),
-                Item.of("mythicmetals:raw_kyber"),
-                Item.of("mythicmetals:raw_midas_gold"),
-                Item.of("mythicmetals:raw_mythril"),
-                Item.of("mythicmetals:raw_orichalcum"),
-                Item.of("mythicmetals:raw_palladium"),
-                Item.of("mythicmetals:raw_prometheum"),
-                Item.of("mythicmetals:raw_quadrillum"),
-                Item.of("mythicmetals:raw_runite"),
-                Item.of("mythicmetals:raw_stormyx"),
-                Item.of("mythicmetals:starrite"),
-                Item.of("mythicmetals:morkite")
+                Item.of("mythicmetals:morkite"),
             ])
-        p.limitCount([1, 2])
+        p.limitCount([1, 3])
+    })
+ 
+    event
+    .addLootTableModifier('creeperoverhaul:entities/hills_creeper', 'endermanoverhaul:entities/windswept_hills_enderman')
+    .pool((p) => {
+        p.randomChance(0.5)
+        p.addWeightedLoot(1, [Item.of("mythicmetals:raw_mythril")])
+        p.limitCount([1, 3])
     })
     event
-    .addLootTableModifier('creeperoverhaul:entities/jungle_creeper')
-    .randomChance(0.5)
-    .addWeightedLoot([1,5], 'mythicmetals:raw_prometheum')
+    .addLootTableModifier('endermanoverhaul:entities/crimson_forest_enderman', 'creeperoverhaul:entities/dripstone_creeper')
+    .pool((p) => {
+        p.randomChance(0.5)
+        p.addWeightedLoot(1, [Item.of("mythicmetals:raw_palladium")])
+        p.limitCount([1, 3])
+})
+    event
+    .addLootTableModifier('endermanoverhaul:entities/warped_forest_enderman', 'endermanoverhaul:entities/dark_oak_enderman')
+    .pool((p) => {
+        p.randomChance(0.5)
+        p.addWeightedLoot(1, [Item.of("mythicmetals:raw_midas_gold")])
+        p.limitCount([1, 3])
+    })
 
+    event
+    .addLootTableModifier('endermanoverhaul:entities/soulsand_valley_enderman', 'endermanoverhaul:entities/savanna_enderman')
+    .pool((p) => {
+        p.randomChance(0.5)
+        p.addWeightedLoot(1, [Item.of("mythicmetals:raw_stormyx")])
+        p.limitCount([1, 3])
+    })
     
-    
-    
+    event
+    .addLootTableModifier('endermanoverhaul:entities/end_enderman')
+    .pool((p) => {
+        p.randomChance(0.5)
+        p.addWeightedLoot(1, [Item.of("mythicmetals:unobtainium")])
+        p.limitCount([1, 3])
+    })
+    event
+    .addLootTableModifier('endermanoverhaul:entities/end_islands_enderman')
+    .pool((p) => {
+        p.randomChance(0.5)
+        p.addWeightedLoot(1, [Item.of("mythicmetals:starrite")])
+        p.limitCount([1, 3])
+    })
+    event
+    .addLootTableModifier('endermanoverhaul:entities/mushroom_fields_enderman', 'creeperoverhaul:entities/mushroom_creeper')
+    .pool((p) => {
+        p.randomChance(0.5)
+        p.addWeightedLoot(1, [Item.of("mythicmetals:raw_adamantite")])
+        p.limitCount([1, 3])
+    })
+    event
+    .addLootTableModifier('endermanoverhaul:entities/crimson_forest_enderman', 'mythicmetals:raw_prometheum')
+    .pool((p) => {
+        p.randomChance(0.5)
+        p.addWeightedLoot(1, [Item.of("mythicmetals:raw_prometheum")])
+        p.limitCount([1, 3])
+    })
+    event
+    .addLootTableModifier('endermanoverhaul:entities/flower_fields_enderman', 'creeperoverhaul:entities/bamboo_creeper', 'creeperoverhaul:entities/jungle_creeper')
+    .pool((p) => {
+        p.randomChance(0.5)
+        p.addWeightedLoot(1, [Item.of("mythicmetals:raw_orichalcum")])
+        p.limitCount([1, 3])
+    })
+    event
+    .addLootTableModifier('endermanoverhaul:entities/snowy_enderman', 'creeperoverhaul:entities/snowy_creeper')
+    .pool((p) => {
+        p.randomChance(0.5)
+        p.addWeightedLoot(1, [Item.of("mythicmetals:raw_kyber")])
+        p.limitCount([1, 3])
+    })
+    event
+    .addLootTableModifier('endermanoverhaul:entities/ice_spikes_enderman')
+    .pool((p) => {
+        p.randomChance(0.5)
+        p.addWeightedLoot(1, [Item.of("mythicmetals:raw_runite")])
+        p.limitCount([1, 3])
+    })
+    event
+    .addLootTableModifier('endermanoverhaul:entities/swamp_enderman', 'creeperoverhaul:entities/swamp_creeper')
+    .pool((p) => {
+        p.randomChance(0.5)
+        p.addWeightedLoot(1, [Item.of("mythicmetals:raw_quadrillum")])
+        p.limitCount([1, 3])
+    })
+
 })

@@ -190,14 +190,9 @@ ServerEvents.tags('entity_type', event => {
     // soul_cage_blacklisted / collect_blacklisted - blacklist for spirit spawners
     const SPIRIT_MOBS_BLACKLIST = [
         'artifacts:mimic', 
-        /creeperoverhaul:*/, 
-        'adventurez:summoner', 
-        /endermanoverhaul:*/, 
-        'minecraft:illusioner', 
-        'friendsandfoes:iceologer',
-        /rottencreatures:*/,
-        /lootgoblins:*/,
-        /theorcs:*/
+        'rottencreatures:entities/dead_beard',
+        'rottencreatures:entities/immortal',
+        /lootgoblins:*/
     ]
     event.add('spirit:soul_cage_blacklisted', SPIRIT_MOBS_BLACKLIST)
     event.add('spirit:collect_blacklisted', SPIRIT_MOBS_BLACKLIST)
