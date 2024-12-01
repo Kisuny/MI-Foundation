@@ -57,6 +57,7 @@
     "kubejs.backpack_standard.tooltip": "Can be created on a Pigment Pedestal",
     "kubejs.waystone_scroll.tooltip": "You can buy it at the shop",
     "kubejs.witchberry.tooltip": "You can get it by growing «Fruiting Bramble»",
+    "kubejs.resonate_ooze.tooltip": "You can get it by right-click on active Resonator with Ectoplasm",
 
 
     "kubejs.cloud_in_a_bottle.tooltip_1": "🎣 can get by fishing creatures, from a «Ghost».",

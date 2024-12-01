@@ -77,6 +77,7 @@ ItemEvents.tooltip(tooltip => {
         betterToolTip({ item: 'travelersbackpack:standard', text: 'kubejs.backpack_standard.tooltip' })
         betterToolTip({ item: 'fwaystones:waystone_scroll', text: 'kubejs.waystone_scroll.tooltip' })
         betterToolTip({ item: 'bewitchment:witchberry', text: 'kubejs.witchberry.tooltip' })
+        betterToolTip({ item: 'miskatonicmysteries:resonate_ooze', text: 'kubejs.resonate_ooze.tooltip' }) 
 
         // тултипы для артефактов
         let artifactsTooltip = (args) => {
