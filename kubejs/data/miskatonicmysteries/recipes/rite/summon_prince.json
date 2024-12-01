@@ -1,0 +1,30 @@
+{
+	"type": "miskatonicmysteries:rite_recipe",
+	"ingredients": [
+		{
+			"item": "miskatonicmysteries:incantation_yog"
+		},
+		{
+			"item": "miskatonicmysteries:yellow_sign_banner_pattern"
+		},
+		{
+			"item": "minecraft:ancient_debris"
+		},
+		{
+			"tag": "miskatonicmysteries:oceanic_gold_blocks"
+		},
+		{
+			"item": "mythicmetals:midas_gold_helmet"
+		},
+		{
+			"item": "kubejs:aquarium_diamond"
+		},
+		{
+			"tag": "miskatonicmysteries:hastur_cultist_offerings"
+		},
+		{
+			"item": "spectrum:neolith"
+		}
+	],
+	"rite": "miskatonicmysteries:summon_prince"
+}

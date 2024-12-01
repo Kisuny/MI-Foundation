@@ -1,0 +1,30 @@
+{
+	"type": "miskatonicmysteries:rite_recipe",
+	"ingredients": [
+		{
+			"item": "minecraft:nether_star"
+		},
+		{
+			"item": "miskatonicmysteries:incantation_yog"
+		},
+		{
+			"tag": "miskatonicmysteries:hastur_statues"
+		},
+		{
+			"item": "mythicmetals:durasteel_ingot"
+		},
+		{
+			"item": "bewitchment:bottle_of_blood"
+		},
+		{
+			"item": "miskatonicmysteries:yellow_sign_banner_pattern"
+		},
+		{
+			"tag": "miskatonicmysteries:oceanic_gold_blocks"
+		},
+		{
+			"item": "spirit:soul_steel_block"
+		}
+	],
+	"rite": "miskatonicmysteries:hastur_simulacrum"
+}
