@@ -329,7 +329,11 @@
 		}
 		{
 			dependencies: ["4CD4E765537B016C"]
-			description: ["With the forge hammer you can create some basic machine parts."]
+			description: [
+				"With the forge hammer you can create some basic machine parts."
+				""
+				"&e&nAlso this block is workstation for villagers!&r&r"
+			]
 			id: "190C18AB20216705"
 			rewards: [
 				{

@@ -50,8 +50,8 @@
 				item: "endrem:black_eye"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 3.5d
+			x: -4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0314A659046D38A0"]
@@ -85,8 +85,8 @@
 				item: "endrem:cold_eye"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 3.0d
+			x: -5.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0314A659046D38A0"]
@@ -124,8 +124,8 @@
 				item: "endrem:corrupted_eye"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 3.0d
+			x: -8.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0314A659046D38A0"]
@@ -163,8 +163,8 @@
 				item: "endrem:lost_eye"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 2.0d
+			x: -7.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0314A659046D38A0"]
@@ -202,8 +202,8 @@
 				item: "endrem:nether_eye"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 1.5d
+			x: -6.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0314A659046D38A0"]
@@ -237,8 +237,8 @@
 				item: "endrem:old_eye"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 2.0d
+			x: -6.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["0314A659046D38A0"]
@@ -272,8 +272,8 @@
 				item: "endrem:rogue_eye"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 4.0d
+			x: -5.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0314A659046D38A0"]
@@ -311,8 +311,8 @@
 				item: "endrem:cursed_eye"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 5.0d
+			x: -6.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0314A659046D38A0"]
@@ -350,8 +350,8 @@
 				item: "endrem:evil_eye"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 4.0d
+			x: -8.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0314A659046D38A0"]
@@ -385,8 +385,8 @@
 				item: "endrem:guardian_eye"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 4.5d
+			x: -5.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["0314A659046D38A0"]
@@ -424,8 +424,8 @@
 				item: "endrem:magical_eye"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 2.5d
+			x: -5.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0314A659046D38A0"]
@@ -459,8 +459,8 @@
 				item: "endrem:wither_eye"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 5.0d
+			x: -7.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0314A659046D38A0"]
@@ -498,8 +498,8 @@
 				item: "endrem:witch_eye"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 2.5d
+			x: -7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0314A659046D38A0"]
@@ -537,8 +537,8 @@
 				item: "endrem:undead_eye"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 5.5d
+			x: -6.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0314A659046D38A0"]
@@ -576,8 +576,8 @@
 				item: "endrem:exotic_eye"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 3.5d
+			x: -8.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0314A659046D38A0"]
@@ -611,8 +611,8 @@
 				item: "endrem:cryptic_eye"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 4.5d
+			x: -7.5d
+			y: 4.0d
 		}
 		{
 			description: [
@@ -1706,7 +1706,7 @@
 				item: "things:displacement_page"
 				type: "item"
 			}]
-			x: 4.699999999999999d
+			x: 6.199999999999999d
 			y: 5.223469387755089d
 		}
 		{
@@ -1736,7 +1736,7 @@
 				item: "things:recall_potion"
 				type: "item"
 			}]
-			x: 5.050000000000001d
+			x: 6.550000000000001d
 			y: 4.873469387755089d
 		}
 		{
@@ -1765,7 +1765,7 @@
 				item: "artifacts:flame_pendant"
 				type: "item"
 			}]
-			x: 2.95d
+			x: 4.449999999999999d
 			y: 4.17346938775509d
 		}
 		{
@@ -1794,7 +1794,7 @@
 				item: "artifacts:shock_pendant"
 				type: "item"
 			}]
-			x: 3.3000000000000007d
+			x: 4.800000000000001d
 			y: 4.52346938775509d
 		}
 		{
@@ -1823,7 +1823,7 @@
 				item: "artifacts:steadfast_spikes"
 				type: "item"
 			}]
-			x: 4.35d
+			x: 5.85d
 			y: 5.573469387755089d
 		}
 		{
@@ -1852,7 +1852,7 @@
 				item: "artifacts:kitty_slippers"
 				type: "item"
 			}]
-			x: 4.699999999999999d
+			x: 6.199999999999999d
 			y: 4.52346938775509d
 		}
 		{
@@ -1881,7 +1881,7 @@
 				item: "artifacts:helium_flamingo"
 				type: "item"
 			}]
-			x: 2.25d
+			x: 3.75d
 			y: 4.17346938775509d
 		}
 		{
@@ -1910,7 +1910,7 @@
 				item: "artifacts:obsidian_skull"
 				type: "item"
 			}]
-			x: 3.3000000000000007d
+			x: 4.800000000000001d
 			y: 5.223469387755089d
 		}
 		{
@@ -1939,7 +1939,7 @@
 				item: "artifacts:charm_of_sinking"
 				type: "item"
 			}]
-			x: 2.95d
+			x: 4.449999999999999d
 			y: 5.573469387755089d
 		}
 		{
@@ -1968,7 +1968,7 @@
 				item: "artifacts:thorn_pendant"
 				type: "item"
 			}]
-			x: 2.6d
+			x: 4.1d
 			y: 5.223469387755089d
 		}
 		{
@@ -1997,7 +1997,7 @@
 				item: "artifacts:pocket_piston"
 				type: "item"
 			}]
-			x: 3.9999999999999996d
+			x: 5.5d
 			y: 4.52346938775509d
 		}
 		{
@@ -2026,7 +2026,7 @@
 				item: "artifacts:universal_attractor"
 				type: "item"
 			}]
-			x: 3.6500000000000004d
+			x: 5.15d
 			y: 4.873469387755089d
 		}
 		{
@@ -2055,7 +2055,7 @@
 				item: "artifacts:cross_necklace"
 				type: "item"
 			}]
-			x: 4.699999999999999d
+			x: 6.199999999999999d
 			y: 3.8234693877550905d
 		}
 		{
@@ -2084,7 +2084,7 @@
 				item: "artifacts:power_glove"
 				type: "item"
 			}]
-			x: 5.050000000000001d
+			x: 6.550000000000001d
 			y: 4.17346938775509d
 		}
 		{
@@ -2113,7 +2113,7 @@
 				item: "artifacts:umbrella"
 				type: "item"
 			}]
-			x: 3.6500000000000004d
+			x: 5.15d
 			y: 3.473469387755091d
 		}
 		{
@@ -2142,7 +2142,7 @@
 				item: "artifacts:plastic_drinking_hat"
 				type: "item"
 			}]
-			x: 2.6d
+			x: 4.1d
 			y: 4.52346938775509d
 		}
 		{
@@ -2171,7 +2171,7 @@
 				item: "artifacts:novelty_drinking_hat"
 				type: "item"
 			}]
-			x: 2.95d
+			x: 4.449999999999999d
 			y: 4.873469387755089d
 		}
 		{
@@ -2200,7 +2200,7 @@
 				item: "artifacts:scarf_of_invisibility"
 				type: "item"
 			}]
-			x: 3.9999999999999996d
+			x: 5.5d
 			y: 3.1234693877550908d
 		}
 		{
@@ -2229,7 +2229,7 @@
 				item: "artifacts:panic_necklace"
 				type: "item"
 			}]
-			x: 2.6d
+			x: 4.1d
 			y: 3.8234693877550905d
 		}
 		{
@@ -2258,7 +2258,7 @@
 				item: "artifacts:bunny_hoppers"
 				type: "item"
 			}]
-			x: 4.35d
+			x: 5.85d
 			y: 4.873469387755089d
 		}
 		{
@@ -2287,7 +2287,7 @@
 				item: "artifacts:aqua_dashers"
 				type: "item"
 			}]
-			x: 2.25d
+			x: 3.75d
 			y: 4.873469387755089d
 		}
 		{
@@ -2316,7 +2316,7 @@
 				item: "things:broken_watch"
 				type: "item"
 			}]
-			x: 2.95d
+			x: 4.449999999999999d
 			y: 3.473469387755091d
 		}
 		{
@@ -2345,7 +2345,7 @@
 				item: "artifacts:golden_hook"
 				type: "item"
 			}]
-			x: 4.35d
+			x: 5.85d
 			y: 3.473469387755091d
 		}
 		{
@@ -2374,7 +2374,7 @@
 				item: "artifacts:whoopee_cushion"
 				type: "item"
 			}]
-			x: 4.35d
+			x: 5.85d
 			y: 4.17346938775509d
 		}
 		{
@@ -2409,7 +2409,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.6500000000000004d
+			x: 5.15d
 			y: 4.17346938775509d
 		}
 		{
@@ -2443,7 +2443,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.9999999999999996d
+			x: 5.5d
 			y: 5.223469387755089d
 		}
 		{
@@ -2472,7 +2472,7 @@
 				item: "things:rabbit_foot_charm"
 				type: "item"
 			}]
-			x: 3.9999999999999996d
+			x: 5.5d
 			y: 3.8234693877550905d
 		}
 		{
@@ -2501,7 +2501,7 @@
 				item: "things:placebo"
 				type: "item"
 			}]
-			x: 3.3000000000000007d
+			x: 4.800000000000001d
 			y: 3.1234693877550908d
 		}
 		{
@@ -2531,7 +2531,7 @@
 				item: "things:luck_of_the_irish"
 				type: "item"
 			}]
-			x: 3.3000000000000007d
+			x: 4.800000000000001d
 			y: 3.8234693877550905d
 		}
 		{
@@ -2550,8 +2550,8 @@
 				type: "checkmark"
 			}]
 			title: "Ender eyes"
-			x: -4.5d
-			y: 3.5d
+			x: -6.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["68D1FA710C01D507"]
@@ -2596,7 +2596,7 @@
 				title: "Artifacts + things"
 				type: "checkmark"
 			}]
-			x: 3.680272108843539d
+			x: 5.180272108843539d
 			y: 2.4499999999999997d
 		}
 		{
@@ -2666,7 +2666,7 @@
 				type: "observation"
 			}]
 			x: 0.0d
-			y: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1EF8193BECA95331"]
@@ -2681,7 +2681,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["1EF8193BECA95331"]
@@ -2695,7 +2695,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7E0AD89FB624F4F8"]
@@ -2709,7 +2709,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -2726,7 +2726,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["47EE8DBE6671207D"]
@@ -2746,7 +2746,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["1EF8193BECA95331"]
@@ -2760,7 +2760,105 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["68D1FA710C01D507"]
+			description: ["Find a &6loot goblin&r from which you can get &6a lot of loot&r, he can appear when killing any mob with a &osmall chance&r."]
+			id: "126245B193E36C95"
+			rewards: [{
+				id: "1FAC23922F531D3B"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								2066333281
+								1722237937
+								-1187168203
+								1051942039
+							]
+							Name: "Goblin Tinkerer"
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFhYjJmZDAzN2MzOTk3MTAxYmNmNWNkNDgzODQwNDk0ZmFlMjEzMmViYWY5MjM0MmQ5YmUxZTRiOGI2N2VjIn19fQ=="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"§7§cID: 142466\"}"
+								"{\"text\":\"§7§eTerraria,Fairy Tales,Forge,Goggles\"}"
+								"{\"text\":\"\"}"
+								"{\"text\":\"§7§8Right-Click to add/remove from favorites.\"}"
+							]
+							Name: "{\"text\":\"§7§bGoblin Tinkerer\"}"
+						}
+					}
+				}
+				id: "422305502F3635A1"
+				observe_type: 5
+				timer: 0L
+				to_observe: "lootgoblins:loot_goblin"
+				type: "observation"
+			}]
+			title: "Loot goblins"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["68D1FA710C01D507"]
+			description: ["Find the &cgoblin camp&r and reap incredibly expensive bounty"]
+			id: "1EFFA32BC0068C1A"
+			rewards: [{
+				id: "7322F9F518A9203E"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								769857497
+								-682276951
+								-1379251781
+								1742765650
+							]
+							Name: "Orc"
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTE0ZGMzOGQ0Zjc4NTE5ZGQ1NjE5ZGQ0MWEyNmFiZmZiOTEyM2UxNTY3ZjZkODljYjNiMTY2ZTI5NzY2OCJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"§7§cID: 145044\"}"
+								"{\"text\":\"§7§eMale,Orc,Ear Pins\"}"
+								"{\"text\":\"\"}"
+								"{\"text\":\"§7§8Right-Click to add/remove from favorites.\"}"
+							]
+							Name: "{\"text\":\"§7§bOrc\"}"
+						}
+					}
+				}
+				id: "0C0757A19EF35457"
+				structure: "theorcs:orc_camp"
+				type: "structure"
+			}]
+			title: "Orc camp"
+			x: 2.0d
+			y: 2.0d
 		}
 	]
 	title: "&7Exploring"

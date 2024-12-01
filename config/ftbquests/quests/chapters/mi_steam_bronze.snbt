@@ -11,6 +11,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "7DA572239C90574D"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -23,6 +24,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "7DA572239C90574D"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -35,6 +37,7 @@
 		{
 			click: ""
 			corner: false
+			dependency: "7DA572239C90574D"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -2324,34 +2327,6 @@
 		}
 		{
 			dependencies: ["663BB2D450652922"]
-			description: ["This crafting table saves the items inside when you exit it."]
-			id: "14C1319ABECBD4C6"
-			rewards: [
-				{
-					id: "02A75BAF5F45A89B"
-					item: "kubejs:early_lootbag_epic"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "72A6F8B8F48CD57D"
-					item: "modern_industrialization:steel_ingot"
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			size: 0.9d
-			tasks: [{
-				id: "41F4BA5B692861F1"
-				item: "neepmeat:workstation"
-				type: "item"
-			}]
-			x: -3.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["663BB2D450652922"]
 			description: [""]
 			id: "32A70DD76DC20D4E"
 			rewards: [
@@ -2375,8 +2350,8 @@
 				item: "neepmeat:buffer"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -2.5d
+			x: -3.275510204081627d
+			y: -2.515306122448983d
 		}
 		{
 			dependencies: ["6DF83BA3914DACDA"]
