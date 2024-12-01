@@ -15,5 +15,5 @@ enableFtbQuestsIntegration = true
 generateOres = false
 datagenOnStartup = true
 loadRuntimeGeneratedResources = true
-removeIndustrialistTrades = true
+removeIndustrialistTrades = false
 maxDistillationTowerHeight = 9
