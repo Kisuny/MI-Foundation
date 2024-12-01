@@ -2573,7 +2573,7 @@
 			}]
 			x: -0.5d
 			y: 4.5d
-		
+		}
 		{
 			dependencies: ["75E727492D00F748"]
 			description: ["A fluid buffer of &6variable size&r. Scroll while hovering over the slot to adjust it's capacity. Can have auto-output configured in the GUI."]
@@ -2598,6 +2598,44 @@
 			}]
 			x: -8.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["0F013F8E4DF06E6B"]
+			description: ["Both has complex multi-layered item filter by tag, nbt, etc."]
+			id: "350CFEFFDB97A36C"
+			rewards: [
+				{
+					id: "64436E7CEFBC87B6"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "01CAAD03E1320EA7"
+					item: "neepmeat:advanced_router"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "16E9746C01CF4739"
+					item: "neepmeat:filtered_ejector"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "4AED89B11156719C"
+					item: "neepmeat:filtered_ejector"
+					type: "item"
+				}
+				{
+					id: "4371211DFAF60725"
+					item: "neepmeat:advanced_router"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 4.5d
 		}
 	]
 	title: "&7Industrialization | MV"

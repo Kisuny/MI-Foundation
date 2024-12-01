@@ -1437,7 +1437,7 @@
 				}
 			]
 			x: 18.5d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["58DC31CC3D243DCD"]
@@ -1699,8 +1699,8 @@
 				item: "neepmeat:vsc"
 				type: "item"
 			}]
-			x: 21.5d
-			y: -7.5d
+			x: 21.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["00DB5F15E95B82D2"]
@@ -1730,7 +1730,7 @@
 		}
 		{
 			dependencies: ["09E537E574ED829F"]
-			description: ["Improved version of motor. Consumes energy from vascular network. Has a greater power."]
+			description: ["Improved version of motor. Consumes energy from vascular network. Has a greater power limit."]
 			id: "35910005C3917324"
 			rewards: [{
 				count: 4
@@ -1744,7 +1744,7 @@
 				item: "neepmeat:advanced_motor"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 22.0d
 			y: -7.5d
 		}
 		{
@@ -1762,8 +1762,8 @@
 				item: "neepmeat:charnel_compactor"
 				type: "item"
 			}]
-			x: 21.0d
-			y: -1.0d
+			x: 20.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["50BBE26EED91D3A6"]
@@ -1788,8 +1788,8 @@
 				item: "neepmeat:integration_charge_crude"
 				type: "item"
 			}]
-			x: 23.5d
-			y: -1.0d
+			x: 22.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6F57E0A9A28BAD87"]
@@ -1827,8 +1827,8 @@
 				item: "neepmeat:work_fluid_bucket"
 				type: "item"
 			}]
-			x: 23.0d
-			y: 0.0d
+			x: 22.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3C94F0661744AF8D"]
@@ -1866,8 +1866,8 @@
 				item: "neepmeat:charged_work_fluid_bucket"
 				type: "item"
 			}]
-			x: 23.0d
-			y: 1.0d
+			x: 22.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -1907,7 +1907,7 @@
 				type: "item"
 			}]
 			x: 25.5d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["13903B3EDE72AF63"]
@@ -1933,7 +1933,7 @@
 				type: "item"
 			}]
 			x: 27.0d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["13903B3EDE72AF63"]
@@ -1959,7 +1959,7 @@
 				type: "item"
 			}]
 			x: 26.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["13903B3EDE72AF63"]
@@ -1997,7 +1997,7 @@
 				type: "item"
 			}]
 			x: 24.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["01E0472DFDDDF2F1"]
@@ -2024,7 +2024,7 @@
 				type: "item"
 			}]
 			x: 24.5d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["13903B3EDE72AF63"]
@@ -2054,7 +2054,7 @@
 				type: "item"
 			}]
 			x: 25.5d
-			y: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2AC0E79728F4AA45"]
@@ -2684,7 +2684,6 @@
 		}
 		{
 			dependencies: [
-				"36739063C2FB8639"
 				"0CA1AD96AA7EB047"
 				"2137D52B7574D6BC"
 			]
@@ -2706,7 +2705,6 @@
 		}
 		{
 			dependencies: [
-				"36739063C2FB8639"
 				"0CA1AD96AA7EB047"
 				"2137D52B7574D6BC"
 			]
@@ -2728,7 +2726,6 @@
 		}
 		{
 			dependencies: [
-				"36739063C2FB8639"
 				"0CA1AD96AA7EB047"
 				"2137D52B7574D6BC"
 			]
@@ -2779,7 +2776,6 @@
 		}
 		{
 			dependencies: [
-				"36739063C2FB8639"
 				"2137D52B7574D6BC"
 				"0CA1AD96AA7EB047"
 			]
@@ -3036,10 +3032,7 @@
 			y: -26.0d
 		}
 		{
-			dependencies: [
-				"5B7899670D00F4B0"
-				"004209D0C8DC9348"
-			]
+			dependencies: ["5B7899670D00F4B0"]
 			hide_dependent_lines: true
 			id: "0CA1AD96AA7EB047"
 			rewards: [{
@@ -3057,10 +3050,7 @@
 			y: -21.5d
 		}
 		{
-			dependencies: [
-				"5B7899670D00F4B0"
-				"004209D0C8DC9348"
-			]
+			dependencies: ["5B7899670D00F4B0"]
 			hide_dependent_lines: true
 			id: "2137D52B7574D6BC"
 			rewards: [{
@@ -3079,7 +3069,6 @@
 		}
 		{
 			dependencies: [
-				"36739063C2FB8639"
 				"2137D52B7574D6BC"
 				"0CA1AD96AA7EB047"
 			]
@@ -3317,6 +3306,105 @@
 			title: "Networking"
 			x: 21.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["737AFCC9E50FBD22"]
+			id: "32EA38A6BFC530E8"
+			rewards: [
+				{
+					count: 2
+					id: "219468C288F9070F"
+					item: "neepmeat:farming_scutter"
+					type: "item"
+				}
+				{
+					id: "4A6498D333E50C19"
+					item: "kubejs:mob_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			subtitle: "The Vacuum Cleaner"
+			tasks: [{
+				id: "1013946A0E12D87E"
+				item: "neepmeat:farming_scutter"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["09E537E574ED829F"]
+			description: ["Can automatically heat up furnaces by using vascular energy. Also if instead multitank is placed, it will heat water and pasterize milk. The conversion ratio of water to steam is more efficient than in another boilers."]
+			id: "199DEBD9F9651E74"
+			tasks: [{
+				id: "2B03A9C79BCAC465"
+				item: "neepmeat:heater"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["13903B3EDE72AF63"]
+			description: ["Need a fluid tank underneath and rotational power to work. Almost all canisters and fluid storages can be refilled by using bottler (oxygen tanks, spacesuits, diesel drills etc.)"]
+			id: "5C027B2D7607F51D"
+			rewards: [{
+				count: 3
+				id: "288C186BD21DDFAE"
+				item: "kubejs:mob_lootbag_uncommon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1867FB6B8C05F158"
+				item: "neepmeat:bottler"
+				type: "item"
+			}]
+			x: 24.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7EF2CD56FEE25DB5"]
+			id: "0FED488E9B9FAC54"
+			rewards: [
+				{
+					id: "0BBC479B91F31A4D"
+					item: "kubejs:mid_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "74D8BFF773BA080A"
+					item: "kubejs:mob_lootbag_rare"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				icon: "neepmeat:verrucous_stone_port"
+				id: "422279BB7B6D5086"
+				structure: "neepmeat:verrucous_rock"
+				type: "structure"
+			}]
+			x: 18.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["1ADE44FAAC0EB496"]
+			description: ["NeepBus arithmetic unit. Can be used to streamline the data modification in data cables."]
+			id: "16B787FA40D6ABBE"
+			rewards: [{
+				count: 2
+				id: "17D2A61438954514"
+				item: "neepmeat:pid_controller"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D3DC7C5BE356990"
+				item: "neepmeat:pid_controller"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -1.0d
 		}
 	]
 	title: "&7Space program | HV"
