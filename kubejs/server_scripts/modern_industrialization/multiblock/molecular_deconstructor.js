@@ -1212,7 +1212,7 @@ ServerEvents.recipes(event => {
         particle_manipulator(element)
     })
 
-    console.log(material_dict.length)
-    console.log(MIbase_single.length)
+    // console.log(material_dict.length)
+    // console.log(MIbase_single.length)
 
 })
