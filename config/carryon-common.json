@@ -215,7 +215,8 @@
       "wiredredstone:*",
       "rottencreatures:*",
       "lootgoblins:*",
-      "theorcs:*"
+      "theorcs:*",
+      "miskatonicmysteries:*"
     ],
     "//forbiddenEntities": "Entities that cannot be picked up",
     "forbiddenEntities": [
@@ -286,7 +287,8 @@
       "naturalist:alligator",
       "rottencreatures:*",
       "lootgoblins:*",
-      "theorcs:*"
+      "theorcs:*",
+      "miskatonicmysteries:*"
     ],
     "//forbiddenStacking": "Entities that cannot have other entities stacked on top of them",
     "forbiddenStacking": [
