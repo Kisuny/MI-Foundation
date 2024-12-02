@@ -1,0 +1,1085 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "miskatonic_mysteries"
+	group: "0EE6B87D2DF05DC9"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "miskatonicmysteries:textures/gui/icons/shub.png"
+		}
+	}
+	id: "62EF5423E185CBE0"
+	images: [
+		{
+			click: ""
+			corner: false
+			dependency: "6FA72BDA58065CFB"
+			dev: false
+			height: 8.0d
+			hover: [ ]
+			image: "miskatonicmysteries:textures/gui/drawings/byakhee.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -15.0d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "06562C2C31C20966"
+			dev: false
+			height: 7.0d
+			hover: [ ]
+			image: "miskatonicmysteries:block/octagram/hastur_octagram"
+			rotation: 0.0d
+			width: 7.0d
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "6FA72BDA58065CFB"
+			dev: false
+			height: 8.0d
+			hover: [ ]
+			image: "miskatonicmysteries:textures/gui/drawings/tattered_prince.png"
+			rotation: 0.0d
+			width: 6.08d
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0B617D45014FE332"
+			dev: false
+			height: 8.0d
+			hover: [ ]
+			image: "miskatonicmysteries:block/octagram/shub_octagram"
+			rotation: 0.0d
+			width: 8.0d
+			x: -8.0d
+			y: 12.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0B617D45014FE332"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/ender_eye"
+			rotation: 0.0d
+			width: 1.0d
+			x: -5.0d
+			y: 12.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0B617D45014FE332"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "miskatonicmysteries:item/oceanic_gold"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 15.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0B617D45014FE332"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:item/ender_pearl"
+			rotation: 0.0d
+			width: 1.0d
+			x: -11.0d
+			y: 12.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0B617D45014FE332"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "things:item/displacement_page"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: 10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "0B617D45014FE332"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "miskatonicmysteries:item/incantation_yog"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: 9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "06562C2C31C20966"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "quest_images:textures/item/ancient_debris.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -11.0d
+			y: -4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "06562C2C31C20966"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "quest_images:textures/item/hastur_statue_gold.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.265714285714296d
+			y: -6.267857142857139d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "06562C2C31C20966"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "miskatonicmysteries:item/yellow_sign_banner_pattern"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "06562C2C31C20966"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "miskatonicmysteries:item/incantation_yog"
+			rotation: 0.0d
+			width: 1.0d
+			x: -8.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "06562C2C31C20966"
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "quest_images:textures/item/oceanic_gold_block.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.158571428571435d
+			y: -4.517857142857146d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "3337360BBAA0C080"
+			dev: false
+			height: 8.0d
+			hover: [ ]
+			image: "miskatonicmysteries:textures/gui/drawings/feaster.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: -8.0d
+			y: -15.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "06562C2C31C20966"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "mythicmetals:item/armor/midas_gold_helmet"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.69428571428572d
+			y: -6.196428571428569d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "06562C2C31C20966"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "spectrum:item/neolith"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.357142857142861d
+			y: -2.8035714285714306d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "06562C2C31C20966"
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "kubejs:item/aquarium_diamond"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.678571428571423d
+			y: -2.8035714285714306d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Можно купить в деревнях у &eвассалов&r или у &5странствующего торговца&r. "
+				""
+				"Весь мод очень хорошо описан, у вас не должно возникнуть проблем с получением информации с этой книжкой."
+				""
+				"&c&l&nРекомендуется прочитать все доступные вам страницы!&r&r&r"
+			]
+			id: "5ED4C88D6C8CAE1E"
+			shape: "gear"
+			tasks: [{
+				id: "77F51177CB6A04E7"
+				item: "miskatonicmysteries:necronomicon"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5ED4C88D6C8CAE1E"]
+			description: ["Открывает способность накладывать заклинания на группу существ."]
+			hide: true
+			id: "3327810F2D77CC56"
+			shape: "circle"
+			size: 0.8d
+			subtitle: "Можно купить у странствующего торговца "
+			tasks: [{
+				id: "7EF21002281A05E0"
+				item: "miskatonicmysteries:cirrhosus_flesh"
+				type: "item"
+			}]
+			x: -7.6d
+			y: 7.1d
+		}
+		{
+			dependencies: ["35A4525202DFF961"]
+			description: [
+				"Можно купить у странствующего торговца  "
+				""
+				"Можно купить у Вассала"
+				""
+				"Позволяет открыть использование заклинаний как стрелу (проджектайл)"
+			]
+			hide: true
+			id: "21097A489C4AACB1"
+			shape: "diamond"
+			size: 0.8d
+			tasks: [{
+				id: "2F03DD5378FDCEE4"
+				item: "miskatonicmysteries:the_orb"
+				type: "item"
+			}]
+			x: -6.356190476190484d
+			y: 4.0095238095238095d
+		}
+		{
+			dependencies: ["35A4525202DFF961"]
+			description: [
+				"Можно купить у странствующего торговца  "
+				""
+				"Можно купить у вассала"
+			]
+			hide: true
+			id: "792FD9BACA43CC9D"
+			shape: "diamond"
+			size: 0.8d
+			tasks: [{
+				count: 8L
+				id: "5FCF6109AEF1CA90"
+				item: "miskatonicmysteries:oceanic_gold_block"
+				type: "item"
+			}]
+			x: -5.956190476190484d
+			y: 3.609523809523809d
+		}
+		{
+			dependencies: ["35A4525202DFF961"]
+			description: ["Более подробнее прочтите в книге как только вам откроется информация, это как никак, небольшой секрет!"]
+			hide: true
+			id: "2713E99A752398D4"
+			shape: "diamond"
+			size: 0.8d
+			subtitle: "Можно купить у вассала в деревнях"
+			tasks: [{
+				id: "15A59C3D32C973AB"
+				item: "miskatonicmysteries:hastur_bell"
+				type: "item"
+			}]
+			x: -10.027619047619048d
+			y: 3.5547619047619055d
+		}
+		{
+			dependencies: ["35A4525202DFF961"]
+			description: ["Оккультная одежда"]
+			hide: true
+			id: "5EBB19BC3428B26C"
+			shape: "diamond"
+			size: 0.8d
+			subtitle: "Можно купить у вассала в деревнях"
+			tasks: [
+				{
+					id: "004F00A3D995B462"
+					item: {
+						Count: 1b
+						id: "miskatonicmysteries:yellow_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C1D97E55FD11C49"
+					item: {
+						Count: 1b
+						id: "miskatonicmysteries:yellow_robe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2FFA160D2AC99926"
+					item: {
+						Count: 1b
+						id: "miskatonicmysteries:yellow_skirt"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -9.627619047619048d
+			y: 3.954761904761905d
+		}
+		{
+			dependencies: ["35A4525202DFF961"]
+			description: ["Можно купить у вассала"]
+			hide: true
+			id: "1F592EE106CF3A0E"
+			shape: "diamond"
+			size: 0.8d
+			tasks: [{
+				id: "07F7652C53D36D56"
+				item: {
+					Count: 1b
+					id: "miskatonicmysteries:ornate_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.356190476190484d
+			y: 3.209523809523809d
+		}
+		{
+			dependencies: [
+				"2B766E494F49C0E6"
+				"4A384EA7B1E04203"
+			]
+			description: [
+				"Проведите ритуал &9создания статуи&r, статуя &nбудет привязана к создателю ритуала&r."
+				""
+				"Для ритуала понадобиться часть вашей &l&4жизненной энергии&r&r!"
+			]
+			hide: true
+			id: "1403AC2B841FD215"
+			tasks: [
+				{
+					id: "799F431212B43388"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:terracotta"
+						}
+					}
+					title: "Any #minecraft:terracotta"
+					type: "item"
+				}
+				{
+					id: "2CC65CFB0762D077"
+					item: "minecraft:yellow_dye"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1552AA98AD32EEDF"
+					item: "miskatonicmysteries:iridescent_pearl"
+					type: "item"
+				}
+				{
+					id: "20003B9A046E170F"
+					item: "miskatonicmysteries:oceanic_gold"
+					type: "item"
+				}
+				{
+					id: "0F4E69562741673B"
+					item: "minecraft:clay"
+					type: "item"
+				}
+				{
+					id: "719258DE3CBC6524"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "spectrum:pigments"
+						}
+					}
+					title: "Any #spectrum:pigments"
+					type: "item"
+				}
+				{
+					id: "477E31FB6FA7FFA9"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "bewitchment:barks"
+						}
+					}
+					title: "Any #bewitchment:barks"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5ED4C88D6C8CAE1E"]
+			description: [
+				"На первый взгляд - неприметный алтарь, но если на него установить &5некрономикон&r - он превращается в инструмент &5колдовства&r! "
+				""
+				"Когда в алтаре лежит &5некрономикон&r вы можете создать заклинания, объединив само &l&cзаклинание&r&r с целью, &c&lна кого&r&r вы можете его наложить, далее вы можете выбрать &l&cсилу заклинания&r&r и записать его в книгу."
+				""
+				"Имейте ввиду, на первых стадиях развития вам доступны &eне все заклинания&r и не &cвсе цели для заклинаний&r, а так же вы не можете раскидываться силой заклинаний, далее, когда вы будете получать &eблагословление высших существ&r, вы сможете делать больше/сильнее заклинания.  "
+				""
+				"Чтобы забрать некрономикон используйте &9Shift + ПКМ&r."
+				""
+				"На алтарь можно класть другие книги для &3декорации&r! "
+			]
+			hide: true
+			id: "107412EDFB3E077C"
+			tasks: [{
+				id: "200AA05A205EAA7E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "miskatonicmysteries:altars"
+					}
+				}
+				title: "Any #miskatonicmysteries:altars"
+				type: "item"
+			}]
+			title: "Altar?"
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1403AC2B841FD215"]
+			description: ["Отдай статую &eвассалу&r"]
+			hide: true
+			id: "06562C2C31C20966"
+			tasks: [{
+				advancement: "miskatonicmysteries:hastur/hare_rama"
+				criterion: ""
+				id: "4AEBC993FF43A4A1"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5ED4C88D6C8CAE1E"]
+			description: ["Можно найти в &9иглу&r, в &9библиотеке стронгхолда&r и &9ванильных данжах с спавнером&r."]
+			hide: true
+			id: "65254EC70059EB10"
+			shape: "circle"
+			size: 0.8d
+			tasks: [{
+				id: "1385B1CA6F3F9E3D"
+				item: "miskatonicmysteries:incantation_yog"
+				type: "item"
+			}]
+			x: -8.4d
+			y: 7.1d
+		}
+		{
+			dependencies: ["5ED4C88D6C8CAE1E"]
+			description: ["Найдите поклонников культа &eжёлтой религии&r в деревнях!"]
+			hide: true
+			id: "35A4525202DFF961"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "miskatonicmysteries:yellow_hood"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7E8B2718758DE4C3"
+				observe_type: 5
+				timer: 0L
+				to_observe: "miskatonicmysteries:hastur_cultist"
+				type: "observation"
+			}]
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5ED4C88D6C8CAE1E"]
+			description: [
+				"Большинство ритуалов требуют правильный порядок расположения предметов, так же, некоторые оккультные декорации повышают &5стабильность ритуалов&r!"
+				""
+				"Но имейте ввиду, если вы будете использовать оккультную символику другого высшего существа чем ваш круг - стабильность наоборот &cбудет падать&r!"
+				""
+				"В некоторых ритуалах могут потребоваться подготовления, например, &cжертва&r живого существа, например &cсвинья&r, &eигрок&r либо же &9лист с привязанными координатами&r! "
+				""
+				"Так же существуют &8ритуалы-ловушки&r, которые сработают только после того, как на него наступит какое-нибудть &cсущество&r!"
+			]
+			hide: true
+			id: "0B617D45014FE332"
+			tasks: [{
+				id: "5C3D3CF2FE55AC3A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "miskatonicmysteries:chalks"
+					}
+				}
+				title: "Any #miskatonicmysteries:chalks"
+				type: "item"
+			}]
+			title: "Rituals"
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["35A4525202DFF961"]
+			description: ["Можно использовать в ткацком столе, меняя узор флагам "]
+			hide: true
+			id: "307EB635F0650331"
+			shape: "diamond"
+			size: 0.8d
+			subtitle: "Можно купить у вассала в деревнях"
+			tasks: [{
+				id: "31E90A9755E836E2"
+				item: "miskatonicmysteries:yellow_sign_banner_pattern"
+				type: "item"
+			}]
+			x: -9.627619047619048d
+			y: 3.154761904761905d
+		}
+		{
+			dependencies: ["35A4525202DFF961"]
+			description: ["Необходимая Октограмма"]
+			hide: true
+			id: "2B766E494F49C0E6"
+			tasks: [{
+				id: "38999EDEC1FC7745"
+				item: {
+					Count: 1b
+					id: "miskatonicmysteries:hastur_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["06562C2C31C20966"]
+			description: [
+				"Ритуал «&eЗолотой Коронации&r» "
+				""
+				"Необходимо принести кого-то в &cжерту&r, а так же &eгруппа крепостных&r! (Более подробнее можно прочитать в &6REI&r)"
+			]
+			hide: true
+			id: "563A65DD88363232"
+			tasks: [
+				{
+					id: "1EAA3BB5D8AF6722"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					id: "062F12E9016ADBC4"
+					item: "miskatonicmysteries:yellow_sign_banner_pattern"
+					type: "item"
+				}
+				{
+					id: "439824B8F6065A7B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "miskatonicmysteries:oceanic_gold_blocks"
+						}
+					}
+					title: "Any #miskatonicmysteries:oceanic_gold_blocks"
+					type: "item"
+				}
+				{
+					id: "7B0F33929E116234"
+					item: "miskatonicmysteries:hastur_statue_stone"
+					type: "item"
+				}
+				{
+					id: "1F873F2E7C45EFBA"
+					item: "miskatonicmysteries:incantation_yog"
+					type: "item"
+				}
+				{
+					id: "1260D73E6E058C81"
+					item: "kubejs:aquarium_diamond"
+					type: "item"
+				}
+				{
+					id: "329709E05D1B7D7C"
+					item: "spectrum:neolith"
+					type: "item"
+				}
+				{
+					id: "22B43A7CBAE0E47D"
+					item: {
+						Count: 1b
+						id: "mythicmetals:midas_gold_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Golden Coronation"
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["563A65DD88363232"]
+			description: ["Получите &6благословление&r от &eпринца&r!"]
+			hide: true
+			hide_dependency_lines: true
+			id: "6FA72BDA58065CFB"
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				advancement: "miskatonicmysteries:hastur/inner_light"
+				criterion: ""
+				id: "7A1CE4EA22ED2738"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["35A4525202DFF961"]
+			description: ["&9С шансом&r из пшеницы может вырасти &8зараженная пшеница&r, так же используя &8зараженную пшеницу&r - можно &8заражать&r другую пшеницу в радиусе, которая уже выросла!"]
+			hide: true
+			id: "4A384EA7B1E04203"
+			tasks: [{
+				id: "5C3F04B186A5A380"
+				item: "miskatonicmysteries:infested_wheat"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6FA72BDA58065CFB"]
+			description: [
+				"Пора бы собраться с &eкультом&r и создать &lпраздник&r!"
+				""
+				"Получив эффект «&l&2Герой деревни&r&r» Нажмите &lПКМ&r на &eколокол&r. "
+				""
+				"Вам необходимо собрать всех! &3Жителей&r, &eвассалов&r, &e&lпринца&r&r!"
+				""
+				"Вам так же понадобится &5салют&r и &bмузыкальное сопровождение&r, возможно вам так же понадобится каким-то образом «&m&dрасслабить&r»&r &3жителей&r. "
+				""
+				"От количества &2&nхорошего настроения&r&r зависит &nрезультат&r &l&6золотого сбора&r&r и вашего &6благословления&r от &l&eпринца&r&r! "
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "6AB087ACC39D4DD0"
+			tasks: [
+				{
+					id: "0DC60B60E6EE228A"
+					item: "minecraft:jukebox"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2B71FA0F16ABC328"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+			]
+			title: "&6Golden gathering"
+			x: -8.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["6AB087ACC39D4DD0"]
+			hide: true
+			id: "0C043EB28D4F969A"
+			tasks: [{
+				advancement: "miskatonicmysteries:hastur/peace_and_love"
+				criterion: ""
+				id: "2E7FB98868FAE75C"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6FA72BDA58065CFB"]
+			description: [
+				"Ритуал призыва &3Byakhee&r - летающий питомец которого необходимо &2приручить&r!"
+				""
+				"Ритуалу необходима &cжертва&r!"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "6A13992AFC5CBBE2"
+			shape: "gear"
+			tasks: [
+				{
+					id: "5231AEF5A2B48A6B"
+					item: "miskatonicmysteries:oceanic_gold_block"
+					type: "item"
+				}
+				{
+					id: "4B6653459C42BAC7"
+					item: "miskatonicmysteries:incantation_yog"
+					type: "item"
+				}
+				{
+					id: "3801C26FB32F9CEE"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "74B4E2BB8E25EFD6"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+				{
+					id: "63E483DDE396B87B"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "46C9D5FB12914107"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			title: "Byakhee"
+			x: -15.158571428571435d
+			y: -3.732142857142854d
+		}
+		{
+			dependencies: ["0C043EB28D4F969A"]
+			description: ["Более подробнее прочти в книге!"]
+			hide: true
+			id: "6EDBF4A36BBD1674"
+			shape: "diamond"
+			tasks: [{
+				id: "645363E1DECC1A1B"
+				item: "miskatonicmysteries:enchanted_canvas"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["0B617D45014FE332"]
+			description: [
+				"Ритуал «&eОткрытие пути&r» — позволяет связать две октограммы друг с другом, чтобы можно было &9перемещаться&r по ним, не важно в каких мирах стоят октограммы, &cсвязь позволит перемещаться между мирами и любым количеством блоков&r. Вы так же сможете переместить &nлюбых существ&r через октограмму. "
+				""
+				"Вам так же понадобится «&eIncantation of the Gate-and-Key&r» привязанный к второй октограмме."
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:item/singularity/quadrillum_singularity"
+				}
+			}
+			id: "431BB5476F438482"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "223B588BD0D301D6"
+				type: "checkmark"
+			}]
+			title: "Open Gate"
+			x: -8.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["6FA72BDA58065CFB"]
+			description: ["Ритуал «&8Создания Шедевра&r» позволяет зафиксировать&c жертву&r, цель в этом ритулае &nне сможет&r &e&lдвигаться&r,&r а чтобы смогла - необходимо её &cубить&r."]
+			hide: true
+			hide_dependency_lines: true
+			id: "7BD7495188DCB3C5"
+			shape: "gear"
+			tasks: [
+				{
+					count: 2L
+					id: "5E7CBEB2E380D4A5"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "36509B13B2AACA5A"
+					item: "minecraft:blackstone"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "45896990C8769027"
+					item: "minecraft:deepslate"
+					type: "item"
+				}
+				{
+					id: "3B40361C96B95489"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "700858F8E1EA0F73"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
+			x: -1.0347619047619006d
+			y: -7.746428571428581d
+		}
+		{
+			dependencies: ["0C043EB28D4F969A"]
+			description: [
+				"Вам необходимо создать &eСимулякр&r!"
+				""
+				"В процессе выполнения ритуала &nнеобходимо быть в &3безопасности&r&r, &mа так же прочитать правила игры в судоку&r."
+				""
+				"После выполнения ритуала ваш биом в определенном радиусе превратится в новый, &6золотой&r (в будущем его можно вернуть обратно в привычный)"
+				""
+				"Для вызвоа симулякр необходимо:"
+				""
+				"• Структура."
+				"• 3 жёлтых последователя."
+				"• Принц."
+			]
+			id: "720DD169BC8B356A"
+			tasks: [
+				{
+					id: "17279EDD540A8D32"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "miskatonicmysteries:hastur_statues"
+						}
+					}
+					title: "Any #miskatonicmysteries:hastur_statues"
+					type: "item"
+				}
+				{
+					id: "49103AC87DF40138"
+					item: "miskatonicmysteries:oceanic_gold_tiles"
+					type: "item"
+				}
+				{
+					id: "0B16AE0572F769FD"
+					item: "miskatonicmysteries:incantation_yog"
+					type: "item"
+				}
+				{
+					id: "2E9722137E5F7895"
+					item: "miskatonicmysteries:yellow_sign_banner_pattern"
+					type: "item"
+				}
+				{
+					id: "19ED84B6C6C70DC5"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "2DE3F42A7C36D2EC"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					id: "66232B3192A64925"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "4A0ADC40C637FAB5"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4C3B8C4B1C18E73E"
+					item: "minecraft:stone_bricks"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "019F3AD67D0F0863"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "miskatonicmysteries:murals"
+						}
+					}
+					optional_task: true
+					title: "Any #miskatonicmysteries:murals"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "463E99DC3DEAD904"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "miskatonicmysteries:hastur_statues"
+						}
+					}
+					optional_task: true
+					title: "Any #miskatonicmysteries:hastur_statues"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["720DD169BC8B356A"]
+			description: [
+				"Впустив в миру &eсимулякр&r, вы получите множество баффов в зоне действия &eсимулякры&r:"
+				""
+				"• жители будут давать вам большую &9скидку&r, при торговле с ними."
+				"• Существа которые не поклоняются Хатсуру будут получать &8дебаффы&r, так же они будут испытывать &8проблемы со сном&r."
+				"• Ваша &5магия усилится&r в зоне действия симулякры."
+				"• Все &5ритуалы&r которые не относятся к &eХатсуру&r будут практически &5всегда нестабильными&r, октограммы &eХатсура&r же будут практически всегда &2стабильны&r."
+				""
+				"Чтобы расширить зону действия симулякры - постройте &3обелиск&r и нажмите на нижний его блок книгой ПКМ."
+			]
+			id: "3337360BBAA0C080"
+			tasks: [{
+				advancement: "miskatonicmysteries:hastur/jai_guru"
+				criterion: ""
+				id: "6EF7C4EB0A2B513D"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["3337360BBAA0C080"]
+			hide: true
+			hide_dependency_lines: true
+			id: "6FE08F702475A448"
+			shape: "gear"
+			tasks: [
+				{
+					id: "0DEF47163BC7B0AC"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "79DFF9968D272DE6"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					id: "50F870E841F06677"
+					item: "miskatonicmysteries:warded_paper"
+					type: "item"
+				}
+				{
+					id: "2DD8400511B358E8"
+					item: "miskatonicmysteries:incantation_yog"
+					type: "item"
+				}
+				{
+					id: "6F9F0C27F7427BB0"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "56F28C435B570DFE"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					id: "15797C7E6A954FC7"
+					item: {
+						Count: 1b
+						id: "miskatonicmysteries:yog_chalk"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Clearing Simulacra"
+			x: -7.918775510204078d
+			y: -17.79081632653061d
+		}
+	]
+	title: "MM: Necronomicon"
+}
