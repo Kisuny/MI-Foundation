@@ -1939,7 +1939,11 @@
 		}
 		{
 			dependencies: ["004209D0C8DC9348"]
-			description: ["Basic mean of quartz charging."]
+			description: [
+				"Basic mean of quartz charging."
+				""
+				"&e&nAlso this block is workstation for villagers!&r&r"
+			]
 			id: "43DBB5ABDDA13B56"
 			rewards: [{
 				count: 8

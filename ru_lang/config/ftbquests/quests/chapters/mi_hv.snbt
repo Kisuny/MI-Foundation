@@ -1687,7 +1687,7 @@
 				item: "neepmeat:vsc"
 				type: "item"
 			}]
-			x: 21.5d
+			x: 21.0d
 			y: -7.5d
 		}
 		{
@@ -1732,8 +1732,8 @@
 				item: "neepmeat:advanced_motor"
 				type: "item"
 			}]
-			x: 22.5d
-			y: -7.5d
+			x: 22.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["31A8F255FCF26853"]
@@ -1751,8 +1751,8 @@
 				item: "neepmeat:charnel_compactor"
 				type: "item"
 			}]
-			x: 21.0d
-			y: -1.0d
+			x: 18.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["50BBE26EED91D3A6"]
@@ -1778,8 +1778,8 @@
 				item: "neepmeat:integration_charge_crude"
 				type: "item"
 			}]
-			x: 23.5d
-			y: -1.0d
+			x: 22.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6F57E0A9A28BAD87"]
@@ -1817,8 +1817,8 @@
 				item: "neepmeat:work_fluid_bucket"
 				type: "item"
 			}]
-			x: 23.0d
-			y: 0.0d
+			x: 22.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3C94F0661744AF8D"]
@@ -1856,8 +1856,8 @@
 				item: "neepmeat:charged_work_fluid_bucket"
 				type: "item"
 			}]
-			x: 23.0d
-			y: 1.0d
+			x: 22.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -1897,7 +1897,7 @@
 				type: "item"
 			}]
 			x: 25.5d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["13903B3EDE72AF63"]
@@ -1924,7 +1924,7 @@
 				type: "item"
 			}]
 			x: 27.0d
-			y: -1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["13903B3EDE72AF63"]
@@ -1951,7 +1951,7 @@
 				type: "item"
 			}]
 			x: 26.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["13903B3EDE72AF63"]
@@ -1989,7 +1989,7 @@
 				type: "item"
 			}]
 			x: 24.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["01E0472DFDDDF2F1"]
@@ -2016,7 +2016,7 @@
 				type: "item"
 			}]
 			x: 24.5d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["13903B3EDE72AF63"]
@@ -2047,7 +2047,7 @@
 				type: "item"
 			}]
 			x: 25.5d
-			y: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2AC0E79728F4AA45"]
@@ -2344,13 +2344,15 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 0.8d
 			tasks: [{
 				id: "66CD15C9C4DE0394"
 				item: "travelstaff:travel_anchor"
 				type: "item"
 			}]
-			x: 21.0d
-			y: -3.5d
+			x: 20.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["737AFCC9E50FBD22"]
@@ -2385,7 +2387,7 @@
 				item: "neepmeat:machine_block"
 				type: "item"
 			}]
-			x: 23.5d
+			x: 24.0d
 			y: -3.0d
 		}
 		{
@@ -2403,7 +2405,7 @@
 				item: "neepmeat:meat_steel_machine_block"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 24.5d
 			y: -4.0d
 		}
 		{
@@ -2515,7 +2517,7 @@
 				item: "neepmeat:blood_bubble_machine_block"
 				type: "item"
 			}]
-			x: 23.0d
+			x: 23.5d
 			y: -4.0d
 		}
 		{
@@ -2533,7 +2535,7 @@
 				item: "neepmeat:integration_port"
 				type: "item"
 			}]
-			x: 24.0d
+			x: 24.5d
 			y: -2.0d
 		}
 		{
@@ -3302,6 +3304,80 @@
 			}]
 			x: 27.029761904761898d
 			y: -13.624999999999979d
+		}
+		{
+			dependencies: ["09E537E574ED829F"]
+			description: ["Может автоматически разогревать печи, используя сосудистую энергию. Также если вместо него установить мультибак, он будет нагревать воду и пастеризовать молоко. Коэффициент преобразования воды в пар более эффективен, чем в других котлах."]
+			id: "7806B56E395A265B"
+			tasks: [{
+				id: "67675832BC04EE26"
+				item: "neepmeat:heater"
+				type: "item"
+			}]
+			x: 23.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"1A930173D3C4A83E"
+				"1ADE44FAAC0EB496"
+			]
+			description: ["Кабели данных позволяют передавать данные, визуализировать и передавать сигналы вручную. Все необходимые описания можно найти, нажав SHIFT."]
+			id: "69C354895DA81FF9"
+			subtitle: "Системный администратор"
+			tasks: [
+				{
+					id: "040357DB2619CC43"
+					item: "neepmeat:networking_tool"
+					type: "item"
+				}
+				{
+					id: "0A03D68ED3B254AB"
+					item: "neepmeat:slider"
+					type: "item"
+				}
+				{
+					id: "197EB2E895183AC0"
+					item: "neepmeat:vertical_gauge"
+					type: "item"
+				}
+				{
+					id: "6FA026DD927DBAB7"
+					item: "neepmeat:redstone_transducer"
+					type: "item"
+				}
+			]
+			x: 21.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["737AFCC9E50FBD22"]
+			id: "2F1CA093BC5D61B8"
+			rewards: [{
+				count: 2
+				id: "1237ACDFB282D77F"
+				item: "neepmeat:farming_scutter"
+				type: "item"
+			}]
+			subtitle: "Пылесос"
+			tasks: [{
+				id: "6B21E5825774AD8A"
+				item: "neepmeat:farming_scutter"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["13903B3EDE72AF63"]
+			id: "13C24D7F70520874"
+			tasks: [{
+				id: "53D7C59EB25B6B74"
+				item: "neepmeat:bottler"
+				type: "item"
+			}]
+			x: 24.5d
+			y: -0.5d
 		}
 	]
 	title: "&7Space program | HV"

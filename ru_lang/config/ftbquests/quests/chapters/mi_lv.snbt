@@ -1122,32 +1122,6 @@
 		}
 		{
 			dependencies: ["283D320D84F5DA27"]
-			description: ["Позволяет автоматически крафтить предметы. Также является основной станцией для крафта продвинутых редстоун компонент."]
-			id: "332119345C45976C"
-			rewards: [
-				{
-					id: "68E0430A64796115"
-					item: "kubejs:mid_lootbag_uncommon"
-					type: "item"
-				}
-				{
-					count: 32
-					id: "5371A834162F5E6F"
-					item: "minecraft:redstone"
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			tasks: [{
-				id: "6F02076E7CAB5E07"
-				item: "wiredredstone:redstone_assembler"
-				type: "item"
-			}]
-			x: 14.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["332119345C45976C"]
 			id: "17FE01EEA624616A"
 			rewards: [
 				{
@@ -1180,8 +1154,8 @@
 				item: "wiredredstone:red_alloy_wire"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 8.0d
+			x: 13.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["17FE01EEA624616A"]
@@ -1225,8 +1199,8 @@
 				type: "item"
 			}]
 			title: "Изоляяяция."
-			x: 14.0d
-			y: 8.5d
+			x: 12.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["2967C78F538C5ECD"]
@@ -1270,8 +1244,8 @@
 				item: "wiredredstone:bundled_cable"
 				type: "item"
 			}]
-			x: 15.0d
-			y: 8.5d
+			x: 13.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
@@ -1377,7 +1351,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["332119345C45976C"]
+			dependencies: ["283D320D84F5DA27"]
 			id: "0845A204BA15A1F5"
 			rewards: [
 				{
@@ -1445,7 +1419,7 @@
 				}
 			]
 			title: "Редстоун компоненты"
-			x: 16.0d
+			x: 14.5d
 			y: 7.0d
 		}
 		{
@@ -1490,7 +1464,7 @@
 				item: "wiredredstone:gate_projector_simple"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 14.5d
 			y: 4.0d
 		}
 		{
@@ -1534,7 +1508,7 @@
 				item: "wiredredstone:gate_diode"
 				type: "item"
 			}]
-			x: 18.5d
+			x: 17.0d
 			y: 6.0d
 		}
 		{
@@ -1578,7 +1552,7 @@
 				item: "wiredredstone:gate_and"
 				type: "item"
 			}]
-			x: 19.0d
+			x: 17.5d
 			y: 6.5d
 		}
 		{
@@ -1622,7 +1596,7 @@
 				item: "wiredredstone:gate_or"
 				type: "item"
 			}]
-			x: 19.0d
+			x: 17.5d
 			y: 7.5d
 		}
 		{
@@ -1666,7 +1640,7 @@
 				item: "wiredredstone:gate_nand"
 				type: "item"
 			}]
-			x: 18.5d
+			x: 17.0d
 			y: 7.0d
 		}
 		{
@@ -1705,7 +1679,7 @@
 				item: "wiredredstone:gate_nor"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 16.5d
 			y: 5.5d
 		}
 		{
@@ -1749,7 +1723,7 @@
 				item: "wiredredstone:gate_not"
 				type: "item"
 			}]
-			x: 18.5d
+			x: 17.0d
 			y: 8.0d
 		}
 		{
@@ -1793,7 +1767,7 @@
 				item: "wiredredstone:gate_repeater"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 16.5d
 			y: 8.5d
 		}
 		{
@@ -1837,7 +1811,7 @@
 				item: "wiredredstone:gate_rs_latch"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 18.0d
 			y: 7.0d
 		}
 		{
@@ -1881,7 +1855,7 @@
 				item: "wiredredstone:projection_viewer"
 				type: "item"
 			}]
-			x: 17.2d
+			x: 15.7d
 			y: 4.0d
 		}
 		{
@@ -1924,7 +1898,7 @@
 				item: "wiredredstone:redstone_projector_cathode"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 14.5d
 			y: 5.5d
 		}
 		{
@@ -1963,8 +1937,8 @@
 				item: "modern_industrialization:redstone_control_module"
 				type: "item"
 			}]
-			x: 14.535714285714278d
-			y: 9.30357142857143d
+			x: 13.035714285714278d
+			y: 10.30357142857143d
 		}
 		{
 			dependencies: ["47A87645847E6CCE"]
@@ -2150,6 +2124,126 @@
 			}]
 			x: 11.5d
 			y: 5.5d
+		}
+		{
+			dependencies: ["17FE01EEA624616A"]
+			description: ["Извлекает предметы из подключенного инвентаря в систему труб."]
+			id: "368F3DAC34DB0F62"
+			rewards: [
+				{
+					count: 4
+					id: "79D099BD6FD8EE15"
+					item: "moderndynamics:extractor"
+					type: "item"
+				}
+				{
+					id: "0F79602364EC5FC9"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "33B28ECD6956795E"
+				item: "moderndynamics:extractor"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["17FE01EEA624616A"]
+			description: ["Отфильтровывает предметы, проходящие через систему труб."]
+			id: "4C07B7D1E825BC48"
+			rewards: [
+				{
+					count: 4
+					id: "51EE2E4A74FBEFB4"
+					item: "moderndynamics:filter"
+					type: "item"
+				}
+				{
+					id: "12F7EF61B72F238F"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6CC549E9A8BA05CB"
+				item: "moderndynamics:filter"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["54CEC7BE4B675E7C"]
+			description: ["Предметный буфер с &6изменяемым размером&r. Прокрутка колесика мыши изменит вместимость наведенного слота. Имеет блокировку слотов и автовыход."]
+			id: "4A56BD9EB16E1E81"
+			rewards: [{
+				count: 2
+				id: "7221C7F9E0E0C949"
+				item: "kubejs:mid_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 0.8d
+			tasks: [{
+				id: "6F513FBBCED03F46"
+				item: "modern_industrialization:configurable_chest"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["102B8197BB09AAF2"]
+			id: "565616F78D5E4361"
+			rewards: [
+				{
+					count: 16
+					id: "7F32B87E97BF1E2C"
+					item: "moderndynamics:item_pipe"
+					type: "item"
+				}
+				{
+					id: "25C050D3192D0CD4"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6241321E5749E680"
+				item: "moderndynamics:item_pipe"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1AC11A9AAE45A014"]
+			id: "5BF7D1928B40E59A"
+			rewards: [
+				{
+					count: 16
+					id: "68B2C1AB9CE26F0E"
+					item: "moderndynamics:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "5632A68D66DAA3B2"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2B6D385A1187AEAB"
+				item: "moderndynamics:fluid_pipe"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
 		}
 	]
 	title: "&7Electricity | LV"

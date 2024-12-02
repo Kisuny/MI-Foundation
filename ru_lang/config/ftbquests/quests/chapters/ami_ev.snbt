@@ -2486,6 +2486,20 @@
 			x: 27.0d
 			y: 10.5d
 		}
+		{
+			dependencies: ["01A03BFE2F6A21EE"]
+			description: ["Этот имплант позволяет починить любой инструмент, на котором он установлен, поместив его внутрь боттлера и используя эфирное топливо."]
+			id: "73E75B694E058E99"
+			size: 0.8d
+			subtitle: "Восстановление!"
+			tasks: [{
+				id: "1D1A147595259A3D"
+				item: "neepmeat:living_tool_implant"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.5d
+		}
 	]
 	title: "Unlimited power | EV"
 }

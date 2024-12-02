@@ -296,8 +296,8 @@
 				item: "modern_industrialization:electrolyzer"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.0d
+			x: 0.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
@@ -325,8 +325,8 @@
 				item: "modern_industrialization:centrifuge"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.0d
+			x: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -802,7 +802,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 0.5d
+			y: 0.25d
 		}
 		{
 			dependencies: ["73C48D66EDCF4D19"]
@@ -818,7 +818,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -1.0d
+			y: -1.25d
 		}
 		{
 			dependencies: ["11E213A3926FDF66"]
@@ -834,7 +834,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -2.0d
+			y: -2.25d
 		}
 		{
 			dependencies: ["128ECB644D303AF3"]
@@ -883,7 +883,7 @@
 				item: "modern_industrialization:chemical_reactor"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.5d
 			y: 4.0d
 		}
 		{
@@ -911,7 +911,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -3.75d
+			y: -4.0d
 		}
 		{
 			dependencies: ["36449FA11F79E8C6"]
@@ -1924,7 +1924,11 @@
 		}
 		{
 			dependencies: ["004209D0C8DC9348"]
-			description: ["Зарядник, необходим для зарядки истинного кварца"]
+			description: [
+				"Зарядник, необходим для зарядки истинного кварца"
+				""
+				"&e&nТак же этот блок является рабочей станцией для жителей!&r&r"
+			]
 			id: "43DBB5ABDDA13B56"
 			rewards: [{
 				count: 8
@@ -2205,8 +2209,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: 0.5d
+			x: -0.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["66D16ADD44115DC6"]
@@ -2265,12 +2269,20 @@
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
 			id: "4F1F0FC36448816A"
-			rewards: [{
-				count: 128
-				id: "19958BE545A8B6C2"
-				item: "modern_industrialization:item_pipe"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 12
+					id: "19958BE545A8B6C2"
+					item: "modern_industrialization:item_pipe"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1FC7A9789DABF6A1"
+					item: "kubejs:mid_lootbag_rare"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4C8376614E149099"
 				item: "modern_industrialization:item_pipe"
@@ -2282,12 +2294,20 @@
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
 			id: "2D7B50C0A5B7BF13"
-			rewards: [{
-				count: 128
-				id: "05377CA4B911DF8C"
-				item: "modern_industrialization:fluid_pipe"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 12
+					id: "05377CA4B911DF8C"
+					item: "modern_industrialization:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "11BE142A0355DF97"
+					item: "kubejs:mid_lootbag_rare"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "104F8F70298BEC00"
 				item: "modern_industrialization:fluid_pipe"
@@ -2418,8 +2438,8 @@
 				item: "modern_industrialization:manganese_crushed_dust"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.5d
+			x: 3.5d
+			y: 0.25d
 		}
 		{
 			dependencies: ["175C75FDF524874C"]
@@ -2434,8 +2454,8 @@
 				item: "modern_industrialization:manganese_tiny_dust"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -2.0d
+			x: 3.5d
+			y: -2.25d
 		}
 		{
 			dependencies: ["1F9C854252F7DAAF"]
@@ -2461,8 +2481,8 @@
 				item: "modern_industrialization:manganese_dust"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -3.75d
+			x: 3.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["65560ED5F75185CE"]
@@ -2477,8 +2497,8 @@
 				item: "modern_industrialization:manganese_sulfuric_solution_bucket"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.0d
+			x: 3.5d
+			y: -1.25d
 		}
 		{
 			dependencies: ["29BACBBC96847851"]
@@ -2508,7 +2528,95 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F013F8E4DF06E6B"]
+			description: ["Собирает предметы из подключенных инвентарей в системе труб."]
+			id: "1F2FE05F7708D017"
+			rewards: [
+				{
+					count: 4
+					id: "7D287528359AD738"
+					item: "moderndynamics:attractor"
+					type: "item"
+				}
+				{
+					id: "75CB519AA6553343"
+					item: "kubejs:mid_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "068707AA63BE1880"
+				item: "moderndynamics:attractor"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0F013F8E4DF06E6B"]
+			description: ["Оба имеют сложный многоуровневый фильтр предметов по тегам, nbt и т.д."]
+			id: "1E97942B9A558C8E"
+			rewards: [
+				{
+					count: 2
+					id: "5AF7D94F2B3FEE83"
+					item: "neepmeat:advanced_router"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5ECC75B1CDB33459"
+					item: "neepmeat:filtered_ejector"
+					type: "item"
+				}
+				{
+					id: "4207AC8F3CC15251"
+					item: "kubejs:mid_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "303446B5E6BAE6B2"
+					item: "neepmeat:filtered_ejector"
+					type: "item"
+				}
+				{
+					id: "5EC73C318BDA0BE2"
+					item: "neepmeat:advanced_router"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["75E727492D00F748"]
+			description: ["Жидкостный буфер с &6изменяемым размером&r. Прокрутка колесика мыши изменяет размер слота. Имеет автовыход."]
+			id: "630404170E6658B4"
+			rewards: [
+				{
+					count: 16
+					id: "723A0ABE60315C19"
+					item: "modern_industrialization:aluminum_ingot"
+					type: "item"
+				}
+				{
+					id: "6EF76FFF1A181D3B"
+					item: "kubejs:mid_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4DF350F8581B6E1A"
+				item: "modern_industrialization:configurable_tank"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
 		}
 	]
 	title: "&7Industrialization | MV"
