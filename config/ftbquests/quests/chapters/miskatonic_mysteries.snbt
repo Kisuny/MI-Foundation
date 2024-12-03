@@ -273,6 +273,11 @@
 			description: ["Открывает способность накладывать заклинания на группу существ."]
 			hide: true
 			id: "3327810F2D77CC56"
+			rewards: [{
+				id: "40D1545584C4BE6F"
+				item: "kubejs:magic_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 0.8d
 			subtitle: "Можно купить у странствующего торговца "
@@ -420,6 +425,11 @@
 			]
 			hide: true
 			id: "1403AC2B841FD215"
+			rewards: [{
+				id: "15A5D91ABBC69291"
+				item: "kubejs:magic_lootbag_uncommon"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "799F431212B43388"
@@ -532,6 +542,12 @@
 			description: ["Можно найти в &9иглу&r, в &9библиотеке стронгхолда&r и &9ванильных данжах с спавнером&r."]
 			hide: true
 			id: "65254EC70059EB10"
+			rewards: [{
+				count: 2
+				id: "445A4CDFA74C95F1"
+				item: "kubejs:magic_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
@@ -547,6 +563,11 @@
 			description: ["Найдите поклонников культа &eжёлтой религии&r в деревнях!"]
 			hide: true
 			id: "35A4525202DFF961"
+			rewards: [{
+				id: "20128340409AEC37"
+				item: "kubejs:magic_lootbag_uncommon"
+				type: "item"
+			}]
 			tasks: [{
 				icon: {
 					Count: 1b
@@ -637,6 +658,11 @@
 			]
 			hide: true
 			id: "563A65DD88363232"
+			rewards: [{
+				id: "53F082BB7AE4C1B5"
+				item: "kubejs:magic_lootbag_rare"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "1EAA3BB5D8AF6722"
@@ -742,6 +768,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "6AB087ACC39D4DD0"
+			rewards: [{
+				id: "2D2BB1F9A4D075A6"
+				item: "kubejs:magic_lootbag_rare"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0DC60B60E6EE228A"
@@ -782,6 +813,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "6A13992AFC5CBBE2"
+			rewards: [{
+				id: "3C0A5CA6C9872F8D"
+				item: "kubejs:magic_lootbag_rare"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [
 				{
@@ -825,6 +861,11 @@
 			description: ["Более подробнее прочти в книге!"]
 			hide: true
 			id: "6EDBF4A36BBD1674"
+			rewards: [{
+				id: "39E621FEAC12CEFF"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "645363E1DECC1A1B"
@@ -851,12 +892,44 @@
 				}
 			}
 			id: "431BB5476F438482"
+			rewards: [{
+				id: "5939AB2FC1C961F3"
+				item: "kubejs:magic_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
-			tasks: [{
-				id: "223B588BD0D301D6"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "223B588BD0D301D6"
+					type: "checkmark"
+				}
+				{
+					id: "51438A3154399D4B"
+					item: "miskatonicmysteries:oceanic_gold"
+					type: "item"
+				}
+				{
+					id: "301CE51B5EF3DB88"
+					item: "miskatonicmysteries:incantation_yog"
+					type: "item"
+				}
+				{
+					id: "3C52D35D8B28B46E"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "6D92F5DB20CABF30"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					id: "5C54DB6BA327BC9D"
+					item: "things:displacement_page"
+					type: "item"
+				}
+			]
 			title: "Open Gate"
 			x: -8.0d
 			y: 12.5d
@@ -867,6 +940,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "7BD7495188DCB3C5"
+			rewards: [{
+				id: "71D167AD43C89A83"
+				item: "kubejs:magic_lootbag_rare"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [
 				{
@@ -917,6 +995,11 @@
 				"• Принц."
 			]
 			id: "720DD169BC8B356A"
+			rewards: [{
+				id: "282F43CFA50759B5"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "17279EDD540A8D32"
@@ -946,23 +1029,8 @@
 					type: "item"
 				}
 				{
-					id: "19ED84B6C6C70DC5"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-				{
-					id: "2DE3F42A7C36D2EC"
-					item: "minecraft:ancient_debris"
-					type: "item"
-				}
-				{
 					id: "66232B3192A64925"
 					item: "minecraft:nether_star"
-					type: "item"
-				}
-				{
-					id: "4A0ADC40C637FAB5"
-					item: "minecraft:emerald"
 					type: "item"
 				}
 				{
@@ -1000,6 +1068,21 @@
 					title: "Any #miskatonicmysteries:hastur_statues"
 					type: "item"
 				}
+				{
+					id: "737B1885DB366450"
+					item: "mythicmetals:durasteel_ingot"
+					type: "item"
+				}
+				{
+					id: "466EFB517D701955"
+					item: "spirit:soul_steel_block"
+					type: "item"
+				}
+				{
+					id: "58066A4F10BCF0B9"
+					item: "bewitchment:bottle_of_blood"
+					type: "item"
+				}
 			]
 			x: -8.0d
 			y: -10.0d
@@ -1017,6 +1100,12 @@
 				"Чтобы расширить зону действия симулякры - постройте &3обелиск&r и нажмите на нижний его блок книгой ПКМ."
 			]
 			id: "3337360BBAA0C080"
+			rewards: [{
+				count: 2
+				id: "2FC4A7997223B297"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "miskatonicmysteries:hastur/jai_guru"
 				criterion: ""
@@ -1028,9 +1117,15 @@
 		}
 		{
 			dependencies: ["3337360BBAA0C080"]
+			description: ["Просто сломать &eсимулякр&r - мало, для того чтобы &cизбваиться&r от неё, чтобы убрать симулякру полность необходимо провести «&2ритуал очищения&r» рядом с ранее активной симулякрой!"]
 			hide: true
 			hide_dependency_lines: true
 			id: "6FE08F702475A448"
+			rewards: [{
+				id: "3EE7115774EA640D"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [
 				{
