@@ -89,6 +89,8 @@ StartupEvents.registry('item', event => {
     simpleItemAdd({ item: 'building_card', stackSize: 1, rarity: 'rare'})
     simpleItemAdd({ item: 'desctruction_card', stackSize: 1, rarity: 'rare'})
     simpleItemAdd({ item: 'exchanging_card', stackSize: 1, rarity: 'rare'})
+    simpleItemAdd({ item: 'demagnetized_magnet_part', stackSize: 16})
+    simpleItemAdd({ item: 'magnet_part', stackSize: 16})
 
     event.create("dev_tool", "pickaxe")
         .texture(`kubejs:item/dev_tool`)
