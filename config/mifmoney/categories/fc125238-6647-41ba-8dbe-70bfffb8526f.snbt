@@ -74,6 +74,15 @@
 			rewardTableId: ""
 			bulkRewardTableId: ""
 		}
+		{
+			id: 8
+			price: 5000L
+			name: "Saplings"
+			questId: ""
+			item: "minecraft:dirt"
+			rewardTableId: "18963511BBAD5EA7"
+			bulkRewardTableId: ""
+		}
 	]
 	render_priority: 1
 }
