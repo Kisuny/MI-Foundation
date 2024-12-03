@@ -4,7 +4,7 @@
 	orders: [
 		{
 			id: 0
-			price: 200L
+			price: 1000L
 			name: ""
 			questId: "47A87645847E6CCE"
 			item: "modern_industrialization:analog_circuit"
@@ -13,7 +13,7 @@
 		}
 		{
 			id: 1
-			price: 1000L
+			price: 5000L
 			name: ""
 			questId: "0F013F8E4DF06E6B"
 			item: "modern_industrialization:electronic_circuit"
@@ -22,7 +22,7 @@
 		}
 		{
 			id: 2
-			price: 7500L
+			price: 37500L
 			name: ""
 			questId: "0379CDF7FB133E48"
 			item: "modern_industrialization:digital_circuit"
@@ -31,7 +31,7 @@
 		}
 		{
 			id: 3
-			price: 20000L
+			price: 100000L
 			name: ""
 			questId: "66A8FB4453F684C9"
 			item: "modern_industrialization:processing_unit"
@@ -40,7 +40,7 @@
 		}
 		{
 			id: 4
-			price: 75000L
+			price: 375000L
 			name: ""
 			questId: "58C877DC86206A23"
 			item: "kubejs:photonic_circuit"
@@ -49,7 +49,7 @@
 		}
 		{
 			id: 5
-			price: 400000L
+			price: 2000000L
 			name: ""
 			questId: "2DA54757A3D7740E"
 			item: "modern_industrialization:quantum_circuit"
@@ -58,7 +58,7 @@
 		}
 		{
 			id: 6
-			price: 200L
+			price: 1000L
 			name: ""
 			questId: "54CEC7BE4B675E7C"
 			item: "modern_industrialization:motor"
@@ -67,7 +67,7 @@
 		}
 		{
 			id: 7
-			price: 300L
+			price: 1500L
 			name: ""
 			questId: "54CEC7BE4B675E7C"
 			item: "modern_industrialization:pump"
@@ -76,7 +76,7 @@
 		}
 		{
 			id: 8
-			price: 1100L
+			price: 5000L
 			name: ""
 			questId: "54CEC7BE4B675E7C"
 			item: "modern_industrialization:robot_arm"
@@ -85,7 +85,7 @@
 		}
 		{
 			id: 9
-			price: 500L
+			price: 2500L
 			name: ""
 			questId: "54CEC7BE4B675E7C"
 			item: "modern_industrialization:conveyor"
@@ -94,7 +94,7 @@
 		}
 		{
 			id: 10
-			price: 400L
+			price: 2000L
 			name: ""
 			questId: "54CEC7BE4B675E7C"
 			item: "modern_industrialization:piston"
@@ -103,7 +103,7 @@
 		}
 		{
 			id: 11
-			price: 3000L
+			price: 15000L
 			name: ""
 			questId: "0F013F8E4DF06E6B"
 			item: "modern_industrialization:large_motor"
@@ -112,7 +112,7 @@
 		}
 		{
 			id: 12
-			price: 6000L
+			price: 30000L
 			name: ""
 			questId: "0F013F8E4DF06E6B"
 			item: "modern_industrialization:large_pump"
@@ -121,7 +121,7 @@
 		}
 		{
 			id: 13
-			price: 500L
+			price: 2500L
 			name: ""
 			questId: "35535A22A83500CC"
 			item: "modern_industrialization:basic_machine_hull"
@@ -130,7 +130,7 @@
 		}
 		{
 			id: 14
-			price: 2000L
+			price: 10000L
 			name: ""
 			questId: "3D1045C0C6B3BA08"
 			item: "modern_industrialization:advanced_machine_hull"
@@ -139,7 +139,7 @@
 		}
 		{
 			id: 15
-			price: 9000L
+			price: 45000L
 			name: ""
 			questId: "2AC0E79728F4AA45"
 			item: "modern_industrialization:turbo_machine_hull"
@@ -148,7 +148,7 @@
 		}
 		{
 			id: 16
-			price: 24000L
+			price: 120000L
 			name: ""
 			questId: "07612BDAA0EFA6E4"
 			item: "modern_industrialization:highly_advanced_machine_hull"
@@ -157,7 +157,7 @@
 		}
 		{
 			id: 17
-			price: 500000L
+			price: 2500000L
 			name: ""
 			questId: "0B96C1E27305CD1E"
 			item: "modern_industrialization:quantum_machine_hull"
@@ -166,7 +166,7 @@
 		}
 		{
 			id: 18
-			price: 1500L
+			price: 75000L
 			name: ""
 			questId: "0FE22B84D5E55D28"
 			item: "modern_industrialization:advanced_motor"
@@ -175,7 +175,7 @@
 		}
 		{
 			id: 19
-			price: 35000L
+			price: 175000L
 			name: ""
 			questId: "0FE22B84D5E55D28"
 			item: "modern_industrialization:large_advanced_motor"
@@ -184,7 +184,7 @@
 		}
 		{
 			id: 20
-			price: 2500L
+			price: 12500L
 			name: ""
 			questId: "0FE22B84D5E55D28"
 			item: "modern_industrialization:advanced_pump"
@@ -202,7 +202,7 @@
 		}
 		{
 			id: 22
-			price: 3000L
+			price: 15000L
 			name: ""
 			questId: "15CA873EB2051888"
 			item: { id: "ae2:sky_dust", Count: 64b }
@@ -211,7 +211,7 @@
 		}
 		{
 			id: 23
-			price: 500L
+			price: 2500L
 			name: ""
 			questId: "1576C225DFC4650C"
 			item: "neepmeat:enlightened_brain"
@@ -220,7 +220,7 @@
 		}
 		{
 			id: 24
-			price: 5000L
+			price: 25000L
 			name: ""
 			questId: "5F3653747EC9ADCF"
 			item: "neepmeat:contractile_actuator"
@@ -229,7 +229,7 @@
 		}
 		{
 			id: 25
-			price: 500L
+			price: 2500L
 			name: ""
 			questId: "58DC31CC3D243DCD"
 			item: "neepmeat:meat_steel_component"
@@ -238,7 +238,7 @@
 		}
 		{
 			id: 26
-			price: 1000L
+			price: 5000L
 			name: ""
 			questId: "1ADE44FAAC0EB496"
 			item: "neepmeat:control_unit"
@@ -256,7 +256,7 @@
 		}
 		{
 			id: 28
-			price: 200L
+			price: 1000L
 			name: ""
 			questId: "4AB7E0D8F1B7390E"
 			item: "neepmeat:blood_bubble_sapling"
@@ -265,7 +265,7 @@
 		}
 		{
 			id: 29
-			price: 50L
+			price: 250L
 			name: ""
 			questId: "6F57E0A9A28BAD87"
 			item: "neepmeat:integration_charge_crude"
@@ -274,7 +274,7 @@
 		}
 		{
 			id: 30
-			price: 1500L
+			price: 7500L
 			name: ""
 			questId: "737AFCC9E50FBD22"
 			item: "neepmeat:internal_components"
@@ -283,7 +283,7 @@
 		}
 		{
 			id: 31
-			price: 300000L
+			price: 1500000L
 			name: ""
 			questId: "0A89D032093A2712"
 			item: "ae2:flawless_budding_quartz"
@@ -292,7 +292,7 @@
 		}
 		{
 			id: 32
-			price: 1000L
+			price: 5000L
 			name: ""
 			questId: "597070AC15C6CF1E"
 			item: {
@@ -305,7 +305,7 @@
 		}
 		{
 			id: 33
-			price: 4000L
+			price: 20000L
 			name: ""
 			questId: "597070AC15C6CF1E"
 			item: {
@@ -318,7 +318,7 @@
 		}
 		{
 			id: 34
-			price: 16000L
+			price: 80000L
 			name: ""
 			questId: "597070AC15C6CF1E"
 			item: {
@@ -331,7 +331,7 @@
 		}
 		{
 			id: 35
-			price: 64000L
+			price: 320000L
 			name: ""
 			questId: "597070AC15C6CF1E"
 			item: {
@@ -344,7 +344,7 @@
 		}
 		{
 			id: 36
-			price: 100L
+			price: 500L
 			name: ""
 			questId: "682EB3FE11EA695F"
 			item: {
@@ -357,7 +357,7 @@
 		}
 		{
 			id: 37
-			price: 4000L
+			price: 20000L
 			name: ""
 			questId: "682EB3FE11EA695F"
 			item: {
@@ -370,7 +370,7 @@
 		}
 		{
 			id: 38
-			price: 16000L
+			price: 80000L
 			name: ""
 			questId: "682EB3FE11EA695F"
 			item: {
@@ -383,7 +383,7 @@
 		}
 		{
 			id: 39
-			price: 64000L
+			price: 320000L
 			name: ""
 			questId: "682EB3FE11EA695F"
 			item: {

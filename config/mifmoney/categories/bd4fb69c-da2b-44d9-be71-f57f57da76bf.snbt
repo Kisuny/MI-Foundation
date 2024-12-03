@@ -4,7 +4,7 @@
 	orders: [
 		{
 			id: 0
-			price: 200000L
+			price: 1000000L
 			name: ""
 			questId: "0FDF4075616DAA33"
 			item: "spectrum:budding_topaz"
@@ -13,7 +13,7 @@
 		}
 		{
 			id: 1
-			price: 200000L
+			price: 1000000L
 			name: ""
 			questId: "0FDF4075616DAA33"
 			item: "spectrum:budding_citrine"
@@ -22,7 +22,7 @@
 		}
 		{
 			id: 2
-			price: 200000L
+			price: 1000000L
 			name: ""
 			questId: "0FDF4075616DAA33"
 			item: "minecraft:budding_amethyst"
@@ -31,7 +31,7 @@
 		}
 		{
 			id: 3
-			price: 200000L
+			price: 1000000L
 			name: ""
 			questId: "21E3A44EA5EDD677"
 			item: "spectrum:budding_onyx"
@@ -40,7 +40,7 @@
 		}
 		{
 			id: 4
-			price: 200000L
+			price: 1000000L
 			name: ""
 			questId: "5E97642FBAAC06F0"
 			item: "spectrum:budding_moonstone"
@@ -49,7 +49,7 @@
 		}
 		{
 			id: 5
-			price: 200L
+			price: 5000L
 			name: ""
 			questId: "073DD25592290A3B"
 			item: "spectrum:paltaeria_fragments"
@@ -58,7 +58,7 @@
 		}
 		{
 			id: 6
-			price: 1500L
+			price: 37500L
 			name: ""
 			questId: "77C55C5FFC84575B"
 			item: "spectrum:storm_stone"
@@ -67,7 +67,7 @@
 		}
 		{
 			id: 7
-			price: 40L
+			price: 1000L
 			name: ""
 			questId: "5D68B3FB8BFFA7F5"
 			item: "spectrum:vegetal"
@@ -76,7 +76,7 @@
 		}
 		{
 			id: 8
-			price: 1500L
+			price: 37500L
 			name: ""
 			questId: "1B8B44ABD0A94E55"
 			item: "spectrum:resonance_shard"
@@ -85,7 +85,7 @@
 		}
 		{
 			id: 9
-			price: 50000L
+			price: 750000L
 			name: ""
 			questId: "7930FF093F85016E"
 			item: "spectrum:moonstone_core"
@@ -94,7 +94,7 @@
 		}
 		{
 			id: 10
-			price: 50000L
+			price: 500000L
 			name: ""
 			questId: "477687E98C19ABAB"
 			item: "spectrum:downstone_fragments"
@@ -103,7 +103,7 @@
 		}
 		{
 			id: 11
-			price: 80L
+			price: 2000L
 			name: ""
 			questId: "4973809A8C9088E0"
 			item: "spectrum:quitoxic_powder"
@@ -112,7 +112,7 @@
 		}
 		{
 			id: 12
-			price: 5000L
+			price: 125000L
 			name: ""
 			questId: "3D28572AD9317891"
 			item: "spectrum:radiating_ender"
@@ -121,7 +121,7 @@
 		}
 		{
 			id: 13
-			price: 3000L
+			price: 75000L
 			name: ""
 			questId: "3B68A7B5A1BB4D44"
 			item: "spectrum:refined_azurite"
@@ -130,7 +130,7 @@
 		}
 		{
 			id: 14
-			price: 350L
+			price: 1750L
 			name: ""
 			questId: "182EBD1105CF57A7"
 			item: "spectrum:neolith"
@@ -139,7 +139,7 @@
 		}
 		{
 			id: 15
-			price: 1250L
+			price: 6250L
 			name: ""
 			questId: "0EBE1EF0925CB824"
 			item: "spectrum:midnight_chip"
@@ -148,7 +148,7 @@
 		}
 		{
 			id: 16
-			price: 625L
+			price: 3125L
 			name: ""
 			questId: "4C8E37AF899961F6"
 			item: "spectrum:bedrock_dust"
@@ -157,7 +157,7 @@
 		}
 		{
 			id: 17
-			price: 20000L
+			price: 100000L
 			name: ""
 			questId: "034F516E1377D547"
 			item: "spectrum:refined_malachite"
@@ -166,7 +166,7 @@
 		}
 		{
 			id: 18
-			price: 5000L
+			price: 25000L
 			name: ""
 			questId: "0B2AE0AB37EEE638"
 			item: "spectrum:dragonbone_chunk"
@@ -175,7 +175,7 @@
 		}
 		{
 			id: 19
-			price: 20000L
+			price: 100000L
 			name: ""
 			questId: "6950DEEA33FD1127"
 			item: "spectrum:refined_bloodstone"
@@ -184,7 +184,7 @@
 		}
 		{
 			id: 20
-			price: 10000L
+			price: 50000L
 			name: "Mystical flowers"
 			questId: "3EAED60DF7CE15EB"
 			item: "botania:white_mystical_flower"
@@ -193,7 +193,7 @@
 		}
 		{
 			id: 21
-			price: 650L
+			price: 3250L
 			name: ""
 			questId: "5E9A8B25A318CD11"
 			item: "botania:mana_powder"
@@ -202,7 +202,7 @@
 		}
 		{
 			id: 22
-			price: 650L
+			price: 3250L
 			name: ""
 			questId: "5E9A8B25A318CD11"
 			item: "botania:manasteel_ingot"
@@ -211,7 +211,7 @@
 		}
 		{
 			id: 23
-			price: 5000L
+			price: 25000L
 			name: ""
 			questId: "5E9A8B25A318CD11"
 			item: "botania:mana_pearl"
@@ -220,7 +220,7 @@
 		}
 		{
 			id: 24
-			price: 5000L
+			price: 25000L
 			name: ""
 			questId: "5E9A8B25A318CD11"
 			item: "botania:mana_diamond"
@@ -229,7 +229,7 @@
 		}
 		{
 			id: 25
-			price: 1250L
+			price: 6250L
 			name: ""
 			questId: "5E9A8B25A318CD11"
 			item: "botania:black_lotus"
@@ -238,7 +238,7 @@
 		}
 		{
 			id: 26
-			price: 1250L
+			price: 6250L
 			name: ""
 			questId: "38FF97ECA70245E8"
 			item: "botania:elementium_ingot"
@@ -247,7 +247,7 @@
 		}
 		{
 			id: 27
-			price: 10000L
+			price: 50000L
 			name: ""
 			questId: "38FF97ECA70245E8"
 			item: "botania:pixie_dust"
@@ -256,7 +256,7 @@
 		}
 		{
 			id: 28
-			price: 10000L
+			price: 50000L
 			name: ""
 			questId: "38FF97ECA70245E8"
 			item: "botania:dragonstone"
@@ -265,7 +265,7 @@
 		}
 		{
 			id: 29
-			price: 50000L
+			price: 250000L
 			name: ""
 			questId: "0FD878AAB9458CE9"
 			item: "botania:terrasteel_ingot"
@@ -274,7 +274,7 @@
 		}
 		{
 			id: 30
-			price: 37500L
+			price: 187500L
 			name: ""
 			questId: "497403F1C4E2B052"
 			item: "botania:life_essence"

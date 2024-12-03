@@ -4,7 +4,7 @@
 	orders: [
 		{
 			id: 0
-			price: 1000L
+			price: 5000L
 			name: "256 woods"
 			questId: ""
 			item: "minecraft:oak_log"
@@ -22,7 +22,7 @@
 		}
 		{
 			id: 2
-			price: 3500L
+			price: 17500L
 			name: ""
 			questId: ""
 			item: "minecraft:netherite_scrap"
@@ -49,7 +49,7 @@
 		}
 		{
 			id: 5
-			price: 5000L
+			price: 25000L
 			name: ""
 			questId: ""
 			item: "minecraft:echo_shard"
@@ -58,7 +58,7 @@
 		}
 		{
 			id: 6
-			price: 150L
+			price: 750L
 			name: ""
 			questId: ""
 			item: "minecraft:prismarine_crystals"
@@ -67,7 +67,7 @@
 		}
 		{
 			id: 7
-			price: 150L
+			price: 750L
 			name: ""
 			questId: ""
 			item: "minecraft:prismarine_shard"

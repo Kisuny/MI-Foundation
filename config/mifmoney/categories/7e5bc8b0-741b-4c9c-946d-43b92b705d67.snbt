@@ -10,7 +10,7 @@
 	orders: [
 		{
 			id: 0
-			price: 100000L
+			price: 500000L
 			name: ""
 			questId: ""
 			item: "fwaystones:waystone_scroll"
@@ -19,7 +19,7 @@
 		}
 		{
 			id: 1
-			price: 100000L
+			price: 500000L
 			name: ""
 			questId: ""
 			item: "bosses_of_mass_destruction:void_thorn"
@@ -28,7 +28,7 @@
 		}
 		{
 			id: 2
-			price: 100000L
+			price: 500000L
 			name: ""
 			questId: ""
 			item: "bosses_of_mass_destruction:obsidian_heart"
@@ -37,7 +37,7 @@
 		}
 		{
 			id: 3
-			price: 100000L
+			price: 500000L
 			name: ""
 			questId: ""
 			item: "bosses_of_mass_destruction:blazing_eye"
@@ -46,7 +46,7 @@
 		}
 		{
 			id: 4
-			price: 100000L
+			price: 500000L
 			name: ""
 			questId: ""
 			item: "bosses_of_mass_destruction:ancient_anima"
@@ -55,7 +55,7 @@
 		}
 		{
 			id: 5
-			price: 100000L
+			price: 250000L
 			name: ""
 			questId: ""
 			item: "simplyswords:runic_tablet"
