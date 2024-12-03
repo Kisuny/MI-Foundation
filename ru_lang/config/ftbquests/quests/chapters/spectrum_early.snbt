@@ -2867,6 +2867,165 @@
 			x: 12.0d
 			y: 8.0d
 		}
+		{
+			dependencies: ["3DF57BBFA9D2DDEA"]
+			id: "4F39BE996ADB9BAD"
+			rewards: [{
+				id: "10FC0523222BDCE3"
+				item: "kubejs:magic_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "62EB74FE88AD9D6B"
+				item: "scout:satchel_strap"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F39BE996ADB9BAD"]
+			description: [
+				"Можно надеть в слот для &3Тринкетов&r, &oмаксимум можно надеть 2&r таких &eрюкзака&r."
+				""
+				"&eРюкзак&r отобразится в инвентаре."
+			]
+			id: "24B1CF7511EC1F64"
+			rewards: [{
+				id: "0BDB3EFA6B11156E"
+				item: "kubejs:magic_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "3BC6B330DB87E3C6"
+				item: {
+					Count: 1b
+					id: "scout:pouch"
+					tag: {
+						Items: [
+							{
+								Slot: 0
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 1
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 2
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4F39BE996ADB9BAD"]
+			description: [
+				"Можно надеть в слот для &3Тринкетов&r, &oмаксимум можно надеть 1&r &eрюкзак&r."
+				""
+				"&eРюкзак&r отобразится в инвентаре."
+			]
+			id: "3E899FD6039DC986"
+			rewards: [{
+				id: "23C7FB69AA8D6924"
+				item: "kubejs:magic_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "20EE44846B529D60"
+				item: {
+					Count: 1b
+					id: "scout:satchel"
+					tag: {
+						Items: [
+							{
+								Slot: 0
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 1
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 2
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 3
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 4
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 5
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 6
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 7
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 8
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
 	]
 	title: "&7Spectrum: &oFirst steps"
 }

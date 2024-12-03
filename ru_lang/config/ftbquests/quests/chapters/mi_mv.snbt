@@ -638,11 +638,32 @@
 				}
 			]
 			size: 1.5d
-			tasks: [{
-				id: "33C15C20D84D3014"
-				item: "modern_industrialization:blast_alloy_smelter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "33C15C20D84D3014"
+					item: "modern_industrialization:blast_alloy_smelter"
+					type: "item"
+				}
+				{
+					count: 41L
+					id: "57999C2008AB1C62"
+					item: "modern_industrialization:heatproof_machine_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "43B91A8AF7178777"
+					item: "modern_industrialization:kanthal_coil"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "40E53ADB4C88B184"
+					item: "modern_industrialization:steel_machine_casing_pipe"
+					type: "item"
+				}
+			]
 			x: -3.75d
 			y: -2.25d
 		}
@@ -2617,6 +2638,29 @@
 			}]
 			x: -8.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["7690F3B47E697F59"]
+			hide: false
+			id: "4E6030B1E54E985B"
+			rewards: [{
+				count: 2
+				id: "7B39E22A29A77D22"
+				item: "kubejs:mid_lootbag_rare"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "3151B03F969AC7E9"
+				item: {
+					Count: 1b
+					id: "simplemagnets:basicmagnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.7857142857142776d
+			y: -3.4464285714285694d
 		}
 	]
 	title: "&7Industrialization | MV"

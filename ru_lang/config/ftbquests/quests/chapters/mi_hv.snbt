@@ -3379,6 +3379,31 @@
 			x: 24.5d
 			y: -0.5d
 		}
+		{
+			dependencies: ["7EF2CD56FEE25DB5"]
+			id: "6BAFC16958577EF5"
+			rewards: [
+				{
+					id: "4D34597B1AACC3E6"
+					item: "kubejs:mid_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "352F4B40F957F4AD"
+					item: "kubejs:mob_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "neepmeat:verrucous_stone_port"
+				id: "4596814A9ED4B362"
+				structure: "neepmeat:verrucous_rock"
+				type: "structure"
+			}]
+			x: 18.0d
+			y: -12.5d
+		}
 	]
 	title: "&7Space program | HV"
 }

@@ -1235,8 +1235,8 @@
 				item: "minecraft:clay"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 0.0d
+			x: 7.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["641B93E0D035568B"]
@@ -3295,6 +3295,263 @@
 			}]
 			x: -3.0d
 			y: -15.5d
+		}
+		{
+			dependencies: ["641B93E0D035568B"]
+			id: "1C48953B178F78A4"
+			rewards: [{
+				count: 2
+				id: "1958C26C387E817F"
+				item: "kubejs:magic_lootbag_rare"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "0F2AE3A78B1D1F54"
+				item: {
+					Count: 1b
+					id: "simplemagnets:advancedmagnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 12.867857142857147d
+			y: 0.9999999999999929d
+		}
+		{
+			dependencies: ["641B93E0D035568B"]
+			id: "51BADD0F8969C2FF"
+			rewards: [{
+				id: "2C906F725853C3C2"
+				item: "kubejs:magic_lootbag_rare"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "3A6633D0E78F7677"
+				item: {
+					Count: 1b
+					id: "scout:upgraded_satchel"
+					tag: {
+						Items: [
+							{
+								Slot: 0
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 1
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 2
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 3
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 4
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 5
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 6
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 7
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 8
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 9
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 10
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 11
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 12
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 13
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 14
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 15
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 16
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 17
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["641B93E0D035568B"]
+			id: "383734F384AB6077"
+			rewards: [{
+				id: "235C77BFCDEBA200"
+				item: "kubejs:magic_lootbag_rare"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "23EF66E2E866479F"
+				item: {
+					Count: 1b
+					id: "scout:upgraded_pouch"
+					tag: {
+						Items: [
+							{
+								Slot: 0
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 1
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 2
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 3
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 4
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 5
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["229FF3A42DB2FFF4"]
+			description: ["Когда используешь &9зелье&r - ты перемещаешься на &eсвою точку спавна&r, зелье при это &cиспользуется&r. "]
+			id: "12A19865CD8BD23E"
+			rewards: [{
+				count: 2
+				id: "1BA2B5599A852608"
+				item: "things:recall_potion"
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "19CA0D603436EA56"
+				item: "things:recall_potion"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
 		}
 	]
 	title: "&7Spectrum: &oNew discoveries&r"

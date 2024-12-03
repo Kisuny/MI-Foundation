@@ -3305,6 +3305,246 @@
 			x: 8.5d
 			y: 0.0d
 		}
+		{
+			dependencies: ["641B93E0D035568B"]
+			id: "4A2F68635747F0AB"
+			rewards: [{
+				id: "170EA8961AE65A33"
+				item: "kubejs:magic_lootbag_rare"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "4FDA3A84F0A52356"
+				item: {
+					Count: 1b
+					id: "scout:upgraded_satchel"
+					tag: {
+						Items: [
+							{
+								Slot: 0
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 1
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 2
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 3
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 4
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 5
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 6
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 7
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 8
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 9
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 10
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 11
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 12
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 13
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 14
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 15
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 16
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 17
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["641B93E0D035568B"]
+			id: "6267DD9FDFBBFC92"
+			rewards: [{
+				id: "601D81A273471662"
+				item: "kubejs:magic_lootbag_rare"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "675E4443E3C22F4D"
+				item: {
+					Count: 1b
+					id: "scout:upgraded_pouch"
+					tag: {
+						Items: [
+							{
+								Slot: 0
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 1
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 2
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 3
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 4
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 5
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["641B93E0D035568B"]
+			id: "3960A2398D848FF0"
+			rewards: [{
+				count: 2
+				id: "78E2C7A763E8FDA4"
+				item: "kubejs:magic_lootbag_rare"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "12237A0B62A2EDED"
+				item: {
+					Count: 1b
+					id: "simplemagnets:advancedmagnet"
+					tag: {
+						active: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 12.911224489795906d
+			y: 0.7091836734693899d
+		}
 	]
 	title: "&7Spectrum: &oNew discoveries&r"
 }

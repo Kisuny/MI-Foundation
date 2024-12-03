@@ -2823,6 +2823,165 @@
 			x: 14.0d
 			y: 6.0d
 		}
+		{
+			dependencies: ["3DF57BBFA9D2DDEA"]
+			id: "4A55A49B4290F794"
+			rewards: [{
+				id: "18887BF4C8EA1094"
+				item: "kubejs:magic_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "7EAB8A92FDC28551"
+				item: "scout:satchel_strap"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4A55A49B4290F794"]
+			description: [
+				"Can be equipped in the &3Trinket&r slot, &omaximum 2&r of these &ePouches&r can be equipped."
+				""
+				"The &ePouch&r will be displayed in your inventory."
+			]
+			id: "650CF9427E6650EC"
+			rewards: [{
+				id: "3AF5C953CB8F2413"
+				item: "kubejs:magic_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "74D49E3EE6F7D6BB"
+				item: {
+					Count: 1b
+					id: "scout:pouch"
+					tag: {
+						Items: [
+							{
+								Slot: 0
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 1
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 2
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4A55A49B4290F794"]
+			description: [
+				"Can be equipped in the &3Trinket&r slot, &omaximum 1&r &eSatchel&r can be equipped."
+				""
+				"The &eSatchel&r will be displayed in your inventory."
+			]
+			id: "40E595751C1D513F"
+			rewards: [{
+				id: "5204A84AC3235C56"
+				item: "kubejs:magic_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "1B14101D3B0C7CAC"
+				item: {
+					Count: 1b
+					id: "scout:satchel"
+					tag: {
+						Items: [
+							{
+								Slot: 0
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 1
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 2
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 3
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 4
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 5
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 6
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 7
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+							{
+								Slot: 8
+								Stack: {
+									Count: 1b
+									id: "minecraft:air"
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
 	]
 	title: "&7Spectrum: &oFirst steps"
 }
