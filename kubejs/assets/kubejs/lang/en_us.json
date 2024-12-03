@@ -58,6 +58,9 @@
     "kubejs.waystone_scroll.tooltip": "You can buy it at the shop",
     "kubejs.witchberry.tooltip": "You can get it by growing «Fruiting Bramble»",
     "kubejs.resonate_ooze.tooltip": "You can get it by right-click on active Resonator with Ectoplasm",
+    "kubejs.text.doesnt_save_items_after_improvement": "Doesn't save items after upgrading",
+    "advancements.kubejs.teleport_to_bumblezone_piston.title": "Graveyard bees",
+    "advancements.kubejs.teleport_to_bumblezone_piston.description": "Enter the Bumblezone dimension by hitting the hive/bee nest using the beehive you found.",
 
 
     "kubejs.cloud_in_a_bottle.tooltip_1": "🎣 can get by fishing creatures, from a «Ghost».",

@@ -50,6 +50,8 @@ ItemEvents.tooltip(tooltip => {
         simpleShiftText({item: 'kubejs:teleport_pearl', text: 'kubejs.teleport_pearl.tooltip'})
         simpleShiftText({item: 'kubejs:empty_beehive', text: "kubejs.empty_beehive.tooltip"})
         simpleShiftText({item: 'kubejs:beehive', text: "kubejs.beehive.tooltip"})
+        simpleShiftText({ item: 'scout:upgraded_satchel', text: 'kubejs.text.doesnt_save_items_after_improvement' })
+        simpleShiftText({ item: 'scout:upgraded_pouch', text: 'kubejs.text.doesnt_save_items_after_improvement' })
 
 
 

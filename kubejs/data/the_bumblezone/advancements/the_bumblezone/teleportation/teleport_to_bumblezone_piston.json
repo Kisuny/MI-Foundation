@@ -1,0 +1,33 @@
+{
+    "parent": "the_bumblezone:the_bumblezone/teleportation/is_near_beehive",
+    "display": {
+      "icon": {
+        "item": "kubejs:beehive"
+      },
+      "title": {
+        "translate": "advancements.kubejs.teleport_to_bumblezone_piston.title"
+      },
+      "description": {
+        "translate": "advancements.kubejs.teleport_to_bumblezone_piston.description"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "rewards": {
+      "experience": 5
+    },
+    "criteria": {
+    "enter_bumblezone": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "the_bumblezone:the_bumblezone"
+          }
+        }
+      }
+    }
+  }
+  }
