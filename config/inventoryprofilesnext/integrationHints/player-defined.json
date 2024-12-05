@@ -10,5 +10,194 @@
                 "top": 463
             }
         }
+    },
+    "aztech.modern_industrialization.machines.gui.MachineScreen": {
+        "ignore": true
+    },
+    "aztech.modern_industrialization.machines.gui.MachineMenuClient": {
+        "ignore": true
+    },
+    "aztech.modern_industrialization.blocks.forgehammer.ForgeHammerScreen": {
+        "ignore": true
+    },
+    "aztech.modern_industrialization.blocks.forgehammer.ForgeHammerScreenHandler": {
+        "ignore": true
+    },
+    "earth.terrarium.ad_astra.client.screen.SolarPanelScreen": {
+        "ignore": true
+    },
+    "earth.terrarium.ad_astra.common.screen.menu.SolarPanelMenu": {
+        "ignore": true
+    },
+    "earth.terrarium.ad_astra.client.screen.OxygenDistributorScreen": {
+        "ignore": true
+    },
+    "earth.terrarium.ad_astra.common.screen.menu.OxygenDistributorMenu": {
+        "ignore": true
+    },
+    "earth.terrarium.ad_astra.client.screen.ConversionScreen": {
+        "ignore": true
+    },
+    "earth.terrarium.ad_astra.common.screen.menu.ConversionMenu": {
+        "ignore": true
+    },
+    "earth.terrarium.ad_astra.client.screen.LargeVehicleScreen": {
+        "ignore": true
+    },
+    "wraith.alloyforgery.client.AlloyForgeScreen": {
+        "ignore": true
+    },
+    "wraith.alloyforgery.AlloyForgeScreenHandler": {
+        "ignore": true
+    },
+    "uk.co.cablepost.autoworkstations.auto_crafting_table.AutoCraftingTableScreen": {
+        "ignore": true
+    },
+    "uk.co.cablepost.autoworkstations.auto_crafting_table.AutoCraftingTableScreenHandler": {
+        "ignore": true
+    },
+    "uk.co.cablepost.autoworkstations.auto_furnace.AutoFurnaceScreen": {
+        "ignore": true
+    },
+    "uk.co.cablepost.autoworkstations.auto_furnace.AutoFurnaceScreenHandler": {
+        "ignore": true
+    },
+    "uk.co.cablepost.autoworkstations.auto_enchanting_table.AutoEnchantingTableScreen": {
+        "ignore": true
+    },
+    "uk.co.cablepost.autoworkstations.auto_enchanting_table.AutoEnchantingTableScreenHandler": {
+        "ignore": true
+    },
+    "uk.co.cablepost.autoworkstations.auto_experience_orb_vacuum.AutoExperienceOrbVacuumScreen": {
+        "ignore": true
+    },
+    "uk.co.cablepost.autoworkstations.auto_experience_orb_vacuum.AutoExperienceOrbVacuumScreenHandler": {
+        "ignore": true
+    },
+    "uk.co.cablepost.autoworkstations.auto_experience_orb_emitter.AutoExperienceOrbEmitterScreen": {
+        "ignore": true
+    },
+    "uk.co.cablepost.autoworkstations.auto_experience_orb_emitter.AutoExperienceOrbEmitterScreenHandler": {
+        "ignore": true
+    },
+    "uk.co.cablepost.autoworkstations.auto_anvil.AutoAnvilScreen": {
+        "ignore": true
+    },
+    "uk.co.cablepost.autoworkstations.auto_anvil.AutoAnvilScreenHandler": {
+        "ignore": true
+    },
+    "uk.co.cablepost.autoworkstations.auto_brewing_stand.AutoBrewingStandScreen": {
+        "ignore": true
+    },
+    "uk.co.cablepost.autoworkstations.auto_brewing_stand.AutoBrewingStandScreenHandler": {
+        "ignore": true
+    },
+    "vazkii.botania.client.gui.bag.FlowerPouchGui": {
+        "ignore": true
+    },
+    "vazkii.botania.client.gui.box.BaubleBoxGui": {
+        "ignore": true
+    },
+    "io.github.lucaargolo.kibe.blocks.breaker.BreakerScreen": {
+        "ignore": true
+    },
+    "io.github.lucaargolo.kibe.blocks.placer.PlacerScreen": {
+        "ignore": true
+    },
+    "io.github.lucaargolo.kibe.blocks.witherbuilder.WitherBuilderScreen": {
+        "ignore": true
+    },
+    "net.pitan76.itemalchemy.client.screen.EMCCollectorScreen": {
+        "ignore": true
+    },
+    "net.pitan76.itemalchemy.client.screen.AlchemyTableScreen": {
+        "ignore": true
+    },
+    "io.github.lucaargolo.kibe.blocks.entangledchest.EntangledChestScreen": {
+        "ignore": true
+    },
+    "io.github.lucaargolo.kibe.items.entangledbag.EntangledBagScreen": {
+        "ignore": true
+    },
+    "dev.technici4n.moderndynamics.client.screen.FluidAttachedIoScreen": {
+        "ignore": true
+    },
+    "draylar.tiered.reforge.ReforgeScreen": {
+        "ignore": true
+    },
+    "de.dafuqs.spectrum.inventories.PedestalScreen": {
+        "ignore": true
+    },
+    "de.dafuqs.spectrum.inventories.PotionWorkshopScreen": {
+        "ignore": true
+    },
+    "de.dafuqs.spectrum.inventories.SpectrumGenericContainerScreen": {
+        "ignore": true
+    },
+    "de.dafuqs.spectrum.inventories.BedrockAnvilScreen": {
+        "ignore": true
+    },
+    "de.dafuqs.spectrum.inventories.CompactingChestScreen": {
+        "ignore": true
+    },
+    "de.dafuqs.spectrum.inventories.RestockingChestScreen": {
+        "ignore": true
+    },
+    "de.dafuqs.spectrum.inventories.Spectrum3x3ContainerScreen": {
+        "ignore": true
+    },
+    "de.dafuqs.spectrum.inventories.BlackHoleChestScreen": {
+        "ignore": true
+    },
+    "de.dafuqs.spectrum.inventories.ColorPickerScreen": {
+        "ignore": true
+    },
+    "de.dafuqs.spectrum.inventories.CinderhearthScreen": {
+        "ignore": true
+    },
+    "com.tiviacz.travelersbackpack.client.screen.TravelersBackpackHandledScreen": {
+        "ignore": true
+    },
+    "appeng.client.gui.implementations.CellWorkbenchScreen": {
+        "ignore": true
+    },
+    "appeng.client.gui.implementations.IOPortScreen": {
+        "ignore": true
+    },
+    "com.neep.neepmeat.machine.fabricator.FabricatorScreen": {
+        "ignore": true
+    },
+    "com.neep.neepmeat.client.screen.FluidRationerScreen": {
+        "ignore": true
+    },
+    "com.neep.neepmeat.machine.small_compressor.SmallCompressorScreen": {
+        "ignore": true
+    },
+    "com.neep.neepmeat.transport.client.screen.ItemRequesterScreen": {
+        "ignore": true
+    },
+    "com.neep.neepmeat.transport.client.screen.filter.FilterScreen": {
+        "ignore": true
+    },
+    "com.neep.neepmeat.client.screen.BufferScreen": {
+        "ignore": true
+    },
+    "com.neep.neepmeat.client.screen.RouterScreen": {
+        "ignore": true
+    },
+    "com.neep.neepmeat.client.screen.living_machine.ItemOutputPortScreen": {
+        "ignore": true
+    },
+    "wraith.fwaystones.screen.WaystoneBlockScreen": {
+        "ignore": true
+    },
+    "io.github.lucaargolo.kibe.blocks.vacuum.VacuumHopperScreen": {
+        "ignore": true
+    },
+    "net.pitan76.itemalchemy.client.screen.EMCCondenserScreen": {
+        "ignore": true
+    },
+    "io.github.lucaargolo.kibe.blocks.bigtorch.BigTorchScreen": {
+        "ignore": true
     }
 }
