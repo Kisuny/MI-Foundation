@@ -60,7 +60,7 @@
 		{
 			dependencies: ["5BF77E78AA8A200B"]
 			description: [
-				"Allows you to fertilize!"
+				"Allows you to fertilize plants by using &aLime Ink&r or vegetal!"
 				""
 				"&#d33b2bWarning&r: item is not working at the moment, the problem has been sent to the mod author."
 			]
@@ -159,7 +159,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&4<shake>i</shake>&r&6<shake>n</shake>&r&e<shake>k</shake>&r extraction"
+			subtitle: "&4<shake>I</shake>&r&6<shake>n</shake>&r&e<shake>k</shake>&r extraction"
 			tasks: [{
 				id: "71406406EC61A48F"
 				item: "spectrum:color_picker"
@@ -170,7 +170,7 @@
 		}
 		{
 			dependencies: ["272939D3698A5DB3"]
-			description: ["Used to store and transfer ink."]
+			description: ["Used to store and transfer ink. The two ink containers equalize the amount of ink in them, so you can only really transfer half."]
 			hide: true
 			id: "27D8C35FD6F61515"
 			rewards: [
@@ -204,7 +204,7 @@
 		}
 		{
 			dependencies: ["27D8C35FD6F61515"]
-			description: ["One &#FEECD6Ink Flask&r can have only &#9BB8EDone ink type&r. Pallete can contain more types but have less storage space."]
+			description: ["One &#FEECD6Ink Flask&r can have only &#9BB8EDone ink type&r. Ink Assortment can contain all types at once, but has less storage space."]
 			hide: true
 			id: "6E4DEFB525B9E71B"
 			rewards: [
@@ -233,11 +233,11 @@
 		{
 			dependencies: ["11ABCE1AD8090FBE"]
 			description: [
-				"Collects items in a &bhuge radius&r, also can collect xp if &9Knowledge Gem&r is inserted!"
+				"Collects items in a &bhuge radius&r, can also collect xp if a &9Knowledge Gem&r is inserted!"
 				""
-				"• Radius: 12 blocks."
-				"• Can be turned off - place full block above."
-				"• Have filters on which items will be sucked."
+				"• Has a radius of 12 blocks."
+				"• To turn off, place a full block above it."
+				"• Has filters for which items are sucked."
 			]
 			id: "7CAE838195AD6882"
 			rewards: [
@@ -370,7 +370,7 @@
 		}
 		{
 			dependencies: ["3C3E73F29B46EFD6"]
-			description: ["&#C6BCE9Constructor's staff&r - a tool which allows to place blocks in defined pattern by spending &#367588cyan ink&r. "]
+			description: ["&#C6BCE9Constructor's Staff&r - a tool for placing blocks in a defined pattern by spending &3Cyan Ink&r. "]
 			id: "7BEC6865EE629165"
 			rewards: [{
 				id: "3F710C824F2C24A8"
@@ -390,7 +390,7 @@
 		}
 		{
 			dependencies: ["3C3E73F29B46EFD6"]
-			description: ["Rare gemstone which can be obtained while mining stratine ore."]
+			description: ["Rare gemstones that can be obtained while mining stratine ore."]
 			id: "11ABCE1AD8090FBE"
 			rewards: [{
 				id: "69863C94149C474E"
@@ -411,7 +411,7 @@
 		{
 			dependencies: ["3C3E73F29B46EFD6"]
 			description: [
-				"&#DEB3E0Fabrication Chest&r has four special slots for &#FEECD6Crafting Tablets&r."
+				"A &#DEB3E0Fabrication Chest&r has four special slots for &#FEECD6Crafting Tablets&r."
 				""
 				"Automatically crafts items while resources are present."
 			]
@@ -464,7 +464,7 @@
 		}
 		{
 			dependencies: ["3877FD4F24D92304"]
-			description: ["&#DEB3E0Pylons&r allows to &#FEECD6speed up&r crafts in Spectrum multiblock structures, also they can be used as an upgrades for &#9BB8EDModern industrialization&r machines."]
+			description: ["&#DEB3E0Pylons&r allows to &#FEECD6speed up&r crafts in &l&#e4affaSpectrum&r&r multiblocks. Also, they can be used as upgrades for &#9BB8EDModern Industrialization&r machines."]
 			hide: true
 			id: "4C2CADA1F925781E"
 			rewards: [
@@ -512,7 +512,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Heavier than a Uranium!"
+			subtitle: "Heavier than Osmium!"
 			tasks: [{
 				count: 6L
 				id: "2EB38B65D3944108"
@@ -526,9 +526,9 @@
 		{
 			dependencies: ["3C3E73F29B46EFD6"]
 			description: [
-				"If you play on a server be cautious about bacterias, otherwise they can &lget out of control&r…"
+				"If you play on a server, be cautious about these bacteria, otherwise they can &lget out of control&r…"
 				""
-				"&4Bacterias cannot be placed inside the bottle again!&r"
+				"&4You cannot put them back inside the bottle!&r"
 				""
 				"{image:quest_images:textures/item/be_safe.png width:300 height:135 align:1}"
 			]
@@ -613,7 +613,7 @@
 		}
 		{
 			dependencies: ["3C3E73F29B46EFD6"]
-			description: ["Pay attention while fishing in deep waters, some strange bulbs will rise to the surface."]
+			description: ["If you pay attention while fishing in the deep waters, you will see some strange spheres sometimes rise to the surface."]
 			hide: true
 			id: "347CB25B0C49349B"
 			rewards: [
@@ -642,6 +642,7 @@
 		}
 		{
 			dependencies: ["347CB25B0C49349B"]
+			description: ["Can catch living creatures!"]
 			hide: true
 			id: "19CA76043BF8B34E"
 			rewards: [
@@ -780,7 +781,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "low life build pog"
+			subtitle: "Low HP build, pog!"
 			tasks: [{
 				id: "25D30E8075A56AA9"
 				item: "spectrum:jeopardant"
@@ -820,6 +821,7 @@
 		}
 		{
 			dependencies: ["6719BC302E5A2430"]
+			description: [""]
 			hide: true
 			id: "71FD55EFD09F5F5F"
 			rewards: [
@@ -843,7 +845,7 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Kill and enemy while you have only half a heart"
+			subtitle: "Kill an enemy while you only have half a heart"
 			tasks: [{
 				advancement: "spectrum:midgame/kill_entity_with_jeopardant_and_half_a_heart"
 				criterion: ""
@@ -1084,6 +1086,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "Automatic torch!"
 			tasks: [{
 				id: "1265E5460B93FDB6"
 				item: "spectrum:radiance_pin"
@@ -1095,11 +1098,11 @@
 		{
 			dependencies: ["347CB25B0C49349B"]
 			description: [
-				"Enchanter allows to enchant books with specified enchantment and improve them. "
+				"Enchanter can enchant books with specific enchantments and improve them. "
 				""
-				"Moreover, enchanter allows to combine two excluding enchantments. Crafting with conflicting enchantments will need more experience and &ocertain chapter in a Book&r!"
+				"Moreover, enchanter can to combine two conflicting enchantments. Doing so will require more experience, and a &ocertain unlock in the Guidebook&r!"
 				""
-				"P.S. Instead of water you should put liquid crystals where water is on render."
+				"P.S. Instead of water in the picture, put liquid crystal."
 				""
 				"{image:quest_images:textures/item/spectrum/enchanter.png width:200 height:200 align:1 fit:true}"
 			]
@@ -1139,6 +1142,7 @@
 		}
 		{
 			dependencies: ["347CB25B0C49349B"]
+			description: ["A more advanced station for creating potions. Can also create some other liquids."]
 			hide: true
 			id: "229FF3A42DB2FFF4"
 			rewards: [
@@ -1190,7 +1194,7 @@
 			dependencies: ["02CEF11E1BA9FB9B"]
 			description: [
 				"{image:quest_images:textures/item/clay_gen.png width:200 height:200 align:1}"
-				"Yes, clay generator."
+				"Yes, a clay generator."
 			]
 			hide: true
 			id: "0568EC18E2C72745"
@@ -1240,10 +1244,10 @@
 		{
 			dependencies: ["641B93E0D035568B"]
 			description: [
-				"Also you can enchant knowledge gem:"
+				"Also, you can enchant the knowledge gem:"
 				""
-				"&lEfficiency&r - increase the internal storage!"
-				"&lQuick Charge&r - increase the speed of xp transfer!"
+				"&lEfficiency&r - increases the internal storage!"
+				"&lQuick Charge&r - increases the speed of XP transfer!"
 			]
 			hide: true
 			id: "6EE44FEF1C08A707"
@@ -1270,7 +1274,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "Used to transfer xp to the enchanter"
+			subtitle: "Used to transfer XP to the Enchanter"
 			tasks: [{
 				id: "353382B7E7F1BB78"
 				item: "spectrum:knowledge_gem"
@@ -1281,7 +1285,7 @@
 		}
 		{
 			dependencies: ["641B93E0D035568B"]
-			description: ["Enchant your boots with power. More power more speed!"]
+			description: ["Enchant your boots with power. More power, more speed!"]
 			hide: true
 			id: "5A213C259011EDE5"
 			rewards: [{
@@ -1335,7 +1339,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The Razors Edge"
+			subtitle: "Supercharged"
 			tasks: [{
 				id: "43170B647DD9F8B4"
 				item: "spectrum:storm_stone"
@@ -1347,9 +1351,9 @@
 		{
 			dependencies: ["78A5FFC5CFB319FE"]
 			description: [
-				"When lightning hits the ground, it leaves small shards."
+				"When lightning hits the ground, it leaves small shards behind."
 				""
-				"Use lightning rods to have more consistent Storm Stone generation. You can use Fusion Shrine to summon thunderstorms!"
+				"Use lightning rods to have more consistent Storm Stone generation. You can use the Fusion Shrine to summon thunderstorms!"
 				"{image:quest_images:textures/item/storm_stone.png width:300 height:135 align:1}"
 			]
 			hide: true
@@ -1380,7 +1384,7 @@
 		}
 		{
 			dependencies: ["78A5FFC5CFB319FE"]
-			description: ["Obtain &l&5neolith&r&r from Failing engulfed obidian."]
+			description: ["Obtain &l&5Neolith&r&r from the failing-engulfed obidian."]
 			hide: true
 			id: "182EBD1105CF57A7"
 			rewards: [
@@ -1412,7 +1416,7 @@
 				"182EBD1105CF57A7"
 				"77CD79C7CF14D94C"
 			]
-			description: ["Looks line Runite or Lapis Lazuli, can be found more often near the 0 y-level and below."]
+			description: ["Looks line Runite or Lapis Lazuli, can be found in bigger quantities near y-level 0 and below."]
 			hide: true
 			id: "54DEB2E2FBBF842D"
 			rewards: [
@@ -1473,7 +1477,7 @@
 			}]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "Altar Improved"
+			subtitle: "Spectrum Altar Improved"
 			tasks: [{
 				id: "2AB0C1F0A64207A4"
 				item: "spectrum:pedestal_onyx"
@@ -1519,7 +1523,7 @@
 		}
 		{
 			dependencies: ["3B68A7B5A1BB4D44"]
-			description: ["Azure dike now allows you to pass some &1blue&r barriers, also increase it's survivability!"]
+			description: ["Azure dike allows you to pass through some &1blue&r barriers, and also increases your survivability!"]
 			hide: true
 			id: "3B7EE99ECAE9457B"
 			rewards: [{
@@ -1639,7 +1643,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "More Ink!"
+			subtitle: "More Ink Storage!"
 			tasks: [{
 				id: "655B1C1C7E2CD889"
 				item: "spectrum:pigment_palette"
@@ -1650,7 +1654,7 @@
 		}
 		{
 			dependencies: ["239BFC7671FAF5F5"]
-			description: ["To obtain the &l&0mid&5night &5shard&r, you need to suffocate the living creature in the &l&5mid&0night &l&5so&0lu&5ti&0on&r."]
+			description: ["To obtain the &l&0mid&5night &5shard&r, you need to suffocate a living creature in the &l&5mid&0night &l&5so&0lu&5ti&0on&r."]
 			hide: true
 			id: "0EBE1EF0925CB824"
 			rewards: [
@@ -1727,7 +1731,7 @@
 				"3B68A7B5A1BB4D44"
 				"0EBE1EF0925CB824"
 			]
-			description: ["&4Ruin cannot be put back in the vial!&r"]
+			description: ["&4Ruin cannot be put back in the bottle once you release it!&r"]
 			hide: true
 			id: "36048D9C00CA490D"
 			rewards: [
@@ -1758,7 +1762,7 @@
 		}
 		{
 			dependencies: ["77C55C5FFC84575B"]
-			description: ["Allows to obtain mob heads more frequently, moreover with this enchantment you can obtain more types of mob heads like creeper, zombie, enderman etc."]
+			description: ["Allows to obtain mob heads less painfully. Moreover, with this enchantment you can obtain mob heads other than creepers, zombies and skeletons!"]
 			hide: true
 			id: "0797461370E96C3C"
 			rewards: [
@@ -1856,7 +1860,7 @@
 		}
 		{
 			dependencies: ["77C55C5FFC84575B"]
-			description: ["Crystal Apothecary automatically collects gemstone clusters, for examle &6Topaz&r, &5Amethyst&r, &bCertus Quartz&r etc."]
+			description: ["Crystal Apothecary automatically collects gemstone clusters. Anything - &6Topaz&r, &5Amethyst&r, &bCertus Quartz&r etc. It doesn't even need to be loaded!"]
 			hide: true
 			id: "35A77E4B5C2CE1EB"
 			rewards: [{
@@ -1904,7 +1908,7 @@
 		}
 		{
 			dependencies: ["7AC1920BD7A9329E"]
-			description: ["By obtaining mob's head, you can create it's memory to resummon it... to kill again?"]
+			description: ["By obtaining the mob's head, you can create a memory to resummon it... to kill again?"]
 			hide: true
 			id: "09C683DBFC6D54BD"
 			rewards: [{
@@ -1966,7 +1970,7 @@
 		}
 		{
 			dependencies: ["182EBD1105CF57A7"]
-			description: ["If some nasty bacteria is \"threatening your kitchen\" or your life, you can use this to clean the mess, yet with some nuances."]
+			description: ["If some nasty bacteria is threatening your kitchen or your life, you can use this to clean the mess. Well, stop the mess from expanding, at least..."]
 			hide: true
 			id: "5EAB38FF5492E5B9"
 			rewards: [{
@@ -1988,7 +1992,7 @@
 		}
 		{
 			dependencies: ["38D7FCF430013682"]
-			description: ["In the &9structure&r you have found a Hibernating Bud, wonder if you can revive it."]
+			description: ["In this &9structure&r, you have found a Hibernating Bulb, wonder if you can revive it."]
 			hide: true
 			id: "5DD61AA5851437B9"
 			rewards: [{
@@ -2035,7 +2039,7 @@
 		}
 		{
 			dependencies: ["45500A52809ED66C"]
-			description: ["More efficient version of enchantment book. Has an ability to transfer all enchantments to it from tools and armor etc. Also has higher enchantability level and less enchanting cost!"]
+			description: ["A more efficient version of an enchantment book. Has an ability to transfer all enchantments to and from tools, armor etc. Also has a higher enchantability level and a lower enchantment cost!"]
 			hide: true
 			id: "740301C327456010"
 			rewards: [{
@@ -2054,7 +2058,7 @@
 		}
 		{
 			dependencies: ["45500A52809ED66C"]
-			description: ["You can create the Blacker Lotus from black one to make more mana for Botania!"]
+			description: ["You can create the Blacker Lotus from a black one to make even more mana!"]
 			hide: true
 			id: "3F46FEF6458FFE8F"
 			rewards: [{
@@ -2098,7 +2102,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "Nothing special, just a pile of bedrock in your hand..."
+			subtitle: "Nothing special, just some bedrock in your hand..."
 			tasks: [{
 				id: "7CC9B9E713440BAB"
 				item: "spectrum:bedrock_dust"
@@ -2191,9 +2195,9 @@
 		{
 			dependencies: ["3877FD4F24D92304"]
 			description: [
-				"&#DEB3E0Crystal ball&r is a basic tool for divination. Used together with &#FEECD6DNA extractor&r crystal ball gives precise information about the &#ffb04ftarget player&r, coordinates, curses etc."
+				"&#DEB3E0Crystal ball&r is a basic tool for divination. Used together with a &#FEECD6DNA extractor&r, crystal ball gives precise information about the &#ffb04ftarget player&r, coordinates, curses etc."
 				""
-				"While using crystal ball increases Luck for the price of &#DEB3E0Magical energy&r from the nearest &#FEECD6Altar&r."
+				"While using, a crystal ball increases Luck for the price of &#DEB3E0Magical energy&r from the nearest &#FEECD6Altar&r."
 			]
 			hide: true
 			id: "0D89B654B3E6447E"
@@ -2215,11 +2219,11 @@
 		{
 			dependencies: ["3877FD4F24D92304"]
 			description: [
-				"&#DEB3E0Brazier&r - essential tool for &4Curses&r. Moreover it can be used to create &#DEB3E0incenses&r."
+				"&#DEB3E0Brazier&r - an essential tool for &4Curses&r. Moreover, it can be used to create &#DEB3E0incenses&r."
 				""
-				"Brazier can contain up to four items. To start the recipe you must ignite it with &#FEECD6flint and steel&r."
+				"Braziers can contain up to four items. To start the recipe, you must ignite it with a &#FEECD6flint and steel&r."
 				""
-				"More indepth information you can find in a book."
+				"More indepth information can be found in the book."
 			]
 			hide: true
 			id: "49CB4358E3657EA2"
@@ -2241,11 +2245,11 @@
 		{
 			dependencies: ["3877FD4F24D92304"]
 			description: [
-				"&#DEB3E0Sigil&r is a magic symbol of power. They can be divided into two groups:"
+				"&#DEB3E0Sigils&r are magic symbols of power. They can be divided into two groups:"
 				""
-				"&#9BB8EDActive sigils&r must be place on special blocks or on the brooms made out of the  &4Dragon's blood&r."
+				"&#9BB8EDActive sigils&r must be placed on special blocks or on &4Dragon's blood brooms&r."
 				""
-				"&#CAE4C8Passive sigils&r can be placed anywhere and apply their effect onto everything in radius."
+				"&#CAE4C8Passive sigils&r can be placed anywhere and apply their effect onto everything in their radius."
 			]
 			hide: true
 			id: "021DCD549FA18E20"
@@ -2268,18 +2272,19 @@
 				title: "Any #mif:sigils"
 				type: "item"
 			}]
+			title: "Sigils"
 			x: -8.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3877FD4F24D92304"]
 			description: [
-				"Magic &#DEB3E0Broom&r is a tool for witchy travel. By using &5Magic energy&r, they allows to fly into the sky!"
+				"A Magic &#DEB3E0Broom&r is a tool for witchy travel. By using &5Magic energy&r, they can fly in the sky!"
 				""
 				"There are four different kinds of brooms with &#ffb04funique&r properties."
 				""
-				"More indepth information can be found in a book. "
-				"P.s. the \"Bewitchment Plus\"s broom, has not effects... it just for flying..."
+				"More indepth information can be found in the book. "
+				"P.s. the Bewitchment Plus's broom, has not effects, it's just for flying..."
 			]
 			hide: true
 			id: "78FE98D30F14F9A4"
@@ -2302,16 +2307,17 @@
 				title: "Any #mif:brooms"
 				type: "item"
 			}]
+			title: "Brooms"
 			x: -8.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["3877FD4F24D92304"]
 			description: [
-				"&#DEB3E0Puppet&r - is a handy figurine used to put the target into &#d33b2bdangerous&r &#CAE4C8protective&r environments."
+				"&#DEB3E0Poppet&r is a handy figurine used to put the target into &#d33b2bdangerous&r or &#CAE4C8protective&r environments."
 				""
-				"Puppet is &o<shake>always</shake>&r tied to it's target."
-				"To be active puppet must be in your inventory."
+				"A poppet is &o<shake>always</shake>&r tied to it's target."
+				"To be active the poppet must be in your inventory."
 			]
 			hide: true
 			id: "496217B7F7AA8316"
@@ -2334,17 +2340,18 @@
 				title: "Any #mif:poppets"
 				type: "item"
 			}]
+			title: "Poppets"
 			x: -7.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["3877FD4F24D92304"]
 			description: [
-				"&#DEB3E0Ritual&r is a powerful &5magic practice&r directly affecting the world. To perform a ritual you should draw a specific ring configuration and use reagents. "
+				"&#DEB3E0Rituals&r are a powerful &5magic practice&r directly affecting the world. To perform a ritual, you should draw a ring of specific configuration and use reagents. "
 				""
-				"Rituals needs a &5Magical energy&r provided by &#FEECD6Altar&r nearby; needed energy can be found in a book."
+				"Rituals need &5Magical energy&r provided by an &#FEECD6Altar&r nearby; the amount of energy needed can be found in the book."
 				""
-				"Every ritual has main and auxiliary rings drawn by different type of chalks depending on the ritual."
+				"Every ritual has a main and an optional auxiliary ring, drawn using different types of chalk depending on the ritual."
 			]
 			hide: true
 			id: "730B272910F0D699"
@@ -2372,7 +2379,7 @@
 		}
 		{
 			dependencies: ["730B272910F0D699"]
-			description: ["&l&5Eldritch&r&r serves as an additional ring for certain rituals."]
+			description: ["&l&5Eldritch&r&r Chalk draws an auxiliary ring for certain rituals."]
 			hide: true
 			id: "2642E47CE3901B37"
 			rewards: [{
@@ -2398,7 +2405,7 @@
 		}
 		{
 			dependencies: ["730B272910F0D699"]
-			description: ["&l&4Fiery&r Chalk is an auxiliary ring for special rituals."]
+			description: ["&l&4Fiery&r Chalk draws an auxiliary ring for certain rituals."]
 			hide: true
 			id: "24A0A1F63B534DE6"
 			rewards: [{
@@ -2424,7 +2431,7 @@
 		}
 		{
 			dependencies: ["730B272910F0D699"]
-			description: ["&l&6Golden&r Chalk is a center of a circle of any ritual."]
+			description: ["&l&6Golden&r Chalk draws the center ring of any ritual."]
 			hide: true
 			id: "2FE982BA23600A79"
 			rewards: [{
@@ -2451,16 +2458,16 @@
 		{
 			dependencies: ["24A0A1F63B534DE6"]
 			description: [
-				"Summon &4Demon&r and obtain your first contract!"
+				"Summon a &4Demon&r and obtain your first contract!"
 				""
 				""
 				"{@pagebreak}"
 				""
-				"&#C6BCE9Contract&r - is a pact with a &4demon&r with health as a price."
+				"&#C6BCE9Contract&r is a pact with a &4demon&r with health as a price."
 				""
-				"Contracts usually last for &#9BB8EDseven days&r and canot be terminated."
+				"Contracts usually last for &#9BB8EDseven days&r and cannot be terminated."
 				""
-				"More infor about contracts can be found in a book!"
+				"More info about contracts can be found in the book!"
 			]
 			hide: true
 			id: "233C36D4913B54E7"
@@ -2485,7 +2492,7 @@
 		}
 		{
 			dependencies: ["4C8E37AF899961F6"]
-			description: ["Create a very durable alloy, the Ancient Ones were calling it the «Durasteel»."]
+			description: ["Create a very durable alloy. The Ancient Ones were calling it «Durasteel»."]
 			id: "4E891CEA50BDD082"
 			rewards: [
 				{
@@ -2519,7 +2526,7 @@
 		}
 		{
 			dependencies: ["4E891CEA50BDD082"]
-			description: ["By obtaining the technology of &oDurasteel&r you found a way to improve your backpack even more!"]
+			description: ["By discovering the technology of &oDurasteel&r, you found a way to improve your backpack even further!"]
 			id: "0797B7CC4736506D"
 			rewards: [
 				{
@@ -2544,7 +2551,7 @@
 				item: "travelersbackpack:diamond_tier_upgrade"
 				type: "item"
 			}]
-			x: 1.6d
+			x: 1.5d
 			y: -17.6d
 		}
 		{
@@ -2553,11 +2560,11 @@
 				"3D28572AD9317891"
 			]
 			description: [
-				"A chest which is binded to copies of itself with the same &#DEB3E0colored rune&r code. Both chests must be &#FEECD6loaded&r in order to work."
+				"A chest bound to copies of itself with the same &#DEB3E0rune&r code. Both chests must be &#FEECD6loaded&r in order to work."
 				""
-				"Possibly you will need a &#DEB3E0friend&r or a &#DEB3E0chunk loader&r - which has the same &#d33b2bdifficulty&r for you to obtain."
+				"You may need a &#DEB3E0friend&r or a &#DEB3E0chunk loader&r - about the same &#d33b2bdifficulty&r for you to obtain ;)."
 				""
-				"&#FEECD6Hint&r: any player which know your &4<shake>c</shake>&r&6<shake>o</shake>&r&e<shake>l</shake>&r&2<shake>o</shake>&r&b<shake>r</shake>&r code could access your entangled chest. Use &#b9f2ffdiamond&r on the center of entangled chest to make your chest &#DEB3E0private&r."
+				"&#FEECD6Hint&r: any player that knows your &4<shake>c</shake>&r&6<shake>o</shake>&r&e<shake>l</shake>&r&2<shake>o</shake>&r&b<shake>r</shake>&r code could access your entangled chest. Use a &#b9f2ffdiamond&r on the center of an entangled chest to make it &#DEB3E0private&r."
 			]
 			id: "23A6A609EE447218"
 			rewards: [
@@ -2589,11 +2596,11 @@
 				"3D28572AD9317891"
 			]
 			description: [
-				"A tank which is binded to copies of itself with the same &#DEB3E0colored rune&r code. Both tanks must be &#FEECD6loaded&r in order to work."
+				"A tank bound to copies of itself with the same &#DEB3E0rune&r code. Both tanks must be &#FEECD6loaded&r in order to work."
 				""
-				"Possibly you will need a &#DEB3E0friend&r or a &#DEB3E0chunk loader&r - which has the same &#d33b2bdifficulty&r for you to obtain."
+				"You may need a &#DEB3E0friend&r or a &#DEB3E0chunk loader&r - about the same &#d33b2bdifficulty&r for you to obtain ;)."
 				""
-				"&#FEECD6Hint&r: any player which know your &4<shake>c</shake>&r&6<shake>o</shake>&r&e<shake>l</shake>&r&2<shake>o</shake>&r&b<shake>r</shake>&r code could access your entangled chest. Use &#b9f2ffdiamond&r on the center of entangled tankt to make your tank &#DEB3E0private&r."
+				"&#FEECD6Hint&r: any player that knows your &4<shake>c</shake>&r&6<shake>o</shake>&r&e<shake>l</shake>&r&2<shake>o</shake>&r&b<shake>r</shake>&r code could access your entangled tank. Use a &#b9f2ffdiamond&r on the center of an entangled tank to make it &#DEB3E0private&r."
 			]
 			id: "62BB9D5A8A9DD181"
 			rewards: [
@@ -2686,7 +2693,7 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			subtitle: "You can hold only peacefull creatures."
+			subtitle: "Can only hold passive creatures."
 			tasks: [{
 				id: "6F3BC4943A3580DE"
 				item: {
@@ -2726,7 +2733,7 @@
 		}
 		{
 			dependencies: ["4E891CEA50BDD082"]
-			description: ["Allows to teleport to waystones. Has an infinite durability."]
+			description: ["Teleport to waystones from anywhere. Has infinite durability."]
 			id: "74DA0E34E14F90B0"
 			rewards: [{
 				count: 10
@@ -2747,9 +2754,9 @@
 		{
 			dependencies: ["3B68A7B5A1BB4D44"]
 			description: [
-				"Create the Soul Steel from azurite. Soul steel is a main material of Spirit mod."
+				"Create the Soul Steel from Azurite. Soul Steel is the main material of Spirit."
 				" "
-				"Spirit allows you to trap souls in a crystals in order to create an artificial spawners to enhance mob farming experience!"
+				"Spirit allows you to trap souls in crystals in order to create artificial spawners, to enhance the mob farming experience!"
 			]
 			id: "4A01315B2CA849AE"
 			rewards: [{
@@ -2771,7 +2778,7 @@
 		}
 		{
 			dependencies: ["6E6C22551B253133"]
-			description: ["A frame for a &3Soul Crystal&r, put the crystal and it will start spawning mobs."]
+			description: ["A frame for a &3Soul Crystal&r. Put the crystal inside, and it will start spawning mobs."]
 			hide: true
 			id: "3AAD6FC39016CFF5"
 			rewards: [{
@@ -2790,7 +2797,7 @@
 		}
 		{
 			dependencies: ["6E6C22551B253133"]
-			description: ["&9Soul steel&r instruments have an implicit repairing ability. Just throw them into the soul fire, and after some time they will be fully repaired. Also Soul Steel weapon collects more &9souls&r into &lSoul Crystal&r."]
+			description: ["&9Soul Steel&r instruments have an implicit repairing ability. Just throw them into soul fire, and after some time they will be fully repaired. Also, Soul Steel weapons collect more &9souls&r into &lSoul Crystals&r."]
 			hide: true
 			id: "3352B62986DF70F0"
 			rewards: [{
@@ -2850,9 +2857,9 @@
 		{
 			dependencies: ["4A01315B2CA849AE"]
 			description: [
-				"Create the &9Soul Crystal&r. When you kill a mob with empty soul crystal in hand, that mob type will be assing to the crystal."
+				"Create the &9Soul Crystal&r. When you kill a mob with an empty soul crystal in hand, that mob type will be assigned to the crystal."
 				""
-				"The more &9souls&r you put in crystal, the more effective the &ospawner&r will be. More info can be found in &eREI&r info tab."
+				"The more &9souls&r you put inside the crystal, the more effective the &ospawner&r will be. More info can be found in the &eREI&r info tab."
 			]
 			hide: true
 			id: "6E6C22551B253133"
@@ -2892,9 +2899,9 @@
 		{
 			dependencies: ["3A5CE82800D25EC2"]
 			description: [
-				"This nectar allows to resummon already killed bosses from the \"Bosses of Mass Destruction\" mod in their respective structures. "
+				"This nectar allows you to resummon already killed bosses from \"Bosses of Mass Destruction\" in their respective structures. "
 				""
-				"Do not work with the &4Hell Gauntlet&r!"
+				"Does not work with the &4Hell Gauntlet&r!"
 			]
 			id: "2D1EB568EC7D6C12"
 			rewards: [{
@@ -2963,7 +2970,7 @@
 		}
 		{
 			dependencies: ["3BD3C6E13574056F"]
-			description: ["Same as &#b9f2ffDiamond Chest &r, but also have the &7explosion&r and &#ff6600burning&r immunity."]
+			description: ["Same as the &#b9f2ffDiamond Chest &r, but is also &7explosion&r and &#ff6600burning&r-resistant."]
 			id: "4A8741F8EE51349C"
 			rewards: [
 				{
@@ -3007,7 +3014,7 @@
 			}]
 			shape: "octagon"
 			size: 0.8d
-			subtitle: "8 times increase"
+			subtitle: "8 times better"
 			tasks: [{
 				id: "2E44EED86355350C"
 				item: "extended_drawers:t3_upgrade"
@@ -3027,7 +3034,7 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			subtitle: "16 times increase"
+			subtitle: "16 times better"
 			tasks: [{
 				id: "038438B26D3F8967"
 				item: "extended_drawers:t4_upgrade"
@@ -3038,7 +3045,7 @@
 		}
 		{
 			dependencies: ["4E891CEA50BDD082"]
-			description: ["&9Dank&r fourth. Can hold &b16384 items&r and has &b36 slots&r."]
+			description: ["A &9Level 4 Dank&r stores &b16384 items&r per slot and has &b36 slots&r."]
 			id: "7942771E934F45BA"
 			rewards: [{
 				id: "2C28B4BF3C225BA0"
@@ -3047,14 +3054,14 @@
 				type: "item"
 			}]
 			shape: "circle"
-			size: 0.6d
+			size: 0.8d
 			tasks: [{
 				id: "5F56528235A06FFE"
 				item: "dankstorage:dank_4"
 				type: "item"
 			}]
-			x: 0.6d
-			y: -17.7d
+			x: 0.5d
+			y: -17.6d
 		}
 		{
 			dependencies: ["3B68A7B5A1BB4D44"]
@@ -3083,7 +3090,7 @@
 		}
 		{
 			dependencies: ["3AAD6FC39016CFF5"]
-			description: ["&9Soul Revitalizer&r similarly to the &bSoul Cage&r, yet it &ndon't spawn&r mobs \"Physically\", it just generate &exp&r and &6loot&r using &3energy&r."]
+			description: ["A &9Soul Revitalizer&r is similar to a &bSoul Cage&r, except it doesn't spawn mobs physically. Instead, it just generates &eXP&r and &6loot&r using &3energy&r."]
 			hide: true
 			id: "5C0A916E972D61EB"
 			rewards: [
@@ -3108,7 +3115,7 @@
 		}
 		{
 			dependencies: ["5C0A916E972D61EB"]
-			description: ["&9Soul Revitalizer&r allows to increase some farming properties of mob drops by using Pylons. Revitalizer can be surounded by atmost 8 pylons which providing different effects!"]
+			description: ["While using the &9Soul Revitalizer&r, you can improve some of its mob farming qualities by using Pylons. The Revitalizer can be surounded by, at most, 8 pylons that provide different effects!"]
 			hide: true
 			id: "22FBDD2FFFD8836D"
 			rewards: [{
@@ -3130,7 +3137,7 @@
 			description: [
 				"Maximum ammount: 5"
 				""
-				"This pylon decrease the energy usage."
+				"This pylon decreases the energy usage."
 			]
 			hide: true
 			id: "7EF2D32A28502E3F"
@@ -3153,7 +3160,7 @@
 			description: [
 				"Maximum ammount: 3"
 				""
-				"This pylon increases the beheading chance and increases the energy usage."
+				"This pylon increases the beheading chance and increases energy usage."
 			]
 			hide: true
 			id: "22357AB51B050643"
@@ -3176,7 +3183,7 @@
 			description: [
 				"Maximum ammount: 3"
 				""
-				"This pylon increases the loot ammount and energy usage."
+				"This pylon increases the amount of loot generated and energy usage."
 			]
 			hide: true
 			id: "43CF6626E00AA1E5"
@@ -3199,7 +3206,7 @@
 			description: [
 				"Maximum ammount: 5"
 				""
-				"This pylon decrese the loot cycle time and increases the energy usage."
+				"This pylon decreases time between cycles and increases energy usage."
 			]
 			hide: true
 			id: "411034C244842852"
@@ -3222,7 +3229,7 @@
 			description: [
 				"Maximum ammount: 3"
 				""
-				"This pylon adds an solid xp to the loot pool and increases the energy usage."
+				"This pylon adds solid XP to the loot pool and increases the energy usage."
 			]
 			hide: true
 			id: "715132CC829C6956"
@@ -3245,7 +3252,7 @@
 			description: [
 				"Maximum ammount: 1"
 				""
-				"This pylon make the mob loot \"smelted\", for example pork will be coocked."
+				"This pylon smelts all mob loot, for example, making the porkchops cooked."
 			]
 			hide: true
 			id: "5A55D9110E738384"
@@ -3268,7 +3275,7 @@
 			description: [
 				"Maximum ammount: 1"
 				""
-				"This pylon have a chance to add a soul after the loot cycle and drastically increases the energy usage."
+				"This pylon adds a chance to add a soul to the crystal after a loot cycle and drastically increases the energy usage."
 			]
 			hide: true
 			id: "6012CD28844452F8"
@@ -3288,7 +3295,7 @@
 		}
 		{
 			dependencies: ["229FF3A42DB2FFF4"]
-			description: ["When consuming this &9potion&r - you will move to &eyour spawn point&r, potions are &cused&r when doing so."]
+			description: ["When consuming this &9potion&r, you will teleport to &eyour spawn point&r. Potions are &cconsumed&r when doing so."]
 			id: "0C27567FC4C9E5EA"
 			rewards: [{
 				count: 2

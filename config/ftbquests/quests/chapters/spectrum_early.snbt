@@ -557,7 +557,7 @@
 				""
 				"Grows on mud or clay. While growing, &#FEECD6consumes&r mud and clay blocks around itself, turning them into dirt."
 				""
-				"&n&l&#FEECD6Tip:&r&r&r use the &#CAE4C8Nature's compass&r to find the swamp easier! It spawns in all swamps, not only vanilla ones!"
+				"&n&l&#FEECD6Tip:&r&r&r use the &#CAE4C8Nature's compass&r to find the swamp easier! It spawns in all swamps, not only vanilla ones! To get one, progress some more in the main questline."
 			]
 			id: "6043D64CB5876428"
 			rewards: [
@@ -933,7 +933,8 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
+			shape: "gear"
+			size: 1.2d
 			subtitle: "Taming bacteria"
 			tasks: [{
 				id: "45C5C8D1397E9DA5"
@@ -1598,7 +1599,7 @@
 		}
 		{
 			dependencies: ["21E3A44EA5EDD677"]
-			description: ["By harnessing the powers of &#C7E2E9onyx&r, you have discovered how to create a &#d33b2bwireless redstone transmitter&r! It has a range of 12 blocks and can have different frequencies by applying pigment. RMB to swap between sending and recieving a signal."]
+			description: ["By harnessing the powers of &#C7E2E9onyx&r, you have discovered a way to to create a &#d33b2bwireless redstone transmitter&r! It has a range of 12 blocks and can be set to different frequencies by applying pigment. RMB to swap between sending and recieving a signal."]
 			hide: true
 			id: "011A580C8C287C71"
 			rewards: [
@@ -2443,7 +2444,7 @@
 		}
 		{
 			dependencies: ["4F56068060AD729D"]
-			description: ["Collect all &#FEECD6available&r pigments. Unfortunately, you &#d33b2bwon't be able&r to get brown pigment just yet, you will have to discover a way to create black first!"]
+			description: ["Collect all &#FEECD6available&r pigments. Unfortunately, you &#d33b2bdon't see a way&r to get brown pigment with your CMY gemstone pallete. If only there was a way to get black..."]
 			id: "26A96250A5A55E23"
 			rewards: [{
 				count: 16
@@ -2843,7 +2844,7 @@
 		{
 			dependencies: ["4A55A49B4290F794"]
 			description: [
-				"Can be equipped in the &3Trinket&r slot, &omaximum 2&r of these &ePouches&r can be equipped."
+				"Can be equipped in the &3Trinket&r slot, a &omaximum 2&r of these &ePouches&r can be equipped."
 				""
 				"The &ePouch&r will be displayed in your inventory."
 			]
@@ -2893,7 +2894,7 @@
 		{
 			dependencies: ["4A55A49B4290F794"]
 			description: [
-				"Can be equipped in the &3Trinket&r slot, &omaximum 1&r &eSatchel&r can be equipped."
+				"Can be equipped in the &3Trinket&r slot, a &omaximum of 1&r &eSatchel&r can be equipped."
 				""
 				"The &eSatchel&r will be displayed in your inventory."
 			]

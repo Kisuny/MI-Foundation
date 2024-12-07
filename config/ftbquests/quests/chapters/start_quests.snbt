@@ -603,7 +603,7 @@
 				""
 				"You can also use the &3search&r by hovering over items in &6REI&r."
 				""
-				"P.S. When there are &l&3too many chests&r&r and similar storages around you the mod &cstops working&r in favor of performance!"
+				"P.S. When there are &l&3too many chests&r&r and other cantainers around you, the mod &cstops working&r in favor of performance!"
 			]
 			icon: {
 				Count: 1b

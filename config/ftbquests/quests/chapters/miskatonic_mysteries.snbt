@@ -254,9 +254,9 @@
 			description: [
 				"Can be bought in villages from &evassals&r or from a &5Wandering trader&r. "
 				""
-				"The whole mod is very well described, you should have no problem getting the information with this book."
+				"The whole mod is very well described, you should have no problem getting the information from this book."
 				""
-				"&c&l&nWe recommend reading all the pages available to you!&r&r"
+				"&c&l&nWe recommend reading all of the pages available to you!&r&r"
 			]
 			id: "5ED4C88D6C8CAE1E"
 			shape: "gear"
@@ -292,11 +292,11 @@
 		{
 			dependencies: ["35A4525202DFF961"]
 			description: [
-				"Can be bought from a wandering trader"
+				"Can be bought from a wandering trader."
 				""
-				"Can be bought from a vassal in the villages"
+				"Can be bought from a vassal in a village."
 				""
-				"Allows you to unlock the use of spells like Projectile"
+				"Unlocks the use of spells such as Projectile."
 			]
 			hide: true
 			id: "21097A489C4AACB1"
@@ -313,9 +313,9 @@
 		{
 			dependencies: ["35A4525202DFF961"]
 			description: [
-				"Can be bought from a wandering trader"
+				"Can be bought from a wandering trader."
 				""
-				"Can be bought from a vassal in the villages"
+				"Can be bought from a vassal in a village."
 			]
 			hide: true
 			id: "792FD9BACA43CC9D"
@@ -332,12 +332,12 @@
 		}
 		{
 			dependencies: ["35A4525202DFF961"]
-			description: ["Read more about it in the book!"]
+			description: [""]
 			hide: true
 			id: "2713E99A752398D4"
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "Can be bought from a vassal in the villages"
+			subtitle: "Can be bought from a vassal in a village"
 			tasks: [{
 				id: "15A59C3D32C973AB"
 				item: "miskatonicmysteries:hastur_bell"
@@ -348,12 +348,12 @@
 		}
 		{
 			dependencies: ["35A4525202DFF961"]
-			description: ["Occult clothing"]
+			description: ["Occult clothing."]
 			hide: true
 			id: "5EBB19BC3428B26C"
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "Can be bought from a vassal in the villages"
+			subtitle: "Can be bought from a vassal in a village"
 			tasks: [
 				{
 					id: "004F00A3D995B462"
@@ -389,6 +389,7 @@
 					type: "item"
 				}
 			]
+			title: "Yellow Clothing"
 			x: -9.627619047619048d
 			y: 3.954761904761905d
 		}
@@ -420,9 +421,9 @@
 				"4A384EA7B1E04203"
 			]
 			description: [
-				"Perform a «&9sculptor rite&r» ritual, &nthe statue will be bound to the creator of the ritual&r."
+				"Perform a «&9Sculptor Rite&r» ritual. &nThe statue will be bound to the creator of the ritual&r."
 				""
-				"The ritual will require some of your &l&4life energy&r&r!"
+				"The ritual requires some of your &l&4life energy&r&r!"
 			]
 			hide: true
 			id: "1403AC2B841FD215"
@@ -490,20 +491,20 @@
 					type: "item"
 				}
 			]
-			title: "sculptor rite"
+			title: "Sculptor Rite"
 			x: -8.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["5ED4C88D6C8CAE1E"]
 			description: [
-				"At first look - an unremarkable altar, but if you put a &5Necronomicon&r on it - it turns into an instrument of &5magic&r!"
+				"At first glance it's just an unremarkable altar, but if you put a &5Necronomicon&r on it - it turns into an instrument of &5magic&r!"
 				""
-				"When the &5Necronomicon&r is in the altar you can create &l&cspells&r&r by combining the spell itself with the &c&ltarget&r&r you can cast it on, then you can choose the &l&cpower&r&r of the spell and write it into a book."
+				"When the &5Necronomicon&r is in the altar you can create &l&cspells&r&r by combining the spell itself with the &c&ltarget&r&r you can cast it on. Then you can choose the &l&cpower&r&r of the spell and write it into a book."
 				""
-				"Keep in mind, at first, &enot all spells&r and &cnot all targets&r for spells will be available to you. Also, you can't use spells of higher power levels. Later on, when you get &ethe blessing of the Old Ones&r, you will be able to cast more/stronger spells. "
+				"Keep in mind, at first, &enot all spells&r and &cnot all targets&r for spells will be available to you. Also, you won't be able to use spells of higher power levels. Later on, when you get &ethe blessing of the Old Ones&r, you will be able to cast more/stronger spells. "
 				""
-				"To pick up the necronomicon use &9Shift + right mouse button&r."
+				"To pick up the necronomicon use &9Shift + RMB&r."
 				""
 				"You can put other books on the altar for &3decoration&r!"
 			]
@@ -527,7 +528,7 @@
 		}
 		{
 			dependencies: ["1403AC2B841FD215"]
-			description: ["Give the statue to your &evassal&r"]
+			description: ["Give the statue to your &evassal&r."]
 			hide: true
 			id: "06562C2C31C20966"
 			tasks: [{
@@ -541,7 +542,7 @@
 		}
 		{
 			dependencies: ["5ED4C88D6C8CAE1E"]
-			description: ["Can be found in &9igloo&r, &9stronghold library&r and vanilla &9dungeons&r."]
+			description: ["Can be found in &9igloos&r, &9stronghold libraries&r and vanilla &9dungeons&r."]
 			hide: true
 			id: "65254EC70059EB10"
 			rewards: [{
@@ -590,13 +591,13 @@
 		{
 			dependencies: ["5ED4C88D6C8CAE1E"]
 			description: [
-				"Most rituals require the correct ordering of items, some occult decorations increase the &5stability of rituals&r!"
+				"Most rituals require the correct ordering of items. Some occult decorations may increase the &5stability of rituals&r!"
 				""
-				"But keep in mind, if you use occult symbolism of other Old Ones than your circle - the stability &cwill decrease&r on the contrary!"
+				"But keep in mind, if you use occult symbolism of the Old Ones other than those of your circle - the stability &cwill decrease&r instead!"
 				""
-				"Some rituals may require preparations, such as the &csacrifice&r of a living creature such as a &cpig&r, a &cplayer&r, or a &9sheet with coordinates&r!"
+				"Some rituals may require preparations, such as a &csacrifice&r of a living creature, like a &cpig&r, a &cplayer&r, or a &9sheet with coordinates&r!"
 				""
-				"Also, there are &8trap rituals&r that will only work after some &ccreature&r steps on it!"
+				"Also, there are some &8trap rituals&r that will only work after a &ccreature&r steps on them!"
 			]
 			hide: true
 			id: "0B617D45014FE332"
@@ -618,12 +619,12 @@
 		}
 		{
 			dependencies: ["35A4525202DFF961"]
-			description: ["Can be used in Loom, changing the pattern of the flags "]
+			description: ["A custom banner pattern. Can be used in a Loom."]
 			hide: true
 			id: "307EB635F0650331"
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "Can be bought from a vassal in the villages"
+			subtitle: "Can be bought from a vassal in a village"
 			tasks: [{
 				id: "31E90A9755E836E2"
 				item: "miskatonicmysteries:yellow_sign_banner_pattern"
@@ -634,7 +635,7 @@
 		}
 		{
 			dependencies: ["35A4525202DFF961"]
-			description: ["Required Octogram"]
+			description: ["Required to make Octograms."]
 			hide: true
 			id: "2B766E494F49C0E6"
 			tasks: [{
@@ -656,7 +657,7 @@
 			description: [
 				"The ritual of the «&l&6Golden Coronation&r&r»"
 				""
-				"It is necessary to &csacrifice&r someone as well as a &egroup of serfs&r! (You can read more in &6REI&r or &cNecronomicon&r)"
+				"You need a &csacrifice&r, as well as a &egroup of serfs&r! (You can read more in &6REI&r or inside the &cNecronomicon&r)"
 			]
 			hide: true
 			id: "563A65DD88363232"
@@ -743,7 +744,7 @@
 		}
 		{
 			dependencies: ["35A4525202DFF961"]
-			description: ["&9With a chance&r an &8infected wheat&r can grow from wheat, also using &8infected wheat&r - you can &8infect&r other wheat in the radius that has already grown!"]
+			description: ["&9With a small chance&r, &8infected wheat&r can grow from regular wheat. Also, by using &8infected wheat&r you can &8infect&r other grown wheat in the radius!"]
 			hide: true
 			id: "4A384EA7B1E04203"
 			tasks: [{
@@ -757,15 +758,15 @@
 		{
 			dependencies: ["6FA72BDA58065CFB"]
 			description: [
-				"It's time to get together with the &ecult&r and create a &lcelebration&r!"
+				"It's time to get together with the &ecult&r and host a &lcelebration&r!"
 				""
-				"After getting the «&l&2Hero of the village&r&r» effect &lRight click&r on the &ebell&r."
+				"After getting the «&l&2Hero of the Village&r&r» effect, &lRMB&r on a &ebell&r."
 				""
-				"You must gather everyone! The &3villagers&r, the &evassals&r, &e&lthe prince&r&r!"
+				"You must gather everyone! &3Villagers&r, the &evassals&r, and &e&lthe prince&r&r!"
 				""
-				"You will also need &5fireworks&r and &bmusic&r, and you may also need to «&m&dchill&r&r» the &3villagers&r in some way."
+				"You will also need &5fireworks&r and &bmusic&r, and you may also to «&m&dchill&r&r» the &3villagers&r in some way to increase their mood."
 				""
-				"The amount of &2&ngood mood&r&r determines the &nresult&r of the determines the outcome of the &l&6golden gathering&r&r and your &6blessing&r from the &l&eprince&r&r!"
+				"The amount of &2&ngood mood&r&r determines the outcome of the &l&6golden gathering&r&r, and your &6blessing&r from the &l&eprince&r&r!"
 			]
 			hide: true
 			hide_dependency_lines: true
@@ -808,9 +809,9 @@
 		{
 			dependencies: ["6FA72BDA58065CFB"]
 			description: [
-				"&3Byakhee's&r summoning ritual is a flying pet that needs to be &2tamed&r!"
+				"&3Byakhee&r is a flying pet that needs to be &2tamed&r!"
 				""
-				"The ritual needs a &csacrifice&r!"
+				"This ritual needs a &csacrifice&r to begin!"
 			]
 			hide: true
 			hide_dependency_lines: true
@@ -860,7 +861,7 @@
 		}
 		{
 			dependencies: ["0C043EB28D4F969A"]
-			description: ["Read more about it in the book!"]
+			description: ["You can read more about it in the book!"]
 			hide: true
 			id: "6EDBF4A36BBD1674"
 			rewards: [{
@@ -880,9 +881,9 @@
 		{
 			dependencies: ["0B617D45014FE332"]
 			description: [
-				"Ritual «&eOpen Gate&r» - allows you to bind two octograms to each other so that you can &9teleport&r through them, no matter in which worlds the octograms stand, &cthe connection will allow you to teleport between worlds and any number of blocks&r. You will also be able to move &nany creatures&r through the octogram."
+				"«&eOpen Gate&r» ritual allows you to bind two octograms to each other, so that you can &9teleport&r between them. It doesn't matter where or in which dimension they are located, &cthe connection will work&r. You will also be able to move &nany creature&r through the octogram."
 				""
-				"You will also need the «&eIncantation of the Gate-and-Key&r» bound to the second octogram."
+				"You will need the «&eIncantation of the Gate-and-Key&r» bound to the second octogram."
 			]
 			hide: true
 			hide_dependency_lines: true
@@ -938,7 +939,7 @@
 		}
 		{
 			dependencies: ["6FA72BDA58065CFB"]
-			description: ["The «&8Create Masterpiece&r» ritual allows you to fix the &ctarget&r, the target in this ritual will  &nnot be able&r to &e&lmove&r&r, and to be able to move, you must &ckill&r it."]
+			description: ["The «&8Create Masterpiece&r» ritual allows you to fix the &ctarget&r in place. The target of this ritual &nwon't be able&r to &e&lmove&r&r. The only way to move it afterwards is by &ckilling&r it."]
 			hide: true
 			hide_dependency_lines: true
 			id: "7BD7495188DCB3C5"
@@ -988,13 +989,13 @@
 				""
 				"You need to be &3safe&r while performing the ritual, &mas well as read the rules of Sudoku&r."
 				""
-				"After performing the ritual, your biome within a certain radius will turn into a new, &6golden&r one (in the future it can be turned back to the normal one)"
+				"After performing the ritual, the biome within a certain radius will turn into a new, &6golden&r one (in the future it can be turned back to normal)"
 				""
-				"To evoke the simulacrum is necessary:"
+				"To evoke the simulacrum, you need:"
 				""
-				"• Structure."
-				"• 3 yellow serfs.."
-				"• Prince."
+				"• The Structure."
+				"• 3 yellow serfs."
+				"• The Tattered Prince."
 			]
 			id: "720DD169BC8B356A"
 			rewards: [{
@@ -1086,20 +1087,21 @@
 					type: "item"
 				}
 			]
+			title: "Simulacrum"
 			x: -8.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["720DD169BC8B356A"]
 			description: [
-				"Letting a &esimulacr&r into the world will give you a lot of buffs in the &esimulacra's&r area of effect:"
+				"Letting a &esimulacr&r into the world will give you a lot of buffs in &eits&r area of effect:"
 				""
-				"• The villagers will give you a big &9discount&r when you trade with them."
-				"• Creatures that do not idolize Hatsuru will receive &8debuffs&r, and they will also have &8trouble sleeping&r."
-				"• Your &5magic will increase&r in the area of effect of the simulacr."
+				"• The villagers will give you a big &9discount&r for trading."
+				"• Creatures that don't idolize Hatsuru will receive &8debuffs&r, and they will also have &8trouble sleeping&r."
+				"• Your &5magic&r gets stronger in the area of effect of the simulacr."
 				"• All &5rituals&r that do not belong to &eHatsura&r will almost &5always be unstable&r, &eHatsura&r octograms will almost always be &2stable&r."
 				""
-				"To expand the area of the simulacra - build an &3obelisk&r and right-click on its lower block with the Necronomicon."
+				"To expand the area of the simulacr - build an &3obelisk&r and RMB on its lower block with the Necronomicon."
 			]
 			id: "3337360BBAA0C080"
 			rewards: [{
@@ -1119,7 +1121,7 @@
 		}
 		{
 			dependencies: ["3337360BBAA0C080"]
-			description: ["Simply breaking the &esimulacra&r is not enough, in order to get rid of it, to &cremove&r the simulacra completely it is necessary to perform a «&2Clearing Simulacra&r» ritual next to the previously active simulacra!"]
+			description: ["Simply breaking the &esimulacr&r is not enough to get rid of it. To &cremove&r the simulacr completely, perform a «&2Cleanse Da World&r» ritual next to it!"]
 			hide: true
 			hide_dependency_lines: true
 			id: "6FE08F702475A448"
@@ -1173,7 +1175,7 @@
 					type: "item"
 				}
 			]
-			title: "Clearing Simulacra"
+			title: "Clearing the Simulacr"
 			x: -7.918775510204078d
 			y: -17.79081632653061d
 		}

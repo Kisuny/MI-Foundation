@@ -765,23 +765,23 @@
 				item: "botania:blacker_lotus"
 				type: "item"
 			}]
-			title: "Return mana to its original form"
+			title: "Returning mana to its original form"
 			x: -5.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["0BE7C888A9C0463D"]
 			description: [
-				"&4Most&r of &aBotania's familiar structures&r have been successfully integrated with technology. Now process automation is even easier!"
+				"&4Most&r of &aBotania's processes&r have been successfully integrated with technology. Now automation is even easier!"
 				""
 				"Multiblocks &eprimarily&r consist of:"
 				""
-				"• Clean Stainless Steel Machine Casing"
-				"• Manasteel Casing "
+				"• Clean Stainless Steel Machine Casings"
+				"• Manasteel Casings"
 				"• Clear Hummingstone Glass"
-				"• Polished Calcite Pillar"
+				"• Polished Calcite Pillars"
 				""
-				"The &ostructure of multiblocks&r can be seen by taking the key from &eModern Industrialization&r in your hand"
+				"The &ostructure of multiblocks&r can be seen by holding the Wrench from &eModern Industrialization&r in your hand."
 			]
 			id: "5F754C8C9D4B9968"
 			tasks: [{
@@ -794,7 +794,7 @@
 		}
 		{
 			dependencies: ["0BE7C888A9C0463D"]
-			description: ["&4Most&r of the generating flora were able to integrate with technology and directly produce &bLiquid Mana&r"]
+			description: ["&4Most&r of the generating flora was able to integrate with technology and directly produce &bLiquid Mana&r."]
 			id: "7D466F716CC7DB47"
 			tasks: [{
 				id: "51A86A5BFF52DAAA"
@@ -905,7 +905,7 @@
 			y: 3.0d
 		}
 		{
-			description: ["&bMana&r storage in ae2 is <shake>possible</shake>"]
+			description: ["&bMana&r storage in AE2 is, in fact, <shake>possible</shake>."]
 			id: "54281746C46E120E"
 			tasks: [{
 				id: "1D46F0398C62B78F"
@@ -1082,9 +1082,9 @@
 				"0379CDF7FB133E48"
 			]
 			description: [
-				"&9Growing Chamber&r, allows you to grow &4all plants&r and &4more&r."
+				"&9Growing Chamber&r can grow &4all plants&r and &4more&r."
 				""
-				"&4Most&r &amagical&r plants can be grown here"
+				"&4Most&r &amagical&r plants can also be grown here."
 			]
 			hide: true
 			id: "51F748A16C4D6F0B"

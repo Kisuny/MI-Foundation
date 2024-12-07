@@ -18,7 +18,7 @@
 	quests: [
 		{
 			dependencies: ["664A12765CF548C8"]
-			description: ["To create the stone - collect the blackslag and place it next to the «pure daisy»."]
+			description: ["To create livingrock, place blackslag next to the Pure Daisy."]
 			hide: true
 			id: "7DD2206DF25D8DC3"
 			rewards: [
@@ -47,7 +47,7 @@
 		}
 		{
 			dependencies: ["664A12765CF548C8"]
-			description: ["To create wood - put noxcap next to «pure daisy»."]
+			description: ["To create livingwood - place noxcap next to the Pure Daisy."]
 			hide: true
 			id: "5FA31A55E3348D51"
 			rewards: [
@@ -97,6 +97,7 @@
 				title: "Any #botania:apothecary"
 				type: "item"
 			}]
+			title: "Apothecary"
 			x: 0.0d
 			y: -4.0d
 		}
@@ -754,7 +755,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Mana for TNT explosion"
+			subtitle: "Mana for TNT explosions"
 			tasks: [{
 				id: "4FA23882124A0788"
 				item: "botania:entropinnyum"
@@ -819,6 +820,7 @@
 		}
 		{
 			dependencies: ["7E5C457A7E9FC7E7"]
+			description: ["Uses mana."]
 			id: "20C6DD456DD74099"
 			rewards: [
 				{
@@ -871,6 +873,7 @@
 		}
 		{
 			dependencies: ["7E5C457A7E9FC7E7"]
+			description: ["Uses mana."]
 			id: "6B2E3A28DA641BFD"
 			rewards: [
 				{
@@ -886,7 +889,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Produces mystical flowers at the cost of mana."
+			subtitle: "Produces mystical flowers"
 			tasks: [{
 				id: "18AE9686F134549D"
 				item: "botania:jaded_amaranthus"
@@ -897,7 +900,10 @@
 		}
 		{
 			dependencies: ["7E5C457A7E9FC7E7"]
-			description: ["Supports most ores!"]
+			description: [
+				"Supports most ores!"
+				"Uses mana."
+			]
 			id: "509B6DD112C0E88D"
 			rewards: [
 				{
@@ -913,7 +919,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Creates ore for mana and stones"
+			subtitle: "Creates ore from stones"
 			tasks: [{
 				id: "7EFE1A89EEF64463"
 				item: "botania:orechid"
@@ -924,6 +930,7 @@
 		}
 		{
 			dependencies: ["7E5C457A7E9FC7E7"]
+			description: ["Uses mana."]
 			id: "1ED2FD21B3408B5A"
 			rewards: [
 				{
@@ -939,7 +946,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Regeneration 3 for mana"
+			subtitle: "Gives Regeneration 3"
 			tasks: [{
 				id: "4BBD168B5D27A533"
 				item: "botania:fallen_kanade"
@@ -965,7 +972,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Fills the furnaces and speeds up their operation"
+			subtitle: "Fuels the furnaces and speeds up their operation"
 			tasks: [{
 				id: "3229D485FCFEC4AA"
 				item: "botania:exoflame"
@@ -976,6 +983,7 @@
 		}
 		{
 			dependencies: ["7E5C457A7E9FC7E7"]
+			description: ["Uses mana."]
 			id: "6A1514A01B22C680"
 			rewards: [
 				{
@@ -991,7 +999,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Accelerates the growth of crops at the cost of mana"
+			subtitle: "Accelerates the growth of crops"
 			tasks: [{
 				id: "2AABB97791FA9DB9"
 				item: "botania:agricarnation"
@@ -1017,7 +1025,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Funnel but with a larger picking radius and works for mana"
+			subtitle: "Hopper, but with a larger radius and works for mana"
 			tasks: [{
 				id: "65C0DA927259FA16"
 				item: "botania:hopperhock"
@@ -1080,6 +1088,7 @@
 		}
 		{
 			dependencies: ["7E5C457A7E9FC7E7"]
+			description: ["Uses mana."]
 			id: "54214D303EC77426"
 			rewards: [
 				{
@@ -1158,6 +1167,7 @@
 		}
 		{
 			dependencies: ["7E5C457A7E9FC7E7"]
+			description: ["Uses a lot of mana."]
 			id: "10BA99096542B69F"
 			rewards: [
 				{
@@ -1173,7 +1183,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "At the cost of a large amount of mana spawns mobs when killing which will drop loot from the dungeon"
+			subtitle: "Spawns mobs that drop loot from the dungeon"
 			tasks: [{
 				id: "554E10917D2DD1CA"
 				item: "botania:loonium"
@@ -1210,6 +1220,7 @@
 		}
 		{
 			dependencies: ["7E5C457A7E9FC7E7"]
+			description: ["Uses mana."]
 			id: "63B0B977EEDAF2E5"
 			rewards: [
 				{
@@ -1225,7 +1236,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Prohibits Endermen from teleporting within range of the flower for mana"
+			subtitle: "Prohibits Endermen from teleporting within the range of the flower"
 			tasks: [{
 				id: "18BEB96095CF8992"
 				item: "botania:vinculotus"
@@ -1277,7 +1288,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Freezes mobs, they stop moving."
+			subtitle: "Freezes mobs in place"
 			tasks: [{
 				id: "77368E466EA9F8B9"
 				item: "botania:medumone"
@@ -1288,6 +1299,7 @@
 		}
 		{
 			dependencies: ["7E5C457A7E9FC7E7"]
+			description: ["Uses mana."]
 			id: "6823A7490DA48492"
 			rewards: [
 				{
@@ -1303,7 +1315,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Remove water at the cost of mana, useful for underwater bases."
+			subtitle: "Removes water, useful for underwater bases."
 			tasks: [{
 				id: "6C75E84C513E52FA"
 				item: "botania:bubbell"
@@ -1314,6 +1326,7 @@
 		}
 		{
 			dependencies: ["7E5C457A7E9FC7E7"]
+			description: ["Uses mana."]
 			id: "2A06BCA8DEDB3724"
 			rewards: [
 				{
@@ -1329,7 +1342,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Creates nether ore for mana and netherrack"
+			subtitle: "Creates nether ore from netherrack"
 			tasks: [{
 				id: "5259A82ECD3CEC42"
 				item: "botania:orechid_ignem"
@@ -1340,12 +1353,12 @@
 		}
 		{
 			dependencies: ["7DBF29B0CA3AB04F"]
-			description: ["Generating flora - creating &bmana&r, all flowers in this category are &lengaged&r in &bmana&r creation!"]
+			description: ["Generating Flora - all flowers in this category are &lcapable&r of creating &bmana&r!"]
 			id: "73E89696B8014546"
 			shape: "gear"
 			tasks: [{
 				id: "0BA963C1B4BACED4"
-				title: "Generating flora"
+				title: "Generating Flora"
 				type: "checkmark"
 			}]
 			x: 1.0d
@@ -1353,12 +1366,12 @@
 		}
 		{
 			dependencies: ["7DBF29B0CA3AB04F"]
-			description: ["Functional flora - &lusing&r, all flowers in this category &oconsume&r &bmana&r and provide some functionality, depending on the flower."]
+			description: ["Functional Flora - all flowers in this category &oconsume&r &bmana&r and provide some functionality, depending on the flower."]
 			id: "7E5C457A7E9FC7E7"
 			shape: "gear"
 			tasks: [{
 				id: "7874ED3E8DB28289"
-				title: "Functional flora"
+				title: "Functional Flora"
 				type: "checkmark"
 			}]
 			x: -1.0d
@@ -1388,11 +1401,11 @@
 		{
 			dependencies: ["5E9A8B25A318CD11"]
 			description: [
-				"You have 2 ways to create a mana ingot"
+				"You have 2 ways of creating manasteel:"
 				""
-				"• For magical steel - losing lesser &bmana&r."
+				"• From magical steel - using less &bmana&r."
 				""
-				"• For common steel - losing a lot more &bmana&r."
+				"• From regular steel - using a lot more &bmana&r."
 			]
 			hide: true
 			id: "4B5A35FB7FEE1E6B"
@@ -1488,7 +1501,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "Create a portal to Elven"
+			subtitle: "Create a portal to the Elven realm"
 			tasks: [{
 				id: "4AF9F8C704EE805C"
 				item: "botania:alfheim_portal"
@@ -1682,7 +1695,7 @@
 				"3018AF7A6669D930"
 				"4B5A35FB7FEE1E6B"
 			]
-			description: ["Creating a &aterrastal&r is only available through spectrum, to create a terrastal you must grow it in crystallarieum using a terrastal catalyst."]
+			description: ["Creating &aterrasteel&r is only available through Spectrum. You have to grow it in crystallarieum using a terrasteel catalyst."]
 			hide: true
 			id: "0FD878AAB9458CE9"
 			rewards: [
@@ -1709,7 +1722,7 @@
 		}
 		{
 			dependencies: ["5A85F7635956BE2F"]
-			description: ["In fact - creative flight."]
+			description: ["Finally, creative flight!"]
 			hide: true
 			id: "24BF8E5FA58AB7FD"
 			shape: "gear"
@@ -1968,7 +1981,7 @@
 				"0379CDF7FB133E48"
 				"3FB65AE45A1ABAF0"
 			]
-			description: ["&6This quest opens a new chapter of quests!&r"]
+			description: ["Is it likely that mechanisms will be able to interact with this form of &bmana&r?"]
 			id: "0BE7C888A9C0463D"
 			rewards: [
 				{
@@ -1983,13 +1996,13 @@
 					type: "item"
 				}
 			]
-			subtitle: "Is it likely that mechanisms will be able to interact with this form of &bmana&r?"
+			subtitle: "&#ffb04fThis quest opens a new quest chapter!&r"
 			tasks: [{
 				id: "23E45A2FACE59F9B"
 				item: "modern_industrialization:liquid_mana_bucket"
 				type: "item"
 			}]
-			title: "A more material form of mana"
+			title: "A material form of mana"
 			x: -3.0d
 			y: -8.5d
 		}
@@ -1999,7 +2012,7 @@
 				"5E9A8B25A318CD11"
 			]
 			id: "3FB65AE45A1ABAF0"
-			subtitle: "Is automation possible that is similar to the things you are already used to?"
+			subtitle: "Is automation possible like you are used to?"
 			tasks: [{
 				id: "1E520641253A0E2A"
 				type: "checkmark"
@@ -2011,9 +2024,9 @@
 		{
 			dependencies: ["7AC1920BD7A9329E"]
 			description: [
-				"Flowers need to be revitalized in the «Spirit Instiller»"
+				"Flowers first need to be revitalized in the Spirit Instiller."
 				""
-				"Fossilized Flowers can be found in the deeper down by walking near graveyards or mining from the moon!"
+				"Fossilized Flowers can be found in the Deeper Down cities near graveyards or from drilling on the moon!"
 			]
 			hide: true
 			id: "3EAED60DF7CE15EB"
