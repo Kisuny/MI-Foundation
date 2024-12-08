@@ -566,7 +566,11 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["190C18AB20216705"]
+			dependencies: [
+				"190C18AB20216705"
+				"6E5CD34258826606"
+			]
+			hide_dependency_lines: true
 			id: "60D3401A80517536"
 			rewards: [
 				{
@@ -593,7 +597,11 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["190C18AB20216705"]
+			dependencies: [
+				"190C18AB20216705"
+				"6E5CD34258826606"
+			]
+			hide_dependency_lines: true
 			id: "1A4A037FE37A7621"
 			rewards: [
 				{
@@ -1324,6 +1332,7 @@
 		{
 			dependencies: ["6E5CD34258826606"]
 			description: [""]
+			hide: true
 			id: "6B922FE87FE0719A"
 			rewards: [
 				{

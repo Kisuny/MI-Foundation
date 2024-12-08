@@ -147,7 +147,7 @@
 				item: "modern_industrialization:stainless_steel_dust"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 9.0d
 			y: -18.5d
 		}
 		{
@@ -218,6 +218,7 @@
 				item: "modern_industrialization:stainless_steel_ingot"
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "5E6AA0315E1D67EB"
 				item: "modern_industrialization:stainless_steel_barrel"
@@ -235,6 +236,7 @@
 				item: "modern_industrialization:stainless_steel_ingot"
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "0F9C292D233CE667"
 				item: "modern_industrialization:stainless_steel_tank"
@@ -362,7 +364,7 @@
 				item: "modern_industrialization:digital_circuit_board"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 15.0d
 			y: -18.5d
 		}
 		{
@@ -444,7 +446,7 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
+			x: 9.0d
 			y: -16.5d
 		}
 		{
@@ -1109,7 +1111,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.012925170068037d
+			x: 9.012925170068037d
 			y: -11.528911564625865d
 		}
 		{
@@ -2162,7 +2164,7 @@
 				item: "modern_industrialization:turbo_upgrade"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 9.0d
 			y: -17.5d
 		}
 		{
@@ -3046,7 +3048,7 @@
 				item: "ae2:formation_core"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 15.5d
 			y: -21.5d
 		}
 		{
@@ -3064,7 +3066,7 @@
 				item: "ae2:annihilation_core"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 14.5d
 			y: -21.5d
 		}
 		{
@@ -3100,7 +3102,7 @@
 				item: "modern_industrialization:kanthal_dust"
 				type: "item"
 			}]
-			x: 9.5d
+			x: 8.5d
 			y: -19.5d
 		}
 		{
@@ -3117,7 +3119,7 @@
 				item: "modern_industrialization:kanthal_ingot"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 9.5d
 			y: -19.5d
 		}
 		{
@@ -3134,7 +3136,7 @@
 				item: "modern_industrialization:kanthal_coil"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 10.5d
 			y: -19.5d
 		}
 		{
@@ -3405,6 +3407,18 @@
 			}]
 			x: 21.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["6B4332CD6E294B8B"]
+			id: "508086CB79DFFB41"
+			shape: "diamond"
+			tasks: [{
+				id: "7B273CF6B54F3327"
+				item: "modern_industrialization:air_intake"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -20.5d
 		}
 	]
 	title: "&7Space program | HV"

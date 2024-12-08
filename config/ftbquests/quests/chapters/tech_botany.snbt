@@ -905,6 +905,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["46B678C8DDB9B181"]
 			description: ["&bMana&r storage in AE2 is, in fact, <shake>possible</shake>."]
 			id: "54281746C46E120E"
 			tasks: [{
