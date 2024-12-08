@@ -174,7 +174,7 @@
 	quests: [
 		{
 			dependencies: ["0A81427D1090F655"]
-			description: ["You can buy the Journal from a villager whose work station is a chemistry set"]
+			description: ["You can buy the Journal from a villager whose work station is a chemistry set."]
 			id: "7A2EC7290C886EA5"
 			rewards: [{
 				id: "1558A7DF4954A623"
@@ -190,7 +190,7 @@
 			y: 0.1979166666666643d
 		}
 		{
-			description: ["For crafting you need to put all the items, then &6light Chemistry Set&r, after the crafting ready - RMB with «Catalyst», such as a piece of &epaper&r or &eglass bottle&r."]
+			description: ["To craft, put all of the needed items inside the Chemistry Set, then &6light it&r. After the process finishes, RMB with a «Catalyst» specified on the right, such as a piece of &epaper&r or a &eglass bottle&r."]
 			id: "0A81427D1090F655"
 			rewards: [{
 				id: "717E17D100E28D73"
@@ -208,7 +208,7 @@
 		}
 		{
 			dependencies: ["7A2EC7290C886EA5"]
-			description: ["Powered by an energy cell, creates a «vibration» When activated, &mneeded to gain new spells?&r"]
+			description: ["Powered by an energy cell, creates «vibrations». &mNeeded to gain new spells&r. Makes an alternate plane visible, albeit not always tangible."]
 			id: "4DBC7F64874698A1"
 			rewards: [{
 				id: "03E8D2D3A5E5456C"
@@ -227,7 +227,7 @@
 		}
 		{
 			dependencies: ["7A2EC7290C886EA5"]
-			description: ["Generates &eenergy&r for the &5Resonator&r"]
+			description: ["Generates &eenergy&r for the &5Resonator&r."]
 			id: "7A9938944EC69E02"
 			rewards: [{
 				id: "6DF01E96EF607F45"
@@ -252,7 +252,7 @@
 				item: "kubejs:magic_lootbag_uncommon"
 				type: "item"
 			}]
-			subtitle: "It's created on a chemical set, powers the energy cell"
+			subtitle: "Created with a chemistry set, powers the energy cell"
 			tasks: [{
 				count: 2L
 				id: "713989276A9C2968"
@@ -264,7 +264,7 @@
 		}
 		{
 			dependencies: ["4DBC7F64874698A1"]
-			description: ["Can be obtained by &eright-clicking&r on the active &5resonator&r with &2ectoplasm&r in hand!"]
+			description: ["Can be obtained by &eright-clicking&r on an active &5resonator&r with &2ectoplasm&r in hand!"]
 			id: "1B1F2DE8E4B83167"
 			rewards: [{
 				id: "40ADD533B2825212"
@@ -281,7 +281,7 @@
 		}
 		{
 			dependencies: ["0A81427D1090F655"]
-			description: ["Can not be removed with milk, to remove the debuff you need to use a tranquilizer"]
+			description: ["Cannot be removed by using milk. To get rid of the debuff, you need to use a tranquilizer."]
 			id: "392F12AAFCD69E2C"
 			rewards: [{
 				id: "4D8C2F39EA772BE6"
@@ -301,7 +301,7 @@
 				"1B1F2DE8E4B83167"
 				"392F12AAFCD69E2C"
 			]
-			description: ["Improved version"]
+			description: ["An improved version of the Blotter."]
 			id: "1122170AE485C82B"
 			rewards: [{
 				id: "1332666CBBEF9091"
@@ -318,7 +318,7 @@
 		}
 		{
 			dependencies: ["392F12AAFCD69E2C"]
-			description: ["A tranquilizer removes the effects of mania"]
+			description: ["Removes the effects of mania."]
 			id: "198819F24854A4A6"
 			rewards: [{
 				id: "201245DC54758BA9"
@@ -336,7 +336,7 @@
 		}
 		{
 			dependencies: ["0A81427D1090F655"]
-			description: ["After &cdeath&r will revive you "]
+			description: ["Revives you after you &cdie&r."]
 			id: "1BEB079D6E061D5D"
 			rewards: [{
 				id: "73B98F1CA8AE385F"
@@ -354,7 +354,7 @@
 		}
 		{
 			dependencies: ["1B1F2DE8E4B83167"]
-			description: ["unlocks a new spell"]
+			description: ["Unlocks a new spell."]
 			id: "36728E273B04BCE1"
 			rewards: [{
 				id: "75B430B724C1150A"

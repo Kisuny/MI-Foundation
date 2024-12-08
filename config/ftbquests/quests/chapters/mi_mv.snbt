@@ -98,7 +98,7 @@
 					type: "item"
 				}
 			]
-			title: "Aluminum parts"
+			title: "Aluminum Machine Parts"
 			x: -8.0d
 			y: 1.5d
 		}
@@ -141,6 +141,7 @@
 				"69D4D6B68F8732DD"
 				"5155E62DBD279683"
 			]
+			description: ["By pressing RMB on any machine with the casing in hand, it will upgrade the machine to MV, and allow it to accept MV power."]
 			id: "3D1045C0C6B3BA08"
 			rewards: [
 				{
@@ -243,7 +244,7 @@
 				"177C8ED1C4934331"
 				"3D1045C0C6B3BA08"
 			]
-			description: ["Is necessary to &bcool off&r some materials and fluids."]
+			description: ["&bCools down&r some metals and fluids by creating a vacuum."]
 			id: "796BBB93DDF2F8D3"
 			rewards: [
 				{
@@ -275,7 +276,7 @@
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
-			description: ["Allows to obtain certain chemical &4precursors&r"]
+			description: ["Separates basic substances into their chemical components. Needed for the processing of advanced ores."]
 			hide_dependent_lines: true
 			id: "128ECB644D303AF3"
 			rewards: [
@@ -300,7 +301,7 @@
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
-			description: ["Basic material &4decomposition&r"]
+			description: ["&4Separates&r resources into their components via fast motor go brrr."]
 			id: "12829AE05244CA1B"
 			rewards: [
 				{
@@ -332,7 +333,7 @@
 				"3D1045C0C6B3BA08"
 				"566A7BC814D63078"
 			]
-			description: [""]
+			description: ["Turbine, but MV, and with 4 times the throughput."]
 			id: "032D0C4B0DBE2DF2"
 			rewards: [
 				{
@@ -390,6 +391,7 @@
 				"3D1045C0C6B3BA08"
 				"566A7BC814D63078"
 			]
+			description: ["Same as the steam quarry, but electric."]
 			id: "66D16ADD44115DC6"
 			rewards: [
 				{
@@ -418,7 +420,7 @@
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
-			description: ["Basic means of &0distillation&r."]
+			description: ["&3Distills&r some liquids into purer forms."]
 			id: "095D8F4F8A00FA99"
 			rewards: [
 				{
@@ -520,6 +522,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "SiliGone"
 			tasks: [{
 				id: "2A8487D37B80241E"
 				item: "modern_industrialization:silicon_dust"
@@ -616,7 +619,7 @@
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
-			description: ["&6Bulk&r alloy smelting"]
+			description: ["&6Bulk&r alloying."]
 			id: "7690F3B47E697F59"
 			rewards: [
 				{
@@ -706,9 +709,9 @@
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
 			description: [
-				"&aMining speed is dependent on the fuel quality&r "
-				"Has two modes: \"silk touch\" and \"fortune 3\"."
-				"&4can't mine 3x3&r"
+				"&aMining speed is dependent on the fuel quality&r."
+				"Has two modes: \"Silk Touch\" and \"Fortune 3\"."
+				"&4Doesn't have 3x3 mining&r."
 			]
 			id: "20D91BDF17DB51A8"
 			rewards: [{
@@ -766,12 +769,13 @@
 					type: "item"
 				}
 			]
-			title: "Large parts"
+			title: "Large Machine Parts"
 			x: -5.0d
 			y: 5.5d
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
+			description: ["Produces even more steam than the large boiler - 1024mb/t."]
 			id: "26BC4228887D3C46"
 			rewards: [
 				{
@@ -886,7 +890,7 @@
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
-			description: ["The gateway to advanced chemistry."]
+			description: ["Performs chemical reactions. Some recipes need upgrades to reach the required energy consumption."]
 			hide_dependent_lines: true
 			id: "7A113E343238A35D"
 			rewards: [
@@ -901,7 +905,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Alex it's time to cook!"
+			subtitle: "Alex, it's time to cook!"
 			tasks: [{
 				id: "77AF471793FBDB6D"
 				item: "modern_industrialization:chemical_reactor"
@@ -941,7 +945,7 @@
 		}
 		{
 			dependencies: ["36449FA11F79E8C6"]
-			description: ["Upgrades &4increase&r the maximum overclock speed and recipe energy requirements. For some recipe it's &4necessary&r to put upgrades inside machine to start a recipe."]
+			description: ["Upgrades &4increase&r the maximum overclock speed and recipe energy requirements. For some recipes, it's &4necessary&r to put upgrades inside the machine, as the recipe requirement is higher than the base maximum rate."]
 			id: "2497BFB0A45ABE61"
 			rewards: [{
 				count: 4
@@ -1003,7 +1007,7 @@
 				"3D1045C0C6B3BA08"
 				"566A7BC814D63078"
 			]
-			description: ["Allows to &6drill&r a different &4liquids&r depending on dimension and drill types."]
+			description: ["&6Drills&r different &4liquids&r depending on the drill type and dimension."]
 			id: "5A9F94BC1B9EA1F0"
 			rewards: [
 				{
@@ -1177,7 +1181,7 @@
 		}
 		{
 			dependencies: ["181FAC8893771CD9"]
-			description: ["Basic rocket fuel."]
+			description: ["The main component of the rocket fuel."]
 			hide: false
 			id: "56AF55D3C00B803A"
 			tasks: [{
@@ -1338,7 +1342,7 @@
 				}
 			]
 			size: 1.5d
-			subtitle: "Houston we have a problem here"
+			subtitle: "Houston, we have a problem"
 			tasks: [
 				{
 					id: "46824E1174B4C5C1"
@@ -1365,7 +1369,7 @@
 				"32FF345AF0E87070"
 				"3D1045C0C6B3BA08"
 			]
-			description: ["You can use either &9oxygen&r compressor or just RMB with &9oxygen&r tank on tank with &9oxygen&r.  "]
+			description: ["You can either use an &9oxygen&r compressor or just RMB with the &9oxygen&r tank on an MI tank containing &9oxygen&r.  "]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1b
@@ -1410,7 +1414,7 @@
 		}
 		{
 			dependencies: ["58FD2F344DAA81A5"]
-			description: ["Is necessary to survive the vas emptiness of space. To work properly it needs to be filled with oxygen."]
+			description: ["Is necessary to survive the vast emptiness of space. To work properly it needs to be filled with oxygen."]
 			hide: false
 			icon: {
 				Count: 1b
@@ -1620,7 +1624,7 @@
 					type: "item"
 				}
 			]
-			title: "Lunar fossils"
+			title: "Lunar Ores"
 			x: -19.0d
 			y: 4.5d
 		}
@@ -1663,7 +1667,7 @@
 				id: "2BE087E59236E20C"
 				type: "biome"
 			}]
-			title: "One small step for man"
+			title: "One small step for Steve"
 			x: -16.5d
 			y: 4.5d
 		}
@@ -1797,7 +1801,7 @@
 		}
 		{
 			dependencies: ["597070AC15C6CF1E"]
-			description: ["&9ME&r drive is used to store storage cards. Every item takes 1 &4type&r if it was not present in ME system and 1 &4byte&r. "]
+			description: ["&9ME&r drive is used to store storage disks. Every item takes up 1 &4type&r inside the disk if it was not present there before. Otherwise, each item takes up 1 &4bit&r. "]
 			id: "3963D7F954AC6EC0"
 			rewards: [
 				{
@@ -1837,7 +1841,7 @@
 		}
 		{
 			dependencies: ["36739063C2FB8639"]
-			description: ["&4Main component&r of &9ME&r system, provides channels ot a cable. Controllers must be joined in order to create a bigger controller. Can provide &9128&r channels on one side. Has a maximal size of &47x7x7&r."]
+			description: ["&4Main component&r of the &9ME&r system, provides channels to devices. Controllers may be placed next to each other to create a bigger controller. Can provide &9128&r channels from each side. Has a maximal size of &47x7x7&r."]
 			id: "5F08D82308DA853F"
 			rewards: [
 				{
@@ -1861,7 +1865,7 @@
 		}
 		{
 			dependencies: ["597070AC15C6CF1E"]
-			description: ["&9ME&r chest has only &4one&r slot for storage card but have interface to access its contents. Needs &9ME&r energy to work."]
+			description: ["&9ME&r chest has only &4one&r slot for a storage disk, but has its own interface. Needs &9AE2&r energy to work."]
 			id: "06385AE5E0FE038A"
 			rewards: [
 				{
@@ -1911,7 +1915,7 @@
 		}
 		{
 			dependencies: ["004209D0C8DC9348"]
-			description: ["Allows to craft AE2 processors."]
+			description: ["Can craft AE2 processors."]
 			id: "7C094A056ED01F7B"
 			rewards: [
 				{
@@ -1943,7 +1947,7 @@
 		}
 		{
 			dependencies: ["004209D0C8DC9348"]
-			description: ["Improves the crystal growing speed on the block placed to the side of accelerator. Moreover it works with amethyst buds and &dSpectrum&r gemstones. Need AE2 energy to work."]
+			description: ["Improves the crystal growing speed on the block placed on the working side of an accelerator. Moreover, it works with amethyst and &dSpectrum&r gemstones. Need AE2 energy to work."]
 			id: "27CB399EA2E30582"
 			rewards: [{
 				id: "3034AE4D8922A07F"
@@ -1963,7 +1967,7 @@
 			description: [
 				"Basic mean of quartz charging."
 				""
-				"&e&nAlso this block is workstation for villagers!&r&r"
+				"&e&nAlso, this block is a workstation for villagers!&r&r"
 			]
 			id: "43DBB5ABDDA13B56"
 			rewards: [{
@@ -2028,7 +2032,7 @@
 					type: "item"
 				}
 			]
-			title: "Inscriber presses"
+			title: "Inscriber Presses"
 			x: -18.5d
 			y: 6.0d
 		}
@@ -2041,6 +2045,7 @@
 				item: "ae2:fluix_crystal"
 				type: "item"
 			}]
+			subtitle: "Unnatural"
 			tasks: [{
 				id: "333C0D6F9993E911"
 				item: "ae2:fluix_crystal"
@@ -2078,7 +2083,7 @@
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
-			description: ["Basic automation of &2agriculture&r."]
+			description: ["A basic machine for &2agriculture&r automation. Can only grow basic plants."]
 			id: "71F97A656D41785D"
 			rewards: [
 				{
@@ -2116,8 +2121,8 @@
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
 			description: [
-				"Allows to automate &4farming&r of sea creature."
-				"It &4must&r be filled with &9water&r in order to work."
+				"&4Produces&r sea creatures."
+				"The multiblock &4must&r be filled with &9water&r in order to work."
 			]
 			id: "304390FAC4C159B0"
 			rewards: [
@@ -2189,7 +2194,7 @@
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
-			description: ["Brain of NEEPMeat pipe system. Needed for pipe drivers and manual requesters."]
+			description: ["The brain of the NEEPMeat pipe system. Is needed for pipe drivers and manual requesters to work."]
 			id: "05E7324B1FC9421F"
 			rewards: [
 				{
@@ -2221,8 +2226,8 @@
 		{
 			dependencies: ["05E7324B1FC9421F"]
 			description: [
-				"Storage driver makes connected inventory visible to a NEEPMeat logistics system."
-				"Manual requester requests a picked item on demand."
+				"Storage drivers make the connected inventory visible to the NEEPMeat logistics system."
+				"Manual requesters request selected items on demand."
 			]
 			hide: false
 			id: "29BACBBC96847851"
@@ -2299,12 +2304,20 @@
 				title: "Is it possible to store mana on disks?"
 				type: "checkmark"
 			}]
-			title: "Can i store mana inside the ME network?"
+			title: "Can the ME network store mana?"
 			x: -23.5d
 			y: 11.0d
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
+			description: [
+				"Advanced pipes for moving items."
+				""
+				"The priority system works like this:"
+				"For each extraction pipe, in order from smallest to largest &6extract priority&r, the pipe system calculates which items it can &6extract&r. If there are multiple suitable &3destinations&r for those items, the one with the highest &3insert priority&r takes precedence (Basically, the system chooses the largest difference in priorities)."
+				"In &nblacklist mode&r, the pipe connection moves everything &lbut&r the items in the filter. In &nwhitelist mode&r, the pipe connection moves &lonly&r the items in the filter."
+				"Pipes can move more items at once by adding &6motors&r to them."
+			]
 			id: "4F1F0FC36448816A"
 			rewards: [
 				{
@@ -2330,6 +2343,11 @@
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
+			description: [
+				"Advanced pipes for moving fluids. Each network of connected pipes only moves one fluid. "
+				""
+				"The pipes with a higher priority are processed first."
+			]
 			id: "2D7B50C0A5B7BF13"
 			rewards: [
 				{
@@ -2355,7 +2373,7 @@
 		}
 		{
 			dependencies: ["4752F7EF9DDD878F"]
-			description: ["Allows to have a \"&9ME&r backpack\" inside your inventory. Has less types and bytes. Need to be charged to work."]
+			description: ["Basically an \"&9ME&r backpack\" inside your inventory. Has less types and bytes. Need to be charged to work."]
 			id: "43F4508F28653E9E"
 			rewards: [
 				{
@@ -2389,7 +2407,10 @@
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
-			description: ["&aMining speed is dependent on the fuel quality&r"]
+			description: [
+				"Cuts down trees in one swoop."
+				"&aMining speed is dependent on the fuel quality&r."
+			]
 			id: "68419C94D2BBEF0A"
 			rewards: [{
 				id: "1D4423DFD1CC0EA8"
@@ -2420,7 +2441,7 @@
 		}
 		{
 			dependencies: ["0A89D032093A2712"]
-			description: ["Every &bgrowth iteration&r may lower the quality of budding block. Budding block can be &2recovered&r to a certain quality."]
+			description: ["Every &bcluster growth&r may lower the quality of the budding block. Budding blocks can be &2fixed&r up to a certain quality."]
 			id: "522BCE6B5700CCB5"
 			tasks: [{
 				id: "7A98801B97EEF3C3"
@@ -2432,7 +2453,11 @@
 		}
 		{
 			dependencies: ["4752F7EF9DDD878F"]
-			description: ["Is needed for auto crafting, every crafting recipe take some ammount of bytes. Longer craft chains takes &4more&r memory."]
+			description: [
+				"Needed for auto crafting. Every crafting recipe takes some amount of bytes, depending on how many intermediate items need to be stored. Longer craft chains takes &4more&r bytes."
+				""
+				"A cuboid multiblock made up of crafting storage units, co-processing units and monitors is 1 Crafting Unit or Crafting Core, that can handle one autocrafting request. "
+			]
 			id: "65E4162BCF764475"
 			tasks: [{
 				id: "3B5DEDBD8B5EDF1F"
@@ -2444,7 +2469,7 @@
 		}
 		{
 			dependencies: ["4752F7EF9DDD878F"]
-			description: ["By default &9ME&r system crafts &41&r item &4at once&r, &4every&r co-processing unit adds &41&r parallel craft for &4current&r crafting processor block."]
+			description: ["By default, &9ME&r system crafts &41&r recipe &4at at a time&r for a crafting request. &4Each&r co-processing unit adds &41&r parallel craft for the crafting unit it is a part of."]
 			id: "465033EF352E276A"
 			tasks: [{
 				id: "6F25792900A07E1F"
@@ -2545,11 +2570,11 @@
 		{
 			dependencies: ["29BACBBC96847851"]
 			description: [
-				"Allows to automatically craft a specified recipe on demand. "
-				"- uses items from the inventory on the sides"
-				"- crafts on item pump cycle"
-				"- works well with driver acess point"
-				"- if storage driver is connected, the recipe will appear in manual requester, an you can craft that item on demand"
+				"Automatically crafts a specified recipe on demand. "
+				"- Uses items from the inventories on the sides."
+				"- Crafts every item pump cycle."
+				"- Works well with a drawer acess point."
+				"- If a storage driver is connected, the recipe will appear in manual requesters, and the item will be crafted on demand."
 			]
 			hide: false
 			id: "4944AB502FB37416"
@@ -2576,7 +2601,7 @@
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
-			description: ["Gathers items from connected inventories in pipe system."]
+			description: ["Pulls items from connected inventories."]
 			id: "05C1326869BC9CE0"
 			rewards: [
 				{
@@ -2626,7 +2651,7 @@
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
-			description: ["Both has complex multi-layered item filter by tag, nbt, etc."]
+			description: ["Allow complex item filtering by tag, nbt, etc."]
 			id: "350CFEFFDB97A36C"
 			rewards: [
 				{
@@ -2659,6 +2684,7 @@
 					type: "item"
 				}
 			]
+			title: "Advanced Item Routing"
 			x: -1.5d
 			y: 4.5d
 		}

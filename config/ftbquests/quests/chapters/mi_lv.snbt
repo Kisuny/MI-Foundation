@@ -2049,7 +2049,7 @@
 					type: "item"
 				}
 			]
-			title: "Construction cite"
+			title: "Construction Site"
 			x: 12.0d
 			y: 0.0d
 		}
@@ -2155,7 +2155,7 @@
 		}
 		{
 			dependencies: ["17FE01EEA624616A"]
-			description: ["Filters out items which are traversing through pipe system."]
+			description: ["Filters which items can pass through the filter."]
 			id: "2F0E246025D08598"
 			rewards: [
 				{
@@ -2181,7 +2181,7 @@
 		}
 		{
 			dependencies: ["17FE01EEA624616A"]
-			description: ["Extracts items from connected inventory to the pipe system."]
+			description: ["Extracts items from connected inventories."]
 			id: "311F7B8334C4FC59"
 			rewards: [
 				{
