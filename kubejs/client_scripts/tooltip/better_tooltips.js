@@ -52,6 +52,8 @@ ItemEvents.tooltip(tooltip => {
         simpleShiftText({item: 'kubejs:beehive', text: "kubejs.beehive.tooltip"})
         simpleShiftText({ item: 'scout:upgraded_satchel', text: 'kubejs.text.doesnt_save_items_after_improvement' })
         simpleShiftText({ item: 'scout:upgraded_pouch', text: 'kubejs.text.doesnt_save_items_after_improvement' })
+        simpleShiftText({ item: 'modern_industrialization:forge_hammer', text: 'kubejs.text.forge_hammer' })
+        simpleShiftText({ item: 'ae2:charger', text: 'kubejs.text.charger' })
 
 
 
@@ -180,8 +182,8 @@ ItemEvents.tooltip(tooltip => {
         artifactsTooltip(
             {
                 item: 'artifacts:feral_claws',
-                text1: 'kubejs.flippers.tooltip_1',
-                text2: 'kubejs.flippers.tooltip_2'
+                text1: 'kubejs.feral_claws.tooltip_1',
+                text2: 'kubejs.feral_claws.tooltip_2'
         });
         artifactsTooltip(
             {
