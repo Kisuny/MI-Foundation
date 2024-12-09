@@ -22,17 +22,6 @@ ItemEvents.tooltip(tooltip => {
 
         const shiftText = [Text.translate('kubejs.press_button').gold(), Text.of('Shift ').yellow(), Text.translate('kubejs.for_details').gold()]
         const ctrlText = [Text.translate('kubejs.press_button').gold(), Text.of('CTRL ').gold(), Text.translate('kubejs.for_details').gray()]
-        tooltip.addAdvanced('kubejs:phantom_feather', (item, advanced, text) => {
-            // shift, alt and ctrl are all keys you can check!
-            if (!tooltip.shift) {
-                text.add(1, shiftText)
-            } else {
-                text.add(1, Text.translate('kubejs.how_to_get.text').gold().bold(true))
-                text.add(2, Text.translate('kubejs.phantom_feather.how_to_get_text_1').gold())
-                text.add(3, Text.translate('kubejs.phantom_feather.how_to_get_text_2').darkGray())
-                text.add(4, Text.translate('kubejs.phantom_feather.how_to_get_text_3').gold())
-            }
-        })
 
         // Тултип без текстка «Способ получения»
         let simpleShiftText = (args) => {
@@ -82,6 +71,7 @@ ItemEvents.tooltip(tooltip => {
         betterToolTip({ item: 'fwaystones:waystone_scroll', text: 'kubejs.waystone_scroll.tooltip' })
         betterToolTip({ item: 'bewitchment:witchberry', text: 'kubejs.witchberry.tooltip' })
         betterToolTip({ item: 'miskatonicmysteries:resonate_ooze', text: 'kubejs.resonate_ooze.tooltip' }) 
+        betterToolTip({ item: 'kubejs:dragon_heart', text: 'kubejs.dragon_heart.tooltip' }) 
 
         // тултипы для артефактов
         let artifactsTooltip = (args) => {

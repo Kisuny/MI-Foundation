@@ -7,7 +7,10 @@
     "item.kubejs.ditcheryatina.tooltip": "§bStinks terribly!",
     "item.kubejs.ditcheryatina.eaten": "§6Ugh, what an abomination…",
 
-    "item.kubejs.phantom_feather": "Feather of night fury",
+    "item.kubejs.midnight_feather": "Midnight Feather",
+    "item.kubejs.kindling_heart": "Kindling heart",
+    "item.kubejs.dragon_heart": "Dragon heart",
+    "item.kubejs.essence_of_flight": "Essence of flight",
 
     "advancement.kubejs.root.title": "MI:Foundation",
     "advancement.kubejs.root.desc": "You're only at the beginning of your journey",
@@ -58,6 +61,7 @@
     "kubejs.waystone_scroll.tooltip": "You can buy it at the shop",
     "kubejs.witchberry.tooltip": "You can get it by growing «Fruiting Bramble»",
     "kubejs.resonate_ooze.tooltip": "You can get it by right-click on active Resonator with Ectoplasm",
+    "kubejs.dragon_heart.tooltip": "🗡 With a rare chance you can get it when killing a ender dragon!",
     "kubejs.text.doesnt_save_items_after_improvement": "Doesn't save items after upgrading",
     "kubejs.text.forge_hammer": "This block is workstation for villagers!",
     "kubejs.text.charger": "This block is workstation for villagers!",

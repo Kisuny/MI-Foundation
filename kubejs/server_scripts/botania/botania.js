@@ -557,27 +557,6 @@ ServerEvents.recipes(event => {
         advancement: "botania:main/terrasteel_pickup",
     });
     customPedestalCraft(event, {
-        tier: "complex", time: 72000, amethyst: 32, onyx: 32, moonstone: 16, experience: 8.0, yield_upgrades: true,
-        pattern: [
-            "TQT",
-            "RWR",
-            "TET"
-        ],
-        keys: {
-            "Q": { "item": "kubejs:star_core" },
-            "W": { "item": "botania:gaia_ingot" },
-            "E": { "item": "botania:dragonstone" },
-            "R": { "item": "modern_industrialization:durasteel_plate" },
-            "T": { "item": "kubejs:phantom_feather" },
-        },
-        result: {
-            "item": "botania:flight_tiara",
-            "nbt": {variant:0},
-            "count": 1
-        },
-        advancement: "botania:main/terrasteel_pickup",
-    });
-    customPedestalCraft(event, {
         tier: "complex", time: 12000, topaz: 16, amethyst: 8, onyx: 2, experience: 4.0, yield_upgrades: true,
         pattern: [
             "WQ ",
@@ -1068,6 +1047,39 @@ ServerEvents.recipes(event => {
         },
         advancement: "spectrum:midgame/build_spirit_instiller_structure"
     });
+    customeFusionShrineCraft(event, {
+        time: 14400, experience: 16.0,
+        fluid: "modern_industrialization:liquid_mana",
+        ingredients: [
+            { "item": "kubejs:kindling_heart", "count": 1 },
+            { "item": "kubejs:dragon_heart", "count": 1 },
+            { "item": "kubejs:midnight_feather", "count": 16 },
+            { "item": "naturalist:butterfly", "count": 1 },
+            { "item": "kubejs:moth_wings", "count": 16 },
+        ],
+        result: {
+            "item": "kubejs:essence_of_flight"
+        },
+        advancement: "spectrum:lategame/remember_kindling"
+    });
+    customeFusionShrineCraft(event, {
+        time: 72000, experience: 16.0, yield_upgrades: true,
+        fluid: "modern_industrialization:liquid_mana",
+        ingredients: [
+            { "item": "kubejs:star_core", "count": 8 },
+            { "item": "botania:gaia_ingot", "count": 2 },
+            { "item": "botania:dragonstone", "count": 16 },
+            { "item": "modern_industrialization:durasteel_plate", "count": 4 },
+            { "item": "kubejs:essence_of_flight", "count": 1 },
+        ],
+        result: {
+            "item": "botania:flight_tiara",
+            "nbt": {variant:0},
+            "count": 1
+        },
+        advancement: "botania:main/terrasteel_pickup"
+    });
+
     customPedestalCraft(event, {
         time: 800, amethyst: 6, citrine: 4, experience: 0.5,
         pattern: [

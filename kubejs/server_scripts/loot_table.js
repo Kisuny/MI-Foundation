@@ -304,6 +304,11 @@ LootJS.modifiers((event) => {
         .randomChance(0.5)
         .addLoot('kubejs:zotzpyre_fang')
 
+        event
+        .addLootTableModifier("minecraft:entities/ender_dragon")
+        .randomChance(0.4)
+        .addLoot('kubejs:dragon_heart')
+
 
         structuresLootTable.rare.forEach(table => {
             event
