@@ -241,7 +241,7 @@ ServerEvents.recipes(event => {
         .itemIn('2x modern_industrialization:electronic_circuit')
         .itemIn('2x modern_industrialization:copper_rotor')
         .itemIn('minecraft:glass_pane')
-        .itemOut('8x modern_industrialization:fluid_pipe')
+        .itemOut('12x modern_industrialization:fluid_pipe')
 
     event.recipes.modern_industrialization.assembler(4, 100)
         .itemIn('3x minecraft:quartz')
