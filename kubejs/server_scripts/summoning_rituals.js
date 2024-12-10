@@ -23,6 +23,15 @@ ServerEvents.recipes(event => {
     });
 
     event.recipes.summoningrituals
+        .altar("bewitchment:bottle_of_blood")
+        .input("bewitchment:athame")
+        .sacrifice('spectrum:kindling')
+        .sacrificeRegion(5, 5)
+        .recipeTime(600)
+        .dayTime('night')
+        .itemOutput("kubejs:kindling_heart")
+
+    event.recipes.summoningrituals
         .altar('minecraft:torch')
         .mobOutput(
             SummoningOutput.mob('whisperwoods:moth')

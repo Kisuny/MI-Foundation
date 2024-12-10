@@ -54,20 +54,6 @@
               }
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "kubejs:phantom_feather",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 0,
-                "max": 3
-              }
-            }
-          ]
         }
       ]
     }

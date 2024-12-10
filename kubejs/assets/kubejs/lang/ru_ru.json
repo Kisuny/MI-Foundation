@@ -9,7 +9,12 @@
     "item.kubejs.ditcheryatina.tooltip": "§bУжасно воняет",
     "item.kubejs.ditcheryatina.eaten": "§6Фу, ну и мерзость…",
 
-    "item.kubejs.phantom_feather": "Перо ночной фурии",
+    "item.kubejs.midnight_feather": "Полуночное перо",
+    "item.kubejs.kindling_heart": "Сердце киндлинга",
+    "item.kubejs.dragon_heart": "Сердце дракона",
+    "item.kubejs.essence_of_flight": "Эссенция полёта",
+
+
     "item.kubejs.star_core": "Ядро звезды",
 
     "item.kubejs.leather_patch": "Кожанная нашивка",
@@ -291,6 +296,7 @@
     "kubejs.waystone_scroll.tooltip": "Можно купить в магазине предметов",
     "kubejs.witchberry.tooltip": "Можно получить вырастив «Плодоносящие ягоды»",
     "kubejs.resonate_ooze.tooltip": "Можно получить при нажатие ПКМ по работающему Резонатору с Эктоплазмой в руке",
+    "kubejs.dragon_heart.tooltip": "С редким шансом выпадает при убийстве дракона",
     "kubejs.text.doesnt_save_items_after_improvement": "Не сохраняет вещи после улучшения",
     "kubejs.text.forge_hammer": "Этот блок является рабочей станцией для жителей!",
     "kubejs.text.charger": "Этот блок является рабочей станцией для жителей!",

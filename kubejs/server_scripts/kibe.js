@@ -122,6 +122,7 @@ ServerEvents.recipes(event => {
             { "item": "minecraft:elytra", "count": 1 },
             { "item": "minecraft:nether_star", "count": 9 },
             { "item": "bosses_of_mass_destruction:obsidian_heart", "count": 1 },
+            { "item": "kubejs:essence_of_flight", "count": 5 },
         ],
         result: {
             "item": "kibe:angel_ring"
