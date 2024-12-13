@@ -2273,6 +2273,31 @@
 			x: 10.0d
 			y: 8.0d
 		}
+		{
+			dependencies: ["132428B927F9BF07"]
+			description: ["Accelerates  items in pipes."]
+			id: "25AF8E8FDF60BE37"
+			rewards: [
+				{
+					count: 16
+					id: "25B71968AD97D162"
+					item: "neepmeat:speed_item_pipe"
+					type: "item"
+				}
+				{
+					id: "4D37AB20B7737177"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31718C5664339239"
+				item: "neepmeat:speed_item_pipe"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 12.0d
+		}
 	]
 	title: "&7Electricity | LV"
 }
