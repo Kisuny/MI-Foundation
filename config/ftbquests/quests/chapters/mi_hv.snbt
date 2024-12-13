@@ -2359,8 +2359,8 @@
 				item: "travelstaff:travel_anchor"
 				type: "item"
 			}]
-			x: 20.0d
-			y: -1.5d
+			x: 20.242857142857147d
+			y: -3.35714285714284d
 		}
 		{
 			dependencies: ["737AFCC9E50FBD22"]
@@ -3282,6 +3282,11 @@
 			]
 			description: ["Data cables allows data transfer, visualization and manual signal transfer. All necessary descriptions can be found by pressing SHIFT."]
 			id: "7991A46B9958AFCA"
+			rewards: [{
+				id: "1117EB1C5BF771A5"
+				item: "kubejs:late_lootbag_rare"
+				type: "item"
+			}]
 			subtitle: "System Administrator"
 			tasks: [
 				{
@@ -3394,12 +3399,19 @@
 			dependencies: ["1ADE44FAAC0EB496"]
 			description: ["NeepBus arithmetic unit. Can be used to streamline the data modification in data cables."]
 			id: "16B787FA40D6ABBE"
-			rewards: [{
-				count: 2
-				id: "17D2A61438954514"
-				item: "neepmeat:pid_controller"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "17D2A61438954514"
+					item: "neepmeat:pid_controller"
+					type: "item"
+				}
+				{
+					id: "13E8AC421EA1BFA3"
+					item: "kubejs:late_lootbag_uncommon"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D3DC7C5BE356990"
 				item: "neepmeat:pid_controller"
@@ -3419,6 +3431,30 @@
 			}]
 			x: 13.0d
 			y: -20.5d
+		}
+		{
+			dependencies: ["1576C225DFC4650C"]
+			id: "3DA1074BAEE0AD9D"
+			rewards: [
+				{
+					count: 2
+					id: "4E02468B61BBE440"
+					item: "neepmeat:advanced_ejector"
+					type: "item"
+				}
+				{
+					id: "7FC8DE86662FA26A"
+					item: "kubejs:late_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7D78EDDD2701363E"
+				item: "neepmeat:advanced_ejector"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -1.0d
 		}
 	]
 	title: "&7Space program | HV"

@@ -1,6 +1,12 @@
 
 ServerEvents.recipes(event => {
 
+    // Transposer
+    event.remove({id: 'neepmeat:item_transfer/transposer'});
+    event.shapeless('neepmeat:transposer', [
+        'neepmeat:ejector',
+        'minecraft:hopper'
+    ]),
     // Filtered Ejector
     event.remove({id: 'neepmeat:item_transfer/filtered_ejector'});
     event.shapeless('neepmeat:filtered_ejector', [
@@ -12,6 +18,17 @@ ServerEvents.recipes(event => {
         'neepmeat:router',
         'modern_industrialization:electronic_circuit'
     ]),
+    // Pressing Basin
+    event.remove({id: 'neepmeat:fluid_transfer/item_interface'});
+    event.shaped('neepmeat:item_interface', [
+        ' IP',
+        'IpP',
+        ' IP'
+    ], {
+        P: 'modern_industrialization:steel_plate',
+        p: 'neepmeat:item_pipe',
+        I: 'modern_industrialization:iron_plate',
+    })
     // Pressing Basin
     event.remove({id: 'neepmeat:rendering/fat_collector'});
     event.shaped('neepmeat:collector', [
@@ -255,5 +272,9 @@ ServerEvents.recipes(event => {
 
     // Networking Tool
     event.replaceInput({id: 'neepmeat:tools/networking_tool'}, 'minecraft:iron_bars', 'modern_industrialization:meat_steel_rod');
+
+    // Filtered Item Pipe
+    event.replaceInput({id: 'neepmeat:item_transfer/filter_item_pipe'}, 'neepmeat:item_pipe', 'neepmeat:merge_item_pipe');
+    event.replaceInput({id: 'neepmeat:item_transfer/filter_item_pipe'}, 'neepmeat:enlightened_brain', 'modern_industrialization:electronic_circuit');
 
 })
