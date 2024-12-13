@@ -103,7 +103,7 @@ ServerEvents.recipes(event => {
         advancement: "spectrum:unlocks/upgrades/upgrade_yield"
     });
     customPedestalCraft(event, {
-        tier: "complex", time: 72000, amethyst: 32, moonstone: 32, onyx: 32, experience: 16.0,
+        tier: "complex", time: 24000, amethyst: 32, moonstone: 32, onyx: 32, experience: 16.0,
         pattern: [
             "EWE",
             "WQW",

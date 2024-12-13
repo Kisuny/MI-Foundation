@@ -39,7 +39,7 @@ ServerEvents.recipes(event => {
 
 
     event.recipes.spectrum.pedestal({
-        "time": 1200,
+        "time": 18000,
         "tier": "complex",
         "cyan": 2,
         "magenta": 2,
@@ -101,7 +101,7 @@ ServerEvents.recipes(event => {
         "required_advancement": "spectrum:lategame/build_complex_pedestal_structure"
     })
     event.recipes.spectrum.pedestal({
-        "time": 1200,
+        "time": 6000,
         "tier": "advanced",
         "cyan": 2,
         "magenta": 1,

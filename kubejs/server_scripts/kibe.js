@@ -201,7 +201,7 @@ ServerEvents.recipes(event => {
         advancement: "spectrum:midgame/spectrum_midgame"
     });
     customPedestalCraft(event, {
-        tier: "advanced", time: 2400, citrine: 32, onyx: 32, experience: 8.0, yield_upgrades: true,
+        tier: "advanced", time: 2400, citrine: 16, onyx: 32, experience: 8.0, yield_upgrades: true,
         pattern: [
             "TWT",
             "QEQ",
@@ -209,19 +209,19 @@ ServerEvents.recipes(event => {
         ],
         keys: {
             "Q": { "item": "spectrum:radiating_ender" },
-            "W": { "item": "adventurez:stone_golem_heart" },
+            "W": { "item": "simplyswords:runic_tablet" },
             "E": { "item": "modern_industrialization:aluminum_tank" },
             "R": { "item": "mythicmetals:midas_gold_block" },
             "T": { "item": "minecraft:blaze_rod" },
         },
         result: {
             "item": "kibe:entangled_tank",
-            "count": 2
+            "count": 1
         },
         advancement: "spectrum:get_radiating_ender"
     });
     customPedestalCraft(event, {
-        tier: "advanced", time: 2400, citrine: 32, onyx: 32, experience: 8.0, yield_upgrades: true,
+        tier: "advanced", time: 2400, citrine: 32, onyx: 16, experience: 8.0, yield_upgrades: true,
         pattern: [
             "TWT",
             "QEQ",
@@ -229,14 +229,14 @@ ServerEvents.recipes(event => {
         ],
         keys: {
             "Q": { "item": "spectrum:radiating_ender" },
-            "W": { "item": "adventurez:stone_golem_heart" },
+            "W": { "item": "simplyswords:runic_tablet" },
             "E": { "item": "modern_industrialization:aluminum_barrel" },
             "R": { "item": "mythicmetals:midas_gold_block" },
             "T": { "item": "minecraft:blaze_rod" },
         },
         result: {
             "item": "kibe:entangled_chest",
-            "count": 2
+            "count": 1
         },
         advancement: "spectrum:get_radiating_ender"
     });

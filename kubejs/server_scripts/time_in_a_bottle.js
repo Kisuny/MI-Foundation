@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'timeinabottle:time_in_a_bottle' })
 
     customeFusionShrineCraft(event, {
-        time: 24000, experience: 5.0, yield_upgrades: true,
+        time: 72000, experience: 5.0, yield_upgrades: true,
         fluid: "modern_industrialization:liquid_mana",
         ingredients: [
             { "item": "botania:rune_greed", "count": 1 },
