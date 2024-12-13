@@ -1,5 +1,16 @@
 
 ServerEvents.recipes(event => {
+    // Advanced Ejector
+    event.remove({id: 'neepmeat:item_transfer/advanced_ejector'})
+    event.recipes.modern_industrialization.assembler(16, 200)
+        .itemIn('neepmeat:enlightened_brain')
+        .itemIn('neepmeat:filtered_ejector')
+        .itemIn('2x modern_industrialization:stainless_steel_curved_plate')
+        .itemIn('4x modern_industrialization:meat_steel_ring')
+        .fluidIn('neepmeat:work_fluid', 100)
+        .fluidIn('modern_industrialization:soldering_alloy', 50)
+        .itemOut('neepmeat:advanced_ejector')
+        .biome('ad_astra:orbit')
     // PID Controller
     event.remove({id: 'neepbus:pid_controller'})
     event.recipes.modern_industrialization.assembler(16, 300)
