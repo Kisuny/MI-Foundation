@@ -300,6 +300,7 @@
     "kubejs.text.doesnt_save_items_after_improvement": "Не сохраняет вещи после улучшения",
     "kubejs.text.forge_hammer": "Этот блок является рабочей станцией для жителей!",
     "kubejs.text.charger": "Этот блок является рабочей станцией для жителей!",
+    "kubejs.text.scoop": "Используется для ловли пчёл!",
     "advancements.kubejs.teleport_to_bumblezone_piston.title": "Гладбищенские пчёлы",
     "advancements.kubejs.teleport_to_bumblezone_piston.description": "Попадите в измерение Bumblezone, попав в улей/пчелиное гнездо при помощи найденного пчелинного улья.",
     

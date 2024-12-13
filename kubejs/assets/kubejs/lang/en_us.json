@@ -65,6 +65,7 @@
     "kubejs.text.doesnt_save_items_after_improvement": "Doesn't save items after upgrading",
     "kubejs.text.forge_hammer": "This block is workstation for villagers!",
     "kubejs.text.charger": "This block is workstation for villagers!",
+    "kubejs.text.scoop": "Used to catch bees!",
     "advancements.kubejs.teleport_to_bumblezone_piston.title": "Graveyard bees",
     "advancements.kubejs.teleport_to_bumblezone_piston.description": "Enter the Bumblezone dimension by clicking the hive/bee nest using the beehive you found.",
 
