@@ -2598,6 +2598,12 @@
 					item: "kubejs:mid_lootbag_rare"
 					type: "item"
 				}
+				{
+					count: 2
+					id: "65697D1DBCBB09B3"
+					item: "neepmeat:filter_item_pipe"
+					type: "item"
+				}
 			]
 			tasks: [
 				{
@@ -2608,6 +2614,11 @@
 				{
 					id: "5EC73C318BDA0BE2"
 					item: "neepmeat:advanced_router"
+					type: "item"
+				}
+				{
+					id: "423AABFC2C4B8434"
+					item: "neepmeat:filter_item_pipe"
 					type: "item"
 				}
 			]

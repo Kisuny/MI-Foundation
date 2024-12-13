@@ -2351,8 +2351,8 @@
 				item: "travelstaff:travel_anchor"
 				type: "item"
 			}]
-			x: 20.0d
-			y: -1.5d
+			x: 20.4d
+			y: -3.2d
 		}
 		{
 			dependencies: ["737AFCC9E50FBD22"]
@@ -3403,6 +3403,30 @@
 			}]
 			x: 18.0d
 			y: -12.5d
+		}
+		{
+			dependencies: ["1ADE44FAAC0EB496"]
+			description: ["Модуль арифметики в NEEPBus системе. Используется для изменения данных в системе."]
+			id: "30BF10FC0A0F7B2F"
+			tasks: [{
+				id: "1BF84D9C4DA50D78"
+				item: "neepmeat:pid_controller"
+				type: "item"
+			}]
+			x: 21.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1576C225DFC4650C"]
+			description: ["Более продвинутая версия Filtered Ejector'а."]
+			id: "6508AB926461BF0E"
+			tasks: [{
+				id: "43FFA8C04C2CE225"
+				item: "neepmeat:advanced_ejector"
+				type: "item"
+			}]
+			x: 20.0d
+			y: -1.0d
 		}
 	]
 	title: "&7Space program | HV"

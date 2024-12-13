@@ -1086,7 +1086,7 @@
 				id: "67005F7AF38162DC"
 				type: "dimension"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: -3.5d
 		}
 		{
@@ -1270,7 +1270,7 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
+			x: -1.0d
 			y: -2.5d
 		}
 		{
@@ -2313,8 +2313,8 @@
 				item: "neepmeat:buffer"
 				type: "item"
 			}]
-			x: -3.589285714285708d
-			y: -2.5714285714285694d
+			x: -4.05d
+			y: -2.6999999999999997d
 		}
 		{
 			dependencies: ["6DF83BA3914DACDA"]
@@ -2883,6 +2883,61 @@
 			}]
 			x: 6.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["663BB2D450652922"]
+			id: "110E9ECE41009EDA"
+			rewards: [
+				{
+					count: 16
+					id: "1637CD521DA5C2BA"
+					item: "modern_industrialization:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "53BDC3EB7F008F28"
+					item: "kubejs:early_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "435B30B82A593BEE"
+				item: "neepmeat:item_interface"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["39EB115B78DEDCE4"]
+			id: "6ADFA5803F4F4E5B"
+			rewards: [
+				{
+					id: "2F906939D0A3E0F6"
+					item: "kubejs:early_lootbag_rare"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "775AA2E2E9B1CAB7"
+					item: "minecraft:oak_planks"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6CB1BCC90C1B3675"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "0DA375EDB7ACB31F"
+				item: "neepmeat:transposer"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 8.0d
 		}
 	]
 	title: "&7Steam is everything"
