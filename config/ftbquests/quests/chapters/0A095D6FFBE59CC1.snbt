@@ -1555,6 +1555,79 @@
 			x: 0.0d
 			y: -8.5d
 		}
+		{
+			dependencies: [
+				"07965AD2BDFA13CB"
+				"6FA72BDA58065CFB"
+				"5EBB19BC3428B26C"
+				"720DD169BC8B356A"
+				"6A13992AFC5CBBE2"
+				"35A4525202DFF961"
+				"3327810F2D77CC56"
+				"5ED4C88D6C8CAE1E"
+				"792FD9BACA43CC9D"
+				"2B766E494F49C0E6"
+				"6AB087ACC39D4DD0"
+				"0B617D45014FE332"
+				"107412EDFB3E077C"
+				"3337360BBAA0C080"
+				"431BB5476F438482"
+				"06562C2C31C20966"
+				"307EB635F0650331"
+				"7BD7495188DCB3C5"
+				"1403AC2B841FD215"
+				"563A65DD88363232"
+				"0C043EB28D4F969A"
+				"65254EC70059EB10"
+				"6FE08F702475A448"
+				"6EDBF4A36BBD1674"
+				"1F592EE106CF3A0E"
+				"21097A489C4AACB1"
+				"4A384EA7B1E04203"
+				"2713E99A752398D4"
+				"36728E273B04BCE1"
+				"4B8356123DCB63AF"
+				"1122170AE485C82B"
+				"1B1F2DE8E4B83167"
+				"198819F24854A4A6"
+				"0A81427D1090F655"
+				"7A9938944EC69E02"
+				"7A2EC7290C886EA5"
+				"1BEB079D6E061D5D"
+				"4DBC7F64874698A1"
+				"392F12AAFCD69E2C"
+			]
+			icon: {
+				Count: 1b
+				id: "trofers:small_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:miskatonic_mysteries"
+					}
+				}
+			}
+			id: "466E09278995D70F"
+			rewards: [{
+				id: "571083419A610571"
+				item: {
+					Count: 1b
+					id: "trofers:small_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:miskatonic_mysteries"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "23B712909E32408A"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
 	]
 	title: "Trophies"
 }
