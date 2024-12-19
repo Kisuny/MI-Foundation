@@ -80,10 +80,11 @@ ServerEvents.recipes(event => {
     event.replaceInput({id: 'neepmeat:machines/living_machine/tree_vacuum'}, 'neepmeat:meat_steel_ingot', 'modern_industrialization:meat_steel_curved_plate')
 
     event.remove({type: 'neepmeat:grinding'});
-    event.remove({type: 'neepmeat:pressing'});
     event.remove({type: 'neepmeat:mixing'});
     event.remove({type: 'neepmeat:alloy_smelting'});
     event.remove({type: 'neepmeat:trommel'});
+
+
 
 
 })
