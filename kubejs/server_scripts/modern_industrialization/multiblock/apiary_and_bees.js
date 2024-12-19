@@ -118,19 +118,20 @@ const vanillaFlowers = [
 
 
 const bees = [
-    { id: 'kubejs:bee', life: 0.02, comb_multi: 1, byproduct_multi: 1},
-    { id: 'kubejs:necrodermal_affected_bee', life: 0.1, comb_multi: 6, byproduct_multi: 2},
-    { id: 'kubejs:nullodermal_affected_bee', life: 0.1, comb_multi: 2, byproduct_multi: 6}
+    { id: 'kubejs:bee', life: 0.02, comb_multi: 1, flower_life_multi: 1 ,byproduct_multi: 1},
+    { id: 'kubejs:necrodermal_affected_bee', life: 0.1, comb_multi: 6, flower_life_multi: 1,  byproduct_multi: 2},
+    { id: 'kubejs:nullodermal_affected_bee', life: 0.1, comb_multi: 2, flower_life_multi: 1, byproduct_multi: 6}
 ]
 const beehemoths = [
-    { id: 'kubejs:beehemoth', life: 0.01, comb_multi: 2, byproduct_multi: 2},
-    { id: 'kubejs:necrodermal_affected_beehemoth', life: 0.05, comb_multi: 8, byproduct_multi: 4},
-    { id: 'kubejs:nullodermal_affected_beehemoth', life: 0.05, comb_multi: 4, byproduct_multi: 8}
+    { id: 'kubejs:beehemoth', life: 0.01, comb_multi: 2, flower_life_multi: 0.8, byproduct_multi: 2},
+    { id: 'kubejs:necrodermal_affected_beehemoth', life: 0.05, comb_multi: 8, flower_life_multi: 0.8, byproduct_multi: 4},
+    { id: 'kubejs:nullodermal_affected_beehemoth', life: 0.05, comb_multi: 4, flower_life_multi: 0.8, byproduct_multi: 8}
 ]
 
 
 function apiary(event, bee, flower, energy, time, life, combs, byproducts) {
-    event = event.recipes.modern_industrialization.industrial_apiary(energy, time).itemIn(bee.id,bee.life).itemIn(flower,life)
+    event = event.recipes.modern_industrialization.industrial_apiary(energy, time).itemIn(bee.id,bee.life).itemIn(flower, life*(bee.flower_life_multi))
+    console.log(bee.flower_life_multi)
 
     combs.forEach(item => {
         event = event.itemOut(strmulti(bee.comb_multi,item.id),item.chance)
@@ -144,7 +145,11 @@ function apiary(event, bee, flower, energy, time, life, combs, byproducts) {
 }
 
 function big_apiary(event, bee, flower, energy, time, life, combs, byproducts) {
-    event = event.recipes.modern_industrialization.large_apiary(Math.ceil(0.8*energy), Math.ceil(0.6*time)).itemIn(bee.id,0.5*bee.life).itemIn(flower,1.5*life)
+    event = event.recipes.modern_industrialization.large_apiary(Math.ceil(0.8*energy), Math.ceil(0.6*time))
+        .itemIn(bee.id,0.5*bee.life)
+        .itemIn(flower,(0.6*life)*bee.flower_life_multi)
+        .fluidIn('the_bumblezone:honey_fluid_still',200)
+        .fluidIn('modern_industrialization:bee_air',800)
 
     combs.forEach(item => {
         event = event.itemOut(strmulti(1.5*bee.comb_multi,item.id),item.chance)
@@ -229,7 +234,7 @@ const botania_advanced = [
         name: 'botania:spectrolus',
         energy: 128,
         time: 600,
-        life: 0.2,
+        life: 0.1,
         combs: [
             { id: '2x modern_industrialization:blue_comb', chance: 1 },
             { id: '2x modern_industrialization:white_comb', chance: 1 },
@@ -446,7 +451,7 @@ const botania_advanced = [
         name: 'botania:vinculotus',
         energy: 128,
         time: 600,
-        life: 0.2,
+        life: 0.1,
         combs: [
             { id: 'modern_industrialization:green_comb', chance: 1 },
             { id: '2x modern_industrialization:purple_comb', chance: 1 },
@@ -458,7 +463,7 @@ const botania_advanced = [
         name: 'botania:loonium',
         energy: 128,
         time: 600,
-        life: 0.2,
+        life: 0.1,
         combs: [
             { id: 'modern_industrialization:gray_comb', chance: 1 },
             { id: '4x modern_industrialization:green_comb', chance: 1 },
@@ -469,7 +474,7 @@ const botania_advanced = [
         name: 'botania:spectranthemum',
         energy: 128,
         time: 600,
-        life: 0.2,
+        life: 0.1,
         combs: [
             { id: 'modern_industrialization:cyan_comb', chance: 1 },
             { id: '2x modern_industrialization:light_gray_comb', chance: 1 },
@@ -481,7 +486,7 @@ const botania_advanced = [
         name: 'botania:pollidisiac',
         energy: 128,
         time: 600,
-        life: 0.2,
+        life: 0.1,
         combs: [
             { id: 'modern_industrialization:orange_comb', chance: 1 },
             { id: '2x modern_industrialization:pink_comb', chance: 1 },
@@ -493,7 +498,7 @@ const botania_advanced = [
         name: 'botania:bubbell',
         energy: 128,
         time: 600,
-        life: 0.2,
+        life: 0.1,
         combs: [
             { id: '2x modern_industrialization:blue_comb', chance: 1 },
             { id: '2x modern_industrialization:light_blue_comb', chance: 1 },
@@ -505,7 +510,7 @@ const botania_advanced = [
         name: 'botania:labellia',
         energy: 128,
         time: 600,
-        life: 0.2,
+        life: 0.1,
         combs: [
             { id: 'modern_industrialization:black_comb', chance: 1 },
             { id: 'modern_industrialization:white_comb', chance: 1 },
@@ -518,7 +523,7 @@ const botania_advanced = [
         name: 'botania:orechid_ignem',
         energy: 128,
         time: 600,
-        life: 0.2,
+        life: 0.1,
         combs: [
             { id: 'modern_industrialization:pink_comb', chance: 1 },
             { id: '2x modern_industrialization:white_comb', chance: 1 },
@@ -530,7 +535,7 @@ const botania_advanced = [
         name: 'botania:agricarnation',
         energy: 128,
         time: 600,
-        life: 0.2,
+        life: 0.1,
         combs: [
             { id: 'modern_industrialization:yellow_comb', chance: 1 },
             { id: 'modern_industrialization:green_comb', chance: 1 },
@@ -542,7 +547,7 @@ const botania_advanced = [
         name: 'botania:exoflame',
         energy: 128,
         time: 600,
-        life: 0.2,
+        life: 0.1,
         combs: [
             { id: 'modern_industrialization:light_gray_comb', chance: 1 },
             { id: 'modern_industrialization:gray_comb', chance: 1 },
@@ -554,7 +559,7 @@ const botania_advanced = [
         name: 'botania:fallen_kanade',
         energy: 128,
         time: 600,
-        life: 0.2,
+        life: 0.1,
         combs: [
             { id: 'modern_industrialization:orange_comb', chance: 1 },
             { id: '2x modern_industrialization:yellow_comb', chance: 1 },
@@ -566,7 +571,7 @@ const botania_advanced = [
         name: 'botania:orechid',
         energy: 128,
         time: 600,
-        life: 0.2,
+        life: 0.1,
         combs: [
             { id: 'modern_industrialization:red_comb', chance: 1 },
             { id: 'modern_industrialization:green_comb', chance: 1 },
@@ -579,7 +584,7 @@ const botania_advanced = [
         name: 'botania:jaded_amaranthus',
         energy: 128,
         time: 600,
-        life: 0.2,
+        life: 0.1,
         combs: [
             { id: 'modern_industrialization:green_comb', chance: 1 },
             { id: 'modern_industrialization:lime_comb', chance: 1 },
@@ -591,7 +596,7 @@ const botania_advanced = [
         name: 'botania:tigerseye',
         energy: 128,
         time: 600,
-        life: 0.2,
+        life: 0.1,
         combs: [
             { id: 'modern_industrialization:lime_comb', chance: 1 },
             { id: 'modern_industrialization:orange_comb', chance: 1 },
@@ -604,7 +609,7 @@ const botania_advanced = [
         name: 'botania:shulk_me_not',
         energy: 128,
         time: 600,
-        life: 0.2,
+        life: 0.1,
         combs: [
             { id: 'modern_industrialization:light_gray_comb', chance: 1 },
             { id: '2x modern_industrialization:magenta_comb', chance: 1 },
@@ -616,7 +621,7 @@ const botania_advanced = [
         name: 'botania:heisei_dream',
         energy: 128,
         time: 600,
-        life: 0.2,
+        life: 0.1,
         combs: [
             { id: 'modern_industrialization:pink_comb', chance: 1 },
             { id: 'modern_industrialization:purple_comb', chance: 1 },
@@ -628,7 +633,7 @@ const botania_advanced = [
         name: 'botania:rafflowsia',
         energy: 128,
         time: 600,
-        life: 0.2,
+        life: 0.1,
         combs: [
             { id: 'modern_industrialization:black_comb', chance: 1 },
             { id: '2x modern_industrialization:purple_comb', chance: 1 },
@@ -640,7 +645,7 @@ const botania_advanced = [
         name: 'botania:narslimmus',
         energy: 128,
         time: 600,
-        life: 0.2,
+        life: 0.1,
         combs: [
             { id: 'modern_industrialization:black_comb', chance: 1 },
             { id: '2x modern_industrialization:green_comb', chance: 1 },
@@ -652,7 +657,7 @@ const botania_advanced = [
         name: 'botania:munchdew',
         energy: 128,
         time: 600,
-        life: 0.2,
+        life: 0.1,
         combs: [
             { id: 'modern_industrialization:green_comb', chance: 1 },
             { id: '2x modern_industrialization:red_comb', chance: 1 },
@@ -664,7 +669,7 @@ const botania_advanced = [
         name: 'botania:entropinnyum',
         energy: 128,
         time: 600,
-        life: 0.2,
+        life: 0.1,
         combs: [
             { id: '2x modern_industrialization:white_comb', chance: 1 },
             { id: '2x modern_industrialization:gray_comb', chance: 1 },
@@ -676,7 +681,7 @@ const botania_advanced = [
         name: 'botania:kekimurus',
         energy: 128,
         time: 600,
-        life: 0.2,
+        life: 0.1,
         combs: [
             { id: '2x modern_industrialization:brown_comb', chance: 1 },
             { id: '2x modern_industrialization:orange_comb', chance: 1 },
@@ -688,7 +693,7 @@ const botania_advanced = [
         name: 'botania:gourmaryllis',
         energy: 128,
         time: 600,
-        life: 0.2,
+        life: 0.1,
         combs: [
             { id: 'modern_industrialization:red_comb', chance: 1 },
             { id: '2x modern_industrialization:yellow_comb', chance: 1 },
@@ -705,12 +710,12 @@ ServerEvents.recipes(event => {
             big_apiary(event,bee,flower.name, flower.energy, flower.time, flower.life, flower.combs, flower.byproducts)
         });
         vanillaFlowers.forEach(flower => {
-            apiary(event,bee,flower,8,100,0.1, [{ id: 'minecraft:honeycomb', chance: 1 }])
-            big_apiary(event,bee,flower,8,100,0.1, [{ id: 'minecraft:honeycomb', chance: 1 }])
+            apiary(event,bee,flower,8,100,0.3, [{ id: 'minecraft:honeycomb', chance: 1 }])
+            big_apiary(event,bee,flower,8,100,0.3, [{ id: 'minecraft:honeycomb', chance: 1 }])
         })
         global.dyeColors.forEach(color => {
-            apiary(event,bee,`botania:${color.name}_mystical_flower`, 8, 100, 0.1, [{ id: `modern_industrialization:${color.name}_comb`, chance: 1 }])
-            big_apiary(event,bee,`botania:${color.name}_mystical_flower`, 8, 100, 0.1, [{ id: `modern_industrialization:${color.name}_comb`, chance: 1 }])
+            apiary(event,bee,`botania:${color.name}_mystical_flower`, 8, 100, 0.4, [{ id: `modern_industrialization:${color.name}_comb`, chance: 1 }])
+            big_apiary(event,bee,`botania:${color.name}_mystical_flower`, 8, 100, 0.4, [{ id: `modern_industrialization:${color.name}_comb`, chance: 1 }])
         })
     })
     beehemoths.forEach(bee => {
@@ -718,19 +723,37 @@ ServerEvents.recipes(event => {
             big_apiary(event,bee,flower.name, flower.energy, flower.time, flower.life, flower.combs, flower.byproducts)
         });
         vanillaFlowers.forEach(flower => {
-            big_apiary(event,bee,flower,8,100,0.1, [{ id: 'minecraft:honeycomb', chance: 1 }])
+            big_apiary(event,bee,flower,8,100,0.3, [{ id: 'minecraft:honeycomb', chance: 1 }])
         })
         global.dyeColors.forEach(color => {
-            big_apiary(event,bee,`botania:${color.name}_mystical_flower`, 8, 100, 0.1, [{ id: `modern_industrialization:${color.name}_comb`, chance: 1 }])
+            big_apiary(event,bee,`botania:${color.name}_mystical_flower`, 8, 100, 0.4, [{ id: `modern_industrialization:${color.name}_comb`, chance: 1 }])
         })
     })
-    botania_advanced.forEach(flower => {
-        big_apiary(event,{ id: 'kubejs:bee_queen', life: 0, comb_multi: 3, byproduct_multi: 3},flower.name, flower.energy, flower.time, flower.life, flower.combs, flower.byproducts)
-    });
-    vanillaFlowers.forEach(flower => {
-        big_apiary(event,{ id: 'kubejs:bee_queen', life: 0, comb_multi: 3, byproduct_multi: 3},flower,8,100,0.1, [{ id: 'minecraft:honeycomb', chance: 1 }])
-    })
-    global.dyeColors.forEach(color => {
-        big_apiary(event,{ id: 'kubejs:bee_queen', life: 0, comb_multi: 3, byproduct_multi: 3},`botania:${color.name}_mystical_flower`, 8, 100, 0.1, [{ id: `modern_industrialization:${color.name}_comb`, chance: 1 }])
-    })
+    // botania_advanced.forEach(flower => {
+    //     big_apiary(event,{ id: 'kubejs:bee_queen', life: 0, comb_multi: 3, byproduct_multi: 3},flower.name, flower.energy, flower.time, flower.life, flower.combs, flower.byproducts)
+    // });
+    // vanillaFlowers.forEach(flower => {
+    //     big_apiary(event,{ id: 'kubejs:bee_queen', life: 0, comb_multi: 3, byproduct_multi: 3},flower,8,100,0.3, [{ id: 'minecraft:honeycomb', chance: 1 }])
+    // })
+    // global.dyeColors.forEach(color => {
+    //     big_apiary(event,{ id: 'kubejs:bee_queen', life: 0, comb_multi: 3, byproduct_multi: 3},`botania:${color.name}_mystical_flower`, 8, 100, 0.4, [{ id: `modern_industrialization:${color.name}_comb`, chance: 1 }])
+    // })
+    event.recipes.modern_industrialization.large_apiary(32 , 400) //Eu, ticks
+        .itemIn('kubejs:bee_queen',0)
+        .itemIn('3x spectrum:vegetal')
+        .fluidIn('the_bumblezone:royal_jelly_fluid_still',10)
+        .fluidIn('modern_industrialization:oxygen',150)
+        .itemOut('kubejs:bee')
+        .itemOut('kubejs:bee',0.5)
+        .itemOut('kubejs:necrodermal_affected_bee',0.02)
+        .itemOut('kubejs:nullodermal_affected_bee',0.02)
+    event.recipes.modern_industrialization.large_apiary(64 , 600) //Eu, ticks
+        .itemIn('kubejs:bee_queen',0)
+        .itemIn('7x spectrum:vegetal')
+        .fluidIn('the_bumblezone:royal_jelly_fluid_still',25)
+        .fluidIn('modern_industrialization:sugar_solution',200)
+        .itemOut('kubejs:beehemoth')
+        .itemOut('kubejs:beehemoth',0.5)
+        .itemOut('kubejs:necrodermal_affected_beehemoth',0.02)
+        .itemOut('kubejs:nullodermal_affected_beehemoth',0.02)
 })
