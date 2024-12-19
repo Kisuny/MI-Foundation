@@ -15,6 +15,10 @@ REIEvents.groupEntries(event => {
     event.groupItems('kubejs:rei_groups/spawn_egg_adventurez' , 'Spawn Egg AdventureZ', [/.*:spawn_.*/]);
     event.groupItems('kubejs:rei_groups/spectrum_mob_block', 'Spectrum Mob Blocks', [/spectrum:.*_mob_block/]);
     event.groupItems('minecraft:rei_groups/buckets', 'Buckets', [/.*_bucket/,/.*:bucket_of.*/,]);
+    event.groupItems('kubejs:rei_groups/kibe_sleeping_bags', 'Sleeping Bags', [/kibe:.*_sleeping_bag/, 'kibe:sleeping_bag']);
+    event.groupItems('kubejs:rei_groups/kibe_gliders', 'Gliders', [/kibe:.*_glider/]);
+    event.groupItems('kubejs:rei_groups/kibe_elevators', 'Elevators', [/kibe:.*_elevator/]);
+    event.groupItems('kubejs:rei_groups/kibe_runes', 'Kibe Runes', [/kibe:.*_rune/]);
 
     // УБРАТЬ
     event.groupItems('kubejs:rei_groups/MCW_windows', 'MCW Windows', [/mcwwindows:.*_window($|2)/]);

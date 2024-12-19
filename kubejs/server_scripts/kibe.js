@@ -32,6 +32,8 @@ ServerEvents.recipes(event => {
         'kibe:tank',
         'kibe:vacuum_hopper',
         'kibe:drawbridge',
+        'kibe:placer', 
+        'kibe:breaker'
     ];
     removeByOutput.forEach(item => event.remove({ output: item }));
 
