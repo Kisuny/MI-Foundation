@@ -2,6 +2,7 @@
     "_comment": "Часть переводов находится в 'kubejs/client_scripts/lang.js', так что можете заглянуть туда (но не трогать!)",
 
     "enchantment.kubejs.coins_instinct.desc": "Позволяет вылавливать монеты из жидкостей",
+    "enchantment.kubejs.coins_instinct": "Монетная чуйка",
 
     "item.kubejs.advanced_deeper_down_data_card": "Продвинутая карта данных Глубоких Низин",
     "item.kubejs.deeper_down_data_card": "Карта данных Глубоких Низин",

@@ -3,6 +3,6 @@ StartupEvents.registry("enchantment", event => {
         .maxLevel(1)
         .veryRare()
         .fishingRod()
-        .displayName("Монетная чуйка")
-        .translationKey('enchantment.kubejs.coins_instinct')
+        .displayName("enchantment.kubejs.coins_instinct")
+        .translationKey('enchantment.kubejs.coins_instinct.desc')
 })

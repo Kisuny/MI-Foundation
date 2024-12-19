@@ -1,7 +1,8 @@
 {
     "_comment": "Some of the translations are in 'kubejs/client_scripts/lang.js', so you can look there (but don't touch!)",
 
-    "enchantment.kubejs.coins_instinct.desc": "Позволяет вылавливать монеты из жидкостей",
+    "enchantment.kubejs.coins_instinct.desc": "Allows you to fish coins out of liquids",
+    "enchantment.kubejs.coins_instinct": "Coins Instinct",
 
     "item.kubejs.ditcheryatina": "Ditcher flesh",
     "item.kubejs.ditcheryatina.tooltip": "§bStinks terribly!",
