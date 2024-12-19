@@ -357,19 +357,14 @@ LootJS.modifiers((event) => {
     //creeperoverhaul custome loot
     event
     .addLootTableModifier('creeperoverhaul:entities/ocean_creeper', 'endermanoverhaul:entities/ocean_enderman')
-    .randomChance(0.5)
-    .addWeightedLoot([1,5], 'mythicmetals:raw_aquarium')
     .randomChance(0.01)
-    .removeLoot('*')
     .addLoot('mythicmetals:aquarium_pearl')
     .randomChance(0.7)
     .removeLoot('*')
     .addLoot('artifacts:aqua_dashers')
     
     event
-    .addLootTableModifier(
-        'creeperoverhaul:entities/cave_creeper', 
-        'endermanoverhaul:entities/cave_enderman', 
+    .addLootTableModifier( 
         'rottencreatures:entities/undead_miner/iron', 
         'rottencreatures:entities/undead_miner/gold',
         'rottencreatures:entities/undead_miner/diamond',
@@ -384,92 +379,4 @@ LootJS.modifiers((event) => {
             ])
         p.limitCount([1, 3])
     })
- 
-    event
-    .addLootTableModifier('creeperoverhaul:entities/hills_creeper', 'endermanoverhaul:entities/windswept_hills_enderman')
-    .pool((p) => {
-        p.randomChance(0.5)
-        p.addWeightedLoot(1, [Item.of("mythicmetals:raw_mythril")])
-        p.limitCount([1, 3])
-    })
-    event
-    .addLootTableModifier('endermanoverhaul:entities/crimson_forest_enderman', 'creeperoverhaul:entities/dripstone_creeper')
-    .pool((p) => {
-        p.randomChance(0.5)
-        p.addWeightedLoot(1, [Item.of("mythicmetals:raw_palladium")])
-        p.limitCount([1, 3])
-})
-    event
-    .addLootTableModifier('endermanoverhaul:entities/warped_forest_enderman', 'endermanoverhaul:entities/dark_oak_enderman')
-    .pool((p) => {
-        p.randomChance(0.5)
-        p.addWeightedLoot(1, [Item.of("mythicmetals:raw_midas_gold")])
-        p.limitCount([1, 3])
-    })
-
-    event
-    .addLootTableModifier('endermanoverhaul:entities/soulsand_valley_enderman', 'endermanoverhaul:entities/savanna_enderman')
-    .pool((p) => {
-        p.randomChance(0.5)
-        p.addWeightedLoot(1, [Item.of("mythicmetals:raw_stormyx")])
-        p.limitCount([1, 3])
-    })
-    
-    event
-    .addLootTableModifier('endermanoverhaul:entities/end_enderman')
-    .pool((p) => {
-        p.randomChance(0.5)
-        p.addWeightedLoot(1, [Item.of("mythicmetals:unobtainium")])
-        p.limitCount([1, 3])
-    })
-    event
-    .addLootTableModifier('endermanoverhaul:entities/end_islands_enderman')
-    .pool((p) => {
-        p.randomChance(0.5)
-        p.addWeightedLoot(1, [Item.of("mythicmetals:starrite")])
-        p.limitCount([1, 3])
-    })
-    event
-    .addLootTableModifier('endermanoverhaul:entities/mushroom_fields_enderman', 'creeperoverhaul:entities/mushroom_creeper')
-    .pool((p) => {
-        p.randomChance(0.5)
-        p.addWeightedLoot(1, [Item.of("mythicmetals:raw_adamantite")])
-        p.limitCount([1, 3])
-    })
-    event
-    .addLootTableModifier('endermanoverhaul:entities/crimson_forest_enderman', 'mythicmetals:raw_prometheum')
-    .pool((p) => {
-        p.randomChance(0.5)
-        p.addWeightedLoot(1, [Item.of("mythicmetals:raw_prometheum")])
-        p.limitCount([1, 3])
-    })
-    event
-    .addLootTableModifier('endermanoverhaul:entities/flower_fields_enderman', 'creeperoverhaul:entities/bamboo_creeper', 'creeperoverhaul:entities/jungle_creeper')
-    .pool((p) => {
-        p.randomChance(0.5)
-        p.addWeightedLoot(1, [Item.of("mythicmetals:raw_orichalcum")])
-        p.limitCount([1, 3])
-    })
-    event
-    .addLootTableModifier('endermanoverhaul:entities/snowy_enderman', 'creeperoverhaul:entities/snowy_creeper')
-    .pool((p) => {
-        p.randomChance(0.5)
-        p.addWeightedLoot(1, [Item.of("mythicmetals:raw_kyber")])
-        p.limitCount([1, 3])
-    })
-    event
-    .addLootTableModifier('endermanoverhaul:entities/ice_spikes_enderman')
-    .pool((p) => {
-        p.randomChance(0.5)
-        p.addWeightedLoot(1, [Item.of("mythicmetals:raw_runite")])
-        p.limitCount([1, 3])
-    })
-    event
-    .addLootTableModifier('endermanoverhaul:entities/swamp_enderman', 'creeperoverhaul:entities/swamp_creeper')
-    .pool((p) => {
-        p.randomChance(0.5)
-        p.addWeightedLoot(1, [Item.of("mythicmetals:raw_quadrillum")])
-        p.limitCount([1, 3])
-    })
-
 })
