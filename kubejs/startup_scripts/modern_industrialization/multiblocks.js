@@ -409,7 +409,7 @@ MIMachineEvents.registerMachines(event => {
     event.simpleElectricCraftingMultiBlock(
         'Large Apiary', 'large_apiary', LARGE_APIARY, largeApiaryShape,
         event.progressBar(60, 20, 'arrow'),
-        itemInputs => itemInputs.addSlots(40, 15, 1, 2), itemOutputs => itemOutputs.addSlots(86, 5, 3, 4),
+        itemInputs => itemInputs.addSlots(40, 15, 1, 2), itemOutputs => itemOutputs.addSlots(86, 5, 4, 4),
         fluidInputs => fluidInputs.addSlots(22, 15, 1, 2), fluidOutputs => {},
         'wax', 'large_apiary', true, false, false
     )
