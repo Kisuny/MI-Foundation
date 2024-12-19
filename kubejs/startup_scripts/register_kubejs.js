@@ -86,7 +86,6 @@ StartupEvents.registry('item', event => {
     simpleItemAdd({ item: 'octiron_shards', rarity: 'rare'})
     simpleItemAdd({ item: 'raw_naquadah', rarity: 'uncommon'})
     simpleItemAdd({ item: 'refined_naquadah', rarity: 'rare'})
-    simpleItemAdd({ item: 'scoop', rarity: 'common', stackSize: 1})
     simpleItemAdd({ item: 'infinity_plate', rarity: 'epic', stackSize: 64})
     simpleItemAdd({ item: 'neutronium_plate', stackSize: 64})
     simpleItemAdd({ item: 'building_card', stackSize: 1, rarity: 'rare'})
@@ -112,6 +111,18 @@ StartupEvents.registry('item', event => {
             }))
         })
         .translationKey(`item.kubejs.dev_tool`)
+
+    event.create("scoop")
+    .maxDamage(20)
+    .unstackable()
+    .texture(`kubejs:item/scoop`)
+    .translationKey(`item.kubejs.scoop`)
+
+    event.create("royal_scoop")
+    .maxDamage(1)
+    .unstackable()
+    .texture(`kubejs:item/royal_scoop`)
+    .translationKey(`item.kubejs.royal_scoop`)
 
     modernPure1.forEach(element => {
         simpleItemAdd({ item: `pure_${element}` })

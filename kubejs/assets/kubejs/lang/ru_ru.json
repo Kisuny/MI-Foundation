@@ -25,6 +25,7 @@
 
     "item.kubejs.kozel_dark": "Козёл «Тёмное»",
     "item.kubejs.scoop": "Сачок",
+    "item.kubejs.royal_scoop": "Королевский Сачок",
     "item.kubejs.artifact_dust": "Артефактная пыль",
     "item.kubejs.empty_beehive": "Пустой Улей",
     "item.kubejs.beehive": "Улей",
@@ -302,7 +303,8 @@
     "kubejs.text.doesnt_save_items_after_improvement": "Не сохраняет вещи после улучшения",
     "kubejs.text.forge_hammer": "Этот блок является рабочей станцией для жителей!",
     "kubejs.text.charger": "Этот блок является рабочей станцией для жителей!",
-    "kubejs.text.scoop": "Используется для ловли пчёл!",
+    "kubejs.text.scoop": "Используется для ловли обычных пчёл!",
+    "kubejs.text.royal_scoop": "Используется для ловли Пчелинной Королевы! Только одно использование.",
     "advancements.kubejs.teleport_to_bumblezone_piston.title": "Гладбищенские пчёлы",
     "advancements.kubejs.teleport_to_bumblezone_piston.description": "Попадите в измерение Bumblezone, попав в улей/пчелиное гнездо при помощи найденного пчелинного улья.",
     
