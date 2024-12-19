@@ -299,6 +299,11 @@ ServerEvents.recipes(event => {
     event.recipes.modern_industrialization.vacuum_freezer(32, 200) //Eu, ticks
         .fluidIn('kibe:liquid_xp', 160)
         .itemOut('vitalize:experience_cubed')
+    global.dyeColors.forEach(color => {
+        event.recipes.modern_industrialization.vacuum_freezer(16, 200) //Eu, ticks
+            .fluidIn(`modern_industrialization:${color.name}_ink`, 900)
+            .itemOut(`spectrum:${color.name}_block`)
+    });
 
     // Pressurizer
     event.remove({ id: 'modern_industrialization:materials/pressurizer/liquid_air' })
