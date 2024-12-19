@@ -1914,45 +1914,6 @@ ServerEvents.recipes(event => {
           "amount": 1
         }
     });
-    // Basic Chunk Loader
-    event.remove({ id: 'chunkloaders:ultimate_chunk_loader' })
-    event.remove({ id: 'chunkloaders:advanced_chunk_loader' })
-    event.remove({ id: 'chunkloaders:basic_chunk_loader' })
-    event.recipes.neepmeat.manufacture({
-        "base": {
-            "id": 'botania:corporea_index'
-        },
-        "steps":[
-          {
-            "id": "neepmeat:combine",
-            "resource": 'neepmeat:divine_organ'
-          },
-          {
-            "id": "neepmeat:combine",
-            "resource": 'kubejs:chromatically_stable_circuit'
-          },
-          {
-            "id": "neepmeat:combine",
-            "resource": 'ae2:singularity'
-          },
-          {
-            "id": "neepmeat:combine",
-            "resource": 'modern_industrialization:unobtanium_ring'
-          },
-          {
-            "id": "neepmeat:inject",
-            "resource": 'spectrum:liquid_crystal'
-          },
-          {
-            "id": "neepmeat:combine",
-            "resource": 'spectrum:knowledge_gem'
-          },
-        ],
-        "result": {
-          "resource": 'chunkloaders:basic_chunk_loader',
-          "amount": 1
-        }
-    });
     // Entangled Block
     event.remove({ id: 'entangled:block' })
     event.recipes.neepmeat.manufacture({
