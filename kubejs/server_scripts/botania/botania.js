@@ -222,10 +222,19 @@ ServerEvents.recipes(event => {
     event.blasting('2x botania:terrasteel_nugget', 'kubejs:pure_terrasteel')
 
 
+    event.recipes.botania.runic_altar('2x kubejs:rune_template',
+        [
+            'kubejs:calcite_brick',
+            'kubejs:calcite_brick',
+            'kubejs:calcite_brick',
+            'kubejs:calcite_brick',
+            'modern_industrialization:runite_plate'
+        ], 1000
+    );
     // Weather runes
     event.recipes.botania.runic_altar('4x botania:rune_water',
         [
-            'modern_industrialization:runite_large_plate',
+            'kubejs:rune_template',
             'spectrum:mermaids_gem',
             'mythicmetals:aquarium_ingot',
             'botania:mana_powder',
@@ -236,7 +245,7 @@ ServerEvents.recipes(event => {
     );
     event.recipes.botania.runic_altar('4x botania:rune_fire',
         [
-            'modern_industrialization:runite_large_plate',
+            'kubejs:rune_template',
             'minecraft:nether_wart',
             'botania:mana_powder',
             'minecraft:nether_brick',
@@ -249,7 +258,7 @@ ServerEvents.recipes(event => {
     );
     event.recipes.botania.runic_altar('4x botania:rune_earth',
         [
-            'modern_industrialization:runite_large_plate',
+            'kubejs:rune_template',
             'minecraft:red_mushroom',
             'minecraft:coal_block',
             'minecraft:stone',
@@ -262,7 +271,7 @@ ServerEvents.recipes(event => {
     );
     event.recipes.botania.runic_altar('4x botania:rune_air',
         [
-            'modern_industrialization:runite_large_plate',
+            'kubejs:rune_template',
             'minecraft:string',
             'minecraft:feather',
             'minecraft:white_wool',
@@ -275,7 +284,7 @@ ServerEvents.recipes(event => {
     // Season runes
     event.recipes.botania.runic_altar('4x botania:rune_winter',
         [
-            'modern_industrialization:runite_large_plate',
+            'kubejs:rune_template',
             'minecraft:snow_block',
             'mythicmetals:kyber_ingot',
             'mythicmetals:carmot_ingot',
@@ -290,7 +299,7 @@ ServerEvents.recipes(event => {
     );
     event.recipes.botania.runic_altar('4x botania:rune_autumn',
         [
-            'modern_industrialization:runite_large_plate',
+            'kubejs:rune_template',
             'minecraft:honeycomb',
             'minecraft:jungle_leaves',
             'spectrum:resonant_lily',
@@ -303,7 +312,7 @@ ServerEvents.recipes(event => {
     );
     event.recipes.botania.runic_altar('4x botania:rune_summer',
         [
-            'modern_industrialization:runite_large_plate',
+            'kubejs:rune_template',
             'spectrum:bone_ash',
             'spectrum:doombloom_seed',
             'minecraft:melon_slice',
@@ -316,7 +325,7 @@ ServerEvents.recipes(event => {
     );
     event.recipes.botania.runic_altar('4x botania:rune_spring',
         [
-            'modern_industrialization:runite_large_plate',
+            'kubejs:rune_template',
             'minecraft:sugar',
             'spectrum:quitoxic_reeds',
             'spectrum:four_leaf_clover',
@@ -339,7 +348,7 @@ ServerEvents.recipes(event => {
             'spectrum:topaz_shard',
             'botania:mana_pearl',
             'botania:manasteel_ingot',
-            'modern_industrialization:runite_large_plate',
+            'kubejs:rune_template',
             'mythicmetals:stormyx_ingot',
             'spectrum:mermaids_gem'
         ], 30000
@@ -357,7 +366,7 @@ ServerEvents.recipes(event => {
             'botania:rune_air',
             'botania:rune_summer',
             'botania:mana_diamond',
-            'modern_industrialization:runite_large_plate'
+            'kubejs:rune_template'
         ], 40000
     );
     event.recipes.botania.runic_altar('4x botania:rune_gluttony',
@@ -368,12 +377,12 @@ ServerEvents.recipes(event => {
             'minecraft:cooked_beef',
             'bewitchment:witchberry',
             'minecraft:golden_apple',
-            'modern_industrialization:runite_large_plate'
+            'kubejs:rune_template'
         ], 40000
     );
     event.recipes.botania.runic_altar('4x botania:rune_greed',
         [
-            'modern_industrialization:runite_large_plate',
+            'kubejs:rune_template',
             'spectrum:midnight_chip',
             'mythicmetals:midas_gold_block',
             'minecraft:ender_eye',
@@ -384,7 +393,7 @@ ServerEvents.recipes(event => {
     );
     event.recipes.botania.runic_altar('4x botania:rune_sloth',
         [
-            'modern_industrialization:runite_large_plate',
+            'kubejs:rune_template',
             'spectrum:stratine_fragments',
             'spectrum:paltaeria_fragments',
             'bewitchment:aconite',
@@ -403,12 +412,12 @@ ServerEvents.recipes(event => {
             'spectrum:doombloom_seed',
             'bewitchment:grim_elixir',
             'spectrum:midnight_chip',
-            'modern_industrialization:runite_large_plate'
+            'kubejs:rune_template'
         ], 40000
     );
     event.recipes.botania.runic_altar('4x botania:rune_envy',
         [
-            'modern_industrialization:runite_large_plate',
+            'kubejs:rune_template',
             'spectrum:four_leaf_clover',
             'spectrum:bismuth_flake',
             'spectrum:neolith',
@@ -429,7 +438,7 @@ ServerEvents.recipes(event => {
             'bewitchment:cleansing_balm',
             'mythicmetals:stormyx_ingot',
             'spectrum:refined_malachite',
-            'modern_industrialization:runite_large_plate',
+            'kubejs:rune_template',
             'botania:mana_diamond'
         ], 40000
     );
