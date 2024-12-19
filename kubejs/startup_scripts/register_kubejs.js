@@ -43,7 +43,7 @@ StartupEvents.registry('item', event => {
     simpleItemAdd({ item: 'teleport_pearl', rarity: 'rare', stackSize: 16})
     simpleItemAdd({ item: 'spectral_circuit_board', rarity: 'uncommon' })
     simpleItemAdd({ item: 'star_core', rarity: 'epic', isGlow: true })
-    simpleItemAdd({ item: 'midnight_feather', rarity: 'epic', isGlow: true, stackSize: 8 })
+    simpleItemAdd({ item: 'midnight_feather', rarity: 'epic', isGlow: true })
     simpleItemAdd({ item: 'raw_magical_steel' })
     simpleItemAdd({ item: 'moth_wings', rarity: 'uncommon' })
     simpleItemAdd({ item: 'zotzpyre_fang', rarity: 'uncommon'})
@@ -94,6 +94,7 @@ StartupEvents.registry('item', event => {
     simpleItemAdd({ item: 'exchanging_card', stackSize: 1, rarity: 'rare'})
     simpleItemAdd({ item: 'demagnetized_magnet_part', stackSize: 16})
     simpleItemAdd({ item: 'magnet_part', stackSize: 16})
+    simpleItemAdd({ item: 'rune_template'})
 
     event.create("dev_tool", "pickaxe")
         .texture(`kubejs:item/dev_tool`)

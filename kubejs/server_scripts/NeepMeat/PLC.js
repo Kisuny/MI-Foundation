@@ -38,7 +38,7 @@ const to_magic_entity_PLC = [
             'spectrum:quitoxic_powder',
             'modern_industrialization:aquarium_tiny_dust',
             'botania:mana_powder',
-            'botania:livingrock',
+            'kubejs:rune_template',
             'kubejs:octiron_shards'
         ],
         output: 'botania:rune_water',
@@ -50,7 +50,7 @@ const to_magic_entity_PLC = [
             'spectrum:quitoxic_powder',
             'modern_industrialization:banglum_tiny_dust',
             'botania:mana_powder',
-            'botania:livingrock',
+            'kubejs:rune_template',
             'kubejs:octiron_shards'
         ],
         output: 'botania:rune_fire',
@@ -62,7 +62,7 @@ const to_magic_entity_PLC = [
             'spectrum:quitoxic_powder',
             'modern_industrialization:beryllium_tiny_dust',
             'botania:mana_powder',
-            'botania:livingrock',
+            'kubejs:rune_template',
             'kubejs:octiron_shards'
         ],
         output: 'botania:rune_earth',
@@ -74,7 +74,7 @@ const to_magic_entity_PLC = [
             'spectrum:quitoxic_powder',
             'modern_industrialization:calcium_metasilicate_tiny_dust',
             'botania:mana_powder',
-            'botania:livingrock',
+            'kubejs:rune_template',
             'kubejs:octiron_shards'
         ],
         output: 'botania:rune_air',
@@ -86,7 +86,7 @@ const to_magic_entity_PLC = [
             'spectrum:quitoxic_powder',
             'spectrum:moonstone_powder',
             'botania:mana_powder',
-            'botania:livingrock',
+            'kubejs:rune_template',
             'kubejs:octiron_shards'
         ],
         output: 'botania:rune_mana',

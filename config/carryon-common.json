@@ -216,7 +216,8 @@
       "rottencreatures:*",
       "lootgoblins:*",
       "theorcs:*",
-      "miskatonicmysteries:*"
+      "miskatonicmysteries:*",
+      "probablychests:*"
     ],
     "//forbiddenEntities": "Entities that cannot be picked up",
     "forbiddenEntities": [
@@ -288,7 +289,8 @@
       "rottencreatures:*",
       "lootgoblins:*",
       "theorcs:*",
-      "miskatonicmysteries:*"
+      "miskatonicmysteries:*",
+      "probablychests:*"
     ],
     "//forbiddenStacking": "Entities that cannot have other entities stacked on top of them",
     "forbiddenStacking": [
