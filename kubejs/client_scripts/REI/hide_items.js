@@ -92,8 +92,8 @@ REIEvents.hide('item', event => {
         'botania:water_ring',
         'botania:knockback_belt',
         'botania:exchange_rod',
-        'chunkloaders:ultimate_chunk_loader',
-        'chunkloaders:advanced_chunk_loader',
+        // 'chunkloaders:ultimate_chunk_loader',
+        // 'chunkloaders:advanced_chunk_loader',
         'exco:processor',
         'exco:processor_ender',
         'kibe:chunk_loader',
@@ -420,6 +420,8 @@ REIEvents.hide('item', event => {
         'itemalchemy:tome_of_knowledge',
         'itemalchemy:philosopher_stone',
         'spectrum:perturbed_eye',
+        'kibe:placer', 
+        'kibe:breaker',
         'kibe:cooler',
         'buildinggadgets:gadget_copy_paste',
         'buildinggadgets:template',
@@ -440,7 +442,52 @@ REIEvents.hide('item', event => {
         'moderndynamics:ev_cable', 
         'moderndynamics:superconductor_cable', 
         'moderndynamics:machine_extender',
-        'wiredredstone:redstone_assembler'
+        'wiredredstone:redstone_assembler',
+        /mysticalagriculture:(.*)(augment)/,
+        /mysticalagriculture:(.*)(dagger)/,
+        /mysticalagriculture:(soulstone)(.*)/,
+        /mysticalagriculture:(.*)(agglomeratio)/,
+        'mysticalagriculture:prosperity_block', 
+        'mysticalagriculture:infusion_pedestal', 
+        'mysticalagriculture:soulium_block', 
+        'mysticalagriculture:prosperity_ingot_block', 
+        'mysticalagriculture:soulium_ingot_block', 
+        'mysticalagriculture:prosperity_gemstone_block', 
+        'mysticalagriculture:soulium_gemstone_block', 
+        'mysticalagriculture:prosperity_ore', 
+        'mysticalagriculture:deepslate_prosperity_ore', 
+        'mysticalagriculture:inferium_ore', 
+        'mysticalagriculture:deepslate_inferium_ore', 
+        'mysticalagriculture:soulium_ore', 
+        'mysticalagriculture:soul_glass', 
+        'mysticalagriculture:witherproof_block', 
+        'mysticalagriculture:witherproof_bricks', 
+        'mysticalagriculture:witherproof_glass', 
+        'mysticalagriculture:infusion_altar', 
+        'mysticalagriculture:awakening_pedestal', 
+        'mysticalagriculture:awakening_altar', 
+        'mysticalagriculture:essence_vessel', 
+        'mysticalagriculture:tinkering_table', 
+        'mysticalagriculture:machine_frame', 
+        'mysticalagriculture:basic_reprocessor', 
+        'mysticalagriculture:soul_extractor', 
+        'mysticalagriculture:harvester', 
+        'mysticalagriculture:prosperity_shard', 
+        'mysticalagriculture:prosperity_ingot', 
+        'mysticalagriculture:soulium_ingot',
+        'mysticalagriculture:prosperity_nugget', 
+        'mysticalagriculture:soulium_nugget', 
+        'mysticalagriculture:prosperity_gemstone', 
+        'mysticalagriculture:soulium_gemstone', 
+        'mysticalagriculture:prosperity_seed_base', 
+        'mysticalagriculture:soulium_seed_base', 
+        'mysticalagriculture:soulium_dust', 
+        'mysticalagriculture:soul_dust',
+        'mysticalagriculture:cognizant_dust', 
+        Item.of('mysticalagriculture:infusion_crystal', '{Damage:0}'), 
+        'mysticalagriculture:master_infusion_crystal', 
+        'mysticalagriculture:wand', 
+        'mysticalagriculture:upgrade_base'
 
     ]);
     event.hide(list)
@@ -464,6 +511,50 @@ REIEvents.hide('item', event => {
             event.hide(`simplyswords:mythicmetals_compat/${material}/${material}_${weapon}`)
         });
     });
+
+    // Mystical Agriculture
+    const mysticalAgricultureTiers = [
+        'inferium',
+        'prudentium',
+        'tertium',
+        'imperium',
+        'supremium',
+        'awakened_supremium',
+    ]
+    mysticalAgricultureTiers.forEach(tier => {
+        event.hide(`mysticalagriculture:${tier}_furnace`)
+        event.hide(`mysticalagriculture:${tier}_gemstone_block`)
+        event.hide(`mysticalagriculture:${tier}_block`)
+        event.hide(`mysticalagriculture:${tier}_growth_accelerator`)
+        event.hide(`mysticalagriculture:${tier}_ingot_block`)
+        event.hide(`mysticalagriculture:${tier}_farmland`)
+        event.hide(`mysticalagriculture:${tier}_reprocessor`)
+        event.hide(`mysticalagriculture:${tier}_ingot`)
+        event.hide(`mysticalagriculture:${tier}_nugget`)
+        event.hide(`mysticalagriculture:${tier}_gemstone`)
+        event.hide(`mysticalagriculture:${tier}_essence`)
+        event.hide(`mysticalagriculture:${tier}_upgrade`)
+        event.hide(`mysticalagriculture:${tier}_sword`)
+        event.hide(`mysticalagriculture:${tier}_pickaxe`)
+        event.hide(`mysticalagriculture:${tier}_shovel`)
+        event.hide(`mysticalagriculture:${tier}_axe`)
+        event.hide(`mysticalagriculture:${tier}_hoe`)
+        event.hide(`mysticalagriculture:${tier}_staff`)
+        event.hide(`mysticalagriculture:${tier}_watering_can`)
+        event.hide(`mysticalagriculture:${tier}_bow`)
+        event.hide(`mysticalagriculture:${tier}_crossbow`)
+        event.hide(`mysticalagriculture:${tier}_shears`)
+        event.hide(`mysticalagriculture:${tier}_fishing_rod`)
+        event.hide(`mysticalagriculture:${tier}_sickle`)
+        event.hide(`mysticalagriculture:${tier}_scythe`)
+        event.hide(`mysticalagriculture:${tier}_helmet`)
+        event.hide(`mysticalagriculture:${tier}_chestplate`)
+        event.hide(`mysticalagriculture:${tier}_leggings`)
+        event.hide(`mysticalagriculture:${tier}_boots`)
+        event.hide(Item.of(`mysticalagriculture:${tier}_watering_can`, '{Active:0b,Water:0b}'))
+    });
+    event.hide('mysticalagriculture:soul_jar')
+
 });
 
 // REIEvents.hide('liquid', event => {
