@@ -125,7 +125,7 @@ MIMachineEvents.registerMachines(event => {
         event.progressBar(70, 45, 'arrow'),
         event.efficiencyBar(48, 86),
         event.energyBar(14, 44),
-        2, 12, 0, 0,
+        2, 16, 0, 0,
         16,
         items => items.addSlots(42, 37, 1, 2).addSlots(100, 27, 4, 4), fluids => { },
         true, true, true,
