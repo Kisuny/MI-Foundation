@@ -123,7 +123,7 @@ ServerEvents.recipes(event => {
             .itemIn(`spectrum:stripped_${color.name}_log`)
             .itemOut('4x modern_industrialization:wood_pulp')
             .fluidOut(`modern_industrialization:${color.name}_ink`, 35)
-        event.recipes.modern_industrialization.centrifuge(64, 300) //Eu, ticks
+        event.recipes.modern_industrialization.centrifuge(32, 300) //Eu, ticks
             .itemIn(`modern_industrialization:${color.name}_comb`)
             .itemOut(eval(`comb_outputs.${color.name}[0].id`), eval(`comb_outputs.${color.name}[0].chance`))
             .itemOut(eval(`comb_outputs.${color.name}[1].id`), eval(`comb_outputs.${color.name}[1].chance`))
