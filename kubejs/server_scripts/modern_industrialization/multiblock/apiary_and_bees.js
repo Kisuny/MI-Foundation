@@ -25,7 +25,7 @@ const water = [
 const fire = [
     { id: 'modern_industrialization:banglum_dust', chance: 0.1 },
     { id: 'modern_industrialization:palladium_dust', chance: 0.1 },
-    { id: 'modern_industrialization:adamantite_dust', chance: 0.1 },
+    // { id: 'modern_industrialization:adamantite_dust', chance: 0.1 },
     ];
 const earth = [
      { id: 'spectrum:vegetal', chance: 0.2 },
@@ -41,7 +41,7 @@ const mana = [
     { id: 'modern_industrialization:runite_dust', chance: 0.1 },
 ];
 const redstone_root = [
-    { id: 'modern_industrialization:stormyx_dust', chance: 0.1 },
+    // { id: 'modern_industrialization:stormyx_dust', chance: 0.1 },
     { id: 'modern_industrialization:carmot_dust', chance: 0.1 },
     { id: 'spectrum:stratine_fragments', chance: 0.1 },
 ];
@@ -138,7 +138,7 @@ function apiary(event, bee, flower, energy, time, life, combs, byproducts) {
     })
 
     if (byproducts != undefined) {
-        byproducts.forEach(item => {
+        byproducts.main.forEach(item => {
             event = event.itemOut(strmulti(bee.byproduct_multi,item.id),item.chance)
         })
     }
@@ -156,9 +156,16 @@ function big_apiary(event, bee, flower, energy, time, life, combs, byproducts) {
     })
 
     if (byproducts != undefined) {
-        byproducts.forEach(item => {
-            event = event.itemOut(strmulti(bee.byproduct_multi,item.id),up_to_one(1.5,item.chance))
-        })
+        if (byproducts.main.length != 0) {
+            byproducts.main.forEach(item => {
+                event = event.itemOut(strmulti(bee.byproduct_multi, item.id), up_to_one(1.5, item.chance))
+            })
+        }
+        if (byproducts.bonus.length != 0) {
+            byproducts.bonus.forEach(item => {
+                event = event.itemOut(strmulti(bee.byproduct_multi, item.id), up_to_one(1.5, item.chance))
+            })
+        }
     }
 }
 
@@ -241,7 +248,10 @@ const botania_advanced = [
             { id: '2x modern_industrialization:green_comb', chance: 1 },
             { id: '2x modern_industrialization:red_comb', chance: 1 },
         ],
-        byproducts:[].concat(winter, air)
+        byproducts: {
+            main: [].concat(winter),
+            bonus: [].concat(air)
+        }
     },
     {
         name: 'botania:pure_daisy',
@@ -294,7 +304,10 @@ const botania_advanced = [
             { id: '2x modern_industrialization:brown_comb', chance: 1 },
             { id: 'modern_industrialization:red_comb', chance: 1 },
         ],
-        byproducts:[].concat(earth, fire)
+        byproducts: {
+            main: [].concat(earth),
+            bonus: [].concat(fire)
+        }
     },
     {
         name: 'botania:marimorphosis',
@@ -307,7 +320,10 @@ const botania_advanced = [
             { id: 'modern_industrialization:yellow_comb', chance: 1 },
             { id: 'modern_industrialization:gray_comb', chance: 1 },
         ],
-        byproducts:[].concat(earth, fire, redstone_root)
+        byproducts: {
+            main: [].concat(earth, redstone_root),
+            bonus: [].concat(fire)
+        }
     },
     {
         name: 'botania:medumone',
@@ -318,7 +334,11 @@ const botania_advanced = [
             { id: '2x modern_industrialization:gray_comb', chance: 1 },
             { id: '2x modern_industrialization:brown_comb', chance: 1 },
         ],
-        byproducts:[].concat(earth, redstone_root)
+        byproducts: {
+            main: [].concat(earth, redstone_root),
+            bonus: []
+        }
+        
     },
     {
         name: 'botania:daffomill',
@@ -330,7 +350,10 @@ const botania_advanced = [
             { id: 'modern_industrialization:brown_comb', chance: 1 },
             { id: 'modern_industrialization:yellow_comb', chance: 1 },
         ],
-        byproducts:[].concat(air)
+        byproducts: {
+            main: [].concat(air),
+            bonus: []
+        }
     },
     {
         name: 'botania:clayconia',
@@ -342,7 +365,10 @@ const botania_advanced = [
             { id: 'modern_industrialization:gray_comb', chance: 1 },
             { id: '2x modern_industrialization:light_gray_comb', chance: 1 },
         ],
-        byproducts:[].concat(earth)
+        byproducts: {
+            main: [].concat(earth),
+            bonus: []
+        }
     },
     {
         name: 'botania:jiyuulia',
@@ -354,7 +380,10 @@ const botania_advanced = [
             { id: 'modern_industrialization:purple_comb', chance: 1 },
             { id: '2x modern_industrialization:pink_comb', chance: 1 },
         ],
-        byproducts:[].concat(water, air)
+        byproducts: {
+            main: [].concat(water),
+            bonus: [].concat(air)
+        }
     },
     {
         name: 'botania:rosa_arcana',
@@ -366,7 +395,10 @@ const botania_advanced = [
             { id: '2x modern_industrialization:purple_comb', chance: 1 },
             { id: '2x modern_industrialization:pink_comb', chance: 1 },
         ],
-        byproducts:[].concat(mana)
+        byproducts: {
+            main: [].concat(mana),
+            bonus: []
+        }
     },
     {
         name: 'botania:bellethorn',
@@ -377,7 +409,10 @@ const botania_advanced = [
             { id: '2x modern_industrialization:cyan_comb', chance: 1 },
             { id: '3x modern_industrialization:red_comb', chance: 1 },
         ],
-        byproducts:[].concat(redstone_root)
+        byproducts: {
+            main: [].concat(redstone_root),
+            bonus: []
+        }
     },
     {
         name: 'botania:hopperhock',
@@ -388,7 +423,10 @@ const botania_advanced = [
             { id: '2x modern_industrialization:light_gray_comb', chance: 1 },
             { id: '2x modern_industrialization:gray_comb', chance: 1 },
         ],
-        byproducts:[].concat(redstone_root)
+        byproducts: {
+            main: [].concat(redstone_root),
+            bonus: []
+        }
     },
     {
         name: 'botania:tangleberrie',
@@ -400,7 +438,10 @@ const botania_advanced = [
             { id: 'modern_industrialization:gray_comb', chance: 1 },
             { id: '2x modern_industrialization:brown_comb', chance: 1 },
         ],
-        byproducts:[].concat(air, earth)
+        byproducts: {
+            main: [].concat(air),
+            bonus: [].concat(earth)
+        }
     },
     {
         name: 'botania:solegnolia',
@@ -412,7 +453,10 @@ const botania_advanced = [
             { id: 'modern_industrialization:red_comb', chance: 1 },
             { id: '2x modern_industrialization:brown_comb', chance: 1 },
         ],
-        byproducts:[].concat(redstone_root)
+        byproducts: {
+            main: [].concat(redstone_root),
+            bonus: []
+        }
     },
     {
         name: 'botania:rannuncarpus',
@@ -423,7 +467,10 @@ const botania_advanced = [
             { id: 'modern_industrialization:yellow_comb', chance: 1 },
             { id: '2x modern_industrialization:orange_comb', chance: 1 },
         ],
-        byproducts:[].concat(earth, redstone_root)
+        byproducts: {
+            main: [].concat(earth, redstone_root),
+            bonus: []
+        }
     },
     {
         name: 'botania:bergamute',
@@ -434,7 +481,10 @@ const botania_advanced = [
             { id: '2x modern_industrialization:green_comb', chance: 1 },
             { id: 'modern_industrialization:orange_comb', chance: 1 },
         ],
-        byproducts:[].concat(redstone_root)
+        byproducts: {
+            main: [].concat(redstone_root),
+            bonus: []
+        }
     },
     {
         name: 'botania:dreadthorn',
@@ -445,7 +495,10 @@ const botania_advanced = [
             { id: '2x modern_industrialization:brown_comb', chance: 1 },
             { id: '3x modern_industrialization:black_comb', chance: 1 },
         ],
-        byproducts:[].concat(redstone_root)
+        byproducts: {
+            main: [].concat(redstone_root),
+            bonus: []
+        }
     },
     {
         name: 'botania:vinculotus',
@@ -457,7 +510,10 @@ const botania_advanced = [
             { id: '2x modern_industrialization:purple_comb', chance: 1 },
             { id: '2x modern_industrialization:black_comb', chance: 1 },
         ],
-        byproducts:[].concat(water, sloth, lust, redstone_root)
+        byproducts: {
+            main: [].concat(water, sloth),
+            bonus: [].concat(lust, redstone_root)
+        }
     },
     {
         name: 'botania:loonium',
@@ -468,7 +524,10 @@ const botania_advanced = [
             { id: 'modern_industrialization:gray_comb', chance: 1 },
             { id: '4x modern_industrialization:green_comb', chance: 1 },
         ],
-        byproducts:[].concat(sloth, gluttony, envy, redstone_root, pixie)
+        byproducts: {
+            main: [].concat(sloth, gluttony, redstone_root),
+            bonus: [].concat(envy, pixie)
+        }
     },
     {
         name: 'botania:spectranthemum',
@@ -480,7 +539,10 @@ const botania_advanced = [
             { id: '2x modern_industrialization:light_gray_comb', chance: 1 },
             { id: '2x modern_industrialization:white_comb', chance: 1 },
         ],
-        byproducts:[].concat(envy, water, redstone_root, pixie)
+        byproducts: {
+            main: [].concat(envy, water),
+            bonus: [].concat(redstone_root, pixie)
+        }
     },
     {
         name: 'botania:pollidisiac',
@@ -492,7 +554,10 @@ const botania_advanced = [
             { id: '2x modern_industrialization:pink_comb', chance: 1 },
             { id: '2x modern_industrialization:red_comb', chance: 1 },
         ],
-        byproducts:[].concat(lust,fire)
+        byproducts: {
+            main: [].concat(lust),
+            bonus: [].concat(fire)
+        }
     },
     {
         name: 'botania:bubbell',
@@ -504,7 +569,10 @@ const botania_advanced = [
             { id: '2x modern_industrialization:light_blue_comb', chance: 1 },
             { id: '2x modern_industrialization:cyan_comb', chance: 1 },
         ],
-        byproducts:[].concat(water, summer, pixie)
+        byproducts: {
+            main: [].concat(water, summer),
+            bonus: [].concat(pixie) 
+        }
     },
     {
         name: 'botania:labellia',
@@ -517,7 +585,10 @@ const botania_advanced = [
             { id: 'modern_industrialization:blue_comb', chance: 1 },
             { id: '2x modern_industrialization:yellow_comb', chance: 1 },
         ],
-        byproducts:[].concat(autumn, redstone_root, pixie)
+        byproducts: {
+            main: [].concat(autumn, redstone_root),
+            bonus: [].concat(pixie)
+        }
     },
     {
         name: 'botania:orechid_ignem',
@@ -529,7 +600,10 @@ const botania_advanced = [
             { id: '2x modern_industrialization:white_comb', chance: 1 },
             { id: '2x modern_industrialization:red_comb', chance: 1 },
         ],
-        byproducts:[].concat(pride, greed, redstone_root, pixie)
+        byproducts: {
+            main: [].concat(pride, redstone_root),
+            bonus: [].concat(greed, pixie)
+        }
     },
     {
         name: 'botania:agricarnation',
@@ -541,7 +615,10 @@ const botania_advanced = [
             { id: 'modern_industrialization:green_comb', chance: 1 },
             { id: '2x modern_industrialization:lime_comb', chance: 1 },
         ],
-        byproducts:[].concat(spring, redstone_root)
+        byproducts: {
+            main: [].concat(spring),
+            bonus: [].concat(redstone_root)
+        }
     },
     {
         name: 'botania:exoflame',
@@ -553,7 +630,10 @@ const botania_advanced = [
             { id: 'modern_industrialization:gray_comb', chance: 1 },
             { id: '2x modern_industrialization:red_comb', chance: 1 },
         ],
-        byproducts:[].concat(fire, summer)
+        byproducts: {
+            main: [].concat(fire),
+            bonus: [].concat(summer)
+        }
     },
     {
         name: 'botania:fallen_kanade',
@@ -565,7 +645,10 @@ const botania_advanced = [
             { id: '2x modern_industrialization:yellow_comb', chance: 1 },
             { id: '2x modern_industrialization:white_comb', chance: 1 },
         ],
-        byproducts:[].concat(spring)
+        byproducts: {
+            main: [].concat(spring),
+            bonus: []
+        }
     },
     {
         name: 'botania:orechid',
@@ -578,7 +661,10 @@ const botania_advanced = [
             { id: 'modern_industrialization:yellow_comb', chance: 1 },
             { id: '2x modern_industrialization:gray_comb', chance: 1 },
         ],
-        byproducts:[].concat(pride, greed, redstone_root)
+        byproducts: {
+            main: [].concat(greed, redstone_root),
+            bonus: [].concat(pride)
+        }
     },
     {
         name: 'botania:jaded_amaranthus',
@@ -590,7 +676,10 @@ const botania_advanced = [
             { id: 'modern_industrialization:lime_comb', chance: 1 },
             { id: 'modern_industrialization:purple_comb', chance: 1 },
         ],
-        byproducts:[].concat(spring, redstone_root)
+        byproducts: {
+            main: [].concat(spring),
+            bonus: [].concat(redstone_root)
+        }
     },
     {
         name: 'botania:tigerseye',
@@ -603,7 +692,10 @@ const botania_advanced = [
             { id: 'modern_industrialization:brown_comb', chance: 1 },
             { id: 'modern_industrialization:yellow_comb', chance: 1 },
         ],
-        byproducts:[].concat(autumn)
+        byproducts: {
+            main: [].concat(autumn),
+            bonus: []
+        }
     },
     {
         name: 'botania:shulk_me_not',
@@ -615,7 +707,10 @@ const botania_advanced = [
             { id: '2x modern_industrialization:magenta_comb', chance: 1 },
             { id: '2x modern_industrialization:purple_comb', chance: 1 },
         ],
-        byproducts:[].concat(gaia, envy, wrath)
+        byproducts: {
+            main: [].concat(gaia, envy),
+            bonus: [].concat(wrath)
+        }
     },
     {
         name: 'botania:heisei_dream',
@@ -627,7 +722,10 @@ const botania_advanced = [
             { id: 'modern_industrialization:purple_comb', chance: 1 },
             { id: '2x modern_industrialization:magenta_comb', chance: 1 },
         ],
-        byproducts:[].concat(earth, pride, pixie)
+        byproducts: {
+            main: [].concat(earth, pixie),
+            bonus: [].concat(pride)
+        }
     },
     {
         name: 'botania:rafflowsia',
@@ -639,7 +737,10 @@ const botania_advanced = [
             { id: '2x modern_industrialization:purple_comb', chance: 1 },
             { id: '2x modern_industrialization:green_comb', chance: 1 },
         ],
-        byproducts:[].concat(earth, pride, pixie)
+        byproducts: {
+            main: [].concat(earth, pixie),
+            bonus: [].concat(pride)
+        }
     },
     {
         name: 'botania:narslimmus',
@@ -651,7 +752,10 @@ const botania_advanced = [
             { id: '2x modern_industrialization:green_comb', chance: 1 },
             { id: '2x modern_industrialization:lime_comb', chance: 1 },
         ],
-        byproducts:[].concat(summer, water)
+        byproducts: {
+            main: [].concat(summer),
+            bonus: [].concat(water)
+        }
     },
     {
         name: 'botania:munchdew',
@@ -663,7 +767,10 @@ const botania_advanced = [
             { id: '2x modern_industrialization:red_comb', chance: 1 },
             { id: '2x modern_industrialization:lime_comb', chance: 1 },
         ],
-        byproducts:[].concat(gluttony)
+        byproducts: {
+            main: [].concat(gluttony),
+            bonus: []
+        }
     },
     {
         name: 'botania:entropinnyum',
@@ -675,7 +782,10 @@ const botania_advanced = [
             { id: '2x modern_industrialization:gray_comb', chance: 1 },
             { id: '2x modern_industrialization:red_comb', chance: 1 },
         ],
-        byproducts:[].concat(wrath, fire)
+        byproducts: {
+            main: [].concat(wrath),
+            bonus: [].concat(fire)
+        }
     },
     {
         name: 'botania:kekimurus',
@@ -687,7 +797,10 @@ const botania_advanced = [
             { id: '2x modern_industrialization:orange_comb', chance: 1 },
             { id: '2x modern_industrialization:white_comb', chance: 1 },
         ],
-        byproducts:[].concat(gluttony, pixie)
+        byproducts: {
+            main: [].concat(gluttony),
+            bonus: [].concat(pixie)
+        }
     },
     {
         name: 'botania:gourmaryllis',
@@ -699,7 +812,10 @@ const botania_advanced = [
             { id: '2x modern_industrialization:yellow_comb', chance: 1 },
             { id: '2x modern_industrialization:light_gray_comb', chance: 1 },
         ],
-        byproducts:[].concat(fire, summer)
+        byproducts: {
+            main: [].concat(fire),
+            bonus: [].concat(summer)
+        }
     }
 ];
 
@@ -723,10 +839,10 @@ ServerEvents.recipes(event => {
             big_apiary(event,bee,flower.name, flower.energy, flower.time, flower.life, flower.combs, flower.byproducts)
         });
         vanillaFlowers.forEach(flower => {
-            big_apiary(event,bee,flower,8,100,0.3, [{ id: 'minecraft:honeycomb', chance: 1 }])
+            big_apiary(event,bee,flower,8,200,0.3, [{ id: 'minecraft:honeycomb', chance: 1 }])
         })
         global.dyeColors.forEach(color => {
-            big_apiary(event,bee,`botania:${color.name}_mystical_flower`, 8, 100, 0.4, [{ id: `modern_industrialization:${color.name}_comb`, chance: 1 }])
+            big_apiary(event,bee,`botania:${color.name}_mystical_flower`, 16, 200, 0.4, [{ id: `modern_industrialization:${color.name}_comb`, chance: 1 }])
         })
     })
     // botania_advanced.forEach(flower => {
