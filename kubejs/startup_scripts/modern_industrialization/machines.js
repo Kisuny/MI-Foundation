@@ -122,12 +122,12 @@ MIMachineEvents.registerMachines(event => {
     event.craftingSingleBlock(
         'Industrial Apiary', 'industrial_apiary', INDUSTRIAL_APIARY, ['electric'],
         186,
-        event.progressBar(70, 45, 'arrow'),
+        event.progressBar(70, 43, 'arrow'),
         event.efficiencyBar(48, 86),
         event.energyBar(14, 44),
-        2, 16, 0, 0,
-        16,
-        items => items.addSlots(42, 37, 1, 2).addSlots(100, 27, 4, 4), fluids => { },
+        2, 9, 0, 0,
+        11,
+        items => items.addSlots(42, 37, 1, 2).addSlots(100, 27, 3, 3), fluids => { },
         true, true, true,
     );
 
