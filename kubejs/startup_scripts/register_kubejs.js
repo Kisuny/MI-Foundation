@@ -371,7 +371,7 @@ StartupEvents.registry("block", (event) => {
                     .box(4, 0, 4, 12, 6, 12, true)
                     .requiresTool(true)
                     .tagBlock('minecraft:mineable/pickaxe')
-                    .tagBlock('c:clusters')
+                    // .tagBlock('c:clusters')
                     .property(BlockProperties.WATERLOGGED)
                     .item(item =>
                         item.modelJson({
