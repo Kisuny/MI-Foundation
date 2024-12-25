@@ -301,7 +301,7 @@ ServerEvents.recipes(event => {
         .itemOut('vitalize:experience_cubed')
     global.dyeColors.forEach(color => {
         event.recipes.modern_industrialization.vacuum_freezer(16, 200) //Eu, ticks
-            .fluidIn(`modern_industrialization:${color.name}_ink`, 900)
+            .fluidIn(`modern_industrialization:${color.name}_ink`, 1000)
             .itemOut(`spectrum:${color.name}_block`)
     });
 
