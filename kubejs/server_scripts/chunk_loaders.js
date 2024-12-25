@@ -3,7 +3,7 @@ ServerEvents.recipes(event => {
     // Basic Chunk Loader
     event.remove({ id: 'chunkloaders:basic_chunk_loader' })
     event.recipes.modern_industrialization.assembler(32, 400)
-        .itemIn('spectrum:paltaeria_fragments')
+        // .itemIn('spectrum:paltaeria_fragments')
         .itemIn('neepmeat:enlightened_brain')
         .itemIn('6x modern_industrialization:desh_ring')
         .itemIn('3x neepmeat:bioelectric_organ')
