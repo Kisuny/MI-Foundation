@@ -70,9 +70,8 @@ let flower_generation_recipes = [
         flower: "rafflowsia",
     },
     {
-        item: ["minecraft:lava_bucket"],
-        item_out: ["minecraft:bucket"],
-        mana: 800,
+        fluid: ["minecraft:lava", 1000],
+        mana: 1250,
         flower: "endoflame",
     },
     {
@@ -81,7 +80,22 @@ let flower_generation_recipes = [
         flower: "endoflame",
     },
     {
+        item: ["#minecraft:planks"],
+        mana: 10,
+        flower: "endoflame",
+    },
+    {
+        item: ["#minecraft:logs_that_burn"],
+        mana: 10,
+        flower: "endoflame",
+    },
+    {
         item: ["#c:coal_dusts"],
+        mana: 100,
+        flower: "endoflame",
+    },
+    {
+        item: ["#c:lignite_coal_dusts"],
         mana: 100,
         flower: "endoflame",
     },
