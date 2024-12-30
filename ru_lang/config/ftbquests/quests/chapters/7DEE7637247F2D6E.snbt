@@ -9,17 +9,18 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["5C12A68F7C5E5B36"]
+			dependencies: ["7CCBB21F51AC62CF"]
 			hide: true
 			id: "1585D46B8D0E0D4D"
-			shape: "diamond"
+			shape: "pentagon"
+			size: 1.2d
 			tasks: [{
 				id: "4FEE24007DC9360E"
 				item: "kubejs:bee_queen"
 				type: "item"
 			}]
 			x: 7.0d
-			y: -11.0d
+			y: -12.5d
 		}
 		{
 			dependencies: [
@@ -1119,6 +1120,37 @@
 			}]
 			x: -2.0d
 			y: -3.5d
+		}
+		{
+			dependencies: ["5C12A68F7C5E5B36"]
+			id: "7CCBB21F51AC62CF"
+			rewards: [
+				{
+					id: "6CC894B04A7100B4"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "668EF66AB91D2771"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4902CE17B0D8C850"
+				item: {
+					Count: 1b
+					id: "kubejs:royal_scoop"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -11.0d
 		}
 	]
 	title: "Bee paradise"
