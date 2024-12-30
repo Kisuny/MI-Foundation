@@ -522,9 +522,8 @@
 			dependencies: ["4B7A29A99F2E2755"]
 			id: "0641F532830857AA"
 			rewards: [{
-				count: 4
-				id: "1F74942B3D5AA3EF"
-				item: "neepmeat:essential_saltes"
+				id: "407DD52BE2CB4D44"
+				item: "kubejs:late_lootbag_rare"
 				type: "item"
 			}]
 			tasks: [{
