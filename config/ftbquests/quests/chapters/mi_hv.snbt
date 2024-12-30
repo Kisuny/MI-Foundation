@@ -2662,7 +2662,13 @@
 			id: "1EF6D2269C192BC1"
 			tasks: [{
 				id: "1BC6F96637862566"
-				item: "kubejs:scoop"
+				item: {
+					Count: 1b
+					id: "kubejs:scoop"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			x: 16.5d
