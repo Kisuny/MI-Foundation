@@ -64,7 +64,7 @@ ServerEvents.recipes(event => {
         .itemIn('spectrum:mermaids_gem', 0.6)
         .itemIn('minecraft:gravel', 0.0)
         .fluidIn('minecraft:water', 1000)
-        .fluidIn('minecraft:oxygen', 200)
+        .fluidIn('modern_industrialization:oxygen', 200)
         .itemOut('3x spectrum:mermaids_gem')
 
     event.recipes.modern_industrialization.growing_chamber(64, 600) //Mb, ticks
