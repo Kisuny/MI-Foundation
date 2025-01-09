@@ -856,6 +856,29 @@ ServerEvents.recipes(event => {
             F: 'modern_industrialization:electronic_circuit',
             G: 'modern_industrialization:aluminum_rotor',
         });
+
+    event.shaped('modern_industrialization:honey_generator', [
+        'AAA',
+        'BBB',
+        'CDC'
+    ], {
+            A: 'kubejs:bee',
+            B: 'modern_industrialization:conveyor',
+            C: 'the_bumblezone:beehive_beeswax',
+            D: 'modern_industrialization:advanced_machine_hull',
+        });
+
+    event.shaped('modern_industrialization:turbo_honey_generator', [
+        'AAA',
+        'BBB',
+        'CDC'
+    ], {
+            A: 'kubejs:beehemoth',
+            B: 'modern_industrialization:conveyor',
+            C: 'the_bumblezone:beehive_beeswax',
+            D: 'modern_industrialization:turbo_machine_hull',
+        });
+
     crafting_table_botania_flower_generators.forEach(element => {
         add_flower_generator_crafting_table_recipe(event, element)
     });
