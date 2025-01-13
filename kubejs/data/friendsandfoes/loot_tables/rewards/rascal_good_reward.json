@@ -1,0 +1,85 @@
+{
+	"type": "minecraft:empty",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"weight": 4,
+					"type": "minecraft:item",
+					"name": "minecraft:iron_pickaxe",
+					"functions": [
+						{
+							"function": "minecraft:enchant_with_levels",
+							"levels": {
+								"min": 18.0,
+								"max": 22.0,
+								"type": "minecraft:uniform"
+							}
+						}
+					]
+				},
+				{
+					"weight": 2,
+					"type": "minecraft:item",
+					"name": "minecraft:iron_ore",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 8.0,
+								"max": 16.0
+							}
+						}
+					]
+				},
+				{
+					"weight": 1,
+					"type": "minecraft:item",
+					"name": "minecraft:gold_ore",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 5.0,
+								"max": 10.0
+							}
+						}
+					]
+				},
+				{
+					"weight": 2,
+					"type": "minecraft:item",
+					"name": "numismatic-overhaul:silver_coin",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 40.0
+							}
+						}
+					]
+				},
+				{
+					"weight": 1,
+					"type": "minecraft:item",
+					"name": "numismatic-overhaul:gold_coin",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:uniform",
+								"min": 1.0,
+								"max": 5.0
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

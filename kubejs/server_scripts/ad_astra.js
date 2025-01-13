@@ -1,4 +1,5 @@
 //priority: 0
+//test
 
 ServerEvents.recipes(event => {
     // Generic removal
