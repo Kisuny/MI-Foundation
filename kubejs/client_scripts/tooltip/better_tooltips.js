@@ -74,6 +74,8 @@ ItemEvents.tooltip(tooltip => {
         betterToolTip({ item: 'bewitchment:witchberry', text: 'kubejs.witchberry.tooltip' })
         betterToolTip({ item: 'miskatonicmysteries:resonate_ooze', text: 'kubejs.resonate_ooze.tooltip' }) 
         betterToolTip({ item: 'kubejs:dragon_heart', text: 'kubejs.dragon_heart.tooltip' }) 
+        betterToolTip({ item: 'mif_addon:bee', text: 'mif_addon.bee.tooltip' }) 
+        betterToolTip({ item: 'mif_addon:beehemoth', text: 'mif_addon.beehemoth.tooltip' }) 
 
         // тултипы для артефактов
         let artifactsTooltip = (args) => {
