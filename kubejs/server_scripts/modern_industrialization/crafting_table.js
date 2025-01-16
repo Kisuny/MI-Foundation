@@ -87,7 +87,7 @@ ServerEvents.recipes(event => {
     });
 
     // Scoop
-    event.shaped('kubejs:scoop', [
+    event.shaped('mif_addon:scoop', [
         'WRW',
         'WSW',
         ' S '
