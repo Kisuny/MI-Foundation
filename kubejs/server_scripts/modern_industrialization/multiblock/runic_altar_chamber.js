@@ -1,45 +1,45 @@
 let runic_altar_recipes = [
     {
-     items_in: [
-        ["minecraft:skeleton_skull"],
-        ["botania:pixie_dust"],
-        ["minecraft:prismarine_crystals"],
-        ["minecraft:name_tag"],
-        ["minecraft:golden_apple"],
-     ],
-     items_out: [
-        ["minecraft:player_head"],
-     ],
-     mana: 2250,
+        items_in: [
+            ["minecraft:skeleton_skull"],
+            ["botania:pixie_dust"],
+            ["minecraft:prismarine_crystals"],
+            ["minecraft:name_tag"],
+            ["minecraft:golden_apple"],
+        ],
+        items_out: [
+            ["minecraft:player_head"],
+        ],
+        mana: 2250,
     },
     {
         items_in: [
-           ["4x kubejs:calcite_brick"],
-           ["modern_industrialization:runite_plate"],
+            ["4x kubejs:calcite_brick"],
+            ["modern_industrialization:runite_plate"],
         ],
         items_out: [
-           ["2x kubejs:rune_template"],
+            ["2x kubejs:rune_template"],
         ],
         mana: 1000,
-       },
+    },
     {
-     items_in: [
-        ["minecraft:honeycomb"],
-        ["kubejs:rune_template"],
-        ["spectrum:paltaeria_fragments"],
-        ["minecraft:spider_eye"],
-        ["botania:rune_fire", 0],
-        ["botania:rune_air", 0],
-        ["spectrum:resonant_lily"],
-        ["minecraft:jungle_leaves"],
-        ["whisperwoods:ghost_light_fiery_orange"],
-        ["botania:livingrock"],
-     ],
-     items_out: [
-        ["4x botania:rune_autumn"],
+        items_in: [
+            ["minecraft:honeycomb"],
+            ["kubejs:rune_template"],
+            ["spectrum:paltaeria_fragments"],
+            ["minecraft:spider_eye"],
+            ["botania:rune_fire", 0],
+            ["botania:rune_air", 0],
+            ["spectrum:resonant_lily"],
+            ["minecraft:jungle_leaves"],
+            ["whisperwoods:ghost_light_fiery_orange"],
+            ["botania:livingrock"],
+        ],
+        items_out: [
+            ["4x botania:rune_autumn"],
 
-     ],
-     mana: 2000,
+        ],
+        mana: 2000,
     },
     {
         items_in: [
@@ -75,7 +75,7 @@ let runic_altar_recipes = [
             ["botania:livingrock"],
         ],
         items_out: [
-            ["4x botania:rune_mana"],,
+            ["4x botania:rune_mana"], ,
         ],
         mana: 3000,
     },
@@ -308,38 +308,38 @@ let runic_altar_recipes = [
         ],
         mana: 2000,
     },
- ]
+]
 
 
- function add_runic_altar_recipe(event, item) {
-     let time = item.time ? item.time : 200
-     let cost = item.cost ? item.cost : 16
-     event = event.recipes.modern_industrialization.runic_altar_chamber(cost, time)
+function add_runic_altar_recipe(event, item) {
+    let time = item.time ? item.time : 200
+    let cost = item.cost ? item.cost : 16
+    event = event.recipes.modern_industrialization.runic_altar_chamber(cost, time)
 
-     if (item.fluid) {
-         item.fluid.forEach(element => {
-             event = event.fluidIn(element[0], element[1])
-         });
-     }
-     if (item.items_in) {
-         item.items_in.forEach(element => {
-             event = event.itemIn(element[0], element[1] !== undefined ? element[1] : 1)
-         });
-     }
-     if (item.items_out) {
-         item.items_out.forEach(element => {
-             event = event.itemOut(element[0], element[1] !== undefined ? element[1] : 1)
-         });
-     }
+    if (item.fluid) {
+        item.fluid.forEach(element => {
+            event = event.fluidIn(element[0], element[1])
+        });
+    }
+    if (item.items_in) {
+        item.items_in.forEach(element => {
+            event = event.itemIn(element[0], element[1] !== undefined ? element[1] : 1)
+        });
+    }
+    if (item.items_out) {
+        item.items_out.forEach(element => {
+            event = event.itemOut(element[0], element[1] !== undefined ? element[1] : 1)
+        });
+    }
 
-     if (item.mana){
+    if (item.mana) {
         event = event.fluidIn("modern_industrialization:liquid_mana", item.mana)
     }
- }
+}
 
 
- ServerEvents.recipes(event => {
-     runic_altar_recipes.forEach(element => {
-         add_runic_altar_recipe(event, element)
-     });
- })
+ServerEvents.recipes(event => {
+    runic_altar_recipes.forEach(element => {
+        add_runic_altar_recipe(event, element)
+    });
+})
