@@ -2520,6 +2520,129 @@
 			x: 3.5d
 			y: 8.5d
 		}
+		{
+			dependencies: ["58C877DC86206A23"]
+			description: ["Integrator egg must be placed on central Pipe Casing and should be connected by pipes to respective tanks."]
+			id: "3D7D2ED2A1C2FD50"
+			rewards: [{
+				id: "403B273C2E8C0CCD"
+				item: "kubejs:late_lootbag_epic"
+				type: "item"
+			}]
+			subtitle: "Property of Dr. Geo Mandrake"
+			tasks: [{
+				id: "5EFC698CD6A649DF"
+				item: "modern_industrialization:alien_cell"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["3D7D2ED2A1C2FD50"]
+			description: ["Properties of this strange liquids are remarkable. It allows to transform organic matter in new sometimes unpredictable ways."]
+			icon: {
+				Count: 1b
+				id: "modern_industrialization:aluminum_tank"
+				tag: {
+					BlockEntityTag: {
+						amt: 1296000L
+						fluid: {
+							fk: {
+								fluid: "modern_industrialization:mutagen"
+							}
+						}
+						locked: 0b
+					}
+				}
+			}
+			id: "1CEB3A2C8B0BC240"
+			rewards: [
+				{
+					id: "11F91532AA3629C2"
+					item: {
+						Count: 1b
+						id: "modern_industrialization:aluminum_tank"
+						tag: {
+							BlockEntityTag: {
+								amt: 1296000L
+								fluid: {
+									fk: {
+										fluid: "modern_industrialization:mutagen"
+									}
+								}
+								locked: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BABE7A83D67DE24"
+					item: "kubejs:late_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "69AEE828DAEB4FAF"
+				item: "modern_industrialization:mutagen_bucket"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["7F1E78E14355EEF5"]
+			description: [
+				"By using precise manipulations and newly acquired access to mutagen, you are able to engineer new ways of crop modifications. "
+				""
+				"Crops are separated into tiers, each tier affects energy consumption during growing process."
+				""
+				"In order to obtain desired items from essences you must put specified item into chemical reactor with small amount of liquid crystal and high air pressure(from Large Compressor). "
+				""
+				"Tip. &eThe Farming Scutter operations are so precise, it can harvest and produce additional seeds from farmland, which is impossible to do in any other way.&r"
+			]
+			id: "4D045D85CD09EA68"
+			rewards: [
+				{
+					id: "40AF86570A89D69E"
+					item: "mysticalagriculture:coal_seeds"
+					type: "item"
+				}
+				{
+					id: "62F37CFB5677394E"
+					item: "mysticalagriculture:wood_seeds"
+					type: "item"
+				}
+				{
+					id: "2FF0AAB93DBBD231"
+					item: "mysticalagriculture:ice_seeds"
+					type: "item"
+				}
+				{
+					id: "75A925937004520A"
+					item: "kubejs:late_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Cropparia"
+			tasks: [{
+				id: "4685CB5F6C4D5A27"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "mif:seeds"
+					}
+				}
+				title: "Any #mif:seeds"
+				type: "item"
+			}]
+			title: "Mystical Agriculture"
+			x: 8.838095238095235d
+			y: 11.834523809523816d
+		}
 	]
 	title: "Unlimited power | EV"
 }

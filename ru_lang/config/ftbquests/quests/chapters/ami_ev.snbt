@@ -2499,6 +2499,123 @@
 			x: 3.5d
 			y: 8.5d
 		}
+		{
+			dependencies: ["58C877DC86206A23"]
+			description: ["Яйцо интегратора должно быть расположено на центральной части обшивки и должно быть присоединено трубами к резервуарам. "]
+			id: "7086F1D2C96CE082"
+			subtitle: "Не лезь..."
+			tasks: [{
+				id: "6C4F64AC42C5E750"
+				item: "modern_industrialization:alien_cell"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["7086F1D2C96CE082"]
+			description: ["Свойства этой странной жидкости невероятны. Мутаген позволяет преобразовывать органику с невероятной лёгкостью."]
+			icon: {
+				Count: 1b
+				id: "modern_industrialization:aluminum_tank"
+				tag: {
+					BlockEntityTag: {
+						amt: 1296000L
+						fluid: {
+							fk: {
+								fluid: "modern_industrialization:mutagen"
+							}
+						}
+						locked: 0b
+					}
+				}
+			}
+			id: "6DB133835DB3E248"
+			rewards: [
+				{
+					id: "121AD87CAD78909C"
+					item: {
+						Count: 1b
+						id: "modern_industrialization:aluminum_tank"
+						tag: {
+							BlockEntityTag: {
+								amt: 1296000L
+								fluid: {
+									fk: {
+										fluid: "modern_industrialization:mutagen"
+									}
+								}
+								locked: 0b
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FC2CD39CCD0E654"
+					item: "kubejs:late_lootbag_rare"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "27E0480E817994B9"
+				item: "modern_industrialization:mutagen_bucket"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["7F1E78E14355EEF5"]
+			description: [
+				"Используя точные манипуляции и мутаген нам удалось разработать новый метод селекции. "
+				""
+				"Культуры разделены на уровни от которых зависит энергопотребление процесса выращивания."
+				""
+				"Для того чтобы получить предмет из эссенции необходимо подать этот предмет вместе с эссенцией в химический реактор в присутствии жидкого кристалла под высоким давлением(сжатый воздух получается из Большого Компрессора)."
+				""
+				"Подсказка. &eИспользование Farming Scutter позволяет дублировать семена культур, что в иных методах выращивания невозможно.&r"
+			]
+			id: "7826EACCE17886CB"
+			rewards: [
+				{
+					id: "4EECFA5E1EE03E00"
+					item: "mysticalagriculture:coal_seeds"
+					type: "item"
+				}
+				{
+					id: "5EC418C8CA4E1EAB"
+					item: "mysticalagriculture:wood_seeds"
+					type: "item"
+				}
+				{
+					id: "0BE831D7B5D82D57"
+					item: "mysticalagriculture:ice_seeds"
+					type: "item"
+				}
+				{
+					id: "1E159AD333E2CF35"
+					item: "kubejs:late_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Cropparia"
+			tasks: [{
+				id: "5B48380554229581"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "mif:seeds"
+					}
+				}
+				title: "Any #mif:seeds"
+				type: "item"
+			}]
+			x: 8.864285714285714d
+			y: 11.967857142857142d
+		}
 	]
 	title: "Unlimited power | EV"
 }
