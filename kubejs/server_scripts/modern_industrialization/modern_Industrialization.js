@@ -104,9 +104,15 @@ ServerEvents.recipes(event => {
         .fluidOut('modern_industrialization:silicon_tetrafluoride_gas', 1000)
     event.recipes.modern_industrialization.chemical_reactor(16, 200)
         .itemIn('neepmeat:biomass')
+        .fluidIn('modern_industrialization:ethanol',125)
+        .fluidIn('modern_industrialization:sodium_hydroxide',30)
+        .fluidOut('modern_industrialization:raw_biodiesel',500)
+
+    event.recipes.modern_industrialization.chemical_reactor(16, 200)
+        .fluidIn('the_bumblezone:honey_fluid_still',1000)
         .fluidIn('modern_industrialization:ethanol',400)
         .fluidIn('modern_industrialization:sodium_hydroxide',100)
-        .fluidOut('modern_industrialization:raw_biodiesel',500)
+        .fluidOut('modern_industrialization:raw_biodiesel',1500)
 
     // Molecular Deconstructor
 
