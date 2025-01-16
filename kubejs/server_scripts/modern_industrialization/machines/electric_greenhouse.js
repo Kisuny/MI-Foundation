@@ -1,4 +1,4 @@
-let el_greenhouse_trees = [
+let el_greenhouse_trees_old = [
     {
         name: "oak",
         extra_items : [
@@ -75,7 +75,7 @@ let el_greenhouse_trees = [
     },
 ]
 
-let el_greenhouse_crops = [
+let el_greenhouse_crops_old = [
     {
         crop:"minecraft:sugar_cane",
         dirt:"minecraft:sand",
@@ -318,7 +318,7 @@ let el_greenhouse_crops = [
     },
 ]
 
-function add_tree_craft(event, item) {
+function add_tree_craft_old(event, item) {
     let cost = item.cost ? item.cost : 32
     let time = item.time ? item.time : 300
     let mod = item.mod ? item.mod : "minecraft"
@@ -339,7 +339,7 @@ function add_tree_craft(event, item) {
     }
 }
 
-function add_crop_craft(event, item) {
+function add_crop_craft_old(event, item) {
     let cost = item.cost ? item.cost : 16
     let time = item.time ? item.time : 200
     let dirt = item.dirt ? item.dirt : item.dirt === null ? null : "minecraft:dirt"
@@ -368,10 +368,10 @@ function add_crop_craft(event, item) {
 
 ServerEvents.recipes(event => {
 
-    el_greenhouse_trees.forEach(element => {
-        add_tree_craft(event, element)
+    el_greenhouse_trees_old.forEach(element => {
+        add_tree_craft_old(event, element)
     });
-    el_greenhouse_crops.forEach(element => {
-        add_crop_craft(event, element)
+    el_greenhouse_crops_old.forEach(element => {
+        add_crop_craft_old(event, element)
     });
 })
