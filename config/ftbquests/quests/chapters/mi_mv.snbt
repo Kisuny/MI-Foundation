@@ -2110,9 +2110,10 @@
 				}
 			]
 			size: 1.5d
+			subtitle: "Immersive Engineering!"
 			tasks: [{
 				id: "2D21C8002E6615A8"
-				item: "modern_industrialization:electric_greenhouse"
+				item: "modern_industrialization:garden_cloche"
 				type: "item"
 			}]
 			x: -2.25d

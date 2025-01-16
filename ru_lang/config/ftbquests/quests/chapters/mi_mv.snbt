@@ -2063,7 +2063,7 @@
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
-			description: ["&6Электрическая теплица&r, однако она способна на выращивание &4только простых&r культур."]
+			description: ["&6Сад Клоше&r, однако он способен на выращивание &4только простых&r культур."]
 			id: "71F97A656D41785D"
 			rewards: [
 				{
@@ -2090,9 +2090,10 @@
 				}
 			]
 			size: 1.5d
+			subtitle: "Иммерсивная Инженерия!"
 			tasks: [{
 				id: "2D21C8002E6615A8"
-				item: "modern_industrialization:electric_greenhouse"
+				item: "modern_industrialization:garden_cloche"
 				type: "item"
 			}]
 			title: "Теплица"
