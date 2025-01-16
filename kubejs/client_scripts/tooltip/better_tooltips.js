@@ -43,7 +43,7 @@ ItemEvents.tooltip(tooltip => {
         simpleShiftText({ item: 'scout:upgraded_pouch', text: 'kubejs.text.doesnt_save_items_after_improvement' })
         simpleShiftText({ item: 'modern_industrialization:forge_hammer', text: 'kubejs.text.forge_hammer' })
         simpleShiftText({ item: 'ae2:charger', text: 'kubejs.text.charger' })
-        simpleShiftText({ item: 'kubejs:scoop', text: 'kubejs.text.scoop' })
+        simpleShiftText({ item: 'mif_addon:scoop', text: 'kubejs.text.scoop' })
         simpleShiftText({ item: 'kubejs:royal_scoop', text: 'kubejs.text.royal_scoop' })
 
 
