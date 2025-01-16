@@ -110,7 +110,7 @@ ServerEvents.recipes(event => {
         {
             name: 'creeper',
             drops: [
-                [2,'minecraft:porkchop'],
+                [2,'minecraft:gunpowder'],
             ],
             ingredients: [
                 'botania:virus_necrodermal',
@@ -284,7 +284,6 @@ ServerEvents.recipes(event => {
             name: 'wood',
             tier: 1,
             items: [
-                [32, 'minecraft:stone'],
                 [32, 'minecraft:oak_log'], 
                 [32, 'minecraft:spruce_log'], 
                 [32, 'minecraft:birch_log'], 
