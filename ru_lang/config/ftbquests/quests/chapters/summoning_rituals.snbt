@@ -241,11 +241,10 @@
 			size: 1.3d
 			subtitle: "Босс!"
 			tasks: [{
-				entity: "adventurez:stone_golem"
-				icon: "adventurez:stone_golem_heart"
-				id: "6DDB3FEF70EBDABD"
-				type: "kill"
-				value: 1L
+				advancement: "adventurez:stone_golem_advancement"
+				criterion: ""
+				id: "56E17186B312C7BB"
+				type: "advancement"
 			}]
 			x: 5.0d
 			y: 9.5d
@@ -309,14 +308,6 @@
 			subtitle: "Босс!"
 			tasks: [
 				{
-					entity: "bosses_of_mass_destruction:gauntlet"
-					icon: "bosses_of_mass_destruction:blazing_eye"
-					id: "511BE1A4B7DA275A"
-					title: "Убить адскую перчатку"
-					type: "kill"
-					value: 1L
-				}
-				{
 					id: "1511C7956ABB13F5"
 					item: {
 						Count: 1b
@@ -331,6 +322,12 @@
 					}
 					match_nbt: true
 					type: "item"
+				}
+				{
+					advancement: "bosses_of_mass_destruction:nether/gauntlet_defeat"
+					criterion: ""
+					id: "3EFA5871D9DEB0FB"
+					type: "advancement"
 				}
 			]
 			title: "Адска перчатка"
@@ -358,12 +355,10 @@
 			size: 1.3d
 			subtitle: "Босс!"
 			tasks: [{
-				entity: "bosses_of_mass_destruction:lich"
-				icon: "bosses_of_mass_destruction:ancient_anima"
-				id: "7E80CDC7FEDF9B8B"
-				title: "Убить тёмного лича"
-				type: "kill"
-				value: 1L
+				advancement: "bosses_of_mass_destruction:adventure/night_lich_defeat"
+				criterion: ""
+				id: "427AD0894E6A206A"
+				type: "advancement"
 			}]
 			title: "Тёмный лич"
 			x: -3.952380952380956d
@@ -387,12 +382,10 @@
 			size: 1.3d
 			subtitle: "Босс!"
 			tasks: [{
-				entity: "bosses_of_mass_destruction:obsidilith"
-				icon: "bosses_of_mass_destruction:obsidian_heart"
-				id: "6375F551696FB45F"
-				title: "Убить обсидалит"
-				type: "kill"
-				value: 1L
+				advancement: "bosses_of_mass_destruction:end/obsidilith_defeat"
+				criterion: ""
+				id: "3819C6060F6DA845"
+				type: "advancement"
 			}]
 			title: "Обсидалит"
 			x: -6.44761904761905d
@@ -416,12 +409,10 @@
 			size: 1.3d
 			subtitle: "Босс!"
 			tasks: [{
-				entity: "bosses_of_mass_destruction:void_blossom"
-				icon: "bosses_of_mass_destruction:void_thorn"
-				id: "137FED608CD0AA0B"
-				title: "Убить Цветок пустоты"
-				type: "kill"
-				value: 1L
+				advancement: "bosses_of_mass_destruction:adventure/void_blossom_defeat"
+				criterion: ""
+				id: "6074F56BE6415A6B"
+				type: "advancement"
 			}]
 			title: "Цветок пустоты"
 			x: -7.923809523809524d
