@@ -102,7 +102,7 @@ ServerEvents.recipes(event => {
         .itemOut('2x modern_industrialization:beryllium_dust')
         .itemOut('2x modern_industrialization:silicon_dust')
         .fluidOut('modern_industrialization:oxygen',1000)
-    event.recipes.modern_industrialization.centrifuge(16, 1200)
+    event.recipes.modern_industrialization.centrifuge(16, 600)
         .fluidIn('neepmeat:tissue_slurry',200)
         .itemOut('neepmeat:biomass')
         .fluidOut('neepmeat:meat',200)
