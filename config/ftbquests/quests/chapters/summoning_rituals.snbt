@@ -241,11 +241,10 @@
 			size: 1.3d
 			subtitle: "Boss!"
 			tasks: [{
-				entity: "adventurez:stone_golem"
-				icon: "adventurez:stone_golem_heart"
-				id: "6DDB3FEF70EBDABD"
-				type: "kill"
-				value: 1L
+				advancement: "adventurez:stone_golem_advancement"
+				criterion: ""
+				id: "006D802CD04280BD"
+				type: "advancement"
 			}]
 			x: 5.0d
 			y: 9.5d
@@ -309,14 +308,6 @@
 			subtitle: "Boss!"
 			tasks: [
 				{
-					entity: "bosses_of_mass_destruction:gauntlet"
-					icon: "bosses_of_mass_destruction:blazing_eye"
-					id: "511BE1A4B7DA275A"
-					title: "Kill Nether Gauntlet"
-					type: "kill"
-					value: 1L
-				}
-				{
 					id: "1511C7956ABB13F5"
 					item: {
 						Count: 1b
@@ -331,6 +322,12 @@
 					}
 					match_nbt: true
 					type: "item"
+				}
+				{
+					advancement: "bosses_of_mass_destruction:nether/gauntlet_defeat"
+					criterion: ""
+					id: "031B82605187AB1F"
+					type: "advancement"
 				}
 			]
 			title: "Kill Nether Gauntlet"
@@ -358,12 +355,10 @@
 			size: 1.3d
 			subtitle: "Boss!"
 			tasks: [{
-				entity: "bosses_of_mass_destruction:lich"
-				icon: "bosses_of_mass_destruction:ancient_anima"
-				id: "7E80CDC7FEDF9B8B"
-				title: "Kill Night lich"
-				type: "kill"
-				value: 1L
+				advancement: "bosses_of_mass_destruction:adventure/night_lich_defeat"
+				criterion: ""
+				id: "715419D2786CD874"
+				type: "advancement"
 			}]
 			title: "Kill Night lich"
 			x: -3.952380952380956d
@@ -387,12 +382,10 @@
 			size: 1.3d
 			subtitle: "Boss!"
 			tasks: [{
-				entity: "bosses_of_mass_destruction:obsidilith"
-				icon: "bosses_of_mass_destruction:obsidian_heart"
-				id: "6375F551696FB45F"
-				title: "Kill Obsidalith"
-				type: "kill"
-				value: 1L
+				advancement: "bosses_of_mass_destruction:end/obsidilith_defeat"
+				criterion: ""
+				id: "035F173B34DBC5CB"
+				type: "advancement"
 			}]
 			title: "Kill Obsidalith"
 			x: -6.44761904761905d
@@ -416,12 +409,10 @@
 			size: 1.3d
 			subtitle: "Boss!"
 			tasks: [{
-				entity: "bosses_of_mass_destruction:void_blossom"
-				icon: "bosses_of_mass_destruction:void_thorn"
-				id: "137FED608CD0AA0B"
-				title: "Kill Void Blossom"
-				type: "kill"
-				value: 1L
+				advancement: "bosses_of_mass_destruction:adventure/void_blossom_defeat"
+				criterion: ""
+				id: "717BD8FA5530DD14"
+				type: "advancement"
 			}]
 			title: "Kill Void Blossom"
 			x: -7.923809523809524d
