@@ -21,6 +21,9 @@ ServerEvents.tags('item', event => {
     event.add('chipped:packed_mud', /.*packed_mud*./)
     event.add('chipped:waxed_exposed_copper', /.*waxed_exposed_copper$/)
 
+    // Mystical Agriculture
+    event.add('mif:seeds', /mysticalagriculture:.*_seeds/)
+
 
     // trinkets tags
     event.add('mif:exploring_trinkets', [
