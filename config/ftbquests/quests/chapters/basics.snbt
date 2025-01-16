@@ -1078,6 +1078,36 @@
 			x: -1.905102040816331d
 			y: 1.158163265306122d
 		}
+		{
+			dependencies: ["190C18AB20216705"]
+			id: "39BD4E4B395B9B11"
+			rewards: [
+				{
+					count: 16
+					id: "175DACD29227BC4A"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "1CF357143B74B843"
+					item: "kubejs:early_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4D3348EC4EA69D2D"
+				item: {
+					Count: 1b
+					id: "mysticalagriculture:watering_can"
+					tag: {
+						Water: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
 	]
 	title: "&7First steps"
 }

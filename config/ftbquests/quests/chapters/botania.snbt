@@ -2067,6 +2067,24 @@
 			x: 0.0d
 			y: -2.5d
 		}
+		{
+			dependencies: ["6A8A1F67B8461137"]
+			id: "570F97F80CB4BE77"
+			rewards: [{
+				id: "2F3C3445F76CEA7A"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 0.8d
+			tasks: [{
+				id: "38FC19E23A45EF1F"
+				item: "mysticalagriculture:mystical_fertilizer"
+				type: "item"
+			}]
+			x: 2.0272108843537353d
+			y: -14.45918367346939d
+		}
 	]
 	title: "&7Botania"
 }

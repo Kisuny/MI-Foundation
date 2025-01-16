@@ -2054,6 +2054,19 @@
 			x: 0.0d
 			y: -2.5d
 		}
+		{
+			dependencies: ["6A8A1F67B8461137"]
+			id: "3E72878F88C61C55"
+			shape: "diamond"
+			size: 0.8d
+			tasks: [{
+				id: "4A4C602671A7C4A8"
+				item: "mysticalagriculture:mystical_fertilizer"
+				type: "item"
+			}]
+			x: 2.1309523809523867d
+			y: -14.476190476190467d
+		}
 	]
 	title: "&7Botania"
 }
