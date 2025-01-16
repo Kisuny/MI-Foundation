@@ -6,7 +6,12 @@
 	icon: "bewitchment:golden_witch_altar"
 	id: "7277231C2B85A0A5"
 	order_index: 4
-	quest_links: [ ]
+	quest_links: [{
+		id: "580F9E96190ABA16"
+		linked_quest: "3877FD4F24D92304"
+		x: -6.5d
+		y: 7.5d
+	}]
 	quests: [
 		{
 			dependencies: ["21952F0799457083"]
@@ -43,7 +48,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["71691F178B73D85A"]
@@ -75,7 +80,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 9.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["43F09C084B765ACB"]
@@ -98,7 +103,7 @@
 			}]
 			title: "Barks"
 			x: 0.0d
-			y: 7.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["71691F178B73D85A"]
@@ -139,7 +144,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 9.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["487B6452F0767918"]
@@ -164,7 +169,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 8.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0570BD91B563EE19"]
@@ -183,7 +188,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 9.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6066ED30BB59CCD5"]
@@ -478,7 +483,7 @@
 			]
 			title: "Magical Seeds"
 			x: 0.0d
-			y: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["2E7592297D492824"]
@@ -498,7 +503,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6066ED30BB59CCD5"]
@@ -553,7 +558,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 8.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["632ED9F4036B2BD9"]
@@ -572,7 +577,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 9.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["0E9ABFC9A24133BC"]
@@ -618,7 +623,7 @@
 				value: 1L
 			}]
 			x: 6.5d
-			y: 9.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["657A89AAEEA13EB3"]
@@ -655,7 +660,7 @@
 				type: "observation"
 			}]
 			x: 8.0d
-			y: 9.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["164CF7324390B1A9"]
@@ -678,7 +683,7 @@
 			}]
 			title: "Bewitchment"
 			x: 0.0d
-			y: 0.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["487B6452F0767918"]
@@ -714,7 +719,7 @@
 				}
 			]
 			x: 2.0d
-			y: 9.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["693D890736AE75FD"]
@@ -795,7 +800,305 @@
 				type: "item"
 			}]
 			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3877FD4F24D92304"]
+			description: [
+				"&#DEB3E0Poppet&r is a handy figurine used to put the target into &#d33b2bdangerous&r or &#CAE4C8protective&r environments."
+				""
+				"A poppet is &o<shake>always</shake>&r tied to it's target."
+				"To be active the poppet must be in your inventory."
+			]
+			hide: true
+			id: "496217B7F7AA8316"
+			rewards: [{
+				id: "72B1993779224AA0"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "756594FC48A9DD7F"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "mif:poppets"
+					}
+				}
+				title: "Any #mif:poppets"
+				type: "item"
+			}]
+			title: "Poppets"
+			x: -8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3877FD4F24D92304"]
+			description: [
+				"A Magic &#DEB3E0Broom&r is a tool for witchy travel. By using &5Magic energy&r, they can fly in the sky!"
+				""
+				"There are four different kinds of brooms with &#ffb04funique&r properties."
+				""
+				"More indepth information can be found in the book. "
+				"P.s. the Bewitchment Plus's broom, has not effects, it's just for flying..."
+			]
+			hide: true
+			id: "78FE98D30F14F9A4"
+			rewards: [{
+				id: "4CBF84CD934F5763"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0626274B55F06008"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "mif:brooms"
+					}
+				}
+				title: "Any #mif:brooms"
+				type: "item"
+			}]
+			title: "Brooms"
+			x: -8.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3877FD4F24D92304"]
+			description: [
+				"&#DEB3E0Sigils&r are magic symbols of power. They can be divided into two groups:"
+				""
+				"&#9BB8EDActive sigils&r must be placed on special blocks or on &4Dragon's blood brooms&r."
+				""
+				"&#CAE4C8Passive sigils&r can be placed anywhere and apply their effect onto everything in their radius."
+			]
+			hide: true
+			id: "021DCD549FA18E20"
+			rewards: [{
+				id: "1D6A116EF990E824"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3E404A8B09EAE42F"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "mif:sigils"
+					}
+				}
+				title: "Any #mif:sigils"
+				type: "item"
+			}]
+			title: "Sigils"
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3877FD4F24D92304"]
+			description: [
+				"&#DEB3E0Crystal ball&r is a basic tool for divination. Used together with a &#FEECD6DNA extractor&r, crystal ball gives precise information about the &#ffb04ftarget player&r, coordinates, curses etc."
+				""
+				"While using, a crystal ball increases Luck for the price of &#DEB3E0Magical energy&r from the nearest &#FEECD6Altar&r."
+			]
+			hide: true
+			id: "0D89B654B3E6447E"
+			rewards: [{
+				id: "38A528447D5C3F3E"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5AD0969406BBA424"
+				item: "bewitchment:crystal_ball"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3877FD4F24D92304"]
+			description: [
+				"&#DEB3E0Brazier&r - an essential tool for &4Curses&r. Moreover, it can be used to create &#DEB3E0incenses&r."
+				""
+				"Braziers can contain up to four items. To start the recipe, you must ignite it with a &#FEECD6flint and steel&r."
+				""
+				"More indepth information can be found in the book."
+			]
+			hide: true
+			id: "49CB4358E3657EA2"
+			rewards: [{
+				id: "1BBEAF1C25E061B0"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "77650804DB42A337"
+				item: "bewitchment:brazier"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3877FD4F24D92304"]
+			description: [
+				"&#DEB3E0Rituals&r are a powerful &5magic practice&r directly affecting the world. To perform a ritual, you should draw a ring of specific configuration and use reagents. "
+				""
+				"Rituals need &5Magical energy&r provided by an &#FEECD6Altar&r nearby; the amount of energy needed can be found in the book."
+				""
+				"Every ritual has a main and an optional auxiliary ring, drawn using different types of chalk depending on the ritual."
+			]
+			hide: true
+			id: "730B272910F0D699"
+			rewards: [{
+				count: 16
+				id: "314B6D95A0BB4359"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "The Chalkeaters!"
+			tasks: [{
+				id: "1BDC510707785C8A"
+				item: {
+					Count: 1b
+					id: "bewitchment:chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["730B272910F0D699"]
+			description: ["&l&5Eldritch&r&r Chalk draws an auxiliary ring for certain rituals."]
+			hide: true
+			id: "2642E47CE3901B37"
+			rewards: [{
+				id: "438E5F161DA16F3C"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "654410DE2398266D"
+				item: {
+					Count: 1b
+					id: "bewitchment:eldritch_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["730B272910F0D699"]
+			description: ["&l&4Fiery&r Chalk draws an auxiliary ring for certain rituals."]
+			hide: true
+			id: "24A0A1F63B534DE6"
+			rewards: [{
+				id: "41030043A042012E"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5A8C3310D2BD7324"
+				item: {
+					Count: 1b
+					id: "bewitchment:fiery_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["730B272910F0D699"]
+			description: ["&l&6Golden&r Chalk draws the center ring of any ritual."]
+			hide: true
+			id: "2FE982BA23600A79"
+			rewards: [{
+				id: "171965C1387A54B7"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "557813338584043C"
+				item: {
+					Count: 1b
+					id: "bewitchment:golden_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["24A0A1F63B534DE6"]
+			description: [
+				"Summon a &4Demon&r and obtain your first contract!"
+				""
+				"{@pagebreak}"
+				""
+				"&#C6BCE9Contract&r is a pact with a &4demon&r with health as a price."
+				""
+				"Contracts usually last for &#9BB8EDseven days&r and cannot be terminated."
+				""
+				"More info about contracts can be found in the book!"
+			]
+			id: "4E123B3EA1DBF460"
+			rewards: [{
+				id: "23E9E22848A32BA5"
+				item: "kubejs:magic_lootbag_rare"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "bewitchment:demonic_contract"
+					tag: { }
+				}
+				id: "53012E96555AA7BD"
+				observe_type: 5
+				timer: 0L
+				to_observe: "bewitchment:demon"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: 7.5d
 		}
 	]
 	title: "&7Bewitchment"
