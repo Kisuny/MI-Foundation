@@ -10,10 +10,10 @@
 	quests: [
 		{
 			dependencies: ["1E0B8D7D80D63FB6"]
+			description: ["The &6Queen Bee&r can be caught with a &5Royal Scoop&r"]
 			hide: true
 			id: "1585D46B8D0E0D4D"
-			shape: "pentagon"
-			size: 1.2d
+			shape: "heart"
 			tasks: [{
 				id: "4FEE24007DC9360E"
 				item: "kubejs:bee_queen"
@@ -45,7 +45,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "791C3359AD7AAD2D"
-				item: "kubejs:beehemoth"
+				item: "mif_addon:beehemoth"
 				type: "item"
 			}]
 			x: 7.0d
@@ -1124,6 +1124,7 @@
 		}
 		{
 			dependencies: ["5C12A68F7C5E5B36"]
+			description: ["&5Scoop&r can be exchanged at the &6queen bee&r, the net has &l&c1 durability&r&r."]
 			id: "1E0B8D7D80D63FB6"
 			rewards: [
 				{

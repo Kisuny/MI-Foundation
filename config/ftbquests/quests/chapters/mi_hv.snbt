@@ -2572,12 +2572,12 @@
 			rewards: [{
 				count: 2
 				id: "6E14B544D076EB58"
-				item: "kubejs:bee"
+				item: "mif_addon:bee"
 				type: "item"
 			}]
 			tasks: [{
 				id: "17C681FD6347C74C"
-				item: "kubejs:bee"
+				item: "mif_addon:bee"
 				type: "item"
 			}]
 			x: 17.5d
