@@ -603,6 +603,20 @@ ServerEvents.recipes(event => {
         d: 'computercraft:disk_drive',
     });
 
+    // Alien Cell
+    event.shaped('modern_industrialization:alien_cell', [
+        'HMH',
+        'IPE',
+        'HDH'
+    ], {
+        H: 'modern_industrialization:hsla_steel_machine_casing_pipe',
+        M: 'ae2:not_so_mysterious_cube',
+        I: 'ae2:import_bus',
+        E: 'ae2:export_bus',
+        P: 'kubejs:photonic_circuit',
+        D: 'ae2:dense_energy_cell',
+    });
+
     // Pyrolyse Chamber
     event.shaped('modern_industrialization:pyrolyse_chamber', [
         'CPC',
@@ -830,13 +844,13 @@ ServerEvents.recipes(event => {
             E: 'modern_industrialization:basic_machine_hull',
         });
 
-    event.shaped('modern_industrialization:electric_greenhouse', [
+    event.shaped('modern_industrialization:garden_cloche', [
         'APA',
         'GCD',
         'FEF'
     ], {
             A: 'minecraft:glass',
-            P: 'yttr:lamp',
+            P: 'minecraft:redstone_lamp',
             C: 'farmersdelight:rich_soil',
             D: 'modern_industrialization:motor',
             E: 'modern_industrialization:basic_machine_hull',
