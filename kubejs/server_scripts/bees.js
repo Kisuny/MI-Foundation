@@ -1,7 +1,6 @@
-ItemEvents.entityInteracted(["kubejs:scoop", "kubejs:royal_scoop"], event =>{
+ItemEvents.entityInteracted(["kubejs:royal_scoop"], event =>{
 
     const royalEntityList = ['bee_queen']
-    const scoopEntityList = ['bee','beehemoth']
     const { player, target, server } = event;
     const player_name = player.getName().getString()
     const dimension = player.getLevel().getDimension()
@@ -24,9 +23,6 @@ ItemEvents.entityInteracted(["kubejs:scoop", "kubejs:royal_scoop"], event =>{
 
     royalEntityList.forEach(element => {
         catchEntity(element, "kubejs:royal_scoop")
-    });
-    scoopEntityList.forEach(element => {
-        catchEntity(element, "kubejs:scoop")
     });
 
     

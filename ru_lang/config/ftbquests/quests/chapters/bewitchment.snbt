@@ -6,7 +6,12 @@
 	icon: "bewitchment:golden_witch_altar"
 	id: "7277231C2B85A0A5"
 	order_index: 4
-	quest_links: [ ]
+	quest_links: [{
+		id: "4DF059726847BCA3"
+		linked_quest: "3877FD4F24D92304"
+		x: -6.5d
+		y: 8.5d
+	}]
 	quests: [
 		{
 			dependencies: ["21952F0799457083"]
@@ -43,7 +48,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 6.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["71691F178B73D85A"]
@@ -75,7 +80,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 9.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["43F09C084B765ACB"]
@@ -99,7 +104,7 @@
 			}]
 			title: "Кора"
 			x: 0.0d
-			y: 7.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["71691F178B73D85A"]
@@ -140,7 +145,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 9.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["487B6452F0767918"]
@@ -167,7 +172,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["0570BD91B563EE19"]
@@ -186,7 +191,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 9.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["6066ED30BB59CCD5"]
@@ -500,7 +505,7 @@
 				}
 			]
 			x: 0.0d
-			y: 2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["2E7592297D492824"]
@@ -520,7 +525,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6066ED30BB59CCD5"]
@@ -575,7 +580,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["632ED9F4036B2BD9"]
@@ -594,7 +599,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 9.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["0E9ABFC9A24133BC"]
@@ -640,7 +645,7 @@
 				value: 1L
 			}]
 			x: 6.5d
-			y: 9.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["657A89AAEEA13EB3"]
@@ -677,7 +682,7 @@
 				type: "observation"
 			}]
 			x: 8.0d
-			y: 9.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["164CF7324390B1A9"]
@@ -700,7 +705,7 @@
 			}]
 			title: "Bewitchment"
 			x: 0.0d
-			y: 0.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["487B6452F0767918"]
@@ -731,7 +736,7 @@
 				}
 			]
 			x: 2.0d
-			y: 9.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["693D890736AE75FD"]
@@ -822,7 +827,306 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["24A0A1F63B534DE6"]
+			description: [
+				"Призовите &4Демона&r и получите свой первый контракт!"
+				""
+				""
+				"{@pagebreak}"
+				""
+				"&#C6BCE9Контракты&r - это потусторонние договоры, купленные у &4демонов&r ценой здоровья."
+				""
+				"Контракты обычно длятся &#9BB8EDсемь дней&r и не могут быть разорваны."
+				""
+				"Более подробнее о каждом контракте можно прочитать в книге!"
+			]
+			hide: true
+			id: "233C36D4913B54E7"
+			rewards: [{
+				id: "64F35FBF6D779ACD"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "bewitchment:demonic_contract"
+					tag: { }
+				}
+				id: "5CF52491F4B4F3B3"
+				observe_type: 5
+				timer: 0L
+				to_observe: "bewitchment:demon"
+				type: "observation"
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["730B272910F0D699"]
+			description: ["&l&4Огненный&r&r Мелок является дополнительным кругом для разных ритуалов."]
+			hide: true
+			id: "24A0A1F63B534DE6"
+			rewards: [{
+				id: "41030043A042012E"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "5A8C3310D2BD7324"
+				item: {
+					Count: 1b
+					id: "bewitchment:fiery_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["730B272910F0D699"]
+			description: ["&l&6Золотой&r&r мелок является центром круга любого ритуала!"]
+			hide: true
+			id: "2FE982BA23600A79"
+			rewards: [{
+				id: "171965C1387A54B7"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "557813338584043C"
+				item: {
+					Count: 1b
+					id: "bewitchment:golden_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["730B272910F0D699"]
+			description: ["&l&5Таинственный&r&r мелок является дополнительным для разных ритуалов."]
+			hide: true
+			id: "2642E47CE3901B37"
+			rewards: [{
+				id: "438E5F161DA16F3C"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "654410DE2398266D"
+				item: {
+					Count: 1b
+					id: "bewitchment:eldritch_chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3877FD4F24D92304"]
+			description: [
+				"&#DEB3E0Ритуалы&r - это мощная &5магическая практика&r, используемая для непосредственного воздействия на мир. Их проводят рисуя круги и добавляя необходимые ингредиенты."
+				""
+				"Ритуалы нуждаются в &5Магической энергии&r - предоставляемой &#FEECD6Алтарём&r поблизости; сумма в Необходимой &5Магической энергии&r всегда указывается в записях о ритуале."
+				""
+				"У каждого ритуала есть внутренний и необязательный внешний круг, нарисованный разным мелом, в зависимости от ритуала."
+			]
+			hide: true
+			id: "730B272910F0D699"
+			rewards: [{
+				count: 16
+				id: "314B6D95A0BB4359"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "1BDC510707785C8A"
+				item: {
+					Count: 1b
+					id: "bewitchment:chalk"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3877FD4F24D92304"]
+			description: [
+				"&#DEB3E0Жаровня&r - незаменимый инструмент для &4Проклятий&r. Кроме этого, её можно использовать для &#DEB3E0Благовоний&r."
+				""
+				"Жаровня может вместить до четырех предметов. Чтобы начать ей пользоваться, вам нужно зажечь её с помощью &#FEECD6огнива&r."
+				""
+				"Более подробную информацию можно прочесть в книге."
+			]
+			hide: true
+			id: "49CB4358E3657EA2"
+			rewards: [{
+				id: "1BBEAF1C25E061B0"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "77650804DB42A337"
+				item: "bewitchment:brazier"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3877FD4F24D92304"]
+			description: [
+				"&#DEB3E0Хрустальные шары&r - обычные инструменты для гадания. "
+				""
+				"При использовании они принесут заклинателю Удачу, ценой &#DEB3E0Магическй энергии&r, взятой из ближайшего &#FEECD6Алтаря&r."
+				""
+				"Дополнительно хрустальные шары используются для гадания. При использовании вместе с &#FEECD6Экстрактором ДНК&r, хрустальный шар даст точную информацию о &#ffb04fцели&r, на каких координатах &#ffb04fигрок&r, какие у него есть проклятья и т.д."
+			]
+			hide: true
+			id: "0D89B654B3E6447E"
+			rewards: [{
+				id: "38A528447D5C3F3E"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "5AD0969406BBA424"
+				item: "bewitchment:crystal_ball"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3877FD4F24D92304"]
+			description: [
+				"&#DEB3E0Сигилы&r - это магические символы власти. Их можно разделить на две группы: &#9BB8EDактивные&r и &#CAE4C8пассивные&r сигилы."
+				""
+				"&#9BB8EDАктивные сигилы&r необходимо размещать на пригодных для использования блоках или метлах, изготовленных из &4Крови дракона&r."
+				""
+				"&#CAE4C8Пассивные символы&r могут быть размещены где угодно и будут применять свой эффект ко всему вокруг."
+			]
+			hide: true
+			id: "021DCD549FA18E20"
+			rewards: [{
+				id: "1D6A116EF990E824"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3E404A8B09EAE42F"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "mif:sigils"
+					}
+				}
+				title: "Any #mif:sigils"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3877FD4F24D92304"]
+			description: [
+				"&#DEB3E0Мётлы&r - это магические приспособления, обычно используемые ведьмами. За счет использования &5Магической энергии&r, они позволяют игроку летать по небу."
+				""
+				"Мётлы бывают четырех вариантов, каждый из которых обладает &#ffb04fуникальными&r свойствами."
+				""
+				"Более подробнее о свойствах можно прочитать в книге, метла из bewtichment plus не имеет каких-либо уникальных эффектов, она просто… Летает…"
+			]
+			hide: true
+			id: "78FE98D30F14F9A4"
+			rewards: [{
+				id: "4CBF84CD934F5763"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0626274B55F06008"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "mif:brooms"
+					}
+				}
+				title: "Any #mif:brooms"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3877FD4F24D92304"]
+			description: [
+				"&#DEB3E0Куклы&r - это удобные фигурки, которые можно использовать как для &#d33b2bвредоносных&r, так и для &#CAE4C8защитных целей&r."
+				""
+				"Куклы &o<shake>всегда</shake>&r привязаны к объекту."
+				""
+				"Чтобы быть активными, они должны быть в вашем инвентаре."
+			]
+			hide: true
+			id: "496217B7F7AA8316"
+			rewards: [{
+				id: "72B1993779224AA0"
+				item: "kubejs:magic_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "756594FC48A9DD7F"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "mif:poppets"
+					}
+				}
+				title: "Получите любую из кукл-вуду!"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.5d
 		}
 	]
 	title: "&7Bewitchment"

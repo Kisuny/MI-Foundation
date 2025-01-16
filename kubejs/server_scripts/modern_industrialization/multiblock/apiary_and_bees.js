@@ -118,12 +118,12 @@ const vanillaFlowers = [
 
 
 const bees = [
-    { id: 'kubejs:bee', life: 0.02, comb_multi: 1, flower_life_multi: 1 ,byproduct_multi: 1},
+    { id: 'mif_addon:bee', life: 0.02, comb_multi: 1, flower_life_multi: 1 ,byproduct_multi: 1},
     { id: 'kubejs:necrodermal_affected_bee', life: 0.1, comb_multi: 6, flower_life_multi: 1,  byproduct_multi: 2},
     { id: 'kubejs:nullodermal_affected_bee', life: 0.1, comb_multi: 2, flower_life_multi: 1, byproduct_multi: 6}
 ]
 const beehemoths = [
-    { id: 'kubejs:beehemoth', life: 0.01, comb_multi: 2, flower_life_multi: 0.8, byproduct_multi: 2},
+    { id: 'mif_addon:beehemoth', life: 0.01, comb_multi: 2, flower_life_multi: 0.8, byproduct_multi: 2},
     { id: 'kubejs:necrodermal_affected_beehemoth', life: 0.05, comb_multi: 8, flower_life_multi: 0.8, byproduct_multi: 4},
     { id: 'kubejs:nullodermal_affected_beehemoth', life: 0.05, comb_multi: 4, flower_life_multi: 0.8, byproduct_multi: 8}
 ]
@@ -859,8 +859,8 @@ ServerEvents.recipes(event => {
         .itemIn('3x spectrum:vegetal')
         .fluidIn('the_bumblezone:royal_jelly_fluid_still',10)
         .fluidIn('modern_industrialization:oxygen',150)
-        .itemOut('kubejs:bee')
-        .itemOut('kubejs:bee',0.5)
+        .itemOut('mif_addon:bee')
+        .itemOut('mif_addon:bee',0.5)
         .itemOut('kubejs:necrodermal_affected_bee',0.02)
         .itemOut('kubejs:nullodermal_affected_bee',0.02)
     event.recipes.modern_industrialization.large_apiary(64 , 600) //Eu, ticks
@@ -868,8 +868,8 @@ ServerEvents.recipes(event => {
         .itemIn('7x spectrum:vegetal')
         .fluidIn('the_bumblezone:royal_jelly_fluid_still',25)
         .fluidIn('modern_industrialization:sugar_solution',200)
-        .itemOut('kubejs:beehemoth')
-        .itemOut('kubejs:beehemoth',0.5)
+        .itemOut('mif_addon:beehemoth')
+        .itemOut('mif_addon:beehemoth',0.5)
         .itemOut('kubejs:necrodermal_affected_beehemoth',0.02)
         .itemOut('kubejs:nullodermal_affected_beehemoth',0.02)
 })

@@ -459,7 +459,7 @@
 				type: "item"
 			}]
 			title: "Fancy Glass"
-			x: -5.0d
+			x: -4.5d
 			y: 5.0d
 		}
 		{
@@ -488,7 +488,7 @@
 				item: "spectrum:upgrade_speed"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: 5.0d
 		}
 		{
@@ -2193,304 +2193,6 @@
 			y: -6.700000000000001d
 		}
 		{
-			dependencies: ["3877FD4F24D92304"]
-			description: [
-				"&#DEB3E0Crystal ball&r is a basic tool for divination. Used together with a &#FEECD6DNA extractor&r, crystal ball gives precise information about the &#ffb04ftarget player&r, coordinates, curses etc."
-				""
-				"While using, a crystal ball increases Luck for the price of &#DEB3E0Magical energy&r from the nearest &#FEECD6Altar&r."
-			]
-			hide: true
-			id: "0D89B654B3E6447E"
-			rewards: [{
-				id: "38A528447D5C3F3E"
-				item: "kubejs:magic_lootbag_rare"
-				team_reward: true
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "5AD0969406BBA424"
-				item: "bewitchment:crystal_ball"
-				type: "item"
-			}]
-			x: -8.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["3877FD4F24D92304"]
-			description: [
-				"&#DEB3E0Brazier&r - an essential tool for &4Curses&r. Moreover, it can be used to create &#DEB3E0incenses&r."
-				""
-				"Braziers can contain up to four items. To start the recipe, you must ignite it with a &#FEECD6flint and steel&r."
-				""
-				"More indepth information can be found in the book."
-			]
-			hide: true
-			id: "49CB4358E3657EA2"
-			rewards: [{
-				id: "1BBEAF1C25E061B0"
-				item: "kubejs:magic_lootbag_rare"
-				team_reward: true
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "77650804DB42A337"
-				item: "bewitchment:brazier"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["3877FD4F24D92304"]
-			description: [
-				"&#DEB3E0Sigils&r are magic symbols of power. They can be divided into two groups:"
-				""
-				"&#9BB8EDActive sigils&r must be placed on special blocks or on &4Dragon's blood brooms&r."
-				""
-				"&#CAE4C8Passive sigils&r can be placed anywhere and apply their effect onto everything in their radius."
-			]
-			hide: true
-			id: "021DCD549FA18E20"
-			rewards: [{
-				id: "1D6A116EF990E824"
-				item: "kubejs:magic_lootbag_rare"
-				team_reward: true
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "3E404A8B09EAE42F"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "mif:sigils"
-					}
-				}
-				title: "Any #mif:sigils"
-				type: "item"
-			}]
-			title: "Sigils"
-			x: -8.5d
-			y: 2.5d
-		}
-		{
-			dependencies: ["3877FD4F24D92304"]
-			description: [
-				"A Magic &#DEB3E0Broom&r is a tool for witchy travel. By using &5Magic energy&r, they can fly in the sky!"
-				""
-				"There are four different kinds of brooms with &#ffb04funique&r properties."
-				""
-				"More indepth information can be found in the book. "
-				"P.s. the Bewitchment Plus's broom, has not effects, it's just for flying..."
-			]
-			hide: true
-			id: "78FE98D30F14F9A4"
-			rewards: [{
-				id: "4CBF84CD934F5763"
-				item: "kubejs:magic_lootbag_rare"
-				team_reward: true
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "0626274B55F06008"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "mif:brooms"
-					}
-				}
-				title: "Any #mif:brooms"
-				type: "item"
-			}]
-			title: "Brooms"
-			x: -8.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["3877FD4F24D92304"]
-			description: [
-				"&#DEB3E0Poppet&r is a handy figurine used to put the target into &#d33b2bdangerous&r or &#CAE4C8protective&r environments."
-				""
-				"A poppet is &o<shake>always</shake>&r tied to it's target."
-				"To be active the poppet must be in your inventory."
-			]
-			hide: true
-			id: "496217B7F7AA8316"
-			rewards: [{
-				id: "72B1993779224AA0"
-				item: "kubejs:magic_lootbag_rare"
-				team_reward: true
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "756594FC48A9DD7F"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "mif:poppets"
-					}
-				}
-				title: "Any #mif:poppets"
-				type: "item"
-			}]
-			title: "Poppets"
-			x: -7.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["3877FD4F24D92304"]
-			description: [
-				"&#DEB3E0Rituals&r are a powerful &5magic practice&r directly affecting the world. To perform a ritual, you should draw a ring of specific configuration and use reagents. "
-				""
-				"Rituals need &5Magical energy&r provided by an &#FEECD6Altar&r nearby; the amount of energy needed can be found in the book."
-				""
-				"Every ritual has a main and an optional auxiliary ring, drawn using different types of chalk depending on the ritual."
-			]
-			hide: true
-			id: "730B272910F0D699"
-			rewards: [{
-				count: 16
-				id: "314B6D95A0BB4359"
-				item: "vitalize:experience_cubed"
-				type: "item"
-			}]
-			shape: "hexagon"
-			subtitle: "The Chalkeaters!"
-			tasks: [{
-				id: "1BDC510707785C8A"
-				item: {
-					Count: 1b
-					id: "bewitchment:chalk"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -4.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["730B272910F0D699"]
-			description: ["&l&5Eldritch&r&r Chalk draws an auxiliary ring for certain rituals."]
-			hide: true
-			id: "2642E47CE3901B37"
-			rewards: [{
-				id: "438E5F161DA16F3C"
-				item: "kubejs:magic_lootbag_rare"
-				team_reward: true
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "654410DE2398266D"
-				item: {
-					Count: 1b
-					id: "bewitchment:eldritch_chalk"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -3.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["730B272910F0D699"]
-			description: ["&l&4Fiery&r Chalk draws an auxiliary ring for certain rituals."]
-			hide: true
-			id: "24A0A1F63B534DE6"
-			rewards: [{
-				id: "41030043A042012E"
-				item: "kubejs:magic_lootbag_rare"
-				team_reward: true
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "5A8C3310D2BD7324"
-				item: {
-					Count: 1b
-					id: "bewitchment:fiery_chalk"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -4.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["730B272910F0D699"]
-			description: ["&l&6Golden&r Chalk draws the center ring of any ritual."]
-			hide: true
-			id: "2FE982BA23600A79"
-			rewards: [{
-				id: "171965C1387A54B7"
-				item: "kubejs:magic_lootbag_rare"
-				team_reward: true
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "557813338584043C"
-				item: {
-					Count: 1b
-					id: "bewitchment:golden_chalk"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -5.0d
-			y: 7.0d
-		}
-		{
-			dependencies: ["24A0A1F63B534DE6"]
-			description: [
-				"Summon a &4Demon&r and obtain your first contract!"
-				""
-				""
-				"{@pagebreak}"
-				""
-				"&#C6BCE9Contract&r is a pact with a &4demon&r with health as a price."
-				""
-				"Contracts usually last for &#9BB8EDseven days&r and cannot be terminated."
-				""
-				"More info about contracts can be found in the book!"
-			]
-			hide: true
-			id: "233C36D4913B54E7"
-			rewards: [{
-				id: "64F35FBF6D779ACD"
-				item: "kubejs:magic_lootbag_rare"
-				team_reward: true
-				type: "item"
-			}]
-			shape: "octagon"
-			tasks: [{
-				id: "2887A23FB150F1B0"
-				item: {
-					Count: 1b
-					id: "bewitchment:demonic_contract"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -4.0d
-			y: 9.0d
-		}
-		{
 			dependencies: ["4C8E37AF899961F6"]
 			description: ["Create a very durable alloy. The Ancient Ones were calling it «Durasteel»."]
 			id: "4E891CEA50BDD082"
@@ -2588,7 +2290,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -2624,37 +2326,37 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["62BB9D5A8A9DD181"]
 			description: [""]
 			hide: true
 			id: "5B1C97CCA7759117"
-			shape: "diamond"
+			shape: "circle"
 			subtitle: "Entangled tank in a hand!"
 			tasks: [{
 				id: "43F7A212F40AF0B7"
 				item: "kibe:entangled_bucket"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 0.5d
+			x: -7.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["23A6A609EE447218"]
 			description: [""]
 			hide: true
 			id: "662FB98AC224984F"
-			shape: "diamond"
+			shape: "circle"
 			subtitle: "Entangled chest in a hand!"
 			tasks: [{
 				id: "4AD22414CFCAAC3B"
 				item: "kibe:entangled_bag"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 4.5d
+			x: -7.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["641B93E0D035568B"]
@@ -2957,16 +2659,15 @@
 				team_reward: false
 				type: "item"
 			}]
-			shape: "octagon"
-			size: 0.8d
+			shape: "diamond"
 			subtitle: "One of the best storages"
 			tasks: [{
 				id: "72B107F46C592AA7"
 				item: "reinfchest:diamond_chest"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 1.6d
+			x: -7.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3BD3C6E13574056F"]
@@ -2991,15 +2692,14 @@
 					type: "item"
 				}
 			]
-			shape: "octagon"
-			size: 0.8d
+			shape: "circle"
 			tasks: [{
 				id: "592E9927A300C970"
 				item: "reinfchest:netherite_chest"
 				type: "item"
 			}]
-			x: -1.2999999999999998d
-			y: 1.6d
+			x: -8.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3877FD4F24D92304"]
@@ -3012,16 +2712,15 @@
 				team_reward: true
 				type: "item"
 			}]
-			shape: "octagon"
-			size: 0.8d
+			shape: "diamond"
 			subtitle: "8 times better"
 			tasks: [{
 				id: "2E44EED86355350C"
 				item: "extended_drawers:t3_upgrade"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 3.5d
+			x: -6.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3B68A7B5A1BB4D44"]

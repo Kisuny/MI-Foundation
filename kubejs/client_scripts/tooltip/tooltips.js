@@ -4,6 +4,7 @@
 
 ItemEvents.tooltip(tooltip => {
 
+    tooltip.add(["kubejs:bee","kubejs:beehemoth"], "Deprecated, will be deleted! Can be recrafted into a different type of bee!")
     ////////////////////////////////////////////////////////////
     // Description on bags
     function addDescription(name, type, color) {

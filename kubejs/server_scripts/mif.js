@@ -2,6 +2,13 @@
 
 ServerEvents.recipes(event => {
     
+    event.shapeless('mif_addon:bee', [
+        'kubejs:bee',
+    ])
+    event.shapeless('mif_addon:beehemoth', [
+        'kubejs:beehemoth',
+    ])
+
     // Flux Networks Remove
     event.remove({id:'fluxnetworks:flux_block'})
     // Flux dust is not used anywhere now, it's craft can be turned off in fluxnetworks-server.toml file

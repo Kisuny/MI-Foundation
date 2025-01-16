@@ -10,9 +10,10 @@
 	quests: [
 		{
 			dependencies: ["7CCBB21F51AC62CF"]
+			description: ["&6Королеву пчёл&r можно поймать &5королевским сачком&r"]
 			hide: true
 			id: "1585D46B8D0E0D4D"
-			shape: "pentagon"
+			shape: "heart"
 			size: 1.2d
 			tasks: [{
 				id: "4FEE24007DC9360E"
@@ -45,7 +46,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "791C3359AD7AAD2D"
-				item: "kubejs:beehemoth"
+				item: "mif_addon:beehemoth"
 				type: "item"
 			}]
 			x: 7.0d
@@ -1123,6 +1124,7 @@
 		}
 		{
 			dependencies: ["5C12A68F7C5E5B36"]
+			description: ["&5Сачок&r можно обменять у &6королевы пчёл&r, у сачка &l&c1 прочность&r&r."]
 			id: "7CCBB21F51AC62CF"
 			rewards: [
 				{

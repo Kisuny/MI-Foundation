@@ -112,12 +112,6 @@ StartupEvents.registry('item', event => {
         })
         .translationKey(`item.kubejs.dev_tool`)
 
-    event.create("scoop")
-    .maxDamage(20)
-    .unstackable()
-    .texture(`kubejs:item/scoop`)
-    .translationKey(`item.kubejs.scoop`)
-
     event.create("royal_scoop")
     .maxDamage(1)
     .unstackable()

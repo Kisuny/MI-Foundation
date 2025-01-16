@@ -51,7 +51,7 @@
     "kubejs.beehive.tooltip": "★ Click with this Beehive on Bee Nest with SHIFT, to move in the Bumblezone!",
     "kubejs.hirschgeist_heart.tooltip": "🗡 Defeat the mighty «Hirschgeist» and take his heart!",
     "kubejs.zotzpyre_fang.tooltip": "🗡 Can be obtained from a «Zotzpyre» by killing him with the looting",
-    "kubejs.zotzpyre_flesh.tooltip": "🗡 Drops when killing the summoned mini-boss «Zotzpira»",
+    "kubejs.zotzpyre_flesh.tooltip": "🗡 Drops when killing the summoned mini-boss «Zotzpyre»",
     "kubejs.moth_wings.tooltip": "🗡 Drops when you kill a moth",
     "kubejs.tears_of_the_sea.tooltip": "🎣 Small chance of obtaining when fishing.",
     "kubejs.star_core.tooltip": "★ Obtained from shooting stars ★",
@@ -262,8 +262,10 @@
     "advancement.kubejs.witch_cauldron_craft.title" : "Cauldron Conjuror",
     "advancement.kubejs.witch_cauldron_craft.desc" : "Create any brew in the witch's cauldron.",
     "advancement.kubejs.witch_cauldron.title" : "Cauldron of Opportunity",
-    "advancement.kubejs.witch_cauldron.desc" : "Create a witch's cauldron"
+    "advancement.kubejs.witch_cauldron.desc" : "Create a witch's cauldron",
 
+    "mif_addon.bee.tooltip": "You can catch by pressing RMB «Scoop» on the Bee, you can also automatically catch using the dispenser and Scoop in it",
+    "mif_addon.beehemoth.tooltip": "You can catch by pressing RMB «Scoop» on the Beehemoth, you can also automatically catch using the dispenser and Scoop in it"
 
 
 }

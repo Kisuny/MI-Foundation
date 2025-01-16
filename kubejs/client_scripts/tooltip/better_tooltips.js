@@ -43,7 +43,7 @@ ItemEvents.tooltip(tooltip => {
         simpleShiftText({ item: 'scout:upgraded_pouch', text: 'kubejs.text.doesnt_save_items_after_improvement' })
         simpleShiftText({ item: 'modern_industrialization:forge_hammer', text: 'kubejs.text.forge_hammer' })
         simpleShiftText({ item: 'ae2:charger', text: 'kubejs.text.charger' })
-        simpleShiftText({ item: 'kubejs:scoop', text: 'kubejs.text.scoop' })
+        simpleShiftText({ item: 'mif_addon:scoop', text: 'kubejs.text.scoop' })
         simpleShiftText({ item: 'kubejs:royal_scoop', text: 'kubejs.text.royal_scoop' })
 
 
@@ -74,6 +74,8 @@ ItemEvents.tooltip(tooltip => {
         betterToolTip({ item: 'bewitchment:witchberry', text: 'kubejs.witchberry.tooltip' })
         betterToolTip({ item: 'miskatonicmysteries:resonate_ooze', text: 'kubejs.resonate_ooze.tooltip' }) 
         betterToolTip({ item: 'kubejs:dragon_heart', text: 'kubejs.dragon_heart.tooltip' }) 
+        betterToolTip({ item: 'mif_addon:bee', text: 'mif_addon.bee.tooltip' }) 
+        betterToolTip({ item: 'mif_addon:beehemoth', text: 'mif_addon.beehemoth.tooltip' }) 
 
         // тултипы для артефактов
         let artifactsTooltip = (args) => {
