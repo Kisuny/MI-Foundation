@@ -2577,7 +2577,7 @@ ServerEvents.recipes(event => {
     bee_modifications.forEach(modification => {
         event.recipes.neepmeat.manufacture({
             "base": {
-                "id": 'kubejs:bee'
+                "id": 'mif_addon:bee'
             },
             "steps":[
                 {
@@ -2608,7 +2608,7 @@ ServerEvents.recipes(event => {
         })
         event.recipes.neepmeat.manufacture({
             "base": {
-                "id": 'kubejs:beehemoth'
+                "id": 'mif_addon:beehemoth'
             },
             "steps":[
                 {

@@ -4,12 +4,12 @@ ServerEvents.recipes(event => {
         time: 1200, experience: 500, advancement: "spectrum:lategame/spectrum_lategame",
         ingredients: [
             { "item": "kubejs:empty_beehive" },
-            { "item": "kubejs:bee" },
-            { "item": "kubejs:bee" },
+            { "item": "mif_addon:bee" },
+            { "item": "mif_addon:bee" },
             { "item": "minecraft:honeycomb" },
             { "item": "minecraft:honey_bottle" },
-            { "item": "kubejs:bee" },
-            { "item": "kubejs:bee" },
+            { "item": "mif_addon:bee" },
+            { "item": "mif_addon:bee" },
             { "item": "minecraft:honeycomb" },
             { "item": "minecraft:honey_bottle" }
         ],
