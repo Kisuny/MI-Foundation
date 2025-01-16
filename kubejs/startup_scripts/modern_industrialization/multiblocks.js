@@ -258,9 +258,9 @@ MIMachineEvents.registerRecipeTypes(event => {
 MIMachineEvents.registerMachines(event => {
     // Garden Cloche
     const gardenClocheShape = event.layeredShape('sheet_metal_block', [
-        [' c ','CCC',' G ',' G ','CCC',' c '],
+        [' c ','CCC','CGC','CGC','CCC',' c '],
         ['ccc','CPC','G G','G G','CLC','cVc'],
-        [' c ','C#C',' G ',' G ','CCC',' c ']
+        [' c ','C#C','CGC','CGC','CCC',' c ']
     ])
         .key('C', event.memberOfBlock('architects_palette:sheet_metal_block'),event.noHatch())
         .key('c', event.memberOfBlock('architects_palette:sheet_metal_block'),event.hatchOf('energy_input', 'item_input', 'fluid_input', 'item_output'))
