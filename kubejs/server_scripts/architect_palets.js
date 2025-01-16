@@ -30,4 +30,5 @@ ServerEvents.recipes(event => {
         A: 'modern_industrialization:salt_dust',
         B: 'minecraft:charcoal'
     })
+    event.replaceInput({id: 'architects_palette:sheet_metal_block'}, 'minecraft:iron_ingot', 'modern_industrialization:iron_large_plate')
 })
