@@ -75,6 +75,7 @@ ItemEvents.tooltip(tooltip => {
     // Spirit
 
     tooltip.add('spirit:soul_steel_ingot',formatting.dark_aqua + 'ᛊᛟᚢᛚᛊᛏᛖᛖᛚ');
+    tooltip.add('modern_industrialization:electric_greenhouse',formatting.red + 'Deprecated');
 
     // Modern Industrialization
     const modern_industrialization = [
