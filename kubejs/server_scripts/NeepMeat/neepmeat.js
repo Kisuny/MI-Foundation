@@ -84,6 +84,21 @@ ServerEvents.recipes(event => {
     event.remove({type: 'neepmeat:alloy_smelting'});
     event.remove({type: 'neepmeat:trommel'});
 
+    event.recipes.neepmeat.trommel({
+        "input": {
+            "resource": "neepmeat:tissue_slurry",
+            "amount": 9000
+        },
+        "output": {
+            "resource": "neepmeat:meat",
+            "amount": 9000
+        },
+        "aux_output": {
+            "resource": "neepmeat:biomass",
+            "amount": 1,
+            "chance": 0.25
+        }
+    })
 
 
 
