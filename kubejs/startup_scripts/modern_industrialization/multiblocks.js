@@ -38,6 +38,8 @@ let PURE_DAISY_CHAMBER;
 let MANA_POOL_CHAMBER;
 let ELVEN_GATEWAY_CHAMBER;
 let DRONE_STATION;
+let ALIEN_CELL;
+let GARDEN_CLOCHE;
 
 function register_botania_flower_gen(event, item) {
     const Hatch = event.hatchOf('item_input', 'item_output', 'fluid_input', 'fluid_output','energy_input');
@@ -70,6 +72,13 @@ function register_botania_flower_gen(event, item) {
 
 // REGISTER RECIPE TYPES
 MIMachineEvents.registerRecipeTypes(event => {
+    GARDEN_CLOCHE = event.register('garden_cloche')
+        .withItemInputs()
+        .withFluidInputs()
+        .withItemOutputs()
+    ALIEN_CELL = event.register('alien_cell')
+        .withFluidInputs()
+        .withFluidOutputs()
     DRAGONBONE_CRUSHER = event.register('dragonbone_crusher')
         .withItemInputs()
         .withFluidInputs()
@@ -247,6 +256,50 @@ MIMachineEvents.registerRecipeTypes(event => {
 
 // REGISTER MULTIBLOCKS
 MIMachineEvents.registerMachines(event => {
+    // Garden Cloche
+    const gardenClocheShape = event.layeredShape('sheet_metal_block', [
+        [' c ','CCC',' G ',' G ','CCC',' c '],
+        ['ccc','CPC','G G','G G','CLC','cVc'],
+        [' c ','C#C',' G ',' G ','CCC',' c ']
+    ])
+        .key('C', event.memberOfBlock('architects_palette:sheet_metal_block'),event.noHatch())
+        .key('c', event.memberOfBlock('architects_palette:sheet_metal_block'),event.hatchOf('energy_input', 'item_input', 'fluid_input', 'item_output'))
+        .key('P', event.memberOfBlock('minecraft:podzol'),event.noHatch())
+        .key('G', event.memberOfBlock('minecraft:glass_pane'),event.noHatch())
+        .key('L', event.memberOfBlock('chipped:smooth_glowstone'),event.noHatch())
+        .key('V', event.memberOfBlock('ad_astra:vent'),event.noHatch())
+        .build()
+
+    event.simpleElectricCraftingMultiBlock(
+        'Garden Cloche', 'garden_cloche', GARDEN_CLOCHE, gardenClocheShape,
+        event.progressBar(65, 25, 'triple_arrow'),
+        itemInputs => itemInputs.addSlots(42, 27, 1, 3), itemOutputs => itemOutputs.addSlots(95, 27, 2, 3),
+        fluidInputs => fluidInputs.addSlots(12, 27, 1, 3), fluidOutputs => {},
+        'sheet_metal_block', 'garden_cloche', true, false, false
+    )
+    // ALIEN_CELL
+    const alienCellShape = event.layeredShape('hsla_steel_machine_casing_pipe', [
+        [' ppp ',' PPP ',' GGG ','     ',],
+        ['pPPPp','PPTPP','GGFGG',' GGG ',],
+        ['pPPPp','PTPTP','GFCFG',' GGG ',],
+        ['pPPPp','PPTPP','GGFGG',' GGG ',],
+        [' p#p ',' PPP ',' GGG ','     ',]
+    ])
+        .key('P', event.memberOfBlock('modern_industrialization:hsla_steel_machine_casing_pipe'),event.noHatch())
+        .key('p', event.memberOfBlock('modern_industrialization:hsla_steel_machine_casing_pipe'),event.hatchOf('energy_input', 'item_input', 'fluid_output','fluid_input'))
+        .key('T', event.memberOfBlock('neepmeat:basic_tank'),event.noHatch())
+        .key('F', event.memberOfBlock('moderndynamics:fluid_pipe'),event.noHatch())
+        .key('G', event.memberOfBlock('neepmeat:reinforced_glass'),event.noHatch())
+        .key('C', event.memberOfBlock('neepmeat:integrator_egg'),event.noHatch())
+        .build()
+
+    event.simpleElectricCraftingMultiBlock(
+        'Alien Cell', 'alien_cell', ALIEN_CELL, alienCellShape,
+        event.progressBar(60, 22, 'triple_arrow'),
+        itemInputs => {}, itemOutputs => {},
+        fluidInputs => fluidInputs.addSlot(60,5).addSlot(35,25).addSlot(60,45), fluidOutputs => fluidOutputs.addSlot(85,25),
+        'hsla_steel_machine_casing_pipe', 'alien_cell', true, false, false
+    )
     // DRONE_STATION
     const droneStationShape = event.layeredShape('space_casing', [
         ['           ','   C C C   ','   p p p   ','           ','           '],

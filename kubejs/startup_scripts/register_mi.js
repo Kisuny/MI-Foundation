@@ -15,6 +15,7 @@ MIMachineEvents.registerCasings(event => {
     event.register('blastproof_casing');
     event.register('hsla_steel_machine_casing_pipe');
     event.register('turbinium_casing');
+    event.register('sheet_metal_block');
 });
 
 MIMachineEvents.registerUpgrades(event => {
@@ -53,6 +54,7 @@ MIRegistrationEvents.registerFluids(event => {
     event.register("Purified Void", "purified_void", 0xF5F6F6, "plasma", false, "medium");
     event.register("Naquadah Sulfuric Solution", "naquadah_sulfuric_solution", 0x9B6028, "water", false, "medium");
     event.register("Purified Naquadah Sulfuric Solution", "purified_naquadah_sulfuric_solution", 0xe6a76e, "water", false, "medium");
+    event.register("Mutagen", "mutagen", 0xC0D6CB, "lava", false, "low");
 
     global.dyeColors.forEach(color => {
         event.register(`${defineItemName(color.name)} Ink`, `${color.name}_ink`, color.code, "plasma", false, "low");
