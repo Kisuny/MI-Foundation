@@ -413,6 +413,52 @@ const large_crushing = [
         exp: 10,
         time: 40
     },
+    // citrine ore
+    {
+        main: {
+            ore_block: 'spectrum:citrine_ore',
+            ore_raw: 'spectrum:citrine_powder',
+            min: 6,
+            max: 10
+        },
+        extra: {
+            id: 'spectrum:citrine_shard',
+            amount: 3,
+            chance: 0.15
+        },
+        exp: 5,
+        time: 20
+    },
+    {
+        main: {
+            ore_block: 'spectrum:deepslate_citrine_ore',
+            ore_raw: 'spectrum:citrine_powder',
+            min: 6,
+            max: 12
+        },
+        extra: {
+            id: 'spectrum:citrine_shard',
+            amount: 3,
+            chance: 0.3
+        },
+        exp: 5,
+        time: 30
+    },
+    {
+        main: {
+            ore_block: 'spectrum:blackslag_citrine_ore',
+            ore_raw: 'spectrum:citrine_powder',
+            min: 8,
+            max: 16
+        },
+        extra: {
+            id: 'spectrum:citrine_shard',
+            amount: 6,
+            chance: 0.6
+        },
+        exp: 10,
+        time: 40
+    },
     // topaz ore
     {
         main: {
