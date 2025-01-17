@@ -2661,10 +2661,10 @@
 			description: ["Used to catch &6bees&r. Press RMB on bee to catch it."]
 			id: "1EF6D2269C192BC1"
 			tasks: [{
-				id: "1BC6F96637862566"
+				id: "047D953941C80E94"
 				item: {
 					Count: 1b
-					id: "kubejs:scoop"
+					id: "mif_addon:scoop"
 					tag: {
 						Damage: 0
 					}
