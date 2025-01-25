@@ -435,7 +435,7 @@ MIMachineEvents.registerMachines(event => {
         .key('O', event.memberOfBlock('modern_industrialization:adamantite_casing'),event.hatchOf('item_output'))
         .key('I', event.memberOfBlock('modern_industrialization:adamantite_casing'),event.hatchOf('item_input','energy_input', 'fluid_input'))
         .key('W', event.memberOfBlock('kibe:wither_proof_glass'),event.noHatch())
-        .key('B', event.memberOfBlock('spectrum:dragonbone'),event.noHatch())
+        .key('B', event.memberOfBlock('spectrum:cracked_dragonbone'),event.noHatch())
         .key('P', event.memberOfBlock('botania:natura_pylon'),event.noHatch())
         .key('R', event.memberOfBlock('neepmeat:pylon'),event.noHatch())
         .build()
