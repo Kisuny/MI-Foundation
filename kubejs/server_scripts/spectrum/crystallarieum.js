@@ -2,56 +2,56 @@
 
 
 const pure_modern = [
-    {id: 'antimony',  ink: {type: 'light_gray', ammount: 2000}, catalyst: {id:'modern_industrialization:lead_dust',          chance: 0.6}, energy: 64,time: 800},
-    {id: 'tin',       ink: {type: 'light_blue', ammount: 2000}, catalyst: {id:'modern_industrialization:quartz_tiny_dust',   chance: 0.8}, energy: 64,time: 800},
-    {id: 'lead',      ink: {type: 'blue',       ammount: 2000}, catalyst: {id:'modern_industrialization:silver_dust',        chance: 0.4}, energy: 64,time: 800},
-    {id: 'silver',    ink: {type: 'light_blue', ammount: 2000}, catalyst: {id:'spectrum:moonstone_powder',                   chance: 0.8}, energy: 64,time: 800},
+    {id: 'antimony',  ink: {type: 'light_gray', ammount: 1000}, catalyst: {id:'modern_industrialization:lead_dust',          chance: 0.6}, energy: 16,time: 400},
+    {id: 'tin',       ink: {type: 'light_blue', ammount: 1000}, catalyst: {id:'modern_industrialization:quartz_tiny_dust',   chance: 0.8}, energy: 16,time: 400},
+    {id: 'lead',      ink: {type: 'blue',       ammount: 1000}, catalyst: {id:'modern_industrialization:silver_dust',        chance: 0.4}, energy: 16,time: 400},
+    {id: 'silver',    ink: {type: 'light_blue', ammount: 1000}, catalyst: {id:'spectrum:moonstone_powder',                   chance: 0.8}, energy: 16,time: 400},
 
-    {id: 'tungsten',  ink: {type: 'purple',     ammount: 4000}, catalyst: {id:'minecraft:netherite_scrap',                   chance: 0.1}, energy: 96,time: 1600},
-    {id: 'aluminum',  ink: {type: 'light_blue', ammount: 4000}, catalyst: {id:'modern_industrialization:aluminum_tiny_dust', chance: 0.8}, energy: 96,time: 1600},
-    {id: 'beryllium', ink: {type: 'green',      ammount: 4000}, catalyst: {id:'modern_industrialization:emerald_dust',       chance: 0.4}, energy: 96,time: 1600},
-    {id: 'nickel',    ink: {type: 'gray',       ammount: 4000}, catalyst: {id:'modern_industrialization:iron_dust',          chance: 0.4}, energy: 96,time: 1600},
+    {id: 'tungsten',  ink: {type: 'purple',     ammount: 2000}, catalyst: {id:'minecraft:netherite_scrap',                   chance: 0.1}, energy: 96,time: 600},
+    {id: 'aluminum',  ink: {type: 'light_blue', ammount: 2000}, catalyst: {id:'modern_industrialization:aluminum_tiny_dust', chance: 0.8}, energy: 96,time: 600},
+    {id: 'beryllium', ink: {type: 'green',      ammount: 2000}, catalyst: {id:'modern_industrialization:emerald_dust',       chance: 0.4}, energy: 96,time: 600},
+    {id: 'nickel',    ink: {type: 'gray',       ammount: 2000}, catalyst: {id:'modern_industrialization:iron_dust',          chance: 0.4}, energy: 96,time: 600},
 
-    {id: 'titanium',  ink: {type: 'magenta',    ammount: 10000}, catalyst: {id:'modern_industrialization:brookite_dust',     chance: 0.4}, energy: 128,time: 2400},
-    {id: 'chromium',  ink: {type: 'pink',       ammount: 10000}, catalyst: {id:'modern_industrialization:ruby_dust',         chance: 0.5}, energy: 128,time: 2400},
-    {id: 'platinum',  ink: {type: 'yellow',     ammount: 10000}, catalyst: {id:'modern_industrialization:gold_dust',         chance: 0.3}, energy: 128,time: 2400},
+    {id: 'titanium',  ink: {type: 'magenta',    ammount: 3000}, catalyst: {id:'modern_industrialization:brookite_dust',     chance: 0.4}, energy: 32,time: 800},
+    {id: 'chromium',  ink: {type: 'pink',       ammount: 3000}, catalyst: {id:'modern_industrialization:ruby_dust',         chance: 0.5}, energy: 32,time: 800},
+    {id: 'platinum',  ink: {type: 'yellow',     ammount: 3000}, catalyst: {id:'modern_industrialization:gold_dust',         chance: 0.3}, energy: 32,time: 800},
 
-    {id: 'uranium',   ink: {type: 'lime',       ammount: 16000}, catalyst: {id:'modern_industrialization:prometheum_dust',   chance: 0.2}, energy: 192,time: 3200},
-    {id: 'iridium',   ink: {type: 'white',      ammount: 16000}, catalyst: {id:'ae2:charged_certus_quartz_crystal',          chance: 0.2}, energy: 192,time: 3200},
+    {id: 'uranium',   ink: {type: 'lime',       ammount: 4000}, catalyst: {id:'modern_industrialization:prometheum_dust',   chance: 0.2}, energy: 32,time: 800},
+    {id: 'iridium',   ink: {type: 'white',      ammount: 4000}, catalyst: {id:'ae2:charged_certus_quartz_crystal',          chance: 0.2}, energy: 32,time: 800},
 ]
 
 const pure_spectrum = [
-    {id: 'azurite',    ink: {type: 'blue',    ammount: 10000}, catalyst: {id:'spectrum:pure_copper',      chance: 0.2}, energy: 128, time: 2400},
-    {id: 'malachite',  ink: {type: 'white',   ammount: 10000}, catalyst: {id:'spectrum:moonstone_powder', chance: 1},   energy: 192, time: 2400},
-    {id: 'bloodstone', ink: {type: 'red',     ammount: 10000}, catalyst: {id:'spectrum:pure_copper',      chance: 0.8}, energy: 192, time: 2400},
+    {id: 'azurite',    ink: {type: 'blue',    ammount: 3000}, catalyst: {id:'spectrum:pure_copper',      chance: 0.2}, energy: 32, time: 800},
+    {id: 'malachite',  ink: {type: 'white',   ammount: 3000}, catalyst: {id:'spectrum:moonstone_powder', chance: 1},   energy: 32, time: 800},
+    {id: 'bloodstone', ink: {type: 'red',     ammount: 3000}, catalyst: {id:'spectrum:pure_copper',      chance: 0.8}, energy: 32, time: 800},
 
-    {id: 'bismuth',    ink: {type: 'cyan',    ammount: 16000}, catalyst: {id:'spectrum:bismuth_flake',    chance: 0.5}, energy: 256,time: 3200},
+    {id: 'bismuth',    ink: {type: 'cyan',    ammount: 4000}, catalyst: {id:'spectrum:bismuth_flake',    chance: 0.5}, energy: 64,time: 800},
 ]
 
 const pure_ad_astra = [
-    {id: 'desh',     ink: {type: 'orange',  ammount: 4000},  catalyst: {id:'modern_industrialization:palladium_dust',    chance: 0.3}, energy: 128,time: 1600},
-    {id: 'ostrum',   ink: {type: 'pink',    ammount: 10000}, catalyst: {id:'modern_industrialization:chromium_dust',     chance: 0.4}, energy: 196,time: 2400},
-    {id: 'calorite', ink: {type: 'red',     ammount: 16000}, catalyst: {id:'modern_industrialization:uranium_235_dust',  chance: 0.2}, energy: 256,time: 3600},
+    {id: 'desh',     ink: {type: 'orange',  ammount: 2000},  catalyst: {id:'modern_industrialization:palladium_dust',    chance: 0.3}, energy: 32,time: 600},
+    {id: 'ostrum',   ink: {type: 'pink',    ammount: 3000}, catalyst: {id:'modern_industrialization:chromium_dust',     chance: 0.4}, energy: 32,time: 800},
+    {id: 'calorite', ink: {type: 'red',     ammount: 4000}, catalyst: {id:'modern_industrialization:uranium_235_dust',  chance: 0.2}, energy: 64,time: 800},
 ]
 
 const pure_vanilla = [
-    {id: 'coal',            base: 'minecraft:coal',    ink: {type: 'brown',  ammount: 2000}, catalyst: {id:'spectrum:fiery_powder',        chance: 0.2}, energy: 64, time: 1200},
-    {id: 'iron',            base:'minecraft:raw_iron', ink: {type: 'brown',  ammount: 2000}, catalyst: {id:'spectrum:neolith',             chance: 0.4}, energy: 64, time: 1200},
-    {id: 'gold',            base:'minecraft:raw_gold', ink: {type: 'brown',  ammount: 2000}, catalyst: {id:'spectrum:neolith',             chance: 0.8}, energy: 64, time: 1200},
-    {id: 'diamond',         base: 'minecraft:diamond', ink: {type: 'cyan',   ammount: 2000}, catalyst: {id:'minecraft:coal_block',         chance: 0.8}, energy: 64, time: 1200},
-    {id: 'emerald',         base:'minecraft:emerald', ink: {type: 'cyan',   ammount: 2000}, catalyst: {id:'spectrum:midnight_chip',       chance: 0.8}, energy: 64, time: 1200},
-    {id: 'redstone',        base: 'minecraft:redstone', ink: {type: 'yellow', ammount: 2000}, catalyst: {id:'spectrum:shimmerstone_gem',    chance: 0.8}, energy: 64, time: 1200},
-    {id: 'lapis',           base:'minecraft:lapis_lazuli', ink: {type: 'purple', ammount: 2000}, catalyst: {id:'spectrum:moonstone_powder',    chance: 0.8}, energy: 64, time: 1200},
-    {id: 'copper',          base:'minecraft:raw_copper', ink: {type: 'brown',  ammount: 2000}, catalyst: {id:'vitalize:experience_cubed',    chance: 0.6}, energy: 64, time: 1200},
-    {id: 'quartz',          base:'minecraft:quartz', ink: {type: 'cyan',   ammount: 2000}, catalyst: {id:'spectrum:midnight_chip',       chance: 0.6}, energy: 64, time: 1200},
-    {id: 'glowstone',       base:'minecraft:glowstone_dust', ink: {type: 'yellow', ammount: 2000}, catalyst: {id:'spectrum:moonstone_shard',     chance: 0.6}, energy: 64, time: 1200},
-    {id: 'netherite_scrap', base:'minecraft:netherite_scrap', ink: {type: 'brown',  ammount: 2000}, catalyst: {id:'spectrum:stratine_fragments',  chance: 0.6}, energy: 64, time: 1200},
+    {id: 'coal',            base: 'minecraft:coal',    ink: {type: 'brown',  ammount: 1000}, catalyst: {id:'spectrum:fiery_powder',        chance: 0.2}, energy: 16, time: 400},
+    {id: 'iron',            base:'minecraft:raw_iron', ink: {type: 'brown',  ammount: 1000}, catalyst: {id:'spectrum:neolith',             chance: 0.4}, energy: 16, time: 400},
+    {id: 'gold',            base:'minecraft:raw_gold', ink: {type: 'brown',  ammount: 1000}, catalyst: {id:'spectrum:neolith',             chance: 0.8}, energy: 16, time: 400},
+    {id: 'diamond',         base: 'minecraft:diamond', ink: {type: 'cyan',   ammount: 1000}, catalyst: {id:'minecraft:coal_block',         chance: 0.8}, energy: 16, time: 400},
+    {id: 'emerald',         base:'minecraft:emerald', ink: {type: 'cyan',   ammount: 1000}, catalyst: {id:'spectrum:midnight_chip',       chance: 0.8}, energy: 16, time: 400},
+    {id: 'redstone',        base: 'minecraft:redstone', ink: {type: 'yellow', ammount: 1000}, catalyst: {id:'spectrum:shimmerstone_gem',    chance: 0.8}, energy: 16, time: 400},
+    {id: 'lapis',           base:'minecraft:lapis_lazuli', ink: {type: 'purple', ammount: 1000}, catalyst: {id:'spectrum:moonstone_powder',    chance: 0.8}, energy: 16, time: 400},
+    {id: 'copper',          base:'minecraft:raw_copper', ink: {type: 'brown',  ammount: 1000}, catalyst: {id:'vitalize:experience_cubed',    chance: 0.6}, energy: 16, time: 400},
+    {id: 'quartz',          base:'minecraft:quartz', ink: {type: 'cyan',   ammount: 1000}, catalyst: {id:'spectrum:midnight_chip',       chance: 0.6}, energy: 16, time: 400},
+    {id: 'glowstone',       base:'minecraft:glowstone_dust', ink: {type: 'yellow', ammount: 1000}, catalyst: {id:'spectrum:moonstone_shard',     chance: 0.6}, energy: 16, time: 400},
+    {id: 'netherite_scrap', base:'minecraft:netherite_scrap', ink: {type: 'brown',  ammount: 1000}, catalyst: {id:'spectrum:stratine_fragments',  chance: 0.6}, energy: 16, time: 400},
                                                                                                                                                    
-    {id: 'prismarine',      base:'minecraft:prismarine_crystals', ink: {type: 'cyan',   ammount: 2000}, catalyst: {id:'spectrum:mermaids_gem',        chance: 0.6}, energy: 64, time: 1600},
-    {id: 'echo',            base:'minecraft:echo_shard', ink: {type: 'brown',  ammount: 2000}, catalyst: {id:'vitalize:experience_cubed',    chance: 0.6}, energy: 64, time: 1600},
+    {id: 'prismarine',      base:'minecraft:prismarine_crystals', ink: {type: 'cyan',   ammount: 1000}, catalyst: {id:'spectrum:mermaids_gem',        chance: 0.6}, energy: 16, time: 600},
+    {id: 'echo',            base:'minecraft:echo_shard', ink: {type: 'brown',  ammount: 1000}, catalyst: {id:'vitalize:experience_cubed',    chance: 0.6}, energy: 16, time: 600},
                                                                                                                                                    
-    {id: 'fluix',           base:'ae2:fluix_crystal', ink: {type: 'yellow', ammount: 2000}, catalyst: {id:'spectrum:storm_stone',         chance: 0.6}, energy: 64, time: 1200},
-    {id: 'certus_quartz',   base:'ae2:certus_quartz_crystal', ink: {type: 'yellow', ammount: 2000}, catalyst: {id:'spectrum:storm_stone',         chance: 0.6}, energy: 64, time: 1200},
+    {id: 'fluix',           base:'ae2:fluix_crystal', ink: {type: 'yellow', ammount: 1000}, catalyst: {id:'spectrum:storm_stone',         chance: 0.6}, energy: 16, time: 400},
+    {id: 'certus_quartz',   base:'ae2:certus_quartz_crystal', ink: {type: 'yellow', ammount: 1000}, catalyst: {id:'spectrum:storm_stone',         chance: 0.6}, energy: 16, time: 400},
 ] 
 
 
@@ -85,16 +85,16 @@ ServerEvents.recipes(event => {
         .itemIn('kubejs:catalyst_terrasteel')
         .fluidIn('spectrum:liquid_crystal', 100)
         .itemOut(`kubejs:terrasteel_small_bud`)
-    event.recipes.modern_industrialization.industrial_crystallarieum(128, 4000)
+    event.recipes.modern_industrialization.industrial_crystallarieum(64, 800)
         .itemIn('kubejs:terrasteel_small_bud')
         .itemIn('botania:mana_powder')
-        .fluidIn('modern_industrialization:lime_ink', 12000)
+        .fluidIn('modern_industrialization:lime_ink', 6000)
         .itemOut('kubejs:terrasteel_large_bud')
         .itemOut('kubejs:terrasteel_small_bud', 0.5)
-    event.recipes.modern_industrialization.industrial_crystallarieum(128, 4000)
+    event.recipes.modern_industrialization.industrial_crystallarieum(128, 800)
         .itemIn('kubejs:terrasteel_large_bud')
         .itemIn('botania:mana_powder')
-        .fluidIn('modern_industrialization:lime_ink', 12000)
+        .fluidIn('modern_industrialization:lime_ink', 6000)
         .itemOut('kubejs:terrasteel_cluster')
         .itemOut('kubejs:terrasteel_large_bud', 0.5)
     event.recipes.modern_industrialization.macerator(8, 100)
