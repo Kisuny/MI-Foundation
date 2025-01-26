@@ -1108,6 +1108,69 @@
 			x: 6.5d
 			y: 1.0d
 		}
+		{
+			dependencies: ["4A828E8EB7BF626F"]
+			description: ["Exists to find out what your max damage with equipment is!"]
+			id: "2D6BBAEDCF4656B6"
+			rewards: [{
+				id: "1F19D9A40A5F75EB"
+				item: "kubejs:mob_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "35A28EB979FBBEB5"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4A828E8EB7BF626F"]
+			description: [
+				"Labels functions similar to &9&lItem Frames&r&r but can adapt to all surfaces and be physically connected to any solid block no matter the shape."
+				""
+				"• By &l&eshift-clicking&r&r on a Label with an item you'll be able to change its image, showing that item you selected. "
+				""
+				"• Clicking on a &lLabel&r will let the player &l&9interact&r&r with the &9block&r behind, making it perfect for your &9storage systems&r. "
+				""
+				"• Can accept &lGlow Ink Sacks&r to make then &lglow&r in the &8dark&r. "
+				""
+				"• Can be &4<shake>c</shake>&r&6<shake>o</shake>&r&e<shake>l</shake>&r&2<shake>o</shake>&r&b<shake>r</shake>&r&9<shake>e</shake>&r&5<shake>d</shake>&r with &nany&r dye. "
+				""
+				"• Using a &7Feather&r on them will display the item name. "
+			]
+			id: "754AFC4F31BF5059"
+			rewards: [
+				{
+					count: 5
+					id: "0D2306C7F5159D26"
+					item: "minecraft:glow_ink_sac"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7C7135A021BF887A"
+					item: "minecraft:feather"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1FFDB4DBE37F7C06"
+					table_id: 7157500167206365917L
+					type: "choice"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "2A1DE903927BB2B4"
+				item: "labels:label"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -0.5d
+		}
 	]
 	title: "&7First steps"
 }

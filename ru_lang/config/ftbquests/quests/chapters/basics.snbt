@@ -705,8 +705,8 @@
 				item: "minecraft:wheat_seeds"
 				type: "item"
 			}]
-			x: -8.8d
-			y: -0.9003613945578253d
+			x: -8.788775510204083d
+			y: -0.9132653061224403d
 		}
 		{
 			dependencies: ["271D55F97C071D7F"]
@@ -1100,6 +1100,69 @@
 			}]
 			x: 6.5d
 			y: 1.0d
+		}
+		{
+			dependencies: ["4A828E8EB7BF626F"]
+			description: ["Кукла для избиений - существует чтобы узнать какой у вас максимальный урон с экипировкой."]
+			id: "6D945A03382BA73F"
+			rewards: [{
+				id: "384394C302519E89"
+				item: "kubejs:mob_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "576764CF22559148"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4A828E8EB7BF626F"]
+			description: [
+				"По функционалу &e&lэтикетки&r&r похожи на рамки, но могут &oприспосабливаться&r к любым &oповерхностям&r и физически &lсоединяться&r с &oлюбым твердым блоком&r независимо от его формы."
+				""
+				"• Щелкнув &eПКМ&r по &l&eэтикетке&r&r с каким-либо предметом, вы сможете изменить её изображение, отобразив выбранный вами предмет.  "
+				""
+				"• Нажав на &lэтикетку&r, игрок сможет &nвзаимодействовать с блоком&r, который находится за ней, что делает её идеальной для &9систем хранения&r. "
+				""
+				"• Вы можете применить &lсветящийся чернильный мешок&r, чтобы заставить этикетку &lсветиться&r в &8темноте&r.  "
+				""
+				"• Вы можете перекрасить &e&lэтикетку&r&r в любой понравившийся вам цвет используя &4<shake>к</shake>&r&6<shake>р</shake>&r&e<shake>а</shake>&r&2<shake>с</shake>&r&b<shake>и</shake>&r&9<shake>т</shake>&r&5<shake>е</shake>&r&4<shake>л</shake>&r&6<shake>и</shake>&r. "
+				""
+				"• Используя &7перо&r на этикетке вы отобразите название предмета."
+			]
+			id: "68B28F2D05635993"
+			rewards: [
+				{
+					count: 5
+					id: "382A8AC0D0CAD24B"
+					item: "minecraft:glow_ink_sac"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4A728D572C304B27"
+					item: "minecraft:feather"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "743AFF1AD35EF900"
+					table_id: 7157500167206365917L
+					type: "choice"
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "740B6C0E26BDD775"
+				item: "labels:label"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -0.5d
 		}
 	]
 	title: "&7First steps"
