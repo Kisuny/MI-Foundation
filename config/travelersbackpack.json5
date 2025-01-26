@@ -190,7 +190,7 @@
 	"client": {
 		"overlay": {
 			// Enables tanks and tool slots overlay, while backpack is worn
-			"enableOverlay": true,
+			"enableOverlay": false,
 			// Offsets to left side
 			"offsetX": 20,
 			// Offsets to up
