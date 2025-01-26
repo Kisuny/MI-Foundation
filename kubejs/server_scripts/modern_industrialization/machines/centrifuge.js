@@ -60,6 +60,15 @@ ServerEvents.recipes(event => {
         .fluidOut('modern_industrialization:sulfuric_acid',150)
         .fluidOut('modern_industrialization:orange_ink',50)
         .dimension('minecraft:the_nether')
+
+    // Ender Air Centrifuging
+    event.recipes.modern_industrialization.centrifuge(32, 600)
+        .fluidIn('modern_industrialization:ender_air', 1000)
+        .fluidOut('modern_industrialization:deuterium', 15)
+        .fluidOut('modern_industrialization:tritium', 2)
+        .fluidOut('modern_industrialization:styrene', 150)
+        .fluidOut('modern_industrialization:purple_ink',50)
+        .dimension('minecraft:the_end')
         
     // Desh Centrifuging
     event.recipes.modern_industrialization.centrifuge(16, 600)

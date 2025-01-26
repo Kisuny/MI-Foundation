@@ -35,4 +35,12 @@ ServerEvents.recipes(event => {
         .fluidOut('modern_industrialization:fluorine',400)
         .itemOut('4x kubejs:refined_caterium')
         .itemOut('3x modern_industrialization:silicon_dust')
+
+    event.recipes.modern_industrialization.chemical_reactor(10, 80)
+        .itemIn('minecraft:ender_pearl')
+        .fluidIn('modern_industrialization:ender_air', 2000)
+        .fluidIn('modern_industrialization:void', 50)
+        .fluidIn('neepmeat:compressed_air', 1000)
+        .itemOut('2x minecraft:ender_pearl')
+        .biome('ad_astra:orbit')
 })

@@ -43,6 +43,11 @@ ServerEvents.recipes(event => {
         .itemIn('modern_industrialization:air_intake', 0)
         .fluidOut('modern_industrialization:nether_air', 1000)
         .dimension('minecraft:the_nether')
+    
+    event.recipes.modern_industrialization.pressurizer(8, 200) //Eu, ticks
+        .itemIn('modern_industrialization:air_intake', 0)
+        .fluidOut('modern_industrialization:ender_air', 1000)
+        .dimension('minecraft:the_end')
 
 
     event.recipes.spectrum.pedestal({

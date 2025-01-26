@@ -44,6 +44,7 @@ MIRegistrationEvents.registerFluids(event => {
     event.register("Venus Liquid Air", "venus_air", 0xC0D671, "water", false, "low");
     event.register("Glacio Liquid Air", "glacio_air", 0xC0D6FF, "water", false, "low");
     event.register("Nether Liquid Air", "nether_air", 0xC0D658, "water", false, "low");
+    event.register("Ender Liquid Air", "ender_air", 0x032620, "water", false, "low");
     event.register("Bee Air", "bee_air", 0xC0B141, "steam", false, "low");
     event.register("Morkite Fuel", "morkite_fuel", 0x00FFF3, "steam", false, "low");
     event.register("Fluorine Gas", "fluorine_gas", 0xE0E29E, "steam", true, "high");
