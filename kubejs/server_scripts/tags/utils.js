@@ -195,7 +195,8 @@ ServerEvents.tags('entity_type', event => {
         'artifacts:mimic', 
         'rottencreatures:entities/dead_beard',
         'rottencreatures:entities/immortal',
-        /lootgoblins:*/
+        /lootgoblins:*/,
+        /goblintraders:*/,
     ]
     event.add('spirit:soul_cage_blacklisted', SPIRIT_MOBS_BLACKLIST)
     event.add('spirit:collect_blacklisted', SPIRIT_MOBS_BLACKLIST)

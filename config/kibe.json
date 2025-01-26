@@ -21,7 +21,9 @@
       "adventurez:blaze_guardian",
       "adventurez:enderwarthog",
       "the_bumblezone:bee_queen",
-      "miskatonicmysteries:tattered_prince"
+      "miskatonicmysteries:tattered_prince",
+      "goblintraders:goblin_trader",
+      "goblintraders:vein_goblin_trader"
     ],
     "maxRingsPerPlayer": 1
   },
