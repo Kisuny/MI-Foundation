@@ -864,7 +864,7 @@ ServerEvents.recipes(event => {
             items: [
                 [3, 'modern_industrialization:chromium_dust']
             ],
-            base: 'mysticalagriculture:chromium_seeds',
+            base: 'mysticalagriculture:iron_seeds',
             ingredients: [
                 'mysticalagriculture:redstone_seeds',
                 'mysticalagriculture:aluminum_seeds',
