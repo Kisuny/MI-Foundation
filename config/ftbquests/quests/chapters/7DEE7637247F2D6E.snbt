@@ -1124,7 +1124,7 @@
 		}
 		{
 			dependencies: ["5C12A68F7C5E5B36"]
-			description: ["&5Scoop&r can be exchanged at the &6queen bee&r, the net has &l&c1 durability&r&r."]
+			description: ["&5Scoop&r can be exchanged at the &6queen bee&r, the Scoop has &l&c1 durability&r&r."]
 			id: "1E0B8D7D80D63FB6"
 			rewards: [
 				{
