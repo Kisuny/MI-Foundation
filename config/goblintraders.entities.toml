@@ -55,9 +55,9 @@ preventDespawnIfNamed = false
 			#The minimum amount of trades that a golbin will have.
 			minAmount = 0
 			#The chance this trade rarity will be included in the goblin's trades
-			includeChance = 1.0
+			includeChance = 0.6
 			#The maximum amount of trades that a golbin can have.
-			manAmount = 2
+			manAmount = 1
 
 [veinGoblinTrader]
 	#If true, the goblin will try to hit back a player or mob that hit them
@@ -113,7 +113,7 @@ preventDespawnIfNamed = false
 			#The minimum amount of trades that a golbin will have.
 			minAmount = 0
 			#The chance this trade rarity will be included in the goblin's trades
-			includeChance = 1.0
+			includeChance = 0.8
 			#The maximum amount of trades that a golbin can have.
 			manAmount = 2
 
