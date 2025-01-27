@@ -1,0 +1,383 @@
+{
+  "replace": false,
+  "trades": [
+    {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 24,
+      "offer_item": {
+        "count": 2,
+        "item": "numismatic-overhaul:silver_coin"
+      },
+      "payment_item": {
+        "count": 8,
+        "item": "minecraft:apple"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 5,
+        "item": "minecraft:iron_ingot"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "minecraft:raw_iron"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 5,
+        "item": "minecraft:gold_ingot"
+      },
+      "payment_item": {
+        "count": 5,
+        "item": "minecraft:raw_gold"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 5,
+        "item": "minecraft:copper_ingot"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "minecraft:raw_copper"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 5,
+        "item": "mythicmetals:adamantite_ingot"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "mythicmetals:raw_adamantite"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 5,
+        "item": "mythicmetals:aquarium_ingot"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "mythicmetals:raw_aquarium"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 5,
+        "item": "mythicmetals:banglum_ingot"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "mythicmetals:raw_banglum"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 5,
+        "item": "mythicmetals:carmot_ingot"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "mythicmetals:raw_carmot"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 5,
+        "item": "mythicmetals:kyber_ingot"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "mythicmetals:raw_kyber"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 5,
+        "item": "mythicmetals:midas_gold_ingot"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "mythicmetals:raw_midas_gold"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 5,
+        "item": "mythicmetals:mythril_ingot"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "mythicmetals:raw_mythril"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 5,
+        "item": "mythicmetals:orichalcum_ingot"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "mythicmetals:raw_orichalcum"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 5,
+        "item": "mythicmetals:palladium_ingot"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "mythicmetals:raw_palladium"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 5,
+        "item": "mythicmetals:prometheum_ingot"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "mythicmetals:raw_prometheum"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 5,
+        "item": "mythicmetals:quadrillum_ingot"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "mythicmetals:raw_quadrillum"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 5,
+        "item": "mythicmetals:runite_ingot"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "mythicmetals:raw_runite"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 5,
+        "item": "mythicmetals:stormyx_ingot"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "mythicmetals:raw_stormyx"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 5,
+        "item": "modern_industrialization:antimony_ingot"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "modern_industrialization:raw_antimony"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 5,
+        "item": "modern_industrialization:iridium_ingot"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "modern_industrialization:raw_iridium"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 5,
+        "item": "modern_industrialization:lead_ingot"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "modern_industrialization:raw_lead"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 5,
+        "item": "modern_industrialization:nickel_ingot"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "modern_industrialization:raw_nickel"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 5,
+        "item": "modern_industrialization:silver_ingot"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "modern_industrialization:raw_silver"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 5,
+        "item": "modern_industrialization:tin_ingot"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "modern_industrialization:raw_tin"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 6,
+      "max_trades": 30,
+      "offer_item": {
+        "count": 5,
+        "item": "modern_industrialization:uranium_ingot"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "modern_industrialization:raw_uranium"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 24,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:coal"
+      },
+      "payment_item": {
+        "count": 4,
+        "item": "minecraft:rotten_flesh"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 32,
+      "offer_item": {
+        "count": 2,
+        "item": "minecraft:flint"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "minecraft:gravel"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 4,
+      "max_trades": 128,
+      "offer_item": {
+        "count": 2,
+        "item": "numismatic-overhaul:silver_coin"
+      },
+      "payment_item": {
+        "count": 32,
+        "item": "minecraft:cobblestone"
+      },
+      "price_multiplier": 0.0
+    }
+  ]
+}

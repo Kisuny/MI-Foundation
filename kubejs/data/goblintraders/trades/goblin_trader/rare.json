@@ -1,0 +1,468 @@
+{
+  "replace": false,
+  "trades": [
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 64,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:experience_bottle"
+      },
+      "payment_item": {
+        "count": 6,
+        "item": "numismatic-overhaul:silver_coin"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 2,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:name_tag"
+      },
+      "payment_item": {
+        "count": 48,
+        "item": "numismatic-overhaul:silver_coin"
+      },
+      "price_multiplier": 0.0,
+      "secondary_payment_item": {
+        "count": 8,
+        "item": "minecraft:paper"
+      }
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 10,
+      "max_trades": 64,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:blue_ice"
+      },
+      "payment_item": {
+        "count": 4,
+        "item": "minecraft:packed_ice"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "enchantments": [
+        {
+          "id": "minecraft:luck_of_the_sea",
+          "level": 5
+        }
+      ],
+      "experience": 30,
+      "max_trades": 2,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:fishing_rod",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "minecraft:fishing_rod",
+        "nbt": "{Damage:0}"
+      },
+      "price_multiplier": 0.5,
+      "secondary_payment_item": {
+        "count": 1,
+        "item": "minecraft:enchanted_book",
+        "nbt": "{StoredEnchantments:[{id:\"minecraft:luck_of_the_sea\",lvl:3s}]}"
+      }
+    },
+    {
+      "type": "goblintraders:basic",
+      "enchantments": [
+        {
+          "id": "minecraft:lure",
+          "level": 5
+        }
+      ],
+      "experience": 30,
+      "max_trades": 2,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:fishing_rod",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "minecraft:fishing_rod",
+        "nbt": "{Damage:0}"
+      },
+      "price_multiplier": 0.5,
+      "secondary_payment_item": {
+        "count": 1,
+        "item": "minecraft:enchanted_book",
+        "nbt": "{StoredEnchantments:[{id:\"minecraft:lure\",lvl:3s}]}"
+      }
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 100,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:music_disc_cat"
+      },
+      "payment_item": {
+        "count": 64,
+        "item": "numismatic-overhaul:silver_coin"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 100,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:music_disc_blocks"
+      },
+      "payment_item": {
+        "count": 64,
+        "item": "numismatic-overhaul:silver_coin"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 100,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:music_disc_chirp"
+      },
+      "payment_item": {
+        "count": 64,
+        "item": "numismatic-overhaul:silver_coin"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 100,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:music_disc_mellohi"
+      },
+      "payment_item": {
+        "count": 64,
+        "item": "numismatic-overhaul:silver_coin"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 100,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:music_disc_stal"
+      },
+      "payment_item": {
+        "count": 64,
+        "item": "numismatic-overhaul:silver_coin"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "enchantments": [
+        {
+          "id": "minecraft:efficiency",
+          "level": 6
+        }
+      ],
+      "experience": 200,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:diamond_pickaxe",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "minecraft:diamond_pickaxe",
+        "nbt": "{Damage:0}"
+      },
+      "price_multiplier": 0.0,
+      "secondary_payment_item": {
+        "count": 1,
+        "item": "minecraft:enchanted_book",
+        "nbt": "{StoredEnchantments:[{id:\"minecraft:efficiency\",lvl:5s}]}"
+      }
+    },
+    {
+      "type": "goblintraders:basic",
+      "enchantments": [
+        {
+          "id": "minecraft:unbreaking",
+          "level": 4
+        }
+      ],
+      "experience": 200,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:diamond_pickaxe",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "minecraft:diamond_pickaxe",
+        "nbt": "{Damage:0}"
+      },
+      "price_multiplier": 0.0,
+      "secondary_payment_item": {
+        "count": 1,
+        "item": "minecraft:enchanted_book",
+        "nbt": "{StoredEnchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+      }
+    },
+    {
+      "type": "goblintraders:basic",
+      "enchantments": [
+        {
+          "id": "minecraft:fortune",
+          "level": 4
+        }
+      ],
+      "experience": 200,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:diamond_pickaxe",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "minecraft:diamond_pickaxe",
+        "nbt": "{Damage:0}"
+      },
+      "price_multiplier": 0.0,
+      "secondary_payment_item": {
+        "count": 1,
+        "item": "minecraft:enchanted_book",
+        "nbt": "{StoredEnchantments:[{id:\"minecraft:fortune\",lvl:3s}]}"
+      }
+    },
+    {
+      "type": "goblintraders:basic",
+      "enchantments": [
+        {
+          "id": "minecraft:efficiency",
+          "level": 6
+        }
+      ],
+      "experience": 200,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:diamond_axe",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "minecraft:diamond_axe",
+        "nbt": "{Damage:0}"
+      },
+      "price_multiplier": 0.0,
+      "secondary_payment_item": {
+        "count": 1,
+        "item": "minecraft:enchanted_book",
+        "nbt": "{StoredEnchantments:[{id:\"minecraft:efficiency\",lvl:5s}]}"
+      }
+    },
+    {
+      "type": "goblintraders:basic",
+      "enchantments": [
+        {
+          "id": "minecraft:unbreaking",
+          "level": 4
+        }
+      ],
+      "experience": 200,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:diamond_axe",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "minecraft:diamond_axe",
+        "nbt": "{Damage:0}"
+      },
+      "price_multiplier": 0.0,
+      "secondary_payment_item": {
+        "count": 1,
+        "item": "minecraft:enchanted_book",
+        "nbt": "{StoredEnchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+      }
+    },
+    {
+      "type": "goblintraders:basic",
+      "enchantments": [
+        {
+          "id": "minecraft:efficiency",
+          "level": 6
+        }
+      ],
+      "experience": 200,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:diamond_shovel",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "minecraft:diamond_shovel",
+        "nbt": "{Damage:0}"
+      },
+      "price_multiplier": 0.0,
+      "secondary_payment_item": {
+        "count": 1,
+        "item": "minecraft:enchanted_book",
+        "nbt": "{StoredEnchantments:[{id:\"minecraft:efficiency\",lvl:5s}]}"
+      }
+    },
+    {
+      "type": "goblintraders:basic",
+      "enchantments": [
+        {
+          "id": "minecraft:unbreaking",
+          "level": 4
+        }
+      ],
+      "experience": 200,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:diamond_shovel",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "minecraft:diamond_shovel",
+        "nbt": "{Damage:0}"
+      },
+      "price_multiplier": 0.0,
+      "secondary_payment_item": {
+        "count": 1,
+        "item": "minecraft:enchanted_book",
+        "nbt": "{StoredEnchantments:[{id:\"minecraft:unbreaking\",lvl:3s}]}"
+      }
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 1200,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "treeaxe:diamond_treeaxe",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "mythicmetals:star_platinum_axe",
+        "nbt": "{Damage:0}"
+      },
+      "price_multiplier": 0.0,
+      "secondary_payment_item": {
+        "count": 4,
+        "item": "numismatic-overhaul:gold_coin"
+      }
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 600,
+      "max_trades": 6,
+      "offer_item": {
+        "count": 4,
+        "item": "kubejs:durasteel_reinforced_bronze_drill"
+      },
+      "payment_item": {
+        "count": 2,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 600,
+      "max_trades": 6,
+      "offer_item": {
+        "count": 4,
+        "item": "kubejs:azurite_plated_bronze_drill"
+      },
+      "payment_item": {
+        "count": 2,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 600,
+      "max_trades": 6,
+      "offer_item": {
+        "count": 4,
+        "item": "kubejs:malachite_enhanced_bronze_drill"
+      },
+      "payment_item": {
+        "count": 2,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 600,
+      "max_trades": 6,
+      "offer_item": {
+        "count": 4,
+        "item": "kubejs:durasteel_reinforced_steel_drill"
+      },
+      "payment_item": {
+        "count": 2,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 600,
+      "max_trades": 6,
+      "offer_item": {
+        "count": 4,
+        "item": "kubejs:azurite_plated_steel_drill"
+      },
+      "payment_item": {
+        "count": 2,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 600,
+      "max_trades": 6,
+      "offer_item": {
+        "count": 4,
+        "item": "kubejs:malachite_enhanced_steel_drill"
+      },
+      "payment_item": {
+        "count": 2,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0
+    }
+  ]
+}
