@@ -872,4 +872,5 @@ ServerEvents.recipes(event => {
         .itemOut('mif_addon:beehemoth',0.5)
         .itemOut('kubejs:necrodermal_affected_beehemoth',0.02)
         .itemOut('kubejs:nullodermal_affected_beehemoth',0.02)
+  // Kappa Keepo
 })
