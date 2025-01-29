@@ -9,7 +9,7 @@ ServerEvents.recipes(event => {
             "QQQ"
         ],
         keys: {
-            "W": { "item": "minecraft:ender_pearl" },
+            "W": { "tag": "endrem:eyes" },
             "Q": { "item": "minecraft:obsidian" }
         },
         result: {

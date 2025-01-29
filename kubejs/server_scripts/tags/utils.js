@@ -7,6 +7,8 @@ ServerEvents.tags('item', event => {
         "minecraft:turtle_egg",
     ])
 
+    //endrem eyes
+    event.add('endrem:eyes', ['endrem:cryptic_eye', 'endrem:exotic_eye', 'endrem:undead_eye', 'endrem:witch_eye', 'endrem:wither_eye', 'endrem:magical_eye', 'endrem:guardian_eye', 'endrem:evil_eye', 'endrem:cursed_eye', 'endrem:rogue_eye', 'endrem:old_eye', 'endrem:nether_eye', 'endrem:lost_eye', 'endrem:corrupted_eye', 'endrem:cold_eye', 'endrem:black_eye'])
     // tiered: new reforge stone and default item for reforge
     event.remove('tiered:reforge_addition', 'minecraft:amethyst_shard')
     event.remove('tiered:reforge_base_item', 'minecraft:flint')
