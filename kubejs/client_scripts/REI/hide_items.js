@@ -528,6 +528,7 @@ REIEvents.hide('item', event => {
         'treeaxe:gold_treeaxe',
         'treeaxe:copper_treeaxe',
         'treeaxe:wooden_treeaxe',
+        'modern_industrialization:replicator',
 
     ]);
     event.hide(list)
