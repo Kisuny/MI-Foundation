@@ -1,19 +1,21 @@
 ServerEvents.recipes(event => {
     event.remove({id: 'javd:portal_block'})
 
-    customeFusionShrineCraft(event, {
-        time: 1200, experience: 8.0,
-        fluid: "modern_industrialization:void",
-        ingredients: [
-            {"item": "bosses_of_mass_destruction:void_thorn", "count": 1 },
-            {"item": "mythicmetals:durasteel_ingot", "count": 16 },
-            {"item": "spectrum:bottle_of_ruin", "count": 1 },
-            {"item": "botania:world_seed", "count": 4 }
+    customPedestalCraft(event, {
+        tier: 'advanced', time: 1600, topaz: 8, amethyst: 8, citrine: 8, onyx: 32, experience: 4.0,
+        pattern: [
+            "QQQ",
+            "QWQ",
+            "QQQ"
         ],
-        result: {
-            "item": "javd:portal_block"
+        keys: {
+            "W": { "item": "minecraft:ender_pearl" },
+            "Q": { "item": "minecraft:obsidian" }
         },
-        advancement: "spectrum:build_fusion_shrine"
+        result: {
+            "item": "javd:portal_block",
+            "count": 1
+        },
+        advancement: "spectrum:create_onyx_shard"
     });
-
 })

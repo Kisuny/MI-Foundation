@@ -190,7 +190,7 @@
 			y: 0.1979166666666643d
 		}
 		{
-			description: ["Item is for Advancement &l&4only&r&r, all crafting is in &6Chemical Reactor&r!"]
+			description: ["To craft, put all of the needed items inside the Chemistry Set, then &6light it&r. After the process finishes, RMB with a «Catalyst» specified on the right, such as a piece of &epaper&r or a &eglass bottle&r."]
 			id: "0A81427D1090F655"
 			rewards: [{
 				id: "717E17D100E28D73"
@@ -198,7 +198,6 @@
 				type: "item"
 			}]
 			shape: "gear"
-			subtitle: "&4&lThis item is for advancement only!"
 			tasks: [{
 				id: "1318691E0F6B3414"
 				item: "miskatonicmysteries:chemistry_set"

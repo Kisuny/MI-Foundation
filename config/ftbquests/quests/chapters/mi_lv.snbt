@@ -2054,7 +2054,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["50C0CA3FC79847C4"]
+			dependencies: ["26128DB1415D22BC"]
 			description: [
 				"A &3&lCrafting Calculator&r&r allows you to &ocalculate&r how many &ematerials you need to craft some number of items&r. Controls are a bit complicated, but once you learn them this gizmo &l&9can save you a lot of time&r&r!"
 				""
@@ -2114,11 +2114,11 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
-			y: 7.5d
+			x: 9.5d
+			y: 17.0d
 		}
 		{
-			dependencies: ["50C0CA3FC79847C4"]
+			dependencies: ["26128DB1415D22BC"]
 			description: [
 				"A &6&lMath calculator&r&r, but in &2Minecraft&r! Sounds handy!"
 				""
@@ -2150,8 +2150,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
-			y: 5.5d
+			x: 8.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["17FE01EEA624616A"]
@@ -2297,6 +2297,64 @@
 			}]
 			x: 13.0d
 			y: 12.0d
+		}
+		{
+			dependencies: ["26128DB1415D22BC"]
+			description: [
+				"Allows you to &ereplace many blocks of the same type at the same time&r, there are many setup modes, find the hotkey in the settings to learn more about the modes. You can also undo your actions."
+				""
+				"To select a block for replacing press SHIFT + right mouse button with the device in your hands."
+			]
+			id: "5C706DDE0B62DB75"
+			shape: "gear"
+			tasks: [{
+				id: "5175C34A33BD476D"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_exchanging"
+					tag: {
+						state: {
+							data: { }
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["26128DB1415D22BC"]
+			description: [
+				"Allows you to &eplace many blocks of the same type at the same time&r, there are many setup modes, find the hotkey in the settings to learn more about the modes. You can also undo your actions."
+				""
+				"To select a block for building press SHIFT + right mouse button with the device in your hands."
+			]
+			id: "3195167246145CE7"
+			shape: "gear"
+			tasks: [{
+				id: "76A1B0CA96914667"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_building"
+					tag: {
+						state: {
+							data: { }
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 16.5d
 		}
 	]
 	title: "&7Electricity | LV"

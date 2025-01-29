@@ -2032,7 +2032,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["50C0CA3FC79847C4"]
+			dependencies: ["26128DB1415D22BC"]
 			description: ["Калькулятор, но в &2Minecraft&r, звучит удобно!"]
 			id: "440A985C8221C792"
 			rewards: [{
@@ -2060,11 +2060,11 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
-			y: 7.5d
+			x: 8.5d
+			y: 17.0d
 		}
 		{
-			dependencies: ["50C0CA3FC79847C4"]
+			dependencies: ["26128DB1415D22BC"]
 			description: [
 				"&e&lКалькулятор создания&r&r позволяет считать сколько нужно &eтех или иных материалов для крафта нужного вам количества предметов&r, управление немного сложное, с данной штучкой можно &l&9сэкономить очень много времени&r&r!"
 				""
@@ -2122,8 +2122,8 @@
 				}
 				type: "item"
 			}]
-			x: 11.5d
-			y: 5.5d
+			x: 9.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["17FE01EEA624616A"]
@@ -2269,6 +2269,76 @@
 			}]
 			x: 13.0d
 			y: 12.0d
+		}
+		{
+			dependencies: ["26128DB1415D22BC"]
+			description: [
+				"Позволяет &eзаменять множество одинаковых блоков&r другими блоками, есть множество режимов замены, найдите горячую клавишу в настройках чтобы узнать подробнее о режимах. Так же можно отменять свои действия \"&eОткатывать&r\"."
+				""
+				"Чтобы выбрать блок для строительства нажмите SHIFT + ПКМ с прибором в руках."
+			]
+			id: "603FFF8AD8407733"
+			rewards: [{
+				count: 2
+				id: "6FA0EC5576D43EDD"
+				item: "kubejs:mid_lootbag_epic"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "7C794900768DDF78"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_exchanging"
+					tag: {
+						state: {
+							data: { }
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["26128DB1415D22BC"]
+			description: [
+				"Позволяет &eразмещать множество блоков одного типа одновременно&r, существует множество режимов установки, найдите горячую клавишу в настройках чтобы узнать подробнее о режимах. Так же можно отменять свои действия \"&eОткатывать&r\"."
+				""
+				"Чтобы выбрать блок для строительства нажмите SHIFT + ПКМ с прибором в руках."
+			]
+			id: "5FEE263D263EA245"
+			rewards: [{
+				count: 2
+				id: "6BC735F5B965BF73"
+				item: "kubejs:mid_lootbag_epic"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "2C1B7AA20D315207"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_building"
+					tag: {
+						state: {
+							data: { }
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 16.5d
 		}
 	]
 	title: "&7Electricity | LV"

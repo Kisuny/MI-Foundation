@@ -76,6 +76,7 @@ ItemEvents.tooltip(tooltip => {
         betterToolTip({ item: 'kubejs:dragon_heart', text: 'kubejs.dragon_heart.tooltip' }) 
         betterToolTip({ item: 'mif_addon:bee', text: 'mif_addon.bee.tooltip' }) 
         betterToolTip({ item: 'mif_addon:beehemoth', text: 'mif_addon.beehemoth.tooltip' }) 
+        betterToolTip({ item: 'treeaxe:diamond_treeaxe', text: 'mif_addon.treeaxe.tooltip' })
 
         // тултипы для артефактов
         let artifactsTooltip = (args) => {

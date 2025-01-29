@@ -212,13 +212,13 @@
       "creeperoverhaul:*",
       "endermanoverhaul:*",
       "friendsandfoes:*",
-      "wiredredstone:*",
       "rottencreatures:*",
       "lootgoblins:*",
       "theorcs:*",
       "miskatonicmysteries:*",
       "probablychests:*",
-      "labels:*"
+      "labels:*",
+      "libmultipart:*"
     ],
     "//forbiddenEntities": "Entities that cannot be picked up",
     "forbiddenEntities": [

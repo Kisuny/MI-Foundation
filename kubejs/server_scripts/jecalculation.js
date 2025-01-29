@@ -8,15 +8,12 @@ ServerEvents.recipes(event => {
     ]
 
     CALC_TYPE.forEach(calc => {
-        event.shaped(`jecalculation:item_calculator_${calc.type}`, [
-            'QEQ',
-            'QRQ',
-            'QWQ'
-        ], {
-            Q: 'modern_industrialization:steel_plate',
-            W: 'modern_industrialization:analog_circuit',
-            E: calc.color,
-            R: 'modern_industrialization:redstone_battery'
-        })
+        event.recipes.modern_industrialization.assembler(8, 400)
+        .itemIn('modern_industrialization:analog_circuit')
+        .itemIn('12x modern_industrialization:steel_plate')
+        .itemIn(calc.color)
+        .itemIn('modern_industrialization:redstone_battery')
+        .fluidIn('modern_industrialization:soldering_alloy', 500)
+        .itemOut(`jecalculation:item_calculator_${calc.type}`)
     });
 })

@@ -522,7 +522,13 @@ REIEvents.hide('item', event => {
         'mysticalagriculture:zinc_seeds',
         'mysticalagriculture:zinc_essence', 
         'mysticalagriculture:inferium_seeds', 
-
+        'treeaxe:amethyst_treeaxe', 
+        'treeaxe:emerald_treeaxe',
+        'treeaxe:iron_treeaxe',
+        'treeaxe:gold_treeaxe',
+        'treeaxe:copper_treeaxe',
+        'treeaxe:wooden_treeaxe',
+        'modern_industrialization:replicator',
 
     ]);
     event.hide(list)

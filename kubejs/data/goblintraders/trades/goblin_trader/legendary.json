@@ -1,0 +1,311 @@
+{
+  "replace": false,
+  "trades": [
+    {
+      "type": "goblintraders:basic",
+      "enchantments": [
+        {
+          "id": "minecraft:fortune",
+          "level": 5
+        },
+        {
+          "id": "minecraft:unbreaking",
+          "level": 5
+        }
+      ],
+      "experience": 1000,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "minecraft:diamond_pickaxe",
+        "nbt": "{Damage:0}"
+      },
+      "payment_item": {
+        "count": 5,
+        "item": "minecraft:dragon_head"
+      },
+      "price_multiplier": 0.0,
+      "secondary_payment_item": {
+        "count": 1,
+        "item": "minecraft:diamond_pickaxe",
+        "nbt": "{Damage:0}"
+      }
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 2000,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "chunkloaders:single_chunk_loader"
+      },
+      "payment_item": {
+        "count": 20,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 2000,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "kubejs:royal_scoop"
+      },
+      "payment_item": {
+        "count": 20,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 2000,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "kubejs:tears_of_the_sea"
+      },
+      "payment_item": {
+        "count": 5,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 2000,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "things:monocle"
+      },
+      "payment_item": {
+        "count": 10,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0,
+      "secondary_payment_item": {
+        "count": 5,
+        "item": "kubejs:artifact_dust"
+      }
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 2000,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "things:moss_necklace"
+      },
+      "payment_item": {
+        "count": 10,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0,
+      "secondary_payment_item": {
+        "count": 5,
+        "item": "kubejs:artifact_dust"
+      }
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 2000,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "things:mining_gloves"
+      },
+      "payment_item": {
+        "count": 10,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0,
+      "secondary_payment_item": {
+        "count": 5,
+        "item": "kubejs:artifact_dust"
+      }
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 2000,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "artifacts:snorkel"
+      },
+      "payment_item": {
+        "count": 10,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0,
+      "secondary_payment_item": {
+        "count": 5,
+        "item": "kubejs:artifact_dust"
+      }
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 2000,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "artifacts:night_vision_goggles"
+      },
+      "payment_item": {
+        "count": 10,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0,
+      "secondary_payment_item": {
+        "count": 5,
+        "item": "kubejs:artifact_dust"
+      }
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 2000,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "artifacts:superstitious_hat"
+      },
+      "payment_item": {
+        "count": 10,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0,
+      "secondary_payment_item": {
+        "count": 5,
+        "item": "kubejs:artifact_dust"
+      }
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 2000,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "artifacts:lucky_scarf"
+      },
+      "payment_item": {
+        "count": 10,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0,
+      "secondary_payment_item": {
+        "count": 5,
+        "item": "kubejs:artifact_dust"
+      }
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 2000,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "artifacts:crystal_heart"
+      },
+      "payment_item": {
+        "count": 10,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0,
+      "secondary_payment_item": {
+        "count": 5,
+        "item": "kubejs:artifact_dust"
+      }
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 2000,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "artifacts:running_shoes"
+      },
+      "payment_item": {
+        "count": 10,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0,
+      "secondary_payment_item": {
+        "count": 5,
+        "item": "kubejs:artifact_dust"
+      }
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 2000,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "artifacts:digging_claws"
+      },
+      "payment_item": {
+        "count": 10,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0,
+      "secondary_payment_item": {
+        "count": 5,
+        "item": "kubejs:artifact_dust"
+      }
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 2000,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "artifacts:feral_claws"
+      },
+      "payment_item": {
+        "count": 10,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0,
+      "secondary_payment_item": {
+        "count": 5,
+        "item": "kubejs:artifact_dust"
+      }
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 2000,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "artifacts:flippers"
+      },
+      "payment_item": {
+        "count": 10,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0,
+      "secondary_payment_item": {
+        "count": 5,
+        "item": "kubejs:artifact_dust"
+      }
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 2000,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "things:enchanted_wax_gland"
+      },
+      "payment_item": {
+        "count": 10,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0,
+      "secondary_payment_item": {
+        "count": 5,
+        "item": "kubejs:artifact_dust"
+      }
+    }
+  ]
+}
