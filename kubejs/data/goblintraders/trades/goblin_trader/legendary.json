@@ -54,7 +54,7 @@
         "item": "kubejs:royal_scoop"
       },
       "payment_item": {
-        "count": 40,
+        "count": 20,
         "item": "numismatic-overhaul:gold_coin"
       },
       "price_multiplier": 0.0
@@ -133,24 +133,6 @@
       "max_trades": 1,
       "offer_item": {
         "count": 1,
-        "item": "things:riot_gauntlet"
-      },
-      "payment_item": {
-        "count": 10,
-        "item": "numismatic-overhaul:gold_coin"
-      },
-      "price_multiplier": 0.0,
-      "secondary_payment_item": {
-        "count": 5,
-        "item": "kubejs:artifact_dust"
-      }
-    },
-    {
-      "type": "goblintraders:basic",
-      "experience": 2000,
-      "max_trades": 1,
-      "offer_item": {
-        "count": 1,
         "item": "artifacts:snorkel"
       },
       "payment_item": {
@@ -170,24 +152,6 @@
       "offer_item": {
         "count": 1,
         "item": "artifacts:night_vision_goggles"
-      },
-      "payment_item": {
-        "count": 10,
-        "item": "numismatic-overhaul:gold_coin"
-      },
-      "price_multiplier": 0.0,
-      "secondary_payment_item": {
-        "count": 5,
-        "item": "kubejs:artifact_dust"
-      }
-    },
-    {
-      "type": "goblintraders:basic",
-      "experience": 2000,
-      "max_trades": 1,
-      "offer_item": {
-        "count": 1,
-        "item": "artifacts:antidote_vessel"
       },
       "payment_item": {
         "count": 10,
@@ -331,24 +295,6 @@
       "max_trades": 1,
       "offer_item": {
         "count": 1,
-        "item": "things:hades_crystal"
-      },
-      "payment_item": {
-        "count": 10,
-        "item": "numismatic-overhaul:gold_coin"
-      },
-      "price_multiplier": 0.0,
-      "secondary_payment_item": {
-        "count": 5,
-        "item": "kubejs:artifact_dust"
-      }
-    },
-    {
-      "type": "goblintraders:basic",
-      "experience": 2000,
-      "max_trades": 1,
-      "offer_item": {
-        "count": 1,
         "item": "things:enchanted_wax_gland"
       },
       "payment_item": {
@@ -359,63 +305,6 @@
       "secondary_payment_item": {
         "count": 5,
         "item": "kubejs:artifact_dust"
-      }
-    },
-    {
-      "type": "goblintraders:basic",
-      "experience": 1000,
-      "max_trades": 1,
-      "offer_item": {
-        "count": 1,
-        "item": "spirit:soul_crystal",
-        "nbt":"{StoredEntity:{Souls:64,Type:\"bewitchment:demon\"}}"
-      },
-      "payment_item": {
-        "count": 30,
-        "item": "numismatic-overhaul:gold_coin"
-      },
-      "price_multiplier": 0.0,
-      "secondary_payment_item": {
-        "count": 8,
-        "item": "spirit:soul_powder"
-      }
-    },
-    {
-      "type": "goblintraders:basic",
-      "experience": 1000,
-      "max_trades": 1,
-      "offer_item": {
-        "count": 1,
-        "item": "spirit:soul_crystal",
-        "nbt":"{StoredEntity:{Souls:64,Type:\"whisperwoods:moth\"}}"
-      },
-      "payment_item": {
-        "count": 30,
-        "item": "numismatic-overhaul:gold_coin"
-      },
-      "price_multiplier": 0.0,
-      "secondary_payment_item": {
-        "count": 8,
-        "item": "spirit:soul_powder"
-      }
-    },
-    {
-      "type": "goblintraders:basic",
-      "experience": 1000,
-      "max_trades": 1,
-      "offer_item": {
-        "count": 1,
-        "item": "spirit:soul_crystal",
-        "nbt":"{StoredEntity:{Souls:64,Type:\"whisperwoods:wisp\"}}"
-      },
-      "payment_item": {
-        "count": 30,
-        "item": "numismatic-overhaul:gold_coin"
-      },
-      "price_multiplier": 0.0,
-      "secondary_payment_item": {
-        "count": 8,
-        "item": "spirit:soul_powder"
       }
     }
   ]

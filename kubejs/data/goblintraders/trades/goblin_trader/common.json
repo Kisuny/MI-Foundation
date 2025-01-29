@@ -38,7 +38,7 @@
         "item": "minecraft:gold_ingot"
       },
       "payment_item": {
-        "count": 5,
+        "count": 1,
         "item": "minecraft:raw_gold"
       },
       "price_multiplier": 0.0
