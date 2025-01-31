@@ -183,4 +183,24 @@ MIMachineEvents.registerMachines(event => {
         items => items.addSlots(42, 27, 3, 3).addSlots(139, 27, 1, 3), fluids => fluids.addSlots(12, 27, 1, 3),
         true, true, false,
     );
+    
+    //Honey Generator
+    event.simpleGeneratorSingleBlock(
+        "Honey Generator", "honey_generator", "mv",
+        512, 12000, 4000,
+        builder => {
+            builder.fluid("the_bumblezone:honey_fluid_still", 256).fluid("the_bumblezone:royal_jelly_fluid_still", 1024)
+        }, 
+        "mv", "honey_generator", true, true, true
+    )
+    
+    //Turbo Honey Generator
+    event.simpleGeneratorSingleBlock(
+        "Turbo Honey Generator", "turbo_honey_generator", "hv",
+        2048, 60000, 8000,
+        builder => {
+            builder.fluid("the_bumblezone:honey_fluid_still", 256).fluid("the_bumblezone:royal_jelly_fluid_still", 1024)
+        }, 
+        "hv", "honey_generator", true, true, true
+    )
 });
