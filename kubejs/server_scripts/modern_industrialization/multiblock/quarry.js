@@ -88,6 +88,7 @@ ServerEvents.recipes(event => {
         .itemOut('10x minecraft:gravel', 0.5)
         .itemOut('16x minecraft:cobbled_deepslate', 0.25)
         .itemOut('16x minecraft:tuff', 0.25)
+        .itemOut('10x neepmeat:asbestos', 0.25)
         .dimension('minecraft:overworld')
     event.remove({ id: 'modern_industrialization:quarry/bronze' })
     event.recipes.modern_industrialization.quarry(4, 600) //Eu, ticks
