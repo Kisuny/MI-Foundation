@@ -264,6 +264,12 @@
     "advancement.kubejs.witch_cauldron.title" : "Cauldron of Opportunity",
     "advancement.kubejs.witch_cauldron.desc" : "Create a witch's cauldron",
 
+    "advancement.kubejs.broken_mob_spawner.title" : "Spawner Destroyer",
+    "advancement.kubejs.broken_mob_spawner.desc" : "Get the Broken mob spawner.",
+
+    "advancement.kubejs.tears_of_the_sea.title": "Stir up the sea",
+    "advancement.kubejs.tears_of_the_sea.desc": "Are you sure it's not a curse?",
+
     "mif_addon.bee.tooltip": "You can catch by pressing RMB «Scoop» on the Bee, you can also automatically catch using the dispenser and Scoop in it",
     "mif_addon.beehemoth.tooltip": "You can catch by pressing RMB «Scoop» on the Beehemoth, you can also automatically catch using the dispenser and Scoop in it",
     "mif_addon.treeaxe.tooltip": "Tree Axe can be buy from a Goblin merchant",
