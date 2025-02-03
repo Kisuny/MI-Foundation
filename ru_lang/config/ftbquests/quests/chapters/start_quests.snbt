@@ -605,7 +605,7 @@
 				Count: 1b
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "lootr:textures/item/crown.png"
+					Icon: "lootr:textures/logo.png"
 				}
 			}
 			id: "6D88A3D835DFAD91"
