@@ -2261,6 +2261,7 @@
 				"3877FD4F24D92304"
 				"3D28572AD9317891"
 			]
+			dependency_requirement: "all_started"
 			description: [
 				"A chest bound to copies of itself with the same &#DEB3E0rune&r code. Both chests must be &#FEECD6loaded&r in order to work."
 				""
@@ -2268,6 +2269,8 @@
 				""
 				"&#FEECD6Hint&r: any player that knows your &4<shake>c</shake>&r&6<shake>o</shake>&r&e<shake>l</shake>&r&2<shake>o</shake>&r&b<shake>r</shake>&r code could access your entangled chest. Use a &#b9f2ffdiamond&r on the center of an entangled chest to make it &#DEB3E0private&r."
 			]
+			hide: true
+			hide_details_until_startable: true
 			id: "23A6A609EE447218"
 			rewards: [
 				{
@@ -2297,6 +2300,7 @@
 				"3877FD4F24D92304"
 				"3D28572AD9317891"
 			]
+			dependency_requirement: "all_started"
 			description: [
 				"A tank bound to copies of itself with the same &#DEB3E0rune&r code. Both tanks must be &#FEECD6loaded&r in order to work."
 				""
@@ -2304,6 +2308,8 @@
 				""
 				"&#FEECD6Hint&r: any player that knows your &4<shake>c</shake>&r&6<shake>o</shake>&r&e<shake>l</shake>&r&2<shake>o</shake>&r&b<shake>r</shake>&r code could access your entangled tank. Use a &#b9f2ffdiamond&r on the center of an entangled tank to make it &#DEB3E0private&r."
 			]
+			hide: true
+			hide_details_until_startable: true
 			id: "62BB9D5A8A9DD181"
 			rewards: [
 				{
@@ -2652,6 +2658,7 @@
 		{
 			dependencies: ["3877FD4F24D92304"]
 			description: [""]
+			hide: true
 			id: "3BD3C6E13574056F"
 			rewards: [{
 				id: "4E21FEF72FC7F75D"
@@ -2704,6 +2711,7 @@
 		{
 			dependencies: ["3877FD4F24D92304"]
 			description: [""]
+			hide: true
 			id: "5A28D1588A55FAE8"
 			rewards: [{
 				count: 2
