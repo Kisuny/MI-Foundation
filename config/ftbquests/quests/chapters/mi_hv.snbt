@@ -415,8 +415,8 @@
 				item: "modern_industrialization:digital_circuit"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -18.5d
+			x: 16.0d
+			y: -19.0d
 		}
 		{
 			dependencies: ["6B4332CD6E294B8B"]
@@ -3396,5 +3396,5 @@
 			y: -1.0d
 		}
 	]
-	title: "&7Space program | HV"
+	title: "Space program | HV"
 }
