@@ -11,9 +11,9 @@ preventDespawnIfNamed = false
 	#The amount of ticks before the trader will replenish it's trades. Set to -1 to disable restocking
 	restockDelay = -1
 	#The amount of ticks before the trader will spawn again
-	traderSpawnDelay = 96000
+	traderSpawnDelay = 48000
 	#The chance out of one hundred that the trader will spawn in the over world
-	traderSpawnChance = 5
+	traderSpawnChance = 20
 	#Goblins will make a grunt noise while walking around. If you find it happening too often, you can increase the interval. Value is represented in ticks.
 	gruntNoiseInterval = 80
 
@@ -69,9 +69,9 @@ preventDespawnIfNamed = false
 	#The amount of ticks before the trader will replenish it's trades. Set to -1 to disable restocking
 	restockDelay = -1
 	#The amount of ticks before the trader will spawn again
-	traderSpawnDelay = 96000
+	traderSpawnDelay = 48000
 	#The chance out of one hundred that the trader will spawn in the over world
-	traderSpawnChance = 5
+	traderSpawnChance = 20
 	#Goblins will make a grunt noise while walking around. If you find it happening too often, you can increase the interval. Value is represented in ticks.
 	gruntNoiseInterval = 80
 
