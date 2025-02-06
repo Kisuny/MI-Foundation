@@ -461,8 +461,8 @@
 				item: "kibe:pocket_crafting_table"
 				type: "item"
 			}]
-			x: -3.9000000000000057d
-			y: 3.000000000000014d
+			x: -4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -1163,6 +1163,24 @@
 			}]
 			x: -10.0d
 			y: -0.5d
+		}
+		{
+			dependencies: ["08FC12B517294C1C"]
+			description: ["Позволяет &6торговать&r со всеми &6жителями&r в большом радиусе в &lодном интерфейсе&r."]
+			id: "76CB10A12034FA4D"
+			rewards: [{
+				count: 14
+				id: "3A1F4E7AE5516672"
+				item: "numismatic-overhaul:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1FA2D0C3D32805C5"
+				item: "tradingpost:trading_post"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
 		}
 	]
 	title: "&7First steps"

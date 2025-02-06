@@ -300,6 +300,11 @@
 			]
 			hide: true
 			id: "21097A489C4AACB1"
+			rewards: [{
+				id: "5B4FB9D45C145358"
+				item: "kubejs:magic_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 0.8d
 			tasks: [{
@@ -319,6 +324,11 @@
 			]
 			hide: true
 			id: "792FD9BACA43CC9D"
+			rewards: [{
+				id: "189C7811C6BE02C0"
+				item: "kubejs:magic_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 0.8d
 			tasks: [{
@@ -335,6 +345,11 @@
 			description: [""]
 			hide: true
 			id: "2713E99A752398D4"
+			rewards: [{
+				id: "48614FD9882C7C80"
+				item: "kubejs:magic_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 0.8d
 			subtitle: "Can be bought from a vassal in a village"
@@ -351,6 +366,11 @@
 			description: ["Occult clothing."]
 			hide: true
 			id: "5EBB19BC3428B26C"
+			rewards: [{
+				id: "158A00B66A0C4511"
+				item: "kubejs:magic_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 0.8d
 			subtitle: "Can be bought from a vassal in a village"
@@ -398,6 +418,11 @@
 			description: [""]
 			hide: true
 			id: "1F592EE106CF3A0E"
+			rewards: [{
+				id: "00A369208EE19A6F"
+				item: "kubejs:magic_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 0.8d
 			subtitle: "Can be bought from a vassal in the villages"
@@ -622,6 +647,11 @@
 			description: ["A custom banner pattern. Can be used in a Loom."]
 			hide: true
 			id: "307EB635F0650331"
+			rewards: [{
+				id: "707D9A9ABDF4918C"
+				item: "kubejs:magic_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 0.8d
 			subtitle: "Can be bought from a vassal in a village"
@@ -638,6 +668,11 @@
 			description: ["Required to make Octograms."]
 			hide: true
 			id: "2B766E494F49C0E6"
+			rewards: [{
+				id: "244DE3FE41BD1499"
+				item: "kubejs:magic_lootbag_uncommon"
+				type: "item"
+			}]
 			tasks: [{
 				id: "38999EDEC1FC7745"
 				item: {
@@ -731,6 +766,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "6FA72BDA58065CFB"
+			rewards: [{
+				id: "11EB087277B17C07"
+				item: "kubejs:magic_lootbag_rare"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 3.0d
 			tasks: [{
@@ -747,6 +787,11 @@
 			description: ["&9With a small chance&r, &8infected wheat&r can grow from regular wheat. Also, by using &8infected wheat&r you can &8infect&r other grown wheat in the radius!"]
 			hide: true
 			id: "4A384EA7B1E04203"
+			rewards: [{
+				id: "141FC6B73DACA3E5"
+				item: "kubejs:magic_lootbag_uncommon"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5C3F04B186A5A380"
 				item: "miskatonicmysteries:infested_wheat"
