@@ -1,10 +1,3 @@
-
-function rotxy(p1,p2) {
-    let a = (p1**3);
-    let b = (p2**3);
-    return Math.abs(a-b)
-}
-
 const fission = [
     {
         input: helium,
