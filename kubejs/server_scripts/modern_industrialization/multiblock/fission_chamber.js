@@ -588,7 +588,7 @@ const fission = [
 
 ServerEvents.recipes(event => {
     fission.forEach((atom,i) => {
-        event.recipes.modern_industrialization.fission_chamber(0.15 * (1.15**((130-i)))+3200, 200)
+        event.recipes.modern_industrialization.fission_chamber(0.15 * (1.15**((130-i)))+1024, 40)
             .itemIn(atom.input)
             .itemIn('kubejs:neutron_pile')
             .itemOut(atom.output[0])
