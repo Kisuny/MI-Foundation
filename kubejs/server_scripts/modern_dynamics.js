@@ -38,7 +38,7 @@ ServerEvents.recipes(event => {
         'gIG',
         'WCW'
     ], {
-        C: 'modern_industrialization:analog_circuit',
+        C: 'modern_industrialization:bronze_plate',
         g: 'neepmeat:fluid_gauge',
         G: 'neepmeat:item_gauge',
         W: 'wiredredstone:red_alloy_wire',
@@ -46,25 +46,29 @@ ServerEvents.recipes(event => {
     })
 
     event.remove({ id: 'moderndynamics:extractor' })
-    event.shaped('4x moderndynamics:extractor', [
-        'WpW',
-        'PIP',
-        'WpW'
+    event.shaped('6x moderndynamics:extractor', [
+        'WCW',
+        'gIG',
+        'WPW'
     ], {
-        p: 'modern_industrialization:piston',
+        g: 'neepmeat:fluid_gauge',
+        G: 'neepmeat:item_gauge',
+        C: 'modern_industrialization:bronze_plate',
         P: 'modern_industrialization:pump',
         W: 'wiredredstone:red_alloy_wire',
         I: 'moderndynamics:inhibitor',
     })
 
     event.remove({ id: 'moderndynamics:attractor' })
-    event.shaped('4x moderndynamics:attractor', [
+    event.shaped('6x moderndynamics:attractor', [
         'WCW',
-        'DID',
-        'WCW'
+        'gIG',
+        'WPW'
     ], {
+        g: 'neepmeat:fluid_gauge',
+        G: 'neepmeat:item_gauge',
         C: 'modern_industrialization:electronic_circuit',
-        D: 'ae2:ender_dust',
+        P: 'modern_industrialization:pump',
         W: 'wiredredstone:red_alloy_wire',
         I: 'moderndynamics:inhibitor',
     })
