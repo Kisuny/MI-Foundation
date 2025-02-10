@@ -474,8 +474,8 @@
 				item: "kibe:pocket_crafting_table"
 				type: "item"
 			}]
-			x: -3.9000000000000057d
-			y: 3.000000000000014d
+			x: -4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -1171,6 +1171,24 @@
 			x: -10.0d
 			y: -0.5d
 		}
+		{
+			dependencies: ["08FC12B517294C1C"]
+			description: ["allows you to &6trade&r with all &6villagers&r at once in a &lsingle interface&r!"]
+			id: "36CBF2ECE6AC3C54"
+			rewards: [{
+				count: 14
+				id: "0C4B80A98AFE138E"
+				item: "numismatic-overhaul:silver_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25C669DC04854D52"
+				item: "tradingpost:trading_post"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
 	]
-	title: "&7First steps"
+	title: "First steps"
 }

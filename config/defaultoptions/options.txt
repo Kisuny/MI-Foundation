@@ -38,7 +38,7 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","Fabric Mods","minecraft/supporteatinganimation","charmonium/journeyman","Spectral Decorations Overrides","loadmyresources.hiddenpack","file/FreshAnimations_v1.8.zip","file/boss-refreshed-v1.4.zip","file/xali\u0027s Enhanced Vanilla -1.11.2b-rev.54d51d4.zip"]
+resourcePacks:["vanilla","Fabric Mods","minecraft/supporteatinganimation","charmonium/journeyman","Spectral Decorations Overrides","loadmyresources.hiddenpack","file/FreshAnimations_v1.8.zip","file/boss-refreshed-v1.4.zip","file/xali\u0027s Enhanced Vanilla -1.11.2b-rev.54d51d4.zip","file/MI Item Retextured.zip","file/MI Machines Retextured.zip"]
 incompatibleResourcePacks:["loadmyresources.hiddenpack","file/boss-refreshed-v1.4.zip","file/xali\u0027s Enhanced Vanilla -1.11.2b-rev.54d51d4.zip"]
 lastServer:
 lang:en_us

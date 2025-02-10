@@ -680,7 +680,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
@@ -715,7 +715,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
@@ -750,7 +750,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
@@ -785,7 +785,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
@@ -820,7 +820,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
@@ -855,7 +855,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
@@ -890,7 +890,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
@@ -925,7 +925,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
@@ -960,7 +960,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
@@ -995,7 +995,7 @@
 				type: "item"
 			}]
 			x: -0.6071428571428541d
-			y: -7.333673469387769d
+			y: -8.333673469387769d
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
@@ -1031,7 +1031,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
@@ -1066,7 +1066,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
@@ -1101,7 +1101,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["69F1CC5EF5C7C0B9"]
@@ -1141,7 +1141,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["69F1CC5EF5C7C0B9"]
@@ -1181,7 +1181,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["69F1CC5EF5C7C0B9"]
@@ -1219,7 +1219,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["69F1CC5EF5C7C0B9"]
@@ -1257,7 +1257,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
@@ -1301,7 +1301,7 @@
 				type: "item"
 			}]
 			x: 0.5357142857142847d
-			y: -7.3693877551020535d
+			y: -8.369387755102053d
 		}
 		{
 			dependencies: [
@@ -1339,7 +1339,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -8.0d
+			y: -9.0d
 		}
 		{
 			dependencies: [
@@ -1387,7 +1387,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -7.5d
+			y: -8.5d
 		}
 		{
 			dependencies: [
@@ -1435,7 +1435,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -7.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -1474,7 +1474,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -7.5d
+			y: -8.5d
 		}
 		{
 			dependencies: [
@@ -1522,7 +1522,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -7.0d
+			y: -8.0d
 		}
 		{
 			dependencies: [
@@ -1572,7 +1572,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -10.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["4CF87A97D88C83E0"]
@@ -1607,7 +1607,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["4CF87A97D88C83E0"]
@@ -1642,7 +1642,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4CF87A97D88C83E0"]
@@ -1677,7 +1677,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -2.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["3EC07E97251D3218"]
@@ -2579,7 +2579,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["68D1FA710C01D507"]
@@ -2625,7 +2625,7 @@
 				type: "checkmark"
 			}]
 			x: 1.5d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["553E6F83E4555C20"]
@@ -2650,7 +2650,7 @@
 				type: "checkmark"
 			}]
 			x: -1.5d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["68D1FA710C01D507"]
@@ -2809,8 +2809,8 @@
 				type: "observation"
 			}]
 			title: "Loot goblins"
-			x: -2.0d
-			y: 2.0d
+			x: 2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["68D1FA710C01D507"]
@@ -2857,9 +2857,231 @@
 				type: "structure"
 			}]
 			title: "Orc camp"
-			x: 2.0d
-			y: 2.0d
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["68D1FA710C01D507"]
+			description: [
+				"The &6Goblin Trader&r is rare in the &2overworld&r, it can appear randomly at any &lplace and &lY&r, it has many &l&6unique trades&r&r of the &2Overworld&r! "
+				""
+				"Traders are easy to spot by their grunts &d&l＼(￣(oo)￣)／&r&r"
+				""
+				"Keep in mind, the &6goblin trader&r will &calways disappear&r even if you rename it with the &eName tag&r."
+			]
+			id: "4AA5A45895F4CB42"
+			rewards: [{
+				id: "0E48B8CB802E8315"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-192445981
+								1423002116
+								-1961107611
+								454109682
+							]
+							Name: "Goblin"
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg2ZDQ0YTU2MDhmZWFjNTAwNWQ5MDYyZjViZDNiNjdkN2UzZDNiYzZhYjJjNmNhNWYxZjhmMjFlOGI5OThiNCJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"§7§cID: 63336\"}"
+								"{\"text\":\"§7§eFairy Tales,Head Cloth,Tooth Gap\"}"
+								"{\"text\":\"\"}"
+								"{\"text\":\"§7§8Right-Click to add/remove from favorites.\"}"
+							]
+							Name: "{\"text\":\"§7§bGoblin\"}"
+						}
+					}
+				}
+				id: "5D1F2D4E1862D265"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goblintraders:goblin_trader"
+				type: "observation"
+			}]
+			title: "Many goblins"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["68D1FA710C01D507"]
+			description: [
+				"The &6Goblin Trader&r is rare in the &4Nether&r, it can appear randomly at any &lplace and &lY&r, it has many &l&6unique trades&r&r of the &4Nether&r! "
+				""
+				"Traders are easy to spot by their grunts &d&l＼(￣(oo)￣)／&r&r"
+				""
+				"Keep in mind, the &6goblin trader&r will &calways disappear&r even if you rename it with the &eName tag&r."
+			]
+			id: "1BF794338B79E915"
+			rewards: [{
+				id: "5E9C3A4AB8EDB45A"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								2223501
+								-1969862317
+								-2088041888
+								-1722779516
+							]
+							Name: "Goblin"
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM1ODI3N2E1ZWNlOWIzYTFjMDQ3MWUxNzU1NmYwNmY0ZGVmYmJiZmMyMDVmMDdiM2UwMjEwMWYyNDgxZTIzNyJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"§7§cID: 63274\"}"
+								"{\"text\":\"§7§eFairy Tales,Who is this?,Hair (red),Dungeons and Dragons\"}"
+								"{\"text\":\"\"}"
+								"{\"text\":\"§7§8Right-Click to add/remove from favorites.\"}"
+							]
+							Name: "{\"text\":\"§7§bGoblin\"}"
+						}
+					}
+				}
+				id: "7AEA1968BE127F97"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goblintraders:vein_goblin_trader"
+				type: "observation"
+			}]
+			title: "Many Many goblins"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["68D1FA710C01D507"]
+			description: [
+				"&e&lSpawning&r&r — &9Rascals&r can spawn only underground in the &6mineshaft structure&r."
+				""
+				"&e&lBehaviour&r&r — Rascals wander randomly around in a mineshafts. If player gets close enough, rascal will acknowledge that player found it, repeated three times, rascal will give a &6&lbundle with the reward&r&r to the player."
+				""
+				"If &cdamaged&r by a mob or a player, rascal will disappear."
+			]
+			id: "01F0B1F6EE98020A"
+			rewards: [{
+				id: "1FF72371F4062EAD"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								204922475
+								1444170255
+								-1468201017
+								-938498290
+							]
+							Name: "Rascal Plushie"
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmE4NjJiMzY5NjYzMGFlMjg1N2JlOTZhYTY1ZThkMWI3ZTY0ODM1YTc0OTUyYjc2OGEyM2ZkMDQ3NjNhYTFmMSJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"§7§cID: 28394\"}"
+								"{\"text\":\"§7§ePetPlugin,Minecraft Live,Vanilla (removed),Figurine (Animal)\"}"
+								"{\"text\":\"\"}"
+								"{\"text\":\"§7§8Right-Click to add/remove from favorites.\"}"
+							]
+							Name: "{\"text\":\"§7§dRascal Plushie\"}"
+						}
+					}
+				}
+				id: "4346200BE3DC93E5"
+				observe_type: 5
+				timer: 0L
+				to_observe: "friendsandfoes:rascal"
+				type: "observation"
+			}]
+			title: "Minigame?!"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["68D1FA710C01D507"]
+			description: [
+				"&eMaulers&r spawn naturally above &2grass&r blocks or &#94632fdirt&r in savanna, &#94632fcoarse dirt&r or &#cf613ared sand&r in badlands or &#d1b760sand&r in desert."
+				""
+				"You can &5feed&r maulers by &l&eright clicking it with enchanted item/book&r&r. It will &ceat&r the given item/book and store the &dexperience points&r in it. When mauler does have stored any experience points you can right click on it with an &7&lempty glass bottle(s)&r&r and fill it with &dexperience&r, thus getting the &d&lBottle o' Enchanting&r&r."
+			]
+			id: "3E642DB5701F673F"
+			rewards: [{
+				id: "7593963FD37C06B1"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								921667584
+								-962576233
+								-1488811509
+								-523916081
+							]
+							Name: "Dinosaur"
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjUwNTk2YWI0OWU3MzAxZTVlN2EwOTdiYWYzYjFmNWVmOGQ3NmM2NjhjYzZjZDQxM2UzZTA4YjFjMTFmMDU0NiJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"§7§cID: 76600\"}"
+								"{\"text\":\"§7§eDinosaur,Crazy Creature\"}"
+								"{\"text\":\"\"}"
+								"{\"text\":\"§7§8Right-Click to add/remove from favorites.\"}"
+							]
+							Name: "{\"text\":\"§7§cDinosaur\"}"
+						}
+					}
+				}
+				id: "5424C337A595BB8D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "friendsandfoes:mauler"
+				type: "observation"
+			}]
+			title: "Ez exp"
+			x: 1.0d
+			y: 1.5d
 		}
 	]
-	title: "&7Exploring"
+	title: "Exploring"
 }

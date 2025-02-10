@@ -1,6 +1,6 @@
 CapeJS.addCapes(event => {
 	event.register('fc78a4f2-07f7-4a81-a849-00c4ea557394', 'dev') //Kisuny
-    event.register('fc78a4f2-07f7-4a81-a849-00c4ea557394', 'dev') //Kitsuny
+    event.register('b3e7d402-f2d7-4970-8e4a-a1eed5a47654', 'dev') //Kitsuny
     event.register('021797e9-f969-4580-a0a9-8287f01f23cc', 'dev') //Sipep
     event.register('9f201699-2517-49b5-a119-2b4aefa87b51', 'dev') //error1number404
     event.register('8f69574a-5834-4b7c-84bb-ae6da00b12a8', 'pack_slayer') //Tetrikitty

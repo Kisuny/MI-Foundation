@@ -2821,8 +2821,8 @@
 				type: "observation"
 			}]
 			title: "Лут гоблины"
-			x: -1.0d
-			y: 2.0d
+			x: 1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["68D1FA710C01D507"]
@@ -2870,7 +2870,227 @@
 			}]
 			title: "Лагерь орков"
 			x: 1.0d
-			y: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["68D1FA710C01D507"]
+			description: [
+				"&l&6Гоблин торговец&r&r встречается доволно редко в &4аду&r, он может появится случайным образом на любой высоте, он имеет множество &6уникальных трейдов&r &4ада&r! "
+				""
+				"Торговца легко обнаружить по его хрюканью &l&d＼(￣(oo)￣)／&r&r"
+				""
+				"Имейте ввиду, &6гоблин торговец&r исчезнет даже если вы переименуете его с помощью &eБирки&r"
+			]
+			id: "1E546B394B60667A"
+			rewards: [{
+				id: "252E51CA9DA6ABDE"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								2223501
+								-1969862317
+								-2088041888
+								-1722779516
+							]
+							Name: "Goblin"
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGM1ODI3N2E1ZWNlOWIzYTFjMDQ3MWUxNzU1NmYwNmY0ZGVmYmJiZmMyMDVmMDdiM2UwMjEwMWYyNDgxZTIzNyJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"7cID: 63274\"}"
+								"{\"text\":\"7eFairy Tales,Who is this?,Hair (red),Dungeons and Dragons\"}"
+								"{\"text\":\"\"}"
+								"{\"text\":\"78Right-Click to add/remove from favorites.\"}"
+							]
+							Name: "{\"text\":\"7bGoblin\"}"
+						}
+					}
+				}
+				id: "4B8656E276AE720E"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goblintraders:vein_goblin_trader"
+				type: "observation"
+			}]
+			title: "Ну реально правда много гоблинов"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["68D1FA710C01D507"]
+			description: [
+				"&l&6Гоблин торговец&r&r встречается доволно редко в &2обычном мире&r, он может появится случайным образом на любой высоте, он имеет множество &6уникальных трейдов&r &2обычного мира&r! "
+				""
+				"Торговца легко обнаружить по его хрюканью &l&d＼(￣(oo)￣)／&r&r"
+				""
+				"Имейте ввиду, &6гоблин торговец&r исчезнет даже если вы переименуете его с помощью &eБирки&r"
+			]
+			id: "72F974A7F757CBF1"
+			rewards: [{
+				id: "05D385D2FBF1C8CD"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-192445981
+								1423002116
+								-1961107611
+								454109682
+							]
+							Name: "Goblin"
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzg2ZDQ0YTU2MDhmZWFjNTAwNWQ5MDYyZjViZDNiNjdkN2UzZDNiYzZhYjJjNmNhNWYxZjhmMjFlOGI5OThiNCJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"7cID: 63336\"}"
+								"{\"text\":\"7eFairy Tales,Head Cloth,Tooth Gap\"}"
+								"{\"text\":\"\"}"
+								"{\"text\":\"78Right-Click to add/remove from favorites.\"}"
+							]
+							Name: "{\"text\":\"7bGoblin\"}"
+						}
+					}
+				}
+				id: "236B135FF966DA4D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "goblintraders:goblin_trader"
+				type: "observation"
+			}]
+			title: "Гоблины, они повсюду"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["68D1FA710C01D507"]
+			description: [
+				"&eРаскалы&r могут появиться только под землей в структуре «&6заброшенная шахта&r»."
+				""
+				"Раскалы случайно бродят по шахтам. Если игрок подойдет достаточно близко, раскал подтвердит, что ты нашел его, повторив это три раза, раскал отдаст игроку &6&lмешок с наградой&r&r."
+				""
+				"Если его &cударит&r моб или игрок, раскал исчезнет."
+			]
+			id: "44F4968068C5E898"
+			rewards: [{
+				id: "5C03C7842E4EDF9F"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								204922475
+								1444170255
+								-1468201017
+								-938498290
+							]
+							Name: "Rascal Plushie"
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmE4NjJiMzY5NjYzMGFlMjg1N2JlOTZhYTY1ZThkMWI3ZTY0ODM1YTc0OTUyYjc2OGEyM2ZkMDQ3NjNhYTFmMSJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"7cID: 28394\"}"
+								"{\"text\":\"7ePetPlugin,Minecraft Live,Vanilla (removed),Figurine (Animal)\"}"
+								"{\"text\":\"\"}"
+								"{\"text\":\"78Right-Click to add/remove from favorites.\"}"
+							]
+							Name: "{\"text\":\"7dRascal Plushie\"}"
+						}
+					}
+				}
+				id: "4917779703ACAF53"
+				observe_type: 5
+				timer: 0L
+				to_observe: "friendsandfoes:rascal"
+				type: "observation"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["68D1FA710C01D507"]
+			description: [
+				"Маулеры появляются в естественных условиях над &2травяными&r блоками или &#94632fгрязью&r в саванне, &#94632fкаменистой земле&r или &#cf613aкрасном песке&r в бедленде или в &#d1b760песке&r в пустыне."
+				""
+				"Вы можете &5накормить&r маулера, &e&lщелкнув ПКМ с зачарованным предметом/книгой&r&r. Он &cсъест&r данный предмет/книгу и накопит из неё &dочки опыта&r. Когда маулер накопит очки опыта, вы можете щелкнуть на нем ПКМ &7пустой стеклянной бутылкой&r и наполнить ее &dопытом&r, получив таким образом &dБутылочку опыта&r."
+			]
+			id: "406AA4962B69DAF5"
+			rewards: [{
+				id: "3522884706977F26"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								921667584
+								-962576233
+								-1488811509
+								-523916081
+							]
+							Name: "Dinosaur"
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjUwNTk2YWI0OWU3MzAxZTVlN2EwOTdiYWYzYjFmNWVmOGQ3NmM2NjhjYzZjZDQxM2UzZTA4YjFjMTFmMDU0NiJ9fX0="
+								}]
+							}
+						}
+						display: {
+							Lore: [
+								"{\"text\":\"7cID: 76600\"}"
+								"{\"text\":\"7eDinosaur,Crazy Creature\"}"
+								"{\"text\":\"\"}"
+								"{\"text\":\"78Right-Click to add/remove from favorites.\"}"
+							]
+							Name: "{\"text\":\"7cDinosaur\"}"
+						}
+					}
+				}
+				id: "7F95395AED1FF3F2"
+				observe_type: 5
+				timer: 0L
+				to_observe: "friendsandfoes:mauler"
+				type: "observation"
+			}]
+			x: 1.0d
+			y: 1.5d
 		}
 	]
 	title: "&7Exploring"

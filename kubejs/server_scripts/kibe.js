@@ -331,25 +331,7 @@ ServerEvents.recipes(event => {
         },
         advancement: "spectrum:craft_cmy_pedestal"
     });
-    customPedestalCraft(event, {
-        tier: "advanced", time: 2800, citrine:32, onyx: 16, experience: 5.0, yield_upgrades: true,
-        pattern: [
-            " R ",
-            "QEQ",
-            "QWQ"
-        ],
-        keys: {
-            "Q": { "tag": "minecraft:overworld_natural_logs" },
-            "W": { "item": "mythicmetals:midas_gold_block" },
-            "E": { "item": "bosses_of_mass_destruction:mob_ward" },
-            "R": { "item": "kubejs:crystal_fiery" },
-        },
-        result: {
-            "item": "kibe:big_torch",
-            "count": 1
-        },
-        advancement: "spectrum:midgame/spectrum_midgame"
-    });
+    
     // customPedestalCraft(event, {
     //     tier: "simple", time: 600, amethyst: 8, experience: 1.0,
     //     pattern: [

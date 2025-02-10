@@ -53,7 +53,7 @@
     "kubejs.zotzpyre_fang.tooltip": "🗡 Can be obtained from a «Zotzpyre» by killing him with the looting",
     "kubejs.zotzpyre_flesh.tooltip": "🗡 Drops when killing the summoned mini-boss «Zotzpyre»",
     "kubejs.moth_wings.tooltip": "🗡 Drops when you kill a moth",
-    "kubejs.tears_of_the_sea.tooltip": "🎣 Small chance of obtaining when fishing.",
+    "kubejs.tears_of_the_sea.tooltip": "🎣 Small chance of obtaining when fishing.\n🧪 buy from the Goblin trader",
     "kubejs.star_core.tooltip": "★ Obtained from shooting stars ★",
     "kubejs.crystal_fiery.tooltip": "🗡 Drops when you kill a «Blaze guardian»",
     "kubejs.warthog_shell_piece.tooltip": "🗡 Dropped when killing an Enderwarthog",
@@ -264,9 +264,16 @@
     "advancement.kubejs.witch_cauldron.title" : "Cauldron of Opportunity",
     "advancement.kubejs.witch_cauldron.desc" : "Create a witch's cauldron",
 
+    "advancement.kubejs.broken_mob_spawner.title" : "Spawner Destroyer",
+    "advancement.kubejs.broken_mob_spawner.desc" : "Get the Broken mob spawner.",
+
+    "advancement.kubejs.tears_of_the_sea.title": "Stir up the sea",
+    "advancement.kubejs.tears_of_the_sea.desc": "Are you sure it's not a curse?",
+
     "mif_addon.bee.tooltip": "You can catch by pressing RMB «Scoop» on the Bee, you can also automatically catch using the dispenser and Scoop in it",
     "mif_addon.beehemoth.tooltip": "You can catch by pressing RMB «Scoop» on the Beehemoth, you can also automatically catch using the dispenser and Scoop in it",
-    "mif_addon.treeaxe.tooltip": "Tree Axe can be buy from a Goblin merchant"
+    "mif_addon.treeaxe.tooltip": "Tree Axe can be buy from a Goblin merchant",
+    "mif_addon.naturescompass.tooltip": "Get the «Clump of microoranisms» discovery."
 
 
 }

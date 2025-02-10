@@ -2205,5 +2205,9 @@
   "ae2:pink_covered_dense_cable": 0,
   "ad_astra:calorite_sliding_door": 0,
   "exco:processor_ender": 0,
-  "modern_industrialization:nickel_nugget": 0
+  "modern_industrialization:nickel_nugget": 0,
+  "modern_industrialization:indium_dust": 0,
+  "modern_industrialization:indium_ingot": 0,
+  "modern_industrialization:indium_plate": 0,
+  "modern_industrialization:indium_nugget": 0
 }
