@@ -1157,9 +1157,9 @@ ServerEvents.recipes(event => {
     const molecular_deconstructor = (element) => {
         let ev = ''
         if (element.isFluid) {
-            ev = `event.recipes.modern_industrialization.molecular_deconstructor(4096, ${element.count*600}).fluidIn('${element.id}',${element.count*144})`
+            ev = `event.recipes.modern_industrialization.molecular_deconstructor(1024, ${element.count*10}).fluidIn('${element.id}',${element.count*144})`
         } else {
-            ev = `event.recipes.modern_industrialization.molecular_deconstructor(4096, ${element.count*600}).itemIn('${element.id}')`
+            ev = `event.recipes.modern_industrialization.molecular_deconstructor(1024, ${element.count*10}).itemIn('${element.id}')`
         }
         let iO = '';
         for (let i = 0; i < element.formula.length; i++) {
@@ -1183,10 +1183,10 @@ ServerEvents.recipes(event => {
         let ev = ''
         if (element.isFluid) {
             iO = `.fluidOut('${element.id}',${element.count*144})`
-            ev = `event.recipes.modern_industrialization.particle_manipulator(8192, ${element.count*600}).fluidIn("${id}",1).itemIn('modern_industrialization:cooling_cell',0)`
+            ev = `event.recipes.modern_industrialization.particle_manipulator(1024, ${element.count*20}).fluidIn("${id}",1).itemIn('modern_industrialization:cooling_cell',0)`
         } else {
             iO = `.itemOut('${element.id}')`
-            ev = `event.recipes.modern_industrialization.particle_manipulator(8192, ${element.count*600}).itemIn("${id}",0).fluidIn('neepmeat:charged_work_fluid',1)`
+            ev = `event.recipes.modern_industrialization.particle_manipulator(1024, ${element.count*20}).itemIn("${id}",0).fluidIn('neepmeat:charged_work_fluid',1)`
         }
         for (let i = 0; i < element.formula.length; i++) {
             if (element.formula[i].length == 1) {
