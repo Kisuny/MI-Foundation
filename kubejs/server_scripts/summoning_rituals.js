@@ -31,6 +31,21 @@ ServerEvents.recipes(event => {
         .dayTime('night')
         .itemOutput("kubejs:kindling_heart")
 
+
+    event.recipes.summoningrituals
+        .altar("minecraft:golden_apple")
+        .input("2x numismatic-overhaul:gold_coin")
+        .input("minecraft:wheat_seeds")
+        .recipeTime(600)
+        .mobOutput("goblintraders:goblin_trader")
+
+    event.recipes.summoningrituals
+        .altar("minecraft:golden_apple")
+        .input("2x numismatic-overhaul:gold_coin")
+        .input("minecraft:nether_wart")
+        .recipeTime(600)
+        .mobOutput("goblintraders:vein_goblin_trader")
+
     event.recipes.summoningrituals
         .altar('minecraft:torch')
         .mobOutput(
