@@ -122,7 +122,11 @@
 	quests: [
 		{
 			dependencies: ["655FCBA5BCD261EC"]
-			description: ["Use the &4&lSummoning Altar&r&r to get the creatures you need."]
+			description: [
+				"Use the &4&lSummoning Altar&r&r to get the creatures you need."
+				"{@pagebreak}"
+				"Воспользуйся &4&lАлтарём призыва&r&r, чтобы получить то существо, что тебе нужно"
+			]
 			id: "3717E2E8EC5DB9CE"
 			rewards: [{
 				id: "498317C2C2CD1F35"
@@ -145,6 +149,10 @@
 				"If you kill a Zozpyrus, you can get some of its flesh!"
 				""
 				"Zozpyrus can be summoned at the summoning altar!"
+				"{@pagebreak}"
+				"Убив зоцпира можно получить немного его плоти!"
+				""
+				"Зоцпира можно призвать на алтаре призыва!"
 			]
 			hide_dependency_lines: true
 			id: "7ED305543F610D6C"
@@ -168,7 +176,11 @@
 		}
 		{
 			dependencies: ["3717E2E8EC5DB9CE"]
-			description: ["Leshon can be summoned at the summoning altar!"]
+			description: [
+				"Leshon can be summoned at the summoning altar!"
+				"{@pagebreak}"
+				"Лешего можно призвать на алтаре призыва!"
+			]
 			hide_dependency_lines: true
 			id: "63ACA9F95A08D31A"
 			rewards: [{
@@ -201,6 +213,10 @@
 				"By killing an orc you can get a rare orc skin for further crafting!"
 				""
 				"Orc can be summoned at the summoning altar!"
+				"{@pagebreak}"
+				"Убив орка вы сможете получить редкую кожу орка для дальнейших крафтов!"
+				""
+				"Орка можно призвать на алтаре призыва!"
 			]
 			hide_dependency_lines: true
 			id: "66E4AA6980F7D436"
@@ -228,6 +244,10 @@
 				"When you kill a blackstone golem, you have a 50% chance to take its heart!"
 				""
 				"The golem can be summoned at the summoning altar!"
+				"{@pagebreak}"
+				"Убив чернитого голема, есть 50% шанс забрать его сердце!"
+				""
+				"Голема можно призвать на алтаре призыва!"
 			]
 			hide_dependency_lines: true
 			icon: "adventurez:stone_golem_heart"
@@ -251,7 +271,11 @@
 		}
 		{
 			dependencies: ["3717E2E8EC5DB9CE"]
-			description: ["The Guardian of the Flame can be summoned at the summoning altar!"]
+			description: [
+				"The Guardian of the Flame can be summoned at the summoning altar!"
+				"{@pagebreak}"
+				"Стража Пламени можно призвать на алтаре призыва!"
+			]
 			hide_dependency_lines: true
 			id: "6D787B2E2327DCCE"
 			rewards: [{
@@ -272,7 +296,11 @@
 		}
 		{
 			dependencies: ["3717E2E8EC5DB9CE"]
-			description: ["Ender Warthog can be summoned at the summoning altar!"]
+			description: [
+				"Ender Warthog can be summoned at the summoning altar!"
+				"{@pagebreak}"
+				"Эндер-Бородавочника можно призвать на алтаре призыва!"
+			]
 			hide_dependency_lines: true
 			id: "3583D5A2ADB31747"
 			rewards: [{
@@ -295,7 +323,11 @@
 		}
 		{
 			dependencies: ["3717E2E8EC5DB9CE"]
-			description: ["The Nether Gauntlet cannot be found in &4Nether&r, &n<shake>but</shake>&r it is possible to summon it by aliving the &cFire Gauntlet&r with &5magic&r, and throwing it out in &4Nether&r!"]
+			description: [
+				"The Nether Gauntlet cannot be found in &4Nether&r, &n<shake>but</shake>&r it is possible to summon it by aliving the &cFire Gauntlet&r with &5magic&r, and throwing it out in &4Nether&r!"
+				"{@pagebreak}"
+				"Адскую перчатку невозможно найти в аду, <shake>но</shake> возможно её призвать, оживив огненную перчатку магией, и выкинув её в аду!"
+			]
 			hide_dependency_lines: true
 			id: "2F010344049170CB"
 			rewards: [{
@@ -342,6 +374,12 @@
 				"Undead have a chance to drop a soul star that will lead you to the dungeon!"
 				""
 				"{image:quest_images:textures/item/lich_tower.png width:200 height:200 align:1}"
+				"{@pagebreak}"
+				"Можно призвать найдя ледяную башню!"
+				""
+				"Из нежити есть шанс выпадения звезды душ, которая приведёт вас к данжу!"
+				""
+				"{image:quest_images:textures/item/lich_tower.png width:200 height:200 align:1}"
 			]
 			hide_dependency_lines: true
 			icon: "bosses_of_mass_destruction:ancient_anima"
@@ -370,6 +408,10 @@
 				"Obsidalite's summoning location can be found in the end, on the islands!"
 				""
 				"{image:quest_images:textures/item/obsidilith_arena.png width:200 height:200 align:1}"
+				"{@pagebreak}"
+				"Место призыва обсидалита можно найти в энде, на островах!"
+				""
+				"{image:quest_images:textures/item/obsidilith_arena.png width:200 height:200 align:1}"
 			]
 			hide_dependency_lines: true
 			id: "52A6CBCB4B5F2F94"
@@ -395,6 +437,10 @@
 			dependencies: ["3717E2E8EC5DB9CE"]
 			description: [
 				"The Void Blossom exists in overworld, deep in a mine, the dew from the Void Lily leads directly to his lair!"
+				""
+				"{image:quest_images:textures/item/void_blossom.png width:200 height:200 align:1}"
+				"{@pagebreak}"
+				"Цветок пустоты существует в обычном мире, глубого в шахте, росса из лилии пустоты ведет прямо к нему в логово!"
 				""
 				"{image:quest_images:textures/item/void_blossom.png width:200 height:200 align:1}"
 			]
@@ -425,7 +471,13 @@
 				""
 				"Hirschgeist can be summoned at the summoning altar."
 				""
-				"P.S. You need to summon wisps to get ghost lights! "
+				"P.S. You need to summon wisps to get ghost lights!"
+				"{@pagebreak}"
+				"Вы получите сердце за Хиршгейста его убийство!"
+				""
+				"Хиршгейста можно призвать на алтаре призыва."
+				""
+				"P.S. для получения призрачных огней необходимо призвать призрачных огоньков! "
 			]
 			hide_dependency_lines: true
 			id: "6F9BF123A3A98426"
@@ -460,6 +512,10 @@
 				"the wisp has no full model, make sure you have particle display enabled."
 				""
 				"ghost fire has a &4chance&r to drop from this mob."
+				"{@pagebreak}"
+				"примечание: "
+				"огонёк не имеет полноценной модели, убедись что у тебя включено отображение партиклов."
+				"призрачный огонь с &4шансом &fдропается с этого моба."
 			]
 			hide_dependency_lines: true
 			id: "6A6126776142FAD1"

@@ -40,6 +40,11 @@
 				"&bTears of the Sea&r are the main material for creating fishing rods with the ability to catch &csea creatures&r. These &ccreatures&r can be quite different - from &bnormal&r sea animals to &cevil&r monsters, which can &4kill you&r."
 				""
 				"&6Different creatures can also drop a lot of useful loot.&r"
+				""
+				"{@pagebreak}"
+				"&bСлёзы моря&r — основной материал для создания удочек с возможностью поимки &cморских существ&r, &cсущества&r могут быть совершенно разные, как и &bобычные морские&r, так и &cзлобные&r, которые могут вас &4убить&r."
+				""
+				"&6С разных существ так же падает очень много полезного лута для развития.&r"
 			]
 			hide: true
 			id: "6DA17633D03E09E0"
@@ -65,6 +70,11 @@
 				"This &6Modpack&r radically changes the concept of &9fishing&r, in its development we were inspired by games such as &eStardew Valley&r and &aTerraria&r. "
 				""
 				"Those that know &9fishing&r in these games will immediately &eunderstand&r this :^)"
+				""
+				"{@pagebreak}"
+				"&6Сборка&r кардинально меняет концепцию &9рыбалки&r, при её разработке мы вдохновлялись такими играми как &eStardew Valley&r, &aTerraria&r. "
+				""
+				"Кому удавалось взаимодействовать с &9рыбалкой&r в этих играх, сразу &eпоймёт&r что к чему :^)"
 			]
 			hide: true
 			id: "7E3C5F934FB5E112"
@@ -86,7 +96,11 @@
 		}
 		{
 			dependencies: ["6DA17633D03E09E0"]
-			description: ["&bLagoon rod&r allows you to catch &csea creatures&r in normal &bliquids&r."]
+			description: [
+				"&bLagoon rod&r allows you to catch &csea creatures&r in normal &bliquids&r."
+				"{@pagebreak}"
+				"&bУдочка Лагуны&r позволяет ловить &cморских существ&r в обычных &bжидкостях&r. "
+			]
 			hide: true
 			id: "19CBDDF776398B6E"
 			rewards: [
@@ -133,7 +147,11 @@
 		}
 		{
 			dependencies: ["6DA17633D03E09E0"]
-			description: ["&6Molten rod&r allows you to catch sea creatures in hot liquids."]
+			description: [
+				"&6Molten rod&r allows you to catch sea creatures in hot liquids."
+				"{@pagebreak}"
+				"&6Расплавленная удочка&r позволяет вам заниматься рыбалкой в огненных жидкостях, будь то лава или еще, нечто похожее на лаву. "
+			]
 			hide: true
 			id: "38ED3732F6AA8274"
 			rewards: [
@@ -180,6 +198,10 @@
 				"The quest arrows &nindicate&r which &6artifact&r can be obtained from which &9liquid&r!"
 				""
 				"&n&eTIP:&r&r You can look at the conditions of obtaining a &6trinket&r directly by using «&9CTRL&r»!"
+				"{@pagebreak}"
+				"Стрелочки квеста &nуказывают&r на то, какой &6артефакт&r можно получить из этой &9жидкости&r!"
+				""
+				"&n&eСОВЕТ:&r&r Рекомендуем смотреть условия получения &6безделушки&r прям на ней, используя «&9CTRL&r»!"
 			]
 			hide: true
 			id: "50A0CC42DCF80CDA"
@@ -197,6 +219,11 @@
 				"The quest arrows &nindicate&r which &6artifact&r can be obtained from which &9liquid&r!"
 				""
 				"&n&eTIP:&r&r You can look at the conditions of obtaining a &6trinket&r directly by using «&9CTRL&r»!"
+				""
+				"{@pagebreak}"
+				"Стрелочки квеста &nуказывают&r на то, какой &6артефакт&r можно получить из этой &9жидкости&r!"
+				""
+				"&n&eСОВЕТ:&r&r Рекомендуем смотреть условия получения &6безделушки&r прям на ней, используя «&9CTRL&r»!"
 			]
 			hide: true
 			id: "714C71D114BC0DA9"
@@ -214,6 +241,10 @@
 				"The quest arrows &nindicate&r which &6artifact&r can be obtained from which &9liquid&r!"
 				""
 				"&n&eTIP:&r&r You can look at the conditions of obtaining a &6trinket&r directly by using «&9CTRL&r»!"
+				"{@pagebreak}"
+				"Стрелочки квеста &nуказывают&r на то, какой &6артефакт&r можно получить из этой &9жидкости&r!"
+				""
+				"&n&eСОВЕТ:&r&r Рекомендуем смотреть условия получения &6безделушки&r прям на ней, используя «&9CTRL&r»!"
 			]
 			hide: true
 			id: "501C48EFBF3B31FC"
@@ -231,6 +262,10 @@
 				"The quest arrows &nindicate&r which &6artifact&r can be obtained from which &9liquid&r!"
 				""
 				"&n&eTIP:&r&r You can look at the conditions of obtaining a &6trinket&r directly by using «&9CTRL&r»!"
+				"{@pagebreak}"
+				"Стрелочки квеста &nуказывают&r на то, какой &6артефакт&r можно получить из этой &9жидкости&r!"
+				""
+				"&n&eСОВЕТ:&r&r Рекомендуем смотреть условия получения &6безделушки&r прям на ней, используя «&9CTRL&r»!"
 			]
 			hide: true
 			id: "0976F72B3B8D2466"
@@ -248,6 +283,10 @@
 				"The quest arrows &nindicate&r which &6artifact&r can be obtained from which &9liquid&r!"
 				""
 				"&n&eTIP:&r&r You can look at the conditions of obtaining a &6trinket&r directly by using «&9CTRL&r»!"
+				"{@pagebreak}"
+				"Стрелочки квеста &nуказывают&r на то, какой &6артефакт&r можно получить из этой &9жидкости&r!"
+				""
+				"&n&eСОВЕТ:&r&r Рекомендуем смотреть условия получения &6безделушки&r прям на ней, используя «&9CTRL&r»!"
 			]
 			hide: true
 			id: "055CA1BEE1714FF9"
@@ -261,7 +300,11 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
-			description: ["Can be caught in &eany biome&r and &edimension&r."]
+			description: [
+				"Can be caught in &eany biome&r and &edimension&r."
+				"{@pagebreak}"
+				"Можно поймать в &eлюбом биоме&r и &eизмерении&r."
+			]
 			hide: true
 			id: "52B76C5FE0F877AF"
 			rewards: [{
@@ -282,7 +325,11 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
-			description: ["Can be caught in &eany biome&r and &edimension&r."]
+			description: [
+				"Can be caught in &eany biome&r and &edimension&r."
+				"{@pagebreak}"
+				"Можно поймать в &eлюбом биоме&r и &eизмерении&r."
+			]
 			hide: true
 			id: "251453A1F4614197"
 			rewards: [{
@@ -303,7 +350,11 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
-			description: ["Can be caught in &eany biome&r and &edimension&r."]
+			description: [
+				"Can be caught in &eany biome&r and &edimension&r."
+				"{@pagebreak}"
+				"Можно поймать в &eлюбом биоме&r и &eизмерении&r."
+			]
 			hide: true
 			id: "7EDBEC88D319C65B"
 			rewards: [{
@@ -324,7 +375,11 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
-			description: ["Can be caught in &eany biome&r and &edimension&r."]
+			description: [
+				"Can be caught in &eany biome&r and &edimension&r."
+				"{@pagebreak}"
+				"Можно поймать в &eлюбом биоме&r и &eизмерении&r."
+			]
 			hide: true
 			id: "404F5D3AA6F45554"
 			rewards: [{
@@ -345,7 +400,11 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
-			description: ["Can be caught in &bcold&r biomes."]
+			description: [
+				"Can be caught in &bcold&r biomes."
+				"{@pagebreak}"
+				"Можно поймать в &bхолодных&r биомах."
+			]
 			hide: true
 			id: "3869DC41A36F2BBF"
 			rewards: [{
@@ -366,7 +425,12 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
-			description: ["Can be caught only in &2swampy&r biomes."]
+			description: [
+				"Can be caught only in &2swampy&r biomes."
+				""
+				"{@pagebreak}"
+				"Можно поймать в &2болотистых&r биомах."
+			]
 			hide: true
 			id: "06A8F772FB420370"
 			rewards: [{
@@ -387,7 +451,11 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
-			description: ["Can be caught in &2Plains and Forests&r."]
+			description: [
+				"Can be caught in &2Plains and Forests&r."
+				"{@pagebreak}"
+				"Можно поймать в &2биомах лугов&r и &2лесов&r."
+			]
 			hide: true
 			id: "26B36B12C977DE0D"
 			rewards: [{
@@ -408,7 +476,12 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
-			description: ["Can be caught in &eany biome&r, but only in the &4Nether&r."]
+			description: [
+				"Can be caught in &eany biome&r, but only in the &4Nether&r."
+				""
+				"{@pagebreak}"
+				"Можно поймать в &eлюбом биоме&r, но только в &4аду&r."
+			]
 			hide: true
 			id: "6803CD95ED63CCD5"
 			rewards: [{
@@ -429,7 +502,12 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
-			description: ["Can be caught inside a &eSoul Sand Valley&r in the &4Nether&r."]
+			description: [
+				"Can be caught inside a &eSoul Sand Valley&r in the &4Nether&r."
+				""
+				"{@pagebreak}"
+				"Можно поймать только в биоме «&eДолина песка душ&r» в &4аду&r."
+			]
 			hide: true
 			id: "4D7D782AF66BBC6C"
 			rewards: [{
@@ -450,7 +528,11 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
-			description: ["Can be caught inside &eBasalt Deltas&r in the &4Nether&r."]
+			description: [
+				"Can be caught inside &eBasalt Deltas&r in the &4Nether&r."
+				"{@pagebreak}"
+				"Можно поймать только в &eбазальтовых дельтах&r в &4аду&r!"
+			]
 			hide: true
 			id: "2195128420050FB0"
 			rewards: [{
@@ -471,7 +553,11 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
-			description: ["Can only be caught during a &7full moon&r!"]
+			description: [
+				"Can only be caught during a &7full moon&r!"
+				"{@pagebreak}"
+				"Можно поймать только при &7полной луне&r!"
+			]
 			hide: true
 			id: "46C2B9B003AC3A09"
 			rewards: [{
@@ -492,7 +578,11 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
-			description: ["Can only be caught in the &dEnd&r."]
+			description: [
+				"Can only be caught in the &dEnd&r."
+				"{@pagebreak}"
+				"Можно поймать только в &dэнде&r."
+			]
 			hide: true
 			id: "099A02C2C9AFF0B7"
 			rewards: [{
@@ -513,10 +603,15 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
+			description: [
+				"Can be crafted"
+				""
+				"{@pagebreak}"
+				"Можно создать"
+			]
 			hide: true
 			id: "3E2BDD4A3E42E525"
 			shape: "diamond"
-			subtitle: "Can be crafted"
 			tasks: [{
 				id: "4E49A9B0B90D4562"
 				item: "gofish:simple_lure"
@@ -527,7 +622,12 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
-			description: ["You can get it from the &eGolden Crate&r or the &eGilded Blackstone Crate&r"]
+			description: [
+				"You can get it from the &eGolden Crate&r or the &eGilded Blackstone Crate&r"
+				""
+				"{@pagebreak}"
+				"Можно выбить из &6золотого ящика&r или &6позолоченного чернитного ящика&r."
+			]
 			hide: true
 			id: "66089D6C330AB63D"
 			shape: "diamond"
@@ -541,10 +641,15 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
+			description: [
+				"Can be crafted"
+				""
+				"{@pagebreak}"
+				"Можно создать"
+			]
 			hide: true
 			id: "087EBE78D31E92AB"
 			shape: "diamond"
-			subtitle: "Can be crafted"
 			tasks: [{
 				id: "73411BEE5779590F"
 				item: "gofish:soul_lure"
@@ -555,6 +660,12 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
+			description: [
+				"You can get it from the Soul Crate"
+				""
+				"{@pagebreak}"
+				"Может выпасть из ящика душ"
+			]
 			hide: true
 			id: "711E69455C6B348F"
 			rewards: [{
@@ -564,7 +675,6 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "You can get it from the Soul Crate"
 			tasks: [{
 				id: "5F546B4ADCB1BDA5"
 				item: {
@@ -581,6 +691,12 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
+			description: [
+				"You can get it from the Slimey Crate"
+				""
+				"{@pagebreak}"
+				"Может выпасть из слизистого ящика"
+			]
 			hide: true
 			id: "460398AED39635EC"
 			rewards: [{
@@ -592,7 +708,6 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "You can get it from the Slimey Crate"
 			tasks: [{
 				id: "2748C74D1CAF4F6B"
 				item: {
@@ -609,6 +724,12 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
+			description: [
+				"You can get it from the Frosted Crate"
+				""
+				"{@pagebreak}"
+				"Может выпасть из морозного ящика"
+			]
 			hide: true
 			id: "102A7FBF57EB0822"
 			rewards: [{
@@ -620,7 +741,6 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "You can get it from the Frosted Crate"
 			tasks: [{
 				id: "4D2760530DD228BC"
 				item: {
@@ -637,6 +757,12 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
+			description: [
+				"You can get it from the End Crate"
+				""
+				"{@pagebreak}"
+				"Может выпасть из энд ящика"
+			]
 			hide: true
 			id: "17388C6C86F004A4"
 			rewards: [{
@@ -646,7 +772,6 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "You can get it from the End Crate"
 			tasks: [{
 				id: "43B65B46D5AA53DC"
 				item: {
@@ -663,6 +788,12 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
+			description: [
+				"You can get it from the Astral Crate"
+				""
+				"{@pagebreak}"
+				"Может выпасть из астрального ящика"
+			]
 			hide: true
 			id: "032E08ACF8ADCA2D"
 			rewards: [{
@@ -672,7 +803,6 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "You can get it from the Astral Crate"
 			tasks: [{
 				id: "2CFB1C29D4307647"
 				item: {
@@ -689,6 +819,12 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
+			description: [
+				"You can get it from the End Crate"
+				""
+				"{@pagebreak}"
+				"Может выпасть из энд ящика"
+			]
 			hide: true
 			id: "6B396009F230544E"
 			rewards: [{
@@ -698,7 +834,6 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "You can get it from the End Crate"
 			tasks: [{
 				id: "45EADA720501FA2A"
 				item: {
@@ -715,6 +850,12 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
+			description: [
+				"Can be crafted"
+				""
+				"{@pagebreak}"
+				"Можно создать"
+			]
 			hide: true
 			id: "4DE10C40111440E8"
 			rewards: [{
@@ -726,7 +867,6 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Can be crafted"
 			tasks: [{
 				id: "58567B1C3DA4FE05"
 				item: {
@@ -743,7 +883,12 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
-			description: [""]
+			description: [
+				"Can be crafted and used for lava fishing."
+				""
+				"{@pagebreak}"
+				"Можно создать для ловле в лаве."
+			]
 			hide: true
 			id: "6578F8B70AA6FA8A"
 			rewards: [{
@@ -754,7 +899,6 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Can be crafted and used for lava fishing."
 			tasks: [{
 				id: "4E76B35BCBAC915C"
 				item: {
@@ -771,7 +915,12 @@
 		}
 		{
 			dependencies: ["7E3C5F934FB5E112"]
-			description: [""]
+			description: [
+				"You can get it from the Fiery Crate"
+				""
+				"{@pagebreak}"
+				"Может выпасть из огненного ящика"
+			]
 			hide: true
 			id: "018BA0283A3E0B1A"
 			rewards: [{
@@ -782,7 +931,6 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "You can get it from the Fiery Crate"
 			tasks: [{
 				id: "25F761D0A28E2FB0"
 				item: {
@@ -804,6 +952,11 @@
 				""
 				"&6• Yeti"
 				"&6• Kraken"
+				"{@pagebreak}"
+				"Выпадает из:"
+				""
+				"&6• Йети"
+				"&6• Кракен"
 			]
 			id: "50DD26BF90EA0832"
 			rewards: [
@@ -846,6 +999,11 @@
 				""
 				"&6• Crimson flesh"
 				"&6• Living root"
+				"{@pagebreak}"
+				"Выпадает из:"
+				""
+				"&6• Багровая плоть"
+				"&6• Оживший корень"
 			]
 			id: "500A350CFCE21158"
 			rewards: [
@@ -885,6 +1043,11 @@
 				""
 				"&6• Cursed abominatio"
 				"&6• Crimson flesh"
+				"{@pagebreak}"
+				"Выпадает из:"
+				""
+				"&6• Проклятая мерзость"
+				"&6• Багровая плоть"
 			]
 			id: "46107F362F4B0DCC"
 			rewards: [
@@ -924,6 +1087,11 @@
 				""
 				"&6• Dark Dragon"
 				"&6• Risen from the Dragonrot"
+				"{@pagebreak}"
+				"Выпадает из:"
+				""
+				"&6• Тёмный дракон"
+				"&6• Восставший из драконьей гнили"
 			]
 			id: "6604D17B769EE05F"
 			rewards: [
@@ -962,6 +1130,10 @@
 				"Dropped from:"
 				""
 				"&6• Dark Dragon"
+				"{@pagebreak}"
+				"Выпадает из:"
+				""
+				"&6• Тёмный дракон"
 			]
 			id: "06C764F60ABF1180"
 			rewards: [
@@ -1004,6 +1176,11 @@
 				""
 				"&6• Fading Chrysolite"
 				"&6• Living root"
+				"{@pagebreak}"
+				"Выпадает из:"
+				""
+				"&6• Гаснущий Хризолит"
+				"&6• Оживший корень"
 			]
 			id: "6A75F90836E00A83"
 			rewards: [
@@ -1042,6 +1219,10 @@
 				"Dropped from:"
 				""
 				"&6• Fading Chrysolite"
+				"{@pagebreak}"
+				"Выпадает из:"
+				""
+				"&6• Гаснущий Хризолит"
 			]
 			id: "5D8C5B0BDB4EF9B8"
 			rewards: [
@@ -1080,6 +1261,10 @@
 				"Dropped from:"
 				""
 				"&6• Fading Chrysolite"
+				"{@pagebreak}"
+				"Выпадает из:"
+				""
+				"&6• Гаснущий Хризолит"
 			]
 			id: "75A5ACD2EBFCA757"
 			rewards: [
@@ -1118,6 +1303,10 @@
 				"Dropped from:"
 				""
 				"&6• Ghost"
+				"{@pagebreak}"
+				"Выпадает из:"
+				""
+				"&6• Призрак"
 			]
 			id: "011C839FCD34A4AE"
 			rewards: [
@@ -1156,6 +1345,10 @@
 				"Droped from:"
 				""
 				"&6• Hellhound"
+				"{@pagebreak}"
+				"Выпадает из:"
+				""
+				"&6• Адский пёс"
 			]
 			id: "608E53D2BD2CE16D"
 			rewards: [
@@ -1196,6 +1389,13 @@
 				"&6• Kraken"
 				"&6• Megalodon"
 				"&6• Sea Emperor"
+				"{@pagebreak}"
+				"Выпадает из:"
+				""
+				""
+				"&6• Кракен"
+				"&6• Мегалодон"
+				"&6• Морской император"
 			]
 			id: "540C960A1B042676"
 			rewards: [
@@ -1235,6 +1435,11 @@
 				""
 				"&6• Kraken"
 				"&6• Sea Emperor"
+				"{@pagebreak}"
+				"Выпадает из:"
+				""
+				"&6• Кракен"
+				"&6• Морской император"
 			]
 			id: "520F146765E76514"
 			rewards: [
@@ -1273,6 +1478,10 @@
 				"Droped from:"
 				""
 				"&6• Red mold"
+				"{@pagebreak}"
+				"Выпадает из:"
+				""
+				"&6• Красная плесень"
 			]
 			id: "6C6C89ED2785F9DC"
 			rewards: [
@@ -1311,6 +1520,10 @@
 				"Droped from:"
 				""
 				"&6• Red mold"
+				"{@pagebreak}"
+				"Выпадает из:"
+				""
+				"&6• Красная плесень"
 			]
 			id: "4073422268B5202C"
 			rewards: [
@@ -1349,6 +1562,10 @@
 				"Dropped from:"
 				""
 				"&6• Risen from the Dragonrot"
+				"{@pagebreak}"
+				"Выпадает из:"
+				""
+				"&6• Восставший из драконьей гнили"
 			]
 			id: "1E41B87DCABD9CDB"
 			rewards: [
@@ -1387,6 +1604,10 @@
 				"Dropped from:"
 				""
 				"&6• Nibbler"
+				"{@pagebreak}"
+				"Выпадает из:"
+				""
+				"&6• Зубастик"
 			]
 			id: "41C90CB5EB8DF3CE"
 			rewards: [
@@ -1425,6 +1646,10 @@
 				"Dropped from:"
 				""
 				"&6• Vampire"
+				"{@pagebreak}"
+				"Выпадает из:"
+				""
+				"&6• Вампир"
 			]
 			id: "3D8C564BE881804D"
 			rewards: [
@@ -1463,6 +1688,10 @@
 				"Dropped from:"
 				""
 				"&6• Watcher"
+				"{@pagebreak}"
+				"Выпадает из:"
+				""
+				"&6• Смотрящий"
 			]
 			id: "49FAC846673BF22D"
 			rewards: [
@@ -1501,6 +1730,10 @@
 				"Dropped from:"
 				""
 				"&6• Watcher"
+				"{@pagebreak}"
+				"Выпадает из:"
+				""
+				"&6• Смотрящий"
 			]
 			id: "24706F00A27774D4"
 			rewards: [

@@ -21,7 +21,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Can't have a modpack without &6wood&r as the first quest, am I right?"]
+			description: [
+				"Can't have a modpack without &6wood&r as the first quest, am I right?"
+				"{@pagebreak}"
+				"Как же без &6древесины&r в первом квесте, верно?"
+			]
 			icon: "minecraft:oak_sapling"
 			id: "207201E16246C5E3"
 			rewards: [{
@@ -53,7 +57,11 @@
 		}
 		{
 			dependencies: ["207201E16246C5E3"]
-			description: [""]
+			description: [
+				"Why can't I craft a crafting table?"
+				"{@pagebreak}"
+				"Кремень понадобится для создания первого верстака!"
+			]
 			id: "2205C5A20B17A59E"
 			rewards: [{
 				count: 8
@@ -62,7 +70,6 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Why can't I craft a crafting table?"
 			tasks: [{
 				count: 2L
 				id: "67910ADA68C01EAC"
@@ -78,7 +85,11 @@
 				"207201E16246C5E3"
 				"2205C5A20B17A59E"
 			]
-			description: [""]
+			description: [
+				"First achievement!"
+				"{@pagebreak}"
+				"Первое достижение!"
+			]
 			id: "08FC12B517294C1C"
 			rewards: [{
 				count: 16
@@ -88,7 +99,6 @@
 			}]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "First achievement!"
 			tasks: [{
 				id: "31083517A3F8FC94"
 				item: "minecraft:crafting_table"
@@ -461,14 +471,17 @@
 		}
 		{
 			dependencies: ["08FC12B517294C1C"]
-			description: [""]
+			description: [
+				"What can be more &6handy&r?"
+				"{@pagebreak}"
+				"Что может быть удобнее чем &6ручной верстак&r?"
+			]
 			id: "1C16A331F0E34B9A"
 			rewards: [{
 				id: "154EA631B88293B6"
 				item: "kubejs:food_lootbag_uncommon"
 				type: "item"
 			}]
-			subtitle: "What can be more &6handy&r?"
 			tasks: [{
 				id: "730466E7D0754FB7"
 				item: "kibe:pocket_crafting_table"
@@ -706,7 +719,11 @@
 		}
 		{
 			dependencies: ["207201E16246C5E3"]
-			description: [""]
+			description: [
+				"&#ffb04fThis quest opens a new quest chapter!&r"
+				"{@pagebreak}"
+				"&#ffb04fЭтот квест открывает новую ветку квестов!&r"
+			]
 			id: "4A828E8EB7BF626F"
 			rewards: [{
 				id: "6C8CCD0CEB368F57"
@@ -715,7 +732,6 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "Basic farming! \\n &#ffb04fThis quest opens a new quest chapter!&r"
 			tasks: [{
 				id: "5A9DB0BEF3BA3DB3"
 				item: "minecraft:wheat_seeds"
@@ -976,7 +992,11 @@
 		}
 		{
 			dependencies: ["65AA9563035BA3F1"]
-			description: ["Stores 1 type of items."]
+			description: [
+				"Stores 1 type of items."
+				"{@pagebreak}"
+				"Хранит 1 типа предметов"
+			]
 			id: "2DC41DE6C505ADF4"
 			rewards: [{
 				count: 2
@@ -996,7 +1016,11 @@
 		}
 		{
 			dependencies: ["65AA9563035BA3F1"]
-			description: ["Stores 2 types of items, but half as much of each."]
+			description: [
+				"Stores 2 types of items, but half as much of each."
+				"{@pagebreak}"
+				"Хранит 2 типа предметов, но меньше."
+			]
 			id: "2EF8235603ECB23B"
 			rewards: [{
 				count: 2
@@ -1016,7 +1040,11 @@
 		}
 		{
 			dependencies: ["65AA9563035BA3F1"]
-			description: ["Stores 4 types of items, but only a quarter as much of each."]
+			description: [
+				"Stores 4 types of items, but only a quarter as much of each."
+				"{@pagebreak}"
+				"Хранит 4 типа предметов, но меньше."
+			]
 			id: "3A032FAA2682A744"
 			rewards: [{
 				count: 2
@@ -1036,7 +1064,11 @@
 		}
 		{
 			dependencies: ["207201E16246C5E3"]
-			description: ["You can find barrels in the world or start crafting them by unlocking steel!"]
+			description: [
+				"You can find barrels in the world or start crafting them by unlocking steel!"
+				"{@pagebreak}"
+				"Ты можешь найти бочки в мире или создать с помощью стали в будущем!"
+			]
 			id: "65AA9563035BA3F1"
 			rewards: [{
 				id: "33A36D29FF4E8A54"
@@ -1060,7 +1092,11 @@
 		}
 		{
 			dependencies: ["08FC12B517294C1C"]
-			description: ["This book allows you to combine other guidebooks into a single book!"]
+			description: [
+				"This book allows you to combine other guidebooks into a single book!"
+				"{@pagebreak}"
+				"Данная книга позволяет объединить в себе другие книги-гайдбуки!"
+			]
 			id: "723F6231542E8A1A"
 			shape: "diamond"
 			subtitle: "One book to guide them all!"
@@ -1110,7 +1146,11 @@
 		}
 		{
 			dependencies: ["4A828E8EB7BF626F"]
-			description: ["Exists to find out what your max damage with equipment is!"]
+			description: [
+				"Exists to find out what your max damage with equipment is!"
+				"{@pagebreak}"
+				"Кукла для избиений - существует чтобы узнать какой у вас максимальный урон с экипировкой."
+			]
 			id: "2D6BBAEDCF4656B6"
 			rewards: [{
 				id: "1F19D9A40A5F75EB"
@@ -1140,6 +1180,18 @@
 				"• Can be &4<shake>c</shake>&r&6<shake>o</shake>&r&e<shake>l</shake>&r&2<shake>o</shake>&r&b<shake>r</shake>&r&9<shake>e</shake>&r&5<shake>d</shake>&r with &nany&r dye. "
 				""
 				"• Using a &7Feather&r on them will display the item name. "
+				"{@pagebreak}"
+				"По функционалу &e&lэтикетки&r&r похожи на рамки, но могут &oприспосабливаться&r к любым &oповерхностям&r и физически &lсоединяться&r с &oлюбым твердым блоком&r независимо от его формы."
+				""
+				"• Щелкнув &eПКМ&r по &l&eэтикетке&r&r с каким-либо предметом, вы сможете изменить её изображение, отобразив выбранный вами предмет.  "
+				""
+				"• Нажав на &lэтикетку&r, игрок сможет &nвзаимодействовать с блоком&r, который находится за ней, что делает её идеальной для &9систем хранения&r. "
+				""
+				"• Вы можете применить &lсветящийся чернильный мешок&r, чтобы заставить этикетку &lсветиться&r в &8темноте&r.  "
+				""
+				"• Вы можете перекрасить &e&lэтикетку&r&r в любой понравившийся вам цвет используя &4<shake>к</shake>&r&6<shake>р</shake>&r&e<shake>а</shake>&r&2<shake>с</shake>&r&b<shake>и</shake>&r&9<shake>т</shake>&r&5<shake>е</shake>&r&4<shake>л</shake>&r&6<shake>и</shake>&r. "
+				""
+				"• Используя &7перо&r на этикетке вы отобразите название предмета."
 			]
 			id: "754AFC4F31BF5059"
 			rewards: [
@@ -1173,7 +1225,11 @@
 		}
 		{
 			dependencies: ["08FC12B517294C1C"]
-			description: ["allows you to &6trade&r with all &6villagers&r at once in a &lsingle interface&r!"]
+			description: [
+				"allows you to &6trade&r with all &6villagers&r at once in a &lsingle interface&r!"
+				"{@pagebreak}"
+				"Позволяет &6торговать&r со всеми &6жителями&r в большом радиусе в &lодном интерфейсе&r."
+			]
 			id: "36CBF2ECE6AC3C54"
 			rewards: [{
 				count: 14

@@ -17,7 +17,11 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Trophies can be obtained by completing all quests in a particular chapter, or for achieving a specific objective!"]
+			description: [
+				"Trophies can be obtained by completing all quests in a particular chapter, or for achieving a specific objective!"
+				"{@pagebreak}"
+				"Трофеи можно получить полностью пройдя все квесты в определенной ветке, либо же за определенную цель!"
+			]
 			id: "07965AD2BDFA13CB"
 			tasks: [{
 				id: "094732A85B24F71D"
