@@ -85,7 +85,7 @@ ServerEvents.recipes(event => {
     ], {
         T: 'neepmeat:basic_tank',
         B: 'neepmeat:fluid_buffer',
-        F: 'neepmeat:fluid_pipe',
+        F: '#neepmeat:fluid_pipes',
         P: 'modern_industrialization:pump',
         b: 'modern_industrialization:bronze_boiler',
         C: 'modern_industrialization:bronze_compressor',

@@ -377,7 +377,7 @@ ServerEvents.recipes(event => {
         .itemIn('3x modern_industrialization:meat_steel_plate')
         .itemIn('neepmeat:feeding_trough')
         .itemIn('modern_industrialization:invar_rotary_blade')
-        .itemIn('2x neepmeat:fluid_pipe')
+        .itemIn('2x #neepmeat:fluid_pipes')
         .itemIn('2x modern_industrialization:steel_gear')
         .fluidIn('neepmeat:work_fluid', 200)
         .itemOut('neepmeat:item_mincer')

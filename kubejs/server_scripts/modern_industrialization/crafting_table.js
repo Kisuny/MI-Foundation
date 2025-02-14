@@ -299,7 +299,7 @@ ServerEvents.recipes(event => {
         'RMR',
         'BRB'
     ], {
-        P: 'neepmeat:fluid_pipe',
+        P: '#neepmeat:fluid_pipes',
         R: 'modern_industrialization:tin_rotor',
         M: 'modern_industrialization:motor',
         B: 'modern_industrialization:tin_bolt',
@@ -490,7 +490,7 @@ ServerEvents.recipes(event => {
         'GTG'
     ], {
         G: 'modern_industrialization:steel_gear',
-        F: 'neepmeat:fluid_pipe',
+        F: '#neepmeat:fluid_pipes',
         C: 'modern_industrialization:steel_machine_casing',
         P: 'modern_industrialization:pump',
         T: 'modern_industrialization:steel_tank'
@@ -625,7 +625,7 @@ ServerEvents.recipes(event => {
     ], {
         P: 'modern_industrialization:pump',
         C: 'modern_industrialization:steel_machine_casing',
-        F: 'neepmeat:fluid_pipe',
+        F: '#neepmeat:fluid_pipes',
         T: 'modern_industrialization:steel_tank',
     });
 
@@ -715,7 +715,7 @@ ServerEvents.recipes(event => {
             'FG '
         ], {
                 G: 'modern_industrialization:iron_gear',
-                F: 'neepmeat:fluid_pipe',
+                F: '#neepmeat:fluid_pipes',
                 H: `kubejs:${element}_bronze_drill_head`,
                 P: 'neepmeat:item_pipe',
             });
@@ -725,7 +725,7 @@ ServerEvents.recipes(event => {
             'FG '
         ], {
                 G: 'modern_industrialization:iron_gear',
-                F: 'neepmeat:fluid_pipe',
+                F: '#neepmeat:fluid_pipes',
                 H: `kubejs:${element}_copper_drill_head`,
                 P: 'neepmeat:item_pipe',
             });
