@@ -71,12 +71,12 @@ ServerEvents.recipes(event => {
             time: 200, experience: 2.0,
             fluid: "spectrum:liquid_crystal",
             ingredients: [
-                { "item": `modern_industrialization:${type}_drill`, "count": 1 },
+                { "item": `modern_industrialization:${type}_drill`, "count": 16 },
                 { "item": 'spectrum:quitoxic_powder', "count": 1 },
                 { "item": "mythicmetals:durasteel_ingot", "count": 1 },
             ],
             result: {
-                "item": `kubejs:durasteel_reinforced_${type}_drill`
+		 "item": `kubejs:durasteel_reinforced_${type}_drill`, "count": 16
             },
             advancement: "spectrum:midgame/break_decayed_bedrock"
         })
