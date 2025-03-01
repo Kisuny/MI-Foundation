@@ -184,11 +184,11 @@
 		}
 		{
 			id: 20
-			price: 50000L
+			price: 100000L
 			name: "Mystical flowers"
 			questId: "3EAED60DF7CE15EB"
 			item: "botania:white_mystical_flower"
-			rewardTableId: ""
+			rewardTableId: "164C1CA4D37CEA4C"
 			bulkRewardTableId: ""
 		}
 		{
