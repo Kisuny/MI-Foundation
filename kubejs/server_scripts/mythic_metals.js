@@ -133,7 +133,8 @@ ServerEvents.recipes(event => {
         // 'mythicmetals:durasteel_ingot',
         // 'mythicmetals:hallowed_ingot',
         // 'mythicmetals:celestium_ingot',
-        "mythicmetals:midas_gold_chestplate"
+        "mythicmetals:midas_gold_chestplate",
+        "mythicmetals:orichalcum_hammer"
     ]
 
     event.remove({ id: 'mythicmetals:alloy_forge/alloy_star_platinum_from_raw_ores' })
@@ -376,5 +377,26 @@ ServerEvents.recipes(event => {
                 L: `modern_industrialization:${element}_large_plate`
             })
     });
+
+
+    customPedestalCraft(event, {
+        tier: 'advanced', time: 400, citrine: 8, onyx: 16, experience: 2.0,
+        pattern: [
+            " T ",
+            " CT",
+            "C  "
+        ],
+        keys: {
+            "C": { "item": "minecraft:stick" },
+            "T": { "item": "mythicmetals:orichalcum_block" }
+        },
+        result: {
+            "item": "mythicmetals:orichalcum_hammer",
+            "count": 1
+        },
+        advancement: "spectrum:create_onyx_shard"
+    });
+
+
 })
 
