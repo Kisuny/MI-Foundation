@@ -17,11 +17,11 @@
             "default": [
                 {
                     "block": "nether_quartz_ore",
-                    "chance": 0.999
+                    "chance": 0.95
                 },
                 {
                     "block": "ancient_debris",
-                    "chance": 0.001
+                    "chance": 0.05
                 }
             ]
         },
