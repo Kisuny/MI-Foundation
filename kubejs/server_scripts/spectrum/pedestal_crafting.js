@@ -1188,7 +1188,7 @@ ServerEvents.recipes(event => {
     ]
     drillTypes.forEach(element => {
         customPedestalCraft(event, {
-            tier: 'complex', time: 400, topaz: 4, citrine: 16,moonstone: 8, experience: 2.0,
+            tier: 'basic', time: 200, topaz: 4, citrine: 4, amethyst: 4, experience: 2.0,
             pattern: [
                 "BCP",
                 "GRC",
@@ -1203,12 +1203,12 @@ ServerEvents.recipes(event => {
             },
             result: {
                 "item": `kubejs:malachite_enhanced_${element}_drill_head`,
-                "count": 1
+                "count": 4
             },
             advancement: 'spectrum:lategame/grow_malachite_in_crystallarieum'
         });
         customPedestalCraft(event, {
-            tier: 'advanced', time: 200, amethyst: 6,topaz: 8, citrine: 2,onyx: 8, experience: 2.0,
+            tier: 'basic', time: 100, amethyst: 2,topaz: 2, citrine: 2, experience: 2.0,
             pattern: [
                 "BCP",
                 "GRC",
@@ -1223,7 +1223,7 @@ ServerEvents.recipes(event => {
             },
             result: {
                 "item": `kubejs:azurite_plated_${element}_drill_head`,
-                "count": 1
+                "count": 4
             },
             advancement: 'spectrum:midgame/create_refined_azurite'
         });

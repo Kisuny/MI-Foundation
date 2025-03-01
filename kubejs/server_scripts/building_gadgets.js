@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
     event.recipes.modern_industrialization.assembler(32, 1600)
         .itemIn('modern_industrialization:digital_circuit')
         .itemIn('12x modern_industrialization:stainless_steel_plate')
-        .itemIn('kubejs:desctruction_card')
+        .itemIn('kubejs:destruction_card')
         .itemIn('2x modern_industrialization:compactium_large_plate')
         .itemIn('24x modern_industrialization:platinum_fine_wire')
         .itemIn('modern_industrialization:compactium_battery')
@@ -37,6 +37,6 @@ ServerEvents.recipes(event => {
 
     event.shapeless('kubejs:building_card', ['minecraft:grass_block', 'modern_industrialization:analog_circuit'])
     event.shapeless('kubejs:exchanging_card', ['mythicmetals:celestium_ingot', 'modern_industrialization:analog_circuit'])
-    event.shapeless('kubejs:desctruction_card', ['modern_industrialization:trash_can', 'modern_industrialization:analog_circuit'])
+    event.shapeless('kubejs:destruction_card', ['modern_industrialization:trash_can', 'modern_industrialization:analog_circuit'])
 
 })

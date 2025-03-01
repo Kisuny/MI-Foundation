@@ -112,7 +112,7 @@ ServerEvents.recipes(event => {
             .itemIn(`kubejs:${element}_bronze_drill_head`)
             .itemIn('2x modern_industrialization:iron_gear')
             .itemIn('neepmeat:item_pipe')
-            .itemIn('neepmeat:fluid_pipe')
+            .itemIn('#neepmeat:fluid_pipes')
             .itemOut(`4x kubejs:${element}_bronze_drill`)
 
         // Copper Drill
@@ -120,7 +120,7 @@ ServerEvents.recipes(event => {
             .itemIn(`kubejs:${element}_copper_drill_head`)
             .itemIn('2x modern_industrialization:iron_gear')
             .itemIn('neepmeat:item_pipe')
-            .itemIn('neepmeat:fluid_pipe')
+            .itemIn('#neepmeat:fluid_pipes')
             .itemOut(`4x kubejs:${element}_copper_drill`)
 
         // Steel Drill
@@ -372,7 +372,7 @@ ServerEvents.recipes(event => {
         .itemIn('2x modern_industrialization:copper_curved_plate')
         .itemIn('2x modern_industrialization:iron_plate')
         .fluidIn('modern_industrialization:soldering_alloy',100)
-        .itemOut('4x neepmeat:fluid_pipe')
+        .itemOut('4x #neepmeat:fluid_pipes')
 
     // Pneumatic Pipe
     event.recipes.modern_industrialization.assembler(8, 200)

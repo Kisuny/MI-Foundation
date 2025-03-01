@@ -89,7 +89,7 @@ StartupEvents.registry('item', event => {
     simpleItemAdd({ item: 'infinity_plate', rarity: 'epic', stackSize: 64})
     simpleItemAdd({ item: 'neutronium_plate', stackSize: 64})
     simpleItemAdd({ item: 'building_card', stackSize: 1, rarity: 'rare'})
-    simpleItemAdd({ item: 'desctruction_card', stackSize: 1, rarity: 'rare'})
+    simpleItemAdd({ item: 'destruction_card', stackSize: 1, rarity: 'rare'})
     simpleItemAdd({ item: 'exchanging_card', stackSize: 1, rarity: 'rare'})
     simpleItemAdd({ item: 'demagnetized_magnet_part', stackSize: 16})
     simpleItemAdd({ item: 'magnet_part', stackSize: 16})
