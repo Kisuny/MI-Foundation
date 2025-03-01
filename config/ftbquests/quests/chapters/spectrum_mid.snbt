@@ -2721,7 +2721,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "8 times better"
+			subtitle: "128 times better"
 			tasks: [{
 				id: "2E44EED86355350C"
 				item: "extended_drawers:t3_upgrade"
@@ -2741,7 +2741,7 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			subtitle: "16 times better"
+			subtitle: "256 times better"
 			tasks: [{
 				id: "038438B26D3F8967"
 				item: "extended_drawers:t4_upgrade"
