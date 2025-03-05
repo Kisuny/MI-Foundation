@@ -1,0 +1,23 @@
+{
+	"type": "modern_industrialization:chemical_reactor",
+	"eu": 32,
+	"duration": 100,
+	"item_inputs": [
+		{
+			"item": "modern_industrialization:caterium_wire",
+			"amount": 4
+		}
+	],
+	"fluid_inputs": [
+		{
+			"fluid": "modern_industrialization:liquid_caterium",
+			"amount": 1000
+		}
+	],
+	"item_outputs": [
+		{
+			"item": "modern_industrialization:caterium_wire",
+			"amount": 4
+		}
+	]
+}

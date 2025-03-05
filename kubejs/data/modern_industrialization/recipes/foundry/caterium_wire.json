@@ -1,0 +1,17 @@
+{
+	"type": "modern_industrialization:foundry",
+	"eu": 64,
+	"duration": 100,
+	"item_inputs": [
+		{
+			"item": "modern_industrialization:caterium_wire",
+			"amount": 1
+		}
+	],
+	"fluid_outputs": [
+		{
+			"fluid": "modern_industrialization:molten_caterium",
+			"amount": 144
+		}
+	]
+}

@@ -10,6 +10,7 @@ let NEUTRON_COLLECTOR;
 let NEUTRONIUM_COMPRESSOR;
 let ELECTRIC_GREENHOUSE;
 let ELECTRIC_COOKING_POT;
+let FLUID_SOLIDIFIER;
 
 MIMachineEvents.registerRecipeTypes(event => {
     INDUSTRIAL_APIARY = event.register('industrial_apiary')
@@ -43,6 +44,10 @@ MIMachineEvents.registerRecipeTypes(event => {
       .withFluidInputs()
       .withItemOutputs()
     ELECTRIC_COOKING_POT = event.register('electric_cooking_pot')
+      .withItemInputs()
+      .withFluidInputs()
+      .withItemOutputs()
+    FLUID_SOLIDIFIER = event.register('fluid_solidifier')
       .withItemInputs()
       .withFluidInputs()
       .withItemOutputs()
@@ -182,5 +187,17 @@ MIMachineEvents.registerMachines(event => {
         16,
         items => items.addSlots(42, 27, 3, 3).addSlots(139, 27, 1, 3), fluids => fluids.addSlots(12, 27, 1, 3),
         true, true, false,
+    );
+    // Fluid Solidifier
+    event.craftingSingleBlock(
+        'Fluid Solidifier', 'fluid_solidifier', FLUID_SOLIDIFIER, ['electric'],
+        186,
+        event.progressBar(105, 45, 'triple_arrow'),
+        event.efficiencyBar(42, 86),
+        event.energyBar(14, 44),
+        2, 3, 3, 0,
+        16,
+        items => items.addSlots(42, 27, 1, 2).addSlots(139, 27, 1, 3), fluids => fluids.addSlots(12, 27, 1, 3),
+        true, false, false,
     );
 });
