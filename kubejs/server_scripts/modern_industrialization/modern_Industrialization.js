@@ -444,7 +444,7 @@ ServerEvents.recipes(event => {
         'modern_industrialization:steam_age/steel/assembler/steam_quarry',
     ]
     mi_fluid_pipes.forEach(element => {
-        event.replaceInput({id: element}, 'modern_industrialization:fluid_pipe', 'neepmeat:fluid_pipe');
+        event.replaceInput({id: element}, 'modern_industrialization:fluid_pipe', '#neepmeat:fluid_pipes');
     });
     mi_item_pipes.forEach(element => {
         event.replaceInput({id: element}, 'modern_industrialization:item_pipe', 'neepmeat:item_pipe');

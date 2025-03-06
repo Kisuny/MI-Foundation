@@ -1,10 +1,3 @@
-
-function rotxy(p1,p2) {
-    let a = (p1**3);
-    let b = (p2**3);
-    return Math.abs(a-b)
-}
-
 const fission = [
     {
         input: helium,
@@ -595,7 +588,7 @@ const fission = [
 
 ServerEvents.recipes(event => {
     fission.forEach((atom,i) => {
-        event.recipes.modern_industrialization.fission_chamber(0.15 * (1.15**((130-i)))+3200, 200)
+        event.recipes.modern_industrialization.fission_chamber(0.15 * (1.15**((130-i)))+1024, 40)
             .itemIn(atom.input)
             .itemIn('kubejs:neutron_pile')
             .itemOut(atom.output[0])

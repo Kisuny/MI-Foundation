@@ -1061,7 +1061,11 @@
 		{
 			dependencies: ["01EEAB72478340F9"]
 			dependency_requirement: "one_completed"
-			description: ["Go above 1000 Y coordinates in the overworld"]
+			description: [
+				"Go above 1000 Y coordinates in the overworld"
+				"{@pagebreak}"
+				"Поднимитесь выше 1000 координаты Y в обычном мире"
+			]
 			id: "31562F8CF94FD570"
 			rewards: [
 				{
@@ -1113,7 +1117,11 @@
 		{
 			dependencies: ["01EEAB72478340F9"]
 			dependency_requirement: "one_completed"
-			description: ["Get below -80 in the overworld."]
+			description: [
+				"Get below -80 in the overworld."
+				"{@pagebreak}"
+				"Опуститесь ниже -80 в обычном мире"
+			]
 			id: "35B6A2A722CBB2D4"
 			rewards: [
 				{

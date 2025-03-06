@@ -1,4 +1,9 @@
 ServerEvents.recipes(event => {
+    // Algal Blend
+    event.recipes.modern_industrialization.mixer(2, 100)
+        .itemIn('2x minecraft:clay_ball')
+        .itemIn('minecraft:kelp')
+        .itemOut('4x architects_palette:algal_blend')
     // HSAL steel dsut
     event.recipes.modern_industrialization.mixer(2, 100)
         .itemIn('modern_industrialization:chromium_dust')

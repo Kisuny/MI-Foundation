@@ -40,6 +40,7 @@ let ELVEN_GATEWAY_CHAMBER;
 let DRONE_STATION;
 let ALIEN_CELL;
 let GARDEN_CLOCHE;
+let FOUNDRY;
 
 function register_botania_flower_gen(event, item) {
     const Hatch = event.hatchOf('item_input', 'item_output', 'fluid_input', 'fluid_output','energy_input');
@@ -72,6 +73,10 @@ function register_botania_flower_gen(event, item) {
 
 // REGISTER RECIPE TYPES
 MIMachineEvents.registerRecipeTypes(event => {
+    FOUNDRY = event.register('foundry')
+	.withItemInputs()
+	.withFluidInputs()
+	.withFluidOutputs()
     GARDEN_CLOCHE = event.register('garden_cloche')
         .withItemInputs()
         .withFluidInputs()
@@ -256,6 +261,25 @@ MIMachineEvents.registerRecipeTypes(event => {
 
 // REGISTER MULTIBLOCKS
 MIMachineEvents.registerMachines(event => {
+    // BLAST ALLOY SMELTER
+    const foundryShape = event.layeredShape('heatproof_machine_casing', [
+        [' AAA ',' BBB ',' CCC ',' BBB ',' AAA '],
+        ['AAAAA','B   B','C   C','B   B','AAAAA'],
+        ['AAAAA','B   B','C   C','B   B','AAAAA'],
+        ['AAAAA','B   B','C   C','B   B','AAAAA'],
+        [' A#A ',' BBB ',' CCC ',' BBB ',' AAA ']
+    ])
+        .key('A', event.memberOfBlock('modern_industrialization:heatproof_machine_casing'),event.hatchOf('fluid_input', 'item_input', 'item_output', 'energy_input'))
+        .key('B', event.memberOfBlock('modern_industrialization:kanthal_coil'),event.noHatch())
+        .key('C', event.memberOfBlock('modern_industrialization:steel_machine_casing_pipe'),event.noHatch())
+        .build()
+    event.simpleElectricCraftingMultiBlock(
+        'Foundry', 'foundry', FOUNDRY, foundryShape,
+        event.progressBar(60, 16, 'triple_arrow'),
+        itemInputs => itemInputs.addSlots(20, 0, 2, 3), itemOutputs => {},
+        fluidInputs => fluidInputs.addSlots(0, 0, 1, 2), fluidOutputs => fluidOutputs.addSlots(86, 9, 1, 2),
+        'heatproof_machine_casing', 'foundry', true, false, false
+    );
     // Garden Cloche
     const gardenClocheShape = event.layeredShape('sheet_metal_block', [
         [' c ','CCC','CGC','CGC','CCC',' c '],

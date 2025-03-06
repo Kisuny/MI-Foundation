@@ -1,5 +1,19 @@
 //priority: 499
 
+function capitalize(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+const metal_molds = {
+  ingot: 144,
+  gear: 288,
+  ring: 72,
+  rod: 72,
+  rotor: 288,
+  plate: 144,
+  nugget: 16
+};
+
 MIMachineEvents.registerCasings(event => {
     event.register('compactium_casing');
     event.register('manasteel_casing');
@@ -48,7 +62,6 @@ MIRegistrationEvents.registerFluids(event => {
     event.register("Bee Air", "bee_air", 0xC0B141, "steam", false, "low");
     event.register("Morkite Fuel", "morkite_fuel", 0x00FFF3, "steam", false, "low");
     event.register("Fluorine Gas", "fluorine_gas", 0xE0E29E, "steam", true, "high");
-    // event.register("Glowdamp", "glowdamp", 0xFFAc1c, "steam", true, "high");
     event.register("Silicon Tetrafluoride Gas", "silicon_tetrafluoride_gas", 0xF5F6E1, "steam", true, "low");
     event.register("Carbon Monoxide Gas", "carbon_monoxide_gas", 0xF5F6F6, "steam", true, "low");
     event.register("Void", "void", 0x000000, "plasma", false, "high");
@@ -62,21 +75,267 @@ MIRegistrationEvents.registerFluids(event => {
     });
 });
 
-MIMaterialEvents.addMaterials(event => {
-    event.createMaterial("Caterium", 'caterium', 0xc19e2b, builder => {
-        builder
-            .materialSet('shiny')
-            .hardness('soft')
-            .addParts('dust','rod','plate','wire','fine_wire')
-            .addExternalPart('raw_metal', 'kubejs:raw_caterium')
-            .addExternalPart('ingot', 'kubejs:refined_caterium')
-            .ore({
-                "generate": false,
-                "ore_set": "lapis",
-            })
-            .cable('ev')
-            .defaultRecipes()
+const liquid_metals = [
+  {
+    name: 'caterium',
+    color: 0xc19e2b,
+    materialset: 'shiny',
+    hardness: 'soft', 
+    parts: [ 'dust', 'rod', 'plate', 'wire', 'fine_wire'],
+    external: [ 
+      {
+	type: 'raw_metal',
+	item: 'kubejs:raw_caterium',
+      },
+      {
+	type: 'ingot',
+	item: 'kubejs:refined_caterium',
+      }
+    ],
+    cable: 'ev',
+    ore: {
+      'generate': false,
+      'ore_set': 'lapis',
+    },
+    defaultRecipes: true,
+  },
+    //event.createMaterial("Caterium", 'caterium', 0xc19e2b, builder => {
+    //    builder
+    //        .materialSet('shiny')
+    //        .hardness('soft')
+    //        .addParts('dust','rod')
+    //        .addParts('plate','wire','fine_wire')
+    //        .addExternalPart('raw_metal', 'kubejs:raw_caterium')
+    //        .addExternalPart('ingot', 'kubejs:refined_caterium')
+    //        .ore({
+    //            "generate": false,
+    //            "ore_set": "lapis",
+    //        })
+    //        .cable('ev')
+    //        .defaultRecipes()
+    //})
+	// {
+	//   name: '',
+	//   color: ,
+	//   hardness: '', 
+	//   parts: [
+	//     ''
+	//   ],
+	//   external: [ 
+	//     {
+	//type: '',
+	//item: '',
+	//tag: ''
+	//     },
+	//   ],
+	//   cable: '',
+	//   ore: {
+	//     'generate': false,
+	//     'ore_set': 'lapis',
+	//   },
+	//   defaultRecipes: true,
+	//   casing: {
+	//     pipe: 12.0,
+	//     special: [ '' , '' ,  ]
+	//   }
+	// },
+	// {
+	//   name: '',
+	//   color: ,
+	//   hardness: '', 
+	//   parts: [
+	//     ''
+	//   ],
+	//   external: [ 
+	//     {
+	//type: '',
+	//item: '',
+	//tag: ''
+	//     },
+	//   ],
+	//   cable: '',
+	//   ore: {
+	//     'generate': false,
+	//     'ore_set': 'lapis',
+	//   },
+	//   defaultRecipes: true,
+	//   casing: {
+	//     pipe: 12.0,
+	//     special: [ '' , '' ,  ]
+	//   }
+	// },
+	// {
+	//   name: '',
+	//   color: ,
+	//   hardness: '', 
+	//   parts: [
+	//     ''
+	//   ],
+	//   external: [ 
+	//     {
+	//type: '',
+	//item: '',
+	//tag: ''
+	//     },
+	//   ],
+	//   cable: '',
+	//   ore: {
+	//     'generate': false,
+	//     'ore_set': 'lapis',
+	//   },
+	//   defaultRecipes: true,
+	//   casing: {
+	//     pipe: 12.0,
+	//     special: [ '' , '' ,  ]
+	//   }
+	// },
+	// {
+	//   name: '',
+	//   color: ,
+	//   hardness: '', 
+	//   parts: [
+	//     ''
+	//   ],
+	//   external: [ 
+	//     {
+	//type: '',
+	//item: '',
+	//tag: ''
+	//     },
+	//   ],
+	//   cable: '',
+	//   ore: {
+	//     'generate': false,
+	//     'ore_set': 'lapis',
+	//   },
+	//   defaultRecipes: true,
+	//   casing: {
+	//     pipe: 12.0,
+	//     special: [ '' , '' ,  ]
+	//   }
+	// },
+	// {
+	//   name: '',
+	//   color: ,
+	//   hardness: '', 
+	//   parts: [
+	//     ''
+	//   ],
+	//   external: [ 
+	//     {
+	//type: '',
+	//item: '',
+	//tag: ''
+	//     },
+	//   ],
+	//   cable: '',
+	//   ore: {
+	//     'generate': false,
+	//     'ore_set': 'lapis',
+	//   },
+	//   defaultRecipes: true,
+	//   casing: {
+	//     pipe: 12.0,
+	//     special: [ '' , '' ,  ]
+	//   }
+	// },
+];
+
+liquid_metals.forEach(metal => {
+  MIMaterialEvents.addMaterials(event => {
+    event.createMaterial(capitalize(metal.name), metal.name, metal.color, builder => {
+      builder.materialSet(metal.materialset).hardness(metal.hardness)
+      if (metal.defaultRecipes) {
+	builder = builder.defaultRecipes()
+      }
+
+      metal.parts.forEach(part => {
+	builder = builder.addParts(part)
+      })
+
+      if ('external' in metal) {
+	metal.external.forEach(part => {
+	  if ('tag' in part) {
+	    builder = builder.addExternalPart(part.type,part.item, part.tag)
+	  } else {
+	    builder = builder.addExternalPart(part.type,part.item)
+	  }
+	})
+      }
+
+      ('ore' in metal) ? builder = builder.ore(metal.ore) : {}
+      ('cable' in metal) ? builder = builder.cable(metal.cable) : {}
+      //(metal.defaultRecipes) ? builder.defaultRecipes() : {}
+
     })
+  })
+  MIRegistrationEvents.registerFluids(event => {
+    event.register(`Molten ${capitalize(metal.name)}`, `molten_${metal.name}`, metal.color, "lava", false, "high");
+  })
+
+  // TODO
+  metal.parts.forEach(part => {
+    JsonIO.write(`kubejs/data/modern_industrialization/recipes/foundry/${metal.name}_${part}.json`,
+      {
+	'type': 'modern_industrialization:foundry',
+	'eu': 64,
+	'duration': 100,
+	'item_inputs': [
+	  {
+	    'item': `modern_industrialization:${metal.name}_${part}`,
+	    'amount': 1
+	  }
+	],
+	'fluid_outputs': [
+	  {
+	    'fluid': `modern_industrialization:molten_${metal.name}`,
+	    'amount': 144
+	  }
+	]
+      }
+    )
+  })
+  let all_parts = metal.parts.concat(metal.external.map(part => part.type));
+  //let temp = all_parts.filter(p => metal_molds.map(m => m.name).includes(p))
+  let temp = all_parts.filter(p => (p in metal_molds));
+  if (temp?.length) {
+    temp.forEach(part => {
+      console.log(part)
+      JsonIO.write(`kubejs/data/modern_industrialization/recipes/fluid_solidifier/${metal.name}_${part}.json`,
+	{
+	  'type': 'modern_industrialization:fluid_solidifier',
+	  'eu': 64,
+	  'duration': 100,
+	  'fluid_inputs': [
+	    {
+	      'fluid': `modern_industrialization:molten_${metal.name}`,
+	      'amount': metal_molds[part],
+	    }
+	  ],
+	  'item_inputs': [
+	    {
+	      'item': `kubejs:${part}_mold`,
+	      'amount': 1,
+	      'probabilty': 0
+	    }
+	  ],
+	  'item_outputs': [
+	    {
+	      'item': `modern_industrialization:${metal.name}_${part}`,
+	      'amount': 1
+	    }
+	  ]
+	}
+      )
+
+    })
+  }
+
+})
+
+
+
+MIMaterialEvents.addMaterials(event => {
 
     event.createMaterial("Turbinium", 'turbinium', 0x00A675, builder => {
         builder

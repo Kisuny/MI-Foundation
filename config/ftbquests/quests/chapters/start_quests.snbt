@@ -302,6 +302,12 @@
 				"&3Zoom Zoom Zoom!&r! Zoom blocks or mobs, anything!!"
 				""
 				"Defaults to the «&3X&r» button"
+				""
+				"{@pagebreak}"
+				""
+				"&3Зум-зум&r! Приближайте блоки/мобов, да что угодно!"
+				""
+				"По умолчанию на кнопку «&3X&r»"
 			]
 			icon: "minecraft:spyglass"
 			id: "39A0154B4DF3665F"
@@ -326,6 +332,12 @@
 				"In the modpack there are &epings&r for players, by default this button «&3button 5&r» on the mouse. We recommend to put this button on &3ALT&r or the middle mouse button (&3wheel&r), for convenience. "
 				""
 				"You can also &lspecify your own channel for pings&r, so you don't have to listen to the sounds of other people's pings with the command &l&3/pingwheel channel NameChannel&r&r"
+				""
+				"{@pagebreak}"
+				"В модпаке существуют &eметки&r для игроков, по умолчанию эта кнопка «&3button 5&r» на мышке, рекомендуем поставить эту кнопку на &3ALT&r или же среднюю кнопку мышки(&3колесико&r), для удобства. "
+				""
+				"Вы так же можете &lуказать свой канал для меток&r, чтобы &nне слушать звуки чужих меток&r командой &l&3/pingwheel channel НазваниеКанала&r&r"
+				"Либо же &l&3/pingwheel config&r&r и написать в меню &3channel&r нужный вам канал, удаление канала из меню ввода канала позволит вернуться в &oобщий канал&r. Так же командой &l&3/pingwheel config&r&r можно настроить другие функции мода, в случае надобности."
 			]
 			icon: "botania:monocle"
 			id: "2B0956A5777EB25F"
@@ -340,7 +352,15 @@
 		}
 		{
 			dependencies: ["19D35B010B678675"]
-			description: ["Eating diverse foods gives advantages in the form of additional &4hearts&r and more &5buffs&r. Eating a lot of various food is more beneficial than feeding off kelp all your life!"]
+			description: [
+				"Eating diverse foods gives advantages in the form of additional &4hearts&r and more &5buffs&r. Eating a lot of various food is more beneficial than feeding off kelp all your life!"
+				""
+				"{@pagebreak}"
+				""
+				"Разнообразная еда даёт примущества в виде дополнительных &4сердец&r и больше &5баффов&r, кушать много и разное выгоднее, чем питаться всю жизнь ламинарией!"
+				""
+				"[Ru]"
+			]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -372,6 +392,12 @@
 				"The trash can is a handy tool for getting rid of... &l&4GARBAGE&r&r."
 				""
 				"You can simply drag items into the trash by pressing «&3T&r», then the trash slot will appear. You can also press the &3DEL&r button by hovering over the item you want to trash."
+				""
+				""
+				"{@pagebreak}"
+				"Мусорка - удобный инструмент избавления от… &l&4МУСОРА&r&r. "
+				""
+				"Вы можете просто перетаскивать предметы в мусорку нажав на «&3T&r», тогда появится иконка мусорки. Так и нажимать кнопку &3DEL&r наведя на предмет, который хотите убрать в мусорку."
 			]
 			icon: {
 				Count: 1b
@@ -396,6 +422,11 @@
 				"&6Artifacts&r and the way to obtain them has been &oslightly changed&r. Most of the strongest artifacts you can now get from &9fishing&r, namely catching a variety of &cbosses&r from different liquids. Try yourself as a veteran &9fisherman&r, it's more &linteresting&r than it seems!"
 				""
 				"All other &6artifacts&r can be found by traveling the world and searching chests! "
+				""
+				"{@pagebreak}"
+				"&6Артефакты&r и способ их получения &oнемного изменён&r, большинство самых сильных артефактов вы сможете найти в &9рыбалке&r, ловя разнообразных &cбоссов&r из разных жидкостей, попробуйте себя в качестве ветерана &9рыбной ловли&r, это &lинтереснее&r чем кажется!"
+				""
+				"Все остальные &6артефакты&r вы сможете найти путешествуя по миру и обыскивая сундуки! "
 			]
 			icon: "artifacts:superstitious_hat"
 			id: "1A4EA51D3A8E6A46"
@@ -418,6 +449,15 @@
 				"Two-handed weapons &ccannot&r be put in two hands! "
 				""
 				"There's also a chance to find &dmythical&r weapon types in a variety of dungeons, as well as use a variety of weapon &lrunes&r to improve your weapons even more!"
+				""
+				"{@pagebreak}"
+				"В сборке изменена &4боёвка&r и добавлено множество &9нового оружия&r, как редкого так и менее редкого, некоторое орудие можно создать самому."
+				""
+				"Но &lглавный&r секрет в том, что оружие &9улучшается&r если использовать его в двух руках, левой и правой! Каким орудием драться - решать вам."
+				""
+				"Двуручное оружие &cнельзя&r класть в две руки! "
+				""
+				"Так же существует шанс найти &dмифический&r тип орудий в разнообразных данжах, а так же использовать разнообразные &bруны&r в оружие, чтобы ещё сильнее улучшить своё оружие!"
 			]
 			icon: {
 				Count: 1b
@@ -461,6 +501,32 @@
 				""
 				"{@pagebreak}"
 				"Progressing through &lSpectrum&r, you will sooner or later unlock new mechanics from the modpack creators, such as &9improved fishing&r, as well as the &4Bewitchment&r mod. Also by unlocking &4Bewitchment&r you will be able to summon &cmini-bosses&r / &cbosses&r and other hostile mobs that can help you get rare items."
+				""
+				"{@pagebreak}"
+				""
+				"Spectrum — Уникальный и сложный магический мод, это основной магический мод в нашем модпаке, &lобязательно&r прочтите пункты далее!"
+				""
+				"[Ru]"
+				""
+				"{@pagebreak}"
+				"В спектруме большинство предметов имеют &oне свою настоящую текстуру&r, до того момента пока вы не откроете необходимые &5ачивки&r для этого блока/предмета."
+				""
+				"[Ru]"
+				""
+				"{@pagebreak}"
+				"В спектруме почти все завязано на &5ачивках&r. "
+				""
+				"[Ru]"
+				""
+				"{@pagebreak}"
+				"Большинство крафтов в спектруме открываются так же по &5ачивкам&r, советую чаще смотреть в вкладку &5ачивок&r, для этого существуют облегчающие моды: Меню ачивок гораздо больше чем в обычном &2Minecraft&r, &nвы можете закреплять категории ачивок&r!"
+				""
+				"[Ru]"
+				""
+				"{@pagebreak}"
+				"Прогрессируя в моде &lSpectrum&r вы рано или поздно откроете новые механики от создателей модпака, например &9улучшенная рыбалка&r, а так же мод &4Bewitchment&r откроется в процессе развития &lSpectrum'a&r. Так же открыв &4Bewitchment&r вы сможете вызывать &cмини-боссов&r / &cбоссов&r и других враждебных мобов, с которых падает редкие предметы."
+				""
+				"[Ru]"
 			]
 			icon: "spectrum:guidebook"
 			id: "2B8A8FD9423F5026"
@@ -489,6 +555,20 @@
 				"&3Most&r items in the store open up for purchase after getting one of that item.&r"
 				""
 				"• &5Waystones&r will unlock as you progress through &5magic&r!"
+				""
+				"{@pagebreak}"
+				"&6Монетки&r находятся когда вы обыскиваете сундуки в разнообразных данжах, так же они выпадают из &9рыбалки&r. "
+				""
+				"Количество &6монеток&r в сундуках зависит от редкости данжа!"
+				""
+				"&6Монетки&r можно тратить на разные вещи в &eмагазине&r, так же &6монетки&r используются для телепортации на &5камнях путешествия&r!"
+				""
+				"Если держать &6монетки&r в руках и нажать ПКМ - они попадут в ваш &oкошелёк&r и буду хранится вместе с вами, после смерти вы не потеряете свои &6монетки&r, &oкошелёк&r находится справа сверху в вашем инвентаре!"
+				""
+				"• &eМагазин&r можно найти во вкладке квестов или меню на «E»"
+				"&3Большинство предметов в магазине открываются к покупке после получения непосредственного предмета, который вы хотите купить.&r"
+				""
+				"• &5Камни путешествий&r откроются в процессе развития &5магии&r!"
 			]
 			icon: {
 				Count: 1b
@@ -536,6 +616,13 @@
 				"Every chest in this world is a &elootr&r chest, meaning that this chest can be looted by &levery&r player on the world separately."
 				""
 				"Loot in chests is updated once a day!"
+				""
+				"{@pagebreak}"
+				"Каждый сундук в мире существует как &elootr&r сундук, это значит что этот сундук сможет обчистить &lкаждый&r игрок на сервере."
+				""
+				"&eLootr&r сундуки &oможно открывать&r даже в привате!"
+				""
+				"Лут в сундуках обновляется раз в сутки!"
 			]
 			icon: {
 				Count: 1b
@@ -566,6 +653,15 @@
 				"&dMagical ore veins&r spawn normally, this is done so that you can travel through the caves and find dungeons that you will also very much need for progressing in &dmagic&r!"
 				""
 				"Additionally, a prospectors pick will show what ore veins are currently under you!"
+				""
+				"{@pagebreak}"
+				"&lБольшинство&r руды спавнится не так, как вы привыкли. "
+				""
+				"на поверхности мира спавнятся небольшие &eосколочки руды&r, говорящие о том, какие есть руды под ними. "
+				""
+				"В каждой такой жиле может быть какая-то &lвторостепенная руда&r, которая так же может вам понадобиться."
+				""
+				"&dМагическая&r руда жилами же уже не спавнится, это сделано чтобы вы могли путешествовать по пещерам и находить данжи которые вам так же очень сильно понадобятся в &dмагии&r!"
 			]
 			icon: {
 				Count: 1b
@@ -604,6 +700,13 @@
 				"You can also use the &3search&r by hovering over items in &6REI&r."
 				""
 				"P.S. When there are &l&3too many chests&r&r and other cantainers around you, the mod &cstops working&r in favor of performance!"
+				""
+				"{@pagebreak}"
+				"Наводя на предмет в своём инвентаре и нажимая на русскую «&3Н&r» или же английскую «&3Y&r» Вы сможете найти где лежит такой же предмет у вас в сундуках, вам подсветят все сундуки где есть этот предмет.  "
+				""
+				"Так же можно нажимать на &3кнопку поиска&r наведя на предметы из &6REI&r."
+				""
+				"P.S. Когда вокруг вас становится &l&3слишком много&r&r сундуков и подобных им хранилищ — мод &cперестаёт работать&r в угоду производительности Minecraft'a!"
 			]
 			icon: {
 				Count: 1b
@@ -628,6 +731,11 @@
 				"The journey to the &dend&r dimension was overhauled. Now you must find different kinds of ender eyes scattered around the world in order to find the &estronghold&r and complete the &dportal frame&r"
 				""
 				"You also need &l&e12 unique eyes&r&r to complete the portal, which can be found by looting a &ovariety of structures&r, crafting or &9from fishing bosses&r!"
+				""
+				"{@pagebreak}"
+				"Поход в &dэнд&r в сборке изменен, вам &nнеобходимо&r искать разнообразные глаза и уже с их помощью искать &eданж&r где спавнится &dпортал!&r"
+				""
+				"Так же вам нужно &l&e12 уникальных глаз&r&r, которые можно найти лутая &oразнообразные структуры&r, создавая или &9вылавливая боссов из рыбалки&r!"
 			]
 			icon: "endrem:cursed_eye"
 			id: "5EDC284E6B612F40"
@@ -654,6 +762,13 @@
 				"This modpack has a keybind for crawling anywhere, anytime."
 				""
 				"The default button is «&3C&r». "
+				""
+				"{@pagebreak}"
+				"Всегда хотелось стать ростом в один блок, не так ли? "
+				""
+				"Crawl  - позволяет ползать, необходимо назначить на кнопку чтобы начать ползать в один блок."
+				""
+				"По умолчанию кнопка «&3C&r» "
 			]
 			icon: "minecraft:coarse_dirt"
 			id: "18E59C89C91A0A4D"
@@ -672,6 +787,11 @@
 				"Harvesting is &oboring&r if you have to break and plant the crop back out."
 				""
 				"The &3hoe&r comes to the rescue, one swing of the hoe will harvest all the &acrops&r you need!"
+				""
+				"{@pagebreak}"
+				"Сбор урожая достаточно &oскучен&r, если вам приходится ломать и ставить урожай обратно."
+				""
+				"На помощь приходит &3мотыга&r, один её взмах соберёт все необходимые вам &aкультуры&r!"
 			]
 			icon: {
 				Count: 1b
@@ -709,6 +829,13 @@
 				"This will &lenhance&r your item or, conversely, &ldegrade&r it!"
 				""
 				"&6Reforge Runes&r can be found in different &4loot chests&r."
+				""
+				"{@pagebreak}"
+				"Используя &8наковальню&r, &6Руну перековки&r, и &3материал&r из которого сделан ваш предмет, позволит вам &oперековать&r этот предмет. "
+				""
+				"Это &lусилит&r ваш предмет или наоборот, &lухудшит&r."
+				""
+				"&6Руны перековки&r могут быть найдены в разнообразных &4сундуках&r."
 			]
 			icon: {
 				Count: 1b
@@ -749,7 +876,12 @@
 		}
 		{
 			dependencies: ["19D35B010B678675"]
-			description: ["In our modpack there are lots of different dungeons that are interesting to explore. Do not hesitate to destroy them, because somewhere may contain hidden precious loot!"]
+			description: [
+				"In our modpack there are lots of different dungeons that are interesting to explore. Do not hesitate to destroy them, because somewhere may contain hidden precious loot!"
+				""
+				"{@pagebreak}"
+				"В модпаке множество разнообразных данжей что делает путешествия интересными. Не стесняйтесь их уничтожать, ведь где-то может быть спрятана ценная добыча!"
+			]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"

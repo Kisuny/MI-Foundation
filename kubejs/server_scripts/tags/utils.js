@@ -26,6 +26,8 @@ ServerEvents.tags('item', event => {
     // Mystical Agriculture
     event.add('mif:seeds', /mysticalagriculture:.*_seeds/)
 
+    event.add("magnumtorch:torches", ['magnumtorch:diamond_magnum_torch', 'magnumtorch:emerald_magnum_torch', 'magnumtorch:amethyst_magnum_torch'])
+
 
     // trinkets tags
     event.add('mif:exploring_trinkets', [
