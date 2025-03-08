@@ -1,7 +1,0 @@
-{
-	id: "469A3F3DC5AF7D8D"
-	loot_size: 1
-	order_index: 18
-	rewards: [{ item: "mythicmetals:adamantite_ingot" }]
-	title: "adamantite"
-}

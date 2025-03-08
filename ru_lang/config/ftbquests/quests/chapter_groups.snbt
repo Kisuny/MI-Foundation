@@ -1,9 +1,0 @@
-{
-	chapter_groups: [
-		{ id: "05C42DC8B5A65584", title: "      &7◆ &3General &7◆" }
-		{ id: "0EE6B87D2DF05DC9", title: "      &7◆ &3Early Game &7◆" }
-		{ id: "6AAAE14F7A290ED4", title: "      &7◆ &3Mid game &7◆" }
-		{ id: "62869C8C7B088104", title: "      &7◆ &3Late game &7◆" }
-		{ id: "47581D00C2556E50", title: "      &7◆ &3End game &7◆" }
-	]
-}
