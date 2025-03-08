@@ -138,6 +138,134 @@
 				"- Surgery platform (entity)"
 				""
 				"Not all instructions needs workbenches. Some instructions interract with blocks, item and fluid inventories."
+				""
+				""
+				"{@pagebreak}"
+				""
+				"Передовое достижение мясо-строения. ПЛК - Программируемый Логический Контроллер который может исполнять любые программы написанные на NEEPASM. "
+				""
+				""
+				"{@pagebreak}"
+				"&lИнтерфейс&r"
+				"ПЛК имеет два режима работы:"
+				"- &lРучной&r : инструкции выполняются напрямую путём управления робота с помощью WASD, с помощью средней кнопки мыши производится движение камеры. Для задействования инструкции необходимо выбрать её из списка после чего выбрать блок(и) к которым должна применится инструкция."
+				"- &lИсполняемый&r: инструкции выполняются благодаря построчной интерпретации NEEPASM кода. В отличии от ручного режима, доступно на порядок больше инструкций которые ПЛК может выполнять. Программы рекомендуется сначала компилировать. "
+				""
+				"Переключение между режимами и управление программами находится в правой верхней части интерфейса."
+				""
+				"{@pagebreak}"
+				"&lNEEPASM&r"
+				"NEEPASM является языком сборки для ПЛК. Программами в NEEPASM являются наборы инструкций которые исполняются построчно одна одной."
+				"Инструкции могут принимать различные аргументы:"
+				"- Строки: \"a string\""
+				"- Числа: 123, 0x7b, 0b1111011"
+				"- Координаты: @(12,42,-23, NORTH)"
+				""
+				"Координаты представляют блок в мире и используются чтобы ПЛК могло взаимодействовать с блоком с конкретной стороны."
+				""
+				"Любые символы после # являются комментариями в программе"
+				""
+				"```"
+				"say \"Hello\" #комментарий"
+				"```"
+				""
+				""
+				""
+				""
+				"{@pagebreak}"
+				"&lСтэк&r"
+				"ПЛК имеет память в виде стека для хранения чисел. Элементы стека могут быть добавлены или убраны только с верхушки стека с помощью инструкций PUSH и POP."
+				"Сравнение чисел и арифметические операции берут свои аргументы напрямую из стека:"
+				"```"
+				"push 1    # помещает 1 на стек"
+				"push 2    "
+				""
+				"add        # складывает два значения и помещает на стек"
+				""
+				"inc         # увеличивает на единицу последний елемент"
+				""
+				"push 4 "
+				""
+				"eq         # проверка равенства 4 и 4"
+				"say        # вывод результата"
+				""
+				"```"
+				""
+				"{@pagebreak}"
+				"&lМетки и ветки&r"
+				"Метки являются постоянными местами в программе к которым можно перейти с помощью инструкций перехода: JMP, BIF и BIT."
+				""
+				""
+				"```"
+				"a_label:"
+				"say \"loop\""
+				"jmp a_label"
+				"```"
+				"В отличии от JMP, BIF совершает переход если число на стеке больше нуля. BIT совершает переход если число на стеке равно нулю либо отрицательно."
+				""
+				""
+				"Метки можно могут быть не уникальными. Добавив `f` или `b` к концу инструкции программа будет искать необходимую метку впереди или позади соответственно"
+				""
+				"```"
+				"a_label:"
+				"jmp a_label f # прыгаем вперёд"
+				"say \"skip\":     # данная инструкция игнорируется"
+				"a_label:"
+				"say \"yippee\""
+				"```"
+				""
+				"{@pagebreak}"
+				"&lФункции и переменные&r"
+				"Функции энкапсулируют процедуры которые могут быть использованы несколько раз."
+				""
+				"Функция обьявляется с помощью %func и %end:"
+				"```"
+				"%func a_function"
+				"say \"Inside the function\""
+				"%end"
+				"a_function  # Вызов функции"
+				"```"
+				"Переменные используются для сокращения координат блоков. Переменные могут быть вызваны с использованием $ перед именем переменной"
+				"```"
+				"%alias redstone_input = @(12 32 12 NORTH)"
+				"rwait $redstone_input # Ожидание редстоун сигнала"
+				""
+				""
+				"{@pagebreak}"
+				"&lМакросы&r"
+				"Макросы являются участками кода которые могут быть интерпретированы как инструкции и могут изменять поведение в зависимости от полученых аргументов. В отличии от программ макросы расширяются в том месте программы в которой они вызываются."
+				"```"
+				"%macro a_macro message something_else"
+				"say \"The message: %message # замена %message"
+				"say \"%something_else\""
+				"%end"
+				""
+				"a_macro Hello, down"
+				""
+				"Аргументы которые передаются в макрос должны быть разделены запятыми. В данном случае программа выдаст в чат "
+				"\"The message: Hello\""
+				"\"down\""
+				""
+				"Любой текст может быть аргументом макроса, включая переменные."
+				""
+				""
+				"{@pagebreak}"
+				"&lИнструкции&r"
+				"Инструкции состоят из операций и набора аргументов. Эти аргументы являются позициями блоков в мире."
+				""
+				"Инструкции могут иметь разное количество аргументов. Некоторые как END и RESTART не имеют аргументов."
+				""
+				""
+				"{@pagebreak}"
+				"&lРабочие станции&r"
+				"Рабочие станции позволяют неким образом модифицировать предметы и сущности с помощью ПЛК робота."
+				""
+				"Например:"
+				"- Платформа (предмет)"
+				"- Пьедестал (предмет)"
+				"- Хирургическая платформа (сущность)"
+				""
+				"Не все инструкции требуют рабочих станций. Некоторый оперируют с блоками, предметными и жидкостными инвентарями."
 			]
 			id: "7F1E78E14355EEF5"
 			rewards: [
@@ -327,7 +455,11 @@
 		}
 		{
 			dependencies: ["7F1E78E14355EEF5"]
-			description: ["The working mechanism of this eukaryote is not known yet. Somehow this pile of veiny biomass produce ethereal fuel using sunlight and &odigestion&r. The better quality of food it consumes the better are results. It can use dirt as a habitat and stems can be growed further using bone meal."]
+			description: [
+				"The working mechanism of this eukaryote is not known yet. Somehow this pile of veiny biomass produce ethereal fuel using sunlight and &odigestion&r. The better quality of food it consumes the better are results. It can use dirt as a habitat and stems can be growed further using bone meal."
+				"{@pagebreak}"
+				"Механизм работы данного симбиота не до конца понятен. Каким образом эта гора жилистой биомассы производит эфирное топливо? При воздействии солнечного света и подаче жидкой пищи данное &oрастение&r производит эфирную энергию в зависимости от своего размера и качества пищи. Достаточно посадить данный &oцветок&r на блок земли."
+			]
 			id: "3F81AC9B730673F9"
 			rewards: [{
 				count: 8
@@ -368,7 +500,11 @@
 		}
 		{
 			dependencies: ["7F1E78E14355EEF5"]
-			description: ["This apparatus can be used to clone living life forms. It's sufficiently to put &dessential salts&r into the mechanism and provide it with liquid meat. As a result we will obtain an egg which will hatch inside the blood reservoir."]
+			description: [
+				"This apparatus can be used to clone living life forms. It's sufficiently to put &dessential salts&r into the mechanism and provide it with liquid meat. As a result we will obtain an egg which will hatch inside the blood reservoir."
+				"{@pagebreak}"
+				"Аппарат для клонирования живых существ. Достаточно поместить эфирные соли выбраного существа и поставить жидкое мясо. На выходе мы получим яйцо, для дозревания которого его необходимо поместить в басейн с кровью."
+			]
 			id: "2226B76FD5DC74EE"
 			rewards: [
 				{
@@ -938,7 +1074,11 @@
 		}
 		{
 			dependencies: ["07612BDAA0EFA6E4"]
-			description: ["&6Multiblock&r version of diesel generator, has a &4maximal&r output of 16k eu/t"]
+			description: [
+				"&6Multiblock&r version of diesel generator, has a &4maximal&r output of 16k eu/t"
+				"{@pagebreak}"
+				"&6Мультиблочный дизельный генератор&r, имеет &4максимальный&r вывод в &416к&r eu\\t"
+			]
 			id: "222B3FC1124BD48E"
 			rewards: [
 				{
@@ -1051,6 +1191,25 @@
 				"Every item has a &cheat&r treshold after which item is &cdestroyed&r."
 				""
 				"Due to the construction and available material reactor do not emit &2radiation&r outside the containment area and &ccannot detonate.&r"
+				""
+				"{@pagebreak}"
+				"&6Ядерный реактор&r"
+				""
+				"Данный реактор &4не генерирует энергию&r напрямую, как вы могли подумать"
+				""
+				"Для работы реактора необходимы &eстрежни&r с активным веществом."
+				""
+				"При подачи в реактор рабочей формы стержня начинает происходит &2ядерная реакция&r в результате которой из слота стержня начинают вылетать &oбыстрые нейтроны&r в четыре направления, они идут по этому направлению пока не встретят не пустой шлюз, дальше нейтрон может либо превратится в &cтепло&r либо отскочить в одну из четырех сторон, быстрые нейтроны так же могут покинуть реактор если долетят до его границы"
+				""
+				"Кроме стержней в предметные шлюзы можно класть различные &eпластины&r, пластины имеют разные параметры &aотражения&r и &3поглощения&r нейтронов"
+				""
+				"Жидкость, такая как например &9вода&r, превращает в &7пар&r и саб жидкость( в случае с водой это &5окись дейтерия&r ). Превышенное количество &7пара&r в шлюзе не дает шлюзу достаточно остывать"
+				""
+				"Каждый предмет, что имеет какой-то функционал в предметном шлюзе, имеет максимальное количество поглощаемых нейтронов, это и &oопределяет их прочност&rь. Если у стержня закончится прочность, он превратится в &eобработанные стержни&r, в случае с пластинами они просто &cпропадут&r"
+				"{@pagebreak}"
+				"Каждый предмет, что имеет какой-то функционал в предметном шлюзе, имеет свой лимит по &cтемпературе&r, после его превышения предмет &cпропадает&r"
+				""
+				"Реактор не выделеляет какой-либо &2радиации&r и &cне может взорваться&r"
 			]
 			icon: "modern_industrialization:nuclear_reactor"
 			id: "188DA4F1E88D9DC8"
@@ -1109,7 +1268,11 @@
 				"07612BDAA0EFA6E4"
 				"16769027515EFA64"
 			]
-			description: ["At some point chemical reactors and assemblers cannot help in creation of more precise circuits. Photolithography allows to create more complex desings and make production of simple circuits more efficient."]
+			description: [
+				"At some point chemical reactors and assemblers cannot help in creation of more precise circuits. Photolithography allows to create more complex desings and make production of simple circuits more efficient."
+				"{@pagebreak}"
+				"&6Фотолигрофер,&r &4обязателен&r для производства плат для следующих микросхем"
+			]
 			id: "423A66F8BD191760"
 			rewards: [
 				{
@@ -1169,7 +1332,7 @@
 		}
 		{
 			dependencies: ["027385AA21D8737B"]
-			description: [""]
+			description: ["&6Этот квест открывает новую ветку квестов!&r"]
 			id: "58C877DC86206A23"
 			rewards: [
 				{
@@ -1194,7 +1357,11 @@
 		}
 		{
 			dependencies: ["58C877DC86206A23"]
-			description: ["The complete surface scanning allows to spot certain regions of the planet which yield rich ammount of mineral deposits. In order to obtain a data card of specific planet, Satellite must be built and operated on the orbit of that planet."]
+			description: [
+				"The complete surface scanning allows to spot certain regions of the planet which yield rich ammount of mineral deposits. In order to obtain a data card of specific planet, Satellite must be built and operated on the orbit of that planet."
+				"{@pagebreak}"
+				"Спутник, необходим для создания продвинутых карт данных"
+			]
 			icon: "modern_industrialization:satellite"
 			id: "142BDFBD70488545"
 			rewards: [
@@ -1580,6 +1747,8 @@
 			description: [
 				"Most advanced version of Space Suit, allows &4enhanced&r elytra-like flight."
 				"&6Do not grant a creative flight&r"
+				"{@pagebreak}"
+				"Более улучшенный скафандр, &4имеет возможность полета&r похожего на элитры, но &4бафнутый&r. &6Не имеет креативный полет&r"
 			]
 			id: "6831915934C73308"
 			rewards: [{
@@ -1753,7 +1922,11 @@
 				"47F9517AB81DBD10"
 				"47AEA0C5F176D939"
 			]
-			description: ["&#d33b2bWarning&r: The reforge rune breaks it, do not try to reforge gravity chest!"]
+			description: [
+				"&#d33b2bWarning&r: The reforge rune breaks it, do not try to reforge gravity chest!"
+				"{@pagebreak}"
+				"&#d33b2bПредупреждение&r: Камень перековки ломает нагрудник, не пробуйте его перековывать."
+			]
 			id: "6A8B53B4D3159DEB"
 			rewards: [
 				{
@@ -1835,7 +2008,11 @@
 		}
 		{
 			dependencies: ["7F1E78E14355EEF5"]
-			description: ["Breakthrough in \"meat technologies\". Living flesh not only have a great wokring power but also regeneration capabilities."]
+			description: [
+				"Breakthrough in \"meat technologies\". Living flesh not only have a great wokring power but also regeneration capabilities."
+				"{@pagebreak}"
+				"Прорыв в мясостроении. Обшивка из живой плоти не только обладает высокой рабочей мощностью но и высокой скоростью самопочинки. "
+			]
 			id: "2425CC09EE3CFFF6"
 			rewards: [{
 				count: 8
@@ -1870,7 +2047,11 @@
 		}
 		{
 			dependencies: ["7F1E78E14355EEF5"]
-			description: ["Redstone interface of the PLC, allows ot emit(or receive) redstone signal depending of the state of the program."]
+			description: [
+				"Redstone interface of the PLC, allows ot emit(or receive) redstone signal depending of the state of the program."
+				"{@pagebreak}"
+				"Редстоун интерфейс ПЛК, позволяет излучать (или принимать) редстоун сигнал в зависимости от состояния программы."
+			]
 			id: "6B0C48DA1FA98001"
 			rewards: [
 				{
@@ -1896,7 +2077,11 @@
 		}
 		{
 			dependencies: ["2226B76FD5DC74EE"]
-			description: ["A way to &oextract&r the essential salts from an entity by the means of the &6mild heating process&r. "]
+			description: [
+				"A way to &oextract&r the essential salts from an entity by the means of the &6mild heating process&r. "
+				"{@pagebreak}"
+				"Зелье для сбора эфирных солей выбранного существа. Просто бросьте его и подожгите существо."
+			]
 			id: "4B7A29A99F2E2755"
 			rewards: [{
 				id: "552CD55A0C2B7002"
@@ -1923,6 +2108,8 @@
 				"When integration fluid is pumped under high pressure into the upper levels of rock it redistributes itself and form an ammalgam which allow to extract rather intricate resources. "
 				""
 				"In order to work the Charnel Pump needs integration fluid, compressed air and minimum 500 eJ/t."
+				"{@pagebreak}"
+				"Путём закачки интеграционной жидкости под высоким давлением в верхние слои породы, удаётся извлечь ранее недоступные виды минералов. Для работы механизма необходимо интеграционная жидкость и сжатый воздух вместе с большим(500-1000) количеством eJ/t. "
 			]
 			id: "3732DF7C69268DDB"
 			rewards: [
@@ -2146,7 +2333,11 @@
 		}
 		{
 			dependencies: ["3732DF7C69268DDB"]
-			description: ["Emits the compressed air at the top of functional component(the hanging pipe)"]
+			description: [
+				"Emits the compressed air at the top of functional component(the hanging pipe)"
+				"{@pagebreak}"
+				"Выпускает сжатый воздух в верхней части функционального компонента (подвесная труба)"
+			]
 			id: "64B2D5261623A94C"
 			rewards: [{
 				id: "12F820FA7DA1AC79"
@@ -2189,7 +2380,11 @@
 		}
 		{
 			dependencies: ["66A8FB4453F684C9"]
-			description: ["Allows to widthstand higher temperatures on planets like &6Venus&r or &4Mercury&r."]
+			description: [
+				"Allows to widthstand higher temperatures on planets like &6Venus&r or &4Mercury&r."
+				"{@pagebreak}"
+				"В отличии от обычного скафандра может выдержать &4высокие&r температуры &4Марса&r и &6Венеры&r"
+			]
 			icon: {
 				Count: 1b
 				id: "ad_astra:netherite_space_suit"
@@ -2375,7 +2570,11 @@
 		}
 		{
 			dependencies: ["64A14CF083700434"]
-			description: [""]
+			description: [
+				"&4All liquid&r interactions with the &2reactor&r occur through &4this hatch&r"
+				"{@pagebreak}"
+				"&4Все жидкостные&r взаимодействия с &2реактором&r происходят через &4данный шлюз&r"
+			]
 			id: "3891DC43414C6B32"
 			rewards: [{
 				id: "61D7A06B09CB86A3"
@@ -2392,7 +2591,11 @@
 		}
 		{
 			dependencies: ["64A14CF083700434"]
-			description: [""]
+			description: [
+				"&4All item&r interactions with the &2reactor&r occur &4through this hatch&r"
+				"{@pagebreak}"
+				"&4Все предметные&r взаимодействия с &2реактором&r происходят &4через данный шлюз&r"
+			]
 			id: "0C57C617A41FC927"
 			rewards: [{
 				id: "698544702883E3C8"
@@ -2491,7 +2694,11 @@
 		}
 		{
 			dependencies: ["4EEA0E20502169BA"]
-			description: ["&aNuclear bomb&r cannot be &4detonaded&r :("]
+			description: [
+				"&aNuclear bomb&r cannot be &4detonaded&r );"
+				"{@pagebreak}"
+				"&aЯдерная бомба&r не &4взрывается&r );"
+			]
 			id: "1F8C388BCDB7B65E"
 			rewards: [{
 				id: "6B3CFA96D94E5A46"
@@ -2509,7 +2716,11 @@
 		}
 		{
 			dependencies: ["01A03BFE2F6A21EE"]
-			description: ["This implant allows to repair any tool on which it's installed by putting it inside bottler and using ethereal fuel."]
+			description: [
+				"This implant allows to repair any tool on which it's installed by putting it inside bottler and using ethereal fuel."
+				"{@pagebreak}"
+				"Этот имплант позволяет починить любой инструмент, на котором он установлен, поместив его внутрь боттлера и используя эфирное топливо."
+			]
 			id: "00F4A96D9D6467EB"
 			subtitle: "Refill!"
 			tasks: [{
@@ -2522,7 +2733,11 @@
 		}
 		{
 			dependencies: ["58C877DC86206A23"]
-			description: ["Integrator egg must be placed on central Pipe Casing and should be connected by pipes to respective tanks."]
+			description: [
+				"Integrator egg must be placed on central Pipe Casing and should be connected by pipes to respective tanks."
+				"{@pagebreak}"
+				"Яйцо интегратора должно быть расположено на центральной части обшивки и должно быть присоединено трубами к резервуарам. "
+			]
 			id: "3D7D2ED2A1C2FD50"
 			rewards: [{
 				id: "403B273C2E8C0CCD"
@@ -2540,7 +2755,11 @@
 		}
 		{
 			dependencies: ["3D7D2ED2A1C2FD50"]
-			description: ["Properties of this strange liquids are remarkable. It allows to transform organic matter in new sometimes unpredictable ways."]
+			description: [
+				"Properties of this strange liquids are remarkable. It allows to transform organic matter in new sometimes unpredictable ways."
+				"{@pagebreak}"
+				"Свойства этой странной жидкости невероятны. Мутаген позволяет преобразовывать органику с невероятной лёгкостью."
+			]
 			icon: {
 				Count: 1b
 				id: "modern_industrialization:aluminum_tank"
@@ -2601,6 +2820,14 @@
 				"In order to obtain desired items from essences you must put specified item into chemical reactor with small amount of liquid crystal and high air pressure(from Large Compressor). "
 				""
 				"Tip. &eThe Farming Scutter operations are so precise, it can harvest and produce additional seeds from farmland, which is impossible to do in any other way.&r"
+				"{@pagebreak}"
+				"Используя точные манипуляции и мутаген нам удалось разработать новый метод селекции. "
+				""
+				"Культуры разделены на уровни от которых зависит энергопотребление процесса выращивания."
+				""
+				"Для того чтобы получить предмет из эссенции необходимо подать этот предмет вместе с эссенцией в химический реактор в присутствии жидкого кристалла под высоким давлением(сжатый воздух получается из Большого Компрессора)."
+				""
+				"Подсказка. &eИспользование Farming Scutter позволяет дублировать семена культур, что в иных методах выращивания невозможно.&r"
 			]
 			id: "4D045D85CD09EA68"
 			rewards: [

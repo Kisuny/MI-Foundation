@@ -18,7 +18,11 @@
 	quests: [
 		{
 			dependencies: ["664A12765CF548C8"]
-			description: ["To create livingrock, place blackslag next to the Pure Daisy."]
+			description: [
+				"To create livingrock, place blackslag next to the Pure Daisy."
+				"{@pagebreak}"
+				"Камень можно сделать из камня «&l&aПосохом природы&r&r», если хотите создавать его автоматически — соберите чёрношлак и поставьте рядом с «чистой маргориткой»."
+			]
 			hide: true
 			id: "7DD2206DF25D8DC3"
 			rewards: [
@@ -47,7 +51,11 @@
 		}
 		{
 			dependencies: ["664A12765CF548C8"]
-			description: ["To create livingwood - place noxcap next to the Pure Daisy."]
+			description: [
+				"To create livingwood - place noxcap next to the Pure Daisy."
+				"{@pagebreak}"
+				"Древесину можно сделать из любой древесины «&l&aПосохом природы&r&r», если хотите создавать её автоматически — ставьте мракогриб рядом с «чистой маргориткой»."
+			]
 			hide: true
 			id: "5FA31A55E3348D51"
 			rewards: [
@@ -75,7 +83,11 @@
 		}
 		{
 			dependencies: ["3EAED60DF7CE15EB"]
-			description: ["Create your first apothecary!"]
+			description: [
+				"Create your first apothecary!"
+				"{@pagebreak}"
+				"Создайте свой первый аптекарь!"
+			]
 			hide: true
 			id: "7DBF29B0CA3AB04F"
 			rewards: [{
@@ -820,7 +832,11 @@
 		}
 		{
 			dependencies: ["7E5C457A7E9FC7E7"]
-			description: ["Uses mana."]
+			description: [
+				"Uses mana."
+				"{@pagebreak}"
+				"Использует ману."
+			]
 			id: "20C6DD456DD74099"
 			rewards: [
 				{
@@ -873,7 +889,11 @@
 		}
 		{
 			dependencies: ["7E5C457A7E9FC7E7"]
-			description: ["Uses mana."]
+			description: [
+				"Uses mana."
+				"{@pagebreak}"
+				"Использует ману."
+			]
 			id: "6B2E3A28DA641BFD"
 			rewards: [
 				{
@@ -903,6 +923,9 @@
 			description: [
 				"Supports most ores!"
 				"Uses mana."
+				"{@pagebreak}"
+				"Поддерживает большинство руд!"
+				"Использует ману."
 			]
 			id: "509B6DD112C0E88D"
 			rewards: [
@@ -930,7 +953,11 @@
 		}
 		{
 			dependencies: ["7E5C457A7E9FC7E7"]
-			description: ["Uses mana."]
+			description: [
+				"Uses mana."
+				"{@pagebreak}"
+				"Использует ману."
+			]
 			id: "1ED2FD21B3408B5A"
 			rewards: [
 				{
@@ -983,7 +1010,11 @@
 		}
 		{
 			dependencies: ["7E5C457A7E9FC7E7"]
-			description: ["Uses mana."]
+			description: [
+				"Uses mana."
+				"{@pagebreak}"
+				"Использует ману."
+			]
 			id: "6A1514A01B22C680"
 			rewards: [
 				{
@@ -1088,7 +1119,11 @@
 		}
 		{
 			dependencies: ["7E5C457A7E9FC7E7"]
-			description: ["Uses mana."]
+			description: [
+				"Uses mana."
+				"{@pagebreak}"
+				"Использует ману."
+			]
 			id: "54214D303EC77426"
 			rewards: [
 				{
@@ -1167,7 +1202,11 @@
 		}
 		{
 			dependencies: ["7E5C457A7E9FC7E7"]
-			description: ["Uses a lot of mana."]
+			description: [
+				"Uses a lot of mana."
+				"{@pagebreak}"
+				"Использует очень много маны."
+			]
 			id: "10BA99096542B69F"
 			rewards: [
 				{
@@ -1220,7 +1259,11 @@
 		}
 		{
 			dependencies: ["7E5C457A7E9FC7E7"]
-			description: ["Uses mana."]
+			description: [
+				"Uses mana."
+				"{@pagebreak}"
+				"Использует ману."
+			]
 			id: "63B0B977EEDAF2E5"
 			rewards: [
 				{
@@ -1299,7 +1342,11 @@
 		}
 		{
 			dependencies: ["7E5C457A7E9FC7E7"]
-			description: ["Uses mana."]
+			description: [
+				"Uses mana."
+				"{@pagebreak}"
+				"Использует ману."
+			]
 			id: "6823A7490DA48492"
 			rewards: [
 				{
@@ -1326,7 +1373,11 @@
 		}
 		{
 			dependencies: ["7E5C457A7E9FC7E7"]
-			description: ["Uses mana."]
+			description: [
+				"Uses mana."
+				"{@pagebreak}"
+				"Использует ману."
+			]
 			id: "2A06BCA8DEDB3724"
 			rewards: [
 				{
@@ -1353,7 +1404,11 @@
 		}
 		{
 			dependencies: ["7DBF29B0CA3AB04F"]
-			description: ["Generating Flora - all flowers in this category are &lcapable&r of creating &bmana&r!"]
+			description: [
+				"Generating Flora - all flowers in this category are &lcapable&r of creating &bmana&r!"
+				"{@pagebreak}"
+				"Генерирующая - создающая &bману&r, все цветки этой категории занимаются &lсозданием&r &bманы&r!"
+			]
 			id: "73E89696B8014546"
 			shape: "gear"
 			tasks: [{
@@ -1366,7 +1421,11 @@
 		}
 		{
 			dependencies: ["7DBF29B0CA3AB04F"]
-			description: ["Functional Flora - all flowers in this category &oconsume&r &bmana&r and provide some functionality, depending on the flower."]
+			description: [
+				"Functional Flora - all flowers in this category &oconsume&r &bmana&r and provide some functionality, depending on the flower."
+				"{@pagebreak}"
+				"Функциональная - &lиспользующая&r, все цветки этой категории &oпотребляют&r &bману&r и предоставлвяют определенный функционал, в зависимости от цветка."
+			]
 			id: "7E5C457A7E9FC7E7"
 			shape: "gear"
 			tasks: [{
@@ -1406,6 +1465,12 @@
 				"• From magical steel - using less &bmana&r."
 				""
 				"• From regular steel - using a lot more &bmana&r."
+				"{@pagebreak}"
+				"Вам доступно 2 способа создать мана слиток"
+				""
+				"• За магическую сталь - потеряв меньш &bманы&r."
+				""
+				"• За обычную сталь - потеряв куда больше &bманы&r."
 			]
 			hide: true
 			id: "4B5A35FB7FEE1E6B"
@@ -1695,7 +1760,11 @@
 				"3018AF7A6669D930"
 				"4B5A35FB7FEE1E6B"
 			]
-			description: ["Creating &aterrasteel&r is only available through Spectrum. You have to grow it in crystallarieum using a terrasteel catalyst."]
+			description: [
+				"Creating &aterrasteel&r is only available through Spectrum. You have to grow it in crystallarieum using a terrasteel catalyst."
+				"{@pagebreak}"
+				"Создание &aтеррастали&r доступно только через спектрум, для создания террастали необходимо вырастить её в кристаллярие с использованием террастального катализатора."
+			]
 			hide: true
 			id: "0FD878AAB9458CE9"
 			rewards: [
@@ -1722,7 +1791,11 @@
 		}
 		{
 			dependencies: ["5A85F7635956BE2F"]
-			description: ["Finally, creative flight!"]
+			description: [
+				"Finally, creative flight!"
+				"{@pagebreak}"
+				"Фактически - креативный полёт."
+			]
 			hide: true
 			id: "24BF8E5FA58AB7FD"
 			shape: "gear"
@@ -1981,7 +2054,13 @@
 				"0379CDF7FB133E48"
 				"3FB65AE45A1ABAF0"
 			]
-			description: ["Is it likely that mechanisms will be able to interact with this form of &bmana&r?"]
+			description: [
+				"Is it likely that mechanisms will be able to interact with this form of &bmana&r?"
+				"{@pagebreak}"
+				"&6Этот квест открывает новую ветку квестов!&r"
+				""
+				"Вероятно ли, что механизмы смогут взаимодействовать с этой формой &bманы&r?"
+			]
 			id: "0BE7C888A9C0463D"
 			rewards: [
 				{
@@ -2027,6 +2106,10 @@
 				"Flowers first need to be revitalized in the Spirit Instiller."
 				""
 				"Fossilized Flowers can be found in the Deeper Down cities near graveyards or from drilling on the moon!"
+				"{@pagebreak}"
+				"Цветы нужно оживить в «Высекатель Духа»"
+				""
+				"Окаменевшие Цветы можно найти в глубоких низинах, если ходить возле кладбищ или добыть с луны!"
 			]
 			hide: true
 			id: "3EAED60DF7CE15EB"

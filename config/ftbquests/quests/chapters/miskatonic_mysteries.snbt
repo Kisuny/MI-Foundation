@@ -257,6 +257,12 @@
 				"The whole mod is very well described, you should have no problem getting the information from this book."
 				""
 				"&c&l&nWe recommend reading all of the pages available to you!&r&r"
+				"{@pagebreak}"
+				"Можно купить в деревнях у &eвассалов&r или у &5странствующего торговца&r. "
+				""
+				"Весь мод очень хорошо описан, у вас не должно возникнуть проблем с получением информации с этой книжкой."
+				""
+				"&c&l&nРекомендуется прочитать все доступные вам страницы!&r&r&r"
 			]
 			id: "5ED4C88D6C8CAE1E"
 			shape: "gear"
@@ -270,7 +276,13 @@
 		}
 		{
 			dependencies: ["5ED4C88D6C8CAE1E"]
-			description: ["Unlocks the ability to cast spells on a group of creatures."]
+			description: [
+				"Unlocks the ability to cast spells on a group of creatures."
+				"{@pagebreak}"
+				"Можно купить у странствующего торговца "
+				""
+				"Открывает способность накладывать заклинания на группу существ."
+			]
 			hide: true
 			id: "3327810F2D77CC56"
 			rewards: [{
@@ -297,6 +309,12 @@
 				"Can be bought from a vassal in a village."
 				""
 				"Unlocks the use of spells such as Projectile."
+				"{@pagebreak}"
+				"Можно купить у странствующего торговца  "
+				""
+				"Можно купить у Вассала"
+				""
+				"Позволяет открыть использование заклинаний как стрелу (проджектайл)"
 			]
 			hide: true
 			id: "21097A489C4AACB1"
@@ -321,6 +339,10 @@
 				"Can be bought from a wandering trader."
 				""
 				"Can be bought from a vassal in a village."
+				"{@pagebreak}"
+				"Можно купить у странствующего торговца  "
+				""
+				"Можно купить у вассала"
 			]
 			hide: true
 			id: "792FD9BACA43CC9D"
@@ -363,7 +385,13 @@
 		}
 		{
 			dependencies: ["35A4525202DFF961"]
-			description: ["Occult clothing."]
+			description: [
+				"Occult clothing."
+				"{@pagebreak}"
+				"Можно купить у вассала в деревнях"
+				""
+				"Оккультная одежда"
+			]
 			hide: true
 			id: "5EBB19BC3428B26C"
 			rewards: [{
@@ -415,7 +443,11 @@
 		}
 		{
 			dependencies: ["35A4525202DFF961"]
-			description: [""]
+			description: [
+				"Can be bought from a vassal in the villages"
+				"{@pagebreak}"
+				"Можно купить у вассала"
+			]
 			hide: true
 			id: "1F592EE106CF3A0E"
 			rewards: [{
@@ -425,7 +457,6 @@
 			}]
 			shape: "diamond"
 			size: 0.8d
-			subtitle: "Can be bought from a vassal in the villages"
 			tasks: [{
 				id: "07F7652C53D36D56"
 				item: {
@@ -449,6 +480,10 @@
 				"Perform a «&9Sculptor Rite&r» ritual. &nThe statue will be bound to the creator of the ritual&r."
 				""
 				"The ritual requires some of your &l&4life energy&r&r!"
+				"{@pagebreak}"
+				"Проведите ритуал &9создания статуи&r, статуя &nбудет привязана к создателю ритуала&r."
+				""
+				"Для ритуала понадобиться часть вашей &l&4жизненной энергии&r&r!"
 			]
 			hide: true
 			id: "1403AC2B841FD215"
@@ -532,6 +567,16 @@
 				"To pick up the necronomicon use &9Shift + RMB&r."
 				""
 				"You can put other books on the altar for &3decoration&r!"
+				"{@pagebreak}"
+				"На первый взгляд - неприметный алтарь, но если на него установить &5некрономикон&r - он превращается в инструмент &5колдовства&r! "
+				""
+				"Когда в алтаре лежит &5некрономикон&r вы можете создать заклинания, объединив само &l&cзаклинание&r&r с целью, &c&lна кого&r&r вы можете его наложить, далее вы можете выбрать &l&cсилу заклинания&r&r и записать его в книгу."
+				""
+				"Имейте ввиду, на первых стадиях развития вам доступны &eне все заклинания&r и не &cвсе цели для заклинаний&r, а так же вы не можете раскидываться силой заклинаний, далее, когда вы будете получать &eблагословление высших существ&r, вы сможете делать больше/сильнее заклинания.  "
+				""
+				"Чтобы забрать некрономикон используйте &9Shift + ПКМ&r."
+				""
+				"На алтарь можно класть другие книги для &3декорации&r! "
 			]
 			hide: true
 			id: "107412EDFB3E077C"
@@ -553,7 +598,11 @@
 		}
 		{
 			dependencies: ["1403AC2B841FD215"]
-			description: ["Give the statue to your &evassal&r."]
+			description: [
+				"Give the statue to your &evassal&r."
+				"{@pagebreak}"
+				"Отдай статую &eвассалу&r"
+			]
 			hide: true
 			id: "06562C2C31C20966"
 			tasks: [{
@@ -567,7 +616,11 @@
 		}
 		{
 			dependencies: ["5ED4C88D6C8CAE1E"]
-			description: ["Can be found in &9igloos&r, &9stronghold libraries&r and vanilla &9dungeons&r."]
+			description: [
+				"Can be found in &9igloos&r, &9stronghold libraries&r and vanilla &9dungeons&r."
+				"{@pagebreak}"
+				"Можно найти в &9иглу&r, в &9библиотеке стронгхолда&r и &9ванильных данжах с спавнером&r."
+			]
 			hide: true
 			id: "65254EC70059EB10"
 			rewards: [{
@@ -588,7 +641,11 @@
 		}
 		{
 			dependencies: ["5ED4C88D6C8CAE1E"]
-			description: ["Find the cult worshippers of the &eyellow religion&r in the villages!"]
+			description: [
+				"Find the cult worshippers of the &eyellow religion&r in the villages!"
+				"{@pagebreak}"
+				"Найдите поклонников культа &eжёлтой религии&r в деревнях!"
+			]
 			hide: true
 			id: "35A4525202DFF961"
 			rewards: [{
@@ -623,6 +680,14 @@
 				"Some rituals may require preparations, such as a &csacrifice&r of a living creature, like a &cpig&r, a &cplayer&r, or a &9sheet with coordinates&r!"
 				""
 				"Also, there are some &8trap rituals&r that will only work after a &ccreature&r steps on them!"
+				"{@pagebreak}"
+				"Большинство ритуалов требуют правильный порядок расположения предметов, так же, некоторые оккультные декорации повышают &5стабильность ритуалов&r!"
+				""
+				"Но имейте ввиду, если вы будете использовать оккультную символику другого высшего существа чем ваш круг - стабильность наоборот &cбудет падать&r!"
+				""
+				"В некоторых ритуалах могут потребоваться подготовления, например, &cжертва&r живого существа, например &cсвинья&r, &eигрок&r либо же &9лист с привязанными координатами&r! "
+				""
+				"Так же существуют &8ритуалы-ловушки&r, которые сработают только после того, как на него наступит какое-нибудть &cсущество&r!"
 			]
 			hide: true
 			id: "0B617D45014FE332"
@@ -644,7 +709,13 @@
 		}
 		{
 			dependencies: ["35A4525202DFF961"]
-			description: ["A custom banner pattern. Can be used in a Loom."]
+			description: [
+				"A custom banner pattern. Can be used in a Loom."
+				"{@pagebreak}"
+				"Можно купить у вассала в деревнях"
+				""
+				"Можно использовать в ткацком столе, меняя узор флагам "
+			]
 			hide: true
 			id: "307EB635F0650331"
 			rewards: [{
@@ -665,7 +736,11 @@
 		}
 		{
 			dependencies: ["35A4525202DFF961"]
-			description: ["Required to make Octograms."]
+			description: [
+				"Required to make Octograms."
+				"{@pagebreak}"
+				"Необходимая Октограмма"
+			]
 			hide: true
 			id: "2B766E494F49C0E6"
 			rewards: [{
@@ -693,6 +768,10 @@
 				"The ritual of the «&l&6Golden Coronation&r&r»"
 				""
 				"You need a &csacrifice&r, as well as a &egroup of serfs&r! (You can read more in &6REI&r or inside the &cNecronomicon&r)"
+				"{@pagebreak}"
+				"Ритуал «&eЗолотой Коронации&r» "
+				""
+				"Необходимо принести кого-то в &cжерту&r, а так же &eгруппа крепостных&r! (Более подробнее можно прочитать в &6REI&r)"
 			]
 			hide: true
 			id: "563A65DD88363232"
@@ -762,7 +841,11 @@
 		}
 		{
 			dependencies: ["563A65DD88363232"]
-			description: ["Get your &6blessing&r from the &eprince&r!"]
+			description: [
+				"Get your &6blessing&r from the &eprince&r!"
+				"{@pagebreak}"
+				"Получите &6благословление&r от &eпринца&r!"
+			]
 			hide: true
 			hide_dependency_lines: true
 			id: "6FA72BDA58065CFB"
@@ -784,7 +867,11 @@
 		}
 		{
 			dependencies: ["35A4525202DFF961"]
-			description: ["&9With a small chance&r, &8infected wheat&r can grow from regular wheat. Also, by using &8infected wheat&r you can &8infect&r other grown wheat in the radius!"]
+			description: [
+				"&9With a small chance&r, &8infected wheat&r can grow from regular wheat. Also, by using &8infected wheat&r you can &8infect&r other grown wheat in the radius!"
+				"{@pagebreak}"
+				"&9С шансом&r из пшеницы может вырасти &8зараженная пшеница&r, так же используя &8зараженную пшеницу&r - можно &8заражать&r другую пшеницу в радиусе, которая уже выросла!"
+			]
 			hide: true
 			id: "4A384EA7B1E04203"
 			rewards: [{
@@ -812,6 +899,16 @@
 				"You will also need &5fireworks&r and &bmusic&r, and you may also to «&m&dchill&r&r» the &3villagers&r in some way to increase their mood."
 				""
 				"The amount of &2&ngood mood&r&r determines the outcome of the &l&6golden gathering&r&r, and your &6blessing&r from the &l&eprince&r&r!"
+				"{@pagebreak}"
+				"Пора бы собраться с &eкультом&r и создать &lпраздник&r!"
+				""
+				"Получив эффект «&l&2Герой деревни&r&r» Нажмите &lПКМ&r на &eколокол&r. "
+				""
+				"Вам необходимо собрать всех! &3Жителей&r, &eвассалов&r, &e&lпринца&r&r!"
+				""
+				"Вам так же понадобится &5салют&r и &bмузыкальное сопровождение&r, возможно вам так же понадобится каким-то образом «&m&dрасслабить&r»&r &3жителей&r. "
+				""
+				"От количества &2&nхорошего настроения&r&r зависит &nрезультат&r &l&6золотого сбора&r&r и вашего &6благословления&r от &l&eпринца&r&r! "
 			]
 			hide: true
 			hide_dependency_lines: true
@@ -857,6 +954,10 @@
 				"&3Byakhee&r is a flying pet that needs to be &2tamed&r!"
 				""
 				"This ritual needs a &csacrifice&r to begin!"
+				"{@pagebreak}"
+				"Ритуал призыва &3Byakhee&r - летающий питомец которого необходимо &2приручить&r!"
+				""
+				"Ритуалу необходима &cжертва&r!"
 			]
 			hide: true
 			hide_dependency_lines: true
@@ -906,7 +1007,11 @@
 		}
 		{
 			dependencies: ["0C043EB28D4F969A"]
-			description: ["You can read more about it in the book!"]
+			description: [
+				"You can read more about it in the book!"
+				"{@pagebreak}"
+				"Более подробнее прочти в книге!"
+			]
 			hide: true
 			id: "6EDBF4A36BBD1674"
 			rewards: [{
@@ -929,6 +1034,10 @@
 				"«&eOpen Gate&r» ritual allows you to bind two octograms to each other, so that you can &9teleport&r between them. It doesn't matter where or in which dimension they are located, &cthe connection will work&r. You will also be able to move &nany creature&r through the octogram."
 				""
 				"You will need the «&eIncantation of the Gate-and-Key&r» bound to the second octogram."
+				"{@pagebreak}"
+				"Ритуал «&eОткрытие пути&r» — позволяет связать две октограммы друг с другом, чтобы можно было &9перемещаться&r по ним, не важно в каких мирах стоят октограммы, &cсвязь позволит перемещаться между мирами и любым количеством блоков&r. Вы так же сможете переместить &nлюбых существ&r через октограмму. "
+				""
+				"Вам так же понадобится «&eIncantation of the Gate-and-Key&r» привязанный к второй октограмме."
 			]
 			hide: true
 			hide_dependency_lines: true
@@ -984,7 +1093,11 @@
 		}
 		{
 			dependencies: ["6FA72BDA58065CFB"]
-			description: ["The «&8Create Masterpiece&r» ritual allows you to fix the &ctarget&r in place. The target of this ritual &nwon't be able&r to &e&lmove&r&r. The only way to move it afterwards is by &ckilling&r it."]
+			description: [
+				"The «&8Create Masterpiece&r» ritual allows you to fix the &ctarget&r in place. The target of this ritual &nwon't be able&r to &e&lmove&r&r. The only way to move it afterwards is by &ckilling&r it."
+				"{@pagebreak}"
+				"Ритуал «&8Создания Шедевра&r» позволяет зафиксировать&c жертву&r, цель в этом ритулае &nне сможет&r &e&lдвигаться&r,&r а чтобы смогла - необходимо её &cубить&r."
+			]
 			hide: true
 			hide_dependency_lines: true
 			id: "7BD7495188DCB3C5"
@@ -1041,6 +1154,18 @@
 				"• The Structure."
 				"• 3 yellow serfs."
 				"• The Tattered Prince."
+				"{@pagebreak}"
+				"Вам необходимо создать &eСимулякр&r!"
+				""
+				"В процессе выполнения ритуала &nнеобходимо быть в &3безопасности&r&r, &mа так же прочитать правила игры в судоку&r."
+				""
+				"После выполнения ритуала ваш биом в определенном радиусе превратится в новый, &6золотой&r (в будущем его можно вернуть обратно в привычный)"
+				""
+				"Для вызвоа симулякр необходимо:"
+				""
+				"• Структура."
+				"• 3 жёлтых последователя."
+				"• Принц."
 			]
 			id: "720DD169BC8B356A"
 			rewards: [{
@@ -1147,6 +1272,15 @@
 				"• All &5rituals&r that do not belong to &eHatsura&r will almost &5always be unstable&r, &eHatsura&r octograms will almost always be &2stable&r."
 				""
 				"To expand the area of the simulacr - build an &3obelisk&r and RMB on its lower block with the Necronomicon."
+				"{@pagebreak}"
+				"Впустив в миру &eсимулякр&r, вы получите множество баффов в зоне действия &eсимулякры&r:"
+				""
+				"• жители будут давать вам большую &9скидку&r, при торговле с ними."
+				"• Существа которые не поклоняются Хатсуру будут получать &8дебаффы&r, так же они будут испытывать &8проблемы со сном&r."
+				"• Ваша &5магия усилится&r в зоне действия симулякры."
+				"• Все &5ритуалы&r которые не относятся к &eХатсуру&r будут практически &5всегда нестабильными&r, октограммы &eХатсура&r же будут практически всегда &2стабильны&r."
+				""
+				"Чтобы расширить зону действия симулякры - постройте &3обелиск&r и нажмите на нижний его блок книгой ПКМ."
 			]
 			id: "3337360BBAA0C080"
 			rewards: [{
@@ -1166,7 +1300,11 @@
 		}
 		{
 			dependencies: ["3337360BBAA0C080"]
-			description: ["Simply breaking the &esimulacr&r is not enough to get rid of it. To &cremove&r the simulacr completely, perform a «&2Cleanse Da World&r» ritual next to it!"]
+			description: [
+				"Simply breaking the &esimulacr&r is not enough to get rid of it. To &cremove&r the simulacr completely, perform a «&2Cleanse Da World&r» ritual next to it!"
+				"{@pagebreak}"
+				"Просто сломать &eсимулякр&r - мало, для того чтобы &cизбваиться&r от неё, чтобы убрать симулякру полность необходимо провести «&2ритуал очищения&r» рядом с ранее активной симулякрой!"
+			]
 			hide: true
 			hide_dependency_lines: true
 			id: "6FE08F702475A448"

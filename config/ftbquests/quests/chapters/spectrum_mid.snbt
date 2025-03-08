@@ -38,7 +38,11 @@
 	quests: [
 		{
 			dependencies: ["3877FD4F24D92304"]
-			description: [""]
+			description: [
+				"&#b0620eNothing&r difficult, right? "
+				"{@pagebreak}"
+				"&#b0620eНичего&r сложного, верно? "
+			]
 			hide: true
 			id: "5BF77E78AA8A200B"
 			rewards: [{
@@ -48,7 +52,6 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "&#b0620eNothing&r difficult, right? "
 			tasks: [{
 				id: "1FE6E8C79FF62FBC"
 				item: "spectrum:brown_sapling"
@@ -63,6 +66,10 @@
 				"Allows you to fertilize plants by using &aLime Ink&r or vegetal!"
 				""
 				"&#d33b2bWarning&r: item is not working at the moment, the problem has been sent to the mod author."
+				"{@pagebreak}"
+				"Невероятно &l&aУДОБРИТЕЛЬНЫЙ&r&r инструмент!"
+				""
+				"&#d33b2bПредупреждение&r: на данный момент предмет не работает, проблема отправлена автору мода, в процессе фикса."
 			]
 			hide: true
 			id: "21129323C9A6B176"
@@ -91,7 +98,11 @@
 		}
 		{
 			dependencies: ["3075ED371322C328"]
-			description: [""]
+			description: [
+				"Where is the gold pot??"
+				"{@pagebreak}"
+				"Только &l<shake>самый</shake>&r удачивлый сможет найти символ лепреконов!"
+			]
 			hide: true
 			id: "0C7F2FDED403B652"
 			rewards: [
@@ -109,7 +120,6 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Where is the gold pot??"
 			tasks: [{
 				id: "201FA7736363145E"
 				item: "spectrum:four_leaf_clover"
@@ -120,7 +130,11 @@
 		}
 		{
 			dependencies: ["3877FD4F24D92304"]
-			description: [""]
+			description: [
+				"Can be found in &l&aGreen&r biomes!"
+				"{@pagebreak}"
+				"&l&aЗелёные&r&r биомы помогут с поиском заветного удачливого растения!"
+			]
 			hide: true
 			id: "3075ED371322C328"
 			rewards: [{
@@ -130,7 +144,6 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "Can be found in &l&aGreen&r biomes!"
 			tasks: [{
 				id: "16ED2D8270A00C40"
 				item: "spectrum:clover"
@@ -141,7 +154,11 @@
 		}
 		{
 			dependencies: ["3877FD4F24D92304"]
-			description: [""]
+			description: [
+				"&4<shake>I</shake>&r&6<shake>n</shake>&r&e<shake>k</shake>&r extraction"
+				"{@pagebreak}"
+				"Нужно же где-то брать &4<shake>э</shake>&r&6<shake>н</shake>&r&e<shake>е</shake>&r&2<shake>р</shake>&r&b<shake>г</shake>&r&9<shake>и</shake>&r&5<shake>ю</shake>&r, верно?"
+			]
 			hide: true
 			id: "272939D3698A5DB3"
 			rewards: [
@@ -159,7 +176,6 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "&4<shake>I</shake>&r&6<shake>n</shake>&r&e<shake>k</shake>&r extraction"
 			tasks: [{
 				id: "71406406EC61A48F"
 				item: "spectrum:color_picker"
@@ -170,7 +186,11 @@
 		}
 		{
 			dependencies: ["272939D3698A5DB3"]
-			description: ["Used to store and transfer ink. The two ink containers equalize the amount of ink in them, so you can only really transfer half."]
+			description: [
+				"Used to store and transfer ink. The two ink containers equalize the amount of ink in them, so you can only really transfer half."
+				"{@pagebreak}"
+				"Буквально — &#DEB3E0Красочная ячейка&r, храни краски в баночках!"
+			]
 			hide: true
 			id: "27D8C35FD6F61515"
 			rewards: [
@@ -204,7 +224,11 @@
 		}
 		{
 			dependencies: ["27D8C35FD6F61515"]
-			description: ["One &#FEECD6Ink Flask&r can have only &#9BB8EDone ink type&r. Ink Assortment can contain all types at once, but has less storage space."]
+			description: [
+				"One &#FEECD6Ink Flask&r can have only &#9BB8EDone ink type&r. Ink Assortment can contain all types at once, but has less storage space."
+				"{@pagebreak}"
+				"Одна &#FEECD6баночка&r вмещает только &#9BB8ED1 тип&r краски, палитра вмещает больше типов, но в ней &#FEECD6не так много места&r как в баночках!"
+			]
 			hide: true
 			id: "6E4DEFB525B9E71B"
 			rewards: [
@@ -273,6 +297,16 @@
 				"Other types of ink will enhance the smelting properties, be it speed, yield or xp produced, but it needs upgrades for that to work."
 				""
 				"More in-depth information can be found in the guidebook."
+				"{image:quest_images:textures/item/spectrum/cinderhearth.png width:200 height:200 align:1 fit:true}"
+				"{@pagebreak}"
+				"У каждого &dмага&r должна быть под рукой… Печка, да не простая, а &dмагическая&r, вот и вы не исключение, верно?"
+				""
+				"Чудо печка ценой &#ff8547оранжевой краски&r - будет плавить, всякое."
+				""
+				"За другие цвета улучшает печку, например умножает количество конечной продукции, больше опыта и т.д."
+				""
+				"Прочтите более подробную информацию в книге!"
+				""
 				"{image:quest_images:textures/item/spectrum/cinderhearth.png width:200 height:200 align:1 fit:true}"
 			]
 			icon: "spectrum:cinderhearth"
@@ -370,7 +404,11 @@
 		}
 		{
 			dependencies: ["3C3E73F29B46EFD6"]
-			description: ["&#C6BCE9Constructor's Staff&r - a tool for placing blocks in a defined pattern by spending &3Cyan Ink&r. "]
+			description: [
+				"&#C6BCE9Constructor's Staff&r - a tool for placing blocks in a defined pattern by spending &3Cyan Ink&r. "
+				"{@pagebreak}"
+				"&#C6BCE9Строительный посох&r - позволяет ставить блоки одного типа, ценой &#367588бирюзовой краски&r."
+			]
 			id: "7BEC6865EE629165"
 			rewards: [{
 				id: "3F710C824F2C24A8"
@@ -390,7 +428,11 @@
 		}
 		{
 			dependencies: ["3C3E73F29B46EFD6"]
-			description: ["Rare gemstones that can be obtained while mining stratine ore."]
+			description: [
+				"Rare gemstones that can be obtained while mining stratine ore."
+				"{@pagebreak}"
+				"Для открытия крафта <shake>необходимо</shake> выбить данный ресурс из руды."
+			]
 			id: "11ABCE1AD8090FBE"
 			rewards: [{
 				id: "69863C94149C474E"
@@ -414,6 +456,10 @@
 				"A &#DEB3E0Fabrication Chest&r has four special slots for &#FEECD6Crafting Tablets&r."
 				""
 				"Automatically crafts items while resources are present."
+				"{@pagebreak}"
+				"&#DEB3E0Сундук Изготовления&r имеет специальный слоты для &#FEECD6Планшетных Верстаков&r."
+				""
+				"Рецепты, которые вы задали в них, всегда хранятся с запасом - до тех пор, пока хватает ингредиентов в сундуке."
 			]
 			id: "30480C2924BE05C8"
 			rewards: [{
@@ -464,7 +510,11 @@
 		}
 		{
 			dependencies: ["3877FD4F24D92304"]
-			description: ["&#DEB3E0Pylons&r allows to &#FEECD6speed up&r crafts in &l&#e4affaSpectrum&r&r multiblocks. Also, they can be used as upgrades for &#9BB8EDModern Industrialization&r machines."]
+			description: [
+				"&#DEB3E0Pylons&r allows to &#FEECD6speed up&r crafts in &l&#e4affaSpectrum&r&r multiblocks. Also, they can be used as upgrades for &#9BB8EDModern Industrialization&r machines."
+				"{@pagebreak}"
+				"&#DEB3E0Пилон&r позволяет &#FEECD6ускорить&r крафты в мультиблочных структурах мода Spectrum, так же данный пилон помогает ускорить машинки из мода &#9BB8EDModern industrialization&r."
+			]
 			hide: true
 			id: "4C2CADA1F925781E"
 			rewards: [
@@ -493,7 +543,13 @@
 		}
 		{
 			dependencies: ["3877FD4F24D92304"]
-			description: ["Quite &#FEECD6bad&r for bridges and diving!"]
+			description: [
+				"Quite &#FEECD6bad&r for bridges and diving!"
+				"{@pagebreak}"
+				"Чудная руда, но <shake>не смей</shake> пытаться делать из неё блоки и прыгать с ними в воду! "
+				""
+				"А еще &#FEECD6не пытайся&r делать из него мосты, ради бога, я предупредил"
+			]
 			hide: true
 			id: "3C3E73F29B46EFD6"
 			rewards: [
@@ -529,6 +585,12 @@
 				"If you play on a server, be cautious about these bacteria, otherwise they can &lget out of control&r…"
 				""
 				"&4You cannot put them back inside the bottle!&r"
+				""
+				"{image:quest_images:textures/item/be_safe.png width:300 height:135 align:1}"
+				"{@pagebreak}"
+				"Играя на сервере будь осторожен со всеми жидкостями в подобных баночках, они могут разрастись &lочень&r сильно…"
+				""
+				"&4Гибель нельзя вернуть обратно в баночку!&r"
 				""
 				"{image:quest_images:textures/item/be_safe.png width:300 height:135 align:1}"
 			]
@@ -613,7 +675,13 @@
 		}
 		{
 			dependencies: ["3C3E73F29B46EFD6"]
-			description: ["If you pay attention while fishing in the deep waters, you will see some strange spheres sometimes rise to the surface."]
+			description: [
+				"If you pay attention while fishing in the deep waters, you will see some strange spheres sometimes rise to the surface."
+				"{@pagebreak}"
+				"Тебе придется поплавать чтобы добыть кусочек данной субстанции."
+				""
+				"Относись внимательно, к <shake>каждому</shake> ресурсу, который плавает себе спокойно в глубоких водах!"
+			]
 			hide: true
 			id: "347CB25B0C49349B"
 			rewards: [
@@ -642,7 +710,11 @@
 		}
 		{
 			dependencies: ["347CB25B0C49349B"]
-			description: ["Can catch living creatures!"]
+			description: [
+				"Can catch living creatures!"
+				"{@pagebreak}"
+				"Может ловить живых существ!"
+			]
 			hide: true
 			id: "19CA76043BF8B34E"
 			rewards: [
@@ -717,6 +789,11 @@
 		}
 		{
 			dependencies: ["12C2D3EA6474C0B8"]
+			description: [
+				"Almost flight"
+				"{@pagebreak}"
+				"Почти что полёт"
+			]
 			hide: true
 			id: "57F817B21763850B"
 			rewards: [{
@@ -725,7 +802,6 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "Almost flight"
 			tasks: [{
 				id: "732D785B62B39CDA"
 				item: "spectrum:cotton_cloud_boots"
@@ -736,6 +812,11 @@
 		}
 		{
 			dependencies: ["12C2D3EA6474C0B8"]
+			description: [
+				"Thaumic Footsteps"
+				"{@pagebreak}"
+				"Тауматургам приготовиться"
+			]
 			hide: true
 			id: "54F70B9239B57329"
 			rewards: [
@@ -753,7 +834,6 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Thaumic Footsteps"
 			tasks: [{
 				id: "508C9661407ECEAC"
 				item: "spectrum:seven_league_boots"
@@ -958,6 +1038,11 @@
 		}
 		{
 			dependencies: ["4C5701B9C4BCE884"]
+			description: [
+				"The Poseidon's gift!"
+				"{@pagebreak}"
+				"Подарок Посейдона"
+			]
 			hide: true
 			id: "1547EF6A7598F174"
 			rewards: [
@@ -975,7 +1060,6 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "The Poseidon's gift!"
 			tasks: [{
 				id: "6432C542BDC22289"
 				item: "spectrum:weeping_circlet"
@@ -986,6 +1070,11 @@
 		}
 		{
 			dependencies: ["4C5701B9C4BCE884"]
+			description: [
+				"No more phantoms!"
+				"{@pagebreak}"
+				"Чудо голосование добавило чудо летающих червей, а теперь их нет..."
+			]
 			hide: true
 			id: "76FBA050D17D64F5"
 			rewards: [
@@ -1003,7 +1092,6 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "No more phantoms!"
 			tasks: [{
 				id: "2A7EC5A27513DB91"
 				item: "spectrum:whispy_circlet"
@@ -1014,6 +1102,11 @@
 		}
 		{
 			dependencies: ["4C5701B9C4BCE884"]
+			description: [
+				"Complete fire immunity and more!"
+				"{@pagebreak}"
+				"Полноценный иммунитет от огня и немного больше"
+			]
 			hide: true
 			id: "4697A0E846D93A99"
 			rewards: [
@@ -1031,7 +1124,6 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Complete fire immunity and more!"
 			tasks: [{
 				id: "3557043D43A55B91"
 				item: "spectrum:ashen_circlet"
@@ -1105,6 +1197,16 @@
 				"P.S. Instead of water in the picture, put liquid crystal."
 				""
 				"{image:quest_images:textures/item/spectrum/enchanter.png width:200 height:200 align:1 fit:true}"
+				"{@pagebreak}"
+				"Зачарователь позволяет вам накладывать зачарования на книги и улучшать их, таким образом вы исключаете фактор случайности!"
+				""
+				"Так же зачарователь позволяет вам накладывать зачарования конфликтующие между собой, например, защита + защита от снарядов."
+				""
+				"Имей ввиду, действия с конфликтующими зачарованиями &oбудут потреблять чуть больше опыта&r так же для этого &oнеобходима открытая глава в книге&r!"
+				""
+				"P.S. Вместо воды на рендере ниже используются жидкие кристаллы!"
+				""
+				"{image:quest_images:textures/item/spectrum/enchanter.png width:200 height:200 align:1 fit:true}"
 			]
 			hide: true
 			icon: "spectrum:enchanter"
@@ -1142,7 +1244,11 @@
 		}
 		{
 			dependencies: ["347CB25B0C49349B"]
-			description: ["A more advanced station for creating potions. Can also create some other liquids."]
+			description: [
+				"A more advanced station for creating potions. Can also create some other liquids."
+				"{@pagebreak}"
+				"Более продвинутая станция для создания зелий. Также может создавать некоторые другие жидкости."
+			]
 			hide: true
 			id: "229FF3A42DB2FFF4"
 			rewards: [
@@ -1195,6 +1301,9 @@
 			description: [
 				"{image:quest_images:textures/item/clay_gen.png width:200 height:200 align:1}"
 				"Yes, a clay generator."
+				"{@pagebreak}"
+				"{image:quest_images:textures/item/clay_gen.png width:200 height:200 align:1}"
+				"Да, это реально, генератор глины."
 			]
 			hide: true
 			id: "0568EC18E2C72745"
@@ -1244,10 +1353,19 @@
 		{
 			dependencies: ["641B93E0D035568B"]
 			description: [
+				"Used to transfer XP to the Enchanter"
+				""
 				"Also, you can enchant the knowledge gem:"
 				""
 				"&lEfficiency&r - increases the internal storage!"
 				"&lQuick Charge&r - increases the speed of XP transfer!"
+				"{@pagebreak}"
+				"Жемчужина позволяет вам добавлять опыт в зачарователь!"
+				""
+				"Вы так же можете зачаровать данную жемчужину на &oэффективность&r и &oбыструю перезарядку&r."
+				""
+				"&lЭффективность&r - увеличивает вместимый опыт"
+				"&lБыстрая перезарядку&r - скорость пополнения опыта вручную!"
 			]
 			hide: true
 			id: "6EE44FEF1C08A707"
@@ -1274,7 +1392,6 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "Used to transfer XP to the Enchanter"
 			tasks: [{
 				id: "353382B7E7F1BB78"
 				item: "spectrum:knowledge_gem"
@@ -1285,7 +1402,11 @@
 		}
 		{
 			dependencies: ["641B93E0D035568B"]
-			description: ["Enchant your boots with power. More power, more speed!"]
+			description: [
+				"Enchant your boots with power. More power, more speed!"
+				"{@pagebreak}"
+				"Зачаруй на силу свои сапожки, будешь ещё быстрее!"
+			]
 			hide: true
 			id: "5A213C259011EDE5"
 			rewards: [{
@@ -1355,6 +1476,11 @@
 				""
 				"Use lightning rods to have more consistent Storm Stone generation. You can use the Fusion Shrine to summon thunderstorms!"
 				"{image:quest_images:textures/item/storm_stone.png width:300 height:135 align:1}"
+				"{@pagebreak}"
+				"Когда молния бьёт в землю, на земле остаются маленькие осколоки шторма."
+				""
+				"Используйте громоотвод чтобы получить штормовой осколок, используй святыню слияния чтобы призвать штормовую погоду!"
+				"{image:quest_images:textures/item/storm_stone.png width:300 height:135 align:1}"
 			]
 			hide: true
 			id: "77CD79C7CF14D94C"
@@ -1384,7 +1510,11 @@
 		}
 		{
 			dependencies: ["78A5FFC5CFB319FE"]
-			description: ["Obtain &l&5Neolith&r&r from the failing-engulfed obidian."]
+			description: [
+				"Obtain &l&5Neolith&r&r from the failing-engulfed obidian."
+				"{@pagebreak}"
+				"Заставь баночку с гибелью съесть обсидиан, получишь &l&5неолит&r&r"
+			]
 			hide: true
 			id: "182EBD1105CF57A7"
 			rewards: [
@@ -1416,7 +1546,11 @@
 				"182EBD1105CF57A7"
 				"77CD79C7CF14D94C"
 			]
-			description: ["Looks line Runite or Lapis Lazuli, can be found in bigger quantities near y-level 0 and below."]
+			description: [
+				"Looks line Runite or Lapis Lazuli, can be found in bigger quantities near y-level 0 and below."
+				"{@pagebreak}"
+				"Появляется в основном ниже 0ых координат. Часто можно найти на стенах больших пещер, похож на рунит/лазурит"
+			]
 			hide: true
 			id: "54DEB2E2FBBF842D"
 			rewards: [
@@ -1488,7 +1622,14 @@
 		}
 		{
 			dependencies: ["3B68A7B5A1BB4D44"]
-			description: ["{image:quest_images:textures/item/spectrum/spirit_instiller.png width:200 height:200 align:1}"]
+			description: [
+				"{image:quest_images:textures/item/spectrum/spirit_instiller.png width:200 height:200 align:1}"
+				"{@pagebreak}"
+				"&#ffb04fЭтот квест открывает новую ветку квестов!&r"
+				""
+				""
+				"{image:quest_images:textures/item/spectrum/spirit_instiller.png width:200 height:200 align:1}"
+			]
 			hide: true
 			id: "7AC1920BD7A9329E"
 			rewards: [
@@ -1523,7 +1664,11 @@
 		}
 		{
 			dependencies: ["3B68A7B5A1BB4D44"]
-			description: ["Azure dike allows you to pass through some &1blue&r barriers, and also increases your survivability!"]
+			description: [
+				"Azure dike allows you to pass through some &1blue&r barriers, and also increases your survivability!"
+				"{@pagebreak}"
+				"Голубой азурит позволяет вам открыть путь к закрытым загадкам, а так же увеличивает вашу выживаемость!"
+			]
 			hide: true
 			id: "3B7EE99ECAE9457B"
 			rewards: [{
@@ -1551,7 +1696,11 @@
 		}
 		{
 			dependencies: ["3B7EE99ECAE9457B"]
-			description: [""]
+			description: [
+				"Now you are &9worthy&r!"
+				"{@pagebreak}"
+				"Используя азуритовую защиту зайдите в ранее найденный вам данж с странной защитой!"
+			]
 			hide: true
 			id: "38D7FCF430013682"
 			rewards: [{
@@ -1560,7 +1709,6 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "Now you are &9worthy&r!"
 			tasks: [{
 				advancement: "spectrum:enter_dike_gate_preservation_ruin"
 				criterion: ""
@@ -1625,7 +1773,11 @@
 		}
 		{
 			dependencies: ["3B68A7B5A1BB4D44"]
-			description: [""]
+			description: [
+				"More Ink Storage!"
+				"{@pagebreak}"
+				"Вмещает куда больше краски и имеет множество вместимых типов"
+			]
 			hide: true
 			id: "3F6640DEC275920C"
 			rewards: [
@@ -1643,7 +1795,6 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "More Ink Storage!"
 			tasks: [{
 				id: "655B1C1C7E2CD889"
 				item: "spectrum:pigment_palette"
@@ -1654,7 +1805,11 @@
 		}
 		{
 			dependencies: ["239BFC7671FAF5F5"]
-			description: ["To obtain the &l&0mid&5night &5shard&r, you need to suffocate a living creature in the &l&5mid&0night &l&5so&0lu&5ti&0on&r."]
+			description: [
+				"To obtain the &l&0mid&5night &5shard&r, you need to suffocate a living creature in the &l&5mid&0night &l&5so&0lu&5ti&0on&r."
+				"{@pagebreak}"
+				"Чтобы получить &l&0полун&5очный &5оск&0ол&5ок&r, вам необходимо чтобы &l&5по&0лу&5ноч&0ный&r &l&5ра&0с&5тв&0ор&r убил живое существо!"
+			]
 			hide: true
 			id: "0EBE1EF0925CB824"
 			rewards: [
@@ -1697,6 +1852,11 @@
 		}
 		{
 			dependencies: ["54DEB2E2FBBF842D"]
+			description: [
+				"Refine some azurite!"
+				"{@pagebreak}"
+				"Очистите азурит"
+			]
 			hide: true
 			id: "3B68A7B5A1BB4D44"
 			rewards: [
@@ -1715,7 +1875,6 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Refine some azurite!"
 			tasks: [{
 				count: 4L
 				id: "79996E8D06ACACF9"
@@ -1731,7 +1890,11 @@
 				"3B68A7B5A1BB4D44"
 				"0EBE1EF0925CB824"
 			]
-			description: ["&4Ruin cannot be put back in the bottle once you release it!&r"]
+			description: [
+				"&4Ruin cannot be put back in the bottle once you release it!&r"
+				"{@pagebreak}"
+				"&4Порчу нельзя вернуть обратно в баночку!&r"
+			]
 			hide: true
 			id: "36048D9C00CA490D"
 			rewards: [
@@ -1762,7 +1925,11 @@
 		}
 		{
 			dependencies: ["77C55C5FFC84575B"]
-			description: ["Allows to obtain mob heads less painfully. Moreover, with this enchantment you can obtain mob heads other than creepers, zombies and skeletons!"]
+			description: [
+				"Allows to obtain mob heads less painfully. Moreover, with this enchantment you can obtain mob heads other than creepers, zombies and skeletons!"
+				"{@pagebreak}"
+				"Позволяет выбивать из мобов головы чаще, так же вы можете выбить головы большинство мобов, а не только всем привычные головы крипера, зомби, скелета и т.д."
+			]
 			hide: true
 			id: "0797461370E96C3C"
 			rewards: [
@@ -1860,7 +2027,15 @@
 		}
 		{
 			dependencies: ["77C55C5FFC84575B"]
-			description: ["Crystal Apothecary automatically collects gemstone clusters. Anything - &6Topaz&r, &5Amethyst&r, &bCertus Quartz&r etc. It doesn't even need to be loaded!"]
+			description: [
+				"Crystal Apothecary automatically collects gemstone clusters. Anything - &6Topaz&r, &5Amethyst&r, &bCertus Quartz&r etc. It doesn't even need to be loaded!"
+				"{@pagebreak}"
+				"Лучший помощник, сборщика кристаллов!"
+				""
+				"Данный блок автоматический собирает выращенные кристаллы, например выращенный кристалл &5аметиста&r в жеоде!"
+				""
+				"Данный блок очень сильно поможет вам в будущем!"
+			]
 			hide: true
 			id: "35A77E4B5C2CE1EB"
 			rewards: [{
@@ -1908,7 +2083,12 @@
 		}
 		{
 			dependencies: ["7AC1920BD7A9329E"]
-			description: ["By obtaining the mob's head, you can create a memory to resummon it... to kill again?"]
+			description: [
+				"By obtaining the mob's head, you can create a memory to resummon it... to kill again?"
+				"{@pagebreak}"
+				"Выбив голову любого из мобов, вы можете создать его воспоминание и позволить ему появится на свет вновь, для того чтобы вновь "
+				"убить?"
+			]
 			hide: true
 			id: "09C683DBFC6D54BD"
 			rewards: [{
@@ -1930,6 +2110,12 @@
 			dependencies: ["09C683DBFC6D54BD"]
 			description: [
 				"This monstrocity can give milk, wool, eggs, leather and pork &lsimultaneously!&r"
+				""
+				"{image:quest_images:textures/item/spectrum/egg_laying_wooly_pig.png width:200 height:200 align:1 fit:true}"
+				"{@pagebreak}"
+				"Лучшие учёные мира собрались чтобы культиваровать &lэто&r."
+				""
+				"Это чудо даёт молоко, шерсть яйца, кожу и свинину &lодновременно!&r&n"
 				""
 				"{image:quest_images:textures/item/spectrum/egg_laying_wooly_pig.png width:200 height:200 align:1 fit:true}"
 			]
@@ -1970,7 +2156,11 @@
 		}
 		{
 			dependencies: ["182EBD1105CF57A7"]
-			description: ["If some nasty bacteria is threatening your kitchen or your life, you can use this to clean the mess. Well, stop the mess from expanding, at least..."]
+			description: [
+				"If some nasty bacteria is threatening your kitchen or your life, you can use this to clean the mess. Well, stop the mess from expanding, at least..."
+				"{@pagebreak}"
+				"Если всё таки какая-то из жидкостей вырвалась наружу, данная баночка поможет вернуть всё на своё место! С некоторыми нюансами."
+			]
 			hide: true
 			id: "5EAB38FF5492E5B9"
 			rewards: [{
@@ -1992,7 +2182,11 @@
 		}
 		{
 			dependencies: ["38D7FCF430013682"]
-			description: ["In this &9structure&r, you have found a Hibernating Bulb, wonder if you can revive it."]
+			description: [
+				"In this &9structure&r, you have found a Hibernating Bulb, wonder if you can revive it."
+				"{@pagebreak}"
+				"В данже была найдена засохшая нефритовая луковица, возможно у вас выйдет оживить её?"
+			]
 			hide: true
 			id: "5DD61AA5851437B9"
 			rewards: [{
@@ -2011,7 +2205,11 @@
 		}
 		{
 			dependencies: ["5DD61AA5851437B9"]
-			description: [""]
+			description: [
+				"Collect some petals!"
+				"{@pagebreak}"
+				"Вырастив нефритовую луковицу соберите немного её лепестков"
+			]
 			hide: true
 			id: "45500A52809ED66C"
 			rewards: [
@@ -2028,7 +2226,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "Collect some petals!"
 			tasks: [{
 				id: "67F848325D1E3D37"
 				item: "spectrum:jade_vine_petals"
@@ -2039,7 +2236,11 @@
 		}
 		{
 			dependencies: ["45500A52809ED66C"]
-			description: ["A more efficient version of an enchantment book. Has an ability to transfer all enchantments to and from tools, armor etc. Also has a higher enchantability level and a lower enchantment cost!"]
+			description: [
+				"A more efficient version of an enchantment book. Has an ability to transfer all enchantments to and from tools, armor etc. Also has a higher enchantability level and a lower enchantment cost!"
+				"{@pagebreak}"
+				"Позволяет перенести все зачарования с любого инструменты/брони на эту книгу, так же имеет высокий уровень зачаровываемости, так же тратит меньше опыта и времени на зачарования других инструментов!"
+			]
 			hide: true
 			id: "740301C327456010"
 			rewards: [{
@@ -2058,7 +2259,11 @@
 		}
 		{
 			dependencies: ["45500A52809ED66C"]
-			description: ["You can create the Blacker Lotus from a black one to make even more mana!"]
+			description: [
+				"You can create the Blacker Lotus from a black one to make even more mana!"
+				"{@pagebreak}"
+				"Вы можете улучшать ранее найденный чёрный лотос для выработки большего количества маны для мода Botania! "
+			]
 			hide: true
 			id: "3F46FEF6458FFE8F"
 			rewards: [{
@@ -2078,7 +2283,11 @@
 		}
 		{
 			dependencies: ["36048D9C00CA490D"]
-			description: [""]
+			description: [
+				"Nothing special, just some bedrock in your hand..."
+				"{@pagebreak}"
+				"Ничего такого, да? Просто кусочек бедрока."
+			]
 			hide: true
 			id: "4C8E37AF899961F6"
 			rewards: [
@@ -2102,7 +2311,6 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "Nothing special, just some bedrock in your hand..."
 			tasks: [{
 				id: "7CC9B9E713440BAB"
 				item: "spectrum:bedrock_dust"
@@ -2113,7 +2321,13 @@
 		}
 		{
 			dependencies: ["36048D9C00CA490D"]
-			description: ["&0Embrace the void&l☠"]
+			description: [
+				"&0Embrace the void&l☠"
+				"{@pagebreak}"
+				"&#ffb04fЭтот квест открывает новую ветку квестов!&r"
+				""
+				"&0Окунись в бездну &l☠"
+			]
 			hide: true
 			id: "01EEAB72478340F9"
 			rewards: [
@@ -2194,7 +2408,11 @@
 		}
 		{
 			dependencies: ["4C8E37AF899961F6"]
-			description: ["Create a very durable alloy. The Ancient Ones were calling it «Durasteel»."]
+			description: [
+				"Create a very durable alloy. The Ancient Ones were calling it «Durasteel»."
+				"{@pagebreak}"
+				"Создайте невероятно крепкий сплав, древние называли его «Дюросталью»"
+			]
 			id: "4E891CEA50BDD082"
 			rewards: [
 				{
@@ -2228,7 +2446,11 @@
 		}
 		{
 			dependencies: ["4E891CEA50BDD082"]
-			description: ["By discovering the technology of &oDurasteel&r, you found a way to improve your backpack even further!"]
+			description: [
+				"By discovering the technology of &oDurasteel&r, you found a way to improve your backpack even further!"
+				"{@pagebreak}"
+				"Открыв технологию создания &oДюростали&r вы придумали как сможете улучшить свой рюкзак еще сильнее!"
+			]
 			id: "0797B7CC4736506D"
 			rewards: [
 				{
@@ -2268,6 +2490,12 @@
 				"You may need a &#DEB3E0friend&r or a &#DEB3E0chunk loader&r - about the same &#d33b2bdifficulty&r for you to obtain ;)."
 				""
 				"&#FEECD6Hint&r: any player that knows your &4<shake>c</shake>&r&6<shake>o</shake>&r&e<shake>l</shake>&r&2<shake>o</shake>&r&b<shake>r</shake>&r code could access your entangled chest. Use a &#b9f2ffdiamond&r on the center of an entangled chest to make it &#DEB3E0private&r."
+				"{@pagebreak}"
+				"Сундук который &oсвязан&r между таким же сундуком &#DEB3E0цветными рунами&r, данный сундук позволяет &oобъединить&r два подобных сундука между собой, главное чтобы он был в &#FEECD6прогруженных чанках&r для их полноценной работы."
+				""
+				"Возможно вам понадобится &#DEB3E0друг&r либо же &#DEB3E0чанклоудер&r - что в целом для вас будет равносильным по &#d33b2bсложности&r получения."
+				""
+				"&#FEECD6Совет&r: Любой игрок который сможет подобрать &4<shake>ц&r&6<shake>в&r&e<shake>е&r&2<shake>т&r&b<shake>н&r&9<shake>о&r&5<shake>й</shake>&r ключ к вашему сундуку — сможет выкачивать ваши предметы, используйте &#b9f2ffалмаз&r на центральном клапане сундука, чтобы сделать его &#DEB3E0приватным&r."
 			]
 			hide: true
 			hide_details_until_startable: true
@@ -2307,6 +2535,12 @@
 				"You may need a &#DEB3E0friend&r or a &#DEB3E0chunk loader&r - about the same &#d33b2bdifficulty&r for you to obtain ;)."
 				""
 				"&#FEECD6Hint&r: any player that knows your &4<shake>c</shake>&r&6<shake>o</shake>&r&e<shake>l</shake>&r&2<shake>o</shake>&r&b<shake>r</shake>&r code could access your entangled tank. Use a &#b9f2ffdiamond&r on the center of an entangled tank to make it &#DEB3E0private&r."
+				"{@pagebreak}"
+				"Бак который &oсвязан&r между таким же баком &#DEB3E0цветными рунами&r, данный бак позволяет &oобъединить&r два подобных бака между собой, главное чтобы он был в &#FEECD6прогруженных чанках&r для полноценной работы."
+				""
+				"Возможно вам понадобится &#DEB3E0друг&r либо же &#DEB3E0чанклоудер&r - что в целом для вас будет равносильным по &#d33b2bсложности&r получения."
+				""
+				"&#FEECD6Совет&r: Любой игрок который сможет подобрать &4<shake>ц&r&6<shake>в&r&e<shake>е&r&2<shake>т&r&b<shake>н&r&9<shake>о&r&5<shake>й</shake>&r ключ к вашему баку — сможет выкачивать ваши жидкости, используйте &#b9f2ffалмаз&r на центральном клапане бака, чтобы сделать его &#DEB3E0приватным&r."
 			]
 			hide: true
 			hide_details_until_startable: true
@@ -2336,11 +2570,14 @@
 		}
 		{
 			dependencies: ["62BB9D5A8A9DD181"]
-			description: [""]
+			description: [
+				"Entangled tank in a hand!"
+				"{@pagebreak}"
+				"Может быть соединен вместе с баком для доступа к баку на расстояние "
+			]
 			hide: false
 			id: "5B1C97CCA7759117"
 			shape: "circle"
-			subtitle: "Entangled tank in a hand!"
 			tasks: [{
 				id: "43F7A212F40AF0B7"
 				item: "kibe:entangled_bucket"
@@ -2351,11 +2588,14 @@
 		}
 		{
 			dependencies: ["23A6A609EE447218"]
-			description: [""]
+			description: [
+				"Entangled chest in a hand!"
+				"{@pagebreak}"
+				"Может быть соединен вместе с сундуком для доступа к сундуку на расстояние "
+			]
 			hide: false
 			id: "662FB98AC224984F"
 			shape: "circle"
-			subtitle: "Entangled chest in a hand!"
 			tasks: [{
 				id: "4AD22414CFCAAC3B"
 				item: "kibe:entangled_bag"
@@ -2366,7 +2606,11 @@
 		}
 		{
 			dependencies: ["641B93E0D035568B"]
-			description: [""]
+			description: [
+				"Now you can catch hostile mobs!"
+				"{@pagebreak}"
+				"Проклятое лассо позволяет ловить в него только враждебных мобов"
+			]
 			hide: true
 			id: "415E89DC974E7A45"
 			rewards: [{
@@ -2376,7 +2620,6 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			subtitle: "Now you can catch hostile mobs!"
 			tasks: [{
 				id: "078A68501E1A815A"
 				item: {
@@ -2391,7 +2634,11 @@
 		}
 		{
 			dependencies: ["641B93E0D035568B"]
-			description: [""]
+			description: [
+				"Can only hold passive creatures."
+				"{@pagebreak}"
+				"Золотое лассо позволяет ловить в него только мирных мобов"
+			]
 			hide: true
 			id: "557BBDD882CE4033"
 			rewards: [{
@@ -2401,7 +2648,6 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			subtitle: "Can only hold passive creatures."
 			tasks: [{
 				id: "6F3BC4943A3580DE"
 				item: {
@@ -2416,7 +2662,11 @@
 		}
 		{
 			dependencies: ["641B93E0D035568B"]
-			description: [""]
+			description: [
+				"Gotta catch them all!"
+				"{@pagebreak}"
+				"Алмазное лассо позволяет ловить в него как враждебных там и мирных мобов"
+			]
 			hide: true
 			id: "15A9EFF54E64EABD"
 			rewards: [{
@@ -2426,7 +2676,6 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			subtitle: "Gotta catch them all!"
 			tasks: [{
 				id: "7F7CB9AFFD36251E"
 				item: {
@@ -2441,7 +2690,11 @@
 		}
 		{
 			dependencies: ["4E891CEA50BDD082"]
-			description: ["Teleport to waystones from anywhere. Has infinite durability."]
+			description: [
+				"Teleport to waystones from anywhere. Has infinite durability."
+				"{@pagebreak}"
+				"Позволяет телепортироваться на маршрутные камни, имеет бесконечную прочность."
+			]
 			id: "74DA0E34E14F90B0"
 			rewards: [{
 				count: 10
@@ -2465,6 +2718,10 @@
 				"Create the Soul Steel from Azurite. Soul Steel is the main material of Spirit."
 				" "
 				"Spirit allows you to trap souls in crystals in order to create artificial spawners, to enhance the mob farming experience!"
+				"{@pagebreak}"
+				"Создайте слиток душ из азурита, слиток душ - основной материал в моде Spirit."
+				""
+				"Мод Spirit позволяет создать свой спавнер и при помощи собранных вами душ мобов вызывать любое количество нужных вам мобов!"
 			]
 			id: "4A01315B2CA849AE"
 			rewards: [{
@@ -2486,7 +2743,11 @@
 		}
 		{
 			dependencies: ["6E6C22551B253133"]
-			description: ["A frame for a &3Soul Crystal&r. Put the crystal inside, and it will start spawning mobs."]
+			description: [
+				"A cage for a &3Soul Crystal&r. Put the crystal inside, and it will start spawning mobs."
+				"{@pagebreak}"
+				"Позволяет создавать спавнер, засовывая туда наполненную &3душу моба&r, спавнер будет спавнить мобов."
+			]
 			hide: true
 			id: "3AAD6FC39016CFF5"
 			rewards: [{
@@ -2505,7 +2766,11 @@
 		}
 		{
 			dependencies: ["6E6C22551B253133"]
-			description: ["&9Soul Steel&r instruments have an implicit repairing ability. Just throw them into soul fire, and after some time they will be fully repaired. Also, Soul Steel weapons collect more &9souls&r into &lSoul Crystals&r."]
+			description: [
+				"&9Soul Steel&r instruments have an implicit repairing ability. Just throw them into soul fire, and after some time they will be fully repaired. Also, Soul Steel weapons collect more &9souls&r into &lSoul Crystals&r."
+				"{@pagebreak}"
+				"Инструменты из &9стали душ&r имеют встроенную починку в огне душ и некоторые другие улучшения, так же оружие из стали душ выбивают &nдополнительные &9души&r&r из монстров для &lкристалла душ&r."
+			]
 			hide: true
 			id: "3352B62986DF70F0"
 			rewards: [{
@@ -2535,6 +2800,8 @@
 			description: [
 				"The Soul Reaper enchantment, allows to collect sould into Soul Crystal more efficiently."
 				"Also, they can be created in the Spectrum Enchanter."
+				"{@pagebreak}"
+				"Зачарование Жнец душ можно создать в зачарователе спектрума, жнец души позволяет выбивать из мобов больше их душ для кристалла душ."
 			]
 			hide: true
 			id: "13301E271D22501C"
@@ -2568,6 +2835,10 @@
 				"Create the &9Soul Crystal&r. When you kill a mob with an empty soul crystal in hand, that mob type will be assigned to the crystal."
 				""
 				"The more &9souls&r you put inside the crystal, the more effective the &ospawner&r will be. More info can be found in the &eREI&r info tab."
+				"{@pagebreak}"
+				"Создайте &9кристалл души&r, убивая монстров кристалл души будет заполняться, душой моба которого вы убили."
+				""
+				"Чем больше вы собрали &9душ&r, тем больше спавнер будет порождать &4мобов&r, так же усиливая кристалл вы будуте улучшать другие характеристика &oспавнера&r, более подробнее можно прочитать в &eREI&r"
 			]
 			hide: true
 			id: "6E6C22551B253133"
@@ -2587,7 +2858,11 @@
 		}
 		{
 			dependencies: ["45500A52809ED66C"]
-			description: [""]
+			description: [
+				"Be patient!"
+				"{@pagebreak}"
+				"Лунный нектар может полностью починить инструменты или дать регенерацию 3 на короткий промежуток времени! "
+			]
 			id: "3A5CE82800D25EC2"
 			rewards: [{
 				id: "77F80D21053498AA"
@@ -2595,7 +2870,6 @@
 				team_reward: true
 				type: "item"
 			}]
-			subtitle: "Be patient!"
 			tasks: [{
 				id: "0221EF3D9A8D40F0"
 				item: "spectrum:moonstruck_nectar"
@@ -2610,6 +2884,8 @@
 				"This nectar allows you to resummon already killed bosses from \"Bosses of Mass Destruction\" in their respective structures. "
 				""
 				"Does not work with the &4Hell Gauntlet&r!"
+				"{@pagebreak}"
+				"Данный нектар позволяет вызывать заново ранее убитых боссов и мода Boss of Mass Destruction в их структурах, не работает на босса адскую перчатку!"
 			]
 			id: "2D1EB568EC7D6C12"
 			rewards: [{
@@ -2657,7 +2933,11 @@
 		}
 		{
 			dependencies: ["3877FD4F24D92304"]
-			description: [""]
+			description: [
+				"One of the best storages"
+				"{@pagebreak}"
+				"Одно из самых <shake>вместительных</shake> хранилищ для предметов"
+			]
 			hide: true
 			id: "3BD3C6E13574056F"
 			rewards: [{
@@ -2667,7 +2947,6 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "One of the best storages"
 			tasks: [{
 				id: "72B107F46C592AA7"
 				item: "reinfchest:diamond_chest"
@@ -2678,7 +2957,11 @@
 		}
 		{
 			dependencies: ["3BD3C6E13574056F"]
-			description: ["Same as the &#b9f2ffDiamond Chest &r, but is also &7explosion&r and &#ff6600burning&r-resistant."]
+			description: [
+				"Same as the &#b9f2ffDiamond Chest &r, but is also &7explosion&r and &#ff6600burning&r-resistant."
+				"{@pagebreak}"
+				"Имеет ту же &oвместительность&r что и &#b9f2ffалмазный сундук&r, но имеет множество иммунитетов, в том чилсе к &7взрыву&r, &#ff6600горению&r."
+			]
 			id: "4A8741F8EE51349C"
 			rewards: [
 				{
@@ -2752,7 +3035,11 @@
 		}
 		{
 			dependencies: ["4E891CEA50BDD082"]
-			description: ["A &9Level 4 Dank&r stores &b16384 items&r per slot and has &b36 slots&r."]
+			description: [
+				"A &9Level 4 Dank&r stores &b16384 items&r per slot and has &b36 slots&r."
+				"{@pagebreak}"
+				"&9Данк&r четвертого уровня вмещает &b16384 предмета&r и имеет &b36 слотов&r."
+			]
 			id: "7942771E934F45BA"
 			rewards: [{
 				id: "2C28B4BF3C225BA0"
@@ -2797,7 +3084,11 @@
 		}
 		{
 			dependencies: ["3AAD6FC39016CFF5"]
-			description: ["A &9Soul Revitalizer&r is similar to a &bSoul Cage&r, except it doesn't spawn mobs physically. Instead, it just generates &eXP&r and &6loot&r using &3energy&r."]
+			description: [
+				"A &9Soul Revitalizer&r is similar to a &bSoul Cage&r, except it doesn't spawn mobs physically. Instead, it just generates &eXP&r and &6loot&r using &3energy&r."
+				"{@pagebreak}"
+				"&9Ревитализатор душ&r работает так же как и &bклетка душ&r, только &nне создаёт&r мобов \"Физически\", проще говоря он просто создаёт &eопыт&r и &6лут&r, ценой &3энергии&r."
+			]
 			hide: true
 			id: "5C0A916E972D61EB"
 			rewards: [
@@ -2822,7 +3113,11 @@
 		}
 		{
 			dependencies: ["5C0A916E972D61EB"]
-			description: ["While using the &9Soul Revitalizer&r, you can improve some of its mob farming qualities by using Pylons. The Revitalizer can be surounded by, at most, 8 pylons that provide different effects!"]
+			description: [
+				"While using the &9Soul Revitalizer&r, you can improve some of its mob farming qualities by using Pylons. The Revitalizer can be surounded by, at most, 8 pylons that provide different effects!"
+				"{@pagebreak}"
+				"Вокруг &9Ревитализатор душ&r может находится 8 пилонов, каждый из них может быть разного типа, разные пилоны дают разные баффы!"
+			]
 			hide: true
 			id: "22FBDD2FFFD8836D"
 			rewards: [{
@@ -2845,6 +3140,10 @@
 				"Maximum ammount: 5"
 				""
 				"This pylon decreases the energy usage."
+				"{@pagebreak}"
+				"Пилоны данного типа могу присутствовать до 5 штук вокруг &9Ревитализатор душ&r"
+				""
+				"Данный пилон снижает % потребления энергии."
 			]
 			hide: true
 			id: "7EF2D32A28502E3F"
@@ -2868,6 +3167,12 @@
 				"Maximum ammount: 3"
 				""
 				"This pylon increases the beheading chance and increases energy usage."
+				"{@pagebreak}"
+				"Пилоны данного типа могу присутствовать до 3 штук вокруг &9Ревитализатор душ&r"
+				""
+				"Данный пилон повышает % получить голову с моба при убийстве."
+				""
+				"Так же пилон увеличивает % потребления энергии &9Ревитализатором душ&r"
 			]
 			hide: true
 			id: "22357AB51B050643"
@@ -2891,6 +3196,12 @@
 				"Maximum ammount: 3"
 				""
 				"This pylon increases the amount of loot generated and energy usage."
+				"{@pagebreak}"
+				"Пилоны данного типа могу присутствовать до 3 штук вокруг &9Ревитализатор душ&r"
+				""
+				"Данный пилон повышает % потребления энергии на 25% за штуку."
+				""
+				"Увеличивает количество добычи с мобов."
 			]
 			hide: true
 			id: "43CF6626E00AA1E5"
@@ -2914,6 +3225,12 @@
 				"Maximum ammount: 5"
 				""
 				"This pylon decreases time between cycles and increases energy usage."
+				"{@pagebreak}"
+				"Пилоны данного типа могу присутствовать до 5 штук вокруг &9Ревитализатор душ&r"
+				""
+				"Данный пилон повышает % потребления энергии на 25% за штуку."
+				""
+				"Уменьшает время до получения лута с моба на 15% за штуку."
 			]
 			hide: true
 			id: "411034C244842852"
@@ -2937,6 +3254,12 @@
 				"Maximum ammount: 3"
 				""
 				"This pylon adds solid XP to the loot pool and increases the energy usage."
+				"{@pagebreak}"
+				"Пилоны данного типа могу присутствовать до 3 штук вокруг &9Ревитализатор душ&r"
+				""
+				"Данный пилон повышает % потребления энергии на 25% за штуку."
+				""
+				"Добавляет шанс(5%) получить опыт первого уровня за цикл работы."
 			]
 			hide: true
 			id: "715132CC829C6956"
@@ -2960,6 +3283,12 @@
 				"Maximum ammount: 1"
 				""
 				"This pylon smelts all mob loot, for example, making the porkchops cooked."
+				"{@pagebreak}"
+				"Пилон данного типа может быть только один вокруг &9Ревитализатор душ&r"
+				""
+				"Данный пилон повышает % потребления энергии на 7.5%."
+				""
+				"Добавляет возможность \"Поджечь\" моба, т.е. лут с него будет \"пережаренный\""
 			]
 			hide: true
 			id: "5A55D9110E738384"
@@ -2983,6 +3312,14 @@
 				"Maximum ammount: 1"
 				""
 				"This pylon adds a chance to add a soul to the crystal after a loot cycle and drastically increases the energy usage."
+				"{@pagebreak}"
+				"Пилон данного типа может быть только один вокруг &9Ревитализатор душ&r"
+				""
+				"Данный пилон повышает % потребления энергии на 50%."
+				""
+				"Имеет шанс сработать 15%."
+				""
+				"Заполняет установленный кристалл душой при срабатывание. "
 			]
 			hide: true
 			id: "6012CD28844452F8"
@@ -3002,7 +3339,11 @@
 		}
 		{
 			dependencies: ["229FF3A42DB2FFF4"]
-			description: ["When consuming this &9potion&r, you will teleport to &eyour spawn point&r. Potions are &cconsumed&r when doing so."]
+			description: [
+				"When consuming this &9potion&r, you will teleport to &eyour spawn point&r. Potions are &cconsumed&r when doing so."
+				"{@pagebreak}"
+				"Когда используешь &9зелье&r - ты перемещаешься на &eсвою точку спавна&r, зелье при это &cиспользуется&r. "
+			]
 			id: "0C27567FC4C9E5EA"
 			rewards: [{
 				count: 2

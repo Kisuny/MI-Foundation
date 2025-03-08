@@ -174,7 +174,11 @@
 	quests: [
 		{
 			dependencies: ["0A81427D1090F655"]
-			description: ["You can buy the Journal from a villager whose work station is a chemistry set."]
+			description: [
+				"You can buy the Journal from a villager whose work station is a chemistry set."
+				"{@pagebreak}"
+				"Книгу можно купить у жителя, рабочей станцией которого является химический сет"
+			]
 			id: "7A2EC7290C886EA5"
 			rewards: [{
 				id: "1558A7DF4954A623"
@@ -190,7 +194,11 @@
 			y: 0.1979166666666643d
 		}
 		{
-			description: ["To craft, put all of the needed items inside the Chemistry Set, then &6light it&r. After the process finishes, RMB with a «Catalyst» specified on the right, such as a piece of &epaper&r or a &eglass bottle&r."]
+			description: [
+				"To craft, put all of the needed items inside the Chemistry Set, then &6light it&r. After the process finishes, RMB with a «Catalyst» specified on the right, such as a piece of &epaper&r or a &eglass bottle&r."
+				"{@pagebreak}"
+				"Для крафта нужно положить все предметы, далее &6зажечь стойку&r, после того как крафт пройдет - нажать предметом «Катализатором», например лист &eбумаги&r или &eпустая бутылочка&r."
+			]
 			id: "0A81427D1090F655"
 			rewards: [{
 				id: "717E17D100E28D73"
@@ -208,7 +216,11 @@
 		}
 		{
 			dependencies: ["7A2EC7290C886EA5"]
-			description: ["Powered by an energy cell, creates «vibrations». &mNeeded to gain new spells&r. Makes an alternate plane visible, albeit not always tangible."]
+			description: [
+				"Powered by an energy cell, creates «vibrations». &mNeeded to gain new spells&r. Makes an alternate plane visible, albeit not always tangible."
+				"{@pagebreak}"
+				"Работает за счёт энергетической ячейки, создаёт «Странное поле» При включение, необходим для получения &mновых заклинаний?&r"
+			]
 			id: "4DBC7F64874698A1"
 			rewards: [{
 				id: "03E8D2D3A5E5456C"
@@ -227,7 +239,11 @@
 		}
 		{
 			dependencies: ["7A2EC7290C886EA5"]
-			description: ["Generates &eenergy&r for the &5Resonator&r."]
+			description: [
+				"Generates &eenergy&r for the &5Resonator&r."
+				"{@pagebreak}"
+				"Генерирует &eэнергию&r для &5Резонатора&r"
+			]
 			id: "7A9938944EC69E02"
 			rewards: [{
 				id: "6DF01E96EF607F45"
@@ -246,13 +262,17 @@
 		}
 		{
 			dependencies: ["7A9938944EC69E02"]
+			description: [
+				"Created with a chemistry set, powers the energy cell"
+				"{@pagebreak}"
+				"Создаётся на химическом сете, питает энергетическую ячейку"
+			]
 			id: "4B8356123DCB63AF"
 			rewards: [{
 				id: "73406D0047D7DF23"
 				item: "kubejs:magic_lootbag_uncommon"
 				type: "item"
 			}]
-			subtitle: "Created with a chemistry set, powers the energy cell"
 			tasks: [{
 				count: 2L
 				id: "713989276A9C2968"
@@ -264,7 +284,11 @@
 		}
 		{
 			dependencies: ["4DBC7F64874698A1"]
-			description: ["Can be obtained by &eright-clicking&r on an active &5resonator&r with &2ectoplasm&r in hand!"]
+			description: [
+				"Can be obtained by &eright-clicking&r on an active &5resonator&r with &2ectoplasm&r in hand!"
+				"{@pagebreak}"
+				"Можно получить нажав &eПКМ&r на активный &5резонатор&r с &2эктоплазмой&r в руке!"
+			]
 			id: "1B1F2DE8E4B83167"
 			rewards: [{
 				id: "40ADD533B2825212"
@@ -281,7 +305,11 @@
 		}
 		{
 			dependencies: ["0A81427D1090F655"]
-			description: ["Cannot be removed by using milk. To get rid of the debuff, you need to use a tranquilizer."]
+			description: [
+				"Cannot be removed by using milk. To get rid of the debuff, you need to use a tranquilizer."
+				"{@pagebreak}"
+				"Нельзя снять молоком, либо терпеть, либо употребить транквилизатор"
+			]
 			id: "392F12AAFCD69E2C"
 			rewards: [{
 				id: "4D8C2F39EA772BE6"
@@ -301,7 +329,11 @@
 				"1B1F2DE8E4B83167"
 				"392F12AAFCD69E2C"
 			]
-			description: ["An improved version of the Blotter."]
+			description: [
+				"An improved version of the Blotter."
+				"{@pagebreak}"
+				"Улучшенная версия"
+			]
 			id: "1122170AE485C82B"
 			rewards: [{
 				id: "1332666CBBEF9091"
@@ -318,7 +350,11 @@
 		}
 		{
 			dependencies: ["392F12AAFCD69E2C"]
-			description: ["Removes the effects of mania."]
+			description: [
+				"Removes the effects of mania."
+				"{@pagebreak}"
+				"Транквилизатор убирает эффект мании"
+			]
 			id: "198819F24854A4A6"
 			rewards: [{
 				id: "201245DC54758BA9"
@@ -336,7 +372,11 @@
 		}
 		{
 			dependencies: ["0A81427D1090F655"]
-			description: ["Revives you after you &cdie&r."]
+			description: [
+				"Revives you after you &cdie&r."
+				"{@pagebreak}"
+				"После &cсмерти&r возродит вас "
+			]
 			id: "1BEB079D6E061D5D"
 			rewards: [{
 				id: "73B98F1CA8AE385F"
@@ -354,7 +394,11 @@
 		}
 		{
 			dependencies: ["1B1F2DE8E4B83167"]
-			description: ["Unlocks a new spell."]
+			description: [
+				"Unlocks a new spell."
+				"{@pagebreak}"
+				"открывает новое заклинание"
+			]
 			id: "36728E273B04BCE1"
 			rewards: [{
 				id: "75B430B724C1150A"

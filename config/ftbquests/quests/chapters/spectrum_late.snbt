@@ -182,6 +182,11 @@
 				"Allows to rename items freely and has no repair xp limit."
 				""
 				"Also you can add description to items and this anvil is &8unbreakable&r. "
+				"{@pagebreak}"
+				""
+				"Позволяет переименовывать предметы бесплатно и не имеет максимального лимита на ремонт."
+				""
+				"Также вы можете добавлять описания к своим предметам и использовать эту наковальню для дробления предметов бесконечно."
 			]
 			hide: true
 			id: "2E4CD28B03CBBA23"
@@ -276,6 +281,10 @@
 			]
 			description: [
 				"Improve your pedestal!"
+				""
+				"{image:quest_images:textures/item/spectrum/p3.png width:200 height:200 align:1 fit:true}"
+				"{@pagebreak}"
+				"Улучшите свой последний пьедестал!"
 				""
 				"{image:quest_images:textures/item/spectrum/p3.png width:200 height:200 align:1 fit:true}"
 			]
@@ -456,7 +465,11 @@
 		}
 		{
 			dependencies: ["0A2CBE6692C277E0"]
-			description: ["Small chunks can be found on walls in the &2Crystal Gardens&r biome in Deeper Down."]
+			description: [
+				"Small chunks can be found on walls in the &2Crystal Gardens&r biome in Deeper Down."
+				"{@pagebreak}"
+				"Маленькие кусочки можно найти на стенах в глубоких низинах в биоме &2Кристальные сады&r"
+			]
 			hide: true
 			id: "5CC7178193D6E1C6"
 			rewards: [{
@@ -520,7 +533,11 @@
 		}
 		{
 			dependencies: ["0A2CBE6692C277E0"]
-			description: ["Warning, &bpaltaeria fragments&r will float away instantly after mining. Place something above to catch it or come up with something clever. "]
+			description: [
+				"Warning, &bpaltaeria fragments&r will float away instantly after mining. Place something above to catch it or come up with something clever. "
+				"{@pagebreak}"
+				"Будьте осторожны, &bплатериевый самоцвет&r почти сразу же улетает вверх при выпадение, когда копаете руду - ставьте над ней блок или придумайте что-то умнее! "
+			]
 			hide: true
 			id: "073DD25592290A3B"
 			rewards: [
@@ -560,7 +577,11 @@
 				"073DD25592290A3B"
 				"0C1589692FFEB582"
 			]
-			description: ["One of the most important block for further progression. More in depth usage instructions can be found in the Spectrum Book. "]
+			description: [
+				"One of the most important block for further progression. More in depth usage instructions can be found in the Spectrum Book. "
+				"{@pagebreak}"
+				"Создайте важнейший блок для прогрессии, более подробнее как с ним взаимодействовать можно прочитать в книге!"
+			]
 			id: "69225E3EFFB37575"
 			shape: "octagon"
 			tasks: [{
@@ -622,6 +643,10 @@
 				"Spawns in Spectrum dungeons inside Deeper Down!"
 				""
 				"Also it can be brewed in Titration Barrel. Allows to break &7Dragon bone!&r"
+				"{@pagebreak}"
+				"Спавнится в данже спектрума, внутри глубоких низинах!"
+				""
+				"Так же можно сварить самому, позволяет взрывать драконью кость!"
 			]
 			hide: true
 			id: "549C8C3EC062B2F7"
@@ -738,7 +763,11 @@
 		}
 		{
 			dependencies: ["0A2CBE6692C277E0"]
-			description: ["Can be summoned in Summoning Altar!"]
+			description: [
+				"Can be summoned in Summoning Altar!"
+				"{@pagebreak}"
+				"Можно призвать в алтаре призыва!"
+			]
 			hide: true
 			id: "1329182E0D2135F3"
 			rewards: [{
@@ -773,7 +802,11 @@
 		}
 		{
 			dependencies: ["0B2AE0AB37EEE638"]
-			description: ["Turns mobs into their memories!"]
+			description: [
+				"Turns mobs into their memories!"
+				"{@pagebreak}"
+				"Превращает существ в их воспоминания!"
+			]
 			hide: true
 			id: "03C0C95ADF68FF5D"
 			rewards: [{
@@ -814,7 +847,11 @@
 		}
 		{
 			dependencies: ["1155BE801A058AE2"]
-			description: ["Complete the compass and find mysterious structure!"]
+			description: [
+				"Complete the compass and find mysterious structure!"
+				"{@pagebreak}"
+				"Создайте компас и найдите таинственную структуру! "
+			]
 			hide: true
 			id: "39DC7D1AE14CC1D7"
 			rewards: [
@@ -877,7 +914,11 @@
 		}
 		{
 			dependencies: ["6950DEEA33FD1127"]
-			description: ["Allows to combine two trinkets of same kind into one, maintaining their properties!"]
+			description: [
+				"Allows to combine two trinkets of same kind into one, maintaining their properties!"
+				"{@pagebreak}"
+				"Позволяет объединить 2 безделушки одного типа в одну, сохранив их свойства!"
+			]
 			hide: false
 			id: "67F48ED43E7E4DA1"
 			rewards: [{
@@ -897,7 +938,11 @@
 		}
 		{
 			dependencies: ["6950DEEA33FD1127"]
-			description: ["Allows to make any instrument unbreakable."]
+			description: [
+				"Allows to make any instrument unbreakable."
+				"{@pagebreak}"
+				"Позволяет сделать любой из инструментов не ломаемым  "
+			]
 			hide: false
 			id: "54E31637F0AB7C1F"
 			rewards: [{
@@ -937,7 +982,11 @@
 		}
 		{
 			dependencies: ["6950DEEA33FD1127"]
-			description: ["&cBloodstone&r was the last piece of perfect metal composisiton. The ancient one indeed were smarter than us!"]
+			description: [
+				"&cBloodstone&r was the last piece of perfect metal composisiton. The ancient one indeed were smarter than us!"
+				"{@pagebreak}"
+				"&cКровокамень&r был последним недостающим пазлом для создания металлургия, древние пользовались невероятными технологиями!"
+			]
 			id: "08C0BC7DF568805D"
 			rewards: [{
 				count: 50
@@ -1007,7 +1056,11 @@
 		}
 		{
 			dependencies: ["08C0BC7DF568805D"]
-			description: ["Precursor of the time in a bottle!"]
+			description: [
+				"Precursor of the time in a bottle!"
+				"{@pagebreak}"
+				"Компонент для создания времени в бутылке!"
+			]
 			id: "0BAB37C7FC7D9B02"
 			rewards: [{
 				id: "3EC0D45E9D42CF80"
@@ -1028,7 +1081,11 @@
 		}
 		{
 			dependencies: ["0BAB37C7FC7D9B02"]
-			description: ["Allows to store &otime&r while bottle inside the player inventory. When enough time is stored you can speed up the block entities. The more clicks means more speed increase. "]
+			description: [
+				"Allows to store &otime&r while bottle inside the player inventory. When enough time is stored you can speed up the block entities. The more clicks means more speed increase. "
+				"{@pagebreak}"
+				"Позволяет накапливать время в бутылочке находясь в инвентаре, как только вы скопили много времени - вы можете начать ускорять любые блоки, чем больше раз кликнуть на блок данной баночкой, тем быстрее работать он начнёт."
+			]
 			id: "7240E63C6661148E"
 			rewards: [{
 				id: "18A2ED9E0368E6A8"
@@ -1054,7 +1111,11 @@
 		}
 		{
 			dependencies: ["08C0BC7DF568805D"]
-			description: ["Allows to transfer biome in radius to another place. Handy for &8Orbit&r crafting."]
+			description: [
+				"Allows to transfer biome in radius to another place. Handy for &8Orbit&r crafting."
+				"{@pagebreak}"
+				"Позволяет переносить биом из одного места, в другое"
+			]
 			id: "33A9E9F44D5DF8AA"
 			rewards: [{
 				id: "46BF0F4A57884EA5"
@@ -1075,7 +1136,11 @@
 		}
 		{
 			dependencies: ["08C0BC7DF568805D"]
-			description: ["Upgrades used in spectrum structures. Provides x2 increase in production with a chance."]
+			description: [
+				"Upgrades used in spectrum structures. Provides x2 increase in production with a chance."
+				"{@pagebreak}"
+				"Улучшение для алтарей и других мультиблоков спектрума, позволяет сделать х2 продукции при крафте, но с шансом!"
+			]
 			id: "54A3A3BAA7129852"
 			rewards: [{
 				id: "31464ADBF807DA82"
@@ -1095,7 +1160,11 @@
 		}
 		{
 			dependencies: ["073DD25592290A3B"]
-			description: ["Allows to exchange one block into another. Can change multiple connected blocks simultaneously. Handy when dealing with EBF coils.  "]
+			description: [
+				"Allows to exchange one block into another. Can change multiple connected blocks simultaneously. Handy when dealing with EBF coils.  "
+				"{@pagebreak}"
+				"Позволяет заменять блоки одного типа, на другого."
+			]
 			id: "00F88CC599CEE69D"
 			shape: "octagon"
 			subtitle: "Thaumic vibes!"
@@ -1511,6 +1580,12 @@
 				"To teleport you must first click RMB with book in hand onto the &5Teleport Pearl&r to add the charge to the book. 1 teleport = 1 pearl."
 				""
 				"Also to record static location you will need to &ofind&r the Displacement Pages in various dungeons."
+				"{@pagebreak}"
+				"Позволяет телепортироваться в любую точку мира, между мирами. "
+				""
+				"Для работы необходимо нажать книгой ПКМ на &5Жемчуг телепортации&r, чтобы добавить жемчуг в книгу как заряд, 1 телепортация = 1 жемчугу. "
+				""
+				"Так же для работы книгы необходима «&9Страница Перемещения&r», страницы можно найти в разнообразных данжах."
 			]
 			id: "47A5EF8672853825"
 			rewards: [{
@@ -1535,7 +1610,11 @@
 		}
 		{
 			dependencies: ["1B8B44ABD0A94E55"]
-			description: ["Reap the Nephrite blossom fruits."]
+			description: [
+				"Reap the Nephrite blossom fruits."
+				"{@pagebreak}"
+				"Соберите немного хрустальных персиков которые растут на цветущем нефрите!"
+			]
 			id: "56915AF761EC4872"
 			rewards: [{
 				id: "1C09F9E1DFF2F380"
@@ -1631,7 +1710,11 @@
 		}
 		{
 			dependencies: ["034F516E1377D547"]
-			description: ["&9Dank&r fifth level holds &b65536 items&r and has &b45 slots&r."]
+			description: [
+				"&9Dank&r fifth level holds &b65536 items&r and has &b45 slots&r."
+				"{@pagebreak}"
+				"&9Данк&r пятого уровня вмещает &b65536 предметов&r и имеет &b45 слотов&r."
+			]
 			id: "644D29F0387FCE03"
 			shape: "diamond"
 			size: 0.9d
@@ -1645,7 +1728,11 @@
 		}
 		{
 			dependencies: ["6950DEEA33FD1127"]
-			description: ["&9Dank&r sixth. Can hold &b262144 items&r and has &b54 slots&r."]
+			description: [
+				"&9Dank&r sixth. Can hold &b262144 items&r and has &b54 slots&r."
+				"{@pagebreak}"
+				"&9Данк&r шестого уровня вмещает &b262144 предметов&r и имеет &b54 слотов&r."
+			]
 			id: "23E25E07D0E7A687"
 			shape: "gear"
 			size: 0.8d
@@ -1659,7 +1746,11 @@
 		}
 		{
 			dependencies: ["08C0BC7DF568805D"]
-			description: ["&9Dank&r seventh. Can hold &b2,147,483,647 items&r and has &b81 slots&r."]
+			description: [
+				"&9Dank&r seventh. Can hold &b2,147,483,647 items&r and has &b81 slots&r."
+				"{@pagebreak}"
+				"&9Данк&r седьмого уровня вмещает &b2,147,483,647 предметов&r и имеет &b81 слот&r."
+			]
 			id: "79012FC587C10F0B"
 			rewards: [{
 				id: "2840E2908E604294"
@@ -1704,7 +1795,11 @@
 		}
 		{
 			dependencies: ["038A12B861714416"]
-			description: ["Find lost city in Deeper Down."]
+			description: [
+				"Find lost city in Deeper Down."
+				"{@pagebreak}"
+				"Найдите заброшенный город в глубоких низинах"
+			]
 			hide: true
 			hide_dependency_lines: false
 			icon: {
@@ -1735,7 +1830,13 @@
 		}
 		{
 			dependencies: ["07A0CBC08295C1CD"]
-			description: ["By wandering through lost city you found a strange withered flowers near the graveyard, what if we can make it &ablooming&r again."]
+			description: [
+				"By wandering through lost city you found a strange withered flowers near the graveyard, what if we can make it &ablooming&r again."
+				"{@pagebreak}"
+				"Изучая заброшенный город вы смогли обнаружить странные цветы у кладбища, интересно, а что если их попробовать оживить?"
+				""
+				"&#ffb04fЭтот квест открывает новую ветку квестов!&r"
+			]
 			hide: true
 			id: "215B23638DD9FEDB"
 			rewards: [{
@@ -1756,7 +1857,13 @@
 		}
 		{
 			dependencies: ["07A0CBC08295C1CD"]
-			description: ["By wandering through lost city you found a strange beehive near the graveyard, what if we can make it &6buzzing&r again."]
+			description: [
+				"By wandering through lost city you found a strange beehive near the graveyard, what if we can make it &6buzzing&r again."
+				"{@pagebreak}"
+				"Изучая заброшенный город вы смогли обнаружить странный улей вблизь к кладбищу, а что если попробовать наполнить его пчёлами и мёдом?"
+				""
+				"&#ffb04fЭтот квест открывает новую ветку квестов!&r"
+			]
 			hide: true
 			id: "5A42FAAF364FFC82"
 			rewards: [{
@@ -1787,6 +1894,16 @@
 				"• Dragonbone."
 				"• Hummingstone."
 				"• Stripped noxcaps."
+				"{@pagebreak}"
+				"Соберите все различные ресурсы глубоких низин!"
+				""
+				"• Висмут."
+				"• Колючий лавровый лист."
+				"• Семена Смертоцвета."
+				"• Мракодерево."
+				"• Драконью кость."
+				"• Гудокамень."
+				"• Обтесите большие грибы глубоких низин"
 			]
 			id: "63CC4D4C70528092"
 			tasks: [{

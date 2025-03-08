@@ -216,7 +216,11 @@
 				"0B96C1E27305CD1E"
 				"6B43798E997F1E52"
 			]
-			description: ["Used to collect &0<shake>neutronium</shake>&r"]
+			description: [
+				"Used to collect &0<shake>neutronium</shake>&r"
+				"{@pagebreak}"
+				"&6Нейтронный сборщик&r, необходим для сбора &0<shake>нейтрония</shake>&r"
+			]
 			id: "48946D8D12B533AA"
 			rewards: [
 				{
@@ -287,7 +291,11 @@
 		}
 		{
 			dependencies: ["0B96C1E27305CD1E"]
-			description: ["Used to compress &0<shake>neutronium</shake>&r"]
+			description: [
+				"Used to compress &0<shake>neutronium</shake>&r"
+				"{@pagebreak}"
+				"&6Нейтрониевый компрессор&r, необходим для сжатия &0<shake>нейтрония</shake>&r"
+			]
 			id: "67FC4A3B61E5811C"
 			rewards: [
 				{
@@ -359,7 +367,11 @@
 		}
 		{
 			dependencies: ["0B96C1E27305CD1E"]
-			description: ["Unlike the nuclear reactor, Fission Chamber allows the &4fission&r of not radioactive elements into &9lighter&r elements."]
+			description: [
+				"Unlike the nuclear reactor, Fission Chamber allows the &4fission&r of not radioactive elements into &9lighter&r elements."
+				"{@pagebreak}"
+				"&6Камера деления&r, позволяет &4разделять&r &9простые частицы&r на другие &9простые частицы&r"
+			]
 			id: "7C86182CF89C1EA5"
 			rewards: [
 				{
@@ -388,7 +400,11 @@
 		}
 		{
 			dependencies: ["0B96C1E27305CD1E"]
-			description: ["Energy &4net-negative&r fusion allows to create new &5heavier&r elements atom-by-atom from two &9lighter&r elements."]
+			description: [
+				"Energy &4net-negative&r fusion allows to create new &5heavier&r elements atom-by-atom from two &9lighter&r elements."
+				"{@pagebreak}"
+				"&6Конструктор слияния&r, позволяет &4объединять&r &9простые частицы&r для получения &4других&r &9простых частиц&r"
+			]
 			id: "5B93BFA002989823"
 			rewards: [
 				{
@@ -434,7 +450,11 @@
 		}
 		{
 			dependencies: ["15B26C9D718A777A"]
-			description: ["This block can &4expand&r the number of available &ofaces&r of specified block and serve as a distant access point. To bind entangled block you must use &6Entangled binder&r. "]
+			description: [
+				"This block can &4expand&r the number of available &ofaces&r of specified block and serve as a distant access point. To bind entangled block you must use &6Entangled binder&r. "
+				"{@pagebreak}"
+				"Данный блок &4может связаться с выбранным блоком&r с помощью &6Entangled binder&r и &4выступать для доступа к нему&r"
+			]
 			id: "4F9729DFAEAC4CB8"
 			rewards: [
 				{
@@ -541,7 +561,11 @@
 		}
 		{
 			dependencies: ["416102F2B37AD68A"]
-			description: ["Permits the &3cross-dimensional&r connection of &9ME&r networks. In order to work both rings must be supplied with energy. The binding is performed by &osplitting&r the singularity. "]
+			description: [
+				"Permits the &3cross-dimensional&r connection of &9ME&r networks. In order to work both rings must be supplied with energy. The binding is performed by &osplitting&r the singularity. "
+				"{@pagebreak}"
+				"&6Квантовое кольцо&r, позволяет получить доступ к &9МЭ&r &4из одной точки пространства в другую&r, необходима энергия на обоих концах кольца. Для связи нужно сингулярность"
+			]
 			id: "1E2EA520ACC7FEE6"
 			rewards: [
 				{
@@ -646,7 +670,11 @@
 		}
 		{
 			dependencies: ["38A24F58A368095B"]
-			description: ["Use to extract or deposit energy into the system."]
+			description: [
+				"Use to extract or deposit energy into the system."
+				"{@pagebreak}"
+				"Точка доступа к энергии в беспроводной энерго сети"
+			]
 			id: "0444EC7C46FFB9DF"
 			rewards: [{
 				id: "136A4FE635791296"
@@ -670,7 +698,11 @@
 		}
 		{
 			dependencies: ["36AD66F466216147"]
-			description: ["The &9Brain&r of flux network."]
+			description: [
+				"The &9Brain&r of flux network."
+				"{@pagebreak}"
+				"&4Главный блок&r беспроводной энерго сети"
+			]
 			id: "38A24F58A368095B"
 			rewards: [
 				{
@@ -694,7 +726,11 @@
 		}
 		{
 			dependencies: ["38A24F58A368095B"]
-			description: ["Used to provide network with energy buffer, for better power management."]
+			description: [
+				"Used to provide network with energy buffer, for better power management."
+				"{@pagebreak}"
+				"Используется для обеспечения сети буфером энергии для лучшего управления энергией."
+			]
 			id: "02AAB414E9A755AF"
 			rewards: [
 				{
@@ -1169,7 +1205,11 @@
 				"416102F2B37AD68A"
 				"2DA54757A3D7740E"
 			]
-			description: ["&6End game of upgrades&r, &oremoves&r the overclock energy limits."]
+			description: [
+				"&6End game of upgrades&r, &oremoves&r the overclock energy limits."
+				"{@pagebreak}"
+				"&6Лучший ускоритель в моде&r, позволяет увеличить лимит разгона любого крафта до максимума"
+			]
 			id: "465C8964A11B1A00"
 			tasks: [{
 				id: "33057AA446838F1A"
@@ -1230,7 +1270,11 @@
 		}
 		{
 			dependencies: ["01B70FD0A29E6AC0"]
-			description: ["A way of resource generation on planet orbit. "]
+			description: [
+				"A way of resource generation on planet orbit. "
+				"{@pagebreak}"
+				"&6Станция дронов&r, &4один&r из видов получения ресурсов"
+			]
 			id: "1E18B13F50E05755"
 			rewards: [
 				{
@@ -1278,44 +1322,12 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["416102F2B37AD68A"]
-			description: ["Loads chunks &4only&r when &4it's owner is online&r (important for server play). &6Owner is the one who entered the interface first&r."]
-			id: "0D2303A725B4A25C"
-			rewards: [
-				{
-					count: 4
-					id: "768AB4F6F956A300"
-					item: "architects_palette:unobtanium"
-					type: "item"
-				}
-				{
-					id: "143D0A0675A1A24C"
-					item: "kubejs:spectral_circuit_board"
-					type: "item"
-				}
-				{
-					id: "5333256459C5E28B"
-					item: "kubejs:end_lootbag_rare"
-					type: "item"
-				}
-				{
-					id: "4AB2CB2186C15275"
-					item: "kubejs:end_lootbag_uncommon"
-					type: "item"
-				}
-			]
-			size: 1.5d
-			tasks: [{
-				id: "7F5059E7C3A86BC8"
-				item: "chunkloaders:basic_chunk_loader"
-				type: "item"
-			}]
-			x: -11.5d
-			y: -1.0d
-		}
-		{
 			dependencies: ["25D80C3480AF56C0"]
-			description: [""]
+			description: [
+				"<shake>Everlasting Drills!</shake>"
+				"{@pagebreak}"
+				"<shake>Бесконечные забурники!</shake>"
+			]
 			id: "3A7DBF1A575CA746"
 			rewards: [
 				{
@@ -1330,7 +1342,6 @@
 					type: "item"
 				}
 			]
-			subtitle: "<shake>Everlasting Drills!</shake>"
 			tasks: [{
 				id: "3CC2F06802A39D50"
 				item: {
@@ -1379,7 +1390,11 @@
 				"47AEA0C5F176D939"
 				"6D24CFB221C9D8F4"
 			]
-			description: ["Used to perform element &4decomposition&r of substances."]
+			description: [
+				"Used to perform element &4decomposition&r of substances."
+				"{@pagebreak}"
+				"&6Молекулярный деконструктор&r, &4необходим&r для &4разбора&r предметов на &9простые частицы&r"
+			]
 			id: "2E407CD925C6F3EF"
 			rewards: [{
 				id: "2D82F22137BA03DB"
@@ -1426,7 +1441,11 @@
 		}
 		{
 			dependencies: ["36AD66F466216147"]
-			description: ["&6THE Turbine&r, has an output of &4256k&r eu/t, and &9and more efficient consumption of compressed steam variants&r"]
+			description: [
+				"&6THE Turbine&r, has an output of &4256k&r eu/t, and &9and more efficient consumption of compressed steam variants&r"
+				"{@pagebreak}"
+				"&6Улучшенная большая паровая турбина&r, имеет увеличенный вывод энергии в &4256к&r eu\\t, а так же &4более эффективное потребление других видов пара&r"
+			]
 			id: "0AE3A5BEBF1B3484"
 			rewards: [{
 				id: "17E86C0D228ACD3D"
@@ -2203,7 +2222,11 @@
 		}
 		{
 			dependencies: ["0B96C1E27305CD1E"]
-			description: ["&6Particle Manipulator&r, allows to &4create&r substances from &9elements&r"]
+			description: [
+				"&6Particle Manipulator&r, allows to &4create&r substances from &9elements&r"
+				"{@pagebreak}"
+				"&6Манипулятор частиц&r, позволяет &4создавать&r предметы из &9простых частиц&r"
+			]
 			id: "6C2D2C561DDED656"
 			rewards: [
 				{
@@ -2285,7 +2308,11 @@
 		}
 		{
 			dependencies: ["69D4F13039AAEFC8"]
-			description: ["Will generate EMC and transfer them into &4adjacent&r &9EMC Collector&r. &4Only works&r under the &esun&r."]
+			description: [
+				"Will generate EMC and transfer them into &4adjacent&r &9EMC Collector&r. &4Only works&r under the &esun&r."
+				"{@pagebreak}"
+				"Установив &4рядом&r с &9Material condenser&r будет передавать в него &6EMC.&r Работает &4только&r под &eсолнцем&r"
+			]
 			id: "2A2862E9AB3564C3"
 			rewards: [{
 				id: "56AA27E52029C6B9"
@@ -2404,7 +2431,11 @@
 		}
 		{
 			dependencies: ["69D4F13039AAEFC8"]
-			description: ["Multiblock version of &9EMC&r Collector. EMC collector should be placed inside the 3x3x3 cube of AEGU's. "]
+			description: [
+				"Multiblock version of &9EMC&r Collector. EMC collector should be placed inside the 3x3x3 cube of AEGU's. "
+				"{@pagebreak}"
+				"В отличии от &6EMC&r collector &4должен быть установлен на расстоянии в 1 блок&r от &9Material condenser&r и &4касаться его или другой AEGU&r. Сл-но максимально эффективное рассположение будет &4куб 3х3х3 с Material condenser в центре&r"
+			]
 			id: "1C902EAC3680BA7C"
 			rewards: [
 				{
@@ -2475,9 +2506,12 @@
 				"2DB58ECA34B60888"
 				"1147E1C14852C9CE"
 			]
-			description: [""]
+			description: [
+				"&6Infinite&r <shake>element</shake> generation!"
+				"{@pagebreak}"
+				"&6Бесконечная&r генерация <shake>элементов!</shake>"
+			]
 			id: "69D4F13039AAEFC8"
-			subtitle: "&6Infinite&r <shake>element</shake> generation!"
 			tasks: [{
 				id: "2FD465BBA4F437B3"
 				item: "itemalchemy:emc_condenser"
@@ -2488,7 +2522,11 @@
 		}
 		{
 			dependencies: ["2A2862E9AB3564C3"]
-			description: ["Used to transfer EMC from collectors to &9EMC Condensers&r. All adjacent EMC Collectors will output they generation to repeaters until they encounter the &9EMC Condenser&r."]
+			description: [
+				"Used to transfer EMC from collectors to &9EMC Condensers&r. All adjacent EMC Collectors will output they generation to repeaters until they encounter the &9EMC Condenser&r."
+				"{@pagebreak}"
+				"Можно использовать для &4более удобного подключения&r к Material condenser. &4Все примыкающие&r к repeater emc collector-ы будут отдавать свою энергию дальше по цепочке repeater-ов пока не дойдут до &9Material condenser&r"
+			]
 			id: "6CC1A9B1B0196C6D"
 			rewards: [{
 				count: 4

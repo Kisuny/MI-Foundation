@@ -343,6 +343,12 @@
 				"With the forge hammer you can create some basic machine parts."
 				""
 				"&e&nAlso this block is workstation for villagers!&r&r"
+				"{@pagebreak}"
+				"Кузня позволяет создавать начальные компоненты для создания машин"
+				""
+				"&#ffb04fЭтот квест открывает новую ветку квестов!&r"
+				""
+				"&e&nТак же этот блок является рабочей станцией для жителей!&r&r"
 			]
 			id: "190C18AB20216705"
 			rewards: [
@@ -407,7 +413,11 @@
 				"5068CA0533B3F71D"
 				"34F267D4B9230EE8"
 			]
-			description: ["Smelt some &6iron&r"]
+			description: [
+				"Smelt some &6iron&r"
+				"{@pagebreak}"
+				"Переплавь немного &6железа&r"
+			]
 			id: "4CD4E765537B016C"
 			rewards: [
 				{
@@ -498,6 +508,10 @@
 			description: [
 				"Now you can &osmelt&r ores two times faster!"
 				"But all of the meat will be cooked \"Congratulations\""
+				"{@pagebreak}"
+				"&6Плавильная&r печь позволяет готовить руду куда более &eбыстрее&r, чем печь!"
+				""
+				"Но у всего есть минусы, Плавильня &oне позволяет&r готовить что-то ещё, кроме руды."
 			]
 			id: "403F92134AA453CA"
 			rewards: [{
@@ -521,6 +535,10 @@
 			description: [
 				"Can cook food faster."
 				"Can &lnot&r &osmelt&r ores."
+				"{@pagebreak}"
+				"&6Коптильня&r позволяет готовить &oеду&r куда более &eбыстрее&r, чем печь!"
+				""
+				"Но у всего есть минусы, коптильня &oне позволяет&r готовить что-то ещё, кроме еды."
 			]
 			id: "59AC876BF2E8F2BF"
 			rewards: [
@@ -618,7 +636,11 @@
 		}
 		{
 			dependencies: ["190C18AB20216705"]
-			description: ["Basic &6plates&r. These replace iron ingots in most vanilla recipes."]
+			description: [
+				"Basic &6plates&r. These replace iron ingots in most vanilla recipes."
+				"{@pagebreak}"
+				"Первые &6пластины&r позволят создать броню, оружие и другие полезные предметы!"
+			]
 			id: "271D55F97C071D7F"
 			rewards: [
 				{
@@ -645,7 +667,11 @@
 		}
 		{
 			dependencies: ["271D55F97C071D7F"]
-			description: ["With a hammer, you &3double&r the efficiency of the forge hammer!"]
+			description: [
+				"With a hammer, you &3double&r the efficiency of the forge hammer!"
+				"{@pagebreak}"
+				"Молот позволяет создавать более &3экономнее&r пластины и другие материалы на &6наковальне&r!"
+			]
 			id: "01A88137A6AF2C05"
 			rewards: [
 				{
@@ -776,6 +802,12 @@
 				"&l&5MI:Foundation&r&r provides a new &9fishing experience&r - new rods, baits, trinkets etc."
 				""
 				"Also, now you can catch &3entities&r, which may vary from regular mobs to special mini-bosses. "
+				"{@pagebreak}"
+				"Создай удочку чтобы проверить свои силы в &9ловле рыбы&r!"
+				""
+				"В данной сборке кардинально изменена &9рыбалка&r, в большинстве аспектах она была улучшена."
+				""
+				"Так же была добавлена так называемая механика ловле «&3Существ&r», это значит, что в какой-то момент вы сможете ловить &oне только разнообразные предметы&r из глубин океана, но и существ с которыми впоследствии можно делать всё что вам захочется, разводить, убивать и т.д. "
 			]
 			id: "7BE626B4546B2C7A"
 			rewards: [
@@ -810,7 +842,13 @@
 		}
 		{
 			dependencies: ["7BE626B4546B2C7A"]
-			description: ["By fishing long enough, this relic of the deep may come to your hand. &3Keep those tears to yourself&r. A fishing rod made of these tears will allow you to catch &3entities&r and &4mini bosses!&r"]
+			description: [
+				"By fishing long enough, this relic of the deep may come to your hand. &3Keep those tears to yourself&r. A fishing rod made of these tears will allow you to catch &3entities&r and &4mini bosses!&r"
+				"{@pagebreak}"
+				"Достав из дна моря немного её &3слёз&r, вы открыли возможность создать удочку, что позволит вам ловить &3разнообразных существ&r и &cбоссов&r из воды! "
+				""
+				"&#ffb04fЭтот квест открывает новую ветку квестов!&r"
+			]
 			id: "523942AC15DDEDF2"
 			rewards: [
 				{
@@ -913,6 +951,10 @@
 			dependencies: ["190C18AB20216705"]
 			description: [
 				"Alternative option for item storage. Has &345 slots&r and the same bevahiour as a vanilla chest!"
+				"{@pagebreak}"
+				"Один из первых улучшенных сундуков, имеет &345 слотов&r!"
+				""
+				"Из одинарного сундука можно сделать двойной! "
 				" "
 			]
 			id: "1BDBDD5959A0D6A2"
@@ -940,7 +982,13 @@
 		}
 		{
 			dependencies: ["1BDBDD5959A0D6A2"]
-			description: ["Alternative option for item storage. Has &354 slots&r and the same bevahiour as a vanilla chest!"]
+			description: [
+				"Alternative option for item storage. Has &354 slots&r and the same bevahiour as a vanilla chest!"
+				"{@pagebreak}"
+				"Имеет &354 слота&r!"
+				""
+				"Из одинарного сундука можно сделать двойной! "
+			]
 			id: "3FC493B1B1412E8E"
 			rewards: [
 				{
@@ -966,7 +1014,13 @@
 		}
 		{
 			dependencies: ["3FC493B1B1412E8E"]
-			description: ["Alternative option for item storage. Has &381 slots&r and the same bevahiour as a vanilla chest!"]
+			description: [
+				"Alternative option for item storage. Has &381 slots&r and the same bevahiour as a vanilla chest!"
+				"{@pagebreak}"
+				"имеет &381 слот&r!"
+				""
+				"Из одинарного сундука можно сделать двойной! "
+			]
 			id: "1AB5C899281E83A7"
 			rewards: [
 				{

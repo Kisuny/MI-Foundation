@@ -141,7 +141,11 @@
 				"69D4D6B68F8732DD"
 				"5155E62DBD279683"
 			]
-			description: ["By pressing RMB on any machine with the casing in hand, it will upgrade the machine to MV, and allow it to accept MV power."]
+			description: [
+				"By pressing RMB on any machine with the casing in hand, it will upgrade the machine to MV, and allow it to accept MV power."
+				"{@pagebreak}"
+				"Если нажать ПКМ на любой машине с корпусом в руках, это переведет машину в режим MV и позволит ей принимать энергию MV."
+			]
 			id: "3D1045C0C6B3BA08"
 			rewards: [
 				{
@@ -244,7 +248,11 @@
 				"177C8ED1C4934331"
 				"3D1045C0C6B3BA08"
 			]
-			description: ["&bCools down&r some metals and fluids by creating a vacuum."]
+			description: [
+				"&bCools down&r some metals and fluids by creating a vacuum."
+				"{@pagebreak}"
+				"&6Морозильный аппарат&r, позволяет &9некоторые жидкости&r &6приводить&r в &8более твердый&r вариант"
+			]
 			id: "796BBB93DDF2F8D3"
 			rewards: [
 				{
@@ -301,7 +309,11 @@
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
-			description: ["&4Separates&r resources into their components via fast motor go brrr."]
+			description: [
+				"&4Separates&r resources into their components via fast motor go brrr."
+				"{@pagebreak}"
+				"&6Центрифуга&r, &4позволяет разделять&r различные ресурсы на другие"
+			]
 			id: "12829AE05244CA1B"
 			rewards: [
 				{
@@ -333,7 +345,11 @@
 				"3D1045C0C6B3BA08"
 				"566A7BC814D63078"
 			]
-			description: ["Turbine, but MV, and with 4 times the throughput."]
+			description: [
+				"Turbine, but MV, and with 4 times the throughput."
+				"{@pagebreak}"
+				"Турбина, но MV, и с в 4 раза большей производительностью."
+			]
 			id: "032D0C4B0DBE2DF2"
 			rewards: [
 				{
@@ -391,7 +407,11 @@
 				"3D1045C0C6B3BA08"
 				"566A7BC814D63078"
 			]
-			description: ["Same as the steam quarry, but electric."]
+			description: [
+				"Same as the steam quarry, but electric."
+				"{@pagebreak}"
+				"То же самое, что и парововой карьер, только электрический."
+			]
 			id: "66D16ADD44115DC6"
 			rewards: [
 				{
@@ -619,7 +639,11 @@
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
-			description: ["&6Bulk&r alloying."]
+			description: [
+				"&6Bulk&r alloying."
+				"{@pagebreak}"
+				"&6Электрических&r вариант печи для сплавов"
+			]
 			id: "7690F3B47E697F59"
 			rewards: [
 				{
@@ -712,6 +736,10 @@
 				"&aMining speed is dependent on the fuel quality&r."
 				"Has two modes: \"Silk Touch\" and \"Fortune 3\"."
 				"&4Doesn't have 3x3 mining&r."
+				"{@pagebreak}"
+				"больше скорости копания, имеет мод \"шёлковое касание\" и \"удача 3\"."
+				"&aСкорость копания зависит от качества топлива"
+				"&4не умеет копать 3х3"
 			]
 			id: "20D91BDF17DB51A8"
 			rewards: [{
@@ -775,7 +803,11 @@
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
-			description: ["Produces even more steam than the large boiler - 1024mb/t."]
+			description: [
+				"Produces even more steam than the large boiler - 1024mb/t."
+				"{@pagebreak}"
+				"Производит еще больше пара, чем большой котел - 1024mb/t."
+			]
 			id: "26BC4228887D3C46"
 			rewards: [
 				{
@@ -1007,7 +1039,11 @@
 				"3D1045C0C6B3BA08"
 				"566A7BC814D63078"
 			]
-			description: ["&6Drills&r different &4liquids&r depending on the drill type and dimension."]
+			description: [
+				"&6Drills&r different &4liquids&r depending on the drill type and dimension."
+				"{@pagebreak}"
+				"&6Нефтебуровая установка&r, &4позволяет добывать&r различные &4жидкости&r при помощи разных забурников"
+			]
 			id: "5A9F94BC1B9EA1F0"
 			rewards: [
 				{
@@ -1040,6 +1076,11 @@
 				"796BBB93DDF2F8D3"
 				"061FDC6FE5331101"
 			]
+			description: [
+				"Make some rubber sheets in a vacuum freezer"
+				"{@pagebreak}"
+				"Произведите резину с помощью вакуумного морозильного аппарата"
+			]
 			icon: "modern_industrialization:rubber_sheet"
 			id: "17A50060E73C8D9D"
 			rewards: [{
@@ -1049,7 +1090,6 @@
 				type: "item"
 			}]
 			size: 1.5d
-			subtitle: "Make some rubber sheets in a vacuum freezer"
 			tasks: [{
 				id: "4AE8D0F4E1E6A58C"
 				type: "checkmark"
@@ -1181,7 +1221,11 @@
 		}
 		{
 			dependencies: ["181FAC8893771CD9"]
-			description: ["The main component of the rocket fuel."]
+			description: [
+				"The main component of the rocket fuel."
+				"{@pagebreak}"
+				"Основной компонент ракетного топлива."
+			]
 			hide: false
 			id: "56AF55D3C00B803A"
 			tasks: [{
@@ -1369,7 +1413,11 @@
 				"32FF345AF0E87070"
 				"3D1045C0C6B3BA08"
 			]
-			description: ["You can either use an &9oxygen&r compressor or just RMB with the &9oxygen&r tank on an MI tank containing &9oxygen&r.  "]
+			description: [
+				"You can either use an &9oxygen&r compressor or just RMB with the &9oxygen&r tank on an MI tank containing &9oxygen&r.  "
+				"{@pagebreak}"
+				"вместо &9кислородного&r компрессора можно использовать бак с &9кислородом&r из &6modern industrialization&r"
+			]
 			hide_dependency_lines: true
 			icon: {
 				Count: 1b
@@ -1414,7 +1462,11 @@
 		}
 		{
 			dependencies: ["58FD2F344DAA81A5"]
-			description: ["Is necessary to survive the vast emptiness of space. To work properly it needs to be filled with oxygen."]
+			description: [
+				"Is necessary to survive the vast emptiness of space. To work properly it needs to be filled with oxygen."
+				"{@pagebreak}"
+				"Необходим для выживания в открытом космосе и на первых планетах, для дыхания необходим кислород"
+			]
 			hide: false
 			icon: {
 				Count: 1b
@@ -1748,7 +1800,11 @@
 				"0E3F551B750AB84A"
 				"004209D0C8DC9348"
 			]
-			description: ["Basic &9ME&r cable, has &432&r channels."]
+			description: [
+				"Basic &9ME&r cable, has &432&r channels."
+				"{@pagebreak}"
+				"Кабель для &9МЭ&r системы, проводит &432&r канала, функциональных блоков шин из AE2 занимают один канал"
+			]
 			id: "36739063C2FB8639"
 			rewards: [
 				{
@@ -1801,7 +1857,11 @@
 		}
 		{
 			dependencies: ["597070AC15C6CF1E"]
-			description: ["&9ME&r drive is used to store storage disks. Every item takes up 1 &4type&r inside the disk if it was not present there before. Otherwise, each item takes up 1 &4bit&r. "]
+			description: [
+				"&9ME&r drive is used to store storage disks. Every item takes up 1 &4type&r inside the disk if it was not present there before. Otherwise, each item takes up 1 &4bit&r. "
+				"{@pagebreak}"
+				"&9МЭ&r накопитель, положив в него &4ячейки хранения&r вы &4увеличите&r возможный лимит &9МЭ&r системы на хранение вещей. &4Каждый&r предмет занимает &4тип&r, &4если&r не был в &9МЭ&r системе &4ранее&r и &4байты&r"
+			]
 			id: "3963D7F954AC6EC0"
 			rewards: [
 				{
@@ -1841,7 +1901,11 @@
 		}
 		{
 			dependencies: ["36739063C2FB8639"]
-			description: ["&4Main component&r of the &9ME&r system, provides channels to devices. Controllers may be placed next to each other to create a bigger controller. Can provide &9128&r channels from each side. Has a maximal size of &47x7x7&r."]
+			description: [
+				"&4Main component&r of the &9ME&r system, provides channels to devices. Controllers may be placed next to each other to create a bigger controller. Can provide &9128&r channels from each side. Has a maximal size of &47x7x7&r."
+				"{@pagebreak}"
+				"&4Основной блок&r &9МЭ&r системы, &4все&r кабели должны приходить к данному блоку. &4Могут&r быть соединены последовательно. &4Максимальный размер&r структуры &47х7х7.&r Имеет &4лимит&r в &9128&r каналов на сторону"
+			]
 			id: "5F08D82308DA853F"
 			rewards: [
 				{
@@ -1865,7 +1929,11 @@
 		}
 		{
 			dependencies: ["597070AC15C6CF1E"]
-			description: ["&9ME&r chest has only &4one&r slot for a storage disk, but has its own interface. Needs &9AE2&r energy to work."]
+			description: [
+				"&9ME&r chest has only &4one&r slot for a storage disk, but has its own interface. Needs &9AE2&r energy to work."
+				"{@pagebreak}"
+				"&9МЭ&r сундук, &4мини&r &9МЭ&r система, для функционала нужна &9МЭ&r &4ячейка&r и &6энергия&r"
+			]
 			id: "06385AE5E0FE038A"
 			rewards: [
 				{
@@ -1915,7 +1983,11 @@
 		}
 		{
 			dependencies: ["004209D0C8DC9348"]
-			description: ["Can craft AE2 processors."]
+			description: [
+				"Can craft AE2 processors."
+				"{@pagebreak}"
+				"Высекатель, позволяет делать процессоры из AE2 и некоторые другие ресурсы"
+			]
 			id: "7C094A056ED01F7B"
 			rewards: [
 				{
@@ -1947,7 +2019,11 @@
 		}
 		{
 			dependencies: ["004209D0C8DC9348"]
-			description: ["Improves the crystal growing speed on the block placed on the working side of an accelerator. Moreover, it works with amethyst and &dSpectrum&r gemstones. Need AE2 energy to work."]
+			description: [
+				"Improves the crystal growing speed on the block placed on the working side of an accelerator. Moreover, it works with amethyst and &dSpectrum&r gemstones. Need AE2 energy to work."
+				"{@pagebreak}"
+				"Ускоритель роста кристаллов, для получения истинного кварца необходимо выращивать их на безупречных цветущих блоках истинного кварца, окружив такой блок четырьмя ускорителями роста вокруг и подключив их к МЭ сети, кристаллы на блоках кварца будут расти быстрее"
+			]
 			id: "27CB399EA2E30582"
 			rewards: [{
 				id: "3034AE4D8922A07F"
@@ -1968,6 +2044,10 @@
 				"Basic mean of quartz charging."
 				""
 				"&e&nAlso, this block is a workstation for villagers!&r&r"
+				"{@pagebreak}"
+				"Зарядник, необходим для зарядки истинного кварца"
+				""
+				"&e&nТак же этот блок является рабочей станцией для жителей!&r&r"
 			]
 			id: "43DBB5ABDDA13B56"
 			rewards: [{
@@ -2083,7 +2163,11 @@
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
-			description: ["A basic machine for &2agriculture&r automation. Can only grow basic plants."]
+			description: [
+				"A basic machine for &2agriculture&r automation. Can only grow basic plants."
+				"{@pagebreak}"
+				"&6Сад Клоше&r, однако он способен на выращивание &4только простых&r культур."
+			]
 			id: "71F97A656D41785D"
 			rewards: [
 				{
@@ -2124,6 +2208,10 @@
 			description: [
 				"&4Produces&r sea creatures."
 				"The multiblock &4must&r be filled with &9water&r in order to work."
+				"{@pagebreak}"
+				"&6Водная ферма&r, &4позволяет размножать&r водных существ, но процесс всё-таки не быстрый."
+				""
+				"&9Вода&r внутри мультиблока &4обязательна&r"
 			]
 			id: "304390FAC4C159B0"
 			rewards: [
@@ -2195,7 +2283,11 @@
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
-			description: ["The brain of the NEEPMeat pipe system. Is needed for pipe drivers and manual requesters to work."]
+			description: [
+				"The brain of the NEEPMeat pipe system. Is needed for pipe drivers and manual requesters to work."
+				"{@pagebreak}"
+				"Мозг базовой логической системы труб из NeepMeat. Необходим для работы драйверов хранения и ручных запросчиков."
+			]
 			id: "05E7324B1FC9421F"
 			rewards: [
 				{
@@ -2229,6 +2321,10 @@
 			description: [
 				"Storage drivers make the connected inventory visible to the NEEPMeat logistics system."
 				"Manual requesters request selected items on demand."
+				"{@pagebreak}"
+				"Запрашивает предметы в прилегающие блоки "
+				"Упрощённая система заказа предметов и формирования логистической сети."
+				"Поставьте драйвер хранения к хранилищу из которого будут запрашиваться предметы и присоедините трубный драйвер к сети труб. Теперь в нужном месте подсоедините ручной запросчик. "
 			]
 			hide: false
 			id: "29BACBBC96847851"
@@ -2318,6 +2414,16 @@
 				"For each extraction pipe, in order from smallest to largest &6extract priority&r, the pipe system calculates which items it can &6extract&r. If there are multiple suitable &3destinations&r for those items, the one with the highest &3insert priority&r takes precedence (Basically, the system chooses the largest difference in priorities)."
 				"In &nblacklist mode&r, the pipe connection moves everything &lbut&r the items in the filter. In &nwhitelist mode&r, the pipe connection moves &lonly&r the items in the filter."
 				"Pipes can move more items at once by adding &6motors&r to them."
+				"{@pagebreak}"
+				"Система приоритетов работает следующим образом:"
+				""
+				"• Для каждой трубы извлечения, в порядке от наименьшего к наибольшему приоритету извлечения, &6система труб&r рассчитывает, какие предметы она может &6извлечь&r. Если для этих предметов есть &3несколько подходящих мест&r назначения, приоритет отдается тому, у которого &3самый высокий приоритет&r вставки (по сути, система выбирает наибольшую разницу в приоритетах)."
+				""
+				"• В режиме &nчерного списка&r трубное соединение перемещает все, кроме предметов в фильтре. "
+				""
+				"• В режиме &nбелого списка&r трубное соединение перемещает только предметы, указанные в фильтре."
+				""
+				"•Трубы могут перемещать сразу несколько предметов, если к ним добавить &6мотор&r."
 			]
 			id: "4F1F0FC36448816A"
 			rewards: [
@@ -2348,6 +2454,10 @@
 				"Advanced pipes for moving fluids. Each network of connected pipes only moves one fluid. "
 				""
 				"The pipes with a higher priority are processed first."
+				"{@pagebreak}"
+				"Каждая сеть соединенных труб перемещает только одну жидкость. "
+				""
+				"Трубы с более высоким приоритетом обрабатываются первыми."
 			]
 			id: "2D7B50C0A5B7BF13"
 			rewards: [
@@ -2374,7 +2484,11 @@
 		}
 		{
 			dependencies: ["4752F7EF9DDD878F"]
-			description: ["Basically an \"&9ME&r backpack\" inside your inventory. Has less types and bytes. Need to be charged to work."]
+			description: [
+				"Basically an \"&9ME&r backpack\" inside your inventory. Has less types and bytes. Need to be charged to work."
+				"{@pagebreak}"
+				"&4Переносная&r ячейка, имеет &4меньше байтов и типов&r по сравнению с обычной ячейкой. Для работы необходима &6энергия&r"
+			]
 			id: "43F4508F28653E9E"
 			rewards: [
 				{
@@ -2411,6 +2525,8 @@
 			description: [
 				"Cuts down trees in one swoop."
 				"&aMining speed is dependent on the fuel quality&r."
+				"{@pagebreak}"
+				"&aСкорость копания зависит от качества топлива"
 			]
 			id: "68419C94D2BBEF0A"
 			rewards: [{
@@ -2442,7 +2558,11 @@
 		}
 		{
 			dependencies: ["0A89D032093A2712"]
-			description: ["Every &bcluster growth&r may lower the quality of the budding block. Budding blocks can be &2fixed&r up to a certain quality."]
+			description: [
+				"Every &bcluster growth&r may lower the quality of the budding block. Budding blocks can be &2fixed&r up to a certain quality."
+				"{@pagebreak}"
+				"&4Необходим&r для выращивания &fкристаллов,&r из данного блока возможно сделать &eболее лучшие&r безупречные блоки цветущего кварца"
+			]
 			id: "522BCE6B5700CCB5"
 			tasks: [{
 				id: "7A98801B97EEF3C3"
@@ -2458,6 +2578,8 @@
 				"Needed for auto crafting. Every crafting recipe takes some amount of bytes, depending on how many intermediate items need to be stored. Longer craft chains takes &4more&r bytes."
 				""
 				"A cuboid multiblock made up of crafting storage units, co-processing units and monitors is 1 Crafting Unit or Crafting Core, that can handle one autocrafting request. "
+				"{@pagebreak}"
+				"&6Хранилище создания&r, &4каждый&r крафт занимает определенное количество байт, для более длинных или крафтов в большем количестве нужно &4больше байтов&r"
 			]
 			id: "65E4162BCF764475"
 			tasks: [{
@@ -2470,7 +2592,11 @@
 		}
 		{
 			dependencies: ["4752F7EF9DDD878F"]
-			description: ["By default, &9ME&r system crafts &41&r recipe &4at at a time&r for a crafting request. &4Each&r co-processing unit adds &41&r parallel craft for the crafting unit it is a part of."]
+			description: [
+				"By default, &9ME&r system crafts &41&r recipe &4at at a time&r for a crafting request. &4Each&r co-processing unit adds &41&r parallel craft for the crafting unit it is a part of."
+				"{@pagebreak}"
+				"&6Блок обработки создания&r, базово &9МЭ&r система крафтит &41&r предмет &4за раз&r, &4каждый&r блок обработки создания добавляет &41&r параллельный крафт на &4текущем&r блоке процессоров"
+			]
 			id: "465033EF352E276A"
 			tasks: [{
 				id: "6F25792900A07E1F"
@@ -2576,6 +2702,11 @@
 				"- Crafts every item pump cycle."
 				"- Works well with a drawer acess point."
 				"- If a storage driver is connected, the recipe will appear in manual requesters, and the item will be crafted on demand."
+				"{@pagebreak}"
+				"Позволяет автоматически крафтить заданный внутри рецепт. "
+				"- Берёт ресурсы из инвентарей поставленных побокам. "
+				"- Хорошо сочетается с дроверной точкой доступа"
+				"- Если присоединить драйвер хранения к выходящей стороне фабрикатора, фабрикатор будет крафтить предмет по запросу"
 			]
 			hide: false
 			id: "4944AB502FB37416"
@@ -2627,7 +2758,11 @@
 		}
 		{
 			dependencies: ["75E727492D00F748"]
-			description: ["A fluid buffer of &6variable size&r. Scroll while hovering over the slot to adjust it's capacity. Can have auto-output configured in the GUI."]
+			description: [
+				"A fluid buffer of &6variable size&r. Scroll while hovering over the slot to adjust it's capacity. Can have auto-output configured in the GUI."
+				"{@pagebreak}"
+				"Жидкостный буфер с &6изменяемым размером&r. Прокрутка колесика мыши изменяет размер слота. Имеет автовыход."
+			]
 			id: "70853A2019F42EDC"
 			rewards: [
 				{

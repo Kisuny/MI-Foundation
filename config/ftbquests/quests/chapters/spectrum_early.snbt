@@ -16,6 +16,12 @@
 				"&#E4D00ACitrine&r geodes can be found in the middle layers of the underground."
 				""
 				"&#4B98C0Topaz&r geodes are located in the top layers of the underground. Sometimes, they can even be found on top of the mountains! "
+				"{@pagebreak}"
+				"&#9966CCАметист&r жеоды можно найти в глубоких слоях шахт. "
+				""
+				"&#E4D00AЦитрин&r жеоды можно найти в средних слоях шахт."
+				""
+				"&#4B98C0Топаз&r жеоды находятся в высоких слоях шахт, можно сказать что их можно найти буквально на верхушках гор! "
 			]
 			hide: true
 			id: "0FDF4075616DAA33"
@@ -46,7 +52,11 @@
 		}
 		{
 			dependencies: ["5BD88DE4446E59DB"]
-			description: ["All crafts on the pedestal can be triggered with either a &#FEECD6paintbrush&r or a &#FEC6DFredstone signal&r, whichever is more convenient."]
+			description: [
+				"All crafts on the pedestal can be triggered with either a &#FEECD6paintbrush&r or a &#FEC6DFredstone signal&r, whichever is more convenient."
+				"{@pagebreak}"
+				"Все крафты на пьедесталах можно запускать &#FEECD6кисточкой&r, либо же &#FEC6DFредстоун сигналом&r, кому как удобнее."
+			]
 			hide: true
 			id: "3DF57BBFA9D2DDEA"
 			rewards: [{
@@ -85,6 +95,10 @@
 				"Dust can be obtained from gems by using the power of the &#9BB8EDanvil&r, or rather &#9BB8EDgravity&r. Just &l<wiggle>drop</wiggle>&r the anvil on the &#9BB8EDitem&r and it will be crushed!"
 				""
 				"Well... Or... Use a macerator...."
+				"{@pagebreak}"
+				"Пыли можно получать из драгоценных камней используя силу &#9BB8EDнаковальни&r, точнее &#9BB8EDсилу тяжести&r, просто &l<wiggle>сбрось</wiggle>&r наковальню на &#9BB8EDпредмет&r который лежит на земле!"
+				""
+				"Ну… Или… Воспользуйтесь дробителем…"
 			]
 			hide: true
 			id: "470BE91CDFB98325"
@@ -114,7 +128,11 @@
 		}
 		{
 			dependencies: ["470BE91CDFB98325"]
-			description: ["By using &3glow ink sacks&r (or &k&bLight Blue Ink&r&r), it grants the wearer &#FEECD6night vision&r! "]
+			description: [
+				"By using &3glow ink sacks&r (or &k&bLight Blue Ink&r&r), it grants the wearer &#FEECD6night vision&r! "
+				"{@pagebreak}"
+				"Используя Светящийся чернильный мешок(или &k&bLight Blue Ink&r&r), награждает носителя &#FEECD6ночным зрением&r! "
+			]
 			hide: true
 			id: "7E9601DC6C9642A5"
 			rewards: [
@@ -143,7 +161,11 @@
 		}
 		{
 			dependencies: ["470BE91CDFB98325"]
-			description: ["&#FEECD6Compacting Chest&r will try to compact all the items you put inside it in a 3x3, 2x2 or 1x1 pattern - this can be customized in the GUI."]
+			description: [
+				"&#FEECD6Compacting Chest&r will try to compact all the items you put inside it in a 3x3, 2x2 or 1x1 pattern - this can be customized in the GUI."
+				"{@pagebreak}"
+				"&#FEECD6Компактный сундук&r попытается собрать все вещи, которые вы положите в него, по схеме 3х3, 2х2 или 1х1 - это можно настроить в графическом интерфейсе."
+			]
 			hide: true
 			id: "65404D129392463A"
 			rewards: [{
@@ -163,7 +185,11 @@
 		}
 		{
 			dependencies: ["470BE91CDFB98325"]
-			description: ["&#9BB8EDThis chest&r is literally a safe, only the person who placed it down can open it. Incredible &#C6BCE9magic&r!"]
+			description: [
+				"&#9BB8EDThis chest&r is literally a safe, only the person who placed it down can open it. Incredible &#C6BCE9magic&r!"
+				"{@pagebreak}"
+				"&#9BB8EDЭтот сундук&r — буквально сейф, кто поставил, тот открыть его и сможет, невероятная &#C6BCE9магия&r!"
+			]
 			hide: true
 			id: "2D044724FCDE78A8"
 			rewards: [
@@ -193,7 +219,11 @@
 		}
 		{
 			dependencies: ["470BE91CDFB98325"]
-			description: ["Use your &#9BB8EDpedestal&r to create an item from &opowdered gems&r in addition to resources. Activate it with &#9BB8EDpaintbrush&r or a &#d33b2bredstone signal&r to start the process."]
+			description: [
+				"Use your &#9BB8EDpedestal&r to create an item from &opowdered gems&r in addition to resources. Activate it with &#9BB8EDpaintbrush&r or a &#d33b2bredstone signal&r to start the process."
+				"{@pagebreak}"
+				"Используйте ваш &#9BB8EDпьедестал&r, чтобы создать предмет из &oпорошка самоцветов&r. Запустите его с помощью &#9BB8EDкисти&r или &#d33b2bредстоуна&r, чтобы начать крафт"
+			]
 			hide: true
 			id: "086D1436C9BAC37C"
 			rewards: [
@@ -228,6 +258,10 @@
 				"{image:quest_images:textures/item/structure_tips.png width:250 height:250 align:1}"
 				""
 				"To find out which blocks are needed for a structure, click on the multiblock display button. It will help you a lot in building &l&#e4affaSpectrum&r&r structures!"
+				"{@pagebreak}"
+				"{image:quest_images:textures/item/structure_tips.png width:250 height:250 align:1}"
+				""
+				"Чтобы узнать какие блоки необходимы для структуры - можно нажать на кнопку отображения мультиблока, она поможет вам в постройках структур мода спектрума!"
 			]
 			hide: true
 			id: "3D23E38AC1283899"
@@ -254,6 +288,14 @@
 				"Build your first &l&#e4affaSpectrum&r&r structure!"
 				""
 				"You can use either basalt, calcite or a mix of both to build the structure. The differences are purely aesthetic."
+				"{image:quest_images:textures/item/spectrum/p1.png width:200 height:200 align:1}"
+				"{@pagebreak}"
+				"Постройте свою первую структуру из мода спектрум!"
+				""
+				"Вы можете использовать базальт и кальцит для создания структуры."
+				""
+				"&#ffb04fЭтот квест открывает новую ветку квестов!&r"
+				""
 				"{image:quest_images:textures/item/spectrum/p1.png width:200 height:200 align:1}"
 			]
 			hide: true
@@ -288,7 +330,11 @@
 		}
 		{
 			dependencies: ["164CF7324390B1A9"]
-			description: ["Periodically emits a redstone pulse. By pressing RMB you can change the length of the pulse, and by pressing Shift+RMB you can change the interval between pulses."]
+			description: [
+				"Periodically emits a redstone pulse. By pressing RMB you can change the length of the pulse, and by pressing Shift+RMB you can change the interval between pulses."
+				"{@pagebreak}"
+				"Периодически испускает импульс красного камня. Нажав ПКМ, вы можете изменить длительность импульса, а нажав Shift+ПКМ - интервал между импульсами."
+			]
 			hide: true
 			id: "50B09C3B220077F1"
 			rewards: [{
@@ -308,7 +354,11 @@
 		}
 		{
 			dependencies: ["164CF7324390B1A9"]
-			description: ["&nFragile&r yet useful, has &#FEECD6Looting III&r by default!"]
+			description: [
+				"&nFragile&r yet useful, has &#FEECD6Looting III&r by default!"
+				"{@pagebreak}"
+				"&nХрупкий&r, но очень полезный, &#FEECD6добыча&r сразу при тебе!"
+			]
 			hide: true
 			id: "24950B502B8EB69D"
 			rewards: [{
@@ -338,7 +388,11 @@
 		}
 		{
 			dependencies: ["164CF7324390B1A9"]
-			description: ["It's a &#FEECD6shovel&r, a &#9BB8EDpickaxe&r, an &#C7E2E9axe&r, and a &#CAE4C8hoe&r &nall in one&r. It's like a Swiss tool!"]
+			description: [
+				"It's a &#FEECD6shovel&r, a &#9BB8EDpickaxe&r, an &#C7E2E9axe&r, and a &#CAE4C8hoe&r &nall in one&r. It's like a Swiss tool!"
+				"{@pagebreak}"
+				"Это &#FEECD6лопата&r, &#9BB8EDкирка&r, &#C7E2E9топор&r, и &#CAE4C8мотыга&r &nв одном&r, буквально швейцарский нож!"
+			]
 			hide: true
 			id: "0151D9E8EA81E581"
 			rewards: [{
@@ -368,7 +422,11 @@
 		}
 		{
 			dependencies: ["164CF7324390B1A9"]
-			description: ["The title speaks for itself. This machine places blocks upon recieving a &4redstone pulse&r."]
+			description: [
+				"The title speaks for itself. This machine places blocks upon recieving a &4redstone pulse&r."
+				"{@pagebreak}"
+				"Название говорит само за себя, вы можете начать устанавливать блоки."
+			]
 			hide: true
 			id: "5A8DF4E59381EE33"
 			rewards: [
@@ -397,7 +455,11 @@
 		}
 		{
 			dependencies: ["164CF7324390B1A9"]
-			description: ["Yes, it's sand... but &#d33b2bredstone&r."]
+			description: [
+				"Yes, it's sand... but &#d33b2bredstone&r."
+				"{@pagebreak}"
+				"Да, это песок… &#d33b2bРедстоун&r песок!"
+			]
 			hide: true
 			id: "292776D5D9FDDAD6"
 			rewards: [
@@ -426,7 +488,11 @@
 		}
 		{
 			dependencies: ["164CF7324390B1A9"]
-			description: ["Performs simple arithmetic operations on input signals. Use RMB to change the operation."]
+			description: [
+				"Performs simple arithmetic operations on input signals. Use RMB to change the operation."
+				"{@pagebreak}"
+				"Выполняет простые арифметические операции над входными сигналами. Используйте ПКМ для изменения операции."
+			]
 			hide: true
 			id: "326F2D1D24572DB5"
 			rewards: [{
@@ -446,7 +512,11 @@
 		}
 		{
 			dependencies: ["164CF7324390B1A9"]
-			description: ["&oUnbelievably useful&r, but keep in mind, it's &#FEECD6&lvery&r fragile&r! "]
+			description: [
+				"&oUnbelievably useful&r, but keep in mind, it's &#FEECD6&lvery&r fragile&r! "
+				"{@pagebreak}"
+				"&oНевероятно полезная броня&r, но имей ввиду, она &#FEECD6очень хрупкая&r! "
+			]
 			hide: true
 			id: "6198FDC54735801C"
 			rewards: [
@@ -522,7 +592,11 @@
 		}
 		{
 			dependencies: ["164CF7324390B1A9"]
-			description: ["Collect some &#FEECD6Shimmerstone&r in mines!"]
+			description: [
+				"Collect some &#FEECD6Shimmerstone&r in mines!"
+				"{@pagebreak}"
+				"Собери немного &#FEECD6сверкающих камней&r в шахтах!"
+			]
 			hide: true
 			id: "05ADE662ABE07C6A"
 			rewards: [
@@ -558,6 +632,12 @@
 				"Grows on mud or clay. While growing, &#FEECD6consumes&r mud and clay blocks around itself, turning them into dirt."
 				""
 				"&n&l&#FEECD6Tip:&r&r&r use the &#CAE4C8Nature's compass&r to find the swamp easier! It spawns in all swamps, not only vanilla ones! To get one, progress some more in the main questline."
+				"{@pagebreak}"
+				"&#C6BCE9Малотоксичный тростник&r можно найти в &#CAE4C8болотах&r!"
+				""
+				"Растёт на грязи или глине в процессе роста &#FEECD6потребляет&r грязь/глину."
+				""
+				"&n&l&#FEECD6Совет:&r&r&r используйте &#CAE4C8компасс природы&r чтобы легче найти болото! Вы можете искать &#FEECD6не только&r ванильные болота, в модовых болотах данный тростник так же &#CAE4C8растёт&r!"
 			]
 			id: "6043D64CB5876428"
 			rewards: [
@@ -586,7 +666,11 @@
 		}
 		{
 			dependencies: ["6043D64CB5876428"]
-			description: ["&#FEECD6Crush&r this &#CAE4C8toxic&r &#CAE4C8reed&r with an anvil!"]
+			description: [
+				"&#FEECD6Crush&r this &#CAE4C8toxic&r &#CAE4C8reed&r with an anvil!"
+				"{@pagebreak}"
+				"&#FEECD6Раздавите&r этот &#CAE4C8токсичный&r вид &#CAE4C8тростника&r своей новенькой наковальней!"
+			]
 			icon: "spectrum:quitoxic_powder"
 			id: "4973809A8C9088E0"
 			rewards: [
@@ -616,7 +700,11 @@
 		}
 		{
 			dependencies: ["4973809A8C9088E0"]
-			description: ["This pickaxe &#ECB4B4deletes&r all of the blocks it mines. Quite handy when you don't care about the blocks you are mining!"]
+			description: [
+				"This pickaxe &#ECB4B4deletes&r all of the blocks it mines. Quite handy when you don't care about the blocks you are mining!"
+				"{@pagebreak}"
+				"Данная кирка будет &#ECB4B4удалять&r все вскопанные ею блоки, они будут просто &#FEECD6исчезать из мира&r, достаточно удобно когда вам не то чтобы нужны ресурсы из ваших странствий!"
+			]
 			id: "75316FFFE9426D7C"
 			rewards: [
 				{
@@ -653,7 +741,11 @@
 		}
 		{
 			dependencies: ["4973809A8C9088E0"]
-			description: ["A &#FEECD6Bottomless Bundle&r&r allows you to store a &l&#FEECD6huge&r&r amount of items of a single type, very handy in mines!"]
+			description: [
+				"A &#FEECD6Bottomless Bundle&r&r allows you to store a &l&#FEECD6huge&r&r amount of items of a single type, very handy in mines!"
+				"{@pagebreak}"
+				"&#FEECD6Мешок&r позволяет хранить в себе &l&#FEECD6огромное&r&r количество предметов одного типа, удобно в шахтах!"
+			]
 			id: "540598D870731D3F"
 			rewards: [
 				{
@@ -684,7 +776,12 @@
 		}
 		{
 			dependencies: ["4973809A8C9088E0"]
-			description: ["A simpler way to create &#9BB8EDTNT&r using &#CAE4C8reeds&r..."]
+			description: [
+				"A simpler way to create &#9BB8EDTNT&r using &#CAE4C8reeds&r..."
+				"{@pagebreak}"
+				"Простой способ создать &#9BB8EDдинамит&r — вырастить &#CAE4C8тростник&r... "
+				"<wiggle>"
+			]
 			id: "1DC04606C6C8E81A"
 			rewards: [
 				{
@@ -715,6 +812,10 @@
 				"What could be better than a pickaxe with &l&#FEECD6Fortune III&r&r, and from such &#FEECD6simple resources&r too? "
 				""
 				"Too bad its &#9BB8EDdurability&r leaves much to be desired, but it's better than nothing!"
+				"{@pagebreak}"
+				"Что может быть лучше, чем кирка на &l&#FEECD6Удачу 3&r&r и из таких &#FEECD6простейших ресурсов&r? "
+				""
+				"Жаль только её &#9BB8EDпрочность&r оставляет желать лучшего, но это лучше чем ничего!"
 			]
 			hide: true
 			id: "47FE5A5A3E6B2656"
@@ -754,7 +855,11 @@
 		}
 		{
 			dependencies: ["05ADE662ABE07C6A"]
-			description: ["These &#FEECD6Lamps&r emit some &#FEECD6light&r, and will also be needed in the future to improve your &#9BB8EDstructures!&r"]
+			description: [
+				"These &#FEECD6Lamps&r emit some &#FEECD6light&r, and will also be needed in the future to improve your &#9BB8EDstructures!&r"
+				"{@pagebreak}"
+				"&#FEECD6Лампы&r испускают немного &#FEECD6света&r и понадобятся в будущем для улучшения ваших &#9BB8EDструктур!&r"
+			]
 			hide: true
 			icon: "spectrum:citrine_calcite_lamp"
 			id: "20C54B298B978A39"
@@ -784,7 +889,13 @@
 		}
 		{
 			dependencies: ["05ADE662ABE07C6A"]
-			description: ["A &#FEECD6Phantom Frame&r will become invisible once you insert an item into it."]
+			description: [
+				"A &#FEECD6Phantom Frame&r will become invisible once you insert an item into it."
+				"{@pagebreak}"
+				"&#FEECD6Прозрачная рамка&r позволяет класть в неё предметы, после того как предмет окажется в рамке - саму рамку видно не будет."
+				""
+				"&0Цыганские фокусы!&r"
+			]
 			hide: true
 			id: "1C7EA76119767C48"
 			rewards: [
@@ -822,7 +933,11 @@
 		}
 		{
 			dependencies: ["05ADE662ABE07C6A"]
-			description: ["This &#9BB8EDglass&r integrates well into the interior, and also &#FEECD6glows&r!"]
+			description: [
+				"This &#9BB8EDglass&r integrates well into the interior, and also &#FEECD6glows&r!"
+				"{@pagebreak}"
+				"&#9BB8EDСтекло&r хорошо вписывается в интерьер, а так же &#FEECD6светится&r!"
+			]
 			hide: true
 			id: "0AF280211930A395"
 			rewards: [{
@@ -843,7 +958,11 @@
 		}
 		{
 			dependencies: ["05ADE662ABE07C6A"]
-			description: ["A kind of &#FEECD6lamps&r, good for &#9BB8EDdecorating your base&r. Also emits cute &#FEECD6particles&r!"]
+			description: [
+				"A kind of &#FEECD6lamps&r, good for &#9BB8EDdecorating your base&r. Also emits cute &#FEECD6particles&r!"
+				"{@pagebreak}"
+				"Разновидность &#FEECD6факелов&r, хорошо подходит для &#9BB8EDдекора баз&r, так же испускает милые &#FEECD6частицы&r!"
+			]
 			hide: true
 			id: "0AF34BA1F16DE879"
 			rewards: [{
@@ -876,6 +995,12 @@
 				"You can make a &#FEECD6present&r and give it to your &#CAE4C8friend&r, or your &#d33b2bunfriend&r!"
 				""
 				"You can also &#C6BCE9color&r it however you like. More details can be discovered in the &#FEECD6Spectrum Guidebook&r!"
+				"{@pagebreak}"
+				"Вы можете создать &#FEECD6подарок&r и подарить его своему &#CAE4C8другу&r, или &#d33b2bнедругу&r!"
+				""
+				"Вы так же можете &#C6BCE9украсить&r его на любой вкус, более подробнее можно прочитать в &#FEECD6книжке&r!"
+				""
+				"&0Атмосферу нужно &l<wave>ПОДНЯТЬ!</wave>"
 			]
 			hide: true
 			id: "586D1EF9F4FA78C4"
@@ -916,6 +1041,10 @@
 				"Place these &#FEECD6microorganisms&r near some food and &#9BB8EDwait&r a bit. The bacteria will start to eat it and leave the &#FEECD6rests&r behind. Maybe you can use this to &#9BB8EDyour advantage&r!"
 				""
 				"&#d33b2bFading can't be collected back into the bottle! &r"
+				"{@pagebreak}"
+				"Установите &#FEECD6бутылочку&r рядом с &#CAE4C8листьями&r и немного &#9BB8EDподождите&r, бактерии начнут съедать &#CAE4C8листву&r и оставлять процессы своей &#FEECD6жизнидейстельности&r прямо в этих же &#CAE4C8листях&r, возможно вы сможете использовать это в &#9BB8EDсвоих целях&r!"
+				""
+				"&#d33b2bУвядание нельзя вернуть обратно в баночку!&r"
 			]
 			hide: true
 			id: "3D5AB2D779080E10"
@@ -946,7 +1075,11 @@
 		}
 		{
 			dependencies: ["3D5AB2D779080E10"]
-			description: ["The essence of nature itself. Can create new life and revive life long dead."]
+			description: [
+				"The essence of nature itself. Can create new life and revive life long dead."
+				"{@pagebreak}"
+				"Дайте им еду, откиньтесь назад и наблюдайте, как они... кушают, затем разбейте их еду, чтобы собрать остатки."
+			]
 			hide: true
 			id: "5D68B3FB8BFFA7F5"
 			rewards: [{
@@ -969,7 +1102,11 @@
 		}
 		{
 			dependencies: ["5D68B3FB8BFFA7F5"]
-			description: ["&#FEECD6Create&r your first &4<shake>c&r&6<shake>o&r&e<shake>l&r&2<shake>o&r&b<shake>r&r&9<shake>e&r&5<shake>d</shake>&r sapling!"]
+			description: [
+				"&#FEECD6Create&r your first &4<shake>c&r&6<shake>o&r&e<shake>l&r&2<shake>o&r&b<shake>r&r&9<shake>e&r&5<shake>d</shake>&r sapling!"
+				"{@pagebreak}"
+				"&#FEECD6Создайте&r свой первый &4<shake>ц&r&6<shake>в&r&e<shake>е&r&2<shake>т&r&b<shake>н&r&9<shake>о&r&5<shake>й</shake>&r &#CAE4C8саженец&r!"
+			]
 			hide: true
 			id: "32178BA988016CCA"
 			rewards: [
@@ -1010,6 +1147,11 @@
 				"Simply break the leaves of the tree."
 				""
 				"&n&l&#FEECD6<wave>Tip:</wave>&r&r&r&r Use a &#FEECD6hoe&r to destroy the &#CAE4C8leaves&r, it's much faster than with a fist!"
+				"{@pagebreak}"
+				"&#C6BCE9Пигмент&r выпадает из цветочных &#CAE4C8деревьев&r которые вы скрафтили до этого. "
+				"Просто ломайте листву дерева."
+				""
+				"&n&l&#FEECD6<wave>Совет:</wave>&r&r&r Используйте &#FEECD6мотыгу&r для разрушения &#CAE4C8листвы&r, это гораздо быстрее чем ручками!"
 			]
 			hide: true
 			id: "4F56068060AD729D"
@@ -1046,7 +1188,11 @@
 		}
 		{
 			dependencies: ["4F56068060AD729D"]
-			description: ["Just some &#FEECD6beautiful lamps&r. Not all items have to have utility, right? "]
+			description: [
+				"Just some &#FEECD6beautiful lamps&r. Not all items have to have utility, right? "
+				"{@pagebreak}"
+				"Просто &#FEECD6красивые лампы&r, не создавать же только утилит-предметы, верно? "
+			]
 			hide: true
 			id: "67F0E2DA85AC82D7"
 			rewards: [{
@@ -1074,7 +1220,11 @@
 		}
 		{
 			dependencies: ["4F56068060AD729D"]
-			description: ["Another &#C6BCE9colored&r decoration, the colored spore blossom &#FEECD6emits particles&r of its color, and in a &#FEECD6pretty large radius&r too. Greatly raises the &#9BB8EDatmosphere&r of your base!"]
+			description: [
+				"Another &#C6BCE9colored&r decoration, the colored spore blossom &#FEECD6emits particles&r of its color, and in a &#FEECD6pretty large radius&r too. Greatly raises the &#9BB8EDatmosphere&r of your base!"
+				"{@pagebreak}"
+				"Очередная &#C6BCE9цветастая&r декорация, цветастый спороцвет &#FEECD6испускает партиклы&r в свой цвет, в достаточно &#FEECD6большом радиусе&r, сильно поднимает &#9BB8EDатмосферу&r на вашей базе!"
+			]
 			hide: true
 			id: "6416C1E012A6EC94"
 			rewards: [
@@ -1116,6 +1266,10 @@
 				"This block &#FEECD6does not react&r to light in any way. It will always be the same color, no matter the lighting!"
 				""
 				"Incredibly well suited for a &#CAE4C8chromakey&r, do we have any &#FEECD6content creation&r enthusiasts?"
+				"{@pagebreak}"
+				"Данный блок &#FEECD6никак не реагирует&r на свет, он будет всегда того цвета, которого он был, вне зависимости от &#FEECD6падающего на него света&r!"
+				""
+				"Невероятно хорошо подходит в качестве &#CAE4C8хромокея&r, у нас есть любители создавать &#FEECD6контент&r?"
 			]
 			hide: true
 			id: "1931E2F3C0796042"
@@ -1157,6 +1311,10 @@
 				"&#FEECD6Enchantment Canvas&r helps you remove &#C6BCE9enchantments&r from an item and reapply them if needed. "
 				""
 				"The canvas is &#d33b2b&lbound&r&r to the &nitem type&r, and can only be &#FEECD6used on&r the item it was originally used on."
+				"{@pagebreak}"
+				"&#FEECD6Холст&r помогает снять &#C6BCE9зачарования&r с предмета, если это необходимо и потом снова навесить его, если это необходимо. "
+				""
+				"Данный свиток &#d33b2b&lпривязывается&r&r к &nтипу предмета&r, &#FEECD6снимать&r и &#FEECD6накладывать&r можно только с того предмета, с которого оно было снято."
 			]
 			hide: true
 			id: "448F7C0A385BEF57"
@@ -1189,6 +1347,10 @@
 				"Invisible lighting!"
 				""
 				"An incredibly convenient way to light up your base."
+				"{@pagebreak}"
+				"Невидимый свет!"
+				""
+				"Невероятно удобный способ осветить своё Уб&m&0ожество&r&rежище"
 			]
 			hide: true
 			id: "3FFC7CC25A7BEDA1"
@@ -1223,6 +1385,12 @@
 				"&l&#FEECD6<wave>Tip</wave>&r: Not all fishing rods can catch &#ECB4B4creatures&r. Those that can have a special &#FEECD6description&r, and you can use &#ff6600REI&r to find out which rods can catch &#ECB4B4creatures&r."
 				""
 				"&#9BB8EDSpoiler&r: this isn't the earliest rod you unlock, just keep in mind!"
+				"{@pagebreak}"
+				"&#FEECD6Удочка&r позволяет ловить &#ECB4B4существ&r и в целом заниматься &#ff6600лава-рыбалкой&r."
+				""
+				"&l&#FEECD6<wave>Совет:</wave>&r Не все удочки могут ловить &#ECB4B4живых существ&r, на тех что могут есть специальное &#FEECD6описание&r, вы можете воспользоваться &#ff6600REI&r чтобы узнать какие удочки могут ловить &#ECB4B4существ&r."
+				""
+				"&#9BB8EDСпойлер&r: это не самый ранний этап, просто имей ввиду!"
 			]
 			hide: true
 			id: "5FCC3215FB6C6BD8"
@@ -1267,6 +1435,10 @@
 				"The &#FEECD6Titrartion Barrel&r allows you to create &#9BB8EDalcoholic beverages&r and many other &#FEECD6dishes&r. There is one &nnuance&r - fermentation processes take &l&#FEECD6real hours&r or even &#FEECD6&ldays&r&r&r&r."
 				""
 				"To create the &#FEECD6desired&r item in the barrel, put all &#FEECD6required&r ingredients inside and close the barrel with a &4<shake>c&r&6<shake>o&r&e<shake>l&r&2<shake>o&r&b<shake>r&r&9<shake>e&r&5<shake>d</shake>&r plank!"
+				"{@pagebreak}"
+				"&#FEECD6Бочка&r позволяет создавать &#9BB8EDалкогольные напитки&r и множество &#FEECD6блюд&r в моде &#9BB8EDSpectrum,&r есть один &nнюанс&r, блюда делаются в этой бочке в &l&#FEECD6реальных часах&r/&#FEECD6&lднях&r&r&r."
+				""
+				"Чтобы создать &#FEECD6необходимый&r предмет в бочке — положите все &#FEECD6необходимые&r предметы крафта и закройте бочку любой &4<shake>ц&6<shake>в&e<shake>е&2<shake>т&b<shake>н&9<shake>о&5<shake>й</shake>&r доской!"
 			]
 			hide: true
 			id: "0DF25CB4F0C68044"
@@ -1299,6 +1471,10 @@
 				"&#FEECD6A dish&r from the Korean cuisine, basically spicy fermented &#CAE4C8vegetables&r! "
 				""
 				"&#CAE4C8Minecraft&r — Now &neducational&r!"
+				"{@pagebreak}"
+				"&#FEECD6Блюдо&r корейской кухни, представляющее собой остро приправленные квашеные (ферментированные) &#CAE4C8овощи&r! "
+				""
+				"&#CAE4C8Minecraft&r — Теперь &nпознавательный&r!"
 			]
 			hide: true
 			id: "5073F2988F4C3CCF"
@@ -1333,7 +1509,11 @@
 		}
 		{
 			dependencies: ["0DF25CB4F0C68044"]
-			description: ["What could be &#FEECD6better&r than fresh chocolate? I don't know, do you? &0Damn it, the 4th wall is crumbling... You didn't see anything!&r"]
+			description: [
+				"What could be &#FEECD6better&r than fresh chocolate? I don't know, do you? &0Damn it, the 4th wall is crumbling... You didn't see anything!&r"
+				"{@pagebreak}"
+				"Что может быть &#FEECD6лучше&r шоколада? Я вот не знаю, а вы? &0Чёрт, 4я стена рушится… Вы ничего не видели!&r"
+			]
 			hide: true
 			id: "5A753879C6CB4406"
 			rewards: [
@@ -1367,7 +1547,11 @@
 		}
 		{
 			dependencies: ["0DF25CB4F0C68044"]
-			description: ["Clotted Cream removes all &#C6BCE9effects&r from you, just like milk. Cream can be used as a replacement for milk in recipes, and has some of &#FEECD6its own&r!"]
+			description: [
+				"Clotted Cream removes all &#C6BCE9effects&r from you, just like milk. Cream can be used as a replacement for milk in recipes, and has some of &#FEECD6its own&r!"
+				"{@pagebreak}"
+				"Сливки позволяют снимать все &#C6BCE9эффекты&r, как молоко, так же из сливок делается множество &#FEECD6других блюд&r!"
+			]
 			hide: true
 			id: "6E1056601C022331"
 			rewards: [
@@ -1406,6 +1590,12 @@
 				""
 				"P.S. To start brewing beer, you must press the button stating that you are 18 years or older in the Spectrum guidebook! &#d33b2bIt's important&r! Don't worry, the quests for alcohol are purely optional, and not required for 100%."
 				"Also sign *&#9BB8EDthere&r*, *&#9BB8EDhere&r*, and provide a &#FEECD6passport photo&r!"
+				"{@pagebreak}"
+				"В &#9BB8EDSpectrume&r можно заниматься &#FEECD6брожением&r, и варить разный &#9BB8EDАлКоГоЛь&r, &#9BB8EDалкоголь&r имеет &lочень&r &#FEECD6сильные баффы&r, но &#9BB8EDалкоголь&r в бочках делается в &#FEECD6реальных днях&r, чем &#9BB8EDдольше&r держишь продукты брожения в бочке - тем &#9BB8EDбольше&r % ты получишь!"
+				""
+				""
+				"P.S. Чтобы начать варить пиво подветрдите что вам исполнилось 18 лет в книжке спектрума! &#d33b2bЭто важно!&r"
+				"А еще распишитесь *&#9BB8EDтут&r*, *&#9BB8EDздесь&r*, и предоставьте &#FEECD6фото паспорта&r!"
 			]
 			hide: true
 			id: "3A103A7A0ED400CD"
@@ -1422,7 +1612,11 @@
 		}
 		{
 			dependencies: ["3A103A7A0ED400CD"]
-			description: ["Anyone &#FEECD6interested&r is invited to read the &l&#e4affaSpectrum&r&r guidebook, no point in copying the information to here!"]
+			description: [
+				"Anyone &#FEECD6interested&r is invited to read the &l&#e4affaSpectrum&r&r guidebook, no point in copying the information to here!"
+				"{@pagebreak}"
+				"Всех &#FEECD6заинтересовавшихся&r приглашаем в книжку &#9BB8EDSpectrum&r'a, расписывать тут такую механику не видим смысла!"
+			]
 			hide: true
 			id: "10C82F14C4221726"
 			optional: true
@@ -1451,7 +1645,11 @@
 		}
 		{
 			dependencies: ["3A103A7A0ED400CD"]
-			description: ["Anyone &#FEECD6interested&r is invited to read the &l&#e4affaSpectrum&r&r guidebook, no point in copying the information to here!"]
+			description: [
+				"Anyone &#FEECD6interested&r is invited to read the &l&#e4affaSpectrum&r&r guidebook, no point in copying the information to here!"
+				"{@pagebreak}"
+				"Всех &#FEECD6заинтересовавшихся&r приглашаем в книжку &#9BB8EDSpectrum&r'a, расписывать тут такую механику не видим смысла!"
+			]
 			hide: true
 			id: "06535D5AB09D100F"
 			optional: true
@@ -1482,6 +1680,10 @@
 			dependencies: ["1DD4C78368006052"]
 			description: [
 				"Build a &#FEECD6fusion shrine&r! Keep in mind, it must have &#FEECD6access&r to the &#9BB8EDsky&r in order for it to work."
+				"{image:quest_images:textures/item/spectrum/fusion_shrine.png width:200 height:200 align:1}"
+				"{@pagebreak}"
+				"Постройте &#FEECD6святыню слияния&r, но имейте ввиду, для неё должен быть &#FEECD6доступ&r к &#9BB8EDнебу&r."
+				""
 				"{image:quest_images:textures/item/spectrum/fusion_shrine.png width:200 height:200 align:1}"
 			]
 			hide: true
@@ -1524,6 +1726,12 @@
 				"&#FEECD6Catch&r the right phase of the moon and create your first &#C7E2E9onyx&r!"
 				""
 				"You can create a &ostack&r of onyx at once with 1 craft!"
+				"{@pagebreak}"
+				"&#FEECD6Поймав&r нужную фазу луны — создай свой первый &#C7E2E9оникс&r!"
+				""
+				"Вы можете создать сразу &oстак&r &#4040a1оникса&r за 1 крафт!"
+				""
+				"&#ffb04fЭтот квест открывает новую ветку квестов!&r"
 			]
 			hide: true
 			id: "21E3A44EA5EDD677"
@@ -1579,7 +1787,11 @@
 		}
 		{
 			dependencies: ["5FCEB75E328CB0CC"]
-			description: ["The &#FEECD6Crescent Clock&r shows the current phase of the &7moon&r. Unbelievable!"]
+			description: [
+				"The &#FEECD6Crescent Clock&r shows the current phase of the &7moon&r. Unbelievable!"
+				"{@pagebreak}"
+				"&#FEECD6Часики&r показывают фазу &7луны&r, невероятно!"
+			]
 			hide: true
 			id: "18224AAFE87395E2"
 			rewards: [{
@@ -1599,7 +1811,11 @@
 		}
 		{
 			dependencies: ["21E3A44EA5EDD677"]
-			description: ["By harnessing the powers of &#C7E2E9onyx&r, you have discovered a way to to create a &#d33b2bwireless redstone transmitter&r! It has a range of 12 blocks and can be set to different frequencies by applying pigment. RMB to swap between sending and recieving a signal."]
+			description: [
+				"By harnessing the powers of &#C7E2E9onyx&r, you have discovered a way to to create a &#d33b2bwireless redstone transmitter&r! It has a range of 12 blocks and can be set to different frequencies by applying pigment. RMB to swap between sending and recieving a signal."
+				"{@pagebreak}"
+				"Силами &#C7E2E9оникса&r вы научились создавать передатчик &#d33b2bкрасного камня&r через блоки!"
+			]
 			hide: true
 			id: "011A580C8C287C71"
 			rewards: [
@@ -1628,7 +1844,11 @@
 		}
 		{
 			dependencies: ["470BE91CDFB98325"]
-			description: ["Yeah, it's a &#FEECD6sponge&r. A &#ff6600Lava Sponge&r. Any more questions...?"]
+			description: [
+				"Yeah, it's a &#FEECD6sponge&r. A &#ff6600Lava Sponge&r. Any more questions...?"
+				"{@pagebreak}"
+				"Да, это &#FEECD6губка&r. &#ff6600Лавовая&r, ещё вопросы?…"
+			]
 			hide: true
 			id: "08A013245066A9DD"
 			rewards: [{
@@ -1652,6 +1872,10 @@
 				"Designed like a regular &8hopper&r in shape and function, the &#9BB8EDEnder Hopper&r has the special ability to place items directly into your &#9BB8EDEnder Chest&r."
 				""
 				"Ender Hoppers only work when you are online."
+				"{@pagebreak}"
+				"Разработанный как обычная &8воронка&r по форме и функциям, &#9BB8EDЭндер-Воронка&r обладает особой способностью помещать предметы прямо в ваш &#9BB8EDЭндер-Сундук&r."
+				""
+				"Эндер-Воронка работает только тогда, когда вы находитесь &#FEECD6онлайн&r."
 			]
 			hide: true
 			id: "7CE00750A251BDE1"
@@ -1678,6 +1902,12 @@
 				"&oBe careful:&r What's stopping someone from putting a button next to it and stealing from your Ender Chest?"
 				""
 				"Ender Droppers only work when you are online."
+				"{@pagebreak}"
+				"&#9BB8EDЭндер-Раздатчик&r является копией &#9BB8EDЭндер-Воронки&r. При каждом импульсе &#d33b2bредстоун сигнала&r он выбрасывает предмет из вашего личного &#9BB8EDЭндер-Сундука&r. "
+				""
+				"&oБудь осторожен:&r Кто мешает кому-либо поставить кнопку рядом с ним и опустошить ваш Эндер-Сундук?"
+				""
+				"Эндер-Раздатчик работает только тогда, когда вы находитесь онлайн."
 			]
 			hide: true
 			id: "5F45B7279F0DE9FB"
@@ -1702,6 +1932,10 @@
 				"It's practically &#C6BCE9/particle&r!"
 				""
 				"The particle generator &#FEECD6allows&r you to create most of the &#CAE4C8Minecraft&r particles at the cost of some &#FEECD6pigment&r. Incredible special effects for any &#9BB8EDbuild&r!"
+				"{@pagebreak}"
+				"Это практически &#C6BCE9магия креатива&r!"
+				""
+				"Генератор частиц позволяет &#FEECD6создавать&r большинство частиц из &#CAE4C8Minecraft&r'a, ценой &#FEECD6пигмента&r, невероятные спецэффекты для любой &#9BB8EDпостройки&r!"
 			]
 			id: "6BEC87AE3F657559"
 			rewards: [
@@ -1735,7 +1969,11 @@
 		}
 		{
 			dependencies: ["26A96250A5A55E23"]
-			description: ["Sometimes, you've started to notice &#C6BCE9stars&r falling from the sky. Try &#FEECD6breaking&r them and collecting their &#C6BCE9fragments&r and &#C6BCE9dust&r, they are very useful!"]
+			description: [
+				"Sometimes, you've started to notice &#C6BCE9stars&r falling from the sky. Try &#FEECD6breaking&r them and collecting their &#C6BCE9fragments&r and &#C6BCE9dust&r, they are very useful!"
+				"{@pagebreak}"
+				"Иногда, вы стали замечать как падают &#C6BCE9звёзды&r, попробуйте их &#FEECD6разбить&r и собрать их &#C6BCE9фрагменты&r и &#C6BCE9пыль&r!"
+			]
 			hide: true
 			id: "730FE5EA1AE7EAE5"
 			rewards: [{
@@ -1776,7 +2014,11 @@
 		}
 		{
 			dependencies: ["3EA9E9191B48A338"]
-			description: ["Enter the preservation ruins."]
+			description: [
+				"Enter the preservation ruins."
+				"{@pagebreak}"
+				"Войдите в защитные руины"
+			]
 			hide: true
 			id: "202E90183C45BBC8"
 			rewards: [
@@ -1805,7 +2047,11 @@
 		}
 		{
 			dependencies: ["470BE91CDFB98325"]
-			description: ["Deep down below, you found a secure structure. There &l<shake>must be a way</shake>&r to get into it, if not now, maybe later. You better remember this place."]
+			description: [
+				"Deep down below, you found a secure structure. There &l<shake>must be a way</shake>&r to get into it, if not now, maybe later. You better remember this place."
+				"{@pagebreak}"
+				"Глубоко, внизу, вы нашли защищённое сооружение. &l<shake>должен</shake>&r быть способ попасть в него! Если не сейчас, то потом... лучше запомните это место"
+			]
 			hide: true
 			id: "3EA9E9191B48A338"
 			rewards: [{
@@ -1826,7 +2072,11 @@
 		}
 		{
 			dependencies: ["4973809A8C9088E0"]
-			description: ["Using a bit of &#CAE4C8Quitoxic Powder&r, you can create &#9BB8EDSoul Powder&r, which will later be used to summon &#9BB8EDsoul creatures&r!"]
+			description: [
+				"Using a bit of &#CAE4C8Quitoxic Powder&r, you can create &#9BB8EDSoul Powder&r, which will later be used to summon &#9BB8EDsoul creatures&r!"
+				"{@pagebreak}"
+				"Используя немного &#CAE4C8токсичного порошка&r вы сможете создать &#9BB8EDпорошок душ&r, который впоследствие будет использован для создания &#9BB8EDдуш существ&r!"
+			]
 			id: "4A42A835761670E4"
 			rewards: [
 				{
@@ -1862,6 +2112,16 @@
 				"&l&#e4affaSpectrum&r&r is not designed for fast progress. Enjoy the mod, learn new things, there is no need to rush!"
 				""
 				"&#ffb04fP.S. If you ever feel like you don't understand something, pay attention to the advancements! Almost all content is unlocked by progressing through them! From crafting recipes, to new abilities, to magical stars falling from the sky!&r"
+				"{@pagebreak}"
+				"&l&#e4affaSpectrum&r&r — Уникальный мод в своём роде. "
+				""
+				"Вам предстоит разбираться с &#FEECD6загадочными&r предметами, узнавать &#DEB3E0магию&r драгоценных камней, узнавать секреты данжей под землёй, узнать что таит в себе магия &4<shake>к&6<shake>р&e<shake>а&2<shake>с&b<shake>о&9<shake>к</shake>&r, вы сможете приручить эту &#DEB3E0магию&r и управлять ей."
+				""
+				"По мере прогрессии вам будут открыватся новые знания о вещах, которые &oвсегда&r окружали вас, вам не хватало знаний и инструментов чтобы заметить их."
+				""
+				"Мод Spectrum не рассчитан на торопливое развитие, получайте удовольствие от того, как сделан мод, узнавайте новое, но торопиться не стоит!"
+				""
+				"&#ffb04fP.S. Если вы чувствуете что вам что-то непонятно, обратите внимание на ачивки мода! Почти весь контент открывается прогрессируя по ачивкам! Начиная от рецептов, до падающих звёзд с неба!&r"
 			]
 			id: "401BF8F08F0B3246"
 			rewards: [
@@ -1897,6 +2157,11 @@
 				"The forge allows you to smelt &#9BB8EDmany items&r, as well as create many &#DEB3E0magical alloys&r!"
 				""
 				"{image:quest_images:textures/item/alloy_forgery.png width:200 height:200 align:1}"
+				"{@pagebreak}"
+				"&l&#FEC6DF<wave>Кузница</wave>&r - многоблочная структура, строится из &#9BB8EDосновного блока тира кузницы&r и дополнительных &#9BB8ED16 блоков&r того же материала что и кузница."
+				""
+				"Кузня позволяет вам плавить &#9BB8EDмножество предметов&r, а так же создавать &#DEB3E0магические сплавы&r!"
+				"{image:quest_images:textures/item/alloy_forgery.png width:200 height:200 align:1}"
 			]
 			hide: true
 			id: "5CA72E2233DD6369"
@@ -1929,7 +2194,11 @@
 				"5CA72E2233DD6369"
 				"7EEB4C52DC1E28CC"
 			]
-			description: ["Create your first &d&#DEB3E0magical&r alloy!"]
+			description: [
+				"Create your first &d&#DEB3E0magical&r alloy!"
+				"{@pagebreak}"
+				"Создайте свой первый &d&#DEB3E0магический сплав&r!"
+			]
 			hide: true
 			id: "5AB2416EF3957EFB"
 			rewards: [{
@@ -1950,7 +2219,11 @@
 		}
 		{
 			dependencies: ["470BE91CDFB98325"]
-			description: ["Some &#C6BCE9endermen&r appearing in your world hold blocks that seem to emit an &#ECB4B4spooky aura&r."]
+			description: [
+				"Some &#C6BCE9endermen&r appearing in your world hold blocks that seem to emit an &#ECB4B4spooky aura&r."
+				"{@pagebreak}"
+				"Некоторые &#C6BCE9эндермены&r, которые появляются в вашем мире, держат блоки, которые, кажется, излучают &#ECB4B4жуткую ауру&r."
+			]
 			hide: true
 			id: "3D28572AD9317891"
 			rewards: [
@@ -1979,7 +2252,11 @@
 		}
 		{
 			dependencies: ["5D68B3FB8BFFA7F5"]
-			description: ["Makes finding &#CAE4C8biomes&r &nmuch easier&r."]
+			description: [
+				"Makes finding &#CAE4C8biomes&r &nmuch easier&r."
+				"{@pagebreak}"
+				"Поиск &#CAE4C8биомов&r &nлегче чем кажется&r."
+			]
 			hide: true
 			id: "2B0062A678712B4F"
 			rewards: [
@@ -2016,6 +2293,10 @@
 				"Mixing &#C6BCE9colors&r seemed like such a simple and fun activity, but brown has, &#ff6600as always&r, &#ff6600ruined&r everything."
 				""
 				"&#ff6600Collect all the pigments available to you to complete the quest!&r"
+				"{@pagebreak}"
+				"Смешивание &#C6BCE9цветов&r казалось таким простым и весёлым занятием, но коричневый цвет, &#ff6600как всегда&r, всё &#ff6600испортил&r."
+				""
+				"&#ff6600Для выполнения квеста соберите все доступные вам пигменты!&r"
 			]
 			id: "1DD4C78368006052"
 			rewards: [
@@ -2050,7 +2331,11 @@
 		}
 		{
 			dependencies: ["0FDF4075616DAA33"]
-			description: ["Gather some &#FEECD6<shake>fuel</shake>&r for your forge!"]
+			description: [
+				"Gather some &#FEECD6<shake>fuel</shake>&r for your forge!"
+				"{@pagebreak}"
+				"Соберите немного &#FEECD6<shake>топлива</shake>&r для вашей печи!"
+			]
 			hide: true
 			id: "7EEB4C52DC1E28CC"
 			rewards: [{
@@ -2080,7 +2365,11 @@
 		}
 		{
 			dependencies: ["3DF57BBFA9D2DDEA"]
-			description: ["Create a couple of &#FEECD6leather patches&r for your new backpack! "]
+			description: [
+				"Create a couple of &#FEECD6leather patches&r for your new backpack! "
+				"{@pagebreak}"
+				"Создайте парочку &#FEECD6кожаных нашивок&r для новенького рюкзака! "
+			]
 			hide: true
 			id: "38BABD2574666820"
 			rewards: [
@@ -2118,7 +2407,11 @@
 		}
 		{
 			dependencies: ["38BABD2574666820"]
-			description: ["Create your first &#FEECD6backpack&r!"]
+			description: [
+				"Create your first &#FEECD6backpack&r!"
+				"{@pagebreak}"
+				"Создайте ваш первый &#FEECD6рюкзак&r!"
+			]
 			hide: true
 			id: "5B2871DE654E46F5"
 			rewards: [
@@ -2153,7 +2446,11 @@
 		}
 		{
 			dependencies: ["0F131A40DB2B4C7E"]
-			description: ["Create your first &#FEECD6upgrade&r and then upgrade your backpack using the &#9BB8ED Smithing Table&r."]
+			description: [
+				"Create your first &#FEECD6upgrade&r and then upgrade your backpack using the &#9BB8ED Smithing Table&r."
+				"{@pagebreak}"
+				"Создайте своё первое &#FEECD6улучшение&r и улучшите им рюкзак на &#9BB8EDстоле кузнеца&r."
+			]
 			id: "42AEF849DD04CD10"
 			rewards: [
 				{
@@ -2190,7 +2487,11 @@
 		}
 		{
 			dependencies: ["5B2871DE654E46F5"]
-			description: ["Create a &#FEECD6Blank Upgrade&r for your backpack!"]
+			description: [
+				"Create a &#FEECD6Blank Upgrade&r for your backpack!"
+				"{@pagebreak}"
+				"Создайте &#FEECD6шаблон для улучшения&r своего рюкзачка!"
+			]
 			id: "0F131A40DB2B4C7E"
 			rewards: [{
 				count: 5
@@ -2213,7 +2514,11 @@
 		}
 		{
 			dependencies: ["730FE5EA1AE7EAE5"]
-			description: ["&#C6BCE9Celestium ingots&r are used in a &#FEECD6lot of crafts&r. Create some of this magical &#C6BCE9alloy&r!"]
+			description: [
+				"&#C6BCE9Celestium ingots&r are used in a &#FEECD6lot of crafts&r. Create some of this magical &#C6BCE9alloy&r!"
+				"{@pagebreak}"
+				"&#C6BCE9небесный сплав&r используется в &#FEECD6множестве крафтов&r, создайте немного &#C6BCE9сплава&r!"
+			]
 			id: "35FBDB6A6B0AF265"
 			rewards: [
 				{
@@ -2254,7 +2559,11 @@
 		}
 		{
 			dependencies: ["35FBDB6A6B0AF265"]
-			description: ["&#FEECD6Upgrades&r increase the &#FEECD6item&r and &#9BB8EDfluid&r capacity of your &#FEECD6backpack&r. Use the &7Smithing Table&r to apply the upgrade!"]
+			description: [
+				"&#FEECD6Upgrades&r increase the &#FEECD6item&r and &#9BB8EDfluid&r capacity of your &#FEECD6backpack&r. Use the &7Smithing Table&r to apply the upgrade!"
+				"{@pagebreak}"
+				"&#FEECD6Улучшение&r увеличивает вместимость &#9BB8EDжидкостей&r и &#FEECD6предметов&r в ваш старый &#FEECD6рюкзачок&r, исользуйте &7стол кузнеца&r чтобы улучшить свой старенький &#FEECD6рюкзак&r!"
+			]
 			id: "687945255E9FF93E"
 			rewards: [
 				{
@@ -2284,7 +2593,11 @@
 		}
 		{
 			dependencies: ["164CF7324390B1A9"]
-			description: ["Allows for &#9BB8EDdescending&r and &#FEECD6ascending&r between elevators on the same column, even through blocks!"]
+			description: [
+				"Allows for &#9BB8EDdescending&r and &#FEECD6ascending&r between elevators on the same column, even through blocks!"
+				"{@pagebreak}"
+				"Позволяет &#9BB8EDспускаться&r/&#FEECD6подниматься&r на такой же блок через блоки!"
+			]
 			icon: "kibe:white_elevator"
 			id: "15733E655CF68B05"
 			rewards: [{
@@ -2312,7 +2625,11 @@
 		}
 		{
 			dependencies: ["164CF7324390B1A9"]
-			description: ["One of the &obest&r ways to initially &#9BB8EDtravel&r around the world."]
+			description: [
+				"One of the &obest&r ways to initially &#9BB8EDtravel&r around the world."
+				"{@pagebreak}"
+				"Один из &oлучших&r способов начального &#9BB8EDпередвижения&r по миру."
+			]
 			id: "62262E05B7E57EDD"
 			rewards: [
 				{
@@ -2354,7 +2671,11 @@
 		}
 		{
 			dependencies: ["086D1436C9BAC37C"]
-			description: ["&#FEECD6Fluid storage&r, but for mages!"]
+			description: [
+				"&#FEECD6Fluid storage&r, but for mages!"
+				"{@pagebreak}"
+				"&#FEECD6Жидкостное хранилище&r, но для магов!"
+			]
 			id: "040A275293008BBF"
 			rewards: [{
 				count: 16
@@ -2379,7 +2700,11 @@
 		}
 		{
 			dependencies: ["164CF7324390B1A9"]
-			description: ["Allows you to &#C6BCE9teleport&r inbetween waystones. It costs &7silver coins&r to teleport. Doesn't work across &#FEECD6dimensions&r!"]
+			description: [
+				"Allows you to &#C6BCE9teleport&r inbetween waystones. It costs &7silver coins&r to teleport. Doesn't work across &#FEECD6dimensions&r!"
+				"{@pagebreak}"
+				"Позволяет &#C6BCE9телепортироваться&r между двумя маршрутными камнями, ценой &7серебряных монет&r, не работают между &#FEECD6разными мирами&r!"
+			]
 			id: "2F3927FB0A60AAD4"
 			rewards: [
 				{
@@ -2414,7 +2739,11 @@
 		}
 		{
 			dependencies: ["5AB2416EF3957EFB"]
-			description: ["Drop some &#FFDDE4calcite&r on the floor and place an &oanvil&r above it, the anvil will create some calcite powder by &#9BB8EDabsolutely crushing&r the &#FFDDE4calcite&r!"]
+			description: [
+				"Drop some &#FFDDE4calcite&r on the floor and place an &oanvil&r above it, the anvil will create some calcite powder by &#9BB8EDabsolutely crushing&r the &#FFDDE4calcite&r!"
+				"{@pagebreak}"
+				"Брось &#FFDDE4кальцит&r на пол, а &oнаковальню&r установи над этим &#FFDDE4кальцитом&r, наковальня создаст немного порошка кальцита &#9BB8EDсвалившись&r на бедный &#FFDDE4кальцит&r!"
+			]
 			id: "5BD88DE4446E59DB"
 			rewards: [
 				{
@@ -2444,7 +2773,11 @@
 		}
 		{
 			dependencies: ["4F56068060AD729D"]
-			description: ["Collect all &#FEECD6available&r pigments. Unfortunately, you &#d33b2bdon't see a way&r to get brown pigment with your CMY gemstone pallete. If only there was a way to get black..."]
+			description: [
+				"Collect all &#FEECD6available&r pigments. Unfortunately, you &#d33b2bdon't see a way&r to get brown pigment with your CMY gemstone pallete. If only there was a way to get black..."
+				"{@pagebreak}"
+				"Соберите все &#FEECD6доступные&r вам пигменты, к сожалению вы &#d33b2bне сможете&r достать коричневый пигмент просто так, вам &#FEECD6придется&r открыть &#FEECD6крафт&r &#CAE4C8саженца&r чтобы начать прогрессировать далее!"
+			]
 			id: "26A96250A5A55E23"
 			rewards: [{
 				count: 16
@@ -2464,309 +2797,12 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["30B0B28029118246"]
-			description: [
-				"Max Y: -20"
-				"Min Y: -54"
-			]
-			id: "101D6C2C2EE41817"
-			shape: "diamond"
-			tasks: [{
-				id: "33FE83431D883EF6"
-				item: "mythicmetals:adamantite_ingot"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["30B0B28029118246"]
-			description: [
-				"Spawns only &1underwater&r, mostly in &1underwater caves&r! "
-				""
-				"Max Y: 63 "
-				"Min Y: 31"
-			]
-			id: "26B5851548F2BC86"
-			shape: "diamond"
-			tasks: [{
-				id: "4267C09E3185304B"
-				item: "mythicmetals:aquarium_ingot"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["30B0B28029118246"]
-			description: [
-				"Max Y: 69"
-				"Min Y: 48"
-			]
-			id: "27C0CDAEF7EB6304"
-			shape: "diamond"
-			tasks: [{
-				id: "4880DAFDD0CFC83E"
-				item: "mythicmetals:banglum_ingot"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["30B0B28029118246"]
-			description: [
-				"Max Y: 10"
-				"Min Y: -24"
-			]
-			id: "1ADF5E78037BAA32"
-			shape: "diamond"
-			tasks: [{
-				id: "6AECD527C3795F4C"
-				item: "mythicmetals:carmot_ingot"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -7.5d
-		}
-		{
-			dependencies: ["30B0B28029118246"]
-			description: [
-				"&lSpawns more frequently in calcite clumps.&r"
-				""
-				"Max Y: 40"
-				"Min Y: -56"
-			]
-			id: "2B9C06D5024E8DB5"
-			shape: "diamond"
-			tasks: [{
-				id: "09E90B55A4F6ACE0"
-				item: "mythicmetals:kyber_ingot"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -6.5d
-		}
-		{
-			dependencies: ["30B0B28029118246"]
-			description: [
-				"&lFound only in the &4Nether&r.&r"
-				""
-				"Max Y: 125"
-				"Min Y: 12"
-			]
-			id: "7AE437571404E744"
-			shape: "diamond"
-			tasks: [{
-				id: "7068D6FD7B9CE00C"
-				item: "mythicmetals:midas_gold_ingot"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["30B0B28029118246"]
-			description: [
-				"Max Y: 4"
-				"Min Y: -24"
-			]
-			id: "3400F65BF4BBF0ED"
-			shape: "diamond"
-			tasks: [{
-				id: "621E2781DAB9622E"
-				item: "mythicmetals:mythril_ingot"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -8.5d
-		}
-		{
-			dependencies: ["30B0B28029118246"]
-			description: [
-				"Max Y: 8"
-				"Min Y: 8"
-			]
-			id: "48EC219FB870B5A8"
-			shape: "diamond"
-			tasks: [{
-				id: "4C73D113A93F4089"
-				item: "mythicmetals:orichalcum_ingot"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["30B0B28029118246"]
-			description: [
-				"&lFound only in the &4Nether&r.&r"
-				""
-				"Max Y: 36"
-				"Min Y: 14"
-			]
-			id: "7B512491F4ADBEF7"
-			shape: "diamond"
-			tasks: [{
-				id: "541BCBA295066D79"
-				item: "mythicmetals:palladium_ingot"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -6.0d
-		}
-		{
-			dependencies: ["30B0B28029118246"]
-			description: [
-				"&lOnly spawns in &2Lush Caves&r&r."
-				""
-				"Max Y: 48"
-				"Min Y: 30"
-			]
-			id: "003D7E7E36388C4D"
-			shape: "diamond"
-			tasks: [{
-				id: "0802DC0730BFEE2C"
-				item: "mythicmetals:prometheum_ingot"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -8.0d
-		}
-		{
-			dependencies: ["30B0B28029118246"]
-			description: [
-				"Max Y: 40"
-				"Min Y: 12"
-			]
-			id: "2730E8C98DF27DC8"
-			shape: "diamond"
-			tasks: [{
-				id: "258BCB3490E060F5"
-				item: "mythicmetals:quadrillum_ingot"
-				type: "item"
-			}]
-			x: 1.0d
-			y: -6.5d
-		}
-		{
-			dependencies: ["30B0B28029118246"]
-			description: [
-				"Max Y: 53"
-				"Min Y: 39"
-			]
-			id: "40FD16BC59D14FB3"
-			shape: "diamond"
-			tasks: [{
-				id: "55D1E481DD9D6706"
-				item: "mythicmetals:runite_ingot"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -8.0d
-		}
-		{
-			dependencies: ["30B0B28029118246"]
-			description: [
-				"&lFound only in the &4Nether&r.&r"
-				""
-				"Max Y: 60"
-				"Min Y: 4"
-			]
-			id: "28DB4988495A610C"
-			shape: "diamond"
-			tasks: [{
-				id: "7436D731992DD76A"
-				item: "mythicmetals:stormyx_ingot"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -8.5d
-		}
-		{
-			dependencies: ["30B0B28029118246"]
-			description: [
-				"Max Y: 32"
-				"Min Y: 27"
-			]
-			id: "01F1C77E5EDEB612"
-			shape: "diamond"
-			tasks: [{
-				id: "69FD1C964DE0C07E"
-				item: "mythicmetals:morkite"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -6.5d
-		}
-		{
-			dependencies: ["30B0B28029118246"]
-			description: [
-				"&lIn the Overworld:&r"
-				"Max Y: 260"
-				"Min Y: 70"
-				""
-				"&lIn the End:&r"
-				"Max Y: 90"
-				"Min Y: 30"
-			]
-			id: "04FDF333BBCDBEC3"
-			shape: "diamond"
-			tasks: [{
-				id: "01319A328DBF1C2A"
-				item: "mythicmetals:starrite"
-				type: "item"
-			}]
-			x: 0.0d
-			y: -9.5d
-		}
-		{
-			dependencies: ["30B0B28029118246"]
-			description: [
-				"&lA very rare ore.&r"
-				""
-				"Max Y: 5"
-				"Min Y: -54"
-			]
-			id: "30CD608D7B6273B0"
-			shape: "diamond"
-			tasks: [{
-				id: "3587DE1BDA04A0EB"
-				item: "mythicmetals:unobtainium"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -8.5d
-		}
-		{
-			dependencies: ["30B0B28029118246"]
-			description: ["Drops with a rare chance from aquarium ore. Better use fortune!"]
-			id: "66310E3B7EFBF450"
-			shape: "diamond"
-			tasks: [{
-				id: "43C9FCB770590A74"
-				item: "mythicmetals:aquarium_pearl"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -9.0d
-		}
-		{
-			dependencies: ["30B0B28029118246"]
-			description: ["Drops with a rare chance from banglum ore. Better use fortune!"]
-			id: "5B9045499EAF11EA"
-			shape: "diamond"
-			tasks: [{
-				id: "7CA45CB72729F35E"
-				item: "mythicmetals:banglum_chunk"
-				type: "item"
-			}]
-			x: 0.5d
-			y: -9.0d
-		}
-		{
 			dependencies: ["401BF8F08F0B3246"]
-			description: ["&5Mythic Metals&r — a mod about magical metals. Most ores have their own special spawn conditions, be it a high Y level, only spawning in water, etc."]
+			description: [
+				"&5Mythic Metals&r — a mod about magical metals. Most ores have their own special spawn conditions, be it a high Y level, only spawning in water, etc."
+				"{@pagebreak}"
+				"&5Mythic Metals&r — необходим для прогрессии магов, у большинства руд свои особенные условия спавна, будь то большая высота, спавн только в воде и т.д."
+			]
 			hide: true
 			id: "30B0B28029118246"
 			shape: "gear"
@@ -2786,6 +2822,12 @@
 				"Also, danks have &bdifferent modes&r of picking up items. One of the most useful is &cVOID&r, which removes items to avoid them clogging your inventory!"
 				""
 				"While holding the &6dank&r in your hand, you can press I - then the dank will go into &3construction mode&r. Put the block you want to build with inside, and then select the required block with middle click, and now you can use the dank for construction!"
+				"{@pagebreak}"
+				"&9&lДанки&r&r - большое хранилище 1 типа предметов, данк первого уровня имеет &n9 слотов&r и вмещает &n256 предметов&r одного типа в каждый слот. "
+				""
+				"Так же данки имеют &bразные режимы&r подбора предметов, один из самых полезных - &cудаление&r лишних ресурсов, чтобы не забивать свой инвентарь!"
+				""
+				"Держа в руке &6данк&r можно нажать на кнопку i - тогда данк перейдет в режим &3строительства&r, засуньте туда нужный блок для строительства и нажмите данком &eСредней кнопкой мыши&r на нужный блок для строительства - теперь вы можете использовать данк для строительства!"
 			]
 			id: "34A62CF75DC4B8E2"
 			shape: "diamond"
@@ -2799,7 +2841,11 @@
 		}
 		{
 			dependencies: ["34A62CF75DC4B8E2"]
-			description: ["A &9Level 2 Dank&r stores &b1024 items&r per slot and has &b18 slots&r."]
+			description: [
+				"A &9Level 2 Dank&r stores &b1024 items&r per slot and has &b18 slots&r."
+				"{@pagebreak}"
+				"&9Данк&r второго уровня вмещает &b1024 предмета&r и имеет &b18 слотов&r."
+			]
 			id: "40E43CBA8B7D56EA"
 			shape: "diamond"
 			tasks: [{
@@ -2812,7 +2858,11 @@
 		}
 		{
 			dependencies: ["35FBDB6A6B0AF265"]
-			description: ["A &9Level 3 Dank&r stores &b4096 items&r per slot and has &b27 slots&r."]
+			description: [
+				"A &9Level 3 Dank&r stores &b4096 items&r per slot and has &b27 slots&r."
+				"{@pagebreak}"
+				"&9Данк&r третьего уровня вмещает &b4096 предметов&r и имеет &b27 слотов&r."
+			]
 			id: "3B5E4523A98E2051"
 			shape: "pentagon"
 			size: 0.8d
@@ -2847,6 +2897,10 @@
 				"Can be equipped in the &3Trinket&r slot, a &omaximum 2&r of these &ePouches&r can be equipped."
 				""
 				"The &ePouch&r will be displayed in your inventory."
+				"{@pagebreak}"
+				"Можно надеть в слот для &3Тринкетов&r, &oмаксимум можно надеть 2&r таких &eрюкзака&r."
+				""
+				"&eРюкзак&r отобразится в инвентаре."
 			]
 			id: "650CF9427E6650EC"
 			rewards: [{
@@ -2897,6 +2951,10 @@
 				"Can be equipped in the &3Trinket&r slot, a &omaximum of 1&r &eSatchel&r can be equipped."
 				""
 				"The &eSatchel&r will be displayed in your inventory."
+				"{@pagebreak}"
+				"Можно надеть в слот для &3Тринкетов&r, &oмаксимум можно надеть 1&r &eрюкзак&r."
+				""
+				"&eРюкзак&r отобразится в инвентаре."
 			]
 			id: "40E595751C1D513F"
 			rewards: [{
@@ -2985,7 +3043,11 @@
 		}
 		{
 			dependencies: ["21E3A44EA5EDD677"]
-			description: ["An empty world with nothing in it, handy to build your base somewhere in infinity!"]
+			description: [
+				"An empty world with nothing in it, handy to build your base somewhere in infinity!"
+				"{@pagebreak}"
+				"Пустой мир в котором нет ничего, удобно чтобы построить свою базу где-то в бесконечности!"
+			]
 			id: "6202DAB34EAE0854"
 			shape: "gear"
 			size: 2.0d

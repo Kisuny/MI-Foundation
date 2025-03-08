@@ -11,6 +11,7 @@
 	quests: [
 		{
 			dependencies: ["38755D32B509192B"]
+			hide: false
 			id: "283D320D84F5DA27"
 			rewards: [
 				{
@@ -39,6 +40,7 @@
 				"6BAA0FB832721D58"
 				"6B8AD610BFDE2B3A"
 			]
+			hide: false
 			id: "2B526E0A7964227D"
 			rewards: [
 				{
@@ -67,6 +69,7 @@
 				"2B526E0A7964227D"
 				"283D320D84F5DA27"
 			]
+			hide: false
 			id: "50C0CA3FC79847C4"
 			rewards: [
 				{
@@ -460,7 +463,11 @@
 		}
 		{
 			dependencies: ["47A87645847E6CCE"]
-			description: ["A boiler, but larger. Much larger. Can create up to 256 mb/t of steam. Needs hatches for fuel input, water input and steam output."]
+			description: [
+				"A boiler, but larger. Much larger. Can create up to 256 mb/t of steam. Needs hatches for fuel input, water input and steam output."
+				"{@pagebreak}"
+				"Котел, но большего размера. Намного больше. Может создавать до 256 mb/t пара. Имеет люки для входа топлива, входа воды и выхода пара."
+			]
 			icon: "modern_industrialization:large_steam_boiler"
 			id: "07D42A18DA84F509"
 			rewards: [
@@ -549,7 +556,11 @@
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
-			description: ["Basic &6electric&r battery. To charge any item press RMB on a battery with the item in hand. The output direction for wires can be specified by using a wrench."]
+			description: [
+				"Basic &6electric&r battery. To charge any item press RMB on a battery with the item in hand. The output direction for wires can be specified by using a wrench."
+				"{@pagebreak}"
+				"&6Накопитель энергии&r, для зарядки электрических инструментов или брони нажмите &4пкм&r по накопителю"
+			]
 			hide: false
 			id: "3C5FA124A54C0133"
 			rewards: [
@@ -650,7 +661,11 @@
 		}
 		{
 			dependencies: ["47A87645847E6CCE"]
-			description: ["Portable Storage Unit (PSU) allows you to transport energy in your inventory. It doesn't have any capacity on it's own, you must first insert a battery by hovering over it with one and pressing RMB (or vise versa). After that, if you hold it and press RMB on a placed storage unit, it will be charged. It cannot power directly items in your inventory, but you can carry a block storage unit to alleviate that."]
+			description: [
+				"Portable Storage Unit (PSU) allows you to transport energy in your inventory. It doesn't have any capacity on it's own, you must first insert a battery by hovering over it with one and pressing RMB (or vise versa). After that, if you hold it and press RMB on a placed storage unit, it will be charged. It cannot power directly items in your inventory, but you can carry a block storage unit to alleviate that."
+				"{@pagebreak}"
+				"Переносное хранилище энергии — позволяет переносить энергию в инвентаре. Сам по себе он не имеет никакой емкости, поэтому сначала нужно вставить в него батарею, наведя на него курсор и нажав ПКМ (или наоборот). После этого, если удерживать его и нажать ПКМ на размещенном накопителе, он будет заряжен. Он не может питать напрямую предметы в вашем инвентаре, но вы можете носить с собой блок-накопитель, чтобы облегчить эту проблему."
+			]
 			id: "7281FDAB6AA4AA1F"
 			rewards: [{
 				id: "68C2F5509DEF4712"
@@ -685,7 +700,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "&m3&r 4 recipes to rule them all!"
+			subtitle: "&m3&r &m4&r 5 recipes to rule them all!"
 			tasks: [{
 				id: "505BB3196B811562"
 				item: "modern_industrialization:polarizer"
@@ -696,7 +711,11 @@
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
-			description: ["The &6Bread and Butter&r of all automation in Modern Industrialization. Some items can only be created under certain conditions (&4dimension&r, &0biome&r, etc.)."]
+			description: [
+				"The &6Bread and Butter&r of all automation in Modern Industrialization. Some items can only be created under certain conditions (&4dimension&r, &0biome&r, etc.)."
+				"{@pagebreak}"
+				"Сборщик, многие крафты из верстака возможны в данной машинке, а так же некоторые крафты возможны сначала только через сборщик"
+			]
 			hide: false
 			id: "26128DB1415D22BC"
 			rewards: [
@@ -841,8 +860,11 @@
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
-			description: ["An &6alternative&r of an assembler for &9certain&r shapeless recipes."]
-			hide: false
+			description: [
+				"An &6alternative&r of an assembler for &9certain&r shapeless recipes."
+				"{@pagebreak}"
+				"&6Добавляет&r &4возможность&r крафтить некоторые вещи, что ранее были доступны только через верстак, в угоду возможности &4автоматизации&r"
+			]
 			id: "132428B927F9BF07"
 			rewards: [
 				{
@@ -944,7 +966,10 @@
 		}
 		{
 			dependencies: ["3387FCCF2E3B857B"]
+			dependency_requirement: "one_completed"
 			hide: false
+			hide_dependency_lines: false
+			hide_text_until_complete: false
 			id: "1AC11A9AAE45A014"
 			rewards: [
 				{
@@ -971,7 +996,6 @@
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
-			hide: false
 			id: "3387FCCF2E3B857B"
 			rewards: [
 				{
@@ -999,7 +1023,12 @@
 				"102B8197BB09AAF2"
 				"1AC11A9AAE45A014"
 			]
-			description: ["An &4electric version&r of the &6Blast Furnace&r. Available recipes are determined by the tier of coils making up the EBF. The current tier must be specified inside the machine."]
+			description: [
+				"An &4electric version&r of the &6Blast Furnace&r. Available recipes are determined by the tier of coils making up the EBF. The current tier must be specified inside the machine."
+				"{@pagebreak}"
+				"&4Улучшенная версия&r &6доменной печи&r, дальнейшее её улучшение происходит через замену катушек"
+				"&6Этот квест открывает новую ветку квестов!&r"
+			]
 			hide: false
 			icon: "modern_industrialization:electric_blast_furnace"
 			id: "57886FF598451010"
@@ -1045,13 +1074,23 @@
 					item: "modern_industrialization:lv_energy_input_hatch"
 					type: "item"
 				}
+				{
+					count: 16L
+					id: "6C27244531355C19"
+					item: "modern_industrialization:cupronickel_coil"
+					type: "item"
+				}
 			]
 			x: 2.5d
 			y: 12.0d
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
-			description: ["A more &6electric&r way for producing coke and creosote. Also unlocks some other chemical compounds."]
+			description: [
+				"A more &6electric&r way for producing coke and creosote. Also unlocks some other chemical compounds."
+				"{@pagebreak}"
+				"&6Камера пиролиза&r, более быстрая коксовая печь и не только!"
+			]
 			hide: false
 			icon: "modern_industrialization:pyrolyse_chamber"
 			id: "39BB7A893BC32686"
@@ -1103,7 +1142,11 @@
 		}
 		{
 			dependencies: ["47A87645847E6CCE"]
-			description: ["Allows for basic routing with NeepMeat pipes. &4Doesn't&r work like BC Diamond pipes. Instead, it only accepts the items specified inside and will push them out of the side with the same color."]
+			description: [
+				"Allows for basic routing with NeepMeat pipes. &4Doesn't&r work like BC Diamond pipes. Instead, it only accepts the items specified inside and will push them out of the side with the same color."
+				"{@pagebreak}"
+				"Является основным элементом для простейшей логистики труб. Не пропускает блоки сквозь себя, вместо этого принимает те блоки которые указаны в фильтре и передаёт их в выходе соответственного цвета."
+			]
 			id: "0737D169DFB3A47A"
 			rewards: [
 				{
@@ -1129,7 +1172,11 @@
 		}
 		{
 			dependencies: ["47A87645847E6CCE"]
-			description: ["Upon recieving a &4redstone&r pulse it extracts a precise ammount of liquid into a fluid network."]
+			description: [
+				"Upon recieving a &4redstone&r pulse it extracts a precise ammount of liquid into a fluid network."
+				"{@pagebreak}"
+				"При редстоун сигнале, извлекает определённое количество жидкости из хранилища и выпускает её в систему труб."
+			]
 			id: "6555DBE436704301"
 			rewards: [{
 				id: "6CEA4E941F4BDE24"
@@ -1229,7 +1276,15 @@
 		}
 		{
 			dependencies: ["2967C78F538C5ECD"]
-			description: ["Bundled Cables serve as a way to build more compact redstone wire systems. They allow a cable to transmit multiple signals at once. Basically, if you have inputs and outputs of wire colors 1 and 2, they will work independently from each other."]
+			description: [
+				"Bundled Cables serve as a way to build more compact redstone wire systems. They allow a cable to transmit multiple signals at once. Basically, if you have inputs and outputs of wire colors 1 and 2, they will work independently from each other."
+				"{@pagebreak}"
+				"Позволяет передавать редстоун сигнал в зависимости от цвета редстоун проводки которая к нему подключена. Например: "
+				"- зелёный и красный редстоун кабель подключён к смешаному кабелю в точке \"А\""
+				"- ведём смешаный кабель из точки \"А\" в точку \"В\" "
+				"- подключаем к ней зелёный и красный кабель соответственно "
+				"- теперь сигналы будут независимо передаваться по красному и зелёному кабелю "
+			]
 			id: "64A7F758A7CD9EB6"
 			rewards: [
 				{
@@ -1268,7 +1323,11 @@
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
-			description: ["Allows for the &4automation&r of most &6cooking&r recipes."]
+			description: [
+				"Allows for the &4automation&r of most &6cooking&r recipes."
+				"{@pagebreak}"
+				"&6Электрическая плита&r, позволяет &4автоматизировать&r приготовление &6большинства&r еды"
+			]
 			hide: false
 			id: "21AC21DF6587C093"
 			rewards: [
@@ -1300,7 +1359,11 @@
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
-			description: ["&6Bottler&r allows for the automatic filling of certain fluid containers like buckets or bottles."]
+			description: [
+				"&6Bottler&r allows for the automatic filling of certain fluid containers like buckets or bottles."
+				"{@pagebreak}"
+				"&6Боттлер,&r &4позволяет заливать&r жидкости в различные маленькие емкости"
+			]
 			hide: false
 			id: "355872E71E715BBF"
 			rewards: [
@@ -1326,7 +1389,11 @@
 		}
 		{
 			dependencies: ["0737D169DFB3A47A"]
-			description: ["Serves as an interface for the Extended Drawers drawer system. When many drawers are connected (placed side by side), the drawer access point will behave as an input and output for all of them. By pressing RMB on it all items that can be inserted into any of the drawers will be deposited."]
+			description: [
+				"Serves as an interface for the Extended Drawers drawer system. When many drawers are connected (placed side by side), the drawer access point will behave as an input and output for all of them. By pressing RMB on it all items that can be inserted into any of the drawers will be deposited."
+				"{@pagebreak}"
+				"Позволяет обьеденить ящики(драверы) в одну сеть. Все механизмы базовой логистики будут воспринимать этот блок как общий инвентарь для всех якщиков. При нажатии ПКМ все предметы которые могут быть положены в соответствующие ящики будут складированы."
+			]
 			hide: false
 			id: "3DF2B3F026C9AC41"
 			rewards: [{
@@ -1346,7 +1413,11 @@
 		}
 		{
 			dependencies: ["54CEC7BE4B675E7C"]
-			description: ["&6Automatically&r stores items like iron ingots (which have blocks and nuggets) in all &4three&r variants. Can be a part of a drawer system. "]
+			description: [
+				"&6Automatically&r stores items like iron ingots (which have blocks and nuggets) in all &4three&r variants. Can be a part of a drawer system. "
+				"{@pagebreak}"
+				"&6Автоматически&r представляет выбранный предмет в &4трёх&r вариациях. Например положив золотой &6слиток&r, в одной ячейке будут золотые &6блоки&r, в другой золотые &6слитки&r и в третьей золотые &6самородки&r."
+			]
 			id: "0B78784AFB3C0A1E"
 			rewards: [
 				{
@@ -1444,7 +1515,11 @@
 		}
 		{
 			dependencies: ["13C563F7C62A0F7A"]
-			description: ["Allows to transmit a redstone signal a couple blocks forward wirelessly. The number of blocks can be changed by pressing RMB on it. "]
+			description: [
+				"Allows to transmit a redstone signal a couple blocks forward wirelessly. The number of blocks can be changed by pressing RMB on it. "
+				"{@pagebreak}"
+				"Позволяет проецировать редстоун сигнал по воздуху. Количество блоков меняется с помощью правой кнопкой мыши."
+			]
 			id: "119D6E1E7E6D5233"
 			rewards: [
 				{
@@ -1489,7 +1564,11 @@
 		}
 		{
 			dependencies: ["0845A204BA15A1F5"]
-			description: ["Only allows the redstone signal to pass through in one direction."]
+			description: [
+				"Only allows the redstone signal to pass through in one direction."
+				"{@pagebreak}"
+				"Пропускает редстоун сигнал только в одну сторону."
+			]
 			id: "4BF6461697886B3C"
 			rewards: [
 				{
@@ -1533,7 +1612,11 @@
 		}
 		{
 			dependencies: ["0845A204BA15A1F5"]
-			description: ["Off by default. Turns on if all inputs are receiving a signal."]
+			description: [
+				"Off by default. Turns on if all inputs are receiving a signal."
+				"{@pagebreak}"
+				"По умолчанию неактивен. Становится активным если активны все входящие сигналы."
+			]
 			id: "07718C17A9D7B520"
 			rewards: [
 				{
@@ -1577,7 +1660,11 @@
 		}
 		{
 			dependencies: ["0845A204BA15A1F5"]
-			description: ["Off by default. Turns on if at least one of input signals is active."]
+			description: [
+				"Off by default. Turns on if at least one of input signals is active."
+				"{@pagebreak}"
+				"По умолчанию неактивен. Становиться активным если хотя бы один з входящих сигналов является активным."
+			]
 			id: "516770D6021CB159"
 			rewards: [
 				{
@@ -1621,7 +1708,11 @@
 		}
 		{
 			dependencies: ["0845A204BA15A1F5"]
-			description: ["On by default. Turns off if all input signals are active."]
+			description: [
+				"On by default. Turns off if all input signals are active."
+				"{@pagebreak}"
+				"По умолчанию активен. Выключается только если все входящие сигналы активны."
+			]
 			id: "40F03AD46D05D4D6"
 			rewards: [
 				{
@@ -1665,7 +1756,11 @@
 		}
 		{
 			dependencies: ["0845A204BA15A1F5"]
-			description: ["On by default. Turns off if at least one input is not 0."]
+			description: [
+				"On by default. Turns off if at least one input is not 0."
+				"{@pagebreak}"
+				"По умолчанию активен, и перестаёт выдавать редстоун сигнал если хотя бы один из входящих сигналов не нулевой."
+			]
 			id: "708BCCC492873B6C"
 			rewards: [
 				{
@@ -1704,7 +1799,11 @@
 		}
 		{
 			dependencies: ["0845A204BA15A1F5"]
-			description: ["On by default. Turns off if the input signal is active."]
+			description: [
+				"On by default. Turns off if the input signal is active."
+				"{@pagebreak}"
+				"По умолчанию активен. Становится неактивным если входящий сигнал активен."
+			]
 			id: "640AF18C7CB4D718"
 			rewards: [
 				{
@@ -1748,7 +1847,11 @@
 		}
 		{
 			dependencies: ["0845A204BA15A1F5"]
-			description: ["A more customizable version of the vanilla Repeater."]
+			description: [
+				"A more customizable version of the vanilla Repeater."
+				"{@pagebreak}"
+				"По умолчанию не активен. Более продвинутая версия повторителя. Позволяет более точно указать задержку в сигнале."
+			]
 			id: "6DB7801CA77EF899"
 			rewards: [
 				{
@@ -1792,7 +1895,11 @@
 		}
 		{
 			dependencies: ["0845A204BA15A1F5"]
-			description: ["Off by default. Upon recieving a pulse, it changes it's output state."]
+			description: [
+				"Off by default. Upon recieving a pulse, it changes it's output state."
+				"{@pagebreak}"
+				"По умолчанию один из выходящих сигналов активен. Входящие сигналы изменяют направление выходящего сигнала лишь один раз. "
+			]
 			id: "5EA1A5489C92891C"
 			rewards: [
 				{
@@ -1836,7 +1943,11 @@
 		}
 		{
 			dependencies: ["119D6E1E7E6D5233"]
-			description: ["A tool for visualizing where Redstone Projectors point to. Bind it with Shift+RMB."]
+			description: [
+				"A tool for visualizing where Redstone Projectors point to. Bind it with Shift+RMB."
+				"{@pagebreak}"
+				"Позволяет визуализировать место в которое редстоун проектор передаёт сигнал. Нажмите ПКМ на проектор для привязки."
+			]
 			id: "3FB9FAC26C9A3C8B"
 			rewards: [
 				{
@@ -1923,7 +2034,11 @@
 		}
 		{
 			dependencies: ["17FE01EEA624616A"]
-			description: ["Allows for controlling Modern Industrialization machines with &4redstone&r."]
+			description: [
+				"Allows for controlling Modern Industrialization machines with &4redstone&r."
+				"{@pagebreak}"
+				"Позволяет управлять работой электрических механизмов."
+			]
 			id: "1BB3633F4522C7F6"
 			rewards: [
 				{
@@ -1962,7 +2077,11 @@
 		}
 		{
 			dependencies: ["47A87645847E6CCE"]
-			description: ["Emits a &4redstone&r signal if the inventory in front of it contains an item specified in its filter. Works with NBT."]
+			description: [
+				"Emits a &4redstone&r signal if the inventory in front of it contains an item specified in its filter. Works with NBT."
+				"{@pagebreak}"
+				"Выдаёт редстоун сигнал если внутри инвентаря, напротив детектора, есть предметы указаные в фильтре детектора."
+			]
 			id: "6E572895AE95E3CF"
 			rewards: [{
 				id: "6CE7CD65CF7EAEF4"
@@ -1980,7 +2099,11 @@
 		}
 		{
 			dependencies: ["47A87645847E6CCE"]
-			description: ["Emits a &4redstone&r signal if the block in front of it is a solid block, i.e. not a fluid or air."]
+			description: [
+				"Emits a &4redstone&r signal if the block in front of it is a solid block, i.e. not a fluid or air."
+				"{@pagebreak}"
+				"Выдаёт редстоун сигнал если блок впереди является твердым, т.е. не жидкость или воздух."
+			]
 			id: "3DA2AF865B5560F5"
 			rewards: [{
 				id: "1C15EE419449DB01"
@@ -1998,7 +2121,11 @@
 		}
 		{
 			dependencies: ["47A87645847E6CCE"]
-			description: ["An alternative to precise dropper from Botania."]
+			description: [
+				"An alternative to precise dropper from Botania."
+				"{@pagebreak}"
+				"Аналог точного выбрасывателя из ботании."
+			]
 			id: "0F1FEB86EB67AE76"
 			rewards: [{
 				id: "21ABDA67C8F16CD5"
@@ -2061,7 +2188,15 @@
 				"You can read more information by opening the &3&lCrafting Calculator&r&r and clicking on the &nbutton&r on the &ebottom right&r."
 				""
 				"Can be turned into a &6&lMath Calculator&r&r by pressing Shift+RMB."
+				""
+				"{@pagebreak}"
+				"&e&lКалькулятор создания&r&r позволяет считать сколько нужно &eтех или иных материалов для крафта нужного вам количества предметов&r, управление немного сложное, с данной штучкой можно &l&9сэкономить очень много времени&r&r!"
+				""
+				"Более подробную информацию можно прочитать открыв &eкалькулятор создания&r и нажав на &nкнопку&r &eсправа снизу&r."
+				""
+				"Можно превратить в &3&lМатематический калькулятор&r&r, нажав Shift+RMB."
 			]
+			hide: false
 			id: "2F6C9BCF585211DC"
 			rewards: [{
 				count: 2
@@ -2123,7 +2258,12 @@
 				"A &6&lMath calculator&r&r, but in &2Minecraft&r! Sounds handy!"
 				""
 				"Can be turned into a &3&lCrafting Calculator&r&r by pressing Shift+RMB."
+				"{@pagebreak}"
+				"Калькулятор, но в &2Minecraft&r, звучит удобно!"
+				""
+				"Можно превратить в &3&lКалькулятор создания&r&r, нажав Shift+RMB."
 			]
+			hide: false
 			id: "17637FFEA2EF8643"
 			rewards: [{
 				count: 2
@@ -2155,7 +2295,11 @@
 		}
 		{
 			dependencies: ["17FE01EEA624616A"]
-			description: ["Filters which items can pass through the filter."]
+			description: [
+				"Filters which items can pass through the filter."
+				"{@pagebreak}"
+				"Отфильтровывает предметы, проходящие через систему труб."
+			]
 			id: "2F0E246025D08598"
 			rewards: [
 				{
@@ -2181,7 +2325,11 @@
 		}
 		{
 			dependencies: ["17FE01EEA624616A"]
-			description: ["Extracts items from connected inventories."]
+			description: [
+				"Extracts items from connected inventories."
+				"{@pagebreak}"
+				"Извлекает предметы из подключенного инвентаря в систему труб."
+			]
 			id: "311F7B8334C4FC59"
 			rewards: [
 				{
@@ -2207,6 +2355,7 @@
 		}
 		{
 			dependencies: ["102B8197BB09AAF2"]
+			hide: false
 			id: "21949C2F48475576"
 			rewards: [
 				{
@@ -2232,6 +2381,7 @@
 		{
 			dependencies: ["1AC11A9AAE45A014"]
 			description: [""]
+			hide: false
 			id: "6FB4F7217F1CA727"
 			rewards: [
 				{
@@ -2256,7 +2406,11 @@
 		}
 		{
 			dependencies: ["54CEC7BE4B675E7C"]
-			description: ["An item buffer of &6variable size&r. Scroll while hovering over an empty slot to adjust it's capacity. Can have slot-locking and auto-output configured in the GUI."]
+			description: [
+				"An item buffer of &6variable size&r. Scroll while hovering over an empty slot to adjust it's capacity. Can have slot-locking and auto-output configured in the GUI."
+				"{@pagebreak}"
+				"Предметный буфер с &6изменяемым размером&r. Прокрутка колесика мыши изменит вместимость наведенного слота. Имеет блокировку слотов и автовыход."
+			]
 			id: "7BD760619647DEBF"
 			rewards: [{
 				count: 2
@@ -2275,7 +2429,13 @@
 		}
 		{
 			dependencies: ["132428B927F9BF07"]
-			description: ["Accelerates  items in pipes."]
+			dependency_requirement: "one_completed"
+			description: [
+				"Accelerates  items in pipes."
+				"{@pagebreak}"
+				"Ускоряет предметы в трубах."
+			]
+			hide: false
 			id: "25AF8E8FDF60BE37"
 			rewards: [
 				{
@@ -2304,7 +2464,12 @@
 				"Allows you to &ereplace many blocks of the same type at the same time&r, there are many setup modes, find the hotkey in the settings to learn more about the modes. You can also undo your actions."
 				""
 				"To select a block for replacing press SHIFT + right mouse button with the device in your hands."
+				"{@pagebreak}"
+				"Позволяет &eзаменять множество одинаковых блоков&r другими блоками, есть множество режимов замены, найдите горячую клавишу в настройках чтобы узнать подробнее о режимах. Так же можно отменять свои действия \"&eОткатывать&r\"."
+				""
+				"Чтобы выбрать блок для строительства нажмите SHIFT + ПКМ с прибором в руках."
 			]
+			hide: false
 			id: "5C706DDE0B62DB75"
 			shape: "gear"
 			tasks: [{
@@ -2333,7 +2498,12 @@
 				"Allows you to &eplace many blocks of the same type at the same time&r, there are many setup modes, find the hotkey in the settings to learn more about the modes. You can also undo your actions."
 				""
 				"To select a block for building press SHIFT + right mouse button with the device in your hands."
+				"{@pagebreak}"
+				"Позволяет &eразмещать множество блоков одного типа одновременно&r, существует множество режимов установки, найдите горячую клавишу в настройках чтобы узнать подробнее о режимах. Так же можно отменять свои действия \"&eОткатывать&r\"."
+				""
+				"Чтобы выбрать блок для строительства нажмите SHIFT + ПКМ с прибором в руках."
 			]
+			hide: false
 			id: "3195167246145CE7"
 			shape: "gear"
 			tasks: [{

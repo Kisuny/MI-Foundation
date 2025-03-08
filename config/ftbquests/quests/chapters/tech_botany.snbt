@@ -746,7 +746,11 @@
 				"5E9A8B25A318CD11"
 				"1176A1B117DC2F4E"
 			]
-			description: ["Dropping a &dBlacker Lotus&r into a mana pool will add 100,000 &bmana&r to it"]
+			description: [
+				"Dropping a &dBlacker Lotus&r into a mana pool will add 100,000 &bmana&r to it"
+				"{@pagebreak}"
+				"Бросив &bТёмный лотус&r в бассейн маны в него прибавится 100 000 единиц &bманы&r"
+			]
 			id: "09678F440F3558FB"
 			rewards: [
 				{
@@ -782,6 +786,18 @@
 				"• Polished Calcite Pillars"
 				""
 				"The &ostructure of multiblocks&r can be seen by holding the Wrench from &eModern Industrialization&r in your hand."
+				"{@pagebreak}"
+				"&4Большинство&r привычных для &aBotania&r структур были удачно интегрированы с технологиями. Теперь автоматизация процессов стала ещё проще! "
+				"Мультиблоки в основном состоят из:"
+				"Полированных колонн из кальцита(polished_calcite_pillar)"
+				""
+				"Станковой обшивки из нержавеющей стали(сlean_stainless_steel_machine_casing)"
+				" "
+				"Обшивки из манастал(manasteel_casing)"
+				" "
+				"Чистого певчего стекла(clear_hummingstone_glass)"
+				" "
+				"Структуру мультиблоков можно увидеть взяв в руку ключ из Modern Industrialization"
 			]
 			id: "5F754C8C9D4B9968"
 			tasks: [{
@@ -794,7 +810,11 @@
 		}
 		{
 			dependencies: ["0BE7C888A9C0463D"]
-			description: ["&4Most&r of the generating flora was able to integrate with technology and directly produce &bLiquid Mana&r."]
+			description: [
+				"&4Most&r of the generating flora was able to integrate with technology and directly produce &bLiquid Mana&r."
+				"{@pagebreak}"
+				"&4Большинство&r генерирующей флоры удалось интегрировать с технологиями и напрямую производить &bЖидкую ману&r"
+			]
 			id: "7D466F716CC7DB47"
 			tasks: [{
 				id: "51A86A5BFF52DAAA"
@@ -906,7 +926,11 @@
 		}
 		{
 			dependencies: ["46B678C8DDB9B181"]
-			description: ["&bMana&r storage in AE2 is, in fact, <shake>possible</shake>."]
+			description: [
+				"&bMana&r storage in AE2 is, in fact, <shake>possible</shake>."
+				"{@pagebreak}"
+				"Хранение &bманы&r в сети <shake>возможно</shake>"
+			]
 			id: "54281746C46E120E"
 			tasks: [{
 				id: "1D46F0398C62B78F"
@@ -979,7 +1003,11 @@
 		}
 		{
 			dependencies: ["7BCBEF7AD70220CA"]
-			description: ["&4Morkite enricher&r, adds the ability to produce &bmorkite fuel&r, a the &lmost efficient&r liquid fuel"]
+			description: [
+				"&4Morkite enricher&r, adds the ability to produce &bmorkite fuel&r, a the &lmost efficient&r liquid fuel"
+				"{@pagebreak}"
+				"&4Обоготитель моркита&r, добавляет возможность производства &bморкитового топлива&r, один из видов жидкого топлива"
+			]
 			id: "119D6AD3085DB244"
 			rewards: [
 				{
@@ -1029,7 +1057,11 @@
 		}
 		{
 			dependencies: ["7BCBEF7AD70220CA"]
-			description: ["&0Containment chamber&r, adds the ability to farm &4some resources from Spectrum&r in automatic mode"]
+			description: [
+				"&0Containment chamber&r, adds the ability to farm &4some resources from Spectrum&r in automatic mode"
+				"{@pagebreak}"
+				"&0Герметичная камера&r, добавляет возможность добычи &4некоторых ресурсов из Spectrum&r в автоматическом режиме"
+			]
 			id: "486CFD9D6A8DF24E"
 			rewards: [
 				{
@@ -1054,7 +1086,11 @@
 		}
 		{
 			dependencies: ["7BCBEF7AD70220CA"]
-			description: ["The &6Industrial crystallarieum&r, a technical version of the crystallarieum, though &4lacking some of the features&r of the regular crystallarieum, is &4more palatable for automating&r processes"]
+			description: [
+				"The &6Industrial crystallarieum&r, a technical version of the crystallarieum, though &4lacking some of the features&r of the regular crystallarieum, is &4more palatable for automating&r processes"
+				"{@pagebreak}"
+				"&6Индустральный кристаллярий&r, техническая версия кристаллярия, хоть и &4лишилась некоторых возможностей&r обычного кристаллярия, однако &4более приятна для автоматизации&r процессов"
+			]
 			id: "5B2146C58DD9FFFF"
 			rewards: [
 				{
@@ -1086,6 +1122,10 @@
 				"&9Growing Chamber&r can grow &4all plants&r and &4more&r."
 				""
 				"&4Most&r &amagical&r plants can also be grown here."
+				"{@pagebreak}"
+				"&9Камера роста&r, позволяет выращивать &4все растения&r и &4не только их&r."
+				""
+				"&4Большинство&r &aмагических&r растений может быть выращено здесь"
 			]
 			hide: true
 			id: "51F748A16C4D6F0B"
