@@ -14,6 +14,8 @@
 			description: [
 				"The brain of NEEPMeat. PLC - Programmable Logical Controller can execute special set of instructions written in NEEPASM language with clock speed of 20Hz (or more simply 1 instruction per tick)"
 				""
+				"More info can be found in the NEEPMeat Projector."
+				""
 				""
 				"{@pagebreak}"
 				"&lInterface&r"
@@ -143,6 +145,8 @@
 				"{@pagebreak}"
 				""
 				"Передовое достижение мясо-строения. ПЛК - Программируемый Логический Контроллер который может исполнять любые программы написанные на NEEPASM. "
+				""
+				"Больше информации можно найти в NEEPMeat Projector."
 				""
 				""
 				"{@pagebreak}"

@@ -3606,29 +3606,45 @@
 		{
 			dependencies: ["1ADE44FAAC0EB496"]
 			description: [
-				"NeepBus arithmetic unit. Can be used to streamline the data modification in data cables."
+				"NeepBus logistics components. Used to streamline the data modification in data cables and provide a connection to the PLC stack."
 				"{@pagebreak}"
-				"Модуль арифметики в NEEPBus системе. Используется для изменения данных в системе."
+				"Модули логистики NEEPBus системы. Используются для изменения данных в системе и служат мостом между NEEPBus и значениями в стэке PLC."
 			]
 			id: "16B787FA40D6ABBE"
-			rewards: [
+			rewards: [{
+				count: 2
+				id: "34EBF4506F5B4281"
+				item: "kubejs:late_lootbag_rare"
+				type: "item"
+			}]
+			tasks: [
 				{
-					count: 2
-					id: "17D2A61438954514"
+					id: "7D3DC7C5BE356990"
 					item: "neepmeat:pid_controller"
 					type: "item"
 				}
 				{
-					id: "13E8AC421EA1BFA3"
-					item: "kubejs:late_lootbag_uncommon"
+					id: "6B66D98E6BCC92EA"
+					item: "neepmeat:movement_control"
+					type: "item"
+				}
+				{
+					id: "65C92F6DD2B4C943"
+					item: "neepmeat:integrator"
+					type: "item"
+				}
+				{
+					id: "029C091B46D8C82F"
+					item: "neepmeat:plc_neepbus_interface"
+					type: "item"
+				}
+				{
+					id: "0FADC2CB14CD70B3"
+					item: "neepmeat:address_decoder"
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "7D3DC7C5BE356990"
-				item: "neepmeat:pid_controller"
-				type: "item"
-			}]
+			title: "NEEPBus Logistics"
 			x: 21.0d
 			y: -1.0d
 		}
