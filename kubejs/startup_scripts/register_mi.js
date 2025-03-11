@@ -274,66 +274,64 @@ liquid_metals.forEach(metal => {
   })
 
   // TODO
-  metal.parts.forEach(part => {
-    JsonIO.write(`kubejs/data/modern_industrialization/recipes/foundry/${metal.name}_${part}.json`,
-      {
-	'type': 'modern_industrialization:foundry',
-	'eu': 64,
-	'duration': 100,
-	'item_inputs': [
-	  {
-	    'item': `modern_industrialization:${metal.name}_${part}`,
-	    'amount': 1
-	  }
-	],
-	'fluid_outputs': [
-	  {
-	    'fluid': `modern_industrialization:molten_${metal.name}`,
-	    'amount': 144
-	  }
-	]
-      }
-    )
-  })
+	// metal.parts.forEach(part => {
+	//   JsonIO.write(`kubejs/data/modern_industrialization/recipes/foundry/${metal.name}_${part}.json`,
+	//     {
+	//'type': 'modern_industrialization:foundry',
+	//'eu': 64,
+	//'duration': 100,
+	//'item_inputs': [
+	//  {
+	//    'item': `modern_industrialization:${metal.name}_${part}`,
+	//    'amount': 1
+	//  }
+	//],
+	//'fluid_outputs': [
+	//  {
+	//    'fluid': `modern_industrialization:molten_${metal.name}`,
+	//    'amount': 144
+	//  }
+	//]
+	//     }
+	//   )
+	// })
   let all_parts = metal.parts.concat(metal.external.map(part => part.type));
   //let temp = all_parts.filter(p => metal_molds.map(m => m.name).includes(p))
   let temp = all_parts.filter(p => (p in metal_molds));
-  if (temp?.length) {
-    temp.forEach(part => {
-      console.log(part)
-      JsonIO.write(`kubejs/data/modern_industrialization/recipes/fluid_solidifier/${metal.name}_${part}.json`,
-	{
-	  'type': 'modern_industrialization:fluid_solidifier',
-	  'eu': 64,
-	  'duration': 100,
-	  'fluid_inputs': [
-	    {
-	      'fluid': `modern_industrialization:molten_${metal.name}`,
-	      'amount': metal_molds[part],
-	    }
-	  ],
-	  'item_inputs': [
-	    {
-	      'item': `kubejs:${part}_mold`,
-	      'amount': 1,
-	      'probabilty': 0
-	    }
-	  ],
-	  'item_outputs': [
-	    {
-	      'item': `modern_industrialization:${metal.name}_${part}`,
-	      'amount': 1
-	    }
-	  ]
-	}
-      )
-
-    })
-  }
+	// if (temp?.length) {
+	//   temp.forEach(part => {
+	//     console.log(part)
+	//     JsonIO.write(`kubejs/data/modern_industrialization/recipes/fluid_solidifier/${metal.name}_${part}.json`,
+	//{
+	//  'type': 'modern_industrialization:fluid_solidifier',
+	//  'eu': 64,
+	//  'duration': 100,
+	//  'fluid_inputs': [
+	//    {
+	//      'fluid': `modern_industrialization:molten_${metal.name}`,
+	//      'amount': metal_molds[part],
+	//    }
+	//  ],
+	//  'item_inputs': [
+	//    {
+	//      'item': `kubejs:${part}_mold`,
+	//      'amount': 1,
+	//      'probabilty': 0
+	//    }
+	//  ],
+	//  'item_outputs': [
+	//    {
+	//      'item': `modern_industrialization:${metal.name}_${part}`,
+	//      'amount': 1
+	//    }
+	//  ]
+	//}
+	//     )
+	//
+	//   })
+	// }
 
 })
-
-
 
 MIMaterialEvents.addMaterials(event => {
 
