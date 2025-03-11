@@ -11,6 +11,76 @@ ServerEvents.recipes(event => {
         .fluidIn('modern_industrialization:soldering_alloy', 50)
         .itemOut('neepmeat:advanced_ejector')
         .biome('ad_astra:orbit')
+
+
+
+    // Unit Delay
+    event.remove({id: 'neepbus:delay'})
+    event.recipes.modern_industrialization.assembler(16, 300)
+        .itemIn('4x modern_industrialization:meat_steel_plate')
+        .itemIn('ae2:basic_card')
+        .itemIn('4x neepmeat:data_cable')
+        .itemIn('2x ae2:calculation_processor')
+        .itemIn('2x ae2:logic_processor')
+        .fluidIn('neepmeat:work_fluid', 50)
+        .fluidIn('modern_industrialization:molten_redstone', 150)
+        .itemOut('4x neepmeat:delay')
+        .biome('ad_astra:orbit')
+
+
+    // Integrator
+    event.remove({id: 'neepbus:integrator'})
+    event.recipes.modern_industrialization.assembler(16, 300)
+        .itemIn('4x modern_industrialization:meat_steel_plate')
+        .itemIn('ae2:capacity_card')
+        .itemIn('4x neepmeat:data_cable')
+        .itemIn('2x ae2:calculation_processor')
+        .itemIn('2x ae2:logic_processor')
+        .fluidIn('neepmeat:work_fluid', 50)
+        .fluidIn('modern_industrialization:molten_redstone', 150)
+        .itemOut('neepmeat:integrator')
+        .biome('ad_astra:orbit')
+
+    // Movement Control
+    event.remove({id: 'neepbus:movement_control'})
+    event.recipes.modern_industrialization.assembler(16, 300)
+        .itemIn('4x modern_industrialization:meat_steel_plate')
+        .itemIn('ae2:fuzzy_card')
+        .itemIn('4x neepmeat:data_cable')
+        .itemIn('2x ae2:calculation_processor')
+        .itemIn('2x ae2:logic_processor')
+        .fluidIn('neepmeat:work_fluid', 50)
+        .fluidIn('modern_industrialization:molten_redstone', 150)
+        .itemOut('neepmeat:movement_control')
+        .biome('ad_astra:orbit')
+
+    // PLC NEEPBus Interface
+    event.remove({id: 'neepbus:plc_neepbus_interface'})
+    event.recipes.modern_industrialization.assembler(16, 300)
+        .itemIn('4x modern_industrialization:meat_steel_plate')
+        .itemIn('ae2:redstone_card')
+        .itemIn('4x neepmeat:data_cable')
+        .itemIn('2x ae2:calculation_processor')
+        .itemIn('2x ae2:logic_processor')
+        .fluidIn('neepmeat:work_fluid', 50)
+        .fluidIn('modern_industrialization:molten_redstone', 150)
+        .itemOut('2x neepmeat:plc_neepbus_interface')
+        .biome('ad_astra:orbit')
+
+    // Adress Multiplexer
+    event.remove({id: 'neepbus:address_decoder'})
+    event.recipes.modern_industrialization.assembler(16, 300)
+        .itemIn('4x modern_industrialization:meat_steel_plate')
+        .itemIn('ae2:equal_distribution_card')
+        .itemIn('4x neepmeat:data_cable')
+        .itemIn('2x ae2:calculation_processor')
+        .itemIn('2x ae2:logic_processor')
+        .fluidIn('neepmeat:work_fluid', 50)
+        .fluidIn('modern_industrialization:molten_redstone', 150)
+        .itemOut('neepmeat:address_decoder')
+        .biome('ad_astra:orbit')
+
+
     // PID Controller
     event.remove({id: 'neepbus:pid_controller'})
     event.recipes.modern_industrialization.assembler(16, 300)
