@@ -530,6 +530,9 @@ REIEvents.hide('item', event => {
         'treeaxe:wooden_treeaxe',
         'modern_industrialization:replicator',
         'kibe:big_torch',
+	'neepmeat:item_request_receiver', 
+	'neepmeat:animal_heart', 
+	'neepmeat:advanced_integration_charge'
 
     ]);
     event.hide(list)
