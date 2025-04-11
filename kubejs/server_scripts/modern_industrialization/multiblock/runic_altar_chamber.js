@@ -130,7 +130,6 @@ let runic_altar_recipes = [
     },
     {
         items_in: [
-            ["botania:rune_sloth", 0],
             ["spectrum:bone_ash"],
             ["kubejs:rune_template"],
             ["minecraft:sand"],
