@@ -1918,6 +1918,11 @@
 		{
 			dependencies: ["69225E3EFFB37575"]
 			id: "5C8A9D8BF253947B"
+			rewards: [{
+				id: "32855C0D76D114D5"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "493C170B3A1BF976"
@@ -1930,6 +1935,11 @@
 		{
 			dependencies: ["69225E3EFFB37575"]
 			id: "03F429C77A43BCFE"
+			rewards: [{
+				id: "54EE307264E7C30D"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "52D3AD7C32AD84B4"
@@ -1942,6 +1952,11 @@
 		{
 			dependencies: ["69225E3EFFB37575"]
 			id: "380C106CB353C739"
+			rewards: [{
+				id: "55242DEDF05BAC6A"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "00D028BAB0405534"
@@ -1954,6 +1969,11 @@
 		{
 			dependencies: ["03F429C77A43BCFE"]
 			id: "07344687B05E6228"
+			rewards: [{
+				id: "0CE00554EDA2FB8A"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "497F8076E484FA20"
 				item: "gobber2:gobber2_globette_nether"
@@ -1965,6 +1985,11 @@
 		{
 			dependencies: ["5C8A9D8BF253947B"]
 			id: "01AEDC42125BF73E"
+			rewards: [{
+				id: "66E7F8A859E83E6B"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3B41F2CF22351E6D"
 				item: "gobber2:gobber2_globette"
@@ -1976,6 +2001,11 @@
 		{
 			dependencies: ["380C106CB353C739"]
 			id: "34D020C89078D1BE"
+			rewards: [{
+				id: "5098D64AF591E029"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "10BEAD749CFC1B2B"
 				item: "gobber2:gobber2_globette_end"
@@ -1987,6 +2017,11 @@
 		{
 			dependencies: ["07344687B05E6228"]
 			id: "0A9DF276DE4107E3"
+			rewards: [{
+				id: "661C799E6C95BDC0"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "137682D97C973753"
 				item: "gobber2:gobber2_glob_nether"
@@ -1998,6 +2033,11 @@
 		{
 			dependencies: ["01AEDC42125BF73E"]
 			id: "76BC59ADB429723F"
+			rewards: [{
+				id: "13726CB42452ACBB"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "12C9FD4D89CBB0B3"
 				item: "gobber2:gobber2_glob"
@@ -2009,6 +2049,11 @@
 		{
 			dependencies: ["34D020C89078D1BE"]
 			id: "476D4AAD472CDE51"
+			rewards: [{
+				id: "53BB732211B97F5D"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2658D69914670201"
 				item: "gobber2:gobber2_glob_end"
@@ -2020,6 +2065,11 @@
 		{
 			dependencies: ["0A9DF276DE4107E3"]
 			id: "6351D9837D61B49E"
+			rewards: [{
+				id: "795719FA0B85D823"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3591C8A0A69FF189"
 				item: "gobber2:gobber2_ingot_nether"
@@ -2032,6 +2082,11 @@
 			dependencies: ["76BC59ADB429723F"]
 			description: [""]
 			id: "5591750F75A1022F"
+			rewards: [{
+				id: "47C94D6EC6F2362F"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "15EFB75508CD0D78"
 				item: "gobber2:gobber2_ingot"
@@ -2043,6 +2098,11 @@
 		{
 			dependencies: ["476D4AAD472CDE51"]
 			id: "5945522A014A603B"
+			rewards: [{
+				id: "166DDE11C97C1E3D"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "270C4D7379A0B5EE"
 				item: "gobber2:gobber2_ingot_end"
@@ -2054,6 +2114,11 @@
 		{
 			dependencies: ["5945522A014A603B"]
 			id: "48D66C687AFCE78C"
+			rewards: [{
+				id: "24885339AC34D361"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [
 				{
 					count: 3L
@@ -2083,6 +2148,11 @@
 				"• Защищать от большинства негативных эффектов"
 			]
 			id: "7B159F6A1782C0E7"
+			rewards: [{
+				id: "3299AB18EA65E471"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6362D620189435C8"
@@ -2135,6 +2205,11 @@
 		{
 			dependencies: ["5945522A014A603B"]
 			id: "4940422927B1BA3B"
+			rewards: [{
+				id: "15BE5F974254B1EE"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "43129553D50F5C1B"
 				item: {
@@ -2152,6 +2227,11 @@
 		{
 			dependencies: ["5945522A014A603B"]
 			id: "61F2295FBDC20979"
+			rewards: [{
+				id: "38F5401B75611A07"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0F5630BBB20A3179"
 				item: {
@@ -2169,6 +2249,11 @@
 		{
 			dependencies: ["5945522A014A603B"]
 			id: "081890134CDCA36C"
+			rewards: [{
+				id: "781F984EB2AA9609"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1D0401DBC493B106"
 				item: {
@@ -2186,6 +2271,11 @@
 		{
 			dependencies: ["5945522A014A603B"]
 			id: "70F5DEBFC83217B2"
+			rewards: [{
+				id: "68C7E752F72E7A6F"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "78E5F558707634F8"
 				item: {
@@ -2203,6 +2293,11 @@
 		{
 			dependencies: ["5945522A014A603B"]
 			id: "616B15517C32D08E"
+			rewards: [{
+				id: "3EBCB6D21E85BE15"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3A53DFF8ABBAD8BA"
 				item: {
@@ -2229,6 +2324,11 @@
 				"ЛопатаТопорКирка"
 			]
 			id: "6B098DC821BB1DC4"
+			rewards: [{
+				id: "63974984D30812D4"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0A0A5A05119B09A5"
 				item: {
@@ -2251,6 +2351,11 @@
 				"ЛопатаТопорКирка + бесконечно количество факелов при нажатие ПКМ"
 			]
 			id: "6EAECD2149801649"
+			rewards: [{
+				id: "2D6C89EA74C35D19"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7AAD7241BEAEDEFB"
 				item: {
@@ -2268,6 +2373,11 @@
 		{
 			dependencies: ["5945522A014A603B"]
 			id: "4900513AF3F81E5B"
+			rewards: [{
+				id: "2925F6FFCAA16ED5"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2586FC21CB5D724D"
 				item: "gobber2:gobber2_medallion_end"
@@ -2279,6 +2389,11 @@
 		{
 			dependencies: ["5945522A014A603B"]
 			id: "1C0C4445162D41F5"
+			rewards: [{
+				id: "1C53377E38ADB5CC"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "78732D5476385F21"
 				item: "gobber2:gobber2_ring_end"
@@ -2295,6 +2410,11 @@
 				"Телепортирует в край/Возвращает домой"
 			]
 			id: "3F25962776FF93D3"
+			rewards: [{
+				id: "749590EC644BAAB8"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "39FFEDBFCB7D3938"
 				item: "gobber2:gobber2_ring_void"
@@ -2315,6 +2435,11 @@
 				"Работает с эффектом планера от Брони Края"
 			]
 			id: "453A00D5EF8B2FFE"
+			rewards: [{
+				id: "5D03911FE384C37D"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2E8054BE875B6465"
 				item: "gobber2:gobber2_ring_traveler"
@@ -2331,6 +2456,11 @@
 				"Телепортирует в сохранённую точку телепортации"
 			]
 			id: "16F96A41EF159AE0"
+			rewards: [{
+				id: "0A927D54BF726D2D"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2AD3D2DEE6786395"
 				item: "gobber2:gobber2_ring_teleport"
@@ -2347,6 +2477,11 @@
 				"Делает невидимым игрока для большинства обычных мобов"
 			]
 			id: "39C9AC069BBB0DDE"
+			rewards: [{
+				id: "508BDEDE10B5BA38"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6441A354F8E53166"
 				item: "gobber2:gobber2_ring_stealth"
@@ -2363,6 +2498,11 @@
 				"Открывает Сундук Края"
 			]
 			id: "1A6B04327EB53E0F"
+			rewards: [{
+				id: "40A60C3EB5921593"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "503E12834A622EC8"
 				item: "gobber2:gobber2_ring_enderchest"
@@ -2379,6 +2519,11 @@
 				"Отбрасывает большинство обычных мобов от игрока"
 			]
 			id: "7D6BF5F28B04CF75"
+			rewards: [{
+				id: "7C0500A32A3655E0"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "21EC2A66966BA279"
 				item: "gobber2:gobber2_ring_dismissal"
@@ -2395,6 +2540,11 @@
 				"Нажмите Правую кнопку мыши для телепортации в направлении взгляда"
 			]
 			id: "3B94D197EC4A48BF"
+			rewards: [{
+				id: "1853758A814E220E"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "444E45747C77DE43"
 				item: "gobber2:gobber2_ring_blink"
@@ -2411,6 +2561,11 @@
 				"Причиняет боль и страдания враждебнвм мобам в радиусе"
 			]
 			id: "74EE6BD80AD8E8F7"
+			rewards: [{
+				id: "7C78B1F67B9439F4"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3956E652C32C7293"
 				item: "gobber2:gobber2_medallion_suffering"
@@ -2427,6 +2582,11 @@
 				"Ускоряет плаванье, лучше видимость и дольше дыхание"
 			]
 			id: "3419F10F5E2CDA9C"
+			rewards: [{
+				id: "1E1F42C866E010BA"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "56528C023AFF3A62"
 				item: "gobber2:gobber2_medallion_sea"
@@ -2443,6 +2603,11 @@
 				"Исцеляет находясь в инвентаре"
 			]
 			id: "369B876835477A96"
+			rewards: [{
+				id: "2D76796AA088DDDA"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "479B29827EA87E2A"
 				item: "gobber2:gobber2_medallion_healing3"
@@ -2454,6 +2619,11 @@
 		{
 			dependencies: ["5591750F75A1022F"]
 			id: "7F52C6A6C7EB5BE4"
+			rewards: [{
+				id: "0CF7F5B23C91BC59"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "71ACC90B9BC1A75E"
 				item: "gobber2:gobber2_medallion"
@@ -2465,6 +2635,11 @@
 		{
 			dependencies: ["5591750F75A1022F"]
 			id: "3A3FF538987E0D2B"
+			rewards: [{
+				id: "6DA61C00724E12A1"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5FE85E6416841E75"
 				item: "gobber2:gobber2_ring"
@@ -2482,6 +2657,11 @@
 				"Медальон даёт подводное дыхание когда находится в инвентаре."
 			]
 			id: "221BDE79704BA990"
+			rewards: [{
+				id: "106A0C868075B636"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7FD23BD520CB8231"
 				item: "gobber2:gobber2_medallion_breathing"
@@ -2499,6 +2679,11 @@
 				"Когда находится в инвентаре и активирован — увеличивает скорость передвижения."
 			]
 			id: "56BB4964A1BFFC69"
+			rewards: [{
+				id: "46064A6E1CB20C20"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "030EA50F172F7853"
 				item: "gobber2:gobber2_ring_swiftness"
@@ -2515,6 +2700,11 @@
 				"Отключение дождя одним кликом мыши!"
 			]
 			id: "6E14434F6E0ED0D8"
+			rewards: [{
+				id: "62DF1BED33FBFB58"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1AF0F50642C64F29"
 				item: "gobber2:gobber2_ring_sunshine"
@@ -2531,6 +2721,11 @@
 				"При активации возвращает игрока на его точку возраждения — т.е. кровать."
 			]
 			id: "7EC8E4153AB7F657"
+			rewards: [{
+				id: "5A226A5340E5D6E5"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D3E58A14A2B466B"
 				item: "gobber2:gobber2_ring_return"
@@ -2547,6 +2742,11 @@
 				"Ускоряет рост культур находясь в инвентаре."
 			]
 			id: "116172DF40FB63CA"
+			rewards: [{
+				id: "0662C680F9EE7F79"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3370E0BFF978F521"
 				item: "gobber2:gobber2_ring_farmer"
@@ -2563,6 +2763,11 @@
 				"Избавление от урона при падение, так же можно переключить режима лазанья по стенам используя SHIFT + ПКМ."
 			]
 			id: "6E926CC3DB2763C0"
+			rewards: [{
+				id: "4937467D5EF4C58D"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "78CCF66250911B03"
 				item: "gobber2:gobber2_ring_ascent"
@@ -2574,6 +2779,11 @@
 		{
 			dependencies: ["6351D9837D61B49E"]
 			id: "109B68773E1C28A8"
+			rewards: [{
+				id: "4A768910B9694C28"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "09E23D5DE6CF9847"
 				item: "gobber2:gobber2_ring_nether"
@@ -2585,6 +2795,11 @@
 		{
 			dependencies: ["6351D9837D61B49E"]
 			id: "649D25EF34BA92DC"
+			rewards: [{
+				id: "3FC1D32A75B51998"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2BC6FF23E1D2FEC1"
 				item: "gobber2:gobber2_medallion_nether"
@@ -2601,6 +2816,11 @@
 				"Убирает урон от летящих в тебя снарядов"
 			]
 			id: "06914CAEC6548878"
+			rewards: [{
+				id: "6E36C0155D20758B"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4B2F87B8E7B0C498"
 				item: "gobber2:gobber2_medallion_shielding"
@@ -2617,6 +2837,11 @@
 				"Исцеляет находясь в инвентаре"
 			]
 			id: "52F304C30432A604"
+			rewards: [{
+				id: "5C7CF8C18A618D1D"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "112FCEFEF62D6E3C"
 				item: "gobber2:gobber2_medallion_healing2"
@@ -2633,6 +2858,11 @@
 				"Получение дополнительного опыта при убийстве и копании."
 			]
 			id: "2D0100296B126142"
+			rewards: [{
+				id: "5703D12B2500D25F"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5597F23A26F8E397"
 				item: {
@@ -2655,6 +2885,11 @@
 				"Дополнительная сила и сопротивление урону "
 			]
 			id: "5C8CDB8514135273"
+			rewards: [{
+				id: "31F2ADCAFA3D33B5"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "391FBE3113C19B7E"
 				item: "gobber2:gobber2_ring_strength"
@@ -2671,6 +2906,11 @@
 				"Медленно чинит один предмет в инвентаре игрока "
 			]
 			id: "66870B1FD2275C46"
+			rewards: [{
+				id: "1B95FB73F03011FE"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "23A1E74D71DAD07A"
 				item: "gobber2:gobber2_ring_repair"
@@ -2687,6 +2927,11 @@
 				"Защищает от лавы и огня, лечит если игрок в лаве"
 			]
 			id: "17D2B0C940F487E9"
+			rewards: [{
+				id: "3C94D52E55E7FE99"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "35E567B135833592"
 				item: "gobber2:gobber2_ring_phoenix"
@@ -2703,6 +2948,11 @@
 				"Избавляет игрока от негативных эффектов при активции"
 			]
 			id: "52D657C72EAA1CED"
+			rewards: [{
+				id: "257A6C31E307F519"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5A9F7A1A91AF2555"
 				item: "gobber2:gobber2_ring_curing"
@@ -2719,6 +2969,11 @@
 				"При активации даёт эффект Спешки, работает когда кольцо в инвентаре"
 			]
 			id: "3AD797301DB1B75A"
+			rewards: [{
+				id: "4572089D85367498"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2F514989D1C738E3"
 				item: "gobber2:gobber2_ring_haste"
@@ -2735,6 +2990,11 @@
 				"Увеличивает удачу носителя, работает когда в инвентаре"
 			]
 			id: "7D535BDD10AB62C1"
+			rewards: [{
+				id: "7D30885311FA3B4B"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "16C3D20A534467B5"
 				item: "gobber2:gobber2_ring_luck"
@@ -2751,6 +3011,11 @@
 				"Позволяет ходить по воздуху когда в основной руке, при нажатие ПКМ устанавливает чистое стекло в воздухе на месте нажатия"
 			]
 			id: "18967D827BC1A595"
+			rewards: [{
+				id: "3C996B8FDC2F3398"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "33AFBD8018CD43DC"
 				item: "gobber2:gobber2_ring_airwalking"
@@ -2762,6 +3027,11 @@
 		{
 			dependencies: ["5591750F75A1022F"]
 			id: "28177CA83CDC8688"
+			rewards: [{
+				id: "6F5C270E90A4FBE4"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "446FE30581677756"
 				item: "gobber2:gobber2_rod"
@@ -2778,6 +3048,11 @@
 				"Посох разрушает большее количество травы вокруг игрока."
 			]
 			id: "4ACE55AE8612C5BD"
+			rewards: [{
+				id: "6E07BDA2C0C936E3"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "106EB481CF420BA7"
 				item: "gobber2:gobber2_staff_clearing"
@@ -2794,6 +3069,11 @@
 				"Преобразует один ресурс в другой ценой прочности, работает в крафте."
 			]
 			id: "742C0D5978CD84F7"
+			rewards: [{
+				id: "3E00BD457B32EE08"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3CAF1A6D0F7A86D0"
 				item: {
@@ -2816,6 +3096,11 @@
 				"Ускоряет рост культур вокруг игрока так же позволяет собирать выросшие культуры на ПКМ."
 			]
 			id: "18A9D547A36B2FCC"
+			rewards: [{
+				id: "798577D909C3F9C2"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "13DE21B51724CB2D"
 				item: "gobber2:gobber2_staff_farmer"
@@ -2827,6 +3112,11 @@
 		{
 			dependencies: ["6351D9837D61B49E"]
 			id: "6752C275A1A5810E"
+			rewards: [{
+				id: "0FED9AB6A064BF2E"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "72DECBAF0751F408"
 				item: "gobber2:gobber2_rod_nether"
@@ -2843,6 +3133,11 @@
 				"Позволяет менять тип саженца и преобразовывать обычное стекло - в чистое."
 			]
 			id: "356EC6045F60E70B"
+			rewards: [{
+				id: "04FD388531E14802"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6B1CE6EAAE79E966"
 				item: "gobber2:gobber2_staff_nature"
@@ -2859,6 +3154,11 @@
 				"БЕСКОНЕЧНЫЕ ФАКЕЛА?!"
 			]
 			id: "33071DA5C63A3624"
+			rewards: [{
+				id: "78E2E60B01330048"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "182C8BAB6B33420F"
 				item: "gobber2:gobber2_staff_stars"
@@ -2876,6 +3176,11 @@
 				"Кольцо разрушает только ванильные блоки."
 			]
 			id: "46CE66F25EE5770E"
+			rewards: [{
+				id: "47F2776BD04F7B4A"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1273F5D6836BBF2D"
 				item: "gobber2:gobber2_ring_miner"
@@ -2892,6 +3197,11 @@
 				"Магнит — но для магов"
 			]
 			id: "4B5D88EAEC8599EA"
+			rewards: [{
+				id: "01725283D35C5D75"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "357D23F7C2717F12"
 				item: {

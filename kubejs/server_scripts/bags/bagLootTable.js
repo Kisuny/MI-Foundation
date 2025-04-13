@@ -346,6 +346,9 @@ let magic = {
         new ItemOfBag('fwaystones:end_stone_brick_waystone', 1, 5),
         new ItemOfBag('kubejs:food_lootbag_epic', 1, 10),
         new ItemOfBag('kubejs:mob_lootbag_epic', 1, 10),
+        new ItemOfBag('gobber2:gobber2_globette', 3, 20),
+        new ItemOfBag('gobber2:gobber2_globette_nether', 3, 10),
+        new ItemOfBag('gobber2:gobber2_globette_end', 3, 5),
     ], 3),
 };
 
