@@ -1,0 +1,11 @@
+{
+  "ancient_city_cursed_sack_spawn_chance": 0.0,
+  "nether_bridge_cursed_sack_spawn_chance": 0.0,
+  "ruined_portal_cursed_sack_spawn_chance": 0.0,
+  "simple_dungeon_cursed_sack_spawn_chance": 0.0,
+  "bastion_treasure_cursed_sack_spawn_chance": 0.0,
+  "end_city_cursed_sack_spawn_chance": 0.0,
+  "bastion_treasure_lost_sack_spawn_chance": 0.0,
+  "end_city_lost_sack_spawn_chance": 0.0,
+  "lich_lost_sack_drop_chance": 0.0
+}

@@ -187,7 +187,7 @@ LootJS.modifiers((event) => {
         .randomChance(0.6)
         .addLoot('kubejs:reforge_rune')
 
-        let relicex = ['relicex:tome', 'relicex:dragon_stone', 'relicex:lesser_orb_of_regret']
+        let relicex = ['relicex:tome', 'relicex:lesser_orb_of_regret']
         relicex.forEach(relicex_item => {
             event
             .addLootTableModifier(table)

@@ -1229,7 +1229,7 @@
 					type: "item"
 				}
 				{
-					count: 16
+					count: 4
 					id: "083BDC5175BE477B"
 					item: "minecraft:dragon_breath"
 					type: "item"

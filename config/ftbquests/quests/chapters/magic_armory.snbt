@@ -1,0 +1,1839 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magic_armory"
+	group: "0EE6B87D2DF05DC9"
+	icon: {
+		Count: 1b
+		id: "wizards:wizard_robe_head"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "2A9DF90645A33AD8"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "36EEEB8EA981F331"
+			tasks: [{
+				id: "5FAB61842F216FF9"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "blood_mages:t1_weapons"
+					}
+				}
+				title: "Any #blood_mages:t1_weapons"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			id: "2DA1292AB5BFA594"
+			tasks: [{
+				id: "0FC5589FE1A9CFFD"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "bards:t1_weapons"
+					}
+				}
+				title: "Any #bards:t1_weapons"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			id: "54B823E802D1AE52"
+			tasks: [{
+				id: "795485C454217D8A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "druid:t1_weapons"
+					}
+				}
+				title: "Any #druid:t1_weapons"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["52347B45DED1E8CD"]
+			id: "575E6D44D50748AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DC46ECEE74FB0BF"
+				table_id: 7381691222837690511L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "1C6F3F196BE94FE3"
+				item: "blood_mages:blood_mages_spell_book"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["52347B45DED1E8CD"]
+			id: "5088D821723C6C29"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22904EF6392032F8"
+				table_id: 7381691222837690511L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "6A71CD7462B63364"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "bards:magic_spell_books"
+					}
+				}
+				title: "Any #bards:magic_spell_books"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["52347B45DED1E8CD"]
+			id: "3191AC09F16A848E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2EDE7245C10264BD"
+				table_id: 7381691222837690511L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "0B4FEAE0661A88DC"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "battlemages:magic_spell_books"
+					}
+				}
+				title: "Any #battlemages:magic_spell_books"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["52347B45DED1E8CD"]
+			id: "3849F327C03C2DC8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FFC8BCF18F6CBF4"
+				table_id: 7381691222837690511L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "211243C34009366A"
+				item: "druid:druids_spell_book"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["52347B45DED1E8CD"]
+			id: "6040E7E9E923E368"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C76B9DE2A0F3CCD"
+				table_id: 7381691222837690511L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "5A9E588025469996"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "fpapmod:magic_spell_books"
+					}
+				}
+				title: "Any #fpapmod:magic_spell_books"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["52347B45DED1E8CD"]
+			id: "7F6A33B84ABD48D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5D1D0E4077481784"
+				table_id: 7381691222837690511L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "188EC353377E03CB"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "fallenwizardsmod:magic_spell_books"
+					}
+				}
+				title: "Any #fallenwizardsmod:magic_spell_books"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["52347B45DED1E8CD"]
+			id: "0E350FB2D21CCE63"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4DBD6F10E1FBA3C1"
+				table_id: 7381691222837690511L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "732B21D57FAFA344"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "morewizardsmod:magic_spell_books"
+					}
+				}
+				title: "Any #morewizardsmod:magic_spell_books"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["52347B45DED1E8CD"]
+			id: "6E2D7A25F007ED8C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43D1DC3429AA54C6"
+				table_id: 7381691222837690511L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "3737A850795630A3"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "paladins:magic_spell_books"
+					}
+				}
+				title: "Any #paladins:magic_spell_books"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["52347B45DED1E8CD"]
+			id: "49D94A1BDCA6A830"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B8D8E5873895549"
+				table_id: 7381691222837690511L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "427F938651FF0DB9"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "wizards:magic_spell_books"
+					}
+				}
+				title: "Any #wizards:magic_spell_books"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			id: "76336C8FF4944F9D"
+			tasks: [
+				{
+					id: "0848D4D36E172CF4"
+					item: {
+						Count: 1b
+						id: "blood_mages:blood_mage_armor_t1_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A71EAB59EA8952B"
+					item: {
+						Count: 1b
+						id: "blood_mages:blood_mage_armor_t1_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "381C3201C9980C40"
+					item: {
+						Count: 1b
+						id: "blood_mages:blood_mage_armor_t1_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05E874B3B78FAB9A"
+					item: {
+						Count: 1b
+						id: "blood_mages:blood_mage_armor_t1_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			id: "775DE8B980441C15"
+			tasks: [
+				{
+					id: "4DEAB16F9B7D84DD"
+					item: {
+						Count: 1b
+						id: "bards:bard_armor_t1_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78E375BDF6C083DF"
+					item: {
+						Count: 1b
+						id: "bards:bard_armor_t1_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B96F258EF04022D"
+					item: {
+						Count: 1b
+						id: "bards:bard_armor_t1_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B90D7E56CF84A7C"
+					item: {
+						Count: 1b
+						id: "bards:bard_armor_t1_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			id: "48A285EC71061487"
+			tasks: [
+				{
+					id: "3AC4BFC50CB3F19F"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "battlemages:battlemage_armor_t1_heads"
+						}
+					}
+					title: "Any #battlemages:battlemage_armor_t1_heads"
+					type: "item"
+				}
+				{
+					id: "769B34E13EFD9F2F"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "battlemages:battlemage_armor_t1_chests"
+						}
+					}
+					title: "Any #battlemages:battlemage_armor_t1_chests"
+					type: "item"
+				}
+				{
+					id: "06A949DAE7312696"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "battlemages:battlemage_armor_t1_leggings"
+						}
+					}
+					title: "Any #battlemages:battlemage_armor_t1_leggings"
+					type: "item"
+				}
+				{
+					id: "7D10A43A0920D49F"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "battlemages:battlemage_armor_t1_boots"
+						}
+					}
+					title: "Any #battlemages:battlemage_armor_t1_boots"
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			id: "750A753D76F836F4"
+			tasks: [{
+				id: "3149E34A93D33585"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "battlemages:weapons_t1"
+					}
+				}
+				title: "Any #battlemages:weapons_t1"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			id: "595FE5274F7B514D"
+			tasks: [
+				{
+					id: "302D4D000AE3B738"
+					item: {
+						Count: 1b
+						id: "druid:druids_armor_t1_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B78BCBD3D2EB06F"
+					item: {
+						Count: 1b
+						id: "druid:druids_armor_t1_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "587CB23FF696C2CA"
+					item: {
+						Count: 1b
+						id: "druid:druids_armor_t1_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "667FF2B70E462BCB"
+					item: {
+						Count: 1b
+						id: "druid:druids_armor_t1_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			id: "2A20315EBA5449D5"
+			tasks: [
+				{
+					id: "4974966B6997F1C4"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "fpapmod:t1_helmets"
+						}
+					}
+					title: "Any #fpapmod:t1_helmets"
+					type: "item"
+				}
+				{
+					id: "61993F4007BD25C5"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "fpapmod:t1_chests"
+						}
+					}
+					title: "Any #fpapmod:t1_chests"
+					type: "item"
+				}
+				{
+					id: "09451DC7BB22B6B7"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "fpapmod:t1_legs"
+						}
+					}
+					title: "Any #fpapmod:t1_legs"
+					type: "item"
+				}
+				{
+					id: "4D37C13DD3EAC3F2"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "fpapmod:t1_boots"
+						}
+					}
+					title: "Any #fpapmod:t1_boots"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 3.0d
+		}
+		{
+			id: "7A29904B392C87C9"
+			tasks: [{
+				id: "25E757C4D8ED0458"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "fpapmod:t1_weapons"
+					}
+				}
+				title: "Any #fpapmod:t1_weapons"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			id: "53A061ECC23AE951"
+			tasks: [
+				{
+					id: "0F8582024B46D8FD"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "fallenwizardsmod:t1_helmets"
+						}
+					}
+					title: "Any #fallenwizardsmod:t1_helmets"
+					type: "item"
+				}
+				{
+					id: "29216E73DFE58190"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "fallenwizardsmod:t1_chests"
+						}
+					}
+					title: "Any #fallenwizardsmod:t1_chests"
+					type: "item"
+				}
+				{
+					id: "1DAC134AAA0054FE"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "fallenwizardsmod:t1_legs"
+						}
+					}
+					title: "Any #fallenwizardsmod:t1_legs"
+					type: "item"
+				}
+				{
+					id: "3F81B7FB437798DE"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "fallenwizardsmod:t1_boots"
+						}
+					}
+					title: "Any #fallenwizardsmod:t1_boots"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			id: "21B5959FD2AC93E7"
+			tasks: [{
+				id: "0524BB75990EEBB4"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "fallenwizardsmod:t1_weapons"
+					}
+				}
+				title: "Any #fallenwizardsmod:t1_weapons"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			id: "126E9310AEBADD95"
+			tasks: [{
+				id: "6803428C2422C440"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "morewizardsmod:t1_weapons"
+					}
+				}
+				title: "Any #morewizardsmod:t1_weapons"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			id: "144E65B4F11938F3"
+			tasks: [
+				{
+					id: "5D1C820F3973CE10"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "morewizardsmod:t1_helmets"
+						}
+					}
+					title: "Any #morewizardsmod:t1_helmets"
+					type: "item"
+				}
+				{
+					id: "512C69C7BACE75D7"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "morewizardsmod:t1_chests"
+						}
+					}
+					title: "Any #morewizardsmod:t1_chests"
+					type: "item"
+				}
+				{
+					id: "7196934E56423BA0"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "morewizardsmod:t1_legs"
+						}
+					}
+					title: "Any #morewizardsmod:t1_legs"
+					type: "item"
+				}
+				{
+					id: "5DF36875AB5911BC"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "morewizardsmod:t1_feets"
+						}
+					}
+					title: "Any #morewizardsmod:t1_feets"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			id: "665FF6357126C8CC"
+			tasks: [{
+				id: "5FB12DC304FB08EF"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "paladins:t1_weapons"
+					}
+				}
+				title: "Any #paladins:t1_weapons"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			id: "3D7B446B5ECCA398"
+			tasks: [
+				{
+					id: "6CDD5AE5E9D638C6"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "paladins:t1_helmets"
+						}
+					}
+					title: "Any #paladins:t1_helmets"
+					type: "item"
+				}
+				{
+					id: "4C74F556D2D35C04"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "paladins:t1_chests"
+						}
+					}
+					title: "Any #paladins:t1_chests"
+					type: "item"
+				}
+				{
+					id: "303365ABD6F72C79"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "paladins:t1_legs"
+						}
+					}
+					title: "Any #paladins:t1_legs"
+					type: "item"
+				}
+				{
+					id: "28ECDE46AA57E66B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "paladins:t1_feets"
+						}
+					}
+					title: "Any #paladins:t1_feets"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			id: "11DEBD8CA4B689B4"
+			tasks: [{
+				id: "56D5FCFB7C6371C8"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "wizards:t1_weapons"
+					}
+				}
+				title: "Any #wizards:t1_weapons"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			id: "6705A98D00C46EF9"
+			tasks: [
+				{
+					id: "575A630DC0C284B8"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "wizards:t1_helmets"
+						}
+					}
+					title: "Any #wizards:t1_helmets"
+					type: "item"
+				}
+				{
+					id: "7D3911426D7D03ED"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "wizards:t1_chests"
+						}
+					}
+					title: "Any #wizards:t1_chests"
+					type: "item"
+				}
+				{
+					id: "7EE6A2B3049B7D25"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "wizards:t1_legs"
+						}
+					}
+					title: "Any #wizards:t1_legs"
+					type: "item"
+				}
+				{
+					id: "0789F83596B81362"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "wizards:t1_boots"
+						}
+					}
+					title: "Any #wizards:t1_boots"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			id: "3546A74BF93C73F8"
+			tasks: [{
+				id: "0F5F8D4DA3F6BDCD"
+				item: "runes:crafting_altar"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 6.5d
+		}
+		{
+			id: "52347B45DED1E8CD"
+			tasks: [{
+				id: "6DA358A9F0AAB535"
+				item: "spell_engine:spell_binding"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			id: "0F5A457A5CFFACDD"
+			tasks: [{
+				id: "27BA36654F1F7B7F"
+				item: "tatimod:ancient_sack"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			id: "4A188891B1AB9EBE"
+			tasks: [{
+				id: "1627B53BA56CF209"
+				item: "tatimod:precious_sack"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -11.5d
+		}
+		{
+			id: "71CFBC9FBE92EB1C"
+			tasks: [{
+				id: "422A92EEE2B7649E"
+				item: "tctimod:cursed_sack"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			id: "50F91CAEA54B6881"
+			tasks: [{
+				id: "1D229613239EF1E4"
+				item: "tctimod:lost_sack"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["0F5A457A5CFFACDD"]
+			id: "581AE13A5B865531"
+			tasks: [{
+				id: "0D211B92925D984C"
+				item: "tatimod:ancient_citrine_ring"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0F5A457A5CFFACDD"]
+			id: "17E8240FECE35D69"
+			tasks: [{
+				id: "3D6866E17104D25B"
+				item: "tatimod:ancient_jade_ring"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0F5A457A5CFFACDD"]
+			id: "20D1713E32CF3CB1"
+			tasks: [{
+				id: "3321807E2C7463D6"
+				item: "tatimod:ancient_sapphire_ring"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0F5A457A5CFFACDD"]
+			id: "5DFCBEC47CF1999B"
+			tasks: [{
+				id: "6287D25F22A85C9D"
+				item: "tatimod:ancient_tanzanite_ring"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0F5A457A5CFFACDD"]
+			id: "582AA421D3851876"
+			tasks: [{
+				id: "06A8FC413946471E"
+				item: "tatimod:ancient_ruby_ring"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0F5A457A5CFFACDD"]
+			id: "3ACE5CFE0B886C27"
+			tasks: [{
+				id: "56EA9781D41684A6"
+				item: "tatimod:ancient_topaz_ring"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0F5A457A5CFFACDD"]
+			id: "62AF4813A72AC24D"
+			tasks: [{
+				id: "47831353F69D58CB"
+				item: "tatimod:ancient_ruby_necklace"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0F5A457A5CFFACDD"]
+			id: "20CCFDA9374A0AB7"
+			tasks: [{
+				id: "4BF1B02D4F1FEFA6"
+				item: "tatimod:ancient_topaz_necklace"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0F5A457A5CFFACDD"]
+			id: "45B613EE529E4C74"
+			tasks: [{
+				id: "6924401D88BB7C92"
+				item: "tatimod:ancient_citrine_necklace"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0F5A457A5CFFACDD"]
+			id: "34CAFC49C505A74D"
+			tasks: [{
+				id: "729BE5951D68D6CC"
+				item: "tatimod:ancient_sapphire_necklace"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0F5A457A5CFFACDD"]
+			id: "1DD80CF591BE5438"
+			tasks: [{
+				id: "51274239BE26F9C1"
+				item: "tatimod:ancient_tanzanite_necklace"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0F5A457A5CFFACDD"]
+			id: "00F9A63F7FA27A49"
+			tasks: [{
+				id: "1FC7C6AE51DDD338"
+				item: "tatimod:ancient_jade_necklace"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["582AA421D3851876"]
+			id: "160F74F65F3EA483"
+			tasks: [{
+				id: "1E49DB7FE54C3811"
+				item: "tatimod:ancient_netherite_ruby_ring"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3ACE5CFE0B886C27"]
+			id: "4D40148456ABF767"
+			tasks: [{
+				id: "673D9FF176E5C73D"
+				item: "tatimod:ancient_netherite_topaz_ring"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["581AE13A5B865531"]
+			id: "251FF4DCAAA369B9"
+			tasks: [{
+				id: "5C8E9FF9EF0349BF"
+				item: "tatimod:ancient_netherite_citrine_ring"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["20D1713E32CF3CB1"]
+			id: "4A4233395038389B"
+			tasks: [{
+				id: "7A4FD823AE59AF21"
+				item: "tatimod:ancient_netherite_sapphire_ring"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5DFCBEC47CF1999B"]
+			id: "227012EC3482168E"
+			tasks: [{
+				id: "5560E79C765A50E5"
+				item: "tatimod:ancient_netherite_tanzanite_ring"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["17E8240FECE35D69"]
+			id: "5B1FF1634D196EED"
+			tasks: [{
+				id: "64763B6F9D740C5C"
+				item: "tatimod:ancient_netherite_jade_ring"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["62AF4813A72AC24D"]
+			id: "2890DB9A0A64C70C"
+			tasks: [{
+				id: "5AAB234F79C0F697"
+				item: "tatimod:ancient_netherite_ruby_necklace"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["20CCFDA9374A0AB7"]
+			id: "227E5400B3A9D829"
+			tasks: [{
+				id: "50F0554EF4E75960"
+				item: "tatimod:ancient_netherite_topaz_necklace"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["45B613EE529E4C74"]
+			id: "04B6202C2E70985F"
+			tasks: [{
+				id: "5EDFDBE8013C1E1E"
+				item: "tatimod:ancient_netherite_citrine_necklace"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["34CAFC49C505A74D"]
+			id: "25028E380B84F5D4"
+			tasks: [{
+				id: "22C71529DAD8BFCF"
+				item: "tatimod:ancient_netherite_sapphire_necklace"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["1DD80CF591BE5438"]
+			id: "3127AAE4E5E11027"
+			tasks: [{
+				id: "6A9AE9932D833433"
+				item: "tatimod:ancient_netherite_tanzanite_necklace"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["00F9A63F7FA27A49"]
+			id: "3CF520386CCB301E"
+			tasks: [{
+				id: "46FD299A649C6241"
+				item: "tatimod:ancient_netherite_jade_necklace"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			id: "36BED4B39386A792"
+			tasks: [{
+				id: "43AC20633C4EC8FB"
+				item: "tatimod:ancient_attack_necklace"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["4A188891B1AB9EBE"]
+			id: "55310C8BC51BD630"
+			tasks: [{
+				id: "0D170277F316AE7B"
+				item: "tatimod:ancient_defence_necklace"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["4A188891B1AB9EBE"]
+			id: "5B537C23298414C2"
+			tasks: [{
+				id: "792CF8899D646050"
+				item: "tatimod:ancient_ranged_necklace"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["4A188891B1AB9EBE"]
+			id: "592BBC032BD68DF6"
+			tasks: [{
+				id: "19558D8C23C1253F"
+				item: "tatimod:ancient_arcane_necklace"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["4A188891B1AB9EBE"]
+			id: "2546954AA95FC398"
+			tasks: [{
+				id: "46BDCCB1089E53C5"
+				item: "tatimod:ancient_fire_necklace"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["4A188891B1AB9EBE"]
+			id: "5E2878AE6CFF47A5"
+			tasks: [{
+				id: "2200E0F46841A885"
+				item: "tatimod:ancient_frost_necklace"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["4A188891B1AB9EBE"]
+			id: "598A8D0CF98D9B65"
+			tasks: [{
+				id: "66DB87BDCCCD1B37"
+				item: "tatimod:ancient_healing_necklace"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["4A188891B1AB9EBE"]
+			id: "130927CEB6ED27A3"
+			tasks: [{
+				id: "47BC1693F0D82D6C"
+				item: "tatimod:ancient_lightning_necklace"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["4A188891B1AB9EBE"]
+			id: "5315D6D515C3D63D"
+			tasks: [{
+				id: "7CF4E8DB31028D4A"
+				item: "tatimod:ancient_soul_necklace"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -12.5d
+		}
+		{
+			id: "7F8D90AC56E9B094"
+			tasks: [{
+				id: "05E6267499C5D152"
+				item: "tatimod:ancient_attack_ring"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4A188891B1AB9EBE"]
+			id: "4FB59677F5B2970B"
+			tasks: [{
+				id: "6926F1993B6A399C"
+				item: "tatimod:ancient_defence_ring"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4A188891B1AB9EBE"]
+			id: "571C5C2C156DA072"
+			tasks: [{
+				id: "6456BABE28B4E0C4"
+				item: "tatimod:ancient_ranged_ring"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4A188891B1AB9EBE"]
+			id: "240FF78FAED32971"
+			tasks: [{
+				id: "7919559146510D3E"
+				item: "tatimod:ancient_arcane_ring"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4A188891B1AB9EBE"]
+			id: "15834BAB412829DE"
+			tasks: [{
+				id: "013A8EEA7BDD1079"
+				item: "tatimod:ancient_fire_ring"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4A188891B1AB9EBE"]
+			id: "0C29725CDAF5C9DC"
+			tasks: [{
+				id: "6DEEFCC2EFCB2774"
+				item: "tatimod:ancient_frost_ring"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4A188891B1AB9EBE"]
+			id: "2EDD343B1B3FFD08"
+			tasks: [{
+				id: "38E4B8D46278F4F1"
+				item: "tatimod:ancient_healing_ring"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4A188891B1AB9EBE"]
+			id: "0E46A37EB86498DA"
+			tasks: [{
+				id: "187D7FF4696941F4"
+				item: "tatimod:ancient_lightning_ring"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4A188891B1AB9EBE"]
+			id: "59B5D5384D5E0C31"
+			tasks: [{
+				id: "2D2AE8D0D9E442F7"
+				item: "tatimod:ancient_soul_ring"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["71CFBC9FBE92EB1C"]
+			id: "1010FAC183A79B3B"
+			tasks: [{
+				id: "00D993D981C9C80B"
+				item: "tctimod:cursed_ruby_belt"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["71CFBC9FBE92EB1C"]
+			id: "7A7294F8E313E388"
+			tasks: [{
+				id: "7E89245730F6DDD1"
+				item: "tctimod:cursed_ruby_aglet"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["71CFBC9FBE92EB1C"]
+			id: "17D03BA281369EAC"
+			tasks: [{
+				id: "56299142656BFAE0"
+				item: "tctimod:cursed_topaz_belt"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["71CFBC9FBE92EB1C"]
+			id: "335B995AE4569A9C"
+			tasks: [{
+				id: "3D1E48A62FA6C904"
+				item: "tctimod:cursed_topaz_aglet"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["71CFBC9FBE92EB1C"]
+			id: "657AAA238512520D"
+			tasks: [{
+				id: "4575711652CF0A6E"
+				item: "tctimod:cursed_citrine_belt"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["71CFBC9FBE92EB1C"]
+			id: "26C0D7DE161C6F0A"
+			tasks: [{
+				id: "1161350930A00A30"
+				item: "tctimod:cursed_citrine_aglet"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["71CFBC9FBE92EB1C"]
+			id: "46038EBC7F35E6D1"
+			tasks: [{
+				id: "0C702216834DC05C"
+				item: "tctimod:cursed_jade_belt"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["71CFBC9FBE92EB1C"]
+			id: "2BBCB25585D31CE2"
+			tasks: [{
+				id: "1970C86EE481EDC7"
+				item: "tctimod:cursed_jade_aglet"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["71CFBC9FBE92EB1C"]
+			id: "075162C870752F2D"
+			tasks: [{
+				id: "665ED0788CBC7202"
+				item: "tctimod:cursed_sapphire_belt"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["71CFBC9FBE92EB1C"]
+			id: "430124FB375AF4CB"
+			tasks: [{
+				id: "7441ABF9E37D54F0"
+				item: "tctimod:cursed_sapphire_aglet"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["71CFBC9FBE92EB1C"]
+			id: "64896B151A6942A9"
+			tasks: [{
+				id: "6BDEA985D7E226FD"
+				item: "tctimod:cursed_tanzanite_belt"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["71CFBC9FBE92EB1C"]
+			id: "5F232EE883055A7E"
+			tasks: [{
+				id: "07A72986C8C5550E"
+				item: "tctimod:cursed_tanzanite_aglet"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1010FAC183A79B3B"]
+			id: "1F5EA96D1FF551EE"
+			tasks: [{
+				id: "13D3B784EABA69C7"
+				item: "tctimod:cursed_netherite_ruby_belt"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["17D03BA281369EAC"]
+			id: "5945355EF38B6CB8"
+			tasks: [{
+				id: "57D608BCEF2960D7"
+				item: "tctimod:cursed_netherite_topaz_belt"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["657AAA238512520D"]
+			id: "44DE6F6E8CE37475"
+			tasks: [{
+				id: "6AED08D619746B97"
+				item: "tctimod:cursed_netherite_citrine_belt"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["46038EBC7F35E6D1"]
+			id: "40597685EF36E48C"
+			tasks: [{
+				id: "370C4E04EB24EC4A"
+				item: "tctimod:cursed_netherite_jade_belt"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["075162C870752F2D"]
+			id: "5C9D4F6D6D25AB9D"
+			tasks: [{
+				id: "3D7AB5265CB68D94"
+				item: "tctimod:cursed_netherite_sapphire_belt"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["64896B151A6942A9"]
+			id: "0966B29F40C8FDC1"
+			tasks: [{
+				id: "3ACCF29540C1D5A9"
+				item: "tctimod:cursed_netherite_tanzanite_belt"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7A7294F8E313E388"]
+			id: "6A861E4FB51BA7F9"
+			tasks: [{
+				id: "0C42C80E23DD9000"
+				item: "tctimod:cursed_netherite_ruby_aglet"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["335B995AE4569A9C"]
+			id: "373951221BA43296"
+			tasks: [{
+				id: "467DC1653D7653E3"
+				item: "tctimod:cursed_netherite_topaz_aglet"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["26C0D7DE161C6F0A"]
+			id: "04E4B788E5DD84A1"
+			tasks: [{
+				id: "713308421B5271EF"
+				item: "tctimod:cursed_netherite_citrine_aglet"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2BBCB25585D31CE2"]
+			id: "351987F3560E9D54"
+			tasks: [{
+				id: "70CC94B88A158CB5"
+				item: "tctimod:cursed_netherite_jade_aglet"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["430124FB375AF4CB"]
+			id: "2BBA45094E8F266E"
+			tasks: [{
+				id: "4F8D83792FBEB54D"
+				item: "tctimod:cursed_netherite_sapphire_aglet"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5F232EE883055A7E"]
+			id: "71E5341DEC4A874A"
+			tasks: [{
+				id: "4CA83062BCD2ED04"
+				item: "tctimod:cursed_netherite_tanzanite_aglet"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["50F91CAEA54B6881"]
+			id: "0A1930E66D7D198C"
+			tasks: [{
+				id: "0802CB910CCC37DB"
+				item: "tctimod:cursed_attack_belt"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["50F91CAEA54B6881"]
+			id: "5757944BD45EF134"
+			tasks: [{
+				id: "7C37ACCB24F39EC3"
+				item: "tctimod:cursed_attack_aglet"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["50F91CAEA54B6881"]
+			id: "4FA87A238FBD5807"
+			tasks: [{
+				id: "53D184624238942D"
+				item: "tctimod:cursed_defence_belt"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["50F91CAEA54B6881"]
+			id: "24E1603DFB3694B6"
+			tasks: [{
+				id: "258A0343D62C8E5C"
+				item: "tctimod:cursed_ranged_belt"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["50F91CAEA54B6881"]
+			id: "2F032038DED3BFF7"
+			tasks: [{
+				id: "63922EFB6434D5C1"
+				item: "tctimod:cursed_arcane_belt"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["50F91CAEA54B6881"]
+			id: "419C5056DF0D95E3"
+			tasks: [{
+				id: "0A219EA540AAF7AA"
+				item: "tctimod:cursed_fire_belt"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["50F91CAEA54B6881"]
+			id: "264DEC29EF102AE5"
+			tasks: [{
+				id: "2D93DAB8DFCFFCDA"
+				item: "tctimod:cursed_frost_belt"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["50F91CAEA54B6881"]
+			id: "23581510C053E4BA"
+			tasks: [{
+				id: "1768A11B3D4B03C2"
+				item: "tctimod:cursed_healing_belt"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["50F91CAEA54B6881"]
+			id: "40977AAB6A179307"
+			tasks: [{
+				id: "2AD9F91A76DFCB09"
+				item: "tctimod:cursed_lightning_belt"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["50F91CAEA54B6881"]
+			id: "6A7EBE8420EA4EA5"
+			tasks: [{
+				id: "7C7F336FC316FB88"
+				item: "tctimod:cursed_soul_belt"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["50F91CAEA54B6881"]
+			id: "6064E26C5ACE2541"
+			tasks: [{
+				id: "5C27B97D9767DA1C"
+				item: "tctimod:cursed_defence_aglet"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["50F91CAEA54B6881"]
+			id: "33B16C1BDF9FC006"
+			tasks: [{
+				id: "32DADD5468C62079"
+				item: "tctimod:cursed_ranged_aglet"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["50F91CAEA54B6881"]
+			id: "23BF5A54692C42B1"
+			tasks: [{
+				id: "157FBB860A67260E"
+				item: "tctimod:cursed_arcane_aglet"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["50F91CAEA54B6881"]
+			id: "2958A4FDCD67CA84"
+			tasks: [{
+				id: "0B7AA23CA6D050E2"
+				item: "tctimod:cursed_fire_aglet"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["50F91CAEA54B6881"]
+			id: "15E569FC0BA7E055"
+			tasks: [{
+				id: "5616C58A36F7AECA"
+				item: "tctimod:cursed_frost_aglet"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["50F91CAEA54B6881"]
+			id: "7D96F0384B072226"
+			tasks: [{
+				id: "642AD5C0DA80CDD0"
+				item: "tctimod:cursed_healing_aglet"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["50F91CAEA54B6881"]
+			id: "3F0689C30967E476"
+			tasks: [{
+				id: "33AA8ADF5FA8AF98"
+				item: "tctimod:cursed_lightning_aglet"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["50F91CAEA54B6881"]
+			id: "3505247CC74DCE4C"
+			tasks: [{
+				id: "357F4509F868117C"
+				item: "tctimod:cursed_soul_aglet"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -10.5d
+		}
+	]
+	title: "Magic Armory"
+}

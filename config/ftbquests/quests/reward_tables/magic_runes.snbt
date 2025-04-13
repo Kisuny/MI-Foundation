@@ -1,0 +1,20 @@
+{
+	id: "6671090EAADC008F"
+	loot_size: 1
+	order_index: 27
+	rewards: [
+		{ count: 64, item: "morerunes:water_rune" }
+		{ count: 64, item: "morerunes:wind_rune" }
+		{ count: 64, item: "morerunes:nature_rune" }
+		{ count: 64, item: "morerunes:sound_rune" }
+		{ count: 64, item: "morerunes:corruption_rune" }
+		{ count: 64, item: "morerunes:blood_rune" }
+		{ count: 64, item: "runes:arcane_stone" }
+		{ count: 64, item: "runes:fire_stone" }
+		{ count: 64, item: "runes:frost_stone" }
+		{ count: 64, item: "runes:healing_stone" }
+		{ count: 64, item: "runes:lightning_stone" }
+		{ count: 64, item: "runes:soul_stone" }
+	]
+	title: "magic_runes"
+}

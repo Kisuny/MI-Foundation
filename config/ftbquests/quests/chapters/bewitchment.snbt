@@ -5,7 +5,7 @@
 	group: "0EE6B87D2DF05DC9"
 	icon: "bewitchment:golden_witch_altar"
 	id: "7277231C2B85A0A5"
-	order_index: 4
+	order_index: 5
 	quest_links: [{
 		id: "580F9E96190ABA16"
 		linked_quest: "3877FD4F24D92304"

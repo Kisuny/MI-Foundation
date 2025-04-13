@@ -572,6 +572,7 @@ REIEvents.hide('item', event => {
         'gobber2:gobber2_foo_end',
         'gobber2:gobber2_tree_axe',
         'gobber2:gobber2_tree_axe_nether',
+        'relicex:dragon_stone',
 
     ]);
     event.hide(list)
