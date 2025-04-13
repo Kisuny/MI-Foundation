@@ -47,7 +47,8 @@ LootJS.modifiers((event) => {
             'dungeons_arise_seven_seas:chests/small_yacht/small_yacht_treasure',
             'dungeons_arise_seven_seas:chests/unicorn_galleon/unicorn_galleon_treasure',
             /probablychests:chests\/.*_pc_.*/,
-            'friendsandfoes:barrels/illusioner_shack_basement'
+            'friendsandfoes:barrels/illusioner_shack_basement',
+            'underground_bunkers:chests/underground_bunker/underground_bunker_normal',
         ],
         epic: [
             'minecraft:chests/abandoned_mineshaft',
@@ -70,7 +71,8 @@ LootJS.modifiers((event) => {
             'friendsandfoes:chests/illusioner_shack',
             'artifacts:entities/mimic',
             'rottencreatures:entities/dead_beard',
-            'rottencreatures:entities/immortal'
+            'rottencreatures:entities/immortal',
+            'underground_bunkers:chests/underground_bunker/underground_bunker_treasure'
         ],
         mines_pools: [
             /dungeons_arise:chests\/mushroom_mines\/mushroom_mines_.*/,
@@ -80,6 +82,7 @@ LootJS.modifiers((event) => {
             'minecraft:chests/village/village_weaponsmith',
             'minecraft:chests/village/village_toolsmith',
             'minecraft:chests/village/village_armorer',
+            'underground_bunkers:chests/underground_bunker/underground_bunker_supply'
         ]
     }
 
@@ -183,6 +186,20 @@ LootJS.modifiers((event) => {
         .addLootTableModifier(table)
         .randomChance(0.6)
         .addLoot('kubejs:reforge_rune')
+
+        let relicex = ['relicex:tome', 'relicex:dragon_stone', 'relicex:lesser_orb_of_regret']
+        relicex.forEach(relicex_item => {
+            event
+            .addLootTableModifier(table)
+            .randomChance(0.05)
+            .addLoot(relicex_item)
+        });
+    
+        
+        event
+        .addLootTableModifier(table)
+        .randomChance(0.01)
+        .addLoot(['relicex:greater_orb_of_regret'])
     });
 
     // mines
@@ -219,6 +236,7 @@ LootJS.modifiers((event) => {
     const RandomBonus = Java.loadClass("net.minecraft.world.level.storage.loot.predicates.BonusLevelTableCondition");
 
     const condition = RandomBonus.bonusLevelFlatChance("kubejs:coins_instinct", [0, 0.15]).build();
+
 
     event
         .addLootTableModifier(["minecraft:gameplay/fishing", "spectrum:gameplay/universal_fishing"])
