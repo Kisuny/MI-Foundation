@@ -1359,37 +1359,6 @@ ServerEvents.recipes(event => {
             },
             "B":
             {
-                "item": "minecraft:elytra"
-            },
-            "C":
-            {
-                "item": "gobber2:gobber2_ingot_end"
-            },
-            "D":
-            {
-                "item": "minecraft:dragon_breath"
-            }
-        },
-        result: {
-            "item": "gobber2:dragon_elytra",
-            "count": 1
-        },
-        advancement: "spectrum:lategame/craft_moonstone_pedestal",
-    });
-    customPedestalCraft(event, {
-        tier: "complex", time: 2000, topaz: 0, citrine: 0, amethyst: 30, onyx: 24, moonstone:32, experience: 0.5,
-        pattern: [
-            "DAD",
-            "CBC",
-            "DCD"
-        ],
-        keys: {
-            "A":
-            {
-                "item": "minecraft:dragon_head"
-            },
-            "B":
-            {
                 "item": "minecraft:nether_star"
             },
             "C":
@@ -1827,6 +1796,22 @@ ServerEvents.recipes(event => {
         ],
         result: {
             "item": "gobber2:gobber2_ring_blink", "count": 1
+        },
+        advancement: "spectrum:lategame/craft_moonstone_pedestal"
+    });
+
+    customeFusionShrineCraft(event, {
+        time: 1200, experience: 20.0,
+        fluid: "spectrum:liquid_crystal",
+        ingredients: [
+            {"item": "minecraft:dragon_head", "count": 1 },
+            {"item": "minecraft:elytra", "count": 1 },
+            {"item": "kibe:angel_ring", "count": 1 },
+            {"item": "gobber2:gobber2_ingot_end", "count": 12 },
+            {"item": "minecraft:dragon_breath", "count": 12 }
+        ],
+        result: {
+            "item": "gobber2:dragon_elytra", "count": 1
         },
         advancement: "spectrum:lategame/craft_moonstone_pedestal"
     });
