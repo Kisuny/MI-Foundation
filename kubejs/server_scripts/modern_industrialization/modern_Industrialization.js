@@ -266,31 +266,36 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'modern_industrialization:armor/smithing/quantum_helmet' })
     event.recipes.modern_industrialization.packer(128, 600) //Eu, ticks
         .itemIn('ad_astra:jet_suit_helmet')
-        .itemIn('kubejs:infinity_ingot')
+        .itemIn('kubejs:infinity_plate')
+        .itemIn('gobber2:gobber2_helmet_dragon')
         .itemOut('modern_industrialization:quantum_helmet')
 
     event.remove({ id: 'modern_industrialization:armor/smithing/quantum_chestplate' })
     event.recipes.modern_industrialization.packer(128, 600) //Eu, ticks
         .itemIn('ad_astra:jet_suit')
-        .itemIn('kubejs:infinity_ingot')
+        .itemIn('kubejs:infinity_plate')
+        .itemIn('gobber2:gobber2_chestplate_dragon')
         .itemOut('modern_industrialization:quantum_chestplate')
 
     event.remove({ id: 'modern_industrialization:armor/smithing/quantum_leggings' })
     event.recipes.modern_industrialization.packer(128, 600) //Eu, ticks
         .itemIn('ad_astra:jet_suit_pants')
-        .itemIn('kubejs:infinity_ingot')
+        .itemIn('kubejs:infinity_plate')
+        .itemIn('gobber2:gobber2_leggings_dragon')
         .itemOut('modern_industrialization:quantum_leggings')
 
     event.remove({ id: 'modern_industrialization:armor/smithing/quantum_boots' })
     event.recipes.modern_industrialization.packer(128, 600) //Eu, ticks
         .itemIn('ad_astra:jet_suit_boots')
-        .itemIn('kubejs:infinity_ingot')
+        .itemIn('kubejs:infinity_plate')
+        .itemIn('gobber2:gobber2_boots_dragon')
         .itemOut('modern_industrialization:quantum_boots')
 
     event.remove({ id: 'modern_industrialization:tools/smithing/quantum_sword' })
     event.recipes.modern_industrialization.packer(128, 600) //Eu, ticks
         .itemIn('spectrum:glass_crest_ultra_greatsword')
-        .itemIn('kubejs:infinity_ingot')
+        .itemIn('kubejs:infinity_plate')
+        .itemIn('gobber2:gobber2_sword_end')
         .itemOut('modern_industrialization:quantum_sword')
 
 

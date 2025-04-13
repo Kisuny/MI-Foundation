@@ -23,6 +23,42 @@ let terra_plate_recipes = [
     ],
     mana: 200000,
    },
+   {
+    items_in: [
+        ["gobber2:gobber2_glob"],
+        ["minecraft:diamond"],
+        ["minecraft:iron_ingot"],
+        ["minecraft:gold_ingot"],
+    ],
+    items_out: [
+        ["3x gobber2:gobber2_ingot"],
+    ],
+    mana: 400000,
+   },
+   {
+    items_in: [
+        ["gobber2:gobber2_ingot"],
+        ["gobber2:gobber2_ingot"],
+        ["gobber2:gobber2_glob_nether"],
+        ["minecraft:netherite_scrap"],
+    ],
+    items_out: [
+        ["3x gobber2:gobber2_ingot_nether"],
+    ],
+    mana: 600000,
+   },
+   {
+    items_in: [
+        ["gobber2:gobber2_ingot_nether"],
+        ["gobber2:gobber2_ingot_nether"],
+        ["gobber2:gobber2_glob_end"],
+        ["minecraft:chorus_flower"],
+    ],
+    items_out: [
+        ["3x gobber2:gobber2_ingot_end"],
+    ],
+    mana: 800000,
+   },
 ]
 
 

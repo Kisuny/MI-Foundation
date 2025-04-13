@@ -307,6 +307,45 @@ let runic_altar_recipes = [
         ],
         mana: 2000,
     },
+    {
+        items_in: [
+            ["gobber2:gobber2_ingot"],
+            ["gobber2:gobber2_ingot"],
+            ["gobber2:gobber2_ingot"],
+            ["gobber2:gobber2_ingot"],
+            ["modern_industrialization:runite_large_plate"],
+        ],
+        items_out: [
+            ["gobber2:gobber2_medallion"],
+        ],
+        mana: 40000,
+    },
+    {
+        items_in: [
+            ["gobber2:gobber2_ingot_nether"],
+            ["gobber2:gobber2_ingot_nether"],
+            ["gobber2:gobber2_ingot_nether"],
+            ["gobber2:gobber2_ingot_nether"],
+            ["modern_industrialization:runite_large_plate"],
+        ],
+        items_out: [
+            ["gobber2:gobber2_medallion_nether"],
+        ],
+        mana: 50000,
+    },
+    {
+        items_in: [
+            ["gobber2:gobber2_ingot_end"],
+            ["gobber2:gobber2_ingot_end"],
+            ["gobber2:gobber2_ingot_end"],
+            ["gobber2:gobber2_ingot_end"],
+            ["modern_industrialization:runite_large_plate"],
+        ],
+        items_out: [
+            ["gobber2:gobber2_medallion_end"],
+        ],
+        mana: 100000,
+    },
 ]
 
 

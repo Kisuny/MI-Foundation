@@ -8,7 +8,15 @@ WorldgenEvents.remove(event => {
         'mythicmetals:platinum_ore',
         'mythicmetals:silver_ore',
         'mythicmetals:manganese_ore',
-        'expandeddelight:salt_ore'
+        'expandeddelight:salt_ore',
+        'gobber2:gobber2_lucky_block', 
+        'gobber2:gobber2_lucky_block_deepslate', 
+        'gobber2:gobber2_lucky_block_nether', 
+        'gobber2:gobber2_lucky_block_end', 
+        'gobber2:gobber2_ore', 
+        'gobber2:gobber2_ore_deepslate', 
+        'gobber2:gobber2_ore_nether', 
+        'gobber2:gobber2_ore_end'
     ]
 
     event.removeOres(ores => {

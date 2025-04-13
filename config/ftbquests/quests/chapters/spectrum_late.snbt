@@ -28,7 +28,7 @@
 				id: "7B5EFBE93061C3FF"
 				type: "dimension"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: 3.0d
 		}
 		{
@@ -116,7 +116,7 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
+			x: -2.0d
 			y: 3.5d
 		}
 		{
@@ -143,7 +143,7 @@
 				title: "Any #spectrum:bedrock_equipment"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.0d
 			y: 2.5d
 		}
 		{
@@ -172,7 +172,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 4.0d
 			y: 2.5d
 		}
 		{
@@ -202,7 +202,7 @@
 				item: "spectrum:bedrock_anvil"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: 3.5d
 		}
 		{
@@ -222,7 +222,7 @@
 				item: "spectrum:blood_orchid_petal"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: 5.5d
 		}
 		{
@@ -252,7 +252,7 @@
 				type: "item"
 			}]
 			title: "Moonstone?"
-			x: -0.5d
+			x: 0.5d
 			y: -1.0d
 		}
 		{
@@ -271,7 +271,7 @@
 				item: "spectrum:downstone_fragments"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.5d
 			y: 1.5d
 		}
 		{
@@ -376,7 +376,7 @@
 				}
 			]
 			title: "&bMAXIMUM&r power!"
-			x: 0.0d
+			x: 1.0d
 			y: -4.5d
 		}
 		{
@@ -395,7 +395,7 @@
 				item: "spectrum:light_gray_sapling"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.5d
 			y: -4.5d
 		}
 		{
@@ -414,7 +414,7 @@
 				item: "spectrum:gray_sapling"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: -3.5d
 		}
 		{
@@ -433,7 +433,7 @@
 				item: "spectrum:white_sapling"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: -5.5d
 		}
 		{
@@ -460,7 +460,7 @@
 					type: "item"
 				}
 			]
-			x: -2.0d
+			x: -1.0d
 			y: -3.5d
 		}
 		{
@@ -485,7 +485,7 @@
 				item: "spectrum:bismuth_flake"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -0.5d
 			y: -5.5d
 		}
 		{
@@ -508,7 +508,7 @@
 				item: "spectrum:doombloom_seed"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.5d
 			y: 1.0d
 		}
 		{
@@ -528,7 +528,7 @@
 				id: "7A94340BFACB5C2F"
 				type: "advancement"
 			}]
-			x: -3.5d
+			x: -5.0d
 			y: -5.5d
 		}
 		{
@@ -569,7 +569,7 @@
 				}
 			]
 			title: "Paltaeria Fragments"
-			x: -3.5d
+			x: -3.0d
 			y: -4.5d
 		}
 		{
@@ -615,7 +615,7 @@
 				title: "Any #spectrum:malachite_equipment"
 				type: "item"
 			}]
-			x: -1.057142857142864d
+			x: -0.057142857142864045d
 			y: -2.950000000000003d
 		}
 		{
@@ -634,7 +634,7 @@
 				item: "spectrum:dragonbone_chunk"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: -9.5d
 		}
 		{
@@ -656,7 +656,7 @@
 				item: "spectrum:incandescent_amalgam"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: -8.0d
 		}
 		{
@@ -693,7 +693,7 @@
 					type: "advancement"
 				}
 			]
-			x: 0.0d
+			x: 1.0d
 			y: -11.0d
 		}
 		{
@@ -717,7 +717,7 @@
 				id: "1EB6B6E4C39CED73"
 				type: "advancement"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: -12.5d
 		}
 		{
@@ -737,7 +737,7 @@
 				id: "2E6C31E3B9536649"
 				type: "advancement"
 			}]
-			x: -1.5d
+			x: -0.5d
 			y: 1.0d
 		}
 		{
@@ -758,7 +758,7 @@
 				id: "6796E5B7B163A81E"
 				type: "advancement"
 			}]
-			x: -2.5d
+			x: -1.5d
 			y: 1.5d
 		}
 		{
@@ -784,7 +784,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: -6.5d
 		}
 		{
@@ -797,7 +797,7 @@
 				item: "spectrum:moonstone_core"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: -8.0d
 		}
 		{
@@ -821,7 +821,7 @@
 				item: "spectrum:staff_of_remembrance"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 2.0d
 			y: -11.0d
 		}
 		{
@@ -842,7 +842,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: -11.0d
 		}
 		{
@@ -882,7 +882,7 @@
 				item: "spectrum:mysterious_compass"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: -12.5d
 		}
 		{
@@ -909,7 +909,7 @@
 				title: "Any #spectrum:glass_crest_equipment"
 				type: "item"
 			}]
-			x: 0.0d
+			x: 1.0d
 			y: -8.0d
 		}
 		{
@@ -933,7 +933,7 @@
 				item: "things:empty_agglomeration"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -0.5d
 			y: -14.0d
 		}
 		{
@@ -957,7 +957,7 @@
 				item: "things:hardening_catalyst"
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.5d
 			y: -14.0d
 		}
 		{
@@ -977,7 +977,7 @@
 				item: "botania:mana_fluxfield"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: -14.5d
 		}
 		{
@@ -1001,7 +1001,7 @@
 				item: "mythicmetals:metallurgium_ingot"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.5d
 			y: -12.5d
 		}
 		{
@@ -1031,7 +1031,7 @@
 				item: "travelersbackpack:netherite_tier_upgrade"
 				type: "item"
 			}]
-			x: -3.6275510204081627d
+			x: -2.6275510204081627d
 			y: -12.455782312925166d
 		}
 		{
@@ -1076,7 +1076,7 @@
 				item: "spectrum:celestial_pocketwatch"
 				type: "item"
 			}]
-			x: -2.9234693877551052d
+			x: -1.9234693877551052d
 			y: -12.95918367346939d
 		}
 		{
@@ -1106,7 +1106,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.3112244897959187d
+			x: -2.3112244897959187d
 			y: -13.346938775510203d
 		}
 		{
@@ -1131,7 +1131,7 @@
 				item: "biomesinjars:empty_biome_jar"
 				type: "item"
 			}]
-			x: -2.9234693877550697d
+			x: -1.9234693877550697d
 			y: -12.035714285714278d
 		}
 		{
@@ -1155,7 +1155,7 @@
 				item: "spectrum:upgrade_yield"
 				type: "item"
 			}]
-			x: -3.3112244897958902d
+			x: -2.3112244897958902d
 			y: -11.647959183673464d
 		}
 		{
@@ -1177,8 +1177,8 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
-			y: -3.0d
+			x: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["69225E3EFFB37575"]
@@ -1196,8 +1196,8 @@
 				id: "4404DBD9E8B63C22"
 				type: "advancement"
 			}]
-			x: -8.5d
-			y: -4.5d
+			x: -5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["69225E3EFFB37575"]
@@ -1605,7 +1605,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.355442176870746d
+			x: -3.3554421768707456d
 			y: -12.46938775510204d
 		}
 		{
@@ -1630,7 +1630,7 @@
 				item: "spectrum:glass_peach"
 				type: "item"
 			}]
-			x: -1.5d
+			x: -0.5d
 			y: 0.0d
 		}
 		{
@@ -1651,7 +1651,7 @@
 				item: "kubejs:teleport_pearl"
 				type: "item"
 			}]
-			x: -5.010204081632658d
+			x: -4.010204081632658d
 			y: -12.464285714285715d
 		}
 		{
@@ -1723,7 +1723,7 @@
 				item: "dankstorage:dank_5"
 				type: "item"
 			}]
-			x: -1.9761904761904887d
+			x: -0.9761904761904887d
 			y: -2.250000000000007d
 		}
 		{
@@ -1741,7 +1741,7 @@
 				item: "dankstorage:dank_6"
 				type: "item"
 			}]
-			x: -1.8180272108843525d
+			x: -0.8180272108843525d
 			y: -12.010544217687077d
 		}
 		{
@@ -1765,7 +1765,7 @@
 				item: "dankstorage:dank_7"
 				type: "item"
 			}]
-			x: -1.8384353741496682d
+			x: -0.8384353741496682d
 			y: -13.030952380952385d
 		}
 		{
@@ -1790,7 +1790,7 @@
 				title: "Any #mif:malachite_enhanced_drills"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.0d
 			y: -3.0d
 		}
 		{
@@ -1825,7 +1825,7 @@
 				type: "structure"
 			}]
 			title: "Paradise City"
-			x: 0.5d
+			x: 1.5d
 			y: -1.0d
 		}
 		{
@@ -1852,7 +1852,7 @@
 				item: "kubejs:fossilized_white_mystical_flower"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: -1.5d
 		}
 		{
@@ -1879,7 +1879,7 @@
 				item: "kubejs:empty_beehive"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: -0.5d
 		}
 		{
@@ -1912,8 +1912,999 @@
 				id: "1C8CA96AF1632E5B"
 				type: "advancement"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: -11.0d
+		}
+		{
+			dependencies: ["69225E3EFFB37575"]
+			id: "5C8A9D8BF253947B"
+			shape: "square"
+			tasks: [{
+				id: "493C170B3A1BF976"
+				item: "spectrum:pure_globette"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["69225E3EFFB37575"]
+			id: "03F429C77A43BCFE"
+			shape: "square"
+			tasks: [{
+				id: "52D3AD7C32AD84B4"
+				item: "spectrum:pure_globette_nether"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["69225E3EFFB37575"]
+			id: "380C106CB353C739"
+			shape: "square"
+			tasks: [{
+				id: "00D028BAB0405534"
+				item: "spectrum:pure_globette_end"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["03F429C77A43BCFE"]
+			id: "07344687B05E6228"
+			tasks: [{
+				id: "497F8076E484FA20"
+				item: "gobber2:gobber2_globette_nether"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5C8A9D8BF253947B"]
+			id: "01AEDC42125BF73E"
+			tasks: [{
+				id: "3B41F2CF22351E6D"
+				item: "gobber2:gobber2_globette"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["380C106CB353C739"]
+			id: "34D020C89078D1BE"
+			tasks: [{
+				id: "10BEAD749CFC1B2B"
+				item: "gobber2:gobber2_globette_end"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["07344687B05E6228"]
+			id: "0A9DF276DE4107E3"
+			tasks: [{
+				id: "137682D97C973753"
+				item: "gobber2:gobber2_glob_nether"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["01AEDC42125BF73E"]
+			id: "76BC59ADB429723F"
+			tasks: [{
+				id: "12C9FD4D89CBB0B3"
+				item: "gobber2:gobber2_glob"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["34D020C89078D1BE"]
+			id: "476D4AAD472CDE51"
+			tasks: [{
+				id: "2658D69914670201"
+				item: "gobber2:gobber2_glob_end"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0A9DF276DE4107E3"]
+			id: "6351D9837D61B49E"
+			tasks: [{
+				id: "3591C8A0A69FF189"
+				item: "gobber2:gobber2_ingot_nether"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["76BC59ADB429723F"]
+			description: [""]
+			id: "5591750F75A1022F"
+			tasks: [{
+				id: "15EFB75508CD0D78"
+				item: "gobber2:gobber2_ingot"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["476D4AAD472CDE51"]
+			id: "5945522A014A603B"
+			tasks: [{
+				id: "270C4D7379A0B5EE"
+				item: "gobber2:gobber2_ingot_end"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5945522A014A603B"]
+			id: "48D66C687AFCE78C"
+			tasks: [
+				{
+					count: 3L
+					id: "5EA4F96AD55C835D"
+					item: "gobber2:dragon_star"
+					type: "item"
+				}
+				{
+					id: "121A200DD3EEE4D1"
+					item: "gobber2:dragon_elytra"
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["48D66C687AFCE78C"]
+			description: [
+				""
+				"{@pagebreak}"
+				"Полный сет брони позволяет: "
+				"• Летать"
+				"• Дышать под водой"
+				"• Защищать от любого источника огня"
+				"• Защищать от урона при падение"
+				"• Защищать от большинства негативных эффектов"
+			]
+			id: "7B159F6A1782C0E7"
+			tasks: [
+				{
+					id: "6362D620189435C8"
+					item: {
+						Count: 1b
+						id: "gobber2:gobber2_helmet_dragon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E4441CE0A9C1C51"
+					item: {
+						Count: 1b
+						id: "gobber2:gobber2_chestplate_dragon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51257B4164A7AA6C"
+					item: {
+						Count: 1b
+						id: "gobber2:gobber2_leggings_dragon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F14D38E51AEEB01"
+					item: {
+						Count: 1b
+						id: "gobber2:gobber2_boots_dragon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5945522A014A603B"]
+			id: "4940422927B1BA3B"
+			tasks: [{
+				id: "43129553D50F5C1B"
+				item: {
+					Count: 1b
+					id: "gobber2:gobber2_axe_end"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5945522A014A603B"]
+			id: "61F2295FBDC20979"
+			tasks: [{
+				id: "0F5630BBB20A3179"
+				item: {
+					Count: 1b
+					id: "gobber2:gobber2_hoe_end"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5945522A014A603B"]
+			id: "081890134CDCA36C"
+			tasks: [{
+				id: "1D0401DBC493B106"
+				item: {
+					Count: 1b
+					id: "gobber2:gobber2_pickaxe_end"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5945522A014A603B"]
+			id: "70F5DEBFC83217B2"
+			tasks: [{
+				id: "78E5F558707634F8"
+				item: {
+					Count: 1b
+					id: "gobber2:gobber2_sword_end"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5945522A014A603B"]
+			id: "616B15517C32D08E"
+			tasks: [{
+				id: "3A53DFF8ABBAD8BA"
+				item: {
+					Count: 1b
+					id: "gobber2:gobber2_shovel_end"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -15.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4940422927B1BA3B"
+				"616B15517C32D08E"
+				"081890134CDCA36C"
+			]
+			description: [
+				""
+				"{@pagebreak}"
+				"ЛопатаТопорКирка"
+			]
+			id: "6B098DC821BB1DC4"
+			tasks: [{
+				id: "0A0A5A05119B09A5"
+				item: {
+					Count: 1b
+					id: "gobber2:gobber2_paxel_end"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6B098DC821BB1DC4"]
+			description: [
+				""
+				"{@pagebreak}"
+				"ЛопатаТопорКирка + бесконечно количество факелов при нажатие ПКМ"
+			]
+			id: "6EAECD2149801649"
+			tasks: [{
+				id: "7AAD7241BEAEDEFB"
+				item: {
+					Count: 1b
+					id: "gobber2:gobber2_paxel_stars"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -18.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5945522A014A603B"]
+			id: "4900513AF3F81E5B"
+			tasks: [{
+				id: "2586FC21CB5D724D"
+				item: "gobber2:gobber2_medallion_end"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5945522A014A603B"]
+			id: "1C0C4445162D41F5"
+			tasks: [{
+				id: "78732D5476385F21"
+				item: "gobber2:gobber2_ring_end"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1C0C4445162D41F5"]
+			description: [
+				"Allows player to travel to/from The End"
+				"{@pagebreak}"
+				"Телепортирует в край/Возвращает домой"
+			]
+			id: "3F25962776FF93D3"
+			tasks: [{
+				id: "39FFEDBFCB7D3938"
+				item: "gobber2:gobber2_ring_void"
+				type: "item"
+			}]
+			x: -12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C0C4445162D41F5"]
+			description: [
+				"Provides a great leap when used on the ground and additional velocity while in air."
+				""
+				"Best paired with End Armor gliding"
+				"{@pagebreak}"
+				"Даёт огромный скачек когда используют на земле и даёт дополнительную скорость в полёте."
+				""
+				"Работает с эффектом планера от Брони Края"
+			]
+			id: "453A00D5EF8B2FFE"
+			tasks: [{
+				id: "2E8054BE875B6465"
+				item: "gobber2:gobber2_ring_traveler"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1C0C4445162D41F5"]
+			description: [
+				"Teleport to stored location"
+				"{@pagebreak}"
+				"Телепортирует в сохранённую точку телепортации"
+			]
+			id: "16F96A41EF159AE0"
+			tasks: [{
+				id: "2AD3D2DEE6786395"
+				item: "gobber2:gobber2_ring_teleport"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C0C4445162D41F5"]
+			description: [
+				"Hides the player from many common mobs"
+				"{@pagebreak}"
+				"Делает невидимым игрока для большинства обычных мобов"
+			]
+			id: "39C9AC069BBB0DDE"
+			tasks: [{
+				id: "6441A354F8E53166"
+				item: "gobber2:gobber2_ring_stealth"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1C0C4445162D41F5"]
+			description: [
+				"Provides enderchest access on the go"
+				"{@pagebreak}"
+				"Открывает Сундук Края"
+			]
+			id: "1A6B04327EB53E0F"
+			tasks: [{
+				id: "503E12834A622EC8"
+				item: "gobber2:gobber2_ring_enderchest"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1C0C4445162D41F5"]
+			description: [
+				"Flings many common mobs out of the player's path"
+				"{@pagebreak}"
+				"Отбрасывает большинство обычных мобов от игрока"
+			]
+			id: "7D6BF5F28B04CF75"
+			tasks: [{
+				id: "21EC2A66966BA279"
+				item: "gobber2:gobber2_ring_dismissal"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1C0C4445162D41F5"]
+			description: [
+				"Right click to teleport where you are looking"
+				"{@pagebreak}"
+				"Нажмите Правую кнопку мыши для телепортации в направлении взгляда"
+			]
+			id: "3B94D197EC4A48BF"
+			tasks: [{
+				id: "444E45747C77DE43"
+				item: "gobber2:gobber2_ring_blink"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4900513AF3F81E5B"]
+			description: [
+				"Afflicts pain and suffering on hostile mobs in range"
+				"{@pagebreak}"
+				"Причиняет боль и страдания враждебнвм мобам в радиусе"
+			]
+			id: "74EE6BD80AD8E8F7"
+			tasks: [{
+				id: "3956E652C32C7293"
+				item: "gobber2:gobber2_medallion_suffering"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4900513AF3F81E5B"]
+			description: [
+				"Provides fast swimming, better vision, and breathing"
+				"{@pagebreak}"
+				"Ускоряет плаванье, лучше видимость и дольше дыхание"
+			]
+			id: "3419F10F5E2CDA9C"
+			tasks: [{
+				id: "56528C023AFF3A62"
+				item: "gobber2:gobber2_medallion_sea"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4900513AF3F81E5B"]
+			description: [
+				""
+				"{@pagebreak}"
+				"Исцеляет находясь в инвентаре"
+			]
+			id: "369B876835477A96"
+			tasks: [{
+				id: "479B29827EA87E2A"
+				item: "gobber2:gobber2_medallion_healing3"
+				type: "item"
+			}]
+			x: -13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5591750F75A1022F"]
+			id: "7F52C6A6C7EB5BE4"
+			tasks: [{
+				id: "71ACC90B9BC1A75E"
+				item: "gobber2:gobber2_medallion"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5591750F75A1022F"]
+			id: "3A3FF538987E0D2B"
+			tasks: [{
+				id: "5FE85E6416841E75"
+				item: "gobber2:gobber2_ring"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7F52C6A6C7EB5BE4"]
+			description: [
+				""
+				""
+				"{@pagebreak}"
+				"Медальон даёт подводное дыхание когда находится в инвентаре."
+			]
+			id: "221BDE79704BA990"
+			tasks: [{
+				id: "7FD23BD520CB8231"
+				item: "gobber2:gobber2_medallion_breathing"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3A3FF538987E0D2B"]
+			description: [
+				""
+				""
+				"{@pagebreak}"
+				"Когда находится в инвентаре и активирован — увеличивает скорость передвижения."
+			]
+			id: "56BB4964A1BFFC69"
+			tasks: [{
+				id: "030EA50F172F7853"
+				item: "gobber2:gobber2_ring_swiftness"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3A3FF538987E0D2B"]
+			description: [
+				""
+				"{@pagebreak}"
+				"Отключение дождя одним кликом мыши!"
+			]
+			id: "6E14434F6E0ED0D8"
+			tasks: [{
+				id: "1AF0F50642C64F29"
+				item: "gobber2:gobber2_ring_sunshine"
+				type: "item"
+			}]
+			x: -19.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3A3FF538987E0D2B"]
+			description: [
+				""
+				"{@pagebreak}"
+				"При активации возвращает игрока на его точку возраждения — т.е. кровать."
+			]
+			id: "7EC8E4153AB7F657"
+			tasks: [{
+				id: "7D3E58A14A2B466B"
+				item: "gobber2:gobber2_ring_return"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3A3FF538987E0D2B"]
+			description: [
+				""
+				"{@pagebreak}"
+				"Ускоряет рост культур находясь в инвентаре."
+			]
+			id: "116172DF40FB63CA"
+			tasks: [{
+				id: "3370E0BFF978F521"
+				item: "gobber2:gobber2_ring_farmer"
+				type: "item"
+			}]
+			x: -21.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3A3FF538987E0D2B"]
+			description: [
+				""
+				"{@pagebreak}"
+				"Избавление от урона при падение, так же можно переключить режима лазанья по стенам используя SHIFT + ПКМ."
+			]
+			id: "6E926CC3DB2763C0"
+			tasks: [{
+				id: "78CCF66250911B03"
+				item: "gobber2:gobber2_ring_ascent"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6351D9837D61B49E"]
+			id: "109B68773E1C28A8"
+			tasks: [{
+				id: "09E23D5DE6CF9847"
+				item: "gobber2:gobber2_ring_nether"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6351D9837D61B49E"]
+			id: "649D25EF34BA92DC"
+			tasks: [{
+				id: "2BC6FF23E1D2FEC1"
+				item: "gobber2:gobber2_medallion_nether"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["649D25EF34BA92DC"]
+			description: [
+				""
+				"{@pagebreak}"
+				"Убирает урон от летящих в тебя снарядов"
+			]
+			id: "06914CAEC6548878"
+			tasks: [{
+				id: "4B2F87B8E7B0C498"
+				item: "gobber2:gobber2_medallion_shielding"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["649D25EF34BA92DC"]
+			description: [
+				""
+				"{@pagebreak}"
+				"Исцеляет находясь в инвентаре"
+			]
+			id: "52F304C30432A604"
+			tasks: [{
+				id: "112FCEFEF62D6E3C"
+				item: "gobber2:gobber2_medallion_healing2"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["649D25EF34BA92DC"]
+			description: [
+				""
+				"{@pagebreak}"
+				"Получение дополнительного опыта при убийстве и копании."
+			]
+			id: "2D0100296B126142"
+			tasks: [{
+				id: "5597F23A26F8E397"
+				item: {
+					Count: 1b
+					id: "gobber2:gobber2_medallion_exp"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -13.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["109B68773E1C28A8"]
+			description: [
+				""
+				"{@pagebreak}"
+				"Дополнительная сила и сопротивление урону "
+			]
+			id: "5C8CDB8514135273"
+			tasks: [{
+				id: "391FBE3113C19B7E"
+				item: "gobber2:gobber2_ring_strength"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["109B68773E1C28A8"]
+			description: [
+				""
+				"{@pagebreak}"
+				"Медленно чинит один предмет в инвентаре игрока "
+			]
+			id: "66870B1FD2275C46"
+			tasks: [{
+				id: "23A1E74D71DAD07A"
+				item: "gobber2:gobber2_ring_repair"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["109B68773E1C28A8"]
+			description: [
+				""
+				"{@pagebreak}"
+				"Защищает от лавы и огня, лечит если игрок в лаве"
+			]
+			id: "17D2B0C940F487E9"
+			tasks: [{
+				id: "35E567B135833592"
+				item: "gobber2:gobber2_ring_phoenix"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["109B68773E1C28A8"]
+			description: [
+				""
+				"{@pagebreak}"
+				"Избавляет игрока от негативных эффектов при активции"
+			]
+			id: "52D657C72EAA1CED"
+			tasks: [{
+				id: "5A9F7A1A91AF2555"
+				item: "gobber2:gobber2_ring_curing"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["109B68773E1C28A8"]
+			description: [
+				""
+				"{@pagebreak}"
+				"При активации даёт эффект Спешки, работает когда кольцо в инвентаре"
+			]
+			id: "3AD797301DB1B75A"
+			tasks: [{
+				id: "2F514989D1C738E3"
+				item: "gobber2:gobber2_ring_haste"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["109B68773E1C28A8"]
+			description: [
+				""
+				"{@pagebreak}"
+				"Увеличивает удачу носителя, работает когда в инвентаре"
+			]
+			id: "7D535BDD10AB62C1"
+			tasks: [{
+				id: "16C3D20A534467B5"
+				item: "gobber2:gobber2_ring_luck"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["109B68773E1C28A8"]
+			description: [
+				""
+				"{@pagebreak}"
+				"Позволяет ходить по воздуху когда в основной руке, при нажатие ПКМ устанавливает чистое стекло в воздухе на месте нажатия"
+			]
+			id: "18967D827BC1A595"
+			tasks: [{
+				id: "33AFBD8018CD43DC"
+				item: "gobber2:gobber2_ring_airwalking"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["5591750F75A1022F"]
+			id: "28177CA83CDC8688"
+			tasks: [{
+				id: "446FE30581677756"
+				item: "gobber2:gobber2_rod"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["28177CA83CDC8688"]
+			description: [
+				""
+				"{@pagebreak}"
+				"Посох разрушает большее количество травы вокруг игрока."
+			]
+			id: "4ACE55AE8612C5BD"
+			tasks: [{
+				id: "106EB481CF420BA7"
+				item: "gobber2:gobber2_staff_clearing"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["28177CA83CDC8688"]
+			description: [
+				""
+				"{@pagebreak}"
+				"Преобразует один ресурс в другой ценой прочности, работает в крафте."
+			]
+			id: "742C0D5978CD84F7"
+			tasks: [{
+				id: "3CAF1A6D0F7A86D0"
+				item: {
+					Count: 1b
+					id: "gobber2:gobber2_staff_transformation"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -19.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["28177CA83CDC8688"]
+			description: [
+				""
+				"{@pagebreak}"
+				"Ускоряет рост культур вокруг игрока так же позволяет собирать выросшие культуры на ПКМ."
+			]
+			id: "18A9D547A36B2FCC"
+			tasks: [{
+				id: "13DE21B51724CB2D"
+				item: "gobber2:gobber2_staff_farmer"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["6351D9837D61B49E"]
+			id: "6752C275A1A5810E"
+			tasks: [{
+				id: "72DECBAF0751F408"
+				item: "gobber2:gobber2_rod_nether"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6752C275A1A5810E"]
+			description: [
+				""
+				"{@pagebreak}"
+				"Позволяет менять тип саженца и преобразовывать обычное стекло - в чистое."
+			]
+			id: "356EC6045F60E70B"
+			tasks: [{
+				id: "6B1CE6EAAE79E966"
+				item: "gobber2:gobber2_staff_nature"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6752C275A1A5810E"]
+			description: [
+				""
+				"{@pagebreak}"
+				"БЕСКОНЕЧНЫЕ ФАКЕЛА?!"
+			]
+			id: "33071DA5C63A3624"
+			tasks: [{
+				id: "182C8BAB6B33420F"
+				item: "gobber2:gobber2_staff_stars"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3A3FF538987E0D2B"]
+			description: [
+				""
+				"{@pagebreak}"
+				"Разрушение блоков вокруг игрока при нажатие ПКМ, держа в второй руке палочку - блоки будут падать в инвентарь. "
+				"Кольцо разрушает только ванильные блоки."
+			]
+			id: "46CE66F25EE5770E"
+			tasks: [{
+				id: "1273F5D6836BBF2D"
+				item: "gobber2:gobber2_ring_miner"
+				type: "item"
+			}]
+			x: -23.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3A3FF538987E0D2B"]
+			description: [
+				""
+				"{@pagebreak}"
+				"Магнит — но для магов"
+			]
+			id: "4B5D88EAEC8599EA"
+			tasks: [{
+				id: "357D23F7C2717F12"
+				item: {
+					Count: 1b
+					id: "gobber2:gobber2_ring_attraction"
+					tag: {
+						"Attraction Mode": 0b
+					}
+				}
+				type: "item"
+			}]
+			x: -24.0d
+			y: -3.5d
 		}
 	]
 	title: "Spectrum: Is it over?…"

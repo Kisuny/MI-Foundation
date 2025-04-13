@@ -38,6 +38,8 @@ ItemEvents.tooltip(tooltip => {
         simpleShiftText({item: 'things:displacement_page', text: 'kubejs.displacement_page.tooltip'})
         simpleShiftText({item: 'kubejs:teleport_pearl', text: 'kubejs.teleport_pearl.tooltip'})
         simpleShiftText({item: 'kubejs:empty_beehive', text: "kubejs.empty_beehive.tooltip"})
+        simpleShiftText({item: 'gobber2:dragon_elytra', text: "item.gobber2.for_crafting_only"})
+        simpleShiftText({item: 'gobber2:dragon_star', text: "item.gobber2.for_crafting_only"})
         simpleShiftText({item: 'kubejs:beehive', text: "kubejs.beehive.tooltip"})
         simpleShiftText({ item: 'scout:upgraded_satchel', text: 'kubejs.text.doesnt_save_items_after_improvement' })
         simpleShiftText({ item: 'scout:upgraded_pouch', text: 'kubejs.text.doesnt_save_items_after_improvement' })
