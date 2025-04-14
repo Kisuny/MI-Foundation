@@ -141,4 +141,64 @@ ServerEvents.tags('item', event => {
         'wizards:wand_netherite_fire',
     ])
 
+    event.add("battlemages:t2_helmets", [ 'battlemages:arcane_battlemage_armor_t2_head','battlemages:frost_battlemage_armor_t2_head', 'battlemages:fire_battlemage_armor_t2_head'])
+    event.add("battlemages:t2_chests", [ 'battlemages:arcane_battlemage_armor_t2_chest','battlemages:frost_battlemage_armor_t2_chest', 'battlemages:fire_battlemage_armor_t2_chest'])
+    event.add("battlemages:t2_legs", [ 'battlemages:arcane_battlemage_armor_t2_legs','battlemages:frost_battlemage_armor_t2_legs', 'battlemages:fire_battlemage_armor_t2_legs'])
+    event.add("battlemages:t2_boots", [ 'battlemages:arcane_battlemage_armor_t2_feet','battlemages:frost_battlemage_armor_t2_feet', 'battlemages:fire_battlemage_armor_t2_feet'])
+
+    event.add("battlemages:weapons_t2", [
+        'battlemages:dragonsteel_fire_sword', 
+        'battlemages:dragonsteel_frost_hammer', 
+        'battlemages:dragonsteel_arcane_blade', 
+        'battlemages:dragonsteel_arcane_spear', 
+        'battlemages:dragonsteel_frost_great_hammer', 
+        'battlemages:dragonsteel_fire_flamberge',
+    ])
+
+    event.add("fpapmod:t2_helmets", ['fpapmod:fell_paladin_armor_t2_head', 'fpapmod:fell_priest_robe_t2_head']) 
+    event.add("fpapmod:t2_chests", ['fpapmod:fell_paladin_armor_t2_chest', 'fpapmod:fell_priest_robe_t2_chest'])
+    event.add("fpapmod:t2_legs", ['fpapmod:fell_paladin_armor_t2_legs', 'fpapmod:fell_priest_robe_t2_legs'])
+    event.add("fpapmod:t2_boots", ['fpapmod:fell_paladin_armor_t2_feet', 'fpapmod:fell_priest_robe_t2_feet'])
+
+    event.add("fallenwizardsmod:t2_helmets", [ 'fallenwizardsmod:dark_fire_wizard_armor_t2_head','fallenwizardsmod:dark_frost_wizard_armor_t2_head', 'fallenwizardsmod:dark_arcane_wizard_armor_t2_head'])
+    event.add("fallenwizardsmod:t2_chests", ['fallenwizardsmod:dark_frost_wizard_armor_t2_chest', 'fallenwizardsmod:dark_arcane_wizard_armor_t2_chest', 'fallenwizardsmod:dark_fire_wizard_armor_t2_chest'])
+    event.add("fallenwizardsmod:t2_legs", ['fallenwizardsmod:dark_fire_wizard_armor_t2_legs', 'fallenwizardsmod:dark_frost_wizard_armor_t2_legs', 'fallenwizardsmod:dark_arcane_wizard_armor_t2_legs'])
+    event.add("fallenwizardsmod:t2_boots", ['fallenwizardsmod:dark_frost_wizard_armor_t2_feet', 'fallenwizardsmod:dark_fire_wizard_armor_t2_feet', 'fallenwizardsmod:dark_arcane_wizard_armor_t2_feet'])
+
+    event.add("fallenwizardsmod:t2_weapons", [
+        'fallenwizardsmod:starforged_dark_arcane_staff', 
+        'fallenwizardsmod:starforged_dark_frost_staff', 
+        'fallenwizardsmod:starforged_dark_fire_staff'
+    ])
+
+    event.add("morewizardsmod:t2_helmets", [ 'morewizardsmod:soul_wizard_armor_t2_head','morewizardsmod:lightning_wizard_armor_t2_head'])
+    event.add("morewizardsmod:t2_chests", [ 'morewizardsmod:soul_wizard_armor_t2_chest','morewizardsmod:lightning_wizard_armor_t2_chest'])
+    event.add("morewizardsmod:t2_legs", [ 'morewizardsmod:soul_wizard_armor_t2_legs','morewizardsmod:lightning_wizard_armor_t2_legs'])
+    event.add("morewizardsmod:t2_feets", [ 'morewizardsmod:soul_wizard_armor_t2_feet','morewizardsmod:lightning_wizard_armor_t2_feet'])
+
+    event.add("morewizardsmod:t2_weapons", [
+        'morewizardsmod:starforged_lightning_staff', 
+        'morewizardsmod:starforged_soul_staff',
+    ])
+
+    event.add("paladins:t2_helmets", [ 'paladins:crusader_armor_head','paladins:prior_robe_head'])
+    event.add("paladins:t2_chests", [ 'paladins:crusader_armor_chest','paladins:prior_robe_chest'])
+    event.add("paladins:t2_legs", [ 'paladins:crusader_armor_legs','paladins:prior_robe_legs'])
+    event.add("paladins:t2_feets", [ 'paladins:crusader_armor_feet','paladins:prior_robe_feet'])
+
+    event.add("runes:runes", 
+        [
+            'runes:soul_stone', 
+            'runes:lightning_stone', 
+            'runes:healing_stone', 
+            'runes:frost_stone', 
+            'runes:fire_stone', 
+            'runes:arcane_stone', 
+            'morerunes:blood_rune', 
+            'morerunes:corruption_rune', 
+            'morerunes:sound_rune', 
+            'morerunes:nature_rune', 
+            'morerunes:wind_rune', 
+            'morerunes:water_rune'
+        ]);
 })
