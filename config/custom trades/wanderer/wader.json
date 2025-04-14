@@ -1462,6 +1462,78 @@
     {
       "isRare": true,
       "offer": {
+        "itemKey": "tatimod:ancient_sack",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:gold_coin",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 40,
+      "maxUses": 1,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer": {
+        "itemKey": "tatimod:precious_sack",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:gold_coin",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 40,
+      "maxUses": 1,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer": {
+        "itemKey": "tctimod:cursed_sack",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:gold_coin",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 40,
+      "maxUses": 1,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer": {
+        "itemKey": "tctimod:lost_sack",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "numismatic-overhaul:gold_coin",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "tradeExp": 40,
+      "maxUses": 1,
+      "priceMultiplier": 0.2,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": true,
+      "offer": {
         "itemKey": "miskatonicmysteries:cirrhosus_flesh",
         "amount": 1,
         "priceModifier": 0

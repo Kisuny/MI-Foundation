@@ -453,6 +453,62 @@
     {
       "type": "goblintraders:basic",
       "experience": 600,
+      "max_trades": 3,
+      "offer_item": {
+        "count": 1,
+        "item": "tatimod:ancient_sack"
+      },
+      "payment_item": {
+        "count": 6,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 600,
+      "max_trades": 3,
+      "offer_item": {
+        "count": 1,
+        "item": "tatimod:precious_sack"
+      },
+      "payment_item": {
+        "count": 6,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 600,
+      "max_trades": 3,
+      "offer_item": {
+        "count": 1,
+        "item": "tctimod:cursed_sack"
+      },
+      "payment_item": {
+        "count": 6,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 600,
+      "max_trades": 3,
+      "offer_item": {
+        "count": 1,
+        "item": "tctimod:lost_sack"
+      },
+      "payment_item": {
+        "count": 6,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 600,
       "max_trades": 6,
       "offer_item": {
         "count": 4,
