@@ -383,10 +383,10 @@ LootJS.modifiers((event) => {
     
     event
     .addLootTableModifier( 
-        'rottencreatures:entities/undead_miner/iron', 
-        'rottencreatures:entities/undead_miner/gold',
-        'rottencreatures:entities/undead_miner/diamond',
-        'rottencreatures:entities/undead_miner/stone'
+        'rottencreatures:entities/undead_iron_miner', 
+        'rottencreatures:entities/undead_gold_miner',
+        'rottencreatures:entities/undead_diamond_miner',
+        'rottencreatures:entities/undead_stone_miner'
     )
     .pool((p) => {
         p.randomChance(0.5)

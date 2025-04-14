@@ -197,8 +197,8 @@ ServerEvents.tags('entity_type', event => {
     // soul_cage_blacklisted / collect_blacklisted - blacklist for spirit spawners
     const SPIRIT_MOBS_BLACKLIST = [
         'artifacts:mimic', 
-        'rottencreatures:entities/dead_beard',
-        'rottencreatures:entities/immortal',
+        'rottencreatures:dead_beard',
+        'rottencreatures:immortal',
         /lootgoblins:*/,
         /goblintraders:*/,
     ]
