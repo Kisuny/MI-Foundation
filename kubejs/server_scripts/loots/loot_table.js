@@ -16,18 +16,16 @@ LootJS.modifiers((event) => {
             /mvs:.*/,
             /kaisyn:.*/,
             /the_bumblezone:structures\/.*/,
-            'friendsandfoes:barrels/illusioner_shack_attic'
+            'friendsandfoes:barrels/illusioner_shack_attic',
+            'betterstrongholds:chests/common'
         ],
         rare: [
             /.*:chests\/stronghold_.*/,
             /.*:chests\/underwater_ruin_.*/,
             /dungeons_arise:chests.*treasure/,
             'minecraft:chests/ruined_portal',
-            'minecraft:chests/shipwreck_treasure',
-            'minecraft:chests/ancient_city',
             'minecraft:chests/bastion_other',
             'minecraft:chests/bastion_bridge',
-            'minecraft:chests/igloo_chest',
             'minecraft:chests/nether_bridge',
             'minecraft:chests/simple_dungeon',
             'terralith:ruin/glacial/main_cs',
@@ -48,9 +46,16 @@ LootJS.modifiers((event) => {
             'dungeons_arise_seven_seas:chests/unicorn_galleon/unicorn_galleon_treasure',
             /probablychests:chests\/.*_pc_.*/,
             'friendsandfoes:barrels/illusioner_shack_basement',
+            'betterstrongholds:chests/prison_lg',
+            'betterstrongholds:chests/grand_library',
             'underground_bunkers:chests/underground_bunker/underground_bunker_normal',
         ],
         epic: [
+            'betterstrongholds:chests/treasure',
+            'betterstrongholds:chests/trap',
+            'betterstrongholds:chests/crypt',
+            'betterstrongholds:chests/armoury',
+            'betterstrongholds:chests/library_md',
             'minecraft:chests/abandoned_mineshaft',
             'minecraft:chests/buried_treasure',
             'minecraft:chests/pillager_outpost',
@@ -72,7 +77,11 @@ LootJS.modifiers((event) => {
             'artifacts:entities/mimic',
             'rottencreatures:entities/dead_beard',
             'rottencreatures:entities/immortal',
-            'underground_bunkers:chests/underground_bunker/underground_bunker_treasure'
+            'underground_bunkers:chests/underground_bunker/underground_bunker_treasure',
+            'minecraft:chests/shipwreck_treasure',
+            'minecraft:chests/igloo_chest',
+            'minecraft:chests/ancient_city',
+
         ],
         mines_pools: [
             /dungeons_arise:chests\/mushroom_mines\/mushroom_mines_.*/,
@@ -82,6 +91,7 @@ LootJS.modifiers((event) => {
             'minecraft:chests/village/village_weaponsmith',
             'minecraft:chests/village/village_toolsmith',
             'minecraft:chests/village/village_armorer',
+            'betterstrongholds:chests/mess',
             'underground_bunkers:chests/underground_bunker/underground_bunker_supply'
         ]
     }
@@ -125,12 +135,12 @@ LootJS.modifiers((event) => {
         event
         .addLootTableModifier(table)
         .pool((p) => {
-            p.randomChance(0.4)
+            p.randomChance(0.6)
             p.addLoot('numismatic-overhaul:bronze_coin')
-            p.limitCount([3, 40])
+            p.limitCount([3, 70])
         })
         .pool((p) => {
-            p.randomChance(0.1)
+            p.randomChance(0.4)
             p.addLoot('numismatic-overhaul:silver_coin')
         })
     });
@@ -145,9 +155,9 @@ LootJS.modifiers((event) => {
             p.limitCount([20, 70])
         })
         .pool((p) => {
-            p.randomChance(0.2)
+            p.randomChance(0.4)
             p.addLoot('numismatic-overhaul:silver_coin')
-            p.limitCount([4, 11])
+            p.limitCount([4, 22])
         })
 
         event
@@ -172,20 +182,25 @@ LootJS.modifiers((event) => {
             p.limitCount([50, 100])
         })
         .pool((p) => {
-            p.randomChance(0.17)
+            p.randomChance(0.37)
             p.addLoot('numismatic-overhaul:silver_coin')
             p.limitCount([8, 22])
         })
         .pool((p) => {
-            p.randomChance(0.05)
+            p.randomChance(0.15)
             p.addLoot('numismatic-overhaul:gold_coin')
-            p.limitCount([0, 1])
+            p.limitCount([0, 6])
         })
 
         event
         .addLootTableModifier(table)
         .randomChance(0.6)
         .addLoot('kubejs:reforge_rune')
+
+        event
+        .addLootTableModifier(table)
+        .randomChance(0.25)
+        .addWeightedLoot(1, commonArtifacts)
 
         let relicex = ['relicex:tome', 'relicex:lesser_orb_of_regret']
         relicex.forEach(relicex_item => {
