@@ -736,8 +736,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 7.949999999999999d
+			x: 6.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4973809A8C9088E0"]
@@ -771,8 +771,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 7.949999999999999d
+			x: 5.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["4973809A8C9088E0"]
@@ -803,8 +803,8 @@
 				item: "minecraft:tnt"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 8.45d
+			x: 7.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["05ADE662ABE07C6A"]
@@ -2098,8 +2098,8 @@
 				item: "spirit:soul_powder"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 8.45d
+			x: 3.5d
+			y: 8.5d
 		}
 		{
 			description: [
@@ -2837,7 +2837,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["34A62CF75DC4B8E2"]
@@ -2854,7 +2854,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["35FBDB6A6B0AF265"]
@@ -3119,6 +3119,27 @@
 			}]
 			x: 4.0d
 			y: 2.5d
+		}
+		{
+			dependencies: ["4973809A8C9088E0"]
+			description: [
+				"Makes finding &#CAE4C8structures&r &nmuch easier&r."
+				"{@pagebreak}"
+				"Поиск &#CAE4C8структур&r &nлегче чем кажется&r."
+			]
+			id: "1984215C37A1AB47"
+			shape: "octagon"
+			tasks: [{
+				id: "6254F9FA0C6AC6C9"
+				item: {
+					Count: 1b
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
 		}
 	]
 	title: "Spectrum: First steps"
