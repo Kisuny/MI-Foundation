@@ -1460,7 +1460,7 @@
       "tradeLevel": 1
     },
     {
-      "isRare": true,
+      "isRare": false,
       "offer": {
         "itemKey": "tatimod:ancient_sack",
         "amount": 1,
@@ -1478,7 +1478,7 @@
       "tradeLevel": 1
     },
     {
-      "isRare": true,
+      "isRare": false,
       "offer": {
         "itemKey": "tatimod:precious_sack",
         "amount": 1,
@@ -1496,7 +1496,7 @@
       "tradeLevel": 1
     },
     {
-      "isRare": true,
+      "isRare": false,
       "offer": {
         "itemKey": "tctimod:cursed_sack",
         "amount": 1,
@@ -1514,7 +1514,7 @@
       "tradeLevel": 1
     },
     {
-      "isRare": true,
+      "isRare": false,
       "offer": {
         "itemKey": "tctimod:lost_sack",
         "amount": 1,
