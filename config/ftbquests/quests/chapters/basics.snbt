@@ -492,13 +492,14 @@
 				item: "kubejs:food_lootbag_uncommon"
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "730466E7D0754FB7"
 				item: "kibe:pocket_crafting_table"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 3.0d
+			x: -2.214285714285708d
+			y: 0.6249999999999858d
 		}
 		{
 			dependencies: [
@@ -1165,8 +1166,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.905102040816331d
-			y: 1.158163265306122d
+			x: -1.7142857142857082d
+			y: 1.1249999999999858d
 		}
 		{
 			dependencies: ["190C18AB20216705"]
@@ -1291,12 +1292,370 @@
 				item: "numismatic-overhaul:silver_coin"
 				type: "item"
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "25C669DC04854D52"
 				item: "tradingpost:trading_post"
 				type: "item"
 			}]
+			x: -2.214285714285708d
+			y: 1.6249999999999858d
+		}
+		{
+			dependencies: [
+				"16A938A5EE1DD4CD"
+				"1825A6B8D9C0586D"
+				"75D871020430D31A"
+				"3E438E9272441B1C"
+				"4A1FE938051B1A62"
+				"6A1F4C19D46B6F69"
+				"65CF16C0873C90C2"
+			]
+			description: [
+				"The Drakkar is specifically designed for cold water environments. It has 54 slots for items, exceptional maneuverability, and a top speed of 30 km/h. With seating for 11 passengers, including the captain and hull strength of 200 hp. Shields, also with banner patterns, can be attatched to grand additional defense. With its ice breaker abbility, it proves to be a promising vessel in cold and icy oceans."
+				"{@pagebreak}"
+				"Драккар специально разработан для холодной воды. Он имеет 54 слота для предметов, исключительную маневренность и максимальную скорость 30 км/ч. Он рассчитан на 11 пассажиров, включая капитана, а мощность корпуса составляет 200 хп. Для дополнительной защиты можно установить щиты, в том числе со знаменами. Благодаря своей ледокольной способности он оказывается перспективным судном в холодных и ледяных океанах."
+			]
+			hide_dependency_lines: true
+			id: "29898CAE4D97D53E"
+			rewards: [
+				{
+					id: "44F120271BDC7534"
+					item: "kubejs:early_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "2EEF5FB6C4273EFA"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "63E150F37856049A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:drakkars"
+					}
+				}
+				title: "Any #smallships:drakkars"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"16A938A5EE1DD4CD"
+				"1825A6B8D9C0586D"
+				"75D871020430D31A"
+				"3E438E9272441B1C"
+				"4A1FE938051B1A62"
+				"6A1F4C19D46B6F69"
+				"65CF16C0873C90C2"
+			]
+			description: [
+				"The Brigg is another medieval two-masted trade ship designed for cold water biomes. It provides 162 item slots and can mount up to 6 cannons for defense. With space for up to 11 passengers, including the captain, it excels in both trading and naval battles. The Brig has a top speed of 45 km/h, good maneuverability, and a hull strength of 400 hp."
+				"{@pagebreak}"
+				"Бриг - еще один средневековый двухмачтовый торговый корабль, предназначенный для холодных водных биомов. Он предоставляет 162 слота для предметов и может установить до 6 пушек для обороны. Вмещая до 11 пассажиров, включая капитана, он отлично подходит как для торговли, так и для морских сражений. Бриг развивает скорость до 45 км/ч, обладает хорошей маневренностью и мощностью корпуса в 400 хп."
+			]
+			hide_dependency_lines: true
+			id: "5EC18AB241F5AD60"
+			rewards: [
+				{
+					id: "56D7A2DC5E47CF6C"
+					item: "kubejs:early_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "34567FF5D4F2FC1C"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "188632B6433585D1"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:briggs"
+					}
+				}
+				title: "Any #smallships:briggs"
+				type: "item"
+			}]
 			x: -3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"16A938A5EE1DD4CD"
+				"1825A6B8D9C0586D"
+				"75D871020430D31A"
+				"3E438E9272441B1C"
+				"4A1FE938051B1A62"
+				"6A1F4C19D46B6F69"
+				"65CF16C0873C90C2"
+			]
+			description: [
+				"The Galley is specifically designed for warm water environments and naval warfare. It has 54 slots for items, exceptional maneuverability, and a top speed of 40 km/h. With seating for 9 passengers, including the captain and hull strength of 200 hp, it proves to be a promising vessel in various situations."
+				"{@pagebreak}"
+				"Галера специально разработана для теплых вод и морских войн. Он имеет 54 слота для предметов, исключительную маневренность и максимальную скорость 40 км/ч. При наличии мест для 9 пассажиров, включая капитана, и мощности корпуса в 200 хп. он оказывается перспективным судном в различных ситуациях."
+			]
+			hide_dependency_lines: true
+			id: "7A0BD9ADC835F712"
+			rewards: [
+				{
+					id: "196AF54A39B384B6"
+					item: "kubejs:early_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "3DDCD05DDBB3DA42"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "28C31EFD9A5F96CE"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:galleys"
+					}
+				}
+				title: "Any #smallships:galleys"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"16A938A5EE1DD4CD"
+				"1825A6B8D9C0586D"
+				"75D871020430D31A"
+				"3E438E9272441B1C"
+				"4A1FE938051B1A62"
+				"6A1F4C19D46B6F69"
+				"65CF16C0873C90C2"
+			]
+			description: [
+				"The Cog is a medieval trade ship used in cold water biomes. It offers 108 item slots and can mount up to 4 cannons for defense. It can accommodate up to 5 passengers, including the captain. Although its maneuverability may not be the best, it is an excellent trading vessel with a top speed of 40 km/h and a sturdy hull strength of 300 hp"
+				"{@pagebreak}"
+				"Ког - это средневековый торговый корабль, используемый в холодных водных биомах. Он предлагает 108 слотов для предметов и может установить до 4 пушек для защиты. На нем могут разместиться до 5 пассажиров, включая капитана. Хотя его маневренность может быть не самой лучшей, это отличное торговое судно с максимальной скоростью 40 км/ч и прочностью корпуса в 300 хп"
+			]
+			hide_dependency_lines: true
+			id: "3BDE24D8A404BB19"
+			rewards: [
+				{
+					id: "15943991BA705367"
+					item: "kubejs:early_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					id: "5DC4749EA39600B6"
+					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "281902CA912C73D4"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "smallships:cogs"
+					}
+				}
+				title: "Any #smallships:cogs"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["08FC12B517294C1C"]
+			description: [
+				"In terms of ship performance, cold-water ships will be 10% faster in cold water biomes but 10% slower in warm water biomes. Conversely, warm-water ships will be 10% faster in warm water biomes but 10% slower in cold water biomes. It's important to note that the speed of the ships will also be affected by the number of cannons on board, reducing speed by 2.5% per cannon. Additionally, cargo on board can decrease the ship's speed by up to 10%."
+				"{@pagebreak}"
+				"&lЭксплуатационные характеристики корабля&rи"
+				""
+				"Что касается характеристик кораблей, то коробли холодных биомов будут на 10% быстрее, но на 10% медленнее в теплых биомах. И наоборот, корабли теплых вод будут на 10% быстрее в биомах с теплой водой, но на 10% медленнее в биомах с холодной водой. Важно отметить, что на скорость кораблей также влияет количество пушек на борту: за каждую пушку скорость снижается на 2,5 %. Кроме того, груз на борту может снизить скорость корабля на 10 %."
+			]
+			id: "75D871020430D31A"
+			shape: "diamond"
+			tasks: [{
+				id: "0FCD10D5368BF58D"
+				type: "checkmark"
+			}]
+			title: "Ship performance"
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["08FC12B517294C1C"]
+			description: [
+				"You can customize sails by coloring them with dye items. Simply right-click the ship with the dye in your hand."
+				"{@pagebreak}"
+				"&lПерекраска парусов&rи"
+				""
+				"Вы можете кастомизировать паруса, раскрасив их с помощью красителей. Просто щелкните правой кнопкой мыши по кораблю с красителем в руке."
+			]
+			id: "16A938A5EE1DD4CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E25B5A54B5D5D77"
+				table_id: 7157500167206365917L
+				type: "random"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "24BA071657AC257F"
+				title: "Sail coloring"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["08FC12B517294C1C"]
+			description: [
+				"You can repair your ship with iron nuggets and planks. Simply right-click the ship with the iron nuggets in your hand, you need to have a good supply of planks in your inventory."
+				"{@pagebreak}"
+				"&lПочинка коробля&rи"
+				""
+				"Вы можете отремонтировать свой корабль с помощью железных самородков и досок. Просто щелкните правой кнопкой мыши по кораблю, держа в руке железные самородки; в вашем инвентаре должен быть хороший запас досок."
+			]
+			hide: false
+			id: "1825A6B8D9C0586D"
+			shape: "diamond"
+			tasks: [{
+				id: "6D287DBCAAFCDC68"
+				title: "Ship repairing"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["08FC12B517294C1C"]
+			description: [
+				"You can name your ship with a name-tag. Simply right-click the ship with the name-tag in your hand."
+				"{@pagebreak}"
+				"&lНазвание коробля&rи"
+				""
+				"Вы можете присвоить кораблю имя. Просто щелкните правой кнопкой мыши на корабле с переименованной биркой."
+			]
+			id: "65CF16C0873C90C2"
+			rewards: [{
+				id: "2FCC2AD672CBFB07"
+				item: {
+					Count: 1b
+					id: "minecraft:name_tag"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"MI:Foundation chip\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0FE149FBB001E5D3"
+				title: "Ship naming"
+				type: "checkmark"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["08FC12B517294C1C"]
+			description: [
+				"Leashing allows players to tether ships. Leashed ships cannot be directly controlled, and only ships without a player on the controller seat can be leashed."
+				"{@pagebreak}"
+				"&lПоводки&rи"
+				""
+				"Поводки позволяют игрокам привязывать корабли. Привязанные корабли не могут управляться напрямую, и только корабли без игрока на месте контроллера могут быть привязаны."
+			]
+			id: "3E438E9272441B1C"
+			rewards: [{
+				count: 2
+				id: "465C825E0BA43C2B"
+				item: "minecraft:lead"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4A6C2ECAD01D2822"
+				title: "Leashing"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["08FC12B517294C1C"]
+			description: [
+				"Place the ship far away from you, into water. They need space to spawn. Use Right Click to sit in the ship."
+				""
+				"While sitting in the Ship, press «R»(&c&lYou need to change in the settings&r!&r) to open/close the ships sail. Press «W» to increase and «S» to decrease the Sail. In Thrid Person View with F5 , scroll with you Mousewheel to change the distance of the View. To mount a entity to the ship right click it while sitting in the ship. To dismount a entity from the ship, right-click the entity. To open the inventory outside of the ship, right-click the ship while crouching."
+				"{@pagebreak}"
+				"&lУправление&r"
+				""
+				"Поместите корабль подальше от вас, в воду. Ему нужно место для спавна. Чтобы сесть в корабль, используйте правый клик."
+				""
+				"Сидя в корабле, нажмите «R» (&c&lНеобходимо изменить в настройках!&r&r), чтобы открыть/закрыть парус корабля. Нажмите «W», чтобы увеличить и «S», чтобы уменьшить парус. В режиме просмотра от трех лиц нажмите F5, прокрутите колесико мыши, чтобы изменить расстояние просмотра. Чтобы установить существо(например корову) на корабль, щелкните по нему правой кнопкой мыши, сидя в корабле. Чтобы убрать существо с корабля, щелкните по нему правой кнопкой мыши. Чтобы открыть инвентарь вне корабля, щелкните правой кнопкой мыши на корабле, присев."
+			]
+			id: "4A1FE938051B1A62"
+			shape: "diamond"
+			tasks: [{
+				id: "2CE0A29EF9183EA2"
+				title: "Controls"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["08FC12B517294C1C"]
+			description: [
+				"To add a cannon on your ship you need to right click the ship with a cannon in your hand. To shoot the cannon, you need to look in the direction of the cannon and press \"space\", while sitting in the ship. Note that you need to have a cannon ball in the ships inventory. To remove a cannon, right-click the ship with a axe"
+				"{@pagebreak}"
+				"&lПушки&rи"
+				""
+				"Чтобы добавить пушку на корабль, нужно щелкнуть правой кнопкой мыши по кораблю с пушкой в руке. Чтобы выстрелить из пушки, нужно посмотреть в направлении пушки и нажать «пробел», сидя в корабле. Обратите внимание, что в инвентаре корабля должно быть пушечное ядро. Чтобы убрать пушку, щелкните правой кнопкой мыши на корабле с топором"
+			]
+			id: "6A1F4C19D46B6F69"
+			rewards: [
+				{
+					count: 16
+					id: "0DCA5A82F04C526E"
+					item: "smallships:cannon_ball"
+					type: "item"
+				}
+				{
+					id: "270B78E71AF7974C"
+					item: "smallships:cannon"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "29DAFE8D17235B41"
+				title: "Cannons"
+				type: "checkmark"
+			}]
+			x: -4.5d
 			y: 3.0d
 		}
 	]
