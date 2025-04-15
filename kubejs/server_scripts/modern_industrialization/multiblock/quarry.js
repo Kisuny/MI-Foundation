@@ -77,6 +77,10 @@ ServerEvents.recipes(event => {
         .itemOut('minecraft:nether_gold_ore', 0.25)
         .dimension('minecraft:the_nether')
     //Overworld Mining
+    event.recipes.modern_industrialization.quarry(24, 600) //Eu, ticks
+	.itemIn(`modern_industrialization:desh_drill`, 0.08)
+	.itemOut('modern_industrialization:ancient_fossil_block',0.25)
+	.dimension('minecraft:overworld')
     event.remove({ id: 'modern_industrialization:quarry/copper' })
     event.recipes.modern_industrialization.quarry(4, 600) //Eu, ticks
         .itemIn('modern_industrialization:copper_drill', 0.2)
@@ -239,7 +243,7 @@ ServerEvents.recipes(event => {
         // Botania flowers
         event.recipes.modern_industrialization.quarry(Math.floor(24*drill.energy), Math.floor(600*drill.duration)) //Eu, ticks
             .itemIn(`kubejs:${drill.name}_desh_drill`, 0.08*drill.stiffness)
-            .itemOut(strmulti_with_cap(drill.output_multi,'modern_industrialization:ancient_fossil_block'), up_to_one(0.05,drill.output_chance))
+            .itemOut(strmulti_with_cap(drill.output_multi,'modern_industrialization:ancient_fossil_block'), up_to_one(0.25,drill.output_chance))
             .dimension('minecraft:overworld')
         // Deeper Down mining
         event.recipes.modern_industrialization.quarry(Math.floor(4*drill.energy), Math.floor(600*drill.duration)) //Eu, ticks
