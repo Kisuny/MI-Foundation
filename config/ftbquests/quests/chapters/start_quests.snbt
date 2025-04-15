@@ -76,8 +76,8 @@
 			image: "quest_images:textures/item/copper_platform.png"
 			rotation: 0.0d
 			width: 20.0d
-			x: -0.04340986394557689d
-			y: 0.5223639455782276d
+			x: 0.0d
+			y: 0.5d
 		}
 		{
 			click: ""
@@ -613,31 +613,31 @@
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"Every chest in this world is a &elootr&r chest, meaning that this chest can be looted by &levery&r player on the world separately."
-				""
-				"Loot in chests is updated once a day!"
-				""
+				"You may notice that you do not have a full amount of &chealth&r, the modpack has elements of &6MMORPG&r, no, &5there is nothing complicated or scary&r, if briefly - you get a &dlevel&r, this level can be &l&econverted to a level of your character&r&r in the inventory, in the additional menu «Attributes». You invest your experience - get &5skill points&r, and, accordingly, &5level up&r, you can increase your &4strength&r or return your usual &chealth&r, you can find items around the world that will help you &3&lreset your characteristics&r&r and change your «Build», choose a convenient for you style of play, be an &carcher&r with &3fast running&r or a &ebard&r with crazy &n&lhealing-damage&r&r, why not?"
 				"{@pagebreak}"
-				"Каждый сундук в мире существует как &elootr&r сундук, это значит что этот сундук сможет обчистить &lкаждый&r игрок на сервере."
+				"Вы можете обратить внимание, что у вас не полное количество &cздоровья&r, в модпаке присутствуют элементы &6ММОРПГ&r, нет, здесь &5&lнет ничего сложного&r&r или страшного, если кратко - вы получаете &dуровень&r, этот уровень можно &e&lконвертировать в прокачку своего персонажа&r&r в инвентаре, в дополнительном меню «Аттрибутов». Вы вкладываете свой опыт - получаете &5очки прокачки&r, и, соответственно, &5прокачиваетесь&r, вы можете увеличить свою &4силу&r или вернуть привычное вам &cздоровье&r, вы так можете встретить по миру предметы которые помогут вам &3&lсбросить ваши характеристики&r&r и поменять свой «Билд», выбирайте удобный для вас стиль игры, будьте &cлучником&r с &3быстрым бегом&r или &eбардом&r с сумасшедшим &n&lуроном лечения&r&r, почему бы и нет?"
 				""
-				"&eLootr&r сундуки &oможно открывать&r даже в привате!"
-				""
-				"Лут в сундуках обновляется раз в сутки!"
+				" "
 			]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
 				tag: {
-					Icon: "lootr:textures/logo.png"
+					Icon: "wizardex:textures/gui/staff.png"
 				}
 			}
 			id: "6D88A3D835DFAD91"
+			rewards: [{
+				id: "54460040E59B8ADA"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "402FE86AA33BD884"
 				title: "*click*"
 				type: "checkmark"
 			}]
-			title: "&#A39FE1Who will open more of them?"
+			title: "&#A39FE1MMORPG?"
 			x: -3.0d
 			y: 4.0d
 		}

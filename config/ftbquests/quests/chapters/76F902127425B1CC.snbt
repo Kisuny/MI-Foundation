@@ -54,7 +54,7 @@
 				item: "endrem:black_eye"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -3.0d
 			y: 3.0d
 		}
 		{
@@ -95,7 +95,7 @@
 				item: "endrem:cold_eye"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -3.5d
 			y: 2.5d
 		}
 		{
@@ -138,7 +138,7 @@
 				item: "endrem:corrupted_eye"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -6.5d
 			y: 2.5d
 		}
 		{
@@ -181,7 +181,7 @@
 				item: "endrem:lost_eye"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -5.5d
 			y: 1.5d
 		}
 		{
@@ -224,7 +224,7 @@
 				item: "endrem:nether_eye"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -5.0d
 			y: 1.0d
 		}
 		{
@@ -263,7 +263,7 @@
 				item: "endrem:old_eye"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.5d
 			y: 1.5d
 		}
 		{
@@ -302,7 +302,7 @@
 				item: "endrem:rogue_eye"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -3.5d
 			y: 3.5d
 		}
 		{
@@ -345,7 +345,7 @@
 				item: "endrem:cursed_eye"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -4.5d
 			y: 4.5d
 		}
 		{
@@ -388,7 +388,7 @@
 				item: "endrem:evil_eye"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -6.5d
 			y: 3.5d
 		}
 		{
@@ -427,7 +427,7 @@
 				item: "endrem:guardian_eye"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -4.0d
 			y: 4.0d
 		}
 		{
@@ -470,7 +470,7 @@
 				item: "endrem:magical_eye"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -4.0d
 			y: 2.0d
 		}
 		{
@@ -509,7 +509,7 @@
 				item: "endrem:wither_eye"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -5.5d
 			y: 4.5d
 		}
 		{
@@ -552,7 +552,7 @@
 				item: "endrem:witch_eye"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -6.0d
 			y: 2.0d
 		}
 		{
@@ -595,7 +595,7 @@
 				item: "endrem:undead_eye"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -5.0d
 			y: 5.0d
 		}
 		{
@@ -638,7 +638,7 @@
 				item: "endrem:exotic_eye"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -7.0d
 			y: 3.0d
 		}
 		{
@@ -677,7 +677,7 @@
 				item: "endrem:cryptic_eye"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -6.0d
 			y: 4.0d
 		}
 		{
@@ -1890,7 +1890,7 @@
 				item: "things:displacement_page"
 				type: "item"
 			}]
-			x: 6.199999999999999d
+			x: 4.699999999999999d
 			y: 5.223469387755089d
 		}
 		{
@@ -1924,7 +1924,7 @@
 				item: "things:recall_potion"
 				type: "item"
 			}]
-			x: 6.550000000000001d
+			x: 5.050000000000001d
 			y: 4.873469387755089d
 		}
 		{
@@ -1953,7 +1953,7 @@
 				item: "artifacts:flame_pendant"
 				type: "item"
 			}]
-			x: 4.449999999999999d
+			x: 2.9499999999999993d
 			y: 4.17346938775509d
 		}
 		{
@@ -1982,7 +1982,7 @@
 				item: "artifacts:shock_pendant"
 				type: "item"
 			}]
-			x: 4.800000000000001d
+			x: 3.3000000000000007d
 			y: 4.52346938775509d
 		}
 		{
@@ -2011,7 +2011,7 @@
 				item: "artifacts:steadfast_spikes"
 				type: "item"
 			}]
-			x: 5.85d
+			x: 4.35d
 			y: 5.573469387755089d
 		}
 		{
@@ -2040,7 +2040,7 @@
 				item: "artifacts:kitty_slippers"
 				type: "item"
 			}]
-			x: 6.199999999999999d
+			x: 4.699999999999999d
 			y: 4.52346938775509d
 		}
 		{
@@ -2069,7 +2069,7 @@
 				item: "artifacts:helium_flamingo"
 				type: "item"
 			}]
-			x: 3.75d
+			x: 2.25d
 			y: 4.17346938775509d
 		}
 		{
@@ -2098,7 +2098,7 @@
 				item: "artifacts:obsidian_skull"
 				type: "item"
 			}]
-			x: 4.800000000000001d
+			x: 3.3000000000000007d
 			y: 5.223469387755089d
 		}
 		{
@@ -2127,7 +2127,7 @@
 				item: "artifacts:charm_of_sinking"
 				type: "item"
 			}]
-			x: 4.449999999999999d
+			x: 2.9499999999999993d
 			y: 5.573469387755089d
 		}
 		{
@@ -2156,7 +2156,7 @@
 				item: "artifacts:thorn_pendant"
 				type: "item"
 			}]
-			x: 4.1d
+			x: 2.5999999999999996d
 			y: 5.223469387755089d
 		}
 		{
@@ -2185,7 +2185,7 @@
 				item: "artifacts:pocket_piston"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.0d
 			y: 4.52346938775509d
 		}
 		{
@@ -2214,7 +2214,7 @@
 				item: "artifacts:universal_attractor"
 				type: "item"
 			}]
-			x: 5.15d
+			x: 3.6500000000000004d
 			y: 4.873469387755089d
 		}
 		{
@@ -2243,7 +2243,7 @@
 				item: "artifacts:cross_necklace"
 				type: "item"
 			}]
-			x: 6.199999999999999d
+			x: 4.699999999999999d
 			y: 3.8234693877550905d
 		}
 		{
@@ -2272,7 +2272,7 @@
 				item: "artifacts:power_glove"
 				type: "item"
 			}]
-			x: 6.550000000000001d
+			x: 5.050000000000001d
 			y: 4.17346938775509d
 		}
 		{
@@ -2301,7 +2301,7 @@
 				item: "artifacts:umbrella"
 				type: "item"
 			}]
-			x: 5.15d
+			x: 3.6500000000000004d
 			y: 3.473469387755091d
 		}
 		{
@@ -2330,7 +2330,7 @@
 				item: "artifacts:plastic_drinking_hat"
 				type: "item"
 			}]
-			x: 4.1d
+			x: 2.5999999999999996d
 			y: 4.52346938775509d
 		}
 		{
@@ -2359,7 +2359,7 @@
 				item: "artifacts:novelty_drinking_hat"
 				type: "item"
 			}]
-			x: 4.449999999999999d
+			x: 2.9499999999999993d
 			y: 4.873469387755089d
 		}
 		{
@@ -2388,7 +2388,7 @@
 				item: "artifacts:scarf_of_invisibility"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.0d
 			y: 3.1234693877550908d
 		}
 		{
@@ -2417,7 +2417,7 @@
 				item: "artifacts:panic_necklace"
 				type: "item"
 			}]
-			x: 4.1d
+			x: 2.5999999999999996d
 			y: 3.8234693877550905d
 		}
 		{
@@ -2446,7 +2446,7 @@
 				item: "artifacts:bunny_hoppers"
 				type: "item"
 			}]
-			x: 5.85d
+			x: 4.35d
 			y: 4.873469387755089d
 		}
 		{
@@ -2475,7 +2475,7 @@
 				item: "artifacts:aqua_dashers"
 				type: "item"
 			}]
-			x: 3.75d
+			x: 2.25d
 			y: 4.873469387755089d
 		}
 		{
@@ -2504,7 +2504,7 @@
 				item: "things:broken_watch"
 				type: "item"
 			}]
-			x: 4.449999999999999d
+			x: 2.9499999999999993d
 			y: 3.473469387755091d
 		}
 		{
@@ -2533,7 +2533,7 @@
 				item: "artifacts:golden_hook"
 				type: "item"
 			}]
-			x: 5.85d
+			x: 4.35d
 			y: 3.473469387755091d
 		}
 		{
@@ -2562,7 +2562,7 @@
 				item: "artifacts:whoopee_cushion"
 				type: "item"
 			}]
-			x: 5.85d
+			x: 4.35d
 			y: 4.17346938775509d
 		}
 		{
@@ -2597,7 +2597,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.15d
+			x: 3.6500000000000004d
 			y: 4.17346938775509d
 		}
 		{
@@ -2635,7 +2635,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.0d
 			y: 5.223469387755089d
 		}
 		{
@@ -2664,7 +2664,7 @@
 				item: "things:rabbit_foot_charm"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.0d
 			y: 3.8234693877550905d
 		}
 		{
@@ -2693,7 +2693,7 @@
 				item: "things:placebo"
 				type: "item"
 			}]
-			x: 4.800000000000001d
+			x: 3.3000000000000007d
 			y: 3.1234693877550908d
 		}
 		{
@@ -2727,7 +2727,7 @@
 				item: "things:luck_of_the_irish"
 				type: "item"
 			}]
-			x: 4.800000000000001d
+			x: 3.3000000000000007d
 			y: 3.8234693877550905d
 		}
 		{
@@ -2750,7 +2750,7 @@
 				type: "checkmark"
 			}]
 			title: "Ender eyes"
-			x: -6.5d
+			x: -5.0d
 			y: 3.0d
 		}
 		{
@@ -2808,7 +2808,7 @@
 				title: "Artifacts + things"
 				type: "checkmark"
 			}]
-			x: 5.180272108843539d
+			x: 3.680272108843539d
 			y: 2.4499999999999997d
 		}
 		{
@@ -2895,7 +2895,7 @@
 				type: "observation"
 			}]
 			x: 0.0d
-			y: 2.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1EF8193BECA95331"]
@@ -2914,7 +2914,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 3.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1EF8193BECA95331"]
@@ -2932,7 +2932,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7E0AD89FB624F4F8"]
@@ -2950,7 +2950,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 4.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -2971,7 +2971,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 5.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["47EE8DBE6671207D"]
@@ -2997,7 +2997,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 6.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["1EF8193BECA95331"]
@@ -3015,7 +3015,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["68D1FA710C01D507"]
@@ -3068,8 +3068,8 @@
 				type: "observation"
 			}]
 			title: "Loot goblins"
-			x: 2.0d
-			y: -0.5d
+			x: 3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["68D1FA710C01D507"]
@@ -3120,8 +3120,8 @@
 				type: "structure"
 			}]
 			title: "Orc camp"
-			x: 1.5d
-			y: -2.0d
+			x: 2.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["68D1FA710C01D507"]
@@ -3186,8 +3186,8 @@
 				type: "observation"
 			}]
 			title: "Many goblins"
-			x: -2.0d
-			y: -0.5d
+			x: 4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["68D1FA710C01D507"]
@@ -3252,8 +3252,8 @@
 				type: "observation"
 			}]
 			title: "Many Many goblins"
-			x: -1.5d
-			y: -2.0d
+			x: 1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["68D1FA710C01D507"]
@@ -3314,8 +3314,8 @@
 				type: "observation"
 			}]
 			title: "Minigame?!"
-			x: -1.0d
-			y: 1.5d
+			x: 2.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["68D1FA710C01D507"]
@@ -3372,8 +3372,207 @@
 				type: "observation"
 			}]
 			title: "Ez exp"
-			x: 1.0d
-			y: 1.5d
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68D1FA710C01D507"]
+			description: [
+				"Magnets (activated with redstone) that control mobs path-finding, perfect for mob farms"
+				""
+				"Found just under the surface anywhere in the overworld"
+				"{@pagebreak}"
+				""
+				"Магниты (активируются редстоуном), которые контролируют поиск пути мобов, идеально подходят для ферм мобов"
+				""
+				"Находится под землёй в любой точке обычного мира."
+			]
+			id: "4BC582E820CBBA58"
+			rewards: [{
+				id: "75DAEF3973F61E0C"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [
+				{
+					icon: "lost_idols:attraction_idol"
+					id: "4B265D9FD2C5E3A1"
+					observe_type: 0
+					timer: 0L
+					to_observe: "lost_idols:attraction_idol"
+					type: "observation"
+				}
+				{
+					icon: "lost_idols:repulsion_idol"
+					id: "401A9CAA8583F07B"
+					observe_type: 0
+					timer: 0L
+					to_observe: "lost_idols:repulsion_idol"
+					type: "observation"
+				}
+			]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["68D1FA710C01D507"]
+			description: [
+				"Found on runaway treasure ships in the end!"
+				""
+				"Activated with Phantom Membrane"
+				""
+				"{@pagebreak}"
+				"Находится на беглых кораблях с сокровищами в энде!"
+				""
+				"Активируется с помощью мембраны фантомов"
+			]
+			id: "40F10A413259248B"
+			rewards: [{
+				id: "301E80212422094A"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: "lost_idols:shulker_idol"
+				id: "2BD30604BDE96165"
+				observe_type: 0
+				timer: 0L
+				to_observe: "lost_idols:shulker_idol"
+				type: "observation"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["68D1FA710C01D507"]
+			description: [
+				"A blue jar that attracts fireflies when lit"
+				""
+				"Found in Alchemy Huts in swamp and mangrove biomes"
+				""
+				"Light with a Flint and Steel"
+				""
+				"{@pagebreak}"
+				"Синяя банка, которая притягивает светлячков"
+				""
+				"Находится в алхимических хижинах на болотах и в мангровых биомах"
+				""
+				"Зажигается с помощью зажигалки."
+			]
+			id: "6D008D72D8202F5A"
+			rewards: [{
+				id: "491F57D2CFC69709"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: "lost_idols:promise_idol"
+				id: "24E9B421ABAC8493"
+				observe_type: 0
+				timer: 0L
+				to_observe: "lost_idols:promise_idol"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["68D1FA710C01D507"]
+			description: [
+				"Found on floating islands"
+				""
+				"Beams down any phantoms in a huge area"
+				""
+				"Activate by dropping it from a really high place!"
+				""
+				"{@pagebreak}"
+				"Находится на летающих островах"
+				""
+				"Сбивает всех фантомов в огромной области"
+				""
+				"Активируется, если сбросить его с очень высокого места!"
+			]
+			id: "2F8A91979E572997"
+			rewards: [{
+				id: "6986932820CC4BC3"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "The phantom destroyer 3000"
+			tasks: [{
+				icon: "lost_idols:bird_idol"
+				id: "26290C68F96B0D1B"
+				observe_type: 0
+				timer: 0L
+				to_observe: "lost_idols:bird_idol"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68D1FA710C01D507"]
+			description: [
+				"Found at beaches, can also be popped with redstone"
+				""
+				"{@pagebreak}"
+				"Находится на пляжах, также может стрельнуть яйцом с помощью красного камня"
+			]
+			id: "6B361B7416C56819"
+			rewards: [{
+				id: "44D336DB326763BE"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: "lost_idols:moai_idol"
+				id: "75EE231EEB8C7A5C"
+				observe_type: 0
+				timer: 0L
+				to_observe: "lost_idols:moai_idol"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["68D1FA710C01D507"]
+			description: [
+				"Health booster, increases the health of all entities within range"
+				""
+				"Found in small pyramids in deserts"
+				""
+				"Activate it by giving it a gold block"
+				""
+				"{@pagebreak}"
+				"Усилитель здоровья, увеличивает здоровье всех существ в радиусе действия"
+				""
+				"Находится в небольших пирамидах в пустынях"
+				""
+				"Активируйте его, дав ему золотой блок."
+			]
+			id: "0E97401F28581886"
+			rewards: [{
+				id: "6A63E78E1A9C1247"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				icon: "lost_idols:sphinx_idol"
+				id: "0824B22B1BAA6209"
+				observe_type: 0
+				timer: 0L
+				to_observe: "lost_idols:sphinx_idol"
+				type: "observation"
+			}]
+			x: -3.5d
+			y: -2.0d
 		}
 	]
 	title: "Exploring"

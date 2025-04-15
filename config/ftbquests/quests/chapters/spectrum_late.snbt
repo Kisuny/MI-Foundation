@@ -1031,7 +1031,7 @@
 				item: "travelersbackpack:netherite_tier_upgrade"
 				type: "item"
 			}]
-			x: -2.6275510204081627d
+			x: -3.1275510204081627d
 			y: -12.455782312925166d
 		}
 		{
@@ -1605,7 +1605,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.3554421768707456d
+			x: -3.8554421768707456d
 			y: -12.46938775510204d
 		}
 		{
@@ -1651,7 +1651,7 @@
 				item: "kubejs:teleport_pearl"
 				type: "item"
 			}]
-			x: -4.010204081632658d
+			x: -4.510204081632658d
 			y: -12.464285714285715d
 		}
 		{
@@ -2138,7 +2138,12 @@
 		{
 			dependencies: ["48D66C687AFCE78C"]
 			description: [
-				""
+				"A full set of armor allows: "
+				"• Fly"
+				"• Breathe underwater"
+				"• Protect against any source of fire"
+				"• Protect from falling damage"
+				"• Protect against most negative effects"
 				"{@pagebreak}"
 				"Полный сет брони позволяет: "
 				"• Летать"
@@ -2319,7 +2324,7 @@
 				"081890134CDCA36C"
 			]
 			description: [
-				""
+				"ShovelAxePickaxe"
 				"{@pagebreak}"
 				"ЛопатаТопорКирка"
 			]
@@ -2346,7 +2351,7 @@
 		{
 			dependencies: ["6B098DC821BB1DC4"]
 			description: [
-				""
+				"ShovelAxePick + infinite number of torches when pressing RMB"
 				"{@pagebreak}"
 				"ЛопатаТопорКирка + бесконечно количество факелов при нажатие ПКМ"
 			]
@@ -2598,7 +2603,7 @@
 		{
 			dependencies: ["4900513AF3F81E5B"]
 			description: [
-				""
+				"Heals while in inventory"
 				"{@pagebreak}"
 				"Исцеляет находясь в инвентаре"
 			]
@@ -2651,8 +2656,7 @@
 		{
 			dependencies: ["7F52C6A6C7EB5BE4"]
 			description: [
-				""
-				""
+				"The medallion gives underwater breath when in inventory."
 				"{@pagebreak}"
 				"Медальон даёт подводное дыхание когда находится в инвентаре."
 			]
@@ -2673,7 +2677,7 @@
 		{
 			dependencies: ["3A3FF538987E0D2B"]
 			description: [
-				""
+				"Provides you with extra speed"
 				""
 				"{@pagebreak}"
 				"Когда находится в инвентаре и активирован — увеличивает скорость передвижения."
@@ -2695,7 +2699,7 @@
 		{
 			dependencies: ["3A3FF538987E0D2B"]
 			description: [
-				""
+				"Changes the weather on click!"
 				"{@pagebreak}"
 				"Отключение дождя одним кликом мыши!"
 			]
@@ -2716,7 +2720,7 @@
 		{
 			dependencies: ["3A3FF538987E0D2B"]
 			description: [
-				""
+				"Returns player to last bed spawn"
 				"{@pagebreak}"
 				"При активации возвращает игрока на его точку возраждения — т.е. кровать."
 			]
@@ -2737,7 +2741,7 @@
 		{
 			dependencies: ["3A3FF538987E0D2B"]
 			description: [
-				""
+				"Accelerates crop growth"
 				"{@pagebreak}"
 				"Ускоряет рост культур находясь в инвентаре."
 			]
@@ -2758,7 +2762,13 @@
 		{
 			dependencies: ["3A3FF538987E0D2B"]
 			description: [
+				"Provides a few minutes of floating"
 				""
+				"No Fall Damage while in inventory"
+				""
+				"Right-click while in offhand to activate"
+				""
+				"Sneak + right-click to toggle wall climbing"
 				"{@pagebreak}"
 				"Избавление от урона при падение, так же можно переключить режима лазанья по стенам используя SHIFT + ПКМ."
 			]
@@ -2811,7 +2821,7 @@
 		{
 			dependencies: ["649D25EF34BA92DC"]
 			description: [
-				""
+				"Takes the sting out of projectiles"
 				"{@pagebreak}"
 				"Убирает урон от летящих в тебя снарядов"
 			]
@@ -2832,7 +2842,7 @@
 		{
 			dependencies: ["649D25EF34BA92DC"]
 			description: [
-				""
+				"Heals while in inventory"
 				"{@pagebreak}"
 				"Исцеляет находясь в инвентаре"
 			]
@@ -2853,7 +2863,7 @@
 		{
 			dependencies: ["649D25EF34BA92DC"]
 			description: [
-				""
+				"Gain extra experience when killing and mining."
 				"{@pagebreak}"
 				"Получение дополнительного опыта при убийстве и копании."
 			]
@@ -2880,7 +2890,7 @@
 		{
 			dependencies: ["109B68773E1C28A8"]
 			description: [
-				""
+				"Provides extra strength and damage resistance"
 				"{@pagebreak}"
 				"Дополнительная сила и сопротивление урону "
 			]
@@ -2901,7 +2911,7 @@
 		{
 			dependencies: ["109B68773E1C28A8"]
 			description: [
-				""
+				"Slowly repairs a single, damaged item in player inventory"
 				"{@pagebreak}"
 				"Медленно чинит один предмет в инвентаре игрока "
 			]
@@ -2922,7 +2932,9 @@
 		{
 			dependencies: ["109B68773E1C28A8"]
 			description: [
+				"Protection from fire and lava "
 				""
+				"Healing while in lava"
 				"{@pagebreak}"
 				"Защищает от лавы и огня, лечит если игрок в лаве"
 			]
@@ -2943,7 +2955,7 @@
 		{
 			dependencies: ["109B68773E1C28A8"]
 			description: [
-				""
+				"Provides curing for negative potion effects"
 				"{@pagebreak}"
 				"Избавляет игрока от негативных эффектов при активции"
 			]
@@ -2964,7 +2976,7 @@
 		{
 			dependencies: ["109B68773E1C28A8"]
 			description: [
-				""
+				"Provides Haste effect"
 				"{@pagebreak}"
 				"При активации даёт эффект Спешки, работает когда кольцо в инвентаре"
 			]
@@ -2985,7 +2997,7 @@
 		{
 			dependencies: ["109B68773E1C28A8"]
 			description: [
-				""
+				"Provides a little extra Luck"
 				"{@pagebreak}"
 				"Увеличивает удачу носителя, работает когда в инвентаре"
 			]
@@ -3006,7 +3018,7 @@
 		{
 			dependencies: ["109B68773E1C28A8"]
 			description: [
-				""
+				"Allows for walking in the air"
 				"{@pagebreak}"
 				"Позволяет ходить по воздуху когда в основной руке, при нажатие ПКМ устанавливает чистое стекло в воздухе на месте нажатия"
 			]
@@ -3043,7 +3055,7 @@
 		{
 			dependencies: ["28177CA83CDC8688"]
 			description: [
-				""
+				"Breaks most grass, flowers, and bush"
 				"{@pagebreak}"
 				"Посох разрушает большее количество травы вокруг игрока."
 			]
@@ -3064,7 +3076,8 @@
 		{
 			dependencies: ["28177CA83CDC8688"]
 			description: [
-				""
+				"Transforms some blocks into other blocks"
+				"Works in a crafting table"
 				"{@pagebreak}"
 				"Преобразует один ресурс в другой ценой прочности, работает в крафте."
 			]
@@ -3091,7 +3104,9 @@
 		{
 			dependencies: ["28177CA83CDC8688"]
 			description: [
+				"Accelerates crop growth while in main hand"
 				""
+				"Right-click to harvest crops"
 				"{@pagebreak}"
 				"Ускоряет рост культур вокруг игрока так же позволяет собирать выросшие культуры на ПКМ."
 			]
@@ -3128,7 +3143,9 @@
 		{
 			dependencies: ["6752C275A1A5810E"]
 			description: [
+				"Right-click on vanilla sapling to change types"
 				""
+				"Sneak + right-click on vanilla glass to change to Clear Glass"
 				"{@pagebreak}"
 				"Позволяет менять тип саженца и преобразовывать обычное стекло - в чистое."
 			]
@@ -3149,7 +3166,7 @@
 		{
 			dependencies: ["6752C275A1A5810E"]
 			description: [
-				""
+				"Places unlimited torches"
 				"{@pagebreak}"
 				"БЕСКОНЕЧНЫЕ ФАКЕЛА?!"
 			]
@@ -3170,7 +3187,7 @@
 		{
 			dependencies: ["3A3FF538987E0D2B"]
 			description: [
-				""
+				"Breaks most vanilla blocks around the player"
 				"{@pagebreak}"
 				"Разрушение блоков вокруг игрока при нажатие ПКМ, держа в второй руке палочку - блоки будут падать в инвентарь. "
 				"Кольцо разрушает только ванильные блоки."
@@ -3192,7 +3209,7 @@
 		{
 			dependencies: ["3A3FF538987E0D2B"]
 			description: [
-				""
+				"A magnet - but for mages"
 				"{@pagebreak}"
 				"Магнит — но для магов"
 			]
@@ -3215,6 +3232,26 @@
 			}]
 			x: -24.0d
 			y: -3.5d
+		}
+		{
+			dependencies: ["08C0BC7DF568805D"]
+			description: [
+				"Provides localised immortality"
+				""
+				"Activate by giving it an emerald"
+				"{@pagebreak}"
+				"Установив на землю и дав алтарю изумруд — в радиусе действия алтаря любое существо не сможет умереть, в т.ч. игрок."
+			]
+			id: "0AF589BCB350781F"
+			shape: "gear"
+			size: 0.7d
+			tasks: [{
+				id: "207EFB4F39F54926"
+				item: "lost_idols:undying_idol"
+				type: "item"
+			}]
+			x: -2.4285714285714377d
+			y: -12.489795918367363d
 		}
 	]
 	title: "Spectrum: Is it over?…"

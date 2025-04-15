@@ -15,7 +15,14 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["575E6D44D50748AE"]
 			id: "36EEEB8EA981F331"
+			rewards: [{
+				count: 10
+				id: "1F76DD69378E2819"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5FAB61842F216FF9"
 				item: {
@@ -28,11 +35,18 @@
 				title: "Any #blood_mages:t1_weapons"
 				type: "item"
 			}]
-			x: -10.5d
-			y: -1.5d
+			x: -8.0d
+			y: -3.5d
 		}
 		{
+			dependencies: ["5088D821723C6C29"]
 			id: "2DA1292AB5BFA594"
+			rewards: [{
+				count: 10
+				id: "1EE2178F64A618CF"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0FC5589FE1A9CFFD"
 				item: {
@@ -45,11 +59,18 @@
 				title: "Any #bards:t1_weapons"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -1.5d
+			x: -8.0d
+			y: 2.5d
 		}
 		{
+			dependencies: ["3849F327C03C2DC8"]
 			id: "54B823E802D1AE52"
+			rewards: [{
+				count: 10
+				id: "67FBFF2F56D9A293"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "795485C454217D8A"
 				item: {
@@ -62,35 +83,51 @@
 				title: "Any #druid:t1_weapons"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -1.5d
+			x: -8.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["52347B45DED1E8CD"]
 			id: "575E6D44D50748AE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3DC46ECEE74FB0BF"
-				table_id: 7381691222837690511L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3DC46ECEE74FB0BF"
+					table_id: 7381691222837690511L
+					type: "choice"
+				}
+				{
+					count: 10
+					id: "36FC62AACF5CEF5B"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1C6F3F196BE94FE3"
 				item: "blood_mages:blood_mages_spell_book"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 0.5d
+			x: -6.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["52347B45DED1E8CD"]
 			id: "5088D821723C6C29"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "22904EF6392032F8"
-				table_id: 7381691222837690511L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "22904EF6392032F8"
+					table_id: 7381691222837690511L
+					type: "choice"
+				}
+				{
+					count: 10
+					id: "4C5EF0032ABA871E"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "6A71CD7462B63364"
 				item: {
@@ -103,18 +140,26 @@
 				title: "Any #bards:magic_spell_books"
 				type: "item"
 			}]
-			x: -9.5d
-			y: 0.5d
+			x: -6.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["52347B45DED1E8CD"]
 			id: "3191AC09F16A848E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2EDE7245C10264BD"
-				table_id: 7381691222837690511L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2EDE7245C10264BD"
+					table_id: 7381691222837690511L
+					type: "choice"
+				}
+				{
+					count: 10
+					id: "3E1DBC118A1EEE64"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0B4FEAE0661A88DC"
 				item: {
@@ -127,35 +172,51 @@
 				title: "Any #battlemages:magic_spell_books"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 0.5d
+			x: -6.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["52347B45DED1E8CD"]
 			id: "3849F327C03C2DC8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4FFC8BCF18F6CBF4"
-				table_id: 7381691222837690511L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4FFC8BCF18F6CBF4"
+					table_id: 7381691222837690511L
+					type: "choice"
+				}
+				{
+					count: 10
+					id: "73F50F5E8483AAC9"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "211243C34009366A"
 				item: "druid:druids_spell_book"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 0.5d
+			x: -6.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["52347B45DED1E8CD"]
 			id: "6040E7E9E923E368"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1C76B9DE2A0F3CCD"
-				table_id: 7381691222837690511L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1C76B9DE2A0F3CCD"
+					table_id: 7381691222837690511L
+					type: "choice"
+				}
+				{
+					count: 10
+					id: "24DCF1BBDAD8C9FA"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5A9E588025469996"
 				item: {
@@ -174,12 +235,20 @@
 		{
 			dependencies: ["52347B45DED1E8CD"]
 			id: "7F6A33B84ABD48D8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5D1D0E4077481784"
-				table_id: 7381691222837690511L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5D1D0E4077481784"
+					table_id: 7381691222837690511L
+					type: "choice"
+				}
+				{
+					count: 10
+					id: "3A6E32AF57AFA414"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "188EC353377E03CB"
 				item: {
@@ -192,18 +261,26 @@
 				title: "Any #fallenwizardsmod:magic_spell_books"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 0.5d
+			x: -6.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["52347B45DED1E8CD"]
 			id: "0E350FB2D21CCE63"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4DBD6F10E1FBA3C1"
-				table_id: 7381691222837690511L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4DBD6F10E1FBA3C1"
+					table_id: 7381691222837690511L
+					type: "choice"
+				}
+				{
+					count: 10
+					id: "1EF5B8C1217D5B6B"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "732B21D57FAFA344"
 				item: {
@@ -216,18 +293,26 @@
 				title: "Any #morewizardsmod:magic_spell_books"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 0.5d
+			x: -6.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["52347B45DED1E8CD"]
 			id: "6E2D7A25F007ED8C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "43D1DC3429AA54C6"
-				table_id: 7381691222837690511L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "43D1DC3429AA54C6"
+					table_id: 7381691222837690511L
+					type: "choice"
+				}
+				{
+					count: 10
+					id: "58104EC3A0F10A45"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3737A850795630A3"
 				item: {
@@ -240,18 +325,26 @@
 				title: "Any #paladins:magic_spell_books"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 0.5d
+			x: -6.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["52347B45DED1E8CD"]
 			id: "49D94A1BDCA6A830"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7B8D8E5873895549"
-				table_id: 7381691222837690511L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7B8D8E5873895549"
+					table_id: 7381691222837690511L
+					type: "choice"
+				}
+				{
+					count: 10
+					id: "750526AB826EDBC8"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "427F938651FF0DB9"
 				item: {
@@ -264,11 +357,18 @@
 				title: "Any #wizards:magic_spell_books"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 0.5d
+			x: -6.5d
+			y: -4.5d
 		}
 		{
+			dependencies: ["575E6D44D50748AE"]
 			id: "76336C8FF4944F9D"
+			rewards: [{
+				count: 10
+				id: "5BEB1C8B603E5527"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0848D4D36E172CF4"
@@ -315,11 +415,18 @@
 					type: "item"
 				}
 			]
-			x: -10.5d
-			y: 3.0d
+			x: -5.0d
+			y: -3.5d
 		}
 		{
+			dependencies: ["5088D821723C6C29"]
 			id: "775DE8B980441C15"
+			rewards: [{
+				count: 10
+				id: "55DA350A2A00E53D"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4DEAB16F9B7D84DD"
@@ -366,11 +473,18 @@
 					type: "item"
 				}
 			]
-			x: -9.5d
-			y: 3.0d
+			x: -5.0d
+			y: 2.5d
 		}
 		{
+			dependencies: ["3191AC09F16A848E"]
 			id: "48A285EC71061487"
+			rewards: [{
+				count: 10
+				id: "1AC838971AE8D166"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "3AC4BFC50CB3F19F"
@@ -421,11 +535,18 @@
 					type: "item"
 				}
 			]
-			x: -8.5d
-			y: 3.0d
+			x: -5.0d
+			y: -1.5d
 		}
 		{
+			dependencies: ["3191AC09F16A848E"]
 			id: "750A753D76F836F4"
+			rewards: [{
+				count: 10
+				id: "024422C112A2717A"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3149E34A93D33585"
 				item: {
@@ -438,11 +559,18 @@
 				title: "Any #battlemages:weapons_t1"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -8.0d
 			y: -1.5d
 		}
 		{
+			dependencies: ["3849F327C03C2DC8"]
 			id: "595FE5274F7B514D"
+			rewards: [{
+				count: 10
+				id: "1462A72B3FDDEF60"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "302D4D000AE3B738"
@@ -489,11 +617,18 @@
 					type: "item"
 				}
 			]
-			x: -7.5d
-			y: 3.0d
+			x: -5.0d
+			y: -0.5d
 		}
 		{
+			dependencies: ["6040E7E9E923E368"]
 			id: "2A20315EBA5449D5"
+			rewards: [{
+				count: 10
+				id: "5A7BAE262F8C6084"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "4974966B6997F1C4"
@@ -544,11 +679,18 @@
 					type: "item"
 				}
 			]
-			x: -6.5d
-			y: 3.0d
+			x: -5.0d
+			y: 0.5d
 		}
 		{
+			dependencies: ["6040E7E9E923E368"]
 			id: "7A29904B392C87C9"
+			rewards: [{
+				count: 10
+				id: "6C426E760FA743F3"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "25E757C4D8ED0458"
 				item: {
@@ -561,11 +703,18 @@
 				title: "Any #fpapmod:t1_weapons"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -1.5d
+			x: -8.0d
+			y: 0.5d
 		}
 		{
+			dependencies: ["7F6A33B84ABD48D8"]
 			id: "53A061ECC23AE951"
+			rewards: [{
+				count: 10
+				id: "0F268E7F306B7E83"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0F8582024B46D8FD"
@@ -616,11 +765,18 @@
 					type: "item"
 				}
 			]
-			x: -5.5d
-			y: 3.0d
+			x: -5.0d
+			y: 1.5d
 		}
 		{
+			dependencies: ["7F6A33B84ABD48D8"]
 			id: "21B5959FD2AC93E7"
+			rewards: [{
+				count: 10
+				id: "65AB5628DAC86413"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0524BB75990EEBB4"
 				item: {
@@ -633,11 +789,18 @@
 				title: "Any #fallenwizardsmod:t1_weapons"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -1.5d
+			x: -8.0d
+			y: 1.5d
 		}
 		{
+			dependencies: ["0E350FB2D21CCE63"]
 			id: "126E9310AEBADD95"
+			rewards: [{
+				count: 10
+				id: "73FB16B4495EAA80"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6803428C2422C440"
 				item: {
@@ -650,11 +813,18 @@
 				title: "Any #morewizardsmod:t1_weapons"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -1.5d
+			x: -8.0d
+			y: -2.5d
 		}
 		{
+			dependencies: ["0E350FB2D21CCE63"]
 			id: "144E65B4F11938F3"
+			rewards: [{
+				count: 10
+				id: "465FA5EEB3042A4F"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5D1C820F3973CE10"
@@ -705,11 +875,18 @@
 					type: "item"
 				}
 			]
-			x: -4.5d
-			y: 3.0d
+			x: -5.0d
+			y: -2.5d
 		}
 		{
+			dependencies: ["6E2D7A25F007ED8C"]
 			id: "665FF6357126C8CC"
+			rewards: [{
+				count: 10
+				id: "5454C599FD898E88"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5FB12DC304FB08EF"
 				item: {
@@ -722,11 +899,18 @@
 				title: "Any #paladins:t1_weapons"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -1.5d
+			x: -9.0d
+			y: 3.5d
 		}
 		{
+			dependencies: ["6E2D7A25F007ED8C"]
 			id: "3D7B446B5ECCA398"
+			rewards: [{
+				count: 10
+				id: "2B33E2830F28D1B7"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "6CDD5AE5E9D638C6"
@@ -777,11 +961,18 @@
 					type: "item"
 				}
 			]
-			x: -3.5d
-			y: 3.0d
+			x: -5.0d
+			y: 3.5d
 		}
 		{
+			dependencies: ["49D94A1BDCA6A830"]
 			id: "11DEBD8CA4B689B4"
+			rewards: [{
+				count: 10
+				id: "5F96E734D98C958D"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "56D5FCFB7C6371C8"
 				item: {
@@ -794,11 +985,18 @@
 				title: "Any #wizards:t1_weapons"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -1.5d
+			x: -8.0d
+			y: -4.5d
 		}
 		{
+			dependencies: ["49D94A1BDCA6A830"]
 			id: "6705A98D00C46EF9"
+			rewards: [{
+				count: 10
+				id: "5EABC36C8F9759E8"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "575A630DC0C284B8"
@@ -849,990 +1047,2342 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
-			y: 3.0d
+			x: -5.0d
+			y: -4.5d
 		}
 		{
+			dependencies: ["1967350B85C591DE"]
+			description: [
+				"&5Rune Altar&r - allows you to &eget more runes&r when crafting, using the same number of items as in the workbench."
+				"{@pagebreak}"
+				"&5Рунный алтарь&r — позволяет получать &eбольше рун&r при крафте, используя то же количество предметов что и в верстаке."
+			]
 			id: "3546A74BF93C73F8"
+			rewards: [{
+				count: 10
+				id: "3899C78FDDFF26CA"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
+			shape: "diamond"
 			tasks: [{
 				id: "0F5F8D4DA3F6BDCD"
 				item: "runes:crafting_altar"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -6.0d
 			y: 6.5d
 		}
 		{
+			dependencies: ["1967350B85C591DE"]
+			description: [
+				"The table is designed to get the &5basic spells&r, putting the &3book&r — you can choose &6one of the schools&r, magic of which you would like to possess. Each &6school has its own spells&r and &6peculiarities&r, nobody forbids you to choose &ewhat you like more&r or to &3choose several schools&r, everything is in your hands!"
+				""
+				"Any book of abilities is necessary not only to create but also to &5open a skill&r in the table, after that, the &l&3player needs to put the book in the slot trinket&r&r, after these actions the player will be able to &dcast spells&r from the book with &9any weapon&r."
+				""
+				"{@pagebreak}"
+				"Столик предназначен для получения &5основных заклинаний&r, положив обычную &3книгу&r — вы можете выбрать &6одну из школ&r, магией которой вы бы хотели обладать. У каждой &6школы свои заклинения&r и &6свои особенности&r, вам никто не запрещает выбрать то, что &eвам нравится больше&r или &3выбрать несколько школ&r, всё в ваших руках! "
+				""
+				"Любую книгу способностей необходим не только создать но и &5открыть умение&r в столе, после же, &l&3игроку необходимо надеть книгу в слот безделушки&r&r, после этих действий игрок сможет &dкастовать заклинание&r из книги &l&9любым оружием&r&r."
+			]
 			id: "52347B45DED1E8CD"
+			rewards: [{
+				count: 10
+				id: "28F1013ECB415B8C"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
+			shape: "diamond"
 			tasks: [{
 				id: "6DA358A9F0AAB535"
 				item: "spell_engine:spell_binding"
 				type: "item"
 			}]
 			x: -6.5d
-			y: 5.0d
+			y: 6.0d
 		}
 		{
+			dependencies: ["1967350B85C591DE"]
+			description: [
+				"Ancient bag - with a variety of trinkets that increase your strength in percentages!  They can also be improved!"
+				""
+				"Can be bought from a &2Goblin trader&r/&cVein Goblin Trader&r and a &6Wandering Trader&r!"
+				"{@pagebreak}"
+				"Древний мешок — с разнообразными безделушками которые усиляют вашу силу в процентах!  Их так же можно улучшить!"
+				""
+				"Можно купить у &2гоблина&r/&cадского гоблина&r и у &6странствующего торговца&r!"
+			]
 			id: "0F5A457A5CFFACDD"
+			rewards: [{
+				count: 10
+				id: "5E735CEFFBCDDF07"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "27BA36654F1F7B7F"
 				item: "tatimod:ancient_sack"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -6.5d
+			x: -9.0d
+			y: 12.0d
 		}
 		{
+			dependencies: ["1967350B85C591DE"]
+			description: [
+				"Precious bag - with a variety of trinkets that increase your power percentage!"
+				""
+				"Can be bought from a &2Goblin trader&r/&cVein Goblin Trader&r and a &6Wandering Trader&r!"
+				"{@pagebreak}"
+				"Драгоценный мешок — с разнообразными безделушками которые усиляют вашу силу в процентах!"
+				""
+				"Можно купить у &2гоблина&r/&cадского гоблина&r и у &6странствующего торговца&r!"
+			]
 			id: "4A188891B1AB9EBE"
+			rewards: [{
+				count: 10
+				id: "3E6D2B638795A02C"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1627B53BA56CF209"
 				item: "tatimod:precious_sack"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -11.5d
+			x: -9.0d
+			y: 7.0d
 		}
 		{
+			dependencies: ["1967350B85C591DE"]
+			description: [
+				"&5Cursed Bag&r of &eBelts&r or &eAglets&r, they give a large percentage increase to various &5magical characteristics&r, but also take away various characteristics from the character, such as movement speed. They can also be improved!"
+				""
+				"Can be bought from a &2Goblin trader&r/&cVein Goblin Trader&r and a &6Wandering Trader&r!"
+				"{@pagebreak}"
+				"&5Проклятые мешок&r с &eПоясами&r или &eАглетами&r, они дают большой процент прибавки к разнообразным &5магическим характеристикам&r, но, так же &cзабирают&r разнообразные характеристика у персонажа, например скорость передвижения."
+				"Их так же можно улучшить!"
+				""
+				"Можно купить у &2гоблина&r/&cадского гоблина&r и у &6странствующего торговца&r!"
+			]
 			id: "71CFBC9FBE92EB1C"
+			rewards: [{
+				count: 10
+				id: "656A50B82EA6AB39"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "422A92EEE2B7649E"
 				item: "tctimod:cursed_sack"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -6.5d
+			x: -4.0d
+			y: 12.0d
 		}
 		{
+			dependencies: ["1967350B85C591DE"]
+			description: [
+				"&5Lost Bag&r of &eBelts&r or &eAglets&r, they give a large percentage boost to a variety of &5magical stats&r, but also take away a variety of character stats, such as movement speed."
+				""
+				"Can be bought from a &2Goblin trader&r/&cVein Goblin Trader&r and a &6Wandering Trader&r!"
+				"{@pagebreak}"
+				"&5Потерянный мешок&r с &eПоясами&r или &eАглетами&r, они дают большой процент прибавки к разнообразным &5магическим характеристикам&r, но, так же &cзабирают&r разнообразные характеристика у персонажа, например скорость передвижения."
+				""
+				"Можно купить у &2гоблина&r/&cадского гоблина&r и у &6странствующего торговца&r!"
+			]
 			id: "50F91CAEA54B6881"
+			rewards: [{
+				count: 10
+				id: "7986ACB4DBCDF595"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1D229613239EF1E4"
 				item: "tctimod:lost_sack"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -11.5d
+			x: -4.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0F5A457A5CFFACDD"]
 			id: "581AE13A5B865531"
+			rewards: [{
+				count: 10
+				id: "57E92236DAA7C334"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0D211B92925D984C"
 				item: "tatimod:ancient_citrine_ring"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -5.5d
+			x: -13.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["0F5A457A5CFFACDD"]
 			id: "17E8240FECE35D69"
+			rewards: [{
+				count: 10
+				id: "24BCE8EA20DB71A5"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3D6866E17104D25B"
 				item: "tatimod:ancient_jade_ring"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -5.5d
+			x: -10.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["0F5A457A5CFFACDD"]
 			id: "20D1713E32CF3CB1"
+			rewards: [{
+				count: 10
+				id: "02934F5149078C89"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3321807E2C7463D6"
 				item: "tatimod:ancient_sapphire_ring"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -5.5d
+			x: -12.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["0F5A457A5CFFACDD"]
 			id: "5DFCBEC47CF1999B"
+			rewards: [{
+				count: 10
+				id: "4EA9272D9D5D1F82"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6287D25F22A85C9D"
 				item: "tatimod:ancient_tanzanite_ring"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -5.5d
+			x: -11.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["0F5A457A5CFFACDD"]
 			id: "582AA421D3851876"
+			rewards: [{
+				count: 10
+				id: "7DEFCDFD142FB540"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "06A8FC413946471E"
 				item: "tatimod:ancient_ruby_ring"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -5.5d
+			x: -15.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["0F5A457A5CFFACDD"]
 			id: "3ACE5CFE0B886C27"
+			rewards: [{
+				count: 10
+				id: "3BE995E88374A0E0"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "56EA9781D41684A6"
 				item: "tatimod:ancient_topaz_ring"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -5.5d
+			x: -14.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["0F5A457A5CFFACDD"]
 			id: "62AF4813A72AC24D"
+			rewards: [{
+				count: 10
+				id: "70AE1B29D306EC29"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "47831353F69D58CB"
 				item: "tatimod:ancient_ruby_necklace"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -7.5d
+			x: -15.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0F5A457A5CFFACDD"]
 			id: "20CCFDA9374A0AB7"
+			rewards: [{
+				count: 10
+				id: "7BBA6AF87E668FE7"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4BF1B02D4F1FEFA6"
 				item: "tatimod:ancient_topaz_necklace"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -7.5d
+			x: -14.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0F5A457A5CFFACDD"]
 			id: "45B613EE529E4C74"
+			rewards: [{
+				count: 10
+				id: "0EAEC72DF28DD318"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6924401D88BB7C92"
 				item: "tatimod:ancient_citrine_necklace"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -7.5d
+			x: -13.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0F5A457A5CFFACDD"]
 			id: "34CAFC49C505A74D"
+			rewards: [{
+				count: 10
+				id: "275CC3D7D48E6DD9"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "729BE5951D68D6CC"
 				item: "tatimod:ancient_sapphire_necklace"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -7.5d
+			x: -12.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0F5A457A5CFFACDD"]
 			id: "1DD80CF591BE5438"
+			rewards: [{
+				count: 10
+				id: "50295716ECCE79E7"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "51274239BE26F9C1"
 				item: "tatimod:ancient_tanzanite_necklace"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -7.5d
+			x: -11.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0F5A457A5CFFACDD"]
 			id: "00F9A63F7FA27A49"
+			rewards: [{
+				count: 10
+				id: "2E5854AC02A3B786"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1FC7C6AE51DDD338"
 				item: "tatimod:ancient_jade_necklace"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -7.5d
+			x: -10.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["582AA421D3851876"]
 			id: "160F74F65F3EA483"
+			rewards: [{
+				count: 10
+				id: "3133633139557CB9"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1E49DB7FE54C3811"
 				item: "tatimod:ancient_netherite_ruby_ring"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -4.5d
+			x: -15.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["3ACE5CFE0B886C27"]
 			id: "4D40148456ABF767"
+			rewards: [{
+				count: 10
+				id: "5F3A2E8152F822D7"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "673D9FF176E5C73D"
 				item: "tatimod:ancient_netherite_topaz_ring"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -4.5d
+			x: -14.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["581AE13A5B865531"]
 			id: "251FF4DCAAA369B9"
+			rewards: [{
+				count: 10
+				id: "1BD78D026EC6DB81"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5C8E9FF9EF0349BF"
 				item: "tatimod:ancient_netherite_citrine_ring"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -4.5d
+			x: -13.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["20D1713E32CF3CB1"]
 			id: "4A4233395038389B"
+			rewards: [{
+				count: 10
+				id: "16405052C0C21A17"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7A4FD823AE59AF21"
 				item: "tatimod:ancient_netherite_sapphire_ring"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -4.5d
+			x: -12.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["5DFCBEC47CF1999B"]
 			id: "227012EC3482168E"
+			rewards: [{
+				count: 10
+				id: "1D6773F244C96F43"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5560E79C765A50E5"
 				item: "tatimod:ancient_netherite_tanzanite_ring"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -4.5d
+			x: -11.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["17E8240FECE35D69"]
 			id: "5B1FF1634D196EED"
+			rewards: [{
+				count: 10
+				id: "55D3034B2A7C290C"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "64763B6F9D740C5C"
 				item: "tatimod:ancient_netherite_jade_ring"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -4.5d
+			x: -10.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["62AF4813A72AC24D"]
 			id: "2890DB9A0A64C70C"
+			rewards: [{
+				count: 10
+				id: "67FE8A71B404F63A"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5AAB234F79C0F697"
 				item: "tatimod:ancient_netherite_ruby_necklace"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -8.5d
+			x: -15.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["20CCFDA9374A0AB7"]
 			id: "227E5400B3A9D829"
+			rewards: [{
+				count: 10
+				id: "4A9AF3C53390DB28"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "50F0554EF4E75960"
 				item: "tatimod:ancient_netherite_topaz_necklace"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -8.5d
+			x: -14.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["45B613EE529E4C74"]
 			id: "04B6202C2E70985F"
+			rewards: [{
+				count: 10
+				id: "05F07B548254827C"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5EDFDBE8013C1E1E"
 				item: "tatimod:ancient_netherite_citrine_necklace"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -8.5d
+			x: -13.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["34CAFC49C505A74D"]
 			id: "25028E380B84F5D4"
+			rewards: [{
+				count: 10
+				id: "793D7023FB1EAA3A"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "22C71529DAD8BFCF"
 				item: "tatimod:ancient_netherite_sapphire_necklace"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -8.5d
+			x: -12.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["1DD80CF591BE5438"]
 			id: "3127AAE4E5E11027"
+			rewards: [{
+				count: 10
+				id: "060B653EB0C6F108"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6A9AE9932D833433"
 				item: "tatimod:ancient_netherite_tanzanite_necklace"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -8.5d
+			x: -11.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["00F9A63F7FA27A49"]
 			id: "3CF520386CCB301E"
+			rewards: [{
+				count: 10
+				id: "25F26A8DE0C91BD8"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "46FD299A649C6241"
 				item: "tatimod:ancient_netherite_jade_necklace"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -8.5d
+			x: -10.0d
+			y: 10.0d
 		}
 		{
+			dependencies: ["4A188891B1AB9EBE"]
 			id: "36BED4B39386A792"
+			rewards: [{
+				count: 10
+				id: "69261DD377041B67"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "43AC20633C4EC8FB"
 				item: "tatimod:ancient_attack_necklace"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -12.5d
+			x: -18.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4A188891B1AB9EBE"]
 			id: "55310C8BC51BD630"
+			rewards: [{
+				count: 10
+				id: "30BBC08084A3810E"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0D170277F316AE7B"
 				item: "tatimod:ancient_defence_necklace"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -12.5d
+			x: -17.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4A188891B1AB9EBE"]
 			id: "5B537C23298414C2"
+			rewards: [{
+				count: 10
+				id: "1EB08D7DD87CC5AF"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "792CF8899D646050"
 				item: "tatimod:ancient_ranged_necklace"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -12.5d
+			x: -16.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4A188891B1AB9EBE"]
 			id: "592BBC032BD68DF6"
+			rewards: [{
+				count: 10
+				id: "5B35984C064D4A0E"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "19558D8C23C1253F"
 				item: "tatimod:ancient_arcane_necklace"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -12.5d
+			x: -15.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4A188891B1AB9EBE"]
 			id: "2546954AA95FC398"
+			rewards: [{
+				count: 10
+				id: "51163397923B149A"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "46BDCCB1089E53C5"
 				item: "tatimod:ancient_fire_necklace"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -12.5d
+			x: -14.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4A188891B1AB9EBE"]
 			id: "5E2878AE6CFF47A5"
+			rewards: [{
+				count: 10
+				id: "47020B466338505F"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2200E0F46841A885"
 				item: "tatimod:ancient_frost_necklace"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -12.5d
+			x: -13.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4A188891B1AB9EBE"]
 			id: "598A8D0CF98D9B65"
+			rewards: [{
+				count: 10
+				id: "7D44A158E6CC6CFE"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "66DB87BDCCCD1B37"
 				item: "tatimod:ancient_healing_necklace"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -12.5d
+			x: -12.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4A188891B1AB9EBE"]
 			id: "130927CEB6ED27A3"
+			rewards: [{
+				count: 10
+				id: "4E1CAD7521222185"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "47BC1693F0D82D6C"
 				item: "tatimod:ancient_lightning_necklace"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -12.5d
+			x: -11.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4A188891B1AB9EBE"]
 			id: "5315D6D515C3D63D"
+			rewards: [{
+				count: 10
+				id: "47698DF03D8148D3"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7CF4E8DB31028D4A"
 				item: "tatimod:ancient_soul_necklace"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -12.5d
+			x: -10.0d
+			y: 6.0d
 		}
 		{
+			dependencies: ["4A188891B1AB9EBE"]
 			id: "7F8D90AC56E9B094"
+			rewards: [{
+				count: 10
+				id: "65203BE56BB63AB9"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "05E6267499C5D152"
 				item: "tatimod:ancient_attack_ring"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -10.5d
+			x: -18.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4A188891B1AB9EBE"]
 			id: "4FB59677F5B2970B"
+			rewards: [{
+				count: 10
+				id: "40425852CAAF05DD"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6926F1993B6A399C"
 				item: "tatimod:ancient_defence_ring"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -10.5d
+			x: -17.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4A188891B1AB9EBE"]
 			id: "571C5C2C156DA072"
+			rewards: [{
+				count: 10
+				id: "2E171DFAC1143AD1"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6456BABE28B4E0C4"
 				item: "tatimod:ancient_ranged_ring"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -10.5d
+			x: -16.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4A188891B1AB9EBE"]
 			id: "240FF78FAED32971"
+			rewards: [{
+				count: 10
+				id: "2C1160F1A1AA4AF7"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7919559146510D3E"
 				item: "tatimod:ancient_arcane_ring"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -10.5d
+			x: -15.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4A188891B1AB9EBE"]
 			id: "15834BAB412829DE"
+			rewards: [{
+				count: 10
+				id: "2DB70E20161771FD"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "013A8EEA7BDD1079"
 				item: "tatimod:ancient_fire_ring"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -10.5d
+			x: -14.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4A188891B1AB9EBE"]
 			id: "0C29725CDAF5C9DC"
+			rewards: [{
+				count: 10
+				id: "51F90086F5CCD90D"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6DEEFCC2EFCB2774"
 				item: "tatimod:ancient_frost_ring"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -10.5d
+			x: -13.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4A188891B1AB9EBE"]
 			id: "2EDD343B1B3FFD08"
+			rewards: [{
+				count: 10
+				id: "183B2CA3DE40A150"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "38E4B8D46278F4F1"
 				item: "tatimod:ancient_healing_ring"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -10.5d
+			x: -12.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4A188891B1AB9EBE"]
 			id: "0E46A37EB86498DA"
+			rewards: [{
+				count: 10
+				id: "0D68B22233ADFF4A"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "187D7FF4696941F4"
 				item: "tatimod:ancient_lightning_ring"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -10.5d
+			x: -11.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4A188891B1AB9EBE"]
 			id: "59B5D5384D5E0C31"
+			rewards: [{
+				count: 10
+				id: "76A30A1760343817"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2D2AE8D0D9E442F7"
 				item: "tatimod:ancient_soul_ring"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -10.5d
+			x: -10.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["71CFBC9FBE92EB1C"]
 			id: "1010FAC183A79B3B"
+			rewards: [{
+				count: 10
+				id: "262343F48B1A1B1C"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00D993D981C9C80B"
 				item: "tctimod:cursed_ruby_belt"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -7.5d
+			x: -3.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["71CFBC9FBE92EB1C"]
 			id: "7A7294F8E313E388"
+			rewards: [{
+				count: 10
+				id: "4A319024FB2671B6"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7E89245730F6DDD1"
 				item: "tctimod:cursed_ruby_aglet"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -5.5d
+			x: -3.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["71CFBC9FBE92EB1C"]
 			id: "17D03BA281369EAC"
+			rewards: [{
+				count: 10
+				id: "292B76E2F8030E73"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "56299142656BFAE0"
 				item: "tctimod:cursed_topaz_belt"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -7.5d
+			x: -2.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["71CFBC9FBE92EB1C"]
 			id: "335B995AE4569A9C"
+			rewards: [{
+				count: 10
+				id: "05171359262D5F14"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3D1E48A62FA6C904"
 				item: "tctimod:cursed_topaz_aglet"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -5.5d
+			x: -2.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["71CFBC9FBE92EB1C"]
 			id: "657AAA238512520D"
+			rewards: [{
+				count: 10
+				id: "24F96893D11BB4CB"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4575711652CF0A6E"
 				item: "tctimod:cursed_citrine_belt"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -7.5d
+			x: -1.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["71CFBC9FBE92EB1C"]
 			id: "26C0D7DE161C6F0A"
+			rewards: [{
+				count: 10
+				id: "5EB29025BF97AE1F"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1161350930A00A30"
 				item: "tctimod:cursed_citrine_aglet"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -5.5d
+			x: -1.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["71CFBC9FBE92EB1C"]
 			id: "46038EBC7F35E6D1"
+			rewards: [{
+				count: 10
+				id: "77D1D83EDF02AC5F"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0C702216834DC05C"
 				item: "tctimod:cursed_jade_belt"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -7.5d
+			x: 0.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["71CFBC9FBE92EB1C"]
 			id: "2BBCB25585D31CE2"
+			rewards: [{
+				count: 10
+				id: "6A72F19FC15916F3"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1970C86EE481EDC7"
 				item: "tctimod:cursed_jade_aglet"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -5.5d
+			x: 0.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["71CFBC9FBE92EB1C"]
 			id: "075162C870752F2D"
+			rewards: [{
+				count: 10
+				id: "03D930EB120F577E"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "665ED0788CBC7202"
 				item: "tctimod:cursed_sapphire_belt"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -7.5d
+			x: 1.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["71CFBC9FBE92EB1C"]
 			id: "430124FB375AF4CB"
+			rewards: [{
+				count: 10
+				id: "489663C5914D7A95"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7441ABF9E37D54F0"
 				item: "tctimod:cursed_sapphire_aglet"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -5.5d
+			x: 1.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["71CFBC9FBE92EB1C"]
 			id: "64896B151A6942A9"
+			rewards: [{
+				count: 10
+				id: "08B38F7DC06D651F"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6BDEA985D7E226FD"
 				item: "tctimod:cursed_tanzanite_belt"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -7.5d
+			x: 2.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["71CFBC9FBE92EB1C"]
 			id: "5F232EE883055A7E"
+			rewards: [{
+				count: 10
+				id: "1C09C8F8F134CF07"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "07A72986C8C5550E"
 				item: "tctimod:cursed_tanzanite_aglet"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -5.5d
+			x: 2.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["1010FAC183A79B3B"]
 			id: "1F5EA96D1FF551EE"
+			rewards: [{
+				count: 10
+				id: "3A4C2A24D5C6B60D"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "13D3B784EABA69C7"
 				item: "tctimod:cursed_netherite_ruby_belt"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -8.5d
+			x: -3.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["17D03BA281369EAC"]
 			id: "5945355EF38B6CB8"
+			rewards: [{
+				count: 10
+				id: "40C3C33902EB9CA0"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "57D608BCEF2960D7"
 				item: "tctimod:cursed_netherite_topaz_belt"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -8.5d
+			x: -2.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["657AAA238512520D"]
 			id: "44DE6F6E8CE37475"
+			rewards: [{
+				count: 10
+				id: "4428CCB7855C43CF"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6AED08D619746B97"
 				item: "tctimod:cursed_netherite_citrine_belt"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -8.5d
+			x: -1.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["46038EBC7F35E6D1"]
 			id: "40597685EF36E48C"
+			rewards: [{
+				count: 10
+				id: "0174F59F3D7F1739"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "370C4E04EB24EC4A"
 				item: "tctimod:cursed_netherite_jade_belt"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -8.5d
+			x: 0.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["075162C870752F2D"]
 			id: "5C9D4F6D6D25AB9D"
+			rewards: [{
+				count: 10
+				id: "77943A74578A92FD"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3D7AB5265CB68D94"
 				item: "tctimod:cursed_netherite_sapphire_belt"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -8.5d
+			x: 1.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["64896B151A6942A9"]
 			id: "0966B29F40C8FDC1"
+			rewards: [{
+				count: 10
+				id: "18102595BD55AD5B"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3ACCF29540C1D5A9"
 				item: "tctimod:cursed_netherite_tanzanite_belt"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -8.5d
+			x: 2.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["7A7294F8E313E388"]
 			id: "6A861E4FB51BA7F9"
+			rewards: [{
+				count: 10
+				id: "5AF9CB46524E55EA"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0C42C80E23DD9000"
 				item: "tctimod:cursed_netherite_ruby_aglet"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -4.5d
+			x: -3.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["335B995AE4569A9C"]
 			id: "373951221BA43296"
+			rewards: [{
+				count: 10
+				id: "328018A13335916A"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "467DC1653D7653E3"
 				item: "tctimod:cursed_netherite_topaz_aglet"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -4.5d
+			x: -2.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["26C0D7DE161C6F0A"]
 			id: "04E4B788E5DD84A1"
+			rewards: [{
+				count: 10
+				id: "1A23E7CB27CD2E63"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "713308421B5271EF"
 				item: "tctimod:cursed_netherite_citrine_aglet"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -4.5d
+			x: -1.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["2BBCB25585D31CE2"]
 			id: "351987F3560E9D54"
+			rewards: [{
+				count: 10
+				id: "103D4BEAD777A7FB"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "70CC94B88A158CB5"
 				item: "tctimod:cursed_netherite_jade_aglet"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -4.5d
+			x: 0.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["430124FB375AF4CB"]
 			id: "2BBA45094E8F266E"
+			rewards: [{
+				count: 10
+				id: "01A60533D519849C"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4F8D83792FBEB54D"
 				item: "tctimod:cursed_netherite_sapphire_aglet"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -4.5d
+			x: 1.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["5F232EE883055A7E"]
 			id: "71E5341DEC4A874A"
+			rewards: [{
+				count: 10
+				id: "359E5137E845D176"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4CA83062BCD2ED04"
 				item: "tctimod:cursed_netherite_tanzanite_aglet"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -4.5d
+			x: 2.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["50F91CAEA54B6881"]
 			id: "0A1930E66D7D198C"
+			rewards: [{
+				count: 10
+				id: "275AC4DE8322A494"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0802CB910CCC37DB"
 				item: "tctimod:cursed_attack_belt"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -12.5d
+			x: -3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["50F91CAEA54B6881"]
 			id: "5757944BD45EF134"
+			rewards: [{
+				count: 10
+				id: "08EAF6C3C4325DEA"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7C37ACCB24F39EC3"
 				item: "tctimod:cursed_attack_aglet"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -10.5d
+			x: -3.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["50F91CAEA54B6881"]
 			id: "4FA87A238FBD5807"
+			rewards: [{
+				count: 10
+				id: "7D2B22080454F543"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "53D184624238942D"
 				item: "tctimod:cursed_defence_belt"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -12.5d
+			x: -2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["50F91CAEA54B6881"]
 			id: "24E1603DFB3694B6"
+			rewards: [{
+				count: 10
+				id: "654A5102D58832FE"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "258A0343D62C8E5C"
 				item: "tctimod:cursed_ranged_belt"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -12.5d
+			x: -1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["50F91CAEA54B6881"]
 			id: "2F032038DED3BFF7"
+			rewards: [{
+				count: 10
+				id: "1438CFF91F2445F8"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "63922EFB6434D5C1"
 				item: "tctimod:cursed_arcane_belt"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -12.5d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["50F91CAEA54B6881"]
 			id: "419C5056DF0D95E3"
+			rewards: [{
+				count: 10
+				id: "529C19F0220BA367"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0A219EA540AAF7AA"
 				item: "tctimod:cursed_fire_belt"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -12.5d
+			x: 1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["50F91CAEA54B6881"]
 			id: "264DEC29EF102AE5"
+			rewards: [{
+				count: 10
+				id: "04653D79E3175256"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2D93DAB8DFCFFCDA"
 				item: "tctimod:cursed_frost_belt"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -12.5d
+			x: 2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["50F91CAEA54B6881"]
 			id: "23581510C053E4BA"
+			rewards: [{
+				count: 10
+				id: "7B6835916B696DD6"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1768A11B3D4B03C2"
 				item: "tctimod:cursed_healing_belt"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -12.5d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["50F91CAEA54B6881"]
 			id: "40977AAB6A179307"
+			rewards: [{
+				count: 10
+				id: "004A65A5B5680224"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2AD9F91A76DFCB09"
 				item: "tctimod:cursed_lightning_belt"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -12.5d
+			x: 4.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["50F91CAEA54B6881"]
 			id: "6A7EBE8420EA4EA5"
+			rewards: [{
+				count: 10
+				id: "035AF04C454E48E6"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7C7F336FC316FB88"
 				item: "tctimod:cursed_soul_belt"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -12.5d
+			x: 5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["50F91CAEA54B6881"]
 			id: "6064E26C5ACE2541"
+			rewards: [{
+				count: 10
+				id: "68CD9D17026F6EF6"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5C27B97D9767DA1C"
 				item: "tctimod:cursed_defence_aglet"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -10.5d
+			x: -2.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["50F91CAEA54B6881"]
 			id: "33B16C1BDF9FC006"
+			rewards: [{
+				count: 10
+				id: "0E1AD63A6BF0AA3E"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "32DADD5468C62079"
 				item: "tctimod:cursed_ranged_aglet"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -10.5d
+			x: -1.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["50F91CAEA54B6881"]
 			id: "23BF5A54692C42B1"
+			rewards: [{
+				count: 10
+				id: "6AA59B9ADA065AE0"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "157FBB860A67260E"
 				item: "tctimod:cursed_arcane_aglet"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -10.5d
+			x: 0.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["50F91CAEA54B6881"]
 			id: "2958A4FDCD67CA84"
+			rewards: [{
+				count: 10
+				id: "0B49BFD1F89151A4"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0B7AA23CA6D050E2"
 				item: "tctimod:cursed_fire_aglet"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -10.5d
+			x: 1.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["50F91CAEA54B6881"]
 			id: "15E569FC0BA7E055"
+			rewards: [{
+				count: 10
+				id: "5AB55DA5BD902E9A"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5616C58A36F7AECA"
 				item: "tctimod:cursed_frost_aglet"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -10.5d
+			x: 2.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["50F91CAEA54B6881"]
 			id: "7D96F0384B072226"
+			rewards: [{
+				count: 10
+				id: "4840013F7E558950"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "642AD5C0DA80CDD0"
 				item: "tctimod:cursed_healing_aglet"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -10.5d
+			x: 3.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["50F91CAEA54B6881"]
 			id: "3F0689C30967E476"
+			rewards: [{
+				count: 10
+				id: "28237FE19435E363"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "33AA8ADF5FA8AF98"
 				item: "tctimod:cursed_lightning_aglet"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -10.5d
+			x: 4.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["50F91CAEA54B6881"]
 			id: "3505247CC74DCE4C"
+			rewards: [{
+				count: 10
+				id: "7C68C0401173F7A3"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
 			tasks: [{
 				id: "357F4509F868117C"
 				item: "tctimod:cursed_soul_aglet"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -10.5d
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3DF57BBFA9D2DDEA"]
+			description: [
+				"This chapter is entirely focused on the modpack's &5magic&r damage."
+				""
+				"You may notice that most &6weapons&r and &3armor&r - not that much protects or deals damage, but, this section of the quest has the &6largest possible damage in the modpack&r, this armor can provide damage figures that go out more than &c1000 damage for 1 spell&r!"
+				""
+				"By combining &5enchantments&r, &6trinkets&r, &9armor&r and &cweapons&r, along with &5magically skill points&r in your inventory, the damage will be completely inadequate, but, for such damage will have to &espend time&r, we love &2Minecraft&r and love &efun&r, so &3we look forward&r to your maximum possible damage in discord! &d(´｡• ω •｡`)&r"
+				"{@pagebreak}"
+				"Данный раздел &lполностью&r посвящен &5магическому&r урону модпака. "
+				""
+				"Вы можете обратить внимание, что большинства &6оружия&r и &3брони&r — не то, чтобы много защищает или наносит урона, но, данный раздел квестов имеет &l&6самый большой возможный урон&r&r в модпаке, данная броня может предоставить урон цифры которых выходитят больше чем за &l&c1000 урона за 1 заклинание&r&r! "
+				""
+				"Объединив &5зачарования&r, &6безделушки&r, &9броню&r и &cоружие&r, вместе с &5магической прокачкой скиллов&r в инвентаре, &cурона&r будет совершенно неадекватное количество, но, для такого урона &eпридется потратить время&r, мы любим &2Minecraft&r и любим &eвеселье&r, по этому мы &3с нетерпением ждём&r ваш максимально возможный урон в дискорде! &d(´｡• ω •｡`)&r "
+			]
+			id: "1967350B85C591DE"
+			tasks: [{
+				id: "569186D799639AB8"
+				title: "Magic weapon/armor"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["76336C8FF4944F9D"]
+			id: "7340CB760030DB23"
+			rewards: [{
+				count: 10
+				id: "67481216541941ED"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7D1DF076D2DF0E04"
+					item: {
+						Count: 1b
+						id: "blood_mages:blood_mage_armor_t2_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E3A909DA7B88025"
+					item: {
+						Count: 1b
+						id: "blood_mages:blood_mage_armor_t2_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79792E6F80DF9732"
+					item: {
+						Count: 1b
+						id: "blood_mages:blood_mage_armor_t2_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F3C95951EBAE885"
+					item: {
+						Count: 1b
+						id: "blood_mages:blood_mage_armor_t2_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["36EEEB8EA981F331"]
+			id: "0F900B63DEFEB421"
+			rewards: [{
+				count: 10
+				id: "200D6EE8B7A185E0"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DF2F819F68BF394"
+				item: {
+					Count: 1b
+					id: "blood_mages:starforged_blood_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["775DE8B980441C15"]
+			id: "7C509A184FFF77A9"
+			rewards: [{
+				count: 10
+				id: "6269F0BDD71D76F1"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "005196B81C1B84E5"
+					item: {
+						Count: 1b
+						id: "bards:bard_armor_t2_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25B5B062DFE81588"
+					item: {
+						Count: 1b
+						id: "bards:bard_armor_t2_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60608EE02C042279"
+					item: {
+						Count: 1b
+						id: "bards:bard_armor_t2_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6985EE9FDE32CC72"
+					item: {
+						Count: 1b
+						id: "bards:bard_armor_t2_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2DA1292AB5BFA594"]
+			id: "5CEC98DB7E628AD1"
+			rewards: [{
+				count: 10
+				id: "6A2F37249205B0E0"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6E50887BF3671BF0"
+				item: {
+					Count: 1b
+					id: "bards:starforged_flute"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["48A285EC71061487"]
+			id: "5922EB132E65ADD7"
+			rewards: [{
+				count: 10
+				id: "44CAB637516E406B"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "424CAF81F2465227"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "battlemages:t2_helmets"
+						}
+					}
+					title: "Any #battlemages:t2_helmets"
+					type: "item"
+				}
+				{
+					id: "5F79AC623481F0F5"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "battlemages:t2_chests"
+						}
+					}
+					title: "Any #battlemages:t2_chests"
+					type: "item"
+				}
+				{
+					id: "706810F3C69B8B13"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "battlemages:t2_legs"
+						}
+					}
+					title: "Any #battlemages:t2_legs"
+					type: "item"
+				}
+				{
+					id: "6D7003D9E08C181B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "battlemages:t2_boots"
+						}
+					}
+					title: "Any #battlemages:t2_boots"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["750A753D76F836F4"]
+			id: "2A2EF886BECC0677"
+			rewards: [{
+				count: 10
+				id: "66B9EA34EFD07F06"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2FD518B0F9D77C17"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "battlemages:weapons_t2"
+					}
+				}
+				title: "Any #battlemages:weapons_t2"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["54B823E802D1AE52"]
+			id: "7A89ADAD1C3CCFD9"
+			rewards: [{
+				count: 10
+				id: "3CF5DFA86D0A8801"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
+			tasks: [{
+				id: "761381A7B198B5DC"
+				item: {
+					Count: 1b
+					id: "druid:starforged_nature_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["595FE5274F7B514D"]
+			id: "29E848749B8C44DF"
+			rewards: [{
+				count: 10
+				id: "09227D987EF44657"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7E395BE421B10231"
+					item: {
+						Count: 1b
+						id: "druid:druids_armor_t2_head"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09B4EBCC80F5146B"
+					item: {
+						Count: 1b
+						id: "druid:druids_armor_t2_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "33CD738C47BCB41B"
+					item: {
+						Count: 1b
+						id: "druid:druids_armor_t2_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E0E740401A8DB58"
+					item: {
+						Count: 1b
+						id: "druid:druids_armor_t2_feet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2A20315EBA5449D5"]
+			id: "0B2725D813F11DF5"
+			rewards: [{
+				count: 10
+				id: "58E4DD10161EC6C5"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "63DAFBCFEBB283EE"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "fpapmod:t2_helmets"
+						}
+					}
+					title: "Any #fpapmod:t2_helmets"
+					type: "item"
+				}
+				{
+					id: "2DD9F94C6AC4C638"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "fpapmod:t2_chests"
+						}
+					}
+					title: "Any #fpapmod:t2_chests"
+					type: "item"
+				}
+				{
+					id: "2FF0C28A40D27DA3"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "fpapmod:t2_legs"
+						}
+					}
+					title: "Any #fpapmod:t2_legs"
+					type: "item"
+				}
+				{
+					id: "36D3A479058E58E6"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "fpapmod:t2_boots"
+						}
+					}
+					title: "Any #fpapmod:t2_boots"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7A29904B392C87C9"]
+			id: "07A5EC703E543FCB"
+			rewards: [{
+				count: 10
+				id: "44C97801CC5A30BD"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "4930ADE737FE393C"
+					item: {
+						Count: 1b
+						id: "fpapmod:ender_dragonsteel_halberd"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6900C2107E4A4B1B"
+					item: {
+						Count: 1b
+						id: "fpapmod:ender_dragonsteel_battle_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "106ED4979B858D01"
+					item: {
+						Count: 1b
+						id: "fpapmod:ender_dragonsteel_contorted_claymore"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "00484B83A6D5BAB9"
+					item: {
+						Count: 1b
+						id: "fpapmod:starforged_unholy_staff"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["53A061ECC23AE951"]
+			id: "62BCB9080163F1BD"
+			rewards: [{
+				count: 10
+				id: "3448B90191041CEE"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1AC8569A7AFA81F6"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "fallenwizardsmod:t2_helmets"
+						}
+					}
+					title: "Any #fallenwizardsmod:t2_helmets"
+					type: "item"
+				}
+				{
+					id: "05BBA80BC19F1705"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "fallenwizardsmod:t2_chests"
+						}
+					}
+					title: "Any #fallenwizardsmod:t2_chests"
+					type: "item"
+				}
+				{
+					id: "16C867E6B18C9F67"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "fallenwizardsmod:t2_legs"
+						}
+					}
+					title: "Any #fallenwizardsmod:t2_legs"
+					type: "item"
+				}
+				{
+					id: "06CEA367AD54DF00"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "fallenwizardsmod:t2_boots"
+						}
+					}
+					title: "Any #fallenwizardsmod:t2_boots"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["21B5959FD2AC93E7"]
+			id: "506F8C1D2F4A9EFC"
+			rewards: [{
+				count: 10
+				id: "38633CD94A9FE325"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FE3BDEE8B48225B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "fallenwizardsmod:t2_weapons"
+					}
+				}
+				title: "Any #fallenwizardsmod:t2_weapons"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["126E9310AEBADD95"]
+			id: "175DF2C7AC72D0E2"
+			rewards: [{
+				count: 10
+				id: "53C84561CB2BC6E5"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
+			tasks: [{
+				id: "50132932E123E4A0"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "morewizardsmod:t2_weapons"
+					}
+				}
+				title: "Any #morewizardsmod:t2_weapons"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["144E65B4F11938F3"]
+			id: "0963067EE5B61C90"
+			rewards: [{
+				count: 10
+				id: "646E6C80E10683CB"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5D956F0A8B76F50E"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "morewizardsmod:t2_helmets"
+						}
+					}
+					title: "Any #morewizardsmod:t2_helmets"
+					type: "item"
+				}
+				{
+					id: "6936298244B79814"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "morewizardsmod:t2_chests"
+						}
+					}
+					title: "Any #morewizardsmod:t2_chests"
+					type: "item"
+				}
+				{
+					id: "06BBFAF12BCA8650"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "morewizardsmod:t2_legs"
+						}
+					}
+					title: "Any #morewizardsmod:t2_legs"
+					type: "item"
+				}
+				{
+					id: "034E908AB9043518"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "morewizardsmod:t2_feets"
+						}
+					}
+					title: "Any #morewizardsmod:t2_feets"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3D7B446B5ECCA398"]
+			id: "63C3D232C7EC5013"
+			rewards: [{
+				count: 10
+				id: "53B35886C50EF311"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0CDF61842784CFC1"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "paladins:t2_helmets"
+						}
+					}
+					title: "Any #paladins:t2_helmets"
+					type: "item"
+				}
+				{
+					id: "36E89905C31CC49E"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "paladins:t2_chests"
+						}
+					}
+					title: "Any #paladins:t2_chests"
+					type: "item"
+				}
+				{
+					id: "58AFC2D781028894"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "paladins:t2_legs"
+						}
+					}
+					title: "Any #paladins:t2_legs"
+					type: "item"
+				}
+				{
+					id: "4393C4FB92A468B7"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "paladins:t2_feets"
+						}
+					}
+					title: "Any #paladins:t2_feets"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1967350B85C591DE"]
+			description: [
+				"&5Runes&r are necessary to use spells, for all the lazy immediately spoiler — in the future you can enchant your weapon for «&3infinity&r» from the world of runes (ᵔ.ᵔ)"
+				""
+				"&5Runes&r are crafted as a normal items, on the &6workbench&r, but using the same recipe as in the workbench on the «&5Rune Altar&r» runes will be &6twice as much in the output&r"
+				"{@pagebreak}"
+				"&5Руны&r необходимы для применения &5заклинаний&r, для всех ленивых сразу спойлер — в будущем вы сможете зачаровать своё оружие на «&3бесконечность&r» из мира рун (ᵔ.ᵔ)"
+				""
+				"&5Руны&r создаются как обычный предмет, на &6верстаке&r, но, используя тот же рецепт что и в верстаке на «&5Рунном алтаре&r» рун на выходе будет в &l&6два раза больше&r&r  "
+			]
+			id: "45D7BE077264407A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1A86F76955275CB9"
+					table_id: 7381691222837690511L
+					type: "choice"
+				}
+				{
+					count: 10
+					id: "5D3C9220DF80064C"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				count: 12L
+				id: "6BEF126A65EBFD65"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "runes:runes"
+					}
+				}
+				title: "Any #runes:runes"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.5d
 		}
 	]
 	title: "Magic Armory"
