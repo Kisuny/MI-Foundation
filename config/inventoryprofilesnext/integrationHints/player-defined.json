@@ -199,5 +199,17 @@
     },
     "io.github.lucaargolo.kibe.blocks.bigtorch.BigTorchScreen": {
         "ignore": true
+    },
+    "net.spell_engine.spellbinding.SpellBindingScreen": {
+        "ignore": true
+    },
+    "net.spell_engine.spellbinding.SpellBindingScreenHandler": {
+        "ignore": true
+    },
+    "net.runes.client.RuneCraftingScreen": {
+        "ignore": true
+    },
+    "net.runes.crafting.RuneCraftingScreenHandler": {
+        "ignore": true
     }
 }
