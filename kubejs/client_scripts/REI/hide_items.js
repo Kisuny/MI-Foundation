@@ -573,6 +573,14 @@ REIEvents.hide('item', event => {
         'gobber2:gobber2_tree_axe',
         'gobber2:gobber2_tree_axe_nether',
         'relicex:dragon_stone',
+        'dragonsteel:ender_dragonsteel_sword',
+        'dragonsteel:ender_dragonsteel_shovel',
+        'dragonsteel:ender_dragonsteel_pickaxe',
+        'dragonsteel:ender_dragonsteel_axe',
+        'dragonsteel:star_alloy_sword',
+        'dragonsteel:star_alloy_shovel',
+        'dragonsteel:star_alloy_pickaxe',
+        'dragonsteel:star_alloy_axe',
 
     ]);
     event.hide(list)
