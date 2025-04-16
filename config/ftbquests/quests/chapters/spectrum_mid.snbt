@@ -2499,6 +2499,7 @@
 			]
 			hide: true
 			hide_details_until_startable: true
+			icon: "minecraft:ender_eye"
 			id: "23A6A609EE447218"
 			rewards: [
 				{
@@ -2544,6 +2545,7 @@
 			]
 			hide: true
 			hide_details_until_startable: true
+			icon: "minecraft:ender_eye"
 			id: "62BB9D5A8A9DD181"
 			rewards: [
 				{
