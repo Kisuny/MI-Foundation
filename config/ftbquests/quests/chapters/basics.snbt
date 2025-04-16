@@ -58,7 +58,7 @@
 		{
 			dependencies: ["207201E16246C5E3"]
 			description: [
-				"Why can't I craft a crafting table?"
+				"&oWhy can't I craft a crafting table?..&r"
 				"{@pagebreak}"
 				"Кремень понадобится для создания первого верстака!"
 			]
@@ -70,13 +70,14 @@
 				type: "item"
 			}]
 			shape: "diamond"
+			subtitle: "Get some &6flint&r"
 			tasks: [{
 				count: 2L
 				id: "67910ADA68C01EAC"
 				item: "minecraft:flint"
 				type: "item"
 			}]
-			title: "Flint"
+			title: "Missing piece"
 			x: -6.800000000000001d
 			y: 1.0996386054421747d
 		}
@@ -86,7 +87,7 @@
 				"2205C5A20B17A59E"
 			]
 			description: [
-				"First achievement!"
+				"Hurray! First achievement!"
 				"{@pagebreak}"
 				"Первое достижение!"
 			]
@@ -125,7 +126,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Primitive"
+			subtitle: "Gotta start somewhere"
 			tasks: [{
 				id: "64A871330426D0AA"
 				item: {
@@ -137,7 +138,7 @@
 				}
 				type: "item"
 			}]
-			title: "First instruments"
+			title: "Primitive Instruments"
 			x: -3.905782312925176d
 			y: -1.4959183673469454d
 		}
@@ -152,7 +153,7 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			subtitle: "&lStill Primitive&r"
+			subtitle: "&lStill quite primitive&r"
 			tasks: [{
 				id: "544882A0F37D6139"
 				item: {
@@ -414,7 +415,7 @@
 				"34F267D4B9230EE8"
 			]
 			description: [
-				"Smelt some &6iron&r"
+				"Smelt some &6iron&r!"
 				"{@pagebreak}"
 				"Переплавь немного &6железа&r"
 			]
@@ -1314,7 +1315,7 @@
 			description: [
 				"The Drakkar is specifically designed for cold water environments. It has 54 slots for items, exceptional maneuverability, and a top speed of 30 km/h. With seating for 11 passengers, including the captain and hull strength of 200 hp. Shields, also with banner patterns, can be attatched to grand additional defense. With its ice breaker abbility, it proves to be a promising vessel in cold and icy oceans."
 				"{@pagebreak}"
-				"Драккар специально разработан для холодной воды. Он имеет 54 слота для предметов, исключительную маневренность и максимальную скорость 30 км/ч. Он рассчитан на 11 пассажиров, включая капитана, а мощность корпуса составляет 200 хп. Для дополнительной защиты можно установить щиты, в том числе со знаменами. Благодаря своей ледокольной способности он оказывается перспективным судном в холодных и ледяных океанах."
+				"Драккар специально разработан для холодной воды. Он имеет 54 слота для предметов, исключительную маневренность и максимальную скорость 30 км/ч. Он рассчитан на 11 пассажиров, включая капитана, а мощность корпуса составляет 200 хп. Для дополнительной защиты можно установить щиты, в том числе со знаменами. Благодаря способности колоть лёд, драккар хорошее судно для холодных и ледяных океанов."
 			]
 			hide_dependency_lines: true
 			id: "29898CAE4D97D53E"
@@ -1359,7 +1360,7 @@
 			description: [
 				"The Brigg is another medieval two-masted trade ship designed for cold water biomes. It provides 162 item slots and can mount up to 6 cannons for defense. With space for up to 11 passengers, including the captain, it excels in both trading and naval battles. The Brig has a top speed of 45 km/h, good maneuverability, and a hull strength of 400 hp."
 				"{@pagebreak}"
-				"Бриг - еще один средневековый двухмачтовый торговый корабль, предназначенный для холодных водных биомов. Он предоставляет 162 слота для предметов и может установить до 6 пушек для обороны. Вмещая до 11 пассажиров, включая капитана, он отлично подходит как для торговли, так и для морских сражений. Бриг развивает скорость до 45 км/ч, обладает хорошей маневренностью и мощностью корпуса в 400 хп."
+				"Бриг - еще один средневековый двухмачтовый торговый корабль, предназначенный для холодных водных биомов. Он имеет 162 слота для предметов и может установить до 6 пушек для обороны. Вмещая до 11 пассажиров, включая капитана, он отлично подходит как для торговли, так и для морских сражений. Бриг развивает скорость до 45 км/ч, обладает хорошей маневренностью и мощностью корпуса в 400 хп."
 			]
 			hide_dependency_lines: true
 			id: "5EC18AB241F5AD60"
@@ -1404,7 +1405,7 @@
 			description: [
 				"The Galley is specifically designed for warm water environments and naval warfare. It has 54 slots for items, exceptional maneuverability, and a top speed of 40 km/h. With seating for 9 passengers, including the captain and hull strength of 200 hp, it proves to be a promising vessel in various situations."
 				"{@pagebreak}"
-				"Галера специально разработана для теплых вод и морских войн. Он имеет 54 слота для предметов, исключительную маневренность и максимальную скорость 40 км/ч. При наличии мест для 9 пассажиров, включая капитана, и мощности корпуса в 200 хп. он оказывается перспективным судном в различных ситуациях."
+				"Галера специально разработана для теплых вод и морских войн. Он имеет 54 слота для предметов, исключительную маневренность и максимальную скорость 40 км/ч. При наличии мест для 9 пассажиров, включая капитана, и мощности корпуса в 200 хп. Это хорошее судно для различных условий."
 			]
 			hide_dependency_lines: true
 			id: "7A0BD9ADC835F712"
@@ -1447,9 +1448,9 @@
 				"65CF16C0873C90C2"
 			]
 			description: [
-				"The Cog is a medieval trade ship used in cold water biomes. It offers 108 item slots and can mount up to 4 cannons for defense. It can accommodate up to 5 passengers, including the captain. Although its maneuverability may not be the best, it is an excellent trading vessel with a top speed of 40 km/h and a sturdy hull strength of 300 hp"
+				"The Cog is a medieval trade ship used in cold water biomes. It offers 108 item slots and can mount up to 4 cannons for defense. It can accommodate up to 5 passengers, including the captain. Although its maneuverability may not be the best, it is an excellent trading vessel with a top speed of 40 km/h and a sturdy hull strength of 300 hp."
 				"{@pagebreak}"
-				"Ког - это средневековый торговый корабль, используемый в холодных водных биомах. Он предлагает 108 слотов для предметов и может установить до 4 пушек для защиты. На нем могут разместиться до 5 пассажиров, включая капитана. Хотя его маневренность может быть не самой лучшей, это отличное торговое судно с максимальной скоростью 40 км/ч и прочностью корпуса в 300 хп"
+				"Ког - это средневековый торговый корабль, используемый в холодных водных биомах. Он предлагает 108 слотов для предметов и может установить до 4 пушек для защиты. На нем могут разместиться до 5 пассажиров, включая капитана. Хотя его маневренность может быть не самой лучшей, это отличное торговое судно с максимальной скоростью 40 км/ч и прочностью корпуса в 300 хп."
 			]
 			hide_dependency_lines: true
 			id: "3BDE24D8A404BB19"
@@ -1486,9 +1487,9 @@
 			description: [
 				"In terms of ship performance, cold-water ships will be 10% faster in cold water biomes but 10% slower in warm water biomes. Conversely, warm-water ships will be 10% faster in warm water biomes but 10% slower in cold water biomes. It's important to note that the speed of the ships will also be affected by the number of cannons on board, reducing speed by 2.5% per cannon. Additionally, cargo on board can decrease the ship's speed by up to 10%."
 				"{@pagebreak}"
-				"&lЭксплуатационные характеристики корабля&rи"
+				"&lХарактеристики корабля&r"
 				""
-				"Что касается характеристик кораблей, то коробли холодных биомов будут на 10% быстрее, но на 10% медленнее в теплых биомах. И наоборот, корабли теплых вод будут на 10% быстрее в биомах с теплой водой, но на 10% медленнее в биомах с холодной водой. Важно отметить, что на скорость кораблей также влияет количество пушек на борту: за каждую пушку скорость снижается на 2,5 %. Кроме того, груз на борту может снизить скорость корабля на 10 %."
+				"Корабли для холодных вод на 10% быстрее в холодных биомах, но на 10% медленнее в теплых. И наоборот, корабли для теплых вод на 10% быстрее в теплых биомах, но на 10% медленнее в холодных. На скорость кораблей также влияет количество пушек на борту: за каждую пушку скорость снижается на 2,5 %. Кроме того, груз на борту также влияет на скорость корабля, снижая её до -10%."
 			]
 			id: "75D871020430D31A"
 			shape: "diamond"
@@ -1505,7 +1506,7 @@
 			description: [
 				"You can customize sails by coloring them with dye items. Simply right-click the ship with the dye in your hand."
 				"{@pagebreak}"
-				"&lПерекраска парусов&rи"
+				"&lПерекраска парусов&r"
 				""
 				"Вы можете кастомизировать паруса, раскрасив их с помощью красителей. Просто щелкните правой кнопкой мыши по кораблю с красителем в руке."
 			]
@@ -1530,9 +1531,9 @@
 			description: [
 				"You can repair your ship with iron nuggets and planks. Simply right-click the ship with the iron nuggets in your hand, you need to have a good supply of planks in your inventory."
 				"{@pagebreak}"
-				"&lПочинка коробля&rи"
+				"&lПочинка корабля&r"
 				""
-				"Вы можете отремонтировать свой корабль с помощью железных самородков и досок. Просто щелкните правой кнопкой мыши по кораблю, держа в руке железные самородки; в вашем инвентаре должен быть хороший запас досок."
+				"Вы можете отремонтировать корабль с помощью железных самородков и досок. Просто щелкните правой кнопкой мыши по кораблю, держа в руке железный самородок. В вашем инвентаре должно быть достаточно досок."
 			]
 			hide: false
 			id: "1825A6B8D9C0586D"
@@ -1550,8 +1551,7 @@
 			description: [
 				"You can name your ship with a name-tag. Simply right-click the ship with the name-tag in your hand."
 				"{@pagebreak}"
-				"&lНазвание коробля&rи"
-				""
+				"&lНазвание корабля&r"
 				"Вы можете присвоить кораблю имя. Просто щелкните правой кнопкой мыши на корабле с переименованной биркой."
 			]
 			id: "65CF16C0873C90C2"
@@ -1583,9 +1583,9 @@
 			description: [
 				"Leashing allows players to tether ships. Leashed ships cannot be directly controlled, and only ships without a player on the controller seat can be leashed."
 				"{@pagebreak}"
-				"&lПоводки&rи"
+				"&lПоводки&r"
 				""
-				"Поводки позволяют игрокам привязывать корабли. Привязанные корабли не могут управляться напрямую, и только корабли без игрока на месте контроллера могут быть привязаны."
+				"Поводки позволяют привязывать корабли. Привязанные корабли не могут управляться напрямую, и только корабли без игрока на месте контроллера могут быть привязаны."
 			]
 			id: "3E438E9272441B1C"
 			rewards: [{
@@ -1608,13 +1608,22 @@
 			description: [
 				"Place the ship far away from you, into water. They need space to spawn. Use Right Click to sit in the ship."
 				""
-				"While sitting in the Ship, press «R»(&c&lYou need to change in the settings&r!&r) to open/close the ships sail. Press «W» to increase and «S» to decrease the Sail. In Thrid Person View with F5 , scroll with you Mousewheel to change the distance of the View. To mount a entity to the ship right click it while sitting in the ship. To dismount a entity from the ship, right-click the entity. To open the inventory outside of the ship, right-click the ship while crouching."
+				"While sitting in the Ship, press R(&c&lYou need to change in the settings&r!&r) to open/close the ships sail. Press W to increase and S to decrease the Sail. In Third Person View with F5 , scroll with you Mousewheel to change the distance of the View. To mount a entity to the ship right click it while sitting in the ship. To dismount a entity from the ship, right-click the entity. To open the inventory outside of the ship, right-click the ship while crouching."
 				"{@pagebreak}"
 				"&lУправление&r"
 				""
-				"Поместите корабль подальше от вас, в воду. Ему нужно место для спавна. Чтобы сесть в корабль, используйте правый клик."
+				"Поместите корабль подальше от вас, в воду. Ему нужно место для спавна. "
 				""
-				"Сидя в корабле, нажмите «R» (&c&lНеобходимо изменить в настройках!&r&r), чтобы открыть/закрыть парус корабля. Нажмите «W», чтобы увеличить и «S», чтобы уменьшить парус. В режиме просмотра от трех лиц нажмите F5, прокрутите колесико мыши, чтобы изменить расстояние просмотра. Чтобы установить существо(например корову) на корабль, щелкните по нему правой кнопкой мыши, сидя в корабле. Чтобы убрать существо с корабля, щелкните по нему правой кнопкой мыши. Чтобы открыть инвентарь вне корабля, щелкните правой кнопкой мыши на корабле, присев."
+				"Чтобы сесть в корабль, используйте правый клик."
+				""
+				"Сидя в корабле, нажмите «R» (&c&lНеобходимо изменить в настройках!&r&r), чтобы открыть/закрыть парус корабля."
+				"Нажмите «W», чтобы увеличить и «S», чтобы уменьшить парус."
+				""
+				"В режиме от третьего лица нажмите F5 и прокрутите колесико мыши, чтобы изменить расстояние просмотра."
+				""
+				"Чтобы установить существо(например корову) на корабль, щелкните по нему правой кнопкой мыши, сидя в корабле."
+				"Чтобы убрать существо с корабля, щелкните по нему правой кнопкой мыши."
+				"Чтобы открыть инвентарь вне корабля, щелкните правой кнопкой мыши на корабле, присев."
 			]
 			id: "4A1FE938051B1A62"
 			shape: "diamond"
@@ -1629,11 +1638,10 @@
 		{
 			dependencies: ["08FC12B517294C1C"]
 			description: [
-				"To add a cannon on your ship you need to right click the ship with a cannon in your hand. To shoot the cannon, you need to look in the direction of the cannon and press \"space\", while sitting in the ship. Note that you need to have a cannon ball in the ships inventory. To remove a cannon, right-click the ship with a axe"
+				"To add a cannon on your ship you need to right click the ship with a cannon in your hand. To shoot the cannon, you need to look in the direction of the cannon and press \"space\", while sitting in the ship. Note that you need to have a cannon ball in the ships inventory. To remove a cannon, right-click the ship with a axe."
 				"{@pagebreak}"
-				"&lПушки&rи"
-				""
-				"Чтобы добавить пушку на корабль, нужно щелкнуть правой кнопкой мыши по кораблю с пушкой в руке. Чтобы выстрелить из пушки, нужно посмотреть в направлении пушки и нажать «пробел», сидя в корабле. Обратите внимание, что в инвентаре корабля должно быть пушечное ядро. Чтобы убрать пушку, щелкните правой кнопкой мыши на корабле с топором"
+				"&lПушки&r"
+				"Чтобы добавить пушку на корабль, нужно щелкнуть правой кнопкой мыши по кораблю с пушкой в руке. Чтобы выстрелить из пушки, нужно посмотреть в направлении пушки и нажать пробел, сидя в корабле. Обратите внимание, что в инвентаре корабля должно быть пушечное ядро. Чтобы убрать пушку, щелкните правой кнопкой мыши на корабле с топором."
 			]
 			id: "6A1F4C19D46B6F69"
 			rewards: [

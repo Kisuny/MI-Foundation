@@ -279,7 +279,7 @@
 			description: [
 				"Welcome to &l&5MI:Foundation &6II&r&r! "
 				""
-				"Most quests will help you progress in the modpack in different directions, whether &3Tech&r or &5Magic&r. You'll also earn generous &6rewards&r."
+				"Most quests will help you progress in the modpack in &3Tech&r or &5Magic&r. You'll also earn generous &6rewards&r."
 				""
 				"&l&eGood luck!&r&r"
 			]
@@ -299,9 +299,9 @@
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"&3Zoom Zoom Zoom!&r! Zoom blocks or mobs, anything!!"
+				"Zoom in on blocks or mobs, anything really!"
 				""
-				"Defaults to the «&3X&r» button"
+				"Defaults to the &3X&r button."
 				""
 				"{@pagebreak}"
 				""
@@ -317,6 +317,7 @@
 				team_reward: false
 				type: "item"
 			}]
+			subtitle: "Zoom-zoom-zoom"
 			tasks: [{
 				id: "75E5A4B341D2667E"
 				title: "*click*"
@@ -329,9 +330,9 @@
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"In the modpack there are &epings&r for players, by default this button «&3button 5&r» on the mouse. We recommend to put this button on &3ALT&r or the middle mouse button (&3wheel&r), for convenience. "
+				"In this modpack, there are &epings&r for players, set to &3button 5&r on the mouse by default. For convenience, we recommend setting pings to &3ALT&r or the middle mouse button (&3wheel&r)."
 				""
-				"You can also &lspecify your own channel for pings&r, so you don't have to listen to the sounds of other people's pings with the command &l&3/pingwheel channel NameChannel&r&r"
+				"You can also &lspecify a channel for pings&r, so you don't have to listen to the sounds of other people's pings. To do this, use the command &l&3/pingwheel channel NameChannel&r&r"
 				""
 				"{@pagebreak}"
 				"В модпаке существуют &eметки&r для игроков, по умолчанию эта кнопка «&3button 5&r» на мышке, рекомендуем поставить эту кнопку на &3ALT&r или же среднюю кнопку мышки(&3колесико&r), для удобства. "
@@ -341,25 +342,24 @@
 			]
 			icon: "botania:monocle"
 			id: "2B0956A5777EB25F"
+			subtitle: "Ping"
 			tasks: [{
 				id: "0B1F727863A71FEC"
 				title: "*click*"
 				type: "checkmark"
 			}]
-			title: "&#A39FE1PINGS!!!!! THEY'RE EVERYWHERE"
+			title: "&#A39FE1PINGS!!! THEY'RE EVERYWHERE"
 			x: 3.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"Eating diverse foods gives advantages in the form of additional &4hearts&r and more &5buffs&r. Eating a lot of various food is more beneficial than feeding off kelp all your life!"
+				"Eating diverse foods gives you additional &4hearts&r and &5buffs&r. Eating a variety of food is more beneficial than feeding off kelp your entire playthrough!"
 				""
 				"{@pagebreak}"
 				""
 				"Разнообразная еда даёт примущества в виде дополнительных &4сердец&r и больше &5баффов&r, кушать много и разное выгоднее, чем питаться всю жизнь ламинарией!"
-				""
-				"[Ru]"
 			]
 			icon: {
 				Count: 1b
@@ -376,7 +376,7 @@
 				team_reward: false
 				type: "item"
 			}]
-			subtitle: "Follow the diet kids!"
+			subtitle: "Watch your diet, kids!"
 			tasks: [{
 				id: "696BD820E66376C5"
 				title: "*click*"
@@ -389,11 +389,9 @@
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"The trash can is a handy tool for getting rid of... &l&4GARBAGE&r&r."
+				"The trash can is a handy tool for getting rid of &l&4GARBAGE&r&r."
 				""
-				"You can simply drag items into the trash by pressing «&3T&r», then the trash slot will appear. You can also press the &3DEL&r button by hovering over the item you want to trash."
-				""
-				""
+				"Press &3T&r to bring up the trash can slot, then drag items there. You can also press the &3DEL&r button by hovering over the item you want to trash."
 				"{@pagebreak}"
 				"Мусорка - удобный инструмент избавления от… &l&4МУСОРА&r&r. "
 				""
@@ -407,21 +405,22 @@
 				}
 			}
 			id: "34F93686B014C096"
+			subtitle: "What's not treasure is trash"
 			tasks: [{
 				id: "7486BA0A9FAA9C5E"
 				title: "*click*"
 				type: "checkmark"
 			}]
-			title: "&#A39FE1Trash can!"
+			title: "&#A39FE1Trash them all!"
 			x: 1.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"&6Artifacts&r and the way to obtain them has been &oslightly changed&r. Most of the strongest artifacts you can now get from &9fishing&r, namely catching a variety of &cbosses&r from different liquids. Try yourself as a veteran &9fisherman&r, it's more &linteresting&r than it seems!"
+				"&6Artifacts&r and the way to obtain them have been &ochanged slightly&r. Most of the strongest artifacts you now get from &9fishing&r, namely catching a variety of &cbosses&r from different liquids. Try becoming a &9fishing pro&r, it's more &linteresting&r than it sounds!"
 				""
-				"All other &6artifacts&r can be found by traveling the world and searching chests! "
+				"All other &6artifacts&r can be found by traveling the world and looting chests."
 				""
 				"{@pagebreak}"
 				"&6Артефакты&r и способ их получения &oнемного изменён&r, большинство самых сильных артефактов вы сможете найти в &9рыбалке&r, ловя разнообразных &cбоссов&r из разных жидкостей, попробуйте себя в качестве ветерана &9рыбной ловли&r, это &lинтереснее&r чем кажется!"
@@ -430,6 +429,7 @@
 			]
 			icon: "artifacts:superstitious_hat"
 			id: "1A4EA51D3A8E6A46"
+			subtitle: "All the hats!"
 			tasks: [{
 				id: "253EC36817695226"
 				title: "*click*"
@@ -442,13 +442,13 @@
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"The modpack has changed &4combat&r significantly and added a lot of &9new weapons&r, both common and rare. Some weapons can even be created by you!"
+				"This modpack has significantly changed &4combat&r and a lot of &9new weapons&r, both common and rare. Some weapons can even be created by you!"
 				""
-				"But the &lmain&r secret is that the weapon &9improves&r if you use it in both hands, left and right! It's up to you to decide which weapon to fight with."
+				"But the &lmain&r secret is that the weapon &9improves&r if you use it in both hands! It's up to you to decide which weapon to fight with."
 				""
-				"Two-handed weapons &ccannot&r be put in two hands! "
+				"Two-handed weapons &ccannot&r be put in both hands! "
 				""
-				"There's also a chance to find &dmythical&r weapon types in a variety of dungeons, as well as use a variety of weapon &lrunes&r to improve your weapons even more!"
+				"There's also a chance to find &dmythical&r weapon types in a variety of dungeons, as well as use a variety of weapon &lrunes&r to improve your weapons even further."
 				""
 				"{@pagebreak}"
 				"В сборке изменена &4боёвка&r и добавлено множество &9нового оружия&r, как редкого так и менее редкого, некоторое орудие можно создать самому."
@@ -476,6 +476,7 @@
 				team_reward: false
 				type: "choice"
 			}]
+			subtitle: "Kill, kill, kill!"
 			tasks: [{
 				id: "67E3E308637297EF"
 				title: "*click*"
@@ -488,7 +489,7 @@
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"Spectrum — A unique and complex magic mod, this is the main magic mod in our modpack, be sure to read the infos below"
+				"Spectrum is a unique and complex magic mod. It's the main magic mod in this modpack, so make sure to read the info in this quest."
 				""
 				"{@pagebreak}"
 				"In Spectrum, most items &odon't have their true texture&r until you unlock the necessary &5advancements&r for that block/item. "
@@ -497,10 +498,10 @@
 				"In Spectrum, almost everything is tied to &5advancements&r.  "
 				""
 				"{@pagebreak}"
-				"Most of the crafts in Spectrum are also opened by &5advancements,&r I advise you to look in the advancement tab more often. There are some QOL mods installed: Advancement menu is much larger than normal, &nand you can pin categories of advancements&r!"
+				"Most of the crafts in Spectrum are also unlocked by &5advancements&r. Look in the advancement tab more often! For your convenience, there are some QOL mods installed there. The Advancement menu is much larger than normal, &nand you can even pin categories of advancements&r!"
 				""
 				"{@pagebreak}"
-				"Progressing through &lSpectrum&r, you will sooner or later unlock new mechanics from the modpack creators, such as &9improved fishing&r, as well as the &4Bewitchment&r mod. Also by unlocking &4Bewitchment&r you will be able to summon &cmini-bosses&r / &cbosses&r and other hostile mobs that can help you get rare items."
+				"Progressing through &lSpectrum&r, you will sooner or later unlock new mechanics from the modpack creators, such as &9improved fishing&r, as well as the &4Bewitchment&r mod. Also by unlocking &4Bewitchment&r, you'll be able to summon &cmini-bosses&r / &cbosses&r and other hostile mobs that can help you get rare items."
 				""
 				"{@pagebreak}"
 				""
@@ -530,26 +531,24 @@
 			]
 			icon: "spectrum:guidebook"
 			id: "2B8A8FD9423F5026"
-			subtitle: "&dMagic"
+			subtitle: "&dBecome magical&r"
 			tasks: [{
 				id: "20958E0350B84B0F"
 				title: "*click*"
 				type: "checkmark"
 			}]
-			title: "&#A39FE1The language of the magic"
+			title: "&#A39FE1The language of magic"
 			x: -2.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"&6Coins&r can be found by searching chests in various dungeons, and also while &9fishing&r. "
+				"&6Coins&r can be found in dungeon chests in various and while &9fishing&r. The number of &6coins&r in chests depends on the rarity of the dungeon."
 				""
-				"The number of &6coins&r in chests depends on the rarity of the dungeon!"
+				"&6Coins&r can be spent on different things in the &eshop&r, as well as used for &5teleportation&r with the &5waystones&r."
 				""
-				"&6Coins&r can be spent on different things in the &eshop&r, as well as used for &5teleportation&r with the &5waystones&r!"
-				""
-				"If you hold &6coins&r in your hand and press RMB - they will get added to your &owallet&r and will be stored with you. The &owallet&r is on the top right in your inventory!"
+				"If you hold &6coins&r in your hand and right-click, they will be added to your &owallet&r and stored with you. The &owallet&r can be found on the top right in your inventory."
 				""
 				"• The &eShop&r can be found in the quest tab or in the inventory menu."
 				"&3Most&r items in the store open up for purchase after getting one of that item.&r"
@@ -600,7 +599,7 @@
 				team_reward: false
 				type: "item"
 			}]
-			subtitle: "Maybe I should start my own business."
+			subtitle: "I should start my own business"
 			tasks: [{
 				id: "3B487765FC6B2782"
 				title: "*click*"
@@ -613,9 +612,9 @@
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"You may notice that you do not have a full amount of &chealth&r, the modpack has elements of &6MMORPG&r, no, &5there is nothing complicated or scary&r, if briefly - you get a &dlevel&r, this level can be &l&econverted to a level of your character&r&r in the inventory, in the additional menu «Attributes». You invest your experience - get &5skill points&r, and, accordingly, &5level up&r, you can increase your &4strength&r or return your usual &chealth&r, you can find items around the world that will help you &3&lreset your characteristics&r&r and change your «Build», choose a convenient for you style of play, be an &carcher&r with &3fast running&r or a &ebard&r with crazy &n&lhealing-damage&r&r, why not?"
+				"Have you noticed that your &chealth bar&r isn't full? That's because this modpack has &6MMORPG&r elements. Don't worry, though, &5there's nothing complicated or scary&r. When you get a &dlevel&r, this level can be &l&econverted to a character level&r&r in the attributes menu of your inventory. You use experience to get &5skill points&r and &5level up&r. You can increase your &4strength&r or &chealth&r, find items in the world that make it possible to &3&lreset your characteristics&r&r and change your build. Find your own playstyle: be an &carcher&r with &3fast running&r or a &ebard&r with crazy &n&ldamage from healing&r&r, because why not?"
 				"{@pagebreak}"
-				"Вы можете обратить внимание, что у вас не полное количество &cздоровья&r, в модпаке присутствуют элементы &6ММОРПГ&r, нет, здесь &5&lнет ничего сложного&r&r или страшного, если кратко - вы получаете &dуровень&r, этот уровень можно &e&lконвертировать в прокачку своего персонажа&r&r в инвентаре, в дополнительном меню «Аттрибутов». Вы вкладываете свой опыт - получаете &5очки прокачки&r, и, соответственно, &5прокачиваетесь&r, вы можете увеличить свою &4силу&r или вернуть привычное вам &cздоровье&r, вы так можете встретить по миру предметы которые помогут вам &3&lсбросить ваши характеристики&r&r и поменять свой «Билд», выбирайте удобный для вас стиль игры, будьте &cлучником&r с &3быстрым бегом&r или &eбардом&r с сумасшедшим &n&lуроном лечения&r&r, почему бы и нет?"
+				"Вы заметили, что у вас неполное количество &cздоровья&r? В этом модпаке присутствуют элементы &6ММОРПГ&r. Нет, здесь &5&lнет ничего сложного&r&r или страшного. Если кратко - вы получаете &dуровень&r, этот уровень можно &e&lконвертировать в прокачку персонажа&r&r в инвентаре, в дополнительном меню аттрибутов. Вы вкладываете свой опыт - получаете &5очки прокачки&r, и, соответственно, &5прокачиваетесь&r. Вы можете увеличить свою &4силу&r или вернуть привычное вам &cздоровье&r. Вы также можете встретить по миру предметы, которые помогут вам &3&lсбросить ваши характеристики&r&r и поменять свой билд. Выбирайте удобный для вас стиль игры, будьте &cлучником&r с &3быстрым бегом&r или &eбардом&r с сумасшедшим &n&lуроном лечения&r&r, почему бы и нет?"
 				""
 				" "
 			]
@@ -632,6 +631,7 @@
 				type: "xp"
 				xp: 100
 			}]
+			subtitle: "Stats and levels, oh my!"
 			tasks: [{
 				id: "402FE86AA33BD884"
 				title: "*click*"
@@ -644,15 +644,13 @@
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"&lMost&r ores spawn differently than you are used to. "
+				"&lMost ores&r spawn differently from what you're used to. "
 				""
-				"&eSmall fragments of ore&r will spawn on the surface, telling you what ores are underneath. "
+				"&eSmall fragments of ore&r will spawn on the surface, hinting at veins of ores underneath. Such veins may have a &lsecondary ore&r."
 				""
-				"In each such vein there may be some &lsecondary ore&r that you may also need."
+				"&dMagical ore veins&r spawn normally. Travel through the caves and find dungeons that you need for progressing in &dmagic&r!"
 				""
-				"&dMagical ore veins&r spawn normally, this is done so that you can travel through the caves and find dungeons that you will also very much need for progressing in &dmagic&r!"
-				""
-				"Additionally, a prospectors pick will show what ore veins are currently under you!"
+				"To help you find ores faster, a prospectors pick will tell you what veins are around you."
 				""
 				"{@pagebreak}"
 				"&lБольшинство&r руды спавнится не так, как вы привыкли. "
@@ -683,6 +681,7 @@
 				team_reward: false
 				type: "item"
 			}]
+			subtitle: "Where the ores at?"
 			tasks: [{
 				id: "5C1690B584723546"
 				title: "*click*"
@@ -695,11 +694,11 @@
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"By hovering over an item in your inventory and pressing «&3Y&r» you will be able to find the same item in your chests. All nearby containers that have that item will be highlighted.  "
+				"By hovering over an item in your inventory and pressing &3Y&r (by default), you'll be able to find the same item in your chests. All nearby containers that have that item will be highlighted.  "
 				""
 				"You can also use the &3search&r by hovering over items in &6REI&r."
 				""
-				"P.S. When there are &l&3too many chests&r&r and other cantainers around you, the mod &cstops working&r in favor of performance!"
+				"P.S. When there are &l&3too many containers&r&r around you, the mod &cstops working&r to avoid impacting Minecraft performance!"
 				""
 				"{@pagebreak}"
 				"Наводя на предмет в своём инвентаре и нажимая на русскую «&3Н&r» или же английскую «&3Y&r» Вы сможете найти где лежит такой же предмет у вас в сундуках, вам подсветят все сундуки где есть этот предмет.  "
@@ -716,6 +715,7 @@
 				}
 			}
 			id: "52F5B721E8857F17"
+			subtitle: "Where'd I put that thing..."
 			tasks: [{
 				id: "2E81B0CF62FB5711"
 				title: "*click*"
@@ -728,9 +728,9 @@
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"The journey to the &dend&r dimension was overhauled. Now you must find different kinds of ender eyes scattered around the world in order to find the &estronghold&r and complete the &dportal frame&r"
+				"The journey to the &dEnd&r dimension is overhauled. You need to find different ender eyes scattered around the world in order to find the &estronghold&r and complete the &dportal frame&r."
 				""
-				"You also need &l&e12 unique eyes&r&r to complete the portal, which can be found by looting a &ovariety of structures&r, crafting or &9from fishing bosses&r!"
+				"The portal needs &l&e12 unique eyes&r&r to be completed, which can be found by looting a &ovariety of structures&r, crafting or &9from fishing bosses&r!"
 				""
 				"{@pagebreak}"
 				"Поход в &dэнд&r в сборке изменен, вам &nнеобходимо&r искать разнообразные глаза и уже с их помощью искать &eданж&r где спавнится &dпортал!&r"
@@ -745,23 +745,24 @@
 				team_reward: true
 				type: "item"
 			}]
+			subtitle: "Journey to the End"
 			tasks: [{
 				id: "5E08144FE01BADD7"
 				title: "*click*"
 				type: "checkmark"
 			}]
-			title: "&#A39FE1Eyes?"
+			title: "&#A39FE1Eyes"
 			x: 3.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"Always wanted to become one block tall, didn't you? "
+				"Becoming one block tall is now super easy!"
 				""
 				"This modpack has a keybind for crawling anywhere, anytime."
 				""
-				"The default button is «&3C&r». "
+				"The default button for it is &3C&r. "
 				""
 				"{@pagebreak}"
 				"Всегда хотелось стать ростом в один блок, не так ли? "
@@ -772,6 +773,7 @@
 			]
 			icon: "minecraft:coarse_dirt"
 			id: "18E59C89C91A0A4D"
+			subtitle: "Nothing is unreachable"
 			tasks: [{
 				id: "4EF60BD55130F450"
 				title: "*click*"
@@ -784,9 +786,9 @@
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"Harvesting is &oboring&r if you have to break and plant the crop back out."
+				"Vanilla farming is &oboring&r. Breaking crops and planting them back? So last century."
 				""
-				"The &3hoe&r comes to the rescue, one swing of the hoe will harvest all the &acrops&r you need!"
+				"The &3hoe&r comes to the rescue! One swing of it can harvest all the &acrops&r you need in a single right-click."
 				""
 				"{@pagebreak}"
 				"Сбор урожая достаточно &oскучен&r, если вам приходится ломать и ставить урожай обратно."
@@ -812,6 +814,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "The Hoe is your bro"
 			tasks: [{
 				id: "78D49AA6A13C6BE6"
 				title: "*click*"
@@ -824,11 +827,11 @@
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"Using an &8anvil&r, a &6Reforge Rune&r, and the &3resource&r your item is made of will allow you to &oreforge&r that item!"
+				"Using an &8anvil&r, a &6Reforge Rune&r, and the &3resource&r your item is made of lets you &oreforge&r that item."
 				""
-				"This will &lenhance&r your item or, conversely, &ldegrade&r it!"
+				"This can &lenhance&r or &ldegrade&r it!"
 				""
-				"&6Reforge Runes&r can be found in different &4loot chests&r."
+				"&6Reforge Runes&r can be found in different &4loot chests&r or traded for."
 				""
 				"{@pagebreak}"
 				"Используя &8наковальню&r, &6Руну перековки&r, и &3материал&r из которого сделан ваш предмет, позволит вам &oперековать&r этот предмет. "
@@ -877,7 +880,9 @@
 		{
 			dependencies: ["19D35B010B678675"]
 			description: [
-				"In our modpack there are lots of different dungeons that are interesting to explore. Do not hesitate to destroy them, because somewhere may contain hidden precious loot!"
+				"In this modpack, there are tons of different dungeons that are interesting to explore."
+				""
+				"Don't hesitate to break them apart! Some places can contain cleverly hidden precious loot."
 				""
 				"{@pagebreak}"
 				"В модпаке множество разнообразных данжей что делает путешествия интересными. Не стесняйтесь их уничтожать, ведь где-то может быть спрятана ценная добыча!"
@@ -895,12 +900,13 @@
 				item: "kubejs:food_lootbag_rare"
 				type: "item"
 			}]
+			subtitle: "Discover the world!"
 			tasks: [{
 				id: "62B1DCA6E315A0E5"
 				title: "*click*"
 				type: "checkmark"
 			}]
-			title: "&#A39FE1Traveling"
+			title: "&#A39FE1Travel"
 			x: 0.0d
 			y: 8.0d
 		}

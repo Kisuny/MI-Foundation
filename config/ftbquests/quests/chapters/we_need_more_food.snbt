@@ -103,7 +103,7 @@
 					type: "item"
 				}
 			]
-			title: "We need more food"
+			title: "Gotta Eat"
 			x: -19.0d
 			y: -9.0d
 		}
@@ -141,7 +141,7 @@
 				item: "farmersdelight:rich_soil"
 				type: "item"
 			}]
-			title: "Your Fertility!"
+			title: "Fertile"
 			x: -19.0d
 			y: -12.5d
 		}
@@ -195,7 +195,7 @@
 					type: "item"
 				}
 			]
-			title: "Kitchen upgrade"
+			title: "Kitchen Upgrade?"
 			x: -19.0d
 			y: -10.5d
 		}
@@ -260,7 +260,7 @@
 					type: "item"
 				}
 			]
-			title: "A vegetarian's nightmare"
+			title: "Vegan Nightmares"
 			x: -19.0d
 			y: -6.0d
 		}
@@ -1066,7 +1066,7 @@
 					type: "item"
 				}
 			]
-			title: "Does it count as meat?"
+			title: "Fishy Business"
 			x: -19.0d
 			y: -7.5d
 		}

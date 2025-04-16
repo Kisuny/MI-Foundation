@@ -58,6 +58,7 @@
 				}
 			]
 			shape: "hexagon"
+			subtitle: "That's tough"
 			tasks: [
 				{
 					id: "1CE15CAD7AC056B2"
@@ -178,10 +179,11 @@
 		{
 			dependencies: ["038A12B861714416"]
 			description: [
+				"&8Unbreakable&r anvil! &oBut that's not all...&r"
 				""
-				"Allows to rename items freely and has no repair xp limit."
-				""
-				"Also you can add description to items and this anvil is &8unbreakable&r. "
+				"• No repair XP limit"
+				"• Rename items for free"
+				"• Add descriptions"
 				"{@pagebreak}"
 				""
 				"Позволяет переименовывать предметы бесплатно и не имеет максимального лимита на ремонт."
@@ -280,7 +282,7 @@
 				"07A0CBC08295C1CD"
 			]
 			description: [
-				"Improve your pedestal!"
+				"Improve your final pedestal!"
 				""
 				"{image:quest_images:textures/item/spectrum/p3.png width:200 height:200 align:1 fit:true}"
 				"{@pagebreak}"
@@ -466,7 +468,7 @@
 		{
 			dependencies: ["0A2CBE6692C277E0"]
 			description: [
-				"Small chunks can be found on walls in the &2Crystal Gardens&r biome in Deeper Down."
+				"Small chunks can be found on walls in the &2Crystal Gardens&r biome in Deeper Down"
 				"{@pagebreak}"
 				"Маленькие кусочки можно найти на стенах в глубоких низинах в биоме &2Кристальные сады&r"
 			]
@@ -501,7 +503,7 @@
 				type: "item"
 			}]
 			shape: "hexagon"
-			subtitle: "Oopsie-daisy of the Deeper Down's"
+			subtitle: "Oopsie-daisy of the Deeper Down"
 			tasks: [{
 				count: 8L
 				id: "227C4AA7289F9F1F"
@@ -534,7 +536,7 @@
 		{
 			dependencies: ["0A2CBE6692C277E0"]
 			description: [
-				"Warning, &bpaltaeria fragments&r will float away instantly after mining. Place something above to catch it or come up with something clever. "
+				"Note that &bpaltaeria fragments&r will float away once they're mined! Place something above to catch them, or come up with something more clever. "
 				"{@pagebreak}"
 				"Будьте осторожны, &bплатериевый самоцвет&r почти сразу же улетает вверх при выпадение, когда копаете руду - ставьте над ней блок или придумайте что-то умнее! "
 			]
@@ -578,9 +580,9 @@
 				"0C1589692FFEB582"
 			]
 			description: [
-				"One of the most important block for further progression. More in depth usage instructions can be found in the Spectrum Book. "
+				"One of the most important blocks for further progression. Learn more about how to use it by reading the Spectrum book!"
 				"{@pagebreak}"
-				"Создайте важнейший блок для прогрессии, более подробнее как с ним взаимодействовать можно прочитать в книге!"
+				"Один из важнейших блоков для дальнейшей прогрессии. Более подробные инструкции, как с ним взаимодействовать, можно прочитать в книге!"
 			]
 			id: "69225E3EFFB37575"
 			shape: "octagon"
@@ -640,11 +642,11 @@
 		{
 			dependencies: ["1329182E0D2135F3"]
 			description: [
-				"Spawns in Spectrum dungeons inside Deeper Down!"
+				"Spawns in Deeper Down dungeons."
 				""
-				"Also it can be brewed in Titration Barrel. Allows to break &7Dragon bone!&r"
+				"Can also be brewed in the Titration Barrel. Makes it possible to break &7Dragon bone!&r"
 				"{@pagebreak}"
-				"Спавнится в данже спектрума, внутри глубоких низинах!"
+				"Спавнится в данже спектрума, в глубоких низинах!"
 				""
 				"Так же можно сварить самому, позволяет взрывать драконью кость!"
 			]
@@ -679,7 +681,7 @@
 				}
 			]
 			shape: "octagon"
-			subtitle: "How to tame the kindling!"
+			subtitle: "How To Tame a Kindling"
 			tasks: [
 				{
 					id: "6561D497CFB6DEA9"
@@ -764,7 +766,7 @@
 		{
 			dependencies: ["0A2CBE6692C277E0"]
 			description: [
-				"Can be summoned in Summoning Altar!"
+				"Can be summoned using the Summoning Altar"
 				"{@pagebreak}"
 				"Можно призвать в алтаре призыва!"
 			]
@@ -803,7 +805,7 @@
 		{
 			dependencies: ["0B2AE0AB37EEE638"]
 			description: [
-				"Turns mobs into their memories!"
+				"Turns mobs into memories!"
 				"{@pagebreak}"
 				"Превращает существ в их воспоминания!"
 			]
@@ -848,7 +850,7 @@
 		{
 			dependencies: ["1155BE801A058AE2"]
 			description: [
-				"Complete the compass and find mysterious structure!"
+				"Create this compass and find a mysterious structure!"
 				"{@pagebreak}"
 				"Создайте компас и найдите таинственную структуру! "
 			]
@@ -876,7 +878,7 @@
 				}
 			]
 			shape: "gear"
-			subtitle: "The Steve and the Raiders of the lost Ark"
+			subtitle: "Steve and the Raiders of the Lost Ark"
 			tasks: [{
 				id: "636702E95117AE9D"
 				item: "spectrum:mysterious_compass"
@@ -915,7 +917,7 @@
 		{
 			dependencies: ["6950DEEA33FD1127"]
 			description: [
-				"Allows to combine two trinkets of same kind into one, maintaining their properties!"
+				"Allows to combine two trinkets of same kind into one, keeping their properties."
 				"{@pagebreak}"
 				"Позволяет объединить 2 безделушки одного типа в одну, сохранив их свойства!"
 			]
@@ -1082,7 +1084,7 @@
 		{
 			dependencies: ["0BAB37C7FC7D9B02"]
 			description: [
-				"Allows to store &otime&r while bottle inside the player inventory. When enough time is stored you can speed up the block entities. The more clicks means more speed increase. "
+				"Allows to store &otime&r while the bottle is in the player inventory. When enough time is stored, you can speed up block entities. More clicks = more speed increase. "
 				"{@pagebreak}"
 				"Позволяет накапливать время в бутылочке находясь в инвентаре, как только вы скопили много времени - вы можете начать ускорять любые блоки, чем больше раз кликнуть на блок данной баночкой, тем быстрее работать он начнёт."
 			]
@@ -1161,7 +1163,7 @@
 		{
 			dependencies: ["073DD25592290A3B"]
 			description: [
-				"Allows to exchange one block into another. Can change multiple connected blocks simultaneously. Handy when dealing with EBF coils.  "
+				"Allows exchanging one block for another. Can change multiple connected blocks simultaneously. Handy when dealing with EBF coils!  "
 				"{@pagebreak}"
 				"Позволяет заменять блоки одного типа, на другого."
 			]
@@ -1577,9 +1579,9 @@
 			description: [
 				"Allows to teleport to any point in space and dimension."
 				""
-				"To teleport you must first click RMB with book in hand onto the &5Teleport Pearl&r to add the charge to the book. 1 teleport = 1 pearl."
+				"To teleport using the book, you must first charge it. Hold the book in your hand and right-click on a &5Teleport Pearl&r to add a charge. 1 teleport = 1 pearl."
 				""
-				"Also to record static location you will need to &ofind&r the Displacement Pages in various dungeons."
+				"The book also requires &9Displacement Pages&r to function, which can be &ofound&r in various dungeons."
 				"{@pagebreak}"
 				"Позволяет телепортироваться в любую точку мира, между мирами. "
 				""
@@ -1611,7 +1613,7 @@
 		{
 			dependencies: ["1B8B44ABD0A94E55"]
 			description: [
-				"Reap the Nephrite blossom fruits."
+				"Gather some of those crunchy Nephrite blossom fruits!"
 				"{@pagebreak}"
 				"Соберите немного хрустальных персиков которые растут на цветущем нефрите!"
 			]
@@ -1711,9 +1713,9 @@
 		{
 			dependencies: ["034F516E1377D547"]
 			description: [
-				"&9Dank&r fifth level holds &b65536 items&r and has &b45 slots&r."
+				"&9Dank 5&r can hold &b65536 items&r and has &b45 slots&r"
 				"{@pagebreak}"
-				"&9Данк&r пятого уровня вмещает &b65536 предметов&r и имеет &b45 слотов&r."
+				"&9Данк&r пятого уровня вмещает &b65536 предметов&r и имеет &b45 слотов&r"
 			]
 			id: "644D29F0387FCE03"
 			shape: "diamond"
@@ -1729,9 +1731,9 @@
 		{
 			dependencies: ["6950DEEA33FD1127"]
 			description: [
-				"&9Dank&r sixth. Can hold &b262144 items&r and has &b54 slots&r."
+				"&9Dank 6&r can hold &b262144 items&r and has &b54 slots&r"
 				"{@pagebreak}"
-				"&9Данк&r шестого уровня вмещает &b262144 предметов&r и имеет &b54 слотов&r."
+				"&9Данк&r шестого уровня вмещает &b262144 предметов&r и имеет &b54 слота&r"
 			]
 			id: "23E25E07D0E7A687"
 			shape: "gear"
@@ -1747,9 +1749,9 @@
 		{
 			dependencies: ["08C0BC7DF568805D"]
 			description: [
-				"&9Dank&r seventh. Can hold &b2,147,483,647 items&r and has &b81 slots&r."
+				"&9Dank 7&r can hold &b2,147,483,647 items&r and has &b81 slots&r"
 				"{@pagebreak}"
-				"&9Данк&r седьмого уровня вмещает &b2,147,483,647 предметов&r и имеет &b81 слот&r."
+				"&9Данк&r седьмого уровня вмещает &b2,147,483,647 предметов&r и имеет &b81 слот&r"
 			]
 			id: "79012FC587C10F0B"
 			rewards: [{
@@ -1796,7 +1798,7 @@
 		{
 			dependencies: ["038A12B861714416"]
 			description: [
-				"Find lost city in Deeper Down."
+				"Find a lost city in the Deeper Down"
 				"{@pagebreak}"
 				"Найдите заброшенный город в глубоких низинах"
 			]
@@ -1831,7 +1833,9 @@
 		{
 			dependencies: ["07A0CBC08295C1CD"]
 			description: [
-				"By wandering through lost city you found a strange withered flowers near the graveyard, what if we can make it &ablooming&r again."
+				"By wandering through the lost city, you found strange withered flowers near the graveyard."
+				""
+				"What if we could make them &abloom&r again?"
 				"{@pagebreak}"
 				"Изучая заброшенный город вы смогли обнаружить странные цветы у кладбища, интересно, а что если их попробовать оживить?"
 				""
@@ -1858,7 +1862,9 @@
 		{
 			dependencies: ["07A0CBC08295C1CD"]
 			description: [
-				"By wandering through lost city you found a strange beehive near the graveyard, what if we can make it &6buzzing&r again."
+				"By wandering through the lost city, you found a strange beehive near the graveyard."
+				""
+				"What if we could make it &6buzz&r again?"
 				"{@pagebreak}"
 				"Изучая заброшенный город вы смогли обнаружить странный улей вблизь к кладбищу, а что если попробовать наполнить его пчёлами и мёдом?"
 				""
@@ -1887,22 +1893,22 @@
 			description: [
 				"Collect all Deeper Down resources!"
 				""
-				"• Bismuth."
-				"• Sawblades Holly Berry."
-				"• Doombloom seeds."
-				"• Noxwood."
-				"• Dragonbone."
-				"• Hummingstone."
-				"• Stripped noxcaps."
+				"• Bismuth"
+				"• Sawblades Holly Berry"
+				"• Doombloom seeds"
+				"• Noxwood"
+				"• Dragonbone"
+				"• Hummingstone"
+				"• Stripped noxcaps"
 				"{@pagebreak}"
 				"Соберите все различные ресурсы глубоких низин!"
 				""
-				"• Висмут."
-				"• Колючий лавровый лист."
-				"• Семена Смертоцвета."
-				"• Мракодерево."
-				"• Драконью кость."
-				"• Гудокамень."
+				"• Висмут"
+				"• Колючий лавровый лист"
+				"• Семена Смертоцвета"
+				"• Мракодерево"
+				"• Драконью кость"
+				"• Гудокамень"
 				"• Обтесите большие грибы глубоких низин"
 			]
 			id: "63CC4D4C70528092"
@@ -2138,18 +2144,18 @@
 		{
 			dependencies: ["48D66C687AFCE78C"]
 			description: [
-				"A full set of armor allows: "
-				"• Fly"
-				"• Breathe underwater"
-				"• Protect against any source of fire"
-				"• Protect from falling damage"
-				"• Protect against most negative effects"
+				"A &lfull set&r of this armor gives you: "
+				"• Flight"
+				"• Underwater breathing"
+				"• Fire protection"
+				"• Fall damage negation"
+				"• Protection from most negative effects"
 				"{@pagebreak}"
 				"Полный сет брони позволяет: "
 				"• Летать"
 				"• Дышать под водой"
 				"• Защищать от любого источника огня"
-				"• Защищать от урона при падение"
+				"• Защищать от урона при падении"
 				"• Защищать от большинства негативных эффектов"
 			]
 			id: "7B159F6A1782C0E7"
@@ -2351,9 +2357,9 @@
 		{
 			dependencies: ["6B098DC821BB1DC4"]
 			description: [
-				"ShovelAxePick + infinite number of torches when pressing RMB"
+				"Paxel with infinite torches on right-click"
 				"{@pagebreak}"
-				"ЛопатаТопорКирка + бесконечно количество факелов при нажатие ПКМ"
+				"ЛопатаТопорКирка + бесконечно количество факелов при нажатии ПКМ"
 			]
 			id: "6EAECD2149801649"
 			rewards: [{
@@ -2677,7 +2683,7 @@
 		{
 			dependencies: ["3A3FF538987E0D2B"]
 			description: [
-				"Provides you with extra speed"
+				"Provides extra speed when in inventory and activated"
 				""
 				"{@pagebreak}"
 				"Когда находится в инвентаре и активирован — увеличивает скорость передвижения."
@@ -2699,7 +2705,7 @@
 		{
 			dependencies: ["3A3FF538987E0D2B"]
 			description: [
-				"Changes the weather on click!"
+				"Turn rain off in a single click!"
 				"{@pagebreak}"
 				"Отключение дождя одним кликом мыши!"
 			]
@@ -2720,7 +2726,7 @@
 		{
 			dependencies: ["3A3FF538987E0D2B"]
 			description: [
-				"Returns player to last bed spawn"
+				"Returns you to spawnpoint (bed)"
 				"{@pagebreak}"
 				"При активации возвращает игрока на его точку возраждения — т.е. кровать."
 			]
@@ -2741,9 +2747,9 @@
 		{
 			dependencies: ["3A3FF538987E0D2B"]
 			description: [
-				"Accelerates crop growth"
+				"Accelerates crop growth while in inventory"
 				"{@pagebreak}"
-				"Ускоряет рост культур находясь в инвентаре."
+				"Ускоряет рост культур, находясь в инвентаре"
 			]
 			id: "116172DF40FB63CA"
 			rewards: [{
@@ -2762,13 +2768,11 @@
 		{
 			dependencies: ["3A3FF538987E0D2B"]
 			description: [
-				"Provides a few minutes of floating"
+				"Prevents fall damage while in inventory."
 				""
-				"No Fall Damage while in inventory"
+				"Right-click while in offhand to activate."
 				""
-				"Right-click while in offhand to activate"
-				""
-				"Sneak + right-click to toggle wall climbing"
+				"Sneak + right-click to toggle wall climbing!"
 				"{@pagebreak}"
 				"Избавление от урона при падение, так же можно переключить режима лазанья по стенам используя SHIFT + ПКМ."
 			]
@@ -2863,9 +2867,9 @@
 		{
 			dependencies: ["649D25EF34BA92DC"]
 			description: [
-				"Gain extra experience when killing and mining."
+				"Gain extra experience when killing and mining"
 				"{@pagebreak}"
-				"Получение дополнительного опыта при убийстве и копании."
+				"Получение дополнительного опыта при убийстве и копании"
 			]
 			id: "2D0100296B126142"
 			rewards: [{
@@ -2911,7 +2915,7 @@
 		{
 			dependencies: ["109B68773E1C28A8"]
 			description: [
-				"Slowly repairs a single, damaged item in player inventory"
+				"Slowly repairs a single damaged item in the inventory"
 				"{@pagebreak}"
 				"Медленно чинит один предмет в инвентаре игрока "
 			]
@@ -2932,9 +2936,7 @@
 		{
 			dependencies: ["109B68773E1C28A8"]
 			description: [
-				"Protection from fire and lava "
-				""
-				"Healing while in lava"
+				"Protection from fire and lava, healing while in lava"
 				"{@pagebreak}"
 				"Защищает от лавы и огня, лечит если игрок в лаве"
 			]
@@ -2955,7 +2957,7 @@
 		{
 			dependencies: ["109B68773E1C28A8"]
 			description: [
-				"Provides curing for negative potion effects"
+				"Cures negative effects when activated"
 				"{@pagebreak}"
 				"Избавляет игрока от негативных эффектов при активции"
 			]
@@ -2976,7 +2978,7 @@
 		{
 			dependencies: ["109B68773E1C28A8"]
 			description: [
-				"Provides Haste effect"
+				"Provides the Haste effect when activated, works while in inventory"
 				"{@pagebreak}"
 				"При активации даёт эффект Спешки, работает когда кольцо в инвентаре"
 			]
@@ -2997,7 +2999,7 @@
 		{
 			dependencies: ["109B68773E1C28A8"]
 			description: [
-				"Provides a little extra Luck"
+				"Provides a little extra Luck, works while in inventory"
 				"{@pagebreak}"
 				"Увеличивает удачу носителя, работает когда в инвентаре"
 			]
@@ -3018,7 +3020,7 @@
 		{
 			dependencies: ["109B68773E1C28A8"]
 			description: [
-				"Allows for walking in the air"
+				"Lets you walk in the air while held in main hand. Right-clicking places clear glass in the air."
 				"{@pagebreak}"
 				"Позволяет ходить по воздуху когда в основной руке, при нажатие ПКМ устанавливает чистое стекло в воздухе на месте нажатия"
 			]
@@ -3055,9 +3057,9 @@
 		{
 			dependencies: ["28177CA83CDC8688"]
 			description: [
-				"Breaks most grass, flowers, and bush"
+				"Breaks most grass, flowers, and bushes around you"
 				"{@pagebreak}"
-				"Посох разрушает большее количество травы вокруг игрока."
+				"Посох разрушает траву вокруг игрока"
 			]
 			id: "4ACE55AE8612C5BD"
 			rewards: [{
@@ -3076,8 +3078,7 @@
 		{
 			dependencies: ["28177CA83CDC8688"]
 			description: [
-				"Transforms some blocks into other blocks"
-				"Works in a crafting table"
+				"Transforms some blocks into other blocks. Transformation costs durability. Works in a crafting table!"
 				"{@pagebreak}"
 				"Преобразует один ресурс в другой ценой прочности, работает в крафте."
 			]
@@ -3104,9 +3105,7 @@
 		{
 			dependencies: ["28177CA83CDC8688"]
 			description: [
-				"Accelerates crop growth while in main hand"
-				""
-				"Right-click to harvest crops"
+				"Accelerates crop growth around you. Right-click to harvest crops!"
 				"{@pagebreak}"
 				"Ускоряет рост культур вокруг игрока так же позволяет собирать выросшие культуры на ПКМ."
 			]
@@ -3187,7 +3186,9 @@
 		{
 			dependencies: ["3A3FF538987E0D2B"]
 			description: [
-				"Breaks most vanilla blocks around the player"
+				"Breaks most vanilla blocks around you on right click."
+				""
+				"The broken blocks will go straight to your inventory if you hold a wand in your other hand."
 				"{@pagebreak}"
 				"Разрушение блоков вокруг игрока при нажатие ПКМ, держа в второй руке палочку - блоки будут падать в инвентарь. "
 				"Кольцо разрушает только ванильные блоки."
@@ -3209,7 +3210,7 @@
 		{
 			dependencies: ["3A3FF538987E0D2B"]
 			description: [
-				"A magnet - but for mages"
+				"A magnet for mages"
 				"{@pagebreak}"
 				"Магнит — но для магов"
 			]
@@ -3254,5 +3255,5 @@
 			y: -12.489795918367363d
 		}
 	]
-	title: "Spectrum: Is it over?…"
+	title: "Spectrum: Endgame?.."
 }

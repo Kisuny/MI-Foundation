@@ -1053,7 +1053,7 @@
 		{
 			dependencies: ["1967350B85C591DE"]
 			description: [
-				"&5Rune Altar&r - allows you to &eget more runes&r when crafting, using the same number of items as in the workbench."
+				"The &5Rune Altar&r gives you &emore runes&r when crafting while using the same number of items as in the workbench"
 				"{@pagebreak}"
 				"&5Рунный алтарь&r — позволяет получать &eбольше рун&r при крафте, используя то же количество предметов что и в верстаке."
 			]
@@ -1076,9 +1076,13 @@
 		{
 			dependencies: ["1967350B85C591DE"]
 			description: [
-				"The table is designed to get the &5basic spells&r, putting the &3book&r — you can choose &6one of the schools&r, magic of which you would like to possess. Each &6school has its own spells&r and &6peculiarities&r, nobody forbids you to choose &ewhat you like more&r or to &3choose several schools&r, everything is in your hands!"
+				"This table is for getting the &5basic spells&r."
 				""
-				"Any book of abilities is necessary not only to create but also to &5open a skill&r in the table, after that, the &l&3player needs to put the book in the slot trinket&r&r, after these actions the player will be able to &dcast spells&r from the book with &9any weapon&r."
+				"Put a &3book&r on the table and choose &6one of several schools&r whose magic you'd like to use. Each &6school has its own spells&r and &6peculiarities&r. Choose &ewhatever you want&r or even &3several schools&r, everything is in your hands!"
+				""
+				"After you create a book of a particular school, don't forget to &5unlock spells&r using the same table. After that, &l&3put the book in a trinket slot&r&r. "
+				""
+				"That's it! As long as you have the required runes in your inventory, you can now &dcast spells&r from your magic book using &9any weapon&r."
 				""
 				"{@pagebreak}"
 				"Столик предназначен для получения &5основных заклинаний&r, положив обычную &3книгу&r — вы можете выбрать &6одну из школ&r, магией которой вы бы хотели обладать. У каждой &6школы свои заклинения&r и &6свои особенности&r, вам никто не запрещает выбрать то, что &eвам нравится больше&r или &3выбрать несколько школ&r, всё в ваших руках! "
@@ -1104,9 +1108,9 @@
 		{
 			dependencies: ["1967350B85C591DE"]
 			description: [
-				"Ancient bag - with a variety of trinkets that increase your strength in percentages!  They can also be improved!"
+				"This &5Ancient Bag&r contains a variety of trinkets that increase your strength percentage. Can be improved!"
 				""
-				"Can be bought from a &2Goblin trader&r/&cVein Goblin Trader&r and a &6Wandering Trader&r!"
+				"Can be bought from a &2Goblin Trader&r/&cVein Goblin Trader&r/&6Wandering Trader&r!"
 				"{@pagebreak}"
 				"Древний мешок — с разнообразными безделушками которые усиляют вашу силу в процентах!  Их так же можно улучшить!"
 				""
@@ -1130,9 +1134,9 @@
 		{
 			dependencies: ["1967350B85C591DE"]
 			description: [
-				"Precious bag - with a variety of trinkets that increase your power percentage!"
+				"This &5Precious Sack&r contains a variety of trinkets that increase your strength percentage. Can be improved!"
 				""
-				"Can be bought from a &2Goblin trader&r/&cVein Goblin Trader&r and a &6Wandering Trader&r!"
+				"Can be bought from a &2Goblin Trader&r/&cVein Goblin Trader&r/&6Wandering Trader&r!"
 				"{@pagebreak}"
 				"Драгоценный мешок — с разнообразными безделушками которые усиляют вашу силу в процентах!"
 				""
@@ -1156,9 +1160,9 @@
 		{
 			dependencies: ["1967350B85C591DE"]
 			description: [
-				"&5Cursed Bag&r of &eBelts&r or &eAglets&r, they give a large percentage increase to various &5magical characteristics&r, but also take away various characteristics from the character, such as movement speed. They can also be improved!"
+				"This &5Cursed Bag&r of &eBelts&r or &eAglets&r gives a large percentage boost to a variety of &5magical stats&r, but also decreases various character stats, such as movement speed. Can be improved!"
 				""
-				"Can be bought from a &2Goblin trader&r/&cVein Goblin Trader&r and a &6Wandering Trader&r!"
+				"Can be bought from a &2Goblin Trader&r/&cVein Goblin Trader&r/&6Wandering Trader&r!"
 				"{@pagebreak}"
 				"&5Проклятые мешок&r с &eПоясами&r или &eАглетами&r, они дают большой процент прибавки к разнообразным &5магическим характеристикам&r, но, так же &cзабирают&r разнообразные характеристика у персонажа, например скорость передвижения."
 				"Их так же можно улучшить!"
@@ -1183,9 +1187,9 @@
 		{
 			dependencies: ["1967350B85C591DE"]
 			description: [
-				"&5Lost Bag&r of &eBelts&r or &eAglets&r, they give a large percentage boost to a variety of &5magical stats&r, but also take away a variety of character stats, such as movement speed."
+				"This &5Lost Bag&r of &eBelts&r or &eAglets&r gives a large percentage boost to a variety of &5magical stats&r, but also decreases various character stats, such as movement speed."
 				""
-				"Can be bought from a &2Goblin trader&r/&cVein Goblin Trader&r and a &6Wandering Trader&r!"
+				"Can be bought from a &2Goblin Trader&r/&cVein Goblin Trader&r/&6Wandering Trader&r!"
 				"{@pagebreak}"
 				"&5Потерянный мешок&r с &eПоясами&r или &eАглетами&r, они дают большой процент прибавки к разнообразным &5магическим характеристикам&r, но, так же &cзабирают&r разнообразные характеристика у персонажа, например скорость передвижения."
 				""
@@ -2637,11 +2641,14 @@
 		{
 			dependencies: ["3DF57BBFA9D2DDEA"]
 			description: [
-				"This chapter is entirely focused on the modpack's &5magic&r damage."
+				"This chapter is entirely focused on this modpack's &5magic&r damage."
 				""
-				"You may notice that most &6weapons&r and &3armor&r - not that much protects or deals damage, but, this section of the quest has the &6largest possible damage in the modpack&r, this armor can provide damage figures that go out more than &c1000 damage for 1 spell&r!"
+				"Most of these &6weapons&r and &3armor&r don't protect or deal much damage on their own. But that's on the surface... These quests will lead you to the &6largest damage possible in this modpack&r! The armor here can make you deal more than &c1000 damage per spell&r! It's nuts."
 				""
-				"By combining &5enchantments&r, &6trinkets&r, &9armor&r and &cweapons&r, along with &5magically skill points&r in your inventory, the damage will be completely inadequate, but, for such damage will have to &espend time&r, we love &2Minecraft&r and love &efun&r, so &3we look forward&r to your maximum possible damage in discord! &d(´｡• ω •｡`)&r"
+				"Combine &5enchantments&r, &6trinkets&r, &9armor&r and &cweapons&r, along with &5skill points in magic&r, to deal absolutely insane damage!"
+				""
+				"Although achieving big numbers &etakes time&r, we all love &2Minecraft&r and having &efun&r. &3We look forward&r to your maximum possible damage in our discord!"
+				"&d(´｡• ω •｡`)&r"
 				"{@pagebreak}"
 				"Данный раздел &lполностью&r посвящен &5магическому&r урону модпака. "
 				""
@@ -2655,6 +2662,7 @@
 				title: "Magic weapon/armor"
 				type: "checkmark"
 			}]
+			title: "Magic weapons \\& armor"
 			x: -6.5d
 			y: 9.5d
 		}
@@ -3344,9 +3352,9 @@
 		{
 			dependencies: ["1967350B85C591DE"]
 			description: [
-				"&5Runes&r are necessary to use spells, for all the lazy immediately spoiler — in the future you can enchant your weapon for «&3infinity&r» from the world of runes (ᵔ.ᵔ)"
+				"&5Runes&r are ammo for spells. In the future, you will be able to enchant your weapons with &3infinity&r for runes (ᵔ.ᵔ)"
 				""
-				"&5Runes&r are crafted as a normal items, on the &6workbench&r, but using the same recipe as in the workbench on the «&5Rune Altar&r» runes will be &6twice as much in the output&r"
+				"&5Runes&r can be crafted on the &6workbench&r, but you can get &6twice as many&r runes by using the same recipe on the &5Rune Altar&r."
 				"{@pagebreak}"
 				"&5Руны&r необходимы для применения &5заклинаний&r, для всех ленивых сразу спойлер — в будущем вы сможете зачаровать своё оружие на «&3бесконечность&r» из мира рун (ᵔ.ᵔ)"
 				""

@@ -761,9 +761,9 @@
 		{
 			dependencies: ["553E6F83E4555C20"]
 			description: [
-				"It has a chance to drop when taming animals."
+				"Has a chance to drop when taming animals"
 				"{@pagebreak}"
-				"Артефакт можно получить при приручение питомцев."
+				"Шанс получения при приручении животных"
 			]
 			id: "471C10FF09C6854A"
 			rewards: [
@@ -878,9 +878,9 @@
 		{
 			dependencies: ["553E6F83E4555C20"]
 			description: [
-				"It has a chance to drop when breeding animals."
+				"Has a chance to drop when breeding animals"
 				"{@pagebreak}"
-				"Маленький шанс при сборе любых культур, и чуть больше шанс при сборе картошки. "
+				"Шанс получения при размножении животных"
 			]
 			id: "7CB6E6CE8E95E5EA"
 			rewards: [
@@ -1114,9 +1114,9 @@
 		{
 			dependencies: ["553E6F83E4555C20"]
 			description: [
-				"It has a small chance to drop when harvesting any crops, or a higher chance when harvesting potatoes."
+				"Has a small chance to drop when harvesting any crops, or a higher chance when harvesting potatoes"
 				"{@pagebreak}"
-				"Маленький шанс при сборе любых культур, и чуть больше шанс при сборе картошки. "
+				"Маленький шанс при сборе любых культур, и чуть больше шанс при сборе картошки"
 			]
 			id: "65BCC5367E7D38A3"
 			rewards: [
@@ -1235,7 +1235,8 @@
 			dependencies: ["69F1CC5EF5C7C0B9"]
 			description: [
 				"Random drop from any mob in the Nether."
-				"It also has a 5% drop chance from a Guardian."
+				""
+				"5% drop chance from a Guardian."
 				""
 				"This booster can be improved to &#F5BD02Golden&r."
 				"{@pagebreak}"
@@ -1279,7 +1280,8 @@
 			dependencies: ["69F1CC5EF5C7C0B9"]
 			description: [
 				"Random drop from any mob in the Nether."
-				"It also has a 33.4% drop chance from a Skeleton Horseman."
+				""
+				"33.4% drop chance from a Skeleton Horseman."
 				""
 				"This booster can be improved to &#F5BD02Golden&r."
 				"{@pagebreak}"
@@ -1323,7 +1325,8 @@
 			dependencies: ["69F1CC5EF5C7C0B9"]
 			description: [
 				"Random drop from any mob in the Nether."
-				"It also has a 100% drop chance from a Warden."
+				""
+				"100% drop chance from a Warden."
 				"{@pagebreak}"
 				"Так же Оникс падает с 100% с &oВардена&r!"
 			]
@@ -1363,7 +1366,8 @@
 			dependencies: ["69F1CC5EF5C7C0B9"]
 			description: [
 				"Random drop from any mob in the Nether."
-				"It also has a 10% drop chance from a Vex."
+				""
+				"10% drop chance from a Vex."
 				"{@pagebreak}"
 				"Так же перо падает из &oтихони&r и &oвредины&r."
 			]
@@ -1453,9 +1457,9 @@
 				"0D72E2120CE45B7E"
 			]
 			description: [
-				"This rune can be created by combining all the artifacts needed to open this quest inside the crafting grid."
+				"Сan be created by combining all the artifacts needed to open this quest inside the crafting grid"
 				"{@pagebreak}"
-				"Руну можно создать объединив все артефакты которые были необходимы для открытия этого квеста в столе создания."
+				"Руну можно создать объединив все артефакты которые были необходимы для открытия этого квеста в столе создания"
 			]
 			id: "08A2EC67FC3358B8"
 			rewards: [
@@ -1496,9 +1500,9 @@
 				"6746D433903770F4"
 			]
 			description: [
-				"This rune can be created by combining all the artifacts needed to open this quest inside the crafting grid."
+				"Сan be created by combining all the artifacts needed to open this quest inside the crafting grid"
 				"{@pagebreak}"
-				"Руну можно создать объединив все артефакты которые были необходимы для открытия этого квеста в столе создания."
+				"Руну можно создать объединив все артефакты которые были необходимы для открытия этого квеста в столе создания"
 			]
 			id: "43238B3BE22ACEDF"
 			rewards: [
@@ -1548,9 +1552,9 @@
 				"6B533E99E0D3BE44"
 			]
 			description: [
-				"This rune can be created by combining all the artifacts needed to open this quest inside the crafting grid."
+				"Сan be created by combining all the artifacts needed to open this quest inside the crafting grid"
 				"{@pagebreak}"
-				"Руну можно создать объединив все артефакты которые были необходимы для открытия этого квеста в столе создания."
+				"Руну можно создать объединив все артефакты которые были необходимы для открытия этого квеста в столе создания"
 			]
 			id: "5BD14A8C761C973E"
 			rewards: [
@@ -1600,9 +1604,9 @@
 				"79F4E72A28BBEF77"
 			]
 			description: [
-				"This rune can be created by combining all the artifacts needed to open this quest inside the crafting grid."
+				"Сan be created by combining all the artifacts needed to open this quest inside the crafting grid"
 				"{@pagebreak}"
-				"Руну можно создать объединив все артефакты которые были необходимы для открытия этого квеста в столе создания."
+				"Руну можно создать объединив все артефакты которые были необходимы для открытия этого квеста в столе создания"
 			]
 			id: "106607A821EF9A15"
 			rewards: [
@@ -1643,9 +1647,9 @@
 				"471C10FF09C6854A"
 			]
 			description: [
-				"This rune can be created by combining all the artifacts needed to open this quest inside the crafting grid."
+				"Can be created by combining all the artifacts needed to open this quest inside the crafting grid"
 				"{@pagebreak}"
-				"Руну можно создать объединив все артефакты которые были необходимы для открытия этого квеста в столе создания."
+				"Руну можно создать объединив все артефакты которые были необходимы для открытия этого квеста в столе создания"
 			]
 			id: "32CC2FECF8F7617D"
 			rewards: [
@@ -1745,9 +1749,9 @@
 		{
 			dependencies: ["4CF87A97D88C83E0"]
 			description: [
-				"The card allows you to re-forge an artifact."
+				"This card allows you to reforge an artifact"
 				"{@pagebreak}"
-				"Карта позволяет перековать артефакт."
+				"Карта позволяет перековать артефакт"
 			]
 			id: "27C6614103A24D5E"
 			rewards: [
@@ -1784,9 +1788,9 @@
 		{
 			dependencies: ["4CF87A97D88C83E0"]
 			description: [
-				"The card allows you to &oreturn all boosters and reset efficiency.&r"
+				"This card allows you to &oreturn all boosters and reset efficiency&r"
 				"{@pagebreak}"
-				"Карта позволяет &oвернуть все уселители и сбросить эффективность&r."
+				"Карта позволяет &oвернуть все уселители и сбросить эффективность&r"
 			]
 			id: "77E657F23464B702"
 			rewards: [
@@ -1823,9 +1827,9 @@
 		{
 			dependencies: ["4CF87A97D88C83E0"]
 			description: [
-				"The card allows you to reset your efficiency bonus."
+				"This card allows you to invert your efficiency bonus"
 				"{@pagebreak}"
-				"Карта позволяет изменить бонус эффективности на противоположный."
+				"Карта позволяет изменить бонус эффективности на противоположный"
 			]
 			id: "5AC0FB07667212CE"
 			rewards: [
@@ -2756,13 +2760,13 @@
 		{
 			dependencies: ["68D1FA710C01D507"]
 			description: [
-				"&6&lMajruszs Accessories&r&r — Adds a lot of &ounique&r trinkets, each with a certain efficiency value."
+				"&6&lMajruszs Accessories&r&r adds a lot of &ounique&r trinkets, each with a certain efficiency value."
 				""
-				"The greater the efficiency of a trinket - the better the effect of the trinket is."
+				"The greater the efficiency of a trinket, the better its effect."
 				""
-				"Most trinkets have a &ounique&r way of obtaining them, more details can be found in the quest of the trinket you need. "
+				"Most trinkets have a &ounique&r way of obtaining them. More details can be found in the quest of the trinket you need!"
 				""
-				"Also, this mod adds the ability to &l&2combine&r&r trinkets with each other to make them more &cpowerful&r, to do this you need to craft trinkets with each other."
+				"This mod also adds the ability to &l&2combine&r&r trinkets with each other to make them more &cpowerful&r. To do this, you need to craft two of the same trinkets together."
 				"{@pagebreak}"
 				"&6&lMajruszs Accessories&r&r — Добавляет множество &oуникальных&r безделушек и эффективность к ним."
 				" "
@@ -3378,9 +3382,9 @@
 		{
 			dependencies: ["68D1FA710C01D507"]
 			description: [
-				"Magnets (activated with redstone) that control mobs path-finding, perfect for mob farms"
+				"Magnets (activated with redstone) that control mob pathfinding, perfect for mob farms."
 				""
-				"Found just under the surface anywhere in the overworld"
+				"Found just under the surface anywhere in the overworld."
 				"{@pagebreak}"
 				""
 				"Магниты (активируются редстоуном), которые контролируют поиск пути мобов, идеально подходят для ферм мобов"
@@ -3418,9 +3422,9 @@
 		{
 			dependencies: ["68D1FA710C01D507"]
 			description: [
-				"Found on runaway treasure ships in the end!"
+				"Found on runaway treasure ships in the End!"
 				""
-				"Activated with Phantom Membrane"
+				"Activated with Phantom Membrane."
 				""
 				"{@pagebreak}"
 				"Находится на беглых кораблях с сокровищами в энде!"
@@ -3448,11 +3452,11 @@
 		{
 			dependencies: ["68D1FA710C01D507"]
 			description: [
-				"A blue jar that attracts fireflies when lit"
+				"A blue jar that attracts fireflies when lit!"
 				""
-				"Found in Alchemy Huts in swamp and mangrove biomes"
+				"Found in Alchemy Huts in swamp and mangrove biomes."
 				""
-				"Light with a Flint and Steel"
+				"Light it with a Flint and Steel."
 				""
 				"{@pagebreak}"
 				"Синяя банка, которая притягивает светлячков"
@@ -3482,9 +3486,9 @@
 		{
 			dependencies: ["68D1FA710C01D507"]
 			description: [
-				"Found on floating islands"
+				"Found on floating islands."
 				""
-				"Beams down any phantoms in a huge area"
+				"Shoots down phantoms in a huge area."
 				""
 				"Activate by dropping it from a really high place!"
 				""
@@ -3517,10 +3521,13 @@
 		{
 			dependencies: ["68D1FA710C01D507"]
 			description: [
-				"Found at beaches, can also be popped with redstone"
+				"Found on beaches. "
 				""
+				"Can be popped with redstone."
 				"{@pagebreak}"
-				"Находится на пляжах, также может стрельнуть яйцом с помощью красного камня"
+				"Находится на пляжах."
+				""
+				"Можно извлечь при активации красным камнем."
 			]
 			id: "6B361B7416C56819"
 			rewards: [{
@@ -3543,11 +3550,11 @@
 		{
 			dependencies: ["68D1FA710C01D507"]
 			description: [
-				"Health booster, increases the health of all entities within range"
+				"Health booster that increases the health of all entities within range."
 				""
-				"Found in small pyramids in deserts"
+				"Found in small pyramids in deserts."
 				""
-				"Activate it by giving it a gold block"
+				"Activate it by giving it a gold block!"
 				""
 				"{@pagebreak}"
 				"Усилитель здоровья, увеличивает здоровье всех существ в радиусе действия"
@@ -3575,5 +3582,5 @@
 			y: -2.0d
 		}
 	]
-	title: "Exploring"
+	title: "Exploration"
 }
