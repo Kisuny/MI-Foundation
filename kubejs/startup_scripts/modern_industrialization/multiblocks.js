@@ -75,6 +75,7 @@ function register_botania_flower_gen(event, item) {
 MIMachineEvents.registerRecipeTypes(event => {
     FOUNDRY = event.register('foundry')
 	.withItemInputs()
+	.withItemOutputs()
 	.withFluidInputs()
 	.withFluidOutputs()
     GARDEN_CLOCHE = event.register('garden_cloche')
@@ -275,9 +276,9 @@ MIMachineEvents.registerMachines(event => {
         .build()
     event.simpleElectricCraftingMultiBlock(
         'Foundry', 'foundry', FOUNDRY, foundryShape,
-        event.progressBar(60, 16, 'triple_arrow'),
-        itemInputs => itemInputs.addSlots(20, 0, 2, 3), itemOutputs => {},
-        fluidInputs => fluidInputs.addSlots(0, 0, 1, 2), fluidOutputs => fluidOutputs.addSlots(86, 9, 1, 2),
+        event.progressBar(65, 25, 'triple_arrow'),
+        itemInputs => itemInputs.addSlot(70, 30), itemOutputs => itemOutputs.addSlot(60, 30),
+        fluidInputs => fluidInputs.addSlots(20, 0, 2, 3), fluidOutputs => fluidOutputs.addSlot(90, 15),
         'heatproof_machine_casing', 'foundry', true, false, false
     );
     // Garden Cloche

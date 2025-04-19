@@ -11,46 +11,51 @@ let NEUTRONIUM_COMPRESSOR;
 let ELECTRIC_GREENHOUSE;
 let ELECTRIC_COOKING_POT;
 let FLUID_SOLIDIFIER;
+let SMELTERY;
 
 MIMachineEvents.registerRecipeTypes(event => {
-    INDUSTRIAL_APIARY = event.register('industrial_apiary')
-        .withItemInputs()
-        .withItemOutputs()
-    THERMAL_CENTRIFUGE = event.register('thermal_centrifuge')
-        .withItemInputs()
-        .withFluidInputs()
-        .withItemOutputs()
-    SIFTING_MACHINE = event.register('sifting_machine')
-        .withItemInputs()
-        .withItemOutputs()
-    BOTTLER = event.register('bottler')
-        .withItemInputs()
-        .withFluidInputs()
-        .withItemOutputs()
-    EXTRACTOR = event.register('fluid_extractor')
-        .withItemInputs()
-        .withFluidOutputs()
-    VOID_PUMP = event.register('void_pump')
-        .withItemInputs()
-        .withFluidOutputs()
-    NEUTRON_COLLECTOR = event.register('neutron_collector')
-        .withItemInputs()
-        .withItemOutputs()
-    NEUTRONIUM_COMPRESSOR = event.register('neutronium_compressor')
-       .withItemInputs()
-      .withItemOutputs()
-    ELECTRIC_GREENHOUSE = event.register('electric_greenhouse')
-      .withItemInputs()
-      .withFluidInputs()
-      .withItemOutputs()
-    ELECTRIC_COOKING_POT = event.register('electric_cooking_pot')
-      .withItemInputs()
-      .withFluidInputs()
-      .withItemOutputs()
-    FLUID_SOLIDIFIER = event.register('fluid_solidifier')
-      .withItemInputs()
-      .withFluidInputs()
-      .withItemOutputs()
+  INDUSTRIAL_APIARY = event.register('industrial_apiary')
+    .withItemInputs()
+    .withItemOutputs()
+  THERMAL_CENTRIFUGE = event.register('thermal_centrifuge')
+    .withItemInputs()
+    .withFluidInputs()
+    .withItemOutputs()
+  SIFTING_MACHINE = event.register('sifting_machine')
+    .withItemInputs()
+    .withItemOutputs()
+  BOTTLER = event.register('bottler')
+    .withItemInputs()
+    .withFluidInputs()
+    .withItemOutputs()
+  EXTRACTOR = event.register('fluid_extractor')
+    .withItemInputs()
+    .withFluidOutputs()
+  VOID_PUMP = event.register('void_pump')
+    .withItemInputs()
+    .withFluidOutputs()
+  NEUTRON_COLLECTOR = event.register('neutron_collector')
+    .withItemInputs()
+    .withItemOutputs()
+  NEUTRONIUM_COMPRESSOR = event.register('neutronium_compressor')
+    .withItemInputs()
+    .withItemOutputs()
+  ELECTRIC_GREENHOUSE = event.register('electric_greenhouse')
+    .withItemInputs()
+    .withFluidInputs()
+    .withItemOutputs()
+  ELECTRIC_COOKING_POT = event.register('electric_cooking_pot')
+    .withItemInputs()
+    .withFluidInputs()
+    .withItemOutputs()
+  FLUID_SOLIDIFIER = event.register('fluid_solidifier')
+    .withItemInputs()
+    .withFluidInputs()
+    .withItemOutputs()
+  SMELTERY = event.register('smeltery')
+    .withItemInputs()
+    .withFluidOutputs()
+
 });
 
 
@@ -191,13 +196,26 @@ MIMachineEvents.registerMachines(event => {
     // Fluid Solidifier
     event.craftingSingleBlock(
         'Fluid Solidifier', 'fluid_solidifier', FLUID_SOLIDIFIER, ['electric'],
-        186,
-        event.progressBar(105, 45, 'triple_arrow'),
-        event.efficiencyBar(42, 86),
+        -1,
+        event.progressBar(70, 44, 'triple_arrow'),
+        event.efficiencyBar(40, 80),
         event.energyBar(14, 44),
-        2, 3, 3, 0,
+        1, 1, 1, 0,
         16,
-        items => items.addSlots(42, 27, 1, 2).addSlots(139, 27, 1, 3), fluids => fluids.addSlots(12, 27, 1, 3),
+        items => items.addSlot(42, 55).addSlot(100, 45), fluids => fluids.addSlot(42, 37),
+        true, false, false,
+    );
+
+    // Alloy Smelter
+    event.craftingSingleBlock(
+        'Smeltery', 'smeltery', SMELTERY, ['electric'],
+        -1,
+        event.progressBar(70, 26, 'arrow'),
+        event.efficiencyBar(28, 64),
+        event.energyBar(14, 30),
+        1, 0, 0, 1,
+        16,
+        items => items.addSlot(44, 30), fluids => fluids.addSlot(100, 30),
         true, false, false,
     );
 });
