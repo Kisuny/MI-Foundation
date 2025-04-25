@@ -5,4 +5,5 @@ CapeJS.addCapes(event => {
     event.register('9f201699-2517-49b5-a119-2b4aefa87b51', 'dev') //error1number404
     event.register('8f69574a-5834-4b7c-84bb-ae6da00b12a8', 'pack_slayer') //Tetrikitty
     event.register('7e28ea18-f645-444e-b3b6-e4dd08d777b1', 'pack_slayer') //2xTialos
+    event.register('dea94be2-e16b-433b-b721-213a755bccb7', 'pack_slayer') //ZombieGoBoomBoom
 });
