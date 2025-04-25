@@ -1,7 +1,7 @@
 {
     "type": "spectrum:crystallarieum_growing",
     "ingredient": {
-      "item": "minecraft:netherite_scrap"
+      "item": "minecraft:netherite_ingot"
     },
     "growth_stage_states": [
       "spectrum:small_globette_nether_bud",
