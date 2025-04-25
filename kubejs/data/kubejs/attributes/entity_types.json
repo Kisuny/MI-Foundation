@@ -1,7 +1,7 @@
 {
     "values": {
         "minecraft:player": {
-            "minecraft:generic.max_health": 6.0
+            "minecraft:generic.max_health": 16.0
         }
     }
 }
