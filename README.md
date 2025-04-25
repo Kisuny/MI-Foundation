@@ -5,8 +5,6 @@ We have [Discord](https://discord.gg/5j7xVACvKB) server where we quickly answer 
 
 By the way we also have a translation of all the quests in Russian, further will be an instruction in Russian how to do it:
 
-У нас так же есть квесты на русском языке нашего авторства, если вы хотите играть с русскими нативными квестами, вам достаточно переместить в свою папку `./minecraft/config` папку `ftbquests` с заменой, скачать русские квесты можно в [релизе](https://github.com/Kisuny/MI-Foundation/releases/download/1.3.3/ru_lang.zip). 
-
 # How to run modpack
 
 ## Using CurseForge
