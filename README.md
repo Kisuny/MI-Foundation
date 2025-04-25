@@ -3,8 +3,6 @@ modpack of the same fans of mod minecraft, we love technical and magic mods, and
 
 We have [Discord](https://discord.gg/5j7xVACvKB) server where we quickly answer a question, help with modpack problems, as well as there you can suggest an idea or share your creativity!
 
-By the way we also have a translation of all the quests in Russian, further will be an instruction in Russian how to do it:
-
 # How to run modpack
 
 ## Using CurseForge
