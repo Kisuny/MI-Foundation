@@ -13,7 +13,7 @@
       "value": true
     },
     "showButtonTooltip": {
-      "value": true
+      "value": false
     },
     "stackToNearbyContainersButtonPosX": {
       "defaultValue": 140,
