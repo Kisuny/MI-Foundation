@@ -464,7 +464,7 @@
 	   Loot Chests
 	   ***********************
 	*/
-	"lootEnable": true,
+	"lootEnable": false,
 	"lootChance": 0.03999999910593033,
 	/* 
 	   
