@@ -385,7 +385,7 @@
       "experience": 600,
       "max_trades": 6,
       "offer_item": {
-        "count": 4,
+        "count": 1,
         "item": "kubejs:durasteel_reinforced_bronze_drill"
       },
       "payment_item": {
@@ -403,7 +403,7 @@
         "item": "kubejs:azurite_plated_bronze_drill"
       },
       "payment_item": {
-        "count": 2,
+        "count": 1,
         "item": "numismatic-overhaul:gold_coin"
       },
       "price_multiplier": 0.0
@@ -417,7 +417,7 @@
         "item": "kubejs:malachite_enhanced_bronze_drill"
       },
       "payment_item": {
-        "count": 2,
+        "count": 1,
         "item": "numismatic-overhaul:gold_coin"
       },
       "price_multiplier": 0.0
@@ -431,7 +431,7 @@
         "item": "kubejs:durasteel_reinforced_steel_drill"
       },
       "payment_item": {
-        "count": 2,
+        "count": 1,
         "item": "numismatic-overhaul:gold_coin"
       },
       "price_multiplier": 0.0
@@ -445,7 +445,7 @@
         "item": "kubejs:azurite_plated_steel_drill"
       },
       "payment_item": {
-        "count": 2,
+        "count": 1,
         "item": "numismatic-overhaul:gold_coin"
       },
       "price_multiplier": 0.0
@@ -459,7 +459,7 @@
         "item": "tatimod:ancient_sack"
       },
       "payment_item": {
-        "count": 6,
+        "count": 2,
         "item": "numismatic-overhaul:gold_coin"
       },
       "price_multiplier": 0.0
@@ -473,7 +473,7 @@
         "item": "tatimod:precious_sack"
       },
       "payment_item": {
-        "count": 6,
+        "count": 2,
         "item": "numismatic-overhaul:gold_coin"
       },
       "price_multiplier": 0.0
@@ -487,7 +487,7 @@
         "item": "tctimod:cursed_sack"
       },
       "payment_item": {
-        "count": 6,
+        "count": 2,
         "item": "numismatic-overhaul:gold_coin"
       },
       "price_multiplier": 0.0
@@ -501,7 +501,7 @@
         "item": "tctimod:lost_sack"
       },
       "payment_item": {
-        "count": 6,
+        "count": 2,
         "item": "numismatic-overhaul:gold_coin"
       },
       "price_multiplier": 0.0
@@ -515,7 +515,7 @@
         "item": "kubejs:malachite_enhanced_steel_drill"
       },
       "payment_item": {
-        "count": 2,
+        "count": 1,
         "item": "numismatic-overhaul:gold_coin"
       },
       "price_multiplier": 0.0
