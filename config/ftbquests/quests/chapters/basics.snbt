@@ -370,6 +370,12 @@
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
 				}
+				{
+					count: 2
+					id: "204AD5E6955F9518"
+					item: "chunkloaders:single_chunk_loader"
+					type: "item"
+				}
 			]
 			shape: "gear"
 			size: 2.0d
