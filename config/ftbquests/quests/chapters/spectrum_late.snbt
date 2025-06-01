@@ -720,7 +720,7 @@
 				type: "advancement"
 			}]
 			x: 0.0d
-			y: -12.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["038A12B861714416"]
@@ -885,7 +885,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -12.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["7930FF093F85016E"]
@@ -936,7 +936,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -14.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["6950DEEA33FD1127"]
@@ -960,7 +960,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -14.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["6950DEEA33FD1127"]
@@ -980,7 +980,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -14.5d
+			y: -15.5d
 		}
 		{
 			dependencies: ["6950DEEA33FD1127"]
@@ -1003,8 +1003,8 @@
 				item: "mythicmetals:metallurgium_ingot"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -12.5d
+			x: -2.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["08C0BC7DF568805D"]
@@ -1025,16 +1025,15 @@
 					type: "item"
 				}
 			]
-			shape: "circle"
-			size: 0.8d
+			shape: "diamond"
 			subtitle: "The final backpack upgrade!"
 			tasks: [{
 				id: "23720BF5B8F43ACA"
 				item: "travelersbackpack:netherite_tier_upgrade"
 				type: "item"
 			}]
-			x: -3.1275510204081627d
-			y: -12.455782312925166d
+			x: -2.5d
+			y: -14.5d
 		}
 		{
 			dependencies: ["69225E3EFFB37575"]
@@ -1071,45 +1070,14 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			size: 0.8d
 			subtitle: "UTC"
 			tasks: [{
 				id: "4D3978F7E8DA0B1C"
 				item: "spectrum:celestial_pocketwatch"
 				type: "item"
 			}]
-			x: -1.9234693877551052d
-			y: -12.95918367346939d
-		}
-		{
-			dependencies: ["0BAB37C7FC7D9B02"]
-			description: [
-				"Allows to store &otime&r while the bottle is in the player inventory. When enough time is stored, you can speed up block entities. More clicks = more speed increase. "
-				"{@pagebreak}"
-				"Позволяет накапливать время в бутылочке находясь в инвентаре, как только вы скопили много времени - вы можете начать ускорять любые блоки, чем больше раз кликнуть на блок данной баночкой, тем быстрее работать он начнёт."
-			]
-			id: "7240E63C6661148E"
-			rewards: [{
-				id: "18A2ED9E0368E6A8"
-				item: "kubejs:magic_lootbag_epic"
-				team_reward: true
-				type: "item"
-			}]
-			shape: "diamond"
-			size: 0.8d
-			tasks: [{
-				id: "7F00D8F289F695EB"
-				item: {
-					Count: 1b
-					id: "timeinabottle:time_in_a_bottle"
-					tag: {
-						timeData: { }
-					}
-				}
-				type: "item"
-			}]
-			x: -2.3112244897959187d
-			y: -13.346938775510203d
+			x: -3.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["08C0BC7DF568805D"]
@@ -1126,15 +1094,14 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			size: 0.8d
 			subtitle: "Biome transfering!"
 			tasks: [{
 				id: "7655F64C9D397C8A"
 				item: "biomesinjars:empty_biome_jar"
 				type: "item"
 			}]
-			x: -1.9234693877550697d
-			y: -12.035714285714278d
+			x: -4.0d
+			y: -13.0d
 		}
 		{
 			dependencies: ["08C0BC7DF568805D"]
@@ -1151,14 +1118,13 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			size: 0.8d
 			tasks: [{
 				id: "09405DA6DD11550A"
 				item: "spectrum:upgrade_yield"
 				type: "item"
 			}]
-			x: -2.3112244897958902d
-			y: -11.647959183673464d
+			x: -3.5d
+			y: -13.5d
 		}
 		{
 			dependencies: ["073DD25592290A3B"]
@@ -1597,7 +1563,6 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			size: 0.7d
 			tasks: [{
 				id: "6A51D5ED416B098C"
 				item: {
@@ -1607,8 +1572,8 @@
 				}
 				type: "item"
 			}]
-			x: -3.8554421768707456d
-			y: -12.46938775510204d
+			x: -1.5d
+			y: -14.5d
 		}
 		{
 			dependencies: ["1B8B44ABD0A94E55"]
@@ -1647,14 +1612,13 @@
 				type: "item"
 			}]
 			shape: "diamond"
-			size: 0.7d
 			tasks: [{
 				id: "048D35716C058D32"
 				item: "kubejs:teleport_pearl"
 				type: "item"
 			}]
-			x: -4.510204081632658d
-			y: -12.464285714285715d
+			x: -2.0d
+			y: -15.0d
 		}
 		{
 			dependencies: ["1BA1A25D14039B36"]
@@ -1737,14 +1701,13 @@
 			]
 			id: "23E25E07D0E7A687"
 			shape: "gear"
-			size: 0.8d
 			tasks: [{
 				id: "72AB1D89879BD378"
 				item: "dankstorage:dank_6"
 				type: "item"
 			}]
-			x: -0.8180272108843525d
-			y: -12.010544217687077d
+			x: 1.5d
+			y: -13.0d
 		}
 		{
 			dependencies: ["08C0BC7DF568805D"]
@@ -1761,14 +1724,13 @@
 				type: "item"
 			}]
 			shape: "gear"
-			size: 0.8d
 			tasks: [{
 				id: "182C6CA2FDA5A488"
 				item: "dankstorage:dank_7"
 				type: "item"
 			}]
-			x: -0.8384353741496682d
-			y: -13.030952380952385d
+			x: -1.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["034F516E1377D547"]
@@ -3245,14 +3207,13 @@
 			]
 			id: "0AF589BCB350781F"
 			shape: "gear"
-			size: 0.7d
 			tasks: [{
 				id: "207EFB4F39F54926"
 				item: "lost_idols:undying_idol"
 				type: "item"
 			}]
-			x: -2.4285714285714377d
-			y: -12.489795918367363d
+			x: -2.5d
+			y: -11.5d
 		}
 	]
 	title: "Spectrum: Endgame?.."

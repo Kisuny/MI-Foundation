@@ -54,7 +54,7 @@
 				}
 			]
 			title: "Quantum Equipment"
-			x: 17.5d
+			x: 15.5d
 			y: -0.5d
 		}
 		{
@@ -102,194 +102,6 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["7240E63C6661148E"]
-			id: "58261B76F97C92EE"
-			rewards: [
-				{
-					count: 5
-					id: "062534818386EC08"
-					item: "numismatic-overhaul:gold_coin"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "66ED1D84AEC067EC"
-					item: "kubejs:magic_lootbag_rare"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "6A0A81D8FEA0E9F8"
-					item: "kubejs:food_lootbag_epic"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "455C5EB79C31B1A3"
-					item: "kubejs:mob_lootbag_epic"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "04C4D8910FA8B4D9"
-				item: {
-					Count: 1b
-					id: "timeinabottle:time_in_a_bottle"
-					tag: {
-						timeData: {
-							storedTime: 1800000
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			title: "Is your patience that strong?"
-			x: 1.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["58261B76F97C92EE"]
-			id: "401AE053D4ADDC64"
-			rewards: [
-				{
-					count: 5
-					id: "16B27B13ED0418C5"
-					item: "numismatic-overhaul:gold_coin"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "31326F46D13D3CE8"
-					item: "kubejs:mid_lootbag_epic"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "4D77CCFEEB5AECD7"
-					item: "kubejs:mob_lootbag_epic"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "6555B590A98C1D6A"
-					item: "kubejs:magic_lootbag_epic"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "4191F6E5F85CEE5E"
-				item: {
-					Count: 1b
-					id: "timeinabottle:time_in_a_bottle"
-					tag: {
-						timeData: {
-							storedTime: 3600000
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			title: "Are you confident in your resilience?"
-			x: 1.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["401AE053D4ADDC64"]
-			id: "5DF33FC78C3B7CB0"
-			rewards: [
-				{
-					count: 10
-					id: "410A9F7D38D32020"
-					item: "numismatic-overhaul:gold_coin"
-					type: "item"
-				}
-				{
-					count: 7
-					id: "2D65AFE138802941"
-					item: "kubejs:magic_lootbag_epic"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "7BF196B1A45F2100"
-					item: "kubejs:late_lootbag_uncommon"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "1FC8B2AC905D2BED"
-					item: "kubejs:mob_lootbag_epic"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "396253374D5B92C0"
-				item: {
-					Count: 1b
-					id: "timeinabottle:time_in_a_bottle"
-					tag: {
-						timeData: {
-							storedTime: 5400000
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			title: "I can't wait!"
-			x: 1.5d
-			y: -2.5d
-		}
-		{
-			dependencies: ["5DF33FC78C3B7CB0"]
-			id: "287F24E0E44112C7"
-			rewards: [
-				{
-					count: 15
-					id: "794C44C1E9B05E7D"
-					item: "numismatic-overhaul:gold_coin"
-					type: "item"
-				}
-				{
-					count: 10
-					id: "298200355B1F643C"
-					item: "kubejs:magic_lootbag_epic"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "78777556B4743A35"
-					item: "kubejs:late_lootbag_uncommon"
-					type: "item"
-				}
-				{
-					count: 7
-					id: "76BD3B091A1A7D1D"
-					item: "kubejs:mob_lootbag_epic"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "39B97498CA13E7C4"
-				item: {
-					Count: 1b
-					id: "timeinabottle:time_in_a_bottle"
-					tag: {
-						timeData: {
-							storedTime: 7200000
-						}
-					}
-				}
-				match_nbt: true
-				type: "item"
-			}]
-			title: "Mom, just five more minutes"
-			x: 1.5d
-			y: -3.5d
-		}
-		{
 			dependencies: ["27D8C35FD6F61515"]
 			id: "6C41A08AB7064ED7"
 			rewards: [
@@ -334,7 +146,7 @@
 				type: "item"
 			}]
 			title: "Sky"
-			x: 2.5d
+			x: 2.0d
 			y: -0.5d
 		}
 		{
@@ -382,7 +194,7 @@
 				type: "item"
 			}]
 			title: "Rose"
-			x: 2.5d
+			x: 2.0d
 			y: -1.5d
 		}
 		{
@@ -431,7 +243,7 @@
 				type: "item"
 			}]
 			title: "Sun"
-			x: 2.5d
+			x: 2.0d
 			y: -2.5d
 		}
 		{
@@ -479,7 +291,7 @@
 				type: "item"
 			}]
 			title: "Darkness"
-			x: 2.5d
+			x: 2.0d
 			y: -3.5d
 		}
 		{
@@ -527,7 +339,7 @@
 				type: "item"
 			}]
 			title: "Light"
-			x: 2.5d
+			x: 2.0d
 			y: -4.5d
 		}
 		{
@@ -575,7 +387,7 @@
 				type: "item"
 			}]
 			title: "Orange"
-			x: 3.5d
+			x: 3.0d
 			y: -4.5d
 		}
 		{
@@ -623,7 +435,7 @@
 				type: "item"
 			}]
 			title: "Leaf"
-			x: 4.5d
+			x: 4.0d
 			y: -4.5d
 		}
 		{
@@ -671,7 +483,7 @@
 				type: "item"
 			}]
 			title: "Tulip"
-			x: 5.5d
+			x: 5.0d
 			y: -4.5d
 		}
 		{
@@ -719,7 +531,7 @@
 				type: "item"
 			}]
 			title: "Watermelon"
-			x: 6.5d
+			x: 6.0d
 			y: -4.5d
 		}
 		{
@@ -767,7 +579,7 @@
 				type: "item"
 			}]
 			title: "Blue Eyes"
-			x: 6.5d
+			x: 6.0d
 			y: -3.5d
 		}
 		{
@@ -815,7 +627,7 @@
 				type: "item"
 			}]
 			title: "Cactus"
-			x: 6.5d
+			x: 6.0d
 			y: -2.5d
 		}
 		{
@@ -863,7 +675,7 @@
 				type: "item"
 			}]
 			title: "Water"
-			x: 6.5d
+			x: 6.0d
 			y: -1.5d
 		}
 		{
@@ -911,7 +723,7 @@
 				type: "item"
 			}]
 			title: "Your Highness"
-			x: 6.5d
+			x: 6.0d
 			y: -0.5d
 		}
 		{
@@ -959,7 +771,7 @@
 				type: "item"
 			}]
 			title: "Tree"
-			x: 5.5d
+			x: 5.0d
 			y: -0.5d
 		}
 		{
@@ -1007,7 +819,7 @@
 				type: "item"
 			}]
 			title: "Bad Weather"
-			x: 4.5d
+			x: 4.0d
 			y: -0.5d
 		}
 		{
@@ -1055,7 +867,7 @@
 				type: "item"
 			}]
 			title: "Pebble"
-			x: 3.5d
+			x: 3.0d
 			y: -0.5d
 		}
 		{
@@ -1296,7 +1108,7 @@
 				weak_nbt_match: true
 			}]
 			title: "A copper barrel of copper?"
-			x: 11.5d
+			x: 9.5d
 			y: -0.5d
 		}
 		{
@@ -1347,7 +1159,7 @@
 				weak_nbt_match: true
 			}]
 			title: "An iron barrel of iron, what's the big deal?"
-			x: 11.5d
+			x: 9.5d
 			y: -2.5d
 		}
 		{
@@ -1398,7 +1210,7 @@
 				weak_nbt_match: true
 			}]
 			title: "A bronze barrel of bronze, are you serious!?"
-			x: 11.5d
+			x: 9.5d
 			y: -3.5d
 		}
 		{
@@ -1450,7 +1262,7 @@
 				weak_nbt_match: true
 			}]
 			title: "A steel barrel of steel, okay, I see what you're getting at"
-			x: 11.5d
+			x: 9.5d
 			y: -4.5d
 		}
 		{
@@ -1508,7 +1320,7 @@
 				weak_nbt_match: true
 			}]
 			title: "An aluminum barrel of aluminum, yeah, yeah, I get it"
-			x: 11.5d
+			x: 9.5d
 			y: -5.5d
 		}
 		{
@@ -1566,7 +1378,7 @@
 				weak_nbt_match: true
 			}]
 			title: "A stainless steel barrel of stainless steel, let's move on"
-			x: 11.5d
+			x: 9.5d
 			y: -6.5d
 		}
 		{
@@ -1637,7 +1449,7 @@
 				weak_nbt_match: true
 			}]
 			title: "A titanium barrel of titanium, what a surprise"
-			x: 11.5d
+			x: 9.5d
 			y: -7.5d
 		}
 		{
@@ -1695,7 +1507,7 @@
 				weak_nbt_match: true
 			}]
 			title: "A quantum barrel of dirt, the peak of perfection"
-			x: 11.5d
+			x: 9.5d
 			y: -8.5d
 		}
 		{
@@ -2299,7 +2111,7 @@
 				type: "checkmark"
 			}]
 			title: "&4<shake>C</shake>&r&6<shake>o</shake>&r&e<shake>l</shake>&r&2<shake>o</shake>&r&b<shake>r</shake>&r &9<shake>S</shake>&r&5<shake>p</shake>&r&4<shake>e</shake>&r&6<shake>c</shake>&r&e<shake>t</shake>&r&2<shake>r</shake>&r&b<shake>u</shake>&r&9<shake>m</shake>&r"
-			x: 4.5d
+			x: 4.0d
 			y: -2.5d
 		}
 		{
@@ -2338,7 +2150,7 @@
 				type: "item"
 			}]
 			title: "Do we have enough?"
-			x: 12.5d
+			x: 10.5d
 			y: -0.5d
 		}
 		{
@@ -2380,7 +2192,7 @@
 				type: "item"
 			}]
 			title: "Well, that should definetly be enough."
-			x: 12.5d
+			x: 10.5d
 			y: -1.5d
 		}
 		{
@@ -2541,7 +2353,7 @@
 				}
 			]
 			title: "These ice cream sundaes are delicious"
-			x: 13.5d
+			x: 11.5d
 			y: -0.5d
 		}
 		{
@@ -2580,7 +2392,7 @@
 				type: "item"
 			}]
 			title: "A truly personal space"
-			x: 14.5d
+			x: 12.5d
 			y: -0.5d
 		}
 		{
@@ -2619,7 +2431,7 @@
 				type: "item"
 			}]
 			title: "Project «Desertec». Are we gonna make it this time?"
-			x: 15.5d
+			x: 13.5d
 			y: -0.5d
 		}
 		{
@@ -2671,7 +2483,7 @@
 				weak_nbt_match: true
 			}]
 			title: "A tin barrel of tin, that's just a repeat"
-			x: 11.5d
+			x: 9.5d
 			y: -1.5d
 		}
 		{
@@ -2714,7 +2526,7 @@
 				type: "item"
 			}]
 			title: "A black hole of its own"
-			x: 7.5d
+			x: 7.0d
 			y: -0.5d
 		}
 		{
@@ -2768,7 +2580,7 @@
 				type: "item"
 			}]
 			title: "Well, now I'm definitely instamining"
-			x: 7.5d
+			x: 7.0d
 			y: -1.5d
 		}
 		{
@@ -2822,7 +2634,7 @@
 				type: "item"
 			}]
 			title: "More hearts!?!?!?!?!"
-			x: 7.5d
+			x: 7.0d
 			y: -2.5d
 		}
 		{
@@ -2867,7 +2679,7 @@
 				type: "item"
 			}]
 			title: "Was it worth an ocean of mana?"
-			x: 8.5d
+			x: 8.0d
 			y: -0.5d
 		}
 	]
