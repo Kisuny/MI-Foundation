@@ -369,13 +369,21 @@
 				}
 			}
 			id: "676AFD8AA738BBE1"
-			rewards: [{
-				count: 4
-				id: "53588614494CF58C"
-				item: "farmersdelight:hamburger"
-				team_reward: false
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "53588614494CF58C"
+					item: "farmersdelight:hamburger"
+					team_reward: false
+					type: "item"
+				}
+				{
+					count: 4
+					id: "680575F75A4B906E"
+					item: "gag:sacred_salve"
+					type: "item"
+				}
+			]
 			subtitle: "Watch your diet, kids!"
 			tasks: [{
 				id: "696BD820E66376C5"

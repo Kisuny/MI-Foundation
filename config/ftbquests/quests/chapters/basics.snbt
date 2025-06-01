@@ -146,12 +146,25 @@
 			dependencies: ["656AA3506B3014E7"]
 			description: [" "]
 			id: "6108CA80D4D2A02C"
-			rewards: [{
-				id: "0E42342DBEE495E5"
-				item: "kubejs:food_lootbag_uncommon"
-				team_reward: true
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0E42342DBEE495E5"
+					item: "kubejs:food_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "054AD76AA05E3FE2"
+					item: {
+						Count: 1b
+						id: "gag:escape_rope"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			subtitle: "&lStill quite primitive&r"
 			tasks: [{
@@ -226,6 +239,12 @@
 					item: "minecraft:iron_ingot"
 					type: "item"
 				}
+				{
+					count: 4
+					id: "3182E03BF62BD156"
+					item: "gag:sacred_salve"
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			subtitle: "Get some &6iron&r"
@@ -261,6 +280,12 @@
 					item: "minecraft:copper_ingot"
 					type: "item"
 				}
+				{
+					count: 4
+					id: "46EC520FBBBAB3E5"
+					item: "gag:sacred_salve"
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			subtitle: "Get some &6copper&r"
@@ -294,6 +319,12 @@
 					count: 32
 					id: "0B1F21A5F541BD77"
 					item: "modern_industrialization:tin_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "545E39EF874D1623"
+					item: "gag:sacred_salve"
 					type: "item"
 				}
 			]

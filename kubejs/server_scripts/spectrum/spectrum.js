@@ -67,7 +67,6 @@ ServerEvents.recipes(event => {
         'spectrum:upgrade_experience',
         'spectrum:upgrade_experience2',
         'spectrum:upgrade_yield',
-        'spectrum:celestial_pocketwatch',
         'spectrum:dragonrending_pickaxe',
         'spectrum:resonant_pickaxe',
         'spectrum:block_breaker',

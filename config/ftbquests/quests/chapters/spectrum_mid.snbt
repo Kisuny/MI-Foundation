@@ -1033,7 +1033,7 @@
 				item: "spectrum:fanciful_circlet"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.5d
 			y: 10.5d
 		}
 		{
@@ -1065,7 +1065,7 @@
 				item: "spectrum:weeping_circlet"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.5d
 			y: 11.5d
 		}
 		{
@@ -1097,7 +1097,7 @@
 				item: "spectrum:whispy_circlet"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.5d
 			y: 12.0d
 		}
 		{
@@ -1129,7 +1129,7 @@
 				item: "spectrum:ashen_circlet"
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.5d
 			y: 11.5d
 		}
 		{
@@ -3601,6 +3601,31 @@
 			}]
 			x: 12.911224489795906d
 			y: 0.7091836734693899d
+		}
+		{
+			dependencies: ["12C2D3EA6474C0B8"]
+			description: [
+				"Allows to store &otime&r while the &obottle&r Pouch is in the player inventory. When enough time is stored, you can speed up block entities. More clicks = more speed increase. "
+				"{@pagebreak}"
+				"Позволяет накапливать время в &mбутылочке&r мешке находясь в инвентаре, как только вы скопили много времени - вы можете начать ускорять любые блоки, чем больше раз кликнуть на блок данным мешком, тем быстрее работать он начнёт."
+			]
+			hide_dependency_lines: false
+			id: "67AEED607C20E810"
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "3B047C812797DB9F"
+				item: {
+					Count: 1b
+					id: "gag:time_sand_pouch"
+					tag: {
+						grains: 14400
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.5d
 		}
 	]
 	title: "Spectrum: New discoveries"

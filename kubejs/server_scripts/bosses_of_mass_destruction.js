@@ -15,7 +15,6 @@ ServerEvents.recipes(event =>{
             { "item": "mythicmetals:celestium_ingot", "count": 2 },
             { "item": "minecraft:egg", "count": 4 },
             { "item": "spectrum:vegetal", "count": 8 },
-            { "item": "botania:rune_wrath", "count": 1 },
             { "item": "neepmeat:brain_rough", "count": 1 },
             { "item": "artifacts:fire_gauntlet", "count": 1 },
         ],

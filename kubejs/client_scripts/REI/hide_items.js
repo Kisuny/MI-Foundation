@@ -581,6 +581,12 @@ REIEvents.hide('item', event => {
         'dragonsteel:star_alloy_shovel',
         'dragonsteel:star_alloy_pickaxe',
         'dragonsteel:star_alloy_axe',
+        'gag:labeling_tool',
+        'gag:mining_dynamite',
+        'gag:fishing_dynamite',
+        'gag:pigment_jar',
+        'gag:energized_hearthstone',
+        'gag:hearthstone',
 
     ]);
     event.hide(list)

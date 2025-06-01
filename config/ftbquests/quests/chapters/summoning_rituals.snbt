@@ -156,11 +156,18 @@
 			]
 			hide_dependency_lines: true
 			id: "7ED305543F610D6C"
-			rewards: [{
-				id: "546B792E67396E51"
-				item: "kubejs:mob_lootbag_rare"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "546B792E67396E51"
+					item: "kubejs:mob_lootbag_rare"
+					type: "item"
+				}
+				{
+					id: "3569867B93587473"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.1d
 			subtitle: "Mini-boss"
@@ -183,11 +190,18 @@
 			]
 			hide_dependency_lines: true
 			id: "63ACA9F95A08D31A"
-			rewards: [{
-				id: "143BAFFA36DDBC8A"
-				item: "kubejs:mob_lootbag_rare"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "143BAFFA36DDBC8A"
+					item: "kubejs:mob_lootbag_rare"
+					type: "item"
+				}
+				{
+					id: "20D6570B88894B66"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.1d
 			subtitle: "Mini-boss"
@@ -220,11 +234,18 @@
 			]
 			hide_dependency_lines: true
 			id: "66E4AA6980F7D436"
-			rewards: [{
-				id: "7F1775B9BAC51EBA"
-				item: "kubejs:mob_lootbag_rare"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7F1775B9BAC51EBA"
+					item: "kubejs:mob_lootbag_rare"
+					type: "item"
+				}
+				{
+					id: "550F5EC3386188BF"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.1d
 			subtitle: "Mini-boss"
@@ -252,11 +273,19 @@
 			hide_dependency_lines: true
 			icon: "adventurez:stone_golem_heart"
 			id: "0915B6A9C57F5783"
-			rewards: [{
-				id: "72B1AA4A96227135"
-				item: "kubejs:mob_lootbag_epic"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "72B1AA4A96227135"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "14D1114007C97B10"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 1.3d
 			subtitle: "Boss!"
@@ -278,11 +307,18 @@
 			]
 			hide_dependency_lines: true
 			id: "6D787B2E2327DCCE"
-			rewards: [{
-				id: "24924C92AA7332AD"
-				item: "kubejs:mob_lootbag_rare"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "24924C92AA7332AD"
+					item: "kubejs:mob_lootbag_rare"
+					type: "item"
+				}
+				{
+					id: "0F061FF08E8CEFC7"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.1d
 			subtitle: "Mini-boss"
@@ -303,11 +339,18 @@
 			]
 			hide_dependency_lines: true
 			id: "3583D5A2ADB31747"
-			rewards: [{
-				id: "7B950E53504EFF34"
-				item: "kubejs:mob_lootbag_rare"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7B950E53504EFF34"
+					item: "kubejs:mob_lootbag_rare"
+					type: "item"
+				}
+				{
+					id: "7C181BDE8372EF4D"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.1d
 			subtitle: "Mini-boss"
@@ -330,11 +373,19 @@
 			]
 			hide_dependency_lines: true
 			id: "2F010344049170CB"
-			rewards: [{
-				id: "51D56E68C6DB3C28"
-				item: "kubejs:mob_lootbag_epic"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "51D56E68C6DB3C28"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "4D6D1C087906AB91"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 1.3d
 			subtitle: "Boss!"
@@ -384,11 +435,19 @@
 			hide_dependency_lines: true
 			icon: "bosses_of_mass_destruction:ancient_anima"
 			id: "19ED83FBF75EE19B"
-			rewards: [{
-				id: "65F079E622C6D37F"
-				item: "kubejs:mob_lootbag_epic"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "65F079E622C6D37F"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "798F6D62E05D7DF1"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 1.3d
 			subtitle: "Boss!"
@@ -415,11 +474,19 @@
 			]
 			hide_dependency_lines: true
 			id: "52A6CBCB4B5F2F94"
-			rewards: [{
-				id: "372F1921449F229E"
-				item: "kubejs:mob_lootbag_epic"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "372F1921449F229E"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "5F25D7A229DC5714"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 1.3d
 			subtitle: "Boss!"
@@ -446,11 +513,19 @@
 			]
 			hide_dependency_lines: true
 			id: "6ABF999DD741B87F"
-			rewards: [{
-				id: "424196C3B9729727"
-				item: "kubejs:mob_lootbag_epic"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "424196C3B9729727"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "548F4CD43CA5112D"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 1.3d
 			subtitle: "Boss!"
@@ -481,11 +556,19 @@
 			]
 			hide_dependency_lines: true
 			id: "6F9BF123A3A98426"
-			rewards: [{
-				id: "5DBCC8385BD6D5D5"
-				item: "kubejs:mob_lootbag_epic"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5DBCC8385BD6D5D5"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4EF2075A3A52DF75"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 1.3d
 			subtitle: "Boss!"
@@ -541,11 +624,19 @@
 			dependencies: ["3717E2E8EC5DB9CE"]
 			hide_dependency_lines: true
 			id: "011BF98088D6506C"
-			rewards: [{
-				id: "75AFEDFF601DA0AA"
-				item: "kubejs:mob_lootbag_epic"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "75AFEDFF601DA0AA"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "11FA26ABD0C90667"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 1.3d
 			subtitle: "Boss!"
@@ -565,11 +656,19 @@
 			dependencies: ["3717E2E8EC5DB9CE"]
 			hide_dependency_lines: true
 			id: "5EE932EF8D0D9A3F"
-			rewards: [{
-				id: "5062D90DF41C5C64"
-				item: "kubejs:mob_lootbag_epic"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5062D90DF41C5C64"
+					item: "kubejs:mob_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "43BACB8B5CD4A68E"
+					item: "numismatic-overhaul:gold_coin"
+					type: "item"
+				}
+			]
 			shape: "pentagon"
 			size: 1.3d
 			subtitle: "Boss!"

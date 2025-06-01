@@ -103,24 +103,6 @@ ServerEvents.recipes(event => {
         advancement: "spectrum:unlocks/upgrades/upgrade_yield"
     });
     customPedestalCraft(event, {
-        tier: "complex", time: 24000, amethyst: 32, moonstone: 32, onyx: 32, experience: 16.0,
-        pattern: [
-            "EWE",
-            "WQW",
-            "EWE"
-        ],
-        keys: {
-            "Q": { "item": "spectrum:paltaeria_gem" },
-            "W": { "item": "kubejs:sharped_amethyst" },
-            "E": { "item": "modern_industrialization:metallurgium_plate" }
-        },
-        result: {
-            "item": "spectrum:celestial_pocketwatch",
-            "count": 1
-        },
-        advancement: "spectrum:unlocks/items/celestial_pocketwatch"
-    });
-    customPedestalCraft(event, {
         tier: "complex", time: 1200, amethyst: 8, citrine: 16, onyx: 8, experience: 16.0,
         pattern: [
             "EBC",
