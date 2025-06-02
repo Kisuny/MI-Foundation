@@ -131,7 +131,6 @@ const beehemoths = [
 
 function apiary(event, bee, flower, energy, time, life, combs, byproducts) {
     event = event.recipes.modern_industrialization.industrial_apiary(energy, time).itemIn(bee.id,bee.life).itemIn(flower, life*(bee.flower_life_multi))
-    console.log(bee.flower_life_multi)
 
     combs.forEach(item => {
         event = event.itemOut(strmulti(bee.comb_multi,item.id),item.chance)
