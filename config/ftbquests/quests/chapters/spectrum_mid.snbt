@@ -3605,7 +3605,7 @@
 		{
 			dependencies: ["12C2D3EA6474C0B8"]
 			description: [
-				"Allows to store &otime&r while the &obottle&r Pouch is in the player inventory. When enough time is stored, you can speed up block entities. More clicks = more speed increase. "
+				"Allows to store &otime&r while the &mbottle&r Pouch is in the player inventory. When enough time is stored, you can speed up block entities. More clicks = more speed increase. "
 				"{@pagebreak}"
 				"Позволяет накапливать время в &mбутылочке&r мешке находясь в инвентаре, как только вы скопили много времени - вы можете начать ускорять любые блоки, чем больше раз кликнуть на блок данным мешком, тем быстрее работать он начнёт."
 			]
