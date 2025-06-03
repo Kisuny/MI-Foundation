@@ -7,7 +7,22 @@
 	icon: "modern_industrialization:turbo_machine_hull"
 	id: "263547FF4BF8BBB2"
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "52AC79015DB987CE"
+			linked_quest: "1D276E39138A7506"
+			shape: "gear"
+			x: 21.0d
+			y: 8.5d
+		}
+		{
+			id: "41896E5A9FE6A189"
+			linked_quest: "64087BCA6449BCD8"
+			shape: "gear"
+			x: 23.0d
+			y: 8.5d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["50BBF5DA3EB28CF2"]
@@ -1839,14 +1854,15 @@
 				"Идеальная смесь..."
 			]
 			id: "45E44E92011D35F4"
+			shape: "gear"
 			subtitle: "WD-120"
 			tasks: [{
 				id: "3E34C69D084AC27C"
 				item: "neepmeat:charged_work_fluid_bucket"
 				type: "item"
 			}]
-			x: 22.0d
-			y: 6.5d
+			x: 23.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -3487,17 +3503,30 @@
 			y: -0.8d
 		}
 		{
+			dependencies: ["6F2B4A51C546A645"]
 			id: "4A95828133435600"
+			rewards: [{
+				id: "1754C3ADBF5F9ADA"
+				item: "kubejs:late_lootbag_rare"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1F948DA5E1623566"
 				item: "meatweapons:tinker_table"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -2.5d
+			title: "Modular Weapon"
+			x: 22.0d
+			y: 9.5d
 		}
 		{
+			dependencies: ["4A95828133435600"]
 			id: "6464928ED2AF7B8E"
+			rewards: [{
+				id: "0A8D011554E8DE52"
+				item: "kubejs:late_lootbag_rare"
+				type: "item"
+			}]
 			tasks: [{
 				id: "09D9A03B570A03A0"
 				item: {
@@ -3543,11 +3572,17 @@
 				}
 				type: "item"
 			}]
-			x: -1.5d
-			y: -4.0d
+			x: 20.0d
+			y: 9.5d
 		}
 		{
+			dependencies: ["4A95828133435600"]
 			id: "1312D77323790A6A"
+			rewards: [{
+				id: "60A4EF3DE1F3A76A"
+				item: "kubejs:late_lootbag_rare"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7019C67D47E89765"
 				item: {
@@ -3566,138 +3601,349 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: -4.0d
+			x: 24.0d
+			y: 9.5d
 		}
 		{
+			dependencies: ["07162B3958A6A95B"]
 			id: "71AB35827954CF93"
+			rewards: [{
+				id: "1A83AC9DEB09FCDC"
+				item: "kubejs:late_lootbag_rare"
+				type: "item"
+			}]
 			tasks: [{
 				id: "06DE0F6173960060"
 				item: "meatweapons:long_boi"
 				type: "item"
 			}]
-			x: -9.5d
-			y: -5.5d
+			x: 18.5d
+			y: 15.0d
 		}
 		{
+			dependencies: ["5CAE96B3E8250129"]
 			id: "103F5BE804EA9312"
+			rewards: [{
+				id: "79CD014D30E70CD1"
+				item: "kubejs:late_lootbag_rare"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2C33722C7B3B40F6"
 				item: "meatweapons:halberd"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -5.5d
+			x: 22.0d
+			y: 15.0d
 		}
 		{
+			dependencies: ["07162B3958A6A95B"]
 			id: "0D5129E6A39D7043"
+			rewards: [{
+				id: "43222F1532FC1D9F"
+				item: "kubejs:late_lootbag_rare"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7217F5CD405DB469"
 				item: "meatweapons:pistol"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -5.5d
+			x: 18.5d
+			y: 19.0d
 		}
 		{
+			dependencies: ["07162B3958A6A95B"]
 			id: "48A04D4957742A26"
+			rewards: [{
+				id: "46FE26F5F3E32D1E"
+				item: "kubejs:late_lootbag_rare"
+				type: "item"
+			}]
 			tasks: [{
 				id: "00C01D9A41D1F274"
 				item: "meatweapons:bosher"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -5.5d
+			x: 18.5d
+			y: 18.0d
 		}
 		{
+			dependencies: ["07162B3958A6A95B"]
 			id: "16663910B0308439"
+			rewards: [{
+				id: "1BE6AAD06CEB567A"
+				item: "kubejs:late_lootbag_rare"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3BF25DAC61EBF0B9"
 				item: "meatweapons:chugger"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -5.5d
+			x: 18.5d
+			y: 17.0d
 		}
 		{
+			dependencies: ["07162B3958A6A95B"]
 			id: "469E916AD1564F50"
+			rewards: [{
+				id: "1758EFFB0BE3177E"
+				item: "kubejs:late_lootbag_rare"
+				type: "item"
+			}]
 			tasks: [{
 				id: "02A0AC495C934ECE"
 				item: "meatweapons:grenade_launcher"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -5.5d
+			x: 18.5d
+			y: 16.0d
 		}
 		{
+			dependencies: ["14706D55DB9D08B2"]
 			id: "438662FC0F90C377"
+			rewards: [{
+				id: "141C85CECC7A0368"
+				item: "kubejs:late_lootbag_rare"
+				type: "item"
+			}]
 			tasks: [{
 				id: "3D1D4B4D459982FD"
 				item: "meatweapons:short_phage_ray"
 				type: "item"
 			}]
-			x: -3.5d
-			y: -5.5d
+			x: 25.0d
+			y: 19.0d
 		}
 		{
+			dependencies: ["14706D55DB9D08B2"]
 			id: "74CDC7CF98D25CE0"
+			rewards: [{
+				id: "1787F650DA5C9CE4"
+				item: "kubejs:late_lootbag_rare"
+				type: "item"
+			}]
 			tasks: [{
 				id: "4D77AB3D6B093DDA"
 				item: "meatweapons:shock_staff"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -5.5d
+			x: 25.0d
+			y: 15.0d
 		}
 		{
+			dependencies: ["5CAE96B3E8250129"]
 			id: "1C84B0C6C3FFFAC4"
+			rewards: [{
+				id: "5900DD52726B8800"
+				item: "kubejs:late_lootbag_rare"
+				type: "item"
+			}]
 			tasks: [{
 				id: "140DF89BF94DC26D"
 				item: "meatweapons:double_carousel"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -5.5d
+			x: 22.0d
+			y: 18.0d
 		}
 		{
+			dependencies: ["5CAE96B3E8250129"]
 			id: "1B36A2CCC6DA2F7E"
+			rewards: [{
+				id: "4A6AA6C53B1FAAC6"
+				item: "kubejs:late_lootbag_rare"
+				type: "item"
+			}]
 			tasks: [{
 				id: "01F2203F4A4E828C"
 				item: "meatweapons:triple_carousel"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -5.5d
+			x: 22.0d
+			y: 19.0d
 		}
 		{
+			dependencies: ["5CAE96B3E8250129"]
 			id: "53E1AD39A64E46E3"
+			rewards: [{
+				id: "5DE50C4F4F85A84B"
+				item: "kubejs:late_lootbag_rare"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0E58B819D1EDB92B"
 				item: "meatweapons:homing_brain"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -5.5d
+			x: 22.0d
+			y: 17.0d
 		}
 		{
+			dependencies: ["5CAE96B3E8250129"]
 			id: "6A90050E70B02DEC"
+			rewards: [{
+				id: "00A28DF34B4025CE"
+				item: "kubejs:late_lootbag_rare"
+				type: "item"
+			}]
 			tasks: [{
 				id: "113E4A062A331311"
 				item: "meatweapons:phage_ray_speed_modifier"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -5.5d
+			x: 22.0d
+			y: 16.0d
 		}
 		{
-			id: "4F16FD2E46B74D4B"
-			tasks: [{
-				id: "04E912BC988DD8C7"
-				item: "meatweapons:battery"
+			dependencies: ["4A95828133435600"]
+			id: "2DE24ADC6E962303"
+			rewards: [{
+				id: "73C9F079AF3BC1D4"
+				item: "kubejs:late_lootbag_rare"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -5.5d
+			tasks: [{
+				id: "183FF81920AC9616"
+				item: "meatweapons:small_ballistic_magazine"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4A95828133435600"]
+			id: "2CDF2A298C7501F7"
+			rewards: [{
+				id: "73A8E5382ABF3111"
+				item: "kubejs:late_lootbag_rare"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75F9E86E63558FD9"
+				item: "meatweapons:medium_ballistic_magazine"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4A95828133435600"]
+			id: "0B54FD225F4DE83E"
+			rewards: [{
+				id: "639A7E95B3AD248F"
+				item: "kubejs:late_lootbag_rare"
+				type: "item"
+			}]
+			tasks: [{
+				id: "799248CAFB209660"
+				item: "meatweapons:large_ballistic_magazine"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4A95828133435600"]
+			id: "29A4CA91337D42B3"
+			rewards: [{
+				id: "624C3218FFC127A0"
+				item: "kubejs:late_lootbag_rare"
+				type: "item"
+			}]
+			tasks: [{
+				id: "010DF860B434A0BC"
+				item: "meatweapons:small_energy_magazine"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4A95828133435600"]
+			id: "773C36B1DE01FFB4"
+			rewards: [{
+				id: "56EEB5C2A4F7BFE1"
+				item: "kubejs:late_lootbag_rare"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7E07D2D48B73EEA1"
+				item: "meatweapons:medium_energy_magazine"
+				type: "item"
+			}]
+			x: 25.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"2CDF2A298C7501F7"
+				"0B54FD225F4DE83E"
+				"2DE24ADC6E962303"
+			]
+			id: "07162B3958A6A95B"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "1AF14C77F296A305"
+				item: "kubejs:late_lootbag_rare"
+				type: "item"
+			}]
+			tasks: [{
+				id: "383D29E19D5DF7D1"
+				title: "Ballistic Module"
+				type: "checkmark"
+			}]
+			x: 18.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"773C36B1DE01FFB4"
+				"29A4CA91337D42B3"
+			]
+			id: "14706D55DB9D08B2"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "3789E7D485C662BA"
+				item: "kubejs:late_lootbag_rare"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44D2BCAD3579664A"
+				title: "Energy Module"
+				type: "checkmark"
+			}]
+			x: 25.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["4A95828133435600"]
+			description: [""]
+			id: "5CAE96B3E8250129"
+			rewards: [{
+				id: "0F0F32DFC101ADC7"
+				item: "kubejs:late_lootbag_rare"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E7BB719643BF8D1"
+				title: "Improvement Modules"
+				type: "checkmark"
+			}]
+			x: 22.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3C94F0661744AF8D"]
+			id: "6F2B4A51C546A645"
+			tasks: [{
+				id: "378577FDC25F4958"
+				item: "neepmeat:bioelectric_organ"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 7.5d
 		}
 	]
 	title: "Space program | HV"
