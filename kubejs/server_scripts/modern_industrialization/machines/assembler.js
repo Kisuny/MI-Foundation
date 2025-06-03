@@ -565,4 +565,11 @@ ServerEvents.recipes(event => {
         .itemIn('2x modern_industrialization:silicon_dust')
         .itemOut('3x modern_industrialization:silicon_battery')
         .id('mif:assembler_caterium_alternate_silicon_battery')
+    
+    event.recipes.modern_industrialization.assembler(8, 4000)
+        .itemIn('24x minecraft:glass')
+        .itemIn('48x neepmeat:caution_block')
+        .itemIn('4x modern_industrialization:lv_steam_turbine')
+        .itemIn('12x modern_industrialization:analog_circuit')
+        .itemOut('meatweapons:airtruck')
 })
