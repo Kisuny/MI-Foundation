@@ -12,264 +12,16 @@
 		{
 			dependencies: ["5AB00116967F9823"]
 			description: [
-				"The brain of NEEPMeat. PLC - Programmable Logical Controller can execute special set of instructions written in NEEPASM language with clock speed of 20Hz (or more simply 1 instruction per tick)"
+				"The brain of NEEPMeat. PLC - Programmable Logical Controller can execute special set of instructions written in NEEPASM language or THORD with clock speed of 20Hz (or more simply 1 instruction per tick)"
 				""
 				"More info can be found in the NEEPMeat Projector."
 				""
 				""
 				"{@pagebreak}"
-				"&lInterface&r"
-				"PLC has two modes:"
-				"- &lManual&r : instructions are executed directly by steering the PLC robot by WASD keys and mouse (hold mouse wheel button to rotate camera). To execute the instruction you must choose it in the list and select necessary blocks(using mouse)."
-				"- &lEdit&r: instructions are executed by line by line interpretation of NEEPASM code. Unlike the manual mode, in Edit mode there are more instruction. Before executing programs should be compiled."
 				""
-				"Change of modes is perfomed by pressing interface keys at the top right."
-				""
-				"{@pagebreak}"
-				"&lNEEPASM&r"
-				"NEEPASM is a variant of Assembly language for PLC."
-				"Programs in PLC are the lists of instructions which are executed line by line (from top to bottom)"
-				"Instructions can acceps different arguments:"
-				"- Strings: \"a string\""
-				"- Numbers: 123, 0x7b, 0b1111011"
-				"- Coordinates: @(12,42,-23, NORTH)"
-				""
-				"Coordinates represents a block inside a world so PLC could access it through specified direction."
-				""
-				"Any text after \"#\" is not interpreted and serves as a comment to a program"
-				""
-				"```"
-				"say \"Hello\" # this is a comment"
-				"```"
-				""
-				"{@pagebreak}"
-				"&lStack&r"
-				"PLC has a memory in form of a stack of numbers. "
-				"Elements of stack can only be added or removed from the top of the stack by PUSH and POP instructions respectively."
-				"Comparison and arithmetic operations takes arguments directly from stack:"
-				"```"
-				"push 1    # puts 1 on stack"
-				"push 2    # puts 2 on top of the stack"
-				""
-				"add        # adds 1 and 2 "
-				""
-				"inc         # increment last element by 1"
-				""
-				"push 4   "
-				""
-				"eq         # checking the equality"
-				"say        # printing of result (to chat)"
-				""
-				"```"
-				""
-				"{@pagebreak}"
-				"&lLabels and branches&r"
-				"Labels are constant places in program, created by \":\" symbol,  which can be accessed by certain \"jumping\" instructions: JMP, BIF and BIT."
-				""
-				"```"
-				"a_label:"
-				"say \"loop\""
-				"jmp a_label"
-				"```"
-				""
-				"JMP instruction will unconditionally jump to specified label."
-				"Unlike JMP, BIF perform a jump if the number on a stack is greater than zero. BIT on the other hand jumps when number is less &5or equal&r to zero."
-				""
-				"Labels may repeat. Moreover adding `f` or `b` to the end of instruction PLC will search for specified label forwards or backwards respectively."
-				""
-				""
-				"```"
-				"a_label:"
-				"jmp a_label f # jumping forwards"
-				"say \"skip\":     # instruction is ignored"
-				"a_label:"
-				"say \"yippee\""
-				"```"
-				""
-				"{@pagebreak}"
-				"&lFunctions and aliases&r"
-				"Functions are used to wrap code which should be used repeatedly."
-				""
-				"Functions are declared by %func *code* %end, for example:"
-				"```"
-				"%func a_function"
-				"say \"Inside the function\""
-				"%end"
-				"a_function  # Function call"
-				"```"
-				"Aliases are mainly used for naming the world coordinates and can be used by using `$` before alias. "
-				""
-				"```"
-				"%alias redstone_input = @(12 32 12 NORTH)"
-				"rwait $redstone_input # Waiting of redstone signal"
-				"```"
-				""
-				"{@pagebreak}"
-				"&lMacros&r"
-				"Macros are the sections of code which can be interpreded as an instruction and have different behaviour depending on arguments. In some sense macro is a metaprogramming, but in this case it's more similar to functions from modern languages. "
-				"```"
-				"%macro a_macro message something_else"
-				"say \"The message: %message # replacement %message"
-				"say \"%something_else\""
-				"%end"
-				""
-				"a_macro Hello, down"
-				"```"
-				""
-				"Arguments which are passed to macro must be separated by commas. In the example above the output will be"
-				"\"The message: Hello\""
-				"\"down\""
-				""
-				"Any text can serve as a macro argument, including aliases."
-				""
-				""
-				"{@pagebreak}"
-				"&lInstructions&r"
-				"Instructions consists of operations and list of arguments. These arguments, often, represents the block positions. "
-				""
-				"Instructions may have differnent number of parameters. For example END and RESTART do not have any paremeters."
-				""
-				""
-				"{@pagebreak}"
-				"&lWorkbenches&r"
-				"PLC workbenches allows to modify items and entities with PLC robot or robotic hand. "
-				""
-				"For example:"
-				"- Platform (item modification)"
-				"- Pedestal (item modification)"
-				"- Surgery platform (entity)"
-				""
-				"Not all instructions needs workbenches. Some instructions interract with blocks, item and fluid inventories."
-				""
-				""
-				"{@pagebreak}"
-				""
-				"Передовое достижение мясо-строения. ПЛК - Программируемый Логический Контроллер который может исполнять любые программы написанные на NEEPASM. "
+				"Передовое достижение мясо-строения. ПЛК - Программируемый Логический Контроллер который может исполнять любые программы написанные на NEEPASM или на THORD. "
 				""
 				"Больше информации можно найти в NEEPMeat Projector."
-				""
-				""
-				"{@pagebreak}"
-				"&lИнтерфейс&r"
-				"ПЛК имеет два режима работы:"
-				"- &lРучной&r : инструкции выполняются напрямую путём управления робота с помощью WASD, с помощью средней кнопки мыши производится движение камеры. Для задействования инструкции необходимо выбрать её из списка после чего выбрать блок(и) к которым должна применится инструкция."
-				"- &lИсполняемый&r: инструкции выполняются благодаря построчной интерпретации NEEPASM кода. В отличии от ручного режима, доступно на порядок больше инструкций которые ПЛК может выполнять. Программы рекомендуется сначала компилировать. "
-				""
-				"Переключение между режимами и управление программами находится в правой верхней части интерфейса."
-				""
-				"{@pagebreak}"
-				"&lNEEPASM&r"
-				"NEEPASM является языком сборки для ПЛК. Программами в NEEPASM являются наборы инструкций которые исполняются построчно одна одной."
-				"Инструкции могут принимать различные аргументы:"
-				"- Строки: \"a string\""
-				"- Числа: 123, 0x7b, 0b1111011"
-				"- Координаты: @(12,42,-23, NORTH)"
-				""
-				"Координаты представляют блок в мире и используются чтобы ПЛК могло взаимодействовать с блоком с конкретной стороны."
-				""
-				"Любые символы после # являются комментариями в программе"
-				""
-				"```"
-				"say \"Hello\" #комментарий"
-				"```"
-				""
-				""
-				""
-				""
-				"{@pagebreak}"
-				"&lСтэк&r"
-				"ПЛК имеет память в виде стека для хранения чисел. Элементы стека могут быть добавлены или убраны только с верхушки стека с помощью инструкций PUSH и POP."
-				"Сравнение чисел и арифметические операции берут свои аргументы напрямую из стека:"
-				"```"
-				"push 1    # помещает 1 на стек"
-				"push 2    "
-				""
-				"add        # складывает два значения и помещает на стек"
-				""
-				"inc         # увеличивает на единицу последний елемент"
-				""
-				"push 4 "
-				""
-				"eq         # проверка равенства 4 и 4"
-				"say        # вывод результата"
-				""
-				"```"
-				""
-				"{@pagebreak}"
-				"&lМетки и ветки&r"
-				"Метки являются постоянными местами в программе к которым можно перейти с помощью инструкций перехода: JMP, BIF и BIT."
-				""
-				""
-				"```"
-				"a_label:"
-				"say \"loop\""
-				"jmp a_label"
-				"```"
-				"В отличии от JMP, BIF совершает переход если число на стеке больше нуля. BIT совершает переход если число на стеке равно нулю либо отрицательно."
-				""
-				""
-				"Метки можно могут быть не уникальными. Добавив `f` или `b` к концу инструкции программа будет искать необходимую метку впереди или позади соответственно"
-				""
-				"```"
-				"a_label:"
-				"jmp a_label f # прыгаем вперёд"
-				"say \"skip\":     # данная инструкция игнорируется"
-				"a_label:"
-				"say \"yippee\""
-				"```"
-				""
-				"{@pagebreak}"
-				"&lФункции и переменные&r"
-				"Функции энкапсулируют процедуры которые могут быть использованы несколько раз."
-				""
-				"Функция обьявляется с помощью %func и %end:"
-				"```"
-				"%func a_function"
-				"say \"Inside the function\""
-				"%end"
-				"a_function  # Вызов функции"
-				"```"
-				"Переменные используются для сокращения координат блоков. Переменные могут быть вызваны с использованием $ перед именем переменной"
-				"```"
-				"%alias redstone_input = @(12 32 12 NORTH)"
-				"rwait $redstone_input # Ожидание редстоун сигнала"
-				""
-				""
-				"{@pagebreak}"
-				"&lМакросы&r"
-				"Макросы являются участками кода которые могут быть интерпретированы как инструкции и могут изменять поведение в зависимости от полученых аргументов. В отличии от программ макросы расширяются в том месте программы в которой они вызываются."
-				"```"
-				"%macro a_macro message something_else"
-				"say \"The message: %message # замена %message"
-				"say \"%something_else\""
-				"%end"
-				""
-				"a_macro Hello, down"
-				""
-				"Аргументы которые передаются в макрос должны быть разделены запятыми. В данном случае программа выдаст в чат "
-				"\"The message: Hello\""
-				"\"down\""
-				""
-				"Любой текст может быть аргументом макроса, включая переменные."
-				""
-				""
-				"{@pagebreak}"
-				"&lИнструкции&r"
-				"Инструкции состоят из операций и набора аргументов. Эти аргументы являются позициями блоков в мире."
-				""
-				"Инструкции могут иметь разное количество аргументов. Некоторые как END и RESTART не имеют аргументов."
-				""
-				""
-				"{@pagebreak}"
-				"&lРабочие станции&r"
-				"Рабочие станции позволяют неким образом модифицировать предметы и сущности с помощью ПЛК робота."
-				""
-				"Например:"
-				"- Платформа (предмет)"
-				"- Пьедестал (предмет)"
-				"- Хирургическая платформа (сущность)"
-				""
-				"Не все инструкции требуют рабочих станций. Некоторый оперируют с блоками, предметными и жидкостными инвентарями."
 			]
 			id: "7F1E78E14355EEF5"
 			rewards: [
@@ -304,8 +56,8 @@
 				item: "neepmeat:plc"
 				type: "item"
 			}]
-			x: 8.854761904761896d
-			y: 9.734523809523811d
+			x: 0.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["5F3653747EC9ADCF"]
@@ -335,8 +87,8 @@
 				item: "neepmeat:robotic_arm"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 8.0d
+			x: -2.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -356,7 +108,7 @@
 				item: "neepmeat:advanced_integrator"
 				type: "item"
 			}]
-			x: -0.75d
+			x: -11.25d
 			y: 9.75d
 		}
 		{
@@ -376,14 +128,14 @@
 				}
 			]
 			shape: "gear"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "54DF26787A97FA65"
 				item: "neepmeat:surgery_platform"
 				type: "item"
 			}]
-			x: 4.579761904761904d
-			y: 9.7d
+			x: -5.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["7F1E78E14355EEF5"]
@@ -399,8 +151,8 @@
 				item: "neepmeat:contractile_actuator"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 8.0d
+			x: -1.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4D67040731053B27"]
@@ -429,8 +181,8 @@
 				item: "neepmeat:pylon"
 				type: "item"
 			}]
-			x: -0.7761904761905001d
-			y: 8.02976190476192d
+			x: -13.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["7F1E78E14355EEF5"]
@@ -454,8 +206,8 @@
 				item: "neepmeat:large_motor"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 7.0d
+			x: 0.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7F1E78E14355EEF5"]
@@ -477,30 +229,36 @@
 				item: "neepmeat:power_flower_seeds"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 11.5d
+			x: -0.5d
+			y: 12.0d
 		}
 		{
 			dependencies: [
 				"7C814A513F079A46"
-				"54EE58DE147CE48A"
+				"32E0CF552FFB787A"
 				"20D7576D5C3C1020"
+				"54EE58DE147CE48A"
+				"0F503B3D23C4C841"
 				"3DD1B3FF53CEEE7A"
+				"1653B33AFFC83A9E"
+				"220063BC5A004846"
 			]
 			id: "6E1A43448BC790AC"
+			min_required_dependencies: 1
 			rewards: [{
 				count: 32
 				id: "700EAB226E76FDC1"
 				item: "neepmeat:meat_steel_ingot"
 				type: "item"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "14C3126B383042F1"
 				item: "neepmeat:upgrade_manager"
 				type: "item"
 			}]
-			x: 4.579761904761904d
-			y: 12.93809523809524d
+			x: -5.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["7F1E78E14355EEF5"]
@@ -529,7 +287,7 @@
 				item: "neepmeat:synthesiser"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 2.0d
 			y: 7.0d
 		}
 		{
@@ -546,33 +304,8 @@
 				item: "neepmeat:divine_organ"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["7F1E78E14355EEF5"]
-			id: "3E7B3818AEB38147"
-			rewards: [
-				{
-					count: 3
-					id: "27DC3EC233D26225"
-					item: "neepmeat:enlightened_brain"
-					type: "item"
-				}
-				{
-					count: 32
-					id: "653DF977299FD9A1"
-					item: "neepmeat:meat_steel_ingot"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "17DA56C2926CD83C"
-				item: "meatweapons:airtruck"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 7.0d
+			x: -14.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["01A03BFE2F6A21EE"]
@@ -588,11 +321,11 @@
 				item: "neepmeat:chrysalis"
 				type: "item"
 			}]
-			x: 1.5d
+			x: -8.5d
 			y: 10.5d
 		}
 		{
-			dependencies: ["01A03BFE2F6A21EE"]
+			dependencies: ["32B56258C2940734"]
 			id: "3DD1B3FF53CEEE7A"
 			rewards: [{
 				count: 8
@@ -600,18 +333,17 @@
 				item: "neepmeat:meat_steel_ingot"
 				type: "item"
 			}]
-			shape: "rsquare"
-			size: 0.8d
+			shape: "gear"
 			tasks: [{
 				id: "371FB5B00FF2C159"
 				item: "neepmeat:extra_mouth"
 				type: "item"
 			}]
-			x: 5.799999999999999d
-			y: 10.976190476190506d
+			x: -5.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["01A03BFE2F6A21EE"]
+			dependencies: ["32B56258C2940734"]
 			id: "54EE58DE147CE48A"
 			rewards: [{
 				count: 8
@@ -619,17 +351,17 @@
 				item: "neepmeat:meat_steel_ingot"
 				type: "item"
 			}]
-			size: 0.8d
+			shape: "gear"
 			tasks: [{
 				id: "66491D9E29D92EEC"
 				item: "neepmeat:lung_extensions"
 				type: "item"
 			}]
-			x: 5.000000000000002d
-			y: 11.376190476190505d
+			x: -7.0d
+			y: 14.5d
 		}
 		{
-			dependencies: ["01A03BFE2F6A21EE"]
+			dependencies: ["32B56258C2940734"]
 			id: "20D7576D5C3C1020"
 			rewards: [{
 				count: 8
@@ -637,17 +369,17 @@
 				item: "neepmeat:meat_steel_ingot"
 				type: "item"
 			}]
-			size: 0.8d
+			shape: "gear"
 			tasks: [{
 				id: "5A6D0E8F45425193"
 				item: "neepmeat:pineal_eye"
 				type: "item"
 			}]
-			x: 4.200000000000005d
-			y: 11.376190476190505d
+			x: -8.0d
+			y: 14.0d
 		}
 		{
-			dependencies: ["01A03BFE2F6A21EE"]
+			dependencies: ["32B56258C2940734"]
 			id: "7C814A513F079A46"
 			rewards: [{
 				count: 8
@@ -655,14 +387,14 @@
 				item: "neepmeat:meat_steel_ingot"
 				type: "item"
 			}]
-			size: 0.8d
+			shape: "gear"
 			tasks: [{
 				id: "46A8D440640D7173"
 				item: "neepmeat:extra_knees"
 				type: "item"
 			}]
-			x: 3.4000000000000004d
-			y: 10.976190476190506d
+			x: -4.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["4B7A29A99F2E2755"]
@@ -682,8 +414,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.0d
+			x: 2.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["01A03BFE2F6A21EE"]
@@ -705,7 +437,7 @@
 				}
 				type: "item"
 			}]
-			x: 1.5d
+			x: -8.5d
 			y: 9.0d
 		}
 		{
@@ -725,8 +457,8 @@
 				item: "modern_industrialization:platinum_dust"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 5.5d
+			x: 12.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["7514350A5ED5B094"]
@@ -768,8 +500,8 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: 4.5d
+			x: 12.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2159F0DF42E8E9F2"]
@@ -779,8 +511,8 @@
 				item: "modern_industrialization:polyvinyl_chloride_bucket"
 				type: "item"
 			}]
-			x: 17.5d
-			y: 4.5d
+			x: 15.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -793,8 +525,8 @@
 				item: "modern_industrialization:vinyl_chloride_bucket"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 4.5d
+			x: 15.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2AC0E79728F4AA45"]
@@ -804,8 +536,8 @@
 				item: "modern_industrialization:acetylene_bucket"
 				type: "item"
 			}]
-			x: 21.5d
-			y: 3.5d
+			x: 14.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -818,8 +550,8 @@
 				item: "modern_industrialization:hydrochloric_acid_bucket"
 				type: "item"
 			}]
-			x: 21.5d
-			y: 5.5d
+			x: 15.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2AC0E79728F4AA45"]
@@ -829,8 +561,8 @@
 				item: "modern_industrialization:chlorine_bucket"
 				type: "item"
 			}]
-			x: 23.0d
-			y: 5.0d
+			x: 15.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["2AC0E79728F4AA45"]
@@ -840,8 +572,8 @@
 				item: "modern_industrialization:hydrogen_bucket"
 				type: "item"
 			}]
-			x: 23.0d
-			y: 6.0d
+			x: 16.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["508086CB79DFFB41"]
@@ -851,8 +583,8 @@
 				item: "modern_industrialization:argon_bucket"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 6.5d
+			x: 9.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3B1AA49879F2894D"]
@@ -883,8 +615,8 @@
 					type: "item"
 				}
 			]
-			x: 13.0d
-			y: 7.5d
+			x: 9.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3C1226230397C8A8"]
@@ -900,8 +632,8 @@
 				item: "modern_industrialization:random_access_memory"
 				type: "item"
 			}]
-			x: 14.5d
-			y: 7.5d
+			x: 9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -920,8 +652,8 @@
 				item: "modern_industrialization:processing_unit_board"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 5.5d
+			x: 13.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -963,8 +695,8 @@
 				item: "modern_industrialization:processing_unit"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 7.5d
+			x: 11.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["66A8FB4453F684C9"]
@@ -993,8 +725,8 @@
 					type: "item"
 				}
 			]
-			x: 17.0d
-			y: 10.5d
+			x: 11.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["2AC0E79728F4AA45"]
@@ -1016,8 +748,8 @@
 				item: "modern_industrialization:highly_advanced_machine_casing"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 6.0d
+			x: 18.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -1043,8 +775,8 @@
 				item: "modern_industrialization:highly_advanced_machine_hull"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 7.5d
+			x: 17.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["16769027515EFA64"]
@@ -1067,14 +799,15 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
 			size: 1.5d
 			tasks: [{
 				id: "217C403D22066C93"
 				item: "modern_industrialization:high_pressure_advanced_large_steam_boiler"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 13.5d
+			x: 15.0d
+			y: 11.25d
 		}
 		{
 			dependencies: ["07612BDAA0EFA6E4"]
@@ -1102,8 +835,8 @@
 				item: "modern_industrialization:large_diesel_generator"
 				type: "item"
 			}]
-			x: 23.0d
-			y: 7.5d
+			x: 20.0d
+			y: 8.75d
 		}
 		{
 			dependencies: ["16769027515EFA64"]
@@ -1119,8 +852,8 @@
 				item: "modern_industrialization:highly_advanced_upgrade"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 8.0d
+			x: 9.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["1F3D4A0814A1095F"]
@@ -1151,8 +884,8 @@
 					type: "item"
 				}
 			]
-			x: 21.0d
-			y: 10.5d
+			x: 20.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["64A14CF083700434"]
@@ -1162,13 +895,14 @@
 				item: "modern_industrialization:highly_advanced_machine_hull"
 				type: "item"
 			}]
+			shape: "circle"
 			tasks: [{
 				id: "3641052FB07752ED"
 				item: "modern_industrialization:nuclear_casing"
 				type: "item"
 			}]
-			x: 22.0d
-			y: 11.5d
+			x: 21.0d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -1235,8 +969,8 @@
 				item: "modern_industrialization:nuclear_reactor"
 				type: "item"
 			}]
-			x: 24.0d
-			y: 9.0d
+			x: 20.0d
+			y: 10.25d
 		}
 		{
 			dependencies: ["07612BDAA0EFA6E4"]
@@ -1264,8 +998,8 @@
 				item: "modern_industrialization:ev_storage_unit"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 6.5d
+			x: 17.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -1295,8 +1029,8 @@
 				item: "modern_industrialization:photolithographer"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 13.0d
+			x: 17.5d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -1314,8 +1048,8 @@
 				item: "kubejs:photonic_circuit_board"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 14.0d
+			x: 17.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["66A8FB4453F684C9"]
@@ -1325,14 +1059,14 @@
 				item: "modern_industrialization:processing_unit"
 				type: "item"
 			}]
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				id: "69160CE6F15C2E00"
 				item: "computercraft:computer_normal"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 9.75d
+			x: 8.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["027385AA21D8737B"]
@@ -1356,8 +1090,8 @@
 				item: "kubejs:photonic_circuit"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 22.0d
+			x: 17.5d
+			y: 23.5d
 		}
 		{
 			dependencies: ["58C877DC86206A23"]
@@ -1392,8 +1126,8 @@
 				item: "modern_industrialization:satellite"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 24.0d
+			x: 17.5d
+			y: 25.5d
 		}
 		{
 			dependencies: ["2448B1AEB23D6B75"]
@@ -1409,8 +1143,8 @@
 				item: "modern_industrialization:superconductor_dust"
 				type: "item"
 			}]
-			x: 19.0d
-			y: 10.0d
+			x: 5.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["4179B53FEBB8FC59"]
@@ -1426,8 +1160,8 @@
 				item: "modern_industrialization:superconductor_coil"
 				type: "item"
 			}]
-			x: 19.0d
-			y: 9.0d
+			x: 6.0d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -1476,8 +1210,8 @@
 				}
 				type: "item"
 			}]
-			x: 12.75d
-			y: 13.5d
+			x: 10.25d
+			y: 15.0d
 		}
 		{
 			dependencies: [
@@ -1516,8 +1250,8 @@
 				id: "0882066D9A46E792"
 				type: "dimension"
 			}]
-			x: 15.75d
-			y: 16.5d
+			x: 13.25d
+			y: 18.0d
 		}
 		{
 			dependencies: [
@@ -1556,8 +1290,8 @@
 				id: "70374D87B4299FBA"
 				type: "dimension"
 			}]
-			x: 12.25d
-			y: 16.5d
+			x: 9.75d
+			y: 18.0d
 		}
 		{
 			dependencies: ["142BDFBD70488545"]
@@ -1573,8 +1307,8 @@
 				item: "kubejs:advanced_moon_data_card"
 				type: "item"
 			}]
-			x: 19.0d
-			y: 25.25d
+			x: 16.5d
+			y: 26.75d
 		}
 		{
 			dependencies: ["142BDFBD70488545"]
@@ -1590,8 +1324,8 @@
 				item: "kubejs:advanced_mars_data_card"
 				type: "item"
 			}]
-			x: 19.5d
-			y: 25.75d
+			x: 17.0d
+			y: 27.25d
 		}
 		{
 			dependencies: ["142BDFBD70488545"]
@@ -1607,8 +1341,8 @@
 				item: "kubejs:advanced_venus_data_card"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 25.25d
+			x: 17.5d
+			y: 26.75d
 		}
 		{
 			dependencies: ["142BDFBD70488545"]
@@ -1624,8 +1358,8 @@
 				item: "kubejs:advanced_mercury_data_card"
 				type: "item"
 			}]
-			x: 20.5d
-			y: 25.75d
+			x: 18.0d
+			y: 27.25d
 		}
 		{
 			dependencies: [
@@ -1644,8 +1378,8 @@
 				item: "kubejs:advanced_glacio_data_card"
 				type: "item"
 			}]
-			x: 21.0d
-			y: 25.25d
+			x: 18.5d
+			y: 26.75d
 		}
 		{
 			dependencies: [
@@ -1672,8 +1406,8 @@
 				item: "ad_astra:venus_calorite_ore"
 				type: "item"
 			}]
-			x: 14.0d
-			y: 20.5d
+			x: 11.5d
+			y: 22.0d
 		}
 		{
 			dependencies: ["188DA4F1E88D9DC8"]
@@ -1689,8 +1423,8 @@
 				item: "modern_industrialization:plutonium_dust"
 				type: "item"
 			}]
-			x: 26.0d
-			y: 10.5d
+			x: 23.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["4EEA0E20502169BA"]
@@ -1706,8 +1440,8 @@
 				item: "modern_industrialization:plutonium_battery"
 				type: "item"
 			}]
-			x: 27.0d
-			y: 11.5d
+			x: 24.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["682EB3FE11EA695F"]
@@ -1723,8 +1457,8 @@
 				item: "modern_industrialization:calorite_drill"
 				type: "item"
 			}]
-			x: 16.5d
-			y: 20.5d
+			x: 13.5d
+			y: 22.0d
 		}
 		{
 			dependencies: ["48838C65692AB6D2"]
@@ -1740,8 +1474,8 @@
 				item: "modern_industrialization:annealed_copper_dust"
 				type: "item"
 			}]
-			x: 19.0d
-			y: 11.0d
+			x: 4.0d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -1810,8 +1544,8 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
-			y: 22.0d
+			x: 11.5d
+			y: 23.5d
 		}
 		{
 			dependencies: ["682EB3FE11EA695F"]
@@ -1827,8 +1561,8 @@
 				item: "ae2:fluix_smart_dense_cable"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 20.0d
+			x: 9.5d
+			y: 21.5d
 		}
 		{
 			dependencies: ["682EB3FE11EA695F"]
@@ -1843,8 +1577,8 @@
 				item: "ae2:cell_component_256k"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 21.0d
+			x: 9.5d
+			y: 22.5d
 		}
 		{
 			dependencies: ["2AC0E79728F4AA45"]
@@ -1854,8 +1588,8 @@
 				item: "modern_industrialization:sulfuric_acid_bucket"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 1.0d
+			x: 12.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["363196BF9DFE099B"]
@@ -1865,8 +1599,8 @@
 				item: "modern_industrialization:platinum_sulfuric_solution_bucket"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 2.5d
+			x: 12.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["196206BAA3991DE8"]
@@ -1876,8 +1610,8 @@
 				item: "modern_industrialization:purified_platinum_sulfuric_solution_bucket"
 				type: "item"
 			}]
-			x: 13.5d
-			y: 4.0d
+			x: 12.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["66C3151DDB09D2F5"]
@@ -1900,8 +1634,8 @@
 					type: "item"
 				}
 			]
-			x: 19.0d
-			y: 14.0d
+			x: 15.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["16769027515EFA64"]
@@ -1918,8 +1652,8 @@
 				item: "modern_industrialization:titanium_drill"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 13.0d
+			x: 15.0d
+			y: 14.0d
 		}
 		{
 			dependencies: [
@@ -1956,8 +1690,8 @@
 				item: "modern_industrialization:gravichestplate"
 				type: "item"
 			}]
-			x: 19.0d
-			y: 8.0d
+			x: 7.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["5F3653747EC9ADCF"]
@@ -1981,8 +1715,8 @@
 				item: "neepmeat:tree_vacuum"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 7.0d
+			x: -1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["01A03BFE2F6A21EE"]
@@ -2007,8 +1741,8 @@
 				item: "neepmeat:lucky_one"
 				type: "item"
 			}]
-			x: 4.62380952380952d
-			y: 8.002380952380953d
+			x: -6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["7F1E78E14355EEF5"]
@@ -2029,8 +1763,8 @@
 				item: "neepmeat:skin_machine_block"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 11.5d
+			x: 2.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["3F81AC9B730673F9"]
@@ -2046,8 +1780,8 @@
 				item: "neepmeat:power_flower_fluid_port"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 12.5d
+			x: -0.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["7F1E78E14355EEF5"]
@@ -2076,8 +1810,8 @@
 				item: "neepmeat:redstone_interface"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 8.0d
+			x: 2.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["2226B76FD5DC74EE"]
@@ -2103,8 +1837,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 5.5d
+			x: 2.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["58C877DC86206A23"]
@@ -2141,8 +1875,8 @@
 				item: "neepmeat:charnel_pump"
 				type: "item"
 			}]
-			x: 22.5d
-			y: 22.0d
+			x: 20.0d
+			y: 23.5d
 		}
 		{
 			dependencies: ["3732DF7C69268DDB"]
@@ -2160,8 +1894,8 @@
 				item: "kubejs:raw_turbinium"
 				type: "item"
 			}]
-			x: 24.0d
-			y: 23.5d
+			x: 21.5d
+			y: 25.0d
 		}
 		{
 			dependencies: ["3732DF7C69268DDB"]
@@ -2179,8 +1913,8 @@
 				item: "kubejs:raw_caterium"
 				type: "item"
 			}]
-			x: 24.5d
-			y: 21.5d
+			x: 22.0d
+			y: 23.0d
 		}
 		{
 			dependencies: ["3732DF7C69268DDB"]
@@ -2198,8 +1932,8 @@
 				item: "kubejs:raw_naquadah"
 				type: "item"
 			}]
-			x: 24.0d
-			y: 20.5d
+			x: 21.5d
+			y: 22.0d
 		}
 		{
 			dependencies: ["3732DF7C69268DDB"]
@@ -2217,8 +1951,8 @@
 				item: "kubejs:octiron_shards"
 				type: "item"
 			}]
-			x: 24.5d
-			y: 22.5d
+			x: 22.0d
+			y: 24.0d
 		}
 		{
 			dependencies: [
@@ -2244,7 +1978,7 @@
 				item: "kubejs:necrodermal_affected_bee"
 				type: "item"
 			}]
-			x: 7.0d
+			x: -1.5d
 			y: 10.5d
 		}
 		{
@@ -2276,8 +2010,8 @@
 				item: "kubejs:nullodermal_affected_bee"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 9.0d
+			x: -1.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["62199F6082B5238D"]
@@ -2292,8 +2026,8 @@
 				item: "kubejs:mercury_data_card"
 				type: "item"
 			}]
-			x: 12.274999999999999d
-			y: 18.607142857142847d
+			x: 9.774999999999999d
+			y: 20.107142857142847d
 		}
 		{
 			dependencies: ["0303A03C53D1F852"]
@@ -2308,8 +2042,8 @@
 				item: "kubejs:venus_data_card"
 				type: "item"
 			}]
-			x: 15.774999999999999d
-			y: 18.64285714285714d
+			x: 13.274999999999999d
+			y: 20.14285714285714d
 		}
 		{
 			dependencies: ["66C3151DDB09D2F5"]
@@ -2332,8 +2066,8 @@
 					type: "item"
 				}
 			]
-			x: 18.0d
-			y: 14.0d
+			x: 14.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["3732DF7C69268DDB"]
@@ -2353,7 +2087,7 @@
 				item: "neepmeat:large_compressor"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 20.0d
 			y: 20.5d
 		}
 		{
@@ -2372,15 +2106,15 @@
 					type: "item"
 				}
 			]
-			shape: "square"
+			shape: "octagon"
 			size: 1.5d
 			tasks: [{
 				id: "17445BB0C94A1F8A"
 				item: "neepmeat:phage_ray"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 5.25d
+			x: -16.0d
+			y: 9.75d
 		}
 		{
 			dependencies: ["66A8FB4453F684C9"]
@@ -2569,8 +2303,8 @@
 				}
 			]
 			title: "More ARMORS!"
-			x: 15.0d
-			y: 13.5d
+			x: 12.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["64A14CF083700434"]
@@ -2585,13 +2319,14 @@
 				item: "modern_industrialization:highly_advanced_machine_hull"
 				type: "item"
 			}]
+			shape: "circle"
 			tasks: [{
 				id: "533C1CE147E2DC49"
 				item: "modern_industrialization:nuclear_fluid_hatch"
 				type: "item"
 			}]
-			x: 22.0d
-			y: 9.5d
+			x: 19.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["64A14CF083700434"]
@@ -2606,13 +2341,14 @@
 				item: "modern_industrialization:highly_advanced_machine_hull"
 				type: "item"
 			}]
+			shape: "circle"
 			tasks: [{
 				id: "3C6C8B368AEEDC0D"
 				item: "modern_industrialization:nuclear_item_hatch"
 				type: "item"
 			}]
-			x: 22.0d
-			y: 10.5d
+			x: 20.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["188DA4F1E88D9DC8"]
@@ -2622,8 +2358,8 @@
 				item: "modern_industrialization:uranium_fuel_rod"
 				type: "item"
 			}]
-			x: 24.0d
-			y: 10.5d
+			x: 25.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["73D5A423BF57CDAA"]
@@ -2634,7 +2370,7 @@
 				type: "item"
 			}]
 			x: 25.0d
-			y: 11.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["73D5A423BF57CDAA"]
@@ -2650,7 +2386,7 @@
 				type: "item"
 			}]
 			x: 25.0d
-			y: 12.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["4EEA0E20502169BA"]
@@ -2660,8 +2396,8 @@
 				item: "modern_industrialization:le_mox_fuel_rod"
 				type: "item"
 			}]
-			x: 26.0d
-			y: 11.5d
+			x: 25.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["4EEA0E20502169BA"]
@@ -2676,8 +2412,8 @@
 				item: "modern_industrialization:he_mox_fuel_rod"
 				type: "item"
 			}]
-			x: 26.0d
-			y: 12.5d
+			x: 25.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["188DA4F1E88D9DC8"]
@@ -2693,8 +2429,8 @@
 				item: "modern_industrialization:uranium_235_dust"
 				type: "item"
 			}]
-			x: 25.0d
-			y: 10.5d
+			x: 23.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["4EEA0E20502169BA"]
@@ -2715,8 +2451,8 @@
 				item: "modern_industrialization:nuke"
 				type: "item"
 			}]
-			x: 27.0d
-			y: 10.5d
+			x: 23.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["01A03BFE2F6A21EE"]
@@ -2732,8 +2468,8 @@
 				item: "neepmeat:living_tool_implant"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 8.5d
+			x: -4.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["58C877DC86206A23"]
@@ -2754,8 +2490,8 @@
 				item: "modern_industrialization:alien_cell"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 20.5d
+			x: 16.0d
+			y: 22.0d
 		}
 		{
 			dependencies: ["3D7D2ED2A1C2FD50"]
@@ -2811,8 +2547,8 @@
 				item: "modern_industrialization:mutagen_bucket"
 				type: "item"
 			}]
-			x: 18.5d
-			y: 19.0d
+			x: 16.0d
+			y: 20.5d
 		}
 		{
 			dependencies: ["7F1E78E14355EEF5"]
@@ -2871,8 +2607,97 @@
 				type: "item"
 			}]
 			title: "Mystical Agriculture"
-			x: 8.838095238095235d
-			y: 11.834523809523816d
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["01A03BFE2F6A21EE"]
+			id: "32B56258C2940734"
+			shape: "octagon"
+			tasks: [{
+				id: "13DC2F4EF801BC7B"
+				item: "neepmeat:implanter"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["32B56258C2940734"]
+			id: "32E0CF552FFB787A"
+			shape: "gear"
+			tasks: [{
+				id: "326349D92CBD6B4F"
+				item: "neepmeat:spider_legs"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["32B56258C2940734"]
+			id: "0F503B3D23C4C841"
+			shape: "gear"
+			tasks: [{
+				id: "3E658928BFCD9E33"
+				item: "neepmeat:claws"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["32B56258C2940734"]
+			id: "1653B33AFFC83A9E"
+			shape: "gear"
+			tasks: [{
+				id: "2F1F9FBF0F55FDC9"
+				item: "neepmeat:cat_ears"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["32B56258C2940734"]
+			description: [
+				"Insert TNT in yourself? Let's do it."
+				"{@pagebreak}"
+				"Засунуть в себя динамит? Делаем."
+			]
+			id: "220063BC5A004846"
+			shape: "gear"
+			tasks: [{
+				id: "505741211A1CDE83"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["32B56258C2940734"]
+			id: "1D276E39138A7506"
+			shape: "gear"
+			tasks: [{
+				id: "44A0A86744969EA4"
+				item: "meatweapons:blood_bullet_provider"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["32B56258C2940734"]
+			id: "64087BCA6449BCD8"
+			shape: "gear"
+			tasks: [{
+				id: "3BAFA0A06864F781"
+				item: "meatweapons:magazine_organ"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 12.0d
 		}
 	]
 	title: "Unlimited power | EV"

@@ -32,7 +32,7 @@
 				item: "wiredredstone:redstone_alloy_ingot"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 13.5d
 			y: 7.0d
 		}
 		{
@@ -61,7 +61,7 @@
 				item: "modern_industrialization:battery_alloy_ingot"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 13.5d
 			y: 6.0d
 		}
 		{
@@ -90,7 +90,7 @@
 				item: "modern_industrialization:redstone_battery"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 12.0d
 			y: 6.5d
 		}
 		{
@@ -128,14 +128,15 @@
 				item: "modern_industrialization:synthetic_rubber_bucket"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.5d
+			x: -5.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
 				"5DEE383284AE4BAB"
 				"6CB0AB70A7C895DF"
 			]
+			hide: false
 			id: "1F8334B32EF9B88F"
 			rewards: [
 				{
@@ -156,11 +157,12 @@
 				item: "modern_industrialization:rubber_sheet"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.5d
+			x: -3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6B8AD610BFDE2B3A"]
+			hide: false
 			id: "04008A2653644B8F"
 			rewards: [
 				{
@@ -194,11 +196,12 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: 0.0d
+			x: -1.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6CB0AB70A7C895DF"]
+			hide: false
 			id: "7E63EDDC72BBB25F"
 			rewards: [
 				{
@@ -220,11 +223,12 @@
 				item: "modern_industrialization:resistor"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.5d
+			x: -1.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["04008A2653644B8F"]
+			hide: false
 			id: "05343AFAF4AE966D"
 			rewards: [
 				{
@@ -246,14 +250,15 @@
 				item: "modern_industrialization:inductor"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.0d
+			x: -0.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
 				"1F8334B32EF9B88F"
 				"04008A2653644B8F"
 			]
+			hide: false
 			id: "6C7A52A24E8E87C9"
 			rewards: [
 				{
@@ -275,11 +280,12 @@
 				item: "modern_industrialization:capacitor"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 1.5d
+			x: -1.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1F8334B32EF9B88F"]
+			hide: false
 			id: "6F083D50E077414B"
 			rewards: [
 				{
@@ -301,8 +307,8 @@
 				item: "modern_industrialization:analog_circuit_board"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 2.5d
+			x: -1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -311,6 +317,7 @@
 				"05343AFAF4AE966D"
 				"6C7A52A24E8E87C9"
 			]
+			hide: false
 			id: "47A87645847E6CCE"
 			rewards: [
 				{
@@ -392,8 +399,8 @@
 				item: "modern_industrialization:analog_circuit"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 3.0d
+			x: 1.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["6B8AD610BFDE2B3A"]
@@ -423,8 +430,8 @@
 				item: "minecraft:paper"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.5d
+			x: -3.5d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -501,8 +508,8 @@
 				item: "modern_industrialization:large_steam_boiler"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 6.0d
+			x: 6.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["54CEC7BE4B675E7C"]
@@ -552,7 +559,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 12.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
@@ -582,7 +589,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 14.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["35535A22A83500CC"]
@@ -657,7 +664,7 @@
 			]
 			title: "More machine parts"
 			x: 9.0d
-			y: 9.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["47A87645847E6CCE"]
@@ -672,15 +679,15 @@
 				item: "kubejs:mid_lootbag_uncommon"
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "octagon"
 			subtitle: "Finally, an actual battery!"
 			tasks: [{
 				id: "5E63DF5D00A979DB"
 				item: "modern_industrialization:portable_storage_unit"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.5d
+			x: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
@@ -707,7 +714,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 14.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
@@ -737,7 +744,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 15.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
@@ -762,7 +769,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 13.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
@@ -806,7 +813,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 10.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
@@ -831,7 +838,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 9.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
@@ -856,7 +863,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: 13.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
@@ -885,7 +892,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 12.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
@@ -910,7 +917,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 9.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
@@ -935,7 +942,7 @@
 				type: "item"
 			}]
 			x: 11.0d
-			y: 10.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["3387FCCF2E3B857B"]
@@ -962,7 +969,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 13.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["3387FCCF2E3B857B"]
@@ -992,7 +999,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 11.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
@@ -1016,7 +1023,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 12.0d
+			y: 15.5d
 		}
 		{
 			dependencies: [
@@ -1082,7 +1089,7 @@
 				}
 			]
 			x: 2.5d
-			y: 12.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
@@ -1113,7 +1120,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 14.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
@@ -1138,7 +1145,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 14.5d
+			y: 18.0d
 		}
 		{
 			dependencies: ["47A87645847E6CCE"]
@@ -1167,8 +1174,8 @@
 				item: "neepmeat:router"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 0.0d
+			x: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["47A87645847E6CCE"]
@@ -1189,11 +1196,12 @@
 				item: "neepmeat:fluid_rationer"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 3.5d
+			x: 1.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["283D320D84F5DA27"]
+			hide: false
 			id: "17FE01EEA624616A"
 			rewards: [
 				{
@@ -1226,11 +1234,12 @@
 				item: "wiredredstone:red_alloy_wire"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 13.5d
 			y: 9.0d
 		}
 		{
 			dependencies: ["17FE01EEA624616A"]
+			hide: false
 			id: "2967C78F538C5ECD"
 			rewards: [
 				{
@@ -1271,7 +1280,7 @@
 				type: "item"
 			}]
 			title: "Insulation"
-			x: 12.5d
+			x: 13.0d
 			y: 9.5d
 		}
 		{
@@ -1285,6 +1294,7 @@
 				"- подключаем к ней зелёный и красный кабель соответственно "
 				"- теперь сигналы будут независимо передаваться по красному и зелёному кабелю "
 			]
+			hide: false
 			id: "64A7F758A7CD9EB6"
 			rewards: [
 				{
@@ -1318,7 +1328,7 @@
 				item: "wiredredstone:bundled_cable"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 14.0d
 			y: 9.5d
 		}
 		{
@@ -1355,7 +1365,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: 11.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
@@ -1385,7 +1395,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 11.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["0737D169DFB3A47A"]
@@ -1408,8 +1418,8 @@
 				item: "extended_drawers:access_point"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -1.0d
+			x: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["54CEC7BE4B675E7C"]
@@ -1439,10 +1449,11 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 8.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["283D320D84F5DA27"]
+			hide: false
 			id: "0845A204BA15A1F5"
 			rewards: [
 				{
@@ -1510,7 +1521,7 @@
 				}
 			]
 			title: "Red Power"
-			x: 14.5d
+			x: 15.0d
 			y: 7.0d
 		}
 		{
@@ -1520,6 +1531,7 @@
 				"{@pagebreak}"
 				"Позволяет проецировать редстоун сигнал по воздуху. Количество блоков меняется с помощью правой кнопкой мыши."
 			]
+			hide: false
 			id: "119D6E1E7E6D5233"
 			rewards: [
 				{
@@ -1559,7 +1571,7 @@
 				item: "wiredredstone:gate_projector_simple"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 15.0d
 			y: 4.0d
 		}
 		{
@@ -1569,6 +1581,7 @@
 				"{@pagebreak}"
 				"Пропускает редстоун сигнал только в одну сторону."
 			]
+			hide: false
 			id: "4BF6461697886B3C"
 			rewards: [
 				{
@@ -1607,7 +1620,7 @@
 				item: "wiredredstone:gate_diode"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 17.5d
 			y: 6.0d
 		}
 		{
@@ -1617,6 +1630,7 @@
 				"{@pagebreak}"
 				"По умолчанию неактивен. Становится активным если активны все входящие сигналы."
 			]
+			hide: false
 			id: "07718C17A9D7B520"
 			rewards: [
 				{
@@ -1655,7 +1669,7 @@
 				item: "wiredredstone:gate_and"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 18.0d
 			y: 6.5d
 		}
 		{
@@ -1665,6 +1679,7 @@
 				"{@pagebreak}"
 				"По умолчанию неактивен. Становиться активным если хотя бы один з входящих сигналов является активным."
 			]
+			hide: false
 			id: "516770D6021CB159"
 			rewards: [
 				{
@@ -1703,7 +1718,7 @@
 				item: "wiredredstone:gate_or"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 18.0d
 			y: 7.5d
 		}
 		{
@@ -1713,6 +1728,7 @@
 				"{@pagebreak}"
 				"По умолчанию активен. Выключается только если все входящие сигналы активны."
 			]
+			hide: false
 			id: "40F03AD46D05D4D6"
 			rewards: [
 				{
@@ -1751,7 +1767,7 @@
 				item: "wiredredstone:gate_nand"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 17.5d
 			y: 7.0d
 		}
 		{
@@ -1761,6 +1777,7 @@
 				"{@pagebreak}"
 				"По умолчанию активен, и перестаёт выдавать редстоун сигнал если хотя бы один из входящих сигналов не нулевой."
 			]
+			hide: false
 			id: "708BCCC492873B6C"
 			rewards: [
 				{
@@ -1794,7 +1811,7 @@
 				item: "wiredredstone:gate_nor"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 17.0d
 			y: 5.5d
 		}
 		{
@@ -1804,6 +1821,7 @@
 				"{@pagebreak}"
 				"По умолчанию активен. Становится неактивным если входящий сигнал активен."
 			]
+			hide: false
 			id: "640AF18C7CB4D718"
 			rewards: [
 				{
@@ -1842,7 +1860,7 @@
 				item: "wiredredstone:gate_not"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 17.5d
 			y: 8.0d
 		}
 		{
@@ -1852,6 +1870,7 @@
 				"{@pagebreak}"
 				"По умолчанию не активен. Более продвинутая версия повторителя. Позволяет более точно указать задержку в сигнале."
 			]
+			hide: false
 			id: "6DB7801CA77EF899"
 			rewards: [
 				{
@@ -1890,7 +1909,7 @@
 				item: "wiredredstone:gate_repeater"
 				type: "item"
 			}]
-			x: 16.5d
+			x: 17.0d
 			y: 8.5d
 		}
 		{
@@ -1900,6 +1919,7 @@
 				"{@pagebreak}"
 				"По умолчанию один из выходящих сигналов активен. Входящие сигналы изменяют направление выходящего сигнала лишь один раз. "
 			]
+			hide: false
 			id: "5EA1A5489C92891C"
 			rewards: [
 				{
@@ -1938,7 +1958,7 @@
 				item: "wiredredstone:gate_rs_latch"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 18.5d
 			y: 7.0d
 		}
 		{
@@ -1948,6 +1968,7 @@
 				"{@pagebreak}"
 				"Позволяет визуализировать место в которое редстоун проектор передаёт сигнал. Нажмите ПКМ на проектор для привязки."
 			]
+			hide: false
 			id: "3FB9FAC26C9A3C8B"
 			rewards: [
 				{
@@ -1986,11 +2007,12 @@
 				item: "wiredredstone:projection_viewer"
 				type: "item"
 			}]
-			x: 15.7d
+			x: 16.2d
 			y: 4.0d
 		}
 		{
 			dependencies: ["0845A204BA15A1F5"]
+			hide: false
 			id: "13C563F7C62A0F7A"
 			rewards: [
 				{
@@ -2029,7 +2051,7 @@
 				item: "wiredredstone:redstone_projector_cathode"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 15.0d
 			y: 5.5d
 		}
 		{
@@ -2039,6 +2061,7 @@
 				"{@pagebreak}"
 				"Позволяет управлять работой электрических механизмов."
 			]
+			hide: false
 			id: "1BB3633F4522C7F6"
 			rewards: [
 				{
@@ -2072,7 +2095,7 @@
 				item: "modern_industrialization:redstone_control_module"
 				type: "item"
 			}]
-			x: 13.035714285714278d
+			x: 13.535714285714278d
 			y: 10.30357142857143d
 		}
 		{
@@ -2094,8 +2117,8 @@
 				item: "neepmeat:content_detector"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 2.5d
+			x: 2.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["47A87645847E6CCE"]
@@ -2116,8 +2139,8 @@
 				item: "neepmeat:solidity_detector"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 1.5d
+			x: 3.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["47A87645847E6CCE"]
@@ -2138,8 +2161,8 @@
 				item: "neepmeat:dumper"
 				type: "item"
 			}]
-			x: 12.0d
-			y: 4.5d
+			x: 0.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["47A87645847E6CCE"]
@@ -2177,8 +2200,8 @@
 				}
 			]
 			title: "Construction Site"
-			x: 12.0d
-			y: 0.0d
+			x: -0.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["26128DB1415D22BC"]
@@ -2250,7 +2273,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 17.0d
+			y: 20.5d
 		}
 		{
 			dependencies: ["26128DB1415D22BC"]
@@ -2291,7 +2314,7 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 17.0d
+			y: 20.5d
 		}
 		{
 			dependencies: ["17FE01EEA624616A"]
@@ -2300,6 +2323,7 @@
 				"{@pagebreak}"
 				"Отфильтровывает предметы, проходящие через систему труб."
 			]
+			hide: false
 			id: "2F0E246025D08598"
 			rewards: [
 				{
@@ -2320,7 +2344,7 @@
 				item: "moderndynamics:filter"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 14.0d
 			y: 8.5d
 		}
 		{
@@ -2330,6 +2354,7 @@
 				"{@pagebreak}"
 				"Извлекает предметы из подключенного инвентаря в систему труб."
 			]
+			hide: false
 			id: "311F7B8334C4FC59"
 			rewards: [
 				{
@@ -2350,7 +2375,7 @@
 				item: "moderndynamics:extractor"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 13.0d
 			y: 8.5d
 		}
 		{
@@ -2376,7 +2401,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 14.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["1AC11A9AAE45A014"]
@@ -2402,7 +2427,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 10.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["54CEC7BE4B675E7C"]
@@ -2425,7 +2450,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 8.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["132428B927F9BF07"]
@@ -2456,7 +2481,7 @@
 				type: "item"
 			}]
 			x: 13.0d
-			y: 12.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["26128DB1415D22BC"]
@@ -2490,7 +2515,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: 16.5d
+			y: 20.0d
 		}
 		{
 			dependencies: ["26128DB1415D22BC"]
@@ -2524,7 +2549,20 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 16.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["47A87645847E6CCE"]
+			id: "3E7B3818AEB38147"
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "17DA56C2926CD83C"
+				item: "meatweapons:airtruck"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
 		}
 	]
 	title: "Electricity | LV"

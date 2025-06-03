@@ -1134,7 +1134,7 @@
 				type: "item"
 			}]
 			title: "A Colorful Forest!"
-			x: 11.5d
+			x: 12.0d
 			y: 12.5d
 		}
 		{
@@ -1180,7 +1180,7 @@
 				type: "item"
 			}]
 			title: "Pigments?"
-			x: 13.5d
+			x: 14.0d
 			y: 12.5d
 		}
 		{
@@ -1212,7 +1212,7 @@
 				type: "item"
 			}]
 			title: "Colored Lamps"
-			x: 12.5d
+			x: 13.0d
 			y: 9.0d
 		}
 		{
@@ -1254,7 +1254,7 @@
 				type: "item"
 			}]
 			title: "Colored Spore Blossoms"
-			x: 11.5d
+			x: 12.0d
 			y: 9.5d
 		}
 		{
@@ -1299,7 +1299,7 @@
 				type: "item"
 			}]
 			title: "Colored Glowblocks"
-			x: 11.0d
+			x: 11.5d
 			y: 10.5d
 		}
 		{
@@ -1335,7 +1335,7 @@
 				item: "spectrum:enchantment_canvas"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 15.0d
 			y: 9.0d
 		}
 		{
@@ -1371,7 +1371,7 @@
 				item: "spectrum:radiance_staff"
 				type: "item"
 			}]
-			x: 15.5d
+			x: 16.0d
 			y: 9.5d
 		}
 		{
@@ -1423,7 +1423,7 @@
 				}
 				type: "item"
 			}]
-			x: 16.0d
+			x: 16.5d
 			y: 10.5d
 		}
 		{
@@ -1459,7 +1459,7 @@
 				item: "spectrum:titration_barrel"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 14.0d
 			y: 15.0d
 		}
 		{
@@ -1501,7 +1501,7 @@
 				item: "spectrum:kimchi"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 12.0d
 			y: 14.0d
 		}
 		{
@@ -1539,7 +1539,7 @@
 				item: "spectrum:fresh_chocolate"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 11.5d
 			y: 15.0d
 		}
 		{
@@ -1577,7 +1577,7 @@
 				item: "spectrum:clotted_cream"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 12.0d
 			y: 16.0d
 		}
 		{
@@ -1604,7 +1604,7 @@
 				type: "checkmark"
 			}]
 			title: "BUT HOW DO YOU MAKE BEER?!"
-			x: 13.5d
+			x: 14.0d
 			y: 17.0d
 		}
 		{
@@ -1637,7 +1637,7 @@
 				item: "spectrum:suspicious_brew"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 13.5d
 			y: 18.0d
 		}
 		{
@@ -1670,7 +1670,7 @@
 				item: "spectrum:infused_beverage"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 14.5d
 			y: 18.0d
 		}
 		{
@@ -1714,7 +1714,7 @@
 				type: "item"
 			}]
 			title: "The first one is magic!"
-			x: 17.0d
+			x: 18.5d
 			y: 12.5d
 		}
 		{
@@ -1779,7 +1779,7 @@
 				item: "spectrum:onyx_shard"
 				type: "item"
 			}]
-			x: 19.0d
+			x: 21.0d
 			y: 12.5d
 		}
 		{
@@ -1803,8 +1803,8 @@
 				item: "spectrum:crescent_clock"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 14.0d
+			x: 18.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["21E3A44EA5EDD677"]
@@ -1836,7 +1836,7 @@
 				type: "item"
 			}]
 			title: "Remote redstone"
-			x: 19.0d
+			x: 21.0d
 			y: 13.95d
 		}
 		{
@@ -1961,7 +1961,7 @@
 				item: "spectrum:particle_spawner"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 13.5d
 			y: 7.0d
 		}
 		{
@@ -1987,7 +1987,7 @@
 				id: "4FE96E789EC97FB3"
 				type: "advancement"
 			}]
-			x: 13.5d
+			x: 14.0d
 			y: 8.5d
 		}
 		{
@@ -2271,7 +2271,6 @@
 				}
 			]
 			shape: "circle"
-			size: 0.8d
 			tasks: [{
 				id: "6F0EBB1916F04E22"
 				item: {
@@ -2281,8 +2280,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.021428571428572d
-			y: 13.379081632653076d
+			x: 10.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["4F56068060AD729D"]
@@ -2323,7 +2322,7 @@
 				id: "794511EC0B74831C"
 				type: "advancement"
 			}]
-			x: 15.5d
+			x: 16.0d
 			y: 12.5d
 		}
 		{
@@ -2550,7 +2549,7 @@
 				item: "mythicmetals:celestium_ingot"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 14.5d
 			y: 7.0d
 		}
 		{
@@ -2584,7 +2583,7 @@
 				item: "travelersbackpack:gold_tier_upgrade"
 				type: "item"
 			}]
-			x: 13.7d
+			x: 14.2d
 			y: 6.0d
 		}
 		{
@@ -2805,7 +2804,7 @@
 				id: "5DCE5A924C5BC1A1"
 				type: "advancement"
 			}]
-			x: 13.5d
+			x: 14.0d
 			y: 10.5d
 		}
 		{
@@ -2883,7 +2882,7 @@
 				item: "dankstorage:dank_3"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 15.0d
 			y: 6.0d
 		}
 		{
@@ -2906,7 +2905,7 @@
 				item: "javd:portal_block"
 				type: "item"
 			}]
-			x: 20.866666666666667d
+			x: 22.866666666666667d
 			y: 12.51190476190476d
 		}
 		{
@@ -2934,7 +2933,7 @@
 				}
 				type: "item"
 			}]
-			x: 18.5d
+			x: 20.5d
 			y: 11.0d
 		}
 		{
@@ -2967,7 +2966,7 @@
 				title: "Any #magnumtorch:torches"
 				type: "item"
 			}]
-			x: 19.5d
+			x: 21.5d
 			y: 11.0d
 		}
 		{
@@ -3180,6 +3179,224 @@
 			}]
 			x: 0.0d
 			y: 15.0d
+		}
+		{
+			dependencies: ["5D68B3FB8BFFA7F5"]
+			description: [
+				"&aXP Berrie Seeds&r are used to generate &oPeaceful Experience&r."
+				""
+				"Can be Planted on &3Soul Soil&r."
+				""
+				"&l&aXP Berries&r can be used on &aXP Storage&r to insert some &aExperience&r&r. "
+				""
+				"&aXP Berries&r can always be eaten. If you sneak while eat they drop the &aXP-Orbs&r to repair items with &5&lMending&r&r."
+				"{@pagebreak}"
+			]
+			id: "79AD0869B795EC6E"
+			rewards: [
+				{
+					count: 12
+					id: "5BB913C6B1EA7A43"
+					item: "xps:xp_berries"
+					type: "item"
+				}
+				{
+					id: "3AE1CC1BFAC0BAC9"
+					item: "kubejs:magic_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			tasks: [
+				{
+					count: 8L
+					id: "6B780491C0D6E4E1"
+					item: "xps:xp_berries_seeds"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7BA0ADB08C47ED42"
+					item: "minecraft:soul_soil"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5FCEB75E328CB0CC"]
+			description: [
+				"&aXP Storage&r is made out of &5Magical&r &3Soul&#CD7F32copper&r. "
+				""
+				"After you place it, you can put &aExperience&r in and out with the &aXP Transfer&r or &9Fluid Interface's&r."
+				""
+				"&l<wave>NOTE</wave>&r: If you hold more than 1 item the &ltransfer&r rate act accordingly."
+				""
+				"• Use &cRedstone Torch&r on &aXP Storage&r to &ltoggle&r &eVacuum Mode&r, vacuum mode range = &n9x5x9&r"
+				""
+				"• You can use &lBottle's&r or &lBucket's&r on the &aXP Storage&r to &ninsert&r or &nextract&r &aEcperience&r."
+				""
+				"• You can use &lDamaged Items&r with &5Mending&r Enchantment on the &aXP Storage&r to &l&aRepair&r&r the Item with the stored &aExperience&r."
+			]
+			id: "60001978F1274782"
+			rewards: [
+				{
+					id: "052434FA58B22DB5"
+					item: "xps:handbook"
+					type: "item"
+				}
+				{
+					id: "04F16A7E53322312"
+					item: "kubejs:magic_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "65F8EB2C46ED3E86"
+					item: "vitalize:experience_cubed"
+					random_bonus: 40
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "58DA44D374B7D3F6"
+				item: "xps:block_xp_obelisk"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["60001978F1274782"]
+			description: ["The Key is used to &2Unlock&r the &aXP Storage&r"]
+			id: "03560F7B0AF67408"
+			rewards: [
+				{
+					id: "1F44E804F57A013A"
+					item: "kubejs:magic_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0F22432EAF783F50"
+					item: "vitalize:experience_cubed"
+					random_bonus: 20
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "2975ED5F134A24F9"
+				item: "xps:key"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["60001978F1274782"]
+			description: [
+				"The Lock is used to lock the &aXP Storage&r. "
+				""
+				"&l<wave>NOTE</wave>&r: If the &aXP Storage&r is Locked &9Fluid extraction&r is &cdisabled&r"
+			]
+			id: "354931E7B3478CED"
+			rewards: [
+				{
+					id: "52BCF0133E36CC74"
+					item: "kubejs:magic_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2A53721C5DA53EE6"
+					item: "vitalize:experience_cubed"
+					random_bonus: 20
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "658C68117CA20440"
+				item: "xps:lock"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["60001978F1274782"]
+			description: [
+				"The Inspector is used to show detailed information about the &aXP Storage&r."
+				""
+				"&l• Owner"
+				"&l• Stored XP"
+				"&l• Fill level"
+				"&l• Player XP"
+			]
+			id: "361A3505BA4A0BA0"
+			rewards: [
+				{
+					id: "050AA222184A2994"
+					item: "kubejs:magic_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "6E1727A758AE422D"
+					item: "vitalize:experience_cubed"
+					random_bonus: 20
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "123CF4BFDB465ED3"
+				item: "xps:inspector"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["60001978F1274782"]
+			description: [
+				"The &aXP Transfer&r is used to transfer &aExperience&r to the &aXP Storage&r. "
+				""
+				"&l<wave>NOTE</wave>&r: If you have &lx&r &aXP Transfer&r Items in Hand you will Transfer &lx&r&aLevel's&r instead of &l1&r&aLevel&r."
+				""
+				"Switch Mode's with Sneak Right-Click."
+			]
+			id: "2A28CC32892083E3"
+			rewards: [
+				{
+					count: 2
+					id: "01A77D570EB2ADA2"
+					item: "xps:xp_remover"
+					type: "item"
+				}
+				{
+					id: "073FF52AE73D6B02"
+					item: "kubejs:magic_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "23865FAF4913DCC7"
+					item: "vitalize:experience_cubed"
+					random_bonus: 20
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "194A3E7E2BC10840"
+				item: "xps:xp_remover"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 15.5d
 		}
 	]
 	title: "Spectrum: First steps"

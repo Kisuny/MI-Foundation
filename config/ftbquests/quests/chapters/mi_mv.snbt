@@ -337,7 +337,7 @@
 				item: "modern_industrialization:centrifuge"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.5d
 			y: 1.5d
 		}
 		{
@@ -858,8 +858,8 @@
 				item: "modern_industrialization:ruby_dust"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.5d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["73C48D66EDCF4D19"]
@@ -875,8 +875,8 @@
 				item: "modern_industrialization:chromium_crushed_dust"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.0d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["11E213A3926FDF66"]
@@ -892,8 +892,8 @@
 				item: "modern_industrialization:chromium_hydrochloric_solution_bucket"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -2.0d
+			x: 7.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["128ECB644D303AF3"]
@@ -972,8 +972,8 @@
 				item: "modern_industrialization:chromium_tiny_dust"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.75d
+			x: 8.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["36449FA11F79E8C6"]
@@ -2313,8 +2313,8 @@
 				item: "neepmeat:pipe_driver"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 0.5d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["05E7324B1FC9421F"]
@@ -2346,8 +2346,8 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
-			y: -0.5d
+			x: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["66D16ADD44115DC6"]
@@ -2628,8 +2628,8 @@
 				item: "modern_industrialization:manganese_crushed_dust"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.5d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["175C75FDF524874C"]
@@ -2645,8 +2645,8 @@
 				item: "modern_industrialization:manganese_tiny_dust"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -2.0d
+			x: 7.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1F9C854252F7DAAF"]
@@ -2674,8 +2674,8 @@
 				item: "modern_industrialization:manganese_dust"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -3.75d
+			x: 8.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["65560ED5F75185CE"]
@@ -2691,8 +2691,8 @@
 				item: "modern_industrialization:manganese_sulfuric_solution_bucket"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -1.0d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["29BACBBC96847851"]
@@ -2728,8 +2728,8 @@
 				item: "neepmeat:fabricator"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -1.0d
+			x: 1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]

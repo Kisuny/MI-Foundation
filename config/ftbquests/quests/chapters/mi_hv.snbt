@@ -1948,8 +1948,8 @@
 				item: "neepmeat:work_fluid_bucket"
 				type: "item"
 			}]
-			x: 22.5d
-			y: 5.0d
+			x: 22.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["3C94F0661744AF8D"]
@@ -1991,8 +1991,8 @@
 				item: "neepmeat:charged_work_fluid_bucket"
 				type: "item"
 			}]
-			x: 22.5d
-			y: 6.0d
+			x: 22.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -3701,6 +3701,219 @@
 			}]
 			x: 20.4d
 			y: -0.8d
+		}
+		{
+			id: "4A95828133435600"
+			tasks: [{
+				id: "1F948DA5E1623566"
+				item: "meatweapons:tinker_table"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "6464928ED2AF7B8E"
+			tasks: [{
+				id: "09D9A03B570A03A0"
+				item: {
+					Count: 1b
+					id: "meatweapons:meatgun_pistol"
+					tag: {
+						"meatweapons:meatgun": {
+							meatgun_uuid: [I;
+								1069321359
+								1322074293
+								-1801121020
+								337318894
+							]
+							slots: [{
+								id: "meatweapons:default"
+							}]
+							transform: [I;
+								1065353216
+								0
+								0
+								0
+								0
+								1065353216
+								0
+								0
+								0
+								0
+								1065353216
+								0
+								0
+								0
+								0
+								1065353216
+							]
+							uuid: [I;
+								435325145
+								-471577123
+								-1603032541
+								1663505020
+							]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			id: "1312D77323790A6A"
+			tasks: [{
+				id: "7019C67D47E89765"
+				item: {
+					Count: 1b
+					id: "meatweapons:meatgun_staff"
+					tag: {
+						"meatweapons:meatgun": {
+							meatgun_uuid: [I;
+								-1227488075
+								-157793203
+								-1766439988
+								1571994477
+							]
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			id: "71AB35827954CF93"
+			tasks: [{
+				id: "06DE0F6173960060"
+				item: "meatweapons:long_boi"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -5.5d
+		}
+		{
+			id: "103F5BE804EA9312"
+			tasks: [{
+				id: "2C33722C7B3B40F6"
+				item: "meatweapons:halberd"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			id: "0D5129E6A39D7043"
+			tasks: [{
+				id: "7217F5CD405DB469"
+				item: "meatweapons:pistol"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			id: "48A04D4957742A26"
+			tasks: [{
+				id: "00C01D9A41D1F274"
+				item: "meatweapons:bosher"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			id: "16663910B0308439"
+			tasks: [{
+				id: "3BF25DAC61EBF0B9"
+				item: "meatweapons:chugger"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			id: "469E916AD1564F50"
+			tasks: [{
+				id: "02A0AC495C934ECE"
+				item: "meatweapons:grenade_launcher"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			id: "438662FC0F90C377"
+			tasks: [{
+				id: "3D1D4B4D459982FD"
+				item: "meatweapons:short_phage_ray"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -5.5d
+		}
+		{
+			id: "74CDC7CF98D25CE0"
+			tasks: [{
+				id: "4D77AB3D6B093DDA"
+				item: "meatweapons:shock_staff"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			id: "1C84B0C6C3FFFAC4"
+			tasks: [{
+				id: "140DF89BF94DC26D"
+				item: "meatweapons:double_carousel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			id: "1B36A2CCC6DA2F7E"
+			tasks: [{
+				id: "01F2203F4A4E828C"
+				item: "meatweapons:triple_carousel"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			id: "53E1AD39A64E46E3"
+			tasks: [{
+				id: "0E58B819D1EDB92B"
+				item: "meatweapons:homing_brain"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			id: "6A90050E70B02DEC"
+			tasks: [{
+				id: "113E4A062A331311"
+				item: "meatweapons:phage_ray_speed_modifier"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			id: "4F16FD2E46B74D4B"
+			tasks: [{
+				id: "04E912BC988DD8C7"
+				item: "meatweapons:battery"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.5d
 		}
 	]
 	title: "Space program | HV"
