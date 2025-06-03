@@ -33,6 +33,8 @@ ServerEvents.recipes(event => {
         'kibe:vacuum_hopper',
         'kibe:drawbridge',
         'kibe:placer', 
+        'kibe:xp_drain', 
+        'kibe:xp_shower', 
         'kibe:breaker'
     ];
     removeByOutput.forEach(item => event.remove({ output: item }));
@@ -54,13 +56,12 @@ ServerEvents.recipes(event => {
     });
 
     event.shaped(`kibe:tank`, [
-        "WRW",
-        "QEQ",
-        "WRW"
+        "WQW",
+        "QRQ",
+        "WQW"
     ], {
         Q: "minecraft:glass",
         W: "minecraft:obsidian",
-        E: "mythicmetals:starrite",
         R: "kubejs:raw_magical_steel",
     });
 
@@ -331,26 +332,6 @@ ServerEvents.recipes(event => {
         },
         advancement: "spectrum:craft_cmy_pedestal"
     });
-    
-    // customPedestalCraft(event, {
-    //     tier: "simple", time: 600, amethyst: 8, experience: 1.0,
-    //     pattern: [
-    //         "WRW",
-    //         "QEQ",
-    //         "WRW"
-    //     ],
-    //     keys: {
-    //         "Q": { "item": "minecraft:glass" },
-    //         "W": { "item": "minecraft:obsidian" },
-    //         "E": { "item": "mythicmetals:starrite" },
-    //         "R": { "item": "kubejs:raw_magical_steel" },
-    //     },
-    //     result: {
-    //         "item": "kibe:tank",
-    //         "count": 2
-    //     },
-    //     advancement: "spectrum:craft_using_pedestal"
-    // });
     customPedestalCraft(event, {
         tier: "simple", time: 2800, amethyst: 16, experience: 1.0,
         pattern: [
