@@ -92,16 +92,6 @@ ServerEvents.recipes(event => {
         W: '#minecraft:planks'
     })
 
-    event.remove({ output: 'minecraft:barrel' })
-    event.shaped('minecraft:barrel', [
-        'WPW',
-        'R R',
-        'WPW'
-    ], {
-        W: '#minecraft:wooden_slabs',
-        P: '#minecraft:planks',
-        R: 'modern_industrialization:steel_ring'
-    })
 
     event.remove({ id: 'minecraft:detector_rail' })
     event.shaped('6x minecraft:detector_rail', [
