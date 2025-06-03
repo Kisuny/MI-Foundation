@@ -561,6 +561,34 @@
     },
     {
       "type": "goblintraders:basic",
+      "experience": 200,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "relicex:tome"
+      },
+      "payment_item": {
+        "count": 3,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
+      "experience": 200,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "relicex:lesser_orb_of_regret"
+      },
+      "payment_item": {
+        "count": 1,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
       "experience": 2000,
       "max_trades": 1,
       "offer_item": {

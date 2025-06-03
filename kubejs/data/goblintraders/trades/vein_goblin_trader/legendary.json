@@ -139,6 +139,20 @@
     },
     {
       "type": "goblintraders:basic",
+      "experience": 2000,
+      "max_trades": 1,
+      "offer_item": {
+        "count": 1,
+        "item": "relicex:greater_orb_of_regret"
+      },
+      "payment_item": {
+        "count": 15,
+        "item": "numismatic-overhaul:gold_coin"
+      },
+      "price_multiplier": 0.0
+    },
+    {
+      "type": "goblintraders:basic",
       "experience": 1000,
       "max_trades": 1,
       "offer_item": {
