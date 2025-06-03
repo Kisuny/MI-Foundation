@@ -587,6 +587,8 @@ REIEvents.hide('item', event => {
         'gag:pigment_jar',
         'gag:energized_hearthstone',
         'gag:hearthstone',
+        'kibe:xp_drain', 
+        'kibe:xp_shower',
 
     ]);
     event.hide(list)
