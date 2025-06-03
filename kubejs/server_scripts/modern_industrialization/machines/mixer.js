@@ -39,7 +39,7 @@ ServerEvents.recipes(event => {
         .itemIn('minecraft:apple')
         .itemIn('2x minecraft:glow_berries')
         .itemOut('expandeddelight:cheese_wheel')
-        .fluidIn('neepmeat:pasteurised_milk', 1000)
+        .fluidIn('milk:still_milk', 1000)
 
 
     event.recipes.modern_industrialization.mixer(2, 100)
