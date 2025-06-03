@@ -83,20 +83,12 @@
 			dependencies: ["457B76383A8437AC"]
 			icon: "modern_industrialization:bronze_gear"
 			id: "4B0EF79E2F76FFDD"
-			rewards: [
-				{
-					id: "49EFF817D5FC8C04"
-					item: "kubejs:early_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "50DACFB0623AE14C"
-					item: "modern_industrialization:bronze_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "49EFF817D5FC8C04"
+				item: "kubejs:early_lootbag_uncommon"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -161,20 +153,12 @@
 			dependencies: ["5C1402F2D918D36E"]
 			hide: false
 			id: "277995BA7B213635"
-			rewards: [
-				{
-					id: "625EB81D9C14C422"
-					item: "kubejs:early_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "7930D1D2FE481E33"
-					item: "modern_industrialization:fire_clay_bricks"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "625EB81D9C14C422"
+				item: "kubejs:early_lootbag_uncommon"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1BBFF5B085160E6F"
@@ -227,25 +211,12 @@
 			]
 			hide: false
 			id: "0CC6D45FABE35CE8"
-			rewards: [
-				{
-					id: "61CDABCB05004B92"
-					item: "kubejs:early_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "536984C605C3BB3B"
-					item: "modern_industrialization:bronze_ingot"
-					type: "item"
-				}
-				{
-					id: "591E888D8D751DDD"
-					item: "modern_industrialization:bronze_machine_casing"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "61CDABCB05004B92"
+				item: "kubejs:early_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "4A1221D82A87014B"
@@ -259,25 +230,12 @@
 			dependencies: ["6E5CD34258826606"]
 			description: [""]
 			id: "673858A6525CC22D"
-			rewards: [
-				{
-					id: "2D15AECDADB2B3C9"
-					item: "kubejs:early_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "4AA0E5E997E6CCBB"
-					item: "modern_industrialization:bronze_ingot"
-					type: "item"
-				}
-				{
-					id: "614A43197BC10344"
-					item: "modern_industrialization:bronze_machine_casing"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2D15AECDADB2B3C9"
+				item: "kubejs:early_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "4531CA2C09A2EF8B"
@@ -295,25 +253,12 @@
 				"&6Резчик,&r более &4выгодная&r добыча досок, &4автоматизация&r производства стержней"
 			]
 			id: "30A764597ABAD374"
-			rewards: [
-				{
-					id: "4F4C99ACF2C64F39"
-					item: "kubejs:early_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "0F84A22F772AACCB"
-					item: "modern_industrialization:bronze_ingot"
-					type: "item"
-				}
-				{
-					id: "316784E4ED9449CA"
-					item: "modern_industrialization:bronze_machine_casing"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4F4C99ACF2C64F39"
+				item: "kubejs:early_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "2BC8D97DBC046CF4"
@@ -327,25 +272,12 @@
 			dependencies: ["6E5CD34258826606"]
 			description: ["Just as slow, but much more fuel efficient."]
 			id: "104688083BB190FA"
-			rewards: [
-				{
-					id: "32A63BDD46B41D3B"
-					item: "kubejs:early_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "24A3E1D564CA2482"
-					item: "modern_industrialization:bronze_ingot"
-					type: "item"
-				}
-				{
-					id: "3E7A39C278604EDC"
-					item: "modern_industrialization:bronze_machine_casing"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "32A63BDD46B41D3B"
+				item: "kubejs:early_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "octagon"
 			subtitle: "Yellow furnace"
 			tasks: [{
@@ -360,25 +292,12 @@
 			dependencies: ["6E5CD34258826606"]
 			description: [""]
 			id: "36815FEB1B6AE7D6"
-			rewards: [
-				{
-					id: "5FCFD5E2723C4561"
-					item: "kubejs:early_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "7A0C330B7D59CD34"
-					item: "modern_industrialization:bronze_ingot"
-					type: "item"
-				}
-				{
-					id: "334BF0AD7F6D65A9"
-					item: "modern_industrialization:bronze_machine_casing"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5FCFD5E2723C4561"
+				item: "kubejs:early_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "octagon"
 			subtitle: "Good ol' days of IC2"
 			tasks: [{
@@ -397,25 +316,12 @@
 				"&6Миксер,&r позволяет &4смешивать&r разные ресурсы и материалы, бронзовый и стальной порошок здесь делается &4более выгодно&r"
 			]
 			id: "146DDF9E9ED35527"
-			rewards: [
-				{
-					id: "09FA200F1C93FFBF"
-					item: "kubejs:early_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "0D1292FF1ED5CBD7"
-					item: "modern_industrialization:bronze_ingot"
-					type: "item"
-				}
-				{
-					id: "1116084DD3482D6C"
-					item: "modern_industrialization:bronze_machine_casing"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "09FA200F1C93FFBF"
+				item: "kubejs:early_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "05CD70FA914839DE"
@@ -559,20 +465,12 @@
 			]
 			hide: false
 			id: "5C1402F2D918D36E"
-			rewards: [
-				{
-					id: "73D3094FD2340B1D"
-					item: "kubejs:early_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 8
-					id: "1D852409A3DC5747"
-					item: "modern_industrialization:fire_clay_bricks"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "73D3094FD2340B1D"
+				item: "kubejs:early_lootbag_uncommon"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "2E716DC4D3652281"
@@ -655,20 +553,12 @@
 				"Небольшое портативное хранилище жидкостей"
 			]
 			id: "190AF318A0088ABD"
-			rewards: [
-				{
-					id: "04A940E2802D70C7"
-					item: "kubejs:early_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "406EF43F6DC5CA00"
-					item: "modern_industrialization:bronze_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "04A940E2802D70C7"
+				item: "kubejs:early_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "033129080D32213C"
@@ -687,25 +577,12 @@
 			]
 			hide: false
 			id: "6C6CAEF6AD733543"
-			rewards: [
-				{
-					id: "65B983FF2B6E3F5C"
-					item: "kubejs:early_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "3A3978DB589898FF"
-					item: "modern_industrialization:bronze_ingot"
-					type: "item"
-				}
-				{
-					id: "10E303350185004A"
-					item: "modern_industrialization:bronze_machine_casing"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "65B983FF2B6E3F5C"
+				item: "kubejs:early_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -735,25 +612,12 @@
 			]
 			hide: false
 			id: "57B90A1758C82D2D"
-			rewards: [
-				{
-					id: "1A19C0764F108892"
-					item: "kubejs:early_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "1D9880D2CB270EE0"
-					item: "modern_industrialization:bronze_ingot"
-					type: "item"
-				}
-				{
-					id: "1A8C3067E30012EF"
-					item: "modern_industrialization:bronze_machine_casing"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1A19C0764F108892"
+				item: "kubejs:early_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -849,33 +713,12 @@
 		{
 			dependencies: ["16F9EE5CED2EF23F"]
 			id: "691AB604733F17FD"
-			rewards: [
-				{
-					id: "1557307D94416991"
-					item: "kubejs:early_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "128696C5C521EB9C"
-					item: {
-						Count: 1b
-						id: "modern_industrialization:steel_tank"
-						tag: {
-							BlockEntityTag: {
-								amt: 648000L
-								fluid: {
-									fk: {
-										fluid: "modern_industrialization:creosote"
-									}
-								}
-								locked: 0b
-							}
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1557307D94416991"
+				item: "kubejs:early_lootbag_uncommon"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "7371D878E4C42B81"
@@ -896,33 +739,12 @@
 				"&6Ускоряет&r &4электрические машины&r если нажать пкм по машинке с рабочим крафтом. &4Некоторые&r крафты могут упираться в текущий &4лимит&r разгона и из-за этого не разгоняться, чтобы &aувеличить разгон&r добавьте ускорителей"
 			]
 			id: "35021449B842E5CC"
-			rewards: [
-				{
-					id: "22376DDF53228A35"
-					item: "kubejs:early_lootbag_epic"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "136FDA3E8EF31F22"
-					item: {
-						Count: 1b
-						id: "modern_industrialization:steel_tank"
-						tag: {
-							BlockEntityTag: {
-								amt: 648000L
-								fluid: {
-									fk: {
-										fluid: "modern_industrialization:lubricant"
-									}
-								}
-								locked: 0b
-							}
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "22376DDF53228A35"
+				item: "kubejs:early_lootbag_epic"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Just lube it up"
 			tasks: [{
@@ -1245,25 +1067,6 @@
 					type: "item"
 				}
 				{
-					id: "55210C62A981F25A"
-					item: {
-						Count: 1b
-						id: "modern_industrialization:steel_tank"
-						tag: {
-							BlockEntityTag: {
-								amt: 648000L
-								fluid: {
-									fk: {
-										fluid: "modern_industrialization:synthetic_oil"
-									}
-								}
-								locked: 0b
-							}
-						}
-					}
-					type: "item"
-				}
-				{
 					count: 16
 					id: "4618B0340330BDCB"
 					item: "modern_industrialization:coke"
@@ -1444,25 +1247,12 @@
 			]
 			hide: false
 			id: "2F3053D7D2CF87B0"
-			rewards: [
-				{
-					id: "771892E72379634B"
-					item: "kubejs:early_lootbag_epic"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "7A44326920CC7759"
-					item: "modern_industrialization:steel_ingot"
-					type: "item"
-				}
-				{
-					id: "2BCDD50680A82A55"
-					item: "modern_industrialization:steel_upgrade"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "771892E72379634B"
+				item: "kubejs:early_lootbag_epic"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "042ECF1AD3D1C68E"
@@ -1513,25 +1303,12 @@
 			dependencies: ["6724BFC7CA1CC790"]
 			hide: false
 			id: "3054A036AA8BD517"
-			rewards: [
-				{
-					id: "1181DA1D81D6D0E2"
-					item: "kubejs:early_lootbag_epic"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "3F787FBBC22DB1CB"
-					item: "modern_industrialization:steel_ingot"
-					type: "item"
-				}
-				{
-					id: "3615083FCB9AEF8B"
-					item: "modern_industrialization:steel_upgrade"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1181DA1D81D6D0E2"
+				item: "kubejs:early_lootbag_epic"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "311B77B1171A6259"
@@ -1545,25 +1322,12 @@
 			dependencies: ["6724BFC7CA1CC790"]
 			hide: false
 			id: "12C0557672603FE8"
-			rewards: [
-				{
-					id: "2B5E74878552C659"
-					item: "kubejs:early_lootbag_epic"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "249B379CB53F9FAE"
-					item: "modern_industrialization:steel_ingot"
-					type: "item"
-				}
-				{
-					id: "42E84F2C6ADC2A7C"
-					item: "modern_industrialization:steel_upgrade"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2B5E74878552C659"
+				item: "kubejs:early_lootbag_epic"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "3022B52D76C3E339"
@@ -1577,25 +1341,12 @@
 			dependencies: ["6724BFC7CA1CC790"]
 			hide: false
 			id: "0255D97A58270AB5"
-			rewards: [
-				{
-					id: "0C1B8EBBB5E1AEB8"
-					item: "kubejs:early_lootbag_epic"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "17255123EB4B4088"
-					item: "modern_industrialization:steel_ingot"
-					type: "item"
-				}
-				{
-					id: "577793C2550FEF8D"
-					item: "modern_industrialization:steel_upgrade"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0C1B8EBBB5E1AEB8"
+				item: "kubejs:early_lootbag_epic"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "6778830643EEFC6E"
@@ -1609,25 +1360,12 @@
 			dependencies: ["6724BFC7CA1CC790"]
 			hide: false
 			id: "7A8F666339EFFECD"
-			rewards: [
-				{
-					id: "0B0814816C6812EF"
-					item: "kubejs:early_lootbag_epic"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "0A3CF176E7E84D7D"
-					item: "modern_industrialization:steel_ingot"
-					type: "item"
-				}
-				{
-					id: "66ACCC8353F7D8C4"
-					item: "modern_industrialization:steel_upgrade"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0B0814816C6812EF"
+				item: "kubejs:early_lootbag_epic"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "73DC4B8A9639C9A1"
@@ -1641,25 +1379,12 @@
 			dependencies: ["6724BFC7CA1CC790"]
 			hide: false
 			id: "4F37196C5F8C1C4F"
-			rewards: [
-				{
-					id: "0D583C32B4454EC9"
-					item: "kubejs:early_lootbag_epic"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "41AE072126ACC2EC"
-					item: "modern_industrialization:steel_ingot"
-					type: "item"
-				}
-				{
-					id: "1E0B6808B773C342"
-					item: "modern_industrialization:steel_upgrade"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0D583C32B4454EC9"
+				item: "kubejs:early_lootbag_epic"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "0ACF531D01C61C5D"
@@ -1673,25 +1398,12 @@
 			dependencies: ["6724BFC7CA1CC790"]
 			hide: false
 			id: "0BAD143ECF3B67F5"
-			rewards: [
-				{
-					id: "54941E97B068C22E"
-					item: "kubejs:early_lootbag_epic"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "57DA781A554F6E45"
-					item: "modern_industrialization:steel_ingot"
-					type: "item"
-				}
-				{
-					id: "6905C300355855B7"
-					item: "modern_industrialization:steel_upgrade"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "54941E97B068C22E"
+				item: "kubejs:early_lootbag_epic"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "16495FADA935C5EF"
@@ -1711,25 +1423,12 @@
 				"&6Этот квест открывает новую ветку квестов!&r"
 			]
 			id: "6B8AD610BFDE2B3A"
-			rewards: [
-				{
-					id: "56C3F670E852F06F"
-					item: "kubejs:early_lootbag_epic"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "2AE8B3958A2CAA11"
-					item: "modern_industrialization:steel_ingot"
-					type: "item"
-				}
-				{
-					id: "622A707E68C5585B"
-					item: "modern_industrialization:steel_machine_casing"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "56C3F670E852F06F"
+				item: "kubejs:early_lootbag_epic"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "&#ffb04fThis quest opens a new quest chapter!&r"
@@ -1780,20 +1479,12 @@
 		{
 			dependencies: ["663BB2D450652922"]
 			id: "08A2A9F4E547A21D"
-			rewards: [
-				{
-					id: "25CDFD46245871EE"
-					item: "kubejs:early_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "427F4498FC1AC7C3"
-					item: "modern_industrialization:steel_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "25CDFD46245871EE"
+				item: "kubejs:early_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "22214F2DA3210169"
@@ -1806,20 +1497,12 @@
 		{
 			dependencies: ["663BB2D450652922"]
 			id: "72981C895B68314E"
-			rewards: [
-				{
-					id: "40E3577170A3D322"
-					item: "kubejs:early_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "1EAF15CDD2C08306"
-					item: "modern_industrialization:steel_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "40E3577170A3D322"
+				item: "kubejs:early_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "2D91058D682F36E1"
@@ -1886,12 +1569,6 @@
 					id: "4007669D4BE84A1E"
 					item: "kubejs:early_lootbag_epic"
 					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "5A6A547B86E3C5A1"
-					item: "modern_industrialization:steel_ingot"
 					type: "item"
 				}
 				{
@@ -2033,12 +1710,6 @@
 					team_reward: true
 					type: "item"
 				}
-				{
-					count: 16
-					id: "65026BBF1CF3D77E"
-					item: "modern_industrialization:steel_ingot"
-					type: "item"
-				}
 			]
 			shape: "octagon"
 			tasks: [{
@@ -2149,25 +1820,12 @@
 				"&6Экстрактор жидкости&r, нужен в &4основном&r для краски и тканевой суспензии"
 			]
 			id: "20003141A3AE3E89"
-			rewards: [
-				{
-					id: "6E3B0DEEC89789E5"
-					item: "kubejs:early_lootbag_epic"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "130B12E28C37C2A1"
-					item: "modern_industrialization:steel_ingot"
-					type: "item"
-				}
-				{
-					id: "49FF28ABD060772B"
-					item: "modern_industrialization:steel_machine_casing"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6E3B0DEEC89789E5"
+				item: "kubejs:early_lootbag_epic"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "039D06324B188CDD"
@@ -2197,20 +1855,12 @@
 			]
 			hide: false
 			id: "45AFA17F0E26641D"
-			rewards: [
-				{
-					id: "63B9035DAF1597FF"
-					item: "kubejs:early_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "1F0ACD2EA403CEDB"
-					item: "modern_industrialization:bronze_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "63B9035DAF1597FF"
+				item: "kubejs:early_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "0DA89FCCEA3050F1"
@@ -2229,20 +1879,12 @@
 			]
 			hide: false
 			id: "097D946013284973"
-			rewards: [
-				{
-					id: "79AB9A7CFED4B35A"
-					item: "kubejs:early_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "6F568DC1E91C1DB2"
-					item: "modern_industrialization:bronze_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "79AB9A7CFED4B35A"
+				item: "kubejs:early_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "0FC3E1AF8F666935"
@@ -2471,20 +2113,12 @@
 			dependencies: ["663BB2D450652922"]
 			description: [""]
 			id: "32A70DD76DC20D4E"
-			rewards: [
-				{
-					id: "782772B3A7FF985B"
-					item: "kubejs:early_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "1D2E0A3C8FC91DAE"
-					item: "modern_industrialization:steel_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "782772B3A7FF985B"
+				item: "kubejs:early_lootbag_rare"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "octagon"
 			size: 0.9d
 			tasks: [{
@@ -2617,20 +2251,12 @@
 				"{image:quest_images:textures/item/fluid_drain.png width:190 height:130 align:1}"
 			]
 			id: "52C385CCEB674DF2"
-			rewards: [
-				{
-					id: "338C20827F5B71DE"
-					item: "kubejs:early_lootbag_epic"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "17741199E51FB3A8"
-					item: "modern_industrialization:steel_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "338C20827F5B71DE"
+				item: "kubejs:early_lootbag_epic"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "0E6C786F9A129874"
@@ -2769,25 +2395,12 @@
 			dependencies: ["457B76383A8437AC"]
 			hide: false
 			id: "7BA65FBEC4145C0B"
-			rewards: [
-				{
-					id: "2C035589D9FA13E5"
-					item: "kubejs:early_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "628D65A8B78FE2BF"
-					item: "modern_industrialization:bronze_ingot"
-					type: "item"
-				}
-				{
-					id: "58352131399E0242"
-					item: "modern_industrialization:bronze_machine_casing"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2C035589D9FA13E5"
+				item: "kubejs:early_lootbag_uncommon"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "18F2CDE30EB84950"
@@ -2805,25 +2418,6 @@
 					id: "27C7BF3BC57E1EC9"
 					item: "kubejs:early_lootbag_rare"
 					team_reward: true
-					type: "item"
-				}
-				{
-					id: "2E83AAE4422B2747"
-					item: {
-						Count: 1b
-						id: "modern_industrialization:steel_tank"
-						tag: {
-							BlockEntityTag: {
-								amt: 648000L
-								fluid: {
-									fk: {
-										fluid: "modern_industrialization:molten_redstone"
-									}
-								}
-								locked: 0b
-							}
-						}
-					}
 					type: "item"
 				}
 				{
@@ -2894,20 +2488,12 @@
 			]
 			hide: false
 			id: "30CADCC78DEB5A80"
-			rewards: [
-				{
-					id: "6ADB233AC5D885DA"
-					item: "kubejs:early_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "78209538EEE0A7B1"
-					item: "modern_industrialization:bronze_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6ADB233AC5D885DA"
+				item: "kubejs:early_lootbag_uncommon"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Prototype Omniwrench"
 			tasks: [{
@@ -2927,19 +2513,11 @@
 			]
 			hide: false
 			id: "75EDDE9875B87B5C"
-			rewards: [
-				{
-					id: "2C292EDEEA4E4693"
-					item: "kubejs:early_lootbag_rare"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "0D1B12668FC1F95C"
-					item: "modern_industrialization:bronze_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2C292EDEEA4E4693"
+				item: "kubejs:early_lootbag_rare"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "3C8F5563D9BA3604"
@@ -2958,19 +2536,11 @@
 			]
 			hide: false
 			id: "4205C72442E04D95"
-			rewards: [
-				{
-					id: "23FDFEA6985711B6"
-					item: "kubejs:early_lootbag_rare"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "73EF2F4A0D23CA41"
-					item: "modern_industrialization:bronze_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "23FDFEA6985711B6"
+				item: "kubejs:early_lootbag_rare"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "4836A2D56DCE519D"
@@ -2989,19 +2559,11 @@
 			]
 			hide: false
 			id: "7C6E3F5D4A249CDB"
-			rewards: [
-				{
-					id: "0400C86D1A6EA422"
-					item: "kubejs:early_lootbag_rare"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "5AE413700E5B421C"
-					item: "modern_industrialization:bronze_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0400C86D1A6EA422"
+				item: "kubejs:early_lootbag_rare"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "7C1E2A563C1BCB6E"
@@ -3031,24 +2593,11 @@
 			dependencies: ["6724BFC7CA1CC790"]
 			hide: false
 			id: "0E991CE0FB49FDB6"
-			rewards: [
-				{
-					id: "636EB08486E7D179"
-					item: "kubejs:early_lootbag_epic"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "5039681999E2AC09"
-					item: "modern_industrialization:steel_ingot"
-					type: "item"
-				}
-				{
-					id: "0F247DD6300B70A1"
-					item: "modern_industrialization:steel_upgrade"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "636EB08486E7D179"
+				item: "kubejs:early_lootbag_epic"
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "75D4A8E9C2E2AE2E"
@@ -3092,19 +2641,11 @@
 		{
 			dependencies: ["663BB2D450652922"]
 			id: "3E0F2BF90D0099F4"
-			rewards: [
-				{
-					count: 16
-					id: "3FD5F31BD3129E6E"
-					item: "modern_industrialization:steel_ingot"
-					type: "item"
-				}
-				{
-					id: "1FA90102B752069E"
-					item: "kubejs:early_lootbag_rare"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1FA90102B752069E"
+				item: "kubejs:early_lootbag_rare"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6A5FC8686B1565DC"
 				item: "neepmeat:item_interface"

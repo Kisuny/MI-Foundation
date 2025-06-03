@@ -47,11 +47,6 @@
 		{
 			dependencies: ["33A796252B8BDAC8"]
 			id: "300C8811FB568E88"
-			rewards: [{
-				id: "78DF4EBFCDC8198B"
-				item: "modern_industrialization:digital_circuit"
-				type: "item"
-			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1C4C3E06812AB837"
@@ -64,11 +59,6 @@
 		{
 			dependencies: ["33A796252B8BDAC8"]
 			id: "1EA233E3DCF5A8A0"
-			rewards: [{
-				id: "0B725FC9EF9A4461"
-				item: "modern_industrialization:digital_circuit"
-				type: "item"
-			}]
 			shape: "diamond"
 			tasks: [{
 				id: "6D97D103CA6AEBCB"
@@ -81,11 +71,6 @@
 		{
 			dependencies: ["33A796252B8BDAC8"]
 			id: "1CBD2C9DEEE435E6"
-			rewards: [{
-				id: "5C199564C293863C"
-				item: "modern_industrialization:digital_circuit"
-				type: "item"
-			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1D041766052B3F0A"
@@ -98,11 +83,6 @@
 		{
 			dependencies: ["33A796252B8BDAC8"]
 			id: "1D8B6473D6F59E27"
-			rewards: [{
-				id: "4F0CC842700CD6E1"
-				item: "modern_industrialization:digital_circuit"
-				type: "item"
-			}]
 			shape: "diamond"
 			tasks: [{
 				id: "34CBBE4BFA046ED1"
@@ -115,11 +95,6 @@
 		{
 			dependencies: ["33A796252B8BDAC8"]
 			id: "6B85D9A560CCC0D2"
-			rewards: [{
-				id: "7E25E9BD513C634E"
-				item: "modern_industrialization:digital_circuit"
-				type: "item"
-			}]
 			shape: "diamond"
 			tasks: [{
 				id: "7D69598F83902E0F"
@@ -327,6 +302,12 @@
 					item: "kubejs:mob_lootbag_epic"
 					type: "item"
 				}
+				{
+					count: 2
+					id: "554D4FA4AC5B667F"
+					item: "kubejs:mid_lootbag_epic"
+					type: "item"
+				}
 			]
 			shape: "gear"
 			tasks: [{
@@ -406,6 +387,11 @@
 					count: 2
 					id: "51A60CF5848C3914"
 					item: "modern_industrialization:digital_circuit_board"
+					type: "item"
+				}
+				{
+					id: "0405B62CA8C4E5C7"
+					item: "kubejs:mid_lootbag_epic"
 					type: "item"
 				}
 			]
@@ -500,17 +486,6 @@
 					type: "item"
 				}
 				{
-					id: "482776BEA9710B50"
-					item: "modern_industrialization:turbo_machine_hull"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "1D3EF7646F11028F"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
-				{
 					count: 2
 					id: "1EDC1D4C0CACF27B"
 					item: "modern_industrialization:advanced_motor"
@@ -540,17 +515,6 @@
 			id: "154A18FF55DA9A1A"
 			rewards: [
 				{
-					id: "314652752EB5715E"
-					item: "modern_industrialization:turbo_machine_hull"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "51CDAC6FFA7B385C"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
-				{
 					count: 4
 					id: "0C3CB690B0C3AEA7"
 					item: "modern_industrialization:advanced_pump"
@@ -573,18 +537,11 @@
 		{
 			dependencies: ["2AC0E79728F4AA45"]
 			id: "04C10081866D7BB1"
-			rewards: [
-				{
-					id: "67792B6588B13328"
-					item: "modern_industrialization:turbo_machine_hull"
-					type: "item"
-				}
-				{
-					id: "2F4EA286F12644D0"
-					item: "kubejs:mid_lootbag_epic"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "2F4EA286F12644D0"
+				item: "kubejs:mid_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "534143448ECBE225"
 				item: "modern_industrialization:hv_storage_unit"
@@ -602,16 +559,6 @@
 			]
 			id: "2D7F2A7787D21C84"
 			rewards: [
-				{
-					id: "229044A9604434B3"
-					item: "modern_industrialization:turbo_machine_hull"
-					type: "item"
-				}
-				{
-					id: "7667BEFC905066E7"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
 				{
 					count: 4
 					id: "2758944915C48488"
@@ -953,19 +900,12 @@
 		{
 			dependencies: ["1F3D4A0814A1095F"]
 			id: "4626E3D01CBD6DCC"
-			rewards: [
-				{
-					count: 16
-					id: "233BEA9AEC76291A"
-					item: "modern_industrialization:compactium_dust"
-					type: "item"
-				}
-				{
-					id: "1349D4B4CC236A55"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "233BEA9AEC76291A"
+				item: "modern_industrialization:compactium_dust"
+				type: "item"
+			}]
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "Stone–Čech compactification"
@@ -1027,11 +967,6 @@
 					type: "item"
 				}
 				{
-					id: "194850D43901D485"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
-				{
 					id: "0CB1A4F7015A28D3"
 					item: "kubejs:mid_lootbag_epic"
 					type: "item"
@@ -1089,11 +1024,6 @@
 							}
 						}
 					}
-					type: "item"
-				}
-				{
-					id: "61207E7621B5B263"
-					item: "modern_industrialization:digital_circuit"
 					type: "item"
 				}
 			]
@@ -1226,24 +1156,11 @@
 				"&6Теплообменник,&r в основном нужен для более &9быстрого охлаждения&r горячих слитков"
 			]
 			id: "243C2809A8C13221"
-			rewards: [
-				{
-					id: "53E7FCE6A79AC363"
-					item: "modern_industrialization:turbo_machine_hull"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "4CCA6EEB7046277D"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
-				{
-					id: "03FC476AD0B9F1D0"
-					item: "kubejs:mid_lootbag_epic"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "03FC476AD0B9F1D0"
+				item: "kubejs:mid_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "57DC896E5255B6FB"
 				item: "modern_industrialization:heat_exchanger"
@@ -1755,17 +1672,6 @@
 			rewards: [
 				{
 					count: 2
-					id: "069EBBACA9CB0AA3"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
-				{
-					id: "19B3D7DAD9FAFA88"
-					item: "modern_industrialization:turbo_machine_hull"
-					type: "item"
-				}
-				{
-					count: 2
 					id: "321FB9074460C571"
 					item: "modern_industrialization:advanced_pump"
 					type: "item"
@@ -1916,32 +1822,6 @@
 				"Кровь и соединительная ткань может быть хорошим катализатором при низких уровнях реальности."
 			]
 			id: "3C94F0661744AF8D"
-			rewards: [
-				{
-					id: "5E52AA0A230A02AC"
-					item: {
-						Count: 1b
-						id: "modern_industrialization:titanium_tank"
-						tag: {
-							BlockEntityTag: {
-								amt: 5184000L
-								fluid: {
-									fk: {
-										fluid: "neepmeat:work_fluid"
-									}
-								}
-								locked: 0b
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7AB9A01304D548CF"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
-			]
 			subtitle: "WD-40"
 			tasks: [{
 				id: "3957AE936EC5694E"
@@ -1959,32 +1839,6 @@
 				"Идеальная смесь..."
 			]
 			id: "45E44E92011D35F4"
-			rewards: [
-				{
-					id: "12B2F9E7863B7E30"
-					item: {
-						Count: 1b
-						id: "modern_industrialization:titanium_tank"
-						tag: {
-							BlockEntityTag: {
-								amt: 5184000L
-								fluid: {
-									fk: {
-										fluid: "neepmeat:charged_work_fluid"
-									}
-								}
-								locked: 0b
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "541D03E1E0A84A47"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
-			]
 			subtitle: "WD-120"
 			tasks: [{
 				id: "3E34C69D084AC27C"
@@ -2214,29 +2068,11 @@
 				"&6Почвенный анализатор&r, &4необходим&r для получения карт данных планет"
 			]
 			id: "43283DF93D75D1D2"
-			rewards: [
-				{
-					id: "6FC25F8A6319E3DF"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
-				{
-					id: "4D0042F907A0472F"
-					item: "modern_industrialization:turbo_machine_hull"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "53B5FA2016F79731"
-					item: "modern_industrialization:clean_stainless_steel_machine_casing"
-					type: "item"
-				}
-				{
-					id: "05694989E101BF67"
-					item: "kubejs:mid_lootbag_epic"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "05694989E101BF67"
+				item: "kubejs:mid_lootbag_epic"
+				type: "item"
+			}]
 			tasks: [{
 				id: "301B898E6545EFB2"
 				item: "modern_industrialization:soil_analyzer"
@@ -2249,8 +2085,8 @@
 			dependencies: ["7EF2CD56FEE25DB5"]
 			id: "46558940CC64F5D2"
 			rewards: [{
-				id: "25356016390E96AC"
-				item: "modern_industrialization:digital_circuit"
+				id: "1B993D3440A8E9FD"
+				item: "kubejs:mid_lootbag_epic"
 				type: "item"
 			}]
 			tasks: [{
@@ -2273,11 +2109,6 @@
 				{
 					id: "0F0483F864578212"
 					item: "modern_industrialization:hv_steam_turbine"
-					type: "item"
-				}
-				{
-					id: "1631EB853AC80488"
-					item: "modern_industrialization:turbo_machine_hull"
 					type: "item"
 				}
 				{
@@ -2430,32 +2261,6 @@
 				"При детальном рассмотрении оказалось что &0войд жидкость&r обладает множеством полезных свойств. И имеет множество применений. "
 			]
 			id: "3AA0D0C1318072F3"
-			rewards: [
-				{
-					id: "25C6494FC980E2A5"
-					item: {
-						Count: 1b
-						id: "modern_industrialization:titanium_tank"
-						tag: {
-							BlockEntityTag: {
-								amt: 5184000L
-								fluid: {
-									fk: {
-										fluid: "modern_industrialization:void"
-									}
-								}
-								locked: 0b
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1E1AF0B03CE70069"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
-			]
 			subtitle: "Prometheus"
 			tasks: [{
 				id: "33A8C3DB6C993D47"
@@ -2473,32 +2278,6 @@
 				"При дистилляции, оказалось что &0войд жидкость&r является аммальгамацией первородных θ-компонент которые позволяют локально уменьшить уровень реальности на 0.5юм , таким образом возможно создать эффекты локально нарушающие законы физики нормальной реальности. "
 			]
 			id: "7D385FFA6B5BC62D"
-			rewards: [
-				{
-					id: "12F0B3FF25862338"
-					item: {
-						Count: 1b
-						id: "modern_industrialization:titanium_tank"
-						tag: {
-							BlockEntityTag: {
-								amt: 5184000L
-								fluid: {
-									fk: {
-										fluid: "modern_industrialization:purified_void"
-									}
-								}
-								locked: 0b
-							}
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "763B43BC097724D0"
-					item: "modern_industrialization:digital_circuit"
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "476D3C743F205FEF"
 				item: "modern_industrialization:purified_void_bucket"
@@ -3455,6 +3234,11 @@
 				"Вы так же можете удалять &3жидкости&r."
 			]
 			id: "6C556CF154081467"
+			rewards: [{
+				id: "369FD362F7900228"
+				item: "kubejs:mid_lootbag_epic"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "114506D3901CE518"

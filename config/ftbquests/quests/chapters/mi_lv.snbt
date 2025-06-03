@@ -96,32 +96,11 @@
 		{
 			dependencies: ["6B8AD610BFDE2B3A"]
 			id: "5DEE383284AE4BAB"
-			rewards: [
-				{
-					id: "39D915213942B3A2"
-					item: "kubejs:mid_lootbag_uncommon"
-					type: "item"
-				}
-				{
-					id: "00AAF37EEE8201A2"
-					item: {
-						Count: 1b
-						id: "modern_industrialization:steel_tank"
-						tag: {
-							BlockEntityTag: {
-								amt: 648000L
-								fluid: {
-									fk: {
-										fluid: "modern_industrialization:synthetic_rubber"
-									}
-								}
-								locked: 0b
-							}
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "39D915213942B3A2"
+				item: "kubejs:mid_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "4DFAAD7689F1514B"
@@ -522,17 +501,6 @@
 					type: "item"
 				}
 				{
-					id: "6B72C079EE223517"
-					item: "modern_industrialization:basic_machine_hull"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "6D552B121ED9BB9C"
-					item: "modern_industrialization:lv_steam_turbine"
-					type: "item"
-				}
-				{
 					count: 64
 					id: "20FCB694E57202A9"
 					item: "modern_industrialization:tin_cable"
@@ -570,18 +538,11 @@
 			]
 			hide: false
 			id: "3C5FA124A54C0133"
-			rewards: [
-				{
-					id: "0603205B3AAE4855"
-					item: "kubejs:mid_lootbag_uncommon"
-					type: "item"
-				}
-				{
-					id: "28C9481B5C8A8856"
-					item: "modern_industrialization:basic_machine_hull"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0603205B3AAE4855"
+				item: "kubejs:mid_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "74115C540C37E7C7"
@@ -694,18 +655,11 @@
 			description: [""]
 			hide: false
 			id: "12BD6B070D6B55EC"
-			rewards: [
-				{
-					id: "0CEA4CD73F63145D"
-					item: "kubejs:mid_lootbag_uncommon"
-					type: "item"
-				}
-				{
-					id: "4B4AE4024DA09839"
-					item: "modern_industrialization:basic_machine_hull"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0CEA4CD73F63145D"
+				item: "kubejs:mid_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "octagon"
 			subtitle: "&m3&r &m4&r 5 recipes to rule them all!"
 			tasks: [{
@@ -725,18 +679,11 @@
 			]
 			hide: false
 			id: "26128DB1415D22BC"
-			rewards: [
-				{
-					id: "7F13D066DF1D471D"
-					item: "kubejs:mid_lootbag_uncommon"
-					type: "item"
-				}
-				{
-					id: "5031B8C094A98F28"
-					item: "modern_industrialization:basic_machine_hull"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7F13D066DF1D471D"
+				item: "kubejs:mid_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "1DEFD7C52C7806E8"
@@ -750,18 +697,11 @@
 			dependencies: ["2C87E5A18CDBD27A"]
 			hide: false
 			id: "09359DE603AA2A55"
-			rewards: [
-				{
-					id: "696C401D15531BAE"
-					item: "kubejs:mid_lootbag_uncommon"
-					type: "item"
-				}
-				{
-					id: "6E9612E7488DE0B5"
-					item: "modern_industrialization:basic_machine_hull"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "696C401D15531BAE"
+				item: "kubejs:mid_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "3040722132324CA5"
@@ -775,37 +715,11 @@
 			dependencies: ["2C87E5A18CDBD27A"]
 			hide: false
 			id: "77A2910DC54A3597"
-			rewards: [
-				{
-					id: "0B3DB6EEA3EA8483"
-					item: "kubejs:mid_lootbag_uncommon"
-					type: "item"
-				}
-				{
-					id: "59242D7DBFD12D6A"
-					item: "modern_industrialization:basic_machine_hull"
-					type: "item"
-				}
-				{
-					id: "64D367107C82CDBD"
-					item: {
-						Count: 1b
-						id: "modern_industrialization:aluminum_tank"
-						tag: {
-							BlockEntityTag: {
-								amt: 1296000L
-								fluid: {
-									fk: {
-										fluid: "modern_industrialization:lubricant"
-									}
-								}
-								locked: 0b
-							}
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0B3DB6EEA3EA8483"
+				item: "kubejs:mid_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "482AA3E39F38A930"
@@ -819,18 +733,11 @@
 			dependencies: ["2C87E5A18CDBD27A"]
 			hide: false
 			id: "2F6D2886D54C0CF0"
-			rewards: [
-				{
-					id: "160DD534BAF1F050"
-					item: "kubejs:mid_lootbag_uncommon"
-					type: "item"
-				}
-				{
-					id: "745226BBA18C1EFE"
-					item: "modern_industrialization:basic_machine_hull"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "160DD534BAF1F050"
+				item: "kubejs:mid_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "11D40D8BACB477E3"
@@ -844,18 +751,11 @@
 			dependencies: ["2C87E5A18CDBD27A"]
 			hide: false
 			id: "0B8523585CB79D41"
-			rewards: [
-				{
-					id: "504D3D883C5089DE"
-					item: "kubejs:mid_lootbag_uncommon"
-					type: "item"
-				}
-				{
-					id: "7C38EE6772862F61"
-					item: "modern_industrialization:basic_machine_hull"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "504D3D883C5089DE"
+				item: "kubejs:mid_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "099FE779F5DB859D"
@@ -873,18 +773,11 @@
 				"&6Добавляет&r &4возможность&r крафтить некоторые вещи, что ранее были доступны только через верстак, в угоду возможности &4автоматизации&r"
 			]
 			id: "132428B927F9BF07"
-			rewards: [
-				{
-					id: "04FEBEDEFA603026"
-					item: "kubejs:mid_lootbag_uncommon"
-					type: "item"
-				}
-				{
-					id: "31ACF0C64438DA59"
-					item: "modern_industrialization:basic_machine_hull"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "04FEBEDEFA603026"
+				item: "kubejs:mid_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "4C4E33C8CDB6BCBC"
@@ -898,18 +791,11 @@
 			dependencies: ["2C87E5A18CDBD27A"]
 			hide: false
 			id: "515C19F5E9DBD0E1"
-			rewards: [
-				{
-					id: "3CB43BD287BD7EE7"
-					item: "kubejs:mid_lootbag_uncommon"
-					type: "item"
-				}
-				{
-					id: "53FF590A1EB4C6D8"
-					item: "modern_industrialization:basic_machine_hull"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3CB43BD287BD7EE7"
+				item: "kubejs:mid_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "6C14A5560E322D0E"
@@ -923,18 +809,11 @@
 			dependencies: ["2C87E5A18CDBD27A"]
 			hide: false
 			id: "630016D1CA5ECC74"
-			rewards: [
-				{
-					id: "4341FE42BDD1D793"
-					item: "kubejs:mid_lootbag_uncommon"
-					type: "item"
-				}
-				{
-					id: "2DD56E730E12C55A"
-					item: "modern_industrialization:basic_machine_hull"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4341FE42BDD1D793"
+				item: "kubejs:mid_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "62847663DFF43982"
@@ -1004,18 +883,11 @@
 		{
 			dependencies: ["2C87E5A18CDBD27A"]
 			id: "3387FCCF2E3B857B"
-			rewards: [
-				{
-					id: "4F412917EC6DCA82"
-					item: "kubejs:mid_lootbag_uncommon"
-					type: "item"
-				}
-				{
-					id: "60F22F313BA62C77"
-					item: "modern_industrialization:basic_machine_hull"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4F412917EC6DCA82"
+				item: "kubejs:mid_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "015CCE8FCE60B08E"
@@ -1041,11 +913,13 @@
 			id: "57886FF598451010"
 			rewards: [
 				{
+					count: 2
 					id: "3A470EDF0AB09933"
 					item: "kubejs:mid_lootbag_rare"
 					type: "item"
 				}
 				{
+					count: 5
 					id: "773736E43F34BD15"
 					item: "numismatic-overhaul:gold_coin"
 					type: "item"
@@ -1101,18 +975,11 @@
 			hide: false
 			icon: "modern_industrialization:pyrolyse_chamber"
 			id: "39BB7A893BC32686"
-			rewards: [
-				{
-					id: "6A8E7062518FBA24"
-					item: "kubejs:mid_lootbag_uncommon"
-					type: "item"
-				}
-				{
-					id: "37253E87974551CA"
-					item: "modern_industrialization:basic_machine_hull"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6A8E7062518FBA24"
+				item: "kubejs:mid_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "542BE1F700FA88E4"
@@ -1126,18 +993,11 @@
 			dependencies: ["2C87E5A18CDBD27A"]
 			hide: false
 			id: "649E2B9CF32A694A"
-			rewards: [
-				{
-					id: "64D0202F2BD0E6C6"
-					item: "kubejs:mid_lootbag_uncommon"
-					type: "item"
-				}
-				{
-					id: "08D555369A7CB17D"
-					item: "modern_industrialization:basic_machine_hull"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "64D0202F2BD0E6C6"
+				item: "kubejs:mid_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "40C463BA125D04A1"
@@ -1155,19 +1015,11 @@
 				"Является основным элементом для простейшей логистики труб. Не пропускает блоки сквозь себя, вместо этого принимает те блоки которые указаны в фильтре и передаёт их в выходе соответственного цвета."
 			]
 			id: "0737D169DFB3A47A"
-			rewards: [
-				{
-					id: "38C0F3454F2EF722"
-					item: "kubejs:mid_lootbag_uncommon"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "63C764106EE63735"
-					item: "modern_industrialization:analog_circuit"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "38C0F3454F2EF722"
+				item: "kubejs:mid_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "32852FABE5176663"
@@ -1347,11 +1199,6 @@
 					type: "item"
 				}
 				{
-					id: "4FF63E0EC27BE45E"
-					item: "modern_industrialization:basic_machine_hull"
-					type: "item"
-				}
-				{
 					count: 3
 					id: "73562E86BA803172"
 					item: "kubejs:food_lootbag_epic"
@@ -1376,18 +1223,11 @@
 			]
 			hide: false
 			id: "355872E71E715BBF"
-			rewards: [
-				{
-					id: "0B17077DC1974726"
-					item: "kubejs:mid_lootbag_uncommon"
-					type: "item"
-				}
-				{
-					id: "2BA3FB3F28CA2406"
-					item: "modern_industrialization:basic_machine_hull"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "0B17077DC1974726"
+				item: "kubejs:mid_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "4D242396C82D5099"
@@ -1407,9 +1247,8 @@
 			hide: false
 			id: "3DF2B3F026C9AC41"
 			rewards: [{
-				count: 4
-				id: "6E5D27A95FA2D9CA"
-				item: "modern_industrialization:analog_circuit"
+				id: "51A21BB7BC302610"
+				item: "kubejs:mid_lootbag_uncommon"
 				type: "item"
 			}]
 			shape: "octagon"
@@ -2496,6 +2335,11 @@
 			]
 			hide: false
 			id: "5C706DDE0B62DB75"
+			rewards: [{
+				id: "792ACAF2894AC2E2"
+				item: "kubejs:mid_lootbag_rare"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "5175C34A33BD476D"
@@ -2530,6 +2374,11 @@
 			]
 			hide: false
 			id: "3195167246145CE7"
+			rewards: [{
+				id: "7AB0CE45AC3B21F0"
+				item: "kubejs:mid_lootbag_rare"
+				type: "item"
+			}]
 			shape: "gear"
 			tasks: [{
 				id: "76A1B0CA96914667"
@@ -2554,6 +2403,11 @@
 		{
 			dependencies: ["47A87645847E6CCE"]
 			id: "3E7B3818AEB38147"
+			rewards: [{
+				id: "530CA0A0A65713B7"
+				item: "kubejs:mid_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
