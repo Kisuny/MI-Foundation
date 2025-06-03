@@ -3191,6 +3191,13 @@
 				""
 				"&aXP Berries&r can always be eaten. If you sneak while eat they drop the &aXP-Orbs&r to repair items with &5&lMending&r&r."
 				"{@pagebreak}"
+				"&aСемена Ягод&r опыта является &aпростым способ создавать Опыт&r"
+				""
+				"Можно установить на &3Почву душ&r."
+				""
+				"&l&aЯгоды Опыта&r можно использовать в &aхранилище опыта&r чтобы добавить немного &aопыта&r в него.&r"
+				""
+				"&aЯгоды Опыта&r всегда можно схрумкать. Если скушать их испольуя шифт - &aопыт&r выпадет на землю, что очень полезно если вы хотите починить какой-нибудь инструмент с &5починкой&r. "
 			]
 			id: "79AD0869B795EC6E"
 			rewards: [
@@ -3238,6 +3245,18 @@
 				"• You can use &lBottle's&r or &lBucket's&r on the &aXP Storage&r to &ninsert&r or &nextract&r &aEcperience&r."
 				""
 				"• You can use &lDamaged Items&r with &5Mending&r Enchantment on the &aXP Storage&r to &l&aRepair&r&r the Item with the stored &aExperience&r."
+				"{@pagebreak}"
+				"&aХранилище Опыта&r выполнено из магической &3душе&r&#CD7F32меди&r. "
+				""
+				"Как только ты поставишь блок, ты сможешь засунуть туда &aопыт&r используя «&aПереносчик опыта&r» или любые &9жидкостные интерфейсы&r"
+				""
+				"&l<wave>ПРИМЕЧАНИЕ</wave>&r: Если держать в руке больше чем 1 «&aПереносчик опыта&r» количестов передаваемого опыта увеличиться равно количеству «&aПереносчиков опыта&r»"
+				""
+				"• Используй &cРедстоун Факел&r на &aХранилище Опыта&r, чтобы &lпереключить&r &eвакуумный режим&r. Диаппазон работы Вакуумного режима = &n9х5х9&r"
+				""
+				"• Ты можешь использовать &lбутылочки&r или &lведра&r на &aХранилище опыта&r что &nвставлять&r или &nзабирать&r &aопыт&r."
+				""
+				"• Ты можешь испольовать поломанные инструменты с зачарованием &5Починка&r на &aХранилище опыта&r чтобы &2&lпочинить&r&r их."
 			]
 			id: "60001978F1274782"
 			rewards: [
@@ -3269,7 +3288,11 @@
 		}
 		{
 			dependencies: ["60001978F1274782"]
-			description: ["The Key is used to &2Unlock&r the &aXP Storage&r"]
+			description: [
+				"The Key is used to &2Unlock&r the &aXP Storage&r"
+				"{@pagebreak}"
+				"Ключ позволяет &2разблокировать&r &aхранилище опыта&r"
+			]
 			id: "03560F7B0AF67408"
 			rewards: [
 				{
@@ -3300,6 +3323,10 @@
 				"The Lock is used to lock the &aXP Storage&r. "
 				""
 				"&l<wave>NOTE</wave>&r: If the &aXP Storage&r is Locked &9Fluid extraction&r is &cdisabled&r"
+				"{@pagebreak}"
+				"Замок используется чтобы заблокировать &aхранилище опыта&r."
+				""
+				"&l<wave>ПРИМЕЧАНИЕ</wave>&r: Если &aхранилище опыта&r заблокировано, оно &cне сможет&r передавать &aжидкий опыт&r."
 			]
 			id: "354931E7B3478CED"
 			rewards: [
@@ -3334,6 +3361,13 @@
 				"&l• Stored XP"
 				"&l• Fill level"
 				"&l• Player XP"
+				"{@pagebreak}"
+				"Инспектор используется для отображения подробной информации о &aхранилище опыта&r."
+				""
+				"&l• Владелец"
+				"&l• Количество опыта"
+				"&l• Уровень заполнения"
+				"&l• Опыт игрока"
 			]
 			id: "361A3505BA4A0BA0"
 			rewards: [
@@ -3367,6 +3401,12 @@
 				"&l<wave>NOTE</wave>&r: If you have &lx&r &aXP Transfer&r Items in Hand you will Transfer &lx&r&aLevel's&r instead of &l1&r&aLevel&r."
 				""
 				"Switch Mode's with Sneak Right-Click."
+				"{@pagebreak}"
+				"&aПереносчик опыта&r используется &0чтобы…&r Да, переносить &aопыт&r&0…&r в &aхранилище опыта&r."
+				""
+				"&l<wave>ПРИМЕЧАНИЕ</wave>&r: если у тебя &lх&r &aПереносчиков опыта&r ты будешь переносить &lх&r &aУровней&r. "
+				""
+				"Переключить режим вставки/взятие опыта можно нажав Шифт + ПКМ."
 			]
 			id: "2A28CC32892083E3"
 			rewards: [
