@@ -11,6 +11,7 @@ ServerEvents.recipes(event => {
     'neepmeat:flywheel',
     'neepmeat:can',
     'neepmeat:robotic_arm',
+    'neepmeat:implanter',
     'meatweapons:assault_drill',
     'neepmeat:assault_drill',
     'neepmeat:surgery_platform',

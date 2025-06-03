@@ -1441,6 +1441,39 @@ ServerEvents.recipes(event => {
         }
     });
 
+    // Implanter
+    event.recipes.neepmeat.manufacture({
+        "base": {
+            "id": 'neepmeat:sacrificial_dagger'
+        },
+        "steps":[
+          {
+            "id": "neepmeat:combine",
+            "resource": 'neepmeat:control_unit'
+          },
+          {
+            "id": "neepmeat:combine",
+            "resource": 'neepmeat:contractile_actuator'
+          },
+          {
+            "id": "neepmeat:combine",
+            "resource": 'neepmeat:meat_steel_component'
+          },
+          {
+            "id": "neepmeat:combine",
+            "resource": 'neepmeat:contractile_actuator'
+          },
+          {
+            "id": "neepmeat:inject",
+            "resource": "neepmeat:work_fluid"
+          }
+        ],
+        "result": {
+          "resource": 'neepmeat:implanter',
+          "amount": 1
+        }
+    });
+
     // Vascular conduit
     event.recipes.neepmeat.manufacture({
         "base": {
@@ -1467,41 +1500,41 @@ ServerEvents.recipes(event => {
     });
 
     // Airtruck
-    event.recipes.neepmeat.manufacture({
-        "base": {
-            "id": 'ad_astra:tier_1_rover'
-        },
-        "steps":[
-          {
-            "id": "neepmeat:combine",
-            "resource": 'modern_industrialization:bronze_tank'
-          },
-          {
-            "id": "neepmeat:combine",
-            "resource": 'ad_astra:steel_engine'
-          },
-          {
-            "id": "neepmeat:combine",
-            "resource": 'ad_astra:steel_engine'
-          },
-          {
-            "id": "neepmeat:combine",
-            "resource": 'ad_astra:steel_engine'
-          },
-          {
-            "id": "neepmeat:combine",
-            "resource": 'ad_astra:steel_engine'
-          },
-          {
-            "id": "neepmeat:inject",
-            "resource": "neepmeat:work_fluid"
-          }
-        ],
-        "result": {
-          "resource": 'meatweapons:airtruck',
-          "amount": 1
-        }
-    });
+    // event.recipes.neepmeat.manufacture({
+    //     "base": {
+    //         "id": 'ad_astra:tier_1_rover'
+    //     },
+    //     "steps":[
+    //       {
+    //         "id": "neepmeat:combine",
+    //         "resource": 'modern_industrialization:bronze_tank'
+    //       },
+    //       {
+    //         "id": "neepmeat:combine",
+    //         "resource": 'ad_astra:steel_engine'
+    //       },
+    //       {
+    //         "id": "neepmeat:combine",
+    //         "resource": 'ad_astra:steel_engine'
+    //       },
+    //       {
+    //         "id": "neepmeat:combine",
+    //         "resource": 'ad_astra:steel_engine'
+    //       },
+    //       {
+    //         "id": "neepmeat:combine",
+    //         "resource": 'ad_astra:steel_engine'
+    //       },
+    //       {
+    //         "id": "neepmeat:inject",
+    //         "resource": "neepmeat:work_fluid"
+    //       }
+    //     ],
+    //     "result": {
+    //       "resource": 'meatweapons:airtruck',
+    //       "amount": 1
+    //     }
+    // });
     event.replaceInput({type: 'neepmeat:manufacture'}, {input: 'minecraft:iron_block'}, 'modern_industrialization:advanced_machine_hull');
 
     // Tool Organism
