@@ -30,6 +30,24 @@ ServerEvents.recipes(event => {
         advancement: "spectrum:collect_vegetal",
     });
 
+    customPedestalCraft(event, {
+        time: 100, amethyst: 2, citrine: 2, topaz:2,
+        pattern: [
+            "WWW",
+            "WQW",
+            "WWW"
+        ],
+        keys: {
+            "Q": { "item": "minecraft:bucket" },
+            "W": { "item": "minecraft:experience_bottle" }
+        },
+        result: {
+            "item": "xps:xp_bucket",
+            "count": 1
+        },
+        advancement: "spectrum:spectrum",
+    });
+
     customeFusionShrineCraft(event, {
         time: 6000, experience: 5.0, yield_upgrades: true,
         fluid: "xps:xp_fluid",
