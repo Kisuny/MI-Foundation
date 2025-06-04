@@ -218,7 +218,8 @@
       "miskatonicmysteries:*",
       "labels:*",
       "libmultipart:*",
-      "travelersbackpack:*"
+      "travelersbackpack:*",
+      "xps:*"
     ],
     "//forbiddenEntities": "Entities that cannot be picked up",
     "forbiddenEntities": [
@@ -293,7 +294,8 @@
       "miskatonicmysteries:*",
       "probablychests:*",
       "goblintraders:*",
-      "travelersbackpack:standard"
+      "travelersbackpack:*",
+      "xps:*"
     ],
     "//forbiddenStacking": "Entities that cannot have other entities stacked on top of them",
     "forbiddenStacking": [
