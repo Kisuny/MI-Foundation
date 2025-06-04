@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
         'CPC'
     ], {
         C: 'modern_industrialization:cupronickel_plate',
-        P: 'minecraft:glass_pane',
+        P: '#c:glass_panes',
     })
 
     event.remove({ id: 'moderndynamics:item_pipe' })
@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
         'CPC'
     ], {
         C: 'modern_industrialization:invar_plate',
-        P: 'minecraft:glass_pane',
+        P: '#c:glass_panes',
     })
 
     event.remove({ id: 'moderndynamics:filter' })

@@ -53,7 +53,7 @@ ServerEvents.recipes(event => {
     ], {
         P: 'modern_industrialization:iron_plate',
         R: 'minecraft:redstone',
-        G: 'minecraft:glass_pane',
+        G: '#c:glass_panes',
         H: 'minecraft:hopper',
         B: 'minecraft:brewing_stand'
     })
@@ -81,7 +81,7 @@ ServerEvents.recipes(event => {
         D: 'modern_industrialization:diamond_plate',
         R: 'minecraft:redstone',
         E: 'minecraft:enchanting_table',
-        G: 'minecraft:glass_pane'
+        G: '#c:glass_panes'
     })
 
     event.remove({ output: 'autoworkstations:iron_auto_experience_orb_emitter' })
@@ -155,7 +155,7 @@ ServerEvents.recipes(event => {
         D: 'modern_industrialization:diamond_plate',
         R: 'minecraft:redstone',
         E: 'minecraft:enchanting_table',
-        G: 'minecraft:glass_pane'
+        G: '#c:glass_panes'
     })
 
     // Gold Experience Orb Vacuum
@@ -227,7 +227,7 @@ ServerEvents.recipes(event => {
     ], {
         P: 'modern_industrialization:midas_gold_plate',
         R: 'minecraft:redstone',
-        G: 'minecraft:glass_pane',
+        G: '#c:glass_panes',
         H: 'minecraft:hopper',
         B: 'minecraft:brewing_stand'
     })
