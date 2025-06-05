@@ -1599,7 +1599,15 @@
 		}
 		{
 			dependencies: ["21E3A44EA5EDD677"]
-			description: ["{image:quest_images:textures/item/spectrum/p2.png width:200 height:200 align:1 fit:true}"]
+			description: [
+				"Before improving an altar make sure you have all the blocks to improve it, some blocks need to be created in the previous altar!"
+				""
+				"{image:quest_images:textures/item/spectrum/p2.png width:200 height:200 align:1 fit:true}"
+				"{@pagebreak}"
+				"Перед улучшением алтаря убедитесь что у вас есть все блоки для его улучшения, некоторые необходимо создать в предыдущем алтаре!"
+				""
+				"{image:quest_images:textures/item/spectrum/p2.png width:200 height:200 align:1 fit:true}"
+			]
 			hide: true
 			icon: "spectrum:pedestal_onyx"
 			id: "3877FD4F24D92304"

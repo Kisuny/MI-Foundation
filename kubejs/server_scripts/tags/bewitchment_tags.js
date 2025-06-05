@@ -5,6 +5,7 @@ const brooms = ['bwplus:yew_broom', 'bewitchment:juniper_broom', 'bewitchment:cy
 const saplings = ['bewitchment:juniper_sapling', 'bewitchment:cypress_sapling', 'bewitchment:elder_sapling', 'bewitchment:dragons_blood_sapling', 'bwplus:yew_sapling']
 const poppets = ['bewitchment:fatigue_poppet', 'bewitchment:protection_poppet', 'bewitchment:death_protection_poppet', 'bewitchment:voodoo_poppet', 'bewitchment:voodoo_protection_poppet', 'bewitchment:mending_poppet', 'bewitchment:curse_poppet', 'bewitchment:vampiric_poppet', 'bewitchment:judgment_poppet']
 const sigils = ['bewitchment:mending_sigil', 'bewitchment:cleansing_sigil', 'bewitchment:judgment_sigil', 'bewitchment:decay_sigil', 'bewitchment:shrieking_sigil', 'bewitchment:sentinel_sigil', 'bewitchment:slippery_sigil', 'bewitchment:shadows_sigil', 'bewitchment:extending_sigil', 'bewitchment:smelly_sigil', 'bewitchment:ruin_sigil', 'bewitchment:heavy_sigil']
+const coffins = ['bwplus:white_blackstone_coffin', 'bwplus:orange_blackstone_coffin', 'bwplus:magenta_blackstone_coffin', 'bwplus:light_blue_blackstone_coffin', 'bwplus:yellow_blackstone_coffin', 'bwplus:lime_blackstone_coffin', 'bwplus:pink_blackstone_coffin', 'bwplus:gray_blackstone_coffin', 'bwplus:light_gray_blackstone_coffin', 'bwplus:cyan_blackstone_coffin', 'bwplus:purple_blackstone_coffin', 'bwplus:blue_blackstone_coffin', 'bwplus:brown_blackstone_coffin', 'bwplus:green_blackstone_coffin', 'bwplus:red_blackstone_coffin', 'bwplus:black_blackstone_coffin']
 
 
 cauldron_crafts.forEach(item => event.add('mif:cauldron_crafts', item));
@@ -12,6 +13,7 @@ brooms.forEach(item => event.add('mif:brooms', item));
 saplings.forEach(item => event.add('mif:saplings', item));
 poppets.forEach(item => event.add('mif:poppets', item));
 sigils.forEach(item => event.add('mif:sigils', item));
+coffins.forEach(item => event.add('mif:coffins', item));
 
 });
 

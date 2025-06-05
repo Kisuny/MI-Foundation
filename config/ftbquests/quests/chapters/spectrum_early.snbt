@@ -1810,8 +1810,12 @@
 			dependencies: ["21E3A44EA5EDD677"]
 			description: [
 				"By harnessing the powers of &#C7E2E9onyx&r, you have discovered a way to to create a &#d33b2bwireless redstone transmitter&r! It has a range of 12 blocks and can be set to different frequencies by applying pigment. RMB to swap between sending and recieving a signal."
+				""
+				"P.S. To unlock the craft, improve your old pedestal!"
 				"{@pagebreak}"
 				"Силами &#C7E2E9оникса&r вы научились создавать передатчик &#d33b2bкрасного камня&r через блоки!"
+				""
+				"P.S. Для открытия крафта улучшите свой старый пьедестал!"
 			]
 			hide: true
 			id: "011A580C8C287C71"
@@ -1836,8 +1840,8 @@
 				type: "item"
 			}]
 			title: "Remote redstone"
-			x: 21.0d
-			y: 13.95d
+			x: 21.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["470BE91CDFB98325"]
@@ -2889,8 +2893,12 @@
 			dependencies: ["21E3A44EA5EDD677"]
 			description: [
 				"An empty world with nothing in it, handy to build your base somewhere in infinity!"
+				""
+				"P.S. To unlock the craft, improve your old pedestal!"
 				"{@pagebreak}"
 				"Пустой мир в котором нет ничего, удобно чтобы построить свою базу где-то в бесконечности!"
+				""
+				"P.S. Для открытия крафта улучшите свой старый пьедестал!"
 			]
 			id: "6202DAB34EAE0854"
 			rewards: [{
@@ -2912,8 +2920,12 @@
 			dependencies: ["21E3A44EA5EDD677"]
 			description: [
 				"3x3x2 magic-mining"
+				""
+				"P.S. To unlock the craft, improve your old pedestal!"
 				"{@pagebreak}"
 				"3x3x2 магическая добыча"
+				""
+				"P.S. Для открытия крафта улучшите свой старый пьедестал!"
 			]
 			id: "7AA98DA5D8C2319A"
 			rewards: [{
@@ -3254,7 +3266,7 @@
 				""
 				"• Используй &cРедстоун Факел&r на &aХранилище Опыта&r, чтобы &lпереключить&r &eвакуумный режим&r. Диаппазон работы Вакуумного режима = &n9х5х9&r"
 				""
-				"• Ты можешь использовать &lбутылочки&r или &lведра&r на &aХранилище опыта&r что &nвставлять&r или &nзабирать&r &aопыт&r."
+				"• Ты можешь использовать &lбутылочки&r или &lведра&r на &aХранилище опыта&r чтобы &nвставлять&r или &nзабирать&r &aопыт&r."
 				""
 				"• Ты можешь испольовать поломанные инструменты с зачарованием &5Починка&r на &aХранилище опыта&r чтобы &2&lпочинить&r&r их."
 			]
@@ -3437,6 +3449,37 @@
 			}]
 			x: 20.0d
 			y: 15.5d
+		}
+		{
+			dependencies: ["21E3A44EA5EDD677"]
+			description: [
+				"Allows you to skip a day"
+				"{@pagebreak}"
+				"Позволяет пропускать день"
+			]
+			id: "759891DDCCDDCD26"
+			rewards: [{
+				count: 10
+				id: "5D6DE9EB58580684"
+				item: "vitalize:experience_cubed"
+				random_bonus: 50
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "33A7E759E9E4227B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "mif:coffins"
+					}
+				}
+				title: "Any #mif:coffins"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 14.0d
 		}
 	]
 	title: "Spectrum: First steps"

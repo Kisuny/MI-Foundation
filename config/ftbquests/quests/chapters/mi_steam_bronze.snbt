@@ -1646,6 +1646,10 @@
 		{
 			dependencies: ["5EF849FFAF9AF69B"]
 			description: [
+				"We highly recommend trying to set up auto-crafting of these drills as early as possible, this will give you an idea of how you should generally interact with the MI mod!"
+				""
+				"This can be done without AE2 without any problems!"
+				""
 				"Produces:"
 				"- Iron"
 				"- Coal"
@@ -1655,6 +1659,10 @@
 				"- Gold"
 				"- Redstone"
 				"{@pagebreak}"
+				"Мы настоятельно рекомендуем попробовать настроить автоматический крафт данных буров настолько рано насколько это возможно, это позволит вам понять как в целом вам взаимодействовать с модом MI!"
+				""
+				"Это можно сделать без AE2 без каких либо проблем!"
+				""
 				"Позволяет добывать базовые руды"
 				"- железо"
 				"- уголь"
@@ -1781,8 +1789,16 @@
 			dependencies: ["5EF849FFAF9AF69B"]
 			description: [
 				"Drilling is a primary source of resources in this pack. By using more advanced drills, rarer ores can be obtained."
+				""
+				"We &c&lhighly recommend&r&r trying to set up auto-crafting of these drills as early as possible, this will give you an idea of how you should generally interact with the MI mod!"
+				""
+				"This can be done without AE2 without any problems!"
 				"{@pagebreak}"
 				"Основная добыча блоков руды происходит с помощью забурников разной степени сложности и прочности."
+				""
+				"Мы &c&lнастоятельно рекомендуем&r&r попробовать настроить автоматический крафт данных буров настолько рано насколько это возможно, это позволит вам понять как в целом вам взаимодействовать с модом MI!"
+				""
+				"Это можно сделать без AE2 без каких либо проблем!"
 			]
 			hide: false
 			id: "61E4571701C59249"
