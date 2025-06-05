@@ -4,6 +4,8 @@ ServerEvents.recipes(event => {
 
     //Shaped
 
+    event.remove({ id: 'farmersdelight:cutting/amethyst_block' })
+    
     event.remove({ id: 'farmersdelight:iron_knife' })
     event.shaped('farmersdelight:iron_knife', [
         ' A',

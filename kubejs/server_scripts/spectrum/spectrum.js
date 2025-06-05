@@ -116,7 +116,7 @@ ServerEvents.recipes(event => {
             { name: `spectrum:medium_${gem}_bud`, count: 2 },
             { name: `spectrum:large_${gem}_bud`, count: 3 },
             { name: `spectrum:${gem}_cluster`, count: 4 },
-            { name: `spectrum:${gem}_block`, count: 1 },
+            { name: `spectrum:${gem}_block`, count: 2 },
         ]
         buds.forEach(element => {
             event.recipes.modern_industrialization.macerator(2, 100)
@@ -131,7 +131,7 @@ ServerEvents.recipes(event => {
         { name: `minecraft:medium_amethyst_bud`, count: 2 },
         { name: `minecraft:large_amethyst_bud`, count: 3 },
         { name: `minecraft:amethyst_cluster`, count: 4 },
-        { name: `minecraft:amethyst_block`, count: 1 },
+        { name: `minecraft:amethyst_block`, count: 2 },
     ]
     buds2.forEach(element => {
         event.recipes.modern_industrialization.macerator(2, 100)
