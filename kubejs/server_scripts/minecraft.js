@@ -11,6 +11,9 @@ ServerEvents.recipes(event => {
         'mythicmetals:crafting/smithing_table_from_quadrillum',
         'simple_backpack:bundle',
         'minecraft:bread',
+        'minecraft:bone_meal_from_bone_block',
+        'minecraft:bone_meal',
+        'architects_palette:bone_meal_from_withered_bone'
     ]
     removeByID.forEach(element => event.remove({ id: element }))
 

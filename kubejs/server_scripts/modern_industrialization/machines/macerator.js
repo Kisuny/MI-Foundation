@@ -88,11 +88,15 @@ ServerEvents.recipes(event => {
         .itemIn('spectrum:paltaeria_ore')
         .itemOut('3x spectrum:paltaeria_fragments')
 
-        event.recipes.modern_industrialization.macerator(2, 200)
+    event.recipes.modern_industrialization.macerator(2, 200)
         .itemIn('#spectrum:shimmerstone_ores')
         .itemOut('3x spectrum:shimmerstone_gem')
 
-        event.recipes.modern_industrialization.macerator(16, 1000)
+    event.recipes.modern_industrialization.macerator(16, 1000)
         .itemIn('#mif:trinkets_for_macerator')
         .itemOut('kubejs:artifact_dust', 0.4)
+
+    event.recipes.modern_industrialization.macerator(2, 100)
+        .itemIn('architects_palette:withered_bone')
+        .itemOut('minecraft:bone_meal', 3)
 })
