@@ -1771,6 +1771,11 @@
 					team_reward: true
 					type: "item"
 				}
+				{
+					id: "789F74792EE9C18D"
+					item: "chunkloaders:single_chunk_loader"
+					type: "item"
+				}
 			]
 			shape: "gear"
 			subtitle: "&#ffb04fThis quest opens a new quest chapter!&r"
@@ -3290,11 +3295,18 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "58DA44D374B7D3F6"
-				item: "xps:block_xp_obelisk"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "58DA44D374B7D3F6"
+					item: "xps:block_xp_obelisk"
+					type: "item"
+				}
+				{
+					id: "38D2DD754CBDD61E"
+					item: "xps:xp_bucket"
+					type: "item"
+				}
+			]
 			x: 18.5d
 			y: 14.0d
 		}

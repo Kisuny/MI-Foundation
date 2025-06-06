@@ -1,18 +1,14 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "bewitchment"
 	group: "0EE6B87D2DF05DC9"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
 	icon: "bewitchment:golden_witch_altar"
 	id: "7277231C2B85A0A5"
 	order_index: 5
-	quest_links: [{
-		id: "580F9E96190ABA16"
-		linked_quest: "3877FD4F24D92304"
-		x: -6.5d
-		y: 7.5d
-	}]
+	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["21952F0799457083"]
@@ -981,7 +977,7 @@
 				type: "item"
 			}]
 			title: "Poppets"
-			x: -8.0d
+			x: -7.0d
 			y: 6.5d
 		}
 		{
@@ -1022,7 +1018,7 @@
 				type: "item"
 			}]
 			title: "Brooms"
-			x: -8.5d
+			x: -7.5d
 			y: 7.0d
 		}
 		{
@@ -1062,7 +1058,7 @@
 				type: "item"
 			}]
 			title: "Sigils"
-			x: -9.0d
+			x: -8.0d
 			y: 7.5d
 		}
 		{
@@ -1092,7 +1088,7 @@
 				item: "bewitchment:crystal_ball"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -7.5d
 			y: 8.0d
 		}
 		{
@@ -1124,7 +1120,7 @@
 				item: "bewitchment:brazier"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -7.0d
 			y: 8.5d
 		}
 		{
@@ -1163,7 +1159,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.0d
 			y: 7.5d
 		}
 		{
@@ -1193,7 +1189,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.0d
 			y: 6.0d
 		}
 		{
@@ -1223,7 +1219,7 @@
 				}
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.5d
 			y: 7.5d
 		}
 		{
@@ -1253,7 +1249,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.0d
 			y: 9.0d
 		}
 		{
@@ -1299,7 +1295,7 @@
 				to_observe: "bewitchment:demon"
 				type: "observation"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 7.5d
 		}
 	]
