@@ -2046,6 +2046,11 @@
 					item: "kubejs:mid_lootbag_rare"
 					type: "item"
 				}
+				{
+					id: "7F5171A40A7F5320"
+					item: "chunkloaders:single_chunk_loader"
+					type: "item"
+				}
 			]
 			tasks: [{
 				count: 200L

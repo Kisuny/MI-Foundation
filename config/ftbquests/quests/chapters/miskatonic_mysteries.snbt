@@ -1168,11 +1168,18 @@
 				"• Принц."
 			]
 			id: "720DD169BC8B356A"
-			rewards: [{
-				id: "282F43CFA50759B5"
-				item: "kubejs:magic_lootbag_epic"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "282F43CFA50759B5"
+					item: "kubejs:magic_lootbag_epic"
+					type: "item"
+				}
+				{
+					id: "52F2B911A6A66B94"
+					item: "chunkloaders:single_chunk_loader"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "17279EDD540A8D32"

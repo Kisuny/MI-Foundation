@@ -1188,7 +1188,10 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["347CB25B0C49349B"]
+			dependencies: [
+				"347CB25B0C49349B"
+				"12C2D3EA6474C0B8"
+			]
 			description: [
 				"Enchanter can enchant books with specific enchantments and improve them. "
 				""

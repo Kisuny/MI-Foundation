@@ -930,6 +930,12 @@
 					item: "kubejs:mob_lootbag_uncommon"
 					type: "item"
 				}
+				{
+					count: 2
+					id: "00FDF0D7D0EEFD2F"
+					item: "chunkloaders:single_chunk_loader"
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			size: 2.0d

@@ -644,9 +644,13 @@
 		{
 			dependencies: ["0314A659046D38A0"]
 			description: [
-				"Found in Villages."
+				"Found in Villages"
+				""
+				"It can also be obtained when enchanting items with a small chance"
 				"{@pagebreak}"
-				"Данный глаз можно найти в деревнях."
+				"Данный глаз можно найти в деревнях"
+				""
+				"А так же получить при зачарование предметов с маленьким шансом"
 			]
 			id: "66304D9744D15DDB"
 			rewards: [

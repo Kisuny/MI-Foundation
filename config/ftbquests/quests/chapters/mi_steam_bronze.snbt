@@ -1423,12 +1423,20 @@
 				"&6Этот квест открывает новую ветку квестов!&r"
 			]
 			id: "6B8AD610BFDE2B3A"
-			rewards: [{
-				id: "56C3F670E852F06F"
-				item: "kubejs:early_lootbag_epic"
-				team_reward: true
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "56C3F670E852F06F"
+					item: "kubejs:early_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3B4E44FC7828DE9D"
+					item: "chunkloaders:single_chunk_loader"
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "&#ffb04fThis quest opens a new quest chapter!&r"
@@ -1646,9 +1654,11 @@
 		{
 			dependencies: ["5EF849FFAF9AF69B"]
 			description: [
-				"We highly recommend trying to set up auto-crafting of these drills as early as possible, this will give you an idea of how you should generally interact with the MI mod!"
+				"We &l&chighly recommend&r&r trying to set up &eauto-crafting&r of these &edrills&r as &l&cearly as possible&r&r, this will give you an idea of how you should generally interact with the MI mod!"
 				""
-				"This can be done without AE2 without any problems!"
+				"This can be done &l&cwithout AE2&r&r without any problems!"
+				""
+				"&3AE2&r will only open after &c&lflying to the moon&r&r, &n&ldon't try to reach AE2 without automation&r&r!"
 				""
 				"Produces:"
 				"- Iron"
@@ -1659,9 +1669,11 @@
 				"- Gold"
 				"- Redstone"
 				"{@pagebreak}"
-				"Мы настоятельно рекомендуем попробовать настроить автоматический крафт данных буров настолько рано насколько это возможно, это позволит вам понять как в целом вам взаимодействовать с модом MI!"
+				"Мы &c&lнастоятельно рекомендуем&r&r попробовать настроить &eавтоматический крафт&r данных &eбуров&r &l&eнастолько рано &cнасколько это возможно&r&r&r, это позволит вам понять как в целом взаимодействовать с модом MI!"
 				""
-				"Это можно сделать без AE2 без каких либо проблем!"
+				"Это можно сделать &l&cбез AE2&r&r без каких либо проблем!"
+				""
+				"&3AE2&r откроется только после &c&lполёта на луну&r&r, не &n&lпытайтесь дойти до AE2 без автоматизации&r&r!"
 				""
 				"Позволяет добывать базовые руды"
 				"- железо"
@@ -1790,34 +1802,18 @@
 			description: [
 				"Drilling is a primary source of resources in this pack. By using more advanced drills, rarer ores can be obtained."
 				""
-				"We &c&lhighly recommend&r&r trying to set up auto-crafting of these drills as early as possible, this will give you an idea of how you should generally interact with the MI mod!"
+				"We &l&chighly recommend&r&r trying to set up &eauto-crafting&r of these &edrills&r as &l&cearly as possible&r&r, this will give you an idea of how you should generally interact with the MI mod!"
 				""
-				"This can be done without AE2 without any problems!"
+				"This can be done &l&cwithout AE2&r&r without any problems!"
 				"{@pagebreak}"
 				"Основная добыча блоков руды происходит с помощью забурников разной степени сложности и прочности."
 				""
-				"Мы &c&lнастоятельно рекомендуем&r&r попробовать настроить автоматический крафт данных буров настолько рано насколько это возможно, это позволит вам понять как в целом вам взаимодействовать с модом MI!"
+				"Мы &c&lнастоятельно рекомендуем&r&r попробовать настроить &eавтоматический крафт&r данных &eбуров&r &l&eнастолько рано &cнасколько это возможно&r&r&r, это позволит вам понять как в целом вам взаимодействовать с модом MI!"
 				""
-				"Это можно сделать без AE2 без каких либо проблем!"
+				"Это можно сделать &l&cбез AE2&r&r без каких либо проблем!"
 			]
 			hide: false
 			id: "61E4571701C59249"
-			rewards: [
-				{
-					count: 8
-					id: "639F4E3AD2C48411"
-					item: "modern_industrialization:bronze_drill"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "4FEB340902ACBF16"
-					item: "modern_industrialization:copper_drill"
-					team_reward: true
-					type: "item"
-				}
-			]
 			shape: "octagon"
 			tasks: [{
 				id: "7A4918F00B6B72CE"
