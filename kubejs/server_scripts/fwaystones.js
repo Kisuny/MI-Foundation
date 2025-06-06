@@ -18,15 +18,14 @@ ServerEvents.recipes(event => {
 
 
     customPedestalCraft(event, {
-        tier: 'simple', time: 400, amethyst: 16, experience: 1.0,
+        tier: 'simple', time: 200, amethyst: 2, experience: 0.1,
         pattern: [
-            " Q ",
-            "QWQ",
-            " Q "
+            "   ",
+            " W ",
+            "   "
         ],
         keys: {
-            "Q": { "item": "kubejs:raw_magical_steel" },
-            "W": { "item": "minecraft:ender_eye" },
+            "W": { "item": "minecraft:ender_pearl" },
         },
         result: {
             "item": "fwaystones:abyss_watcher",
