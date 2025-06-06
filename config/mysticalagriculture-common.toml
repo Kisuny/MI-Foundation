@@ -41,7 +41,7 @@
 	#Should Inferium Ore generate in the world?
 	generateInferiumOre = false
 	#Should Soulstone generate in the world?
-	generateSoulstone = true
+	generateSoulstone = false
 	#The percentage chance a Soulium Ore spawns in a Soulstone cluster.
 	#Range: 0.0 ~ 1.0
 	souliumOreChance = 0.05
