@@ -35,7 +35,8 @@ ServerEvents.recipes(event => {
         'kibe:placer', 
         'kibe:xp_drain', 
         'kibe:xp_shower', 
-        'kibe:breaker'
+        'kibe:breaker',
+        'kibe:liquid_xp_bucket'
     ];
     removeByOutput.forEach(item => event.remove({ output: item }));
 

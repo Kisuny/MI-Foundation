@@ -647,10 +647,7 @@ REIEvents.hide('item', event => {
 
 });
 
-// REIEvents.hide('liquid', event => {
-//     // event.hide(/chemlib:(.*)(_)/)
-//     event.hide('chemlib:ethylene_source')
-// })
+
 REIEvents.removeCategories(event => {
     event.remove('create:automatic_shaped')
     event.remove('create:draining')
@@ -670,4 +667,9 @@ REIEvents.removeCategories(event => {
     // event.remove('neepmeat:plugins/heating')
     event.remove('neepmeat:plugins/alloy_smelting')
     event.remove('neepmeat:plugins/block_crushing')
+})
+
+
+REIEvents.hide('fluid', event => {
+    event.hide('kibe:liquid_xp')
 })
