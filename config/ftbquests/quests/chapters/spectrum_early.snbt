@@ -47,7 +47,7 @@
 				type: "item"
 			}]
 			title: "Crystals? "
-			x: -17.4d
+			x: -15.899999999999999d
 			y: 12.5d
 		}
 		{
@@ -86,7 +86,7 @@
 				}
 			]
 			title: "&#A39FE1Color them all!"
-			x: -12.899999999999999d
+			x: -11.399999999999999d
 			y: 12.5d
 		}
 		{
@@ -123,7 +123,7 @@
 				type: "item"
 			}]
 			title: "Gem Dust"
-			x: -9.0d
+			x: -8.0d
 			y: 12.5d
 		}
 		{
@@ -156,7 +156,7 @@
 				item: "spectrum:glow_vision_goggles"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -9.0d
 			y: 13.5d
 		}
 		{
@@ -180,7 +180,7 @@
 				item: "spectrum:compacting_chest"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -9.0d
 			y: 11.0d
 		}
 		{
@@ -214,7 +214,7 @@
 				type: "item"
 			}]
 			title: "Heartbound Chest"
-			x: -8.0d
+			x: -7.0d
 			y: 11.0d
 		}
 		{
@@ -323,7 +323,7 @@
 				type: "advancement"
 			}]
 			title: "First improvement!"
-			x: 0.0d
+			x: -1.0d
 			y: 12.5d
 		}
 		{
@@ -347,7 +347,7 @@
 				item: "spectrum:redstone_timer"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -3.5d
 			y: 11.5d
 		}
 		{
@@ -381,7 +381,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: 11.5d
 		}
 		{
@@ -415,7 +415,7 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.0d
 			y: 10.5d
 		}
 		{
@@ -448,7 +448,7 @@
 				item: "spectrum:block_placer"
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 9.5d
 		}
 		{
@@ -481,7 +481,7 @@
 				item: "spectrum:redstone_sand"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 10.0d
 		}
 		{
@@ -505,7 +505,7 @@
 				item: "spectrum:redstone_calculator"
 				type: "item"
 			}]
-			x: -2.0d
+			x: -3.0d
 			y: 10.5d
 		}
 		{
@@ -585,7 +585,7 @@
 				}
 			]
 			title: "Gem Armour"
-			x: -1.0d
+			x: -2.0d
 			y: 10.0d
 		}
 		{
@@ -619,7 +619,7 @@
 				item: "spectrum:shimmerstone_gem"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: 12.5d
 		}
 		{
@@ -659,7 +659,7 @@
 				item: "spectrum:quitoxic_reeds"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: 10.95d
 		}
 		{
@@ -693,7 +693,7 @@
 				item: "spectrum:quitoxic_powder"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: 9.45d
 		}
 		{
@@ -734,7 +734,7 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
+			x: 5.5d
 			y: 8.0d
 		}
 		{
@@ -769,7 +769,7 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: 7.5d
 		}
 		{
@@ -801,7 +801,7 @@
 				item: "minecraft:tnt"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 6.5d
 			y: 8.5d
 		}
 		{
@@ -848,7 +848,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.0d
 			y: 15.5d
 		}
 		{
@@ -882,7 +882,7 @@
 				type: "item"
 			}]
 			title: "Gem Lamps"
-			x: 7.0d
+			x: 6.0d
 			y: 15.5d
 		}
 		{
@@ -926,7 +926,7 @@
 				type: "item"
 			}]
 			title: "Phantom Frames"
-			x: 3.5d
+			x: 2.5d
 			y: 14.5d
 		}
 		{
@@ -951,7 +951,7 @@
 				type: "item"
 			}]
 			title: "Radiant Glass"
-			x: 7.5d
+			x: 6.5d
 			y: 14.5d
 		}
 		{
@@ -984,7 +984,7 @@
 				type: "item"
 			}]
 			title: "Shimmerlights"
-			x: 5.0d
+			x: 4.0d
 			y: 16.0d
 		}
 		{
@@ -1030,7 +1030,7 @@
 				item: "spectrum:present"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.0d
 			y: 16.0d
 		}
 		{
@@ -1067,7 +1067,7 @@
 				item: "spectrum:bottle_of_fading"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.0d
 			y: 12.5d
 		}
 		{
@@ -1094,7 +1094,7 @@
 				id: "1EA47BC318063061"
 				type: "advancement"
 			}]
-			x: 10.0d
+			x: 9.0d
 			y: 12.5d
 		}
 		{
@@ -1134,7 +1134,7 @@
 				type: "item"
 			}]
 			title: "A Colorful Forest!"
-			x: 12.0d
+			x: 11.0d
 			y: 12.5d
 		}
 		{
@@ -1180,7 +1180,7 @@
 				type: "item"
 			}]
 			title: "Pigments?"
-			x: 14.0d
+			x: 13.0d
 			y: 12.5d
 		}
 		{
@@ -1212,7 +1212,7 @@
 				type: "item"
 			}]
 			title: "Colored Lamps"
-			x: 13.0d
+			x: 12.0d
 			y: 9.0d
 		}
 		{
@@ -1254,7 +1254,7 @@
 				type: "item"
 			}]
 			title: "Colored Spore Blossoms"
-			x: 12.0d
+			x: 11.0d
 			y: 9.5d
 		}
 		{
@@ -1299,7 +1299,7 @@
 				type: "item"
 			}]
 			title: "Colored Glowblocks"
-			x: 11.5d
+			x: 10.5d
 			y: 10.5d
 		}
 		{
@@ -1335,7 +1335,7 @@
 				item: "spectrum:enchantment_canvas"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 14.0d
 			y: 9.0d
 		}
 		{
@@ -1371,7 +1371,7 @@
 				item: "spectrum:radiance_staff"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 15.0d
 			y: 9.5d
 		}
 		{
@@ -1423,7 +1423,7 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
+			x: 15.5d
 			y: 10.5d
 		}
 		{
@@ -1459,7 +1459,7 @@
 				item: "spectrum:titration_barrel"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 13.0d
 			y: 15.0d
 		}
 		{
@@ -1501,7 +1501,7 @@
 				item: "spectrum:kimchi"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 11.0d
 			y: 14.0d
 		}
 		{
@@ -1539,7 +1539,7 @@
 				item: "spectrum:fresh_chocolate"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 10.5d
 			y: 15.0d
 		}
 		{
@@ -1577,7 +1577,7 @@
 				item: "spectrum:clotted_cream"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 11.0d
 			y: 16.0d
 		}
 		{
@@ -1604,7 +1604,7 @@
 				type: "checkmark"
 			}]
 			title: "BUT HOW DO YOU MAKE BEER?!"
-			x: 14.0d
+			x: 13.0d
 			y: 17.0d
 		}
 		{
@@ -1637,7 +1637,7 @@
 				item: "spectrum:suspicious_brew"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 12.5d
 			y: 18.0d
 		}
 		{
@@ -1670,7 +1670,7 @@
 				item: "spectrum:infused_beverage"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 13.5d
 			y: 18.0d
 		}
 		{
@@ -1714,7 +1714,7 @@
 				type: "item"
 			}]
 			title: "The first one is magic!"
-			x: 18.5d
+			x: 17.5d
 			y: 12.5d
 		}
 		{
@@ -1784,7 +1784,7 @@
 				item: "spectrum:onyx_shard"
 				type: "item"
 			}]
-			x: 21.0d
+			x: 20.0d
 			y: 12.5d
 		}
 		{
@@ -1808,7 +1808,7 @@
 				item: "spectrum:crescent_clock"
 				type: "item"
 			}]
-			x: 18.5d
+			x: 17.5d
 			y: 11.0d
 		}
 		{
@@ -1845,7 +1845,7 @@
 				type: "item"
 			}]
 			title: "Remote redstone"
-			x: 21.5d
+			x: 20.5d
 			y: 14.0d
 		}
 		{
@@ -1869,7 +1869,7 @@
 				item: "spectrum:lava_sponge"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -7.0d
 			y: 13.5d
 		}
 		{
@@ -1897,7 +1897,7 @@
 				item: "spectrum:ender_hopper"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -8.0d
 			y: 16.0d
 		}
 		{
@@ -1929,7 +1929,7 @@
 				item: "spectrum:ender_dropper"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -7.5d
 			y: 15.5d
 		}
 		{
@@ -1970,7 +1970,7 @@
 				item: "spectrum:particle_spawner"
 				type: "item"
 			}]
-			x: 13.5d
+			x: 12.5d
 			y: 7.0d
 		}
 		{
@@ -1996,7 +1996,7 @@
 				id: "4FE96E789EC97FB3"
 				type: "advancement"
 			}]
-			x: 14.0d
+			x: 13.0d
 			y: 8.5d
 		}
 		{
@@ -2015,7 +2015,7 @@
 				item: "spectrum:ender_glass"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -8.5d
 			y: 15.5d
 		}
 		{
@@ -2048,7 +2048,7 @@
 				id: "61F1EC2DCE3EA78D"
 				type: "advancement"
 			}]
-			x: -9.0d
+			x: -8.0d
 			y: 9.0d
 		}
 		{
@@ -2073,7 +2073,7 @@
 				id: "110E76563D05ED35"
 				type: "advancement"
 			}]
-			x: -9.0d
+			x: -8.0d
 			y: 10.5d
 		}
 		{
@@ -2104,7 +2104,7 @@
 				item: "spirit:soul_powder"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 2.5d
 			y: 8.5d
 		}
 		{
@@ -2152,7 +2152,7 @@
 				title: "Spectrum"
 				type: "checkmark"
 			}]
-			x: -18.9d
+			x: -17.4d
 			y: 12.5d
 		}
 		{
@@ -2192,7 +2192,7 @@
 				type: "item"
 			}]
 			title: "Forgery"
-			x: -16.4d
+			x: -14.899999999999999d
 			y: 12.0d
 		}
 		{
@@ -2220,7 +2220,7 @@
 				item: "kubejs:raw_magical_steel"
 				type: "item"
 			}]
-			x: -15.899999999999999d
+			x: -14.399999999999999d
 			y: 12.5d
 		}
 		{
@@ -2253,7 +2253,7 @@
 				id: "00CA10317D19F2DD"
 				type: "advancement"
 			}]
-			x: -9.0d
+			x: -8.0d
 			y: 14.0d
 		}
 		{
@@ -2289,7 +2289,7 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
+			x: 9.0d
 			y: 13.5d
 		}
 		{
@@ -2331,7 +2331,7 @@
 				id: "794511EC0B74831C"
 				type: "advancement"
 			}]
-			x: 16.0d
+			x: 15.0d
 			y: 12.5d
 		}
 		{
@@ -2365,7 +2365,7 @@
 				type: "item"
 			}]
 			title: "A little fuel for your furnace"
-			x: -16.4d
+			x: -14.899999999999999d
 			y: 13.0d
 		}
 		{
@@ -2406,8 +2406,8 @@
 				item: "kubejs:leather_patch"
 				type: "item"
 			}]
-			x: -12.899999999999999d
-			y: 14.0d
+			x: -11.407142857142851d
+			y: 13.938095238095244d
 		}
 		{
 			dependencies: ["38BABD2574666820"]
@@ -2436,58 +2436,13 @@
 			]
 			shape: "hexagon"
 			tasks: [{
-				id: "67F64FF39C9DBF56"
-				item: {
-					Count: 1b
-					id: "travelersbackpack:standard"
-					tag: { }
-				}
+				id: "73E046DD8E9E15D5"
+				item: "sophisticatedbackpacks:backpack"
 				type: "item"
 			}]
 			title: "Leather helper"
-			x: -12.899999999999999d
-			y: 15.0d
-		}
-		{
-			dependencies: ["0F131A40DB2B4C7E"]
-			description: [
-				"Create your first &#FEECD6upgrade&r and then upgrade your backpack using the &#9BB8ED Smithing Table&r."
-				"{@pagebreak}"
-				"Создайте своё первое &#FEECD6улучшение&r и улучшите им рюкзак на &#9BB8EDстоле кузнеца&r."
-			]
-			id: "42AEF849DD04CD10"
-			rewards: [
-				{
-					id: "288D81563147B282"
-					item: "travelersbackpack:iron_tier_upgrade"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "6A67035517CEA576"
-					item: "vitalize:experience_cubed"
-					random_bonus: 19
-					team_reward: true
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			size: 0.8d
-			tasks: [
-				{
-					id: "5046D11F225D4587"
-					item: "travelersbackpack:iron_tier_upgrade"
-					type: "item"
-				}
-				{
-					id: "26E9C0C4E5536E4A"
-					item: "minecraft:smithing_table"
-					type: "item"
-				}
-			]
-			title: "Improving"
-			x: -12.897619047619052d
-			y: 16.66666666666664d
+			x: -10.407142857142851d
+			y: 14.438095238095244d
 		}
 		{
 			dependencies: ["5B2871DE654E46F5"]
@@ -2501,20 +2456,19 @@
 				count: 5
 				id: "75CCC8B3265B7109"
 				item: "vitalize:experience_cubed"
-				random_bonus: 15
+				random_bonus: 35
 				team_reward: true
 				type: "item"
 			}]
 			shape: "hexagon"
-			size: 0.8d
 			tasks: [{
-				id: "7340C3FC0FBDF7F3"
-				item: "travelersbackpack:blank_upgrade"
+				id: "25B58DE61B974D8D"
+				item: "sophisticatedbackpacks:copper_backpack"
 				type: "item"
 			}]
 			title: "50 skin tones"
-			x: -12.897619047619052d
-			y: 15.85714285714283d
+			x: -10.407142857142851d
+			y: 16.438095238095244d
 		}
 		{
 			dependencies: ["730FE5EA1AE7EAE5"]
@@ -2558,7 +2512,7 @@
 				item: "mythicmetals:celestium_ingot"
 				type: "item"
 			}]
-			x: 14.5d
+			x: 13.5d
 			y: 7.0d
 		}
 		{
@@ -2584,15 +2538,20 @@
 					team_reward: true
 					type: "item"
 				}
+				{
+					id: "78CA82B4B1E3D373"
+					item: "kubejs:magic_lootbag_uncommon"
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			size: 0.8d
 			tasks: [{
-				id: "40F2FC3D95049E34"
-				item: "travelersbackpack:gold_tier_upgrade"
+				id: "75432CEAD176EBFF"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
 				type: "item"
 			}]
-			x: 14.2d
+			x: 13.0d
 			y: 6.0d
 		}
 		{
@@ -2631,7 +2590,7 @@
 				title: "Any #kibe:elevators"
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.5d
 			y: 15.5d
 		}
 		{
@@ -2682,7 +2641,7 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
+			x: -1.0d
 			y: 16.0d
 		}
 		{
@@ -2754,7 +2713,7 @@
 				item: "fwaystones:waystone"
 				type: "item"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: 15.5d
 		}
 		{
@@ -2788,7 +2747,7 @@
 				type: "item"
 			}]
 			title: "&#9BB8EDCrush them all!"
-			x: -14.399999999999999d
+			x: -13.0d
 			y: 12.5d
 		}
 		{
@@ -2813,7 +2772,7 @@
 				id: "5DCE5A924C5BC1A1"
 				type: "advancement"
 			}]
-			x: 14.0d
+			x: 13.0d
 			y: 10.5d
 		}
 		{
@@ -2831,7 +2790,7 @@
 				title: "Mythic Metals"
 				type: "checkmark"
 			}]
-			x: -20.4d
+			x: -18.9d
 			y: 12.5d
 		}
 		{
@@ -2850,13 +2809,18 @@
 				"Держа в руке &6данк&r можно нажать на кнопку i - тогда данк перейдет в режим &3строительства&r, засуньте туда нужный блок для строительства и нажмите данком &eСредней кнопкой мыши&r на нужный блок для строительства - теперь вы можете использовать данк для строительства!"
 			]
 			id: "34A62CF75DC4B8E2"
+			rewards: [{
+				id: "238FE75AF45780D4"
+				item: "kubejs:magic_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "2C9A6E044BC0E493"
 				item: "dankstorage:dank_1"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: 6.5d
 		}
 		{
@@ -2867,13 +2831,18 @@
 				"&9Данк&r второго уровня вмещает &b1024 предмета&r и имеет &b18 слотов&r."
 			]
 			id: "40E43CBA8B7D56EA"
+			rewards: [{
+				id: "197AD5A84B9BA4FF"
+				item: "kubejs:magic_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "50A0D1C9608B11C0"
 				item: "dankstorage:dank_2"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: 5.5d
 		}
 		{
@@ -2884,6 +2853,11 @@
 				"&9Данк&r третьего уровня вмещает &b4096 предметов&r и имеет &b27 слотов&r."
 			]
 			id: "3B5E4523A98E2051"
+			rewards: [{
+				id: "79EADE5F4CE121E2"
+				item: "kubejs:magic_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "pentagon"
 			size: 0.8d
 			tasks: [{
@@ -2891,7 +2865,7 @@
 				item: "dankstorage:dank_3"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 14.2d
 			y: 6.0d
 		}
 		{
@@ -2918,7 +2892,7 @@
 				item: "javd:portal_block"
 				type: "item"
 			}]
-			x: 22.866666666666667d
+			x: 21.866666666666667d
 			y: 12.51190476190476d
 		}
 		{
@@ -2950,7 +2924,7 @@
 				}
 				type: "item"
 			}]
-			x: 20.5d
+			x: 19.5d
 			y: 11.0d
 		}
 		{
@@ -2983,7 +2957,7 @@
 				title: "Any #magnumtorch:torches"
 				type: "item"
 			}]
-			x: 21.5d
+			x: 20.5d
 			y: 11.0d
 		}
 		{
@@ -3000,7 +2974,7 @@
 				item: "scout:satchel_strap"
 				type: "item"
 			}]
-			x: -12.899999999999999d
+			x: -11.399999999999999d
 			y: 11.0d
 		}
 		{
@@ -3054,7 +3028,7 @@
 				}
 				type: "item"
 			}]
-			x: -13.399999999999999d
+			x: -11.899999999999999d
 			y: 10.0d
 		}
 		{
@@ -3150,7 +3124,7 @@
 				}
 				type: "item"
 			}]
-			x: -12.399999999999999d
+			x: -10.899999999999999d
 			y: 10.0d
 		}
 		{
@@ -3171,7 +3145,7 @@
 				}
 				type: "item"
 			}]
-			x: 4.5d
+			x: 3.5d
 			y: 8.0d
 		}
 		{
@@ -3194,7 +3168,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 15.0d
 		}
 		{
@@ -3245,7 +3219,7 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
+			x: 9.0d
 			y: 11.5d
 		}
 		{
@@ -3307,7 +3281,7 @@
 					type: "item"
 				}
 			]
-			x: 18.5d
+			x: 17.5d
 			y: 14.0d
 		}
 		{
@@ -3338,7 +3312,7 @@
 				item: "xps:key"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 16.0d
 			y: 15.5d
 		}
 		{
@@ -3373,7 +3347,7 @@
 				item: "xps:lock"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 17.0d
 			y: 16.0d
 		}
 		{
@@ -3414,7 +3388,7 @@
 				item: "xps:inspector"
 				type: "item"
 			}]
-			x: 19.0d
+			x: 18.0d
 			y: 16.0d
 		}
 		{
@@ -3459,7 +3433,7 @@
 				item: "xps:xp_remover"
 				type: "item"
 			}]
-			x: 20.0d
+			x: 19.0d
 			y: 15.5d
 		}
 		{
@@ -3490,8 +3464,64 @@
 				title: "Any #mif:coffins"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 19.5d
 			y: 14.0d
+		}
+		{
+			dependencies: ["5435111AEF03E6EB"]
+			id: "1F277A871B75EDD4"
+			rewards: [{
+				id: "0D862CAC9CE78D83"
+				item: "kubejs:magic_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "517FD535A6A37456"
+				item: "sophisticatedbackpacks:stack_upgrade_starter_tier"
+				type: "item"
+			}]
+			x: -12.407142857142851d
+			y: 15.438095238095244d
+		}
+		{
+			dependencies: ["38BABD2574666820"]
+			description: [
+				"More upgrades can be seen at REI!"
+				"{@pagebreak}"
+				"Больше улучшений можно посмотреть в REI!"
+			]
+			id: "5435111AEF03E6EB"
+			rewards: [{
+				id: "058B502CB026C891"
+				item: "kubejs:magic_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "0E39771607482F08"
+				item: "sophisticatedbackpacks:upgrade_base"
+				type: "item"
+			}]
+			x: -12.407142857142851d
+			y: 14.438095238095244d
+		}
+		{
+			dependencies: ["1F277A871B75EDD4"]
+			id: "43799D809432FA21"
+			rewards: [{
+				id: "115F569033C59AA6"
+				item: "kubejs:magic_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "47E4A3609A9BC646"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: -12.407142857142851d
+			y: 16.438095238095244d
 		}
 	]
 	title: "Spectrum: First steps"

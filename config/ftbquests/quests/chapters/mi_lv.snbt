@@ -2117,7 +2117,7 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.5d
 			y: 20.5d
 		}
 		{
@@ -2158,7 +2158,7 @@
 				}
 				type: "item"
 			}]
-			x: 8.5d
+			x: 7.5d
 			y: 20.5d
 		}
 		{
@@ -2364,8 +2364,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.5d
-			y: 20.0d
+			x: 11.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["26128DB1415D22BC"]
@@ -2403,8 +2403,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.5d
-			y: 20.0d
+			x: 7.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["47A87645847E6CCE"]
@@ -2423,6 +2423,89 @@
 			}]
 			x: 6.0d
 			y: 8.0d
+		}
+		{
+			dependencies: ["26128DB1415D22BC"]
+			id: "66117F79A888FA57"
+			rewards: [
+				{
+					id: "32E586C82E43F8EE"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "66B7CCD3F8D9A745"
+					item: "vitalize:experience_cubed"
+					random_bonus: 60
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "7D95ADC993BEEA57"
+				item: {
+					Count: 1b
+					id: "simplemagnets:basicmagnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["26128DB1415D22BC"]
+			id: "33862FCD2D1FFB29"
+			rewards: [
+				{
+					id: "3CCB35D598E19A60"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "2E0F26D36B6538DA"
+					item: "vitalize:experience_cubed"
+					random_bonus: 60
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "5E82C8E80FB2B509"
+				item: "sophisticatedbackpacks:magnet_upgrade"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["33862FCD2D1FFB29"]
+			id: "611F99BA74BBCA49"
+			rewards: [
+				{
+					count: 2
+					id: "3A89AECE421E066A"
+					item: "kubejs:mid_lootbag_uncommon"
+					type: "item"
+				}
+				{
+					count: 40
+					id: "6252657448D850E4"
+					item: "vitalize:experience_cubed"
+					random_bonus: 80
+					type: "item"
+				}
+			]
+			shape: "heart"
+			tasks: [{
+				id: "068388C18DB2A9B9"
+				item: "sophisticatedbackpacks:advanced_magnet_upgrade"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 22.0d
 		}
 	]
 	title: "Electricity | LV"

@@ -536,8 +536,8 @@
 				item: "kibe:pocket_crafting_table"
 				type: "item"
 			}]
-			x: -2.214285714285708d
-			y: 0.6249999999999858d
+			x: -1.8928571428571388d
+			y: 0.6666666666666714d
 		}
 		{
 			dependencies: [
@@ -1191,6 +1191,13 @@
 				"Данная книга позволяет объединить в себе другие книги-гайдбуки!"
 			]
 			id: "723F6231542E8A1A"
+			rewards: [{
+				count: 20
+				id: "7B6769C74B8CFBE2"
+				item: "vitalize:experience_cubed"
+				random_bonus: 40
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "One book to guide them all!"
 			tasks: [{
@@ -1204,8 +1211,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.7142857142857082d
-			y: 1.1249999999999858d
+			x: -1.3928571428571388d
+			y: 1.1666666666666714d
 		}
 		{
 			dependencies: ["190C18AB20216705"]
@@ -1324,20 +1331,29 @@
 				"Позволяет &6торговать&r со всеми &6жителями&r в большом радиусе в &lодном интерфейсе&r."
 			]
 			id: "36CBF2ECE6AC3C54"
-			rewards: [{
-				count: 14
-				id: "0C4B80A98AFE138E"
-				item: "numismatic-overhaul:silver_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 14
+					id: "0C4B80A98AFE138E"
+					item: "numismatic-overhaul:silver_coin"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "57A24EB6215A4497"
+					item: "vitalize:experience_cubed"
+					random_bonus: 40
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "25C669DC04854D52"
 				item: "tradingpost:trading_post"
 				type: "item"
 			}]
-			x: -2.214285714285708d
-			y: 1.6249999999999858d
+			x: -1.8928571428571388d
+			y: 1.6666666666666714d
 		}
 		{
 			dependencies: [
@@ -1365,6 +1381,12 @@
 				{
 					id: "2EEF5FB6C4273EFA"
 					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "2DA69933551C2153"
+					item: "vitalize:experience_cubed"
 					type: "item"
 				}
 			]
@@ -1412,6 +1434,12 @@
 					item: "kubejs:food_lootbag_epic"
 					type: "item"
 				}
+				{
+					count: 20
+					id: "74D3773329939F7A"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			tasks: [{
@@ -1457,6 +1485,12 @@
 					item: "kubejs:food_lootbag_epic"
 					type: "item"
 				}
+				{
+					count: 20
+					id: "188CFCCA677A9558"
+					item: "vitalize:experience_cubed"
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			tasks: [{
@@ -1500,6 +1534,12 @@
 				{
 					id: "5DC4749EA39600B6"
 					item: "kubejs:food_lootbag_epic"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "5EE92DC6AE3B3689"
+					item: "vitalize:experience_cubed"
 					type: "item"
 				}
 			]
@@ -1702,6 +1742,25 @@
 			}]
 			x: -4.5d
 			y: 3.0d
+		}
+		{
+			dependencies: ["08FC12B517294C1C"]
+			id: "1EFE74BE194CAFF6"
+			rewards: [{
+				count: 20
+				id: "7C621401DF3292ED"
+				item: "vitalize:experience_cubed"
+				random_bonus: 40
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "064050FF5AD1763D"
+				item: "kibe:white_sleeping_bag"
+				type: "item"
+			}]
+			x: -2.392857142857139d
+			y: 1.1666666666666714d
 		}
 	]
 	title: "First steps"

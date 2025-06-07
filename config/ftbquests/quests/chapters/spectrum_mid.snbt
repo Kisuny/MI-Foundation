@@ -2482,8 +2482,8 @@
 			shape: "circle"
 			size: 0.8d
 			tasks: [{
-				id: "1A36FA8953425824"
-				item: "travelersbackpack:diamond_tier_upgrade"
+				id: "1637BE33A03FF3AC"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
 				type: "item"
 			}]
 			x: 1.5d
@@ -3637,6 +3637,41 @@
 			}]
 			x: 6.5d
 			y: 10.5d
+		}
+		{
+			dependencies: ["641B93E0D035568B"]
+			id: "42750D91DEA053D2"
+			rewards: [{
+				id: "12860CBDD4FE0123"
+				item: "kubejs:magic_lootbag_rare"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "3D079848DE248A36"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			x: 12.907142857142865d
+			y: 4.49285714285714d
+		}
+		{
+			dependencies: ["42750D91DEA053D2"]
+			id: "02655A512A2BAB15"
+			rewards: [{
+				count: 2
+				id: "46A4EE7E8B65FEC5"
+				item: "kubejs:magic_lootbag_rare"
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "70E1DA2E9B55873E"
+				item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+				type: "item"
+			}]
+			x: 12.894897959183673d
+			y: 5.570408163265313d
 		}
 	]
 	title: "Spectrum: New discoveries"

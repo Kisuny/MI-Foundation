@@ -2698,31 +2698,6 @@
 			x: -1.5d
 			y: 4.5d
 		}
-		{
-			dependencies: ["7690F3B47E697F59"]
-			hide: false
-			id: "45B08101DDEF1A3D"
-			rewards: [{
-				count: 2
-				id: "4CBF947250F4A47B"
-				item: "kubejs:mid_lootbag_rare"
-				type: "item"
-			}]
-			shape: "octagon"
-			tasks: [{
-				id: "7A26C1C81E622017"
-				item: {
-					Count: 1b
-					id: "simplemagnets:basicmagnet"
-					tag: {
-						active: 0b
-					}
-				}
-				type: "item"
-			}]
-			x: -3.7780612244898037d
-			y: -3.454081632653061d
-		}
 	]
 	title: "Industrialization | MV"
 }
