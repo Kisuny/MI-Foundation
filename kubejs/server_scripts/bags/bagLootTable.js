@@ -71,7 +71,7 @@ let food = {
         new ItemOfBag("minecraft:cooked_salmon", 4, 40),
         new ItemOfBag("minecraft:golden_apple", 1, 10),
         new ItemOfBag("expandeddelight:sweet_berry_jelly_sandwich", 2, 20),
-    ], 5),
+    ], 3),
     epic: new Bag([
         // name, quantity, itemChance
         new ItemOfBag("farmersdelight:pasta_with_meatballs", 2, 10),
@@ -91,7 +91,7 @@ let food = {
         new ItemOfBag("farmersdelight:ratatouille", 2, 60),
         new ItemOfBag("farmersdelight:squid_ink_pasta", 1, 20),
         new ItemOfBag("farmersdelight:roast_chicken", 1, 20),
-    ], 5),
+    ], 2),
 };
 
 let mob = {
@@ -111,7 +111,7 @@ let mob = {
         new ItemOfBag("minecraft:ink_sac", 2, 5),
         new ItemOfBag("minecraft:rabbit_hide", 2, 5),
         new ItemOfBag("kubejs:moth_wings", 1, 15)
-    ], 7),
+    ], 5),
     rare: new Bag([
         // name, quantity, itemChance
         new ItemOfBag("minecraft:gunpowder", 16, 10),
@@ -129,7 +129,7 @@ let mob = {
         new ItemOfBag("minecraft:blaze_rod", 4, 10),
         new ItemOfBag("kubejs:moth_wings", 2, 15),
         new ItemOfBag("minecraft:ghast_tear", 1, 5),
-    ], 7),
+    ], 5),
     epic: new Bag([
         // name, quantity, itemChance
         new ItemOfBag("minecraft:gunpowder", 32, 10),
@@ -151,7 +151,7 @@ let mob = {
         new ItemOfBag("minecraft:echo_shard", 1, 5),
         new ItemOfBag("kubejs:phantom_feather", 1, 1),
         new ItemOfBag("kubejs:zotzpyre_fang", 1, 1),
-    ], 5),
+    ], 4),
 };
 
 
@@ -393,7 +393,7 @@ let early = {
         new ItemOfBag('minecraft:lead', 1, 20),
         new ItemOfBag('minecraft:dark_oak_sapling', 2, 50),
         new ItemOfBag('minecraft:pumpkin_seeds', 1, 50),
-    ], 6),
+    ], 5),
     rare: new Bag([
         new ItemOfBag('minecraft:diamond_hoe', 1, 10),
         new ItemOfBag('minecraft:diamond_axe', 1, 10),
@@ -426,7 +426,7 @@ let early = {
         new ItemOfBag('autoworkstations:iron_auto_crafting_table', 1, 20),
         new ItemOfBag('extended_drawers:t1_upgrade', 1, 15),
         new ItemOfBag('extended_drawers:t2_upgrade', 1, 10),
-    ], 6),
+    ], 4),
     epic: new Bag([
         new ItemOfBag('botania:cosmetic_thinking_hand', 1, 5),
         new ItemOfBag('botania:cosmetic_tiny_potato_mask', 1, 5),
@@ -474,7 +474,7 @@ let early = {
         new ItemOfBag('modern_industrialization:raw_tin', 64, 80),
         new ItemOfBag('extended_drawers:t1_upgrade', 1, 30),
         new ItemOfBag('extended_drawers:t2_upgrade', 1, 20),
-    ], 6),
+    ], 4),
 };
 
 let mid = {
@@ -523,7 +523,7 @@ let mid = {
         new ItemOfBag('moderndynamics:extractor', 4, 20),
         new ItemOfBag('moderndynamics:item_pipe', 16, 20),
         new ItemOfBag('moderndynamics:fluid_pipe', 16, 20),
-    ], 4),
+    ], 3),
     rare: new Bag([
         new ItemOfBag('modern_industrialization:aluminum_barrel', 2, 60),
         new ItemOfBag('modern_industrialization:aluminum_tank', 2, 60),
@@ -578,7 +578,7 @@ let mid = {
         new ItemOfBag('moderndynamics:attractor', 4, 20),
         new ItemOfBag('moderndynamics:item_pipe', 16, 20),
         new ItemOfBag('moderndynamics:fluid_pipe', 16, 20),
-    ], 4),
+    ], 3),
     epic: new Bag([
         new ItemOfBag('botania:cosmetic_black_bowtie', 1, 1),
         new ItemOfBag('botania:cosmetic_groucho_glasses', 1, 1),
@@ -620,7 +620,7 @@ let mid = {
         new ItemOfBag('moderndynamics:attractor', 4, 20),
         new ItemOfBag('moderndynamics:item_pipe', 16, 20),
         new ItemOfBag('moderndynamics:fluid_pipe', 16, 20),
-    ], 4),
+    ], 3),
 };
 
 let late = {
@@ -652,7 +652,7 @@ let late = {
 
         new ItemOfBag('modern_industrialization:annealed_copper_cable',16,40),
         new ItemOfBag('modern_industrialization:hv_steam_turbine', 2, 35),
-    ], 4),
+    ], 3),
     rare: new Bag([
         new ItemOfBag('modern_industrialization:large_pump', 6, 30),
         new ItemOfBag('modern_industrialization:large_motor', 4, 30),
@@ -702,7 +702,7 @@ let late = {
         new ItemOfBag('modern_industrialization:annealed_copper_cable',16,40),
         new ItemOfBag('modern_industrialization:hv_steam_turbine', 2, 35),
         new ItemOfBag('modern_industrialization:large_steam_turbine',1,15),
-    ], 4),
+    ], 3),
     epic: new Bag([
         new ItemOfBag('modern_industrialization:large_advanced_pump', 6, 30),
         new ItemOfBag('modern_industrialization:large_advanced_motor', 4, 30),
@@ -756,7 +756,7 @@ let late = {
         new ItemOfBag('modern_industrialization:annealed_copper_cable',16,80),
         new ItemOfBag('modern_industrialization:hv_steam_turbine', 2, 70),
         new ItemOfBag('modern_industrialization:large_steam_turbine',1,30),
-    ], 4),
+    ], 2),
 };
 
 let end = {
