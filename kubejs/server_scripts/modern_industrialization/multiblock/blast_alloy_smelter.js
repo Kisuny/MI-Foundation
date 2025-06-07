@@ -84,9 +84,5 @@ ServerEvents.recipes(event => {
         .itemIn('8x mythicmetals:banglum_ingot')
         .itemIn('4x minecraft:iron_ingot')
         .itemOut('4x kubejs:raw_magical_steel')
-    event.recipes.modern_industrialization.blast_alloy_smelter(16, 400)
-        .itemIn('2x modern_industrialization:nickel_ingot')
-        .itemIn('modern_industrialization:aluminum_ingot')
-        .itemIn('minecraft:iron_ingot')
-        .itemOut('kubejs:demagnetized_magnet_part')
+    
 })

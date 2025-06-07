@@ -95,4 +95,10 @@ ServerEvents.recipes(event => {
         .itemIn('spectrum:mermaids_gem')
         .fluidIn('minecraft:water', 1000)
         .fluidOut('spectrum:mud', 1000)
+
+    event.recipes.modern_industrialization.mixer(8, 400)
+        .itemIn('2x modern_industrialization:nickel_ingot')
+        .itemIn('modern_industrialization:aluminum_ingot')
+        .itemIn('minecraft:iron_ingot')
+        .itemOut('kubejs:demagnetized_magnet_part')
 })
