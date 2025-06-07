@@ -4,7 +4,8 @@
 
 ItemEvents.tooltip(tooltip => {
 
-    tooltip.add(["kubejs:bee","kubejs:beehemoth"], "Deprecated, will be deleted! Can be recrafted into a different type of bee!")
+    tooltip.add(["kubejs:bee","kubejs:beehemoth"], Text.of("Deprecated, will be deleted! Can be recrafted into a different type of bee!").darkRed().bold())
+    tooltip.add(['travelersbackpack:standard', 'travelersbackpack:netherite', 'travelersbackpack:diamond', 'travelersbackpack:gold', 'travelersbackpack:emerald', 'travelersbackpack:iron', 'travelersbackpack:blank_upgrade', 'travelersbackpack:iron_tier_upgrade', 'travelersbackpack:gold_tier_upgrade', 'travelersbackpack:diamond_tier_upgrade', 'travelersbackpack:netherite_tier_upgrade', 'travelersbackpack:crafting_upgrade'], Text.of("Deprecated, will be deleted in next patch!").darkRed().bold())
     ////////////////////////////////////////////////////////////
     // Description on bags
     function addDescription(name, type, color) {

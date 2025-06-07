@@ -578,6 +578,7 @@ REIEvents.hide('item', event => {
         'gag:hearthstone',
         'kibe:xp_drain', 
         'kibe:xp_shower',
+        'sophisticatedbackpacks:battery_upgrade',
 
     ]);
     event.hide(list)

@@ -1,6 +1,26 @@
 ItemEvents.tooltip(tooltip => {
     ////////////////////////////////////////////////////////////
         // Special case for tooltips
+        const itemUpgrading = [
+            'dankstorage:dank_1', 
+            'dankstorage:dank_2', 
+            'dankstorage:dank_3', 
+            'dankstorage:dank_4', 
+            'dankstorage:dank_5', 
+            'dankstorage:dank_6', 
+            'dankstorage:dank_7',
+            'sophisticatedbackpacks:copper_backpack', 
+            'sophisticatedbackpacks:iron_backpack', 
+            'sophisticatedbackpacks:gold_backpack', 
+            'sophisticatedbackpacks:diamond_backpack', 
+            'sophisticatedbackpacks:netherite_backpack', 
+            'sophisticatedbackpacks:backpack'
+        ]
+        itemUpgrading.forEach(rod => {
+            tooltip.add(rod, Text.translate('mif.empty_item_inventory_before_upgrading.tooltip').darkRed().bold())
+        });
+
+
         const fishingRods = [
             'minecraft:fishing_rod',
             'gofish:blaze_rod',

@@ -274,7 +274,9 @@
     "mif_addon.beehemoth.tooltip": "You can catch by pressing RMB «Scoop» on the Beehemoth, you can also automatically catch using the dispenser and Scoop in it",
     "mif_addon.treeaxe.tooltip": "Tree Axe can be buy from a Goblin merchant",
     "mif.magic.sacks.tooltip": "★ Can be bought from Goblin Trader/Vein Goblin Trader/Wandering Trader",
-    "mif_addon.naturescompass.tooltip": "Get the «Clump of microoranisms» discovery."
+    "mif_addon.naturescompass.tooltip": "Get the «Clump of microoranisms» discovery.",
+
+    "mif.empty_item_inventory_before_upgrading.tooltip": "empty item inventory before upgrading!"
 
 
 }
