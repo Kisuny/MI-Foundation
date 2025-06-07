@@ -1791,7 +1791,7 @@ ServerEvents.recipes(event => {
             {"item": "gobber2:gobber2_ring_end", "count": 1 },
             {"item": "minecraft:ender_pearl", "count": 10 },
             {"item": "minecraft:rabbit_foot", "count": 6 },
-            {"item": "spectrum:storm_stone", "count": 24 },
+            {"item": "spectrum:storm_stone", "count": 16 },
             {"item": "spectrum:bismuth_crystal", "count": 4 }
         ],
         result: {
