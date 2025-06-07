@@ -94,7 +94,7 @@ ServerEvents.recipes(event => {
             "item": "dankstorage:dank_3",
             "count": 1
         },
-        advancement: "spectrum:collect_quitoxic_reeds"
+        advancement: "spectrum:collect_star_fragment"
     });
     customPedestalCraft(event, {
         tier: 'simple', time: 1000, topaz: 20, citrine: 20, amethyst : 20,  experience: 2.0, yield_upgrades: true,
@@ -111,7 +111,7 @@ ServerEvents.recipes(event => {
             "item": "dankstorage:2_to_3",
             "count": 1
         },
-        advancement: "spectrum:collect_quitoxic_reeds"
+        advancement: "spectrum:collect_star_fragment"
     });
 
     customPedestalCraft(event, {
@@ -129,7 +129,7 @@ ServerEvents.recipes(event => {
             "item": "dankstorage:dank_4",
             "count": 1
         },
-        advancement: "mythicmetals:durasteel"
+        advancement: "spectrum:midgame/break_decayed_bedrock"
     });
 
     customPedestalCraft(event, {
@@ -147,7 +147,7 @@ ServerEvents.recipes(event => {
             "item": "dankstorage:3_to_4",
             "count": 1
         },
-        advancement: "mythicmetals:durasteel"
+        advancement: "spectrum:midgame/break_decayed_bedrock"
     });
 
     customPedestalCraft(event, {
