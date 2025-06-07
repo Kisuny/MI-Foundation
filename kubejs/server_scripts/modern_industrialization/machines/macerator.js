@@ -98,5 +98,5 @@ ServerEvents.recipes(event => {
 
     event.recipes.modern_industrialization.macerator(2, 100)
         .itemIn('architects_palette:withered_bone')
-        .itemOut('minecraft:bone_meal', 3)
+        .itemOut('3x minecraft:bone_meal')
 })
