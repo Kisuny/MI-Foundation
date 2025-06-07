@@ -458,7 +458,7 @@ ServerEvents.recipes(event => {
         .itemIn('2x modern_industrialization:tin_cable')
         .itemIn('4x modern_industrialization:caterium_wire')
         .itemOut('3x modern_industrialization:motor')
-        .id('mif:assembler_caterium_alternate_motor')
+        .id('mif:assembler_caterium_alternate_motor_1')
 
     event.recipes.modern_industrialization.assembler(8, 200)
         .itemIn('modern_industrialization:electronic_circuit')
@@ -480,7 +480,7 @@ ServerEvents.recipes(event => {
         .itemIn('2x modern_industrialization:caterium_rod')
         .itemIn('6x modern_industrialization:advanced_motor')
         .itemOut('2x modern_industrialization:large_advanced_motor')
-        .id('mif:assembler_caterium_alternate_motor')
+        .id('mif:assembler_caterium_alternate_motor_2')
 
     event.recipes.modern_industrialization.assembler(8, 200)
         .itemIn('modern_industrialization:resistor')
@@ -508,7 +508,7 @@ ServerEvents.recipes(event => {
         .itemIn('modern_industrialization:caterium_fine_wire')
         .itemIn('3x modern_industrialization:steel_plate')
         .itemOut('4x modern_industrialization:transistor')
-        .id('mif:assembler_caterium_alternate_transistor')
+        .id('mif:assembler_caterium_alternate_transistor_1')
 
     event.recipes.modern_industrialization.assembler(8, 200)
         .itemIn('2x modern_industrialization:silicon_p_doped_plate')
@@ -516,7 +516,7 @@ ServerEvents.recipes(event => {
         .itemIn('modern_industrialization:caterium_fine_wire')
         .itemIn('3x modern_industrialization:steel_plate')
         .itemOut('8x modern_industrialization:transistor')
-        .id('mif:assembler_caterium_alternate_transistor')
+        .id('mif:assembler_caterium_alternate_transistor_2')
 
     event.recipes.modern_industrialization.assembler(8, 200)
         .itemIn('modern_industrialization:caterium_plate')
