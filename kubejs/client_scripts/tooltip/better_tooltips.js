@@ -95,7 +95,7 @@ ItemEvents.tooltip(tooltip => {
         betterToolTip({ item: 'kubejs:crystal_fiery', text: 'kubejs.crystal_fiery.tooltip' })
         betterToolTip({ item: 'adventurez:warthog_shell_piece', text: 'kubejs.warthog_shell_piece.tooltip' })
         betterToolTip({ item: 'bewitchment:dragons_blood_resin', text: 'kubejs.dragons_blood_resin.tooltip' })
-        betterToolTip({ item: 'travelersbackpack:standard', text: 'kubejs.backpack_standard.tooltip' })
+        betterToolTip({ item: 'sophisticatedbackpacks:backpack', text: 'kubejs.backpack_standard.tooltip' })
         betterToolTip({ item: 'fwaystones:waystone_scroll', text: 'kubejs.waystone_scroll.tooltip' })
         betterToolTip({ item: 'bewitchment:witchberry', text: 'kubejs.witchberry.tooltip' })
         betterToolTip({ item: 'miskatonicmysteries:resonate_ooze', text: 'kubejs.resonate_ooze.tooltip' }) 
