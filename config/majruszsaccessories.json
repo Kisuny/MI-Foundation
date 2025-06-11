@@ -218,7 +218,7 @@
           "minecraft:the_nether": "majruszsaccessories:gameplay/lucky_rock_nether"
         }
       },
-      "mining_drop_chance": 7.5E-4
+      "mining_drop_chance": 7.5E-6
     },
     "metal_lure": {
       "extra_fishing_treasure": {
