@@ -579,6 +579,7 @@ REIEvents.hide('item', event => {
         'kibe:xp_drain', 
         'kibe:xp_shower',
         'sophisticatedbackpacks:battery_upgrade',
+        'kibe:liquid_xp_bucket',
 
     ]);
     event.hide(list)
