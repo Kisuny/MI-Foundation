@@ -877,14 +877,15 @@ MIMachineEvents.registerMachines(event => {
     const pureDaisyHatch = event.hatchOf('item_input', 'item_output', 'fluid_input', 'energy_input');
     const pureDaisyShape = event.layeredShape('clean_stainless_steel_machine_casing', [
         ['HTTTH','HGGGH','HGGGH','HGGGH','HTTTH'],
-        ['TCCCT','G   G','G   G','G   G','TCCCT'],
-        ['TCCCT','G B G','G B G','G B G','TCCCT'],
-        ['TCCCT','G   G','G   G','G   G','TCCCT'],
+        ['TCCCT','G V G','G   G','G   G','TCCCT'],
+        ['TCCCT','GVVVG','G B G','G   G','TCCCT'],
+        ['TCCCT','G V G','G   G','G   G','TCCCT'],
         ['HT#TH','HGGGH','HGGGH','HGGGH','HTTTH']
     ])
         .key('C',event.memberOfBlock('modern_industrialization:manasteel_casing'), pureDaisyHatch)
         .key('G',event.memberOfBlock('spectrum:clear_hummingstone_glass'), event.noHatch())
-        .key('B',event.memberOfBlock('botania:floating_pure_daisy'), event.noHatch())
+        .key('B',event.memberOfBlock('botania:pure_daisy'), event.noHatch())
+        .key('V',event.memberOfBlock('botania:enchanted_soil'), event.noHatch())
         .key('T',event.memberOfBlock('modern_industrialization:clean_stainless_steel_machine_casing'), terraPlateHatch)
         .key('H',event.memberOfBlock('spectrum:polished_calcite_pillar'), event.noHatch())
         .build();
