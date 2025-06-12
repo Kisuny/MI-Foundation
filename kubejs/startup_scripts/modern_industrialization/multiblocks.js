@@ -854,7 +854,7 @@ MIMachineEvents.registerMachines(event => {
     const runicAltarShape = event.layeredShape('clean_stainless_steel_machine_casing', [
         ['HTTTH','HGGGH','HGGGH','HGGGH','HTTTH'],
         ['TCCCT','G B G','G   G','G A G','TCCCT'],
-        ['TCCCT','G S G','G   G','G   G','TCCCT'],
+        ['TCCCT','G   G','G   G','G   G','TCCCT'],
         ['TCCCT','G O G','G   G','G   G','TCCCT'],
         ['HT#TH','HGGGH','HGGGH','HGGGH','HTTTH']
     ])
@@ -865,7 +865,6 @@ MIMachineEvents.registerMachines(event => {
         .key('T',event.memberOfBlock('modern_industrialization:clean_stainless_steel_machine_casing'), terraPlateHatch)
         .key('H',event.memberOfBlock('spectrum:polished_calcite_pillar'), event.noHatch())
         .key('O',event.memberOfBlock('botania:mana_pool'), event.noHatch())
-        .key('S',event.memberOfBlock('botania:gaia_spreader'), event.noHatch())
         .build();
     event.simpleElectricCraftingMultiBlock(
         'Runic Altar Chamber', 'runic_altar_chamber', RUNIC_ALTAR_CHAMBER, runicAltarShape,
