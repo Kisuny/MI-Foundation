@@ -657,12 +657,6 @@
 					type: "item"
 				}
 				{
-					count: 16
-					id: "3077B71DE3AA14FB"
-					item: "minecraft:bricks"
-					type: "item"
-				}
-				{
 					id: "36CBD23AC6674FDC"
 					item: "kubejs:mob_lootbag_uncommon"
 					type: "item"
@@ -671,11 +665,20 @@
 			shape: "gear"
 			size: 2.0d
 			subtitle: "Railcraft?...Anyone?"
-			tasks: [{
-				id: "74F585127A81BE24"
-				item: "modern_industrialization:coke_oven"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "74F585127A81BE24"
+					item: "modern_industrialization:coke_oven"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "15C108E018237868"
+					item: "minecraft:bricks"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -8.0d
 			y: -3.0d
 		}
@@ -880,21 +883,24 @@
 					item: "kubejs:mob_lootbag_uncommon"
 					type: "item"
 				}
-				{
-					count: 16
-					id: "577EE2625F55BCC0"
-					item: "modern_industrialization:fire_clay_bricks"
-					type: "item"
-				}
 			]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "Not yet"
-			tasks: [{
-				id: "091B00A2F0687C09"
-				item: "modern_industrialization:steam_blast_furnace"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "091B00A2F0687C09"
+					item: "modern_industrialization:steam_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4ABBC367F31608E0"
+					item: "modern_industrialization:fire_clay_bricks"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -8.0d
 			y: -1.0d
 		}
@@ -1552,11 +1558,27 @@
 				}
 			]
 			shape: "octagon"
-			tasks: [{
-				id: "2948C43E2A2C47FF"
-				item: "modern_industrialization:large_tank"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2948C43E2A2C47FF"
+					item: "modern_industrialization:large_tank"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "307AE91F97F60A15"
+					item: "minecraft:glass"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "176DC026C1678565"
+					item: "modern_industrialization:steel_machine_casing"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 0.5d
 		}

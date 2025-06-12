@@ -482,11 +482,34 @@
 			]
 			shape: "octagon"
 			size: 2.0d
-			tasks: [{
-				id: "37BFFD76DC55341C"
-				item: "modern_industrialization:large_steam_boiler"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "37BFFD76DC55341C"
+					item: "modern_industrialization:large_steam_boiler"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "2942574DB002CAEB"
+					item: "modern_industrialization:heatproof_machine_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "62D8DDAEB1CF3B55"
+					item: "modern_industrialization:bronze_plated_bricks"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0D11768F5F55801D"
+					item: "modern_industrialization:bronze_machine_casing_pipe"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 5.0d
 		}
@@ -827,19 +850,11 @@
 			dependencies: ["3387FCCF2E3B857B"]
 			hide: false
 			id: "102B8197BB09AAF2"
-			rewards: [
-				{
-					id: "295C979F6BEF4432"
-					item: "kubejs:mid_lootbag_uncommon"
-					type: "item"
-				}
-				{
-					count: 8
-					id: "6F4FEFCC57C5D9DA"
-					item: "modern_industrialization:invar_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "295C979F6BEF4432"
+				item: "kubejs:mid_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "The F in EBF"
 			tasks: [{
@@ -857,19 +872,11 @@
 			hide_dependency_lines: false
 			hide_text_until_complete: false
 			id: "1AC11A9AAE45A014"
-			rewards: [
-				{
-					id: "70380F6195450434"
-					item: "kubejs:mid_lootbag_uncommon"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "36B4194874B80DBB"
-					item: "modern_industrialization:cupronickel_coil"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "70380F6195450434"
+				item: "kubejs:mid_lootbag_uncommon"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "The B in EBF"
 			tasks: [{
@@ -949,22 +956,33 @@
 				{
 					id: "201F2DEF2BAFB1D0"
 					item: "modern_industrialization:steel_item_input_hatch"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "2AEA52F03CC60ACA"
 					item: "modern_industrialization:steel_item_output_hatch"
+					optional_task: true
 					type: "item"
 				}
 				{
 					id: "22B0A51F1683AB0C"
 					item: "modern_industrialization:lv_energy_input_hatch"
+					optional_task: true
 					type: "item"
 				}
 				{
 					count: 16L
 					id: "6C27244531355C19"
 					item: "modern_industrialization:cupronickel_coil"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "1E40819FD09F21CA"
+					item: "modern_industrialization:heatproof_machine_casing"
+					optional_task: true
 					type: "item"
 				}
 			]

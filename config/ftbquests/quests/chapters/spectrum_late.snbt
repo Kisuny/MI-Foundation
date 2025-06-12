@@ -334,6 +334,7 @@
 							value: "mif:onyx_chiseled_block"
 						}
 					}
+					optional_task: true
 					title: "Any #mif:onyx_chiseled_block"
 					type: "item"
 				}
@@ -347,6 +348,7 @@
 							value: "mif:polished_gemstone_block"
 						}
 					}
+					optional_task: true
 					title: "Any #mif:polished_gemstone_block"
 					type: "item"
 				}
@@ -360,6 +362,7 @@
 							value: "spectrum:crest_base_blocks"
 						}
 					}
+					optional_task: true
 					title: "Any #spectrum:crest_base_blocks"
 					type: "item"
 				}
@@ -373,6 +376,7 @@
 							value: "spectrum:polished_base_blocks"
 						}
 					}
+					optional_task: true
 					title: "Any #spectrum:polished_base_blocks"
 					type: "item"
 				}

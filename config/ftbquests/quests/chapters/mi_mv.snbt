@@ -2142,11 +2142,20 @@
 				}
 			]
 			size: 1.5d
-			tasks: [{
-				id: "26634FD9CAD5EF09"
-				item: "modern_industrialization:sea_farm"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "26634FD9CAD5EF09"
+					item: "modern_industrialization:sea_farm"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "5C647BDC055BFA22"
+					item: "minecraft:water_bucket"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -0.75d
 			y: -2.25d
 		}

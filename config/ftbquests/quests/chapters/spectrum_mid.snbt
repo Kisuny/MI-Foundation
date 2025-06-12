@@ -343,6 +343,7 @@
 							value: "spectrum:polished_base_blocks"
 						}
 					}
+					optional_task: true
 					title: "Any #spectrum:polished_base_blocks"
 					type: "item"
 				}
@@ -356,6 +357,7 @@
 							value: "spectrum:crest_base_blocks"
 						}
 					}
+					optional_task: true
 					title: "Any #spectrum:crest_base_blocks"
 					type: "item"
 				}
@@ -369,6 +371,7 @@
 							value: "c:lava_buckets"
 						}
 					}
+					optional_task: true
 					title: "Any #c:lava_buckets"
 					type: "item"
 				}
@@ -382,6 +385,7 @@
 							value: "spectrum:chiseled_base_blocks"
 						}
 					}
+					optional_task: true
 					title: "Any #spectrum:chiseled_base_blocks"
 					type: "item"
 				}
@@ -395,6 +399,7 @@
 							value: "c:glass_blocks"
 						}
 					}
+					optional_task: true
 					title: "Any #c:glass_blocks"
 					type: "item"
 				}
@@ -1237,11 +1242,104 @@
 			shape: "gear"
 			size: 2.0d
 			subtitle: "Not random!"
-			tasks: [{
-				id: "6ED91E5052C2A85E"
-				item: "spectrum:enchanter"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6ED91E5052C2A85E"
+					item: "spectrum:enchanter"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5015F7A5DD7FE6E9"
+					item: "spectrum:liquid_crystal_bucket"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "6A0DDFCA95930055"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "spectrum:pillar_base_blocks"
+						}
+					}
+					optional_task: true
+					title: "Any #spectrum:pillar_base_blocks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3D2433772B791E54"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "mif:polished_gemstone_block"
+						}
+					}
+					optional_task: true
+					title: "Any #mif:polished_gemstone_block"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3D645AC388392C0F"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "mif:item_bowl"
+						}
+					}
+					optional_task: true
+					title: "Any #mif:item_bowl"
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "72140874EAC7D3EF"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "mif:polished_slabs"
+						}
+					}
+					optional_task: true
+					title: "Any #mif:polished_slabs"
+					type: "item"
+				}
+				{
+					count: 159L
+					id: "2DDBAADEF8626FF6"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "spectrum:polished_base_blocks"
+						}
+					}
+					optional_task: true
+					title: "Any #spectrum:polished_base_blocks"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "43B0A9632F1B92D5"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "mif:gemstone_lamp"
+						}
+					}
+					optional_task: true
+					title: "Any #mif:gemstone_lamp"
+					type: "item"
+				}
+			]
 			x: 12.900340136054425d
 			y: 2.4959183673469525d
 		}
@@ -1623,11 +1721,83 @@
 			shape: "gear"
 			size: 2.0d
 			subtitle: "Spectrum Altar Improved"
-			tasks: [{
-				id: "2AB0C1F0A64207A4"
-				item: "spectrum:pedestal_onyx"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2AB0C1F0A64207A4"
+					item: "spectrum:pedestal_onyx"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4445FABCEDAFC825"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "mif:polished_gemstone_block"
+						}
+					}
+					optional_task: true
+					title: "Any #mif:polished_gemstone_block"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "120579F638A2811E"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "mif:gemstone_lamp"
+						}
+					}
+					optional_task: true
+					title: "Any #mif:gemstone_lamp"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "70FFB4E9EB80D97B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "mif:chiseled_gemstone_block"
+						}
+					}
+					optional_task: true
+					title: "Any #mif:chiseled_gemstone_block"
+					type: "item"
+				}
+				{
+					count: 28L
+					id: "26F43051994AD353"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "spectrum:pillar_base_blocks"
+						}
+					}
+					optional_task: true
+					title: "Any #spectrum:pillar_base_blocks"
+					type: "item"
+				}
+				{
+					count: 92L
+					id: "3374682C1BAC4D21"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "spectrum:polished_base_blocks"
+						}
+					}
+					optional_task: true
+					title: "Any #spectrum:polished_base_blocks"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: 2.5d
 		}
@@ -1665,11 +1835,118 @@
 			]
 			shape: "octagon"
 			subtitle: "&#ffb04fThis quest opens a new quest chapter!&r"
-			tasks: [{
-				id: "26ECE33132D5052E"
-				item: "spectrum:spirit_instiller"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "26ECE33132D5052E"
+					item: "spectrum:spirit_instiller"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "37C26EC459F9683A"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "mif:onyx_chiseled_block"
+						}
+					}
+					optional_task: true
+					title: "Any #mif:onyx_chiseled_block"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "1AE70821FF8C57CF"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "spectrum:pillar_base_blocks"
+						}
+					}
+					optional_task: true
+					title: "Any #spectrum:pillar_base_blocks"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "684C85B4B84CEBE5"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "mif:item_bowl"
+						}
+					}
+					optional_task: true
+					title: "Any #mif:item_bowl"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "4E1ABFBBFE53C1A3"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "spectrum:chiseled_base_blocks"
+						}
+					}
+					optional_task: true
+					title: "Any #spectrum:chiseled_base_blocks"
+					type: "item"
+				}
+				{
+					count: 41L
+					id: "1F55E6B2087F7F85"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "spectrum:polished_base_blocks"
+						}
+					}
+					optional_task: true
+					title: "Any #spectrum:polished_base_blocks"
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "42205B9BF323BAEF"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "mif:polished_slabs"
+						}
+					}
+					optional_task: true
+					title: "Any #mif:polished_slabs"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1D54EE43D4E70134"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "mif:notched_polished_block"
+						}
+					}
+					optional_task: true
+					title: "Any #mif:notched_polished_block"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2996C8DB46B481E0"
+					item: "spectrum:topaz_chime"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: -8.5d
 		}

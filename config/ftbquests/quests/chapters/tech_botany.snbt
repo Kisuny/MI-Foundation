@@ -6,18 +6,6 @@
 	hide_quest_until_deps_visible: true
 	icon: "appbot:fluix_mana_pool"
 	id: "5D42340695A1D334"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 1.0d
-		hover: [ ]
-		image: "exco:block/controller"
-		rotation: 0.0d
-		width: 0.027777777777777776d
-		x: 0.0d
-		y: 7.0d
-	}]
 	order_index: 4
 	quest_links: [ ]
 	quests: [
@@ -533,11 +521,53 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "0AB234F29995C818"
-				item: "modern_industrialization:mana_pool_chamber"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0AB234F29995C818"
+					item: "modern_industrialization:mana_pool_chamber"
+					type: "item"
+				}
+				{
+					count: 23L
+					id: "0E1C599AD7A46943"
+					item: "modern_industrialization:clean_stainless_steel_machine_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "27301EDCDD590DCF"
+					item: "spectrum:polished_calcite_pillar"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "42297554B2FDDE41"
+					item: "modern_industrialization:manasteel_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "6D5B0BBDC379D0A3"
+					item: "spectrum:clear_hummingstone_glass"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1C1DEBDA71AD124F"
+					item: "botania:natura_pylon"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3E07536C3F61E7D4"
+					item: "botania:mana_pool"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -5.5d
 			y: -3.0d
 		}
@@ -573,11 +603,75 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "1141985B3D4A9106"
-				item: "modern_industrialization:elven_gateway_chamber"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1141985B3D4A9106"
+					item: "modern_industrialization:elven_gateway_chamber"
+					type: "item"
+				}
+				{
+					count: 28L
+					id: "16B8BAE2FC1134B1"
+					item: "spectrum:polished_calcite_pillar"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 39L
+					id: "5F7727E5355A709F"
+					item: "modern_industrialization:clean_stainless_steel_machine_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 50L
+					id: "03DE715294E48ED8"
+					item: "modern_industrialization:manasteel_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "3BCA469F1BD54BBA"
+					item: "spectrum:clear_hummingstone_glass"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "355B7E5CC959313C"
+					item: "botania:natura_pylon"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0254475E0D4ED57A"
+					item: "botania:livingwood"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "4C37F71E457AB055"
+					item: "botania:glimmering_livingwood"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0F05D85108E21F01"
+					item: "botania:alfheim_portal"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3E1D2C100ADFB542"
+					item: "botania:mana_pool"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -5.5d
 			y: -2.0d
 		}
@@ -613,11 +707,75 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "44D0D42D12F42F41"
-				item: "modern_industrialization:terra_plate_chamber"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "44D0D42D12F42F41"
+					item: "modern_industrialization:terra_plate_chamber"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "1A1C141B6689F74A"
+					item: "spectrum:polished_calcite_pillar"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 23L
+					id: "1D1DA0CF4C0F61E2"
+					item: "modern_industrialization:clean_stainless_steel_machine_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "138C3269948706C7"
+					item: "spectrum:clear_hummingstone_glass"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "4280166C3F5CE0AB"
+					item: "modern_industrialization:manasteel_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "131420B4887053A0"
+					item: "botania:mana_pool"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1AD5EA29415A7468"
+					item: "botania:terra_plate"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "39E7E151151736AB"
+					item: "botania:livingrock"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4A638A928E36995D"
+					item: "minecraft:lapis_block"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4CEC1202178E73E3"
+					item: "botania:natura_pylon"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -5.5d
 			y: -1.0d
 		}
@@ -653,11 +811,53 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "175D6C155F606344"
-				item: "modern_industrialization:apothecary_chamber"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "175D6C155F606344"
+					item: "modern_industrialization:apothecary_chamber"
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "3743FABBB9B70FB0"
+					item: "spectrum:clear_hummingstone_glass"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 23L
+					id: "280010FCB15DC734"
+					item: "modern_industrialization:clean_stainless_steel_machine_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "3021CD6A0FEA53DE"
+					item: "spectrum:polished_calcite_pillar"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "158AD3A869AC0335"
+					item: "modern_industrialization:manasteel_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "10DF82A9CADE5AC9"
+					item: "botania:apothecary_default"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "616C6E587AF4018C"
+					item: "botania:natura_pylon"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -5.5d
 			y: 1.0d
 		}
@@ -667,6 +867,7 @@
 				"0379CDF7FB133E48"
 				"5F754C8C9D4B9968"
 			]
+			icon: "modern_industrialization:runic_altar_chamber"
 			id: "1DF32F47E8D5C96D"
 			rewards: [
 				{
@@ -693,11 +894,59 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "18FD9BF56BEBE1CB"
-				item: "modern_industrialization:runic_altar_chamber"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "18FD9BF56BEBE1CB"
+					item: "modern_industrialization:runic_altar_chamber"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "4967B7E42C2B3A07"
+					item: "spectrum:polished_calcite_pillar"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "70A03C9CF18E1666"
+					item: "spectrum:clear_hummingstone_glass"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 23L
+					id: "0A04332D62EE2E71"
+					item: "modern_industrialization:clean_stainless_steel_machine_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "4A2477C38A4A4E10"
+					item: "modern_industrialization:manasteel_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2E68E3297A10D770"
+					item: "botania:runic_altar"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7393AD46817D635C"
+					item: "botania:mana_pool"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "457C00253DF36E99"
+					item: "botania:natura_pylon"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -5.5d
 			y: 0.0d
 		}
@@ -707,6 +956,7 @@
 				"0379CDF7FB133E48"
 				"5F754C8C9D4B9968"
 			]
+			icon: "modern_industrialization:pure_daisy_chamber"
 			id: "4893674B1B7EB7BE"
 			rewards: [
 				{
@@ -733,11 +983,54 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "696A0F8485C45174"
-				item: "modern_industrialization:pure_daisy_chamber"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "696A0F8485C45174"
+					item: "modern_industrialization:pure_daisy_chamber"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "3FD459C87C7C79DD"
+					item: "spectrum:polished_calcite_pillar"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 23L
+					id: "0F06591A3E7FE3E2"
+					item: "modern_industrialization:clean_stainless_steel_machine_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "6519EDFFF455CBDA"
+					item: "spectrum:clear_hummingstone_glass"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "5BE0AC22423C3CCA"
+					item: "modern_industrialization:manasteel_casing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0A12CDABA235BAD9"
+					item: "botania:pure_daisy"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "27B974F30D625350"
+					item: "botania:enchanted_soil"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -5.5d
 			y: 2.0d
 		}

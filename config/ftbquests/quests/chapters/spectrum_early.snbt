@@ -316,12 +316,89 @@
 			]
 			shape: "gear"
 			subtitle: "&#ffb04fThis quest opens a new quest chapter!&r"
-			tasks: [{
-				advancement: "spectrum:craft_cmy_pedestal"
-				criterion: ""
-				id: "4BBD5140FD776895"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "spectrum:craft_cmy_pedestal"
+					criterion: ""
+					id: "4BBD5140FD776895"
+					type: "advancement"
+				}
+				{
+					id: "1AE3B7491AC14066"
+					item: "spectrum:pedestal_all_basic"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5940866B0B839E11"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "mif:notched_polished_block"
+						}
+					}
+					optional_task: true
+					title: "Any #mif:notched_polished_block"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1ACE13BBEBA9A144"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "spectrum:chiseled_base_blocks"
+						}
+					}
+					optional_task: true
+					title: "Any #spectrum:chiseled_base_blocks"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "66DA6A655773BC02"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "spectrum:pillar_base_blocks"
+						}
+					}
+					optional_task: true
+					title: "Any #spectrum:pillar_base_blocks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "588A5EF401931920"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "mif:polished_gemstone_block"
+						}
+					}
+					optional_task: true
+					title: "Any #mif:polished_gemstone_block"
+					type: "item"
+				}
+				{
+					count: 68L
+					id: "410B000FFA807AB0"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "spectrum:polished_base_blocks"
+						}
+					}
+					optional_task: true
+					title: "Any #spectrum:polished_base_blocks"
+					type: "item"
+				}
+			]
 			title: "First improvement!"
 			x: -1.0d
 			y: 12.5d
@@ -1684,7 +1761,7 @@
 				"{image:quest_images:textures/item/spectrum/fusion_shrine.png width:200 height:200 align:1}"
 			]
 			hide: true
-			icon: "spectrum:fusion_shrine_calcite"
+			icon: "spectrum:fusion_shrine_basalt"
 			id: "5FCEB75E328CB0CC"
 			rewards: [
 				{
@@ -1701,18 +1778,85 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [{
-				id: "586EB77C1D498249"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "mif:fusion_shrine"
+			tasks: [
+				{
+					id: "586EB77C1D498249"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "mif:fusion_shrine"
+						}
 					}
+					title: "A shrine!"
+					type: "item"
 				}
-				title: "A shrine!"
-				type: "item"
-			}]
+				{
+					count: 8L
+					id: "7FC39F835DBA2AB3"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "spectrum:pillar_base_blocks"
+						}
+					}
+					title: "Any #spectrum:pillar_base_blocks"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "486CA42E4F4D6E75"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "mif:polished_slabs"
+						}
+					}
+					title: "Any #mif:polished_slabs"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "55DA51C6E0FEC295"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "mif:polished_gemstone_block"
+						}
+					}
+					title: "Any #mif:polished_gemstone_block"
+					type: "item"
+				}
+				{
+					count: 77L
+					id: "63860E82420F499E"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "spectrum:polished_base_blocks"
+						}
+					}
+					title: "Any #spectrum:polished_base_blocks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "51BDAF9BC8F7C1E1"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "spectrum:chiseled_base_blocks"
+						}
+					}
+					title: "Any #spectrum:chiseled_base_blocks"
+					type: "item"
+				}
+			]
 			title: "The first one is magic!"
 			x: 17.5d
 			y: 12.5d
