@@ -301,7 +301,7 @@ ServerEvents.recipes(event => {
         ],
         keys: {
             "C": { "item": "sophisticatedbackpacks:stack_upgrade_starter_tier" },
-            "T": { "item": "mythicmetals:adamantite_block" }
+            "T": { "item": "mythicmetals:adamantite_ingot" }
         },
         result: {
             "item": "sophisticatedbackpacks:stack_upgrade_tier_1",
@@ -320,7 +320,7 @@ ServerEvents.recipes(event => {
         ],
         keys: {
             "C": { "item": "sophisticatedbackpacks:stack_upgrade_tier_1" },
-            "T": { "item": "mythicmetals:celestium_block" }
+            "T": { "item": "mythicmetals:celestium_ingot" }
         },
         result: {
             "item": "sophisticatedbackpacks:stack_upgrade_tier_2",
@@ -339,7 +339,7 @@ ServerEvents.recipes(event => {
         ],
         keys: {
             "C": { "item": "sophisticatedbackpacks:stack_upgrade_tier_2" },
-            "T": { "item": "mythicmetals:durasteel_block" }
+            "T": { "item": "mythicmetals:durasteel_ingot" }
         },
         result: {
             "item": "sophisticatedbackpacks:stack_upgrade_tier_3",
@@ -358,7 +358,7 @@ ServerEvents.recipes(event => {
         ],
         keys: {
             "C": { "item": "sophisticatedbackpacks:stack_upgrade_tier_3" },
-            "T": { "item": "spectrum:malachite_block" }
+            "T": { "item": "spectrum:refined_malachite" }
         },
         result: {
             "item": "sophisticatedbackpacks:stack_upgrade_tier_4",

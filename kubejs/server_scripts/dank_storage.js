@@ -53,7 +53,7 @@ ServerEvents.recipes(event => {
         ],
         keys: {
             "C": { "item": "dankstorage:dank_1" },
-            "T": { "item": "mythicmetals:adamantite_block" }
+            "T": { "item": "mythicmetals:adamantite_ingot" }
         },
         result: {
             "item": "dankstorage:dank_2",
@@ -70,7 +70,7 @@ ServerEvents.recipes(event => {
         ],
         keys: {
             "C": { "item": "spectrum:bottomless_bundle" },
-            "T": { "item": "mythicmetals:adamantite_block" }
+            "T": { "item": "mythicmetals:adamantite_ingot" }
         },
         result: {
             "item": "dankstorage:1_to_2",
@@ -88,7 +88,7 @@ ServerEvents.recipes(event => {
         ],
         keys: {
             "C": { "item": "dankstorage:dank_2" },
-            "T": { "item": "mythicmetals:celestium_block" }
+            "T": { "item": "mythicmetals:celestium_ingot" }
         },
         result: {
             "item": "dankstorage:dank_3",
@@ -105,7 +105,7 @@ ServerEvents.recipes(event => {
         ],
         keys: {
             "C": { "item": "spectrum:bottomless_bundle" },
-            "T": { "item": "mythicmetals:celestium_block" }
+            "T": { "item": "mythicmetals:celestium_ingot" }
         },
         result: {
             "item": "dankstorage:2_to_3",
@@ -123,7 +123,7 @@ ServerEvents.recipes(event => {
         ],
         keys: {
             "C": { "item": "dankstorage:dank_3" },
-            "T": { "item": "mythicmetals:durasteel_block" }
+            "T": { "item": "mythicmetals:durasteel_ingot" }
         },
         result: {
             "item": "dankstorage:dank_4",
@@ -141,7 +141,7 @@ ServerEvents.recipes(event => {
         ],
         keys: {
             "C": { "item": "spectrum:bottomless_bundle" },
-            "T": { "item": "mythicmetals:durasteel_block" }
+            "T": { "item": "mythicmetals:durasteel_ingot" }
         },
         result: {
             "item": "dankstorage:3_to_4",
@@ -159,7 +159,7 @@ ServerEvents.recipes(event => {
         ],
         keys: {
             "C": { "item": "dankstorage:dank_4" },
-            "T": { "item": "spectrum:malachite_block" }
+            "T": { "item": "spectrum:refined_malachite" }
         },
         result: {
             "item": "dankstorage:dank_5",
@@ -176,7 +176,7 @@ ServerEvents.recipes(event => {
         ],
         keys: {
             "C": { "item": "spectrum:bottomless_bundle" },
-            "T": { "item": "spectrum:malachite_block" }
+            "T": { "item": "spectrum:refined_malachite" }
         },
         result: {
             "item": "dankstorage:4_to_5",
@@ -194,7 +194,7 @@ ServerEvents.recipes(event => {
         ],
         keys: {
             "C": { "item": "dankstorage:dank_5" },
-            "T": { "item": "spectrum:bloodstone_block" }
+            "T": { "item": "spectrum:refined_bloodstone" }
         },
         result: {
             "item": "dankstorage:dank_6",
@@ -211,7 +211,7 @@ ServerEvents.recipes(event => {
         ],
         keys: {
             "C": { "item": "spectrum:bottomless_bundle" },
-            "T": { "item": "spectrum:bloodstone_block" }
+            "T": { "item": "spectrum:refined_bloodstone" }
         },
         result: {
             "item": "dankstorage:5_to_6",
@@ -229,7 +229,7 @@ ServerEvents.recipes(event => {
         ],
         keys: {
             "C": { "item": "dankstorage:dank_6" },
-            "T": { "item": "mythicmetals:metallurgium_block" }
+            "T": { "item": "mythicmetals:metallurgium_ingot" }
         },
         result: {
             "item": "dankstorage:dank_7",
@@ -247,7 +247,7 @@ ServerEvents.recipes(event => {
         ],
         keys: {
             "C": { "item": "spectrum:bottomless_bundle" },
-            "T": { "item": "mythicmetals:metallurgium_block" }
+            "T": { "item": "mythicmetals:metallurgium_ingot" }
         },
         result: {
             "item": "dankstorage:6_to_7",
