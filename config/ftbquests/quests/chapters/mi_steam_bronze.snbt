@@ -11,41 +11,41 @@
 		{
 			click: ""
 			corner: false
-			dependency: "7DA572239C90574D"
+			dependency: "19C2AE2E59D59B15"
 			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "farmersdelight:textures/particle/steam_1.png"
 			rotation: 10.0d
 			width: 1.0d
-			x: -11.0d
-			y: -10.5d
+			x: -18.63775510204082d
+			y: -7.061224489795919d
 		}
 		{
 			click: ""
 			corner: false
-			dependency: "7DA572239C90574D"
+			dependency: "19C2AE2E59D59B15"
 			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "farmersdelight:textures/particle/steam_4.png"
 			rotation: 40.0d
 			width: 1.0d
-			x: -11.5d
-			y: -11.0d
+			x: -19.5d
+			y: -7.839285714285712d
 		}
 		{
 			click: ""
 			corner: false
-			dependency: "7DA572239C90574D"
+			dependency: "19C2AE2E59D59B15"
 			dev: false
 			height: 1.0d
 			hover: [ ]
 			image: "farmersdelight:textures/particle/steam_9.png"
 			rotation: -10.0d
 			width: 1.0d
-			x: -12.0d
-			y: -10.5d
+			x: -20.214285714285715d
+			y: -7.303571428571427d
 		}
 	]
 	order_index: 1
@@ -76,7 +76,7 @@
 				type: "item"
 			}]
 			title: "First Bronze"
-			x: -10.0d
+			x: -10.5d
 			y: 3.5d
 		}
 		{
@@ -108,7 +108,7 @@
 				}
 			]
 			title: "Bronze Machine Parts"
-			x: -13.0d
+			x: -13.5d
 			y: 3.5d
 		}
 		{
@@ -146,7 +146,7 @@
 				item: "modern_industrialization:bronze_machine_casing"
 				type: "item"
 			}]
-			x: -13.0d
+			x: -13.5d
 			y: -2.0d
 		}
 		{
@@ -165,8 +165,8 @@
 				item: "modern_industrialization:fire_clay_bricks"
 				type: "item"
 			}]
-			x: -11.5d
-			y: -7.0d
+			x: -19.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["277995BA7B213635"]
@@ -196,8 +196,8 @@
 				item: "modern_industrialization:bronze_boiler"
 				type: "item"
 			}]
-			x: -11.5d
-			y: -8.5d
+			x: -19.5d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -242,8 +242,8 @@
 				item: "modern_industrialization:bronze_compressor"
 				type: "item"
 			}]
-			x: -16.5d
-			y: -2.5d
+			x: -17.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6E5CD34258826606"]
@@ -265,8 +265,8 @@
 				item: "modern_industrialization:bronze_cutting_machine"
 				type: "item"
 			}]
-			x: -16.5d
-			y: -1.5d
+			x: -17.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6E5CD34258826606"]
@@ -285,8 +285,8 @@
 				item: "modern_industrialization:bronze_furnace"
 				type: "item"
 			}]
-			x: -15.0d
-			y: 0.0d
+			x: -17.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6E5CD34258826606"]
@@ -305,8 +305,8 @@
 				item: "modern_industrialization:bronze_macerator"
 				type: "item"
 			}]
-			x: -14.5d
-			y: -4.0d
+			x: -17.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6E5CD34258826606"]
@@ -328,7 +328,7 @@
 				item: "modern_industrialization:bronze_mixer"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -11.5d
 			y: -3.5d
 		}
 		{
@@ -349,14 +349,14 @@
 				}
 			]
 			shape: "gear"
-			size: 2.0d
+			size: 1.5d
 			tasks: [{
 				id: "57E6A9AC70EAD03A"
 				item: "modern_industrialization:battery_alloy_dust"
 				type: "item"
 			}]
-			x: -11.0d
-			y: -5.5d
+			x: -11.50816326530611d
+			y: -6.117687074829945d
 		}
 		{
 			dependencies: [
@@ -387,7 +387,7 @@
 				item: "modern_industrialization:uncooked_steel_dust"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -4.0d
 			y: -1.0d
 		}
 		{
@@ -422,7 +422,7 @@
 				item: "modern_industrialization:steel_ingot"
 				type: "item"
 			}]
-			x: -2.5d
+			x: 1.0d
 			y: -1.0d
 		}
 		{
@@ -454,7 +454,7 @@
 				}
 			]
 			title: "Ore Dusts"
-			x: -5.5d
+			x: -4.0d
 			y: 3.5d
 		}
 		{
@@ -477,8 +477,8 @@
 				item: "modern_industrialization:fire_clay_dust"
 				type: "item"
 			}]
-			x: -13.0d
-			y: -7.0d
+			x: -19.5d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -508,8 +508,8 @@
 				item: "architects_palette:algal_blend"
 				type: "item"
 			}]
-			x: -13.5d
-			y: -8.5d
+			x: -20.4d
+			y: -3.5999999999999996d
 		}
 		{
 			dependencies: [
@@ -539,8 +539,8 @@
 				item: "modern_industrialization:brick_dust"
 				type: "item"
 			}]
-			x: -12.5d
-			y: -8.5d
+			x: -20.4d
+			y: -4.4d
 		}
 		{
 			dependencies: [
@@ -565,7 +565,7 @@
 				item: "modern_industrialization:bronze_tank"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -9.5d
 			y: 0.0d
 		}
 		{
@@ -597,7 +597,7 @@
 				}
 			]
 			title: "Bronze item hatches"
-			x: -10.0d
+			x: -9.5d
 			y: -2.5d
 		}
 		{
@@ -632,7 +632,7 @@
 				}
 			]
 			title: "Bronze Fluid hatches"
-			x: -10.0d
+			x: -9.5d
 			y: -1.5d
 		}
 		{
@@ -679,7 +679,7 @@
 					type: "item"
 				}
 			]
-			x: -8.0d
+			x: -6.5d
 			y: -3.0d
 		}
 		{
@@ -710,8 +710,8 @@
 				item: "modern_industrialization:coke"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -4.5d
+			x: -4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["16F9EE5CED2EF23F"]
@@ -728,7 +728,7 @@
 				item: "modern_industrialization:creosote_bucket"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -6.5d
 			y: -5.0d
 		}
 		{
@@ -755,7 +755,7 @@
 				item: "modern_industrialization:lubricant_bucket"
 				type: "item"
 			}]
-			x: -9.5d
+			x: -9.0d
 			y: -5.0d
 		}
 		{
@@ -782,8 +782,8 @@
 				item: "modern_industrialization:diamond_plate"
 				type: "item"
 			}]
-			x: -18.0d
-			y: -3.5d
+			x: -19.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5DE30891CE57A8C2"]
@@ -821,8 +821,8 @@
 				}
 				type: "item"
 			}]
-			x: -16.5d
-			y: -5.5d
+			x: -22.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6C0746AF44FBDACB"]
@@ -854,8 +854,8 @@
 				}
 				type: "item"
 			}]
-			x: -16.5d
-			y: -4.5d
+			x: -21.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -901,7 +901,7 @@
 					type: "item"
 				}
 			]
-			x: -8.0d
+			x: -6.5d
 			y: -1.0d
 		}
 		{
@@ -939,8 +939,8 @@
 				}
 				type: "item"
 			}]
-			x: -19.5d
-			y: -2.5d
+			x: -21.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2FF63ADD17E0667C"]
@@ -974,34 +974,8 @@
 				id: "67005F7AF38162DC"
 				type: "dimension"
 			}]
-			x: -0.8999999999999999d
+			x: 2.6d
 			y: -3.5999999999999996d
-		}
-		{
-			dependencies: ["19C2AE2E59D59B15"]
-			id: "7DA572239C90574D"
-			rewards: [
-				{
-					id: "6D4872ACE5FB2CCB"
-					item: "kubejs:early_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "1C52ED91BD11E214"
-					item: "kubejs:mob_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "7C34ADBDFD8B5F4D"
-				item: "modern_industrialization:steam_bucket"
-				type: "item"
-			}]
-			x: -11.5d
-			y: -10.0d
 		}
 		{
 			dependencies: ["3823C4560BD9A25B"]
@@ -1028,8 +1002,8 @@
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
-			x: -19.5d
-			y: -1.5d
+			x: -22.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3B3553CD6C797913"]
@@ -1054,8 +1028,8 @@
 				item: "modern_industrialization:raw_synthetic_oil_bucket"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -6.0d
+			x: -4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["52A8120A9B4DEFD1"]
@@ -1085,8 +1059,8 @@
 				item: "modern_industrialization:synthetic_oil_bucket"
 				type: "item"
 			}]
-			x: -5.5d
-			y: -7.0d
+			x: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["6C0746AF44FBDACB"]
@@ -1124,8 +1098,8 @@
 				item: "modern_industrialization:steam_mining_drill"
 				type: "item"
 			}]
-			x: -18.0d
-			y: -5.0d
+			x: -21.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["663BB2D450652922"]
@@ -1149,7 +1123,7 @@
 				}
 				type: "item"
 			}]
-			x: -0.8999999999999999d
+			x: 2.6d
 			y: -2.6999999999999997d
 		}
 		{
@@ -1176,8 +1150,8 @@
 				item: "architects_palette:cerebral_plate"
 				type: "item"
 			}]
-			x: -13.0d
-			y: -5.0d
+			x: -18.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["6E5CD34258826606"]
@@ -1205,8 +1179,8 @@
 				item: "modern_industrialization:salt_dust"
 				type: "item"
 			}]
-			x: -13.0d
-			y: -3.5d
+			x: -17.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4C535D11E07E27DD"]
@@ -1241,7 +1215,7 @@
 				item: "modern_industrialization:steel_upgrade"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 7.5d
 			y: -1.0d
 		}
 		{
@@ -1265,7 +1239,7 @@
 				item: "modern_industrialization:steel_boiler"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 8.5d
 			y: -3.0d
 		}
 		{
@@ -1302,7 +1276,7 @@
 				item: "modern_industrialization:steel_machine_casing"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 5.5d
 			y: -1.0d
 		}
 		{
@@ -1321,7 +1295,7 @@
 				item: "modern_industrialization:steel_compressor"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 9.5d
 			y: 0.5d
 		}
 		{
@@ -1340,7 +1314,7 @@
 				item: "modern_industrialization:steel_cutting_machine"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 7.5d
 			y: 1.5d
 		}
 		{
@@ -1359,7 +1333,7 @@
 				item: "modern_industrialization:steel_furnace"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 8.5d
 			y: 1.0d
 		}
 		{
@@ -1378,7 +1352,7 @@
 				item: "modern_industrialization:steel_mixer"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 10.0d
 			y: -0.5d
 		}
 		{
@@ -1397,7 +1371,7 @@
 				item: "modern_industrialization:steel_macerator"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 7.5d
 			y: -3.5d
 		}
 		{
@@ -1416,7 +1390,7 @@
 				item: "modern_industrialization:steel_water_pump"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 9.5d
 			y: -2.5d
 		}
 		{
@@ -1451,7 +1425,7 @@
 				item: "modern_industrialization:steel_wiremill"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 5.5d
 			y: 2.0d
 		}
 		{
@@ -1487,8 +1461,8 @@
 				item: "minecraft:gunpowder"
 				type: "item"
 			}]
-			x: -14.5d
-			y: -7.0d
+			x: -19.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["663BB2D450652922"]
@@ -1505,7 +1479,7 @@
 				item: "modern_industrialization:steel_tank"
 				type: "item"
 			}]
-			x: -1.0d
+			x: 3.0d
 			y: 0.5d
 		}
 		{
@@ -1523,7 +1497,7 @@
 				item: "modern_industrialization:steel_barrel"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -0.5d
 			y: 1.5d
 		}
 		{
@@ -1579,7 +1553,7 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
+			x: 4.0d
 			y: 0.5d
 		}
 		{
@@ -1591,7 +1565,7 @@
 				"{@pagebreak}"
 				"&6Паровой карьер&r, &4ресурсы&r из воздуха, но нужны забурники"
 				""
-				"На каждом забурнике есть разное количество возможных ресуосрв. Если выпадет шанс на все, а у вас слотов выхода меньше чем типов, то те, что не влезли — удалятся. Лучше ставьте на каждый тип руды с карьера по 1 слоту выхода"
+				"На каждом забурнике есть разное количество возможных ресурсорв. Если выпадет шанс на все, а у вас слотов выхода меньше чем типов, то те, что не влезли — удалятся. Лучше ставьте на каждый тип руды с карьера по 1 слоту выхода"
 			]
 			id: "5EF849FFAF9AF69B"
 			rewards: [
@@ -1620,7 +1594,7 @@
 				item: "modern_industrialization:steam_quarry"
 				type: "item"
 			}]
-			x: 2.0d
+			x: 5.5d
 			y: -3.0d
 		}
 		{
@@ -1670,7 +1644,7 @@
 				item: "modern_industrialization:copper_drill"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 4.5d
 			y: -4.5d
 		}
 		{
@@ -1728,7 +1702,7 @@
 				item: "modern_industrialization:bronze_drill"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 6.5d
 			y: -4.5d
 		}
 		{
@@ -1759,7 +1733,7 @@
 				item: "modern_industrialization:trash_can"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 2.5d
 			y: 1.5d
 		}
 		{
@@ -1798,7 +1772,7 @@
 				type: "item"
 			}]
 			x: -11.0d
-			y: 7.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["36815FEB1B6AE7D6"]
@@ -1816,8 +1790,8 @@
 				item: "modern_industrialization:sulfur_dust"
 				type: "item"
 			}]
-			x: -14.5d
-			y: -5.5d
+			x: -18.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5EF849FFAF9AF69B"]
@@ -1843,7 +1817,7 @@
 				type: "checkmark"
 			}]
 			title: "Automating the Resources"
-			x: 2.0d
+			x: 5.5d
 			y: -5.5d
 		}
 		{
@@ -1866,7 +1840,7 @@
 				item: "modern_industrialization:steel_fluid_extractor"
 				type: "item"
 			}]
-			x: 0.5d
+			x: 4.0d
 			y: -2.5d
 		}
 		{
@@ -1901,7 +1875,7 @@
 				item: "neepmeat:item_pipe"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -12.0d
 			y: 5.5d
 		}
 		{
@@ -1919,14 +1893,14 @@
 				team_reward: true
 				type: "item"
 			}]
-			shape: "diamond"
+			shape: "octagon"
 			tasks: [{
 				id: "0FC3E1AF8F666935"
 				item: "neepmeat:merge_item_pipe"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 5.5d
+			x: -13.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["23FB9EE3D0145E87"]
@@ -1966,7 +1940,7 @@
 				}
 			]
 			title: "Valves"
-			x: -7.0d
+			x: -5.5d
 			y: 5.0d
 		}
 		{
@@ -2007,7 +1981,7 @@
 				}
 			]
 			title: "Special Pipes"
-			x: -7.0d
+			x: -5.5d
 			y: 6.0d
 		}
 		{
@@ -2045,7 +2019,7 @@
 				item: "neepmeat:ejector"
 				type: "item"
 			}]
-			x: -12.5d
+			x: -12.0d
 			y: 7.0d
 		}
 		{
@@ -2087,8 +2061,8 @@
 				item: "neepmeat:item_pump"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 7.0d
+			x: -12.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["23FB9EE3D0145E87"]
@@ -2140,8 +2114,8 @@
 				item: "neepmeat:pump"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 7.0d
+			x: -5.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["663BB2D450652922"]
@@ -2160,7 +2134,7 @@
 				item: "neepmeat:buffer"
 				type: "item"
 			}]
-			x: -4.05d
+			x: -0.5499999999999998d
 			y: -2.6999999999999997d
 		}
 		{
@@ -2198,8 +2172,8 @@
 				item: "neepmeat:multi_tank"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 7.0d
+			x: -4.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["23FB9EE3D0145E87"]
@@ -2239,7 +2213,7 @@
 				}
 			]
 			x: -4.0d
-			y: 6.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["23FB9EE3D0145E87"]
@@ -2272,8 +2246,8 @@
 				item: "neepmeat:fluid_interface"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 5.0d
+			x: -3.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["663BB2D450652922"]
@@ -2297,7 +2271,7 @@
 				item: "neepmeat:fluid_drain"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -1.0d
 			y: 0.5d
 		}
 		{
@@ -2340,7 +2314,7 @@
 				item: "neepmeat:fluid_pipe"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -4.0d
 			y: 5.5d
 		}
 		{
@@ -2378,8 +2352,8 @@
 				item: "neepmeat:flex_tank"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 6.0d
+			x: -3.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["317AC41782EE6048"]
@@ -2422,7 +2396,7 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
+			x: -2.5d
 			y: 3.5d
 		}
 		{
@@ -2441,7 +2415,7 @@
 				item: "modern_industrialization:bronze_barrel"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -9.5d
 			y: 2.5d
 		}
 		{
@@ -2467,7 +2441,7 @@
 				item: "modern_industrialization:molten_redstone_bucket"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -6.5d
 			y: 0.5d
 		}
 		{
@@ -2504,7 +2478,7 @@
 				item: "modern_industrialization:redstone_alloy_dust"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -6.5d
 			y: 1.5d
 		}
 		{
@@ -2535,7 +2509,7 @@
 				item: "modern_industrialization:wrench"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -11.5d
 			y: 2.5d
 		}
 		{
@@ -2620,8 +2594,8 @@
 				item: "mi_sound_addon:mallet"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 1.5d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6724BFC7CA1CC790"]
@@ -2638,7 +2612,7 @@
 				item: "modern_industrialization:steel_packer"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 10.0d
 			y: -1.5d
 		}
 		{
@@ -2669,7 +2643,7 @@
 				item: "neepmeat:transposer"
 				type: "item"
 			}]
-			x: -12.5d
+			x: -11.5d
 			y: 8.0d
 		}
 		{
@@ -2685,8 +2659,27 @@
 				item: "neepmeat:item_interface"
 				type: "item"
 			}]
-			x: -2.5d
+			x: 0.5d
 			y: -3.0d
+		}
+		{
+			dependencies: ["663BB2D450652922"]
+			description: [
+				""
+				"This quest opens a new chapter of quests in which all the basic principles of automation or other important nuances for automation are explained!"
+				"{@pagebreak}"
+				"Данный квест открывает новую главу квестов в которой объясняются все базовые принципы автоматизации или другие важные для автоматизации нюансы!"
+			]
+			id: "16B6CCE49A1022AC"
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5CDFF7075D3A27E7"
+				title: "&cBasic knowledge of automation"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.5d
 		}
 	]
 	title: "Steam is everything"

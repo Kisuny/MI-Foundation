@@ -323,8 +323,8 @@
 				item: "modern_industrialization:centrifuge"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 1.5d
+			x: 3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -808,8 +808,8 @@
 				item: "modern_industrialization:ruby_dust"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: 4.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["73C48D66EDCF4D19"]
@@ -820,8 +820,8 @@
 				item: "modern_industrialization:chromium_crushed_dust"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 5.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["11E213A3926FDF66"]
@@ -832,8 +832,8 @@
 				item: "modern_industrialization:chromium_hydrochloric_solution_bucket"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 0.0d
+			x: 6.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["128ECB644D303AF3"]
@@ -898,8 +898,8 @@
 				item: "modern_industrialization:chromium_tiny_dust"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 0.0d
+			x: 8.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["36449FA11F79E8C6"]
@@ -2214,14 +2214,15 @@
 					type: "item"
 				}
 			]
+			size: 1.5d
 			subtitle: "Pied Piper"
 			tasks: [{
 				id: "0BEE5B4F6CA43280"
 				item: "neepmeat:pipe_driver"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.0d
+			x: 0.75d
+			y: -2.25d
 		}
 		{
 			dependencies: ["05E7324B1FC9421F"]
@@ -2253,8 +2254,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -1.0d
+			x: 0.7678571428571388d
+			y: -3.553571428571427d
 		}
 		{
 			dependencies: ["66D16ADD44115DC6"]
@@ -2321,6 +2322,7 @@
 				"For each extraction pipe, in order from smallest to largest &6extract priority&r, the pipe system calculates which items it can &6extract&r. If there are multiple suitable &3destinations&r for those items, the one with the highest &3insert priority&r takes precedence (Basically, the system chooses the largest difference in priorities)."
 				"In &nblacklist mode&r, the pipe connection moves everything &lbut&r the items in the filter. In &nwhitelist mode&r, the pipe connection moves &lonly&r the items in the filter."
 				"Pipes can move more items at once by adding &6motors&r to them."
+				"Pipes can move items into themselves, causing them to be in a loop."
 				"{@pagebreak}"
 				"Система приоритетов работает следующим образом:"
 				""
@@ -2330,7 +2332,9 @@
 				""
 				"• В режиме &nбелого списка&r трубное соединение перемещает только предметы, указанные в фильтре."
 				""
-				"•Трубы могут перемещать сразу несколько предметов, если к ним добавить &6мотор&r."
+				"• Трубы могут перемещать сразу несколько предметов, если к ним добавить &6мотор&r."
+				""
+				"• Трубы не защищены от засовывания предметов самих в себя, из-за чего предметы могут циклично ходить по трубам."
 			]
 			id: "4F1F0FC36448816A"
 			rewards: [
@@ -2528,8 +2532,8 @@
 				item: "modern_industrialization:manganese_crushed_dust"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 3.0d
+			x: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["175C75FDF524874C"]
@@ -2540,8 +2544,8 @@
 				item: "modern_industrialization:manganese_tiny_dust"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 3.0d
+			x: 6.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1F9C854252F7DAAF"]
@@ -2562,8 +2566,8 @@
 				item: "modern_industrialization:manganese_dust"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 3.0d
+			x: 8.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["65560ED5F75185CE"]
@@ -2574,8 +2578,8 @@
 				item: "modern_industrialization:manganese_sulfuric_solution_bucket"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.0d
+			x: 5.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["29BACBBC96847851"]
@@ -2611,8 +2615,8 @@
 				item: "neepmeat:fabricator"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -2.5d
+			x: 0.7678571428571388d
+			y: -4.910714285714281d
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
@@ -2706,6 +2710,167 @@
 			title: "Advanced Item Routing"
 			x: -1.5d
 			y: 4.5d
+		}
+		{
+			dependencies: ["0F013F8E4DF06E6B"]
+			id: "3310143D188D3CF6"
+			rewards: [{
+				id: "57E010FFCB053FBF"
+				item: "kubejs:mid_lootbag_rare"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "48C5640BF313684F"
+				item: "scannable:scanner"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["3310143D188D3CF6"]
+			id: "24749B0E9561CF56"
+			rewards: [{
+				count: 32
+				id: "3F9025FB92F19EE5"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2B2B60D2EF7FCB6E"
+				item: "scannable:range_module"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3310143D188D3CF6"]
+			id: "394610C8AEB34591"
+			rewards: [{
+				count: 32
+				id: "63982EC7E23F6793"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "247B5CC7AD79C9DC"
+				item: "scannable:entity_module"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3310143D188D3CF6"]
+			id: "1A958702CC835E2C"
+			rewards: [{
+				count: 32
+				id: "19A2E4936E671020"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "259C21A9F381DEE0"
+				item: "scannable:friendly_entity_module"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3310143D188D3CF6"]
+			id: "10ED3514F4B1AE9B"
+			rewards: [{
+				count: 32
+				id: "7179FE1045D4E41C"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "124598F69D29E034"
+				item: "scannable:hostile_entity_module"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3310143D188D3CF6"]
+			id: "609FAE594F241961"
+			rewards: [{
+				count: 32
+				id: "4A75571BEF5246B0"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "1A7769175A450F13"
+				item: "scannable:block_module"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3310143D188D3CF6"]
+			id: "776F50C8956ADF3B"
+			rewards: [{
+				count: 32
+				id: "3A81CFB5740842BD"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "52A81DAC29F8D3C0"
+				item: "scannable:common_ores_module"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3310143D188D3CF6"]
+			id: "6A3F32E747AC837E"
+			rewards: [{
+				count: 32
+				id: "280C3AD3E64D6E4B"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0CD2ED65073B6CCC"
+				item: "scannable:rare_ores_module"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3310143D188D3CF6"]
+			id: "5C7C3E75C73734E4"
+			rewards: [{
+				count: 32
+				id: "69AA822D0A491119"
+				item: "vitalize:experience_cubed"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "53A65F43D68F7923"
+				item: "scannable:fluid_module"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.5d
 		}
 	]
 	title: "Industrialization | MV"
