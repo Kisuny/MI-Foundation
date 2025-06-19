@@ -1,0 +1,28 @@
+{
+	"disablerEnabled": true,
+	"disabledEnchantments": [
+		"mysticalagriculture:mystical_enlightenment",
+		"mysticalagriculture:soul_siphoner",
+		"bewitchment:magic_protection",
+		"farmersdelight:backstabbing"
+	],
+	"maxLevelNest": {
+		"modifyMaxLevels": false,
+		"maxLevels": [
+			"minecraft:sharpness/5"
+		]
+	},
+	"tradesNest": {
+		"modifyEnchantedBookTradeUses": false,
+		"maxEnchantedBookTradeUses": 12,
+		"modifyEnchantedItemTradeUses": false,
+		"maxEnchantedItemTradeUses": 3,
+		"enchantedBookTradeRestockEnabled": true,
+		"enchantedItemTradeRestockEnabled": true
+	},
+	"enchantingTableNest": {
+		"enchantingTableEnabled": true,
+		"modifyLapisCost": false,
+		"lapisCostFormula": "id+1"
+	}
+}
