@@ -174,13 +174,13 @@
 	   Enable/Disable Enchantments
 	   ***********************
 	*/
-	"enableApotropaic": true,
-	"enableBlinders": true,
+	"enableApotropaic": false,
+	"enableBlinders": false,
 	"enableBlessing": true,
-	"enableFasterObsidian": true,
+	"enableFasterObsidian": false,
 	"enableFluidMaster": true,
-	"enableExpBoost": true,
-	"enableQuickUse": true,
+	"enableExpBoost": false,
+	"enableQuickUse": false,
 	"enableQuietFeet": true,
 	"enableRebuffing": true,
 	"enableSmithBlade": true,
