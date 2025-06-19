@@ -3033,7 +3033,11 @@
 			y: -12.0d
 		}
 		{
-			dependencies: ["6E6C22551B253133"]
+			dependencies: [
+				"6E6C22551B253133"
+				"19ED83FBF75EE19B"
+				"6ABF999DD741B87F"
+			]
 			description: [
 				"A cage for a &3Soul Crystal&r. Put the crystal inside, and it will start spawning mobs."
 				"{@pagebreak}"
@@ -3868,7 +3872,11 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["641B93E0D035568B"]
+			dependencies: [
+				"641B93E0D035568B"
+				"19ED83FBF75EE19B"
+				"6ABF999DD741B87F"
+			]
 			id: "3960A2398D848FF0"
 			rewards: [{
 				count: 2
@@ -3892,7 +3900,12 @@
 			y: 0.7091836734693899d
 		}
 		{
-			dependencies: ["12C2D3EA6474C0B8"]
+			dependencies: [
+				"12C2D3EA6474C0B8"
+				"2F010344049170CB"
+				"19ED83FBF75EE19B"
+				"6ABF999DD741B87F"
+			]
 			description: [
 				"Allows to store &otime&r while the &mbottle&r Pouch is in the player inventory. When enough time is stored, you can speed up block entities. More clicks = more speed increase. "
 				"{@pagebreak}"
@@ -3950,6 +3963,29 @@
 			}]
 			x: 12.894897959183673d
 			y: 5.570408163265313d
+		}
+		{
+			dependencies: ["4E891CEA50BDD082"]
+			description: [
+				"Upgrades used in spectrum structures. Provides x2 increase in production with a chance."
+				"{@pagebreak}"
+				"Улучшение для алтарей и других мультиблоков спектрума, позволяет сделать х2 продукции при крафте, но с шансом!"
+			]
+			id: "54A3A3BAA7129852"
+			rewards: [{
+				id: "31464ADBF807DA82"
+				item: "kubejs:magic_lootbag_epic"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "09405DA6DD11550A"
+				item: "spectrum:upgrade_yield"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -18.5d
 		}
 	]
 	title: "Spectrum: New discoveries"

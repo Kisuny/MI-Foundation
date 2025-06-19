@@ -1075,29 +1075,6 @@
 				item: "biomesinjars:empty_biome_jar"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -13.0d
-		}
-		{
-			dependencies: ["08C0BC7DF568805D"]
-			description: [
-				"Upgrades used in spectrum structures. Provides x2 increase in production with a chance."
-				"{@pagebreak}"
-				"Улучшение для алтарей и других мультиблоков спектрума, позволяет сделать х2 продукции при крафте, но с шансом!"
-			]
-			id: "54A3A3BAA7129852"
-			rewards: [{
-				id: "31464ADBF807DA82"
-				item: "kubejs:magic_lootbag_epic"
-				team_reward: true
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "09405DA6DD11550A"
-				item: "spectrum:upgrade_yield"
-				type: "item"
-			}]
 			x: -3.5d
 			y: -13.5d
 		}

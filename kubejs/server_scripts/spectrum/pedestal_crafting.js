@@ -83,14 +83,14 @@ ServerEvents.recipes(event => {
         advancement: "spectrum:unlocks/blocks/crystallarieum"
     });
     customPedestalCraft(event, {
-        tier: "complex", time: 12000, moonstone: 32, onyx: 32, experience: 4.0,
+        tier: "complex", time: 3000, moonstone: 32, onyx: 32, experience: 4.0,
         pattern: [
             "WQW",
             "RER",
             "TTT"
         ],
         keys: {
-            "Q": { "item": "mythicmetals:metallurgium_ingot" },
+            "Q": { "item": "mythicmetals:durasteel_ingot" },
             "W": { "item": "spectrum:stratine_gem" },
             "E": { "item": "kubejs:star_core" },
             "R": { "item": "mythicmetals:celestium_ingot" },
@@ -100,7 +100,7 @@ ServerEvents.recipes(event => {
             "item": "spectrum:upgrade_yield",
             "count": 1
         },
-        advancement: "spectrum:unlocks/upgrades/upgrade_yield"
+        advancement: "spectrum:midgame/break_decayed_bedrock"
     });
     customPedestalCraft(event, {
         tier: "complex", time: 1200, amethyst: 8, citrine: 16, onyx: 8, experience: 16.0,
