@@ -32,8 +32,8 @@
 		"cooldown_ticks_from_void_totem": 0,
 		"cooldown_ticks_from_waystone": 0
 	},
-	"disable_teleportation_from_dimensions": ["javd:void", "minecraft:the_nether", "spectrum:deeper_down", "the_bumblezone:the_bumblezone", "minecraft:the_end", "kubejs:xplo", "ad_astra:venus_orbit", "ad_astra:venus", "ad_astra:moon_orbit", "ad_astra:moon", "ad_astra:mercury_orbit", "ad_astra:mercury", "ad_astra:mars_orbit", "ad_astra:mars", "ad_astra:glacio_orbit", "ad_astra:glacio", "ad_astra:earth_orbit"],
-	"disable_teleportation_to_dimensions": ["javd:void", "minecraft:the_nether", "spectrum:deeper_down", "the_bumblezone:the_bumblezone", "minecraft:the_end", "kubejs:xplo", "ad_astra:venus_orbit", "ad_astra:venus", "ad_astra:moon_orbit", "ad_astra:moon", "ad_astra:mercury_orbit", "ad_astra:mercury", "ad_astra:mars_orbit", "ad_astra:mars", "ad_astra:glacio_orbit", "ad_astra:glacio", "ad_astra:earth_orbit"],
+	"disable_teleportation_from_dimensions": ["ad_astra:venus_orbit", "ad_astra:venus", "ad_astra:moon_orbit", "ad_astra:moon", "ad_astra:mercury_orbit", "ad_astra:mercury", "ad_astra:mars_orbit", "ad_astra:mars", "ad_astra:glacio_orbit", "ad_astra:glacio", "ad_astra:earth_orbit"],
+	"disable_teleportation_to_dimensions": ["ad_astra:venus_orbit", "ad_astra:venus", "ad_astra:moon_orbit", "ad_astra:moon", "ad_astra:mercury_orbit", "ad_astra:mercury", "ad_astra:mars_orbit", "ad_astra:mars", "ad_astra:glacio_orbit", "ad_astra:glacio", "ad_astra:earth_orbit"],
 	"ignore_dimension_blacklists_if_same_dimension": true,
 	"add_waystone_structure_piece": {
 		"minecraft:village/desert/houses": "desert_village_waystone",
