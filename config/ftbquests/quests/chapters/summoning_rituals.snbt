@@ -171,13 +171,27 @@
 			shape: "diamond"
 			size: 1.1d
 			subtitle: "Mini-boss"
-			tasks: [{
-				entity: "whisperwoods:zotzpyre"
-				icon: "kubejs:zotzpyre_flesh"
-				id: "19EC53BD222B1AFB"
-				type: "kill"
-				value: 1L
-			}]
+			tasks: [
+				{
+					entity: "whisperwoods:zotzpyre"
+					icon: "kubejs:zotzpyre_flesh"
+					id: "19EC53BD222B1AFB"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "683304E9A1462C2F"
+					item: "kubejs:zotzpyre_fang"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1C8DDC61C2A14B3D"
+					item: "kubejs:zotzpyre_flesh"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: 2.847619047619041d
 			y: 5.543800746104878d
 		}
@@ -205,19 +219,33 @@
 			shape: "diamond"
 			size: 1.1d
 			subtitle: "Mini-boss"
-			tasks: [{
-				entity: "bwplus:leshon"
-				icon: {
-					Count: 1b
-					id: "bwplus:leshon_skull"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					entity: "bwplus:leshon"
+					icon: {
+						Count: 1b
+						id: "bwplus:leshon_skull"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "7CE9B45F35789C9E"
+					type: "kill"
+					value: 1L
 				}
-				id: "7CE9B45F35789C9E"
-				type: "kill"
-				value: 1L
-			}]
+				{
+					id: "0EBE619AF93C3F0E"
+					item: {
+						Count: 1b
+						id: "bwplus:leshon_skull"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -3.057142857142857d
 			y: 5.305705508009645d
 		}
@@ -404,6 +432,7 @@
 						}
 					}
 					match_nbt: true
+					optional_task: true
 					type: "item"
 				}
 				{
@@ -411,6 +440,12 @@
 					criterion: ""
 					id: "031B82605187AB1F"
 					type: "advancement"
+				}
+				{
+					id: "3FE1B04DC76ED33B"
+					item: "bosses_of_mass_destruction:blazing_eye"
+					optional_task: true
+					type: "item"
 				}
 			]
 			title: "Kill Nether Gauntlet"
@@ -451,12 +486,20 @@
 			shape: "pentagon"
 			size: 1.3d
 			subtitle: "Boss!"
-			tasks: [{
-				advancement: "bosses_of_mass_destruction:adventure/night_lich_defeat"
-				criterion: ""
-				id: "715419D2786CD874"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "bosses_of_mass_destruction:adventure/night_lich_defeat"
+					criterion: ""
+					id: "715419D2786CD874"
+					type: "advancement"
+				}
+				{
+					id: "695581F392D471F7"
+					item: "bosses_of_mass_destruction:ancient_anima"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "Kill Night lich"
 			x: -3.952380952380956d
 			y: -8.642857142857132d
@@ -490,12 +533,20 @@
 			shape: "pentagon"
 			size: 1.3d
 			subtitle: "Boss!"
-			tasks: [{
-				advancement: "bosses_of_mass_destruction:end/obsidilith_defeat"
-				criterion: ""
-				id: "035F173B34DBC5CB"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "bosses_of_mass_destruction:end/obsidilith_defeat"
+					criterion: ""
+					id: "035F173B34DBC5CB"
+					type: "advancement"
+				}
+				{
+					id: "484E6092897752AA"
+					item: "bosses_of_mass_destruction:obsidian_heart"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "Kill Obsidalith"
 			x: -6.44761904761905d
 			y: -4.959600614439324d
@@ -529,12 +580,20 @@
 			shape: "pentagon"
 			size: 1.3d
 			subtitle: "Boss!"
-			tasks: [{
-				advancement: "bosses_of_mass_destruction:adventure/void_blossom_defeat"
-				criterion: ""
-				id: "717BD8FA5530DD14"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "bosses_of_mass_destruction:adventure/void_blossom_defeat"
+					criterion: ""
+					id: "717BD8FA5530DD14"
+					type: "advancement"
+				}
+				{
+					id: "71BC68D465DBDBDC"
+					item: "bosses_of_mass_destruction:void_thorn"
+					optional_task: true
+					type: "item"
+				}
+			]
 			title: "Kill Void Blossom"
 			x: -7.923809523809524d
 			y: 4.421351766513062d
