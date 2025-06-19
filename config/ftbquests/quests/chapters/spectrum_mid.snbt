@@ -2436,6 +2436,7 @@
 						TicksToManifest: 8
 					}
 				}
+				match_nbt: true
 				type: "item"
 			}]
 			title: "It's a pig! It's a chicken! It's a ..."
