@@ -24,12 +24,12 @@ ServerEvents.recipes(event => {
     });
     
     customePotionWorkshopCraft(event, {
-        base_ingredient: {"item": 'minecraft:glass_bottle', "count": 3},
+        base_ingredient: {"item": 'minecraft:glass_bottle', "count": 16},
         color: 11972050,
         input1: 'spectrum:stardust',
         input2: 'kubejs:artifact_dust',
         input3: 'minecraft:ender_pearl',
-        output: {"item":"things:recall_potion", "count": 3},
+        output: {"item":"things:recall_potion", "count": 16},
         advancement: "spectrum:collect_star_fragment"
     });
 });

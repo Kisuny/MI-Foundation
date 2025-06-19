@@ -123,7 +123,7 @@ LootJS.modifiers((event) => {
         'things:luck_of_the_irish',
         'things:broken_watch',
         'things:displacement_page',
-        'majruszsaccessories:discount_voucher',
+        'things:recall_potion',
         'majruszsaccessories:gambling_card',
         'majruszsaccessories:removal_card',
         'majruszsaccessories:reverse_card'
