@@ -220,5 +220,17 @@ ItemEvents.tooltip(tooltip => {
                 text1: 'kubejs.running_shoes.tooltip_1',
                 text2: 'kubejs.running_shoes.tooltip_2'
         });
+        artifactsTooltip(
+            {
+                item: 'artifacts:fire_gauntlet',
+                text1: 'kubejs.fire_gauntlet.tooltip_1',
+                text2: 'kubejs.fire_gauntlet.tooltip_2'
+        });
+        artifactsTooltip(
+            {
+                item: 'things:enchanted_wax_gland',
+                text1: 'kubejs.enchanted_wax_gland.tooltip_1',
+                text2: 'kubejs.enchanted_wax_gland.tooltip_2'
+        });
 
     });
