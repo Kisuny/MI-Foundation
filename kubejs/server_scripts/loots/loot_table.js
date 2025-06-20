@@ -255,36 +255,36 @@ LootJS.modifiers((event) => {
 
     event
         .addLootTableModifier(["minecraft:gameplay/fishing", "spectrum:gameplay/universal_fishing"])
-        .randomChance(0.3)
+        .randomChance(0.2)
         .removeLoot("*")
         .addWeightedLoot([1, 1], [
-            LootEntry.of('kubejs:mob_lootbag_uncommon').withWeight(70).limitCount([1, 2]),
-            LootEntry.of('kubejs:food_lootbag_uncommon').withWeight(70).limitCount([1, 2]),
-            LootEntry.of('kubejs:food_lootbag_rare').withWeight(50).limitCount([1, 2]),
-            LootEntry.of('kubejs:magic_lootbag_uncommon').withWeight(50).limitCount([1, 2]),
-            LootEntry.of('kubejs:early_lootbag_uncommon').withWeight(50).limitCount([1, 2]),
-            LootEntry.of('kubejs:early_lootbag_rare').withWeight(40).limitCount([1, 2]),
-            LootEntry.of('mythicmetals:aquarium_ingot').withWeight(130).limitCount([1, 4]),
-            LootEntry.of('mythicmetals:banglum_ingot').withWeight(150).limitCount([1, 8]),
-            LootEntry.of('mythicmetals:carmot_ingot').withWeight(120).limitCount([1, 4]),
-            LootEntry.of('mythicmetals:adamantite_ingot').withWeight(90).limitCount([1, 3]),
-            LootEntry.of('mythicmetals:mythril_ingot').withWeight(100).limitCount([1, 3]),
-            LootEntry.of('mythicmetals:orichalcum_ingot').withWeight(120).limitCount([1, 4]),
-            LootEntry.of('mythicmetals:palladium_ingot').withWeight(120).limitCount([1, 4]),
-            LootEntry.of('mythicmetals:prometheum_ingot').withWeight(120).limitCount([1, 4]),
-            LootEntry.of('mythicmetals:quadrillum_ingot').withWeight(120).limitCount([1, 4]),
-            LootEntry.of('mythicmetals:runite_ingot').withWeight(120).limitCount([1, 4]),
-            LootEntry.of('mythicmetals:stormyx_ingot').withWeight(120).limitCount([1, 4]),
-            LootEntry.of('mythicmetals:unobtainium').withWeight(10).limitCount([1, 2]),
-            LootEntry.of('mythicmetals:aquarium_pearl').withWeight(5),
-            LootEntry.of('mythicmetals:banglum_chunk').withWeight(5),
-            LootEntry.of('spectrum:citrine_shard').withWeight(200).limitCount([1, 16]),
-            LootEntry.of('spectrum:topaz_shard').withWeight(200).limitCount([1, 16]),
-            LootEntry.of('minecraft:amethyst_shard').withWeight(200).limitCount([1, 16]),
-            LootEntry.of('spectrum:shimmerstone_gem').withWeight(200).limitCount([1, 8]),
+            LootEntry.of('spectrum:citrine_shard').withWeight(100).limitCount([1, 16]),
+            LootEntry.of('spectrum:topaz_shard').withWeight(100).limitCount([1, 16]),
+            LootEntry.of('minecraft:amethyst_shard').withWeight(100).limitCount([1, 16]),
+            LootEntry.of('spectrum:shimmerstone_gem').withWeight(100).limitCount([1, 8]),
+            LootEntry.of('mythicmetals:carmot_ingot').withWeight(80).limitCount([1, 15]),
+            LootEntry.of('mythicmetals:adamantite_ingot').withWeight(80).limitCount([1, 15]),
+            LootEntry.of('mythicmetals:mythril_ingot').withWeight(80).limitCount([1, 15]),
+            LootEntry.of('mythicmetals:orichalcum_ingot').withWeight(80).limitCount([1, 15]),
+            LootEntry.of('mythicmetals:palladium_ingot').withWeight(80).limitCount([1, 15]),
+            LootEntry.of('mythicmetals:prometheum_ingot').withWeight(80).limitCount([1, 15]),
+            LootEntry.of('mythicmetals:quadrillum_ingot').withWeight(80).limitCount([1, 15]),
+            LootEntry.of('mythicmetals:runite_ingot').withWeight(80).limitCount([1, 15]),
+            LootEntry.of('mythicmetals:stormyx_ingot').withWeight(80).limitCount([1, 15]),
+            LootEntry.of('mythicmetals:aquarium_ingot').withWeight(70).limitCount([1, 15]),
+            LootEntry.of('mythicmetals:banglum_ingot').withWeight(70).limitCount([1, 15]),
+            LootEntry.of('mythicmetals:unobtainium').withWeight(50).limitCount([1, 4]),
             LootEntry.of('kubejs:ditcheryatina').withWeight(40),
             LootEntry.of('bwplus:soul').withWeight(40),
-            LootEntry.of('probablychests:gold_key').withWeight(30),
+            LootEntry.of('probablychests:gold_key').withWeight(40),
+            LootEntry.of('kubejs:mob_lootbag_uncommon').withWeight(30).limitCount([1, 2]),
+            LootEntry.of('kubejs:food_lootbag_uncommon').withWeight(30).limitCount([1, 2]),
+            LootEntry.of('kubejs:food_lootbag_rare').withWeight(20).limitCount([1, 2]),
+            LootEntry.of('kubejs:magic_lootbag_uncommon').withWeight(30).limitCount([1, 2]),
+            LootEntry.of('kubejs:early_lootbag_uncommon').withWeight(30).limitCount([1, 2]),
+            LootEntry.of('kubejs:early_lootbag_rare').withWeight(20).limitCount([1, 2]),
+            LootEntry.of('mythicmetals:aquarium_pearl').withWeight(20),
+            LootEntry.of('mythicmetals:banglum_chunk').withWeight(20),
             LootEntry.of('kubejs:kozel_dark').withWeight(20),
             LootEntry.of('simplyswords:empowered_remnant').withWeight(20),
             LootEntry.of('kubejs:tears_of_the_sea').withWeight(15),
@@ -292,11 +292,11 @@ LootJS.modifiers((event) => {
         .addCondition(condition)
         .removeLoot('*')
         .pool((p) => {
-            p.addWeightedLoot([1,1],
+            p.addWeightedLoot([1,2],
                 [
-                    LootEntry.of("numismatic-overhaul:bronze_coin").withWeight(1000).limitCount([10, 80]),
-                    LootEntry.of("numismatic-overhaul:silver_coin").withWeight(200).limitCount([1, 9]),
-                    LootEntry.of("numismatic-overhaul:gold_coin").withWeight(1).limitCount([1]),
+                    LootEntry.of("numismatic-overhaul:bronze_coin").withWeight(100).limitCount([10, 80]),
+                    LootEntry.of("numismatic-overhaul:silver_coin").withWeight(50).limitCount([10, 25]),
+                    LootEntry.of("numismatic-overhaul:gold_coin").withWeight(10).limitCount([1]),
                 ]
             )
         })

@@ -882,9 +882,9 @@
 		{
 			dependencies: ["7BE626B4546B2C7A"]
 			description: [
-				"By fishing long enough, this relic of the deep may come to your hand. &3Keep those tears to yourself&r. A fishing rod made of these tears will allow you to catch &3entities&r and &4mini bosses!&r"
+				"By fishing long enough, this relic of the deep may come to your hand. &3Keep those tears to yourself&r. A fishing rod made of these tears will allow you to catch &3entities&r and &4mini bosses!&r Or make a diamond fishing rod"
 				"{@pagebreak}"
-				"Достав из дна моря немного её &3слёз&r, вы открыли возможность создать удочку, что позволит вам ловить &3разнообразных существ&r и &cбоссов&r из воды! "
+				"Достав из дна моря немного её &3слёз&r, вы открыли возможность создать удочку, что позволит вам ловить &3разнообразных существ&r и &cбоссов&r из воды либо сделайте алмазную удочку"
 				""
 				"&#ffb04fЭтот квест открывает новую ветку квестов!&r"
 			]
@@ -909,40 +909,29 @@
 					team_reward: true
 					type: "item"
 				}
-				{
-					id: "038CA3C067E40E0F"
-					item: {
-						Count: 1b
-						id: "minecraft:fishing_rod"
-						tag: {
-							Damage: 35
-							Enchantments: [
-								{
-									id: "minecraft:lure"
-									lvl: 3s
-								}
-								{
-									id: "minecraft:mending"
-									lvl: 1s
-								}
-								{
-									id: "minecraft:luck_of_the_sea"
-									lvl: 1s
-								}
-							]
-						}
-					}
-					team_reward: true
-					type: "item"
-				}
 			]
 			shape: "hexagon"
 			subtitle: "&#ffb04fThis quest opens a new quest chapter!&r"
-			tasks: [{
-				id: "6FE5FA2945694C4B"
-				item: "kubejs:tears_of_the_sea"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6FE5FA2945694C4B"
+					item: "kubejs:tears_of_the_sea"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "12593038B7345851"
+					item: {
+						Count: 1b
+						id: "gofish:diamond_reinforced_rod"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Fishing"
 			x: -3.904336734693871d
 			y: -5.079931972789119d
 		}

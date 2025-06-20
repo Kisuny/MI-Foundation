@@ -1766,6 +1766,37 @@
 			x: -0.5d
 			y: -14.0d
 		}
+		{
+			dependencies: [
+				"38ED3732F6AA8274"
+				"19CBDDF776398B6E"
+			]
+			id: "65ED0CBA911ED1E6"
+			min_required_dependencies: 1
+			rewards: [{
+				count: 20
+				id: "3F87F222E818965A"
+				item: "vitalize:experience_cubed"
+				random_bonus: 100
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BFEDBB3719C4DE4"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "spectrum:big_catch"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
 	]
 	title: "Fishing"
 }
