@@ -22,8 +22,8 @@ function customEnchanterUpgradeCraft(event, { enchantment, required_advancement,
 ServerEvents.recipes(event => {
 
     const CUSTOM_ENCHANT_BOOK_CRAFTS = [
-    { name: "yigd:soulbound", max_level: 1, pigment_color: "spectrum:light_blue_pigment", item_1: "bwplus:soul", item_2: "spirit:compressed_soul_powder_block", advancement: "spectrum:midgame/build_enchanting_structure" },
-    { name: "spirit:soul_reaper", max_level: 3, pigment_color: "spectrum:cyan_pigment", item_1: "bwplus:soul", item_2: "bosses_of_mass_destruction:soul_star", advancement: "spectrum:midgame/build_enchanting_structure" },
+    { name: "spirit:soul_reaper", max_level: 3, pigment_color: "spectrum:light_blue_pigment", item_1: "bwplus:soul", item_2: "spirit:compressed_soul_powder_block", advancement: "spectrum:midgame/build_enchanting_structure" },
+    { name: "yigd:soulbound", max_level: 1, pigment_color: "spectrum:cyan_pigment", item_1: "bwplus:soul", item_2: "bosses_of_mass_destruction:soul_star", advancement: "spectrum:midgame/build_enchanting_structure" },
     { name: "travelstaff:teleportation", max_level: 1, pigment_color: "spectrum:cyan_pigment", item_1: "minecraft:ender_pearl", item_2: "spectrum:stardust", advancement: "spectrum:midgame/build_enchanting_structure" },
     { name: "travelstaff:range", max_level: 3, pigment_color: "spectrum:blue_pigment", item_1: "mythicmetals:runite_ingot", item_2: "mythicmetals:celestium_ingot", advancement: "spectrum:midgame/build_enchanting_structure" },
     { name: "things:retribution", max_level: 1, pigment_color: "spectrum:light_blue_pigment", item_1: "minecraft:oak_planks", item_2: "minecraft:iron_ingot", advancement: "spectrum:midgame/build_enchanting_structure" },
