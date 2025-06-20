@@ -284,9 +284,13 @@
 			description: [
 				"Improve your final pedestal!"
 				""
+				"Don’t forget to check out the church in the city bellow for all the necessary blocks."
+				""
 				"{image:quest_images:textures/item/spectrum/p3.png width:200 height:200 align:1 fit:true}"
 				"{@pagebreak}"
 				"Улучшите свой последний пьедестал!"
+				""
+				"Не забудьте заглянуть в церковь в подземном городе для всех необходимых блоков."
 				""
 				"{image:quest_images:textures/item/spectrum/p3.png width:200 height:200 align:1 fit:true}"
 			]
@@ -378,6 +382,19 @@
 					}
 					optional_task: true
 					title: "Any #spectrum:polished_base_blocks"
+					type: "item"
+				}
+				{
+					count: 28L
+					id: "77B31E78F8D94C26"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "spectrum:moonstone_chiseled_base_blocks"
+						}
+					}
+					title: "Any #spectrum:moonstone_chiseled_base_blocks"
 					type: "item"
 				}
 			]
@@ -1771,7 +1788,14 @@
 			subtitle: "&#ffb04fThis quest opens a new quest chapter!&r"
 			tasks: [{
 				id: "564FD49E612ECC86"
-				item: "kubejs:fossilized_white_mystical_flower"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "mif:fossilized_flower"
+					}
+				}
+				title: "Any #mif:fossilized_flower"
 				type: "item"
 			}]
 			x: 3.0d

@@ -2654,12 +2654,21 @@
 			]
 			shape: "gear"
 			subtitle: "&#ffb04fThis quest opens a new quest chapter!&r"
-			tasks: [{
-				advancement: "spectrum:midgame/open_deeper_down_portal"
-				criterion: ""
-				id: "0D63675050FC2260"
-				type: "advancement"
-			}]
+			tasks: [
+				{
+					advancement: "spectrum:midgame/open_deeper_down_portal"
+					criterion: ""
+					id: "0D63675050FC2260"
+					type: "advancement"
+				}
+				{
+					advancement: "spectrum:midgame/enter_dimension"
+					criterion: ""
+					id: "37F135AECF2100C8"
+					optional_task: true
+					type: "advancement"
+				}
+			]
 			x: 2.0d
 			y: -14.793877551020412d
 		}
@@ -3356,10 +3365,9 @@
 			dependencies: ["3B68A7B5A1BB4D44"]
 			id: "1F403D660C4D4F97"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "1DCE0773DE7C0C51"
-				table_id: 5407543611741114669L
-				type: "choice"
+				id: "791F9B61F43CA14B"
+				item: "kubejs:magic_lootbag_rare"
+				type: "item"
 			}]
 			tasks: [{
 				id: "4BEC17959C79FA29"
