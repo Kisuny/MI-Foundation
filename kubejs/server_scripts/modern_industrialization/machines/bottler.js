@@ -23,6 +23,11 @@ ServerEvents.recipes(event => {
         .itemIn('minecraft:glass_bottle')
         .itemOut('minecraft:experience_bottle')
 
+    event.recipes.modern_industrialization.bottler(8, 100) 
+        .fluidIn('neepmeat:blood',250)
+        .itemIn('minecraft:glass_bottle')
+        .itemOut('bewitchment:bottle_of_blood')
+
     event.recipes.modern_industrialization.bottler(8, 100)
         .itemIn('minecraft:glass_bottle')
         .fluidIn('milk:still_milk', 100)
