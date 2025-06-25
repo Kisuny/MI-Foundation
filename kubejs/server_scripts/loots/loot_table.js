@@ -204,16 +204,16 @@ LootJS.modifiers((event) => {
 
         let relicex = ['relicex:tome', 'relicex:lesser_orb_of_regret']
         relicex.forEach(relicex_item => {
-            event
+        event
             .addLootTableModifier(table)
-            .randomChance(0.05)
+            .randomChance(0.10)
             .addLoot(relicex_item)
         });
     
         
         event
         .addLootTableModifier(table)
-        .randomChance(0.01)
+        .randomChance(0.1)
         .addLoot(['relicex:greater_orb_of_regret'])
     });
 
