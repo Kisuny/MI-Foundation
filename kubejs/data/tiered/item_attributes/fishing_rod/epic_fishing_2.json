@@ -2,8 +2,8 @@
     "id": "tiered:epic_fishing_2",
     "verifiers": [
         {
-            "id": "minecraft:fishing_rod"
-        }
+      "tag": "c:fishing_rods"
+    }
     ],
     "weight": 8,
     "style": {

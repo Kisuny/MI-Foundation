@@ -1,0 +1,10 @@
+{
+  "product": {
+    "id": "gofish:frosted_rod"
+  },
+  "base": [
+    {
+      "id": "minecraft:ice"
+    }
+  ]
+}

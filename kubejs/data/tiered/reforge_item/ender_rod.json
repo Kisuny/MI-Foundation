@@ -1,0 +1,10 @@
+{
+  "product": {
+    "id": "gofish:ender_rod"
+  },
+  "base": [
+    {
+      "id": "minecraft:ender_eye"
+    }
+  ]
+}

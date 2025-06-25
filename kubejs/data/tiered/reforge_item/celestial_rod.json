@@ -1,0 +1,10 @@
+{
+  "product": {
+    "id": "gofish:celestial_rod"
+  },
+  "base": [
+    {
+      "id": "mythicmetals:celestium_ingot"
+    }
+  ]
+}

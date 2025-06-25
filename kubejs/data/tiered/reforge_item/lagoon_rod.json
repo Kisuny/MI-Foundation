@@ -1,0 +1,10 @@
+{
+  "product": {
+    "id": "spectrum:lagoon_rod"
+  },
+  "base": [
+    {
+      "id": "mythicmetals:aquarium_ingot"
+    }
+  ]
+}

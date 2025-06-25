@@ -28,7 +28,17 @@ ServerEvents.tags('item', event => {
 
     event.add("magnumtorch:torches", ['magnumtorch:diamond_magnum_torch', 'magnumtorch:emerald_magnum_torch', 'magnumtorch:amethyst_magnum_torch'])
 
-
+    event.add('c:fishing_rods', [
+        'gofish:blaze_rod',
+        'gofish:skeletal_rod',
+        'gofish:diamond_reinforced_rod',
+        'gofish:ender_rod',
+        'gofish:frosted_rod',
+        'gofish:slime_rod',
+        'gofish:soul_rod',
+        'gofish:matrix_rod',
+        
+    ])
     // trinkets tags
     event.add('mif:exploring_trinkets', [
         'things:ender_pouch',

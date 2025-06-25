@@ -1,0 +1,10 @@
+{
+  "product": {
+    "id": "gofish:diamond_reinforced_rod"
+  },
+  "base": [
+    {
+      "id": "minecraft:diamond"
+    }
+  ]
+}

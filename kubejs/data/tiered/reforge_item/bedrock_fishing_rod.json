@@ -1,0 +1,10 @@
+{
+  "product": {
+    "id": "spectrum:bedrock_fishing_rod"
+  },
+  "base": [
+    {
+      "id": "spectrum:bedrock_dust"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "product": {
+    "id": "gofish:soul_rod"
+  },
+  "base": [
+    {
+      "id": "spirit:soul_powder"
+    }
+  ]
+}

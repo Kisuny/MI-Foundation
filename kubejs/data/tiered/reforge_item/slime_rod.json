@@ -1,0 +1,10 @@
+{
+  "product": {
+    "id": "gofish:slime_rod"
+  },
+  "base": [
+    {
+      "id": "minecraft:slime_ball"
+    }
+  ]
+}

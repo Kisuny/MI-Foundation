@@ -1,0 +1,10 @@
+{
+  "product": {
+    "id": "gofish:matrix_rod"
+  },
+  "base": [
+    {
+      "id": "mythicmetals:stormyx_ingot"
+    }
+  ]
+}

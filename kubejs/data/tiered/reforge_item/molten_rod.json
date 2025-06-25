@@ -1,0 +1,10 @@
+{
+  "product": {
+    "id": "spectrum:molten_rod"
+  },
+  "base": [
+    {
+      "id": "mythicmetals:palladium_ingot"
+    }
+  ]
+}

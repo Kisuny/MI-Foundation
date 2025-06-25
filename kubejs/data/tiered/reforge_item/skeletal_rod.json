@@ -1,0 +1,10 @@
+{
+  "product": {
+    "id": "gofish:skeletal_rod"
+  },
+  "base": [
+    {
+      "id": "minecraft:bone"
+    }
+  ]
+}
