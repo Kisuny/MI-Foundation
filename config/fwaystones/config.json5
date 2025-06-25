@@ -10,7 +10,7 @@
 		"cost_item": "numismatic-overhaul:silver_coin",
 		"base_cost": 1,
 		"cost_per_block_distance": 0.001,
-		"cost_multiplier_between_dimensions": 100.0
+		"cost_multiplier_between_dimensions": 10.0
 	},
 	"discover_with_item": "none",
 	"take_amount_from_discover_item": 0,
