@@ -546,6 +546,11 @@
 					optional_task: true
 					type: "item"
 				}
+				{
+					id: "0753EA1A2E05C7BD"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
 			]
 			title: "Kill Obsidalith"
 			x: -6.44761904761905d

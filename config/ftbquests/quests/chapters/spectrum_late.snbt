@@ -1872,11 +1872,19 @@
 				type: "item"
 			}]
 			shape: "square"
-			tasks: [{
-				id: "493C170B3A1BF976"
-				item: "spectrum:pure_globette"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "493C170B3A1BF976"
+					item: "spectrum:pure_globette"
+					type: "item"
+				}
+				{
+					id: "42B968C483F2C04F"
+					item: "spectrum:globette_cluster"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -10.5d
 			y: -4.5d
 		}
@@ -1889,11 +1897,19 @@
 				type: "item"
 			}]
 			shape: "square"
-			tasks: [{
-				id: "52D3AD7C32AD84B4"
-				item: "spectrum:pure_globette_nether"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "52D3AD7C32AD84B4"
+					item: "spectrum:pure_globette_nether"
+					type: "item"
+				}
+				{
+					id: "7ED55B3F6432F69A"
+					item: "spectrum:globette_nether_cluster"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -10.0d
 			y: -6.0d
 		}
@@ -1906,11 +1922,19 @@
 				type: "item"
 			}]
 			shape: "square"
-			tasks: [{
-				id: "00D028BAB0405534"
-				item: "spectrum:pure_globette_end"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "00D028BAB0405534"
+					item: "spectrum:pure_globette_end"
+					type: "item"
+				}
+				{
+					id: "544358F17E49832A"
+					item: "spectrum:globette_end_cluster"
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -10.0d
 			y: -3.0d
 		}
