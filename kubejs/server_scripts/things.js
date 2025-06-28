@@ -85,12 +85,12 @@ ServerEvents.recipes(event =>{
             { "item": "kubejs:star_core", "count": 1 },
             { "item": "bewitchment:demon_heart", "count": 2 },
             { "item": "minecraft:written_book", "count": 1 },
-            { "item": "kubejs:dragonbone_alloy", "count": 1 },
+            { "item": "spectrum:dragonbone_chunk", "count": 24 },
         ],
         result: {
             "item": "things:displacement_tome"
         },
-        advancement: "spectrum:lategame/grow_bloodstone_in_crystallarieum"
+        advancement: "spectrum:lategame/break_cracked_dragonbone"
     });
 
     customEnchanterCraft(event, {
