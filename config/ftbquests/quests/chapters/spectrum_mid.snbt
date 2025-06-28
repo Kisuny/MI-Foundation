@@ -2495,9 +2495,13 @@
 		{
 			dependencies: ["5DD61AA5851437B9"]
 			description: [
-				"Collect some petals!"
+				"After growing a jade bulb, collect some of its petals"
+				""
+				"You can read more about growing up in the book!"
 				"{@pagebreak}"
 				"Вырастив нефритовую луковицу соберите немного её лепестков"
+				""
+				"Более подробнее о росте можно прочитать в книге!"
 			]
 			hide: true
 			id: "45500A52809ED66C"
@@ -2515,11 +2519,21 @@
 					type: "item"
 				}
 			]
-			tasks: [{
-				id: "67F848325D1E3D37"
-				item: "spectrum:jade_vine_petals"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "67F848325D1E3D37"
+					item: "spectrum:jade_vine_petals"
+					type: "item"
+				}
+				{
+					icon: "spectrum:germinated_jade_vine_seeds"
+					id: "0DE1E78888427E84"
+					observe_type: 0
+					timer: 0L
+					to_observe: "spectrum:jade_vine_bulb"
+					type: "observation"
+				}
+			]
 			x: -8.0d
 			y: -7.5d
 		}
@@ -3163,9 +3177,23 @@
 		{
 			dependencies: ["45500A52809ED66C"]
 			description: [
-				"Be patient!"
+				"Moonstack nectar can completely repair tools or give regeneration 3 for a short period of time if you eat it!"
+				""
+				"You can collect nectar by pressing RMB with an empty Glass Bottle at the moment when the vine turns pink."
+				""
+				"The last stage of growth is only possible with a full moon!"
+				""
+				"You can read more about it in the book!"
+				""
+				""
 				"{@pagebreak}"
-				"Лунный нектар может полностью починить инструменты или дать регенерацию 3 на короткий промежуток времени! "
+				"Лунный нектар может полностью починить инструменты или дать регенерацию 3 на короткий промежуток времени если скушать его! "
+				""
+				"Собрать нектар можно нажав ПКМ с пустой баночкой в тот момент когда лоза окрасится в розовый цвет."
+				""
+				"Последняя стадия роста возможна только при полной луне!"
+				""
+				"Более подробнее можно прочитать в книге!"
 			]
 			id: "3A5CE82800D25EC2"
 			rewards: [{

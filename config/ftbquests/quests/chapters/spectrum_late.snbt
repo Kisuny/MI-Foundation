@@ -684,7 +684,11 @@
 		}
 		{
 			dependencies: ["0B2AE0AB37EEE638"]
-			description: [""]
+			description: [
+				"Grow the Kindling and take its feather by pressing Shift + RMB with Shears on the adult."
+				"{@pagebreak}"
+				"Вырастите Киндлинга и возьмите его перо нажав Shift + ПКМ с ножницами на взрослой особи."
+			]
 			hide: true
 			id: "711B2D5E6E950C0D"
 			rewards: [
@@ -714,6 +718,29 @@
 					criterion: ""
 					id: "390D23825AEDD11E"
 					type: "advancement"
+				}
+				{
+					id: "341F0A8A46C8AE4B"
+					item: {
+						Count: 1b
+						id: "spectrum:memory"
+						tag: {
+							EntityTag: {
+								id: "spectrum:kindling"
+							}
+							TicksToManifest: 8
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					icon: "spectrum:kindling_head"
+					id: "40CC370A484B7E0B"
+					observe_type: 5
+					timer: 0L
+					to_observe: "spectrum:kindling"
+					type: "observation"
 				}
 			]
 			x: 1.0d
@@ -1510,7 +1537,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["08C0BC7DF568805D"]
+			dependencies: ["0B2AE0AB37EEE638"]
 			description: [
 				"Allows to teleport to any point in space and dimension."
 				""
@@ -1522,7 +1549,7 @@
 				""
 				"Для работы необходимо нажать книгой ПКМ на &5Жемчуг телепортации&r, чтобы добавить жемчуг в книгу как заряд, 1 телепортация = 1 жемчугу. "
 				""
-				"Так же для работы книгы необходима «&9Страница Перемещения&r», страницы можно найти в разнообразных данжах."
+				"Так же для работы книги необходима «&9Страница Перемещения&r», страницы можно найти в разнообразных данжах."
 			]
 			id: "47A5EF8672853825"
 			rewards: [{
@@ -1541,8 +1568,8 @@
 				}
 				type: "item"
 			}]
-			x: -2.0d
-			y: -14.5d
+			x: -0.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["1B8B44ABD0A94E55"]
@@ -1587,7 +1614,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -15.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["1BA1A25D14039B36"]
@@ -1709,10 +1736,9 @@
 			dependencies: ["034F516E1377D547"]
 			id: "20E398BBFCAF2762"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "234113A0644CA258"
-				table_id: 3804906304903033447L
-				type: "choice"
+				id: "441988E87992DBAF"
+				item: "kubejs:magic_lootbag_epic"
+				type: "item"
 			}]
 			shape: "diamond"
 			tasks: [{
