@@ -80,6 +80,13 @@ ServerEvents.recipes(event => {
         .itemOut('4x mythicmetals:hallowed_ingot')
 
     event.recipes.modern_industrialization.blast_alloy_smelter(256, 600)
+        .itemIn('4x spectrum:stardust')
+        .itemIn('4x spectrum:star_fragment')
+        .itemIn('4x mythicmetals:starrite')
+        .itemIn('4x modern_industrialization:raw_platinum')
+        .itemOut('4x mythicmetals:star_platinum')
+
+    event.recipes.modern_industrialization.blast_alloy_smelter(256, 600)
         .itemIn('16x #spectrum:gemstone_powders')
         .itemIn('8x mythicmetals:banglum_ingot')
         .itemIn('4x minecraft:iron_ingot')
