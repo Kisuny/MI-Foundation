@@ -64,20 +64,12 @@
 			]
 			hide: false
 			id: "487B6452F0767918"
-			rewards: [
-				{
-					id: "3C47FAAFD1950418"
-					item: "kubejs:magic_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "47F0FAF6D89E1EB6"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "3C47FAAFD1950418"
+				item: "kubejs:magic_lootbag_uncommon"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "4CFFA1A68A507FBF"
@@ -131,20 +123,12 @@
 			]
 			hide: false
 			id: "2F4271A3A964841E"
-			rewards: [
-				{
-					id: "52DA4DC4C6B75974"
-					item: "kubejs:magic_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "16516D344582142A"
-					item: "kubejs:mob_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "52DA4DC4C6B75974"
+				item: "kubejs:magic_lootbag_uncommon"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "5D10D0572E331218"
@@ -201,11 +185,6 @@
 			]
 			hide: false
 			id: "632ED9F4036B2BD9"
-			rewards: [{
-				id: "53A563806711AEF3"
-				item: "kubejs:food_lootbag_rare"
-				type: "item"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "44E13C9033AA7406"
@@ -403,20 +382,12 @@
 			]
 			hide: true
 			id: "17F63A3F2F097B40"
-			rewards: [
-				{
-					id: "6C0FE049C1AB1D91"
-					item: "kubejs:magic_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "0F0377720FF7E5C9"
-					item: "kubejs:mob_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6C0FE049C1AB1D91"
+				item: "kubejs:magic_lootbag_uncommon"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "18B64E27C2993FE4"
@@ -439,20 +410,12 @@
 			]
 			hide: true
 			id: "240AF7F8B8249CA6"
-			rewards: [
-				{
-					id: "47872B7D33279DF8"
-					item: "kubejs:magic_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "2631BF5C50CDC484"
-					item: "kubejs:mob_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "47872B7D33279DF8"
+				item: "kubejs:magic_lootbag_uncommon"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "0F27EF6F540F0250"
@@ -473,20 +436,12 @@
 			]
 			hide: true
 			id: "1D91D110CF7CDAD2"
-			rewards: [
-				{
-					id: "1B31F4AD58ADC71A"
-					item: "kubejs:magic_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "5B639E6FF6EB8D71"
-					item: "kubejs:mob_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "1B31F4AD58ADC71A"
+				item: "kubejs:magic_lootbag_uncommon"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "0C00F3C4DACDFEA2"
@@ -507,20 +462,12 @@
 			]
 			hide: true
 			id: "74CEDE3194C38829"
-			rewards: [
-				{
-					id: "77FFE0E36E13BC42"
-					item: "kubejs:magic_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "2BECBE35061807D8"
-					item: "kubejs:mob_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "77FFE0E36E13BC42"
+				item: "kubejs:magic_lootbag_uncommon"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "39F5ECE7337F500D"
@@ -642,11 +589,6 @@
 			]
 			hide: true
 			id: "2114C1C6DC158DE7"
-			rewards: [{
-				id: "0EF321238D5D5486"
-				item: "kubejs:mob_lootbag_epic"
-				type: "item"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				count: 4L
@@ -666,11 +608,6 @@
 			]
 			hide: true
 			id: "0E9ABFC9A24133BC"
-			rewards: [{
-				id: "3E66FA7FFBAE6D31"
-				item: "kubejs:food_lootbag_epic"
-				type: "item"
-			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "042D1BA8B8B6A92B"
@@ -814,11 +751,6 @@
 			]
 			hide: false
 			id: "0570BD91B563EE19"
-			rewards: [{
-				id: "01EC5D28CC5B6B48"
-				item: "kubejs:food_lootbag_uncommon"
-				type: "item"
-			}]
 			shape: "octagon"
 			tasks: [
 				{
@@ -853,20 +785,12 @@
 			]
 			hide: true
 			id: "25B84095E9B20DD7"
-			rewards: [
-				{
-					id: "7DFC2711FAAFED62"
-					item: "kubejs:magic_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "0C534FA082A5D018"
-					item: "kubejs:mob_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7DFC2711FAAFED62"
+				item: "kubejs:magic_lootbag_uncommon"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "2439584E16FA8291"
@@ -887,20 +811,12 @@
 			]
 			hide: true
 			id: "6284E2153125A318"
-			rewards: [
-				{
-					id: "14BD2BACEE644EE9"
-					item: "kubejs:magic_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "6D6F49B1E59D964E"
-					item: "kubejs:mob_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "14BD2BACEE644EE9"
+				item: "kubejs:magic_lootbag_uncommon"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "7B2832F6B1080143"

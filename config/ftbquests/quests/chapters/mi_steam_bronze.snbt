@@ -133,11 +133,6 @@
 					item: "modern_industrialization:bronze_ingot"
 					type: "item"
 				}
-				{
-					id: "42F9160185130B72"
-					item: "kubejs:mob_lootbag_uncommon"
-					type: "item"
-				}
 			]
 			shape: "gear"
 			size: 2.0d
@@ -797,12 +792,6 @@
 					type: "item"
 				}
 				{
-					id: "516B50F78A558FCB"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
 					count: 2
 					id: "04D098CA7884B004"
 					item: "minecraft:netherite_ingot"
@@ -916,11 +905,6 @@
 					type: "item"
 				}
 				{
-					id: "466B44377D293E86"
-					item: "kubejs:food_lootbag_rare"
-					type: "item"
-				}
-				{
 					count: 4
 					id: "44EE4260EE023A1A"
 					item: "minecraft:diamond"
@@ -982,20 +966,12 @@
 			description: [""]
 			hide: false
 			id: "4C6EE1ED6F46F8F6"
-			rewards: [
-				{
-					id: "2BCDEB13BB9E6295"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 3
-					id: "04339289DDB8E3FA"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 3
+				id: "04339289DDB8E3FA"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "6A6C06F5BB51313C"
@@ -1075,12 +1051,6 @@
 				{
 					id: "69AA26F04D6A4C3B"
 					item: "kubejs:early_lootbag_epic"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "38DE7F848CDE25E0"
-					item: "kubejs:food_lootbag_rare"
 					team_reward: true
 					type: "item"
 				}
@@ -1713,20 +1683,12 @@
 				"&4Уничтожает&r &6все&r предметы и жидкости, что в данный блок подаются"
 			]
 			id: "758FD2B929E89B81"
-			rewards: [
-				{
-					id: "6E1856E878384454"
-					item: "kubejs:early_lootbag_epic"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "09CB855E4EDDBE06"
-					item: "kubejs:mob_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "6E1856E878384454"
+				item: "kubejs:early_lootbag_epic"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "385C68AA28D55BC0"

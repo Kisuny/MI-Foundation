@@ -26,28 +26,14 @@
 				"Так же данный глаз можно выбить при рыбной ловле существ."
 			]
 			id: "3563710E363ABA24"
-			rewards: [
-				{
-					count: 10
-					id: "661AE27A0C4A6458"
-					item: "vitalize:experience_cubed"
-					random_bonus: 64
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "498FAC93902F1804"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "09AE98700ECCCE05"
-					item: "kubejs:mob_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 10
+				id: "661AE27A0C4A6458"
+				item: "vitalize:experience_cubed"
+				random_bonus: 64
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "52835448A84F59F1"
@@ -67,28 +53,14 @@
 				"Чаще всего в иглу."
 			]
 			id: "07838886FF1C1A59"
-			rewards: [
-				{
-					count: 10
-					id: "3C567360375F3B07"
-					item: "vitalize:experience_cubed"
-					random_bonus: 64
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "17BB9F9D9A9A72AA"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "4D11DD3A2C210EBE"
-					item: "kubejs:mob_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 10
+				id: "3C567360375F3B07"
+				item: "vitalize:experience_cubed"
+				random_bonus: 64
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "155A677B9A8F1ECB"
@@ -110,28 +82,14 @@
 				"Так же данный глаз можно выбить при рыбной ловле существ."
 			]
 			id: "3B4BF7FDDF51F09E"
-			rewards: [
-				{
-					count: 10
-					id: "683CD31B53B01840"
-					item: "vitalize:experience_cubed"
-					random_bonus: 64
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "124160DAA295A063"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "0013E5D401137569"
-					item: "kubejs:mob_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 10
+				id: "683CD31B53B01840"
+				item: "vitalize:experience_cubed"
+				random_bonus: 64
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "605F47652F49DCCA"
@@ -153,28 +111,14 @@
 				"Так же данный глаз можно выбить при рыбной ловле существ."
 			]
 			id: "37029AB518763CA9"
-			rewards: [
-				{
-					count: 10
-					id: "6694F6507FACC10C"
-					item: "vitalize:experience_cubed"
-					random_bonus: 64
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "4F2CE80D4A49D4F9"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "6959B1CBA70B49B6"
-					item: "kubejs:mob_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 10
+				id: "6694F6507FACC10C"
+				item: "vitalize:experience_cubed"
+				random_bonus: 64
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1B0310C103611FCF"
@@ -196,28 +140,14 @@
 				"Так же данный глаз можно выбить при рыбной ловле существ."
 			]
 			id: "299E99F22D5A9E72"
-			rewards: [
-				{
-					count: 10
-					id: "027BC78F5698149C"
-					item: "vitalize:experience_cubed"
-					random_bonus: 64
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "4995E6D8228F9193"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "64EB6A3ED75E207F"
-					item: "kubejs:mob_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 10
+				id: "027BC78F5698149C"
+				item: "vitalize:experience_cubed"
+				random_bonus: 64
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "3D3F043F29E419CE"
@@ -235,28 +165,14 @@
 				"Данный глаз можно найти в пустынной пирамиде "
 			]
 			id: "28F2F45DAA269220"
-			rewards: [
-				{
-					count: 10
-					id: "488328BBE8FC2C1C"
-					item: "vitalize:experience_cubed"
-					random_bonus: 64
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "76351D5382706354"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "4139CD88B284C73F"
-					item: "kubejs:mob_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 10
+				id: "488328BBE8FC2C1C"
+				item: "vitalize:experience_cubed"
+				random_bonus: 64
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1CB44902134F3DE2"
@@ -274,28 +190,14 @@
 				"Данный глаз можно найти в джунглиевых данжах."
 			]
 			id: "1E58F39FF66470BC"
-			rewards: [
-				{
-					count: 10
-					id: "2E687BCD84B52369"
-					item: "vitalize:experience_cubed"
-					random_bonus: 64
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "492EF385D36CEEE1"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "056F73854538D9EE"
-					item: "kubejs:mob_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 10
+				id: "2E687BCD84B52369"
+				item: "vitalize:experience_cubed"
+				random_bonus: 64
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "5971DEA9CB604CCB"
@@ -317,28 +219,14 @@
 				"Так же данный глаз можно выбить при рыбной ловле существ. "
 			]
 			id: "7B39074320944141"
-			rewards: [
-				{
-					count: 10
-					id: "0B9E588876FEEAB9"
-					item: "vitalize:experience_cubed"
-					random_bonus: 64
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "3578171B2E450894"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "1C36BDED96DC5FF8"
-					item: "kubejs:mob_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 10
+				id: "0B9E588876FEEAB9"
+				item: "vitalize:experience_cubed"
+				random_bonus: 64
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "199A85C24AF28AC0"
@@ -360,28 +248,14 @@
 				"Так же данный глаз можно выбить при рыбной ловле существ."
 			]
 			id: "06260AD0C488B076"
-			rewards: [
-				{
-					count: 10
-					id: "0574B3683297A256"
-					item: "vitalize:experience_cubed"
-					random_bonus: 64
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "259877E1294EB9B5"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "0CA354DADDA3C0BD"
-					item: "kubejs:mob_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 10
+				id: "0574B3683297A256"
+				item: "vitalize:experience_cubed"
+				random_bonus: 64
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "5CD8A1542F80B40B"
@@ -399,28 +273,14 @@
 				"Так же данный глаз можно выбить при рыбной ловле существ."
 			]
 			id: "77B59682D528B93E"
-			rewards: [
-				{
-					count: 10
-					id: "2B3463995FE65413"
-					item: "vitalize:experience_cubed"
-					random_bonus: 64
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "6BDC230A675D3307"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "56071F7130CF95C5"
-					item: "kubejs:mob_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 10
+				id: "2B3463995FE65413"
+				item: "vitalize:experience_cubed"
+				random_bonus: 64
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "64994F7AADE6EB84"
@@ -442,28 +302,14 @@
 				"Так же данный глаз можно выбить при рыбной ловле существ."
 			]
 			id: "551DF9EBF88C3AAB"
-			rewards: [
-				{
-					count: 10
-					id: "08E2DDF995ED5DF6"
-					item: "vitalize:experience_cubed"
-					random_bonus: 64
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "64715B6B31744DA1"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "0B84F105FE9A4156"
-					item: "kubejs:mob_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 10
+				id: "08E2DDF995ED5DF6"
+				item: "vitalize:experience_cubed"
+				random_bonus: 64
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1688A6FD16A408D5"
@@ -481,28 +327,14 @@
 				"Данный глаз выпадает при убийстве босса-иссушителя."
 			]
 			id: "1BE3A2492A82205F"
-			rewards: [
-				{
-					count: 10
-					id: "609D31C5FD305F8B"
-					item: "vitalize:experience_cubed"
-					random_bonus: 64
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "1886016AB30B6512"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "36F99E5D8D96C449"
-					item: "kubejs:mob_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 10
+				id: "609D31C5FD305F8B"
+				item: "vitalize:experience_cubed"
+				random_bonus: 64
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "688F6D265B73F101"
@@ -524,28 +356,14 @@
 				"Так же глаз ведьмы можно выбить при рыбной ловле существ."
 			]
 			id: "4CF8484EAFAE81FB"
-			rewards: [
-				{
-					count: 10
-					id: "42E7336B9AE3531A"
-					item: "vitalize:experience_cubed"
-					random_bonus: 64
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "74686A8766C708C6"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "4C66C70EEB46B65B"
-					item: "kubejs:mob_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 10
+				id: "42E7336B9AE3531A"
+				item: "vitalize:experience_cubed"
+				random_bonus: 64
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "5E2F5016FCE9915D"
@@ -567,28 +385,14 @@
 				"Так же данную душу можно выбить при рыбной ловле существ."
 			]
 			id: "7801E22896BA97EF"
-			rewards: [
-				{
-					count: 10
-					id: "797571DB8D750A4F"
-					item: "vitalize:experience_cubed"
-					random_bonus: 64
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "422DDDCF61D6C81D"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "5F486002767F33BE"
-					item: "kubejs:mob_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 10
+				id: "797571DB8D750A4F"
+				item: "vitalize:experience_cubed"
+				random_bonus: 64
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "32158E8A477919CB"
@@ -610,28 +414,14 @@
 				"Так же выбить при рыбной ловле существ."
 			]
 			id: "6A0A4BFC106CA929"
-			rewards: [
-				{
-					count: 10
-					id: "5241C8E75FF43767"
-					item: "vitalize:experience_cubed"
-					random_bonus: 64
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "4AAC1EDEB9659028"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "154C26D266641CA7"
-					item: "kubejs:mob_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 10
+				id: "5241C8E75FF43767"
+				item: "vitalize:experience_cubed"
+				random_bonus: 64
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "44FC32D2E66F7C59"
@@ -653,28 +443,14 @@
 				"А так же получить при зачарование предметов с маленьким шансом"
 			]
 			id: "66304D9744D15DDB"
-			rewards: [
-				{
-					count: 10
-					id: "79EC3590A80AA9B6"
-					item: "vitalize:experience_cubed"
-					random_bonus: 64
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "2E7355C3D086C2DB"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "0997F460301D31F0"
-					item: "kubejs:mob_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 10
+				id: "79EC3590A80AA9B6"
+				item: "vitalize:experience_cubed"
+				random_bonus: 64
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "6407B050C0D8BE13"
@@ -722,28 +498,14 @@
 				"Так же можно выбить при ловле существ из жидкостей."
 			]
 			id: "6746D433903770F4"
-			rewards: [
-				{
-					count: 20
-					id: "006CDA9CE37C75B8"
-					item: "vitalize:experience_cubed"
-					random_bonus: 40
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "6934570F240E4D12"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "49F60821E9EEFCA0"
-					item: "kubejs:mob_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 20
+				id: "006CDA9CE37C75B8"
+				item: "vitalize:experience_cubed"
+				random_bonus: 40
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "005F0664627C873C"
@@ -770,28 +532,14 @@
 				"Шанс получения при приручении животных"
 			]
 			id: "471C10FF09C6854A"
-			rewards: [
-				{
-					count: 20
-					id: "05B9A6D853221A34"
-					item: "vitalize:experience_cubed"
-					random_bonus: 40
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "7DFD4F56FEA507DA"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "24E78E5C7E4339E5"
-					item: "kubejs:mob_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 20
+				id: "05B9A6D853221A34"
+				item: "vitalize:experience_cubed"
+				random_bonus: 40
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "448A2178602F1656"
@@ -809,28 +557,14 @@
 				"Артефакт можно найти в деревнях и получить при торговле с жителями."
 			]
 			id: "55B58D9EF09440BF"
-			rewards: [
-				{
-					count: 20
-					id: "454891B4AA34DD7F"
-					item: "vitalize:experience_cubed"
-					random_bonus: 40
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "241ABC8C420AC58C"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "7B1C685CCC7AA2F9"
-					item: "kubejs:mob_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 20
+				id: "454891B4AA34DD7F"
+				item: "vitalize:experience_cubed"
+				random_bonus: 40
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "158B21E098DC975A"
@@ -848,28 +582,14 @@
 				"Артефакт можно получить с маленьким шансом после сна на кровати. "
 			]
 			id: "79B6561755FAF83D"
-			rewards: [
-				{
-					count: 20
-					id: "705A5862D869D2DC"
-					item: "vitalize:experience_cubed"
-					random_bonus: 40
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "6B39295A38C3C589"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "5E0B6B0B176386AD"
-					item: "kubejs:mob_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 20
+				id: "705A5862D869D2DC"
+				item: "vitalize:experience_cubed"
+				random_bonus: 40
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "49385674D0DBE564"
@@ -887,28 +607,14 @@
 				"Шанс получения при размножении животных"
 			]
 			id: "7CB6E6CE8E95E5EA"
-			rewards: [
-				{
-					count: 20
-					id: "735C0557FE976C27"
-					item: "vitalize:experience_cubed"
-					random_bonus: 40
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "26840A923D222AAA"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "261E267B18685D6A"
-					item: "kubejs:mob_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 20
+				id: "735C0557FE976C27"
+				item: "vitalize:experience_cubed"
+				random_bonus: 40
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "4C13D8C9EA1A9930"
@@ -926,28 +632,14 @@
 				"Артефакт можно получить с маленьким шансом во время копания руды/породы."
 			]
 			id: "7BA1D729E528C7F1"
-			rewards: [
-				{
-					count: 20
-					id: "229EB3C4E169F05C"
-					item: "vitalize:experience_cubed"
-					random_bonus: 40
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "6D16AD20054FE8D3"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "71757A70C640141A"
-					item: "kubejs:mob_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 20
+				id: "229EB3C4E169F05C"
+				item: "vitalize:experience_cubed"
+				random_bonus: 40
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "6B0ABABD7C6DF7F6"
@@ -967,28 +659,14 @@
 				"Так же можно выбить при ловле существ из жидкостей."
 			]
 			id: "3D62980B5B1EDC48"
-			rewards: [
-				{
-					count: 20
-					id: "6B0A23067E2DE5E6"
-					item: "vitalize:experience_cubed"
-					random_bonus: 40
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "2C994871E3044685"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "25840AE4AAE92983"
-					item: "kubejs:mob_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 20
+				id: "6B0A23067E2DE5E6"
+				item: "vitalize:experience_cubed"
+				random_bonus: 40
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "2D760F05873B2756"
@@ -1006,28 +684,14 @@
 				"Артефакт можно получить при исследование сундуков ниже 50 высоты."
 			]
 			id: "3904A9738098F06D"
-			rewards: [
-				{
-					count: 20
-					id: "11727E0FE4B50861"
-					item: "vitalize:experience_cubed"
-					random_bonus: 40
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "67331126897A3A7D"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "2E25277C51D2A63D"
-					item: "kubejs:mob_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 20
+				id: "11727E0FE4B50861"
+				item: "vitalize:experience_cubed"
+				random_bonus: 40
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "061ABF71705238F1"
@@ -1045,28 +709,14 @@
 				"Артефакт можно получить с маленьким шансом после варки зелий."
 			]
 			id: "6B533E99E0D3BE44"
-			rewards: [
-				{
-					count: 20
-					id: "2CE7DEE19CE61F25"
-					item: "vitalize:experience_cubed"
-					random_bonus: 40
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "66A125B9AA931028"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "2A1F0EB5A540BFBC"
-					item: "kubejs:mob_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 20
+				id: "2CE7DEE19CE61F25"
+				item: "vitalize:experience_cubed"
+				random_bonus: 40
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "60569C12B7E5DAB2"
@@ -1084,28 +734,14 @@
 				"Артефакт можно получить из закопанного сундука сокровищ или в сундуках в океане под водой. "
 			]
 			id: "3A2283BEB13DAB72"
-			rewards: [
-				{
-					count: 20
-					id: "148FDFD6FFB1F838"
-					item: "vitalize:experience_cubed"
-					random_bonus: 40
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "4E29B84FCB3DB4C2"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "18F4BF39918DE1BE"
-					item: "kubejs:mob_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 20
+				id: "148FDFD6FFB1F838"
+				item: "vitalize:experience_cubed"
+				random_bonus: 40
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "0AE436E4C5C5D1BF"
@@ -1123,28 +759,14 @@
 				"Маленький шанс при сборе любых культур, и чуть больше шанс при сборе картошки"
 			]
 			id: "65BCC5367E7D38A3"
-			rewards: [
-				{
-					count: 20
-					id: "5879AEA09478B26B"
-					item: "vitalize:experience_cubed"
-					random_bonus: 40
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "3E476218F9370922"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "6E8CD3EE73BD0D5E"
-					item: "kubejs:mob_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 20
+				id: "5879AEA09478B26B"
+				item: "vitalize:experience_cubed"
+				random_bonus: 40
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "Belarusians get ready  "
 			tasks: [{
@@ -1163,28 +785,14 @@
 				"Артефакт можно получить при разрушение инструмента/брони. За каждое очко прочности шанс увеличивается."
 			]
 			id: "79F4E72A28BBEF77"
-			rewards: [
-				{
-					count: 20
-					id: "24FE859036E67F63"
-					item: "vitalize:experience_cubed"
-					random_bonus: 40
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "695A0CDB4735AA7B"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "5404B03F3C7413C7"
-					item: "kubejs:mob_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 20
+				id: "24FE859036E67F63"
+				item: "vitalize:experience_cubed"
+				random_bonus: 40
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "4EB2AF4E37A1C620"
@@ -1204,28 +812,14 @@
 				"Так же можно выбить при ловле существ из жидкостей."
 			]
 			id: "60B6FA5A4304FE0B"
-			rewards: [
-				{
-					count: 20
-					id: "75474903CDECD194"
-					item: "vitalize:experience_cubed"
-					random_bonus: 40
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "55E52758B7A6DE8A"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "311417461AEDA7C0"
-					item: "kubejs:mob_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 20
+				id: "75474903CDECD194"
+				item: "vitalize:experience_cubed"
+				random_bonus: 40
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1632B049F13C9A0D"
@@ -1249,28 +843,14 @@
 				"Данный уселитель можно улучшить в &#F5BD02золотой."
 			]
 			id: "1490E69D62D8F7F1"
-			rewards: [
-				{
-					count: 20
-					id: "43677BCE6D84EA12"
-					item: "vitalize:experience_cubed"
-					random_bonus: 40
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "5D2DFCF72FD2CB11"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "1A9C3D13A67AE5C1"
-					item: "kubejs:mob_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 20
+				id: "43677BCE6D84EA12"
+				item: "vitalize:experience_cubed"
+				random_bonus: 40
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "48258B4DE333BAEF"
@@ -1294,28 +874,14 @@
 				"Данный уселитель можно улучшить в &#F5BD02золотой."
 			]
 			id: "7F5DF71CCC9C3FBC"
-			rewards: [
-				{
-					count: 20
-					id: "2211C3D338A2B34A"
-					item: "vitalize:experience_cubed"
-					random_bonus: 40
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "4BD0646942DC9BD4"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "3137A360BAFFC9B2"
-					item: "kubejs:mob_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 20
+				id: "2211C3D338A2B34A"
+				item: "vitalize:experience_cubed"
+				random_bonus: 40
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "099107AEFE37DC02"
@@ -1335,28 +901,14 @@
 				"Так же Оникс падает с 100% с &oВардена&r!"
 			]
 			id: "09679C8515BC3620"
-			rewards: [
-				{
-					count: 20
-					id: "56F225525AA13AEA"
-					item: "vitalize:experience_cubed"
-					random_bonus: 40
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "6C42417FA8535A00"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "334E719397A9336C"
-					item: "kubejs:mob_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 20
+				id: "56F225525AA13AEA"
+				item: "vitalize:experience_cubed"
+				random_bonus: 40
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "5A0DCF79060839C9"
@@ -1376,28 +928,14 @@
 				"Так же перо падает из &oтихони&r и &oвредины&r."
 			]
 			id: "6EC6DAABA95B9AA8"
-			rewards: [
-				{
-					count: 20
-					id: "471C0B8FAB46D7FC"
-					item: "vitalize:experience_cubed"
-					random_bonus: 40
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "47233DF0F7D5B9F9"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "22E5E0F674534864"
-					item: "kubejs:mob_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 20
+				id: "471C0B8FAB46D7FC"
+				item: "vitalize:experience_cubed"
+				random_bonus: 40
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1E01D86AB42F7EFF"
@@ -1415,28 +953,14 @@
 				"Артефакт можно получить с маленьким шансом из любого сундука."
 			]
 			id: "0D72E2120CE45B7E"
-			rewards: [
-				{
-					count: 20
-					id: "56C21538910D6D36"
-					item: "vitalize:experience_cubed"
-					random_bonus: 40
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "1966AB30C1D09A42"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "474A4B1D9D5E3429"
-					item: "kubejs:mob_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 20
+				id: "56C21538910D6D36"
+				item: "vitalize:experience_cubed"
+				random_bonus: 40
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "74FB760FF4D17508"
@@ -1466,28 +990,14 @@
 				"Руну можно создать объединив все артефакты которые были необходимы для открытия этого квеста в столе создания"
 			]
 			id: "08A2EC67FC3358B8"
-			rewards: [
-				{
-					count: 20
-					id: "269CA60C8BA620C8"
-					item: "vitalize:experience_cubed"
-					random_bonus: 128
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "2656D300E36C99AE"
-					item: "kubejs:food_lootbag_epic"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "336B736FA927953B"
-					item: "kubejs:mob_lootbag_epic"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 20
+				id: "269CA60C8BA620C8"
+				item: "vitalize:experience_cubed"
+				random_bonus: 128
+				team_reward: true
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "561351F13A8E8CDB"
@@ -1509,28 +1019,14 @@
 				"Руну можно создать объединив все артефакты которые были необходимы для открытия этого квеста в столе создания"
 			]
 			id: "43238B3BE22ACEDF"
-			rewards: [
-				{
-					count: 20
-					id: "25552E77FC6D781C"
-					item: "vitalize:experience_cubed"
-					random_bonus: 128
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "285C7476979C494D"
-					item: "kubejs:food_lootbag_epic"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "5BF6E93ED9B4D01D"
-					item: "kubejs:mob_lootbag_epic"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 20
+				id: "25552E77FC6D781C"
+				item: "vitalize:experience_cubed"
+				random_bonus: 128
+				team_reward: true
+				type: "item"
+			}]
 			shape: "octagon"
 			tasks: [{
 				id: "438C088E9E240A42"
@@ -1561,28 +1057,14 @@
 				"Руну можно создать объединив все артефакты которые были необходимы для открытия этого квеста в столе создания"
 			]
 			id: "5BD14A8C761C973E"
-			rewards: [
-				{
-					count: 20
-					id: "750144FD167D2940"
-					item: "vitalize:experience_cubed"
-					random_bonus: 128
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "5B891A666DA166D2"
-					item: "kubejs:food_lootbag_epic"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "3B90EB31FA529F10"
-					item: "kubejs:mob_lootbag_epic"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 20
+				id: "750144FD167D2940"
+				item: "vitalize:experience_cubed"
+				random_bonus: 128
+				team_reward: true
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "6E830ECCD6B11E97"
@@ -1613,28 +1095,14 @@
 				"Руну можно создать объединив все артефакты которые были необходимы для открытия этого квеста в столе создания"
 			]
 			id: "106607A821EF9A15"
-			rewards: [
-				{
-					count: 20
-					id: "085DCF5C079EA9F1"
-					item: "vitalize:experience_cubed"
-					random_bonus: 128
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "5829877FAD84244F"
-					item: "kubejs:food_lootbag_epic"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "4E075B019E190320"
-					item: "kubejs:mob_lootbag_epic"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 20
+				id: "085DCF5C079EA9F1"
+				item: "vitalize:experience_cubed"
+				random_bonus: 128
+				team_reward: true
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "30FFDF9685834FFB"
@@ -1656,28 +1124,14 @@
 				"Руну можно создать объединив все артефакты которые были необходимы для открытия этого квеста в столе создания"
 			]
 			id: "32CC2FECF8F7617D"
-			rewards: [
-				{
-					count: 20
-					id: "0BA240C8AA82F956"
-					item: "vitalize:experience_cubed"
-					random_bonus: 128
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "58AEE6B2DBC57CE7"
-					item: "kubejs:food_lootbag_epic"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "76CCED14BB56C258"
-					item: "kubejs:mob_lootbag_epic"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 20
+				id: "0BA240C8AA82F956"
+				item: "vitalize:experience_cubed"
+				random_bonus: 128
+				team_reward: true
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "472EE0603F36419E"
@@ -1722,14 +1176,12 @@
 				{
 					id: "1EBA3BF14360DAE6"
 					item: "kubejs:mob_lootbag_epic"
-					random_bonus: 5
 					team_reward: true
 					type: "item"
 				}
 				{
 					id: "0BB550FADEBC58F2"
 					item: "kubejs:food_lootbag_epic"
-					random_bonus: 5
 					team_reward: true
 					type: "item"
 				}
@@ -1758,28 +1210,14 @@
 				"Карта позволяет перековать артефакт"
 			]
 			id: "27C6614103A24D5E"
-			rewards: [
-				{
-					count: 20
-					id: "2F7D5F9C0D687B59"
-					item: "vitalize:experience_cubed"
-					random_bonus: 40
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "5E7CAEC74B7E065A"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "73A9850CEE1970F7"
-					item: "kubejs:mob_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 20
+				id: "2F7D5F9C0D687B59"
+				item: "vitalize:experience_cubed"
+				random_bonus: 40
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "1A3A20B9F5CE54B1"
@@ -1797,28 +1235,14 @@
 				"Карта позволяет &oвернуть все уселители и сбросить эффективность&r"
 			]
 			id: "77E657F23464B702"
-			rewards: [
-				{
-					count: 20
-					id: "18C05A3BEFB181D4"
-					item: "vitalize:experience_cubed"
-					random_bonus: 40
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "29688310BD797D15"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "1A23382C2FB61829"
-					item: "kubejs:mob_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 20
+				id: "18C05A3BEFB181D4"
+				item: "vitalize:experience_cubed"
+				random_bonus: 40
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "2A91E68FF62DAFEA"
@@ -1836,28 +1260,14 @@
 				"Карта позволяет изменить бонус эффективности на противоположный"
 			]
 			id: "5AC0FB07667212CE"
-			rewards: [
-				{
-					count: 20
-					id: "27C995FA73CF7EA4"
-					item: "vitalize:experience_cubed"
-					random_bonus: 40
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "0ABF7B4C42519C50"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "4A5A6383CB10C989"
-					item: "kubejs:mob_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 20
+				id: "27C995FA73CF7EA4"
+				item: "vitalize:experience_cubed"
+				random_bonus: 40
+				team_reward: true
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "38FE9DA7610287C2"

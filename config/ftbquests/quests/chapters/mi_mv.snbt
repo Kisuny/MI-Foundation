@@ -14,20 +14,12 @@
 			dependencies: ["57886FF598451010"]
 			icon: "modern_industrialization:aluminum_ingot"
 			id: "32FF345AF0E87070"
-			rewards: [
-				{
-					count: 8
-					id: "41080D64ED2959C7"
-					item: "modern_industrialization:aluminum_ingot"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "7B7D1951086B520B"
-					item: "kubejs:mob_lootbag_rare"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 8
+				id: "41080D64ED2959C7"
+				item: "modern_industrialization:aluminum_ingot"
+				type: "item"
+			}]
 			size: 1.5d
 			tasks: [
 				{
@@ -154,12 +146,6 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "38AEBFE653A8B0FA"
-					item: "kubejs:mob_lootbag_rare"
-					type: "item"
-				}
-				{
 					id: "6D2049BDF8E70682"
 					item: "kubejs:mid_lootbag_rare"
 					type: "item"
@@ -229,12 +215,6 @@
 					count: 2
 					id: "1B2A8C935C1E901C"
 					item: "modern_industrialization:salt_block"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "3E60116B89530257"
-					item: "kubejs:mob_lootbag_rare"
 					type: "item"
 				}
 			]
@@ -1613,12 +1593,6 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "3829C2D0DDB56827"
-					item: "kubejs:mob_lootbag_rare"
-					type: "item"
-				}
-				{
 					id: "3EBFD5DBAC714BFB"
 					item: "kubejs:mid_lootbag_rare"
 					type: "item"
@@ -1730,12 +1704,6 @@
 					count: 8
 					id: "52B8BE6F6ECFC1E5"
 					item: "ae2:fluix_glass_cable"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "6A2A8F52F282F4C3"
-					item: "kubejs:mob_lootbag_rare"
 					type: "item"
 				}
 				{

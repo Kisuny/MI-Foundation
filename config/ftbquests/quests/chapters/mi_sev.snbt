@@ -96,11 +96,6 @@
 					item: "modern_industrialization:quantum_machine_hull"
 					type: "item"
 				}
-				{
-					id: "46536068F459EB42"
-					item: "kubejs:end_lootbag_uncommon"
-					type: "item"
-				}
 			]
 			tasks: [{
 				id: "062CA2700181C092"
@@ -141,11 +136,6 @@
 					type: "item"
 				}
 				{
-					id: "4C1D1EF3C6854A67"
-					item: "kubejs:end_lootbag_uncommon"
-					type: "item"
-				}
-				{
 					id: "10C322C0E20356F5"
 					item: "kubejs:end_lootbag_rare"
 					type: "item"
@@ -172,11 +162,6 @@
 				{
 					id: "7EDE11B4F38ECBF4"
 					item: "modern_industrialization:quantum_machine_hull"
-					type: "item"
-				}
-				{
-					id: "5670DEFA4A989459"
-					item: "kubejs:end_lootbag_uncommon"
 					type: "item"
 				}
 				{
@@ -223,11 +208,6 @@
 			]
 			id: "48946D8D12B533AA"
 			rewards: [
-				{
-					id: "2CAE6FDD91293AE4"
-					item: "kubejs:end_lootbag_uncommon"
-					type: "item"
-				}
 				{
 					id: "4DA959D972ADB9DE"
 					item: "kubejs:end_lootbag_rare"
@@ -298,11 +278,6 @@
 			]
 			id: "67FC4A3B61E5811C"
 			rewards: [
-				{
-					id: "64C17A59CD7EEA42"
-					item: "kubejs:end_lootbag_uncommon"
-					type: "item"
-				}
 				{
 					id: "69B64A367AC90337"
 					item: "kubejs:end_lootbag_rare"
@@ -380,11 +355,6 @@
 					type: "item"
 				}
 				{
-					id: "28A200A7252FA79B"
-					item: "kubejs:end_lootbag_uncommon"
-					type: "item"
-				}
-				{
 					id: "1D73396860B7D7C5"
 					item: "kubejs:end_lootbag_rare"
 					type: "item"
@@ -410,11 +380,6 @@
 				{
 					id: "4C5E24EBC7F91227"
 					item: "modern_industrialization:quantum_circuit"
-					type: "item"
-				}
-				{
-					id: "5E408EDBBD8F159B"
-					item: "kubejs:end_lootbag_uncommon"
 					type: "item"
 				}
 				{
@@ -502,11 +467,6 @@
 				{
 					id: "6D1CE0AD1244B9A3"
 					item: "modern_industrialization:fusion_chamber"
-					type: "item"
-				}
-				{
-					id: "6122DAC3D0717136"
-					item: "kubejs:end_lootbag_uncommon"
 					type: "item"
 				}
 				{
@@ -2058,18 +2018,11 @@
 		{
 			dependencies: ["5F1381C00EE5079D"]
 			id: "5202E95A1F3445C6"
-			rewards: [
-				{
-					id: "55642BCFF88DD66B"
-					item: "kubejs:end_lootbag_rare"
-					type: "item"
-				}
-				{
-					id: "5EBB096CC4E2EC79"
-					item: "kubejs:end_lootbag_epic"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "5EBB096CC4E2EC79"
+				item: "kubejs:end_lootbag_epic"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "2AD0B5B30EE539A4"
@@ -2119,18 +2072,11 @@
 			]
 			id: "5F1381C00EE5079D"
 			min_required_dependencies: 1
-			rewards: [
-				{
-					id: "0063CCEEA6EA9F78"
-					item: "kubejs:end_lootbag_rare"
-					type: "item"
-				}
-				{
-					id: "56B2B3A8AF0A40F2"
-					item: "kubejs:end_lootbag_epic"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "56B2B3A8AF0A40F2"
+				item: "kubejs:end_lootbag_epic"
+				type: "item"
+			}]
 			shape: "diamond"
 			tasks: [{
 				id: "22ACB22FBAE37191"
@@ -2229,11 +2175,6 @@
 			]
 			id: "6C2D2C561DDED656"
 			rewards: [
-				{
-					id: "073805DB377E71A8"
-					item: "kubejs:end_lootbag_uncommon"
-					type: "item"
-				}
 				{
 					id: "53568EE0744C1F7E"
 					item: "kubejs:end_lootbag_rare"
@@ -2383,11 +2324,6 @@
 					type: "item"
 				}
 				{
-					id: "6591DBD04728F879"
-					item: "kubejs:end_lootbag_rare"
-					type: "item"
-				}
-				{
 					id: "09F134B4D803F935"
 					item: "kubejs:end_lootbag_epic"
 					type: "item"
@@ -2408,11 +2344,6 @@
 				{
 					id: "535C955F38ABFBBE"
 					item: "itemalchemy:emc_collector_mk4"
-					type: "item"
-				}
-				{
-					id: "37540955E794E019"
-					item: "kubejs:end_lootbag_rare"
 					type: "item"
 				}
 				{
@@ -2480,11 +2411,6 @@
 				{
 					id: "1E759D09602F7CB3"
 					item: "itemalchemy:ultimate_aegu"
-					type: "item"
-				}
-				{
-					id: "3ECE471921FB9D9A"
-					item: "kubejs:end_lootbag_rare"
 					type: "item"
 				}
 				{

@@ -474,11 +474,6 @@
 					item: "kubejs:mob_lootbag_uncommon"
 					type: "item"
 				}
-				{
-					id: "621A38F7268D5791"
-					item: "kubejs:mid_lootbag_rare"
-					type: "item"
-				}
 			]
 			shape: "octagon"
 			size: 2.0d
@@ -1223,7 +1218,6 @@
 					type: "item"
 				}
 				{
-					count: 3
 					id: "73562E86BA803172"
 					item: "kubejs:food_lootbag_epic"
 					type: "item"
@@ -1448,11 +1442,6 @@
 			id: "4BF6461697886B3C"
 			rewards: [
 				{
-					id: "52DD83D88D172DD6"
-					item: "kubejs:mid_lootbag_uncommon"
-					type: "item"
-				}
-				{
 					count: 32
 					id: "4C5320074479A7AA"
 					item: "wiredredstone:stone_plate"
@@ -1496,11 +1485,6 @@
 			hide: false
 			id: "07718C17A9D7B520"
 			rewards: [
-				{
-					id: "7C35BD09078A081F"
-					item: "kubejs:mid_lootbag_uncommon"
-					type: "item"
-				}
 				{
 					count: 32
 					id: "7E23CAE1C0DBE0DE"
@@ -1546,11 +1530,6 @@
 			id: "516770D6021CB159"
 			rewards: [
 				{
-					id: "10D23287A774D323"
-					item: "kubejs:mid_lootbag_uncommon"
-					type: "item"
-				}
-				{
 					count: 32
 					id: "2B92E02E0436CF57"
 					item: "wiredredstone:stone_plate"
@@ -1594,11 +1573,6 @@
 			hide: false
 			id: "40F03AD46D05D4D6"
 			rewards: [
-				{
-					id: "3B526C5674253188"
-					item: "kubejs:mid_lootbag_uncommon"
-					type: "item"
-				}
 				{
 					count: 32
 					id: "2CCB6FB915C0431E"
@@ -1688,11 +1662,6 @@
 			id: "640AF18C7CB4D718"
 			rewards: [
 				{
-					id: "2CC3AB664CE97D45"
-					item: "kubejs:mid_lootbag_uncommon"
-					type: "item"
-				}
-				{
 					count: 32
 					id: "68E022869B43B33A"
 					item: "wiredredstone:stone_plate"
@@ -1737,11 +1706,6 @@
 			id: "6DB7801CA77EF899"
 			rewards: [
 				{
-					id: "5E0D803828F09251"
-					item: "kubejs:mid_lootbag_uncommon"
-					type: "item"
-				}
-				{
 					count: 32
 					id: "307503E1C40C8091"
 					item: "wiredredstone:stone_plate"
@@ -1785,11 +1749,6 @@
 			hide: false
 			id: "5EA1A5489C92891C"
 			rewards: [
-				{
-					id: "3F328FD210B710E6"
-					item: "kubejs:mid_lootbag_uncommon"
-					type: "item"
-				}
 				{
 					count: 32
 					id: "2997C2F949531D46"

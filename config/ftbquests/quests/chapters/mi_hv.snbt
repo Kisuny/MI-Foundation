@@ -312,12 +312,6 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "246E50877A1360E2"
-					item: "kubejs:mob_lootbag_epic"
-					type: "item"
-				}
-				{
 					count: 2
 					id: "554D4FA4AC5B667F"
 					item: "kubejs:mid_lootbag_epic"
@@ -467,12 +461,6 @@
 					count: 2
 					id: "6912CD74AC626F1A"
 					item: "modern_industrialization:clean_stainless_steel_machine_casing"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "6A634DB16D718EBE"
-					item: "kubejs:mob_lootbag_epic"
 					type: "item"
 				}
 				{
@@ -760,12 +748,6 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "7DD86207A77D0585"
-					item: "kubejs:mob_lootbag_epic"
-					type: "item"
-				}
-				{
 					id: "370EA48F8CBFC210"
 					item: "kubejs:mid_lootbag_epic"
 					type: "item"
@@ -884,12 +866,6 @@
 				{
 					id: "31E5340A3DAD2F68"
 					item: "modern_industrialization:turbo_machine_hull"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "5CBEEF7BA8C17E11"
-					item: "kubejs:mob_lootbag_epic"
 					type: "item"
 				}
 				{
@@ -1062,12 +1038,6 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "649B4051BE24C436"
-					item: "kubejs:mob_lootbag_epic"
-					type: "item"
-				}
-				{
 					id: "1E4D03393D96BA09"
 					item: "kubejs:mid_lootbag_epic"
 					type: "item"
@@ -1105,12 +1075,6 @@
 					type: "item"
 				}
 				{
-					count: 3
-					id: "1163713ADF910799"
-					item: "kubejs:mob_lootbag_epic"
-					type: "item"
-				}
-				{
 					id: "3AA2FB6C6919E232"
 					item: "kubejs:mid_lootbag_epic"
 					type: "item"
@@ -1140,12 +1104,6 @@
 				{
 					id: "614CFF172DE7ABB4"
 					item: "modern_industrialization:turbo_machine_hull"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "231E888DEC71D129"
-					item: "kubejs:mob_lootbag_epic"
 					type: "item"
 				}
 				{

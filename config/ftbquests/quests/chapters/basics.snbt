@@ -112,19 +112,6 @@
 			dependencies: ["08FC12B517294C1C"]
 			description: [""]
 			id: "656AA3506B3014E7"
-			rewards: [
-				{
-					id: "375F745FBEA9C1D3"
-					item: "kubejs:food_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "4377163119604FC1"
-					item: "kubejs:food_lootbag_rare"
-					type: "item"
-				}
-			]
 			shape: "diamond"
 			subtitle: "Gotta start somewhere"
 			tasks: [{
@@ -146,25 +133,17 @@
 			dependencies: ["656AA3506B3014E7"]
 			description: [" "]
 			id: "6108CA80D4D2A02C"
-			rewards: [
-				{
-					id: "0E42342DBEE495E5"
-					item: "kubejs:food_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "054AD76AA05E3FE2"
-					item: {
-						Count: 1b
-						id: "gag:escape_rope"
-						tag: {
-							Damage: 0
-						}
+			rewards: [{
+				id: "054AD76AA05E3FE2"
+				item: {
+					Count: 1b
+					id: "gag:escape_rope"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "&lStill quite primitive&r"
 			tasks: [{
@@ -222,12 +201,6 @@
 			id: "5068CA0533B3F71D"
 			rewards: [
 				{
-					id: "0EAD38AB5F4B1168"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
 					id: "55F0B73406C36B16"
 					item: "kubejs:early_lootbag_uncommon"
 					team_reward: true
@@ -263,12 +236,6 @@
 			id: "17487851007B3F05"
 			rewards: [
 				{
-					id: "5121DC1277666F97"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
 					id: "50E61BE72D43F476"
 					item: "kubejs:early_lootbag_uncommon"
 					team_reward: true
@@ -303,12 +270,6 @@
 			description: [""]
 			id: "1B414D1639DDE165"
 			rewards: [
-				{
-					id: "7A8BB6FD436E3676"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
 				{
 					id: "0E89757C90B55AC9"
 					item: "kubejs:early_lootbag_uncommon"
@@ -423,19 +384,6 @@
 			dependencies: ["0CD952E1802D535C"]
 			description: [""]
 			id: "56707E7CCE7EA9F7"
-			rewards: [
-				{
-					id: "778A3C47168AC2C5"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "0A2FC0907317EBE2"
-					item: "kubejs:food_lootbag_rare"
-					type: "item"
-				}
-			]
 			shape: "diamond"
 			subtitle: "&lWHY CAN'T I CRAFT A FURNACE?&r"
 			tasks: [{
@@ -525,11 +473,6 @@
 				"Что может быть удобнее чем &6ручной верстак&r?"
 			]
 			id: "1C16A331F0E34B9A"
-			rewards: [{
-				id: "154EA631B88293B6"
-				item: "kubejs:food_lootbag_uncommon"
-				type: "item"
-			}]
 			shape: "diamond"
 			tasks: [{
 				id: "730466E7D0754FB7"
@@ -580,20 +523,12 @@
 				"Но у всего есть минусы, коптильня &oне позволяет&r готовить что-то ещё, кроме еды."
 			]
 			id: "59AC876BF2E8F2BF"
-			rewards: [
-				{
-					id: "598C13838DED4A87"
-					item: "kubejs:food_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 3
-					id: "11809765AEE5FBD7"
-					item: "minecraft:smoker"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 3
+				id: "11809765AEE5FBD7"
+				item: "minecraft:smoker"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "Captain"
 			tasks: [{
@@ -608,20 +543,12 @@
 			dependencies: ["271D55F97C071D7F"]
 			description: [""]
 			id: "40635FEA30A96883"
-			rewards: [
-				{
-					id: "69447C320F1FD10A"
-					item: "kubejs:food_lootbag_rare"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 16
-					id: "69CDF6A9EE80B640"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 16
+				id: "69CDF6A9EE80B640"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "Basic armoury"
 			tasks: [
@@ -756,20 +683,13 @@
 			dependencies: ["34F267D4B9230EE8"]
 			description: [""]
 			id: "2AB0AE2876A1FF03"
-			rewards: [
-				{
-					count: 32
-					id: "76CDDC30D2572BFF"
-					item: "minecraft:stone"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "221D5868DE51D933"
-					item: "kubejs:food_lootbag_rare"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 32
+				id: "76CDDC30D2572BFF"
+				item: "minecraft:stone"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "Not a criminal"
 			tasks: [{
@@ -849,19 +769,12 @@
 				"Так же была добавлена так называемая механика ловле «&3Существ&r», это значит, что в какой-то момент вы сможете ловить &oне только разнообразные предметы&r из глубин океана, но и существ с которыми впоследствии можно делать всё что вам захочется, разводить, убивать и т.д. "
 			]
 			id: "7BE626B4546B2C7A"
-			rewards: [
-				{
-					id: "568FF06BD630CC30"
-					item: "kubejs:early_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "4991C3219FDFE18D"
-					item: "kubejs:food_lootbag_rare"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "568FF06BD630CC30"
+				item: "kubejs:early_lootbag_uncommon"
+				team_reward: true
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "FishNets"
 			tasks: [{
