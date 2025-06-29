@@ -740,8 +740,8 @@ let end = {
         new ItemOfBag('modern_industrialization:large_steam_turbine',1,25),
         new ItemOfBag('modern_industrialization:nuclear_reactor',1,15),
         new ItemOfBag('modern_industrialization:satellite',1,25),   
-        new ItemOfBag('neepmeat:plc',1,100),
-        new ItemOfBag('ad_astra:tier_4_rocket',1,20),
+        new ItemOfBag('neepmeat:plc',1,90),
+        new ItemOfBag('ad_astra:tier_4_rocket',1,5),
         new ItemOfBag('fluxnetworks:gargantuan_flux_storage',1,15), 
     ], 1),
     rare: new Bag([
