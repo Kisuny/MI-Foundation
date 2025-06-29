@@ -140,8 +140,9 @@ LootJS.modifiers((event) => {
             p.limitCount([3, 70])
         })
         .pool((p) => {
-            p.randomChance(0.4)
+            p.randomChance(0.2)
             p.addLoot('numismatic-overhaul:silver_coin')
+            p.limitCount([1, 20])
         })
     });
 
@@ -152,12 +153,12 @@ LootJS.modifiers((event) => {
         .pool((p) => {
             p.randomChance(0.6)
             p.addLoot('numismatic-overhaul:bronze_coin')
-            p.limitCount([20, 70])
+            p.limitCount([40, 90])
         })
         .pool((p) => {
-            p.randomChance(0.4)
+            p.randomChance(0.2)
             p.addLoot('numismatic-overhaul:silver_coin')
-            p.limitCount([4, 22])
+            p.limitCount([8, 40])
         })
 
         event
@@ -178,43 +179,14 @@ LootJS.modifiers((event) => {
         .addLootTableModifier(table)
         .pool((p) => {
             p.randomChance(0.6)
-            p.addLoot('numismatic-overhaul:bronze_coin')
-            p.limitCount([50, 100])
-        })
-        .pool((p) => {
-            p.randomChance(0.37)
             p.addLoot('numismatic-overhaul:silver_coin')
-            p.limitCount([8, 22])
+            p.limitCount([16, 60])
         })
         .pool((p) => {
-            p.randomChance(0.15)
+            p.randomChance(0.2)
             p.addLoot('numismatic-overhaul:gold_coin')
-            p.limitCount([0, 6])
+            p.limitCount([1, 6])
         })
-
-        event
-        .addLootTableModifier(table)
-        .randomChance(0.6)
-        .addLoot('kubejs:reforge_rune')
-
-        event
-        .addLootTableModifier(table)
-        .randomChance(0.25)
-        .addWeightedLoot(1, commonArtifacts)
-
-        let relicex = ['relicex:tome', 'relicex:lesser_orb_of_regret']
-        relicex.forEach(relicex_item => {
-        event
-            .addLootTableModifier(table)
-            .randomChance(0.10)
-            .addLoot(relicex_item)
-        });
-    
-        
-        event
-        .addLootTableModifier(table)
-        .randomChance(0.1)
-        .addLoot(['relicex:greater_orb_of_regret'])
     });
 
     // mines
@@ -296,7 +268,7 @@ LootJS.modifiers((event) => {
                 [
                     LootEntry.of("numismatic-overhaul:bronze_coin").withWeight(100).limitCount([10, 80]),
                     LootEntry.of("numismatic-overhaul:silver_coin").withWeight(50).limitCount([10, 25]),
-                    LootEntry.of("numismatic-overhaul:gold_coin").withWeight(10).limitCount([1]),
+                    LootEntry.of("numismatic-overhaul:gold_coin").withWeight(30).limitCount([1, 4]),
                 ]
             )
         })
@@ -386,6 +358,19 @@ LootJS.modifiers((event) => {
         .addLootTableModifier(['bosses_of_mass_destruction:chests/lich_tower', 'terralith:spire/treasure', 'friendsandfoes:barrels/iceologer_cabin', 'friendsandfoes:chests/iceologer_cabin'])
         .randomChance(0.8)
         .addLoot('endrem:cold_eye')
+
+    event
+        .addLootTypeModifier(LootType.CHEST)
+        .randomChance(0.001)
+        .addLoot('relicex:tome')
+    event
+        .addLootTypeModifier(LootType.CHEST)
+        .randomChance(0.01)
+        .addLoot('relicex:lesser_orb_of_regret')
+    event
+        .addLootTypeModifier(LootType.CHEST)
+        .randomChance(0.0005)
+        .addLoot('relicex:greater_orb_of_regret')
 
     //creeperoverhaul custome loot
     event
