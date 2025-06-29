@@ -81,7 +81,7 @@ LootJS.modifiers((event) => {
             'minecraft:chests/shipwreck_treasure',
             'minecraft:chests/igloo_chest',
             'minecraft:chests/ancient_city',
-
+            /probablychests:entities\/.*_chest_mimic/,
         ],
         mines_pools: [
             /dungeons_arise:chests\/mushroom_mines\/mushroom_mines_.*/,
