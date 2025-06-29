@@ -16,8 +16,8 @@
 			image: "botania:block/purple_mystical_flower"
 			rotation: -30.0d
 			width: 0.8d
-			x: -3.3908163265306044d
-			y: -9.023129251700652d
+			x: 1.1765306122449033d
+			y: -7.561224489795919d
 		}
 		{
 			click: ""
@@ -29,8 +29,8 @@
 			image: "botania:block/cyan_mystical_flower"
 			rotation: 30.0d
 			width: 0.8d
-			x: -2.6153061224489704d
-			y: -9.043537414965947d
+			x: 1.8551020408163197d
+			y: -7.554421768707478d
 		}
 	]
 	order_index: 1
@@ -90,6 +90,8 @@
 				"Только &l<shake>самый</shake>&r удачивлый сможет найти символ лепреконов!"
 			]
 			hide: true
+			hide_dependency_lines: false
+			hide_dependent_lines: true
 			id: "0C7F2FDED403B652"
 			rewards: [
 				{
@@ -189,7 +191,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["27D8C35FD6F61515"]
+			dependencies: [
+				"27D8C35FD6F61515"
+				"0C7F2FDED403B652"
+			]
 			description: [
 				"One &#FEECD6Ink Flask&r can have only &#9BB8EDone ink type&r. Ink Assortment can contain all types at once, but has less storage space."
 				"{@pagebreak}"
@@ -209,7 +214,7 @@
 				item: "spectrum:ink_assortment"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -3.5d
 			y: -2.0d
 		}
 		{
@@ -1162,7 +1167,10 @@
 			y: 2.4959183673469525d
 		}
 		{
-			dependencies: ["347CB25B0C49349B"]
+			dependencies: [
+				"347CB25B0C49349B"
+				"4973809A8C9088E0"
+			]
 			description: [
 				"A more advanced station for creating potions. Can also create some other liquids."
 				"{@pagebreak}"
@@ -1306,7 +1314,10 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["641B93E0D035568B"]
+			dependencies: [
+				"641B93E0D035568B"
+				"0C7F2FDED403B652"
+			]
 			description: [
 				"Enchant your boots with power. More power, more speed!"
 				"{@pagebreak}"
@@ -1321,22 +1332,29 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			tasks: [{
-				id: "286F4F45FA627565"
-				item: {
-					Count: 1b
-					id: "spectrum:seven_league_boots"
-					tag: {
-						Enchantments: [{
-							id: "minecraft:power"
-							lvl: 5s
-						}]
+			tasks: [
+				{
+					id: "286F4F45FA627565"
+					item: {
+						Count: 1b
+						id: "spectrum:seven_league_boots"
+						tag: {
+							Enchantments: [{
+								id: "minecraft:power"
+								lvl: 5s
+							}]
+						}
 					}
+					match_nbt: true
+					type: "item"
+					weak_nbt_match: true
 				}
-				match_nbt: true
-				type: "item"
-				weak_nbt_match: true
-			}]
+				{
+					id: "7539A1653FCE35E2"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+			]
 			x: 14.5d
 			y: 4.0d
 		}
@@ -1592,7 +1610,10 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["3B68A7B5A1BB4D44"]
+			dependencies: [
+				"3B68A7B5A1BB4D44"
+				"0EBE1EF0925CB824"
+			]
 			description: [
 				"{image:quest_images:textures/item/spectrum/spirit_instiller.png width:200 height:200 align:1}"
 				"{@pagebreak}"
@@ -1731,8 +1752,8 @@
 					type: "item"
 				}
 			]
-			x: -3.0d
-			y: -8.5d
+			x: 1.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["3B68A7B5A1BB4D44"]
@@ -2027,6 +2048,7 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
 			tasks: [{
 				advancement: "spectrum:midgame/collect_mob_head_using_treasure_hunter"
 				criterion: ""
@@ -2127,14 +2149,14 @@
 				team_reward: true
 				type: "item"
 			}]
-			size: 0.7d
+			size: 0.5d
 			tasks: [{
 				id: "23C6F69988240CF0"
 				item: "spectrum:memory"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -8.5d
+			x: 1.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["09C683DBFC6D54BD"]
@@ -2164,7 +2186,7 @@
 					type: "item"
 				}
 			]
-			size: 0.7d
+			size: 0.5d
 			subtitle: "From the Gigman's lab!"
 			tasks: [{
 				id: "7060F9D52CD97144"
@@ -2182,8 +2204,8 @@
 				type: "item"
 			}]
 			title: "It's a pig! It's a chicken! It's a ..."
-			x: -5.0d
-			y: -8.5d
+			x: 1.5d
+			y: -5.25d
 		}
 		{
 			dependencies: ["182EBD1105CF57A7"]
@@ -2291,7 +2313,7 @@
 				item: "spectrum:gilded_book"
 				type: "item"
 			}]
-			x: -9.385714285714288d
+			x: -9.0d
 			y: -6.5d
 		}
 		{
@@ -2315,7 +2337,7 @@
 				type: "item"
 			}]
 			title: "Blacked!"
-			x: -9.385714285714288d
+			x: -9.0d
 			y: -8.5d
 		}
 		{
@@ -2443,6 +2465,7 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
 			tasks: [{
 				advancement: "spectrum:midgame/collect_warden_head_using_treasure_hunter"
 				criterion: ""
@@ -2603,7 +2626,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["62BB9D5A8A9DD181"]
+			dependencies: [
+				"62BB9D5A8A9DD181"
+				"641B93E0D035568B"
+			]
 			description: [
 				"Entangled tank in a hand!"
 				"{@pagebreak}"
@@ -2621,7 +2647,10 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["23A6A609EE447218"]
+			dependencies: [
+				"23A6A609EE447218"
+				"641B93E0D035568B"
+			]
 			description: [
 				"Entangled chest in a hand!"
 				"{@pagebreak}"
@@ -3116,6 +3145,7 @@
 				item: "kubejs:magic_lootbag_rare"
 				type: "item"
 			}]
+			shape: "octagon"
 			tasks: [{
 				id: "4BEC17959C79FA29"
 				item: {
@@ -3129,7 +3159,7 @@
 				type: "item"
 			}]
 			title: "Blue Drills!"
-			x: 1.5d
+			x: -3.0d
 			y: -8.5d
 		}
 		{

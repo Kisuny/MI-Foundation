@@ -598,7 +598,7 @@
 				}
 			]
 			x: 6.5d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["190C18AB20216705"]
@@ -629,7 +629,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["271D55F97C071D7F"]
@@ -751,7 +751,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: -2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["656AA3506B3014E7"]
@@ -1144,7 +1144,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4A828E8EB7BF626F"]
@@ -1657,7 +1657,7 @@
 			}]
 			shape: "diamond"
 			tasks: [{
-				id: "064050FF5AD1763D"
+				id: "13BEBC0860C6934A"
 				item: "kibe:white_sleeping_bag"
 				type: "item"
 			}]

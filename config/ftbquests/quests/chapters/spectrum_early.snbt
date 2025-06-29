@@ -1800,30 +1800,6 @@
 			y: 12.5d
 		}
 		{
-			dependencies: ["5FCEB75E328CB0CC"]
-			description: [
-				"The &#FEECD6Crescent Clock&r shows the current phase of the &7moon&r. Unbelievable!"
-				"{@pagebreak}"
-				"&#FEECD6Часики&r показывают фазу &7луны&r, невероятно!"
-			]
-			hide: true
-			id: "18224AAFE87395E2"
-			rewards: [{
-				id: "782E8526E88885C0"
-				item: "kubejs:magic_lootbag_uncommon"
-				team_reward: true
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "01A099DA7BD39EE6"
-				item: "spectrum:crescent_clock"
-				type: "item"
-			}]
-			x: 17.5d
-			y: 11.0d
-		}
-		{
 			dependencies: ["21E3A44EA5EDD677"]
 			description: [
 				"By harnessing the powers of &#C7E2E9onyx&r, you have discovered a way to to create a &#d33b2bwireless redstone transmitter&r! It has a range of 12 blocks and can be set to different frequencies by applying pigment. RMB to swap between sending and recieving a signal."
@@ -2674,7 +2650,14 @@
 			shape: "diamond"
 			tasks: [{
 				id: "511E796221019C2F"
-				item: "fwaystones:waystone"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "fwaystones:waystones"
+					}
+				}
+				title: "Any #fwaystones:waystones"
 				type: "item"
 			}]
 			x: -0.5d
