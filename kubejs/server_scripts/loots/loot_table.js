@@ -365,7 +365,7 @@ LootJS.modifiers((event) => {
         .addLoot('relicex:tome')
     event
         .addLootTypeModifier(LootType.CHEST)
-        .randomChance(0.01)
+        .randomChance(0.02)
         .addLoot('relicex:lesser_orb_of_regret')
     event
         .addLootTypeModifier(LootType.CHEST)
