@@ -460,6 +460,20 @@ ServerEvents.recipes(event => {
         .itemOut('3x modern_industrialization:motor')
         .id('mif:assembler_caterium_alternate_motor_1')
 
+        event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('3x modern_industrialization:caterium_fine_wire')
+        .itemIn('modern_industrialization:silicon_n_doped_plate')
+        .itemIn('2x modern_industrialization:steel_plate')
+        .itemIn('3x #c:glass')
+        .itemOut('6x modern_industrialization:diode')
+
+    event.recipes.modern_industrialization.assembler(8, 200)
+        .itemIn('3x modern_industrialization:caterium_fine_wire')
+        .itemIn('modern_industrialization:silicon_plate')
+        .itemIn('2x modern_industrialization:steel_plate')
+        .itemIn('3x #c:glass')
+        .itemOut('3x modern_industrialization:diode')
+
     event.recipes.modern_industrialization.assembler(8, 200)
         .itemIn('modern_industrialization:electronic_circuit')
         .itemIn('2x modern_industrialization:caterium_rod')
