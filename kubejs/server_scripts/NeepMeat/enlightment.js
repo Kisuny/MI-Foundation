@@ -84,17 +84,4 @@ ServerEvents.recipes(event => {
           "amount": 1
         }
     });
-    // Entangled Binder
-    event.remove({id: 'entangled:item'})
-    event.recipes.neepmeat.enlightening({
-        "item_input": {
-          "resource": 'travelstaff:travel_staff',
-          "amount": 1
-        },
-        "data": 4096,
-        "output": {
-          "resource": 'entangled:item',
-          "amount": 1
-        }
-    });
 })

@@ -414,43 +414,6 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["15B26C9D718A777A"]
-			description: [
-				"This block can &4expand&r the number of available &ofaces&r of specified block and serve as a distant access point. To bind entangled block you must use &6Entangled binder&r. "
-				"{@pagebreak}"
-				"Данный блок &4может связаться с выбранным блоком&r с помощью &6Entangled binder&r и &4выступать для доступа к нему&r"
-			]
-			id: "4F9729DFAEAC4CB8"
-			rewards: [
-				{
-					id: "29347CFBB056614B"
-					item: {
-						Count: 1b
-						id: "entangled:block"
-						tag: { }
-					}
-					type: "item"
-				}
-				{
-					count: 4
-					id: "78A257624B003B61"
-					item: "architects_palette:unobtanium"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "7EBF2C0FC433F822"
-				item: {
-					Count: 1b
-					id: "entangled:block"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -6.5d
-			y: -5.5d
-		}
-		{
 			dependencies: [
 				"22DC92C228A96AF4"
 				"7AF5094534CEE44E"
@@ -2468,17 +2431,6 @@
 			}]
 			x: -7.0d
 			y: 7.0d
-		}
-		{
-			dependencies: ["4F9729DFAEAC4CB8"]
-			id: "070562129A81ABAB"
-			tasks: [{
-				id: "5A3AE70C6D4B8D2E"
-				item: "entangled:item"
-				type: "item"
-			}]
-			x: -5.5d
-			y: -5.5d
 		}
 		{
 			dependencies: ["48946D8D12B533AA"]

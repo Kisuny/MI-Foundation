@@ -1947,39 +1947,6 @@ ServerEvents.recipes(event => {
           "amount": 1
         }
     });
-    // Entangled Block
-    event.remove({ id: 'entangled:block' })
-    event.recipes.neepmeat.manufacture({
-        "base": {
-            "id": 'ae2:wireless_receiver'
-        },
-        "steps":[
-          {
-            "id": "neepmeat:combine",
-            "resource": 'ae2:spatial_cell_component_2'
-          },
-          {
-            "id": "neepmeat:combine",
-            "resource": 'neepmeat:control_unit'
-          },
-          {
-            "id": "neepmeat:combine",
-            "resource": 'neepmeat:meat_steel_component'
-          },
-          {
-            "id": "neepmeat:combine",
-            "resource": 'modern_industrialization:niobium_dust'
-          },
-          {
-            "id": "neepmeat:inject",
-            "resource": 'neepmeat:charged_work_fluid'
-          },
-        ],
-        "result": {
-          "resource": 'entangled:block',
-          "amount": 1
-        }
-    });
 
     // Caterium Transistor
     event.recipes.neepmeat.manufacture({
