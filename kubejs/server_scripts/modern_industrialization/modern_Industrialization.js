@@ -182,12 +182,12 @@ ServerEvents.recipes(event => {
         'CAC'
     ], {
         C: 'modern_industrialization:bronze_curved_plate',
-        A: 'modern_industrialization:electronic_circuit',
+        A: 'modern_industrialization:analog_circuit',
         P: 'modern_industrialization:piston'
     });
     event.recipes.modern_industrialization.assembler(8, 200)
         .itemIn('4x modern_industrialization:bronze_curved_plate')
-        .itemIn('2x modern_industrialization:electronic_circuit')
+        .itemIn('2x modern_industrialization:analog_circuit')
         .itemIn('2x modern_industrialization:piston')
         .itemOut('12x modern_industrialization:item_pipe')
 
@@ -201,13 +201,13 @@ ServerEvents.recipes(event => {
             'CAC'
         ], {
             C: 'modern_industrialization:bronze_curved_plate',
-            A: 'modern_industrialization:electronic_circuit',
+            A: 'modern_industrialization:analog_circuit',
             G: 'modern_industrialization:piston',
             D: `minecraft:${color.name}_dye`
         });
         event.recipes.modern_industrialization.assembler(8, 200)
             .itemIn('4x modern_industrialization:bronze_curved_plate')
-            .itemIn('2x modern_industrialization:electronic_circuit')
+            .itemIn('2x modern_industrialization:analog_circuit')
             .itemIn('2x modern_industrialization:piston')
             .itemIn(`minecraft:${color.name}_dye`)
             .itemOut(`12x modern_industrialization:${color.name}_item_pipe`)
@@ -219,13 +219,13 @@ ServerEvents.recipes(event => {
             'CAC'
         ], {
             C: 'modern_industrialization:bronze_curved_plate',
-            A: 'modern_industrialization:electronic_circuit',
+            A: 'modern_industrialization:analog_circuit',
             R: 'modern_industrialization:copper_rotor',
             P: `minecraft:${color.name}_stained_glass_pane`
         });
         event.recipes.modern_industrialization.assembler(8, 200)
             .itemIn('4x modern_industrialization:bronze_curved_plate')
-            .itemIn('2x modern_industrialization:electronic_circuit')
+            .itemIn('2x modern_industrialization:analog_circuit')
             .itemIn('2x modern_industrialization:copper_rotor')
             .itemIn(`minecraft:${color.name}_stained_glass_pane`)
             .itemOut(`12x modern_industrialization:${color.name}_fluid_pipe`)
@@ -238,13 +238,13 @@ ServerEvents.recipes(event => {
         'CAC'
     ], {
         C: 'modern_industrialization:bronze_curved_plate',
-        A: 'modern_industrialization:electronic_circuit',
+        A: 'modern_industrialization:analog_circuit',
         R: 'modern_industrialization:copper_rotor',
         P: 'minecraft:glass_pane'
     });
     event.recipes.modern_industrialization.assembler(8, 200)
         .itemIn('4x modern_industrialization:bronze_curved_plate')
-        .itemIn('2x modern_industrialization:electronic_circuit')
+        .itemIn('2x modern_industrialization:analog_circuit')
         .itemIn('2x modern_industrialization:copper_rotor')
         .itemIn('minecraft:glass_pane')
         .itemOut('12x modern_industrialization:fluid_pipe')

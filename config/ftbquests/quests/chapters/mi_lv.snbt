@@ -506,7 +506,7 @@
 				}
 			]
 			x: 6.0d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["54CEC7BE4B675E7C"]
@@ -2399,7 +2399,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 8.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["26128DB1415D22BC"]
@@ -2483,6 +2483,119 @@
 			}]
 			x: 9.5d
 			y: 22.0d
+		}
+		{
+			dependencies: ["47A87645847E6CCE"]
+			description: [
+				"Advanced pipes for moving items."
+				""
+				"The priority system works like this:"
+				"• For each extraction pipe, in order from smallest to largest &6extract priority&r, the pipe system calculates which items it can &6extract&r. If there are multiple suitable &3destinations&r for those items, the one with the highest &3insert priority&r takes precedence (Basically, the system chooses the largest difference in priorities)."
+				""
+				"• In &nblacklist mode&r, the pipe connection moves everything &lbut&r the items in the filter. In &nwhitelist mode&r, the pipe connection moves &lonly&r the items in the filter."
+				""
+				"• Pipes can move more items at once by adding &6motors&r to them."
+				""
+				"• Pipes can move items into themselves, causing them to be in a loop."
+				""
+				"&l&4P.S. You can also use a chisel to change the color of the pipes!&r&r"
+				"{@pagebreak}"
+				"Система приоритетов работает следующим образом:"
+				""
+				"• Для каждой трубы извлечения, в порядке от наименьшего к наибольшему приоритету извлечения, &6система труб&r рассчитывает, какие предметы она может &6извлечь&r. Если для этих предметов есть &3несколько подходящих мест&r назначения, приоритет отдается тому, у которого &3самый высокий приоритет&r вставки (по сути, система выбирает наибольшую разницу в приоритетах)."
+				""
+				"• В режиме &nчерного списка&r трубное соединение перемещает все, кроме предметов в фильтре. "
+				""
+				"• В режиме &nбелого списка&r трубное соединение перемещает только предметы, указанные в фильтре."
+				""
+				"• Трубы могут перемещать сразу несколько предметов, если к ним добавить &6мотор&r."
+				""
+				"• Трубы не защищены от засовывания предметов самих в себя, из-за чего предметы могут циклично ходить по трубам."
+				""
+				"&l&4P.S. Вы также можете использовать чизель для того чтобы менять цвет труб!&r&r"
+			]
+			id: "4F1F0FC36448816A"
+			rewards: [
+				{
+					count: 12
+					id: "19958BE545A8B6C2"
+					item: "modern_industrialization:item_pipe"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "46BA1C33C754190F"
+					item: "kubejs:mid_lootbag_rare"
+					type: "item"
+				}
+				{
+					id: "086F8A9F6418AE68"
+					item: {
+						Count: 1b
+						id: "rechiseled:chisel"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				count: 64L
+				id: "4C8376614E149099"
+				item: "modern_industrialization:item_pipe"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["47A87645847E6CCE"]
+			description: [
+				"Advanced pipes for moving fluids. Each network of connected pipes only moves one fluid. "
+				""
+				"The pipes with a higher priority are processed first."
+				""
+				"&l&4P.S. You can also use a chisel to change the color of the pipes!&r&r"
+				"{@pagebreak}"
+				"Каждая сеть соединенных труб перемещает только одну жидкость. "
+				""
+				"Трубы с более высоким приоритетом обрабатываются первыми."
+				""
+				"&l&4P.S. Вы также можете использовать чизель для того чтобы менять цвет труб!&r&r"
+			]
+			id: "2D7B50C0A5B7BF13"
+			rewards: [
+				{
+					count: 12
+					id: "05377CA4B911DF8C"
+					item: "modern_industrialization:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "74F9F671E112A2A1"
+					item: "kubejs:mid_lootbag_rare"
+					type: "item"
+				}
+				{
+					id: "634FCAF5E345CF6F"
+					item: {
+						Count: 1b
+						id: "rechiseled:chisel"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				count: 64L
+				id: "104F8F70298BEC00"
+				item: "modern_industrialization:fluid_pipe"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
 		}
 	]
 	title: "Electricity | LV"
