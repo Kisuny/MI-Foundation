@@ -2486,8 +2486,8 @@
 				type: "observation"
 			}]
 			title: "Loot goblins"
-			x: 3.5d
-			y: -2.0d
+			x: 1.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["68D1FA710C01D507"]
@@ -2670,8 +2670,8 @@
 				type: "observation"
 			}]
 			title: "Many Many goblins"
-			x: 1.5d
-			y: -2.5d
+			x: 3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["68D1FA710C01D507"]
@@ -2994,6 +2994,31 @@
 			}]
 			x: -3.5d
 			y: -2.0d
+		}
+		{
+			dependencies: ["4AA5A45895F4CB42"]
+			id: "36B33DB93D7A1FF4"
+			rewards: [{
+				count: 20
+				id: "44A863820CA66E62"
+				item: "vitalize:experience_cubed"
+				random_bonus: 70
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				id: "4C71C0DC5CDC4529"
+				item: {
+					Count: 1b
+					id: "treeaxe:diamond_treeaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
 		}
 	]
 	title: "Exploration"
