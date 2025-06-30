@@ -303,8 +303,8 @@
 				item: "modern_industrialization:centrifuge"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 1.0d
+			x: 4.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -788,8 +788,8 @@
 				item: "modern_industrialization:ruby_dust"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -0.5d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["73C48D66EDCF4D19"]
@@ -800,8 +800,8 @@
 				item: "modern_industrialization:chromium_crushed_dust"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -0.5d
+			x: 6.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["11E213A3926FDF66"]
@@ -812,8 +812,8 @@
 				item: "modern_industrialization:chromium_hydrochloric_solution_bucket"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -0.5d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["128ECB644D303AF3"]
@@ -878,8 +878,8 @@
 				item: "modern_industrialization:chromium_tiny_dust"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -0.5d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["36449FA11F79E8C6"]
@@ -931,7 +931,7 @@
 				item: "modern_industrialization:ethylene_bucket"
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 2.5d
 		}
 		{
@@ -2182,15 +2182,16 @@
 					type: "item"
 				}
 			]
-			size: 1.5d
+			shape: "gear"
+			size: 3.0d
 			subtitle: "Pied Piper"
 			tasks: [{
 				id: "0BEE5B4F6CA43280"
 				item: "neepmeat:pipe_driver"
 				type: "item"
 			}]
-			x: 0.75d
-			y: -2.25d
+			x: 4.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["05E7324B1FC9421F"]
@@ -2203,6 +2204,7 @@
 				"Поставьте драйвер хранения к хранилищу из которого будут запрашиваться предметы и присоедините трубный драйвер к сети труб. Теперь в нужном месте подсоедините ручной запросчик. "
 			]
 			hide: false
+			hide_details_until_startable: false
 			id: "29BACBBC96847851"
 			rewards: [{
 				id: "17F11620F54AAC08"
@@ -2222,8 +2224,8 @@
 					type: "item"
 				}
 			]
-			x: 0.7678571428571388d
-			y: -3.553571428571427d
+			x: 4.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["66D16ADD44115DC6"]
@@ -2420,8 +2422,8 @@
 				item: "modern_industrialization:manganese_crushed_dust"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.5d
+			x: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["175C75FDF524874C"]
@@ -2432,8 +2434,8 @@
 				item: "modern_industrialization:manganese_tiny_dust"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 2.5d
+			x: 7.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1F9C854252F7DAAF"]
@@ -2454,8 +2456,8 @@
 				item: "modern_industrialization:manganese_dust"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 2.5d
+			x: 9.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["65560ED5F75185CE"]
@@ -2466,8 +2468,8 @@
 				item: "modern_industrialization:manganese_sulfuric_solution_bucket"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 2.5d
+			x: 6.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["29BACBBC96847851"]
@@ -2484,6 +2486,7 @@
 				"- Если присоединить драйвер хранения к выходящей стороне фабрикатора, фабрикатор будет крафтить предмет по запросу"
 			]
 			hide: false
+			hide_details_until_startable: false
 			id: "4944AB502FB37416"
 			rewards: [
 				{
@@ -2503,8 +2506,8 @@
 				item: "neepmeat:fabricator"
 				type: "item"
 			}]
-			x: 0.7678571428571388d
-			y: -4.910714285714281d
+			x: 4.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["0F013F8E4DF06E6B"]
@@ -2613,8 +2616,8 @@
 				item: "scannable:scanner"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -2.25d
+			x: 0.7749999999999986d
+			y: -2.283333333333342d
 		}
 		{
 			dependencies: ["3310143D188D3CF6"]
@@ -2631,8 +2634,8 @@
 				item: "scannable:range_module"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -4.5d
+			x: 0.7749999999999986d
+			y: -4.533333333333342d
 		}
 		{
 			dependencies: ["3310143D188D3CF6"]
@@ -2649,8 +2652,8 @@
 				item: "scannable:entity_module"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -4.0d
+			x: 1.2749999999999986d
+			y: -4.033333333333342d
 		}
 		{
 			dependencies: ["3310143D188D3CF6"]
@@ -2667,8 +2670,8 @@
 				item: "scannable:friendly_entity_module"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -4.0d
+			x: 0.2749999999999986d
+			y: -4.033333333333342d
 		}
 		{
 			dependencies: ["3310143D188D3CF6"]
@@ -2685,8 +2688,8 @@
 				item: "scannable:hostile_entity_module"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -4.5d
+			x: 1.7749999999999986d
+			y: -4.533333333333342d
 		}
 		{
 			dependencies: ["3310143D188D3CF6"]
@@ -2703,8 +2706,8 @@
 				item: "scannable:block_module"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -4.5d
+			x: -0.22500000000000142d
+			y: -4.533333333333342d
 		}
 		{
 			dependencies: ["3310143D188D3CF6"]
@@ -2721,8 +2724,8 @@
 				item: "scannable:common_ores_module"
 				type: "item"
 			}]
-			x: 2.5d
-			y: -5.0d
+			x: 0.2749999999999986d
+			y: -5.033333333333342d
 		}
 		{
 			dependencies: ["3310143D188D3CF6"]
@@ -2739,8 +2742,8 @@
 				item: "scannable:rare_ores_module"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -5.0d
+			x: 1.2749999999999986d
+			y: -5.033333333333342d
 		}
 		{
 			dependencies: ["3310143D188D3CF6"]
@@ -2757,8 +2760,8 @@
 				item: "scannable:fluid_module"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -5.5d
+			x: 0.7749999999999986d
+			y: -5.533333333333342d
 		}
 	]
 	title: "Industrialization | MV"
