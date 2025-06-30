@@ -3286,10 +3286,16 @@
 				"This block can &4expand&r the number of available &ofaces&r of specified block and serve as a distant access point. To bind entangled block you must use &6Entangled binder&r. "
 				""
 				"This also allows you to automate the magic furnace from the &5Mythic Metals&r mod, since its output is at the bottom, but you can only access the bottom by using &lEntangled Block&r."
+				""
+				"• This block &4does not work&r between worlds."
+				"• Max range in which entangled blocks can be bound: &4128 blocks&r"
 				"{@pagebreak}"
 				"Данный блок &4может связаться с выбранным блоком&r с помощью &6Entangled binder&r и &4выступать для доступа к нему&r"
 				""
 				"Это так же позволяет автоматизировать магические печки из мода &5Mythic Metals&r, т.к. выход у неё находится снизу, но доступ к низу можно получить только используя &lEntangled Block&r."
+				""
+				"• Данный блок &4не работает&r между мирами."
+				"• максимальный диапазон, в котором могут быть связаны Entangled блоки: &4128 блоков&r"
 			]
 			id: "4F9729DFAEAC4CB8"
 			rewards: [{
