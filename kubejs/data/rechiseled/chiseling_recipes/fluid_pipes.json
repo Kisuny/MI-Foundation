@@ -1,0 +1,60 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "modern_industrialization:fluid_pipe"
+    },
+    {
+      "item": "modern_industrialization:white_fluid_pipe"
+    },
+    {
+      "item": "modern_industrialization:orange_fluid_pipe"
+    },
+    {
+      "item": "modern_industrialization:magenta_fluid_pipe"
+    },
+    {
+      "item": "modern_industrialization:light_blue_fluid_pipe"
+    },
+    {
+      "item": "modern_industrialization:yellow_fluid_pipe"
+    },
+    {
+      "item": "modern_industrialization:lime_fluid_pipe"
+    },
+    {
+      "item": "modern_industrialization:pink_fluid_pipe"
+    },
+    {
+      "item": "modern_industrialization:gray_fluid_pipe"
+    },
+    {
+      "item": "modern_industrialization:gray_fluid_pipe"
+    },
+    {
+      "item": "modern_industrialization:red_fluid_pipe"
+    },
+    {
+      "item": "modern_industrialization:green_fluid_pipe"
+    },
+    {
+      "item": "modern_industrialization:brown_fluid_pipe"
+    },
+    {
+      "item": "modern_industrialization:blue_fluid_pipe"
+    },
+    {
+      "item": "modern_industrialization:purple_fluid_pipe"
+    },
+    {
+      "item": "modern_industrialization:cyan_fluid_pipe"
+    },
+    {
+      "item": "modern_industrialization:black_fluid_pipe"
+    },
+    {
+      "item": "modern_industrialization:light_gray_fluid_pipe"
+    }
+  ],
+  "overwrite": false
+}
