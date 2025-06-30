@@ -297,6 +297,7 @@ ServerEvents.tags('entity_type', event => {
         'rottencreatures:immortal',
         /lootgoblins:*/,
         /goblintraders:*/,
+        /probablychests:*/,
     ]
     event.add('spirit:soul_cage_blacklisted', SPIRIT_MOBS_BLACKLIST)
     event.add('spirit:collect_blacklisted', SPIRIT_MOBS_BLACKLIST)
