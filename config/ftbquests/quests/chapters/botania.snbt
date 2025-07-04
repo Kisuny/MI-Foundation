@@ -908,15 +908,16 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
+			shape: "gear"
+			size: 2.0d
 			subtitle: "Produces mystical flowers"
 			tasks: [{
 				id: "18AE9686F134549D"
 				item: "botania:jaded_amaranthus"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -7.0d
+			x: -8.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["7E5C457A7E9FC7E7"]
@@ -1171,8 +1172,8 @@
 				item: "botania:hyacidus"
 				type: "item"
 			}]
-			x: -7.5d
-			y: -6.5d
+			x: -5.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["7E5C457A7E9FC7E7"]
