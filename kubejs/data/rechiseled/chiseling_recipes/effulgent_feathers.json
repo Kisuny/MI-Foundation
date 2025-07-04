@@ -48,6 +48,9 @@
     },
     {
       "item": "spectral-decorations:light_gray_effulgent_feather"
+    },
+    {
+      "item": "spectrum:effulgent_feather"
     }
   ],
   "overwrite": false

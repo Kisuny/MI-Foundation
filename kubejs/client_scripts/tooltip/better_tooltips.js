@@ -59,6 +59,7 @@ ItemEvents.tooltip(tooltip => {
             "fwaystones:deepslate_brick_waystone",
             "fwaystones:blackstone_brick_waystone",
             "fwaystones:red_desert_waystone",
+            "spectrum:effulgent_feather"
         ]
 
         global.dyeColors.forEach(color => {
