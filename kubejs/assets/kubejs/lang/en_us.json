@@ -38,6 +38,7 @@
     "tag.mif.basic_gemstone_powders": "Basic Gemstone Powders",
 
     "item.kubejs.fishing_rods.tooltip": "Never fishes out living creatures.",
+    "item.kubejs.chisel_item.tooltip": "Can be Chiseled!",
     "kubejs.press_button": "Hold ",
     "kubejs.for_details": "for more information",
     "kubejs.how_to_get.text": "How to obtain:",

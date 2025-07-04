@@ -1,0 +1,54 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "wiredredstone:white_insulated_wire"
+    },
+    {
+      "item": "wiredredstone:orange_insulated_wire"
+    },
+    {
+      "item": "wiredredstone:magenta_insulated_wire"
+    },
+    {
+      "item": "wiredredstone:light_blue_insulated_wire"
+    },
+    {
+      "item": "wiredredstone:yellow_insulated_wire"
+    },
+    {
+      "item": "wiredredstone:lime_insulated_wire"
+    },
+    {
+      "item": "wiredredstone:pink_insulated_wire"
+    },
+    {
+      "item": "wiredredstone:gray_insulated_wire"
+    },
+    {
+      "item": "wiredredstone:red_insulated_wire"
+    },
+    {
+      "item": "wiredredstone:green_insulated_wire"
+    },
+    {
+      "item": "wiredredstone:brown_insulated_wire"
+    },
+    {
+      "item": "wiredredstone:blue_insulated_wire"
+    },
+    {
+      "item": "wiredredstone:purple_insulated_wire"
+    },
+    {
+      "item": "wiredredstone:cyan_insulated_wire"
+    },
+    {
+      "item": "wiredredstone:black_insulated_wire"
+    },
+    {
+      "item": "wiredredstone:light_gray_insulated_wire"
+    }
+  ],
+  "overwrite": false
+}

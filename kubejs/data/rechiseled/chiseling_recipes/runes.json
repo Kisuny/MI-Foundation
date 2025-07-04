@@ -1,0 +1,54 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "kibe:white_rune"
+    },
+    {
+      "item": "kibe:orange_rune"
+    },
+    {
+      "item": "kibe:magenta_rune"
+    },
+    {
+      "item": "kibe:light_blue_rune"
+    },
+    {
+      "item": "kibe:yellow_rune"
+    },
+    {
+      "item": "kibe:lime_rune"
+    },
+    {
+      "item": "kibe:pink_rune"
+    },
+    {
+      "item": "kibe:gray_rune"
+    },
+    {
+      "item": "kibe:red_rune"
+    },
+    {
+      "item": "kibe:green_rune"
+    },
+    {
+      "item": "kibe:brown_rune"
+    },
+    {
+      "item": "kibe:blue_rune"
+    },
+    {
+      "item": "kibe:purple_rune"
+    },
+    {
+      "item": "kibe:cyan_rune"
+    },
+    {
+      "item": "kibe:black_rune"
+    },
+    {
+      "item": "kibe:light_gray_rune"
+    }
+  ],
+  "overwrite": false
+}

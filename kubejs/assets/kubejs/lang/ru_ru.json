@@ -275,6 +275,7 @@
     "item.kubejs.moonstone_singularity": "Сингулярность лунокамня",
 
     "item.kubejs.fishing_rods.tooltip": "Никогда не вылавливает живых существ",
+    "item.kubejs.chisel_item.tooltip": "Можно использовать в чизиле!",
     "kubejs.press_button": "Зажми ",
     "kubejs.for_details": "для подробной информации",
     "kubejs.how_to_get.text": "Способ получения:",

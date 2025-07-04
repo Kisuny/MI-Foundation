@@ -31,10 +31,45 @@ ItemEvents.tooltip(tooltip => {
             'gofish:soul_rod',
             'gofish:matrix_rod',
             'gofish:celestial_rod',
-            'gofish:ender_rod',
+            'gofish:ender_rod'      
         ]
         fishingRods.forEach(rod => {
             tooltip.add(rod, Text.translate('item.kubejs.fishing_rods.tooltip').gray())
+        });
+
+        const canBeChiseled = [
+            "modern_industrialization:fluid_pipe",
+            "modern_industrialization:item_pipe",
+            "modern_industrialization:me_wire",
+            "ae2:fluix_smart_cable",
+            "ae2:fluix_glass_cable",
+            "ae2:fluix_covered_cable",
+            "ae2:fluix_covered_dense_cable",
+            "ae2:fluix_smart_dense_cable",
+            "kibe:sleeping_bag",
+        ]
+
+        global.dyeColors.forEach(color => {
+            tooltip.add(`modern_industrialization:${color.name}_fluid_pipe`, Text.translate('item.kubejs.chisel_item.tooltip').darkPurple())
+            tooltip.add(`modern_industrialization:${color.name}_item_pipe`, Text.translate('item.kubejs.chisel_item.tooltip').darkPurple())
+            tooltip.add(`modern_industrialization:${color.name}_me_wire`, Text.translate('item.kubejs.chisel_item.tooltip').darkPurple())
+            tooltip.add(`ae2:${color.name}_smart_cable`, Text.translate('item.kubejs.chisel_item.tooltip').darkPurple())
+            tooltip.add(`ae2:${color.name}_glass_cable`, Text.translate('item.kubejs.chisel_item.tooltip').darkPurple())
+            tooltip.add(`ae2:${color.name}_covered_cable`, Text.translate('item.kubejs.chisel_item.tooltip').darkPurple())
+            tooltip.add(`ae2:${color.name}_covered_dense_cable`, Text.translate('item.kubejs.chisel_item.tooltip').darkPurple())
+            tooltip.add(`ae2:${color.name}_smart_dense_cable`, Text.translate('item.kubejs.chisel_item.tooltip').darkPurple())
+            tooltip.add(`wiredredstone:${color.name}_insulated_wire`, Text.translate('item.kubejs.chisel_item.tooltip').darkPurple())
+            tooltip.add(`wiredredstone:${color.name}_bundled_cable`, Text.translate('item.kubejs.chisel_item.tooltip').darkPurple())
+            tooltip.add(`bwplus:${color.name}_blackstone_coffin`, Text.translate('item.kubejs.chisel_item.tooltip').darkPurple())
+            tooltip.add(`spectral-decorations:${color.name}_effulgent_feather`, Text.translate('item.kubejs.chisel_item.tooltip').darkPurple())
+            tooltip.add(`kibe:${color.name}_sleeping_bag`, Text.translate('item.kubejs.chisel_item.tooltip').darkPurple())
+            tooltip.add(`minecraft:${color.name}_bed`, Text.translate('item.kubejs.chisel_item.tooltip').darkPurple())
+            tooltip.add(`kibe:${color.name}_rune`, Text.translate('item.kubejs.chisel_item.tooltip').darkPurple())
+            tooltip.add(`kibe:${color.name}_elevator`, Text.translate('item.kubejs.chisel_item.tooltip').darkPurple())
+        
+        })
+        canBeChiseled.forEach(item => {
+            tooltip.add(item, Text.translate('item.kubejs.chisel_item.tooltip').darkPurple())
         });
 
         tooltip.add('kubejs:ditcheryatina', Text.translate(`item.kubejs.ditcheryatina.tooltip`))

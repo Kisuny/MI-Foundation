@@ -1,0 +1,54 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "kibe:white_elevator"
+    },
+    {
+      "item": "kibe:orange_elevator"
+    },
+    {
+      "item": "kibe:magenta_elevator"
+    },
+    {
+      "item": "kibe:light_blue_elevator"
+    },
+    {
+      "item": "kibe:yellow_elevator"
+    },
+    {
+      "item": "kibe:lime_elevator"
+    },
+    {
+      "item": "kibe:pink_elevator"
+    },
+    {
+      "item": "kibe:gray_elevator"
+    },
+    {
+      "item": "kibe:red_elevator"
+    },
+    {
+      "item": "kibe:green_elevator"
+    },
+    {
+      "item": "kibe:brown_elevator"
+    },
+    {
+      "item": "kibe:blue_elevator"
+    },
+    {
+      "item": "kibe:purple_elevator"
+    },
+    {
+      "item": "kibe:cyan_elevator"
+    },
+    {
+      "item": "kibe:black_elevator"
+    },
+    {
+      "item": "kibe:light_gray_elevator"
+    }
+  ],
+  "overwrite": false
+}

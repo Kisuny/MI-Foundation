@@ -1,0 +1,54 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "spectral-decorations:white_effulgent_feather"
+    },
+    {
+      "item": "spectral-decorations:orange_effulgent_feather"
+    },
+    {
+      "item": "spectral-decorations:magenta_effulgent_feather"
+    },
+    {
+      "item": "spectral-decorations:light_blue_effulgent_feather"
+    },
+    {
+      "item": "spectral-decorations:yellow_effulgent_feather"
+    },
+    {
+      "item": "spectral-decorations:lime_effulgent_feather"
+    },
+    {
+      "item": "spectral-decorations:pink_effulgent_feather"
+    },
+    {
+      "item": "spectral-decorations:gray_effulgent_feather"
+    },
+    {
+      "item": "spectral-decorations:red_effulgent_feather"
+    },
+    {
+      "item": "spectral-decorations:green_effulgent_feather"
+    },
+    {
+      "item": "spectral-decorations:brown_effulgent_feather"
+    },
+    {
+      "item": "spectral-decorations:blue_effulgent_feather"
+    },
+    {
+      "item": "spectral-decorations:purple_effulgent_feather"
+    },
+    {
+      "item": "spectral-decorations:cyan_effulgent_feather"
+    },
+    {
+      "item": "spectral-decorations:black_effulgent_feather"
+    },
+    {
+      "item": "spectral-decorations:light_gray_effulgent_feather"
+    }
+  ],
+  "overwrite": false
+}

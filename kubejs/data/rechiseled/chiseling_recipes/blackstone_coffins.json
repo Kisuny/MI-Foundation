@@ -1,0 +1,54 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "bwplus:white_blackstone_coffin"
+    },
+    {
+      "item": "bwplus:orange_blackstone_coffin"
+    },
+    {
+      "item": "bwplus:magenta_blackstone_coffin"
+    },
+    {
+      "item": "bwplus:light_blue_blackstone_coffin"
+    },
+    {
+      "item": "bwplus:yellow_blackstone_coffin"
+    },
+    {
+      "item": "bwplus:lime_blackstone_coffin"
+    },
+    {
+      "item": "bwplus:pink_blackstone_coffin"
+    },
+    {
+      "item": "bwplus:gray_blackstone_coffin"
+    },
+    {
+      "item": "bwplus:red_blackstone_coffin"
+    },
+    {
+      "item": "bwplus:green_blackstone_coffin"
+    },
+    {
+      "item": "bwplus:brown_blackstone_coffin"
+    },
+    {
+      "item": "bwplus:blue_blackstone_coffin"
+    },
+    {
+      "item": "bwplus:purple_blackstone_coffin"
+    },
+    {
+      "item": "bwplus:cyan_blackstone_coffin"
+    },
+    {
+      "item": "bwplus:black_blackstone_coffin"
+    },
+    {
+      "item": "bwplus:light_gray_blackstone_coffin"
+    }
+  ],
+  "overwrite": false
+}

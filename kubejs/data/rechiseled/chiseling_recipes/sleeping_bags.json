@@ -1,0 +1,54 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "kibe:white_sleeping_bag"
+    },
+    {
+      "item": "kibe:orange_sleeping_bag"
+    },
+    {
+      "item": "kibe:magenta_sleeping_bag"
+    },
+    {
+      "item": "kibe:light_blue_sleeping_bag"
+    },
+    {
+      "item": "kibe:yellow_sleeping_bag"
+    },
+    {
+      "item": "kibe:lime_sleeping_bag"
+    },
+    {
+      "item": "kibe:pink_sleeping_bag"
+    },
+    {
+      "item": "kibe:gray_sleeping_bag"
+    },
+    {
+      "item": "kibe:red_sleeping_bag"
+    },
+    {
+      "item": "kibe:green_sleeping_bag"
+    },
+    {
+      "item": "kibe:brown_sleeping_bag"
+    },
+    {
+      "item": "kibe:sleeping_bag"
+    },
+    {
+      "item": "kibe:purple_sleeping_bag"
+    },
+    {
+      "item": "kibe:cyan_sleeping_bag"
+    },
+    {
+      "item": "kibe:black_sleeping_bag"
+    },
+    {
+      "item": "kibe:light_gray_sleeping_bag"
+    }
+  ],
+  "overwrite": false
+}
