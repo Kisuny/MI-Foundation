@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
         result: {
             "item": "gag:time_sand_pouch"
         },
-        advancement: "bosses_of_mass_destruction:end/obsidilith_defeat"
+        advancement: "spectrum:unlocks/blocks/liquid_crystal"
     }
     );
 
