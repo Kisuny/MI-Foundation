@@ -893,7 +893,7 @@
 				type: "item"
 			}]
 			title: "Poppets"
-			x: -7.0d
+			x: -7.5d
 			y: 6.5d
 		}
 		{
@@ -934,7 +934,7 @@
 				type: "item"
 			}]
 			title: "Brooms"
-			x: -7.5d
+			x: -8.0d
 			y: 7.0d
 		}
 		{
@@ -974,7 +974,7 @@
 				type: "item"
 			}]
 			title: "Sigils"
-			x: -8.0d
+			x: -8.5d
 			y: 7.5d
 		}
 		{
@@ -1004,7 +1004,7 @@
 				item: "bewitchment:crystal_ball"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -8.0d
 			y: 8.0d
 		}
 		{
@@ -1036,7 +1036,7 @@
 				item: "bewitchment:brazier"
 				type: "item"
 			}]
-			x: -7.0d
+			x: -7.5d
 			y: 8.5d
 		}
 		{
@@ -1075,7 +1075,7 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
+			x: -6.5d
 			y: 7.5d
 		}
 		{
@@ -1105,7 +1105,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: 6.0d
 		}
 		{
@@ -1135,7 +1135,7 @@
 				}
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.0d
 			y: 7.5d
 		}
 		{
@@ -1165,7 +1165,7 @@
 				}
 				type: "item"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: 9.0d
 		}
 		{
@@ -1211,7 +1211,56 @@
 				to_observe: "bewitchment:demon"
 				type: "observation"
 			}]
-			x: -3.0d
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2F4271A3A964841E"]
+			description: [
+				"• &5Dragon Head&r is maximum Gain Rate"
+				""
+				"• &5End Rod&r/&8Netherite Candelabra&r is maximum Flat Boost"
+				""
+				"• &8Netherite Sword&r is Maximum Multiplier"
+				""
+				"The Altar is able to be accepted from out to 24 blocks in any direction, and accepts any plants in range of 15 blocks in every direction, basically a 31x31x31 cube, centered on the altar"
+				"Variety Bonus caps at 4 of an item, and caps at 15 sets of 4, giving a 4x multiplier."
+				""
+				"Individual blocks cap at <shake>256"
+				""
+				"To reach 900, which is more than enough for everything, you need 6 sets of 256. So 4 stacks each of 6 different leaf or log blocks, and then having 15 sets of 4 other things, like more logs or leaves, or even saplings work."
+				"{@pagebreak}"
+				"• &5Голова дракона&r — максимальная скорость наполнения."
+				""
+				"• &5Стержень энда&r/&8Незеритовый подсвечник&r — фиксированный бонус к вместимости."
+				""
+				"• &8Незеритовый меч&r — максимальный множитель вместимости."
+				""
+				"Алтарь может принимать энергию на расстоянии до 24 блоков в любом направлении и принимает любые растения в радиусе 15 блоков в каждом направлении, по сути, это куб 31x31x31, в центре которого находится алтарь. "
+				""
+				"Разнообразие бонусов достигается при 4 предметах и при 15 наборах из 4, что дает 4-кратный множитель."
+				""
+				"Максимальное количество одного типа блока <shake>256</shake>."
+				""
+				"Чтобы достичь 900 МЕ, что более чем достаточно для всего, вам нужно 6 наборов по 256 блоков. То есть 4 стака по 6 различных типов листьев или бревен, а затем 15 наборов по 4 других предметов, например, больше бревен или листьев, или например саженцев."
+			]
+			id: "663D167A4D68B299"
+			rewards: [{
+				count: 30
+				id: "2733C58219985C0D"
+				item: "vitalize:experience_cubed"
+				random_bonus: 50
+				type: "item"
+			}]
+			shape: "gear"
+			size: 0.6d
+			tasks: [{
+				id: "5D13B9BF32F93829"
+				title: "better altar"
+				type: "checkmark"
+			}]
+			title: "Maximum power"
+			x: -1.5d
 			y: 7.5d
 		}
 	]

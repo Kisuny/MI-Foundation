@@ -47,6 +47,19 @@
 			x: -20.214285714285715d
 			y: -7.303571428571427d
 		}
+		{
+			click: ""
+			corner: false
+			dependency: "62C6520476171E0B"
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "quest_images:textures/item/neepmeatguide.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -7.5d
+			y: 13.0d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -382,8 +395,8 @@
 				item: "modern_industrialization:uncooked_steel_dust"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -1.0d
+			x: -3.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -417,8 +430,8 @@
 				item: "modern_industrialization:steel_ingot"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.0d
+			x: 1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["190C18AB20216705"]
@@ -449,8 +462,8 @@
 				}
 			]
 			title: "Ore Dusts"
-			x: -4.0d
-			y: 3.5d
+			x: -3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -705,8 +718,8 @@
 				item: "modern_industrialization:coke"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -3.0d
+			x: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["16F9EE5CED2EF23F"]
@@ -958,8 +971,8 @@
 				id: "67005F7AF38162DC"
 				type: "dimension"
 			}]
-			x: 2.6d
-			y: -3.5999999999999996d
+			x: 3.1d
+			y: -3.0999999999999996d
 		}
 		{
 			dependencies: ["3823C4560BD9A25B"]
@@ -1004,8 +1017,8 @@
 				item: "modern_industrialization:raw_synthetic_oil_bucket"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -4.0d
+			x: -3.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["52A8120A9B4DEFD1"]
@@ -1035,8 +1048,8 @@
 				item: "modern_industrialization:synthetic_oil_bucket"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -5.0d
+			x: -3.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["6C0746AF44FBDACB"]
@@ -1093,8 +1106,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.6d
-			y: -2.6999999999999997d
+			x: 3.1d
+			y: -2.1999999999999997d
 		}
 		{
 			dependencies: ["6B922FE87FE0719A"]
@@ -1185,8 +1198,8 @@
 				item: "modern_industrialization:steel_upgrade"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -1.0d
+			x: 8.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6724BFC7CA1CC790"]
@@ -1209,8 +1222,8 @@
 				item: "modern_industrialization:steel_boiler"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -3.0d
+			x: 9.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["663BB2D450652922"]
@@ -1246,8 +1259,8 @@
 				item: "modern_industrialization:steel_machine_casing"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -1.0d
+			x: 6.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6724BFC7CA1CC790"]
@@ -1265,8 +1278,8 @@
 				item: "modern_industrialization:steel_compressor"
 				type: "item"
 			}]
-			x: 9.5d
-			y: 0.5d
+			x: 10.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6724BFC7CA1CC790"]
@@ -1284,8 +1297,8 @@
 				item: "modern_industrialization:steel_cutting_machine"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 1.5d
+			x: 8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6724BFC7CA1CC790"]
@@ -1303,8 +1316,8 @@
 				item: "modern_industrialization:steel_furnace"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 1.0d
+			x: 9.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6724BFC7CA1CC790"]
@@ -1322,8 +1335,8 @@
 				item: "modern_industrialization:steel_mixer"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -0.5d
+			x: 10.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6724BFC7CA1CC790"]
@@ -1341,8 +1354,8 @@
 				item: "modern_industrialization:steel_macerator"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -3.5d
+			x: 8.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6724BFC7CA1CC790"]
@@ -1360,8 +1373,8 @@
 				item: "modern_industrialization:steel_water_pump"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -2.5d
+			x: 10.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["4C535D11E07E27DD"]
@@ -1395,8 +1408,8 @@
 				item: "modern_industrialization:steel_wiremill"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 2.0d
+			x: 6.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["74279E6C9D779E3B"]
@@ -1449,8 +1462,8 @@
 				item: "modern_industrialization:steel_tank"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.5d
+			x: 3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["663BB2D450652922"]
@@ -1467,8 +1480,8 @@
 				item: "modern_industrialization:steel_barrel"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.5d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -1523,8 +1536,8 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: 0.5d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4C535D11E07E27DD"]
@@ -1564,8 +1577,8 @@
 				item: "modern_industrialization:steam_quarry"
 				type: "item"
 			}]
-			x: 5.5d
-			y: -3.0d
+			x: 6.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["5EF849FFAF9AF69B"]
@@ -1614,8 +1627,8 @@
 				item: "modern_industrialization:copper_drill"
 				type: "item"
 			}]
-			x: 4.5d
-			y: -4.5d
+			x: 5.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5EF849FFAF9AF69B"]
@@ -1672,8 +1685,8 @@
 				item: "modern_industrialization:bronze_drill"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -4.5d
+			x: 7.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["663BB2D450652922"]
@@ -1695,8 +1708,8 @@
 				item: "modern_industrialization:trash_can"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 1.5d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["45AFA17F0E26641D"]
@@ -1733,7 +1746,7 @@
 				item: "autoworkstations:iron_auto_crafting_table"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -9.5d
 			y: 7.0d
 		}
 		{
@@ -1779,8 +1792,8 @@
 				type: "checkmark"
 			}]
 			title: "Automating the Resources"
-			x: 5.5d
-			y: -5.5d
+			x: 6.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4C535D11E07E27DD"]
@@ -1802,8 +1815,8 @@
 				item: "modern_industrialization:steel_fluid_extractor"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.5d
+			x: 4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["457B76383A8437AC"]
@@ -1837,7 +1850,7 @@
 				item: "neepmeat:item_pipe"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -10.5d
 			y: 5.5d
 		}
 		{
@@ -1861,7 +1874,7 @@
 				item: "neepmeat:merge_item_pipe"
 				type: "item"
 			}]
-			x: -13.0d
+			x: -11.5d
 			y: 7.0d
 		}
 		{
@@ -1902,8 +1915,8 @@
 				}
 			]
 			title: "Valves"
-			x: -5.5d
-			y: 5.0d
+			x: -2.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["23FB9EE3D0145E87"]
@@ -1943,8 +1956,8 @@
 				}
 			]
 			title: "Special Pipes"
-			x: -5.5d
-			y: 6.0d
+			x: -2.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["45AFA17F0E26641D"]
@@ -1981,7 +1994,7 @@
 				item: "neepmeat:ejector"
 				type: "item"
 			}]
-			x: -12.0d
+			x: -10.5d
 			y: 7.0d
 		}
 		{
@@ -2023,7 +2036,7 @@
 				item: "neepmeat:item_pump"
 				type: "item"
 			}]
-			x: -12.5d
+			x: -11.0d
 			y: 8.0d
 		}
 		{
@@ -2076,7 +2089,7 @@
 				item: "neepmeat:pump"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.5d
 			y: 7.5d
 		}
 		{
@@ -2096,8 +2109,8 @@
 				item: "neepmeat:buffer"
 				type: "item"
 			}]
-			x: -0.5499999999999998d
-			y: -2.6999999999999997d
+			x: -0.04999999999999982d
+			y: -2.1999999999999997d
 		}
 		{
 			dependencies: ["6DF83BA3914DACDA"]
@@ -2134,7 +2147,7 @@
 				item: "neepmeat:multi_tank"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -4.0d
 			y: 8.5d
 		}
 		{
@@ -2174,7 +2187,7 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
+			x: -3.5d
 			y: 7.5d
 		}
 		{
@@ -2208,7 +2221,7 @@
 				item: "neepmeat:fluid_interface"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.5d
 			y: 7.5d
 		}
 		{
@@ -2233,8 +2246,8 @@
 				item: "neepmeat:fluid_drain"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.5d
+			x: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["317AC41782EE6048"]
@@ -2276,8 +2289,8 @@
 				item: "neepmeat:fluid_pipe"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 5.5d
+			x: -3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["6DF83BA3914DACDA"]
@@ -2314,7 +2327,7 @@
 				item: "neepmeat:flex_tank"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -3.0d
 			y: 8.5d
 		}
 		{
@@ -2358,8 +2371,8 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
-			y: 3.5d
+			x: -2.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["457B76383A8437AC"]
@@ -2494,7 +2507,7 @@
 				item: "extended_drawers:upgrade_frame"
 				type: "item"
 			}]
-			x: -9.0d
+			x: -12.0d
 			y: 5.5d
 		}
 		{
@@ -2517,8 +2530,8 @@
 				item: "extended_drawers:t1_upgrade"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 6.5d
+			x: -13.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["4205C72442E04D95"]
@@ -2540,8 +2553,8 @@
 				item: "extended_drawers:t2_upgrade"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 7.5d
+			x: -14.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["663BB2D450652922"]
@@ -2556,8 +2569,8 @@
 				item: "mi_sound_addon:mallet"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.0d
+			x: 2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6724BFC7CA1CC790"]
@@ -2574,8 +2587,8 @@
 				item: "modern_industrialization:steel_packer"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -1.5d
+			x: 10.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["39EB115B78DEDCE4"]
@@ -2605,7 +2618,7 @@
 				item: "neepmeat:transposer"
 				type: "item"
 			}]
-			x: -11.5d
+			x: -10.0d
 			y: 8.0d
 		}
 		{
@@ -2621,8 +2634,8 @@
 				item: "neepmeat:item_interface"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -3.0d
+			x: 1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["663BB2D450652922"]
@@ -2640,8 +2653,24 @@
 				title: "&cBasic knowledge of automation"
 				type: "checkmark"
 			}]
-			x: 1.0d
-			y: 2.5d
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"23FB9EE3D0145E87"
+				"45AFA17F0E26641D"
+			]
+			description: ["{image:quest_images:textures/item/neepmeatguide.png width:250 height:250 align:1}"]
+			id: "62C6520476171E0B"
+			shape: "gear"
+			tasks: [{
+				id: "04E9D5B5720FEB2B"
+				title: "NEEPmeat guide"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 7.0d
 		}
 	]
 	title: "Steam is everything"
