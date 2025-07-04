@@ -47,6 +47,18 @@ ItemEvents.tooltip(tooltip => {
             "ae2:fluix_covered_dense_cable",
             "ae2:fluix_smart_dense_cable",
             "kibe:sleeping_bag",
+            "magnumtorch:diamond_magnum_torch",
+            "magnumtorch:emerald_magnum_torch",
+            "magnumtorch:amethyst_magnum_torch",
+            "fwaystones:waystone",
+            "fwaystones:desert_waystone",
+            "fwaystones:stone_brick_waystone",
+            "fwaystones:nether_brick_waystone",
+            "fwaystones:red_nether_brick_waystone",
+            "fwaystones:end_stone_brick_waystone",
+            "fwaystones:deepslate_brick_waystone",
+            "fwaystones:blackstone_brick_waystone",
+            "fwaystones:red_desert_waystone",
         ]
 
         global.dyeColors.forEach(color => {

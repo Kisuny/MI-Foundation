@@ -1,0 +1,33 @@
+{
+  "type": "rechiseled:chiseling",
+  "entries": [
+    {
+      "item": "fwaystones:waystone"
+    },
+    {
+      "item": "fwaystones:desert_waystone"
+    },
+    {
+      "item": "fwaystones:stone_brick_waystone"
+    },
+    {
+      "item": "fwaystones:nether_brick_waystone"
+    },
+    {
+      "item": "fwaystones:red_nether_brick_waystone"
+    },
+    {
+      "item": "fwaystones:end_stone_brick_waystone"
+    },
+    {
+      "item": "fwaystones:deepslate_brick_waystone"
+    },
+    {
+      "item": "fwaystones:blackstone_brick_waystone"
+    },
+    {
+      "item": "fwaystones:red_desert_waystone"
+    }
+  ],
+  "overwrite": false
+}
