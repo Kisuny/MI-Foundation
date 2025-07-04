@@ -274,7 +274,7 @@ ServerEvents.recipes(event => {
 
     // t1 stack upgrade
     customPedestalCraft(event, {
-        tier: 'basic', time: 600, topaz: 12, experience: 0.5, yield_upgrades: true,
+        tier: 'basic', time: 600, topaz: 12, experience: 0.5,
         pattern: [
             "TTT",
             "TCT",
@@ -293,7 +293,7 @@ ServerEvents.recipes(event => {
 
     // t2 stack upgrade
     customPedestalCraft(event, {
-        tier: 'basic', time: 800, topaz: 16, citrine: 16, experience: 1.0, yield_upgrades: true,
+        tier: 'basic', time: 800, topaz: 16, citrine: 16, experience: 1.0,
         pattern: [
             "TTT",
             "TCT",
@@ -312,7 +312,7 @@ ServerEvents.recipes(event => {
 
     // t3 stack upgrade
     customPedestalCraft(event, {
-        tier: 'basic', time: 800, topaz: 16, citrine: 16, experience: 1.0, yield_upgrades: true,
+        tier: 'basic', time: 800, topaz: 16, citrine: 16, experience: 1.0,
         pattern: [
             "TTT",
             "TCT",
@@ -331,7 +331,7 @@ ServerEvents.recipes(event => {
 
     // t4 stack upgrade
     customPedestalCraft(event, {
-        tier: 'simple', time: 1000, topaz: 20, citrine: 20, amethyst : 20,  experience: 2.0, yield_upgrades: true,
+        tier: 'simple', time: 1000, topaz: 20, citrine: 20, amethyst : 20,  experience: 2.0,
         pattern: [
             "TTT",
             "TCT",
@@ -350,7 +350,7 @@ ServerEvents.recipes(event => {
 
     // t5 stack upgrade
     customPedestalCraft(event, {
-        tier: 'simple', time: 1000, topaz: 20, citrine: 20, amethyst : 20,  experience: 2.0, yield_upgrades: true,
+        tier: 'simple', time: 1000, topaz: 20, citrine: 20, amethyst : 20,  experience: 2.0,
         pattern: [
             "TTT",
             "TCT",

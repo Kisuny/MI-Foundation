@@ -27,7 +27,7 @@ ServerEvents.recipes(event => {
 
 
     customPedestalCraft(event, {
-        tier: 'basic', time: 600, topaz: 12, experience: 0.5, yield_upgrades: true,
+        tier: 'basic', time: 600, topaz: 12, experience: 0.5,
         pattern: [
             "TTT",
             "TCT",
@@ -45,7 +45,7 @@ ServerEvents.recipes(event => {
     });
 
     customPedestalCraft(event, {
-        tier: 'basic', time: 800, topaz: 16, citrine: 16, experience: 1.0, yield_upgrades: true,
+        tier: 'basic', time: 800, topaz: 16, citrine: 16, experience: 1.0, 
         pattern: [
             "TTT",
             "TCT",
@@ -62,7 +62,7 @@ ServerEvents.recipes(event => {
         advancement: "spectrum:collect_quitoxic_reeds"
     });
     customPedestalCraft(event, {
-        tier: 'basic', time: 800, topaz: 16, citrine: 16, experience: 1.0, yield_upgrades: true,
+        tier: 'basic', time: 800, topaz: 16, citrine: 16, experience: 1.0,
         pattern: [
             "TTT",
             "TCT",
@@ -80,7 +80,7 @@ ServerEvents.recipes(event => {
     });
 
     customPedestalCraft(event, {
-        tier: 'simple', time: 1000, topaz: 20, citrine: 20, amethyst : 20,  experience: 2.0, yield_upgrades: true,
+        tier: 'simple', time: 1000, topaz: 20, citrine: 20, amethyst : 20,  experience: 2.0, 
         pattern: [
             "TTT",
             "TCT",
@@ -97,7 +97,7 @@ ServerEvents.recipes(event => {
         advancement: "spectrum:collect_star_fragment"
     });
     customPedestalCraft(event, {
-        tier: 'simple', time: 1000, topaz: 20, citrine: 20, amethyst : 20,  experience: 2.0, yield_upgrades: true,
+        tier: 'simple', time: 1000, topaz: 20, citrine: 20, amethyst : 20,  experience: 2.0,
         pattern: [
             "TTT",
             "TCT",
@@ -115,7 +115,7 @@ ServerEvents.recipes(event => {
     });
 
     customPedestalCraft(event, {
-        tier: 'advanced', time: 2400, topaz: 24, citrine: 24, amethyst : 24, experience: 4.0, yield_upgrades: true,
+        tier: 'advanced', time: 2400, topaz: 24, citrine: 24, amethyst : 24, experience: 4.0, 
         pattern: [
             "TTT",
             "TCT",
@@ -133,7 +133,7 @@ ServerEvents.recipes(event => {
     });
 
     customPedestalCraft(event, {
-        tier: 'advanced', time: 2400, topaz: 24, citrine: 24, amethyst : 24, experience: 4.0, yield_upgrades: true,
+        tier: 'advanced', time: 2400, topaz: 24, citrine: 24, amethyst : 24, experience: 4.0,
         pattern: [
             "TTT",
             "TCT",
@@ -151,7 +151,7 @@ ServerEvents.recipes(event => {
     });
 
     customPedestalCraft(event, {
-        tier: 'complex', time: 3600, topaz: 48, citrine: 48, amethyst : 48, onyx: 16, experience: 8.0, yield_upgrades: true,
+        tier: 'complex', time: 3600, topaz: 48, citrine: 48, amethyst : 48, onyx: 16, experience: 8.0,
         pattern: [
             "TTT",
             "TCT",
@@ -168,7 +168,7 @@ ServerEvents.recipes(event => {
         advancement: "spectrum:lategame/collect_malachite"
     });
     customPedestalCraft(event, {
-        tier: 'complex', time: 3600, topaz: 48, citrine: 48, amethyst : 48, onyx: 16, experience: 8.0, yield_upgrades: true,
+        tier: 'complex', time: 3600, topaz: 48, citrine: 48, amethyst : 48, onyx: 16, experience: 8.0,
         pattern: [
             "TTT",
             "TCT",
@@ -186,7 +186,7 @@ ServerEvents.recipes(event => {
     });
 
     customPedestalCraft(event, {
-        tier: 'complex', time: 4800, topaz: 64, citrine: 64, amethyst : 64, onyx: 32, moonstone: 16, experience: 16.0, yield_upgrades: true,
+        tier: 'complex', time: 4800, topaz: 64, citrine: 64, amethyst : 64, onyx: 32, moonstone: 16, experience: 16.0, 
         pattern: [
             "TTT",
             "TCT",
@@ -203,7 +203,7 @@ ServerEvents.recipes(event => {
         advancement: "spectrum:lategame/grow_bloodstone_in_crystallarieum"
     });
     customPedestalCraft(event, {
-        tier: 'complex', time: 4800, topaz: 64, citrine: 64, amethyst : 64, onyx: 32, moonstone: 16, experience: 16.0, yield_upgrades: true,
+        tier: 'complex', time: 4800, topaz: 64, citrine: 64, amethyst : 64, onyx: 32, moonstone: 16, experience: 16.0,
         pattern: [
             "TTT",
             "TCT",
@@ -221,7 +221,7 @@ ServerEvents.recipes(event => {
     });
 
     customPedestalCraft(event, {
-        tier: 'complex', time: 9400, topaz: 64, citrine: 64, amethyst : 64, onyx: 64, moonstone: 48, experience: 32.0, yield_upgrades: true,
+        tier: 'complex', time: 9400, topaz: 64, citrine: 64, amethyst : 64, onyx: 64, moonstone: 48, experience: 32.0,
         pattern: [
             "TTT",
             "TCT",
@@ -239,7 +239,7 @@ ServerEvents.recipes(event => {
     });
 
     customPedestalCraft(event, {
-        tier: 'complex', time: 9400, topaz: 64, citrine: 64, amethyst : 64, onyx: 64, moonstone: 48, experience: 32.0, yield_upgrades: true,
+        tier: 'complex', time: 9400, topaz: 64, citrine: 64, amethyst : 64, onyx: 64, moonstone: 48, experience: 32.0, 
         pattern: [
             "TTT",
             "TCT",

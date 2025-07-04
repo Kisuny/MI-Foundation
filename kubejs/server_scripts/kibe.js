@@ -68,7 +68,7 @@ ServerEvents.recipes(event => {
 
 
     customPedestalCraft(event, {
-        tier: "advanced", time: 240, topaz: 4, amethyst: 4, onyx: 16, experience: 8.0, yield_upgrades: true,
+        tier: "advanced", time: 240, topaz: 4, amethyst: 4, onyx: 16, experience: 8.0,
         pattern: [
             'NBN',
             'BSB',
@@ -87,7 +87,7 @@ ServerEvents.recipes(event => {
     });
 
     customeFusionShrineCraft(event, {
-        time: 6000, experience: 10.0, yield_upgrades: true,
+        time: 6000, experience: 10.0,
         fluid: "spectrum:liquid_crystal",
         ingredients: [
             { "item": "mythicmetals:midas_gold_ingot", "count": 3 },
@@ -102,7 +102,7 @@ ServerEvents.recipes(event => {
     }
     );
     customeFusionShrineCraft(event, {
-        time: 6000, experience: 10.0, yield_upgrades: true,
+        time: 6000, experience: 10.0, 
         fluid: "spectrum:liquid_crystal",
         ingredients: [
             { "item": "minecraft:glow_ink_sac", "count": 2 },
@@ -117,7 +117,7 @@ ServerEvents.recipes(event => {
     }
     );
     customeFusionShrineCraft(event, {
-        time: 36000, experience: 130.0, yield_upgrades: true,
+        time: 36000, experience: 130.0,
         fluid: "spectrum:liquid_crystal",
         ingredients: [
             { "item": "botania:flight_tiara", "count": 1 },
@@ -136,7 +136,7 @@ ServerEvents.recipes(event => {
     );
 
     customEnchanterCraft(event, {
-        time: 800, experience: 500, advancement: "spectrum:midgame/build_enchanting_structure", yield_upgrades: true,
+        time: 800, experience: 500, advancement: "spectrum:midgame/build_enchanting_structure",
         ingredients: [
           {"item": "minecraft:lead"},
           {"item": "mythicmetals:midas_gold_ingot"},
@@ -153,7 +153,7 @@ ServerEvents.recipes(event => {
         },
     });
     customEnchanterCraft(event, {
-        time: 800, experience: 500, advancement: "spectrum:midgame/build_enchanting_structure", yield_upgrades: true,
+        time: 800, experience: 500, advancement: "spectrum:midgame/build_enchanting_structure",
         ingredients: [
           {"item": "kibe:golden_lasso"},
           {"item": "kibe:cursed_droplets"},
@@ -170,7 +170,7 @@ ServerEvents.recipes(event => {
         },
     });
     customEnchanterCraft(event, {
-        time: 800, experience: 1000, advancement: "spectrum:midgame/build_enchanting_structure", yield_upgrades: true,
+        time: 800, experience: 1000, advancement: "spectrum:midgame/build_enchanting_structure",
         ingredients: [
           {"item": "minecraft:lead"},
           {"item": "spectrum:pure_diamond"},
@@ -187,7 +187,7 @@ ServerEvents.recipes(event => {
         },
     });
     customPedestalCraft(event, {
-        tier: "advanced", time: 2400, topaz: 32, amethyst: 32, onyx: 16, experience: 8.0, yield_upgrades: true,
+        tier: "advanced", time: 2400, topaz: 32, amethyst: 32, onyx: 16, experience: 8.0,
         pattern: [
             " Q ",
             "EWE",
@@ -205,7 +205,7 @@ ServerEvents.recipes(event => {
         advancement: "spectrum:midgame/spectrum_midgame"
     });
     customPedestalCraft(event, {
-        tier: "advanced", time: 2400, citrine: 16, onyx: 32, experience: 8.0, yield_upgrades: true,
+        tier: "advanced", time: 2400, citrine: 16, onyx: 32, experience: 8.0, 
         pattern: [
             "TWT",
             "QEQ",
@@ -225,7 +225,7 @@ ServerEvents.recipes(event => {
         advancement: "spectrum:get_radiating_ender"
     });
     customPedestalCraft(event, {
-        tier: "advanced", time: 2400, citrine: 32, onyx: 16, experience: 8.0, yield_upgrades: true,
+        tier: "advanced", time: 2400, citrine: 32, onyx: 16, experience: 8.0, 
         pattern: [
             "TWT",
             "QEQ",
@@ -278,28 +278,9 @@ ServerEvents.recipes(event => {
             "item": "kibe:entangled_bucket"
         },
     });
-
+;
     customPedestalCraft(event, {
-        tier: "simple", time: 400, topaz: 16, experience: 1.0, yield_upgrades: true,
-        pattern: [
-            "RQR",
-            "EWE",
-            "RER"
-        ],
-        keys: {
-            "Q": { "item": "minecraft:powder_snow_bucket" },
-            "W": { "item": "spectrum:compacting_chest" },
-            "E": { "item": "minecraft:snow_block" },
-            "R": { "item": "minecraft:blue_ice" }
-        },
-        result: {
-            "item": "kibe:cooler",
-            "count": 1
-        },
-        advancement: "spectrum:craft_cmy_pedestal"
-    });
-    customPedestalCraft(event, {
-        tier: "simple", time: 400, topaz: 8, citrine:8, experience: 1.0, yield_upgrades: true,
+        tier: "simple", time: 400, topaz: 8, citrine:8, experience: 1.0, 
         pattern: [
             "EWE",
             "Q Q",
@@ -317,7 +298,7 @@ ServerEvents.recipes(event => {
         advancement: "spectrum:craft_cmy_pedestal"
     });
     customPedestalCraft(event, {
-        tier: "simple", time: 400, topaz: 8, citrine:8, experience: 1.0, yield_upgrades: true,
+        tier: "simple", time: 400, topaz: 8, citrine:8, experience: 1.0,
         pattern: [
             "Q Q",
             "W W",
@@ -376,7 +357,7 @@ ServerEvents.recipes(event => {
     global.dyeColors.forEach(color => {
         event.remove({ id: `kibe:${color.name}_elevator` })
         customPedestalCraft(event, {
-            tier: "simple", time: 400, topaz: 8, citrine:8, experience: 1.0, yield_upgrades: true,
+            tier: "simple", time: 400, topaz: 8, citrine:8, experience: 1.0,
             pattern: [
                 "RQR",
                 "WEW",

@@ -694,7 +694,7 @@ ServerEvents.recipes(event => {
         advancement: "spectrum:unlocks/items/radiance_staff"
     });
     customPedestalCraft(event, {
-        tier: 'simple', time: 600, topaz: 8, amethyst: 8, citrine: 8, experience: 2.0, yield_upgrades: true,
+        tier: 'simple', time: 600, topaz: 8, amethyst: 8, citrine: 8, experience: 2.0, 
         pattern: [
             "TAT",
             "TRT",
@@ -713,7 +713,7 @@ ServerEvents.recipes(event => {
         advancement: "spectrum:unlocks/blocks/fusion_shrine"
     });
     customPedestalCraft(event, {
-        tier: 'simple', time: 600, topaz: 8, amethyst: 8, citrine: 8, experience: 2.0, yield_upgrades: true,
+        tier: 'simple', time: 600, topaz: 8, amethyst: 8, citrine: 8, experience: 2.0,
         pattern: [
             "BAB",
             "TRT",

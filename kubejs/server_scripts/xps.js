@@ -49,7 +49,7 @@ ServerEvents.recipes(event => {
     });
 
     customeFusionShrineCraft(event, {
-        time: 6000, experience: 5.0, yield_upgrades: true,
+        time: 6000, experience: 5.0,
         fluid: "xps:xp_fluid",
         ingredients: [
             { "item": 'xps:block_soul_copper', "count": 4 },

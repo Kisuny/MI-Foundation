@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
     removeByOutput.forEach(item => event.remove({ output: item }));
 
     customEnchanterCraft(event, {
-        time: 800, experience: 500, advancement: "spectrum:midgame/build_enchanting_structure", yield_upgrades: true,
+        time: 800, experience: 500, advancement: "spectrum:midgame/build_enchanting_structure",
         ingredients: [
           {"item": "majruszsaccessories:horseshoe"},
           {"item": "spectrum:pure_gold"},
@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
     });
 
     customEnchanterCraft(event, {
-        time: 800, experience: 500, advancement: "spectrum:midgame/build_enchanting_structure", yield_upgrades: true,
+        time: 800, experience: 500, advancement: "spectrum:midgame/build_enchanting_structure",
         ingredients: [
           {"item": "majruszsaccessories:dice"},
           {"item": "spectrum:pure_gold"},

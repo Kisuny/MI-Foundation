@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'gag:hearthstone' })
 
     customeFusionShrineCraft(event, {
-        time: 72000, experience: 5.0, yield_upgrades: true,
+        time: 72000, experience: 5.0,
         fluid: "spectrum:liquid_crystal",
         ingredients: [
             { "item": "bosses_of_mass_destruction:blazing_eye", "count": 1 },

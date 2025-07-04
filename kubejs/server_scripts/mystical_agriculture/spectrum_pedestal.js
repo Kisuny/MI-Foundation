@@ -1,7 +1,7 @@
 
 ServerEvents.recipes(event => {
     customPedestalCraft(event, {
-        tier: 'complex', time: 240, citrine: 4, amethyst: 8, onyx: 8, moonstone: 4, experience: 8.0, yield_upgrades: true,
+        tier: 'complex', time: 240, citrine: 4, amethyst: 8, onyx: 8, moonstone: 4, experience: 8.0,
         pattern: [
             'NPN',
             'PBP',

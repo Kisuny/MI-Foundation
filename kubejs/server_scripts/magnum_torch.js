@@ -7,7 +7,7 @@ ServerEvents.recipes(event => {
     TORCHES.forEach(torch => {
         event.remove({output: `magnumtorch:${torch.type}_magnum_torch`})
         customPedestalCraft(event, {
-            tier: "advanced", time: 2800, citrine:32, onyx: 16, experience: 5.0, yield_upgrades: true,
+            tier: "advanced", time: 2800, citrine:32, onyx: 16, experience: 5.0,
             pattern: [
                 "UTU",
                 "YRY",

@@ -164,7 +164,7 @@ ServerEvents.recipes(event => {
         event.remove({ id: `spectrum:mod_integration/botania/anvil_crushing/petals/${color.name}_double_flower_to_petals` })
         event.shapeless(`botania:${color.name}_petal`, [`botania:${color.name}_double_flower`])
         customPedestalCraft(event, {
-            tier: 'basic', time: 100, yield_upgrades: true,
+            tier: 'basic', time: 100,
             pattern: [
                 " R ",
                 " C ",
@@ -446,7 +446,7 @@ ServerEvents.recipes(event => {
     apothecary.forEach(item => {
         event.remove({ output: `botania:apothecary_${item.type}` });
         customPedestalCraft(event, {
-            tier: 'basic', time: 200, topaz: 2, amethyst: 2, citrine: 2, experience: 0.5, yield_upgrades: true,
+            tier: 'basic', time: 200, topaz: 2, amethyst: 2, citrine: 2, experience: 0.5,
             pattern: [
                 "BAB",
                 "CBC",
@@ -467,7 +467,7 @@ ServerEvents.recipes(event => {
 
     // pedestal recipes
     customPedestalCraft(event, {
-        tier: "advanced", time: 6000, topaz: 8, amethyst: 16, onyx: 1, experience: 2.0, yield_upgrades: true,
+        tier: "advanced", time: 6000, topaz: 8, amethyst: 16, onyx: 1, experience: 2.0,
         pattern: [
             "RTR",
             "WEW",
@@ -487,7 +487,7 @@ ServerEvents.recipes(event => {
         advancement: "botania:main/terrasteel_pickup",
     });
     customPedestalCraft(event, {
-        tier: "advanced", time: 6000, topaz: 8, amethyst: 16, onyx: 1, experience: 2.0, yield_upgrades: true,
+        tier: "advanced", time: 6000, topaz: 8, amethyst: 16, onyx: 1, experience: 2.0,
         pattern: [
             "RTR",
             "WEW",
@@ -506,7 +506,7 @@ ServerEvents.recipes(event => {
         advancement: "botania:main/terrasteel_pickup",
     });
     customPedestalCraft(event, {
-        tier: "advanced", time: 6000, topaz: 8, amethyst: 16, onyx: 1, experience: 2.0, yield_upgrades: true,
+        tier: "advanced", time: 6000, topaz: 8, amethyst: 16, onyx: 1, experience: 2.0,
         pattern: [
             "RTR",
             "QEQ",
@@ -526,7 +526,7 @@ ServerEvents.recipes(event => {
         advancement: "botania:main/terrasteel_pickup",
     });
     customPedestalCraft(event, {
-        tier: "advanced", time: 6000, topaz: 8, amethyst: 16, onyx: 1, experience: 2.0, yield_upgrades: true,
+        tier: "advanced", time: 6000, topaz: 8, amethyst: 16, onyx: 1, experience: 2.0, 
         pattern: [
             "RTR",
             "WEW",
@@ -545,7 +545,7 @@ ServerEvents.recipes(event => {
         advancement: "botania:main/terrasteel_pickup",
     });
     customPedestalCraft(event, {
-        tier: "complex", time: 72000, topaz: 16, amethyst: 32, citrine: 64, onyx: 2, moonstone: 16, experience: 8.0, yield_upgrades: true,
+        tier: "complex", time: 72000, topaz: 16, amethyst: 32, citrine: 64, onyx: 2, moonstone: 16, experience: 8.0,
         pattern: [
             "TRT",
             "QEQ",
@@ -566,7 +566,7 @@ ServerEvents.recipes(event => {
         advancement: "botania:main/terrasteel_pickup",
     });
     customPedestalCraft(event, {
-        tier: "complex", time: 12000, topaz: 16, amethyst: 8, onyx: 2, experience: 4.0, yield_upgrades: true,
+        tier: "complex", time: 12000, topaz: 16, amethyst: 8, onyx: 2, experience: 4.0,
         pattern: [
             "WQ ",
             "WE ",
@@ -584,7 +584,7 @@ ServerEvents.recipes(event => {
         advancement: "botania:main/terrasteel_pickup",
     });
     customPedestalCraft(event, {
-        tier: "advanced", time: 12000, topaz: 4, amethyst: 16, onyx: 8, experience: 4.0, yield_upgrades: true,
+        tier: "advanced", time: 12000, topaz: 4, amethyst: 16, onyx: 8, experience: 4.0,
         pattern: [
             " Q ",
             " Q ",
@@ -601,7 +601,7 @@ ServerEvents.recipes(event => {
         advancement: "botania:main/terrasteel_pickup",
     });
     customPedestalCraft(event, {
-        tier: "advanced", time: 12000, amethyst: 16, citrine: 4, experience: 4.0, yield_upgrades: true,
+        tier: "advanced", time: 12000, amethyst: 16, citrine: 4, experience: 4.0, 
         pattern: [
             "  Q",
             "ER ",
@@ -620,7 +620,7 @@ ServerEvents.recipes(event => {
         advancement: "botania:main/terrasteel_weapon_craft",
     });
     customPedestalCraft(event, {
-        tier: "advanced", time: 12000, topaz: 16, amethyst: 16, onyx: 4, experience: 4.0, yield_upgrades: true,
+        tier: "advanced", time: 12000, topaz: 16, amethyst: 16, onyx: 4, experience: 4.0,
         pattern: [
             "  W",
             "RE ",
@@ -639,7 +639,7 @@ ServerEvents.recipes(event => {
         advancement: "botania:main/terrasteel_weapon_craft",
     });
     customPedestalCraft(event, {
-        tier: "advanced", time: 1200, topaz: 4, amethyst: 8, experience: 2.0, yield_upgrades: true,
+        tier: "advanced", time: 1200, topaz: 4, amethyst: 8, experience: 2.0, 
         pattern: [
             "E E",
             "QWQ",
@@ -657,7 +657,7 @@ ServerEvents.recipes(event => {
         advancement: "botania:main/elf_portal_open",
     });
     customPedestalCraft(event, {
-        tier: "advanced", time: 1200, topaz: 8, amethyst: 2, experience: 1.0, yield_upgrades: true,
+        tier: "advanced", time: 1200, topaz: 8, amethyst: 2, experience: 1.0, 
         pattern: [
             " E ",
             "EWQ",
@@ -1072,7 +1072,7 @@ ServerEvents.recipes(event => {
         advancement: "spectrum:lategame/remember_kindling"
     });
     customeFusionShrineCraft(event, {
-        time: 72000, experience: 16.0, yield_upgrades: true,
+        time: 72000, experience: 16.0,
         fluid: "modern_industrialization:liquid_mana",
         ingredients: [
             { "item": "kubejs:star_core", "count": 8 },
@@ -1176,7 +1176,7 @@ ServerEvents.recipes(event => {
         advancement: "spectrum:midgame/build_spirit_instiller_structure"
     });
     customPedestalCraft(event, {
-        tier: 'advanced',time: 800, topaz: 8, amethyst: 16, onyx: 2, experience: 0.5, yield_upgrades: true,
+        tier: 'advanced',time: 800, topaz: 8, amethyst: 16, onyx: 2, experience: 0.5,
         pattern: [
             "QWR",
             "TET",
@@ -1214,7 +1214,7 @@ ServerEvents.recipes(event => {
         advancement: "spectrum:midgame/build_spirit_instiller_structure"
     });
     customPedestalCraft(event, {
-        tier: 'advanced',time: 800, topaz: 8, onyx: 4, experience: 0.5, yield_upgrades: true,
+        tier: 'advanced',time: 800, topaz: 8, onyx: 4, experience: 0.5,
         pattern: [
             "TRT",
             "QEQ",
@@ -1268,7 +1268,7 @@ ServerEvents.recipes(event => {
         advancement: "spectrum:midgame/build_spirit_instiller_structure"
     });
     customPedestalCraft(event, {
-        tier: 'advanced', time: 800, topaz: 4, onyx: 8, experience: 0.5, yield_upgrades: true,
+        tier: 'advanced', time: 800, topaz: 4, onyx: 8, experience: 0.5,
         pattern: [
             "YYY",
             "WUQ",
@@ -1290,7 +1290,7 @@ ServerEvents.recipes(event => {
         advancement: "spectrum:midgame/build_spirit_instiller_structure"
     });
     customPedestalCraft(event, {
-        tier: 'advanced', time: 800, topaz: 4, onyx: 4, amethyst: 8, citrine: 2, experience: 0.5, yield_upgrades: true,
+        tier: 'advanced', time: 800, topaz: 4, onyx: 4, amethyst: 8, citrine: 2, experience: 0.5,
         pattern: [
             "WRW",
             "WEW",
@@ -1309,7 +1309,7 @@ ServerEvents.recipes(event => {
         advancement: "spectrum:midgame/build_spirit_instiller_structure"
     });
     customPedestalCraft(event, {
-        tier: 'advanced', time: 800, topaz: 4, onyx: 4, citrine: 4, experience: 0.5, yield_upgrades: true,
+        tier: 'advanced', time: 800, topaz: 4, onyx: 4, citrine: 4, experience: 0.5,
         pattern: [
             "RWR",
             "WEW",
@@ -1364,7 +1364,7 @@ ServerEvents.recipes(event => {
         advancement: "spectrum:midgame/build_spirit_instiller_structure"
     });
     customPedestalCraft(event, {
-        tier: 'advanced', time: 800, topaz: 16, amethyst: 16, citrine: 16, onyx: 8, experience: 0.5, yield_upgrades: true,
+        tier: 'advanced', time: 800, topaz: 16, amethyst: 16, citrine: 16, onyx: 8, experience: 0.5,
         pattern: [
             "QWQ",
             "WEW",
@@ -1476,7 +1476,7 @@ ServerEvents.recipes(event => {
         advancement: "spectrum:midgame/build_spirit_instiller_structure"
     });
     customPedestalCraft(event, {
-        tier: 'complex', time: 2400, topaz: 32, amethyst: 32, citrine: 32, onyx: 32, moonstone: 32, experience: 0.5, yield_upgrades: true,
+        tier: 'complex', time: 2400, topaz: 32, amethyst: 32, citrine: 32, onyx: 32, moonstone: 32, experience: 0.5,
         pattern: [
             "QWQ",
             "RER",
