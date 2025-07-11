@@ -586,4 +586,34 @@ ServerEvents.recipes(event => {
         .itemIn('4x modern_industrialization:lv_steam_turbine')
         .itemIn('12x modern_industrialization:analog_circuit')
         .itemOut('meatweapons:airtruck')
+
+    const drills = [
+        {name: "azurite_plated", resource: "azurite"},
+        {name: "malachite_enhanced", resource: "malachite"},
+    ]
+
+    const drillTypes = [
+        'aluminum',
+        'bronze',
+        'calorite',
+        'copper',
+        'desh',
+        'gold',
+        'ostrum',
+        'stainless_steel',
+        'steel',
+        'titanium',
+    ]
+
+    drillTypes.forEach(type => {
+        drills.forEach(drill => {
+            event.recipes.modern_industrialization.assembler(32, 512)
+                .itemIn(`modern_industrialization:${type}_rod`)
+                .itemIn(`2x modern_industrialization:${type}_gear`)
+                .itemIn(`3x modern_industrialization:${type}_bolt`)
+                .itemIn(`modern_industrialization:${drill.resource}_plate`)
+                .itemIn(`2x modern_industrialization:${drill.resource}_curved_plate`)
+                .itemOut(`4x kubejs:${drill.name}_${type}_drill_head`)
+            });
+    });
 })
