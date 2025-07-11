@@ -54,7 +54,7 @@
 			dev: false
 			height: 10.0d
 			hover: [ ]
-			image: "quest_images:textures/item/neepmeatguide.png"
+			image: "quest_images:textures/item/neep_meat_guide.png"
 			rotation: 0.0d
 			width: 10.0d
 			x: -7.0d

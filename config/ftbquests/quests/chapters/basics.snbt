@@ -919,7 +919,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1BDBDD5959A0D6A2"]
@@ -951,7 +951,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3FC493B1B1412E8E"]
@@ -983,7 +983,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["65AA9563035BA3F1"]
@@ -1663,6 +1663,23 @@
 			}]
 			x: -2.392857142857139d
 			y: 1.1666666666666714d
+		}
+		{
+			dependencies: ["4CD4E765537B016C"]
+			description: [
+				"When right clicked it picks a random block from your hotbar and places is down."
+				"{@pagebreak}"
+				"При нажатии правой кнопкой мыши он выбирает случайный блок из вашей горячей панели и устанавливает его. "
+			]
+			id: "23DED07F524E8BAF"
+			shape: "gear"
+			tasks: [{
+				id: "5F9E1A8FCB4587C4"
+				item: "trowel:trowel"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
 		}
 	]
 	title: "First steps"
