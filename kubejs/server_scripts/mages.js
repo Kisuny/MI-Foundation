@@ -1,5 +1,16 @@
 ServerEvents.recipes(event => {
 
+    event.remove({output:"bards:iron_flute"})
+
+    event.shaped('bards:iron_flute', [
+        ' WQ',
+        'WQW',
+        'QW '
+    ], {
+        Q: 'minecraft:iron_nugget',
+        W: 'minecraft:iron_ingot'
+    })
+
     event.remove({
         output:
             [
