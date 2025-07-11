@@ -1105,7 +1105,7 @@ const material_dict = [
         id: 'modern_industrialization:niobium_dust',
         count: 1,
         formula: [
-            [nickel,9],
+            [niobium,9],
         ],
         isFluid: false
     },
