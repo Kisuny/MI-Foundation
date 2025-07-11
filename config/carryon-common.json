@@ -218,7 +218,11 @@
       "labels:*",
       "libmultipart:*",
       "travelersbackpack:*",
-      "xps:*"
+      "xps:*",
+      "#modern_industrialization:fluid_pipes",
+      "#modern_industrialization:item_pipes",
+      "#modern_industrialization:me_wires",
+      "moderndynamics:*"
     ],
     "//forbiddenEntities": "Entities that cannot be picked up",
     "forbiddenEntities": [
