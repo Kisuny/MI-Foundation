@@ -81,6 +81,7 @@
 					type: "item"
 				}
 			]
+			shape: "pentagon"
 			subtitle: "Ford Motors"
 			tasks: [{
 				id: "2B705E89F475D11D"
@@ -88,7 +89,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 7.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -152,10 +153,15 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 7.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4D67040731053B27"]
+			description: [
+				"Increases capacity of nearby integrators beyound their limits when powered with motor... Something tells you that you &l&4<shake>DONT</shake>&r&r want to be near this thing when it's active..."
+				"{@pagebreak}"
+				"Увеличивает мощность близлежащих интеграторов за пределы их возможностей при питании от двигателя... Что-то подсказывает вам, что вы &l&4<shake>НЕ</shake>&r&r захотите находиться рядом с этой штукой, когда она активна..."
+			]
 			id: "1CF79BEDD4115767"
 			rewards: [
 				{
@@ -309,6 +315,11 @@
 		}
 		{
 			dependencies: ["01A03BFE2F6A21EE"]
+			description: [
+				"After all these beautifull eldrich discoveries you want ewen more horror in your daily life, so why dont we vivisect one of this alien creatures and combine it with something casual... like &ocows&r?"
+				"{@pagebreak}"
+				"После всех этих прекрасных открытий, с помощью древних, хочется больше ужаса в повседневной жизни, так почему бы нам не подвергнуть вивисекции одно из этих инопланетных существ и не совместить его с чем-то обыденным... например, с &oкоровой&r?"
+			]
 			id: "11A5D34025A9F7B4"
 			rewards: [{
 				count: 2
@@ -1715,11 +1726,16 @@
 				item: "neepmeat:tree_vacuum"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 6.0d
+			x: -2.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["01A03BFE2F6A21EE"]
+			description: [
+				"In order to work this... &lthing&r has to be connected directly to vascular network"
+				"{@pagebreak}"
+				"Для того чтобы эта... &lштука&r работала, она должна быть подключена непосредственно к сосудистой сети"
+			]
 			hide: false
 			id: "0BFC4C63AC685F02"
 			rewards: [
@@ -2612,8 +2628,14 @@
 		}
 		{
 			dependencies: ["01A03BFE2F6A21EE"]
+			description: [
+				"Allows you to implant plethora of interesting things inside living creatures"
+				"{@pagebreak}"
+				"Позволяет имплантировать множество интересных вещей внутрь живых существ"
+			]
 			id: "32B56258C2940734"
 			shape: "octagon"
+			subtitle: "Body modifications are future"
 			tasks: [{
 				id: "13DC2F4EF801BC7B"
 				item: "neepmeat:implanter"
@@ -2624,6 +2646,11 @@
 		}
 		{
 			dependencies: ["32B56258C2940734"]
+			description: [
+				"Eight legs are better than two, am i right?"
+				"{@pagebreak}"
+				"Восемь ног лучше, чем две, не так ли?"
+			]
 			id: "32E0CF552FFB787A"
 			shape: "gear"
 			tasks: [{
@@ -2698,6 +2725,37 @@
 			}]
 			x: -2.5d
 			y: 12.0d
+		}
+		{
+			dependencies: ["25E12DF81876C1F6"]
+			description: [
+				"If you want to improve your factory manufacturing capabilities &leven more&r, this is the solution. Allows you to send instructions directly to executor so you dont have to wait unti it finishes in order to continue your program."
+				"{@pagebreak}"
+				"Если вы хотите улучшить производственные возможности вашей фабрики, то это решение для вас. Позволяет отправлять инструкции непосредственно исполнителю, поэтому вам не нужно ждать, пока он завершит работу, чтобы продолжить выполнение программы."
+			]
+			hide: true
+			id: "4336CA2F284D21AD"
+			rewards: [
+				{
+					id: "0AE79B352A585321"
+					item: "neepmeat:plc"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3BA115D5E026DC11"
+					item: "neepmeat:meat_steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "502DD277B7A4EBA6"
+				item: "neepmeat:executor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
 		}
 	]
 	title: "Unlimited power | EV"

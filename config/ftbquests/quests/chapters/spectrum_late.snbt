@@ -225,7 +225,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 5.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["038A12B861714416"]
@@ -1383,7 +1383,7 @@
 				item: "kubejs:pure_calorite"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -5.0d
 			y: -10.0d
 		}
 		{
@@ -1595,7 +1595,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["47A5EF8672853825"]
@@ -3325,6 +3325,85 @@
 			]
 			x: 3.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["038A12B861714416"]
+			description: [
+				"Those prickly leaves can only be acquired with shears"
+				"{@pagebreak}"
+				"Эти колючие листья можно получить только с помощью ножниц"
+			]
+			hide: true
+			id: "06D674B3244C0249"
+			tasks: [{
+				id: "1B050214A991D5BF"
+				item: "spectrum:prickly_bayleaf"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["038A12B861714416"]
+			description: [
+				"Those shrooms look grim, but their bark is so yummy"
+				"{@pagebreak}"
+				"Эти грибы выглядят мрачно, но их кора такая аппетитная"
+			]
+			hide: true
+			id: "6C03C3C83078E809"
+			tasks: [{
+				id: "6613DCBE5E453DB7"
+				item: "spectrum:myceylon"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1B8B44ABD0A94E55"]
+			hide: true
+			id: "7141BF4688DE0ADC"
+			rewards: [{
+				count: 8
+				id: "64DCF08BBBB9F58C"
+				item: "spectrum:resonance_shard"
+				type: "item"
+			}]
+			shape: "octagon"
+			subtitle: "The more the merrier"
+			tasks: [{
+				count: 8L
+				id: "5638ADADEEE0E795"
+				item: "spectrum:resonance_shard"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7141BF4688DE0ADC"]
+			description: ["Could be used to mine pure resources, as well as some fragile blocks"]
+			hide: true
+			id: "4FDD38C5FB54C490"
+			shape: "pentagon"
+			tasks: [{
+				id: "7071D3754E15A89A"
+				item: {
+					Count: 1b
+					id: "spectrum:resonant_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "spectrum:resonance"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
 		}
 	]
 	title: "Spectrum: Endgame?.."

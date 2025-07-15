@@ -7,22 +7,7 @@
 	icon: "modern_industrialization:turbo_machine_hull"
 	id: "263547FF4BF8BBB2"
 	order_index: 0
-	quest_links: [
-		{
-			id: "52AC79015DB987CE"
-			linked_quest: "1D276E39138A7506"
-			shape: "gear"
-			x: 21.0d
-			y: 8.5d
-		}
-		{
-			id: "41896E5A9FE6A189"
-			linked_quest: "64087BCA6449BCD8"
-			shape: "gear"
-			x: 23.0d
-			y: 8.5d
-		}
-	]
+	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["50BBF5DA3EB28CF2"]
@@ -3485,6 +3470,7 @@
 				item: "kubejs:late_lootbag_rare"
 				type: "item"
 			}]
+			shape: "gear"
 			tasks: [{
 				id: "09D9A03B570A03A0"
 				item: {
@@ -3531,7 +3517,7 @@
 				type: "item"
 			}]
 			x: 20.0d
-			y: 9.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["4A95828133435600"]
@@ -3541,6 +3527,7 @@
 				item: "kubejs:late_lootbag_rare"
 				type: "item"
 			}]
+			shape: "gear"
 			tasks: [{
 				id: "7019C67D47E89765"
 				item: {
@@ -3560,7 +3547,7 @@
 				type: "item"
 			}]
 			x: 24.0d
-			y: 9.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["07162B3958A6A95B"]
@@ -3902,6 +3889,28 @@
 			}]
 			x: 22.0d
 			y: 7.5d
+		}
+		{
+			dependencies: ["31A8F255FCF26853"]
+			description: [
+				"Those &leldritch creatures&r could lead to great advancements..."
+				"{@pagebreak}"
+				"Эти &lчудовищные существа&r могут привести к большим достижениям..."
+			]
+			hide: true
+			id: "7078CC0DB4C6A310"
+			rewards: [{
+				id: "19151CB1A88B610B"
+				item: "neepmeat:projector"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DF74D4ACA12B5D4"
+				title: "Eldritch knowledge"
+				type: "checkmark"
+			}]
+			x: 18.5d
+			y: 6.0d
 		}
 	]
 	title: "Space program | HV"

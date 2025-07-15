@@ -1679,7 +1679,7 @@
 				item: "modern_industrialization:quartz_blend_dust"
 				type: "item"
 			}]
-			x: -21.0d
+			x: -23.5d
 			y: 4.5d
 		}
 		{
@@ -1717,8 +1717,8 @@
 				item: "ae2:fluix_glass_cable"
 				type: "item"
 			}]
-			x: -21.0d
-			y: 9.5d
+			x: -23.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["597070AC15C6CF1E"]
@@ -1733,7 +1733,7 @@
 				item: "ae2:cell_component_1k"
 				type: "item"
 			}]
-			x: -21.0d
+			x: -23.5d
 			y: 13.5d
 		}
 		{
@@ -1761,7 +1761,7 @@
 				item: "ae2:drive"
 				type: "item"
 			}]
-			x: -22.5d
+			x: -25.0d
 			y: 12.0d
 		}
 		{
@@ -1777,7 +1777,7 @@
 				item: "ae2:cell_component_4k"
 				type: "item"
 			}]
-			x: -20.0d
+			x: -22.5d
 			y: 13.5d
 		}
 		{
@@ -1805,8 +1805,8 @@
 				item: "ae2:controller"
 				type: "item"
 			}]
-			x: -22.5d
-			y: 11.0d
+			x: -24.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["597070AC15C6CF1E"]
@@ -1833,7 +1833,7 @@
 				item: "ae2:chest"
 				type: "item"
 			}]
-			x: -22.5d
+			x: -25.0d
 			y: 13.0d
 		}
 		{
@@ -1859,7 +1859,7 @@
 					type: "item"
 				}
 			]
-			x: -19.5d
+			x: -20.0d
 			y: 6.0d
 		}
 		{
@@ -1895,8 +1895,8 @@
 				item: "ae2:inscriber"
 				type: "item"
 			}]
-			x: -18.5d
-			y: 7.0d
+			x: -19.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["004209D0C8DC9348"]
@@ -1917,7 +1917,7 @@
 				type: "item"
 			}]
 			x: -18.5d
-			y: 9.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["004209D0C8DC9348"]
@@ -1942,8 +1942,8 @@
 				item: "ae2:charger"
 				type: "item"
 			}]
-			x: -18.0d
-			y: 8.0d
+			x: -20.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["15CA873EB2051888"]
@@ -2006,13 +2006,14 @@
 				item: "ae2:fluix_crystal"
 				type: "item"
 			}]
+			shape: "gear"
 			subtitle: "Unnatural"
 			tasks: [{
 				id: "333C0D6F9993E911"
 				item: "ae2:fluix_crystal"
 				type: "item"
 			}]
-			x: -19.5d
+			x: -20.0d
 			y: 8.0d
 		}
 		{
@@ -2028,7 +2029,7 @@
 				item: "ae2:item_cell_housing"
 				type: "item"
 			}]
-			x: -21.0d
+			x: -23.5d
 			y: 12.5d
 		}
 		{
@@ -2158,7 +2159,7 @@
 				}
 				type: "item"
 			}]
-			x: -19.5d
+			x: -21.5d
 			y: 9.5d
 		}
 		{
@@ -2280,8 +2281,8 @@
 				type: "checkmark"
 			}]
 			title: "Can the ME network store mana?"
-			x: -23.5d
-			y: 11.0d
+			x: -25.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4752F7EF9DDD878F"]
@@ -2318,7 +2319,7 @@
 				}
 				type: "item"
 			}]
-			x: -21.0d
+			x: -23.5d
 			y: 16.5d
 		}
 		{
@@ -2365,13 +2366,14 @@
 				"&4Необходим&r для выращивания &fкристаллов,&r из данного блока возможно сделать &eболее лучшие&r безупречные блоки цветущего кварца"
 			]
 			id: "522BCE6B5700CCB5"
+			shape: "octagon"
 			tasks: [{
 				id: "7A98801B97EEF3C3"
 				item: "ae2:damaged_budding_quartz"
 				type: "item"
 			}]
-			x: -20.5d
-			y: 6.0d
+			x: -21.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4752F7EF9DDD878F"]
@@ -2388,7 +2390,7 @@
 				item: "ae2:1k_crafting_storage"
 				type: "item"
 			}]
-			x: -20.0d
+			x: -22.5d
 			y: 16.5d
 		}
 		{
@@ -2404,7 +2406,7 @@
 				item: "ae2:crafting_accelerator"
 				type: "item"
 			}]
-			x: -19.0d
+			x: -21.5d
 			y: 16.5d
 		}
 		{
@@ -2762,6 +2764,26 @@
 			}]
 			x: 0.7749999999999986d
 			y: -5.533333333333342d
+		}
+		{
+			dependencies: [
+				"4FDD38C5FB54C490"
+				"522BCE6B5700CCB5"
+			]
+			description: [
+				"After witnessing the power of those little resonating shards you got an idea..."
+				"{@pagebreak}"
+				"После того как вы убедились в силе этих маленьких резонирующих осколков, у вас возникла идея..."
+			]
+			id: "3001E040E7B4AB9A"
+			shape: "gear"
+			tasks: [{
+				id: "72070EFB860C8833"
+				item: "ae2:flawless_budding_quartz"
+				type: "item"
+			}]
+			x: -22.0d
+			y: 7.0d
 		}
 	]
 	title: "Industrialization | MV"

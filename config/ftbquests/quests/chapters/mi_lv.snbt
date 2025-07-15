@@ -2597,6 +2597,29 @@
 			x: 4.5d
 			y: 7.0d
 		}
+		{
+			dependencies: ["57886FF598451010"]
+			description: [
+				"A little reminder that you can owerclock any machine to maximum with lubricant"
+				"{@pagebreak}"
+				"Небольшое напоминание о том, что с помощью смазки можно разогнать любую машину до максимума"
+			]
+			hide: true
+			id: "71DCDC3D74EA875C"
+			rewards: [{
+				id: "48288A769B7C1DCC"
+				item: "modern_industrialization:lubricant_bucket"
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "2A4068384E2E685D"
+				title: "Lubricant"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 15.5d
+		}
 	]
 	title: "Electricity | LV"
 }
