@@ -7,7 +7,22 @@
 	icon: "modern_industrialization:turbo_machine_hull"
 	id: "263547FF4BF8BBB2"
 	order_index: 0
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "52AC79015DB987CE"
+			linked_quest: "1D276E39138A7506"
+			shape: "gear"
+			x: 21.0d
+			y: 8.5d
+		}
+		{
+			id: "41896E5A9FE6A189"
+			linked_quest: "64087BCA6449BCD8"
+			shape: "gear"
+			x: 23.0d
+			y: 8.5d
+		}
+	]
 	quests: [
 		{
 			dependencies: ["50BBF5DA3EB28CF2"]
@@ -1558,10 +1573,14 @@
 				"It seems that ethereal fuel can be transferred through organic matter, moreover the nervous tissue seems to be the best conductor."
 				""
 				"50% more efficient than using ethereal fuel in a liquid form."
+				""
+				"Be aware, this machine is so &lhungry&r that it will consume &lall&r the awaiable ethereal fuel, so you must implement some form of flow limiter"
 				"{@pagebreak}"
 				"Свойства эфирного топлива указывают что мягкие ткани, в особенности нервная ткань, может послужить хорошим средством для извлечения полезного действия."
 				""
 				"В полтора раза эффективнее чем использовать эфирное топливо напрямую."
+				""
+				"Имейте в виду, что эта машина настолько прожорлива, что потребляет все доступное эфирное топливо, поэтому вам необходимо установить какой-либо ограничитель расхода."
 			]
 			id: "38487E2DC48E7C16"
 			rewards: [{
@@ -1726,7 +1745,11 @@
 		}
 		{
 			dependencies: ["31A8F255FCF26853"]
-			description: [""]
+			description: [
+				"Looks like those creatures can affect living tissues in &ofabulous&r ways... There's has to be a way to make something useful from this phenomenon..."
+				"{@pagebreak}"
+				"Похоже, эти существа могут влиять на живые ткани по-разному... Должен быть способ извлечь из этого явления какую-то пользу..."
+			]
 			id: "50BBE26EED91D3A6"
 			rewards: [{
 				count: 4
@@ -3470,7 +3493,6 @@
 				item: "kubejs:late_lootbag_rare"
 				type: "item"
 			}]
-			shape: "gear"
 			tasks: [{
 				id: "09D9A03B570A03A0"
 				item: {
@@ -3517,7 +3539,7 @@
 				type: "item"
 			}]
 			x: 20.0d
-			y: 8.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["4A95828133435600"]
@@ -3527,7 +3549,6 @@
 				item: "kubejs:late_lootbag_rare"
 				type: "item"
 			}]
-			shape: "gear"
 			tasks: [{
 				id: "7019C67D47E89765"
 				item: {
@@ -3547,7 +3568,7 @@
 				type: "item"
 			}]
 			x: 24.0d
-			y: 8.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["07162B3958A6A95B"]
@@ -3895,7 +3916,7 @@
 			description: [
 				"Those &leldritch creatures&r could lead to great advancements..."
 				"{@pagebreak}"
-				"Эти &lчудовищные существа&r могут привести к большим достижениям..."
+				"Эти &lнеземные существа&r могут привести к большим достижениям..."
 			]
 			hide: true
 			id: "7078CC0DB4C6A310"
@@ -3911,6 +3932,62 @@
 			}]
 			x: 18.5d
 			y: 6.0d
+		}
+		{
+			dependencies: ["07F8BDD4D1DAC910"]
+			description: [
+				"Some indescribable transformations happens to regular seeds under exposure of enlightenment..."
+				"{@pagebreak}"
+				"Некоторые неописуемые преобразования происходят с обычными семенами под воздействием просветления..."
+			]
+			hide: true
+			icon: "neepmeat:whisper_wheat"
+			id: "5CAE766641962CCD"
+			rewards: [{
+				count: 8
+				id: "4514D3966AEDA882"
+				item: "neepmeat:whisper_wheat"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "559FE7D151137B31"
+					item: "neepmeat:whisper_wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "498A21A1ACF5C3B4"
+					item: "neepmeat:whisper_wheat"
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"5CAE766641962CCD"
+				"31A8F255FCF26853"
+			]
+			description: [
+				"What a wonderfull piece of eldrich nature! Turns out that information can be stored inside this eerie flour! Now you wonder what will hapen if you just feed some of it to this terrifying creature floating next to you..."
+				"{@pagebreak}"
+				"Какое чудесное творение природы! Оказывается, в этой жуткой муке можно хранить информацию! Теперь вам интересно, что произойдет, если вы просто накормите ею это ужасающее существо, плавающее рядом с вами..."
+			]
+			id: "4D0ED5C3EF553A05"
+			rewards: [{
+				count: 16
+				id: "2319D88403E063D2"
+				item: "neepmeat:whisper_flour"
+				type: "item"
+			}]
+			tasks: [{
+				id: "719B003531BC881D"
+				item: "neepmeat:whisper_flour"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 4.0d
 		}
 	]
 	title: "Space program | HV"

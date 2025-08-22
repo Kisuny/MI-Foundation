@@ -2602,7 +2602,7 @@
 			description: [
 				"A little reminder that you can owerclock any machine to maximum with lubricant"
 				"{@pagebreak}"
-				"Небольшое напоминание о том, что с помощью смазки можно разогнать любую машину до максимума"
+				"Небольшое напоминание о том, что любую машину можно разогнать до максимума с помощью смазки."
 			]
 			hide: true
 			id: "71DCDC3D74EA875C"

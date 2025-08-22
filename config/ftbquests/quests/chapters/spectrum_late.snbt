@@ -224,8 +224,8 @@
 				item: "spectrum:blood_orchid_petal"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 6.0d
+			x: -0.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["038A12B861714416"]
@@ -1383,7 +1383,7 @@
 				item: "kubejs:pure_calorite"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.5d
 			y: -10.0d
 		}
 		{
@@ -3346,9 +3346,9 @@
 		{
 			dependencies: ["038A12B861714416"]
 			description: [
-				"Those shrooms look grim, but their bark is so yummy"
+				"Those shrooms look grim, but their &lbark&r is so yummy"
 				"{@pagebreak}"
-				"Эти грибы выглядят мрачно, но их кора такая аппетитная"
+				"Эти грибы выглядят мрачно, но их &lкора&r такая аппетитная"
 			]
 			hide: true
 			id: "6C03C3C83078E809"
@@ -3357,8 +3357,8 @@
 				item: "spectrum:myceylon"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 5.5d
+			x: 1.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1B8B44ABD0A94E55"]

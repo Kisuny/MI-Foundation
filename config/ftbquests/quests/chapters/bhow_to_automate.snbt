@@ -75,7 +75,7 @@
 				"• Change the number of items that are created or incoming."
 				"• Item/fluid auto-extraction"
 				""
-				"In the next quests we'll talk more about all of these principles with pictures for the laziest of the lazy!"
+				"In the next quests we'll talk more about all of these principles with pictures for the laziest of the lazy, as well as provide some tips to automate stuff from different mods!"
 				""
 				"{image:quest_images:textures/item/otter_2_.png width:200 height:200 align:1}"
 				""
@@ -277,7 +277,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 8.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["0CAE82787F54CCCF"]
@@ -322,7 +322,56 @@
 				}
 			]
 			x: 0.0d
-			y: 10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"7EFCA744EC5BCFDB"
+				"3877FD4F24D92304"
+			]
+			description: [
+				"You may have already noticed this little icon next to pedestal output - you can place &dcrafting tablets&r with desired crafts here! When the pedestal has a &dcrafting tablet&r inside it, it changes behavior - now it only accepts items that could be used in a specified craft (that means that if your crafting table output is, for example, a piston, the pedestal will accept any type of planks, even if you used one specific type in the &dtablet&r) and nothing else (note: items could &o&lonly&r&r be inserted from the top of the pedestal). Then if the pedestal is powered by redstone, it will output the crafting result from the bottom and &o&lonly&r&r from the bottom"
+				"{@pagebreak}"
+				"Возможно, вы уже заметили эту маленькую иконку рядом с выходом пьедестала — здесь можно размещать планшеты с желаемыми изделиями! Когда в пьедестале находится планшет для крафта, он меняет свое поведение — теперь он принимает только предметы, которые могут быть использованы в указанном крафте (это означает, что если выход вашего крафт-стола — например, поршень, пьедестал будет принимать любой тип досок, даже если вы использовали один конкретный тип в планшете) и ничего больше (примечание: предметы можно вставлять только сверху пьедестала). Затем, если пьедестал питается от редстоуна, он будет выдавать результат крафта снизу и только снизу."
+			]
+			hide: true
+			id: "06B403309D54D86E"
+			rewards: [{
+				count: 20
+				id: "762DF98D0AE1B3D4"
+				item: "vitalize:experience_cubed"
+				random_bonus: 16
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0231A968EC37120B"
+					title: "Spectrum"
+					type: "checkmark"
+				}
+				{
+					id: "05EFCC240FC2967D"
+					item: "spectrum:crafting_tablet"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7EFCA744EC5BCFDB"
+				"5CA72E2233DD6369"
+			]
+			description: ["Ewen if this structure looks &ounautomatable&r you still can &lautomate&r it! &l&#FEC6DF<wave>Forge</wave>&r accepts fuel from the &oleft&r side, valid items from the &oright&r side and outputs smelted items from the &obottom&r of the block below &l&#FEC6DF<wave>forge</wave>&r itself"]
+			id: "317E54D541DBEC9B"
+			tasks: [{
+				id: "044297D7AB7DE0AA"
+				title: "Forge"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.0d
 		}
 	]
 	title: "&lHow to automate?"

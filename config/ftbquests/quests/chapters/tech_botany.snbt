@@ -1448,7 +1448,31 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 0.6d
+			y: -0.6d
+		}
+		{
+			dependencies: ["51F748A16C4D6F0B"]
+			description: [
+				"To obtain &l&#96e3c8verdant froglight&r firstly you have to get &2green&r variant of frog. To achieve this you simply breed two normal frogs (you can get them with ritual or just by exploring swamps) wait until tadpoles hatch from frogspawn and then transport one of them in any &bcold biome&r (End included). When tadpole grows into frog while being in &bcold biome&r it becomes &2green&r (tip: you can reduce growth duration by feeding slimeball to it). Then all you have to do is get tiny &cmagma cube&r near it and wait for the frog to mercelessly demolish this tiny creature. In return you'll get &l&#96e3c8verdant froglight&r!"
+				"{@pagebreak}"
+				"Чтобы получить &l&#96e3c8зелёную жапа-лампу&r, сначала нужно добыть &2зеленую&r разновидность лягушки. Для этого просто скрестите двух обычных лягушек (их можно добыть с помощью ритуала или просто исследуя болота), дождитесь, пока из икры лягушки вылупятся головастики, а затем перенесите одного из них в любой &bхолодный биом&r (включая Энд). Когда головастик вырастет в лягушку, находясь в &bхолодном биоме&r, он станет зеленым (совет: вы можете сократить продолжительность роста, кормя его слизью). Затем все, что вам нужно сделать, это установить рядом с ним крошечных &cмагма-кубов&r из ада и подождать, пока лягушка безжалостно уничтожит это крошечное существо. Взамен вы получите &l&#96e3c8зелёную жапа-лампу&r!"
+			]
+			hide: true
+			id: "0C1D273743C5FC46"
+			rewards: [{
+				count: 2
+				id: "33764D84F28355BF"
+				item: "minecraft:verdant_froglight"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "31DAAC72B6CF7467"
+				item: "minecraft:verdant_froglight"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
 		}
 	]
 	title: "Tech Magicka"

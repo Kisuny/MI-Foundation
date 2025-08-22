@@ -81,20 +81,24 @@
 					type: "item"
 				}
 			]
-			shape: "pentagon"
 			subtitle: "Ford Motors"
 			tasks: [{
 				id: "2B705E89F475D11D"
 				item: "neepmeat:robotic_arm"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 5.5d
+			x: -3.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
 				"11A5D34025A9F7B4"
 				"29A8C6AFE8DC0B5B"
+			]
+			description: [
+				"So &o&lthat&r&r thing is the pinnacle of cow-alien symbiosis... How fascinated"
+				"{@pagebreak}"
+				"Так что &o&lэта&r&r штука — вершина симбиоза коров и инопланетян... Как это увлекательно!"
 			]
 			id: "4D67040731053B27"
 			rewards: [{
@@ -114,6 +118,11 @@
 		}
 		{
 			dependencies: ["7F1E78E14355EEF5"]
+			description: [
+				"Now you can satisfy all of your twisted mind fantazies that involves crippling living creatures (Yourself included). Now you just have to figure out how to make such a precise operations..."
+				"{@pagebreak}"
+				"Теперь вы можете удовлетворить все свои извращенные фантазии, связанные с калечением живых существ (включая себя самого). Теперь вам остается только выяснить, как выполнять такие точные операции..."
+			]
 			id: "01A03BFE2F6A21EE"
 			rewards: [
 				{
@@ -153,14 +162,14 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 6.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4D67040731053B27"]
 			description: [
-				"Increases capacity of nearby integrators beyound their limits when powered with motor... Something tells you that you &l&4<shake>DONT</shake>&r&r want to be near this thing when it's active..."
+				"Increases capacity of nearby integrators (and their cow-related variations) beyound their limits when powered with motor... Something tells you that you &lDONT&r want to be near this thing when it's active..."
 				"{@pagebreak}"
-				"Увеличивает мощность близлежащих интеграторов за пределы их возможностей при питании от двигателя... Что-то подсказывает вам, что вы &l&4<shake>НЕ</shake>&r&r захотите находиться рядом с этой штукой, когда она активна..."
+				"Увеличивает мощность близлежащих интеграторов (и их вариаций, связанных с коровами) за пределы их возможностей при питании от двигателя... Что-то подсказывает вам, что вы &lНЕ&r хотите находиться рядом с этой штукой, когда она активна..."
 			]
 			id: "1CF79BEDD4115767"
 			rewards: [
@@ -318,7 +327,7 @@
 			description: [
 				"After all these beautifull eldrich discoveries you want ewen more horror in your daily life, so why dont we vivisect one of this alien creatures and combine it with something casual... like &ocows&r?"
 				"{@pagebreak}"
-				"После всех этих прекрасных открытий, с помощью древних, хочется больше ужаса в повседневной жизни, так почему бы нам не подвергнуть вивисекции одно из этих инопланетных существ и не совместить его с чем-то обыденным... например, с &oкоровой&r?"
+				"После всех этих прекрасных жутких открытий вы хотите еще больше ужаса в своей повседневной жизни, так почему бы нам не провести вивисекцию одного из этих инопланетных существ и не объединить его с чем-то обычным... например, с коровами?"
 			]
 			id: "11A5D34025A9F7B4"
 			rewards: [{
@@ -1672,8 +1681,12 @@
 				"47AEA0C5F176D939"
 			]
 			description: [
+				"Try to use slime sling to launch yourself from the ground in order to get some additional acceleration (you won't regret it)"
+				""
 				"&#d33b2bWarning&r: The reforge rune breaks it, do not try to reforge gravity chest!"
 				"{@pagebreak}"
+				"Попробуйте использовать слизневую рогатку, чтобы оттолкнуться от земли и получить дополнительное ускорение (вы не пожалеете об этом)."
+				""
 				"&#d33b2bПредупреждение&r: Камень перековки ломает нагрудник, не пробуйте его перековывать."
 			]
 			id: "6A8B53B4D3159DEB"
@@ -1726,15 +1739,15 @@
 				item: "neepmeat:tree_vacuum"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 6.5d
+			x: -1.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["01A03BFE2F6A21EE"]
 			description: [
 				"In order to work this... &lthing&r has to be connected directly to vascular network"
 				"{@pagebreak}"
-				"Для того чтобы эта... &lштука&r работала, она должна быть подключена непосредственно к сосудистой сети"
+				"Чтобы это работало... эта &lштука&r должна быть подключена напрямую к сосудистой сети."
 			]
 			hide: false
 			id: "0BFC4C63AC685F02"
@@ -2631,7 +2644,7 @@
 			description: [
 				"Allows you to implant plethora of interesting things inside living creatures"
 				"{@pagebreak}"
-				"Позволяет имплантировать множество интересных вещей внутрь живых существ"
+				"Позволяет имплантировать множество интересных вещей в живые существа."
 			]
 			id: "32B56258C2940734"
 			shape: "octagon"
@@ -2649,7 +2662,7 @@
 			description: [
 				"Eight legs are better than two, am i right?"
 				"{@pagebreak}"
-				"Восемь ног лучше, чем две, не так ли?"
+				"Восемь ног лучше, чем две, я прав?"
 			]
 			id: "32E0CF552FFB787A"
 			shape: "gear"
@@ -2729,9 +2742,9 @@
 		{
 			dependencies: ["25E12DF81876C1F6"]
 			description: [
-				"If you want to improve your factory manufacturing capabilities &leven more&r, this is the solution. Allows you to send instructions directly to executor so you dont have to wait unti it finishes in order to continue your program."
+				"If you want to improve your factory manufacturing capabilities &leven more&r, this is the solution. Allows you to send instructions directly to actuator so you dont have to wait unti it finishes in order to continue your program."
 				"{@pagebreak}"
-				"Если вы хотите улучшить производственные возможности вашей фабрики, то это решение для вас. Позволяет отправлять инструкции непосредственно исполнителю, поэтому вам не нужно ждать, пока он завершит работу, чтобы продолжить выполнение программы."
+				"Если вы хотите еще больше улучшить производственные возможности вашего завода, это решение для вас. Позволяет отправлять инструкции непосредственно на привод, поэтому вам не нужно ждать, пока он завершит работу, чтобы продолжить выполнение программы."
 			]
 			hide: true
 			id: "4336CA2F284D21AD"
@@ -2748,14 +2761,24 @@
 					type: "item"
 				}
 			]
-			shape: "gear"
 			tasks: [{
 				id: "502DD277B7A4EBA6"
 				item: "neepmeat:executor"
 				type: "item"
 			}]
 			x: -3.0d
-			y: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5F3653747EC9ADCF"]
+			id: "67D138B7DF0F5A55"
+			tasks: [{
+				id: "303F745B21F5B8B0"
+				item: "things:arm_extender"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
 		}
 	]
 	title: "Unlimited power | EV"
