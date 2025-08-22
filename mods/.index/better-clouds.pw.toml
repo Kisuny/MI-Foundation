@@ -1,0 +1,16 @@
+filename = 'better-clouds-1.2.9+1.19.2.jar'
+name = 'Better Clouds'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.19.2' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'cb1b82da2318d1e29ed89685e4d29a1b2edffabc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 6647547
+project-id = 1285973
