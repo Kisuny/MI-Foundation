@@ -264,11 +264,11 @@ LootJS.modifiers((event) => {
         .addCondition(condition)
         .removeLoot('*')
         .pool((p) => {
-            p.addWeightedLoot([1,2],
+            p.addWeightedLoot([1,6],
                 [
-                    LootEntry.of("numismatic-overhaul:bronze_coin").withWeight(100).limitCount([10, 80]),
-                    LootEntry.of("numismatic-overhaul:silver_coin").withWeight(50).limitCount([10, 25]),
-                    LootEntry.of("numismatic-overhaul:gold_coin").withWeight(30).limitCount([1, 4]),
+                    LootEntry.of("numismatic-overhaul:bronze_coin").withWeight(50).limitCount([10, 80]),
+                    LootEntry.of("numismatic-overhaul:silver_coin").withWeight(20).limitCount([10, 25]),
+                    LootEntry.of("numismatic-overhaul:gold_coin").withWeight(10).limitCount([1, 4]),
                 ]
             )
         })
@@ -277,7 +277,7 @@ LootJS.modifiers((event) => {
     // removing all artifacts from loot tables
     event
         .addLootTypeModifier(LootType.CHEST)
-        .removeLoot([/artifacts:.*/, 'neepmeat:integrator_egg'])
+        .removeLoot([/artifacts:.*/, 'neepmeat:integrator_egg', /tatimod:.*/, /tctimod:.*/])
 
     event
         .addLootTableModifier('ad_astra:chests/temple/mars/temple')
@@ -341,17 +341,16 @@ LootJS.modifiers((event) => {
 
     event
         .addLootTableModifier('minecraft:chests/village/village_butcher')
-        .randomChance(0.01)
+        .randomChance(0.5)
         .addLoot('artifacts:everlasting_beef')
 
     event
         .addLootTableModifier('minecraft:chests/village/village_cartographer', 'friendsandfoes:chests/illusioner_shack',)
-        .randomChance(0.01)
+        .randomChance(0.5)
         .addLoot('endrem:cryptic_eye')
 
     event
         .addLootTableModifier('minecraft:chests/village/village_temple')
-        .randomChance(0.01)
         .addLoot('endrem:evil_eye')
 
     event
@@ -361,15 +360,15 @@ LootJS.modifiers((event) => {
 
     event
         .addLootTypeModifier(LootType.CHEST)
-        .randomChance(0.001)
+        .randomChance(0.005)
         .addLoot('relicex:tome')
     event
         .addLootTypeModifier(LootType.CHEST)
-        .randomChance(0.02)
+        .randomChance(0.05)
         .addLoot('relicex:lesser_orb_of_regret')
     event
         .addLootTypeModifier(LootType.CHEST)
-        .randomChance(0.0005)
+        .randomChance(0.005)
         .addLoot('relicex:greater_orb_of_regret')
 
     //creeperoverhaul custome loot
