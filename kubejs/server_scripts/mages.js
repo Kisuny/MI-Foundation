@@ -11,6 +11,10 @@ ServerEvents.recipes(event => {
         W: 'minecraft:iron_ingot'
     })
 
+    event.shapeless('9x elemental_metals:lightning_infused_iron_nugget', [
+    'elemental_metals:lightning_infused_iron_ingot',
+])
+
     event.remove({
         output:
             [
