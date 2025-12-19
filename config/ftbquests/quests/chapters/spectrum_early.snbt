@@ -879,7 +879,7 @@
 				}
 				type: "item"
 			}]
-			x: 3.0d
+			x: 2.5d
 			y: 15.5d
 		}
 		{
@@ -913,7 +913,7 @@
 				type: "item"
 			}]
 			title: "Gem Lamps"
-			x: 6.0d
+			x: 6.5d
 			y: 15.5d
 		}
 		{
@@ -957,7 +957,7 @@
 				type: "item"
 			}]
 			title: "Phantom Frames"
-			x: 2.5d
+			x: 2.0d
 			y: 14.5d
 		}
 		{
@@ -982,7 +982,7 @@
 				type: "item"
 			}]
 			title: "Radiant Glass"
-			x: 6.5d
+			x: 7.0d
 			y: 14.5d
 		}
 		{
@@ -1015,7 +1015,7 @@
 				type: "item"
 			}]
 			title: "Shimmerlights"
-			x: 4.0d
+			x: 3.5d
 			y: 16.0d
 		}
 		{
@@ -1061,7 +1061,7 @@
 				item: "spectrum:present"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: 16.0d
 		}
 		{
@@ -3302,6 +3302,111 @@
 			}]
 			x: -12.407142857142851d
 			y: 16.438095238095244d
+		}
+		{
+			dependencies: ["5138287D051E5A8E"]
+			id: "14296FEB67DF06E0"
+			tasks: [{
+				id: "5C1E73C6839C8D1A"
+				item: "animal_pen:aquarium_block"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["5138287D051E5A8E"]
+			id: "08F824BC7706DA1A"
+			tasks: [{
+				id: "35EF7415A9BE00D3"
+				item: "animal_pen:animal_pen_oak"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["08F824BC7706DA1A"]
+			id: "6252E360092E409A"
+			tasks: [{
+				id: "0427FADD0B8BB805"
+				item: "animal_pen:animal_cage"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["14296FEB67DF06E0"]
+			id: "6D8B32454E90699B"
+			tasks: [{
+				id: "02B963D3BAB5963B"
+				item: "animal_pen:water_animal_container"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["05ADE662ABE07C6A"]
+			description: [
+				"• &lAnimal Cage \\& Container&r "
+				"Capture land animals with the Animal Cage and water creatures with the Animal Container."
+				""
+				"• &lFeeding animals acts as breeding&r "
+				"No need for free-roaming animals, just feed them inside their pen!"
+				""
+				"• &lMost vanilla interactions are possible, including&r:"
+				"- Animal farming for loot"
+				"- Shearing sheep"
+				"- Milking cows, mooshrooms, and goats"
+				"- Collecting mushroom stew from mooshrooms"
+				"- Bee pollen regeneration"
+				"- Turtle scutes dropping"
+				"- Water bucket to pick up fishes or axolotls"
+				""
+				"• &lCustom Interactions&r:"
+				"- Chickens, Turtles - Use a bucket to collect eggs"
+				"- Turtles – Drop scutes after feeding (configurable timing)"
+				"- Fish Feeding - Fish eat kelp \\& seagrass, while other water creatures eat fish"
+				"- Frogs – Drop Frog Lights when fed a Magma Cube"
+				""
+				"Use Shift to see the status of each Pen."
+				""
+				"{@pagebreak}"
+				""
+				"• &lAnimal Cage \\& Container&r "
+				"Ловите животных с помощью Animal Cage, а водных существ - с помощью Animal Container."
+				""
+				"• &lКормление животных служит разведению&r "
+				"Не нужно выпускать животных на волю, просто кормите их в загоне!"
+				""
+				"• &lВозможны большинство стандартных взаимодействий, включая&r:"
+				"- Животноводство для добычи"
+				"- Стрижка овец"
+				"- Доение коров, грибных-коров и коз"
+				"- Сбор грибного супа из грибных-коров"
+				"- Регенерация пчелиной пыльцы"
+				"- Выпадения панциря черепахи"
+				"- Ведро для сбора рыб или аксолотлей"
+				""
+				"• &lCustom Interactions&r:"
+				"- Курицы, черепахи - используйте ведро для сбора яиц"
+				"- Черепахи - сбрасывают щитки после кормления"
+				"- Кормление рыб - Рыбы питаются водорослями и морской травой, а другие водные существа питаются рыбой"
+				"- Лягушки - бросают квампы, когда их кормят магма блоками"
+				""
+				"Используйте Shift, чтобы увидеть статус каждого загона."
+			]
+			id: "5138287D051E5A8E"
+			shape: "gear"
+			tasks: [{
+				id: "4FBC32E7F8DF1AD6"
+				title: "Animal Pens"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: 16.5d
 		}
 	]
 	title: "Spectrum: First steps"
