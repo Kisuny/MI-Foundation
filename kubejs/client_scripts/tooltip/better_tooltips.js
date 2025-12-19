@@ -109,8 +109,6 @@ ItemEvents.tooltip(tooltip => {
         simpleShiftText({item: 'gobber2:dragon_elytra', text: "item.gobber2.for_crafting_only"})
         simpleShiftText({item: 'gobber2:dragon_star', text: "item.gobber2.for_crafting_only"})
         simpleShiftText({item: 'kubejs:beehive', text: "kubejs.beehive.tooltip"})
-        simpleShiftText({ item: 'scout:upgraded_satchel', text: 'kubejs.text.doesnt_save_items_after_improvement' })
-        simpleShiftText({ item: 'scout:upgraded_pouch', text: 'kubejs.text.doesnt_save_items_after_improvement' })
         simpleShiftText({ item: 'modern_industrialization:forge_hammer', text: 'kubejs.text.forge_hammer' })
         simpleShiftText({ item: 'ae2:charger', text: 'kubejs.text.charger' })
         simpleShiftText({ item: 'mif_addon:scoop', text: 'kubejs.text.scoop' })
