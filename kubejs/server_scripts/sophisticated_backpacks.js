@@ -28,8 +28,6 @@ ServerEvents.recipes(event => {
         event.remove({output: item})
     })
 
-    event.remove({mod: "travelersbackpack"})
-
     
 
     event.remove({ id: 'sophisticatedbackpacks:magnet_upgrade' })
