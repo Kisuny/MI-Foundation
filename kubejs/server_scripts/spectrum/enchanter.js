@@ -154,4 +154,29 @@ function generateLevels(fromLevel, toLevel, buildLevel) {
             "item": "spectrum:upgrade_yield2"
         },
     });
+    
+    
+    customEnchanterCraft(event, {
+        time: 200, experience: 400, advancement: "spectrum:midgame/build_enchanting_structure",
+        ingredients: [
+            { "item": "kubejs:rune_template" },
+            { "item": "modern_industrialization:runite_large_plate" },
+            { "item": "modern_industrialization:runite_large_plate" },
+            { "item": "modern_industrialization:runite_large_plate" },
+            { "item": "modern_industrialization:runite_large_plate" },
+            { "item": "modern_industrialization:runite_large_plate" },
+            { "item": "modern_industrialization:runite_large_plate" },
+            { "item": "modern_industrialization:runite_large_plate" },
+            { "item": "modern_industrialization:runite_large_plate" }
+        ],
+        result: {
+            "item": "simplyswords:runic_tablet"
+        },
+    });
+
+
+
+
+
+
 });
