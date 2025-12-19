@@ -93,7 +93,6 @@ ServerEvents.recipes(event => {
         .itemOut('16x minecraft:cobbled_deepslate', 0.25)
         .itemOut('16x minecraft:tuff', 0.25)
         .itemOut('10x neepmeat:asbestos', 0.25)
-        .dimension('minecraft:overworld')
     event.remove({ id: 'modern_industrialization:quarry/bronze' })
     event.recipes.modern_industrialization.quarry(4, 600) //Eu, ticks
         .itemIn('modern_industrialization:bronze_drill', 0.08)
@@ -104,7 +103,6 @@ ServerEvents.recipes(event => {
         .itemOut('modern_industrialization:tin_ore', 0.3)
         .itemOut('minecraft:gold_ore', 0.15)
         .itemOut('minecraft:redstone_ore', 0.2)
-        .dimension('minecraft:overworld')
     event.remove({ id: 'modern_industrialization:quarry/titanium' })
     event.recipes.modern_industrialization.quarry(128, 600) //Eu, ticks
         .itemIn('modern_industrialization:titanium_drill', 0.08)
@@ -112,7 +110,6 @@ ServerEvents.recipes(event => {
         .itemOut('modern_industrialization:iridium_ore', 0.05)
         .itemOut('modern_industrialization:fluoroapatite_ore', 0.25)
         .itemOut('modern_industrialization:roquesite_ore', 0.05)
-        .dimension('minecraft:overworld')
     event.remove({ id: 'modern_industrialization:quarry/steel' })
     event.recipes.modern_industrialization.quarry(12, 600) //Eu, ticks
         .itemIn('modern_industrialization:steel_drill', 0.08)
@@ -125,7 +122,6 @@ ServerEvents.recipes(event => {
         .itemOut('modern_industrialization:salt_ore', 0.12)
         .itemOut('minecraft:emerald_ore', 0.1)
         .itemOut('modern_industrialization:quartz_ore', 0.2)
-        .dimension('minecraft:overworld')
     event.remove({ id: 'modern_industrialization:quarry/stainless_steel' })
     event.recipes.modern_industrialization.quarry(32, 600) //Eu, ticks
         .itemIn('modern_industrialization:stainless_steel_drill', 0.08)
@@ -137,7 +133,6 @@ ServerEvents.recipes(event => {
         .itemOut('modern_industrialization:molybdenite_ore', 0.4)
         .itemOut('modern_industrialization:platinum_ore', 0.3)
         .itemOut('modern_industrialization:brookite_ore', 0.3)
-        .dimension('minecraft:overworld')
     // Deeper Down mining
     event.recipes.modern_industrialization.quarry(4, 600) //Eu, ticks
         .itemIn(`modern_industrialization:bronze_drill`, 0.12)
