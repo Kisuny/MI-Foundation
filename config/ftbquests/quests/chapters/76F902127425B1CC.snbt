@@ -239,7 +239,7 @@
 		{
 			dependencies: ["0314A659046D38A0"]
 			description: [
-				"Can be bought from a master cleric."
+				"Can be found in the cleric's house in the village"
 				""
 				"This eye can also be obtained by fishing for creatures."
 				"{@pagebreak}"
@@ -2153,9 +2153,18 @@
 			description: [
 				"Eyes can be found traveling the world, in a variety of places, whether it's winter biomes or the desert, rare piglin dungeons or a vicious wither boss."
 				""
+				"You only need to collect 12 different eyes, you don't need to collect them all!"
+				""
+				"If you happen to have an End Portal Frame with vanilla eyes in your Stronghold, you can remove them by holding any of the End Remastered mod eyes in your hand and right-clicking on frame."
+				""
 				"&l&cWe strongly recommend&r&r preparing to fight a dragon, the dragon in this modpack has been significantly buffed."
+				""
 				"{@pagebreak}"
 				"Глаза можно найти путешествуя по миру, в разнообразных местах, будь то зимние биомы или пустыня, будь то редкие данжи пиглинов или злобный босс-иссушитель. "
+				""
+				"Вам достаточно собрать 12 разнообразных глаз, не нужно собирать все!"
+				""
+				"Если вдруг в вашем Stronghold есть End Portal Frame с ванильными глазами вы можете вытащить их держа в руке любой из глаз мода End Remastered и нажав ПКМ на рамку."
 				""
 				"&l&cНастоятельно рекомендуем&r&r подготовиться к бою с драконом, дракон в данной сборке был чрезвычайно усилен."
 			]
