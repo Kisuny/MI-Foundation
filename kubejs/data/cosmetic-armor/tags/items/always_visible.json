@@ -19,8 +19,12 @@
         "kibe:slime_boots",
         "ad_astra:jet_suit_boots",
         "mythicmetals:carmot_boots",
-		"mythicmetals:carmot_leggings",
-		"mythicmetals:carmot_chestplate",
-		"mythicmetals:carmot_helmet"
+        "mythicmetals:carmot_leggings",
+        "mythicmetals:carmot_chestplate",
+        "mythicmetals:carmot_helmet",
+        "mythicmetals:midas_gold_boots",
+        "mythicmetals:midas_gold_leggings",
+        "mythicmetals:midas_gold_chestplate",
+        "mythicmetals:midas_gold_helmet"
     ]
   }
