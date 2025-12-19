@@ -925,8 +925,8 @@
 				item: "spectrum:weeping_circlet"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 11.5d
+			x: 9.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["4C5701B9C4BCE884"]
@@ -950,7 +950,7 @@
 				type: "item"
 			}]
 			x: 9.5d
-			y: 12.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["4C5701B9C4BCE884"]
@@ -973,8 +973,8 @@
 				item: "spectrum:ashen_circlet"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 11.5d
+			x: 10.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["12C2D3EA6474C0B8"]
@@ -3597,7 +3597,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 10.5d
+			y: 11.0d
 		}
 	]
 	title: "Spectrum: New discoveries"
