@@ -223,7 +223,7 @@ LootJS.modifiers((event) => {
 
     const RandomBonus = Java.loadClass("net.minecraft.world.level.storage.loot.predicates.BonusLevelTableCondition");
 
-    const condition = RandomBonus.bonusLevelFlatChance("kubejs:coins_instinct", [0, 0.15]).build();
+    const condition = RandomBonus.bonusLevelFlatChance("kubejs:coins_instinct", [0, 0.15, 0.30]).build();
 
 
     event
@@ -250,17 +250,17 @@ LootJS.modifiers((event) => {
             LootEntry.of('kubejs:ditcheryatina').withWeight(40),
             LootEntry.of('bwplus:soul').withWeight(40),
             LootEntry.of('probablychests:gold_key').withWeight(40),
-            LootEntry.of('kubejs:mob_lootbag_uncommon').withWeight(30).limitCount([1, 2]),
-            LootEntry.of('kubejs:food_lootbag_uncommon').withWeight(30).limitCount([1, 2]),
-            LootEntry.of('kubejs:food_lootbag_rare').withWeight(20).limitCount([1, 2]),
-            LootEntry.of('kubejs:magic_lootbag_uncommon').withWeight(30).limitCount([1, 2]),
-            LootEntry.of('kubejs:early_lootbag_uncommon').withWeight(30).limitCount([1, 2]),
-            LootEntry.of('kubejs:early_lootbag_rare').withWeight(20).limitCount([1, 2]),
-            LootEntry.of('mythicmetals:aquarium_pearl').withWeight(20),
-            LootEntry.of('mythicmetals:banglum_chunk').withWeight(20),
-            LootEntry.of('kubejs:kozel_dark').withWeight(20),
-            LootEntry.of('simplyswords:empowered_remnant').withWeight(20),
-            LootEntry.of('kubejs:tears_of_the_sea').withWeight(15),
+            LootEntry.of('kubejs:mob_lootbag_uncommon').withWeight(50).limitCount([1, 2]),
+            LootEntry.of('kubejs:food_lootbag_uncommon').withWeight(50).limitCount([1, 2]),
+            LootEntry.of('kubejs:food_lootbag_rare').withWeight(30).limitCount([1, 2]),
+            LootEntry.of('kubejs:magic_lootbag_uncommon').withWeight(50).limitCount([1, 2]),
+            LootEntry.of('kubejs:early_lootbag_uncommon').withWeight(50).limitCount([1, 2]),
+            LootEntry.of('kubejs:early_lootbag_rare').withWeight(40).limitCount([1, 2]),
+            LootEntry.of('mythicmetals:aquarium_pearl').withWeight(40),
+            LootEntry.of('mythicmetals:banglum_chunk').withWeight(40),
+            LootEntry.of('kubejs:kozel_dark').withWeight(30),
+            LootEntry.of('simplyswords:empowered_remnant').withWeight(40),
+            LootEntry.of('kubejs:tears_of_the_sea').withWeight(30),
         ])
         .addCondition(condition)
         .removeLoot('*')
@@ -268,8 +268,8 @@ LootJS.modifiers((event) => {
             p.addWeightedLoot([1,6],
                 [
                     LootEntry.of("numismatic-overhaul:bronze_coin").withWeight(50).limitCount([10, 80]),
-                    LootEntry.of("numismatic-overhaul:silver_coin").withWeight(20).limitCount([10, 25]),
-                    LootEntry.of("numismatic-overhaul:gold_coin").withWeight(10).limitCount([1, 4]),
+                    LootEntry.of("numismatic-overhaul:silver_coin").withWeight(20).limitCount([1, 15]),
+                    LootEntry.of("numismatic-overhaul:gold_coin").withWeight(10).limitCount([1, 2]),
                 ]
             )
         })
@@ -335,10 +335,6 @@ LootJS.modifiers((event) => {
             .addWeightedLoot(1, commonArtifacts)
         });
     
-    
-    event
-        .addLootTypeModifier(LootType.CHEST)
-        .removeLoot(/travelersbackpack:.*/)
 
     event
         .addLootTableModifier('minecraft:chests/village/village_butcher')

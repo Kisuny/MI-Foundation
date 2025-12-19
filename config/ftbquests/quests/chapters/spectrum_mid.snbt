@@ -3561,6 +3561,44 @@
 			x: 1.0d
 			y: -18.5d
 		}
+		{
+			dependencies: ["12C2D3EA6474C0B8"]
+			description: [
+				"This enchantment is applied to a fishing rod and allows you to catch coins from liquids."
+				""
+				"1 level - 15% catch coins."
+				"2 level - 30% catch coins."
+				"{@pagebreak}"
+				""
+				"Данное зачарование накладывается на удочку и позволяет ловить монеты из жидкостей."
+				""
+				"1 уровень - 15% шанс поймать монеты."
+				"2 уровень - 30% шанс поймать монеты."
+			]
+			id: "0C1CCCBAE626B914"
+			rewards: [{
+				id: "3B5339DE3389CEDE"
+				item: "numismatic-overhaul:gold_coin"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "5AAB68770531D86E"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "kubejs:coins_instinct"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.5d
+		}
 	]
 	title: "Spectrum: New discoveries"
 }

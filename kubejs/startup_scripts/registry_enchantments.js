@@ -1,6 +1,6 @@
 StartupEvents.registry("enchantment", event => {
     event.create("coins_instinct")
-        .maxLevel(1)
+        .maxLevel(2)
         .veryRare()
         .fishingRod()
         .displayName("enchantment.kubejs.coins_instinct")
