@@ -5,4 +5,6 @@ StartupEvents.registry("enchantment", event => {
         .fishingRod()
         .displayName("enchantment.kubejs.coins_instinct")
         .translationKey('enchantment.kubejs.coins_instinct.desc')
+        .untradeable()
+        .undiscoverable()
 })
