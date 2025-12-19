@@ -222,7 +222,8 @@
       "#modern_industrialization:fluid_pipes",
       "#modern_industrialization:item_pipes",
       "#modern_industrialization:me_wires",
-      "moderndynamics:*"
+      "moderndynamics:*",
+      "chunkloaders:*"
     ],
     "//forbiddenEntities": "Entities that cannot be picked up",
     "forbiddenEntities": [
@@ -297,7 +298,8 @@
       "probablychests:*",
       "goblintraders:*",
       "travelersbackpack:*",
-      "xps:*"
+      "xps:*",
+      "chunkloaders:*"
     ],
     "//forbiddenStacking": "Entities that cannot have other entities stacked on top of them",
     "forbiddenStacking": [
