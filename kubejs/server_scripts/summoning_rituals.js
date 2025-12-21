@@ -343,7 +343,7 @@ ServerEvents.recipes(event => {
             .altar(args.catalyst)
             .mobOutput(
                 SummoningOutput.mob(args.mob)
-                    .count(args.amount | 1)
+                    .count(args.amount || 1)
                     .spread(4, 1, 4)
             )
             .input(args.input)
@@ -376,7 +376,7 @@ ServerEvents.recipes(event => {
     simpleSummonRecipe(event, { catalyst: 'minecraft:fire_charge', mob: 'minecraft:ghast', input: '12x minecraft:soul_soil' });
     simpleSummonRecipe(event, { catalyst: 'minecraft:water_bucket', mob: 'minecraft:slime', input: '12x minecraft:lily_pad', amount: 4});
     simpleSummonRecipe(event, { catalyst: 'minecraft:lava_bucket', mob: 'minecraft:magma_cube', input: '12x minecraft:magma_block', amount: 4});
-
+    simpleSummonRecipe(event, { catalyst: 'minecraft:hay_block', mob: 'minecraft:skeleton_horse', input: '12x minecraft:bone', amount: 2});
     simpleSummonRecipe(event, { catalyst: 'minecraft:bone', mob: 'minecraft:wolf', input: '12x minecraft:snowball', amount: 1});
 
 })
