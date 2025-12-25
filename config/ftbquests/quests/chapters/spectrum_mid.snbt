@@ -866,6 +866,11 @@
 		}
 		{
 			dependencies: ["347CB25B0C49349B"]
+			description: [
+				"Don't forget to swim in this liquid, it's very &cimportant&r!"
+				"{@pagebreak}"
+				"Не забудьте поплавать в этой жидкости, это &cочень важно&r!"
+			]
 			hide: true
 			id: "12C2D3EA6474C0B8"
 			rewards: [{
