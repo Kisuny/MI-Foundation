@@ -378,5 +378,6 @@ ServerEvents.recipes(event => {
     simpleSummonRecipe(event, { catalyst: 'minecraft:lava_bucket', mob: 'minecraft:magma_cube', input: '12x minecraft:magma_block', amount: 4});
     simpleSummonRecipe(event, { catalyst: 'minecraft:hay_block', mob: 'minecraft:skeleton_horse', input: '12x minecraft:bone'});
     simpleSummonRecipe(event, { catalyst: 'minecraft:bone', mob: 'minecraft:wolf', input: '12x minecraft:snowball'});
+    simpleSummonRecipe(event, { catalyst: 'minecraft:glowstone', mob: 'naturalist:butterfly', input: '12x minecraft:blue_orchid', amount: 4});
 
 })
