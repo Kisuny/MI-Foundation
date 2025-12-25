@@ -2788,6 +2788,7 @@
 			]
 			id: "4A01315B2CA849AE"
 			rewards: [{
+				count: 4
 				id: "20EF353A7A445790"
 				item: "spirit:soul_steel_block"
 				team_reward: true
