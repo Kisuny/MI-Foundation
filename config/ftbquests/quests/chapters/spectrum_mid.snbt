@@ -530,13 +530,13 @@
 			description: [
 				"If you play on a server, be cautious about these bacteria, otherwise they can &lget out of control&r…"
 				""
-				"&4You cannot put them back inside the bottle!&r"
+				"&2You can put them back inside the bottle!&r"
 				""
 				"{image:quest_images:textures/item/be_safe.png width:300 height:135 align:1}"
 				"{@pagebreak}"
 				"Играя на сервере будь осторожен со всеми жидкостями в подобных баночках, они могут разрастись &lочень&r сильно…"
 				""
-				"&4Гибель нельзя вернуть обратно в баночку!&r"
+				"&2Гибель можно вернуть обратно в баночку!&r"
 				""
 				"{image:quest_images:textures/item/be_safe.png width:300 height:135 align:1}"
 			]
@@ -1992,7 +1992,7 @@
 			]
 			shape: "gear"
 			size: 2.0d
-			subtitle: "&c⚠⚠⚠⚠WARNING!!!!⚠⚠⚠⚠"
+			subtitle: "&c⚠⚠⚠⚠WARNING⚠⚠⚠⚠"
 			tasks: [{
 				id: "1B285E1D06384FB0"
 				item: "spectrum:bottle_of_ruin"

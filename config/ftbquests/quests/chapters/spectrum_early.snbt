@@ -1069,11 +1069,11 @@
 			description: [
 				"Place these &#FEECD6microorganisms&r near some food and &#9BB8EDwait&r a bit. The bacteria will start to eat it and leave the &#FEECD6rests&r behind. Maybe you can use this to &#9BB8EDyour advantage&r!"
 				""
-				"&#d33b2bFading can't be collected back into the bottle! &r"
+				"&2Fading can be collected back into the bottle!&r"
 				"{@pagebreak}"
 				"Установите &#FEECD6бутылочку&r рядом с &#CAE4C8листьями&r и немного &#9BB8EDподождите&r, бактерии начнут съедать &#CAE4C8листву&r и оставлять процессы своей &#FEECD6жизнидейстельности&r прямо в этих же &#CAE4C8листях&r, возможно вы сможете использовать это в &#9BB8EDсвоих целях&r!"
 				""
-				"&#d33b2bУвядание нельзя вернуть обратно в баночку!&r"
+				"&2Увядание можно вернуть обратно в баночку!&r"
 			]
 			hide: true
 			id: "3D5AB2D779080E10"

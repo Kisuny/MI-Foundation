@@ -916,8 +916,8 @@
 				item: "botania:jaded_amaranthus"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -6.5d
+			x: -7.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["7E5C457A7E9FC7E7"]
@@ -1063,8 +1063,8 @@
 				item: "botania:hopperhock"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -7.0d
+			x: -5.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["7E5C457A7E9FC7E7"]
@@ -1089,7 +1089,7 @@
 				item: "botania:tangleberrie"
 				type: "item"
 			}]
-			x: -6.5d
+			x: -4.5d
 			y: -6.5d
 		}
 		{
@@ -1115,8 +1115,8 @@
 				item: "botania:jiyuulia"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -6.0d
+			x: -5.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["7E5C457A7E9FC7E7"]
@@ -1205,8 +1205,12 @@
 			dependencies: ["7E5C457A7E9FC7E7"]
 			description: [
 				"Uses a lot of mana."
+				""
+				"&l&6This is the only way to get coins automatically!&r&r"
 				"{@pagebreak}"
 				"Использует очень много маны."
+				""
+				"&l&6Это единственный способ автоматически получать монетки!&r&r"
 			]
 			id: "10BA99096542B69F"
 			rewards: [
@@ -1222,15 +1226,16 @@
 					type: "item"
 				}
 			]
-			shape: "diamond"
+			shape: "gear"
+			size: 2.0d
 			subtitle: "Spawns mobs that drop loot from the dungeon"
 			tasks: [{
 				id: "554E10917D2DD1CA"
 				item: "botania:loonium"
 				type: "item"
 			}]
-			x: -4.5d
-			y: -6.5d
+			x: -7.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["7E5C457A7E9FC7E7"]
