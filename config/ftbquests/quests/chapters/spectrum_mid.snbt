@@ -1969,9 +1969,9 @@
 				"0EBE1EF0925CB824"
 			]
 			description: [
-				"&4Ruin cannot be put back in the bottle once you release it!&r"
+				"&2You can return the ruin to the bottle if you want.&r"
 				"{@pagebreak}"
-				"&4Порчу нельзя вернуть обратно в баночку!&r"
+				"&2Вы можете вернуть порчу в баночку, если захотите.&r"
 			]
 			hide: true
 			id: "36048D9C00CA490D"

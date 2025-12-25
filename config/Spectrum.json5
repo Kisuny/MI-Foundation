@@ -61,9 +61,9 @@
 	"RuinDecayTickRate": 0.5,
 	"ForfeitureDecayTickRate": 0.5,
 	// Whether bottles can be used to pick up decay. Default is true.
-	"CanBottleUpFading": false,
-	"CanBottleUpFailing": false,
-	"CanBottleUpRuin": false,
+	"CanBottleUpFading": true,
+	"CanBottleUpFailing": true,
+	"CanBottleUpRuin": true,
 	"CanBottleUpForfeiture": true,
 	// Whether decay can take over block entities. Defaults to false.
 	"FadingCanDestroyBlockEntities": false,
