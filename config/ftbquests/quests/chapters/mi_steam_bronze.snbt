@@ -58,7 +58,21 @@
 			rotation: 0.0d
 			width: 10.0d
 			x: -7.0d
-			y: 13.0d
+			y: 13.5d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "62C6520476171E0B"
+			dev: false
+			height: 19.9d
+			hover: [ ]
+			image: "spectrum:textures/gui/modonomicon/guidebook_frame.png"
+			order: 1
+			rotation: 0.0d
+			width: 19.9d
+			x: -3.193877551020421d
+			y: 17.29263392857144d
 		}
 	]
 	order_index: 1
@@ -2661,7 +2675,6 @@
 				"23FB9EE3D0145E87"
 				"45AFA17F0E26641D"
 			]
-			description: ["{image:quest_images:textures/item/neepmeatguide.png width:250 height:250 align:1}"]
 			id: "62C6520476171E0B"
 			shape: "gear"
 			size: 2.0d
