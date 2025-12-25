@@ -363,7 +363,11 @@
 				"7EFCA744EC5BCFDB"
 				"5CA72E2233DD6369"
 			]
-			description: ["Ewen if this structure looks &ounautomatable&r you still can &lautomate&r it! &l&#FEC6DF<wave>Forge</wave>&r accepts fuel from the &oleft&r side, valid items from the &oright&r side and outputs smelted items from the &obottom&r of the block below &l&#FEC6DF<wave>forge</wave>&r itself"]
+			description: [
+				"Ewen if this structure looks &ounautomatable&r you still can &lautomate&r it! &l&#FEC6DF<wave>Forge</wave>&r accepts fuel from the &oleft&r side, valid items from the &oright&r side and outputs smelted items from the &obottom&r of the block below &l&#FEC6DF<wave>forge</wave>&r itself"
+				"{@pagebreak}"
+				"Даже если эта конструкция выглядит неавтоматизируемой, вы все равно можете ее автоматизировать! Кузня принимает топливо с левой стороны, подходящие предметы с правой стороны и выдает выплавленные предметы из нижней части блока под кузницей."
+			]
 			id: "317E54D541DBEC9B"
 			tasks: [{
 				id: "044297D7AB7DE0AA"
