@@ -77,10 +77,12 @@ ServerEvents.recipes(event => {
         .itemOut('minecraft:nether_gold_ore', 0.25)
         .dimension('minecraft:the_nether')
     //Overworld Mining
-    event.recipes.modern_industrialization.quarry(24, 600) //Eu, ticks
+    const dimensions = ['minecraft:overworld', 'javd:void']
+    dimensions.forEach(dim => {
+        event.recipes.modern_industrialization.quarry(24, 600) //Eu, ticks
 	.itemIn(`modern_industrialization:desh_drill`, 0.08)
 	.itemOut('modern_industrialization:ancient_fossil_block',0.25)
-	.dimension('minecraft:overworld')
+	.dimension(dim)
     event.remove({ id: 'modern_industrialization:quarry/copper' })
     event.recipes.modern_industrialization.quarry(4, 600) //Eu, ticks
         .itemIn('modern_industrialization:copper_drill', 0.2)
@@ -93,6 +95,7 @@ ServerEvents.recipes(event => {
         .itemOut('16x minecraft:cobbled_deepslate', 0.25)
         .itemOut('16x minecraft:tuff', 0.25)
         .itemOut('10x neepmeat:asbestos', 0.25)
+        .dimension(dim)
     event.remove({ id: 'modern_industrialization:quarry/bronze' })
     event.recipes.modern_industrialization.quarry(4, 600) //Eu, ticks
         .itemIn('modern_industrialization:bronze_drill', 0.08)
@@ -103,6 +106,7 @@ ServerEvents.recipes(event => {
         .itemOut('modern_industrialization:tin_ore', 0.3)
         .itemOut('minecraft:gold_ore', 0.15)
         .itemOut('minecraft:redstone_ore', 0.2)
+        .dimension(dim)
     event.remove({ id: 'modern_industrialization:quarry/titanium' })
     event.recipes.modern_industrialization.quarry(128, 600) //Eu, ticks
         .itemIn('modern_industrialization:titanium_drill', 0.08)
@@ -110,6 +114,7 @@ ServerEvents.recipes(event => {
         .itemOut('modern_industrialization:iridium_ore', 0.05)
         .itemOut('modern_industrialization:fluoroapatite_ore', 0.25)
         .itemOut('modern_industrialization:roquesite_ore', 0.05)
+        .dimension(dim)
     event.remove({ id: 'modern_industrialization:quarry/steel' })
     event.recipes.modern_industrialization.quarry(12, 600) //Eu, ticks
         .itemIn('modern_industrialization:steel_drill', 0.08)
@@ -122,6 +127,7 @@ ServerEvents.recipes(event => {
         .itemOut('modern_industrialization:salt_ore', 0.12)
         .itemOut('minecraft:emerald_ore', 0.1)
         .itemOut('modern_industrialization:quartz_ore', 0.2)
+        .dimension(dim)
     event.remove({ id: 'modern_industrialization:quarry/stainless_steel' })
     event.recipes.modern_industrialization.quarry(32, 600) //Eu, ticks
         .itemIn('modern_industrialization:stainless_steel_drill', 0.08)
@@ -133,6 +139,11 @@ ServerEvents.recipes(event => {
         .itemOut('modern_industrialization:molybdenite_ore', 0.4)
         .itemOut('modern_industrialization:platinum_ore', 0.3)
         .itemOut('modern_industrialization:brookite_ore', 0.3)
+        .dimension(dim)
+    });
+
+
+    
     // Deeper Down mining
     event.recipes.modern_industrialization.quarry(4, 600) //Eu, ticks
         .itemIn(`modern_industrialization:bronze_drill`, 0.12)
@@ -184,7 +195,8 @@ ServerEvents.recipes(event => {
             .itemOut(strmulti_with_cap(drill.output_multi,'minecraft:nether_gold_ore'),      up_to_one(0.25,drill.output_chance))
             .dimension('minecraft:the_nether')
         //Overworld Mining
-        event.recipes.modern_industrialization.quarry(Math.floor(4*drill.energy), Math.floor(600*drill.duration)) //Eu, ticks
+        dimensions.forEach(dim => {
+            event.recipes.modern_industrialization.quarry(Math.floor(4*drill.energy), Math.floor(600*drill.duration)) //Eu, ticks
             .itemIn(`kubejs:${drill.name}_copper_drill`, 0.2*drill.stiffness)
             .itemOut(strmulti_with_cap(drill.output_multi,'64x minecraft:cobblestone'),       up_to_one(0.95,drill.output_chance))
             .itemOut(strmulti_with_cap(drill.output_multi,'16x minecraft:diorite'),           up_to_one(0.25,drill.output_chance))
@@ -194,7 +206,7 @@ ServerEvents.recipes(event => {
             .itemOut(strmulti_with_cap(drill.output_multi,'10x minecraft:gravel'),            up_to_one(0.5 ,drill.output_chance))
             .itemOut(strmulti_with_cap(drill.output_multi,'16x minecraft:cobbled_deepslate'), up_to_one(0.25,drill.output_chance))
             .itemOut(strmulti_with_cap(drill.output_multi,'16x minecraft:tuff'),              up_to_one(0.25,drill.output_chance))
-            .dimension('minecraft:overworld')
+            .dimension(dim)
         event.recipes.modern_industrialization.quarry(Math.floor(4*drill.energy), Math.floor(600*drill.duration)) //Eu, ticks
             .itemIn(`kubejs:${drill.name}_bronze_drill`, 0.08*drill.stiffness)
             .itemOut(strmulti_with_cap(drill.output_multi,'minecraft:iron_ore'),                        up_to_one(0.4 ,drill.output_chance))
@@ -204,14 +216,14 @@ ServerEvents.recipes(event => {
             .itemOut(strmulti_with_cap(drill.output_multi,'modern_industrialization:tin_ore'),          up_to_one(0.3 ,drill.output_chance))
             .itemOut(strmulti_with_cap(drill.output_multi,'minecraft:gold_ore'),                        up_to_one(0.15,drill.output_chance))
             .itemOut(strmulti_with_cap(drill.output_multi,'minecraft:redstone_ore'),                    up_to_one(0.2 ,drill.output_chance))
-            .dimension('minecraft:overworld')
+            .dimension(dim)
         event.recipes.modern_industrialization.quarry(Math.floor(128*drill.energy), Math.floor(600*drill.duration)) //Eu, ticks
             .itemIn(`kubejs:${drill.name}_titanium_drill`, 0.08*drill.stiffness)
             .itemOut(strmulti_with_cap(drill.output_multi,'modern_industrialization:uranium_ore'),       up_to_one(0.20,drill.output_chance))
             .itemOut(strmulti_with_cap(drill.output_multi,'modern_industrialization:iridium_ore'),       up_to_one(0.05,drill.output_chance))
             .itemOut(strmulti_with_cap(drill.output_multi,'modern_industrialization:fluoroapatite_ore'), up_to_one(0.25,drill.output_chance))
             .itemOut(strmulti_with_cap(drill.output_multi,'modern_industrialization:roquesite_ore'),     up_to_one(0.05,drill.output_chance))
-            .dimension('minecraft:overworld')
+            .dimension(dim)
         event.recipes.modern_industrialization.quarry(Math.floor(12*drill.energy), Math.floor(600*drill.duration)) //Eu, ticks
             .itemIn(`kubejs:${drill.name}_steel_drill`, 0.08*drill.stiffness)
             .itemOut(strmulti_with_cap(drill.output_multi,'modern_industrialization:antimony_ore'), up_to_one(0.2 ,drill.output_chance))
@@ -223,7 +235,7 @@ ServerEvents.recipes(event => {
             .itemOut(strmulti_with_cap(drill.output_multi,'modern_industrialization:salt_ore'),     up_to_one(0.12,drill.output_chance))
             .itemOut(strmulti_with_cap(drill.output_multi,'minecraft:emerald_ore'),                 up_to_one(0.1 ,drill.output_chance))
             .itemOut(strmulti_with_cap(drill.output_multi,'modern_industrialization:quartz_ore'),   up_to_one(0.2 ,drill.output_chance))
-            .dimension('minecraft:overworld')
+            .dimension(dim)
         event.recipes.modern_industrialization.quarry(Math.floor(32*drill.energy), Math.floor(600*drill.duration)) //Eu, ticks
             .itemIn(`kubejs:${drill.name}_stainless_steel_drill`, 0.08*drill.stiffness)
             .itemOut(strmulti_with_cap(drill.output_multi,'modern_industrialization:titanium_ore'),     up_to_one(0.6,drill.output_chance))
@@ -234,12 +246,14 @@ ServerEvents.recipes(event => {
             .itemOut(strmulti_with_cap(drill.output_multi,'modern_industrialization:molybdenite_ore'),  up_to_one(0.4,drill.output_chance))
             .itemOut(strmulti_with_cap(drill.output_multi,'modern_industrialization:platinum_ore'),     up_to_one(0.3,drill.output_chance))
             .itemOut(strmulti_with_cap(drill.output_multi,'modern_industrialization:brookite_ore'),                         up_to_one(0.3,drill.output_chance))
-            .dimension('minecraft:overworld')
+            .dimension(dim)
         // Botania flowers
         event.recipes.modern_industrialization.quarry(Math.floor(24*drill.energy), Math.floor(600*drill.duration)) //Eu, ticks
             .itemIn(`kubejs:${drill.name}_desh_drill`, 0.08*drill.stiffness)
             .itemOut(strmulti_with_cap(drill.output_multi,'modern_industrialization:ancient_fossil_block'), up_to_one(0.25,drill.output_chance))
-            .dimension('minecraft:overworld')
+            .dimension(dim)
+        });
+        
         // Deeper Down mining
         event.recipes.modern_industrialization.quarry(Math.floor(4*drill.energy), Math.floor(600*drill.duration)) //Eu, ticks
             .itemIn(`kubejs:${drill.name}_bronze_drill`, 0.12*drill.stiffness)

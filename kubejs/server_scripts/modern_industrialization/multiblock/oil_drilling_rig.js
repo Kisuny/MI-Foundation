@@ -1,5 +1,5 @@
 //priority: 0
-function up_to_one(number,coeff) {
+function up_to_one(number, coeff) {
     if (number * coeff <= 1) {
         return number * coeff
     }
@@ -39,21 +39,21 @@ const overworld_drilling = [
         stiffness: 0.12,
         energy: 8,
         time: 200,
-        output: {id: 'modern_industrialization:crude_oil' ,amount:500}
+        output: { id: 'modern_industrialization:crude_oil', amount: 500 }
     },
     {
         drill: 'stainless_steel_drill',
         stiffness: 0.06,
         energy: 32,
         time: 200,
-        output: {id: 'modern_industrialization:shale_oil',amount:4000}
+        output: { id: 'modern_industrialization:shale_oil', amount: 4000 }
     },
     {
         drill: 'copper_drill',
         stiffness: 0.06,
         energy: 2,
         time: 100,
-        output: {id: 'minecraft:water',amount:16000}
+        output: { id: 'minecraft:water', amount: 16000 }
     }
 ]
 
@@ -63,7 +63,7 @@ const nether_drilling = [
         stiffness: 0.36,
         energy: 16,
         time: 100,
-        output: {id: 'minecraft:lava',amount:4000}
+        output: { id: 'minecraft:lava', amount: 4000 }
     }
 ]
 
@@ -90,31 +90,38 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'modern_industrialization:oil/crude_oil' })
     event.remove({ id: 'modern_industrialization:oil/shale_oil' })
     event.remove({ id: 'modern_industrialization:oil/water' })
+    const dimensions = ['minecraft:overworld', 'javd:void']
 
-    overworld_drilling.forEach(type => {
-        event.recipes.modern_industrialization.oil_drilling_rig(type.energy, type.time) //Eu, ticks
-            .itemIn(`modern_industrialization:${type.drill}`, type.stiffness)
-            .fluidOut(`${type.output.id}`,type.output.amount)
-            .dimension('minecraft:overworld')
-        drill_prop.forEach(drill => {
-            event.recipes.modern_industrialization.oil_drilling_rig(type.energy*drill.energy, Math.ceil(type.time*drill.duration)) //Eu, ticks
-                .itemIn(`kubejs:${drill.name}_${type.drill}`, type.stiffness*drill.stiffness)
-                .fluidOut(`${type.output.id}`,Math.floor(type.output.amount*drill.output_multi))
-                .dimension('minecraft:overworld')
+    dimensions.forEach(dim => {
 
+        overworld_drilling.forEach(type => {
+            event.recipes.modern_industrialization.oil_drilling_rig(type.energy, type.time) //Eu, ticks
+                .itemIn(`modern_industrialization:${type.drill}`, type.stiffness)
+                .fluidOut(`${type.output.id}`, type.output.amount)
+                .dimension(dim)
+            drill_prop.forEach(drill => {
+                event.recipes.modern_industrialization.oil_drilling_rig(type.energy * drill.energy, Math.ceil(type.time * drill.duration)) //Eu, ticks
+                    .itemIn(`kubejs:${drill.name}_${type.drill}`, type.stiffness * drill.stiffness)
+                    .fluidOut(`${type.output.id}`, Math.floor(type.output.amount * drill.output_multi))
+                    .dimension(dim)
+
+            })
         })
-    })
-    nether_drilling.forEach(type => {
-        event.recipes.modern_industrialization.oil_drilling_rig(type.energy, type.time) //Eu, ticks
-            .itemIn(`modern_industrialization:${type.drill}`, type.stiffness)
-            .fluidOut(`${type.output.id}`,type.output.amount)
-            .dimension('minecraft:the_nether')
-        drill_prop.forEach(drill => {
-            event.recipes.modern_industrialization.oil_drilling_rig(type.energy*drill.energy, Math.ceil(type.time*drill.duration)) //Eu, ticks
-                .itemIn(`kubejs:${drill.name}_${type.drill}`, type.stiffness*drill.stiffness)
-                .fluidOut(`${type.output.id}`,Math.floor(type.output.amount*drill.output_multi))
+        nether_drilling.forEach(type => {
+            event.recipes.modern_industrialization.oil_drilling_rig(type.energy, type.time) //Eu, ticks
+                .itemIn(`modern_industrialization:${type.drill}`, type.stiffness)
+                .fluidOut(`${type.output.id}`, type.output.amount)
                 .dimension('minecraft:the_nether')
+            drill_prop.forEach(drill => {
+                event.recipes.modern_industrialization.oil_drilling_rig(type.energy * drill.energy, Math.ceil(type.time * drill.duration)) //Eu, ticks
+                    .itemIn(`kubejs:${drill.name}_${type.drill}`, type.stiffness * drill.stiffness)
+                    .fluidOut(`${type.output.id}`, Math.floor(type.output.amount * drill.output_multi))
+                    .dimension(dim)
 
+            })
         })
-    })
+
+    });
+
+
 })

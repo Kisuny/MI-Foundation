@@ -301,11 +301,24 @@ ServerEvents.recipes(event => {
 
 
     // Vacuum Freezer
+    // Pressurizer
+    const dimensions = ['minecraft:overworld', 'javd:void']
+
     event.remove({ id: 'modern_industrialization:materials/vacuum_freezer/liquid_air' })
-    event.recipes.modern_industrialization.vacuum_freezer(32, 200) //Eu, ticks
+    event.remove({ id: 'modern_industrialization:materials/pressurizer/liquid_air' })
+    dimensions.forEach(dim => {
+        event.recipes.modern_industrialization.vacuum_freezer(32, 200) //Eu, ticks
         .itemIn('modern_industrialization:air_intake', 0)
         .fluidOut('modern_industrialization:liquid_air', 1000)
-        .dimension('minecraft:overworld')
+        .dimension(dim)
+
+        event.recipes.modern_industrialization.pressurizer(8, 200) //Eu, ticks
+        .itemIn('modern_industrialization:air_intake', 0)
+        .fluidOut('modern_industrialization:liquid_air', 1000)
+        .dimension(dim)
+    });
+
+    
 
     event.recipes.modern_industrialization.vacuum_freezer(32, 200) //Eu, ticks
         .fluidIn('kibe:liquid_xp', 160)
@@ -316,12 +329,9 @@ ServerEvents.recipes(event => {
             .itemOut(`spectrum:${color.name}_block`)
     });
 
-    // Pressurizer
-    event.remove({ id: 'modern_industrialization:materials/pressurizer/liquid_air' })
-    event.recipes.modern_industrialization.pressurizer(8, 200) //Eu, ticks
-        .itemIn('modern_industrialization:air_intake', 0)
-        .fluidOut('modern_industrialization:liquid_air', 1000)
-        .dimension('minecraft:overworld')
+    
+    
+    
 
     // Void Pump
     event.recipes.modern_industrialization.void_pump(16, 200)
