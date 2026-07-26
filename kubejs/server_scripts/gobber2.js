@@ -1666,7 +1666,7 @@ ServerEvents.recipes(event => {
         fluid: "spectrum:liquid_crystal",
         ingredients: [
             {"item": "gobber2:gobber2_ring", "count": 1 },
-            {"tag": "minecraft:beds", "count": 4 },
+            {"tag": "minecraft:beds", "count": 1 },
             {"item": "things:recall_potion", "count": 16 },
             {"item": "minecraft:ender_pearl", "count": 8 }
         ],
