@@ -1257,6 +1257,11 @@
 				"756271EEC10D1295"
 				"70E6E6D3ABAC4B09"
 			]
+			description: [
+				"Keep in mind that to craft tungsten, you MUST first make a tiny dust, then turn it into a nugget, and only then create a tungsten ingot!"
+				"{@pagebreak}"
+				"Имейте ввиду для создания вольфрама вам НЕОБХОДИМО сначала сделать маленькую пылинку и только потом из ней наггет и уже после создать слиток вольфрама!"
+			]
 			hide: false
 			icon: {
 				Count: 1b
