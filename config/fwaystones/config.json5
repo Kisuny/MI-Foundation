@@ -1,15 +1,16 @@
 {
 	"worldgen": {
 		"generate_in_villages": false,
+		"unbreakable_generated_waystones": false,
 		"min_per_village": 1,
 		"max_per_village": 1,
 		"village_waystone_weight": 2
 	},
 	"teleportation_cost": {
-		"cost_type": "LEVEL",
+		"cost_type": "EXPERIENCE",
 		"cost_item": "numismatic-overhaul:silver_coin",
 		"base_cost": 1,
-		"cost_per_block_distance": 0.001,
+		"cost_per_block_distance": 0.009999999776482582,
 		"cost_multiplier_between_dimensions": 10.0
 	},
 	"discover_with_item": "none",
@@ -36,38 +37,29 @@
 	"disable_teleportation_to_dimensions": [],
 	"ignore_dimension_blacklists_if_same_dimension": true,
 	"add_waystone_structure_piece": {
+		"kaisyn:village/sparse_jungle_polynesian/houses": "village_waystone",
+		"kaisyn:village/exclusives/iberian/houses": "village_waystone",
+		"kaisyn:village/exclusives/rustic/houses": "village_waystone",
 		"minecraft:village/desert/houses": "desert_village_waystone",
-		"minecraft:village/savanna/houses": "village_waystone",
-		"minecraft:village/plains/houses": "village_waystone",
-		"minecraft:village/taiga/houses": "village_waystone",
-		"minecraft:village/snowy/houses": "village_waystone",
-		// These are all of our villages where a waystone is added. If you also want to use T&T with another mod that also adds compat with the waystone mod, just paste what is below this message all the way down to the "/*" sign //
-		"kaisyn:village/badlands_pueblo/houses": "village_waystone",
-		"kaisyn:village/beach_lighthouse/side/cross": "village_waystone",
-		"kaisyn:village/birch_forest_romanian/houses": "village_waystone",
-		"kaisyn:village/flower_forest_japanese/houses": "village_waystone",
 		"kaisyn:village/grove_villager_outpost/decor": "village_waystone",
-		"kaisyn:village/jungle_tribal/houses": "village_waystone",
+		"kaisyn:village/snowy_taiga_viking/houses": "village_waystone",
+		"kaisyn:village/swamp_boat/houses": "village_waystone",
+		"minecraft:village/taiga/houses": "village_waystone",
+		"kaisyn:village/exclusives/mediterranean/houses/regular": "village_waystone",
+		"kaisyn:village/exclusives/tudor/houses": "village_waystone",
 		"kaisyn:village/meadow_swiss/houses": "village_waystone",
 		"kaisyn:village/mushroom_fields_fantasy/houses": "village_waystone",
-		"kaisyn:village/old_growth_taiga_polish/houses": "village_waystone",
-		"kaisyn:village/snowy_slopes_inn/decor": "village_waystone",		
-		"kaisyn:village/snowy_taiga_viking/houses": "village_waystone",
-		"kaisyn:village/sparse_jungle_polynesian/houses": "village_waystone",
-		"kaisyn:village/sunflower_plains_farm/side/farms": "village_waystone",		
-		"kaisyn:village/swamp_boat/houses": "village_waystone",
-		"kaisyn:village/exclusives/iberian/houses": "village_waystone",
-		"kaisyn:village/exclusives/mediterranean/houses/regular": "village_waystone",
-		"kaisyn:village/exclusives/rustic/houses": "village_waystone",
 		"kaisyn:village/exclusives/swedish/houses": "village_waystone",
-		"kaisyn:village/exclusives/tudor/houses": "village_waystone"
-		/*
-		The following villages don't have a waystone added either because they are too small or the terrain in these villages would cause problems:
-		- Ocean village (Villager Fleet)
-		- Wooded Badlands Village (Tipi camp)
-		- Classic (Pre-1.14) Village (exclusive structure
-		- Wandering Trader Camp (exclusive structure)
-		- Nilotic Village (exclusive structure)
-		*/
+		"minecraft:village/savanna/houses": "village_waystone",
+		"kaisyn:village/snowy_slopes_inn/decor": "village_waystone",
+		"minecraft:village/plains/houses": "village_waystone",
+		"kaisyn:village/badlands_pueblo/houses": "village_waystone",
+		"kaisyn:village/birch_forest_romanian/houses": "village_waystone",
+		"kaisyn:village/beach_lighthouse/side/cross": "village_waystone",
+		"kaisyn:village/jungle_tribal/houses": "village_waystone",
+		"kaisyn:village/old_growth_taiga_polish/houses": "village_waystone",
+		"minecraft:village/snowy/houses": "village_waystone",
+		"kaisyn:village/flower_forest_japanese/houses": "village_waystone",
+		"kaisyn:village/sunflower_plains_farm/side/farms": "village_waystone"
 	}
 }
