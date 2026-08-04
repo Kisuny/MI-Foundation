@@ -6,7 +6,7 @@
 	group: "05C42DC8B5A65584"
 	icon: "farmersdelight:hamburger"
 	id: "3E2A8247491002E6"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

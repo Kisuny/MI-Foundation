@@ -2420,9 +2420,9 @@
 		{
 			dependencies: ["164CF7324390B1A9"]
 			description: [
-				"Allows you to &#C6BCE9teleport&r inbetween waystones. It costs &7silver coins&r to teleport. Doesn't work across &#FEECD6dimensions&r!"
+				"Allows you to &#C6BCE9teleport&r inbetween waystones. It costs &7experience&r to teleport."
 				"{@pagebreak}"
-				"Позволяет &#C6BCE9телепортироваться&r между двумя маршрутными камнями, ценой &7серебряных монет&r, не работают между &#FEECD6разными мирами&r!"
+				"Позволяет &#C6BCE9телепортироваться&r между двумя маршрутными камнями, ценой &7опыта&r."
 			]
 			id: "2F3927FB0A60AAD4"
 			rewards: [

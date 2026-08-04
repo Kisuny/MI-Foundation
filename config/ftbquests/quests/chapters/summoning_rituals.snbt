@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "octagon"
 	filename: "summoning_rituals"
-	group: "05C42DC8B5A65584"
+	group: "0EE6B87D2DF05DC9"
 	icon: "summoningrituals:altar"
 	id: "734C32DA01CA58C7"
 	images: [
@@ -115,7 +115,7 @@
 			y: 3.750000000000007d
 		}
 	]
-	order_index: 3
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
