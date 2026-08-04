@@ -3,15 +3,12 @@
 	default_quest_shape: ""
 	filename: "mi_steam_bronze"
 	group: "0EE6B87D2DF05DC9"
-	hide_quest_details_until_startable: true
-	hide_quest_until_deps_visible: true
 	icon: "modern_industrialization:bronze_machine_casing"
 	id: "2AB28D31ADD1193F"
 	images: [
 		{
 			click: ""
 			corner: false
-			dependency: "19C2AE2E59D59B15"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -24,7 +21,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "19C2AE2E59D59B15"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -37,7 +33,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "19C2AE2E59D59B15"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -50,7 +45,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "62C6520476171E0B"
 			dev: false
 			height: 10.0d
 			hover: [ ]
@@ -63,7 +57,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "62C6520476171E0B"
 			dev: false
 			height: 19.9d
 			hover: [ ]
@@ -71,8 +64,8 @@
 			order: 1
 			rotation: 0.0d
 			width: 19.9d
-			x: -3.193877551020421d
-			y: 17.29263392857144d
+			x: -3.1785714285714164d
+			y: 17.30357142857143d
 		}
 	]
 	order_index: 1
@@ -1153,7 +1146,6 @@
 		{
 			dependencies: ["6E5CD34258826606"]
 			description: [""]
-			hide: true
 			id: "6B922FE87FE0719A"
 			rewards: [
 				{

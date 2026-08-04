@@ -3,14 +3,12 @@
 	default_quest_shape: ""
 	filename: "bhow_to_automate"
 	group: "05C42DC8B5A65584"
-	hide_quest_until_deps_visible: true
 	icon: "autoworkstations:iron_auto_crafting_table"
 	id: "4058552B01F39ED4"
 	images: [
 		{
 			click: ""
 			corner: false
-			dependency: "5CC8256483CC8A63"
 			dev: false
 			height: 8.0d
 			hover: [ ]
@@ -23,7 +21,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "21F9284797259BB1"
 			dev: false
 			height: 8.0d
 			hover: [ ]
@@ -36,7 +33,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "5CC8256483CC8A63"
 			dev: false
 			height: 5.0d
 			hover: [ ]
@@ -49,7 +45,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "21F9284797259BB1"
 			dev: false
 			height: 7.0d
 			hover: [ ]
@@ -334,7 +329,6 @@
 				"{@pagebreak}"
 				"Возможно, вы уже заметили эту маленькую иконку рядом с выходом пьедестала — здесь можно размещать планшеты с желаемыми изделиями! Когда в пьедестале находится планшет для крафта, он меняет свое поведение — теперь он принимает только предметы, которые могут быть использованы в указанном крафте (это означает, что если выход вашего крафт-стола — например, поршень, пьедестал будет принимать любой тип досок, даже если вы использовали один конкретный тип в планшете) и ничего больше (примечание: предметы можно вставлять только сверху пьедестала). Затем, если пьедестал питается от редстоуна, он будет выдавать результат крафта снизу и только снизу."
 			]
-			hide: true
 			id: "06B403309D54D86E"
 			rewards: [{
 				count: 20

@@ -11,7 +11,6 @@
 	quests: [
 		{
 			dependencies: ["4A828E8EB7BF626F"]
-			hide: true
 			hide_dependent_lines: true
 			id: "58D2E9E0EDF7FDE3"
 			rewards: [
@@ -109,7 +108,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "75A0539153D76E7C"
 			rewards: [{
 				id: "62B56B328F717331"
@@ -128,7 +126,6 @@
 		}
 		{
 			dependencies: ["75A0539153D76E7C"]
-			hide: true
 			id: "6887D176642F6373"
 			rewards: [{
 				count: 10
@@ -150,7 +147,6 @@
 				"663BB2D450652922"
 				"58D2E9E0EDF7FDE3"
 			]
-			hide: true
 			hide_dependent_lines: true
 			icon: "farmersdelight:stove"
 			id: "333536F3FC5B9956"
@@ -202,7 +198,6 @@
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
 			description: [""]
-			hide: true
 			icon: "artifacts:eternal_steak"
 			id: "5C1B50F6EA08B313"
 			rewards: [
@@ -266,7 +261,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "411703A590DEE41F"
 			rewards: [{
 				count: 10
@@ -284,7 +278,6 @@
 		}
 		{
 			dependencies: ["411703A590DEE41F"]
-			hide: true
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "15B535453D4815D2"
@@ -495,7 +488,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			hide_dependent_lines: true
 			icon: "minecraft:sweet_berries"
 			id: "27ECD57806374C03"
@@ -1039,7 +1031,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "69054784F092EE21"
 			rewards: [
 				{
@@ -1072,7 +1063,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "26122CF69F62A445"
 			rewards: [
 				{
@@ -1098,7 +1088,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "7869643A046A12CC"
 			rewards: [
 				{
@@ -1124,7 +1113,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "047DBBBE8A237B97"
 			rewards: [
 				{
@@ -1150,7 +1138,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "59070C9CA604903D"
 			rewards: [
 				{
@@ -1176,7 +1163,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "52E34550E2679486"
 			rewards: [{
 				id: "34C8B9315CBDEEF9"
@@ -1197,7 +1183,6 @@
 				"58D2E9E0EDF7FDE3"
 				"333536F3FC5B9956"
 			]
-			hide: true
 			id: "00B2D92D4C7D7BFD"
 			rewards: [
 				{
@@ -1226,7 +1211,6 @@
 				"58D2E9E0EDF7FDE3"
 				"333536F3FC5B9956"
 			]
-			hide: true
 			id: "1347AD995C5FA6B8"
 			rewards: [
 				{
@@ -1251,7 +1235,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "26E843BF84DBE235"
 			rewards: [
 				{
@@ -1277,7 +1260,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			icon: "farmersdelight:kelp_roll"
 			id: "73F6335B256CE60F"
 			rewards: [
@@ -1304,7 +1286,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			hide_dependent_lines: true
 			id: "449730637C206869"
 			rewards: [
@@ -1331,7 +1312,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "2900ADDB2A31A28A"
 			rewards: [
 				{
@@ -1357,7 +1337,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "017E1CB6653BEDAF"
 			rewards: [
 				{
@@ -1383,7 +1362,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			hide_dependency_lines: true
 			id: "05820574F932CEEE"
 			rewards: [
@@ -1413,7 +1391,6 @@
 				"58D2E9E0EDF7FDE3"
 				"333536F3FC5B9956"
 			]
-			hide: true
 			id: "617DF0B4591E75B2"
 			rewards: [
 				{
@@ -1439,7 +1416,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			hide_dependent_lines: true
 			id: "1AC73CEC62B9ABB4"
 			rewards: [
@@ -1466,7 +1442,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			hide_dependent_lines: true
 			id: "6773F7304D6A22A7"
 			rewards: [
@@ -1496,7 +1471,6 @@
 				"58D2E9E0EDF7FDE3"
 				"333536F3FC5B9956"
 			]
-			hide: true
 			id: "073DE25BE89812EB"
 			rewards: [
 				{
@@ -1525,7 +1499,6 @@
 				"58D2E9E0EDF7FDE3"
 				"333536F3FC5B9956"
 			]
-			hide: true
 			id: "3F26AB1AD4424604"
 			rewards: [
 				{
@@ -1554,7 +1527,6 @@
 				"58D2E9E0EDF7FDE3"
 				"333536F3FC5B9956"
 			]
-			hide: true
 			id: "52155D91A3B78F59"
 			rewards: [
 				{
@@ -1582,7 +1554,6 @@
 				"58D2E9E0EDF7FDE3"
 				"333536F3FC5B9956"
 			]
-			hide: true
 			id: "5FC71F5FD0977655"
 			rewards: [
 				{
@@ -1611,7 +1582,6 @@
 				"58D2E9E0EDF7FDE3"
 				"333536F3FC5B9956"
 			]
-			hide: true
 			id: "75CB92BCC3E66631"
 			rewards: [
 				{
@@ -1640,7 +1610,6 @@
 				"58D2E9E0EDF7FDE3"
 				"333536F3FC5B9956"
 			]
-			hide: true
 			id: "2F8712E510C44246"
 			rewards: [
 				{
@@ -1669,7 +1638,6 @@
 				"58D2E9E0EDF7FDE3"
 				"333536F3FC5B9956"
 			]
-			hide: true
 			id: "46696B084C2A7AA5"
 			rewards: [
 				{
@@ -1698,7 +1666,6 @@
 				"58D2E9E0EDF7FDE3"
 				"333536F3FC5B9956"
 			]
-			hide: true
 			id: "0AF33BE3C4BD905E"
 			rewards: [
 				{
@@ -1727,7 +1694,6 @@
 				"58D2E9E0EDF7FDE3"
 				"333536F3FC5B9956"
 			]
-			hide: true
 			id: "10EF3A8A163C57B5"
 			rewards: [
 				{
@@ -1756,7 +1722,6 @@
 				"58D2E9E0EDF7FDE3"
 				"333536F3FC5B9956"
 			]
-			hide: true
 			id: "4313DC13D80F05F4"
 			rewards: [
 				{
@@ -1785,7 +1750,6 @@
 				"58D2E9E0EDF7FDE3"
 				"333536F3FC5B9956"
 			]
-			hide: true
 			id: "2670EE17D0E48E7C"
 			rewards: [
 				{
@@ -1811,7 +1775,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "29209C184E2FFE7E"
@@ -1838,7 +1801,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			hide_dependent_lines: true
 			id: "326361F5DFA7BF7E"
 			rewards: [
@@ -1868,7 +1830,6 @@
 				"58D2E9E0EDF7FDE3"
 				"333536F3FC5B9956"
 			]
-			hide: true
 			id: "460FA6A4A3069A39"
 			rewards: [
 				{
@@ -1894,7 +1855,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "24FD33001CE1BF73"
 			rewards: [
 				{
@@ -1920,7 +1880,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "293C66ADFE57FB2D"
 			rewards: [
 				{
@@ -1946,7 +1905,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "6F600C7AE1EBE1EF"
 			rewards: [
 				{
@@ -1972,7 +1930,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "784C54C54393B020"
 			rewards: [
 				{
@@ -1998,7 +1955,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "4B0E1E5278BE5AE1"
 			rewards: [
 				{
@@ -2024,7 +1980,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "0E224AB78DB456A6"
 			rewards: [
 				{
@@ -2050,7 +2005,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "554C8B012FDA4CF7"
 			rewards: [
 				{
@@ -2076,7 +2030,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "2AA9EE84135D9FDA"
 			rewards: [
 				{
@@ -2105,7 +2058,6 @@
 				"58D2E9E0EDF7FDE3"
 				"333536F3FC5B9956"
 			]
-			hide: true
 			id: "59C4261F8180AF7A"
 			rewards: [
 				{
@@ -2134,7 +2086,6 @@
 				"58D2E9E0EDF7FDE3"
 				"333536F3FC5B9956"
 			]
-			hide: true
 			id: "03542277F2439597"
 			rewards: [
 				{
@@ -2163,7 +2114,6 @@
 				"58D2E9E0EDF7FDE3"
 				"333536F3FC5B9956"
 			]
-			hide: true
 			id: "015ED0F5DAA4081C"
 			rewards: [
 				{
@@ -2189,7 +2139,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "67784AF740A09EED"
 			rewards: [
 				{
@@ -2215,7 +2164,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "763151168CF191D5"
 			rewards: [
 				{
@@ -2241,7 +2189,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "0BF6AAAE4914E930"
 			rewards: [
 				{
@@ -2267,7 +2214,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "570F34012826E2B6"
 			rewards: [
 				{
@@ -2293,7 +2239,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "5158B503EA286128"
 			rewards: [
 				{
@@ -2319,7 +2264,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "7FC4E9B3386A6343"
 			rewards: [
 				{
@@ -2344,7 +2288,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "061540F51161908D"
 			rewards: [
 				{
@@ -2370,7 +2313,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "61F169B19FC94A35"
 			rewards: [
 				{
@@ -2430,7 +2372,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "67371AE5E34DD674"
 			rewards: [
 				{
@@ -2456,7 +2397,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "5A68AD406962B0D7"
 			rewards: [
 				{
@@ -2482,7 +2422,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "082F6A2EC939D174"
 			rewards: [
 				{
@@ -2508,7 +2447,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "783391F5719A3F5C"
 			rewards: [
 				{
@@ -2534,7 +2472,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "6899115D45256716"
 			rewards: [
 				{
@@ -2560,7 +2497,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "24C5E8A2A5568BF9"
 			rewards: [
 				{
@@ -2586,7 +2522,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "67AC39754337BD02"
 			rewards: [
 				{
@@ -2612,7 +2547,6 @@
 		}
 		{
 			dependencies: ["58D2E9E0EDF7FDE3"]
-			hide: true
 			id: "39897E4180A11678"
 			rewards: [
 				{

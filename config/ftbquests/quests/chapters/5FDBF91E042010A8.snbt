@@ -3,7 +3,6 @@
 	default_quest_shape: ""
 	filename: "5FDBF91E042010A8"
 	group: "05C42DC8B5A65584"
-	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1b
 		id: "minecraft:elytra"
@@ -2082,7 +2081,6 @@
 				"00ED2AC55FE35797"
 			]
 			description: [""]
-			hide: false
 			id: "03F9A088E035318C"
 			rewards: [
 				{

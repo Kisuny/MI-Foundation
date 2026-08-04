@@ -3,7 +3,6 @@
 	default_quest_shape: ""
 	filename: "mi_sev"
 	group: "47581D00C2556E50"
-	hide_quest_until_deps_visible: true
 	icon: "modern_industrialization:quantum_machine_hull"
 	id: "73F5A5AF101E30CB"
 	order_index: 1

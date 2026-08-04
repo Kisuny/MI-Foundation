@@ -15,7 +15,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "6FA72BDA58065CFB"
 			dev: false
 			height: 8.0d
 			hover: [ ]
@@ -28,7 +27,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "06562C2C31C20966"
 			dev: false
 			height: 7.0d
 			hover: [ ]
@@ -41,7 +39,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "6FA72BDA58065CFB"
 			dev: false
 			height: 8.0d
 			hover: [ ]
@@ -54,7 +51,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "0B617D45014FE332"
 			dev: false
 			height: 8.0d
 			hover: [ ]
@@ -67,7 +63,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "0B617D45014FE332"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -80,7 +75,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "0B617D45014FE332"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -93,7 +87,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "0B617D45014FE332"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -106,7 +99,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "0B617D45014FE332"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -119,7 +111,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "0B617D45014FE332"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -132,7 +123,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "06562C2C31C20966"
 			dev: false
 			height: 2.0d
 			hover: [ ]
@@ -145,7 +135,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "06562C2C31C20966"
 			dev: false
 			height: 2.0d
 			hover: [ ]
@@ -158,7 +147,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "06562C2C31C20966"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -171,7 +159,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "06562C2C31C20966"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -184,7 +171,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "06562C2C31C20966"
 			dev: false
 			height: 2.0d
 			hover: [ ]
@@ -197,7 +183,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "3337360BBAA0C080"
 			dev: false
 			height: 8.0d
 			hover: [ ]
@@ -210,7 +195,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "06562C2C31C20966"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -223,7 +207,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "06562C2C31C20966"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -236,7 +219,6 @@
 		{
 			click: ""
 			corner: false
-			dependency: "06562C2C31C20966"
 			dev: false
 			height: 1.0d
 			hover: [ ]
@@ -283,7 +265,6 @@
 				""
 				"Открывает способность накладывать заклинания на группу существ."
 			]
-			hide: true
 			id: "3327810F2D77CC56"
 			rewards: [{
 				id: "40D1545584C4BE6F"
@@ -316,7 +297,6 @@
 				""
 				"Позволяет открыть использование заклинаний как стрелу (проджектайл)"
 			]
-			hide: true
 			id: "21097A489C4AACB1"
 			rewards: [{
 				id: "5B4FB9D45C145358"
@@ -344,7 +324,6 @@
 				""
 				"Можно купить у вассала"
 			]
-			hide: true
 			id: "792FD9BACA43CC9D"
 			rewards: [{
 				id: "189C7811C6BE02C0"
@@ -365,7 +344,6 @@
 		{
 			dependencies: ["35A4525202DFF961"]
 			description: [""]
-			hide: true
 			id: "2713E99A752398D4"
 			rewards: [{
 				id: "48614FD9882C7C80"
@@ -392,7 +370,6 @@
 				""
 				"Оккультная одежда"
 			]
-			hide: true
 			id: "5EBB19BC3428B26C"
 			rewards: [{
 				id: "158A00B66A0C4511"
@@ -448,7 +425,6 @@
 				"{@pagebreak}"
 				"Можно купить у вассала"
 			]
-			hide: true
 			id: "1F592EE106CF3A0E"
 			rewards: [{
 				id: "00A369208EE19A6F"
@@ -485,7 +461,6 @@
 				""
 				"Для ритуала понадобиться часть вашей &l&4жизненной энергии&r&r!"
 			]
-			hide: true
 			id: "1403AC2B841FD215"
 			rewards: [{
 				id: "15A5D91ABBC69291"
@@ -578,7 +553,6 @@
 				""
 				"На алтарь можно класть другие книги для &3декорации&r! "
 			]
-			hide: true
 			id: "107412EDFB3E077C"
 			tasks: [{
 				id: "200AA05A205EAA7E"
@@ -603,7 +577,6 @@
 				"{@pagebreak}"
 				"Отдай статую &eвассалу&r"
 			]
-			hide: true
 			id: "06562C2C31C20966"
 			tasks: [{
 				advancement: "miskatonicmysteries:hastur/hare_rama"
@@ -621,7 +594,6 @@
 				"{@pagebreak}"
 				"Можно найти в &9иглу&r, в &9библиотеке стронгхолда&r и &9ванильных данжах с спавнером&r."
 			]
-			hide: true
 			id: "65254EC70059EB10"
 			rewards: [{
 				count: 2
@@ -646,7 +618,6 @@
 				"{@pagebreak}"
 				"Найдите поклонников культа &eжёлтой религии&r в деревнях!"
 			]
-			hide: true
 			id: "35A4525202DFF961"
 			rewards: [{
 				id: "20128340409AEC37"
@@ -689,7 +660,6 @@
 				""
 				"Так же существуют &8ритуалы-ловушки&r, которые сработают только после того, как на него наступит какое-нибудть &cсущество&r!"
 			]
-			hide: true
 			id: "0B617D45014FE332"
 			tasks: [{
 				id: "5C3D3CF2FE55AC3A"
@@ -716,7 +686,6 @@
 				""
 				"Можно использовать в ткацком столе, меняя узор флагам "
 			]
-			hide: true
 			id: "307EB635F0650331"
 			rewards: [{
 				id: "707D9A9ABDF4918C"
@@ -741,7 +710,6 @@
 				"{@pagebreak}"
 				"Необходимая Октограмма"
 			]
-			hide: true
 			id: "2B766E494F49C0E6"
 			rewards: [{
 				id: "244DE3FE41BD1499"
@@ -773,7 +741,6 @@
 				""
 				"Необходимо принести кого-то в &cжерту&r, а так же &eгруппа крепостных&r! (Более подробнее можно прочитать в &6REI&r)"
 			]
-			hide: true
 			id: "563A65DD88363232"
 			rewards: [{
 				id: "53F082BB7AE4C1B5"
@@ -846,7 +813,6 @@
 				"{@pagebreak}"
 				"Получите &6благословление&r от &eпринца&r!"
 			]
-			hide: true
 			hide_dependency_lines: true
 			id: "6FA72BDA58065CFB"
 			rewards: [{
@@ -872,7 +838,6 @@
 				"{@pagebreak}"
 				"&9С шансом&r из пшеницы может вырасти &8зараженная пшеница&r, так же используя &8зараженную пшеницу&r - можно &8заражать&r другую пшеницу в радиусе, которая уже выросла!"
 			]
-			hide: true
 			id: "4A384EA7B1E04203"
 			rewards: [{
 				id: "141FC6B73DACA3E5"
@@ -910,7 +875,6 @@
 				""
 				"От количества &2&nхорошего настроения&r&r зависит &nрезультат&r &l&6золотого сбора&r&r и вашего &6благословления&r от &l&eпринца&r&r! "
 			]
-			hide: true
 			hide_dependency_lines: true
 			id: "6AB087ACC39D4DD0"
 			rewards: [{
@@ -937,7 +901,6 @@
 		}
 		{
 			dependencies: ["6AB087ACC39D4DD0"]
-			hide: true
 			id: "0C043EB28D4F969A"
 			tasks: [{
 				advancement: "miskatonicmysteries:hastur/peace_and_love"
@@ -959,7 +922,6 @@
 				""
 				"Ритуалу необходима &cжертва&r!"
 			]
-			hide: true
 			hide_dependency_lines: true
 			id: "6A13992AFC5CBBE2"
 			rewards: [{
@@ -1012,7 +974,6 @@
 				"{@pagebreak}"
 				"Более подробнее прочти в книге!"
 			]
-			hide: true
 			id: "6EDBF4A36BBD1674"
 			rewards: [{
 				id: "39E621FEAC12CEFF"
@@ -1039,7 +1000,6 @@
 				""
 				"Вам так же понадобится «&eIncantation of the Gate-and-Key&r» привязанный к второй октограмме."
 			]
-			hide: true
 			hide_dependency_lines: true
 			icon: {
 				Count: 1b
@@ -1098,7 +1058,6 @@
 				"{@pagebreak}"
 				"Ритуал «&8Создания Шедевра&r» позволяет зафиксировать&c жертву&r, цель в этом ритулае &nне сможет&r &e&lдвигаться&r,&r а чтобы смогла - необходимо её &cубить&r."
 			]
-			hide: true
 			hide_dependency_lines: true
 			id: "7BD7495188DCB3C5"
 			rewards: [{
@@ -1312,7 +1271,6 @@
 				"{@pagebreak}"
 				"Просто сломать &eсимулякр&r - мало, для того чтобы &cизбваиться&r от неё, чтобы убрать симулякру полность необходимо провести «&2ритуал очищения&r» рядом с ранее активной симулякрой!"
 			]
-			hide: true
 			hide_dependency_lines: true
 			id: "6FE08F702475A448"
 			rewards: [{

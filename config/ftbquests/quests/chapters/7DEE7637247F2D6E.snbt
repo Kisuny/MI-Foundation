@@ -15,7 +15,6 @@
 				"{@pagebreak}"
 				"&6Королеву пчёл&r можно поймать &5королевским сачком&r"
 			]
-			hide: true
 			id: "1585D46B8D0E0D4D"
 			shape: "heart"
 			tasks: [{
@@ -31,7 +30,6 @@
 				"278D28FB8BCFC63D"
 				"0379CDF7FB133E48"
 			]
-			hide: true
 			id: "1C33BF3C257B9342"
 			shape: "circle"
 			tasks: [{
@@ -44,7 +42,6 @@
 		}
 		{
 			dependencies: ["1C33BF3C257B9342"]
-			hide: true
 			id: "5C12A68F7C5E5B36"
 			shape: "diamond"
 			tasks: [{
@@ -67,8 +64,6 @@
 				""
 				"P.S. Чтобы покинуть жужалище — необходимо выкопаться в самый низ мира либо же в самый верх!"
 			]
-			hide: true
-			hide_dependency_lines: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -90,7 +85,6 @@
 		}
 		{
 			dependencies: ["5C12A68F7C5E5B36"]
-			hide: true
 			id: "26834CFF801ED375"
 			shape: "diamond"
 			tasks: [{
@@ -103,7 +97,6 @@
 		}
 		{
 			dependencies: ["5C12A68F7C5E5B36"]
-			hide: true
 			id: "5A368AE674E830C1"
 			shape: "diamond"
 			tasks: [{
@@ -139,7 +132,6 @@
 				""
 				"&6Так же молочко можно покупать в игровом магазине!&r"
 			]
-			hide: true
 			icon: "the_bumblezone:royal_jelly_bottle"
 			id: "278D28FB8BCFC63D"
 			rewards: [{
@@ -171,7 +163,6 @@
 				""
 				"В блоках пыльцы так же можно прятаться от &6пчёл&r, если вдруг они на вас &cразозлились&r, встаньте в два блока пыльцы и &6пчёлы&r вас потеряют."
 			]
-			hide: true
 			id: "21DD94C3007B1444"
 			tasks: [{
 				advancement: "the_bumblezone:the_bumblezone/pollen_puff/bee_drop_pollen_puff"
@@ -189,7 +180,6 @@
 				"{@pagebreak}"
 				"Используя &lножницы&r или &lмеч&r можно менять текстуру данного блока, используется в качестве &eдекораций&r."
 			]
-			hide: true
 			id: "3DE0301DBDDD23EC"
 			rewards: [{
 				count: 256
@@ -216,7 +206,6 @@
 				""
 				"Можно монметально разрушить нажав ПКМ любым водным предметом, например &3ведро воды&r/&3бутылка с водой&r, водный &lпредмет не потребляется&r. "
 			]
-			hide: true
 			id: "2F9EF2426B44AB7E"
 			tasks: [{
 				id: "4C94459D9C46E926"
@@ -233,7 +222,6 @@
 				"{@pagebreak}"
 				"Работает как и прополис, но &lвертикально&r."
 			]
-			hide: true
 			id: "0D1DAFF7CBAD7BB1"
 			tasks: [{
 				id: "5156ED4CF0444028"
@@ -254,7 +242,6 @@
 				""
 				"&#d33b2bРедстоун&r сигнал не передается этим блоком."
 			]
-			hide: true
 			id: "6C85C22B3558A59F"
 			tasks: [{
 				id: "298107CE42AA5D7C"
@@ -271,7 +258,6 @@
 				"{@pagebreak}"
 				"Работает как и &#d33b2bредстоун&r прополис, но передаёт &#d33b2bредстоун&r сигнал дальше."
 			]
-			hide: true
 			id: "420BEC6231E0EC49"
 			tasks: [{
 				id: "453873E9A2308D74"
@@ -292,7 +278,6 @@
 				""
 				"Эффект «&9Защита Улья&r» так же позволяет заставить &6пчёл&r &cатаковать&r тех, кто &cатакует&r вас!"
 			]
-			hide: true
 			id: "37F35C86B3CE2EFA"
 			tasks: [{
 				id: "3DE0BAC34FDFFA5E"
@@ -320,7 +305,6 @@
 				""
 				"&6P.S. Большинство из структур можно найти используя компасс, который можно найти в разнообразных данжах!&r"
 			]
-			hide: true
 			icon: "the_bumblezone:carvable_wax_diamond"
 			id: "010BAEB4834B1697"
 			tasks: [{
@@ -350,7 +334,6 @@
 				""
 				"Так же в коконах можно найти &dартефакты&r модпака, &oсамый большой шанс&r найти артефакт только в коконе! "
 			]
-			hide: true
 			id: "41FFF8D73E40CB56"
 			tasks: [{
 				icon: "the_bumblezone:honey_cocoon"
@@ -370,7 +353,6 @@
 				"{@pagebreak}"
 				"Небольшой &cурон&r, но позволяет &2отравлять&r врагов, а так же зачаровать на &2сильнодействующий яд&r."
 			]
-			hide: true
 			id: "106066392BFC0FAD"
 			tasks: [{
 				id: "2C136AAE5968B081"
@@ -393,7 +375,6 @@
 				"{@pagebreak}"
 				"Пушка позволяет кидаться &#E79A3Fмедовыми&r кристаллами, можно зарядить до &o3х кристаллов&r."
 			]
-			hide: true
 			id: "300AC29783C42E8A"
 			tasks: [{
 				id: "63C5C2AC51DDF47F"
@@ -420,7 +401,6 @@
 				""
 				"Как только вы нашли подобный компас — королева которая была в структуре куда ведёт компас &eзаспавнится заново&r, даже если её там не было, её кто-то &cубил&r или &9украл&r для своих целей!"
 			]
-			hide: true
 			id: "5B0659D5D30C49CD"
 			tasks: [{
 				id: "56D9871C2F485DFE"
@@ -451,7 +431,6 @@
 				""
 				"&6P.S. Большинство из структур можно найти используя компасс, который можно найти в разнообразных данжах!&r"
 			]
-			hide: true
 			id: "0856C3F7EF4868E5"
 			tasks: [{
 				icon: {
@@ -479,7 +458,6 @@
 				""
 				"&6P.S. Большинство из структур можно найти используя компасс, который можно найти в разнообразных данжах!&r"
 			]
-			hide: true
 			id: "25E425A6B61B2638"
 			tasks: [{
 				icon: "the_bumblezone:super_candle_red"
@@ -509,7 +487,6 @@
 				"2 — Ведёт в таинственное сооружение."
 				"3 — Ведёт к королев в её тронный зал.  "
 			]
-			hide: true
 			id: "733D8EE7475BB724"
 			tasks: [{
 				id: "0B93C193476DC1DD"
@@ -545,7 +522,6 @@
 				""
 				"&6P.S. Большинство из структур можно найти используя компасс, который можно найти в разнообразных данжах!&r"
 			]
-			hide: true
 			id: "724B4E8E8E734D72"
 			tasks: [{
 				icon: "the_bumblezone:honeycomb_brood_block"
@@ -575,7 +551,6 @@
 				""
 				"&6P.S. Большинство из структур можно найти используя компасс, который можно найти в разнообразных данжах!&r"
 			]
-			hide: true
 			icon: "minecraft:cornflower"
 			id: "2967163DB16A0606"
 			tasks: [{
@@ -601,7 +576,6 @@
 				""
 				"&6P.S. Большинство из структур можно найти используя компасс, который можно найти в разнообразных данжах!&r"
 			]
-			hide: true
 			icon: "the_bumblezone:honey_bucket"
 			id: "38676B9021B53B27"
 			tasks: [{
@@ -641,7 +615,6 @@
 				""
 				"Чем выше цветок, тем более редкие зачарования будут попадаться в нём, за 1 зачарование - &bцветок будет уменьшаться&r, и его придется вновь &2выращивать&r, но это мелочь по сравнению с тем, какой функционал он предоставляет! "
 			]
-			hide: true
 			id: "10244860011AD318"
 			min_required_dependencies: 1
 			rewards: [{
@@ -676,7 +649,6 @@
 				" "
 				"Когда силы &eсвечи&r иссякнут, она погаснет. Если зажечь её снова, она вновь проявит свои &9эффекты&r."
 			]
-			hide: true
 			id: "476F4A53C4FDAFA3"
 			shape: "circle"
 			tasks: [{
@@ -702,7 +674,6 @@
 				""
 				"&6P.S. Большинство из структур можно найти используя компасс, который можно найти в разнообразных данжах!&r"
 			]
-			hide: true
 			icon: "the_bumblezone:beehive_beeswax"
 			id: "3225EAE01689CC38"
 			tasks: [{
@@ -729,7 +700,6 @@
 				""
 				"&6P.S. Большинство из структур можно найти используя компасс, который можно найти в разнообразных данжах!&r"
 			]
-			hide: true
 			icon: "the_bumblezone:honey_crystal"
 			id: "4518BB9053E4030F"
 			tasks: [{
@@ -748,7 +718,6 @@
 				"{@pagebreak}"
 				"Не пропускает &6пчёл&r, но обычный игрок может через них пройти"
 			]
-			hide: true
 			id: "0248551A5D1549DD"
 			tasks: [{
 				id: "7A144E6C914929FF"
@@ -776,7 +745,6 @@
 				""
 				"Данная &6пчёлка&r является &2мирной&r и никак не будет вас &cатаковать&r, напротив, её можно &2приручить&r и начать на ней летать!"
 			]
-			hide: true
 			id: "1DF44F1213EC052D"
 			tasks: [{
 				icon: "the_bumblezone:beehemoth_spawn_egg"
@@ -800,7 +768,6 @@
 				""
 				"Чем больше &eотношения&r, тем быстрее летает &6Шмеллиафан&r, максимальный результат ускоряет &6Шмеллиафана&r ну &lочень&r сильно!"
 			]
-			hide: true
 			id: "276183CEEBA65FD9"
 			tasks: [{
 				id: "15F62FF187C769A6"
@@ -824,7 +791,6 @@
 				"{@pagebreak}"
 				"Держа ведро &6мёда&r в руках &6Шмеллиафан&r будет лететь за вами!"
 			]
-			hide: true
 			id: "376685C02DBE8C5C"
 			tasks: [{
 				id: "5E80052F44AE8938"
@@ -841,7 +807,6 @@
 				"{@pagebreak}"
 				"Используя пустую баночку на &6медовом&r слизне - вы соберете с него &6мёд&r, слизень после этого станет &cагрессивным&r "
 			]
-			hide: true
 			icon: "the_bumblezone:honey_slime_spawn_egg"
 			id: "6614C258292D9DA2"
 			tasks: [{
@@ -862,7 +827,6 @@
 				"{@pagebreak}"
 				"Посмотрите на прекрасную &6королеву&r!"
 			]
-			hide: true
 			id: "6115F9F698E9D96B"
 			rewards: [{
 				id: "07A0084A564ABD33"
@@ -896,7 +860,6 @@
 				""
 				"У &6королевы&r бывают более выгодные обмены, иногда королева хочет какой-то конкретный блок или предмет, если принести именно такой предмет, награда за этот предмет будет &9х3&r. "
 			]
-			hide: true
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -937,7 +900,6 @@
 		}
 		{
 			dependencies: ["6115F9F698E9D96B"]
-			hide: true
 			id: "5066C8042D3CAAF8"
 			rewards: [{
 				count: 2
@@ -984,7 +946,6 @@
 				"• &6Медовый Слизень&r не будет &cзлиться&r на вас, если вы собрали его &6мёд&r. "
 				"• Примечание: Эффект останется на игроке даже после смерти."
 			]
-			hide: true
 			id: "4F6B3FFE2CE29549"
 			rewards: [{
 				id: "20F799EC5252147C"
@@ -1003,7 +964,6 @@
 		}
 		{
 			dependencies: ["1CEEEDA0B1B89527"]
-			hide_dependency_lines: true
 			id: "48EE524CACAA9395"
 			rewards: [{
 				id: "5F704516712EA765"
@@ -1022,7 +982,6 @@
 		}
 		{
 			dependencies: ["1CEEEDA0B1B89527"]
-			hide_dependency_lines: true
 			id: "0721A52BEF17D114"
 			rewards: [{
 				id: "03D8BAC1A119DDAB"
@@ -1040,7 +999,6 @@
 		}
 		{
 			dependencies: ["1CEEEDA0B1B89527"]
-			hide_dependency_lines: true
 			id: "65840654B6CD3A17"
 			rewards: [{
 				id: "3EAEBCEAF717BCF4"
@@ -1058,7 +1016,6 @@
 		}
 		{
 			dependencies: ["1CEEEDA0B1B89527"]
-			hide_dependency_lines: true
 			id: "07A75A00A8BC6388"
 			rewards: [{
 				id: "58BC1F1C64503AF3"
@@ -1076,7 +1033,6 @@
 		}
 		{
 			dependencies: ["1CEEEDA0B1B89527"]
-			hide_dependency_lines: true
 			id: "54EA0077C3EC18D8"
 			rewards: [{
 				id: "7F9F62F320CCCF23"
@@ -1094,7 +1050,6 @@
 		}
 		{
 			dependencies: ["1CEEEDA0B1B89527"]
-			hide_dependency_lines: true
 			id: "4FF43486B38EE077"
 			rewards: [{
 				id: "74CA4D9190E8FC6E"
@@ -1113,7 +1068,6 @@
 		{
 			dependencies: ["1CEEEDA0B1B89527"]
 			dependency_requirement: "one_completed"
-			hide_dependency_lines: true
 			id: "0D9F9789532CF108"
 			rewards: [{
 				id: "119AF84EFE8E40A9"
@@ -1131,7 +1085,6 @@
 		}
 		{
 			dependencies: ["1CEEEDA0B1B89527"]
-			hide_dependency_lines: true
 			id: "240E8A1692338801"
 			rewards: [{
 				id: "63957A8304FA230E"
@@ -1149,7 +1102,6 @@
 		}
 		{
 			dependencies: ["1CEEEDA0B1B89527"]
-			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "3A0E8DE02D302EEF"
 			rewards: [{
@@ -1168,7 +1120,6 @@
 		}
 		{
 			dependencies: ["1CEEEDA0B1B89527"]
-			hide_dependency_lines: true
 			hide_dependent_lines: true
 			id: "4E264E6AD1CFDC0F"
 			rewards: [{
@@ -1187,7 +1138,6 @@
 		}
 		{
 			dependencies: ["1CEEEDA0B1B89527"]
-			hide_dependency_lines: true
 			id: "542A4CB9B65325E4"
 			rewards: [{
 				id: "5046F2892E1ECD4A"
@@ -1205,7 +1155,6 @@
 		}
 		{
 			dependencies: ["1CEEEDA0B1B89527"]
-			hide_dependency_lines: true
 			id: "2FDA0ED0494F3EAD"
 			rewards: [{
 				id: "707DECCCAA697909"
@@ -1223,7 +1172,6 @@
 		}
 		{
 			dependencies: ["1CEEEDA0B1B89527"]
-			hide_dependency_lines: true
 			id: "2FBFA34A7449A12A"
 			rewards: [{
 				id: "72851FE1260FFB53"
@@ -1241,7 +1189,6 @@
 		}
 		{
 			dependencies: ["1CEEEDA0B1B89527"]
-			hide_dependency_lines: true
 			id: "674EA04B43C19E5C"
 			rewards: [{
 				id: "2FD1E8337C903A8D"
@@ -1259,7 +1206,6 @@
 		}
 		{
 			dependencies: ["1CEEEDA0B1B89527"]
-			hide_dependency_lines: true
 			id: "072F6E57844F36C6"
 			rewards: [{
 				id: "6F399CDB16C0BC87"
@@ -1277,7 +1223,6 @@
 		}
 		{
 			dependencies: ["1CEEEDA0B1B89527"]
-			hide_dependency_lines: true
 			id: "0417A6AD0EFD8A79"
 			rewards: [{
 				id: "0C44B9B35B35A142"

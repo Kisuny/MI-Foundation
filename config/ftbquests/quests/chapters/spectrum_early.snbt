@@ -23,7 +23,6 @@
 				""
 				"&#4B98C0Топаз&r жеоды находятся в высоких слоях шахт, можно сказать что их можно найти буквально на верхушках гор! "
 			]
-			hide: true
 			id: "0FDF4075616DAA33"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -57,7 +56,6 @@
 				"{@pagebreak}"
 				"Все крафты на пьедесталах можно запускать &#FEECD6кисточкой&r, либо же &#FEC6DFредстоун сигналом&r, кому как удобнее."
 			]
-			hide: true
 			id: "3DF57BBFA9D2DDEA"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -100,7 +98,6 @@
 				""
 				"Ну… Или… Воспользуйтесь дробителем…"
 			]
-			hide: true
 			id: "470BE91CDFB98325"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -133,7 +130,6 @@
 				"{@pagebreak}"
 				"Используя Светящийся чернильный мешок(или &k&bLight Blue Ink&r&r), награждает носителя &#FEECD6ночным зрением&r! "
 			]
-			hide: true
 			id: "7E9601DC6C9642A5"
 			rewards: [
 				{
@@ -166,7 +162,6 @@
 				"{@pagebreak}"
 				"&#FEECD6Компактный сундук&r попытается собрать все вещи, которые вы положите в него, по схеме 3х3, 2х2 или 1х1 - это можно настроить в графическом интерфейсе."
 			]
-			hide: true
 			id: "65404D129392463A"
 			rewards: [{
 				id: "440286A1ADC5B0C7"
@@ -190,7 +185,6 @@
 				"{@pagebreak}"
 				"&#9BB8EDЭтот сундук&r — буквально сейф, кто поставил, тот открыть его и сможет, невероятная &#C6BCE9магия&r!"
 			]
-			hide: true
 			id: "2D044724FCDE78A8"
 			rewards: [
 				{
@@ -224,7 +218,6 @@
 				"{@pagebreak}"
 				"Используйте ваш &#9BB8EDпьедестал&r, чтобы создать предмет из &oпорошка самоцветов&r. Запустите его с помощью &#9BB8EDкисти&r или &#d33b2bредстоуна&r, чтобы начать крафт"
 			]
-			hide: true
 			id: "086D1436C9BAC37C"
 			rewards: [
 				{
@@ -263,7 +256,6 @@
 				""
 				"Чтобы узнать какие блоки необходимы для структуры - можно нажать на кнопку отображения мультиблока, она поможет вам в постройках структур мода спектрума!"
 			]
-			hide: true
 			id: "3D23E38AC1283899"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -297,7 +289,6 @@
 				""
 				"{image:quest_images:textures/item/spectrum/p1.png width:200 height:200 align:1}"
 			]
-			hide: true
 			icon: "spectrum:pedestal_all_basic"
 			id: "164CF7324390B1A9"
 			rewards: [
@@ -410,7 +401,6 @@
 				"{@pagebreak}"
 				"Периодически испускает импульс красного камня. Нажав ПКМ, вы можете изменить длительность импульса, а нажав Shift+ПКМ - интервал между импульсами."
 			]
-			hide: true
 			id: "50B09C3B220077F1"
 			rewards: [{
 				id: "41501D9E4AE42A1A"
@@ -434,7 +424,6 @@
 				"{@pagebreak}"
 				"&nХрупкий&r, но очень полезный, &#FEECD6добыча&r сразу при тебе!"
 			]
-			hide: true
 			id: "24950B502B8EB69D"
 			rewards: [{
 				id: "139959B1581172B6"
@@ -468,7 +457,6 @@
 				"{@pagebreak}"
 				"Это &#FEECD6лопата&r, &#9BB8EDкирка&r, &#C7E2E9топор&r, и &#CAE4C8мотыга&r &nв одном&r, буквально швейцарский нож!"
 			]
-			hide: true
 			id: "0151D9E8EA81E581"
 			rewards: [{
 				id: "4942142844C9899E"
@@ -502,7 +490,6 @@
 				"{@pagebreak}"
 				"Название говорит само за себя, вы можете начать устанавливать блоки."
 			]
-			hide: true
 			id: "5A8DF4E59381EE33"
 			rewards: [{
 				count: 10
@@ -527,7 +514,6 @@
 				"{@pagebreak}"
 				"Да, это песок… &#d33b2bРедстоун&r песок!"
 			]
-			hide: true
 			id: "292776D5D9FDDAD6"
 			rewards: [{
 				count: 8
@@ -552,7 +538,6 @@
 				"{@pagebreak}"
 				"Выполняет простые арифметические операции над входными сигналами. Используйте ПКМ для изменения операции."
 			]
-			hide: true
 			id: "326F2D1D24572DB5"
 			shape: "octagon"
 			tasks: [{
@@ -570,7 +555,6 @@
 				"{@pagebreak}"
 				"&oНевероятно полезная броня&r, но имей ввиду, она &#FEECD6очень хрупкая&r! "
 			]
-			hide: true
 			id: "6198FDC54735801C"
 			rewards: [
 				{
@@ -650,7 +634,6 @@
 				"{@pagebreak}"
 				"Собери немного &#FEECD6сверкающих камней&r в шахтах!"
 			]
-			hide: true
 			id: "05ADE662ABE07C6A"
 			rewards: [{
 				count: 16
@@ -846,7 +829,6 @@
 				""
 				"Жаль только её &#9BB8EDпрочность&r оставляет желать лучшего, но это лучше чем ничего!"
 			]
-			hide: true
 			id: "47FE5A5A3E6B2656"
 			rewards: [
 				{
@@ -889,7 +871,6 @@
 				"{@pagebreak}"
 				"&#FEECD6Лампы&r испускают немного &#FEECD6света&r и понадобятся в будущем для улучшения ваших &#9BB8EDструктур!&r"
 			]
-			hide: true
 			icon: "spectrum:citrine_calcite_lamp"
 			id: "20C54B298B978A39"
 			rewards: [{
@@ -925,7 +906,6 @@
 				""
 				"&0Цыганские фокусы!&r"
 			]
-			hide: true
 			id: "1C7EA76119767C48"
 			rewards: [
 				{
@@ -967,7 +947,6 @@
 				"{@pagebreak}"
 				"&#9BB8EDСтекло&r хорошо вписывается в интерьер, а так же &#FEECD6светится&r!"
 			]
-			hide: true
 			id: "0AF280211930A395"
 			rewards: [{
 				count: 25
@@ -992,7 +971,6 @@
 				"{@pagebreak}"
 				"Разновидность &#FEECD6факелов&r, хорошо подходит для &#9BB8EDдекора баз&r, так же испускает милые &#FEECD6частицы&r!"
 			]
-			hide: true
 			id: "0AF34BA1F16DE879"
 			rewards: [{
 				id: "7BC3CFB4C3B04A25"
@@ -1031,7 +1009,6 @@
 				""
 				"&0Атмосферу нужно &l<wave>ПОДНЯТЬ!</wave>"
 			]
-			hide: true
 			id: "586D1EF9F4FA78C4"
 			rewards: [
 				{
@@ -1075,7 +1052,6 @@
 				""
 				"&2Увядание можно вернуть обратно в баночку!&r"
 			]
-			hide: true
 			id: "3D5AB2D779080E10"
 			rewards: [{
 				id: "0D9DFF3657332489"
@@ -1100,7 +1076,6 @@
 				"{@pagebreak}"
 				"Дайте им еду, откиньтесь назад и наблюдайте, как они... кушают, затем разбейте их еду, чтобы собрать остатки."
 			]
-			hide: true
 			id: "5D68B3FB8BFFA7F5"
 			rewards: [{
 				count: 5
@@ -1127,7 +1102,6 @@
 				"{@pagebreak}"
 				"&#FEECD6Создайте&r свой первый &4<shake>ц&r&6<shake>в&r&e<shake>е&r&2<shake>т&r&b<shake>н&r&9<shake>о&r&5<shake>й</shake>&r &#CAE4C8саженец&r!"
 			]
-			hide: true
 			id: "32178BA988016CCA"
 			rewards: [{
 				id: "7F30A6519BA5AF53"
@@ -1165,7 +1139,6 @@
 				""
 				"&n&l&#FEECD6<wave>Совет:</wave>&r&r&r Используйте &#FEECD6мотыгу&r для разрушения &#CAE4C8листвы&r, это гораздо быстрее чем ручками!"
 			]
-			hide: true
 			id: "4F56068060AD729D"
 			rewards: [{
 				id: "0720149A0383D3C3"
@@ -1197,7 +1170,6 @@
 				"{@pagebreak}"
 				"Просто &#FEECD6красивые лампы&r, не создавать же только утилит-предметы, верно? "
 			]
-			hide: true
 			id: "67F0E2DA85AC82D7"
 			shape: "hexagon"
 			tasks: [{
@@ -1223,7 +1195,6 @@
 				"{@pagebreak}"
 				"Очередная &#C6BCE9цветастая&r декорация, цветастый спороцвет &#FEECD6испускает партиклы&r в свой цвет, в достаточно &#FEECD6большом радиусе&r, сильно поднимает &#9BB8EDатмосферу&r на вашей базе!"
 			]
-			hide: true
 			id: "6416C1E012A6EC94"
 			rewards: [{
 				auto: "disabled"
@@ -1261,7 +1232,6 @@
 				""
 				"Невероятно хорошо подходит в качестве &#CAE4C8хромокея&r, у нас есть любители создавать &#FEECD6контент&r?"
 			]
-			hide: true
 			id: "1931E2F3C0796042"
 			rewards: [{
 				count: 25
@@ -1298,7 +1268,6 @@
 				""
 				"Данный свиток &#d33b2b&lпривязывается&r&r к &nтипу предмета&r, &#FEECD6снимать&r и &#FEECD6накладывать&r можно только с того предмета, с которого оно было снято."
 			]
-			hide: true
 			id: "448F7C0A385BEF57"
 			rewards: [
 				{
@@ -1334,7 +1303,6 @@
 				""
 				"Невероятно удобный способ осветить своё Уб&m&0ожество&r&rежище"
 			]
-			hide: true
 			id: "3FFC7CC25A7BEDA1"
 			rewards: [{
 				id: "16F8574FA2ACFC15"
@@ -1366,7 +1334,6 @@
 				""
 				"&#9BB8EDСпойлер&r: это не самый ранний этап, просто имей ввиду!"
 			]
-			hide: true
 			id: "5FCC3215FB6C6BD8"
 			rewards: [
 				{
@@ -1414,7 +1381,6 @@
 				""
 				"Чтобы создать &#FEECD6необходимый&r предмет в бочке — положите все &#FEECD6необходимые&r предметы крафта и закройте бочку любой &4<shake>ц&6<shake>в&e<shake>е&2<shake>т&b<shake>н&9<shake>о&5<shake>й</shake>&r доской!"
 			]
-			hide: true
 			id: "0DF25CB4F0C68044"
 			rewards: [{
 				id: "0BD927FAD15384C1"
@@ -1442,7 +1408,6 @@
 				""
 				"&#CAE4C8Minecraft&r — Теперь &nпознавательный&r!"
 			]
-			hide: true
 			id: "5073F2988F4C3CCF"
 			rewards: [
 				{
@@ -1474,7 +1439,6 @@
 				"{@pagebreak}"
 				"Что может быть &#FEECD6лучше&r шоколада? Я вот не знаю, а вы? &0Чёрт, 4я стена рушится… Вы ничего не видели!&r"
 			]
-			hide: true
 			id: "5A753879C6CB4406"
 			rewards: [
 				{
@@ -1506,7 +1470,6 @@
 				"{@pagebreak}"
 				"Сливки позволяют снимать все &#C6BCE9эффекты&r, как молоко, так же из сливок делается множество &#FEECD6других блюд&r!"
 			]
-			hide: true
 			id: "6E1056601C022331"
 			rewards: [
 				{
@@ -1545,7 +1508,6 @@
 				"P.S. Чтобы начать варить пиво подветрдите что вам исполнилось 18 лет в книжке спектрума! &#d33b2bЭто важно!&r"
 				"А еще распишитесь *&#9BB8EDтут&r*, *&#9BB8EDздесь&r*, и предоставьте &#FEECD6фото паспорта&r!"
 			]
-			hide: true
 			id: "3A103A7A0ED400CD"
 			optional: true
 			shape: "gear"
@@ -1565,7 +1527,6 @@
 				"{@pagebreak}"
 				"Всех &#FEECD6заинтересовавшихся&r приглашаем в книжку &#9BB8EDSpectrum&r'a, расписывать тут такую механику не видим смысла!"
 			]
-			hide: true
 			id: "10C82F14C4221726"
 			optional: true
 			rewards: [
@@ -1598,7 +1559,6 @@
 				"{@pagebreak}"
 				"Всех &#FEECD6заинтересовавшихся&r приглашаем в книжку &#9BB8EDSpectrum&r'a, расписывать тут такую механику не видим смысла!"
 			]
-			hide: true
 			id: "06535D5AB09D100F"
 			optional: true
 			rewards: [
@@ -1634,7 +1594,6 @@
 				""
 				"{image:quest_images:textures/item/spectrum/fusion_shrine.png width:200 height:200 align:1}"
 			]
-			hide: true
 			icon: "spectrum:fusion_shrine_basalt"
 			id: "5FCEB75E328CB0CC"
 			rewards: [
@@ -1748,7 +1707,6 @@
 				""
 				"&#ffb04fЭтот квест открывает новую ветку квестов!&r"
 			]
-			hide: true
 			id: "21E3A44EA5EDD677"
 			rewards: [
 				{
@@ -1810,7 +1768,6 @@
 				""
 				"P.S. Для открытия крафта улучшите свой старый пьедестал!"
 			]
-			hide: true
 			id: "011A580C8C287C71"
 			rewards: [{
 				id: "544595BEB4679388"
@@ -1835,7 +1792,6 @@
 				"{@pagebreak}"
 				"Да, это &#FEECD6губка&r. &#ff6600Лавовая&r, ещё вопросы?…"
 			]
-			hide: true
 			id: "08A013245066A9DD"
 			rewards: [{
 				id: "6DE6F64FF5B397D4"
@@ -1863,7 +1819,6 @@
 				""
 				"Эндер-Воронка работает только тогда, когда вы находитесь &#FEECD6онлайн&r."
 			]
-			hide: true
 			id: "7CE00750A251BDE1"
 			rewards: [{
 				id: "7B3F85510DB17A47"
@@ -1895,7 +1850,6 @@
 				""
 				"Эндер-Раздатчик работает только тогда, когда вы находитесь онлайн."
 			]
-			hide: true
 			id: "5F45B7279F0DE9FB"
 			rewards: [{
 				id: "78E148B366249203"
@@ -1913,75 +1867,7 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["730FE5EA1AE7EAE5"]
-			description: [
-				"It's practically &#C6BCE9/particle&r!"
-				""
-				"The particle generator &#FEECD6allows&r you to create most of the &#CAE4C8Minecraft&r particles at the cost of some &#FEECD6pigment&r. Incredible special effects for any &#9BB8EDbuild&r!"
-				"{@pagebreak}"
-				"Это практически &#C6BCE9магия креатива&r!"
-				""
-				"Генератор частиц позволяет &#FEECD6создавать&r большинство частиц из &#CAE4C8Minecraft&r'a, ценой &#FEECD6пигмента&r, невероятные спецэффекты для любой &#9BB8EDпостройки&r!"
-			]
-			id: "6BEC87AE3F657559"
-			rewards: [
-				{
-					id: "02094898A2E21810"
-					item: "kubejs:magic_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "0863831402110034"
-					item: "kubejs:food_lootbag_epic"
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "5E82DAD128E6BA80"
-					item: "kubejs:mob_lootbag_epic"
-					team_reward: true
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "4A4B67CBAC99C186"
-				item: "spectrum:particle_spawner"
-				type: "item"
-			}]
-			x: 12.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["26A96250A5A55E23"]
-			description: [
-				"Sometimes, you've started to notice &#C6BCE9stars&r falling from the sky. Try &#FEECD6breaking&r them and collecting their &#C6BCE9fragments&r and &#C6BCE9dust&r, they are very useful!"
-				"{@pagebreak}"
-				"Иногда, вы стали замечать как падают &#C6BCE9звёзды&r, попробуйте их &#FEECD6разбить&r и собрать их &#C6BCE9фрагменты&r и &#C6BCE9пыль&r!"
-			]
-			hide: true
-			id: "730FE5EA1AE7EAE5"
-			rewards: [{
-				count: 16
-				id: "33B5F98929BA515B"
-				item: "vitalize:experience_cubed"
-				team_reward: true
-				type: "item"
-			}]
-			shape: "pentagon"
-			tasks: [{
-				advancement: "spectrum:collect_star_fragment"
-				criterion: ""
-				id: "4FE96E789EC97FB3"
-				type: "advancement"
-			}]
-			x: 13.0d
-			y: 8.5d
-		}
-		{
 			dependencies: ["3D28572AD9317891"]
-			hide: true
 			id: "075923F43F758006"
 			rewards: [{
 				id: "0D04F799E909A5E2"
@@ -2005,7 +1891,6 @@
 				"{@pagebreak}"
 				"Войдите в защитные руины"
 			]
-			hide: true
 			id: "202E90183C45BBC8"
 			rewards: [
 				{
@@ -2038,7 +1923,6 @@
 				"{@pagebreak}"
 				"Глубоко, внизу, вы нашли защищённое сооружение. &l<shake>должен</shake>&r быть способ попасть в него! Если не сейчас, то потом... лучше запомните это место"
 			]
-			hide: true
 			id: "3EA9E9191B48A338"
 			rewards: [{
 				id: "390A5BB97BF7AA98"
@@ -2149,7 +2033,6 @@
 				"Кузня позволяет вам плавить &#9BB8EDмножество предметов&r, а так же создавать &#DEB3E0магические сплавы&r!"
 				"{image:quest_images:textures/item/alloy_forgery.png width:200 height:200 align:1}"
 			]
-			hide: true
 			id: "5CA72E2233DD6369"
 			rewards: [{
 				count: 8
@@ -2185,7 +2068,6 @@
 				"{@pagebreak}"
 				"Создайте свой первый &d&#DEB3E0магический сплав&r!"
 			]
-			hide: true
 			id: "5AB2416EF3957EFB"
 			rewards: [{
 				count: 4
@@ -2210,7 +2092,6 @@
 				"{@pagebreak}"
 				"Некоторые &#C6BCE9эндермены&r, которые появляются в вашем мире, держат блоки, которые, кажется, излучают &#ECB4B4жуткую ауру&r."
 			]
-			hide: true
 			id: "3D28572AD9317891"
 			rewards: [
 				{
@@ -2243,7 +2124,6 @@
 				"{@pagebreak}"
 				"Поиск &#CAE4C8биомов&r &nлегче чем кажется&r."
 			]
-			hide: true
 			id: "2B0062A678712B4F"
 			rewards: [{
 				id: "6BBBB336C8EA0E6C"
@@ -2299,7 +2179,6 @@
 				"{@pagebreak}"
 				"Соберите немного &#FEECD6<shake>топлива</shake>&r для вашей печи!"
 			]
-			hide: true
 			id: "7EEB4C52DC1E28CC"
 			rewards: [{
 				count: 12
@@ -2333,7 +2212,6 @@
 				"{@pagebreak}"
 				"Создайте парочку &#FEECD6кожаных нашивок&r для новенького рюкзака! "
 			]
-			hide: true
 			id: "38BABD2574666820"
 			rewards: [
 				{
@@ -2374,7 +2252,6 @@
 				"{@pagebreak}"
 				"Создайте ваш первый &#FEECD6рюкзак&r!"
 			]
-			hide: true
 			id: "5B2871DE654E46F5"
 			rewards: [
 				{
@@ -2427,78 +2304,6 @@
 			title: "50 skin tones"
 			x: -10.407142857142851d
 			y: 16.438095238095244d
-		}
-		{
-			dependencies: ["730FE5EA1AE7EAE5"]
-			description: [
-				"&#C6BCE9Celestium ingots&r are used in a &#FEECD6lot of crafts&r. Create some of this magical &#C6BCE9alloy&r!"
-				"{@pagebreak}"
-				"&#C6BCE9небесный сплав&r используется в &#FEECD6множестве крафтов&r, создайте немного &#C6BCE9сплава&r!"
-			]
-			id: "35FBDB6A6B0AF265"
-			rewards: [
-				{
-					count: 10
-					id: "26FA872B920D82F9"
-					item: "vitalize:experience_cubed"
-					random_bonus: 25
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "7FC165B507EABA63"
-					item: "kubejs:magic_lootbag_uncommon"
-					team_reward: true
-					type: "item"
-				}
-				{
-					count: 4
-					id: "21C85147C21112DE"
-					item: "mythicmetals:celestium_ingot"
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			tasks: [{
-				id: "3F1DEA48EA85B789"
-				item: "mythicmetals:celestium_ingot"
-				type: "item"
-			}]
-			x: 13.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["35FBDB6A6B0AF265"]
-			description: [
-				"&#FEECD6Upgrades&r increase the &#FEECD6item&r and &#9BB8EDfluid&r capacity of your &#FEECD6backpack&r. Use the &7Smithing Table&r to apply the upgrade!"
-				"{@pagebreak}"
-				"&#FEECD6Улучшение&r увеличивает вместимость &#9BB8EDжидкостей&r и &#FEECD6предметов&r в ваш старый &#FEECD6рюкзачок&r, исользуйте &7стол кузнеца&r чтобы улучшить свой старенький &#FEECD6рюкзак&r!"
-			]
-			id: "687945255E9FF93E"
-			rewards: [
-				{
-					count: 10
-					id: "481DF1EFBFA22BB4"
-					item: "vitalize:experience_cubed"
-					random_bonus: 30
-					team_reward: true
-					type: "item"
-				}
-				{
-					id: "78CA82B4B1E3D373"
-					item: "kubejs:magic_lootbag_uncommon"
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			size: 0.8d
-			tasks: [{
-				id: "75432CEAD176EBFF"
-				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
-				type: "item"
-			}]
-			x: 13.0d
-			y: 6.0d
 		}
 		{
 			dependencies: ["164CF7324390B1A9"]
@@ -2698,38 +2503,12 @@
 			y: 12.5d
 		}
 		{
-			dependencies: ["4F56068060AD729D"]
-			description: [
-				"Collect all &#FEECD6available&r pigments. Unfortunately, you &#d33b2bdon't see a way&r to get brown pigment with your CMY gemstone pallete. If only there was a way to get black..."
-				"{@pagebreak}"
-				"Соберите все &#FEECD6доступные&r вам пигменты, к сожалению вы &#d33b2bне сможете&r достать коричневый пигмент просто так, вам &#FEECD6придется&r открыть &#FEECD6крафт&r &#CAE4C8саженца&r чтобы начать прогрессировать далее!"
-			]
-			id: "26A96250A5A55E23"
-			rewards: [{
-				count: 16
-				id: "5AB9D67250C20A89"
-				item: "vitalize:experience_cubed"
-				team_reward: true
-				type: "item"
-			}]
-			shape: "diamond"
-			tasks: [{
-				advancement: "spectrum:collect_all_basic_pigments"
-				criterion: ""
-				id: "5DCE5A924C5BC1A1"
-				type: "advancement"
-			}]
-			x: 13.0d
-			y: 10.5d
-		}
-		{
 			dependencies: ["401BF8F08F0B3246"]
 			description: [
 				"&5Mythic Metals&r — a mod about magical metals. Most ores have their own special spawn conditions, be it a high Y level, only spawning in water, etc."
 				"{@pagebreak}"
 				"&5Mythic Metals&r — необходим для прогрессии магов, у большинства руд свои особенные условия спавна, будь то большая высота, спавн только в воде и т.д."
 			]
-			hide: true
 			id: "30B0B28029118246"
 			shape: "gear"
 			tasks: [{
@@ -2791,29 +2570,6 @@
 			}]
 			x: 4.5d
 			y: 5.5d
-		}
-		{
-			dependencies: ["35FBDB6A6B0AF265"]
-			description: [
-				"A &9Level 3 Dank&r stores &b4096 items&r per slot and has &b27 slots&r."
-				"{@pagebreak}"
-				"&9Данк&r третьего уровня вмещает &b4096 предметов&r и имеет &b27 слотов&r."
-			]
-			id: "3B5E4523A98E2051"
-			rewards: [{
-				id: "79EADE5F4CE121E2"
-				item: "kubejs:magic_lootbag_uncommon"
-				type: "item"
-			}]
-			shape: "pentagon"
-			size: 0.8d
-			tasks: [{
-				id: "5940BF48AD2F70C6"
-				item: "dankstorage:dank_3"
-				type: "item"
-			}]
-			x: 14.2d
-			y: 6.0d
 		}
 		{
 			dependencies: ["21E3A44EA5EDD677"]

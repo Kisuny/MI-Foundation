@@ -3,7 +3,6 @@
 	default_quest_shape: ""
 	filename: "botania"
 	group: "62869C8C7B088104"
-	hide_quest_until_deps_visible: true
 	icon: {
 		Count: 1b
 		id: "botania:twig_wand"
@@ -23,7 +22,6 @@
 				"{@pagebreak}"
 				"Камень можно сделать из камня «&l&aПосохом природы&r&r», если хотите создавать его автоматически — соберите чёрношлак и поставьте рядом с «чистой маргориткой»."
 			]
-			hide: true
 			id: "7DD2206DF25D8DC3"
 			rewards: [
 				{
@@ -56,7 +54,6 @@
 				"{@pagebreak}"
 				"Древесину можно сделать из любой древесины «&l&aПосохом природы&r&r», если хотите создавать её автоматически — ставьте мракогриб рядом с «чистой маргориткой»."
 			]
-			hide: true
 			id: "5FA31A55E3348D51"
 			rewards: [
 				{
@@ -88,7 +85,6 @@
 				"{@pagebreak}"
 				"Создайте свой первый аптекарь!"
 			]
-			hide: true
 			id: "7DBF29B0CA3AB04F"
 			rewards: [{
 				id: "7262D7D3877BD869"
@@ -140,7 +136,6 @@
 		}
 		{
 			dependencies: ["3ADB1DB4DCD33DEF"]
-			hide: true
 			hide_dependency_lines: true
 			id: "7907594925AAA1D8"
 			rewards: [
@@ -1478,7 +1473,6 @@
 				""
 				"• За обычную сталь - потеряв куда больше &bманы&r."
 			]
-			hide: true
 			id: "4B5A35FB7FEE1E6B"
 			rewards: [
 				{
@@ -1505,7 +1499,6 @@
 		}
 		{
 			dependencies: ["5E9A8B25A318CD11"]
-			hide: true
 			id: "2189485C42C4EC23"
 			rewards: [
 				{
@@ -1532,7 +1525,6 @@
 		}
 		{
 			dependencies: ["5E9A8B25A318CD11"]
-			hide: true
 			id: "3018AF7A6669D930"
 			rewards: [
 				{
@@ -1563,7 +1555,6 @@
 				""
 				"{image:quest_images:textures/item/elf_portal.png width:200 height:200 align:1}"
 			]
-			hide: true
 			id: "38FF97ECA70245E8"
 			rewards: [{
 				id: "566F6190962915A3"
@@ -1583,7 +1574,6 @@
 		}
 		{
 			dependencies: ["1FDBA5F32DF94699"]
-			hide: true
 			id: "5A85F7635956BE2F"
 			rewards: [
 				{
@@ -1613,7 +1603,6 @@
 		}
 		{
 			dependencies: ["5A980422C8C9A9B1"]
-			hide: true
 			id: "497403F1C4E2B052"
 			rewards: [
 				{
@@ -1648,7 +1637,6 @@
 		}
 		{
 			dependencies: ["38FF97ECA70245E8"]
-			hide: true
 			id: "0D2FBA2AC9407F80"
 			rewards: [{
 				id: "367B0B09B35F01FC"
@@ -1667,7 +1655,6 @@
 		}
 		{
 			dependencies: ["38FF97ECA70245E8"]
-			hide: true
 			id: "6A8A1F67B8461137"
 			rewards: [{
 				id: "2ED558981F09069D"
@@ -1686,7 +1673,6 @@
 		}
 		{
 			dependencies: ["38FF97ECA70245E8"]
-			hide: true
 			id: "5A30F6C8193DE510"
 			rewards: [{
 				id: "5B784F8CA76664B8"
@@ -1705,7 +1691,6 @@
 		}
 		{
 			dependencies: ["497403F1C4E2B052"]
-			hide: true
 			id: "1FDBA5F32DF94699"
 			rewards: [
 				{
@@ -1731,7 +1716,6 @@
 		}
 		{
 			dependencies: ["1FDBA5F32DF94699"]
-			hide: true
 			id: "13AF839C95EE9F94"
 			rewards: [
 				{
@@ -1771,7 +1755,6 @@
 				"{@pagebreak}"
 				"Создание &aтеррастали&r доступно только через спектрум, для создания террастали необходимо вырастить её в кристаллярие с использованием террастального катализатора."
 			]
-			hide: true
 			id: "0FD878AAB9458CE9"
 			rewards: [
 				{
@@ -1802,7 +1785,6 @@
 				"{@pagebreak}"
 				"Фактически - креативный полёт."
 			]
-			hide: true
 			id: "24BF8E5FA58AB7FD"
 			shape: "gear"
 			tasks: [{
@@ -1823,7 +1805,6 @@
 				"0D2FBA2AC9407F80"
 				"6A8A1F67B8461137"
 			]
-			hide: true
 			id: "5A980422C8C9A9B1"
 			rewards: [
 				{
@@ -2117,7 +2098,6 @@
 				""
 				"Окаменевшие Цветы можно найти в глубоких низинах, если ходить возле кладбищ или добыть с луны!"
 			]
-			hide: true
 			id: "3EAED60DF7CE15EB"
 			rewards: [
 				{

@@ -3,7 +3,6 @@
 	default_quest_shape: ""
 	filename: "chemistry"
 	group: "47581D00C2556E50"
-	hide_quest_until_deps_visible: true
 	icon: "chemlib:yttrium"
 	id: "547E60FEDF42E97B"
 	images: [{

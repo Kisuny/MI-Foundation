@@ -3,8 +3,6 @@
 	default_quest_shape: ""
 	filename: "mi_mv"
 	group: "6AAAE14F7A290ED4"
-	hide_quest_details_until_startable: true
-	hide_quest_until_deps_visible: true
 	icon: "modern_industrialization:advanced_machine_hull"
 	id: "59FA1BB545B3971C"
 	order_index: 0
@@ -2275,7 +2273,6 @@
 				"4B5A35FB7FEE1E6B"
 			]
 			description: [""]
-			hide: true
 			id: "46B678C8DDB9B181"
 			subtitle: "&#ffb04fThis quest opens a new quest chapter!&r"
 			tasks: [{

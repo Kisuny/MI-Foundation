@@ -3,7 +3,6 @@
 	default_quest_shape: ""
 	filename: "ami_ev"
 	group: "47581D00C2556E50"
-	hide_quest_until_deps_visible: true
 	icon: "modern_industrialization:highly_advanced_machine_hull"
 	id: "1A52D90CB8088AE8"
 	order_index: 0
@@ -2746,7 +2745,6 @@
 				"{@pagebreak}"
 				"Если вы хотите еще больше улучшить производственные возможности вашего завода, это решение для вас. Позволяет отправлять инструкции непосредственно на привод, поэтому вам не нужно ждать, пока он завершит работу, чтобы продолжить выполнение программы."
 			]
-			hide: true
 			id: "4336CA2F284D21AD"
 			rewards: [
 				{

@@ -43,7 +43,6 @@
 				"{@pagebreak}"
 				"&#b0620eНичего&r сложного, верно? "
 			]
-			hide: true
 			id: "5BF77E78AA8A200B"
 			shape: "hexagon"
 			tasks: [{
@@ -55,41 +54,12 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["5BF77E78AA8A200B"]
-			description: [
-				"Allows you to fertilize plants by using &aLime Ink&r or vegetal!"
-				""
-				"&#d33b2bWarning&r: item is not working at the moment, the problem has been sent to the mod author."
-				"{@pagebreak}"
-				"Невероятно &l&aУДОБРИТЕЛЬНЫЙ&r&r инструмент!"
-				""
-				"&#d33b2bПредупреждение&r: на данный момент предмет не работает, проблема отправлена автору мода, в процессе фикса."
-			]
-			hide: true
-			id: "21129323C9A6B176"
-			rewards: [{
-				id: "5137754593414A29"
-				item: "kubejs:magic_lootbag_rare"
-				team_reward: true
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "5C3E31F8B1F8D4F8"
-				item: "spectrum:natures_staff"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -1.0d
-		}
-		{
 			dependencies: ["3075ED371322C328"]
 			description: [
 				"Where is the gold pot??"
 				"{@pagebreak}"
 				"Только &l<shake>самый</shake>&r удачивлый сможет найти символ лепреконов!"
 			]
-			hide: true
 			hide_dependency_lines: false
 			hide_dependent_lines: true
 			id: "0C7F2FDED403B652"
@@ -123,7 +93,6 @@
 				"{@pagebreak}"
 				"&l&aЗелёные&r&r биомы помогут с поиском заветного удачливого растения!"
 			]
-			hide: true
 			id: "3075ED371322C328"
 			shape: "hexagon"
 			tasks: [{
@@ -141,7 +110,6 @@
 				"{@pagebreak}"
 				"Нужно же где-то брать &4<shake>э</shake>&r&6<shake>н</shake>&r&e<shake>е</shake>&r&2<shake>р</shake>&r&b<shake>г</shake>&r&9<shake>и</shake>&r&5<shake>ю</shake>&r, верно?"
 			]
-			hide: true
 			id: "272939D3698A5DB3"
 			rewards: [{
 				id: "1F22D0B09AE5F990"
@@ -165,7 +133,6 @@
 				"{@pagebreak}"
 				"Буквально — &#DEB3E0Красочная ячейка&r, храни краски в баночках!"
 			]
-			hide: true
 			id: "27D8C35FD6F61515"
 			rewards: [
 				{
@@ -200,7 +167,6 @@
 				"{@pagebreak}"
 				"Одна &#FEECD6баночка&r вмещает только &#9BB8ED1 тип&r краски, палитра вмещает больше типов, но в ней &#FEECD6не так много места&r как в баночках!"
 			]
-			hide: true
 			id: "6E4DEFB525B9E71B"
 			rewards: [{
 				id: "54BC819FE9B12C27"
@@ -443,7 +409,6 @@
 		{
 			dependencies: ["3877FD4F24D92304"]
 			description: [""]
-			hide: true
 			id: "2F07044EE0E53A65"
 			rewards: [{
 				count: 16
@@ -477,7 +442,6 @@
 				"{@pagebreak}"
 				"&#DEB3E0Пилон&r позволяет &#FEECD6ускорить&r крафты в мультиблочных структурах мода Spectrum, так же данный пилон помогает ускорить машинки из мода &#9BB8EDModern industrialization&r."
 			]
-			hide: true
 			id: "4C2CADA1F925781E"
 			rewards: [{
 				id: "53446045D073F567"
@@ -504,7 +468,6 @@
 				""
 				"А еще &#FEECD6не пытайся&r делать из него мосты, ради бога, я предупредил"
 			]
-			hide: true
 			id: "3C3E73F29B46EFD6"
 			rewards: [{
 				id: "2A08A614EAF776EB"
@@ -540,7 +503,6 @@
 				""
 				"{image:quest_images:textures/item/be_safe.png width:300 height:135 align:1}"
 			]
-			hide: true
 			id: "78A5FFC5CFB319FE"
 			rewards: [
 				{
@@ -569,7 +531,6 @@
 		}
 		{
 			dependencies: ["347CB25B0C49349B"]
-			hide: true
 			id: "5DAB0652BC76608D"
 			rewards: [{
 				id: "64A687215E745B4B"
@@ -588,7 +549,6 @@
 		}
 		{
 			dependencies: ["347CB25B0C49349B"]
-			hide: true
 			id: "4324588E18876A78"
 			rewards: [{
 				id: "3186035C6267772C"
@@ -614,7 +574,6 @@
 				""
 				"Относись внимательно, к <shake>каждому</shake> ресурсу, который плавает себе спокойно в глубоких водах!"
 			]
-			hide: true
 			id: "347CB25B0C49349B"
 			rewards: [{
 				id: "1CDD963A9FE4264B"
@@ -639,7 +598,6 @@
 				"{@pagebreak}"
 				"Может ловить живых существ!"
 			]
-			hide: true
 			id: "19CA76043BF8B34E"
 			rewards: [{
 				id: "1C47714906043528"
@@ -668,7 +626,6 @@
 		}
 		{
 			dependencies: ["347CB25B0C49349B"]
-			hide: true
 			id: "6EA91BCF1B15AEC6"
 			rewards: [{
 				id: "2CEE68AB32AB6EB0"
@@ -702,7 +659,6 @@
 				"{@pagebreak}"
 				"Почти что полёт"
 			]
-			hide: true
 			id: "57F817B21763850B"
 			rewards: [{
 				id: "04F0F912EAFE7BDF"
@@ -725,7 +681,6 @@
 				"{@pagebreak}"
 				"Тауматургам приготовиться"
 			]
-			hide: true
 			id: "54F70B9239B57329"
 			rewards: [{
 				id: "10C6F9403B0C3EDE"
@@ -744,7 +699,6 @@
 		}
 		{
 			dependencies: ["12C2D3EA6474C0B8"]
-			hide: true
 			id: "6719BC302E5A2430"
 			rewards: [{
 				id: "1DC2CDC67D6167F4"
@@ -765,7 +719,6 @@
 		{
 			dependencies: ["12C2D3EA6474C0B8"]
 			description: [""]
-			hide: true
 			id: "5E76536AFEADEB36"
 			rewards: [{
 				id: "1B637556ECA38B90"
@@ -786,7 +739,6 @@
 		{
 			dependencies: ["6719BC302E5A2430"]
 			description: [""]
-			hide: true
 			id: "71FD55EFD09F5F5F"
 			rewards: [
 				{
@@ -821,7 +773,6 @@
 		}
 		{
 			dependencies: ["12C2D3EA6474C0B8"]
-			hide: true
 			id: "5C58052A73B2DB8E"
 			rewards: [{
 				id: "3053526C1151E76D"
@@ -847,7 +798,6 @@
 		}
 		{
 			dependencies: ["12C2D3EA6474C0B8"]
-			hide: true
 			id: "24B74F931F796C80"
 			rewards: [{
 				id: "21ABF840A63A2560"
@@ -871,7 +821,6 @@
 				"{@pagebreak}"
 				"Не забудьте поплавать в этой жидкости, это &cочень важно&r!"
 			]
-			hide: true
 			id: "12C2D3EA6474C0B8"
 			rewards: [{
 				id: "44B3BC89ADFE75C2"
@@ -892,7 +841,6 @@
 		}
 		{
 			dependencies: ["12C2D3EA6474C0B8"]
-			hide: true
 			id: "4C5701B9C4BCE884"
 			rewards: [{
 				id: "7683124F3144F471"
@@ -916,7 +864,6 @@
 				"{@pagebreak}"
 				"Подарок Посейдона"
 			]
-			hide: true
 			id: "1547EF6A7598F174"
 			rewards: [{
 				id: "5FD4909B5A50ACC3"
@@ -940,7 +887,6 @@
 				"{@pagebreak}"
 				"Чудо голосование добавило чудо летающих червей, а теперь их нет..."
 			]
-			hide: true
 			id: "76FBA050D17D64F5"
 			rewards: [{
 				id: "5E869FF247043B72"
@@ -964,7 +910,6 @@
 				"{@pagebreak}"
 				"Полноценный иммунитет от огня и немного больше"
 			]
-			hide: true
 			id: "4697A0E846D93A99"
 			rewards: [{
 				id: "3E12E9267583AB8F"
@@ -983,7 +928,6 @@
 		}
 		{
 			dependencies: ["12C2D3EA6474C0B8"]
-			hide: true
 			id: "00ED1439DAE135F9"
 			rewards: [{
 				id: "4ED10C42B3BA2A64"
@@ -1002,7 +946,6 @@
 		}
 		{
 			dependencies: ["12C2D3EA6474C0B8"]
-			hide: true
 			id: "0B9CF3B3F7225534"
 			rewards: [{
 				id: "235CA4F9B385C13C"
@@ -1044,7 +987,6 @@
 				""
 				"{image:quest_images:textures/item/spectrum/enchanter.png width:200 height:200 align:1 fit:true}"
 			]
-			hide: true
 			icon: "spectrum:enchanter"
 			id: "641B93E0D035568B"
 			rewards: [
@@ -1181,7 +1123,6 @@
 				"{@pagebreak}"
 				"Более продвинутая станция для создания зелий. Также может создавать некоторые другие жидкости."
 			]
-			hide: true
 			id: "229FF3A42DB2FFF4"
 			rewards: [{
 				id: "3273CD4B8371DC08"
@@ -1202,7 +1143,6 @@
 		{
 			dependencies: ["229FF3A42DB2FFF4"]
 			description: [""]
-			hide: true
 			id: "02CEF11E1BA9FB9B"
 			rewards: [{
 				id: "4474B5A7E9BC980C"
@@ -1229,7 +1169,6 @@
 				"{image:quest_images:textures/item/clay_gen.png width:200 height:200 align:1}"
 				"Да, это реально, генератор глины."
 			]
-			hide: true
 			id: "0568EC18E2C72745"
 			rewards: [
 				{
@@ -1291,7 +1230,6 @@
 				"&lЭффективность&r - увеличивает вместимый опыт"
 				"&lБыстрая перезарядку&r - скорость пополнения опыта вручную!"
 			]
-			hide: true
 			id: "6EE44FEF1C08A707"
 			rewards: [
 				{
@@ -1328,7 +1266,6 @@
 				"{@pagebreak}"
 				"Зачаруй на силу свои сапожки, будешь ещё быстрее!"
 			]
-			hide: true
 			id: "5A213C259011EDE5"
 			rewards: [{
 				id: "5E7AC5EF17A39E43"
@@ -1365,7 +1302,6 @@
 		}
 		{
 			dependencies: ["77CD79C7CF14D94C"]
-			hide: true
 			id: "77C55C5FFC84575B"
 			rewards: [
 				{
@@ -1404,7 +1340,6 @@
 				"Используйте громоотвод чтобы получить штормовой осколок, используй святыню слияния чтобы призвать штормовую погоду!"
 				"{image:quest_images:textures/item/storm_stone.png width:300 height:135 align:1}"
 			]
-			hide: true
 			id: "77CD79C7CF14D94C"
 			rewards: [{
 				id: "3AEF7DBEB06349E9"
@@ -1429,7 +1364,6 @@
 				"{@pagebreak}"
 				"Заставь баночку с гибелью съесть обсидиан, получишь &l&5неолит&r&r"
 			]
-			hide: true
 			id: "182EBD1105CF57A7"
 			rewards: [
 				{
@@ -1465,7 +1399,6 @@
 				"{@pagebreak}"
 				"Появляется в основном ниже 0ых координат. Часто можно найти на стенах больших пещер, похож на рунит/лазурит"
 			]
-			hide: true
 			id: "54DEB2E2FBBF842D"
 			rewards: [
 				{
@@ -1493,7 +1426,6 @@
 		}
 		{
 			dependencies: ["182EBD1105CF57A7"]
-			hide: true
 			id: "7EE703D1C4FA1980"
 			rewards: [{
 				id: "2CFAFA8E3CBEA36E"
@@ -1522,7 +1454,6 @@
 				""
 				"{image:quest_images:textures/item/spectrum/p2.png width:200 height:200 align:1 fit:true}"
 			]
-			hide: true
 			icon: "spectrum:pedestal_onyx"
 			id: "3877FD4F24D92304"
 			rewards: [{
@@ -1627,7 +1558,6 @@
 				""
 				"{image:quest_images:textures/item/spectrum/spirit_instiller.png width:200 height:200 align:1}"
 			]
-			hide: true
 			id: "7AC1920BD7A9329E"
 			rewards: [
 				{
@@ -1767,7 +1697,6 @@
 				"{@pagebreak}"
 				"Голубой азурит позволяет вам открыть путь к закрытым загадкам, а так же увеличивает вашу выживаемость!"
 			]
-			hide: true
 			id: "3B7EE99ECAE9457B"
 			rewards: [{
 				id: "55776D65376571BE"
@@ -1799,7 +1728,6 @@
 				"{@pagebreak}"
 				"Используя азуритовую защиту зайдите в ранее найденный вам данж с странной защитой!"
 			]
-			hide: true
 			id: "38D7FCF430013682"
 			rewards: [{
 				id: "39AAB61AF74351DA"
@@ -1821,7 +1749,6 @@
 				"77CD79C7CF14D94C"
 				"182EBD1105CF57A7"
 			]
-			hide: true
 			id: "239BFC7671FAF5F5"
 			rewards: [{
 				count: 20
@@ -1843,7 +1770,6 @@
 		}
 		{
 			dependencies: ["3B68A7B5A1BB4D44"]
-			hide: true
 			id: "4EF6D1723A16D11F"
 			rewards: [{
 				id: "667F082173E685F4"
@@ -1868,7 +1794,6 @@
 				"{@pagebreak}"
 				"Вмещает куда больше краски и имеет множество вместимых типов"
 			]
-			hide: true
 			id: "3F6640DEC275920C"
 			rewards: [
 				{
@@ -1900,7 +1825,6 @@
 				"{@pagebreak}"
 				"Чтобы получить &l&0полун&5очный &5оск&0ол&5ок&r, вам необходимо чтобы &l&5по&0лу&5ноч&0ный&r &l&5ра&0с&5тв&0ор&r убил живое существо!"
 			]
-			hide: true
 			id: "0EBE1EF0925CB824"
 			rewards: [
 				{
@@ -1935,7 +1859,6 @@
 				"{@pagebreak}"
 				"Очистите азурит"
 			]
-			hide: true
 			id: "3B68A7B5A1BB4D44"
 			rewards: [
 				{
@@ -1973,7 +1896,6 @@
 				"{@pagebreak}"
 				"&2Вы можете вернуть порчу в баночку, если захотите.&r"
 			]
-			hide: true
 			id: "36048D9C00CA490D"
 			rewards: [
 				{
@@ -2008,7 +1930,6 @@
 				"{@pagebreak}"
 				"Позволяет выбивать из мобов головы чаще, так же вы можете выбить головы большинство мобов, а не только всем привычные головы крипера, зомби, скелета и т.д."
 			]
-			hide: true
 			id: "0797461370E96C3C"
 			rewards: [{
 				id: "440033C29D35B7D2"
@@ -2037,7 +1958,6 @@
 		}
 		{
 			dependencies: ["0797461370E96C3C"]
-			hide: true
 			id: "46F7F3420278BC06"
 			rewards: [
 				{
@@ -2065,7 +1985,6 @@
 		}
 		{
 			dependencies: ["77C55C5FFC84575B"]
-			hide: true
 			id: "357C6BEC269D8FF4"
 			rewards: [{
 				id: "6196355ED85AE743"
@@ -2093,7 +2012,6 @@
 				""
 				"Данный блок очень сильно поможет вам в будущем!"
 			]
-			hide: true
 			id: "35A77E4B5C2CE1EB"
 			rewards: [{
 				id: "3266D70312E6BFC0"
@@ -2112,7 +2030,6 @@
 		}
 		{
 			dependencies: ["77C55C5FFC84575B"]
-			hide: true
 			id: "24A14912BF45700C"
 			rewards: [
 				{
@@ -2146,7 +2063,6 @@
 				"Выбив голову любого из мобов, вы можете создать его воспоминание и позволить ему появится на свет вновь, для того чтобы вновь "
 				"убить?"
 			]
-			hide: true
 			id: "09C683DBFC6D54BD"
 			rewards: [{
 				id: "4CD6EE7A37CF6BDE"
@@ -2219,7 +2135,6 @@
 				"{@pagebreak}"
 				"Если всё таки какая-то из жидкостей вырвалась наружу, данная баночка поможет вернуть всё на своё место! С некоторыми нюансами."
 			]
-			hide: true
 			id: "5EAB38FF5492E5B9"
 			rewards: [{
 				count: 32
@@ -2245,7 +2160,6 @@
 				"{@pagebreak}"
 				"В данже была найдена засохшая нефритовая луковица, возможно у вас выйдет оживить её?"
 			]
-			hide: true
 			id: "5DD61AA5851437B9"
 			rewards: [{
 				id: "7EAE1D0DE1A0AFA8"
@@ -2272,7 +2186,6 @@
 				""
 				"Более подробнее о росте можно прочитать в книге!"
 			]
-			hide: true
 			id: "45500A52809ED66C"
 			rewards: [{
 				id: "6BC704F4247BDAEA"
@@ -2305,7 +2218,6 @@
 				"{@pagebreak}"
 				"Позволяет перенести все зачарования с любого инструменты/брони на эту книгу, так же имеет высокий уровень зачаровываемости, так же тратит меньше опыта и времени на зачарования других инструментов!"
 			]
-			hide: true
 			id: "740301C327456010"
 			rewards: [{
 				id: "18829F99868305FE"
@@ -2328,7 +2240,6 @@
 				"{@pagebreak}"
 				"Вы можете улучшать ранее найденный чёрный лотос для выработки большего количества маны для мода Botania! "
 			]
-			hide: true
 			id: "3F46FEF6458FFE8F"
 			rewards: [{
 				id: "02A0FB6B70426888"
@@ -2352,7 +2263,6 @@
 				"{@pagebreak}"
 				"Ничего такого, да? Просто кусочек бедрока."
 			]
-			hide: true
 			id: "4C8E37AF899961F6"
 			rewards: [
 				{
@@ -2392,7 +2302,6 @@
 				""
 				"&0Окунись в бездну &l☠"
 			]
-			hide: true
 			id: "01EEAB72478340F9"
 			rewards: [
 				{
@@ -2557,7 +2466,6 @@
 				""
 				"&#FEECD6Совет&r: Любой игрок который сможет подобрать &4<shake>ц&r&6<shake>в&r&e<shake>е&r&2<shake>т&r&b<shake>н&r&9<shake>о&r&5<shake>й</shake>&r ключ к вашему сундуку — сможет выкачивать ваши предметы, используйте &#b9f2ffалмаз&r на центральном клапане сундука, чтобы сделать его &#DEB3E0приватным&r."
 			]
-			hide: true
 			hide_details_until_startable: true
 			icon: "minecraft:ender_eye"
 			id: "23A6A609EE447218"
@@ -2603,7 +2511,6 @@
 				""
 				"&#FEECD6Совет&r: Любой игрок который сможет подобрать &4<shake>ц&r&6<shake>в&r&e<shake>е&r&2<shake>т&r&b<shake>н&r&9<shake>о&r&5<shake>й</shake>&r ключ к вашему баку — сможет выкачивать ваши жидкости, используйте &#b9f2ffалмаз&r на центральном клапане бака, чтобы сделать его &#DEB3E0приватным&r."
 			]
-			hide: true
 			hide_details_until_startable: true
 			icon: "minecraft:ender_eye"
 			id: "62BB9D5A8A9DD181"
@@ -2679,7 +2586,6 @@
 				"{@pagebreak}"
 				"Проклятое лассо позволяет ловить в него только враждебных мобов"
 			]
-			hide: true
 			id: "415E89DC974E7A45"
 			rewards: [{
 				id: "7377BD01A208468D"
@@ -2707,7 +2613,6 @@
 				"{@pagebreak}"
 				"Золотое лассо позволяет ловить в него только мирных мобов"
 			]
-			hide: true
 			id: "557BBDD882CE4033"
 			rewards: [{
 				id: "21737C4B0DC4AEC7"
@@ -2735,7 +2640,6 @@
 				"{@pagebreak}"
 				"Алмазное лассо позволяет ловить в него как враждебных там и мирных мобов"
 			]
-			hide: true
 			id: "15A9EFF54E64EABD"
 			rewards: [{
 				id: "1FDFA352526D1172"
@@ -3024,7 +2928,6 @@
 				"{@pagebreak}"
 				"Одно из самых <shake>вместительных</shake> хранилищ для предметов"
 			]
-			hide: true
 			id: "3BD3C6E13574056F"
 			rewards: [{
 				id: "4E21FEF72FC7F75D"
@@ -3080,7 +2983,6 @@
 		{
 			dependencies: ["3877FD4F24D92304"]
 			description: [""]
-			hide: true
 			id: "5A28D1588A55FAE8"
 			rewards: [{
 				count: 2
@@ -3604,6 +3506,195 @@
 			}]
 			x: 8.0d
 			y: 11.0d
+		}
+		{
+			dependencies: [
+				"4F56068060AD729D"
+				"5BF77E78AA8A200B"
+			]
+			description: [
+				"Collect all &#FEECD6available&r pigments. Unfortunately, you &#d33b2bdon't see a way&r to get brown pigment with your CMY gemstone pallete. If only there was a way to get black..."
+				"{@pagebreak}"
+				"Соберите все &#FEECD6доступные&r вам пигменты, к сожалению вы &#d33b2bне сможете&r достать коричневый пигмент просто так, вам &#FEECD6придется&r открыть &#FEECD6крафт&r &#CAE4C8саженца&r чтобы начать прогрессировать далее!"
+			]
+			id: "26A96250A5A55E23"
+			rewards: [{
+				count: 16
+				id: "5AB9D67250C20A89"
+				item: "vitalize:experience_cubed"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "spectrum:collect_all_basic_pigments"
+				criterion: ""
+				id: "5DCE5A924C5BC1A1"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["26A96250A5A55E23"]
+			description: [
+				"Sometimes, you've started to notice &#C6BCE9stars&r falling from the sky. Try &#FEECD6breaking&r them and collecting their &#C6BCE9fragments&r and &#C6BCE9dust&r, they are very useful!"
+				"{@pagebreak}"
+				"Иногда, вы стали замечать как падают &#C6BCE9звёзды&r, попробуйте их &#FEECD6разбить&r и собрать их &#C6BCE9фрагменты&r и &#C6BCE9пыль&r!"
+			]
+			id: "730FE5EA1AE7EAE5"
+			rewards: [{
+				count: 16
+				id: "33B5F98929BA515B"
+				item: "vitalize:experience_cubed"
+				team_reward: true
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [{
+				advancement: "spectrum:collect_star_fragment"
+				criterion: ""
+				id: "4FE96E789EC97FB3"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["730FE5EA1AE7EAE5"]
+			description: [
+				"&#C6BCE9Celestium ingots&r are used in a &#FEECD6lot of crafts&r. Create some of this magical &#C6BCE9alloy&r!"
+				"{@pagebreak}"
+				"&#C6BCE9небесный сплав&r используется в &#FEECD6множестве крафтов&r, создайте немного &#C6BCE9сплава&r!"
+			]
+			id: "35FBDB6A6B0AF265"
+			rewards: [
+				{
+					count: 10
+					id: "26FA872B920D82F9"
+					item: "vitalize:experience_cubed"
+					random_bonus: 25
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7FC165B507EABA63"
+					item: "kubejs:magic_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 4
+					id: "21C85147C21112DE"
+					item: "mythicmetals:celestium_ingot"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3F1DEA48EA85B789"
+				item: "mythicmetals:celestium_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["730FE5EA1AE7EAE5"]
+			description: [
+				"It's practically &#C6BCE9/particle&r!"
+				""
+				"The particle generator &#FEECD6allows&r you to create most of the &#CAE4C8Minecraft&r particles at the cost of some &#FEECD6pigment&r. Incredible special effects for any &#9BB8EDbuild&r!"
+				"{@pagebreak}"
+				"Это практически &#C6BCE9магия креатива&r!"
+				""
+				"Генератор частиц позволяет &#FEECD6создавать&r большинство частиц из &#CAE4C8Minecraft&r'a, ценой &#FEECD6пигмента&r, невероятные спецэффекты для любой &#9BB8EDпостройки&r!"
+			]
+			id: "6BEC87AE3F657559"
+			rewards: [
+				{
+					id: "02094898A2E21810"
+					item: "kubejs:magic_lootbag_uncommon"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "0863831402110034"
+					item: "kubejs:food_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "5E82DAD128E6BA80"
+					item: "kubejs:mob_lootbag_epic"
+					team_reward: true
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4A4B67CBAC99C186"
+				item: "spectrum:particle_spawner"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["35FBDB6A6B0AF265"]
+			description: [
+				"&#FEECD6Upgrades&r increase the &#FEECD6item&r and &#9BB8EDfluid&r capacity of your &#FEECD6backpack&r. Use the &7Smithing Table&r to apply the upgrade!"
+				"{@pagebreak}"
+				"&#FEECD6Улучшение&r увеличивает вместимость &#9BB8EDжидкостей&r и &#FEECD6предметов&r в ваш старый &#FEECD6рюкзачок&r, исользуйте &7стол кузнеца&r чтобы улучшить свой старенький &#FEECD6рюкзак&r!"
+			]
+			id: "687945255E9FF93E"
+			rewards: [
+				{
+					count: 10
+					id: "481DF1EFBFA22BB4"
+					item: "vitalize:experience_cubed"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "78CA82B4B1E3D373"
+					item: "kubejs:magic_lootbag_uncommon"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 0.8d
+			tasks: [{
+				id: "75432CEAD176EBFF"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+				type: "item"
+			}]
+			x: -4.8d
+			y: -4.0d
+		}
+		{
+			dependencies: ["35FBDB6A6B0AF265"]
+			description: [
+				"A &9Level 3 Dank&r stores &b4096 items&r per slot and has &b27 slots&r."
+				"{@pagebreak}"
+				"&9Данк&r третьего уровня вмещает &b4096 предметов&r и имеет &b27 слотов&r."
+			]
+			id: "3B5E4523A98E2051"
+			rewards: [{
+				id: "79EADE5F4CE121E2"
+				item: "kubejs:magic_lootbag_uncommon"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 0.8d
+			tasks: [{
+				id: "5940BF48AD2F70C6"
+				item: "dankstorage:dank_3"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
 		}
 	]
 	title: "Spectrum: New discoveries"

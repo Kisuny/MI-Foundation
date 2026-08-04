@@ -3,7 +3,6 @@
 	default_quest_shape: ""
 	filename: "mi_hv"
 	group: "62869C8C7B088104"
-	hide_quest_until_deps_visible: true
 	icon: "modern_industrialization:turbo_machine_hull"
 	id: "263547FF4BF8BBB2"
 	order_index: 0
@@ -3918,7 +3917,6 @@
 				"{@pagebreak}"
 				"Эти &lнеземные существа&r могут привести к большим достижениям..."
 			]
-			hide: true
 			id: "7078CC0DB4C6A310"
 			rewards: [{
 				id: "19151CB1A88B610B"
@@ -3940,7 +3938,6 @@
 				"{@pagebreak}"
 				"Некоторые неописуемые преобразования происходят с обычными семенами под воздействием просветления..."
 			]
-			hide: true
 			icon: "neepmeat:whisper_wheat"
 			id: "5CAE766641962CCD"
 			rewards: [{

@@ -3,8 +3,6 @@
 	default_quest_shape: "octagon"
 	filename: "summoning_rituals"
 	group: "05C42DC8B5A65584"
-	hide_quest_details_until_startable: true
-	hide_quest_until_deps_visible: true
 	icon: "summoningrituals:altar"
 	id: "734C32DA01CA58C7"
 	images: [
