@@ -49,7 +49,7 @@
 		}
 		{
 			id: 5
-			price: 2000000L
+			price: 1000000L
 			name: ""
 			questId: "2DA54757A3D7740E"
 			item: "modern_industrialization:quantum_circuit"
@@ -157,7 +157,7 @@
 		}
 		{
 			id: 17
-			price: 2500000L
+			price: 1500000L
 			name: ""
 			questId: "0B96C1E27305CD1E"
 			item: "modern_industrialization:quantum_machine_hull"

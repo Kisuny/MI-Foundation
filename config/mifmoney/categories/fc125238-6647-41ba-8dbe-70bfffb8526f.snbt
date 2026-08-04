@@ -76,7 +76,7 @@
 		}
 		{
 			id: 8
-			price: 5000L
+			price: 1000L
 			name: "Saplings"
 			questId: ""
 			item: "minecraft:dirt"
