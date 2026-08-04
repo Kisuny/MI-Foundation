@@ -213,7 +213,7 @@ ServerEvents.recipes(event => {
         ],
         keys: {
             "Q": { "item": "spectrum:radiating_ender" },
-            "W": { "item": "simplyswords:runic_tablet" },
+            "W": { "item": "modern_industrialization:runite_large_plate" },
             "E": { "item": "modern_industrialization:aluminum_tank" },
             "R": { "item": "mythicmetals:midas_gold_block" },
             "T": { "item": "minecraft:blaze_rod" },
@@ -233,7 +233,7 @@ ServerEvents.recipes(event => {
         ],
         keys: {
             "Q": { "item": "spectrum:radiating_ender" },
-            "W": { "item": "simplyswords:runic_tablet" },
+            "W": { "item": "modern_industrialization:runite_large_plate" },
             "E": { "item": "modern_industrialization:aluminum_barrel" },
             "R": { "item": "mythicmetals:midas_gold_block" },
             "T": { "item": "minecraft:blaze_rod" },
